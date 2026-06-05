@@ -1,0 +1,34 @@
+name: 📰 Daily News Digest
+
+on:
+  # 每天北京时间早上 8:00 自动运行（UTC 0:00）
+  schedule:
+    - cron: "0 0 * * *"
+  # 也支持手动触发（在 GitHub 网页上点按钮）
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      - name: 🐍 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: 📦 安装依赖
+        run: |
+          pip install --upgrade pip
+          pip install feedparser requests python-dotenv
+
+      - name: 📰 运行每日简报
+        run: python main.py
