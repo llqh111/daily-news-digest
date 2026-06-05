@@ -28,7 +28,7 @@ jobs:
       - name: 📦 安装依赖
         run: |
           pip install --upgrade pip
-          pip install feedparser requests python-dotenv
+          pip install -r requirements.txt
 
       - name: 📰 运行每日简报
         run: python main.py

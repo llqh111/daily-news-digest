@@ -62,7 +62,7 @@ print("\n[4/4] 测试 RSS 抓取...")
 import feedparser
 feeds = [
     ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
-    ("NPR", "https://feeds.npr.org/1001/rss.xml"),
+    ("DW", "https://rss.dw.com/xml/rss-en-world"),
 ]
 for name, url in feeds:
     feed = feedparser.parse(url)

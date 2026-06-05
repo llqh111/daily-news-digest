@@ -1,34 +1,29 @@
-"""RSS 连通性测试 —— 看看哪些新闻源能正常抓到"""
+"""RSS 连通性测试 —— 看看哪些新闻源能正常抓到
+
+直接复用 main.py 里的 RSS_FEEDS，所以你在 main.py 改了源，这里自动跟着测，不会脱节。
+"""
 import feedparser
 
-feeds = [
-    ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
-    ("Guardian World", "https://www.theguardian.com/world/rss"),
-    ("NPR", "https://feeds.npr.org/1001/rss.xml"),
-    ("NHK World", "https://www3.nhk.or.jp/nhkworld/en/news/rss.xml"),
-    ("The Verge", "https://www.theverge.com/rss/index.xml"),
-    ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index"),
-    ("TechCrunch", "https://techcrunch.com/feed/"),
-    ("MIT Tech Review", "https://www.technologyreview.com/feed/"),
-    ("CNBC", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
-    ("MarketWatch", "https://feeds.marketwatch.com/marketwatch/topstories/"),
-    ("Yahoo Finance", "https://finance.yahoo.com/news/rssindex"),
-]
+from main import RSS_FEEDS
+
+UA = "Mozilla/5.0 (compatible; DailyDigestBot/1.0)"
 
 print("RSS source connectivity test\n" + "=" * 50)
 
 ok_count = 0
-for name, url in feeds:
+for feed_info in RSS_FEEDS:
+    name = feed_info["name"]
+    tag = " [参考源/Google News]" if feed_info.get("reference") else ""
     try:
-        feed = feedparser.parse(url)
+        feed = feedparser.parse(feed_info["url"], agent=UA)
         count = len(feed.entries)
         if count > 0:
             first = feed.entries[0].get("title", "?")
-            print(f"  [OK] {name}: {count} articles, latest: {first[:60]}")
+            print(f"  [OK] {name}{tag}: {count} articles, latest: {first[:60]}")
             ok_count += 1
         else:
-            print(f"  [WARN] {name}: 0 articles (blocked or feed changed)")
+            print(f"  [WARN] {name}{tag}: 0 articles (blocked or feed changed)")
     except Exception as e:
-        print(f"  [FAIL] {name}: {e}")
+        print(f"  [FAIL] {name}{tag}: {e}")
 
-print(f"\nResult: {ok_count}/{len(feeds)} feeds working")
+print(f"\nResult: {ok_count}/{len(RSS_FEEDS)} feeds working")
