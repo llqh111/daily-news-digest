@@ -46,12 +46,17 @@ MAX_PER_FEED = 8
 TIME_WINDOW_HOURS = 24
 # 聚类去重 + 打分后，留多少条「代表作」去抓正文全文交给 AI。
 # AI 会从这批里再精选 15-20 条，所以这个数要比最终条数大一些，给 AI 留挑选余地。
-CANDIDATE_POOL = 24
+CANDIDATE_POOL = 15
+# 分类均衡：每个分类至少保留 N 条，不足就补档该分类的次高分条目
+MIN_PER_CATEGORY = {"国际": 6, "科技": 4, "财经": 4}
+# 抓正文后，正文超过这个长度的条目额外加分（信息密度高）
+FULLTEXT_LENGTH_BONUS = 800  # 字符数阈值
+FULLTEXT_BONUS_SCORE = 1.5   # 超过阈值加的分
 # 抓正文时的并发数和单条超时（秒）。并发快但别太猛，免得被网站当攻击。
 FULLTEXT_WORKERS = 6
 FULLTEXT_TIMEOUT = 12
 # 喂给 AI 的正文最多保留多少字（控制 token 成本，2500 字够写出深度了）
-FULLTEXT_MAX_CHARS = 2500
+FULLTEXT_MAX_CHARS = 1000
 
 # RSS 新闻源（国际要闻 + 科技/AI + 财经市场）
 #
@@ -79,6 +84,14 @@ RSS_FEEDS = [
     {"name": "Reuters Business", "url": "https://news.google.com/rss/search?q=when:1d+site:reuters.com+(markets+OR+economy+OR+stocks+OR+earnings)&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
     {"name": "CNBC", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "category": "财经"},
     {"name": "CoinDesk", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "category": "财经"},
+    # ── 2026-06-07 新增补充源 ──
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "国际"},
+    {"name": "The Guardian", "url": "https://www.theguardian.com/world/rss", "category": "国际"},
+    {"name": "SCMP", "url": "https://www.scmp.com/rss/91/feed", "category": "国际"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "category": "科技"},
+    {"name": "Wired", "url": "https://www.wired.com/feed/rss", "category": "科技"},
+    {"name": "Bloomberg", "url": "https://news.google.com/rss/search?q=when:1d+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
+    {"name": "36kr", "url": "https://36kr.com/feed", "category": "科技"},
 ]
 
 # ═══════════════════════════════════════════════════
@@ -93,23 +106,27 @@ HIGH_SIGNAL_KEYWORDS = [
     # 地缘与重大事件
     "war", "ceasefire", "invasion", "missile", "nuclear", "sanction",
     "coup", "election", "summit", "crisis", "attack", "strike",
+    "earthquake", "typhoon", "flood", "wildfire", "protest", "crackdown",
     # 货币政策与宏观
     "fed", "rate cut", "rate hike", "inflation", "recession", "tariff",
-    "central bank", "gdp", "default", "stimulus",
+    "central bank", "gdp", "default", "stimulus", "layoff", "bankruptcy",
     # 头部科技 / AI
     "openai", "nvidia", "anthropic", "deepseek", "gpt", "chip ban",
-    "semiconductor", "breakthrough",
+    "semiconductor", "breakthrough", "claude", "gemini", "llm", "agi",
 ]
 # 中权重（+1）：常规但有价值的商业 / 科技 / 市场新闻
 MEDIUM_SIGNAL_KEYWORDS = [
     "ai", "apple", "google", "microsoft", "amazon", "tesla", "meta",
     "earnings", "ipo", "merger", "acquisition", "launch", "stocks",
     "market", "oil", "gold", "bitcoin", "lawsuit", "deal", "ban",
+    "startup", "funding", "regulation", "antitrust",
+    "ev", "battery", "solar", "fusion", "quantum",
 ]
 # 负权重（-2）：标题命中就降权（多半是软新闻 / 娱乐 / 凑数）
 LOW_VALUE_KEYWORDS = [
     "recipe", "celebrity", "gossip", "royal", "horoscope", "fashion",
     "recap", "quiz", "best deals", "how to watch", "trailer",
+    "tiktok", "viral video", "top 10", "unboxing", "reacts to",
 ]
 
 # ═══════════════════════════════════════════════════
@@ -136,6 +153,14 @@ SOURCE_TRUST = {
     "Reuters Business": 2,
     "CNBC": 1,
     "CoinDesk": 1,
+    # ── 2026-06-07 新增源 ──
+    "Al Jazeera": 2,
+    "The Guardian": 2,
+    "SCMP": 1,
+    "TechCrunch": 1,
+    "Wired": 1,
+    "Bloomberg": 2,
+    "36kr": 1,
 }
 
 # 标题党 / 软文句式：标题命中其一就降权（-2）。用正则匹配。
@@ -269,6 +294,24 @@ def score_importance(title: str, summary: str, published: datetime | None,
     return score
 
 
+def extract_proper_nouns(title: str) -> set[str]:
+    """从标题中提取专有名词（首字母大写的词、全大写缩写、中文）。
+    用于聚类判断——两个标题共享专有名词，比共享普通词更可能是同一事件。"""
+    # 英文专有名词：连续大写字母开头、非句首的单词
+    words = re.findall(r"[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*", title)
+    # 全大写缩写（2-6 个字母，如 AI, NASA, WTO）
+    acronyms = re.findall(r"\b[A-Z]{2,6}\b", title)
+    # 中文词（2-6 个汉字连续）
+    chinese = re.findall(r"[一-鿿]{2,6}", title)
+    result = {w.lower() for w in words if len(w) >= 3}
+    result.update(a.lower() for a in acronyms)
+    result.update(chinese)
+    # 去掉太通用的词
+    generic = {"the", "this", "that", "what", "how", "why", "who", "when", "where",
+               "new", "world", "news", "report", "says", "will", "can", "may"}
+    return {p for p in result if p.lower() not in generic}
+
+
 def title_keywords(title: str) -> set[str]:
     """把标题拆成「有信息量的关键词集合」，用来判断两条是不是同一件事。
     做法：转小写 → 只留字母数字 → 去掉太短的词和虚词。"""
@@ -276,11 +319,43 @@ def title_keywords(title: str) -> set[str]:
     return {w for w in words if len(w) >= 3 and w not in TITLE_STOPWORDS}
 
 
-def same_story(words_a: set[str], words_b: set[str]) -> bool:
+def same_story(words_a: set[str], words_b: set[str],
+               pn_a: set[str] | None = None, pn_b: set[str] | None = None) -> bool:
     """两条标题是否在讲同一件事。
-    规则：共享的关键词 ≥3 个，或者「共享数 ≥2 且占了较短标题的一半以上」。
-    这样既能抓住明显同题，又不会把只沾一个共同词的硬凑在一起。"""
+
+    判断逻辑（按优先级）：
+    1. 如果双方都有专有名词且共享 ≥1 个 → 极大概率同事件（如都提到 "Ukraine"）
+    2. 如果只有一方有专有名词 → 用共享普通关键词判断（阈值=3）
+    3. 都没有专有名词 → 共享关键词 ≥4 才算同事件（更严格，避免误聚类）
+
+    此外，共享数 ≥2 且占了较短标题的一半以上也算——给短标题留空间。"""
     shared = words_a & words_b
+
+    # 专有名词加持
+    if pn_a and pn_b:
+        # 双方都提取到了专有名词
+        shared_pn = pn_a & pn_b
+        if shared_pn:
+            # 共享专有名词 → 极大加分，降低普通词阈值到 2
+            if len(shared) >= 2:
+                return True
+            # 关键词不够但专有名高度重合也算
+            return len(shared_pn) >= 2
+        else:
+            # 双方都有专有名词但不共享 → 几乎肯定是不同事件
+            # 提高阈值到 4，且要求占比较小标题 ≥60%
+            if len(shared) >= 4:
+                return True
+            smaller = min(len(words_a), len(words_b)) or 1
+            return len(shared) >= 3 and len(shared) / smaller >= 0.6
+    elif not pn_a and not pn_b:
+        # 双方都没专有名词 → 严格模式，阈值=4
+        if len(shared) >= 4:
+            return True
+        smaller = min(len(words_a), len(words_b)) or 1
+        return len(shared) >= 3 and len(shared) / smaller >= 0.5
+
+    # 回退：一方有专有名词、一方没有（用原始逻辑）
     if len(shared) >= 3:
         return True
     smaller = min(len(words_a), len(words_b)) or 1
@@ -301,18 +376,20 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
     # 先按原始分数从高到低，方便后面在候选里挑最高分
     articles = sorted(articles, key=lambda a: a["score"], reverse=True)
 
-    clusters: list[dict] = []   # 每个元素：{"members": [文章...], "words": 关键词集}
+    clusters: list[dict] = []   # 每个元素：{"members": [...], "words": 关键词集, "proper_nouns": 专有名词集}
     for art in articles:
         words = title_keywords(art["title"])
+        pn = extract_proper_nouns(art["title"])
         placed = False
         for c in clusters:
-            if same_story(words, c["words"]):
+            if same_story(words, c["words"], pn, c.get("proper_nouns")):
                 c["members"].append(art)
-                c["words"] |= words   # 关键词并集，让后续判断更"见多识广"
+                c["words"] |= words
+                c["proper_nouns"] |= pn
                 placed = True
                 break
         if not placed:
-            clusters.append({"members": [art], "words": words})
+            clusters.append({"members": [art], "words": words, "proper_nouns": pn})
 
     reps: list[dict] = []
     for c in clusters:
@@ -332,6 +409,39 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
 
     reps.sort(key=lambda a: a["score"], reverse=True)
     return reps
+
+
+def enforce_category_balance(articles: list[dict], pool_size: int) -> list[dict]:
+    """确保候选池中每个分类都有最低条数。
+    不足时，从该分类的次高分条目补档（即使它们排在 pool_size 之后）。
+    返回调整后的列表（长度可能超过 pool_size，最多超出各分类缺口之和）。"""
+    # 先取 top N
+    top = articles[:pool_size]
+    rest = articles[pool_size:]
+
+    # 统计各分类现有条数
+    cat_counts: dict[str, int] = {}
+    for art in top:
+        cat = art.get("category", "国际")
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+
+    # 补档不足的分类
+    for cat, minimum in MIN_PER_CATEGORY.items():
+        shortfall = minimum - cat_counts.get(cat, 0)
+        if shortfall <= 0:
+            continue
+        # 从未入选的条目中找该分类的次高分
+        fillers = [a for a in rest if a.get("category") == cat and a not in top]
+        fillers.sort(key=lambda a: a["score"], reverse=True)
+        added = fillers[:shortfall]
+        if added:
+            top.extend(added)
+            names = ", ".join(f"{a['source']}:{a['title'][:20]}" for a in added)
+            log.info(f"  分类均衡 → {cat} 补 {len(added)} 条: {names}")
+
+    # 重新按分数排序
+    top.sort(key=lambda a: a["score"], reverse=True)
+    return top
 
 
 def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
@@ -409,11 +519,17 @@ def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
     merged = len(articles) - len(reps)
     log.info(f"同题聚类：{len(articles)} 条 → {len(reps)} 条（合并掉 {merged} 条重复报道）")
 
-    # 取分数最高的一批代表作，作为交给 AI 的候选（后面会去抓正文全文）
-    top = reps[:CANDIDATE_POOL]
+    # 取分数最高的一批代表作，然后用分类均衡补档（保证每类至少有最低条数）
+    top = enforce_category_balance(reps, CANDIDATE_POOL)
     log.info(f"粗筛后保留 {len(top)} 条候选")
     if top:
         log.info(f"  分数区间：{top[0]['score']:.1f} ~ {top[-1]['score']:.1f}")
+        # 打印分类分布
+        cats = {}
+        for a in top:
+            c = a.get("category", "?")
+            cats[c] = cats.get(c, 0) + 1
+        log.info(f"  分类分布：{cats}")
     return top
 
 
@@ -446,6 +562,7 @@ def fetch_one_fulltext(art: dict) -> str:
 
 def attach_fulltexts(articles: list[dict]) -> None:
     """并发给每条候选抓正文，写进 art['fulltext']（抓不到就留空，后面回退用摘要）。
+    同时给抓到长正文的条目额外加分（正文越长 ≈ 信息密度越高）。
     原地修改传入的 articles，不返回新列表。"""
     log.info(f"开始抓 {len(articles)} 条候选的正文全文（并发 {FULLTEXT_WORKERS}）...")
     with ThreadPoolExecutor(max_workers=FULLTEXT_WORKERS) as pool:
@@ -453,134 +570,437 @@ def attach_fulltexts(articles: list[dict]) -> None:
         for future in as_completed(future_map):
             art = future_map[future]
             art["fulltext"] = future.result()
+            # 正文质量加分：长正文代表深度报道
+            ft = art.get("fulltext", "")
+            if ft and len(ft) >= FULLTEXT_LENGTH_BONUS:
+                art["score"] += FULLTEXT_BONUS_SCORE
+                art["fulltext_bonus"] = True
 
     got = sum(1 for a in articles if a.get("fulltext"))
-    log.info(f"正文抓取完成：{got}/{len(articles)} 条拿到全文，其余回退用 RSS 摘要")
+    bonus = sum(1 for a in articles if a.get("fulltext_bonus"))
+    log.info(f"正文抓取完成：{got}/{len(articles)} 条拿到全文（{bonus} 条达深度加分线），其余回退用 RSS 摘要")
 
 
-def summarize_with_deepseek(articles: list[dict]) -> str:
-    """把新闻列表发给 DeepSeek，让它用中文总结成每日简报"""
-    if not DEEPSEEK_API_KEY:
-        raise RuntimeError("❌ 没有设置 DEEPSEEK_API_KEY，请检查 .env 文件")
+# ═══════════════════════════════════════════════════
+#  事实核查层：提取数字 → 交叉比对 → 注入提示词
+# ═══════════════════════════════════════════════════
 
-    # 构造给 AI 看的新闻列表：优先给抓到的正文全文，没有就退回 RSS 摘要。
-    # 同时标注「被几家媒体报道」，让 AI 把热度也纳入精选判断。
-    articles_text_parts = []
-    for i, art in enumerate(articles, 1):
-        parts = [f"{i}. [{art['category']}] {art['title']}"]
+def extract_numerical_claims(text: str) -> list[dict]:
+    """从正文中提取关键数字声明（人数、金额、百分比、日期）。
+    返回带上下文的片段列表，供 AI 交叉比对。"""
+    if not text:
+        return []
 
-        cluster_size = art.get("cluster_size", 1)
-        if cluster_size >= 2:
-            parts.append(f"   热度: 被 {cluster_size} 家媒体同时报道")
+    claims: list[dict] = []
 
-        fulltext = art.get("fulltext", "")
-        if fulltext:
-            parts.append(f"   正文: {fulltext}")
-        elif art["summary"]:
-            parts.append(f"   摘要(仅导语，正文未抓到): {art['summary']}")
+    # 单位数字（人数/伤亡/兵力/就业）
+    for m in re.finditer(
+        r'(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\s*'
+        r'(million|billion|trillion|thousand|'
+        r'people|dead|killed|injured|wounded|casualties|victims|'
+        r'troops|soldiers|jobs|barrels|tons|hectares)',
+        text, re.IGNORECASE
+    ):
+        start = max(0, m.start() - 80)
+        ctx = text[start:m.end() + 80].replace('\n', ' ').strip()
+        claims.append({"claim": m.group(0), "type": "数量", "context": ctx})
 
-        parts.append(f"   来源: {art['source']}")
-        if art["link"]:
-            parts.append(f"   链接: {art['link']}")
-        articles_text_parts.append("\n".join(parts))
-    articles_text = "\n\n".join(articles_text_parts)
+    # 金额（$ 开头）
+    for m in re.finditer(
+        r'\$(\d{1,3}(?:,\d{3})*(?:\.\d+)?)\s*(million|billion|trillion)?',
+        text, re.IGNORECASE
+    ):
+        ctx = text[max(0, m.start() - 80):m.end() + 80].replace('\n', ' ').strip()
+        claims.append({"claim": m.group(0), "type": "金额", "context": ctx})
 
-    # 晨报体提示词：专业编辑·有观点，写出"看晨报"的感觉
-    system_prompt = (
+    # 百分比
+    for m in re.finditer(r'(\d{1,3}(?:\.\d+)?)\s*%', text):
+        ctx = text[max(0, m.start() - 80):m.end() + 80].replace('\n', ' ').strip()
+        claims.append({"claim": m.group(0), "type": "百分比", "context": ctx})
+
+    # 日期（用于检查 AI 不会编造未来日期）
+    for m in re.finditer(
+        r'\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|'
+        r'Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2}',
+        text
+    ):
+        ctx = text[max(0, m.start() - 40):m.end() + 40].replace('\n', ' ').strip()
+        claims.append({"claim": m.group(0), "type": "日期", "context": ctx})
+
+    # 去重（相同 claim 文本只保留一条）
+    seen = set()
+    unique: list[dict] = []
+    for c in claims:
+        if c["claim"].lower() not in seen:
+            seen.add(c["claim"].lower())
+            unique.append(c)
+    return unique[:15]  # 每条最多 15 个声明
+
+
+def build_factcheck_notes(articles: list[dict]) -> str:
+    """生成精简「事实核查备注」追加到 prompt。
+    只列出跨文章数字冲突，不列全部声明（控制 prompt 体积）。"""
+    all_claims: list[dict] = []
+
+    for art in articles:
+        ft = art.get("fulltext", "")
+        if not ft:
+            continue
+        claims = extract_numerical_claims(ft)
+        if not claims:
+            continue
+        for c in claims:
+            all_claims.append({"article": art["title"][:60], "claim": c["claim"], "type": c["type"]})
+
+    if len(all_claims) < 2:
+        return ""
+
+    # 只做冲突检测，不列全部声明
+    conflicts: list[str] = []
+    by_type: dict[str, list] = {}
+    for c in all_claims:
+        by_type.setdefault(c["type"], []).append(c)
+
+    for ctype, items in by_type.items():
+        if ctype == "日期" or len(items) < 2:
+            continue
+        for i in range(len(items)):
+            for j in range(i + 1, len(items)):
+                if items[i]["article"] == items[j]["article"]:
+                    continue
+                nums_i = re.findall(r'[\d,]+\.?\d*', items[i]["claim"])
+                nums_j = re.findall(r'[\d,]+\.?\d*', items[j]["claim"])
+                if nums_i and nums_j:
+                    try:
+                        vi = float(nums_i[0].replace(',', ''))
+                        vj = float(nums_j[0].replace(',', ''))
+                        if vi > 0 and vj > 0 and max(vi, vj) / min(vi, vj) > 1.5:
+                            conflicts.append(
+                                f"  ⚠️ 「{items[i]['article'][:30]}」vs「{items[j]['article'][:30]}」："
+                                f"{items[i]['claim']} ↔ {items[j]['claim']}"
+                            )
+                    except ValueError:
+                        pass
+
+    if not conflicts:
+        return ""
+
+    return "## ⚠️ 数字冲突提醒（以下来源之间关键数字差异>50%，写作时取多数或最权威来源并注明「数据有出入」）\n" + "\n".join(conflicts[:10])
+
+
+# ── 分批阈值：每批最多发多少条给 DeepSeek ──
+# 太多条 → prompt 大 → 服务端超时掐断。拆成小批每批独立写，最后拼起来。
+BATCH_SIZE = 7
+
+
+def _build_system_prompt(is_batch: bool = False) -> str:
+    """构建系统提示词。is_batch=True 时省略「导语」和「编辑手记」——仅写新闻条目。"""
+    base = (
         "你是一位资深的中文财经科技新闻主编，每天为高知读者撰写一份深度『晨报』。\n"
         "你的风格像《财新》《FT中文网》：冷静专业，但敢下判断、点出影响与看点，不做无观点的复述。\n"
         "\n"
-        "【任务】我会给你一批已初筛的候选新闻（约 24 条，已按重要性排过序）。\n"
-        "多数条目附带【正文】（从原文抓取的文章本体），少数只有【摘要】。\n"
-        "请二次精选，挑出最重要、最有信息量的 15-20 条，编成一份结构化晨报。\n"
-        "不重要、过于琐碎或纯软文的，果断舍弃，不要硬凑数量。\n"
-        "『被多家媒体同时报道』的条目通常更重要，优先考虑。\n"
-        "\n"
         "【怎么用素材——这条最重要】\n"
-        "- 有【正文】的：通读后用自己的话写出来龙去脉，提炼正文里的关键事实、数据、人物、因果。这是写出深度的来源，别只看标题。\n"
+        "- 有【正文】的：通读后用自己的话写出来龙去脉，提炼正文里的关键事实、数据、人物、因果。\n"
         "- 只有【摘要】的：据实简写，明确不要脑补正文里没有的细节。\n"
         "- 严禁编造：人名、数字、引语、时间、因果，凡素材里没有的，一律不写。宁可短，不可假。\n"
+        "- 多数来源说法一致的优先采信；若素材间数据冲突，取多数来源说法并注明「多方数据有出入」。\n"
+        "- 仅单一来源的独家报道，在点评末尾注明「⚠️ 单一信源」。\n"
         "\n"
-        "【输出结构】用 Markdown：\n"
-        "1. 顶部一段『今日导语』（3-4 句）：概括今天全球最值得关注的主线与基调。\n"
-        "2. 分三组（哪组没料就省略该组）：\n"
-        "   ## 🌍 国际要闻\n"
-        "   ## 💻 科技与 AI\n"
-        "   ## 💰 财经市场\n"
-        "3. 每条新闻按这个格式写：\n"
-        "   **加粗的中文标题**\n"
-        "   3-5 句正文：交代背景、关键细节与数据、和它意味着什么（基于【正文】，写出来龙去脉，别只翻译原标题）。\n"
-        "   > 【点评】一句你作为主编的判断——影响、看点、或值得警惕之处。\n"
-        "4. 结尾写一段『编辑手记 / 今日看点』（3-5 句）：串联今天的脉络，给出前瞻或提醒。\n"
+        "【每条新闻格式】\n"
+        "**🔥/⭐ 中文标题**（🔥=被3+家报道/极高重要性 ⭐⭐⭐=必读 ⭐⭐=值得看 ⭐=速览）\n"
+        "3-5 句正文：交代背景、关键细节与数据、和它意味着什么。\n"
+        "信息密度标签：📖 深度（有完整正文）或 📡 快讯（仅摘要/参考源）\n"
+        "> 【点评】一句主编判断——影响、看点、或值得警惕之处。\n"
+        "> 📰 来源：媒体名（原文链接）\n"
         "\n"
         "【要求】\n"
         "- 全程中文，专有名词首次出现可附英文原名。\n"
-        "- 点评要有信息增量和观点，不要写『值得关注』这种空话。\n"
-        "- 财经部分尽量点到当日市场情绪/资金面/政策含义。"
+        "- 点评要有信息增量和观点。\n"
+        "- 每条新闻末尾「📰 来源」必须写明媒体名和原文链接——不能省略。\n"
     )
 
-    today_str = datetime.now(TZ).strftime("%Y年%m月%d日 %A")
-    user_prompt = (
-        f"今天是 {today_str}。以下是已初筛的候选新闻（共 {len(articles)} 条），"
-        f"请按要求精选并编成今天的深度晨报：\n\n{articles_text}"
-    )
-
-    log.info(f"发送 {len(articles)} 条候选到 DeepSeek 进行精选与撰写...")
-
-    # 把「发一次请求」封装成内部函数，外面用重试循环包它。
-    # 失败分两类：网络抖动（该重试）vs 请求本身有问题如密钥错误（重试无用，直接抛）。
-    def _call_once():
-        resp = requests.post(
-            "https://api.deepseek.com/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": "deepseek-chat",
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
-                ],
-                "temperature": 0.7,
-                "max_tokens": 6000,
-            },
-            timeout=120,
+    if is_batch:
+        return (
+            base
+            + "\n【任务】从下面这批新闻中挑出最重要、最有信息量的条目，按上述格式写成新闻简报。"
+              "不重要或过于琐碎的舍弃。只输出新闻条目，不要写导语和编辑手记。\n"
         )
-        resp.raise_for_status()
-        return resp.json()
+    else:
+        return (
+            base
+            + "\n【输出结构】用 Markdown：\n"
+              "\n"
+              "1. 顶部『今日导语』（3-4 句）：概括今天全球最值得关注的主线与基调。\n"
+              "   导语末尾加一行「市场情绪」温度计：🟢 风险偏好 / 🟡 谨慎观望 / 🔴 避险为主（三选一）。\n"
+              "\n"
+              "2. 分三组（哪组没料就省略该组）：\n"
+              "   ## 🌍 国际要闻\n"
+              "   ## 💻 科技与 AI\n"
+              "   ## 💰 财经市场\n"
+              "\n"
+              "3. 每条新闻按上述格式写。\n"
+              "\n"
+              "4. 结尾『编辑手记 / 今日看点』（3-5 句）：串联今天的脉络，给出前瞻或提醒。\n"
+              "\n"
+              "【事实核查与自我审计——写完必须执行】\n"
+              "在「编辑手记」之后，以代码块输出内部审计（简短即可）：\n"
+              "```\n"
+              "审计: 1.数字均来自素材? 2.无捏造引语? 3.因果均有支撑? 4.单一信源已标? 5.数据冲突已注? 6.热点未遗漏?\n"
+              "逐项答「通过」或列出问题。若发现问题，修正正文后再输出。\n"
+              "```\n"
+              "\n"
+              "【任务】我会给你一批已初筛的候选新闻（已按重要性排过序），请按要求精选并编成今天的深度晨报。"
+              "不重要、过于琐碎或纯软文的，果断舍弃，不要硬凑数量。\n"
+        )
 
-    # 「该重试」的瞬时网络错误：连接被掐断、超时、连不上。
-    # 注意：raise_for_status() 抛的 HTTPError（如 401/400）不在这里，会直接向上抛——密钥错重试无意义。
+
+def _articles_to_text(articles: list[dict]) -> str:
+    """把文章列表转成发给 AI 的文本块。"""
+    parts = []
+    for i, art in enumerate(articles, 1):
+        p = [f"{i}. [{art['category']}] {art['title']}"]
+
+        cluster_size = art.get("cluster_size", 1)
+        if cluster_size >= 2:
+            p.append(f"   热度: 被 {cluster_size} 家媒体同时报道")
+
+        fulltext = art.get("fulltext", "")
+        if fulltext:
+            p.append(f"   正文: {fulltext}")
+        elif art["summary"]:
+            p.append(f"   摘要(仅导语，正文未抓到): {art['summary']}")
+
+        p.append(f"   来源: {art['source']}")
+        if art["link"]:
+            p.append(f"   原文链接: {art['link']}")
+        parts.append("\n".join(p))
+    return "\n\n".join(parts)
+
+
+def _call_deepseek_once(system_prompt: str, user_prompt: str,
+                        max_tokens: int = 3500) -> dict:
+    """单次调用 DeepSeek（流式 + 自动重试）。
+    返回 {"choices": [{"message": {"content": ...}}], ...} 或抛异常。"""
     RETRYABLE = (
-        requests.exceptions.ChunkedEncodingError,
         requests.exceptions.ConnectionError,
         requests.exceptions.Timeout,
+        requests.exceptions.ChunkedEncodingError,
     )
-    MAX_RETRIES = 3   # 总共最多尝试 3 次（1 次正常 + 2 次重试）
+    MAX_RETRIES = 3
 
-    data = None
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            data = _call_once()
-            break  # 成功就跳出循环
+            resp = requests.post(
+                "https://api.deepseek.com/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+                    "Content-Type": "application/json",
+                },
+                json={
+                    "model": "deepseek-chat",
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                    "temperature": 0.7,
+                    "max_tokens": max_tokens,
+                },
+                timeout=(60, 300),
+                stream=True,
+            )
+            resp.raise_for_status()
+            ct = resp.headers.get("Content-Type", "")
+
+            # ── 非流式：temperature 等参数可能导致 DeepSeek 忽略 stream:true，
+            #     直接返回 application/json。此时用 resp.json() 解析。
+            if "application/json" in ct:
+                data = resp.json()
+                content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+                return {
+                    "choices": [{"message": {"content": content}}],
+                    "usage": data.get("usage", {"total_tokens": "?"}),
+                }
+
+            # ── 流式：手动拼接 SSE 流式响应
+            chunks: list[str] = []
+            for line in resp.iter_lines(decode_unicode=True):
+                if not line:
+                    continue
+                if not line.startswith("data: "):
+                    continue
+                data_str = line[6:]
+                if data_str.strip() == "[DONE]":
+                    break
+                try:
+                    delta = json.loads(data_str)
+                    choice = delta.get("choices", [{}])[0]
+                    chunk_text = choice.get("delta", {}).get("content", "")
+                    if chunk_text:
+                        chunks.append(chunk_text)
+                except Exception:
+                    continue
+            content = "".join(chunks)
+            return {
+                "choices": [{"message": {"content": content}}],
+                "usage": {"total_tokens": "?"},
+            }
         except RETRYABLE as e:
-            # 最后一次还失败：别再吞了，抛出去让上层知道今天确实没生成成功
             if attempt == MAX_RETRIES:
-                log.error(f"DeepSeek 第 {attempt} 次仍失败（{type(e).__name__}: {e}），放弃重试")
                 raise
-            # 指数退避：第 1 次失败等 2s，第 2 次等 4s，给对端/网络留恢复时间
-            wait = 2 ** attempt
+            wait = 5 * (2 ** (attempt - 1))
             log.warning(
                 f"DeepSeek 第 {attempt}/{MAX_RETRIES} 次失败（{type(e).__name__}），"
                 f"{wait}s 后重试..."
             )
             time.sleep(wait)
 
-    content = data["choices"][0]["message"]["content"]
-    tokens_used = data.get("usage", {}).get("total_tokens", "?")
-    log.info(f"DeepSeek 返回 {len(content)} 字，消耗 {tokens_used} tokens")
-    return content
+
+def summarize_with_deepseek(articles: list[dict]) -> str:
+    """把新闻列表发给 DeepSeek，让它用中文总结成每日简报。
+    超过 BATCH_SIZE 条时自动拆批，每批独立写，最后拼成完整晨报。"""
+    if not DEEPSEEK_API_KEY:
+        raise RuntimeError("❌ 没有设置 DEEPSEEK_API_KEY，请检查 .env 文件")
+
+    n = len(articles)
+    today_str = datetime.now(TZ).strftime("%Y年%m月%d日 %A")
+
+    # ── 不分批：直接一次调用 ──
+    if n <= BATCH_SIZE:
+        log.info(f"发送 {n} 条候选到 DeepSeek（单批）...")
+        system_prompt = _build_system_prompt(is_batch=False)
+        articles_text = _articles_to_text(articles)
+        factcheck_notes = build_factcheck_notes(articles)
+        if factcheck_notes:
+            articles_text = articles_text + "\n\n---\n\n" + factcheck_notes
+        user_prompt = (
+            f"今天是 {today_str}。以下是已初筛的候选新闻（共 {n} 条），"
+            f"请按要求精选并编成今天的深度晨报。"
+            f"每条新闻末尾务必附上「📰 来源：媒体名（原文链接）」。"
+            f"\n\n{articles_text}"
+        )
+        data = _call_deepseek_once(system_prompt, user_prompt)
+        content = data["choices"][0]["message"]["content"]
+        log.info(f"DeepSeek 返回 {len(content)} 字")
+        _log_sanity(content)
+        return content
+
+    # ── 分批模式：拆成多批，每批独立写新闻条目，最后拼起来 ──
+    batches = [articles[i:i + BATCH_SIZE] for i in range(0, n, BATCH_SIZE)]
+    log.info(f"候选 {n} 条 → 分 {len(batches)} 批发送（每批 ≤{BATCH_SIZE} 条）")
+
+    batch_outputs: list[str] = []
+    for bi, batch in enumerate(batches, 1):
+        log.info(f"  发送第 {bi}/{len(batches)} 批（{len(batch)} 条）...")
+        system_prompt = _build_system_prompt(is_batch=True)
+        articles_text = _articles_to_text(batch)
+
+        user_prompt = (
+            f"今天是 {today_str}。以下是今天新闻的第 {bi} 批（共 {len(batch)} 条），"
+            f"请精选最重要的条目，按格式写成新闻简报。只输出新闻条目，不要导语和编辑手记。"
+            f"每条末尾附「📰 来源：媒体名（原文链接）」。"
+            f"\n\n{articles_text}"
+        )
+
+        data = _call_deepseek_once(system_prompt, user_prompt, max_tokens=3000)
+        text = data["choices"][0]["message"]["content"]
+        log.info(f"  第 {bi} 批返回 {len(text)} 字")
+        batch_outputs.append(text)
+
+    # ── 拼合：用一次短请求让 AI 补导语 + 编辑手记 + 审计 ──
+    all_news = "\n\n---\n\n".join(batch_outputs)
+    log.info(f"各批合计 {sum(len(o) for o in batch_outputs)} 字，准备拼合并补导语...")
+
+    merge_prompt = (
+        "你是一位资深中文新闻主编。以下是将今天各批新闻汇总在一起的简报内容。\n"
+        "请为它补上：\n"
+        "1. 顶部『今日导语』（3-4 句概括今天全球主线，末尾加市场情绪温度计）\n"
+        "2. 结尾『编辑手记 / 今日看点』（3-5 句串联脉络+前瞻）\n"
+        "3. 自我审计代码块\n"
+        "\n"
+        "新闻内容：\n\n"
+        f"{all_news}\n\n"
+        "请按以下结构输出完整晨报（Markdown）：\n"
+        "『今日导语』\n"
+        "（市场情绪）\n"
+        "## 🌍 国际要闻\n"
+        "...（保留上面的新闻条目）\n"
+        "## 💻 科技与 AI\n"
+        "...\n"
+        "## 💰 财经市场\n"
+        "...\n"
+        "『编辑手记 / 今日看点』\n"
+        "（审计代码块）\n"
+    )
+
+    # 事实核查笔记也在合并阶段注入
+    factcheck_notes = build_factcheck_notes(articles)
+    if factcheck_notes:
+        merge_prompt = merge_prompt + "\n\n---\n\n⚠️ 事实核查提醒：\n" + factcheck_notes
+
+    log.info("  发送合并请求...")
+    data = _call_deepseek_once(
+        "你是资深新闻主编，负责为已写好的新闻简报补全导语和编辑手记。保持原文不变，只补充缺失部分。",
+        merge_prompt,
+        max_tokens=4000,
+    )
+    final = data["choices"][0]["message"]["content"]
+    log.info(f"合并后最终输出 {len(final)} 字")
+    _log_sanity(final)
+    return final
+
+
+def _log_sanity(content: str) -> None:
+    """输出端轻量扫描：检测常见幻觉模式，在日志中提醒。"""
+    warnings = sanity_check_output(content)
+    if warnings:
+        log.warning(f"⚠️ 幻觉风险提示（{len(warnings)} 项）:")
+        for w in warnings:
+            log.warning(f"  {w}")
+
+
+def sanity_check_output(content: str) -> list[str]:
+    """对 AI 生成的晨报做轻量事后扫描，检测常见幻觉模式。
+    返回警告列表（仅记录日志，不自动修改——人工看日志判断）。"""
+    warnings: list[str] = []
+
+    # 1. 检测未来日期（大概率是幻觉）
+    today = datetime.now(TZ)
+    # 匹配 "2026年6月15日" 之类的日期
+    future_dates = re.findall(r'(20\d{2})年(\d{1,2})月(\d{1,2})日', content)
+    for y, m, d in future_dates:
+        try:
+            dt = datetime(int(y), int(m), int(d), tzinfo=TZ)
+            if dt > today + timedelta(days=1):
+                warnings.append(f"未来日期: {y}年{m}月{d}日（可能为幻觉）")
+        except ValueError:
+            pass
+
+    # 2. 检测过于精确的数字（如 "3,847,291 人"——AI 很少能造出这种精度的真实数据）
+    overly_precise = re.findall(r'\b\d{3,}(?:,\d{3}){2,}\b', content)
+    if overly_precise:
+        warnings.append(f"高精度数字（疑似编造）: {', '.join(overly_precise[:5])}")
+
+    # 3. 检测常见的 AI 幻觉句式
+    hallucination_patterns = [
+        (r'据[^，。]+透露', '「据XX透露」格式——确认 XX 是否真实信源'),
+        (r'专家(?:分析|认为|指出)', '「专家分析」——确认素材中是否真有专家'),
+        (r'据悉[^，。]{10,}', '「据悉」长描述——可能自行脑补'),
+    ]
+    for pat, desc in hallucination_patterns:
+        matches = re.findall(pat, content)
+        if len(matches) >= 3:
+            warnings.append(f"{desc}（出现 {len(matches)} 次）")
+
+    # 4. 检测是否遗漏了自我审计段
+    if '自我审计' not in content:
+        warnings.append("缺少「自我审计」段——AI 可能跳过了事实核查步骤")
+
+    # 5. 检查是否有来源链接被省略（格式为 📰 来源：）
+    source_count = len(re.findall(r'📰\s*来源', content))
+    if source_count < 8:
+        warnings.append(f"来源标注仅 {source_count} 条（期望 ≥15，AI 可能省略了来源链接）")
+
+    return warnings
 
 
 def push_to_wechat(content: str, sendkeys: list[str]):
