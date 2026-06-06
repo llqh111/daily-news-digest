@@ -42,7 +42,7 @@ TZ = timezone(timedelta(hours=8))
 # 每个 RSS 源最多取几条（抓多一点，留给后面筛选挑）
 MAX_PER_FEED = 8
 # 只保留多少小时内的新闻（晨报要新鲜，48h 给国际时差留余地）
-TIME_WINDOW_HOURS = 48
+TIME_WINDOW_HOURS = 24
 # 聚类去重 + 打分后，留多少条「代表作」去抓正文全文交给 AI。
 # AI 会从这批里再精选 15-20 条，所以这个数要比最终条数大一些，给 AI 留挑选余地。
 CANDIDATE_POOL = 24
@@ -63,8 +63,8 @@ FULLTEXT_MAX_CHARS = 2500
 # 没标 reference 的都是直连真 RSS，能抓全文、有完整深度。
 RSS_FEEDS = [
     # ── 国际要闻 ──
-    {"name": "Reuters", "url": "https://news.google.com/rss/search?q=when:2d+site:reuters.com&hl=en-US&gl=US&ceid=US:en", "category": "国际", "reference": True},
-    {"name": "AP", "url": "https://news.google.com/rss/search?q=when:2d+site:apnews.com&hl=en-US&gl=US&ceid=US:en", "category": "国际", "reference": True},
+    {"name": "Reuters", "url": "https://news.google.com/rss/search?q=when:1d+site:reuters.com&hl=en-US&gl=US&ceid=US:en", "category": "国际", "reference": True},
+    {"name": "AP", "url": "https://news.google.com/rss/search?q=when:1d+site:apnews.com&hl=en-US&gl=US&ceid=US:en", "category": "国际", "reference": True},
     {"name": "BBC World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "国际"},
     {"name": "DW", "url": "https://rss.dw.com/xml/rss-en-world", "category": "国际"},
     {"name": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar", "category": "国际"},
@@ -75,7 +75,7 @@ RSS_FEEDS = [
     {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "category": "科技"},
     # ── 财经市场 ──
     {"name": "FT", "url": "https://www.ft.com/world?format=rss", "category": "财经"},
-    {"name": "Reuters Business", "url": "https://news.google.com/rss/search?q=when:2d+site:reuters.com+(markets+OR+economy+OR+stocks+OR+earnings)&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
+    {"name": "Reuters Business", "url": "https://news.google.com/rss/search?q=when:1d+site:reuters.com+(markets+OR+economy+OR+stocks+OR+earnings)&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
     {"name": "CNBC", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "category": "财经"},
     {"name": "CoinDesk", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "category": "财经"},
 ]

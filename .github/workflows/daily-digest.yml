@@ -1,9 +1,10 @@
 name: 📰 Daily News Digest
 
 on:
-  # 每天北京时间早上 8:00 自动运行（UTC 0:00）
+  # 每天北京时间 8:00（UTC 0:00）和 20:00（UTC 12:00）自动运行
   schedule:
     - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
   # 也支持手动触发（在 GitHub 网页上点按钮）
   workflow_dispatch:
 
