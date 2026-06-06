@@ -8,6 +8,8 @@
 
 import os
 import re
+import sys
+import time
 import logging
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -485,25 +487,55 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
 
     log.info(f"发送 {len(articles)} 条候选到 DeepSeek 进行精选与撰写...")
 
-    resp = requests.post(
-        "https://api.deepseek.com/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": "deepseek-chat",
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            "temperature": 0.7,
-            "max_tokens": 6000,
-        },
-        timeout=120,
+    # 把「发一次请求」封装成内部函数，外面用重试循环包它。
+    # 失败分两类：网络抖动（该重试）vs 请求本身有问题如密钥错误（重试无用，直接抛）。
+    def _call_once():
+        resp = requests.post(
+            "https://api.deepseek.com/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": "deepseek-chat",
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "temperature": 0.7,
+                "max_tokens": 6000,
+            },
+            timeout=120,
+        )
+        resp.raise_for_status()
+        return resp.json()
+
+    # 「该重试」的瞬时网络错误：连接被掐断、超时、连不上。
+    # 注意：raise_for_status() 抛的 HTTPError（如 401/400）不在这里，会直接向上抛——密钥错重试无意义。
+    RETRYABLE = (
+        requests.exceptions.ChunkedEncodingError,
+        requests.exceptions.ConnectionError,
+        requests.exceptions.Timeout,
     )
-    resp.raise_for_status()
-    data = resp.json()
+    MAX_RETRIES = 3   # 总共最多尝试 3 次（1 次正常 + 2 次重试）
+
+    data = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            data = _call_once()
+            break  # 成功就跳出循环
+        except RETRYABLE as e:
+            # 最后一次还失败：别再吞了，抛出去让上层知道今天确实没生成成功
+            if attempt == MAX_RETRIES:
+                log.error(f"DeepSeek 第 {attempt} 次仍失败（{type(e).__name__}: {e}），放弃重试")
+                raise
+            # 指数退避：第 1 次失败等 2s，第 2 次等 4s，给对端/网络留恢复时间
+            wait = 2 ** attempt
+            log.warning(
+                f"DeepSeek 第 {attempt}/{MAX_RETRIES} 次失败（{type(e).__name__}），"
+                f"{wait}s 后重试..."
+            )
+            time.sleep(wait)
 
     content = data["choices"][0]["message"]["content"]
     tokens_used = data.get("usage", {}).get("total_tokens", "?")
@@ -511,28 +543,43 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
     return content
 
 
-def push_to_wechat(content: str):
-    """通过 Server酱 把内容推送到微信"""
-    if not SERVERCHAN_SENDKEY:
+def push_to_wechat(content: str, sendkeys: list[str]):
+    """通过 Server酱 把内容推送到微信（支持多个 SendKey，每人一个）"""
+    if not sendkeys:
         raise RuntimeError("❌ 没有设置 SERVERCHAN_SENDKEY，请检查 .env 文件")
 
     today_str = datetime.now(TZ).strftime("%m/%d")
 
-    log.info("正在推送到微信 (Server酱)...")
-    resp = requests.post(
-        f"https://sctapi.ftqq.com/{SERVERCHAN_SENDKEY}.send",
-        data={
-            "title": f"📰 每日全球要闻 — {today_str}",
-            "desp": content,
-        },
-        timeout=30,
-    )
-    result = resp.json()
-    if result.get("code") == 0:
-        log.info("✅ 推送成功！请查看微信")
+    failed = []
+    for i, key in enumerate(sendkeys):
+        key = key.strip()
+        if not key:
+            continue
+        label = f"收件人{i+1}" if len(sendkeys) > 1 else "微信"
+        log.info(f"正在推送到 {label} (Server酱)...")
+        try:
+            resp = requests.post(
+                f"https://sctapi.ftqq.com/{key}.send",
+                data={
+                    "title": f"📰 每日全球要闻 — {today_str}",
+                    "desp": content,
+                },
+                timeout=30,
+            )
+            result = resp.json()
+            if result.get("code") == 0:
+                log.info(f"✅ {label} 推送成功！")
+            else:
+                log.error(f"❌ {label} 推送失败: {result}")
+                failed.append(f"{label}: {result}")
+        except Exception as e:
+            log.error(f"❌ {label} 推送异常: {e}")
+            failed.append(f"{label}: {e}")
+
+    if failed:
+        log.warning(f"部分推送失败 ({len(failed)}/{len(sendkeys)}): {'; '.join(failed)}")
     else:
-        log.error(f"❌ 推送失败: {result}")
-        raise RuntimeError(f"Server酱返回错误: {result}")
+        log.info(f"🎉 全部推送成功（共 {len(sendkeys)} 人）")
 
 
 # ═══════════════════════════════════════════════════
@@ -540,6 +587,14 @@ def push_to_wechat(content: str):
 # ═══════════════════════════════════════════════════
 
 def main():
+    # 让控制台输出统一走 UTF-8，遇到无法显示的字符（如 emoji）就替换而非崩溃。
+    # 主要是兼容 Windows 默认的 GBK 终端；Linux/GitHub Actions 本就是 UTF-8，无副作用。
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass  # 某些环境下流不支持 reconfigure，忽略即可
+
     log.info("=" * 50)
     log.info("📡 开始抓取 RSS 新闻...")
     articles = fetch_all_feeds()
@@ -555,8 +610,10 @@ def main():
     log.info("🤖 调用 DeepSeek 生成中文简报...")
     summary = summarize_with_deepseek(articles)
 
-    log.info("📲 推送到微信...")
-    push_to_wechat(summary)
+    # 支持多人推送：用逗号分隔多个 SendKey，每人一个
+    sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
+    log.info(f"📲 推送到微信（共 {len(sendkeys)} 人）...")
+    push_to_wechat(summary, sendkeys)
 
     log.info("=" * 50)
     log.info("🎉 全部完成！")
