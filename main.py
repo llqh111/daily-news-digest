@@ -9,6 +9,7 @@
 import os
 import re
 import sys
+import json
 import time
 import logging
 from datetime import datetime, timezone, timedelta
@@ -153,6 +154,9 @@ CLICKBAIT_PATTERNS = [
 SEEN_TITLES = set()
 SEEN_LINKS = set()
 
+# 已推送记录文件（避免早晚报重复推送同一条新闻）
+SENT_LOG_FILE = os.path.join(os.path.dirname(__file__), "sent_articles.json")
+
 # 标题聚类时要忽略的高频虚词（这些词到处都是，不能用来判断「是否同一件事」）
 TITLE_STOPWORDS = {
     "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "at", "by",
@@ -160,6 +164,36 @@ TITLE_STOPWORDS = {
     "says", "after", "over", "amid", "into", "out", "up", "new", "us", "uk",
     "report", "live", "news", "video", "watch", "update", "latest",
 }
+
+
+def load_sent_links() -> set[str]:
+    """加载上次推送过的文章链接，用来跳过避免早晚报重复。"""
+    if not os.path.exists(SENT_LOG_FILE):
+        return set()
+    try:
+        with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        links = set(data.get("links", []))
+        ts = data.get("ts", "unknown")
+        log.info(f"已加载上次推送记录：{len(links)} 条（{ts}）")
+        return links
+    except Exception as e:
+        log.warning(f"加载推送记录失败，将按无历史处理: {e}")
+        return set()
+
+
+def save_sent_links(links: list[str]) -> None:
+    """保存本次候选文章链接，供下次运行去重用。"""
+    data = {
+        "ts": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
+        "links": links,
+    }
+    try:
+        with open(SENT_LOG_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        log.info(f"已保存 {len(links)} 条推送记录到 {SENT_LOG_FILE}")
+    except Exception as e:
+        log.warning(f"保存推送记录失败（不影响推送）: {e}")
 
 
 def parse_published(entry) -> datetime | None:
@@ -300,8 +334,10 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
     return reps
 
 
-def fetch_all_feeds() -> list[dict]:
+def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
     """抓取所有 RSS 源 → 时间窗口过滤 → 打分 → 同题聚类去重 → 取分数最高的一批候选"""
+    if skip_links is None:
+        skip_links = set()
     now_utc = datetime.now(timezone.utc)
     articles: list[dict] = []
 
@@ -331,6 +367,10 @@ def fetch_all_feeds() -> list[dict]:
             # 去重
             title_lower = title.lower()
             if title_lower in SEEN_TITLES or (link and link in SEEN_LINKS):
+                continue
+
+            # 跳过上次推送过的文章（避免早晚报重复）
+            if link and link in skip_links:
                 continue
 
             # 简单过滤：跳过视频/体育/娱乐类标题
@@ -595,10 +635,13 @@ def main():
         except (AttributeError, ValueError):
             pass  # 某些环境下流不支持 reconfigure，忽略即可
 
+    # 加载上次推送记录，避免早晚报重复
+    sent_links = load_sent_links()
+
     log.info("=" * 50)
     log.info("📡 开始抓取 RSS 新闻...")
-    articles = fetch_all_feeds()
-    log.info(f"共抓到 {len(articles)} 条有效新闻")
+    articles = fetch_all_feeds(skip_links=sent_links)
+    log.info(f"共抓到 {len(articles)} 条有效新闻（已跳过 {len(sent_links)} 条上次已推送）")
 
     if not articles:
         log.error("没有抓到任何新闻，退出")
@@ -614,6 +657,10 @@ def main():
     sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
     log.info(f"📲 推送到微信（共 {len(sendkeys)} 人）...")
     push_to_wechat(summary, sendkeys)
+
+    # 保存本次候选链接，下次跑时跳过，避免早晚报重复
+    candidate_links = [a["link"] for a in articles if a.get("link")]
+    save_sent_links(candidate_links)
 
     log.info("=" * 50)
     log.info("🎉 全部完成！")
