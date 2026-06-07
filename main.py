@@ -797,12 +797,11 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                     "Content-Type": "application/json",
                 },
                 json={
-                    "model": "deepseek-chat",
+                    "model": "deepseek-reasoner",
                     "messages": [
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt},
                     ],
-                    "temperature": 0.7,
                     "max_tokens": max_tokens,
                 },
                 timeout=(60, 300),

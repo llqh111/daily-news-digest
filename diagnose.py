@@ -26,7 +26,7 @@ try:
     r = requests.post(
         "https://api.deepseek.com/v1/chat/completions",
         headers={"Authorization": f"Bearer {dk}", "Content-Type": "application/json"},
-        json={"model": "deepseek-chat", "messages": [{"role": "user", "content": "说一句你好"}], "max_tokens": 20},
+        json={"model": "deepseek-reasoner", "messages": [{"role": "user", "content": "说一句你好"}], "max_tokens": 20},
         timeout=30,
     )
     if r.status_code == 200:
