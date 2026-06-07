@@ -1003,9 +1003,19 @@ def sanity_check_output(content: str) -> list[str]:
 
 
 def push_to_wechat(content: str, sendkeys: list[str]):
-    """通过 Server酱 把内容推送到微信（支持多个 SendKey，每人一个）"""
+    """通过 Server酱 把内容推送到微信（支持多个 SendKey，每人一个）。
+
+    内置 3 次重试（指数退避），应对 GitHub Actions 海外 runner 连接国内
+    Server酱时偶发的 Connection reset / timeout。
+    """
     if not sendkeys:
         raise RuntimeError("❌ 没有设置 SERVERCHAN_SENDKEY，请检查 .env 文件")
+
+    RETRYABLE = (
+        requests.exceptions.ConnectionError,
+        requests.exceptions.Timeout,
+    )
+    MAX_RETRIES = 3
 
     today_str = datetime.now(TZ).strftime("%m/%d")
 
@@ -1015,25 +1025,43 @@ def push_to_wechat(content: str, sendkeys: list[str]):
         if not key:
             continue
         label = f"收件人{i+1}" if len(sendkeys) > 1 else "微信"
-        log.info(f"正在推送到 {label} (Server酱)...")
-        try:
-            resp = requests.post(
-                f"https://sctapi.ftqq.com/{key}.send",
-                data={
-                    "title": f"📰 每日全球要闻 — {today_str}",
-                    "desp": content,
-                },
-                timeout=30,
-            )
-            result = resp.json()
-            if result.get("code") == 0:
-                log.info(f"✅ {label} 推送成功！")
-            else:
-                log.error(f"❌ {label} 推送失败: {result}")
-                failed.append(f"{label}: {result}")
-        except Exception as e:
-            log.error(f"❌ {label} 推送异常: {e}")
-            failed.append(f"{label}: {e}")
+
+        success = False
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                log.info(f"正在推送到 {label} (Server酱) ... 第 {attempt}/{MAX_RETRIES} 次")
+                resp = requests.post(
+                    f"https://sctapi.ftqq.com/{key}.send",
+                    data={
+                        "title": f"📰 每日全球要闻 — {today_str}",
+                        "desp": content,
+                    },
+                    timeout=30,
+                )
+                result = resp.json()
+                if result.get("code") == 0:
+                    log.info(f"✅ {label} 推送成功！")
+                    success = True
+                    break
+                else:
+                    log.error(f"❌ {label} 推送失败: {result}")
+                    failed.append(f"{label}: {result}")
+                    break  # 业务错误不重试
+            except RETRYABLE as e:
+                if attempt == MAX_RETRIES:
+                    log.error(f"❌ {label} 推送异常（已重试 {MAX_RETRIES} 次）: {e}")
+                    failed.append(f"{label}: {e}")
+                else:
+                    wait = 5 * (2 ** (attempt - 1))
+                    log.warning(
+                        f"⚠️ {label} 推送失败（{type(e).__name__}），"
+                        f"{wait}s 后重试..."
+                    )
+                    time.sleep(wait)
+            except Exception as e:
+                log.error(f"❌ {label} 推送异常（非网络错误，不重试）: {e}")
+                failed.append(f"{label}: {e}")
+                break
 
     if failed:
         log.warning(f"部分推送失败 ({len(failed)}/{len(sendkeys)}): {'; '.join(failed)}")
