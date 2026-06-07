@@ -12,7 +12,7 @@ import sys
 import json
 import time
 import logging
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import feedparser
@@ -181,8 +181,10 @@ CLICKBAIT_PATTERNS = [
 SEEN_TITLES = set()
 SEEN_LINKS = set()
 
-# 已推送记录文件（避免早晚报重复推送同一条新闻）
+# 已推送记录文件（避免早晚报重复 + 跨天去重）
 SENT_LOG_FILE = os.path.join(os.path.dirname(__file__), "sent_articles.json")
+# 跨天去重保留天数：超过这个天数的旧记录自动清理
+SENT_RETENTION_DAYS = 7
 
 # 标题聚类时要忽略的高频虚词（这些词到处都是，不能用来判断「是否同一件事」）
 TITLE_STOPWORDS = {
@@ -194,31 +196,83 @@ TITLE_STOPWORDS = {
 
 
 def load_sent_links() -> set[str]:
-    """加载上次推送过的文章链接，用来跳过避免早晚报重复。"""
+    """加载跨天推送过的文章链接（合并最近 N 天所有记录），用来跨天去重。"""
     if not os.path.exists(SENT_LOG_FILE):
         return set()
     try:
         with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        links = set(data.get("links", []))
-        ts = data.get("ts", "unknown")
-        log.info(f"已加载上次推送记录：{len(links)} 条（{ts}）")
-        return links
+
+        # ── 兼容旧格式（单次 links 列表，无 history）──
+        if "links" in data and "history" not in data:
+            links = set(data.get("links", []))
+            ts = data.get("ts", "unknown")
+            log.info(f"已加载旧格式推送记录：{len(links)} 条（{ts}），下次将自动迁移为新格式")
+            return links
+
+        # ── 新格式：按天分桶，合并所有天 → 一个 flat set ──
+        history = data.get("history", {})
+        all_links: set[str] = set()
+        for day, links in history.items():
+            all_links.update(links)
+            log.debug(f"  加载 {day}: {len(links)} 条")
+        log.info(f"已加载跨天推送记录：{len(all_links)} 条（{len(history)} 天窗口）")
+        return all_links
     except Exception as e:
         log.warning(f"加载推送记录失败，将按无历史处理: {e}")
         return set()
 
 
 def save_sent_links(links: list[str]) -> None:
-    """保存本次候选文章链接，供下次运行去重用。"""
+    """保存本次候选文章链接，按天归档，保留最近 N 天，自动清理旧天。"""
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+
+    # ── 加载现有数据（兼容旧格式）──
+    data: dict = {}
+    if os.path.exists(SENT_LOG_FILE):
+        try:
+            with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            pass
+
+    # ── 迁移旧格式 ──
+    if "links" in data and "history" not in data:
+        old_ts = data.get("ts", "unknown")
+        # 尝试从 ts 中提取日期（格式: "2026-06-07 13:46"）
+        old_day = old_ts[:10] if len(old_ts) >= 10 else "unknown"
+        data = {"history": {old_day: data["links"]}}
+        log.info(f"已从旧格式迁移：{len(data['history'][old_day])} 条 → {old_day}")
+
+    history = data.get("history", {})
+
+    # ── 写入今天的链接（去重后存）──
+    existing = set(history.get(today, []))
+    existing.update(links)
+    history[today] = list(existing)
+
+    # ── 清理超过保留天数的旧记录 ──
+    cutoff = date.today() - timedelta(days=SENT_RETENTION_DAYS)
+    cutoff_str = cutoff.strftime("%Y-%m-%d")
+    removed_days = []
+    for day in list(history.keys()):
+        if day < cutoff_str:
+            removed_days.append(day)
+            del history[day]
+    if removed_days:
+        log.info(f"清理过期记录：{', '.join(sorted(removed_days))}（保留 {SENT_RETENTION_DAYS} 天窗口）")
+
+    # ── 写回 ──
     data = {
-        "ts": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
-        "links": links,
+        "updated": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
+        "retention_days": SENT_RETENTION_DAYS,
+        "history": history,
     }
     try:
         with open(SENT_LOG_FILE, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        log.info(f"已保存 {len(links)} 条推送记录到 {SENT_LOG_FILE}")
+        total = sum(len(v) for v in history.values())
+        log.info(f"已保存跨天推送记录：{len(links)} 条（今日），总计 {total} 条 / {len(history)} 天")
     except Exception as e:
         log.warning(f"保存推送记录失败（不影响推送）: {e}")
 
@@ -1160,6 +1214,86 @@ def push_to_telegram(content: str):
 
 
 # ═══════════════════════════════════════════════════
+#  失败告警：流水线任何环节崩了，推送简短告警
+# ═══════════════════════════════════════════════════
+
+def _send_alert_summary(msgs: list[str]) -> str:
+    """汇总多条告警发送结果，用于日志。"""
+    if not msgs:
+        return "✅ 全部告警通道已发送"
+    return "部分告警通道失败: " + "; ".join(msgs)
+
+
+def send_failure_alert(error_msg: str, stage: str = "未知") -> None:
+    """流水线失败时，向所有可用通道推送简短告警。
+
+    不会抛异常——告警本身失败了也不影响主流程日志。
+    """
+    now_str = datetime.now(TZ).strftime("%m/%d %H:%M")
+    title = f"⚠️ 每日要闻推送失败 — {now_str}"
+    body = (
+        f"## ⚠️ 每日全球要闻 — 推送失败\n\n"
+        f"**失败环节**: {stage}\n"
+        f"**时间**: {now_str}\n\n"
+        f"**错误信息**:\n"
+        f"```\n{error_msg[:800]}\n```\n\n"
+        f"请检查 GitHub Actions 日志：\n"
+        f"https://github.com/{os.getenv('GITHUB_REPOSITORY', '')}/actions\n\n"
+        f"---\n"
+        f"📡 由 Daily News Digest 失败告警自动发送"
+    )
+
+    failed: list[str] = []
+
+    # ── Server酱 ──
+    if SERVERCHAN_SENDKEY:
+        sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
+        for key in sendkeys:
+            try:
+                resp = requests.post(
+                    f"https://sctapi.ftqq.com/{key}.send",
+                    data={"title": title, "desp": body},
+                    timeout=15,
+                )
+                result = resp.json()
+                if result.get("code") == 0:
+                    log.info(f"✅ 失败告警已通过 Server酱 发送")
+                else:
+                    failed.append(f"Server酱: {result}")
+            except Exception as e:
+                failed.append(f"Server酱: {e}")
+
+    # ── Telegram ──
+    if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
+        try:
+            tg_text = (
+                f"⚠️ <b>每日要闻推送失败</b>\n\n"
+                f"<b>失败环节</b>: {stage}\n"
+                f"<b>时间</b>: {now_str}\n\n"
+                f"<b>错误</b>:\n<pre>{error_msg[:500]}</pre>\n\n"
+                f"<a href=\"https://github.com/{os.getenv('GITHUB_REPOSITORY', '')}/actions\">查看 Actions 日志</a>"
+            )
+            resp = requests.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                json={
+                    "chat_id": TELEGRAM_CHAT_ID,
+                    "text": tg_text,
+                    "parse_mode": "HTML",
+                },
+                timeout=15,
+            )
+            result = resp.json()
+            if result.get("ok"):
+                log.info(f"✅ 失败告警已通过 Telegram 发送")
+            else:
+                failed.append(f"Telegram: {result.get('description', result)}")
+        except Exception as e:
+            failed.append(f"Telegram: {e}")
+
+    log.info(f"失败告警发送完成: {_send_alert_summary(failed)}")
+
+
+# ═══════════════════════════════════════════════════
 #  主流程
 # ═══════════════════════════════════════════════════
 
@@ -1172,53 +1306,78 @@ def main():
         except (AttributeError, ValueError):
             pass  # 某些环境下流不支持 reconfigure，忽略即可
 
-    # 加载上次推送记录，避免早晚报重复
+    # 加载跨天推送记录，用于去重
     sent_links = load_sent_links()
 
-    log.info("=" * 50)
-    log.info("📡 开始抓取 RSS 新闻...")
-    articles = fetch_all_feeds(skip_links=sent_links)
-    log.info(f"共抓到 {len(articles)} 条有效新闻（已跳过 {len(sent_links)} 条上次已推送）")
-
-    if not articles:
-        log.error("没有抓到任何新闻，退出")
-        return
-
-    log.info("📰 抓取候选新闻的正文全文...")
-    attach_fulltexts(articles)
-
-    log.info("🤖 调用 DeepSeek 生成中文简报...")
-    summary = summarize_with_deepseek(articles)
-
-    # ── 多渠道推送 ──────────────────────────────────
-    # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
-    if SERVERCHAN_SENDKEY:
-        sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
-        log.info(f"📲 推送到微信 Server酱（共 {len(sendkeys)} 人）...")
-        try:
-            push_to_wechat(summary, sendkeys)
-        except Exception as e:
-            log.error(f"⚠️ 微信推送整体失败（可能被墙）: {e}")
-    else:
-        log.info("📲 Server酱 未配置，跳过微信推送")
-
-    # Telegram：海外 runner 直连，不受 GFW 影响
     try:
+        log.info("=" * 50)
+        log.info("📡 开始抓取 RSS 新闻...")
+        articles = fetch_all_feeds(skip_links=sent_links)
+        log.info(f"共抓到 {len(articles)} 条有效新闻（已跳过 {len(sent_links)} 条历史已推送）")
+
+        if not articles:
+            raise RuntimeError("没有抓到任何新闻——所有 RSS 源均无新内容或全部被过滤/去重跳过")
+
+        log.info("📰 抓取候选新闻的正文全文...")
+        attach_fulltexts(articles)
+
+        log.info("🤖 调用 DeepSeek 生成中文简报...")
+        summary = summarize_with_deepseek(articles)
+
+        # ── 多渠道推送 ──────────────────────────────────
+        # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
+        if SERVERCHAN_SENDKEY:
+            sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
+            log.info(f"📲 推送到微信 Server酱（共 {len(sendkeys)} 人）...")
+            push_to_wechat(summary, sendkeys)
+        else:
+            log.info("📲 Server酱 未配置，跳过微信推送")
+
+        # Telegram：海外 runner 直连，不受 GFW 影响
         push_to_telegram(summary)
+
+        # 保存本次候选链接，跨天去重
+        candidate_links = [a["link"] for a in articles if a.get("link")]
+        save_sent_links(candidate_links)
+
+        log.info("=" * 50)
+        log.info("🎉 全部完成！")
+
+        # 打印摘要到日志（方便在 GitHub Actions 里查看）
+        print("\n" + "=" * 50)
+        print(summary)
+        print("=" * 50)
+
     except Exception as e:
-        log.error(f"⚠️ Telegram 推送失败: {e}")
+        # ── 失败告警：推送简短告警到所有可用通道 ──
+        err_msg = f"{type(e).__name__}: {e}"
+        log.error(f"💥 流水线失败: {err_msg}")
+        import traceback
+        log.error(traceback.format_exc())
 
-    # 保存本次候选链接，下次跑时跳过，避免早晚报重复
-    candidate_links = [a["link"] for a in articles if a.get("link")]
-    save_sent_links(candidate_links)
+        # 推断失败阶段
+        stage_map = {
+            "fetch_all_feeds": "RSS抓取",
+            "attach_fulltexts": "正文抓取",
+            "summarize_with_deepseek": "DeepSeek AI总结",
+            "push_to_wechat": "微信推送",
+            "push_to_telegram": "Telegram推送",
+            "save_sent_links": "记录保存",
+        }
+        stage = "未知环节"
+        tb = traceback.format_exc()
+        for func, label in stage_map.items():
+            if func in tb:
+                stage = label
+                break
 
-    log.info("=" * 50)
-    log.info("🎉 全部完成！")
+        try:
+            send_failure_alert(err_msg, stage)
+        except Exception as alert_err:
+            log.error(f"发送失败告警本身也失败了: {alert_err}")
 
-    # 打印摘要到日志（方便在 GitHub Actions 里查看）
-    print("\n" + "=" * 50)
-    print(summary)
-    print("=" * 50)
+        # 重新抛出，让 GitHub Actions 知道这次运行失败了
+        raise
 
 
 if __name__ == "__main__":
