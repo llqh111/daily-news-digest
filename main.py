@@ -57,7 +57,7 @@ FULLTEXT_BONUS_SCORE = 1.5   # 超过阈值加的分
 # 抓正文时的并发数和单条超时（秒）。并发快但别太猛，免得被网站当攻击。
 FULLTEXT_WORKERS = 6
 FULLTEXT_TIMEOUT = 12
-# 喂给 AI 的正文最多保留多少字（控制 token 成本，2500 字够写出深度了）
+# 喂给 AI 的正文最多保留多少字（控制 token 成本，1000 字够写深度了，想更省把数字改小）
 FULLTEXT_MAX_CHARS = 1000
 
 # RSS 新闻源（国际要闻 + 科技/AI + 财经市场）
