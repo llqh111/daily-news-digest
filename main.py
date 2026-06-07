@@ -25,6 +25,8 @@ load_dotenv()
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 SERVERCHAN_SENDKEY = os.getenv("SERVERCHAN_SENDKEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 # ── 日志 ────────────────────────────────────────────
 logging.basicConfig(
@@ -1069,6 +1071,94 @@ def push_to_wechat(content: str, sendkeys: list[str]):
         log.info(f"🎉 全部推送成功（共 {len(sendkeys)} 人）")
 
 
+def push_to_telegram(content: str):
+    """通过 Telegram Bot 推送简报。
+
+    Telegram 单条消息上限 4096 字符，晨报通常远超此值 → 按段落边界
+    自动分段，每段 ≤ 3500 字符（留安全余量）。多段顺序发送，每段
+    之间间隔 0.5s 避免被限速。
+    """
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        log.info("📱 Telegram 未配置，跳过")
+        return
+
+    MAX_CHUNK = 3500  # 留余量给标题行和分段标记
+    TG_RETRYABLE = (
+        requests.exceptions.ConnectionError,
+        requests.exceptions.Timeout,
+    )
+    TG_MAX_RETRIES = 3
+
+    # 按双换行（段落边界）切分
+    paragraphs = content.split("\n\n")
+    chunks: list[str] = []
+    current = ""
+    for p in paragraphs:
+        if len(current) + len(p) + 2 <= MAX_CHUNK:
+            current = (current + "\n\n" + p) if current else p
+        else:
+            if current:
+                chunks.append(current)
+            # 单个段落超限则硬切
+            if len(p) > MAX_CHUNK:
+                for j in range(0, len(p), MAX_CHUNK):
+                    chunks.append(p[j:j + MAX_CHUNK])
+                current = ""
+            else:
+                current = p
+    if current:
+        chunks.append(current)
+
+    total = len(chunks)
+    log.info(f"📱 Telegram 推送（共 {total} 段）...")
+
+    for idx, chunk in enumerate(chunks, 1):
+        if total > 1:
+            header = f"📰 每日全球要闻 ({idx}/{total})\n\n"
+        else:
+            header = ""
+        text = header + chunk
+
+        for attempt in range(1, TG_MAX_RETRIES + 1):
+            try:
+                resp = requests.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                    json={
+                        "chat_id": TELEGRAM_CHAT_ID,
+                        "text": text,
+                    },
+                    timeout=30,
+                )
+                result = resp.json()
+                if result.get("ok"):
+                    log.info(f"✅ Telegram ({idx}/{total}) 推送成功")
+                    break
+                else:
+                    log.error(
+                        f"❌ Telegram ({idx}/{total}) 推送失败: "
+                        f"{result.get('description', result)}"
+                    )
+                    if attempt == TG_MAX_RETRIES:
+                        raise RuntimeError(
+                            f"Telegram API 返回错误: {result.get('description')}"
+                        )
+            except TG_RETRYABLE as e:
+                if attempt == TG_MAX_RETRIES:
+                    log.error(f"❌ Telegram ({idx}/{total}) 推送异常: {e}")
+                    raise
+                wait = 5 * (2 ** (attempt - 1))
+                log.warning(
+                    f"⚠️ Telegram ({idx}/{total}) 推送失败 "
+                    f"（{type(e).__name__}），{wait}s 后重试..."
+                )
+                time.sleep(wait)
+
+        if idx < total:
+            time.sleep(0.5)  # 段间短暂间隔，避免 Telegram 限速
+
+    log.info("🎉 Telegram 全部推送成功")
+
+
 # ═══════════════════════════════════════════════════
 #  主流程
 # ═══════════════════════════════════════════════════
@@ -1100,10 +1190,23 @@ def main():
     log.info("🤖 调用 DeepSeek 生成中文简报...")
     summary = summarize_with_deepseek(articles)
 
-    # 支持多人推送：用逗号分隔多个 SendKey，每人一个
-    sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
-    log.info(f"📲 推送到微信（共 {len(sendkeys)} 人）...")
-    push_to_wechat(summary, sendkeys)
+    # ── 多渠道推送 ──────────────────────────────────
+    # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
+    if SERVERCHAN_SENDKEY:
+        sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
+        log.info(f"📲 推送到微信 Server酱（共 {len(sendkeys)} 人）...")
+        try:
+            push_to_wechat(summary, sendkeys)
+        except Exception as e:
+            log.error(f"⚠️ 微信推送整体失败（可能被墙）: {e}")
+    else:
+        log.info("📲 Server酱 未配置，跳过微信推送")
+
+    # Telegram：海外 runner 直连，不受 GFW 影响
+    try:
+        push_to_telegram(summary)
+    except Exception as e:
+        log.error(f"⚠️ Telegram 推送失败: {e}")
 
     # 保存本次候选链接，下次跑时跳过，避免早晚报重复
     candidate_links = [a["link"] for a in articles if a.get("link")]
