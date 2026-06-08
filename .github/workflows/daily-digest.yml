@@ -1,15 +1,26 @@
 name: 📰 Daily News Digest
 
 on:
-  # 每天北京时间 8:00（UTC 0:00）和 20:00（UTC 12:00）自动运行
+  # 每个时段用 3 个 cron 兜底，防止 GitHub 调度偶尔跳过
+  # 北京时间 7:55 / 8:05 / 8:15（UTC 23:55 / 0:05 / 0:15）
+  # 北京时间 19:55 / 20:05 / 20:15（UTC 11:55 / 12:05 / 12:15）
   schedule:
-    - cron: "0 0 * * *"    # 北京时间 8:00
-    - cron: "0 12 * * *"   # 北京时间 20:00
+    - cron: "55 23 * * *"  # 早班第一枪
+    - cron: "5  0  * * *"  # 早班兜底
+    - cron: "15 0  * * *"  # 早班再兜底
+    - cron: "55 11 * * *"  # 晚班第一枪
+    - cron: "5  12 * * *"  # 晚班兜底
+    - cron: "15 12 * * *"  # 晚班再兜底
   # 也支持手动触发（在 GitHub 网页上点按钮）
   workflow_dispatch:
 
 permissions:
   contents: write
+
+# 同一时段只允许一个 job 跑，防止多个 cron 同时触发导致重复推送
+concurrency:
+  group: digest-${{ github.event.schedule || github.run_id }}
+  cancel-in-progress: false
 
 jobs:
   digest:

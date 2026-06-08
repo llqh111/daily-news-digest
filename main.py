@@ -263,9 +263,12 @@ def save_sent_links(links: list[str]) -> None:
         log.info(f"清理过期记录：{', '.join(sorted(removed_days))}（保留 {SENT_RETENTION_DAYS} 天窗口）")
 
     # ── 写回 ──
+    now = datetime.now(TZ)
+    current_session = "AM" if now.hour < 12 else "PM"
     data = {
-        "updated": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
+        "updated": now.strftime("%Y-%m-%d %H:%M"),
         "retention_days": SENT_RETENTION_DAYS,
+        "last_session": current_session,
         "history": history,
     }
     try:
@@ -275,6 +278,38 @@ def save_sent_links(links: list[str]) -> None:
         log.info(f"已保存跨天推送记录：{len(links)} 条（今日），总计 {total} 条 / {len(history)} 天")
     except Exception as e:
         log.warning(f"保存推送记录失败（不影响推送）: {e}")
+
+
+def should_skip_session() -> bool:
+    """检查今天同一时段是否已经推送过。防止多个 cron 触发导致重复推送。"""
+    now = datetime.now(TZ)
+    current_session = "AM" if now.hour < 12 else "PM"
+    today_str = now.strftime("%Y-%m-%d")
+
+    if not os.path.exists(SENT_LOG_FILE):
+        return False
+
+    try:
+        with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # 今天还没有推送记录 → 不跳过
+        history = data.get("history", {})
+        if today_str not in history:
+            return False
+
+        # 检查上次推送的时段
+        last_session = data.get("last_session", "")
+        if last_session == current_session:
+            log.info(
+                f"⏭️ 今天 {current_session} 时段已推送过"
+                f"（{data.get('updated', '?')}），跳过"
+            )
+            return True
+
+        return False
+    except Exception:
+        return False
 
 
 def parse_published(entry) -> datetime | None:
@@ -1305,6 +1340,11 @@ def main():
             stream.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError):
             pass  # 某些环境下流不支持 reconfigure，忽略即可
+
+    # 同日同时段去重：防止多个 cron 触发导致重复推送
+    if should_skip_session():
+        log.info("🎉 本次运行已跳过（同日同时段已完成推送）")
+        return
 
     # 加载跨天推送记录，用于去重
     sent_links = load_sent_links()
