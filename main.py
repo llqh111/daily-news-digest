@@ -12,6 +12,7 @@ import sys
 import json
 import time
 import logging
+import argparse
 from datetime import datetime, timezone, timedelta, date
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -1344,6 +1345,10 @@ def send_failure_alert(error_msg: str, stage: str = "未知") -> None:
 # ═══════════════════════════════════════════════════
 
 def main():
+    parser = argparse.ArgumentParser(description="每日全球要闻推送")
+    parser.add_argument("--force", action="store_true", help="强制执行，跳过去重检查")
+    args = parser.parse_args()
+
     # 让控制台输出统一走 UTF-8，遇到无法显示的字符（如 emoji）就替换而非崩溃。
     # 主要是兼容 Windows 默认的 GBK 终端；Linux/GitHub Actions 本就是 UTF-8，无副作用。
     for stream in (sys.stdout, sys.stderr):
@@ -1353,7 +1358,7 @@ def main():
             pass  # 某些环境下流不支持 reconfigure，忽略即可
 
     # 同日同时段去重：防止多个 cron 触发导致重复推送
-    if should_skip_session():
+    if not args.force and should_skip_session():
         log.info("🎉 本次运行已跳过（同日同时段已完成推送）")
         return
 

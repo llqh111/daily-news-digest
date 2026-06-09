@@ -13,6 +13,12 @@ on:
     - cron: "15 12 * * *"  # 晚班再兜底
   # 也支持手动触发（在 GitHub 网页上点按钮）
   workflow_dispatch:
+    inputs:
+      force:
+        description: '强制执行（跳过去重检查）'
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -48,7 +54,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: 📰 运行每日简报
-        run: python main.py
+        run: |
+          if [ "${{ github.event.inputs.force }}" == "true" ] || [ "${{ github.event_name }}" == "workflow_dispatch" -a "${{ github.event.inputs.force }}" == "" ]; then
+            python main.py --force
+          else
+            python main.py
+          fi
 
       - name: 💾 提交推送记录（避免早晚报重复）
         run: |
