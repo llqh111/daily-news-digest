@@ -129,6 +129,7 @@ LOW_VALUE_KEYWORDS = [
     "recipe", "celebrity", "gossip", "royal", "horoscope", "fashion",
     "recap", "quiz", "best deals", "how to watch", "trailer",
     "tiktok", "viral video", "top 10", "unboxing", "reacts to",
+    "rumor", "leak", "analyst says", "spotted",
 ]
 
 # ═══════════════════════════════════════════════════
@@ -264,11 +265,13 @@ def save_sent_links(links: list[str]) -> None:
 
     # ── 写回 ──
     now = datetime.now(TZ)
-    current_session = "AM" if now.hour < 12 else "PM"
+    # 每天 04:00 - 15:59 视为 AM (早班)，16:00 - 03:59 视为 PM (晚班)
+    current_session = "AM" if 4 <= now.hour < 16 else "PM"
     data = {
         "updated": now.strftime("%Y-%m-%d %H:%M"),
         "retention_days": SENT_RETENTION_DAYS,
         "last_session": current_session,
+        "last_push_timestamp": now.timestamp(),
         "history": history,
     }
     try:
@@ -283,7 +286,8 @@ def save_sent_links(links: list[str]) -> None:
 def should_skip_session() -> bool:
     """检查今天同一时段是否已经推送过。防止多个 cron 触发导致重复推送。"""
     now = datetime.now(TZ)
-    current_session = "AM" if now.hour < 12 else "PM"
+    # 每天 04:00 - 15:59 视为 AM (早班)，16:00 - 03:59 视为 PM (晚班)
+    current_session = "AM" if 4 <= now.hour < 16 else "PM"
     today_str = now.strftime("%Y-%m-%d")
 
     if not os.path.exists(SENT_LOG_FILE):
@@ -292,6 +296,13 @@ def should_skip_session() -> bool:
     try:
         with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
+
+        # 检查时间戳：如果距离上次推送不到 3 小时，直接跳过（防 Github 延迟积压导致的连发）
+        last_ts = data.get("last_push_timestamp")
+        if last_ts is not None:
+            if now.timestamp() - last_ts < 3 * 3600:
+                log.info(f"⏭️ 距离上次推送不足 3 小时，跳过以防重复打扰。")
+                return True
 
         # 今天还没有推送记录 → 不跳过
         history = data.get("history", {})
@@ -790,30 +801,37 @@ def _build_system_prompt(is_batch: bool = False) -> str:
         "你是一位资深的中文财经科技新闻主编，每天为高知读者撰写一份深度『晨报』。\n"
         "你的风格像《财新》《FT中文网》：冷静专业，但敢下判断、点出影响与看点，不做无观点的复述。\n"
         "\n"
+        "【深度思考要求】\n"
+        "在输出正式内容前的思考过程（Chain of Thought）中，必须完成：\n"
+        "1. 交叉比对：核对各篇素材之间的数据是否冲突。\n"
+        "2. 过滤降噪：识别并剔除无意义的洋八卦或标题党信息。\n"
+        "3. 本土化视角：主动评估事件对中国市场、出海企业或国内特定供应链的潜在影响。\n"
+        "\n"
         "【怎么用素材——这条最重要】\n"
         "- 有【正文】的：通读后用自己的话写出来龙去脉，提炼正文里的关键事实、数据、人物、因果。\n"
         "- 只有【摘要】的：据实简写，明确不要脑补正文里没有的细节。\n"
         "- 严禁编造：人名、数字、引语、时间、因果，凡素材里没有的，一律不写。宁可短，不可假。\n"
-        "- 多数来源说法一致的优先采信；若素材间数据冲突，取多数来源说法并注明「多方数据有出入」。\n"
+        "- 若素材间数据冲突，取多数来源说法并注明「多方数据有出入」。\n"
         "- 仅单一来源的独家报道，在点评末尾注明「⚠️ 单一信源」。\n"
         "\n"
         "【每条新闻格式】\n"
         "**🔥/⭐ 中文标题**（🔥=被3+家报道/极高重要性 ⭐⭐⭐=必读 ⭐⭐=值得看 ⭐=速览）\n"
-        "3-5 句正文：交代背景、关键细节与数据、和它意味着什么。\n"
+        "- **【核心事实】**：1-2句话概括“发生了什么”及核心数据。\n"
+        "- **【深层逻辑】**：补充事件背后的关键动机、商业逻辑或争议点。\n"
+        "- **【后市/影响】**：主编判断。务必结合 Local Context，点明对国内市场、出海产业或宏观局势的潜在影响。\n"
         "信息密度标签：📖 深度（有完整正文）或 📡 快讯（仅摘要/参考源）\n"
-        "> 【点评】一句主编判断——影响、看点、或值得警惕之处。\n"
         "> 📰 来源：媒体名（原文链接）\n"
         "\n"
         "【要求】\n"
         "- 全程中文，专有名词首次出现可附英文原名。\n"
-        "- 点评要有信息增量和观点。\n"
+        "- 结构化输出必须严格保持，点评要有信息增量和观点。\n"
         "- 每条新闻末尾「📰 来源」必须写明媒体名和原文链接——不能省略。\n"
     )
 
     if is_batch:
         return (
             base
-            + "\n【任务】从下面这批新闻中挑出最重要、最有信息量的条目，按上述格式写成新闻简报。"
+            + "\n【任务】从下面这批新闻中挑出最重要、最有信息量的条目，按上述结构化格式写成新闻简报。"
               "不重要或过于琐碎的舍弃。只输出新闻条目，不要写导语和编辑手记。\n"
         )
     else:
@@ -829,18 +847,11 @@ def _build_system_prompt(is_batch: bool = False) -> str:
               "   ## 💻 科技与 AI\n"
               "   ## 💰 财经市场\n"
               "\n"
-              "3. 每条新闻按上述格式写。\n"
+              "3. 每条新闻严格按【核心事实】、【深层逻辑】、【后市/影响】的三段式结构写。\n"
               "\n"
               "4. 结尾『编辑手记 / 今日看点』（3-5 句）：串联今天的脉络，给出前瞻或提醒。\n"
               "\n"
-              "【事实核查与自我审计——写完必须执行】\n"
-              "在「编辑手记」之后，以代码块输出内部审计（简短即可）：\n"
-              "```\n"
-              "审计: 1.数字均来自素材? 2.无捏造引语? 3.因果均有支撑? 4.单一信源已标? 5.数据冲突已注? 6.热点未遗漏?\n"
-              "逐项答「通过」或列出问题。若发现问题，修正正文后再输出。\n"
-              "```\n"
-              "\n"
-              "【任务】我会给你一批已初筛的候选新闻（已按重要性排过序），请按要求精选并编成今天的深度晨报。"
+              "【任务】我会给你一批已初筛的候选新闻（已按重要性排过序），请你先在内部进行推理与事实审计，然后精选并编成今天的深度晨报。"
               "不重要、过于琐碎或纯软文的，果断舍弃，不要硬凑数量。\n"
         )
 

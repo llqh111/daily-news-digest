@@ -19,7 +19,7 @@ permissions:
 
 # 同一时段只允许一个 job 跑，防止多个 cron 同时触发导致重复推送
 concurrency:
-  group: digest-${{ github.event.schedule || github.run_id }}
+  group: digest-lock
   cancel-in-progress: false
 
 jobs:
