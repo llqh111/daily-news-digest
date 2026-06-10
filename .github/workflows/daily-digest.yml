@@ -53,6 +53,9 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: 🧪 运行单元测试（不过就不推送）
+        run: python -m pytest test_core.py -q
+
       - name: 📰 运行每日简报
         run: |
           if [ "${{ github.event.inputs.force }}" == "true" ] || [ "${{ github.event_name }}" == "workflow_dispatch" -a "${{ github.event.inputs.force }}" == "" ]; then
@@ -65,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sent_articles.json
+          git add sent_articles.json digests/
           if git diff --cached --quiet; then
             echo "推送记录无变化，跳过提交"
           else

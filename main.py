@@ -95,6 +95,32 @@ RSS_FEEDS = [
     {"name": "Wired", "url": "https://www.wired.com/feed/rss", "category": "科技"},
     {"name": "Bloomberg", "url": "https://news.google.com/rss/search?q=when:1d+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
     {"name": "36kr", "url": "https://36kr.com/feed", "category": "科技"},
+    # ── 第1层：一手信源 ──
+    {"name": "美联储新闻稿", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "category": "财经"},
+    {"name": "欧央行新闻稿", "url": "https://www.ecb.europa.eu/rss/press.html", "category": "财经"},
+    {"name": "SEC 新闻稿", "url": "https://www.sec.gov/news/pressreleases.rss", "category": "财经"},
+    {"name": "白宫公告", "url": "https://www.whitehouse.gov/presidential-actions/feed/", "category": "国际"},
+    {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "category": "科技", "max_items": 3},
+    {"name": "OpenAI 博客", "url": "https://openai.com/blog/rss.xml", "category": "科技", "max_items": 3},
+    {"name": "DeepMind 博客", "url": "https://deepmind.google/blog/rss.xml", "category": "科技", "max_items": 3},
+    {"name": "HuggingFace 博客", "url": "https://huggingface.co/blog/feed.xml", "category": "科技", "max_items": 3},
+    {"name": "英伟达博客", "url": "https://blogs.nvidia.com/feed/", "category": "科技"},
+    # ── 第2层：高密度垂直源 ──
+    {"name": "Stratechery", "url": "https://stratechery.com/feed/", "category": "科技"},
+    {"name": "SemiAnalysis", "url": "https://semianalysis.com/feed/", "category": "科技"},
+    {"name": "Import AI", "url": "https://importai.substack.com/feed", "category": "科技"},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "category": "科技"},
+    {"name": "Interconnects", "url": "https://www.interconnects.ai/feed", "category": "科技"},
+    {"name": "ChinaTalk", "url": "https://www.chinatalk.media/feed", "category": "国际"},
+    {"name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "category": "科技"},
+    # ── 第3层：社区信号 ──
+    {"name": "r/MachineLearning", "url": "https://www.reddit.com/r/MachineLearning/top/.rss?t=day", "category": "科技"},
+    {"name": "GitHub Trending", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml", "category": "科技"},
+    # ── 个人雷达专属源 ──
+    {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/feeds/all", "category": "科技"},
+    {"name": "Wccftech", "url": "https://wccftech.com/feed/", "category": "科技"},
+    {"name": "GameDeveloper", "url": "https://www.gamedeveloper.com/rss.xml", "category": "科技"},
+    {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "category": "科技", "max_items": 4},
 ]
 
 # ═══════════════════════════════════════════════════
@@ -133,6 +159,16 @@ LOW_VALUE_KEYWORDS = [
     "rumor", "leak", "analyst says", "spotted",
 ]
 
+# 个人雷达：读者私人关注领域，命中 +4（高于任何通用信号）
+PERSONAL_KEYWORDS = [
+    # 游戏 / MOD / 硬件
+    "steam", "valve", "unreal engine", "unity", "modding",
+    "rtx", "radeon", "dlss", "gpu price",
+    # AI 编程 / 开源模型
+    "claude code", "cursor", "copilot", "open source model",
+    "local llm", "ollama", "fine-tuning", "api price",
+]
+
 # ═══════════════════════════════════════════════════
 #  来源可信度分级（想调「更信哪家媒体」，改这里的数字）
 # ═══════════════════════════════════════════════════
@@ -167,6 +203,21 @@ SOURCE_TRUST = {
     "36kr": 1,
 }
 
+SOURCE_TRUST.update({
+    # 第1层 一手信源
+    "美联储新闻稿": 3, "欧央行新闻稿": 3, "SEC 新闻稿": 3, "白宫公告": 2,
+    "arXiv cs.AI": 3, "OpenAI 博客": 3, "DeepMind 博客": 3,
+    "HuggingFace 博客": 2, "英伟达博客": 2,
+    # 第2层 垂直分析
+    "Stratechery": 3, "SemiAnalysis": 3, "Import AI": 3, "Simon Willison": 2,
+    "Interconnects": 2, "ChinaTalk": 2, "Pragmatic Engineer": 2,
+    # 第3层 社区
+    "GitHub Trending": 1,  # HN/Reddit 已在原表或按默认
+    "r/MachineLearning": 2,
+    # 个人雷达游戏/硬件源（基础分低，靠 PERSONAL_KEYWORDS +4 拉起来）
+    "Tom's Hardware": 1, "Wccftech": 0, "GameDeveloper": 1, "PC Gamer": 0,
+})
+
 # 标题党 / 软文句式：标题命中其一就降权（-2）。用正则匹配。
 CLICKBAIT_PATTERNS = [
     r"\bhere'?s why\b",          # "Here's why ..."
@@ -178,6 +229,27 @@ CLICKBAIT_PATTERNS = [
     r"\bwe (tried|tested|ranked)\b",
     r"\?\s*$",                   # 整条标题以问号结尾，多半是钓鱼式标题党
 ]
+
+# ─ 关键词匹配优化：把三个关键词列表预编译成"整词"正则 ─
+# 旧实现用 `kw in text` 做子串匹配，会把：
+#   · "ai"  误命中 said / again / rain  (+1 噪声)
+#   · "war" 误命中 warning / award / software  (+3 噪声 ❗)
+#   · "ev"  误命中 every / even / level / never
+#   · "ban" 误命中 bank / urban；"oil" 误命中 boil / turmoil
+# 全部当成真信号加分。改用 \b 单词边界正则杜绝此类误匹配。
+# 性能：每条新闻打分时只需 3 次 regex.findall 而非 N 次 `in`。
+def _compile_keyword_pattern(keywords: list[str]) -> "re.Pattern[str]":
+    """把关键词列表编译成单个 \\b(kw1|kw2|...)\\b 正则（整词匹配，已含 IGNORECASE）。"""
+    if not keywords:
+        return re.compile(r"(?!)")  # 永不匹配的哨兵正则
+    escaped = "|".join(re.escape(kw) for kw in keywords)
+    return re.compile(rf"\b(?:{escaped})\b", re.IGNORECASE)
+
+
+_HIGH_SIGNAL_RE = _compile_keyword_pattern(HIGH_SIGNAL_KEYWORDS)
+_MEDIUM_SIGNAL_RE = _compile_keyword_pattern(MEDIUM_SIGNAL_KEYWORDS)
+_LOW_VALUE_RE = _compile_keyword_pattern(LOW_VALUE_KEYWORDS)
+_PERSONAL_RE = _compile_keyword_pattern(PERSONAL_KEYWORDS)
 
 # 去重用：记录已抓到的标题和链接
 SEEN_TITLES = set()
@@ -362,16 +434,12 @@ def score_importance(title: str, summary: str, published: datetime | None,
     text = f"{title} {summary}".lower()
     score = 0.0
 
-    # ① 关键词信号：命中高/中/负权重词就加减分
-    for kw in HIGH_SIGNAL_KEYWORDS:
-        if kw in text:
-            score += 3
-    for kw in MEDIUM_SIGNAL_KEYWORDS:
-        if kw in text:
-            score += 1
-    for kw in LOW_VALUE_KEYWORDS:
-        if kw in text:
-            score -= 2
+    # ① 关键词信号：命中高/中/负权重词就加减分（整词匹配，避免子串误命中）
+    # 语义：每个不同的关键词命中一次只算一次（与旧实现一致），所以用 set 去重。
+    score += 3 * len(set(_HIGH_SIGNAL_RE.findall(text)))
+    score += 1 * len(set(_MEDIUM_SIGNAL_RE.findall(text)))
+    score -= 2 * len(set(_LOW_VALUE_RE.findall(text)))
+    score += 4 * len(set(_PERSONAL_RE.findall(text)))
 
     # ② 新鲜度加成：越新的越加分（晨报要"及时"）
     if published is not None:
@@ -503,6 +571,9 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
         non_ref = [m for m in members if not m.get("reference")]
         rep = max(non_ref or members, key=lambda m: m["score"])
 
+        # 记录各家标题 (cluster_titles)
+        rep["cluster_titles"] = [f"{m['source']}: {m['title']}" for m in members if m != rep][:4]
+
         # 重要性 = 全簇最高分（哪怕来自参考源的权威报道）+ 多源印证加成
         best_score = max(m["score"] for m in members)
         extra_sources = size - 1
@@ -547,6 +618,34 @@ def enforce_category_balance(articles: list[dict], pool_size: int) -> list[dict]
     return top
 
 
+# 抓 RSS 源的超时（秒）和并发数。
+# 旧实现 feedparser.parse(url) 内部下载无超时，任一源挂起会拖死整个 job。
+FEED_FETCH_TIMEOUT = 15
+FEED_FETCH_WORKERS = 8
+
+
+def _fetch_feed_content(feed_info: dict) -> bytes | None:
+    """下载单个 RSS 源的原始字节。带超时 + UA，任何失败返回 None（绝不抛错）。
+
+    把"下载"和"解析"分离，使下载可以并发、解析保持串行——
+    解析阶段会写全局去重 set（SEEN_TITLES/SEEN_LINKS），串行才线程安全。
+    """
+    url = feed_info.get("url", "")
+    if not url:
+        return None
+    try:
+        resp = requests.get(
+            url,
+            timeout=FEED_FETCH_TIMEOUT,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; DailyDigestBot/1.0)"},
+        )
+        resp.raise_for_status()
+        return resp.content
+    except Exception as e:
+        log.warning(f"抓取失败 {feed_info.get('name', '?')}: {e}")
+        return None
+
+
 def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
     """抓取所有 RSS 源 → 时间窗口过滤 → 打分 → 同题聚类去重 → 取分数最高的一批候选"""
     if skip_links is None:
@@ -554,16 +653,27 @@ def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
     now_utc = datetime.now(timezone.utc)
     articles: list[dict] = []
 
-    for feed_info in RSS_FEEDS:
-        try:
-            feed = feedparser.parse(feed_info["url"])
-        except Exception as e:
-            log.warning(f"解析失败 {feed_info['name']}: {e}")
-            continue
+    # ── 并发下载所有源的原始内容（带超时），再串行解析 ──
+    # 用源在 RSS_FEEDS 中的下标做 key（name 理论上可能重名，下标绝不重复）。
+    contents: dict[int, bytes | None] = {}
+    with ThreadPoolExecutor(max_workers=FEED_FETCH_WORKERS) as pool:
+        future_map = {
+            pool.submit(_fetch_feed_content, fi): idx
+            for idx, fi in enumerate(RSS_FEEDS)
+        }
+        for fut in as_completed(future_map):
+            contents[future_map[fut]] = fut.result()
 
+    for idx, feed_info in enumerate(RSS_FEEDS):
+        raw = contents.get(idx)
+        if raw is None:
+            continue  # 下载失败/超时，已在 _fetch_feed_content 里记日志
+        feed = feedparser.parse(raw)
+
+        limit = feed_info.get("max_items", MAX_PER_FEED)
         count = 0
         for entry in feed.entries:
-            if count >= MAX_PER_FEED:
+            if count >= limit:
                 break
 
             title = entry.get("title", "").strip()
@@ -796,64 +906,101 @@ def build_factcheck_notes(articles: list[dict]) -> str:
 BATCH_SIZE = 7
 
 
+def load_recent_digests() -> str:
+    """读取最近的简报标题用于注入跨天上下文"""
+    if not os.path.exists("digests"):
+        return ""
+    files = sorted([f for f in os.listdir("digests") if f.endswith(".md")], reverse=True)[:3]
+    if not files:
+        return ""
+    
+    events = []
+    for fname in reversed(files): # 按时间正序
+        date_str = fname[:10]
+        with open(os.path.join("digests", fname), "r", encoding="utf-8") as f:
+            content = f.read()
+        titles = re.findall(r'\*\*[🔥⭐🎯📈].*?\*\*', content)
+        for t in titles:
+            events.append(f"- [{date_str}] {t.replace('**', '').strip()}")
+            
+    if not events:
+        return ""
+    return "## 近期已报道事件（用于判断\"进展\"，勿当新事件重写）\n" + "\n".join(events)
+
+
+def save_digest_markdown(content: str) -> None:
+    """保存最终的 Markdown 简报，用于跨天上下文注入"""
+    os.makedirs("digests", exist_ok=True)
+    now = datetime.now(TZ)
+    session = "AM" if 4 <= now.hour < 16 else "PM"
+    filename = now.strftime(f"%Y-%m-%d-{session}.md")
+    path = os.path.join("digests", filename)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+
 def _build_system_prompt(is_batch: bool = False) -> str:
     """构建系统提示词。is_batch=True 时省略「导语」和「编辑手记」——仅写新闻条目。"""
     base = (
-        "你是一位资深的中文财经科技新闻主编，每天为高知读者撰写一份深度『晨报』。\n"
-        "你的风格像《财新》《FT中文网》：冷静专业，但敢下判断、点出影响与看点，不做无观点的复述。\n"
+        "你是一位资深的中文财经科技新闻主编，每天为一位高知读者撰写深度『晨报』。\n"
+        "你的风格像《财新》《FT中文网》：冷静专业，敢下判断、点出影响与看点，绝不做无观点的复述。\n"
         "\n"
-        "【深度思考要求】\n"
-        "在输出正式内容前的思考过程（Chain of Thought）中，必须完成：\n"
-        "1. 交叉比对：核对各篇素材之间的数据是否冲突。\n"
-        "2. 过滤降噪：识别并剔除无意义的洋八卦或标题党信息。\n"
-        "3. 本土化视角：主动评估事件对中国市场、出海企业或国内特定供应链的潜在影响。\n"
+        "【读者画像——决定什么对他重要、影响该往哪落】\n"
+        "· 硬核 PC 游戏 / MOD 玩家：关注 Steam 与 Valve 动向、游戏引擎（Unreal/Unity）、显卡（RTX/Radeon/DLSS）与硬件价格。\n"
+        "· 正在学 AI 编程：关注大模型发布、开源模型、AI 编程工具（Claude Code/Cursor/Copilot）、API 价格与本地部署。\n"
+        "· 身处中国：所有国际/科技/财经事件都要主动评估「对中国市场、出海企业、国内供应链、本地玩家/开发者」的具体影响。\n"
+        "\n"
+        "【深度思考要求（在正式输出前的内部推理中完成）】\n"
+        "1. 交叉比对：核对各篇素材之间的数据是否冲突，冲突时取多数或最权威来源并注明。\n"
+        "2. 过滤降噪：剔除洋八卦、标题党、纯软文，宁缺毋滥。\n"
+        "3. 连续性判断：对照我附上的「近期已报道事件清单」，判断今天哪些是旧事件的新进展。\n"
+        "4. 本土化与个人相关性：评估每条对「中国」和「上述读者画像」的具体意义。\n"
         "\n"
         "【怎么用素材——这条最重要】\n"
-        "- 有【正文】的：通读后用自己的话写出来龙去脉，提炼正文里的关键事实、数据、人物、因果。\n"
-        "- 只有【摘要】的：据实简写，明确不要脑补正文里没有的细节。\n"
-        "- 严禁编造：人名、数字、引语、时间、因果，凡素材里没有的，一律不写。宁可短，不可假。\n"
-        "- 若素材间数据冲突，取多数来源说法并注明「多方数据有出入」。\n"
-        "- 仅单一来源的独家报道，在点评末尾注明「⚠️ 单一信源」。\n"
+        "· 有【正文】的：通读后用自己的话写出来龙去脉，提炼关键事实、数据、人物、因果。\n"
+        "· 只有【摘要】的：据实简写，明确不脑补正文里没有的细节。\n"
+        "· 严禁编造：人名、数字、引语、时间、因果，凡素材没有的一律不写。宁可短，不可假。\n"
+        "· 看到「各家标题」列出多家媒体对同一事件的不同标题时：若措辞/归因/立场明显不同，在【深层逻辑】里点出\"谁在怎么说\"。\n"
+        "· 看到「近期已报道」清单中出现过的事件：以「📈 进展」开头，一句话交代\"此前→现在→变化意味着什么\"，不要当新事件从头讲。仅当确为同一事件时才这样做，不确定就当新事件。\n"
+        "· 看到「🎯 个人雷达命中」标记的条目：【后市/影响】必须落到对上述读者画像的具体影响（显卡价格、工具链变化、可上手的新东西、出海/合规影响），不许写泛泛的\"利好行业\"。\n"
         "\n"
-        "【每条新闻格式】\n"
-        "**🔥/⭐ 中文标题**（🔥=被3+家报道/极高重要性 ⭐⭐⭐=必读 ⭐⭐=值得看 ⭐=速览）\n"
-        "- **【核心事实】**：1-2句话概括“发生了什么”及核心数据。\n"
-        "- **【深层逻辑】**：补充事件背后的关键动机、商业逻辑或争议点。\n"
-        "- **【后市/影响】**：主编判断。务必结合 Local Context，点明对国内市场、出海产业或宏观局势的潜在影响。\n"
-        "信息密度标签：📖 深度（有完整正文）或 📡 快讯（仅摘要/参考源）\n"
-        "> 📰 来源：媒体名（原文链接）\n"
+        "【每条新闻的标记与格式】\n"
+        "标题行：**{重要性标记} {中文标题}**\n"
+        "　重要性标记规则（可叠加）：🔥=被3+家媒体报道或极高重要性；⭐⭐⭐=必读 / ⭐⭐=值得看 / ⭐=速览；\n"
+        "　　若命中个人雷达，标题再加 🎯；若是旧事件进展，标题再加 📈。\n"
+        "正文三段（严格保留小标题）：\n"
+        "- **【核心事实】**：1-2 句概括\"发生了什么\"及核心数据。\n"
+        "- **【深层逻辑】**：事件背后的动机/商业逻辑/争议点；多家框架不同处点出立场差异。\n"
+        "- **【后市/影响】**：主编判断。结合本土化视角与读者画像，点明对国内市场/出海产业/宏观/该读者的潜在影响。\n"
+        "信息密度标签：📖 深度（有完整正文）或 📡 快讯（仅摘要/参考源）。\n"
+        "末行来源（不可省略）：> 📰 来源：媒体名（原文链接）\n"
         "\n"
-        "【要求】\n"
-        "- 全程中文，专有名词首次出现可附英文原名。\n"
-        "- 结构化输出必须严格保持，点评要有信息增量和观点。\n"
-        "- 每条新闻末尾「📰 来源」必须写明媒体名和原文链接——不能省略。\n"
+        "【硬性要求】\n"
+        "· 全程中文，专有名词首次出现可附英文原名。\n"
+        "· 三段式结构严格保持，点评要有信息增量和观点。\n"
+        "· 每条「📰 来源」必须写明媒体名和原文链接，一条都不能省。\n"
+        "· 仅单一来源的独家报道，在点评末尾注明「⚠️ 单一信源」。\n"
     )
 
     if is_batch:
         return (
             base
-            + "\n【任务】从下面这批新闻中挑出最重要、最有信息量的条目，按上述结构化格式写成新闻简报。"
-              "不重要或过于琐碎的舍弃。只输出新闻条目，不要写导语和编辑手记。\n"
+            + "\n【任务】我会给你一批已初筛的候选新闻（已按重要性排序），请先在内部完成推理与事实审计，然后精选并编成今天的深度晨报。不重要、琐碎、纯软文的果断舍弃，不要硬凑数量。\n"
         )
     else:
         return (
             base
             + "\n【输出结构】用 Markdown：\n"
+              "1. 顶部『今日导语』（3-4 句）概括今天全球主线与基调，末尾加一行市场情绪温度计：🟢 风险偏好 / 🟡 谨慎观望 / 🔴 避险为主（三选一）。\n"
+              "2. 分三组（哪组没料就省略）：## 🌍 国际要闻 / ## 💻 科技与 AI / ## 💰 财经市场\n"
+              "3. 每条严格按【核心事实】【深层逻辑】【后市/影响】三段写。\n"
+              "4. 结尾『编辑手记 / 今日看点』（3-5 句）串联脉络，给出前瞻或提醒。\n"
+              "5. 最末加『自我审计』代码块，逐条回答：\n"
+              "   - 有无编造未在素材中出现的数字/人名/引语？（应为\"无\"）\n"
+              "   - 标 📈 进展的条目，是否确与「近期已报道」清单中同一事件？\n"
+              "   - 标 🎯 个人雷达的条目，影响是否落到了读者画像的具体层面？\n"
               "\n"
-              "1. 顶部『今日导语』（3-4 句）：概括今天全球最值得关注的主线与基调。\n"
-              "   导语末尾加一行「市场情绪」温度计：🟢 风险偏好 / 🟡 谨慎观望 / 🔴 避险为主（三选一）。\n"
-              "\n"
-              "2. 分三组（哪组没料就省略该组）：\n"
-              "   ## 🌍 国际要闻\n"
-              "   ## 💻 科技与 AI\n"
-              "   ## 💰 财经市场\n"
-              "\n"
-              "3. 每条新闻严格按【核心事实】、【深层逻辑】、【后市/影响】的三段式结构写。\n"
-              "\n"
-              "4. 结尾『编辑手记 / 今日看点』（3-5 句）：串联今天的脉络，给出前瞻或提醒。\n"
-              "\n"
-              "【任务】我会给你一批已初筛的候选新闻（已按重要性排过序），请你先在内部进行推理与事实审计，然后精选并编成今天的深度晨报。"
-              "不重要、过于琐碎或纯软文的，果断舍弃，不要硬凑数量。\n"
+              "【任务】我会给你一批已初筛的候选新闻（已按重要性排序），请先在内部完成推理与事实审计，然后精选并编成今天的深度晨报。不重要、琐碎、纯软文的果断舍弃，不要硬凑数量。\n"
         )
 
 
@@ -866,6 +1013,16 @@ def _articles_to_text(articles: list[dict]) -> str:
         cluster_size = art.get("cluster_size", 1)
         if cluster_size >= 2:
             p.append(f"   热度: 被 {cluster_size} 家媒体同时报道")
+
+        cluster_titles = art.get("cluster_titles", [])
+        if cluster_titles:
+            p.append(f"   各家标题: {' / '.join(cluster_titles)}")
+
+        # 个人雷达命中判断
+        text_to_check = f"{art['title']} {art.get('summary', '')}".lower()
+        hits = set(_PERSONAL_RE.findall(text_to_check))
+        if hits:
+            p.append(f"   🎯 个人雷达命中: {', '.join(hits)}")
 
         fulltext = art.get("fulltext", "")
         if fulltext:
@@ -971,15 +1128,22 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
         log.info(f"发送 {n} 条候选到 DeepSeek（单批）...")
         system_prompt = _build_system_prompt(is_batch=False)
         articles_text = _articles_to_text(articles)
+        
+        recent_digests = load_recent_digests()
+        
         factcheck_notes = build_factcheck_notes(articles)
         if factcheck_notes:
             articles_text = articles_text + "\n\n---\n\n" + factcheck_notes
+            
         user_prompt = (
             f"今天是 {today_str}。以下是已初筛的候选新闻（共 {n} 条），"
             f"请按要求精选并编成今天的深度晨报。"
-            f"每条新闻末尾务必附上「📰 来源：媒体名（原文链接）」。"
-            f"\n\n{articles_text}"
+            f"每条新闻末尾务必附上「📰 来源：媒体名（原文链接）」。\n"
         )
+        if recent_digests:
+            user_prompt += f"\n{recent_digests}\n"
+        user_prompt += f"\n{articles_text}"
+        
         data = _call_deepseek_once(system_prompt, user_prompt)
         content = data["choices"][0]["message"]["content"]
         log.info(f"DeepSeek 返回 {len(content)} 字")
@@ -999,9 +1163,13 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
         user_prompt = (
             f"今天是 {today_str}。以下是今天新闻的第 {bi} 批（共 {len(batch)} 条），"
             f"请精选最重要的条目，按格式写成新闻简报。只输出新闻条目，不要导语和编辑手记。"
-            f"每条末尾附「📰 来源：媒体名（原文链接）」。"
-            f"\n\n{articles_text}"
+            f"每条末尾附「📰 来源：媒体名（原文链接）」。\n"
         )
+        
+        recent_digests = load_recent_digests()
+        if recent_digests:
+            user_prompt += f"\n{recent_digests}\n"
+        user_prompt += f"\n{articles_text}"
 
         data = _call_deepseek_once(system_prompt, user_prompt, max_tokens=3000)
         text = data["choices"][0]["message"]["content"]
@@ -1101,15 +1269,23 @@ def sanity_check_output(content: str) -> list[str]:
     source_count = len(re.findall(r'📰\s*来源', content))
     if source_count < 8:
         warnings.append(f"来源标注仅 {source_count} 条（期望 ≥15，AI 可能省略了来源链接）")
+        
+    # 6. 检查进展比例
+    progress = len(re.findall(r'📈', content))
+    total_items = source_count or 1
+    if progress / total_items > 0.5:
+        warnings.append(f"📈进展条目占比 {progress}/{total_items} 过半，疑似误接旧事件")
 
     return warnings
 
 
-def push_to_wechat(content: str, sendkeys: list[str]):
+def push_to_wechat(content: str, sendkeys: list[str]) -> int:
     """通过 Server酱 把内容推送到微信（支持多个 SendKey，每人一个）。
 
     内置 3 次重试（指数退避），应对 GitHub Actions 海外 runner 连接国内
     Server酱时偶发的 Connection reset / timeout。
+
+    返回成功送达的人数（0 = 全部失败）。调用方据此判断是否真正送达。
     """
     if not sendkeys:
         raise RuntimeError("❌ 没有设置 SERVERCHAN_SENDKEY，请检查 .env 文件")
@@ -1123,6 +1299,7 @@ def push_to_wechat(content: str, sendkeys: list[str]):
     today_str = datetime.now(TZ).strftime("%m/%d")
 
     failed = []
+    success_count = 0
     for i, key in enumerate(sendkeys):
         key = key.strip()
         if not key:
@@ -1166,14 +1343,18 @@ def push_to_wechat(content: str, sendkeys: list[str]):
                 failed.append(f"{label}: {e}")
                 break
 
+        if success:
+            success_count += 1
+
     if failed:
         log.warning(f"部分推送失败 ({len(failed)}/{len(sendkeys)}): {'; '.join(failed)}")
     else:
         log.info(f"🎉 全部推送成功（共 {len(sendkeys)} 人）")
+    return success_count
 
 
-def push_to_telegram(content: str):
-    """通过 Telegram Bot 推送简报。
+def push_to_telegram(content: str) -> bool | None:
+    """通过 Telegram Bot 推送简报。返回 True=全部成功 / False=有段失败 / None=未配置。
 
     Telegram 单条消息上限 4096 字符，晨报通常远超此值 → 按段落边界
     自动分段，每段 ≤ 3500 字符（留安全余量）。多段顺序发送，每段
@@ -1181,7 +1362,7 @@ def push_to_telegram(content: str):
     """
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         log.info("📱 Telegram 未配置，跳过")
-        return
+        return None  # None = 跳过（未配置），区别于 False = 配置了但发送失败
 
     MAX_CHUNK = 3500  # 留余量给标题行和分段标记
     TG_RETRYABLE = (
@@ -1213,6 +1394,7 @@ def push_to_telegram(content: str):
     total = len(chunks)
     log.info(f"📱 Telegram 推送（共 {total} 段）...")
 
+    all_ok = True
     for idx, chunk in enumerate(chunks, 1):
         if total > 1:
             header = f"📰 每日全球要闻 ({idx}/{total})\n\n"
@@ -1220,6 +1402,7 @@ def push_to_telegram(content: str):
             header = ""
         text = header + chunk
 
+        sent = False
         for attempt in range(1, TG_MAX_RETRIES + 1):
             try:
                 resp = requests.post(
@@ -1233,6 +1416,7 @@ def push_to_telegram(content: str):
                 result = resp.json()
                 if result.get("ok"):
                     log.info(f"✅ Telegram ({idx}/{total}) 推送成功")
+                    sent = True
                     break
                 else:
                     log.error(
@@ -1240,13 +1424,11 @@ def push_to_telegram(content: str):
                         f"{result.get('description', result)}"
                     )
                     if attempt == TG_MAX_RETRIES:
-                        raise RuntimeError(
-                            f"Telegram API 返回错误: {result.get('description')}"
-                        )
+                        break  # 重试到顶仍失败，放弃该段（由 all_ok 汇总，不再 raise）
             except TG_RETRYABLE as e:
                 if attempt == TG_MAX_RETRIES:
                     log.error(f"❌ Telegram ({idx}/{total}) 推送异常: {e}")
-                    raise
+                    break  # 不再 raise，交给 all_ok 统一裁决
                 wait = 5 * (2 ** (attempt - 1))
                 log.warning(
                     f"⚠️ Telegram ({idx}/{total}) 推送失败 "
@@ -1254,10 +1436,17 @@ def push_to_telegram(content: str):
                 )
                 time.sleep(wait)
 
+        if not sent:
+            all_ok = False
+
         if idx < total:
             time.sleep(0.5)  # 段间短暂间隔，避免 Telegram 限速
 
-    log.info("🎉 Telegram 全部推送成功")
+    if all_ok:
+        log.info("🎉 Telegram 全部推送成功")
+    else:
+        log.warning("⚠️ Telegram 有段落推送失败")
+    return all_ok
 
 
 # ═══════════════════════════════════════════════════
@@ -1340,6 +1529,18 @@ def send_failure_alert(error_msg: str, stage: str = "未知") -> None:
     log.info(f"失败告警发送完成: {_send_alert_summary(failed)}")
 
 
+def any_delivered(wechat_ok: int, tg_ok: bool | None) -> bool:
+    """是否至少有一个推送渠道成功送达。
+
+    用于决定「能否保存去重记录」：只有真正送达，才把这批链接标记已推送；
+    否则全部失败时不保存，确保下次还能重试，不让简报静默丢失。
+
+    · wechat_ok: Server酱成功送达的人数（0 = 全失败或未配置）
+    · tg_ok:     Telegram 结果（True=成功 / False=失败 / None=未配置）
+    """
+    return wechat_ok > 0 or tg_ok is True
+
+
 # ═══════════════════════════════════════════════════
 #  主流程
 # ═══════════════════════════════════════════════════
@@ -1382,19 +1583,32 @@ def main():
 
         # ── 多渠道推送 ──────────────────────────────────
         # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
+        wechat_ok = 0
         if SERVERCHAN_SENDKEY:
             sendkeys = [k.strip() for k in SERVERCHAN_SENDKEY.split(",") if k.strip()]
             log.info(f"📲 推送到微信 Server酱（共 {len(sendkeys)} 人）...")
-            push_to_wechat(summary, sendkeys)
+            wechat_ok = push_to_wechat(summary, sendkeys)
         else:
             log.info("📲 Server酱 未配置，跳过微信推送")
 
         # Telegram：海外 runner 直连，不受 GFW 影响
-        push_to_telegram(summary)
+        tg_ok = push_to_telegram(summary)
+
+        # ── 送达判定 ──────────────────────────────────
+        # 只有至少一个渠道成功送达，才保存去重记录；全部失败则抛错，
+        # 触发失败告警且【不】保存——确保这批新闻下次还能重试，不被永久跳过。
+        if not any_delivered(wechat_ok, tg_ok):
+            raise RuntimeError(
+                "所有推送渠道均失败（微信全部失败，Telegram 失败或未配置）——"
+                "本次简报未送达，已跳过保存推送记录以便下次重试"
+            )
 
         # 保存本次候选链接，跨天去重
         candidate_links = [a["link"] for a in articles if a.get("link")]
         save_sent_links(candidate_links)
+        
+        # 存档最终生成的简报
+        save_digest_markdown(summary)
 
         log.info("=" * 50)
         log.info("🎉 全部完成！")
