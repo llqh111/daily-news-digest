@@ -1038,7 +1038,7 @@ def _articles_to_text(articles: list[dict]) -> str:
 
 
 def _call_deepseek_once(system_prompt: str, user_prompt: str,
-                        max_tokens: int = 3500) -> dict:
+                        max_tokens: int = 8000) -> dict:
     """单次调用 DeepSeek（流式 + 自动重试）。
     返回 {"choices": [{"message": {"content": ...}}], ...} 或抛异常。"""
     RETRYABLE = (
@@ -1171,7 +1171,7 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
             user_prompt += f"\n{recent_digests}\n"
         user_prompt += f"\n{articles_text}"
 
-        data = _call_deepseek_once(system_prompt, user_prompt, max_tokens=3000)
+        data = _call_deepseek_once(system_prompt, user_prompt, max_tokens=8000)
         text = data["choices"][0]["message"]["content"]
         log.info(f"  第 {bi} 批返回 {len(text)} 字")
         batch_outputs.append(text)
@@ -1212,7 +1212,7 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
     data = _call_deepseek_once(
         "你是资深新闻主编，负责为已写好的新闻简报补全导语和编辑手记。保持原文不变，只补充缺失部分。",
         merge_prompt,
-        max_tokens=4000,
+        max_tokens=8000,
     )
     final = data["choices"][0]["message"]["content"]
     log.info(f"合并后最终输出 {len(final)} 字")
