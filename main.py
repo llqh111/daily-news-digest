@@ -985,7 +985,12 @@ def _build_system_prompt(is_batch: bool = False) -> str:
     if is_batch:
         return (
             base
-            + "\n【任务】我会给你一批已初筛的候选新闻（已按重要性排序），请先在内部完成推理与事实审计，然后编成今天的深度晨报。除非是纯软文或毫无信息量的凑数内容，否则尽量保留，确保涵盖各大类别，不要过度删减。\n"
+            + "\n【输出结构】用 Markdown 严格按以下三大板块分类输出新闻（若某板块无新闻请省略标题）：\n"
+              "## 🌍 国际要闻\n"
+              "## 💻 科技与 AI\n"
+              "## 💰 财经市场\n"
+              "\n"
+              "【任务】我会给你一批候选新闻。请将它们按格式写成简报，并分类到上述三个板块下。绝对不要输出今日导语、编辑手记等其他内容！除非是纯软文或毫无信息量的凑数内容，否则尽量保留，不要过度删减。\n"
         )
     else:
         return (
@@ -1161,9 +1166,9 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
         articles_text = _articles_to_text(batch)
 
         user_prompt = (
-            f"今天是 {today_str}。以下是今天新闻的第 {bi} 批（共 {len(batch)} 条），"
-            f"请将这些条目按格式写成新闻简报。除非是纯广告或毫无意义的八卦，否则请尽量保留，不要过度删减（尤其是财经类条目）。只输出新闻条目，不要导语和编辑手记。"
-            f"每条末尾附「📰 来源：媒体名（原文链接）」。\n"
+            f"今天是 {today_str}。以下是今天新闻的第 {bi} 批（共 {len(batch)} 条）。\n"
+            f"请仔细阅读并将其分类输出（必须且只能放入 🌍 国际要闻、💻 科技与 AI、💰 财经市场 这三个标题下）。"
+            f"不要输出导语和编辑手记。每条末尾附「📰 来源：媒体名（原文链接）」。\n"
         )
         
         recent_digests = load_recent_digests()
@@ -1176,46 +1181,77 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
         log.info(f"  第 {bi} 批返回 {len(text)} 字")
         batch_outputs.append(text)
 
-    # ── 拼合：用一次短请求让 AI 补导语 + 编辑手记 + 审计 ──
-    all_news = "\n\n---\n\n".join(batch_outputs)
-    log.info(f"各批合计 {sum(len(o) for o in batch_outputs)} 字，准备拼合并补导语...")
+    # ── 拼合：用代码将各批次按板块归类 ──
+    sections_data = {"🌍 国际要闻": [], "💻 科技与 AI": [], "💰 财经市场": [], "未分类": []}
+    for text in batch_outputs:
+        current_sec = "未分类"
+        for line in text.split('\n'):
+            line_s = line.strip()
+            if "🌍 国际要闻" in line_s and line_s.startswith("##"):
+                current_sec = "🌍 国际要闻"
+            elif "💻 科技与 AI" in line_s and line_s.startswith("##"):
+                current_sec = "💻 科技与 AI"
+            elif "💰 财经市场" in line_s and line_s.startswith("##"):
+                current_sec = "💰 财经市场"
+            else:
+                sections_data[current_sec].append(line)
+                
+    grouped_parts = []
+    for sec in ["🌍 国际要闻", "💻 科技与 AI", "💰 财经市场", "未分类"]:
+        content = "\n".join(sections_data[sec]).strip()
+        if content:
+            if sec != "未分类":
+                grouped_parts.append(f"## {sec}\n{content}")
+            else:
+                grouped_parts.append(content)
+                
+    all_news = "\n\n".join(grouped_parts)
+    log.info(f"各批合计 {sum(len(o) for o in batch_outputs)} 字，已通过代码完成板块归类合并。准备补导语...")
 
     merge_prompt = (
-        "你是一位资深中文新闻主编。以下是将今天各批新闻汇总在一起的简报内容。\n"
-        "请为它补上结构并进行重排：\n"
-        "1. 顶部补写『今日导语』（3-4 句概括今天全球主线，末尾加市场情绪温度计）\n"
-        "2. 仔细阅读下面【新闻内容】中的所有新闻条目，将它们按主题分类，分别移动到 🌍 国际要闻、💻 科技与 AI、💰 财经市场 三个板块下。注意：必须保留所有原始新闻的格式和文字，绝对不要删减或遗漏任何一条新闻，只做搬运和分类。\n"
-        "3. 结尾补写『编辑手记 / 今日看点』（3-5 句串联脉络+前瞻）\n"
-        "4. 最末补写自我审计代码块\n"
+        "你是一位资深中文新闻主编。以下是我已经通过程序排版好的今天的新闻简报正文。\n"
+        "【任务】：请你仔细阅读这些新闻内容，然后专门为它写一段『今日导语』和一段『编辑手记 / 今日看点』，最后附上审计块。\n"
+        "【特别警告】：绝对不要重写、复述或包含任何新闻条目的正文内容！新闻正文我会在程序里自己插入。\n"
         "\n"
-        "新闻内容：\n\n"
+        "阅读材料：\n\n"
         f"{all_news}\n\n"
-        "请按以下结构输出完整晨报（Markdown）：\n"
+        "请按以下精确格式输出（其中 {{NEWS}} 是占位符，你必须原样输出这几个英文字母，不要替换成新闻内容！）：\n\n"
         "『今日导语』\n"
-        "（市场情绪）\n"
-        "## 🌍 国际要闻\n"
-        "（填入属于此分类的全部条目）\n"
-        "## 💻 科技与 AI\n"
-        "（填入属于此分类的全部条目）\n"
-        "## 💰 财经市场\n"
-        "（填入属于此分类的全部条目）\n"
+        "（3-4 句概括今天全球主线，末尾加市场情绪温度计）\n\n"
+        "{{NEWS}}\n\n"
         "『编辑手记 / 今日看点』\n"
-        "（审计代码块）\n"
+        "（3-5 句串联脉络+前瞻）\n\n"
+        "```自我审计\n"
+        "（逐条回答审计问题）\n"
+        "```\n"
     )
 
     # 事实核查笔记也在合并阶段注入
     factcheck_notes = build_factcheck_notes(articles)
     if factcheck_notes:
-        merge_prompt = merge_prompt + "\n\n---\n\n⚠️ 事实核查提醒：\n" + factcheck_notes
+        merge_prompt = merge_prompt + "\n\n---\n\n⚠️ 事前核查提醒，供参考撰写编辑手记：\n" + factcheck_notes
 
     log.info("  发送合并请求...")
     data = _call_deepseek_once(
-        "你是资深新闻主编，负责为已写好的新闻简报补全导语和编辑手记。保持原文不变，只补充缺失部分。",
+        "你是资深新闻主编，只需输出导语和结语。不要输出新闻正文，必须用 {{NEWS}} 占位符原样替代！",
         merge_prompt,
         max_tokens=8000,
     )
-    final = data["choices"][0]["message"]["content"]
-    log.info(f"合并后最终输出 {len(final)} 字")
+    final_output = data["choices"][0]["message"]["content"]
+    
+    # 用 Python 替换占位符，拼接最终内容
+    if "{{NEWS}}" in final_output:
+        final = final_output.replace("{{NEWS}}", all_news)
+    else:
+        # 如果 AI 漏写了占位符，做 fallback 追加在中间
+        log.warning("AI 合并输出漏写了占位符，采用后备方案拼接。")
+        parts = final_output.split("『编辑手记", 1)
+        if len(parts) == 2:
+            final = parts[0] + "\n\n" + all_news + "\n\n『编辑手记" + parts[1]
+        else:
+            final = final_output + "\n\n" + all_news
+
+    log.info(f"合并后最终成文 {len(final)} 字")
     _log_sanity(final)
     return final
 
