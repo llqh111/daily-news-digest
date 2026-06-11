@@ -469,8 +469,10 @@ class TestPushReturnValues:
 
     def test_telegram_unconfigured_returns_none(self, monkeypatch) -> None:
         """未配置 TG → 返回 None（表示'跳过'，不是'失败'）。"""
-        monkeypatch.setattr("main.TELEGRAM_BOT_TOKEN", "")
-        monkeypatch.setattr("main.TELEGRAM_CHAT_ID", "")
+        # push_to_telegram 读取 digest.push 的模块级变量——必须 patch 那里。
+        # patch "main.TELEGRAM_*" 只改 main 上的字符串副本，不影响真实行为。
+        monkeypatch.setattr("digest.push.TELEGRAM_BOT_TOKEN", "")
+        monkeypatch.setattr("digest.push.TELEGRAM_CHAT_ID", "")
         assert push_to_telegram("hi") is None
 
 

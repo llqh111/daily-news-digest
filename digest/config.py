@@ -1,0 +1,264 @@
+"""配置中心：RSS 源、关键词表、信任分、各种常量。
+
+设计原则：
+· 本模块只声明常量和"配置即数据"，不做 IO、不做副作用、不依赖其他业务模块。
+· 改这里 = 改"主编的口味"，不需要改任何业务逻辑。
+· 关键词正则在模块加载时一次性编译（_HIGH_SIGNAL_RE 等），全局复用。
+"""
+
+from __future__ import annotations
+
+import os
+import re
+from datetime import timezone, timedelta
+
+# ═══════════════════════════════════════════════════
+#  全局时区 / 路径
+# ═══════════════════════════════════════════════════
+
+# 北京时间
+TZ = timezone(timedelta(hours=8))
+
+# 已推送记录文件（避免早晚报重复 + 跨天去重）
+# 路径基于「项目根目录」而非本文件目录——本文件已挪到 digest/ 子包下。
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SENT_LOG_FILE = os.path.join(_PROJECT_ROOT, "sent_articles.json")
+
+# 跨天去重保留天数：超过这个天数的旧记录自动清理
+SENT_RETENTION_DAYS = 7
+
+# ═══════════════════════════════════════════════════
+#  抓取参数（想改新闻条数、时间窗口、并发，改这里）
+# ═══════════════════════════════════════════════════
+
+# 每个 RSS 源最多取几条（抓多一点，留给后面筛选挑）
+MAX_PER_FEED = 8
+# 只保留多少小时内的新闻（晨报要新鲜，48h 给国际时差留余地）
+TIME_WINDOW_HOURS = 24
+# 聚类去重 + 打分后，留多少条「代表作」去抓正文全文交给 AI。
+# AI 会从这批里再精选 15-20 条，所以这个数要比最终条数大一些，给 AI 留挑选余地。
+CANDIDATE_POOL = 15
+# 分类均衡：每个分类至少保留 N 条，不足就补档该分类的次高分条目
+MIN_PER_CATEGORY = {"国际": 6, "科技": 4, "财经": 4}
+# 抓正文后，正文超过这个长度的条目额外加分（信息密度高）
+FULLTEXT_LENGTH_BONUS = 800  # 字符数阈值
+FULLTEXT_BONUS_SCORE = 1.5   # 超过阈值加的分
+# 抓正文时的并发数和单条超时（秒）。并发快但别太猛，免得被网站当攻击。
+FULLTEXT_WORKERS = 6
+FULLTEXT_TIMEOUT = 12
+# 喂给 AI 的正文最多保留多少字（控制 token 成本，1000 字够写深度了，想更省把数字改小）
+FULLTEXT_MAX_CHARS = 1000
+
+# 抓 RSS 源的超时（秒）和并发数。
+# 旧实现 feedparser.parse(url) 内部下载无超时，任一源挂起会拖死整个 job。
+FEED_FETCH_TIMEOUT = 15
+FEED_FETCH_WORKERS = 8
+
+# ── 分批阈值：每批最多发多少条给 DeepSeek ──
+# 太多条 → prompt 大 → 服务端超时掐断。拆成小批每批独立写，最后拼起来。
+BATCH_SIZE = 7
+
+# ═══════════════════════════════════════════════════
+#  RSS 新闻源（国际要闻 + 科技/AI + 财经市场）
+# ═══════════════════════════════════════════════════
+#
+# 关于 "reference": True ──────────────────────────────
+# 路透/AP/彭博这些顶级通讯社关闭了公开 RSS，只能走 Google News 代理，
+# 而 Google News 的链接是加密跳转、抓不到正文全文。所以把它们标成「参考源」：
+#   · 它们的报道只用来给新闻「投重要性票」（触发多源印证加分）
+#   · 同一件事若也被能抓全文的源报道，代表作优先用那条深度源
+#   · 只有某事仅被参考源报道时，才用它本身（浅，但重要的事不漏）
+# 没标 reference 的都是直连真 RSS，能抓全文、有完整深度。
+RSS_FEEDS = [
+    # ── 国际要闻 ──
+    {"name": "Reuters", "url": "https://news.google.com/rss/search?q=when:1d+site:reuters.com&hl=en-US&gl=US&ceid=US:en", "category": "国际", "reference": True},
+    {"name": "AP", "url": "https://news.google.com/rss/search?q=when:1d+site:apnews.com&hl=en-US&gl=US&ceid=US:en", "category": "国际", "reference": True},
+    {"name": "BBC World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "国际"},
+    {"name": "DW", "url": "https://rss.dw.com/xml/rss-en-world", "category": "国际"},
+    {"name": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar", "category": "国际"},
+    # ── 科技 / AI ──
+    {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "category": "科技"},
+    {"name": "Hacker News", "url": "https://hnrss.org/frontpage?points=100", "category": "科技"},
+    {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "category": "科技"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "category": "科技"},
+    # ── 财经市场 ──
+    {"name": "FT", "url": "https://www.ft.com/world?format=rss", "category": "财经"},
+    {"name": "Reuters Business", "url": "https://news.google.com/rss/search?q=when:1d+site:reuters.com+(markets+OR+economy+OR+stocks+OR+earnings)&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
+    {"name": "CNBC", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", "category": "财经"},
+    {"name": "CoinDesk", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "category": "财经"},
+    # ── 2026-06-07 新增补充源 ──
+    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "国际"},
+    {"name": "The Guardian", "url": "https://www.theguardian.com/world/rss", "category": "国际"},
+    {"name": "SCMP", "url": "https://www.scmp.com/rss/91/feed", "category": "国际"},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "category": "科技"},
+    {"name": "Wired", "url": "https://www.wired.com/feed/rss", "category": "科技"},
+    {"name": "Bloomberg", "url": "https://news.google.com/rss/search?q=when:1d+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
+    {"name": "36kr", "url": "https://36kr.com/feed", "category": "科技"},
+    # ── 第1层：一手信源 ──
+    {"name": "美联储新闻稿", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "category": "财经"},
+    {"name": "欧央行新闻稿", "url": "https://www.ecb.europa.eu/rss/press.html", "category": "财经"},
+    {"name": "SEC 新闻稿", "url": "https://www.sec.gov/news/pressreleases.rss", "category": "财经"},
+    {"name": "白宫公告", "url": "https://www.whitehouse.gov/presidential-actions/feed/", "category": "国际"},
+    {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "category": "科技", "max_items": 3},
+    {"name": "OpenAI 博客", "url": "https://openai.com/blog/rss.xml", "category": "科技", "max_items": 3},
+    {"name": "DeepMind 博客", "url": "https://deepmind.google/blog/rss.xml", "category": "科技", "max_items": 3},
+    {"name": "HuggingFace 博客", "url": "https://huggingface.co/blog/feed.xml", "category": "科技", "max_items": 3},
+    {"name": "英伟达博客", "url": "https://blogs.nvidia.com/feed/", "category": "科技"},
+    # ── 第2层：高密度垂直源 ──
+    {"name": "Stratechery", "url": "https://stratechery.com/feed/", "category": "科技"},
+    {"name": "SemiAnalysis", "url": "https://semianalysis.com/feed/", "category": "科技"},
+    {"name": "Import AI", "url": "https://importai.substack.com/feed", "category": "科技"},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "category": "科技"},
+    {"name": "Interconnects", "url": "https://www.interconnects.ai/feed", "category": "科技"},
+    {"name": "ChinaTalk", "url": "https://www.chinatalk.media/feed", "category": "国际"},
+    {"name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "category": "科技"},
+    # ── 第3层：社区信号 ──
+    {"name": "r/MachineLearning", "url": "https://www.reddit.com/r/MachineLearning/top/.rss?t=day", "category": "科技"},
+    {"name": "GitHub Trending", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml", "category": "科技"},
+    # ── 个人雷达专属源 ──
+    {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/feeds/all", "category": "科技"},
+    {"name": "Wccftech", "url": "https://wccftech.com/feed/", "category": "科技"},
+    {"name": "GameDeveloper", "url": "https://www.gamedeveloper.com/rss.xml", "category": "科技"},
+    {"name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "category": "科技", "max_items": 4},
+]
+
+# ═══════════════════════════════════════════════════
+#  重要性打分用的关键词表（想调"什么算重要新闻"，改这里）
+# ═══════════════════════════════════════════════════
+#
+# 思路：标题里出现这些"信号词"就加分，分数越高越可能进晨报。
+# 权重越大代表越重要。全部用小写，匹配时不区分大小写。
+#
+# 高权重（+3）：重大地缘 / 货币政策 / 头部科技公司动作
+HIGH_SIGNAL_KEYWORDS = [
+    # 地缘与重大事件
+    "war", "ceasefire", "invasion", "missile", "nuclear", "sanction",
+    "coup", "election", "summit", "crisis", "attack", "strike",
+    "earthquake", "typhoon", "flood", "wildfire", "protest", "crackdown",
+    # 货币政策与宏观
+    "fed", "rate cut", "rate hike", "inflation", "recession", "tariff",
+    "central bank", "gdp", "default", "stimulus", "layoff", "bankruptcy",
+    # 头部科技 / AI
+    "openai", "nvidia", "anthropic", "deepseek", "gpt", "chip ban",
+    "semiconductor", "breakthrough", "claude", "gemini", "llm", "agi",
+]
+# 中权重（+1）：常规但有价值的商业 / 科技 / 市场新闻
+MEDIUM_SIGNAL_KEYWORDS = [
+    "ai", "apple", "google", "microsoft", "amazon", "tesla", "meta",
+    "earnings", "ipo", "merger", "acquisition", "launch", "stocks",
+    "market", "oil", "gold", "bitcoin", "lawsuit", "deal", "ban",
+    "startup", "funding", "regulation", "antitrust",
+    "ev", "battery", "solar", "fusion", "quantum",
+]
+# 负权重（-2）：标题命中就降权（多半是软新闻 / 娱乐 / 凑数）
+LOW_VALUE_KEYWORDS = [
+    "recipe", "celebrity", "gossip", "royal", "horoscope", "fashion",
+    "recap", "quiz", "best deals", "how to watch", "trailer",
+    "tiktok", "viral video", "top 10", "unboxing", "reacts to",
+    "rumor", "leak", "analyst says", "spotted",
+]
+
+# 个人雷达：读者私人关注领域，命中 +4（高于任何通用信号）
+PERSONAL_KEYWORDS = [
+    # 游戏 / MOD / 硬件
+    "steam", "valve", "unreal engine", "unity", "modding",
+    "rtx", "radeon", "dlss", "gpu price",
+    # AI 编程 / 开源模型
+    "claude code", "cursor", "copilot", "open source model",
+    "local llm", "ollama", "fine-tuning", "api price",
+]
+
+# ═══════════════════════════════════════════════════
+#  来源可信度分级（想调「更信哪家媒体」，改这里的数字）
+# ═══════════════════════════════════════════════════
+#
+# 思路：硬新闻、调查能力强的源加分；聚合/快讯类给 0 或降权。
+# 这是「主编的口味」，没有标准答案——下面是一套默认值，你随时改数字即可。
+# key 要和上面 RSS_FEEDS 里的 name 完全一致；没列到的源默认 0 分。
+SOURCE_TRUST = {
+    # ── 国际：一线通讯社 / 硬新闻（+2），日经亚洲（+1）──
+    "Reuters": 2,
+    "AP": 2,
+    "BBC World": 2,
+    "DW": 2,
+    "Nikkei Asia": 1,
+    # ── 科技：MIT/HN 顶级（+2），Ars/Verge 专业（+1）──
+    "MIT Tech Review": 2,
+    "Hacker News": 2,
+    "Ars Technica": 1,
+    "The Verge": 1,
+    # ── 财经：FT/路透财经（+2），CNBC/CoinDesk（+1）──
+    "FT": 2,
+    "Reuters Business": 2,
+    "CNBC": 1,
+    "CoinDesk": 1,
+    # ── 2026-06-07 新增源 ──
+    "Al Jazeera": 2,
+    "The Guardian": 2,
+    "SCMP": 1,
+    "TechCrunch": 1,
+    "Wired": 1,
+    "Bloomberg": 2,
+    "36kr": 1,
+}
+
+SOURCE_TRUST.update({
+    # 第1层 一手信源
+    "美联储新闻稿": 3, "欧央行新闻稿": 3, "SEC 新闻稿": 3, "白宫公告": 2,
+    "arXiv cs.AI": 3, "OpenAI 博客": 3, "DeepMind 博客": 3,
+    "HuggingFace 博客": 2, "英伟达博客": 2,
+    # 第2层 垂直分析
+    "Stratechery": 3, "SemiAnalysis": 3, "Import AI": 3, "Simon Willison": 2,
+    "Interconnects": 2, "ChinaTalk": 2, "Pragmatic Engineer": 2,
+    # 第3层 社区
+    "GitHub Trending": 1,  # HN/Reddit 已在原表或按默认
+    "r/MachineLearning": 2,
+    # 个人雷达游戏/硬件源（基础分低，靠 PERSONAL_KEYWORDS +4 拉起来）
+    "Tom's Hardware": 1, "Wccftech": 0, "GameDeveloper": 1, "PC Gamer": 0,
+})
+
+# 标题党 / 软文句式：标题命中其一就降权（-2）。用正则匹配。
+CLICKBAIT_PATTERNS = [
+    r"\bhere'?s why\b",          # "Here's why ..."
+    r"\bhere'?s what\b",         # "Here's what ..."
+    r"^\d+\s+(things|ways|reasons|signs)\b",   # "7 things you should..."
+    r"\byou (won'?t|wont) believe\b",
+    r"\bthis is (why|how|what)\b",
+    r"\bwhat to know\b",
+    r"\bwe (tried|tested|ranked)\b",
+    r"\?\s*$",                   # 整条标题以问号结尾，多半是钓鱼式标题党
+]
+
+# ═══════════════════════════════════════════════════
+#  关键词正则预编译（性能 + 防子串误命中）
+# ═══════════════════════════════════════════════════
+#
+# 旧实现用 `kw in text` 做子串匹配，会把：
+#   · "ai"  误命中 said / again / rain  (+1 噪声)
+#   · "war" 误命中 warning / award / software  (+3 噪声 ❗)
+#   · "ev"  误命中 every / even / level / never
+#   · "ban" 误命中 bank / urban；"oil" 误命中 boil / turmoil
+# 全部当成真信号加分。改用 \b 单词边界正则杜绝此类误匹配。
+# 性能：每条新闻打分时只需 3 次 regex.findall 而非 N 次 `in`。
+def _compile_keyword_pattern(keywords: list[str]) -> "re.Pattern[str]":
+    """把关键词列表编译成单个 \\b(kw1|kw2|...)\\b 正则（整词匹配，已含 IGNORECASE）。"""
+    if not keywords:
+        return re.compile(r"(?!)")  # 永不匹配的哨兵正则
+    escaped = "|".join(re.escape(kw) for kw in keywords)
+    return re.compile(rf"\b(?:{escaped})\b", re.IGNORECASE)
+
+
+_HIGH_SIGNAL_RE = _compile_keyword_pattern(HIGH_SIGNAL_KEYWORDS)
+_MEDIUM_SIGNAL_RE = _compile_keyword_pattern(MEDIUM_SIGNAL_KEYWORDS)
+_LOW_VALUE_RE = _compile_keyword_pattern(LOW_VALUE_KEYWORDS)
+_PERSONAL_RE = _compile_keyword_pattern(PERSONAL_KEYWORDS)
+
+# ═══════════════════════════════════════════════════
+#  聚类用的高频虚词（这些词到处都是，不能用来判断「是否同一件事」）
+# ═══════════════════════════════════════════════════
+TITLE_STOPWORDS = {
+    "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "at", "by",
+    "with", "from", "as", "is", "are", "was", "were", "be", "been", "will",
+    "says", "after", "over", "amid", "into", "out", "up", "new", "us", "uk",
+    "report", "live", "news", "video", "watch", "update", "latest",
+}
