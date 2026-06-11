@@ -432,6 +432,90 @@ class TestDeliveryDecision:
         assert any_delivered(0, True) is True
 
 
+class TestWechatLongContentSplitting:
+    """微信内容超过 Server酱 32KB 上限时应自动分段发多条。
+
+    历史 bug：push_to_wechat 把整包内容一次性 POST，无任何长度处理。
+    「保证不截断」更新后正文涨到 ~33KB（中文 UTF-8 每字 3 字节），
+    超过 Server酱 desp 32KB 上限 → 网关在上传途中重置 TCP 连接，
+    表现为 ConnectionResetError(104, 'Connection reset by peer')，重试 3 次
+    全失败。Telegram 因有分段逻辑（按 3500 字符切）不受影响。
+    修复：微信同样按 UTF-8 字节上限分段，每段独立发送。
+    """
+
+    def test_long_content_split_into_multiple_posts(self, monkeypatch) -> None:
+        """超过 32KB 的内容应拆成多条 POST，每条 desp 都在字节上限内。"""
+        captured_desps: list[str] = []
+
+        class FakeResp:
+            def json(self):
+                return {"code": 0}
+
+        def fake_post(url, **kwargs):
+            captured_desps.append(kwargs["data"]["desp"])
+            return FakeResp()
+
+        monkeypatch.setattr("main.requests.post", fake_post)
+        monkeypatch.setattr("main.time.sleep", lambda *a, **k: None)
+
+        # 每段 11 个中文字 ×3 字节 ×200 ≈ 6.6KB，8 段 ≈ 52KB，远超 32KB
+        para = "这是一段测试新闻内容。" * 200
+        long_content = "\n\n".join([para] * 8)
+        assert len(long_content.encode("utf-8")) > 32 * 1024  # 前提：确实超限
+
+        n = push_to_wechat(long_content, ["onlykey"])
+
+        assert n == 1, "单个 key 全部段落发成功 → 计 1 人"
+        assert len(captured_desps) >= 2, (
+            f"超长内容应拆成多条，实际只发了 {len(captured_desps)} 条"
+        )
+        for d in captured_desps:
+            assert len(d.encode("utf-8")) <= 32 * 1024, (
+                f"每条 desp 必须 ≤32KB，实际 {len(d.encode('utf-8'))} 字节"
+            )
+
+    def test_short_content_still_single_post(self, monkeypatch) -> None:
+        """普通短内容仍只发 1 条（不回归，保持原行为）。"""
+        posts: list[dict] = []
+
+        class FakeResp:
+            def json(self):
+                return {"code": 0}
+
+        def fake_post(url, **kwargs):
+            posts.append(kwargs)
+            return FakeResp()
+
+        monkeypatch.setattr("main.requests.post", fake_post)
+        monkeypatch.setattr("main.time.sleep", lambda *a, **k: None)
+        push_to_wechat("今天的简短新闻", ["k"])
+        assert len(posts) == 1, f"短内容应只发 1 条，实际 {len(posts)} 条"
+
+    def test_one_chunk_fails_recipient_not_counted(self, monkeypatch) -> None:
+        """多段中有一段最终失败 → 该收件人不计成功（返回 0）。"""
+        calls = {"n": 0}
+
+        class FakeResp:
+            def __init__(self, code):
+                self._code = code
+
+            def json(self):
+                return {"code": self._code}
+
+        def fake_post(url, **kwargs):
+            calls["n"] += 1
+            # 第 2 条业务失败（code 500），其余成功
+            return FakeResp(0 if calls["n"] != 2 else 500)
+
+        monkeypatch.setattr("main.requests.post", fake_post)
+        monkeypatch.setattr("main.time.sleep", lambda *a, **k: None)
+
+        para = "测试内容内容内容内容。" * 200
+        long_content = "\n\n".join([para] * 8)
+        n = push_to_wechat(long_content, ["k"])
+        assert n == 0, "有一段失败，该收件人不应算成功"
+
+
 class TestPushReturnValues:
     """push_to_wechat / push_to_telegram 的返回值契约（mock 网络）。"""
 

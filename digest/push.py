@@ -30,78 +30,159 @@ SERVERCHAN_SENDKEY = os.getenv("SERVERCHAN_SENDKEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
+# Server酱 desp 内容字段官方上限 32KB（按 UTF-8 字节算）。中文每字 3 字节、
+# emoji 4 字节，整包超限时网关会在上传途中重置 TCP 连接，表现为
+# ConnectionResetError(104)。留约 1.7KB 余量给分段头与 markdown 转义。
+SERVERCHAN_MAX_BYTES = 31000
 
-def push_to_wechat(content: str, sendkeys: list[str]) -> int:
-    """通过 Server酱 把内容推送到微信（支持多个 SendKey，每人一个）。
 
-    内置 3 次重试（指数退避），应对 GitHub Actions 海外 runner 连接国内
-    Server酱时偶发的 Connection reset / timeout。
+def _utf8_len(s: str) -> int:
+    """返回字符串的 UTF-8 字节长度（Server酱 按字节计长度）。"""
+    return len(s.encode("utf-8"))
 
-    返回成功送达的人数（0 = 全部失败）。调用方据此判断是否真正送达。
+
+def _hard_split_by_bytes(text: str, max_bytes: int) -> list[str]:
+    """逐字符累加切分，保证每段 UTF-8 字节数 ≤ max_bytes。
+
+    逐「字符」而非逐「字节」累加，绝不会在一个多字节字符中间切断
+    （否则会产生乱码 �）。用于单个段落本身就超限的兜底场景。
     """
-    if not sendkeys:
-        raise RuntimeError("❌ 没有设置 SERVERCHAN_SENDKEY，请检查 .env 文件")
+    chunks: list[str] = []
+    buf = ""
+    buf_bytes = 0
+    for ch in text:
+        cb = _utf8_len(ch)
+        if buf and buf_bytes + cb > max_bytes:
+            chunks.append(buf)
+            buf, buf_bytes = ch, cb
+        else:
+            buf += ch
+            buf_bytes += cb
+    if buf:
+        chunks.append(buf)
+    return chunks
 
+
+def _split_by_bytes(content: str, max_bytes: int) -> list[str]:
+    """把内容按 UTF-8 字节上限切分，优先在段落边界（空行）切。
+
+    · 整体不超限 → 原样返回单段（与历史行为一致，不影响普通短简报）
+    · 超限 → 按 \\n\\n 段落累加，单段超限时退化为 _hard_split_by_bytes
+    返回至少 1 段。
+    """
+    if _utf8_len(content) <= max_bytes:
+        return [content]
+
+    chunks: list[str] = []
+    current = ""
+    for para in content.split("\n\n"):
+        candidate = f"{current}\n\n{para}" if current else para
+        if _utf8_len(candidate) <= max_bytes:
+            current = candidate
+            continue
+        if current:
+            chunks.append(current)
+            current = ""
+        if _utf8_len(para) > max_bytes:
+            chunks.extend(_hard_split_by_bytes(para, max_bytes))
+        else:
+            current = para
+    if current:
+        chunks.append(current)
+    return chunks or [content]
+
+
+def _serverchan_send_chunk(
+    key: str, title: str, desp: str, label: str, failed: list[str]
+) -> bool:
+    """向 Server酱 发送单段内容，内置 3 次指数退避重试。
+
+    返回是否成功送达。失败时把原因记入 failed 列表（不抛异常）。
+    应对 GitHub Actions 海外 runner 连接国内 Server酱 偶发的
+    Connection reset / timeout。
+    """
     RETRYABLE = (
         requests.exceptions.ConnectionError,
         requests.exceptions.Timeout,
     )
     MAX_RETRIES = 3
 
-    today_str = datetime.now(TZ).strftime("%m/%d")
-
-    failed = []
-    success_count = 0
-    for i, key in enumerate(sendkeys):
-        key = key.strip()
-        if not key:
-            continue
-        label = f"收件人{i+1}" if len(sendkeys) > 1 else "微信"
-
-        success = False
-        for attempt in range(1, MAX_RETRIES + 1):
-            try:
-                log.info(f"正在推送到 {label} (Server酱) ... 第 {attempt}/{MAX_RETRIES} 次")
-                resp = requests.post(
-                    f"https://sctapi.ftqq.com/{key}.send",
-                    data={
-                        "title": f"📰 每日全球要闻 — {today_str}",
-                        "desp": content,
-                    },
-                    timeout=30,
-                )
-                result = resp.json()
-                if result.get("code") == 0:
-                    log.info(f"✅ {label} 推送成功！")
-                    success = True
-                    break
-                else:
-                    log.error(f"❌ {label} 推送失败: {result}")
-                    failed.append(f"{label}: {result}")
-                    break  # 业务错误不重试
-            except RETRYABLE as e:
-                if attempt == MAX_RETRIES:
-                    log.error(f"❌ {label} 推送异常（已重试 {MAX_RETRIES} 次）: {e}")
-                    failed.append(f"{label}: {e}")
-                else:
-                    wait = 5 * (2 ** (attempt - 1))
-                    log.warning(
-                        f"⚠️ {label} 推送失败（{type(e).__name__}），"
-                        f"{wait}s 后重试..."
-                    )
-                    time.sleep(wait)
-            except Exception as e:
-                log.error(f"❌ {label} 推送异常（非网络错误，不重试）: {e}")
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            log.info(f"正在推送到 {label} (Server酱) ... 第 {attempt}/{MAX_RETRIES} 次")
+            resp = requests.post(
+                f"https://sctapi.ftqq.com/{key}.send",
+                data={"title": title, "desp": desp},
+                timeout=30,
+            )
+            result = resp.json()
+            if result.get("code") == 0:
+                log.info(f"✅ {label} 推送成功！")
+                return True
+            log.error(f"❌ {label} 推送失败: {result}")
+            failed.append(f"{label}: {result}")
+            return False  # 业务错误不重试
+        except RETRYABLE as e:
+            if attempt == MAX_RETRIES:
+                log.error(f"❌ {label} 推送异常（已重试 {MAX_RETRIES} 次）: {e}")
                 failed.append(f"{label}: {e}")
-                break
+            else:
+                wait = 5 * (2 ** (attempt - 1))
+                log.warning(
+                    f"⚠️ {label} 推送失败（{type(e).__name__}），{wait}s 后重试..."
+                )
+                time.sleep(wait)
+        except Exception as e:
+            log.error(f"❌ {label} 推送异常（非网络错误，不重试）: {e}")
+            failed.append(f"{label}: {e}")
+            return False
+    return False
 
-        if success:
+
+def push_to_wechat(content: str, sendkeys: list[str]) -> int:
+    """通过 Server酱 把内容推送到微信（支持多个 SendKey，每人一个）。
+
+    Server酱 desp 上限 32KB（按 UTF-8 字节）。超限时整包 POST 会被网关
+    重置连接（ConnectionResetError）。这里按字节自动分段，每段 ≤32KB
+    独立发送、各自 3 次重试——保证完整内容不被截断、不静默丢失。
+
+    返回成功送达的人数（0 = 全部失败）。某收件人的任一分段失败即视为
+    该人未送达。调用方据此判断是否真正送达。
+    """
+    if not sendkeys:
+        raise RuntimeError("❌ 没有设置 SERVERCHAN_SENDKEY，请检查 .env 文件")
+
+    today_str = datetime.now(TZ).strftime("%m/%d")
+    chunks = _split_by_bytes(content, SERVERCHAN_MAX_BYTES)
+    total = len(chunks)
+
+    failed: list[str] = []
+    success_count = 0
+    valid_keys = [k.strip() for k in sendkeys if k.strip()]
+    for i, key in enumerate(valid_keys):
+        base_label = f"收件人{i+1}" if len(valid_keys) > 1 else "微信"
+
+        recipient_ok = True
+        for idx, chunk in enumerate(chunks, 1):
+            label = base_label if total == 1 else f"{base_label}({idx}/{total})"
+            title = f"📰 每日全球要闻 — {today_str}"
+            if total > 1:
+                title += f"（{idx}/{total}）"  # title 上限 32 字符，加标记仍很短
+            if not _serverchan_send_chunk(key, title, chunk, label, failed):
+                recipient_ok = False
+                break  # 一段失败即放弃该人后续分段，避免浪费与误导
+            if idx < total:
+                time.sleep(0.5)  # 段间短暂间隔，避免 Server酱 限速
+
+        if recipient_ok:
             success_count += 1
 
     if failed:
-        log.warning(f"部分推送失败 ({len(failed)}/{len(sendkeys)}): {'; '.join(failed)}")
+        log.warning(f"部分推送失败 ({len(failed)} 段): {'; '.join(failed)}")
     else:
-        log.info(f"🎉 全部推送成功（共 {len(sendkeys)} 人）")
+        log.info(
+            f"🎉 全部推送成功（共 {len(valid_keys)} 人 × {total} 段）"
+        )
     return success_count
 
 
