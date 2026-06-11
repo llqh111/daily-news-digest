@@ -28,6 +28,15 @@ SENT_LOG_FILE = os.path.join(_PROJECT_ROOT, "sent_articles.json")
 SENT_RETENTION_DAYS = 7
 
 # ═══════════════════════════════════════════════════
+#  搜索 API 密钥（都可选）
+#  Exa 为主用搜索引擎；没配 EXA_API_KEY 则退而用 Tavily；
+#  两个都没配时侦察兵静默跳过搜索工具调用。
+# ═══════════════════════════════════════════════════
+
+EXA_API_KEY = os.getenv("EXA_API_KEY")
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+
+# ═══════════════════════════════════════════════════
 #  抓取参数（想改新闻条数、时间窗口、并发，改这里）
 # ═══════════════════════════════════════════════════
 
@@ -36,8 +45,23 @@ MAX_PER_FEED = 8
 # 只保留多少小时内的新闻（晨报要新鲜，48h 给国际时差留余地）
 TIME_WINDOW_HOURS = 24
 # 聚类去重 + 打分后，留多少条「代表作」去抓正文全文交给 AI。
-# AI 会从这批里再精选 15-20 条，所以这个数要比最终条数大一些，给 AI 留挑选余地。
-CANDIDATE_POOL = 15
+# AI 会从这批里再精选，所以这个数要比最终条数大一些，给 AI 留挑选余地。
+CANDIDATE_POOL = 25
+
+# ═══════════════════════════════════════════════════
+#  决策侦察兵参数（Task 0 地基：供后续任务使用）
+# ═══════════════════════════════════════════════════
+
+FINAL_PICK = 13                          # triage 精选后最终保留条数
+TRIAGE_MODEL = "deepseek-reasoner"       # 决策环节用 R1
+SCOUT_MODEL = "deepseek-chat"            # 侦察兵 ReAct 循环用 V3（多轮快又便宜）
+SCOUT_ENABLED = True                     # 侦察兵总开关，想省钱临时关掉改 False
+SCOUT_MAX_ROUNDS = 6                     # ReAct 最多循环轮数
+SCOUT_MAX_TOOL_CALLS = 10               # 工具调用总次数上限
+SCOUT_FINDINGS = 3                       # 最终输出几条发现
+SEARCH_MONTHLY_CAP = 800                 # 月搜索调用上限（留余量给 1000 免费额度）
+TOPIC_PLATFORM = "短视频/公众号通用"      # 自媒体选题平台口吻
+
 # 分类均衡：每个分类至少保留 N 条，不足就补档该分类的次高分条目
 MIN_PER_CATEGORY = {"国际": 6, "科技": 4, "财经": 4}
 # 抓正文后，正文超过这个长度的条目额外加分（信息密度高）

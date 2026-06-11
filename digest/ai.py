@@ -129,7 +129,8 @@ def _articles_to_text(articles: list[dict]) -> str:
 
 
 def _call_deepseek_once(system_prompt: str, user_prompt: str,
-                        max_tokens: int = 8000) -> dict:
+                        max_tokens: int = 8000,
+                        model: str = "deepseek-reasoner") -> dict:
     """单次调用 DeepSeek（流式 + 自动重试）。
     返回 {"choices": [{"message": {"content": ...}}], ...} 或抛异常。"""
     RETRYABLE = (
@@ -148,7 +149,7 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                     "Content-Type": "application/json",
                 },
                 json={
-                    "model": "deepseek-reasoner",
+                    "model": model,
                     "messages": [
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt},
