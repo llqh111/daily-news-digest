@@ -52,6 +52,13 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     system_prompt = (
         "你是一位资深中文新闻主编，读者画像：硬核 PC 游戏/MOD 玩家、正在学 AI 编程、身处中国。\n"
         "任务：从以下候选新闻中精选最有价值的条目并打分。\n"
+        "\n"
+        "【分类均衡硬性要求（最重要）】\n"
+        "· 国际要闻：至少保留 3 条（无论读者画像如何，地缘政治/宏观事件必须覆盖）\n"
+        "· 科技与 AI：至少保留 4 条\n"
+        "· 财经市场：至少保留 2 条（宏观经济/市场动向对读者有直接影响，不可全部跳过）\n"
+        "如果某分类候选不足上述数量，则全部保留。\n"
+        "\n"
         "【输出要求】只输出纯 JSON 数组，不输出任何其他文字、markdown、代码块或解释。\n"
         "格式：[{\"id\":1,\"keep\":true,\"score\":8,\"reason\":\"≤20字理由\"}, ...]\n"
         "score 范围 1-10（10=必读），reason 不超过 20 个汉字。"
@@ -99,5 +106,26 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     # 按 ai_score 降序，截断到 FINAL_PICK
     kept.sort(key=lambda a: a.get("ai_score", 0), reverse=True)
     result = kept[:FINAL_PICK]
+
+    # ── 分类均衡兜底：若某分类在结果中完全消失，从原始候选补回最高分 2 条 ──
+    MIN_CAT = {"国际": 2, "财经": 2}
+    kept_cats: dict[str, int] = {}
+    for a in result:
+        c = a.get("category", "")
+        kept_cats[c] = kept_cats.get(c, 0) + 1
+
+    result_ids = {id(a) for a in result}
+    for cat, min_n in MIN_CAT.items():
+        if kept_cats.get(cat, 0) < min_n:
+            shortfall = min_n - kept_cats.get(cat, 0)
+            candidates = sorted(
+                [a for a in articles if a.get("category") == cat and id(a) not in result_ids],
+                key=lambda a: a.get("score", 0), reverse=True
+            )
+            for extra in candidates[:shortfall]:
+                log.info(f"分类均衡补充：{cat} 补入「{extra.get('title','')[:30]}」")
+                result.append(extra)
+                result_ids.add(id(extra))
+
     log.info(f"triage 完成：{n} 条 → 精选 {len(result)} 条（模型：{TRIAGE_MODEL}）")
     return result
