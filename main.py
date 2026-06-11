@@ -88,6 +88,9 @@ from digest.ai import (  # noqa: E402
     _log_sanity,
     summarize_with_deepseek,
 )
+from digest.triage import triage_with_deepseek  # noqa: E402
+from digest.scout import scout_for_gaps  # noqa: E402
+from digest.topics import generate_topics  # noqa: E402
 from digest.push import (  # noqa: E402
     SERVERCHAN_SENDKEY,
     TELEGRAM_BOT_TOKEN,
@@ -105,6 +108,57 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 log = logging.getLogger(__name__)
+
+
+# ═══════════════════════════════════════════════════
+#  渲染辅助函数（纯代码拼接，不经 AI，确保不被改写）
+# ═══════════════════════════════════════════════════
+
+def _prepend_selection_table(summary: str, articles: list[dict]) -> str:
+    """在导语后、正文前插入 📊 今日选稿决策表。
+    只有 triage 写回了 ai_score/ai_reason 的条目才会出现在表格里。"""
+    scored = [a for a in articles if "ai_score" in a]
+    if not scored:
+        return summary
+
+    rows = ["## 📊 今日选稿决策\n", "| # | 评分 | 标题 | 理由 |", "|---|------|------|------|"]
+    for i, a in enumerate(scored, 1):
+        title = a.get("title", "")[:40]
+        score = a.get("ai_score", "")
+        reason = a.get("ai_reason", "")
+        rows.append(f"| {i} | {score} | {title} | {reason} |")
+    table = "\n".join(rows) + "\n"
+
+    # 尝试插在「今日导语」段落之后（找第一个 ## 标题之前）
+    first_section = summary.find("\n## ")
+    if first_section != -1:
+        return summary[:first_section] + "\n\n" + table + summary[first_section:]
+    return table + "\n" + summary
+
+
+def _insert_gap_section(summary: str, gaps: list[dict]) -> str:
+    """在简报末尾（编辑手记前）插入 💡 信息差侦察板块。gaps 为空则跳过。"""
+    if not gaps:
+        return summary
+
+    lines = ["\n## 💡 信息差侦察 · 今日认知增量\n"]
+    for i, g in enumerate(gaps, 1):
+        lines.append(f"### {i}. {g.get('title', '')}")
+        if g.get("why_valuable"):
+            lines.append(f"**为何有价值**：{g['why_valuable']}")
+        if g.get("why_underreported"):
+            lines.append(f"**为何被低估**：{g['why_underreported']}")
+        if g.get("url"):
+            lines.append(f"🔗 {g['url']}")
+        lines.append("")
+    section = "\n".join(lines)
+
+    # 插在「编辑手记」或「自我审计」之前，找不到就追加末尾
+    for marker in ["『编辑手记", "```自我审计", "## 编辑手记"]:
+        idx = summary.find(marker)
+        if idx != -1:
+            return summary[:idx] + section + "\n" + summary[idx:]
+    return summary + section
 
 
 # ═══════════════════════════════════════════════════
@@ -141,11 +195,26 @@ def main() -> None:
         if not articles:
             raise RuntimeError("没有抓到任何新闻——所有 RSS 源均无新内容或全部被过滤/去重跳过")
 
-        log.info("📰 抓取候选新闻的正文全文...")
+        log.info("🧠 R1 决策精选（triage）...")
+        articles = triage_with_deepseek(articles)
+        log.info(f"triage 后保留 {len(articles)} 条")
+
+        log.info("🔍 信息差侦察兵启动（scout）...")
+        gaps = scout_for_gaps()
+        log.info(f"侦察兵发现 {len(gaps)} 条低曝光内容")
+
+        log.info("📰 抓取精选新闻的正文全文（仅 triage 选中条目）...")
         attach_fulltexts(articles)
 
         log.info("🤖 调用 DeepSeek 生成中文简报...")
         summary = summarize_with_deepseek(articles)
+
+        # ── 插入选稿决策表 ──
+        summary = _prepend_selection_table(summary, articles)
+        # ── 插入信息差板块 ──
+        summary = _insert_gap_section(summary, gaps)
+        # ── 追加自媒体选题 ──
+        summary += generate_topics(articles, gaps)
 
         # ── 多渠道推送 ──────────────────────────────────
         # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
@@ -193,8 +262,11 @@ def main() -> None:
         # 推断失败阶段
         stage_map = {
             "fetch_all_feeds": "RSS抓取",
+            "triage_with_deepseek": "R1决策精选",
+            "scout_for_gaps": "信息差侦察",
             "attach_fulltexts": "正文抓取",
             "summarize_with_deepseek": "DeepSeek AI总结",
+            "generate_topics": "自媒体选题生成",
             "push_to_wechat": "微信推送",
             "push_to_telegram": "Telegram推送",
             "save_sent_links": "记录保存",
