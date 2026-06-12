@@ -117,15 +117,55 @@ def test_empty_input_returns_empty():
     assert result == []
 
 
-def test_truncates_to_final_pick():
-    """LLM 全部 keep=true 且超过 FINAL_PICK(13) → 截断到 13 条。"""
-    articles = _make_articles(20)
+def test_per_category_quota_cap():
+    """新选稿模型：分类硬分桶。20 条同属「科技」且全 keep=true →
+    最终只取科技配额上限 CATEGORY_QUOTA['科技'] 条（跨类零竞争，不再全局凑满 13）。"""
+    from digest.config import CATEGORY_QUOTA
+
+    articles = _make_articles(20)  # _make_articles 全部 category="科技"
     decisions = [{"id": i, "keep": True, "score": 20 - i, "reason": "ok"} for i in range(1, 21)]
 
     with patch("digest.triage._call_deepseek_once", _fake_llm(decisions)):
         result = triage_with_deepseek(articles)
 
-    assert len(result) == 13
+    assert len(result) == CATEGORY_QUOTA["科技"], (
+        f"科技封顶应为 {CATEGORY_QUOTA['科技']} 条，实际 {len(result)}"
+    )
+    # 应按 ai_score 降序取前 N（id=1 分最高）
+    assert result[0]["ai_score"] == 19.0
+
+
+def test_high_score_tech_cannot_displace_international():
+    """解耦核心验证：科技条目分数再高，也吃不掉「国际」的名额——各排各的、跨类零竞争。
+
+    旧版（全局按分数 top-13）会让 8 条高分科技霸占结果；新版按分类硬分桶后，
+    科技封顶 CATEGORY_QUOTA['科技'] 条，国际/财经各自在本类内选满，互不挤占。
+    """
+    from digest.config import CATEGORY_QUOTA
+
+    articles = (
+        [{"title": f"科技{i}", "summary": "", "source": "S", "category": "科技",
+          "score": 100.0, "link": f"t{i}"} for i in range(1, 9)]          # 8 条高分科技
+        + [{"title": f"国际{i}", "summary": "", "source": "S", "category": "国际",
+            "score": 1.0, "link": f"g{i}"} for i in range(1, 5)]           # 4 条低分国际
+        + [{"title": f"财经{i}", "summary": "", "source": "S", "category": "财经",
+            "score": 1.0, "link": f"c{i}"} for i in range(1, 3)]           # 2 条低分财经
+    )
+    # AI 全部保留：科技高分、国际/财经低分
+    decisions = (
+        [{"id": i, "keep": True, "score": 10, "reason": "x"} for i in range(1, 9)]
+        + [{"id": i, "keep": True, "score": 3, "reason": "x"} for i in range(9, 15)]
+    )
+    with patch("digest.triage._call_deepseek_once", _fake_llm(decisions)):
+        result = triage_with_deepseek(articles)
+
+    cats: dict[str, int] = {}
+    for a in result:
+        cats[a["category"]] = cats.get(a["category"], 0) + 1
+
+    assert cats.get("科技", 0) == CATEGORY_QUOTA["科技"], f"科技应封顶，实际分布 {cats}"
+    assert cats.get("国际", 0) == 4, f"4 条国际应全入选、未被科技挤掉，实际 {cats}"
+    assert cats.get("财经", 0) == 2, f"2 条财经应全入选，实际 {cats}"
 
 
 def test_all_keep_false_falls_back():

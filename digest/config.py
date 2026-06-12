@@ -45,8 +45,9 @@ MAX_PER_FEED = 8
 # 只保留多少小时内的新闻（晨报要新鲜，48h 给国际时差留余地）
 TIME_WINDOW_HOURS = 24
 # 聚类去重 + 打分后，留多少条「代表作」去抓正文全文交给 AI。
-# AI 会从这批里再精选，所以这个数要比最终条数大一些，给 AI 留挑选余地。
-CANDIDATE_POOL = 25
+# AI 会从这批里再精选，所以候选数要比最终条数大一些，给 AI 留挑选余地。
+# 注：候选池不再用「全局 top-N」，改成各分类按 CATEGORY_QUOTA×CANDIDATE_PER_CATEGORY_MULT
+#     在自己桶内取（见下方分桶配额），避免某类（被个人雷达 +4 拉高）霸占全局名额。
 
 # ═══════════════════════════════════════════════════
 #  决策侦察兵参数（Task 0 地基：供后续任务使用）
@@ -70,8 +71,17 @@ BIO_MODEL = "deepseek-chat"              # 生物一句话概括用 V3（便宜�
 BIO_TIME_WINDOW_HOURS = 72               # 科研报道更新慢，时间窗放宽到 72h
 BIO_MAX_PER_FEED = 6                      # 每个生物源最多取几条进候选
 
-# 分类均衡：每个分类至少保留 N 条，不足就补档该分类的次高分条目
-MIN_PER_CATEGORY = {"国际": 6, "科技": 4, "财经": 4}
+# ── 分类配额（事前分桶 · 硬隔离）──────────────────────────────
+# 核心思想「真正解耦」：打分照旧（个人雷达/金融命中仍 +4），但「选稿」按分类各排各的——
+# 每个分类只在【自己桶内】按分数排序、选满自己的配额，桶与桶之间零竞争。
+# 这样个人雷达/金融的 +4 只在本类内部争座次，科技/财经再热也挤不掉「国际」的名额。
+#
+# CATEGORY_QUOTA：最终各类「上限」，之和 = FINAL_PICK(13)。某类当天不够就留空，绝不让别类来抢。
+CATEGORY_QUOTA = {"国际": 6, "科技": 4, "财经": 3}
+# CATEGORY_FLOOR：硬新闻「下限」——国际(地缘)/财经(宏观)必须覆盖；入选不足时从【本类】候选补足，不跨类。
+CATEGORY_FLOOR = {"国际": 3, "财经": 2}
+# 粗筛候选阶段：每类预留「配额 × 倍数」条进 AI 精选（给 R1 留挑选余地，仍是分桶不跨类）。
+CANDIDATE_PER_CATEGORY_MULT = 2
 # 抓正文后，正文超过这个长度的条目额外加分（信息密度高）
 FULLTEXT_LENGTH_BONUS = 800  # 字符数阈值
 FULLTEXT_BONUS_SCORE = 1.5   # 超过阈值加的分
@@ -183,14 +193,12 @@ HIGH_SIGNAL_KEYWORDS = [
 # 中权重（+1）：常规但有价值的商业 / 科技 / 市场新闻
 MEDIUM_SIGNAL_KEYWORDS = [
     "ai", "apple", "google", "microsoft", "amazon", "tesla", "meta",
-    "earnings", "ipo", "merger", "acquisition", "launch", "stocks",
-    "market", "oil", "gold", "bitcoin", "lawsuit", "deal", "ban",
-    "startup", "funding", "regulation", "antitrust",
-    # 公司财务 / 指数
-    "buyback", "dividend", "nasdaq", "guidance",
+    "earnings", "merger", "acquisition", "launch",
+    "market", "oil", "gold", "lawsuit", "deal", "ban",
+    "startup", "funding", "regulation", "antitrust", "guidance",
     "ev", "battery", "solar", "fusion", "quantum",
-    # 币圈 / Web3（+1，低于个人喜好 +4）
-    "crypto", "blockchain", "ethereum", "defi", "web3", "solana", "stablecoin",
+    # 注：币圈 / 股票 / 理财相关词（crypto/stocks/ipo/buyback/dividend/nasdaq 等）
+    #     已从这里（+1）上移到 PERSONAL_FINANCE_KEYWORDS（+4，个人金融喜好）
 ]
 # 负权重（-2）：标题命中就降权（多半是软新闻 / 娱乐 / 凑数）
 LOW_VALUE_KEYWORDS = [
@@ -219,6 +227,44 @@ PERSONAL_KEYWORDS = [
     "programming language", "llvm", "typescript",
     "reverse engineering", "emulator",
 ]
+
+# 个人金融喜好：偏「投资 / 理财」视角——币圈 + 股票 + 个人理财，整个金融范畴都算。
+# 命中 +4（与个人雷达同级）。这些词原先散落在 MEDIUM_SIGNAL（+1），现统一上移到个人喜好层。
+# 安全性：因为「选稿」改成了分类硬分桶（见 CATEGORY_QUOTA），金融 +4 只在财经桶内部排座次，
+# 不会把国际/科技的名额挤掉——所以可以放心把金融加分调到和个人雷达一样高。
+PERSONAL_FINANCE_KEYWORDS = [
+    # 币圈 / Web3
+    "crypto", "bitcoin", "btc", "ethereum", "eth", "blockchain",
+    "defi", "web3", "solana", "stablecoin", "altcoin", "memecoin",
+    "halving", "on-chain", "crypto etf", "spot etf",
+    # 股票 / 投资标的
+    "stocks", "ipo", "buyback", "dividend", "nasdaq", "s&p 500",
+    "etf", "index fund", "mutual fund", "hedge fund", "reit",
+    "short squeeze", "options trading", "tokenization", "valuation",
+    # 个人理财 / 财富管理
+    "personal finance", "wealth management", "passive income",
+    "401k", "roth ira", "brokerage", "portfolio",
+    "asset allocation", "financial freedom",
+]
+
+# 个人喜好合集：个人雷达 + 个人金融，一起喂给 _PERSONAL_RE（同为 +4）。
+# 这样粗筛打分时「金融/投资/理财」与「游戏/AI/CS」享受同一档个人权重。
+PERSONAL_ALL_KEYWORDS = PERSONAL_KEYWORDS + PERSONAL_FINANCE_KEYWORDS
+
+# ═══════════════════════════════════════════════════
+#  读者画像（侦察兵与粗筛共用的「同一份口味」）
+# ═══════════════════════════════════════════════════
+#
+# 为什么要有这段散文：粗筛靠上面的关键词表命中加分（机器视角），而侦察兵 Agent
+# 需要一段「人话」才能理解该替谁去挖信息差。两者必须是同一个人——否则侦察兵搜的
+# 人设会比粗筛打分的人设窄（历史上 scout 只写了「游戏+AI编程」，漏了 Agent/前沿CS/币圈）。
+# 改读者口味时，关键词表与这段画像一起改，保持同步。scout.py 直接 import 这个常量。
+READER_PROFILE = """一位身处中国的硬核技术读者，关注领域（按个人喜好排序）：
+· 硬核 PC 游戏 / MOD 玩家：Steam/Valve、显卡（RTX/Radeon/DLSS、GPU 价格）、游戏引擎（Unreal/Unity）。
+· 正在学 AI 编程：Claude Code/Cursor/Copilot、本地大模型（Ollama/开源模型）、微调、API 定价。
+· AI Agent / 前沿 LLM：agentic、multi-agent、MCP、工具调用/function calling、RAG、LangChain/LangGraph、prompt engineering。
+· 前沿科技 / CS：Rust、编译器/LLVM、WASM、RISC-V、Linux 内核、分布式系统、密码学、逆向工程、模拟器。
+· 金融 / 投资 / 理财（偏个人投资视角，整个金融范畴都关注）：币圈（比特币/以太坊/DeFi/Web3/稳定币/链上动态）、股票与 ETF/指数基金、个人理财与资产配置，关注真实可操作的投资机会与市场信号。"""
 
 # ═══════════════════════════════════════════════════
 #  生物前沿：专源 + 关键词（独立单槽，不混入上面的通用打分池）
@@ -343,7 +389,7 @@ def _compile_keyword_pattern(keywords: list[str]) -> "re.Pattern[str]":
 _HIGH_SIGNAL_RE = _compile_keyword_pattern(HIGH_SIGNAL_KEYWORDS)
 _MEDIUM_SIGNAL_RE = _compile_keyword_pattern(MEDIUM_SIGNAL_KEYWORDS)
 _LOW_VALUE_RE = _compile_keyword_pattern(LOW_VALUE_KEYWORDS)
-_PERSONAL_RE = _compile_keyword_pattern(PERSONAL_KEYWORDS)
+_PERSONAL_RE = _compile_keyword_pattern(PERSONAL_ALL_KEYWORDS)
 _BIO_SIGNAL_RE = _compile_keyword_pattern(BIO_KEYWORDS)
 
 # ═══════════════════════════════════════════════════

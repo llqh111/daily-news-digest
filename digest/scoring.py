@@ -6,7 +6,7 @@
 · title_keywords         标题分词去虚词
 · same_story             两条新闻是否在讲同一件事
 · cluster_and_boost      聚类 + 多源印证加分 + 选代表作
-· enforce_category_balance  保证每个分类有最低条数
+· enforce_category_balance  分类分桶选候选（各排各的，跨类零竞争）
 """
 
 from __future__ import annotations
@@ -23,7 +23,8 @@ from .config import (
     SOURCE_TRUST,
     CLICKBAIT_PATTERNS,
     TITLE_STOPWORDS,
-    MIN_PER_CATEGORY,
+    CATEGORY_QUOTA,
+    CANDIDATE_PER_CATEGORY_MULT,
 )
 
 log = logging.getLogger(__name__)
@@ -196,22 +197,21 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
     return reps
 
 
-def enforce_category_balance(articles: list[dict], pool_size: int) -> list[dict]:
-    """分类内排序选稿（档2 解耦版）：先给每个分类发「保底名额」，再全局填补剩余席位。
+def enforce_category_balance(articles: list[dict]) -> list[dict]:
+    """粗筛候选选稿（真正解耦版）：纯分类分桶，桶与桶之间零竞争。
 
-    为什么这样改（旧版的耦合问题）：
-      旧版先按全局分数取 top N，再「事后补档」缺额的分类。但 PERSONAL +4 让
-      个人雷达条目（多在科技类）分数虚高、霸占全局头部，把国际硬新闻挤到 N 之外，
-      只能靠补档硬拽回来——「往上推」和「往回拉」两套机制互相打架，改关键词权重就破配额。
+    为什么这样改（旧版仍残留的耦合）：
+      旧版虽然给每类发了「保底名额」，但剩余席位仍是【全局】按分数填补。PERSONAL +4
+      让个人雷达/金融条目（多在科技/财经类）分数虚高，把那些剩余席位几乎全抢走，
+      国际硬新闻只剩「保底」那几条——「往上推」的 +4 又从后门挤回来了。
 
-    新版思路（分桶 floor-first）：
+    新版思路（事前分桶 · 各排各的）：
       ① 按 category 分桶，桶内各自按分数降序；
-      ② 每个分类先从【自己桶里】拿满 MIN_PER_CATEGORY 保底条数——
-         国际拿够 6 条只跟国际比，科技分数再高也抢不走国际的保底名额（解耦关键）；
-      ③ 剩余席位（pool_size − 已选）再从所有未选条目里按分数全局填补。
-      改 PERSONAL 权重只影响「桶内排序 + 全局填补轮」，绝不威胁各分类保底，配额不再绑死。
+      ② 每个分类只从【自己桶里】拿满 CATEGORY_QUOTA[cat] × CANDIDATE_PER_CATEGORY_MULT 条；
+      ③ 没有任何「全局填补」轮——某类不够就少拿，绝不让别类来抢它的名额。
+      于是个人雷达/金融的 +4 只在【本类内部】决定谁排前面，跨类完全不参与竞争（彻底解耦）。
 
-    返回长度通常 = pool_size；当各分类保底之和 > pool_size 时可能略超（与旧版行为一致）。
+    返回各分类候选的拼接（已统一按分数降序，仅用于呈现顺序；真正的配额在最终 triage 落地）。
     """
     # 分桶 + 桶内降序（articles 上游已大致有序，这里再保证一次）
     buckets: dict[str, list[dict]] = {}
@@ -221,25 +221,13 @@ def enforce_category_balance(articles: list[dict], pool_size: int) -> list[dict]
         bucket.sort(key=lambda a: a["score"], reverse=True)
 
     picked: list[dict] = []
-    picked_ids: set[int] = set()
+    for cat, quota in CATEGORY_QUOTA.items():
+        room = quota * CANDIDATE_PER_CATEGORY_MULT
+        take = buckets.get(cat, [])[:room]
+        picked.extend(take)
+        if take:
+            log.info(f"  分桶候选 → {cat} 取 {len(take)}/{room} 条（本类内竞争）")
 
-    # ① 各分类保底：从自己桶里拿满 minimum（不足则全拿）
-    for cat, minimum in MIN_PER_CATEGORY.items():
-        floor = buckets.get(cat, [])[:minimum]
-        for a in floor:
-            picked.append(a)
-            picked_ids.add(id(a))
-        if floor:
-            log.info(f"  分类保底 → {cat} 先占 {len(floor)} 条")
-
-    # ② 剩余席位全局按分数填补（已被保底选走的跳过）
-    remaining = [a for a in articles if id(a) not in picked_ids]
-    remaining.sort(key=lambda a: a["score"], reverse=True)
-    slots = max(pool_size - len(picked), 0)
-    for a in remaining[:slots]:
-        picked.append(a)
-        picked_ids.add(id(a))
-
-    # 最终统一按分数排序（板块内呈现顺序仍是分数优先）
+    # 统一按分数排序（板块内呈现顺序仍是分数优先；不影响每类已锁定的成员集合）
     picked.sort(key=lambda a: a["score"], reverse=True)
     return picked

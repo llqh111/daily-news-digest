@@ -23,7 +23,6 @@ from .config import (
     RSS_FEEDS,
     MAX_PER_FEED,
     TIME_WINDOW_HOURS,
-    CANDIDATE_POOL,
     FULLTEXT_LENGTH_BONUS,
     FULLTEXT_BONUS_SCORE,
     FULLTEXT_WORKERS,
@@ -176,8 +175,8 @@ def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
     merged = len(articles) - len(reps)
     log.info(f"同题聚类：{len(articles)} 条 → {len(reps)} 条（合并掉 {merged} 条重复报道）")
 
-    # 取分数最高的一批代表作，然后用分类均衡补档（保证每类至少有最低条数）
-    top = enforce_category_balance(reps, CANDIDATE_POOL)
+    # 分类分桶选候选：每类只在自己桶内按分数取满配额，跨类零竞争（个人雷达/金融 +4 不挤别类）
+    top = enforce_category_balance(reps)
     log.info(f"粗筛后保留 {len(top)} 条候选")
     if top:
         log.info(f"  分数区间：{top[0]['score']:.1f} ~ {top[-1]['score']:.1f}")

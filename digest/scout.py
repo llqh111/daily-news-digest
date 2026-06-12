@@ -21,6 +21,7 @@ import time
 
 from .ai import _call_deepseek_once
 from .config import (
+    READER_PROFILE,
     SCOUT_ENABLED,
     SCOUT_FINDINGS,
     SCOUT_MAX_ROUNDS,
@@ -65,9 +66,18 @@ def _tool_read(url: str) -> str:
 
 # ──────────────────────────── ReAct 循环 ────────────────────────────
 
-_SYSTEM_PROMPT = """你是一位信息差侦察兵，任务：为一位「硬核 PC 游戏/MOD 玩家 + 正在学 AI 编程 + 身处中国」的读者，主动搜索并挖掘以下类型内容：
-· 主流大媒体还没放大、但有认知增量的技术/产业新动态
+# RRR → 读者画像（READER_PROFILE，与 config.py 粗筛关键词共用同一份口味）
+# NNN → 最多输出几条发现（SCOUT_FINDINGS）
+# 两个占位符都在 _run_scout 里用 .replace 填入，避免 f-string 与 JSON 示例的花括号打架。
+_SYSTEM_PROMPT = """你是一位信息差侦察兵，任务：为下面这位读者主动搜索并挖掘「主流大媒体还没放大、但有认知增量」的低曝光高价值内容。
+
+【读者画像（你要替谁找信息差）】
+RRR
+
+【挖掘方向】（紧扣读者画像，越契合越好）
+· 主流大媒体还没放大、但有认知增量的技术/产业/市场新动态
 · 藏在小众博客/论文/论坛/一手公告里、值得关注的低曝光发现
+· 与读者画像高度相关的硬核内容：游戏硬件、AI 编程与 Agent、前沿 CS，以及币圈/投资机会
 
 【可用工具】每轮必须输出一个纯 JSON 动作（不要有任何其他文字）：
 搜索：{"thought":"…","action":"search","args":{"query":"…"}}
@@ -107,7 +117,11 @@ def scout_for_gaps() -> list[dict]:
 def _run_scout() -> list[dict]:
     """内部 ReAct 循环，异常向上传递给 scout_for_gaps 捕获。"""
     start_ts = time.time()
-    system_prompt = _SYSTEM_PROMPT.replace("NNN", str(SCOUT_FINDINGS))
+    system_prompt = (
+        _SYSTEM_PROMPT
+        .replace("RRR", READER_PROFILE)
+        .replace("NNN", str(SCOUT_FINDINGS))
+    )
 
     # 对话历史：拍平成 user 消息的累积块，每轮追加 assistant 动作 + observation
     history_lines: list[str] = []

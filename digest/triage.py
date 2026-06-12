@@ -12,9 +12,55 @@ import logging
 import re
 
 from .ai import _call_deepseek_once
-from .config import FINAL_PICK, TRIAGE_MODEL
+from .config import (
+    CATEGORY_FLOOR,
+    CATEGORY_QUOTA,
+    FINAL_PICK,
+    READER_PROFILE,
+    TRIAGE_MODEL,
+)
 
 log = logging.getLogger(__name__)
+
+
+def _select_by_category_quota(kept: list[dict], all_articles: list[dict]) -> list[dict]:
+    """最终选稿按分类「各排各的」：每类只在【本类内】按 ai_score 选满 CATEGORY_QUOTA[cat]（上限封顶），
+    跨类零竞争——科技/财经再热也吃不掉国际的名额。国际/财经入选不足 CATEGORY_FLOOR 时，
+    从【本类】原始候选按粗筛分补足（地缘/宏观保覆盖；只补本类、不复活被 AI 毙掉的条目）。
+
+    返回整体按 ai_score（无则粗筛 score）降序的结果，长度 ≤ Σ CATEGORY_QUOTA = FINAL_PICK。
+    """
+    # 本类已入选（AI keep=true）按 ai_score 降序分桶
+    by_cat: dict[str, list[dict]] = {}
+    for a in kept:
+        by_cat.setdefault(a.get("category", ""), []).append(a)
+    for bucket in by_cat.values():
+        bucket.sort(key=lambda a: a.get("ai_score", 0), reverse=True)
+
+    result: list[dict] = []
+    result_ids: set[int] = set()
+    for cat, quota in CATEGORY_QUOTA.items():
+        chosen = by_cat.get(cat, [])[:quota]          # 上限：本类最多拿 quota 条
+        for a in chosen:
+            result.append(a)
+            result_ids.add(id(a))
+
+        # 下限：仅国际/财经，且只从【本类】原始候选补（按粗筛 score，不跨类）
+        floor = CATEGORY_FLOOR.get(cat, 0)
+        if len(chosen) < floor:
+            backfill = sorted(
+                [a for a in all_articles
+                 if a.get("category") == cat and id(a) not in result_ids],
+                key=lambda a: a.get("score", 0), reverse=True,
+            )
+            for extra in backfill[: floor - len(chosen)]:
+                log.info(f"分类下限补充：{cat} 补入「{extra.get('title', '')[:30]}」")
+                result.append(extra)
+                result_ids.add(id(extra))
+
+    # 呈现顺序：整体按 ai_score（补档项无 ai_score 则退回粗筛 score）降序
+    result.sort(key=lambda a: a.get("ai_score", a.get("score", 0)), reverse=True)
+    return result
 
 
 def _articles_to_triage_text(articles: list[dict]) -> str:
@@ -50,13 +96,15 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     n = len(articles)
 
     system_prompt = (
-        "你是一位资深中文新闻主编，读者画像：硬核 PC 游戏/MOD 玩家、正在学 AI 编程、身处中国。\n"
+        "你是一位资深中文新闻主编。读者画像：\n"
+        f"{READER_PROFILE}\n"
+        "\n"
         "任务：从以下候选新闻中精选最有价值的条目并打分。\n"
         "\n"
-        "【分类均衡硬性要求（最重要）】\n"
-        "· 国际要闻：至少保留 3 条（无论读者画像如何，地缘政治/宏观事件必须覆盖）\n"
-        "· 科技与 AI：至少保留 4 条\n"
-        "· 财经市场：至少保留 2 条（宏观经济/市场动向对读者有直接影响，不可全部跳过）\n"
+        "【分类配额（最重要）】最终按分类各排各的选稿，请确保每类都留够候选：\n"
+        f"· 国际要闻：尽量保留约 {CATEGORY_QUOTA['国际']} 条（地缘政治/宏观事件必须覆盖，至少 {CATEGORY_FLOOR['国际']} 条）\n"
+        f"· 科技与 AI：尽量保留约 {CATEGORY_QUOTA['科技']} 条\n"
+        f"· 财经市场：尽量保留约 {CATEGORY_QUOTA['财经']} 条（含币圈/股票/投资/理财，至少 {CATEGORY_FLOOR['财经']} 条）\n"
         "如果某分类候选不足上述数量，则全部保留。\n"
         "\n"
         "【输出要求】只输出纯 JSON 数组，不输出任何其他文字、markdown、代码块或解释。\n"
@@ -103,29 +151,8 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     if not kept:
         return _fallback("LLM 决策后无保留条目")
 
-    # 按 ai_score 降序，截断到 FINAL_PICK
-    kept.sort(key=lambda a: a.get("ai_score", 0), reverse=True)
-    result = kept[:FINAL_PICK]
-
-    # ── 分类均衡兜底：若某分类在结果中完全消失，从原始候选补回最高分 2 条 ──
-    MIN_CAT = {"国际": 2, "财经": 2}
-    kept_cats: dict[str, int] = {}
-    for a in result:
-        c = a.get("category", "")
-        kept_cats[c] = kept_cats.get(c, 0) + 1
-
-    result_ids = {id(a) for a in result}
-    for cat, min_n in MIN_CAT.items():
-        if kept_cats.get(cat, 0) < min_n:
-            shortfall = min_n - kept_cats.get(cat, 0)
-            candidates = sorted(
-                [a for a in articles if a.get("category") == cat and id(a) not in result_ids],
-                key=lambda a: a.get("score", 0), reverse=True
-            )
-            for extra in candidates[:shortfall]:
-                log.info(f"分类均衡补充：{cat} 补入「{extra.get('title','')[:30]}」")
-                result.append(extra)
-                result_ids.add(id(extra))
+    # 最终选稿：分类硬分桶「各排各的」（上限封顶 + 国际/财经下限保障），跨类零竞争
+    result = _select_by_category_quota(kept, articles)
 
     log.info(f"triage 完成：{n} 条 → 精选 {len(result)} 条（模型：{TRIAGE_MODEL}）")
     return result
