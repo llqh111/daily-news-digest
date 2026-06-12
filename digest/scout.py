@@ -74,7 +74,7 @@ _SYSTEM_PROMPT = """你是一位信息差侦察兵，任务：为一位「硬核
 读取：{"thought":"…","action":"read","args":{"url":"…"}}
 完成：{"thought":"…","action":"finish","args":{"findings":[{"title":"…","why_valuable":"…","why_underreported":"…","url":"…"}]}}
 
-【完成条件】发现至少 1 条（最多 {n} 条）有价值内容后输出 finish。若搜索无果也请 finish（findings 为空列表）。
+【完成条件】发现至少 1 条（最多 NNN 条）有价值内容后输出 finish。若搜索无果也请 finish（findings 为空列表）。
 【禁止幻觉】url 必须是搜索/读取中真实出现的链接，不要编造。"""
 
 
@@ -107,7 +107,7 @@ def scout_for_gaps() -> list[dict]:
 def _run_scout() -> list[dict]:
     """内部 ReAct 循环，异常向上传递给 scout_for_gaps 捕获。"""
     start_ts = time.time()
-    system_prompt = _SYSTEM_PROMPT.format(n=SCOUT_FINDINGS)
+    system_prompt = _SYSTEM_PROMPT.replace("NNN", str(SCOUT_FINDINGS))
 
     # 对话历史：拍平成 user 消息的累积块，每轮追加 assistant 动作 + observation
     history_lines: list[str] = []
