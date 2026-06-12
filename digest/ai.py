@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import time
 from datetime import datetime
 
@@ -350,3 +351,8 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
     log.info(f"合并后最终成文 {len(final)} 字")
     _log_sanity(final)
     return final
+
+
+def strip_audit_block(text: str) -> str:
+    """删除 AI 自我审计代码块，该块仅供 AI 内部自检，不应出现在推送内容里。"""
+    return re.sub(r"```自我审计[\s\S]*?```", "", text).strip()

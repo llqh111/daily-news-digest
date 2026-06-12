@@ -87,6 +87,7 @@ from digest.ai import (  # noqa: E402
     _call_deepseek_once,
     _log_sanity,
     summarize_with_deepseek,
+    strip_audit_block,
 )
 from digest.triage import triage_with_deepseek  # noqa: E402
 from digest.scout import scout_for_gaps  # noqa: E402
@@ -244,6 +245,9 @@ def main() -> None:
         summary = _insert_bio_section(summary, bio)
         # ── 追加自媒体选题 ──
         summary += generate_topics(articles, gaps)
+
+        # ── 去除 AI 自我审计块（内部自检用，读者无需看到）──
+        summary = strip_audit_block(summary)
 
         # ── 多渠道推送 ──────────────────────────────────
         # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
