@@ -192,6 +192,11 @@ PERSONAL_KEYWORDS = [
     # AI 编程 / 开源模型
     "claude code", "cursor", "copilot", "open source model",
     "local llm", "ollama", "fine-tuning", "api price",
+    # AI Agent / 前沿 LLM
+    "ai agent", "agentic", "multi-agent", "mcp", "tool calling",
+    "function calling", "rag", "langchain", "langgraph",
+    "crewai", "llama", "mistral", "vector database",
+    "chain of thought", "prompt engineering", "rlhf",
     # 前沿科技 / CS
     "rust", "compiler", "wasm", "risc-v", "linux kernel",
     "postgresql", "distributed", "protocol", "cryptography",
