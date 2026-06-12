@@ -1,171 +1,183 @@
-# 📰 每日全球要闻推送
+# 📰 Daily News Digest
 
-每天两次，从 20 家全球权威媒体自动抓新闻 → DeepSeek AI 用中文写成深度晨报 → 推到你的微信和 Telegram。全程在 GitHub Actions 免费跑，你什么都不用做，坐等收推送。
+Twice a day, automatically pull news from 20 global outlets → DeepSeek AI writes a deep-dive digest in Chinese → delivered to your WeChat and Telegram. Runs entirely on GitHub Actions for free — set it up once, then just read.
 
-## 它能做什么
+## What it does
 
-- **自动抓取**：国际要闻（BBC/DW/AP/Reuters/日经/半岛/卫报/南华早报）+ 科技（MIT Tech Review/Hacker News/Ars Technica/The Verge/TechCrunch/Wired/36kr）+ 财经（FT/CNBC/CoinDesk/彭博）
-- **智能筛选**：按关键词重要性 + 来源可信度 + 新鲜度 + 标题党识别，多层打分，只筛选真正值得看的
-- **同题去重**：多家媒体报道同一事件自动合并，标出"被 N 家同时报道"，一条吃掉所有重复
-- **抓正文写深度**：去新闻原网页提取文章全文（非 RSS 摘要）→ 喂给 AI 写出有来龙去脉、敢下判断的深度简报
-- **三层防幻觉**：跨文章数字交叉比对 → 提示词强制自我审计 → 输出端扫描未来日期/编造数字
-- **多渠道推送**：微信（Server酱）+ Telegram，海外跑在 GitHub Actions 上不怕墙
-- **失败告警**：任一环出错，立刻推故障通知到你所有可用通道
-- **跨天去重**：早晚报不会重复同一条新闻
+- **Auto-fetch** — World news (BBC / DW / AP / Reuters / Nikkei / Al Jazeera / Guardian / SCMP) + Tech (MIT Tech Review / Hacker News / Ars Technica / The Verge / TechCrunch / Wired / 36kr) + Finance (FT / CNBC / CoinDesk / Bloomberg)
+- **Smart scoring** — Multi-layer ranking by keyword importance, source trust, freshness, and clickbait detection
+- **Deduplication** — Stories covered by multiple outlets are merged into one, labeled "reported by N sources"
+- **Full-text AI digest** — Fetches the full article (not just the RSS snippet), feeds it to DeepSeek, produces a reasoned summary with context and judgment
+- **3-layer hallucination guard** — Cross-article number verification → prompt-level self-audit → output scan for future dates / fabricated figures
+- **Multi-channel delivery** — WeChat (via Server酱) + Telegram; runs on GitHub's overseas runners so it's never blocked
+- **Failure alerts** — Any error immediately pushes a fault notification to all available channels
+- **Cross-session dedup** — Morning and evening editions never repeat the same story
 
-## 你是怎么收到的
+## How it works
 
 ```
-RSS源(20家) → 时间/关键词/来源打分 → 同题聚类去重 → 抓正文全文
-→ DeepSeek AI 写成中文晨报 → 微信/Telegram 推送
+20 RSS feeds → time / keyword / source scoring → cluster dedup → full-text fetch
+→ DeepSeek AI writes Chinese digest → WeChat / Telegram delivery
 ```
 
-## 快速开始
+## Quick start
 
-### 你需要准备
+### Prerequisites
 
-- GitHub 账号（用 Actions 定时跑）
-- DeepSeek API Key（[platform.deepseek.com](https://platform.deepseek.com) 注册，充值 10 块能用几个月）
-- Server酱 SendKey（[sct.ftqq.com](https://sct.ftqq.com) 注册 → 微信扫码绑定 → 拿到 SendKey）
-- （可选）Telegram Bot Token + Chat ID（海外备通道，防 Server酱 被墙）
+- A GitHub account (for Actions)
+- DeepSeek API Key — sign up at [platform.deepseek.com](https://platform.deepseek.com); ¥10 (~$1.40) lasts months
+- Server酱 SendKey — sign up at [sct.ftqq.com](https://sct.ftqq.com), bind WeChat, get your SendKey
+- *(Optional)* Telegram Bot Token + Chat ID — useful outside China where Server酱 may be slow
 
-### 1. 克隆项目
+### 1. Fork & clone
 
 ```bash
-git clone https://github.com/你的用户名/daily-news-digest.git
+git clone https://github.com/YOUR_USERNAME/daily-news-digest.git
 cd daily-news-digest
 ```
 
-### 2. 配置环境变量
+### 2. Configure environment variables
 
 ```bash
 cp .env.example .env
 ```
 
-编辑 `.env`，填入你的 Key：
+Edit `.env` and fill in your keys:
 
 ```ini
-DEEPSEEK_API_KEY=sk-你的deepseek-key
-SERVERCHAN_SENDKEY=SCT你的sendkey
-# 多人推送用逗号分隔：
-# SERVERCHAN_SENDKEY=SCT你的key,SCT朋友的key
+DEEPSEEK_API_KEY=sk-your-deepseek-key
+SERVERCHAN_SENDKEY=SCTyour-sendkey
+# Multiple recipients — comma-separated:
+# SERVERCHAN_SENDKEY=SCTyourkey,SCTfriendkey
 
-# 可选：Telegram
+# Optional: Telegram
 TELEGRAM_BOT_TOKEN=123456:ABCdef...
-TELEGRAM_CHAT_ID=你的数字ID
+TELEGRAM_CHAT_ID=your-numeric-id
 ```
 
-### 3. 本地跑一次验证
+### 3. Run locally to verify
 
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
 
-如果一切正常，你的微信/Telegram 应该收到一份晨报。
+If everything is set up correctly, you should receive a digest on WeChat / Telegram within a minute.
 
-### 4. 在 GitHub 上设置自动运行
+### 4. Enable automatic scheduling on GitHub
 
-1. Fork 这个仓库
-2. 在 `Settings → Secrets and variables → Actions` 里添加 4 个 Secret：
+1. Fork this repository
+2. Go to `Settings → Secrets and variables → Actions` and add these secrets:
    - `DEEPSEEK_API_KEY`
    - `SERVERCHAN_SENDKEY`
-   - `TELEGRAM_BOT_TOKEN`（可选）
-   - `TELEGRAM_CHAT_ID`（可选）
-3. Actions 默认启用，每天北京时间 **8:00 和 20:00** 自动推
-4. 也可以在 Actions 页面点 `Run workflow` 手动触发
+   - `TELEGRAM_BOT_TOKEN` *(optional)*
+   - `TELEGRAM_CHAT_ID` *(optional)*
+3. Actions is enabled by default — digests run at **08:00 and 20:00 Beijing time** every day
+4. You can also trigger a run manually via `Actions → Run workflow`
 
-> ⚠️ **重要**：Actions 写了 `contents: write` 权限，因为它每次跑完要自动提交 `sent_articles.json`（记录已推送的链接，防止早晚报重复）。
+> ⚠️ **Note**: The workflow requires `contents: write` permission because it commits `sent_articles.json` after each run to track delivered articles and prevent duplicates.
 
-## 自定义你的晨报
+## Customization
 
-所有可调的参数都在 `main.py` 顶部的**配置区**里，有详细注释：
+All tunable parameters live in `digest/config.py`. Editing this file changes "editorial preferences" without touching any business logic.
 
-### 想改新闻源
+### Change news sources
 
 ```python
 RSS_FEEDS = [
     {"name": "BBC World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "category": "国际"},
-    # 加新源：加一行字典，name 随便取，url 填 RSS 地址，category 填分类
+    # Add a new source: one dict, pick a name, paste the RSS URL, set category
 ]
 ```
 
-### 想调"什么算重要新闻"
+### Tune what counts as important
 
-三个关键词表，全部用小写：
+Three keyword lists, all lowercase:
 
 ```python
-HIGH_SIGNAL_KEYWORDS = ["war", "ceasefire", "nuclear", ...]   # 命中 +3 分
-MEDIUM_SIGNAL_KEYWORDS = ["ai", "apple", "earnings", ...]     # 命中 +1 分
-LOW_VALUE_KEYWORDS = ["celebrity", "quiz", "gossip", ...]     # 命中 -2 分
+HIGH_SIGNAL_KEYWORDS = ["war", "ceasefire", "nuclear", ...]   # +3 points
+MEDIUM_SIGNAL_KEYWORDS = ["ai", "apple", "earnings", ...]     # +1 point
+LOW_VALUE_KEYWORDS = ["celebrity", "quiz", "gossip", ...]     # -2 points
 ```
 
-### 想让自己更信任的媒体优先
+### Prioritize sources you trust more
 
 ```python
 SOURCE_TRUST = {
-    "Reuters": 2,     # +2 分
-    "The Verge": 1,   # +1 分
-    # 没列的默认 0 分
+    "Reuters": 2,     # +2 points
+    "The Verge": 1,   # +1 point
+    # unlisted sources default to 0
 }
 ```
 
-### 其他可调项
+### Other parameters
 
-| 参数 | 默认值 | 说明 |
-|------|--------|------|
-| `MAX_PER_FEED` | 8 | 每个源最多取几条 |
-| `TIME_WINDOW_HOURS` | 24 | 只保留多少小时内的新闻 |
-| `CANDIDATE_POOL` | 15 | 拣选多少条候选给 AI |
-| `MIN_PER_CATEGORY` | `{"国际":6, "科技":4, "财经":4}` | 每类至少保留几条 |
-| `FULLTEXT_MAX_CHARS` | 1000 | 每条正文最多取多少字（控 token 成本） |
-| `BATCH_SIZE` | 7 | 每批最多喂给 AI 几条（超了自动拆批） |
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `MAX_PER_FEED` | 8 | Max articles fetched per RSS source |
+| `TIME_WINDOW_HOURS` | 24 | Only keep articles published within this window |
+| `FINAL_PICK` | 13 | Total articles in the final digest |
+| `CATEGORY_QUOTA` | `{"国际":6, "科技":4, "财经":3}` | Per-category cap (sums to `FINAL_PICK`; each category ranks independently — no cross-category competition) |
+| `FULLTEXT_MAX_CHARS` | 1000 | Max characters per article fed to the AI (controls token cost) |
+| `BATCH_SIZE` | 7 | Articles per AI call; auto-splits if exceeded |
 
-## 诊断 & 测试
-
-项目带了两个辅助脚本：
+## Diagnostics & testing
 
 ```bash
-# 全面诊断：逐项检查 .env → DeepSeek API → Server酱 → RSS 源
+# Full diagnostic: checks .env → DeepSeek API → Server酱 → all RSS feeds
 python diagnose.py
 
-# RSS 连通性测试：看看哪些新闻源还活着（直接用 main.py 里的源列表）
+# RSS connectivity test: checks which sources are alive
 python test_rss.py
 ```
 
-## 项目结构
+## Project structure
 
 ```
 daily-news-digest/
-├── main.py              # 主程序（抓取 → 打分 → AI 总结 → 推送）
-├── test_rss.py          # RSS 源连通性测试
-├── diagnose.py          # 全链路诊断（API / 推送 / RSS）
-├── requirements.txt     # Python 依赖
-├── .env.example         # 环境变量模板
+├── main.py                  # Entry point (orchestrates: fetch → score → AI → push)
+├── digest/                  # Core business logic
+│   ├── config.py            # ⭐ Config center (RSS feeds / keywords / trust scores / constants)
+│   ├── fetch.py             # RSS + full-text scraping
+│   ├── scoring.py           # Keyword / source / freshness scoring
+│   ├── triage.py            # Cluster deduplication
+│   ├── topics.py / scout.py # Topic selection + search-augmented scout agent
+│   ├── ai.py                # DeepSeek API calls + digest writing
+│   ├── factcheck.py         # Hallucination guard
+│   ├── bio.py               # Life-sciences section (dedicated single slot)
+│   ├── push.py              # WeChat / Telegram delivery
+│   └── storage.py           # Delivery log read/write (dedup)
+├── test_core.py             # Core unit tests (CI gate — failing tests block delivery)
+├── test_rss.py              # RSS connectivity test
+├── diagnose.py              # Full-chain diagnostic (API / push / RSS)
+├── requirements.txt         # Python dependencies
+├── .env.example             # Environment variable template
 ├── .gitignore
-├── sent_articles.json   # 推送记录（自动生成，防重复）
+├── LICENSE                  # MIT License
+├── sent_articles.json       # Delivery log (auto-generated, prevents duplicates)
+├── digests/                 # Sample digest archive
 ├── .github/workflows/
-│   └── daily-digest.yml # GitHub Actions 定时任务
-└── 运行.bat / 诊断.bat   # Windows 双击运行批处理
+│   └── daily-digest.yml     # GitHub Actions scheduled workflow
+└── 运行.bat / 诊断.bat       # Windows double-click launchers
 ```
 
-## 常见问题
+## FAQ
 
-**Q: 为什么有些新闻源抓不到正文？**
-A: 路透/AP/彭博没有公开 RSS，项目用 Google News 代理。它们的摘要仍会参与打分，但正文标注"仅摘要"。
+**Q: Why can't some sources fetch full text?**
+A: Reuters, AP, and Bloomberg don't expose public RSS. The project uses Google News as a proxy. Their summaries still participate in scoring, but full text is marked "summary only."
 
-**Q: 微信收不到？**
-A: GitHub Actions 海外机器连国内 Server酱 偶尔掉包。项目已内置 3 次重试 + Telegram 备通道。
+**Q: Not receiving WeChat notifications?**
+A: GitHub Actions runs on overseas servers; Server酱 occasionally drops packets from outside China. The project has built-in 3x retry + Telegram as a fallback channel.
 
-**Q: 怎么加人一起收？**
-A: Server酱支持多个 SendKey 用逗号隔开：`SERVERCHAN_SENDKEY=SCT你的key,SCT朋友的key`。
+**Q: How do I add more recipients?**
+A: Server酱 supports multiple SendKeys comma-separated: `SERVERCHAN_SENDKEY=SCTyourkey,SCTfriendkey`
 
-**Q: DeepSeek 挂了怎么办？**
-A: 目前该项目无降级方案（下一阶段计划）。失败会收到告警推送。
+**Q: What if DeepSeek goes down?**
+A: No fallback AI provider yet (planned). You'll receive a failure alert push.
 
-**Q: 能换别的 AI 吗？**
-A: 能。`_call_deepseek_once()` 里改 API 地址和模型名就行。推荐用兼容 OpenAI 接口格式的模型（Gemini/Claude/GPT 都能改）。
+**Q: Can I swap in a different AI model?**
+A: Yes. Change the API endpoint and model name in `_call_deepseek_once()` in `digest/ai.py`. Any OpenAI-compatible API works (Gemini, Claude, GPT, etc.).
 
-## 补充文案
+## License
 
-本项目深度使用大模型——如果你对 AI 技术感兴趣，可以访问 [Claude Code](https://claude.ai/claude-code) 了解更多。
+This project is released under the [MIT License](LICENSE) — free to use, modify, and redistribute. Provided as-is; the author is not liable for any consequences of use.
