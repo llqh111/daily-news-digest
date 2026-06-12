@@ -173,6 +173,8 @@ MEDIUM_SIGNAL_KEYWORDS = [
     "market", "oil", "gold", "bitcoin", "lawsuit", "deal", "ban",
     "startup", "funding", "regulation", "antitrust",
     "ev", "battery", "solar", "fusion", "quantum",
+    # 币圈 / Web3（+1，低于个人喜好 +4）
+    "crypto", "blockchain", "ethereum", "defi", "web3", "solana", "stablecoin",
 ]
 # 负权重（-2）：标题命中就降权（多半是软新闻 / 娱乐 / 凑数）
 LOW_VALUE_KEYWORDS = [
@@ -184,12 +186,17 @@ LOW_VALUE_KEYWORDS = [
 
 # 个人雷达：读者私人关注领域，命中 +4（高于任何通用信号）
 PERSONAL_KEYWORDS = [
-    # 游戏 / MOD / 硬件
-    "steam", "valve", "unreal engine", "unity", "modding",
+    # 游戏 / 硬件
+    "steam", "valve", "unreal engine", "unity",
     "rtx", "radeon", "dlss", "gpu price",
     # AI 编程 / 开源模型
     "claude code", "cursor", "copilot", "open source model",
     "local llm", "ollama", "fine-tuning", "api price",
+    # 前沿科技 / CS
+    "rust", "compiler", "wasm", "risc-v", "linux kernel",
+    "postgresql", "distributed", "protocol", "cryptography",
+    "programming language", "llvm", "typescript",
+    "reverse engineering", "emulator",
 ]
 
 # ═══════════════════════════════════════════════════
