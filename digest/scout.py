@@ -115,6 +115,7 @@ def _run_scout() -> list[dict]:
 
     tool_call_count = 0
     consecutive_tool_fails = 0
+    parse_fail_count = 0
     findings: list[dict] = []
 
     for round_i in range(1, SCOUT_MAX_ROUNDS + 1):
@@ -126,8 +127,9 @@ def _run_scout() -> list[dict]:
         user_prompt = "\n\n".join(history_lines)
 
         try:
+            # 1800 而非 1000：finish 动作可能带多条中文 findings，1000 token 易截断成残缺 JSON
             data = _call_deepseek_once(system_prompt, user_prompt,
-                                       max_tokens=1000, model=SCOUT_MODEL)
+                                       max_tokens=1800, model=SCOUT_MODEL)
             llm_output = data["choices"][0]["message"]["content"]
         except Exception as e:
             log.warning(f"侦察兵第 {round_i} 轮 LLM 调用失败：{e}，提前退出")
@@ -137,8 +139,24 @@ def _run_scout() -> list[dict]:
 
         action = _parse_action(llm_output)
         if action is None:
-            log.warning(f"侦察兵第 {round_i} 轮 JSON 解析失败，提前退出")
-            break
+            parse_fail_count += 1
+            # 记录原始输出，否则无法诊断模型到底吐了什么（之前的可观测性盲区）
+            log.warning(
+                f"侦察兵第 {round_i} 轮 JSON 解析失败（第 {parse_fail_count} 次）。"
+                f"模型原始输出（前 300 字）：{llm_output[:300]!r}"
+            )
+            if parse_fail_count >= 2:
+                log.warning("侦察兵连续 2 轮无法解析 JSON，提前退出")
+                break
+            # 给模型一次纠错机会，而非一次格式抖动就让整个信息差板块归零
+            history_lines.append(
+                "⚠️ 你上一条输出不是合法 JSON，无法解析。请严格只输出一个纯 JSON 动作对象"
+                "（search / read / finish 三选一），不要任何解释、前后缀或 markdown 代码块。"
+            )
+            continue
+
+        # 成功解析 → 重置失败计数（只惩罚「连续」失败）
+        parse_fail_count = 0
 
         act_type = action.get("action", "")
         args = action.get("args", {})

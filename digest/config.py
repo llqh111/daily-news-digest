@@ -233,7 +233,8 @@ BIO_FEEDS = [
     {"name": "Phys.org 生物", "url": "https://phys.org/rss-feed/biology-news/"},
     {"name": "STAT News", "url": "https://www.statnews.com/feed/"},
     {"name": "New Scientist 健康", "url": "https://www.newscientist.com/subject/health/feed/"},
-    {"name": "EurekAlert 生物医学", "url": "https://www.eurekalert.org/rss/bio_medicine.xml"},
+    # EurekAlert 改版后整站反爬（旧 RSS 路径全 403/404），换 Science X 旗下稳定的 MedicalXpress
+    {"name": "MedicalXpress 医学", "url": "https://medicalxpress.com/rss-feed/"},
 ]
 
 # 生物突破信号词：命中越多越像「重磅科研突破」。整词匹配（\b），全小写。
@@ -255,7 +256,7 @@ BIO_KEYWORDS = [
 # 生物源信任分（粗排用，影响很小，主要靠关键词命中拉分）
 BIO_SOURCE_TRUST = {
     "Nature": 3, "ScienceDaily 健康": 2, "ScienceDaily 生物": 2,
-    "STAT News": 2, "New Scientist 健康": 2, "EurekAlert 生物医学": 2,
+    "STAT News": 2, "New Scientist 健康": 2, "MedicalXpress 医学": 2,
     "Phys.org 生物": 1,
 }
 
