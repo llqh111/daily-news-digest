@@ -90,6 +90,7 @@ from digest.ai import (  # noqa: E402
 )
 from digest.triage import triage_with_deepseek  # noqa: E402
 from digest.scout import scout_for_gaps  # noqa: E402
+from digest.bio import pick_bio_breakthrough  # noqa: E402
 from digest.topics import generate_topics  # noqa: E402
 from digest.push import (  # noqa: E402
     SERVERCHAN_SENDKEY,
@@ -161,6 +162,28 @@ def _insert_gap_section(summary: str, gaps: list[dict]) -> str:
     return summary + section
 
 
+def _insert_bio_section(summary: str, bio: dict | None) -> str:
+    """在简报末尾（编辑手记前）插入 🧬 生物前沿板块（每期 1 条）。bio 为 None 则跳过。"""
+    if not bio:
+        return summary
+
+    lines = ["\n## 🧬 生物前沿 · 今日一则\n", f"### {bio.get('title', '')}"]
+    if bio.get("summary_zh"):
+        lines.append(f"**一句话**：{bio['summary_zh']}")
+    if bio.get("source"):
+        src = bio["source"]
+        url = bio.get("url", "")
+        lines.append(f"> 📰 来源：{src}（{url}）" if url else f"> 📰 来源：{src}")
+    lines.append("")
+    section = "\n".join(lines)
+
+    for marker in ["『编辑手记", "```自我审计", "## 编辑手记"]:
+        idx = summary.find(marker)
+        if idx != -1:
+            return summary[:idx] + section + "\n" + summary[idx:]
+    return summary + section
+
+
 # ═══════════════════════════════════════════════════
 #  主流程
 # ═══════════════════════════════════════════════════
@@ -203,6 +226,10 @@ def main() -> None:
         gaps = scout_for_gaps()
         log.info(f"侦察兵发现 {len(gaps)} 条低曝光内容")
 
+        log.info("🧬 生物前沿单槽挑选（bio）...")
+        bio = pick_bio_breakthrough()
+        log.info("生物板块：" + ("已选中 1 条" if bio else "本期无"))
+
         log.info("📰 抓取精选新闻的正文全文（仅 triage 选中条目）...")
         attach_fulltexts(articles)
 
@@ -213,6 +240,8 @@ def main() -> None:
         summary = _prepend_selection_table(summary, articles)
         # ── 插入信息差板块 ──
         summary = _insert_gap_section(summary, gaps)
+        # ── 插入生物前沿板块（每期 1 条）──
+        summary = _insert_bio_section(summary, bio)
         # ── 追加自媒体选题 ──
         summary += generate_topics(articles, gaps)
 
@@ -264,6 +293,7 @@ def main() -> None:
             "fetch_all_feeds": "RSS抓取",
             "triage_with_deepseek": "R1决策精选",
             "scout_for_gaps": "信息差侦察",
+            "pick_bio_breakthrough": "生物前沿挑选",
             "attach_fulltexts": "正文抓取",
             "summarize_with_deepseek": "DeepSeek AI总结",
             "generate_topics": "自媒体选题生成",

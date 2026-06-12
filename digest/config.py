@@ -62,6 +62,14 @@ SCOUT_FINDINGS = 3                       # 最终输出几条发现
 SEARCH_MONTHLY_CAP = 800                 # 月搜索调用上限（留余量给 1000 免费额度）
 TOPIC_PLATFORM = "短视频/公众号通用"      # 自媒体选题平台口吻
 
+# ═══════════════════════════════════════════════════
+#  生物前沿单槽参数（独立板块，每期精确 1 条，不参与主新闻打分竞争）
+# ═══════════════════════════════════════════════════
+BIO_ENABLED = True                       # 生物板块总开关
+BIO_MODEL = "deepseek-chat"              # 生物一句话概括用 V3（便宜够用）
+BIO_TIME_WINDOW_HOURS = 72               # 科研报道更新慢，时间窗放宽到 72h
+BIO_MAX_PER_FEED = 6                      # 每个生物源最多取几条进候选
+
 # 分类均衡：每个分类至少保留 N 条，不足就补档该分类的次高分条目
 MIN_PER_CATEGORY = {"国际": 6, "科技": 4, "财经": 4}
 # 抓正文后，正文超过这个长度的条目额外加分（信息密度高）
@@ -162,6 +170,12 @@ HIGH_SIGNAL_KEYWORDS = [
     # 货币政策与宏观
     "fed", "rate cut", "rate hike", "inflation", "recession", "tariff",
     "central bank", "gdp", "default", "stimulus", "layoff", "bankruptcy",
+    # 宏观数据发布（真正驱动市场的重磅事件，之前完全没覆盖）
+    "cpi", "ppi", "pmi", "fomc", "payrolls", "unemployment", "jobs report",
+    # 央行 / 利率决议
+    "ecb", "boj", "pboc", "rate decision", "hawkish", "dovish", "debt ceiling",
+    # 债券 / 收益率（用短语避免 bond/yield 单词歧义，并兼容单复数）
+    "treasury yield", "treasury yields", "bond yield", "bond yields",
     # 头部科技 / AI
     "openai", "nvidia", "anthropic", "deepseek", "gpt", "chip ban",
     "semiconductor", "breakthrough", "claude", "gemini", "llm", "agi",
@@ -172,6 +186,8 @@ MEDIUM_SIGNAL_KEYWORDS = [
     "earnings", "ipo", "merger", "acquisition", "launch", "stocks",
     "market", "oil", "gold", "bitcoin", "lawsuit", "deal", "ban",
     "startup", "funding", "regulation", "antitrust",
+    # 公司财务 / 指数
+    "buyback", "dividend", "nasdaq", "guidance",
     "ev", "battery", "solar", "fusion", "quantum",
     # 币圈 / Web3（+1，低于个人喜好 +4）
     "crypto", "blockchain", "ethereum", "defi", "web3", "solana", "stablecoin",
@@ -181,7 +197,7 @@ LOW_VALUE_KEYWORDS = [
     "recipe", "celebrity", "gossip", "royal", "horoscope", "fashion",
     "recap", "quiz", "best deals", "how to watch", "trailer",
     "tiktok", "viral video", "top 10", "unboxing", "reacts to",
-    "rumor", "leak", "analyst says", "spotted",
+    "rumor", "leak", "spotted",
 ]
 
 # 个人雷达：读者私人关注领域，命中 +4（高于任何通用信号）
@@ -203,6 +219,45 @@ PERSONAL_KEYWORDS = [
     "programming language", "llvm", "typescript",
     "reverse engineering", "emulator",
 ]
+
+# ═══════════════════════════════════════════════════
+#  生物前沿：专源 + 关键词（独立单槽，不混入上面的通用打分池）
+# ═══════════════════════════════════════════════════
+#
+# 思路：主新闻三大类（国际/科技/财经）之外，每期单独挑 1 条「生物/医学科研突破」。
+# 这些源只喂给 digest/bio.py，不进 RSS_FEEDS 主流程，故与主打分完全隔离。
+BIO_FEEDS = [
+    {"name": "ScienceDaily 健康", "url": "https://www.sciencedaily.com/rss/top/health.xml"},
+    {"name": "ScienceDaily 生物", "url": "https://www.sciencedaily.com/rss/plants_animals.xml"},
+    {"name": "Nature", "url": "https://www.nature.com/nature.rss"},
+    {"name": "Phys.org 生物", "url": "https://phys.org/rss-feed/biology-news/"},
+    {"name": "STAT News", "url": "https://www.statnews.com/feed/"},
+    {"name": "New Scientist 健康", "url": "https://www.newscientist.com/subject/health/feed/"},
+    {"name": "EurekAlert 生物医学", "url": "https://www.eurekalert.org/rss/bio_medicine.xml"},
+]
+
+# 生物突破信号词：命中越多越像「重磅科研突破」。整词匹配（\b），全小写。
+BIO_KEYWORDS = [
+    # 基因 / 分子
+    "crispr", "gene therapy", "gene editing", "genome", "dna", "rna", "mrna",
+    "mutation", "protein folding", "alphafold", "enzyme", "synthetic biology",
+    # 细胞 / 再生
+    "stem cell", "organoid", "cell therapy", "regeneration", "embryo", "tissue",
+    # 医学 / 临床
+    "clinical trial", "vaccine", "antibody", "immunotherapy", "cancer", "tumor",
+    "drug", "fda approval", "biomarker", "longevity", "aging",
+    # 神经 / 微生物
+    "neuron", "brain", "microbiome", "bacteria", "virus",
+    # 信号词
+    "breakthrough", "discovery", "first-ever", "novel",
+]
+
+# 生物源信任分（粗排用，影响很小，主要靠关键词命中拉分）
+BIO_SOURCE_TRUST = {
+    "Nature": 3, "ScienceDaily 健康": 2, "ScienceDaily 生物": 2,
+    "STAT News": 2, "New Scientist 健康": 2, "EurekAlert 生物医学": 2,
+    "Phys.org 生物": 1,
+}
 
 # ═══════════════════════════════════════════════════
 #  来源可信度分级（想调「更信哪家媒体」，改这里的数字）
@@ -288,6 +343,7 @@ _HIGH_SIGNAL_RE = _compile_keyword_pattern(HIGH_SIGNAL_KEYWORDS)
 _MEDIUM_SIGNAL_RE = _compile_keyword_pattern(MEDIUM_SIGNAL_KEYWORDS)
 _LOW_VALUE_RE = _compile_keyword_pattern(LOW_VALUE_KEYWORDS)
 _PERSONAL_RE = _compile_keyword_pattern(PERSONAL_KEYWORDS)
+_BIO_SIGNAL_RE = _compile_keyword_pattern(BIO_KEYWORDS)
 
 # ═══════════════════════════════════════════════════
 #  聚类用的高频虚词（这些词到处都是，不能用来判断「是否同一件事」）

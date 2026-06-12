@@ -197,33 +197,49 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
 
 
 def enforce_category_balance(articles: list[dict], pool_size: int) -> list[dict]:
-    """确保候选池中每个分类都有最低条数。
-    不足时，从该分类的次高分条目补档（即使它们排在 pool_size 之后）。
-    返回调整后的列表（长度可能超过 pool_size，最多超出各分类缺口之和）。"""
-    # 先取 top N
-    top = articles[:pool_size]
-    rest = articles[pool_size:]
+    """分类内排序选稿（档2 解耦版）：先给每个分类发「保底名额」，再全局填补剩余席位。
 
-    # 统计各分类现有条数
-    cat_counts: dict[str, int] = {}
-    for art in top:
-        cat = art.get("category", "国际")
-        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+    为什么这样改（旧版的耦合问题）：
+      旧版先按全局分数取 top N，再「事后补档」缺额的分类。但 PERSONAL +4 让
+      个人雷达条目（多在科技类）分数虚高、霸占全局头部，把国际硬新闻挤到 N 之外，
+      只能靠补档硬拽回来——「往上推」和「往回拉」两套机制互相打架，改关键词权重就破配额。
 
-    # 补档不足的分类
+    新版思路（分桶 floor-first）：
+      ① 按 category 分桶，桶内各自按分数降序；
+      ② 每个分类先从【自己桶里】拿满 MIN_PER_CATEGORY 保底条数——
+         国际拿够 6 条只跟国际比，科技分数再高也抢不走国际的保底名额（解耦关键）；
+      ③ 剩余席位（pool_size − 已选）再从所有未选条目里按分数全局填补。
+      改 PERSONAL 权重只影响「桶内排序 + 全局填补轮」，绝不威胁各分类保底，配额不再绑死。
+
+    返回长度通常 = pool_size；当各分类保底之和 > pool_size 时可能略超（与旧版行为一致）。
+    """
+    # 分桶 + 桶内降序（articles 上游已大致有序，这里再保证一次）
+    buckets: dict[str, list[dict]] = {}
+    for art in articles:
+        buckets.setdefault(art.get("category", "国际"), []).append(art)
+    for bucket in buckets.values():
+        bucket.sort(key=lambda a: a["score"], reverse=True)
+
+    picked: list[dict] = []
+    picked_ids: set[int] = set()
+
+    # ① 各分类保底：从自己桶里拿满 minimum（不足则全拿）
     for cat, minimum in MIN_PER_CATEGORY.items():
-        shortfall = minimum - cat_counts.get(cat, 0)
-        if shortfall <= 0:
-            continue
-        # 从未入选的条目中找该分类的次高分
-        fillers = [a for a in rest if a.get("category") == cat and a not in top]
-        fillers.sort(key=lambda a: a["score"], reverse=True)
-        added = fillers[:shortfall]
-        if added:
-            top.extend(added)
-            names = ", ".join(f"{a['source']}:{a['title'][:20]}" for a in added)
-            log.info(f"  分类均衡 → {cat} 补 {len(added)} 条: {names}")
+        floor = buckets.get(cat, [])[:minimum]
+        for a in floor:
+            picked.append(a)
+            picked_ids.add(id(a))
+        if floor:
+            log.info(f"  分类保底 → {cat} 先占 {len(floor)} 条")
 
-    # 重新按分数排序
-    top.sort(key=lambda a: a["score"], reverse=True)
-    return top
+    # ② 剩余席位全局按分数填补（已被保底选走的跳过）
+    remaining = [a for a in articles if id(a) not in picked_ids]
+    remaining.sort(key=lambda a: a["score"], reverse=True)
+    slots = max(pool_size - len(picked), 0)
+    for a in remaining[:slots]:
+        picked.append(a)
+        picked_ids.add(id(a))
+
+    # 最终统一按分数排序（板块内呈现顺序仍是分数优先）
+    picked.sort(key=lambda a: a["score"], reverse=True)
+    return picked
