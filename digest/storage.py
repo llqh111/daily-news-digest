@@ -104,12 +104,23 @@ def save_sent_links(links: list[str]) -> None:
         log.warning(f"保存推送记录失败（不影响推送）: {e}")
 
 
+def _logical_date(dt: datetime) -> str:
+    """把凌晨 0-3 点归到前一天：PM 班次跨午夜时，逻辑日期保持不变。"""
+    if dt.hour < 4:
+        return (dt - timedelta(days=1)).strftime("%Y-%m-%d")
+    return dt.strftime("%Y-%m-%d")
+
+
 def should_skip_session() -> bool:
-    """检查今天同一时段是否已经推送过。防止多个 cron 触发导致重复推送。"""
+    """检查当前逻辑班次（AM/PM × 逻辑日期）是否已推送过。
+
+    修复历史 bug：当 GitHub cron 延迟导致 PM 班次在凌晨才执行时，
+    save_sent_links 会把日期写成次日，导致次日所有触发误判"PM 已发"而跳过。
+    现在改用 last_push_timestamp 推算逻辑日期，彻底避免跨午夜错位。
+    """
     now = datetime.now(TZ)
-    # 每天 04:00 - 15:59 视为 AM (早班)，16:00 - 03:59 视为 PM (晚班)
     current_session = "AM" if 4 <= now.hour < 16 else "PM"
-    today_str = now.strftime("%Y-%m-%d")
+    current_logical_date = _logical_date(now)
 
     if not os.path.exists(SENT_LOG_FILE):
         return False
@@ -118,24 +129,24 @@ def should_skip_session() -> bool:
         with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # 检查时间戳：如果距离上次推送不到 3 小时，直接跳过（防 Github 延迟积压导致的连发）
         last_ts = data.get("last_push_timestamp")
-        if last_ts is not None:
-            if now.timestamp() - last_ts < 3 * 3600:
-                log.info(f"⏭️ 距离上次推送不足 3 小时，跳过以防重复打扰。")
-                return True
-
-        # 今天还没有推送记录 → 不跳过
-        history = data.get("history", {})
-        if today_str not in history:
+        if last_ts is None:
             return False
 
-        # 检查上次推送的时段
-        last_session = data.get("last_session", "")
-        if last_session == current_session:
+        # 3 小时防连发护栏（应对同一次 cron 积压多个触发）
+        if now.timestamp() - last_ts < 3 * 3600:
+            log.info("⏭️ 距离上次推送不足 3 小时，跳过以防重复打扰。")
+            return True
+
+        # 用 timestamp 还原上次推送的逻辑日期 + 班次
+        last_dt = datetime.fromtimestamp(last_ts, tz=TZ)
+        last_session = "AM" if 4 <= last_dt.hour < 16 else "PM"
+        last_logical_date = _logical_date(last_dt)
+
+        if last_logical_date == current_logical_date and last_session == current_session:
             log.info(
                 f"⏭️ 今天 {current_session} 时段已推送过"
-                f"（{data.get('updated', '?')}），跳过"
+                f"（逻辑日期 {last_logical_date} {last_dt.strftime('%H:%M')}），跳过"
             )
             return True
 
