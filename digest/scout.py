@@ -138,6 +138,18 @@ def _run_scout() -> list[dict]:
             log.warning(f"⏱️ 侦察兵超时（>{SCOUT_TIMEOUT_S}s），用已有 {len(findings)} 条结果收尾")
             break
 
+        # 快到上限时催 finish，防止模型一直探索不收尾
+        rounds_left = SCOUT_MAX_ROUNDS - round_i
+        if rounds_left == 1:
+            history_lines.append(
+                "⚠️ 还剩最后 2 轮，请在下一轮直接输出 finish 动作，"
+                "把已找到的内容填入 findings（确实没有则用空列表）。"
+            )
+        elif rounds_left == 0:
+            history_lines.append(
+                "⚠️ 这是最后一轮，必须立即输出 finish 动作。"
+            )
+
         user_prompt = "\n\n".join(history_lines)
 
         try:

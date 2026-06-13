@@ -122,12 +122,16 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     except Exception as e:
         return _fallback(f"LLM 调用失败：{e}")
 
-    # ── JSON 解析：用正则抠出第一个 [ … 最后一个 ] 之间的内容 ──
+    # ── JSON 解析：支持裸数组 / ```json 代码块 / 混杂文本三种格式 ──
     try:
-        m = re.search(r"\[[\s\S]*\]", content)
+        # 优先：代码块内的数组
+        m = re.search(r"```(?:json)?\s*(\[[\s\S]*?\])\s*```", content)
+        if not m:
+            # 次选：裸数组（从第一个 [ 到最后一个 ]）
+            m = re.search(r"\[[\s\S]*\]", content)
         if not m:
             return _fallback("LLM 输出中找不到 JSON 数组")
-        decisions: list[dict] = json.loads(m.group(0))
+        decisions: list[dict] = json.loads(m.group(1) if m.lastindex else m.group(0))
     except Exception as e:
         return _fallback(f"JSON 解析失败：{e}")
 
