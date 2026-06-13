@@ -401,3 +401,20 @@ TITLE_STOPWORDS = {
     "says", "after", "over", "amid", "into", "out", "up", "new", "us", "uk",
     "report", "live", "news", "video", "watch", "update", "latest",
 }
+
+# ═══════════════════════════════════════════════════
+#  GitHub 热榜板块（独立板块，每期 5 条，不参与主新闻打分竞争）
+# ═══════════════════════════════════════════════════
+GITHUB_ENABLED = True                          # 板块总开关
+GITHUB_MODEL = "deepseek-chat"                 # 中文一句话用 V3（便宜够用）
+GITHUB_QUOTA = {"rising": 3, "veteran": 2}     # 黑马/老牌配比，和 = 5
+GITHUB_RISING_DAYS = 7                          # 黑马：created 近 N 天
+GITHUB_VETERAN_DAYS = 30                        # 老牌：pushed 近 N 天
+GITHUB_RISING_MIN_STARS = 50                    # 黑马最低星
+GITHUB_VETERAN_MIN_STARS = 5000                 # 老牌最低星
+GITHUB_RETENTION_DAYS = 30                      # repo 去重窗口（比新闻 7 天长）
+GITHUB_TIMEOUT = 12                             # Search API 单请求超时（秒）
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")        # 可选；GitHub Actions 自动注入
+
+# 去重记录文件（独立于新闻的 sent_articles.json）
+SENT_GITHUB_FILE = os.path.join(_PROJECT_ROOT, "sent_github_repos.json")

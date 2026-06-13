@@ -614,3 +614,257 @@ class TestFetchFeedContent:
     def test_empty_url_returns_none(self) -> None:
         """没有 url 的源 → 直接返回 None，不发请求。"""
         assert _fetch_feed_content({"name": "X", "url": ""}) is None
+
+
+# ═══════════════════════════════════════════════════
+#  GitHub 热榜板块测试
+# ═══════════════════════════════════════════════════
+
+from digest.github import _select_five, _search_repos, _summarize_repos_zh, pick_github_trending  # noqa: E402
+from digest.storage import load_sent_github_repos, save_sent_github_repos  # noqa: E402
+
+
+def _make_repo(full_name: str, stars: int = 1000, kind: str = "rising",
+               language: str = "Python", desc: str = "A test repo") -> dict:
+    """快捷构造测试用 repo dict。"""
+    return {
+        "full_name": full_name,
+        "html_url": f"https://github.com/{full_name}",
+        "description": desc,
+        "stargazers_count": stars,
+        "language": language,
+        "kind": kind,
+    }
+
+
+class TestSelectFive:
+    """_select_five 纯函数测试——不依赖任何 IO。"""
+
+    def test_normal_3_rising_2_veteran(self):
+        """黑马足量 → 3 黑马 + 2 老牌。"""
+        rising = [_make_repo(f"owner/r{i}", stars=500 + i, kind="rising") for i in range(10)]
+        veteran = [_make_repo(f"owner/v{i}", stars=10000 + i, kind="veteran") for i in range(10)]
+        result = _select_five(rising, veteran, set())
+        assert len(result) == 5
+        kinds = [r["kind"] for r in result]
+        assert kinds.count("rising") == 3
+        assert kinds.count("veteran") == 2
+
+    def test_rising_shortage_filled_by_veteran(self):
+        """黑马不足 → 老牌补满 5。"""
+        rising = [_make_repo("owner/r0", kind="rising")]
+        veteran = [_make_repo(f"owner/v{i}", stars=10000 + i, kind="veteran") for i in range(10)]
+        result = _select_five(rising, veteran, set())
+        assert len(result) == 5
+        kinds = [r["kind"] for r in result]
+        assert kinds.count("rising") == 1
+        assert kinds.count("veteran") == 4
+
+    def test_veteran_shortage_filled_by_rising(self):
+        """老牌不足 → 黑马补满 5。"""
+        rising = [_make_repo(f"owner/r{i}", stars=500 + i, kind="rising") for i in range(10)]
+        veteran = [_make_repo("owner/v0", kind="veteran")]
+        result = _select_five(rising, veteran, set())
+        assert len(result) == 5
+        kinds = [r["kind"] for r in result]
+        assert kinds.count("rising") == 4
+        assert kinds.count("veteran") == 1
+
+    def test_both_shortage_returns_actual(self):
+        """两边都少 → 返回实际有的。"""
+        rising = [_make_repo("owner/r0", kind="rising")]
+        veteran = [_make_repo("owner/v0", kind="veteran")]
+        result = _select_five(rising, veteran, set())
+        assert len(result) == 2
+
+    def test_sent_filter_works(self):
+        """去重集过滤生效：已推过的 full_name 不出现。"""
+        rising = [_make_repo(f"owner/r{i}", kind="rising") for i in range(10)]
+        veteran = [_make_repo(f"owner/v{i}", kind="veteran") for i in range(10)]
+        sent = {"owner/r0", "owner/r1", "owner/v0"}
+        result = _select_five(rising, veteran, sent)
+        names = {r["full_name"] for r in result}
+        assert "owner/r0" not in names
+        assert "owner/r1" not in names
+        assert "owner/v0" not in names
+
+    def test_overlap_no_duplicate(self):
+        """黑马与老牌 full_name 重叠时不重复计入。"""
+        shared = _make_repo("owner/shared", stars=5000, kind="rising")
+        rising = [shared] + [_make_repo(f"owner/r{i}", kind="rising") for i in range(5)]
+        veteran = [
+            _make_repo("owner/shared", stars=5000, kind="veteran"),
+        ] + [_make_repo(f"owner/v{i}", kind="veteran") for i in range(5)]
+        result = _select_five(rising, veteran, set())
+        names = [r["full_name"] for r in result]
+        assert names.count("owner/shared") == 1
+
+    def test_empty_inputs(self):
+        """全空输入 → 返回空列表。"""
+        assert _select_five([], [], set()) == []
+
+
+class TestSearchRepos:
+    """_search_repos 异常安全测试——mock requests.get。"""
+
+    def test_non_200_returns_empty(self, monkeypatch) -> None:
+        """HTTP 非 200 → 返回 [] 不抛。"""
+        class FakeResp:
+            status_code = 403
+            text = "rate limit exceeded"
+
+        monkeypatch.setattr("digest.github.requests.get", lambda *a, **k: FakeResp())
+        result = _search_repos("test")
+        assert result == []
+
+    def test_timeout_returns_empty(self, monkeypatch) -> None:
+        """超时 → 返回 [] 不抛。"""
+        def fake_get(*a, **k):
+            raise requests.exceptions.Timeout("timed out")
+
+        monkeypatch.setattr("digest.github.requests.get", fake_get)
+        result = _search_repos("test")
+        assert result == []
+
+    def test_json_parse_error_returns_empty(self, monkeypatch) -> None:
+        """JSON 解析失败 → 返回 [] 不抛。"""
+        class FakeResp:
+            status_code = 200
+
+            def json(self):
+                raise ValueError("bad json")
+
+        monkeypatch.setattr("digest.github.requests.get", lambda *a, **k: FakeResp())
+        result = _search_repos("test")
+        assert result == []
+
+    def test_normal_response(self, monkeypatch) -> None:
+        """正常 200 响应 → 正确解析字段。"""
+        class FakeResp:
+            status_code = 200
+
+            def json(self):
+                return {
+                    "items": [
+                        {
+                            "full_name": "owner/repo1",
+                            "html_url": "https://github.com/owner/repo1",
+                            "description": "An awesome repo",
+                            "stargazers_count": 1234,
+                            "language": "Rust",
+                        }
+                    ]
+                }
+
+        monkeypatch.setattr("digest.github.requests.get", lambda *a, **k: FakeResp())
+        result = _search_repos("test")
+        assert len(result) == 1
+        assert result[0]["full_name"] == "owner/repo1"
+        assert result[0]["stargazers_count"] == 1234
+        assert result[0]["language"] == "Rust"
+
+
+class TestSummarizeReposZh:
+    """_summarize_repos_zh AI 概括测试。"""
+
+    def test_ai_failure_falls_back_to_english(self, monkeypatch) -> None:
+        """AI 调用失败 → 回退用英文 description 截断。"""
+        def fake_call(*a, **k):
+            raise RuntimeError("DeepSeek down")
+
+        monkeypatch.setattr("digest.github._call_deepseek_once", fake_call)
+        repos = [
+            _make_repo("owner/r1", desc="A" * 100),
+            _make_repo("owner/r2", desc="B" * 100),
+        ]
+        result = _summarize_repos_zh(repos)
+        assert result[0]["description_zh"] == "A" * 80
+        assert result[1]["description_zh"] == "B" * 80
+
+    def test_partial_parse_fills_fallback(self, monkeypatch) -> None:
+        """AI 只返回 1 条 → 其余回退英文 description。"""
+        def fake_call(*a, **k):
+            return {"choices": [{"message": {"content": "1. 一个超棒的项目"}}]}
+
+        monkeypatch.setattr("digest.github._call_deepseek_once", fake_call)
+        repos = [
+            _make_repo("owner/r1", desc="English desc one"),
+            _make_repo("owner/r2", desc="English desc two"),
+        ]
+        result = _summarize_repos_zh(repos)
+        assert result[0]["description_zh"] == "一个超棒的项目"
+        assert result[1]["description_zh"] == "English desc two"
+
+    def test_empty_repos_returns_empty(self):
+        """空列表 → 原样返回。"""
+        assert _summarize_repos_zh([]) == []
+
+
+class TestPickGithubTrending:
+    """pick_github_trending 入口测试。"""
+
+    def test_disabled_returns_none(self, monkeypatch) -> None:
+        """GITHUB_ENABLED=False → 返回 None。"""
+        monkeypatch.setattr("digest.github.GITHUB_ENABLED", False)
+        result = pick_github_trending()
+        assert result is None
+
+    def test_all_api_failure_returns_none(self, monkeypatch) -> None:
+        """全 API 失败 → 返回 None。"""
+        monkeypatch.setattr("digest.github.GITHUB_ENABLED", True)
+
+        def fake_search(*a, **k):
+            return []
+
+        monkeypatch.setattr("digest.github._search_repos", fake_search)
+        result = pick_github_trending()
+        assert result is None
+
+
+class TestGithubStorage:
+    """load/save_sent_github_repos 去重存储测试。"""
+
+    def test_load_nonexistent_file_returns_empty(self, monkeypatch) -> None:
+        """文件不存在 → 返回空 set。"""
+        monkeypatch.setattr("digest.storage.SENT_GITHUB_FILE",
+                            "/nonexistent/path/gh_repos.json")
+        result = load_sent_github_repos()
+        assert result == set()
+
+    def test_save_and_load_roundtrip(self, tmp_path, monkeypatch) -> None:
+        """写入后读取 → 能正确取回。"""
+        import json as _json
+        test_file = tmp_path / "sent_github_repos.json"
+        monkeypatch.setattr("digest.storage.SENT_GITHUB_FILE", str(test_file))
+        monkeypatch.setattr("digest.storage.GITHUB_RETENTION_DAYS", 30)
+
+        save_sent_github_repos(["owner/a", "owner/b"])
+        loaded = load_sent_github_repos()
+        assert "owner/a" in loaded
+        assert "owner/b" in loaded
+
+    def test_damaged_file_returns_empty(self, tmp_path, monkeypatch) -> None:
+        """损坏的 JSON 文件 → 返回空 set，不抛异常。"""
+        test_file = tmp_path / "damaged.json"
+        test_file.write_text("not valid json{{{", encoding="utf-8")
+        monkeypatch.setattr("digest.storage.SENT_GITHUB_FILE", str(test_file))
+        result = load_sent_github_repos()
+        assert result == set()
+
+    def test_old_format_migration(self, tmp_path, monkeypatch) -> None:
+        """旧格式（repos 列表无 history）→ 正确迁移并读取。"""
+        import json as _json
+        test_file = tmp_path / "old_format.json"
+        old_data = {"repos": ["owner/old1", "owner/old2"], "ts": "2026-06-10 08:00"}
+        test_file.write_text(_json.dumps(old_data), encoding="utf-8")
+        monkeypatch.setattr("digest.storage.SENT_GITHUB_FILE", str(test_file))
+        monkeypatch.setattr("digest.storage.GITHUB_RETENTION_DAYS", 30)
+
+        loaded = load_sent_github_repos()
+        assert "owner/old1" in loaded
+        assert "owner/old2" in loaded
+
+        save_sent_github_repos(["owner/new1"])
+        loaded2 = load_sent_github_repos()
+        assert "owner/old1" in loaded2
+        assert "owner/new1" in loaded2

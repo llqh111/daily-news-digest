@@ -58,6 +58,8 @@ from digest.storage import (  # noqa: E402
     should_skip_session,
     load_recent_digests,
     save_digest_markdown,
+    load_sent_github_repos,
+    save_sent_github_repos,
 )
 from digest.scoring import (  # noqa: E402
     score_importance,
@@ -92,6 +94,7 @@ from digest.ai import (  # noqa: E402
 from digest.triage import triage_with_deepseek  # noqa: E402
 from digest.scout import scout_for_gaps  # noqa: E402
 from digest.bio import pick_bio_breakthrough  # noqa: E402
+from digest.github import pick_github_trending  # noqa: E402
 from digest.topics import generate_topics  # noqa: E402
 from digest.push import (  # noqa: E402
     SERVERCHAN_SENDKEY,
@@ -185,6 +188,41 @@ def _insert_bio_section(summary: str, bio: dict | None) -> str:
     return summary + section
 
 
+def _insert_github_section(summary: str, repos: list[dict] | None) -> str:
+    """在简报末尾（编辑手记前）插入 🔥 GitHub 热榜板块。repos 为空/None 则跳过。"""
+    if not repos:
+        return summary
+
+    lines = ["\n## 🔥 GitHub 热榜 · 今日 5 选\n"]
+    for i, r in enumerate(repos, 1):
+        # 星数格式化：≥1000 显示 12.3k
+        stars = r.get("stars", 0)
+        if stars >= 1000:
+            stars_str = f"{stars / 1000:.1f}k"
+        else:
+            stars_str = str(stars)
+
+        # 语言标签
+        lang = r.get("language", "")
+        lang_part = f" · {lang}" if lang else ""
+
+        # 角标
+        kind = r.get("kind", "rising")
+        badge = "🚀新晋" if kind == "rising" else "🏛️老牌"
+
+        lines.append(f"### {i}. {r['full_name']}  ⭐ {stars_str}{lang_part}  {badge}")
+        lines.append(r.get("description_zh", ""))
+        lines.append(f"🔗 {r.get('url', '')}")
+        lines.append("")
+    section = "\n".join(lines)
+
+    for marker in ["『编辑手记", "```自我审计", "## 编辑手记"]:
+        idx = summary.find(marker)
+        if idx != -1:
+            return summary[:idx] + section + "\n" + summary[idx:]
+    return summary + section
+
+
 # ═══════════════════════════════════════════════════
 #  主流程
 # ═══════════════════════════════════════════════════
@@ -231,6 +269,10 @@ def main() -> None:
         bio = pick_bio_breakthrough()
         log.info("生物板块：" + ("已选中 1 条" if bio else "本期无"))
 
+        log.info("🔥 GitHub 热榜挑选（github）...")
+        repos = pick_github_trending()
+        log.info("GitHub 板块：" + (f"已选 {len(repos)} 条" if repos else "本期无"))
+
         log.info("📰 抓取精选新闻的正文全文（仅 triage 选中条目）...")
         attach_fulltexts(articles)
 
@@ -243,6 +285,8 @@ def main() -> None:
         summary = _insert_gap_section(summary, gaps)
         # ── 插入生物前沿板块（每期 1 条）──
         summary = _insert_bio_section(summary, bio)
+        # ── 插入 GitHub 热榜板块（每期 5 条）──
+        summary = _insert_github_section(summary, repos)
         # ── 追加自媒体选题 ──
         summary += generate_topics(articles, gaps)
 
@@ -275,6 +319,10 @@ def main() -> None:
         candidate_links = [a["link"] for a in articles if a.get("link")]
         save_sent_links(candidate_links)
 
+        # 保存 GitHub 热榜去重记录（独立于新闻）
+        if repos:
+            save_sent_github_repos([r["full_name"] for r in repos])
+
         # 存档最终生成的简报
         save_digest_markdown(summary)
 
@@ -298,6 +346,7 @@ def main() -> None:
             "triage_with_deepseek": "R1决策精选",
             "scout_for_gaps": "信息差侦察",
             "pick_bio_breakthrough": "生物前沿挑选",
+            "pick_github_trending": "GitHub热榜",
             "attach_fulltexts": "正文抓取",
             "summarize_with_deepseek": "DeepSeek AI总结",
             "generate_topics": "自媒体选题生成",

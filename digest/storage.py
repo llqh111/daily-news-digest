@@ -12,7 +12,7 @@ import logging
 import re
 from datetime import datetime, date, timedelta
 
-from .config import TZ, SENT_LOG_FILE, SENT_RETENTION_DAYS
+from .config import TZ, SENT_LOG_FILE, SENT_RETENTION_DAYS, SENT_GITHUB_FILE, GITHUB_RETENTION_DAYS
 
 log = logging.getLogger(__name__)
 
@@ -186,3 +186,89 @@ def save_digest_markdown(content: str) -> None:
     path = os.path.join("digests", filename)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
+
+
+# ═══════════════════════════════════════════════════
+#  GitHub 热榜去重（独立于新闻 sent_articles.json）
+# ═══════════════════════════════════════════════════
+
+def load_sent_github_repos() -> set[str]:
+    """加载跨天推送过的 GitHub repo full_name（合并近 GITHUB_RETENTION_DAYS 天），用来去重。"""
+    if not os.path.exists(SENT_GITHUB_FILE):
+        return set()
+    try:
+        with open(SENT_GITHUB_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # ── 兼容旧格式（单次 repos 列表，无 history）──
+        if "repos" in data and "history" not in data:
+            repos = set(data.get("repos", []))
+            ts = data.get("ts", "unknown")
+            log.info(f"已加载旧格式 GitHub 去重记录：{len(repos)} 条（{ts}），下次将自动迁移为新格式")
+            return repos
+
+        # ── 新格式：按天分桶，合并所有天 → 一个 flat set ──
+        history = data.get("history", {})
+        all_repos: set[str] = set()
+        for day, repos in history.items():
+            all_repos.update(repos)
+            log.debug(f"  GitHub 去重加载 {day}: {len(repos)} 条")
+        log.info(f"已加载跨天 GitHub 去重记录：{len(all_repos)} 条（{len(history)} 天窗口）")
+        return all_repos
+    except Exception as e:
+        log.warning(f"加载 GitHub 去重记录失败，将按无历史处理: {e}")
+        return set()
+
+
+def save_sent_github_repos(full_names: list[str]) -> None:
+    """保存本次推送的 GitHub repo full_name，按天归档，保留最近 GITHUB_RETENTION_DAYS 天。"""
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+
+    # ── 加载现有数据（兼容旧格式）──
+    data: dict = {}
+    if os.path.exists(SENT_GITHUB_FILE):
+        try:
+            with open(SENT_GITHUB_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            pass
+
+    # ── 迁移旧格式 ──
+    if "repos" in data and "history" not in data:
+        old_ts = data.get("ts", "unknown")
+        old_day = old_ts[:10] if len(old_ts) >= 10 else "unknown"
+        data = {"history": {old_day: data["repos"]}}
+        log.info(f"已从旧格式迁移 GitHub 去重记录：{len(data['history'][old_day])} 条 → {old_day}")
+
+    history = data.get("history", {})
+
+    # ── 写入今天的 repo（去重后存）──
+    existing = set(history.get(today, []))
+    existing.update(full_names)
+    history[today] = list(existing)
+
+    # ── 清理超过保留天数的旧记录 ──
+    cutoff = date.today() - timedelta(days=GITHUB_RETENTION_DAYS)
+    cutoff_str = cutoff.strftime("%Y-%m-%d")
+    removed_days = []
+    for day in list(history.keys()):
+        if day < cutoff_str:
+            removed_days.append(day)
+            del history[day]
+    if removed_days:
+        log.info(f"清理过期 GitHub 去重记录：{', '.join(sorted(removed_days))}（保留 {GITHUB_RETENTION_DAYS} 天窗口）")
+
+    # ── 写回 ──
+    now = datetime.now(TZ)
+    data = {
+        "updated": now.strftime("%Y-%m-%d %H:%M"),
+        "retention_days": GITHUB_RETENTION_DAYS,
+        "history": history,
+    }
+    try:
+        with open(SENT_GITHUB_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        total = sum(len(v) for v in history.values())
+        log.info(f"已保存 GitHub 去重记录：{len(full_names)} 条（今日），总计 {total} 条 / {len(history)} 天")
+    except Exception as e:
+        log.warning(f"保存 GitHub 去重记录失败（不影响推送）: {e}")
