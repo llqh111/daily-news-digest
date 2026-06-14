@@ -147,9 +147,12 @@ def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
             published = parse_published(entry)
 
             # 时间窗口过滤：太旧的直接丢（有发布时间才判断；没时间的保留）
+            # 慢源（央行/政府/公司博客/newsletter）在 config 里标了 window_hours，
+            # 用它自己的更长窗口；普通高频源走全局 TIME_WINDOW_HOURS。
+            window = feed_info.get("window_hours", TIME_WINDOW_HOURS)
             if published is not None:
                 hours_old = (now_utc - published).total_seconds() / 3600
-                if hours_old > TIME_WINDOW_HOURS:
+                if hours_old > window:
                     continue
 
             seen_titles.add(title_lower)

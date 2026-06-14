@@ -44,6 +44,10 @@ TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 MAX_PER_FEED = 8
 # 只保留多少小时内的新闻（晨报要新鲜，48h 给国际时差留余地）
 TIME_WINDOW_HOURS = 24
+# 慢源专属窗口：央行/政府/公司博客/newsletter 周更甚至更慢，24h 会天天交白卷。
+# 给它们单独放宽到 72h（在源上标 "window_hours" 引用本值即可）。
+# 安全性：fetch 里有 skip_links 去重 + sent_articles.json 存 7 天，放宽不会重复推送。
+SLOW_WINDOW_HOURS = 72
 # 聚类去重 + 打分后，留多少条「代表作」去抓正文全文交给 AI。
 # AI 会从这批里再精选，所以候选数要比最终条数大一些，给 AI 留挑选余地。
 # 注：候选池不再用「全局 top-N」，改成各分类按 CATEGORY_QUOTA×CANDIDATE_PER_CATEGORY_MULT
@@ -137,23 +141,23 @@ RSS_FEEDS = [
     {"name": "Bloomberg", "url": "https://news.google.com/rss/search?q=when:1d+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en", "category": "财经", "reference": True},
     {"name": "36kr", "url": "https://36kr.com/feed", "category": "科技"},
     # ── 第1层：一手信源 ──
-    {"name": "美联储新闻稿", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "category": "财经"},
-    {"name": "欧央行新闻稿", "url": "https://www.ecb.europa.eu/rss/press.html", "category": "财经"},
-    {"name": "SEC 新闻稿", "url": "https://www.sec.gov/news/pressreleases.rss", "category": "财经"},
-    {"name": "白宫公告", "url": "https://www.whitehouse.gov/presidential-actions/feed/", "category": "国际"},
-    {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "category": "科技", "max_items": 3},
-    {"name": "OpenAI 博客", "url": "https://openai.com/blog/rss.xml", "category": "科技", "max_items": 3},
-    {"name": "DeepMind 博客", "url": "https://deepmind.google/blog/rss.xml", "category": "科技", "max_items": 3},
-    {"name": "HuggingFace 博客", "url": "https://huggingface.co/blog/feed.xml", "category": "科技", "max_items": 3},
-    {"name": "英伟达博客", "url": "https://blogs.nvidia.com/feed/", "category": "科技"},
+    {"name": "美联储新闻稿", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "欧央行新闻稿", "url": "https://www.ecb.europa.eu/rss/press.html", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "SEC 新闻稿", "url": "https://www.sec.gov/news/pressreleases.rss", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "白宫公告", "url": "https://www.whitehouse.gov/presidential-actions/feed/", "category": "国际", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "OpenAI 博客", "url": "https://openai.com/blog/rss.xml", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "DeepMind 博客", "url": "https://deepmind.google/blog/rss.xml", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "HuggingFace 博客", "url": "https://huggingface.co/blog/feed.xml", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "英伟达博客", "url": "https://blogs.nvidia.com/feed/", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
     # ── 第2层：高密度垂直源 ──
-    {"name": "Stratechery", "url": "https://stratechery.com/feed/", "category": "科技"},
-    {"name": "SemiAnalysis", "url": "https://semianalysis.com/feed/", "category": "科技"},
-    {"name": "Import AI", "url": "https://importai.substack.com/feed", "category": "科技"},
-    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "category": "科技"},
-    {"name": "Interconnects", "url": "https://www.interconnects.ai/feed", "category": "科技"},
-    {"name": "ChinaTalk", "url": "https://www.chinatalk.media/feed", "category": "国际"},
-    {"name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "category": "科技"},
+    {"name": "Stratechery", "url": "https://stratechery.com/feed/", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "SemiAnalysis", "url": "https://semianalysis.com/feed/", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "Import AI", "url": "https://importai.substack.com/feed", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "Interconnects", "url": "https://www.interconnects.ai/feed", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "ChinaTalk", "url": "https://www.chinatalk.media/feed", "category": "国际", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
     # ── 第3层：社区信号 ──
     {"name": "r/MachineLearning", "url": "https://www.reddit.com/r/MachineLearning/top/.rss?t=day", "category": "科技"},
     {"name": "GitHub Trending", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml", "category": "科技"},
