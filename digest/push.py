@@ -14,6 +14,7 @@
 
 from __future__ import annotations
 
+import html
 import logging
 import os
 import time
@@ -104,6 +105,7 @@ def _serverchan_send_chunk(
     RETRYABLE = (
         requests.exceptions.ConnectionError,
         requests.exceptions.Timeout,
+        requests.exceptions.JSONDecodeError,  # 网关返回 HTML 错误页 → 瞬时，可重试
     )
     MAX_RETRIES = 3
 
@@ -115,6 +117,10 @@ def _serverchan_send_chunk(
                 data={"title": title, "desp": desp},
                 timeout=30,
             )
+            # 5xx 是网关/服务端瞬时故障，按可重试处理（而非当永久失败丢弃）
+            status = getattr(resp, "status_code", 200)
+            if status >= 500:
+                raise requests.exceptions.ConnectionError(f"HTTP {status} 网关错误")
             result = resp.json()
             if result.get("code") == 0:
                 log.info(f"✅ {label} 推送成功！")
@@ -201,6 +207,7 @@ def push_to_telegram(content: str) -> bool | None:
     TG_RETRYABLE = (
         requests.exceptions.ConnectionError,
         requests.exceptions.Timeout,
+        requests.exceptions.JSONDecodeError,  # 非 JSON 响应（502 页等）→ 可重试
     )
     TG_MAX_RETRIES = 3
 
@@ -246,6 +253,9 @@ def push_to_telegram(content: str) -> bool | None:
                     },
                     timeout=30,
                 )
+                status = getattr(resp, "status_code", 200)
+                if status >= 500:
+                    raise requests.exceptions.ConnectionError(f"HTTP {status} 网关错误")
                 result = resp.json()
                 if result.get("ok"):
                     log.info(f"✅ Telegram ({idx}/{total}) 推送成功")
@@ -335,11 +345,15 @@ def send_failure_alert(error_msg: str, stage: str = "未知") -> None:
     # ── Telegram ──
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
         try:
+            # parse_mode=HTML 下必须转义 < > &，否则 traceback 里的尖括号/&
+            # 会让 Telegram 解析失败 → 告警发不出（恰恰在最该收到告警时静默）
+            safe_stage = html.escape(stage)
+            safe_err = html.escape(error_msg[:500])
             tg_text = (
                 f"⚠️ <b>每日要闻推送失败</b>\n\n"
-                f"<b>失败环节</b>: {stage}\n"
+                f"<b>失败环节</b>: {safe_stage}\n"
                 f"<b>时间</b>: {now_str}\n\n"
-                f"<b>错误</b>:\n<pre>{error_msg[:500]}</pre>\n\n"
+                f"<b>错误</b>:\n<pre>{safe_err}</pre>\n\n"
                 f"<a href=\"https://github.com/{os.getenv('GITHUB_REPOSITORY', '')}/actions\">查看 Actions 日志</a>"
             )
             resp = requests.post(
