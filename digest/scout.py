@@ -27,6 +27,7 @@ from .config import (
     SCOUT_MAX_ROUNDS,
     SCOUT_MAX_TOOL_CALLS,
     SCOUT_MODEL,
+    SCOUT_SALVAGE,
 )
 from .fetch import fetch_one_fulltext
 from .search_provider import web_search
@@ -97,6 +98,56 @@ def _parse_action(text: str) -> dict | None:
         return json.loads(m.group(0))
     except Exception:
         return None
+
+
+# 保底挑选提示：放宽「低曝光」标准，从已搜到的真实结果里强挑最贴画像的 1 条。
+_SALVAGE_PROMPT = """你已经搜了多轮，但没挑出任何「低曝光高价值」内容。现在放宽标准：
+从你前面【搜索结果】里**真实出现过的链接**中，挑出对该读者画像最有价值的**恰好 1 条**（即便它不算特别冷门也行），按 finish 格式输出，findings 里只放这 1 条。
+只有当前面搜索结果确实一条能用的都没有时，才输出 findings 为空列表。
+严格只输出一个纯 JSON finish 动作，不要任何解释、前后缀或 markdown 代码块。"""
+
+
+def _salvage_pick(system_prompt: str, history_lines: list[str],
+                  start_ts: float) -> list[dict]:
+    """保底挑选：放宽标准，从历史搜索结果里强挑 1 条。带反幻觉校验。
+    任何失败 → 返回 []，不抛异常。
+    """
+    if time.time() - start_ts > SCOUT_TIMEOUT_S:
+        log.warning("侦察兵保底挑选前已超时，跳过")
+        return []
+
+    user_prompt = "\n\n".join(history_lines + [_SALVAGE_PROMPT])
+    try:
+        data = _call_deepseek_once(system_prompt, user_prompt,
+                                   max_tokens=1200, model=SCOUT_MODEL)
+        llm_output = data["choices"][0]["message"]["content"]
+    except Exception as e:
+        log.warning(f"侦察兵保底挑选 LLM 调用失败：{e}")
+        return []
+
+    action = _parse_action(llm_output)
+    if not action or action.get("action") != "finish":
+        log.warning("侦察兵保底挑选未返回合法 finish 动作，放弃")
+        return []
+
+    # 反幻觉：放宽标准后更易编链接，挑中的 url 必须在历史搜索结果里真出现过
+    history_blob = "\n".join(history_lines)
+    picked: list[dict] = []
+    for f in action.get("args", {}).get("findings", []):
+        if not (isinstance(f, dict) and f.get("url") and f.get("title")):
+            continue
+        if f["url"] not in history_blob:
+            log.warning(f"侦察兵保底跳过疑似编造链接：{f.get('url')}")
+            continue
+        picked.append({
+            "title":            str(f.get("title", "")),
+            "why_valuable":     str(f.get("why_valuable", "")),
+            "why_underreported": str(f.get("why_underreported", "")),
+            "url":              str(f.get("url", "")),
+        })
+
+    log.info(f"侦察兵保底挑选：补 {len(picked)} 条")
+    return picked[:1]
 
 
 def scout_for_gaps() -> list[dict]:
@@ -200,8 +251,12 @@ def _run_scout() -> list[dict]:
                         "why_underreported": str(f.get("why_underreported", "")),
                         "url":              str(f.get("url", "")),
                     })
-            log.info(f"侦察兵完成，共发现 {len(findings)} 条")
-            return findings[:SCOUT_FINDINGS]
+            if findings:
+                log.info(f"侦察兵完成，共发现 {len(findings)} 条")
+                return findings[:SCOUT_FINDINGS]
+            # finish 但 0 条 → 不直接收尾，跳出循环走「保底挑选」放宽标准补 1 条
+            log.info("侦察兵 finish 交空列表，进入保底挑选")
+            break
 
         # ── search ──────────────────────────────────
         elif act_type == "search":
@@ -239,5 +294,11 @@ def _run_scout() -> list[dict]:
         if consecutive_tool_fails >= _TOOL_FAIL_LIMIT:
             log.warning(f"侦察兵连续工具失败 {consecutive_tool_fails} 次，提前退出")
             break
+
+    # ── 保底挑选 ──────────────────────────────────
+    # 走到这里 findings 仍空（搜了但没挑出 / 超时 / 工具失败收尾）。
+    # 至少搜过一次才有候选可挑，否则无米下锅，跳过保底。
+    if not findings and SCOUT_SALVAGE and tool_call_count > 0:
+        findings = _salvage_pick(system_prompt, history_lines, start_ts)
 
     return findings[:SCOUT_FINDINGS]

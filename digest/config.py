@@ -64,6 +64,7 @@ SCOUT_ENABLED = True                     # 侦察兵总开关，想省钱临时�
 SCOUT_MAX_ROUNDS = 6                     # ReAct 最多循环轮数
 SCOUT_MAX_TOOL_CALLS = 10               # 工具调用总次数上限
 SCOUT_FINDINGS = 3                       # 最终输出几条发现
+SCOUT_SALVAGE = True                     # 保底挑选：finish 交空列表时放宽标准强补 1 条（防板块全空）
 SEARCH_MONTHLY_CAP = 800                 # 月搜索调用上限（留余量给 1000 免费额度）
 TOPIC_PLATFORM = "短视频/公众号通用"      # 自媒体选题平台口吻
 
