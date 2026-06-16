@@ -23,7 +23,7 @@ on:
         description: '强制执行（跳过去重检查）'
         required: false
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write
@@ -66,7 +66,7 @@ jobs:
 
       - name: 📰 运行每日简报
         run: |
-          if [ "${{ github.event.inputs.force }}" == "true" ] || [ "${{ github.event_name }}" == "workflow_dispatch" -a "${{ github.event.inputs.force }}" == "" ]; then
+          if [ "${{ github.event.inputs.force }}" == "true" ]; then
             python main.py --force
           else
             python main.py
