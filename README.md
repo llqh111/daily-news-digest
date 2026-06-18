@@ -118,7 +118,7 @@ SOURCE_TRUST = {
 | `TIME_WINDOW_HOURS` | 24 | Only keep articles published within this window |
 | `FINAL_PICK` | 13 | Total articles in the final digest |
 | `CATEGORY_QUOTA` | `{"国际":6, "科技":4, "财经":3}` | Per-category cap (sums to `FINAL_PICK`; each category ranks independently — no cross-category competition) |
-| `FULLTEXT_MAX_CHARS` | 1000 | Max characters per article fed to the AI (controls token cost) |
+| `FULLTEXT_MAX_CHARS` | 2800 | Max characters per article fed to the AI (controls token cost) |
 | `BATCH_SIZE` | 7 | Articles per AI call; auto-splits if exceeded |
 
 ## Diagnostics & testing

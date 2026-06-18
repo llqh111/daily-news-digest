@@ -20,6 +20,10 @@ from .config import (
     _MEDIUM_SIGNAL_RE,
     _LOW_VALUE_RE,
     _PERSONAL_RE,
+    _HARD_NUMBER_RE,
+    HARD_NUMBER_BONUS,
+    ENTITY_DENSITY_MIN,
+    ENTITY_DENSITY_BONUS,
     SOURCE_TRUST,
     CLICKBAIT_PATTERNS,
     TITLE_STOPWORDS,
@@ -73,6 +77,16 @@ def score_importance(title: str, summary: str, published: datetime | None,
         if re.search(pat, title_lower):
             score -= 2
             break   # 命中一个就够了，不重复扣
+
+    # ⑤ 实锤数字：标题含具体金额/百分比/量级（$2B、40%、3 billion）→ 硬新闻特征。
+    #    关键词词典认不出「有没有数字」，这一维专门补盲；只看标题，最多加一次。
+    if _HARD_NUMBER_RE.search(title):
+        score += HARD_NUMBER_BONUS
+
+    # ⑥ 实体密度：标题含 ≥ENTITY_DENSITY_MIN 个专有名词 → 是「具体事件」而非「泛泛议题」。
+    #    复用 extract_proper_nouns（与聚类同一套抽取逻辑），达到阈值加一次。
+    if len(extract_proper_nouns(title)) >= ENTITY_DENSITY_MIN:
+        score += ENTITY_DENSITY_BONUS
 
     return score
 

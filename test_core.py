@@ -86,6 +86,34 @@ class TestScoreImportance:
         score = score_importance("", "", None, source="")
         assert isinstance(score, (int, float)), f"应返回数字，实际 {type(score)}"
 
+    def test_hard_number_signal_adds_point(self):
+        """标题含具体金额/量级（实锤数字）应比无数字版多 +1。"""
+        with_num = score_importance("Company reports $2 billion loss", "", None)
+        without = score_importance("Company reports big loss", "", None)
+        assert with_num > without, (
+            f"带实锤数字 {with_num} 应 > 无数字 {without}"
+        )
+
+    def test_percent_counts_as_hard_number(self):
+        """百分比也算实锤数字（40% → +1）。"""
+        with_pct = score_importance("Exports drop 40% in quarter", "", None)
+        without = score_importance("Exports drop sharply in quarter", "", None)
+        assert with_pct > without, f"带百分比 {with_pct} 应 > 无 {without}"
+
+    def test_bare_year_not_counted_as_hard_number(self):
+        """裸年份（2026）不是数据，不该触发实锤数字加分——防误命中。"""
+        # 无任何信号词、无符号/量级词，仅含一个年份
+        score = score_importance("Festival returns in 2026", "", None)
+        assert score <= 0, f"裸年份不应加分，期望 ≤0，实际 {score}"
+
+    def test_entity_density_adds_point(self):
+        """标题含 ≥2 个专有名词（具体事件）应 +1；单个专有名词不加。"""
+        dense = score_importance("Macron meets Scholz in Berlin", "", None)
+        sparse = score_importance("Macron travels overseas", "", None)
+        assert dense > sparse, (
+            f"多专有名词 {dense} 应 > 单专有名词 {sparse}"
+        )
+
 
 # ═══════════════════════════════════════════════════
 #  关键词匹配边界测试 —— 防止子串误匹配回归
