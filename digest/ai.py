@@ -131,7 +131,7 @@ def _articles_to_text(articles: list[dict]) -> str:
 
 def _call_deepseek_once(system_prompt: str, user_prompt: str,
                         max_tokens: int = 8000,
-                        model: str = "deepseek-reasoner") -> dict:
+                        model: str = "deepseek-v4-pro") -> dict:
     """单次调用 DeepSeek（流式 + 自动重试）。
     返回 {"choices": [{"message": {"content": ...}}], ...} 或抛异常。"""
     RETRYABLE = (
@@ -156,6 +156,9 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                         {"role": "user", "content": user_prompt},
                     ],
                     "max_tokens": max_tokens,
+                    # V4 思考模式开关（v4-flash/v4-pro 通用）。显式 enabled，把意图钉死，
+                    # 不赖 API 默认。旧别名 deepseek-chat/reasoner 2026/07/24 废弃，此处迁移配套。
+                    "thinking": {"type": "enabled"},
                 },
                 timeout=(60, 300),
                 stream=True,
