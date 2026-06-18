@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 import pytest
 
-from digest.triage import triage_with_deepseek
+from digest.triage import triage_with_deepseek, _extract_decisions
 
 
 # ──────────────────────────── 辅助 ────────────────────────────
@@ -179,3 +179,35 @@ def test_all_keep_false_falls_back():
     # 回退到粗筛排序，应有条目
     assert len(result) > 0
     assert all("title" in a for a in result)
+
+
+# ──────────────────────────── _extract_decisions 抗截断解析 ────────────────────────────
+
+def test_extract_clean_array():
+    """正常裸数组应整体解析。"""
+    out = _extract_decisions('[{"id":1,"keep":true,"score":8,"reason":"x"}]')
+    assert out == [{"id": 1, "keep": True, "score": 8, "reason": "x"}]
+
+
+def test_extract_code_block_array():
+    """```json 代码块包裹的数组应解析。"""
+    out = _extract_decisions('```json\n[{"id":2,"keep":false,"score":3,"reason":"y"}]\n```')
+    assert len(out) == 1 and out[0]["id"] == 2
+
+
+def test_extract_truncated_array_salvages_objects():
+    """max_tokens 截断、数组缺闭合 ] → 逐对象救活，丢最后半条不整盘报废。"""
+    # 第 3 个对象被截断（没写完也没 ]）
+    truncated = (
+        '[{"id":1,"keep":true,"score":9,"reason":"a"},'
+        '{"id":2,"keep":true,"score":7,"reason":"b"},'
+        '{"id":3,"keep":tr'
+    )
+    out = _extract_decisions(truncated)
+    ids = [d["id"] for d in out]
+    assert ids == [1, 2], f"应救活前 2 条完整对象，实际 {ids}"
+
+
+def test_extract_garbage_returns_empty():
+    """完全没有 JSON 对象 → 返回空列表（交由调用方 fallback）。"""
+    assert _extract_decisions("抱歉，我无法完成这个任务。") == []

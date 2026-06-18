@@ -79,6 +79,40 @@ def _articles_to_triage_text(articles: list[dict]) -> str:
     return "\n\n".join(parts)
 
 
+def _extract_decisions(content: str) -> list[dict]:
+    """从 R1 输出里抠出决策列表，对截断/夹带文字尽量鲁棒。
+
+    三级回退：
+      ① ```json 代码块里的数组 → 整体 json.loads
+      ② 裸数组（首个 [ 到末个 ]）→ 整体 json.loads
+      ③ 上面都失败（多半是 max_tokens 截断、数组没闭合的 ]）→
+         逐个抠 {…} 决策对象单独解析，截断只丢最后半条，不整盘报废。
+    返回决策 dict 列表（可能为空，交由调用方决定是否 fallback）。
+    """
+    # ① / ② 先试整体数组
+    m = re.search(r"```(?:json)?\s*(\[[\s\S]*?\])\s*```", content)
+    if not m:
+        m = re.search(r"\[[\s\S]*\]", content)
+    if m:
+        try:
+            parsed = json.loads(m.group(1) if m.lastindex else m.group(0))
+            if isinstance(parsed, list):
+                return parsed
+        except Exception:
+            pass  # 落到 ③ 逐对象救活
+
+    # ③ 抗截断：决策对象无嵌套花括号，逐个抠出来单独 json.loads
+    salvaged: list[dict] = []
+    for obj_str in re.findall(r"\{[^{}]*\}", content):
+        try:
+            obj = json.loads(obj_str)
+        except Exception:
+            continue
+        if isinstance(obj, dict) and "id" in obj:
+            salvaged.append(obj)
+    return salvaged
+
+
 def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     """R1 决策：从粗筛候选里精选+排序，返回选中子集。
 
@@ -116,24 +150,20 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
     )
 
     try:
+        # max_tokens 8000：候选变多后 R1 的 JSON 决策更长，4000 易截断成残缺数组 →
+        # 解析失败整盘退回粗筛。给足预算优先保住语义精选。
         data = _call_deepseek_once(system_prompt, user_prompt,
-                                   max_tokens=4000, model=TRIAGE_MODEL)
+                                   max_tokens=8000, model=TRIAGE_MODEL)
         content = data["choices"][0]["message"]["content"]
     except Exception as e:
         return _fallback(f"LLM 调用失败：{e}")
 
-    # ── JSON 解析：支持裸数组 / ```json 代码块 / 混杂文本三种格式 ──
-    try:
-        # 优先：代码块内的数组
-        m = re.search(r"```(?:json)?\s*(\[[\s\S]*?\])\s*```", content)
-        if not m:
-            # 次选：裸数组（从第一个 [ 到最后一个 ]）
-            m = re.search(r"\[[\s\S]*\]", content)
-        if not m:
-            return _fallback("LLM 输出中找不到 JSON 数组")
-        decisions: list[dict] = json.loads(m.group(1) if m.lastindex else m.group(0))
-    except Exception as e:
-        return _fallback(f"JSON 解析失败：{e}")
+    # ── JSON 解析：代码块数组 / 裸数组 / 截断后逐对象救活（见 _extract_decisions）──
+    decisions = _extract_decisions(content)
+    if not decisions:
+        # 记录原始输出，否则无法诊断 R1 到底吐了什么（对齐 scout.py 的可观测性）
+        log.warning(f"triage 解析不出决策，R1 原始输出（前 300 字）：{content[:300]!r}")
+        return _fallback("LLM 输出中找不到可解析的决策")
 
     # ── 建 id→article 映射，把决策写回 article dict ──
     id_map = {i: art for i, art in enumerate(articles, 1)}
