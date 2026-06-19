@@ -453,3 +453,29 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")        # 可选；GitHub Actions 自动
 
 # 去重记录文件（独立于新闻的 sent_articles.json）
 SENT_GITHUB_FILE = os.path.join(_PROJECT_ROOT, "sent_github_repos.json")
+
+# ═══════════════════════════════════════════════════
+#  语义去重（词面聚类之上叠加的向量精筛层）
+# ═══════════════════════════════════════════════════
+#
+# DeepSeek 无 embedding 接口，故用本地 fastembed（onnxruntime，无 torch）。
+# 装不上 / 模型下载失败时 embed_titles 返回 None → 整层自动跳过，回退纯词面聚类。
+SEMANTIC_DEDUP_ENABLED = True
+# 多语言小模型：36kr 是中文源、标题中英混合，必须多语言。
+EMBED_MODEL = "intfloat/multilingual-e5-small"
+# 余弦相似度 ≥ 此值判同事件。0.86 偏稳；更激进合并降到 0.82，更保守升到 0.90。
+SEMANTIC_SIM_THRESHOLD = 0.86
+# 编码文本是否拼接 summary 前若干字（提升短标题区分度）。
+SEMANTIC_USE_SUMMARY = True
+SEMANTIC_SUMMARY_CHARS = 120
+
+# ═══════════════════════════════════════════════════
+#  自评重写环（LLM-as-judge：DeepSeek 审自己的成稿）
+# ═══════════════════════════════════════════════════
+#
+# 成稿后让 DeepSeek 打分，低于阈值带着问题清单重写一次。
+# 重写后做「来源数不降 + 长度不暴跌」硬校验，破格式就弃用——质量增强绝不阻断推送。
+SELF_CRITIQUE_ENABLED = True
+CRITIQUE_MODEL = "deepseek-v4-pro"   # 裁判吃判断力，用 V4-Pro 思考模式
+REWRITE_THRESHOLD = 6.0              # overall < 此分触发重写（保守起步，少重写省 token）
+REWRITE_MAX = 1                      # 最多重写次数（防烧钱/死循环）

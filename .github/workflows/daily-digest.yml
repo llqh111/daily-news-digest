@@ -55,8 +55,15 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
+      # 语义去重的嵌入模型缓存：首次 run 下载 ~100MB，之后命中缓存近乎零成本。
+      - name: 🧠 缓存嵌入模型
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/fastembed
+          key: fastembed-mle5-small-v1
+
       - name: 🧪 运行单元测试（不过就不推送）
-        run: python -m pytest test_core.py -q
+        run: python -m pytest test_core.py test_semantic_dedup.py test_critique.py -q
 
       - name: 📰 运行每日简报
         run: |

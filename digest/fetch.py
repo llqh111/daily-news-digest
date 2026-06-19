@@ -30,10 +30,12 @@ from .config import (
     FULLTEXT_MAX_CHARS,
     FEED_FETCH_TIMEOUT,
     FEED_FETCH_WORKERS,
+    SEMANTIC_DEDUP_ENABLED,
 )
 from .scoring import (
     score_importance,
     cluster_and_boost,
+    merge_similar_clusters,
     enforce_category_balance,
 )
 
@@ -177,6 +179,14 @@ def fetch_all_feeds(skip_links: set[str] | None = None) -> list[dict]:
     reps = cluster_and_boost(articles)
     merged = len(articles) - len(reps)
     log.info(f"同题聚类：{len(articles)} 条 → {len(reps)} 条（合并掉 {merged} 条重复报道）")
+
+    # 语义去重：在词面聚类之上叠加向量精筛，合并「换种说法的同一事件」。
+    # 库缺失/模型失败时 merge_similar_clusters 原样返回，自动降级为纯词面聚类。
+    if SEMANTIC_DEDUP_ENABLED:
+        before = len(reps)
+        reps = merge_similar_clusters(reps)
+        if len(reps) < before:
+            log.info(f"语义去重：向量层额外合并 {before - len(reps)} 簇 → {len(reps)} 条")
 
     # 分类分桶选候选：每类只在自己桶内按分数取满配额，跨类零竞争（个人雷达/金融 +4 不挤别类）
     top = enforce_category_balance(reps)

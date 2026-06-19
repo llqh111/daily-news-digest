@@ -245,3 +245,108 @@ def enforce_category_balance(articles: list[dict]) -> list[dict]:
     # 统一按分数排序（板块内呈现顺序仍是分数优先；不影响每类已锁定的成员集合）
     picked.sort(key=lambda a: a["score"], reverse=True)
     return picked
+
+
+# ═══════════════════════════════════════════════════
+#  语义去重：词面聚类之上的向量精筛层
+# ═══════════════════════════════════════════════════
+
+def _l2_dot(a: list[float], b: list[float]) -> float:
+    """两向量先各自 L2 归一化再点积 = 余弦相似度（对入参是否已归一化都鲁棒）。"""
+    na = sum(x * x for x in a) ** 0.5
+    nb = sum(x * x for x in b) ** 0.5
+    if na == 0 or nb == 0:
+        return 0.0
+    return sum(x * y for x, y in zip(a, b)) / (na * nb)
+
+
+def _merge_group(group: list[dict]) -> dict:
+    """把一组「判定为同事件」的簇代表作合并成一条，复用 cluster_and_boost 的规则：
+    · 代表作优先非参考源、原始分最高者；
+    · cluster_size 累加、cluster_titles 合并（上限 4）；
+    · 重要性 = 全组最高分 + 多源印证加成（与 cluster_and_boost 一致）。
+    单元素组原样返回。就地改写代表作 dict（与 cluster_and_boost 同一惯例）。"""
+    if len(group) == 1:
+        return group[0]
+
+    non_ref = [m for m in group if not m.get("reference")]
+    winner = max(non_ref or group, key=lambda m: m["score"])
+    others = [m for m in group if m is not winner]
+
+    best_score = max(m["score"] for m in group)
+    added_sources = sum(m.get("cluster_size", 1) for m in others)
+
+    titles = list(winner.get("cluster_titles", []))
+    for m in others:
+        titles.append(f"{m['source']}: {m['title']}")
+        titles.extend(m.get("cluster_titles", []))
+
+    winner["cluster_size"] = winner.get("cluster_size", 1) + added_sources
+    winner["cluster_titles"] = titles[:4]
+    winner["score"] = best_score + min(added_sources * 1.5, 3)
+    return winner
+
+
+def merge_similar_clusters(articles: list[dict], threshold: float | None = None,
+                           embed_fn=None) -> list[dict]:
+    """对词面聚类后的簇代表作做向量二次合并（语义级去重）。
+
+    放在 cluster_and_boost 之后：词面层已合并显而易见的同题，这里只处理剩下
+    几十个代表作两两比，计算量小。任一降级条件触发即原样返回，绝不中断流水线：
+      · 不足 2 条；
+      · embed_fn 返回 None（库缺失/模型失败）或长度对不上。
+
+    embed_fn 可注入（测试用），默认惰性 import digest.embedding.embed_titles。
+    """
+    from .config import (
+        SEMANTIC_SIM_THRESHOLD,
+        SEMANTIC_USE_SUMMARY,
+        SEMANTIC_SUMMARY_CHARS,
+    )
+
+    if threshold is None:
+        threshold = SEMANTIC_SIM_THRESHOLD
+    if len(articles) < 2:
+        return articles
+
+    if embed_fn is None:
+        from .embedding import embed_titles as embed_fn
+
+    texts = []
+    for a in articles:
+        t = a.get("title", "")
+        if SEMANTIC_USE_SUMMARY and a.get("summary"):
+            t = f"{t} {a['summary'][:SEMANTIC_SUMMARY_CHARS]}"
+        texts.append(t)
+
+    vecs = embed_fn(texts)
+    if not vecs or len(vecs) != len(articles):
+        return articles
+
+    # ── 并查集：把相似度 ≥ 阈值的代表作并到同一组（防 A~B、B~C 漏并）──
+    n = len(articles)
+    parent = list(range(n))
+
+    def find(x: int) -> int:
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a: int, b: int) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if _l2_dot(vecs[i], vecs[j]) >= threshold:
+                union(i, j)
+
+    groups: dict[int, list[dict]] = {}
+    for i in range(n):
+        groups.setdefault(find(i), []).append(articles[i])
+
+    merged = [_merge_group(g) for g in groups.values()]
+    merged.sort(key=lambda a: a["score"], reverse=True)
+    return merged

@@ -92,6 +92,7 @@ from digest.ai import (  # noqa: E402
     strip_audit_block,
 )
 from digest.triage import triage_with_deepseek  # noqa: E402
+from digest.critique import refine_digest  # noqa: E402
 from digest.scout import scout_for_gaps  # noqa: E402
 from digest.bio import pick_bio_breakthrough  # noqa: E402
 from digest.github import pick_github_trending  # noqa: E402
@@ -278,6 +279,11 @@ def main() -> None:
 
         log.info("🤖 调用 DeepSeek 生成中文简报...")
         summary = summarize_with_deepseek(articles)
+
+        # ── 自评重写环：DeepSeek 给成稿打分，低于阈值带问题清单重写一次 ──
+        # 重写后做来源数/长度硬校验，破格式自动回退原稿，绝不阻断推送。
+        log.info("📝 自评重写环（critique）...")
+        summary = refine_digest(summary)
 
         # ── 插入选稿决策表 ──
         summary = _prepend_selection_table(summary, articles)
