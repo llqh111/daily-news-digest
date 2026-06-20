@@ -58,6 +58,7 @@ from digest.storage import (  # noqa: E402
     should_skip_session,
     load_recent_digests,
     save_digest_markdown,
+    save_reps_sidecar,
     load_sent_github_repos,
     save_sent_github_repos,
 )
@@ -94,6 +95,9 @@ from digest.ai import (  # noqa: E402
 from digest.triage import triage_with_deepseek  # noqa: E402
 from digest.critique import refine_digest  # noqa: E402
 from digest.scout import scout_for_gaps  # noqa: E402
+from digest.linkage import tag_progress  # noqa: E402
+from digest.finalcheck import dedup_secondary, split_items, density_floor  # noqa: E402
+from digest.backfill import backfill_reference_depth  # noqa: E402
 from digest.bio import pick_bio_breakthrough  # noqa: E402
 from digest.github import pick_github_trending  # noqa: E402
 from digest.topics import generate_topics  # noqa: E402
@@ -277,6 +281,14 @@ def main() -> None:
         log.info("📰 抓取精选新闻的正文全文（仅 triage 选中条目）...")
         attach_fulltexts(articles)
 
+        # ── #3 参考源深度回填：高分 reference 条目抓不到正文时，搜同题全文源回填 ──
+        log.info("📚 参考源深度回填（backfill）...")
+        backfill_reference_depth(articles)
+
+        # ── #1 跨期事件串联：给确定是「旧事进展」的条目打 progress_of 标记 ──
+        log.info("📈 跨期事件串联（linkage）...")
+        tag_progress(articles)
+
         log.info("🤖 调用 DeepSeek 生成中文简报...")
         summary = summarize_with_deepseek(articles)
 
@@ -284,6 +296,15 @@ def main() -> None:
         # 重写后做来源数/长度硬校验，破格式自动回退原稿，绝不阻断推送。
         log.info("📝 自评重写环（critique）...")
         summary = refine_digest(summary)
+
+        # ── #4-A 信息密度地板（观察期：只记日志摸阈值，暂不改稿）──
+        thin = density_floor(split_items(summary))
+        if thin:
+            log.info(f"密度地板：{len(thin)} 条点评偏薄 → {thin}")
+
+        # ── #2 成稿近重复终检：以主新闻标题为基准，剔除 scout/bio 撞题条目 ──
+        news_titles = [a["title"] for a in articles]
+        gaps, bio = dedup_secondary(news_titles, gaps, bio)
 
         # ── 插入选稿决策表 ──
         summary = _prepend_selection_table(summary, articles)
@@ -331,6 +352,8 @@ def main() -> None:
 
         # 存档最终生成的简报
         save_digest_markdown(summary)
+        # 存档本期 reps 的 sidecar（英文原标题），供下期跨期串联英↔英比对（#1）
+        save_reps_sidecar(articles)
 
         log.info("=" * 50)
         log.info("🎉 全部完成！")
