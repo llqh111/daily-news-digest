@@ -19,6 +19,9 @@ log = logging.getLogger(__name__)
 
 # 模型加载一次后复用（首次会触发 onnx 模型下载到缓存目录）
 _MODEL = None
+# 标题→向量缓存：同一批标题在 scoring/linkage/finalcheck 多个阶段被反复 embed，
+# 进程内缓存避免重复编码。run 短命、标题短，不设淘汰；进程退出即释放。
+_VEC_CACHE: dict[str, list[float]] = {}
 
 
 def _l2_normalize(vec: list[float]) -> list[float]:
@@ -37,20 +40,26 @@ def embed_titles(titles: list[str]) -> list[list[float]] | None:
     if not titles:
         return None
 
-    try:
-        from fastembed import TextEmbedding
-    except ImportError:
-        log.info("未安装 fastembed，语义去重跳过（回退词面聚类）")
-        return None
+    # 只为未缓存的标题真正编码；全部命中缓存时连模型/库都不碰，直接拼装返回。
+    missing = [t for t in titles if t not in _VEC_CACHE]
+    if missing:
+        try:
+            from fastembed import TextEmbedding
+        except ImportError:
+            log.info("未安装 fastembed，语义去重跳过（回退词面聚类）")
+            return None
 
-    try:
-        global _MODEL
-        if _MODEL is None:
-            log.info(f"加载嵌入模型：{EMBED_MODEL}")
-            _MODEL = TextEmbedding(model_name=EMBED_MODEL)
-        # e5 系列约定：文档前缀 "passage: "。这里所有标题对称处理，统一前缀即可。
-        raw = list(_MODEL.embed([f"passage: {t}" for t in titles]))
-        return [_l2_normalize(v.tolist()) for v in raw]
-    except Exception as e:
-        log.warning(f"嵌入编码失败，语义去重跳过：{type(e).__name__}: {e}")
-        return None
+        try:
+            global _MODEL
+            if _MODEL is None:
+                log.info(f"加载嵌入模型：{EMBED_MODEL}")
+                _MODEL = TextEmbedding(model_name=EMBED_MODEL)
+            # e5 系列约定：文档前缀 "passage: "。所有标题对称处理，统一前缀即可。
+            raw = list(_MODEL.embed([f"passage: {t}" for t in missing]))
+            for t, v in zip(missing, raw):
+                _VEC_CACHE[t] = _l2_normalize(v.tolist())
+        except Exception as e:
+            log.warning(f"嵌入编码失败，语义去重跳过：{type(e).__name__}: {e}")
+            return None
+
+    return [_VEC_CACHE[t] for t in titles]
