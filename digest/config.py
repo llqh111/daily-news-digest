@@ -479,3 +479,37 @@ SELF_CRITIQUE_ENABLED = True
 CRITIQUE_MODEL = "deepseek-v4-pro"   # 裁判吃判断力，用 V4-Pro 思考模式
 REWRITE_THRESHOLD = 6.0              # overall < 此分触发重写（保守起步，少重写省 token）
 REWRITE_MAX = 1                      # 最多重写次数（防烧钱/死循环）
+
+# ═══════════════════════════════════════════════════
+#  内容质量增强四件套（见 docs/DESIGN-content-quality-enhancements.md）
+#  全部复用 embedding.embed_titles（返回 list[list[float]]，已 L2 归一化）；
+#  embed 不可用时各特性一律降级（原样返回 / 直接 return），绝不阻断主流程。
+# ═══════════════════════════════════════════════════
+
+# ── #1 跨期事件串联（digest/linkage.py）──────────────
+# 今天 reps 与近 N 期 sidecar 的 raw_title 做英↔英向量比对，命中即标「进展」。
+PROGRESS_LINK_ENABLED = True
+PROGRESS_SIM_THRESHOLD = 0.80      # 命中判进展（比去重阈值松，宁松勿漏）
+PROGRESS_RECENT_DAYS = 3           # 回看几期 sidecar
+
+# ── #2 成稿内近重复终检（digest/finalcheck.py）──────
+# 以主新闻标题为基准，剔除 scout/bio 中与之近重复的次要板块条目。
+FINAL_DEDUP_ENABLED = True
+FINAL_DEDUP_THRESHOLD = 0.84      # 比去重稍松：跨板块撞题判定
+
+# ── #3 参考源深度天花板回填（digest/backfill.py）────
+# 对「高分 + reference 源 + fulltext 空」的条目，搜同题全文源回填正文。
+BACKFILL_ENABLED = True
+BACKFILL_MIN_SCORE = 8.0          # 仅给重要的 reference 条目花搜索预算
+BACKFILL_MAX = 3                  # 每期最多回填几条（每条 1 搜 1 抓，护栏）
+# 能抓到全文的同题源白名单（reference 源走 Google News 代理抓不到正文）。
+PREFERRED_FULLTEXT_DOMAINS = (
+    "bbc.co", "theguardian.com", "aljazeera.com",
+    "cnbc.com", "dw.com", "nikkei.com",
+)
+
+# ── #4 每条信息密度地板（digest/finalcheck.py）──────
+# 成稿后逐条算硬指标（字数 + 数字/专有名词事实点），未达地板先记日志摸阈值。
+DENSITY_FLOOR_ENABLED = True
+DENSITY_MIN_CHARS = 120           # 三段正文最少字数
+DENSITY_MIN_FACTS = 2            # 数字 + 专有名词最少事实点

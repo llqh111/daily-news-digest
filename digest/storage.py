@@ -12,7 +12,7 @@ import logging
 import re
 from datetime import datetime, date, timedelta
 
-from .config import TZ, SENT_LOG_FILE, SENT_RETENTION_DAYS, SENT_GITHUB_FILE, GITHUB_RETENTION_DAYS
+from .config import TZ, SENT_LOG_FILE, SENT_RETENTION_DAYS, SENT_GITHUB_FILE, GITHUB_RETENTION_DAYS, PROGRESS_RECENT_DAYS
 
 log = logging.getLogger(__name__)
 
@@ -186,6 +186,89 @@ def save_digest_markdown(content: str) -> None:
     path = os.path.join("digests", filename)
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
+
+
+# ═══════════════════════════════════════════════════
+#  跨期事件串联用 sidecar（与 .md 同名，存原始英文标题供向量比对）
+# ═══════════════════════════════════════════════════
+#
+# 为什么单独存：load_recent_digests 解析的是中文成稿 .md，拿不到原始英文标题；
+# 而跨期串联（linkage.py）要英↔英比对，故在保存简报时另存一份「机器可读 sidecar」。
+# 铁律：与 markdown 解耦——sidecar 写失败只记日志，绝不拖垮简报保存与推送。
+
+
+def save_reps_sidecar(reps: list[dict]) -> None:
+    """把今日代表作的原始英文标题存成 sidecar JSON（digests/meta/<同名>.json）。
+
+    文件名 stem 与 save_digest_markdown 完全一致（同一逻辑日期 + 班次），
+    只是改放到 digests/meta/ 下、扩展名 .json。
+    任何异常都 log.warning 后静默返回——绝不影响简报保存。
+    """
+    try:
+        now = datetime.now(TZ)
+        session = "AM" if 4 <= now.hour < 16 else "PM"
+        date_str = now.strftime("%Y-%m-%d")
+        stem = now.strftime(f"%Y-%m-%d-{session}")
+
+        meta_dir = os.path.join("digests", "meta")
+        os.makedirs(meta_dir, exist_ok=True)
+        path = os.path.join(meta_dir, f"{stem}.json")
+
+        data = {
+            "date": date_str,
+            "session": session,
+            "reps": [
+                {
+                    "raw_title": art["title"],
+                    "zh": art.get("zh", ""),
+                    "emoji": art.get("emoji", ""),
+                }
+                for art in reps
+            ],
+        }
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        log.info(f"已保存 reps sidecar：{len(data['reps'])} 条 → {path}")
+    except Exception as e:
+        log.warning(f"保存 reps sidecar 失败（不影响简报）: {e}")
+
+
+def load_recent_reps() -> list[dict]:
+    """读取最近 PROGRESS_RECENT_DAYS 期 sidecar，拍平成一个 rep 列表供跨期比对。
+
+    每个元素：{"raw_title", "zh", "emoji", "date"}。
+    无 meta 目录 / 无文件 / 解析出错 → 一律返回 []（降级，绝不抛错）。
+    """
+    meta_dir = os.path.join("digests", "meta")
+    if not os.path.isdir(meta_dir):
+        return []
+    try:
+        files = sorted(
+            [f for f in os.listdir(meta_dir) if f.endswith(".json")],
+            reverse=True,
+        )[:PROGRESS_RECENT_DAYS]
+        out: list[dict] = []
+        for fname in files:
+            try:
+                with open(os.path.join(meta_dir, fname), "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except Exception as e:
+                log.warning(f"解析 sidecar 失败，跳过 {fname}: {e}")
+                continue
+            file_date = data.get("date", fname[:10])
+            for rep in data.get("reps", []):
+                out.append(
+                    {
+                        "raw_title": rep.get("raw_title", ""),
+                        "zh": rep.get("zh", ""),
+                        "emoji": rep.get("emoji", ""),
+                        "date": file_date,
+                    }
+                )
+        return out
+    except Exception as e:
+        log.warning(f"加载 reps sidecar 失败，按无历史处理: {e}")
+        return []
 
 
 # ═══════════════════════════════════════════════════

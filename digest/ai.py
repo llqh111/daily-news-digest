@@ -116,9 +116,26 @@ def _articles_to_text(articles: list[dict]) -> str:
         if hits:
             p.append(f"   🎯 个人雷达命中: {', '.join(hits)}")
 
+        # 跨期事件串联（linkage.tag_progress 写入的 progress_of）：
+        # 把「靠 LLM 肉眼找旧事件」降级成「代码喂确定的 此前→现在 对」，收窄幻觉面。
+        po = art.get("progress_of")
+        if po:
+            p.append(
+                f"   📈 此事曾于 {po['date']} 报道为「{po['prev_zh']}」，"
+                f"请按\"进展\"写（此前→现在→变化意味着什么）"
+            )
+
         fulltext = art.get("fulltext", "")
         if fulltext:
             p.append(f"   正文: {fulltext}")
+            # 来源诚实（红线）：正文若来自跨源回填（backfill），必须如实标注，
+            # 否则把 B 媒体的报道安到 A 媒体头上 = 张冠李戴 = 幻觉。
+            backfill_source = art.get("backfill_source")
+            if backfill_source:
+                p.append(
+                    f"   ⚠️ 正文据 {backfill_source} 同题报道；"
+                    f"原报道来源 {art['source']}（{art.get('link', '')}）"
+                )
         elif art["summary"]:
             p.append(f"   摘要(仅导语，正文未抓到): {art['summary']}")
 
