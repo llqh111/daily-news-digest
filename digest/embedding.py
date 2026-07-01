@@ -54,8 +54,8 @@ def embed_titles(titles: list[str]) -> list[list[float]] | None:
             if _MODEL is None:
                 log.info(f"加载嵌入模型：{EMBED_MODEL}")
                 _MODEL = TextEmbedding(model_name=EMBED_MODEL)
-            # e5 系列约定：文档前缀 "passage: "。所有标题对称处理，统一前缀即可。
-            raw = list(_MODEL.embed([f"passage: {t}" for t in missing]))
+            # 去除 E5 特有的 "passage: " 前缀，MiniLM 直接传原文本即可
+            raw = list(_MODEL.embed(missing))
             for t, v in zip(missing, raw):
                 _VEC_CACHE[t] = _l2_normalize(v.tolist())
         except Exception as e:

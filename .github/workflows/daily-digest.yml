@@ -60,7 +60,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/fastembed
-          key: fastembed-mle5-small-v1
+          key: fastembed-minilm-l12-v1
 
       - name: 🧪 运行单元测试（不过就不推送）
         run: python -m pytest test_core.py test_semantic_dedup.py test_critique.py -q

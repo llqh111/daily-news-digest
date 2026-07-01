@@ -91,6 +91,7 @@ RRR
 
 def _parse_action(text: str) -> dict | None:
     """从 LLM 输出中抠 JSON 动作，失败返回 None。"""
+    text = re.sub(r"<think>[\s\S]*?</think>", "", text).strip()
     m = re.search(r"\{[\s\S]*\}", text)
     if not m:
         return None

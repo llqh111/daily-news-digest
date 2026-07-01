@@ -89,6 +89,7 @@ def _extract_decisions(content: str) -> list[dict]:
          逐个抠 {…} 决策对象单独解析，截断只丢最后半条，不整盘报废。
     返回决策 dict 列表（可能为空，交由调用方决定是否 fallback）。
     """
+    content = re.sub(r"<think>[\s\S]*?</think>", "", content).strip()
     # ① / ② 先试整体数组
     m = re.search(r"```(?:json)?\s*(\[[\s\S]*?\])\s*```", content)
     if not m:
