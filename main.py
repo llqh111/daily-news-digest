@@ -100,6 +100,7 @@ from digest.finalcheck import dedup_secondary, split_items, density_floor  # noq
 from digest.backfill import backfill_reference_depth  # noqa: E402
 from digest.bio import pick_bio_breakthrough  # noqa: E402
 from digest.github import pick_github_trending  # noqa: E402
+from digest.signals import pick_signals  # noqa: E402
 from digest.topics import generate_topics  # noqa: E402
 from digest.push import (  # noqa: E402
     SERVERCHAN_SENDKEY,
@@ -201,7 +202,7 @@ def _insert_github_section(summary: str, repos: list[dict] | None) -> str:
     lines = ["\n## 🔥 GitHub 热榜 · 今日 5 选\n"]
     for i, r in enumerate(repos, 1):
         # 星数格式化：≥1000 显示 12.3k
-        stars = r.get("stars", 0)
+        stars = r.get("stargazers_count", 0)
         if stars >= 1000:
             stars_str = f"{stars / 1000:.1f}k"
         else:
@@ -218,6 +219,30 @@ def _insert_github_section(summary: str, repos: list[dict] | None) -> str:
         lines.append(f"### {i}. {r['full_name']}  ⭐ {stars_str}{lang_part}  {badge}")
         lines.append(r.get("description_zh", ""))
         lines.append(f"🔗 {r.get('url', '')}")
+        lines.append("")
+    section = "\n".join(lines)
+
+    for marker in ["『编辑手记", "```自我审计", "## 编辑手记"]:
+        idx = summary.find(marker)
+        if idx != -1:
+            return summary[:idx] + section + "\n" + summary[idx:]
+    return summary + section
+
+
+def _insert_signals_section(summary: str, signals: list[dict] | None) -> str:
+    """在简报末尾（编辑手记前）插入 📡 信号监测板块。signals 为空/None 则跳过。"""
+    if not signals:
+        return summary
+
+    lines = ["\n## 📡 信号监测 · 今日工具/玩法\n"]
+    for i, s in enumerate(signals, 1):
+        lines.append(f"### {i}. {s.get('title', '')}")
+        if s.get("summary_zh"):
+            lines.append(f"**一句话**：{s['summary_zh']}")
+        if s.get("url"):
+            lines.append(f"🔗 {s['url']}")
+        if s.get("source"):
+            lines.append(f"> 📡 来源：{s['source']}")
         lines.append("")
     section = "\n".join(lines)
 
@@ -278,6 +303,10 @@ def main() -> None:
         repos = pick_github_trending()
         log.info("GitHub 板块：" + (f"已选 {len(repos)} 条" if repos else "本期无"))
 
+        log.info("📡 信号监测（signals）...")
+        signals = pick_signals()
+        log.info("信号板块：" + (f"已选 {len(signals)} 条" if signals else "本期无"))
+
         log.info("📰 抓取精选新闻的正文全文（仅 triage 选中条目）...")
         attach_fulltexts(articles)
 
@@ -314,6 +343,8 @@ def main() -> None:
         summary = _insert_bio_section(summary, bio)
         # ── 插入 GitHub 热榜板块（每期 5 条）──
         summary = _insert_github_section(summary, repos)
+        # ── 插入信号监测板块（每期 3 条）──
+        summary = _insert_signals_section(summary, signals)
         # ── 追加自媒体选题 ──
         summary += generate_topics(articles, gaps)
 
@@ -376,6 +407,7 @@ def main() -> None:
             "scout_for_gaps": "信息差侦察",
             "pick_bio_breakthrough": "生物前沿挑选",
             "pick_github_trending": "GitHub热榜",
+            "pick_signals": "信号监测",
             "attach_fulltexts": "正文抓取",
             "backfill_reference_depth": "参考源回填",
             "tag_progress": "跨期事件串联",
