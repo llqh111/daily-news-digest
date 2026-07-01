@@ -62,6 +62,7 @@ def evaluate_digest(summary: str, call=None) -> dict:
         log.warning(f"自评裁判调用失败，视为通过：{type(e).__name__}: {e}")
         return {"overall": 10.0, "issues": []}
 
+    content = re.sub(r"<think>[\s\S]*?</think>", "", content).strip()
     m = re.search(r"\{[\s\S]*\}", content)
     if m:
         try:

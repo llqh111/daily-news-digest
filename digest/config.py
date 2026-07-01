@@ -462,7 +462,7 @@ SENT_GITHUB_FILE = os.path.join(_PROJECT_ROOT, "sent_github_repos.json")
 # 装不上 / 模型下载失败时 embed_titles 返回 None → 整层自动跳过，回退纯词面聚类。
 SEMANTIC_DEDUP_ENABLED = True
 # 多语言小模型：36kr 是中文源、标题中英混合，必须多语言。
-EMBED_MODEL = "intfloat/multilingual-e5-small"
+EMBED_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 # 余弦相似度 ≥ 此值判同事件。0.86 偏稳；更激进合并降到 0.82，更保守升到 0.90。
 SEMANTIC_SIM_THRESHOLD = 0.86
 # 编码文本是否拼接 summary 前若干字（提升短标题区分度）。
