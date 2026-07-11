@@ -318,10 +318,10 @@ def save_sent_github_repos(full_names: list[str]) -> None:
 
     # ── 迁移旧格式 ──
     if "repos" in data and "history" not in data:
-        old_ts = data.get("ts", "unknown")
-        old_day = old_ts[:10] if len(old_ts) >= 10 else "unknown"
-        data = {"history": {old_day: data["repos"]}}
-        log.info(f"已从旧格式迁移 GitHub 去重记录：{len(data['history'][old_day])} 条 → {old_day}")
+        # 旧格式只有一次快照，ts 表示写入时间而非每条 repo 的推送日期。
+        # 将它归入今天可确保迁移不会立刻被保留期清理掉。
+        data = {"history": {today: data["repos"]}}
+        log.info(f"已从旧格式迁移 GitHub 去重记录：{len(data['history'][today])} 条 → {today}")
 
     history = data.get("history", {})
 
