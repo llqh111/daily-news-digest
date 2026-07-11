@@ -44,15 +44,19 @@ def _build_system_prompt(is_batch: bool = False) -> str:
         "4. 本土化与个人相关性：评估每条对「中国」和「上述读者画像」的具体意义。\n"
         "\n"
         "【怎么用素材——这条最重要】\n"
-        "· 有【正文】的：通读后用自己的话写出来龙去脉，提炼关键事实、数据、人物、因果。\n"
-        "· 只有【摘要】的：据实简写，明确不脑补正文里没有的细节。\n"
-        "· 严禁编造：人名、数字、引语、时间、因果，凡素材没有的一律不写。宁可短，不可假。\n"
+        "· “核心事实”只能来自 `confirmed_facts` 和对应来源。\n"
+        "· “深层逻辑”允许推断，但必须使用分析性措辞，不得伪装成来源结论。\n"
+        "· `材料未说明` (unknowns) 中的内容不得自行补齐。\n"
+        "· 同题补充来源只能作为背景，不得冒充原始来源。\n"
+        "· 无全文条目必须收缩表述，不得输出精确引语或材料中不存在的细节。\n"
         "· 看到「各家标题」列出多家媒体对同一事件的不同标题时：若措辞/归因/立场明显不同，在【深层逻辑】里点出\"谁在怎么说\"。\n"
         "· 看到「近期已报道」清单中出现过的事件：以「📈 进展」开头，一句话交代\"此前→现在→变化意味着什么\"，不要当新事件从头讲。仅当确为同一事件时才这样做，不确定就当新事件。\n"
         "· 看到「🎯 个人雷达命中」标记的条目：【后市/影响】必须落到对上述读者画像的具体影响（显卡价格、工具链变化、可上手的新东西、出海/合规影响），不许写泛泛的\"利好行业\"。\n"
         "\n"
         "【每条新闻的标记与格式】\n"
-        "标题行：**{重要性标记} {中文标题}**\n"
+        "标题行（必须包含隐藏的 article_id 注释）：\n"
+        "<!-- article_id:a1_0123456789abcdef01234567 -->\n"
+        "**{重要性标记} {中文标题}**\n"
         "　重要性标记规则（可叠加）：🔥=被3+家媒体报道或极高重要性；⭐⭐⭐=必读 / ⭐⭐=值得看 / ⭐=速览；\n"
         "　　若命中个人雷达，标题再加 🎯；若是旧事件进展，标题再加 📈。\n"
         "正文三段（严格保留小标题，每条新闻的总字数严格控制在 200~300 字以内，务必精炼）：\n"
@@ -97,10 +101,14 @@ def _build_system_prompt(is_batch: bool = False) -> str:
 
 
 def _articles_to_text(articles: list[dict]) -> str:
-    """把文章列表转成发给 AI 的文本块。"""
+    """把文章列表转成发给 AI 的文本块。优先渲染 evidence_card。"""
     parts = []
     for i, art in enumerate(articles, 1):
         p = [f"{i}. [{art['category']}] {art['title']}"]
+
+        # Article ID 必须作为注释让 AI 原样输出
+        if "article_id" in art:
+            p.append(f"   内部ID(必须输出为注释): <!-- article_id:{art['article_id']} -->")
 
         cluster_size = art.get("cluster_size", 1)
         if cluster_size >= 2:
@@ -116,8 +124,7 @@ def _articles_to_text(articles: list[dict]) -> str:
         if hits:
             p.append(f"   🎯 个人雷达命中: {', '.join(hits)}")
 
-        # 跨期事件串联（linkage.tag_progress 写入的 progress_of）：
-        # 把「靠 LLM 肉眼找旧事件」降级成「代码喂确定的 此前→现在 对」，收窄幻觉面。
+        # 跨期事件串联
         po = art.get("progress_of")
         if po:
             p.append(
@@ -125,23 +132,55 @@ def _articles_to_text(articles: list[dict]) -> str:
                 f"请按\"进展\"写（此前→现在→变化意味着什么）"
             )
 
-        fulltext = art.get("fulltext", "")
-        if fulltext:
-            p.append(f"   正文: {fulltext}")
-            # 来源诚实（红线）：正文若来自跨源回填（backfill），必须如实标注，
-            # 否则把 B 媒体的报道安到 A 媒体头上 = 张冠李戴 = 幻觉。
-            backfill_source = art.get("backfill_source")
-            if backfill_source:
-                p.append(
-                    f"   ⚠️ 正文据 {backfill_source} 同题报道；"
-                    f"原报道来源 {art['source']}（{art.get('link', '')}）"
-                )
-        elif art["summary"]:
-            p.append(f"   摘要(仅导语，正文未抓到): {art['summary']}")
+        # 优先渲染 evidence_card
+        card = art.get("evidence_card")
+        if card:
+            # 渲染来源角色
+            p.append("   来源角色：")
+            for src in card.get("sources", []):
+                role_zh = "原始消息" if src["role"] == "primary" else ("背景补充" if src["role"] == "context" else "其他佐证")
+                p.append(f"   - {role_zh}: {src['publisher']} {src['url']}")
 
-        p.append(f"   来源: {art['source']}")
-        if art["link"]:
-            p.append(f"   原文链接: {art['link']}")
+            # 渲染证据等级
+            fulltext_status = "有全文" if card["coverage"]["has_fulltext"] else "仅摘要/标题"
+            p.append(f"   证据等级：{fulltext_status}")
+
+            # 渲染已确认事实
+            confirmed_facts = card.get("confirmed_facts", [])
+            if confirmed_facts:
+                p.append("   已确认事实 (confirmed_facts)：")
+                for fact in confirmed_facts:
+                    p.append(f"   - {fact['text']}")
+            else:
+                p.append("   已确认事实 (confirmed_facts)：无提取到的核心事实，请严格根据标题/摘要谨慎描述")
+
+            # 渲染事实锚点
+            anchors = card.get("entities", []) + card.get("numbers", []) + card.get("dates", [])
+            if anchors:
+                p.append(f"   事实锚点：{' / '.join(anchors[:10])}")
+
+            # 渲染 unknowns
+            unknowns = card.get("unknowns", [])
+            if unknowns:
+                p.append(f"   材料未说明 (unknowns)：{' / '.join(unknowns)}")
+
+        else:
+            # 兼容模式
+            fulltext = art.get("fulltext", "")
+            if fulltext:
+                p.append(f"   正文: {fulltext}")
+                backfill_source = art.get("backfill_source") or (art.get("backfill") and art["backfill"].get("url"))
+                if backfill_source:
+                    p.append(
+                        f"   ⚠️ 正文据 {backfill_source} 同题报道；"
+                        f"原报道来源 {art['source']}（{art.get('link', '')}）"
+                    )
+            elif art.get("summary"):
+                p.append(f"   摘要(仅导语，正文未抓到): {art['summary']}")
+            p.append(f"   来源: {art['source']}")
+            if art.get("link"):
+                p.append(f"   原文链接: {art['link']}")
+
         parts.append("\n".join(p))
     return "\n\n".join(parts)
 

@@ -59,6 +59,7 @@ def tag_progress(reps: list[dict]) -> None:
                 reps[i]["progress_of"] = {
                     "prev_zh": prev.get("zh") or prev["raw_title"],
                     "date": prev["date"],
+                    "article_id": prev.get("article_id", ""),
                 }
                 log.info(
                     f"跨期串联命中：rep[{i}] 是 {prev['date']} 事件的进展"

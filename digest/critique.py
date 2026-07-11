@@ -17,7 +17,7 @@ import logging
 import re
 
 from .ai import _call_deepseek_once
-from .config import CRITIQUE_MODEL, REWRITE_THRESHOLD, SELF_CRITIQUE_ENABLED
+from .config import CRITIQUE_MODEL, EVIDENCE_GUIDED_REWRITE_ENABLED, REWRITE_THRESHOLD, SELF_CRITIQUE_ENABLED
 from .factcheck import sanity_check_output
 
 log = logging.getLogger(__name__)
@@ -30,6 +30,16 @@ _REWRITE_MIN_LEN_RATIO = 0.7
 def _source_count(text: str) -> int:
     """数「📰 来源」标记条数——重写前后比对，防丢链接。"""
     return len(_SOURCE_RE.findall(text))
+
+
+def _article_id_count(text: str) -> int:
+    """数 article_id 注释数量，防止重写丢弃。"""
+    return len(_article_ids(text))
+
+
+def _article_ids(text: str) -> list[str]:
+    """按出现顺序返回全部 article_id，用于防止重写替换或调换条目。"""
+    return re.findall(r"<!--\s*article_id:([^>\s]+)\s*-->", text)
 
 
 def evaluate_digest(summary: str, call=None) -> dict:
@@ -89,6 +99,7 @@ def revise_digest(summary: str, issues: list[str], call=None) -> str:
         "你是资深中文新闻主编，正在按质检意见修订一份已成稿的晨报。\n"
         "【铁律】\n"
         "· 逐条保留每则新闻末尾的「> 📰 来源：…」行，一字不改，绝不删除或合并；\n"
+        "· 逐条保留每则新闻开头的「<!-- article_id:... -->」HTML 注释，绝对不要删改；\n"
         "· 保持三大板块标题（## 🌍 国际要闻 / ## 💻 科技与 AI / ## 💰 财经市场）与条目数量不变；\n"
         "· 不准引入原稿/素材里没有的数字、人名、引语——修订是打磨表达与观点，不是再创作；\n"
         "· 只改进点评文字，让其更扎实、更有信息增量、更落到本土化与读者影响。\n"
@@ -100,9 +111,11 @@ def revise_digest(summary: str, issues: list[str], call=None) -> str:
     return data["choices"][0]["message"]["content"]
 
 
-def refine_digest(summary: str, *, enabled: bool | None = None,
+def refine_digest(summary: str, *, quality_report: dict | None = None,
+                  evidence_cards: list[dict] | None = None,
+                  enabled: bool | None = None,
                   evaluate=None, revise=None) -> str:
-    """自评重写主流程：评分 → 低分则重写一次 → 保全校验 → 采用或回退。
+    """自评重写主流程：评分/事实校验 → 触发重写 → 保全校验 → 采用或回退。
 
     enabled / evaluate / revise 可注入（测试用），默认读 config + 真实实现。
     """
@@ -120,13 +133,30 @@ def refine_digest(summary: str, *, enabled: bool | None = None,
         return summary
 
     overall = report.get("overall", 10)
+    issues = report.get("issues", [])
     log.info(f"📝 自评得分：{overall}（阈值 {REWRITE_THRESHOLD}）")
-    if overall >= REWRITE_THRESHOLD:
+
+    # 将质量报告发现的事实幻觉注入到 issues
+    has_hallucination = False
+    if (
+        EVIDENCE_GUIDED_REWRITE_ENABLED
+        and quality_report
+        and quality_report.get("items_with_unsupported_numbers", 0) > 0
+    ):
+        has_hallucination = True
+        for item in quality_report.get("items", []):
+            if item.get("has_unsupported_numbers"):
+                issues.append(
+                    f"条目 <!-- article_id:{item['article_id']} --> 包含无证据支撑的数字 {item['unsupported_list']}，请移除或修正该表述。"
+                )
+
+    # 只要低于分数阈值，或者有事实幻觉，就触发重写
+    if overall >= REWRITE_THRESHOLD and not has_hallucination:
         return summary
 
-    log.info(f"得分低于阈值，触发重写。问题：{report.get('issues', [])}")
+    log.info(f"触发重写。问题：{issues}")
     try:
-        rewritten = revise(summary, report.get("issues", []))
+        rewritten = revise(summary, issues)
     except Exception as e:
         log.warning(f"重写调用失败，回退原稿：{type(e).__name__}: {e}")
         return summary
@@ -135,9 +165,22 @@ def refine_digest(summary: str, *, enabled: bool | None = None,
     if _source_count(rewritten) < _source_count(summary):
         log.warning("重写后「📰 来源」标记减少，疑似丢链接 → 回退原稿")
         return summary
+    if _article_ids(rewritten) != _article_ids(summary):
+        log.warning("重写后 article_id 标记发生变化 → 回退原稿")
+        return summary
     if len(rewritten) < len(summary) * _REWRITE_MIN_LEN_RATIO:
         log.warning("重写后长度暴跌（<70%）→ 回退原稿")
         return summary
+
+    # ── 事实幻觉倒退校验（如果传入了 evidence_cards）──
+    if evidence_cards:
+        from .quality import validate_main_digest_evidence
+        new_qreport = validate_main_digest_evidence(rewritten, evidence_cards)
+        new_unsupported = new_qreport.get("items_with_unsupported_numbers", 0)
+        old_unsupported = quality_report.get("items_with_unsupported_numbers", 0) if quality_report else 0
+        if new_unsupported > old_unsupported:
+            log.warning(f"重写后无支撑数字反而增多 (旧 {old_unsupported} -> 新 {new_unsupported}) → 回退原稿")
+            return summary
 
     for w in sanity_check_output(rewritten):
         log.warning(f"重写稿 sanity 提示：{w}")
