@@ -146,6 +146,7 @@ def should_skip_session() -> bool:
         if last_logical_date == current_logical_date and last_session == current_session:
             log.info(
                 f"⏭️ 今天 {current_session} 时段已推送过"
+
                 f"（逻辑日期 {last_logical_date} {last_dt.strftime('%H:%M')}），跳过"
             )
             return True
@@ -222,12 +223,14 @@ def save_reps_sidecar(reps: list[dict]) -> None:
                     "raw_title": art["title"],
                     "zh": art.get("zh", ""),
                     "emoji": art.get("emoji", ""),
+                    "article_id": art.get("article_id", ""),
                 }
                 for art in reps
             ],
         }
-        with open(path, "w", encoding="utf-8") as f:
+        with open(path + ".tmp", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(path + ".tmp", path)
         log.info(f"已保存 reps sidecar：{len(data['reps'])} 条 → {path}")
     except Exception as e:
         log.warning(f"保存 reps sidecar 失败（不影响简报）: {e}")
@@ -355,3 +358,128 @@ def save_sent_github_repos(full_names: list[str]) -> None:
         log.info(f"已保存 GitHub 去重记录：{len(full_names)} 条（今日），总计 {total} 条 / {len(history)} 天")
     except Exception as e:
         log.warning(f"保存 GitHub 去重记录失败（不影响推送）: {e}")
+
+
+# ═══════════════════════════════════════════════════
+#  内容质量增强 sidecar 与报告 (P2-C / P2-D)
+# ═══════════════════════════════════════════════════
+
+def save_evidence_sidecar(articles: list[dict]) -> bool:
+    """保存每期的 EvidenceCard 列表到 digests/meta/YYYY-MM-DD-AM-evidence.json"""
+    try:
+        now = datetime.now(TZ)
+        session = "AM" if 4 <= now.hour < 16 else "PM"
+        date_str = now.strftime("%Y-%m-%d")
+        stem = now.strftime(f"%Y-%m-%d-{session}")
+
+        meta_dir = os.path.join("digests", "meta")
+        os.makedirs(meta_dir, exist_ok=True)
+        path = os.path.join(meta_dir, f"{stem}-evidence.json")
+
+        items = []
+        for a in articles:
+            if "evidence_card" in a:
+                items.append(a["evidence_card"])
+
+        data = {
+            "version": 1,
+            "date": date_str,
+            "session": session,
+            "items": items
+        }
+
+        with open(path + ".tmp", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(path + ".tmp", path)
+        log.info(f"已保存 evidence sidecar：{len(items)} 条 → {path}")
+        return True
+    except Exception as e:
+        log.warning(f"QUALITY_ARTIFACT_WRITE_FAILED: 保存 evidence sidecar 失败: {e}")
+        return False
+
+
+def save_quality_report(report: dict) -> bool:
+    """保存主新闻质量报告到 digests/quality/YYYY-MM-DD-AM.json"""
+    if not report:
+        return False
+    try:
+        now = datetime.now(TZ)
+        session = "AM" if 4 <= now.hour < 16 else "PM"
+        stem = now.strftime(f"%Y-%m-%d-{session}")
+
+        quality_dir = os.path.join("digests", "quality")
+        os.makedirs(quality_dir, exist_ok=True)
+        path = os.path.join(quality_dir, f"{stem}.json")
+
+        with open(path + ".tmp", "w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=2)
+        os.replace(path + ".tmp", path)
+        log.info(f"已保存 quality report → {path}")
+        return True
+    except Exception as e:
+        log.warning(f"QUALITY_ARTIFACT_WRITE_FAILED: 保存 quality report 失败: {e}")
+        return False
+
+
+def mark_artifact_bundle_status(run_key: str, evidence_ok: bool, quality_ok: bool) -> bool:
+    """更新 sent_articles.json.delivery_runs 中的 sidecar 保存状态。
+    必须使用原子替换或写入文件。"""
+    if not os.path.exists(SENT_LOG_FILE):
+        return False
+    try:
+        with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        runs = data.setdefault("delivery_runs", {})
+        if run_key not in runs:
+            runs[run_key] = {"delivered_at": datetime.now(TZ).isoformat()}
+
+        runs[run_key]["evidence_status"] = "present" if evidence_ok else "missing"
+        runs[run_key]["quality_status"] = "present" if quality_ok else "missing"
+        runs[run_key]["artifact_bundle_status"] = "present" if (evidence_ok and quality_ok) else "missing"
+
+        # Atomically write
+        tmp_path = SENT_LOG_FILE + ".tmp"
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_path, SENT_LOG_FILE)
+        return True
+    except Exception as e:
+        log.warning(f"DELIVERY_LEDGER_WRITE_FAILED: 更新台账失败: {e}")
+        return False
+
+
+def prune_quality_artifacts(now_dt: datetime) -> None:
+    """根据配置清理过期的 evidence sidecar 和 quality report。"""
+    from .config import EVIDENCE_SIDECAR_RETENTION_DAYS, QUALITY_REPORT_RETENTION_DAYS
+
+    # 清理 evidence (meta 目录下结尾是 -evidence.json 的文件)
+    meta_dir = os.path.join("digests", "meta")
+    if os.path.isdir(meta_dir):
+        cutoff_evidence = now_dt - timedelta(days=EVIDENCE_SIDECAR_RETENTION_DAYS)
+        cutoff_str = cutoff_evidence.strftime("%Y-%m-%d")
+        for fname in os.listdir(meta_dir):
+            if fname.endswith("-evidence.json"):
+                # 检查文件名或内容日期
+                file_date = fname[:10]
+                if file_date < cutoff_str:
+                    try:
+                        os.remove(os.path.join(meta_dir, fname))
+                        log.info(f"已清理过期 evidence sidecar: {fname}")
+                    except Exception as e:
+                        log.warning(f"清理 {fname} 失败: {e}")
+
+    # 清理 quality
+    quality_dir = os.path.join("digests", "quality")
+    if os.path.isdir(quality_dir):
+        cutoff_quality = now_dt - timedelta(days=QUALITY_REPORT_RETENTION_DAYS)
+        cutoff_str = cutoff_quality.strftime("%Y-%m-%d")
+        for fname in os.listdir(quality_dir):
+            if fname.endswith(".json"):
+                file_date = fname[:10]
+                if file_date < cutoff_str:
+                    try:
+                        os.remove(os.path.join(quality_dir, fname))
+                        log.info(f"已清理过期 quality report: {fname}")
+                    except Exception as e:
+                        log.warning(f"清理 {fname} 失败: {e}")

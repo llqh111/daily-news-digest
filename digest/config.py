@@ -513,3 +513,20 @@ PREFERRED_FULLTEXT_DOMAINS = (
 DENSITY_FLOOR_ENABLED = True
 DENSITY_MIN_CHARS = 120           # 三段正文最少字数
 DENSITY_MIN_FACTS = 2            # 数字 + 专有名词最少事实点
+
+# ═══════════════════════════════════════════════════
+#  P2: 证据优先的内容质量增强
+# ═══════════════════════════════════════════════════
+EVIDENCE_CARDS_ENABLED = True
+EVIDENCE_MAX_FACTS = 6
+EVIDENCE_MIN_ANCHORS = 1
+EVIDENCE_TEXT_MAX_CHARS = 3200
+
+EVIDENCE_VALIDATION_ENABLED = True
+EVIDENCE_VALIDATION_MODE = "observe"   # observe | enforce
+EVIDENCE_REPORT_ENABLED = True
+
+EVIDENCE_GUIDED_REWRITE_ENABLED = False
+UNSUPPORTED_NUMBER_THRESHOLD = 0       # observe 阶段只记录
+EVIDENCE_SIDECAR_RETENTION_DAYS = 180
+QUALITY_REPORT_RETENTION_DAYS = 90

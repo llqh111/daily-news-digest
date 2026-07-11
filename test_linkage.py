@@ -60,7 +60,7 @@ def test_high_similarity_sets_progress_of(monkeypatch):
     tag_progress(reps)
 
     # Assert
-    assert reps[0]["progress_of"] == {"prev_zh": "美联储加息", "date": "2026-06-18"}
+    assert reps[0]["progress_of"] == {"prev_zh": "美联储加息", "date": "2026-06-18", "article_id": ""}
 
 
 def test_low_similarity_no_progress(monkeypatch):

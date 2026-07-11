@@ -102,6 +102,14 @@ from digest.bio import pick_bio_breakthrough  # noqa: E402
 from digest.github import pick_github_trending  # noqa: E402
 from digest.signals import pick_signals  # noqa: E402
 from digest.topics import generate_topics  # noqa: E402
+from digest.evidence import build_evidence_cards  # noqa: E402
+from digest.quality import strip_internal_article_ids, validate_main_digest_evidence  # noqa: E402
+from digest.storage import (  # noqa: E402
+    save_evidence_sidecar,
+    save_quality_report,
+    mark_artifact_bundle_status,
+    prune_quality_artifacts
+)
 from digest.push import (  # noqa: E402
     SERVERCHAN_SENDKEY,
     TELEGRAM_BOT_TOKEN,
@@ -318,13 +326,19 @@ def main() -> None:
         log.info("📈 跨期事件串联（linkage）...")
         tag_progress(articles)
 
+        # ── P2-A 证据提取：在生成提示词前，提取每条文章的结构化证据 ──
+        log.info("📑 构建事实证据卡片 (evidence)...")
+        build_evidence_cards(articles)
+
         log.info("🤖 调用 DeepSeek 生成中文简报...")
         summary = summarize_with_deepseek(articles)
 
         # ── 自评重写环：DeepSeek 给成稿打分，低于阈值带问题清单重写一次 ──
-        # 重写后做来源数/长度硬校验，破格式自动回退原稿，绝不阻断推送。
-        log.info("📝 自评重写环（critique）...")
-        summary = refine_digest(summary)
+        # ── P2-E 质量校验：根据 evidence cards 发现无支撑数字并要求重写 ──
+        log.info("📝 自评重写与事实幻觉校验 (critique & quality)...")
+        evidence_cards = [a["evidence_card"] for a in articles if "evidence_card" in a]
+        quality_report = validate_main_digest_evidence(summary, evidence_cards)
+        summary = refine_digest(summary, quality_report=quality_report, evidence_cards=evidence_cards)
 
         # ── #4-A 信息密度地板（观察期：只记日志摸阈值，暂不改稿）──
         thin = density_floor(split_items(summary))
@@ -350,6 +364,12 @@ def main() -> None:
 
         # ── 去除 AI 自我审计块（内部自检用，读者无需看到）──
         summary = strip_audit_block(summary)
+
+        # ── 在最终成稿上重新生成质量报告用于持久化 ──
+        final_quality_report = validate_main_digest_evidence(summary, evidence_cards)
+
+        # article_id is an internal validation marker and must never reach readers.
+        summary = strip_internal_article_ids(summary)
 
         # ── 多渠道推送 ──────────────────────────────────
         # Server酱（国内 → 微信）：GitHub Actions 海外 runner 可能被墙
@@ -385,6 +405,17 @@ def main() -> None:
         save_digest_markdown(summary)
         # 存档本期 reps 的 sidecar（英文原标题），供下期跨期串联英↔英比对（#1）
         save_reps_sidecar(articles)
+
+        # ── P2-C/D 存储 evidence sidecar 与质量报告 ──
+        from datetime import datetime
+        now = datetime.now(TZ)
+        session = "AM" if 4 <= now.hour < 16 else "PM"
+        run_key = now.strftime(f"%Y-%m-%d-{session}")
+
+        evidence_ok = save_evidence_sidecar(articles)
+        quality_ok = save_quality_report(final_quality_report)
+        mark_artifact_bundle_status(run_key, evidence_ok, quality_ok)
+        prune_quality_artifacts(now)
 
         log.info("=" * 50)
         log.info("🎉 全部完成！")

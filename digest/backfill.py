@@ -46,13 +46,36 @@ def backfill_reference_depth(articles: list[dict]) -> None:
             results = web_search(a["title"], num=5)
             for r in results:
                 url = r["url"]
-                if any(d in url for d in PREFERRED_FULLTEXT_DOMAINS):
+                from urllib.parse import urlparse
+                host = urlparse(url).hostname or ""
+                if any(host == d or host.endswith("." + d) for d in PREFERRED_FULLTEXT_DOMAINS):
                     text = fetch_one_fulltext(
                         {"link": url, "title": a["title"], "source": "backfill"}
                     )
                     if text:
                         a["fulltext"] = text[:FULLTEXT_MAX_CHARS]
-                        a["backfill_source"] = url  # 来源诚实标注（红线）
+                        # 兼容期同时写 backfill_source 和 backfill
+                        a["backfill_source"] = url
+
+                        import hashlib
+
+                        norm_text = text.replace('\r\n', '\n').strip()
+                        content_hash = hashlib.sha256(norm_text.encode("utf-8")).hexdigest()
+
+                        a["backfill"] = {
+                            "url": url,
+                            "canonical_url": r.get("url"), # Tavily/Exa 的 URL
+                            "hostname": urlparse(url).hostname,
+                            "publisher": r.get("author") or "Unknown",
+                            "candidate_title": r.get("title", ""),
+                            "search_rank": 1, # TODO: 如果有多个，可以填排序
+                            "match_reason": "preferred_hostname+search_rank",
+                            "captured_at": __import__('datetime').datetime.now(__import__('datetime').timezone(__import__('datetime').timedelta(hours=8))).isoformat(),
+                            "content_sha256": content_hash,
+                            "purpose": "context",
+                            "fetched": True,
+                        }
+
                         log.info(f"回填正文成功：{a['title']} ← {url}")
                         break
         except Exception as e:  # noqa: BLE001 — 降级铁律：吞掉一切，跳过该条
