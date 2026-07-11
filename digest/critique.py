@@ -42,6 +42,39 @@ def _article_ids(text: str) -> list[str]:
     return re.findall(r"<!--\s*article_id:([^>\s]+)\s*-->", text)
 
 
+def _parse_judge_report(content: str) -> dict | None:
+    """解析裁判输出；对 LLM 未转义内部引号的近似 JSON 做有限降级。"""
+    match = re.search(r"\{[\s\S]*\}", content)
+    if not match:
+        return None
+
+    payload = match.group(0)
+    try:
+        obj = json.loads(payload)
+        return {
+            "overall": float(obj.get("overall", 10)),
+            "issues": [str(issue) for issue in obj.get("issues", []) if issue],
+        }
+    except json.JSONDecodeError:
+        pass
+
+    overall_match = re.search(r'"overall"\s*:\s*(-?\d+(?:\.\d+)?)', payload)
+    issues_match = re.search(r'"issues"\s*:\s*\[(.*)\]\s*\}', payload, re.DOTALL)
+    if not overall_match or not issues_match:
+        return None
+
+    raw_issues = issues_match.group(1).strip()
+    if not raw_issues:
+        issues: list[str] = []
+    else:
+        if raw_issues.startswith('"') and raw_issues.endswith('"'):
+            raw_issues = raw_issues[1:-1]
+        issues = [part.strip() for part in re.split(r'"\s*,\s*"', raw_issues) if part.strip()]
+
+    log.warning("自评裁判输出不是严格 JSON，已使用宽容解析保留评分与问题")
+    return {"overall": float(overall_match.group(1)), "issues": issues}
+
+
 def evaluate_digest(summary: str, call=None) -> dict:
     """让 DeepSeek 当裁判给成稿打分。返回 {"overall": float, "issues": [str, ...]}。
 
@@ -73,16 +106,9 @@ def evaluate_digest(summary: str, call=None) -> dict:
         return {"overall": 10.0, "issues": []}
 
     content = re.sub(r"<think>[\s\S]*?</think>", "", content).strip()
-    m = re.search(r"\{[\s\S]*\}", content)
-    if m:
-        try:
-            obj = json.loads(m.group(0))
-            return {
-                "overall": float(obj.get("overall", 10)),
-                "issues": [str(x) for x in obj.get("issues", []) if x],
-            }
-        except Exception:
-            pass
+    report = _parse_judge_report(content)
+    if report is not None:
+        return report
     log.warning(f"自评裁判输出无法解析为 JSON，视为通过。原始输出前 200 字：{content[:200]!r}")
     return {"overall": 10.0, "issues": []}
 
