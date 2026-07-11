@@ -30,7 +30,7 @@ def parse_main_items(markdown_content: str) -> list[dict]:
     # <!-- article_id:a1_xxx -->
     # **🔥 标题**
     # 正文内容...
-    
+
     # 我们按 <!-- article_id: 拆分
     parts = markdown_content.split("<!-- article_id:")
     for part in parts[1:]:
@@ -39,7 +39,7 @@ def parse_main_items(markdown_content: str) -> list[dict]:
         if idx == -1:
             continue
         article_id = part[:idx].strip()
-        
+
         # 提取接下来的文本（直到下一个条目或者结束）
         # 这里用一种简单方式：直接拿这部分的全部文字去测，因为已经是分离的块了。
         content = part[idx+3:].strip()
@@ -49,12 +49,12 @@ def parse_main_items(markdown_content: str) -> list[dict]:
         if end_match:
             content = content[:end_match.start()].rstrip()
 
-        
+
         items.append({
             "article_id": article_id,
             "content": content
         })
-        
+
     return items
 
 
@@ -71,7 +71,7 @@ def extract_and_normalize_numbers(text: str) -> list[float]:
     """
     claims = extract_numerical_claims(text)
     nums = []
-    
+
     for c in claims:
         if c["type"] in ("数量", "金额", "百分比"):
             val_str = c["claim"]
@@ -80,7 +80,7 @@ def extract_and_normalize_numbers(text: str) -> list[float]:
             if m:
                 try:
                     num_val = float(m.group(1))
-                    
+
                     # 处理量级
                     val_lower = val_str.lower()
                     if "billion" in val_lower or "十亿" in val_lower:
@@ -93,7 +93,7 @@ def extract_and_normalize_numbers(text: str) -> list[float]:
                         num_val *= 1e4
                     elif "亿" in val_lower:
                         num_val *= 1e8
-                        
+
                     nums.append(num_val)
                 except ValueError:
                     pass
@@ -107,20 +107,20 @@ def validate_main_digest_evidence(markdown_content: str, evidence_cards: list[di
     """
     if not EVIDENCE_VALIDATION_ENABLED:
         return {}
-        
+
     items = parse_main_items(markdown_content)
     card_map = {c["article_id"]: c for c in evidence_cards}
-    
+
     report_items = []
     total_unsupported = 0
-    
+
     for item in items:
         aid = item["article_id"]
         content = item["content"]
-        
+
         # 提取成稿数字
         draft_nums = extract_and_normalize_numbers(content)
-        
+
         # 找对应的 card
         card = card_map.get(aid)
         if not card:
@@ -131,13 +131,13 @@ def validate_main_digest_evidence(markdown_content: str, evidence_cards: list[di
                 "error": "evidence_card_missing"
             })
             continue
-            
+
         # 提取卡片数字
         evidence_num_texts = card.get("numbers", [])
         evidence_nums = []
         for text in evidence_num_texts:
             evidence_nums.extend(extract_and_normalize_numbers(text))
-            
+
         # 比较
         unsupported = []
         for dnum in draft_nums:
@@ -152,18 +152,18 @@ def validate_main_digest_evidence(markdown_content: str, evidence_cards: list[di
                     break
             if not found:
                 unsupported.append(dnum)
-                
+
         if len(unsupported) > UNSUPPORTED_NUMBER_THRESHOLD:
             total_unsupported += 1
             if EVIDENCE_VALIDATION_MODE == "enforce":
                 log.warning(f"ENFORCE 阻断: 条目 {aid} 发现无证据支撑的数字: {unsupported}")
-            
+
         report_items.append({
             "article_id": aid,
             "has_unsupported_numbers": len(unsupported) > 0,
             "unsupported_list": unsupported
         })
-        
+
     return {
         "total_items": len(items),
         "items_with_unsupported_numbers": total_unsupported,
@@ -176,11 +176,11 @@ def summarize_quality_window(reports: list[dict]) -> dict:
     """统计一定时间窗口内的质量报告。"""
     total = 0
     unsupported = 0
-    
+
     for r in reports:
         total += r.get("total_items", 0)
         unsupported += r.get("items_with_unsupported_numbers", 0)
-        
+
     return {
         "window_reports": len(reports),
         "total_items": total,

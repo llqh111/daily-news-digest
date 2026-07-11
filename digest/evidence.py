@@ -46,19 +46,19 @@ def normalize_url(url: str) -> str:
         parsed = urlparse(url)
         scheme = parsed.scheme.lower()
         netloc = parsed.netloc.lower()
-        
+
         # 移除默认端口
         if scheme == "http" and netloc.endswith(":80"):
             netloc = netloc[:-3]
         elif scheme == "https" and netloc.endswith(":443"):
             netloc = netloc[:-4]
-            
-        # 路径合并重复 / 
+
+        # 路径合并重复 /
         path = re.sub(r'/+', '/', parsed.path)
         # 移除非根路径尾部 /
         if len(path) > 1 and path.endswith('/'):
             path = path[:-1]
-            
+
         # query 参数
         qs = parse_qsl(parsed.query, keep_blank_values=True)
         filtered_qs = []
@@ -69,7 +69,7 @@ def normalize_url(url: str) -> str:
             filtered_qs.append((k, v))
         filtered_qs.sort(key=lambda x: x[0])
         query = urlencode(filtered_qs)
-        
+
         return urlunparse((scheme, netloc, path, parsed.params, query, ""))
     except Exception:
         return url
@@ -85,7 +85,7 @@ def is_google_news_url(url: str) -> bool:
 def build_article_id(article: dict, session_logical_date: str = "") -> str:
     """按 id_scheme_version=1 生成稳定 ID。"""
     identity_key = ""
-    
+
     canonical_url = article.get("canonical_url")
     if canonical_url:
         identity_key = f"url:{canonical_url}"
@@ -100,7 +100,7 @@ def build_article_id(article: dict, session_logical_date: str = "") -> str:
             title = article.get("title", "").lower().strip()
             date_val = article.get("published") or session_logical_date
             identity_key = f"fallback:{source}|{title}|{date_val}"
-            
+
     hash_val = _sha256(identity_key)[:24]
     return f"a1_{hash_val}"
 
@@ -112,7 +112,7 @@ def _get_captured_at() -> str:
 def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
     """从单条 article 构造 EvidenceCard；失败时返回最小可用卡片。"""
     article_id = build_article_id(article, session_logical_date)
-    
+
     card = {
         "version": 1,
         "id_scheme_version": 1,
@@ -131,7 +131,7 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
             "anchor_count": 0
         }
     }
-    
+
     try:
         # --- 1. Sources ---
         primary_source = {
@@ -146,7 +146,7 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
             "captured_at": _get_captured_at(),
             "content_sha256": ""
         }
-        
+
         # 判断 trust_tier
         from .config import SOURCE_TRUST
         trust_score = SOURCE_TRUST.get(primary_source["publisher"], 0)
@@ -154,11 +154,11 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
             primary_source["trust_tier"] = "major_media"
         elif trust_score == 1:
             primary_source["trust_tier"] = "secondary"
-            
+
         fulltext = article.get("fulltext", "")
         summary = article.get("summary", "")
         title = article.get("title", "")
-        
+
         # 确定 primary 内容级别
         if article.get("backfill_source") or article.get("backfill"):
             # 如果是回填的，说明 primary 本身只有 summary/headline
@@ -178,10 +178,10 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
             else:
                 primary_source["content_level"] = "headline"
                 primary_content = title
-                
+
         primary_source["content_sha256"] = _sha256(_normalize_text(primary_content))
         card["sources"].append(primary_source)
-        
+
         # Context (backfill)
         backfill_info = article.get("backfill")
         if not backfill_info and article.get("backfill_source"):
@@ -192,7 +192,7 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
                 "publisher": "Unknown",
                 "content_sha256": _sha256(_normalize_text(fulltext)) if fulltext else ""
             }
-            
+
         if backfill_info:
             context_source = {
                 "id": "source:backfill",
@@ -228,11 +228,11 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
         # --- 2. Entities, Numbers, Dates ---
         search_text = fulltext if fulltext else (summary if summary else title)
         search_text_norm = _normalize_text(search_text)
-        
+
         # 实体抽取
         entities = extract_proper_nouns(search_text)
         card["entities"] = list(set(entities))
-        
+
         # 数字和日期抽取
         claims = extract_numerical_claims(search_text)
         numbers = []
@@ -242,7 +242,7 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
                 dates.append(c["claim"])
             else:
                 numbers.append(c["claim"])
-                
+
         card["numbers"] = list(set(numbers))
         card["dates"] = list(set(dates))
 
@@ -250,13 +250,13 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
         # 简单的切句逻辑
         sentences = re.split(r'(?<=[。！？.!?])\s+', search_text_norm)
         fact_id_counter = 1
-        
+
         for sent in sentences:
             if len(card["confirmed_facts"]) >= EVIDENCE_MAX_FACTS:
                 break
             if not sent.strip():
                 continue
-                
+
             # 判断句子中是否包含 anchor（实体、数字、日期）
             anchors_in_sent = []
             for e in card["entities"]:
@@ -265,11 +265,11 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
                 if n in sent: anchors_in_sent.append(n)
             for d in card["dates"]:
                 if d in sent: anchors_in_sent.append(d)
-                
+
             if len(anchors_in_sent) >= EVIDENCE_MIN_ANCHORS:
                 excerpt = sent[:280]
                 norm_excerpt = _normalize_text(excerpt)
-                
+
                 # 绑定对应的 source
                 # 简单处理：如果有 backfill，正文来自 backfill
                 target_source_id = "source:primary"
@@ -277,7 +277,7 @@ def build_evidence_card(article: dict, session_logical_date: str = "") -> dict:
                 if backfill_info and fulltext and sent in _normalize_text(fulltext):
                     target_source_id = "source:backfill"
                     target_sha = backfill_info.get("content_sha256", "")
-                
+
                 fact = {
                     "fact_id": f"f{fact_id_counter}",
                     "text": excerpt, # 第一版直接陈述事实
@@ -315,7 +315,7 @@ def build_evidence_cards(articles: list[dict], session_logical_date: str = "") -
     """原地为每条 article 写入 evidence_card；单条失败不影响其他条目。"""
     if not EVIDENCE_CARDS_ENABLED:
         return
-        
+
     if not session_logical_date:
         session_logical_date = datetime.now(TZ).strftime("%Y-%m-%d")
 
@@ -333,12 +333,12 @@ def validate_evidence_card(card: dict) -> list[str]:
     issues = []
     if not isinstance(card, dict):
         return ["card must be a dict"]
-        
+
     if card.get("version") != 1:
         issues.append("version must be 1")
     if not card.get("article_id"):
         issues.append("missing article_id")
-        
+
     for fact in card.get("confirmed_facts", []):
         if not fact.get("excerpt"):
             issues.append(f"fact {fact.get('fact_id')} missing excerpt")
@@ -348,5 +348,5 @@ def validate_evidence_card(card: dict) -> list[str]:
             issues.append(f"fact {fact.get('fact_id')} missing sentence_hash")
         if not fact.get("source_id"):
             issues.append(f"fact {fact.get('fact_id')} missing source_id")
-            
+
     return issues

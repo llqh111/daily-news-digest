@@ -23,13 +23,13 @@ def test_refine_digest_article_id_fallback():
 **新闻一重写**
 > 📰 来源：A
 """
-    
+
     # 因为总分足够低触发 revise
     def mock_evaluate(*args):
         return {"overall": 5, "issues": ["问题"]}
-        
+
     rewritten = refine_digest(summary, enabled=True, evaluate=mock_evaluate, revise=mock_revise)
-    
+
     # 应该回退到 summary
     assert rewritten == summary
 

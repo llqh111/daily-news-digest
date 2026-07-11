@@ -46,7 +46,7 @@ def test_validate_main_digest_evidence():
     report = validate_main_digest_evidence(md, cards)
     assert report["total_items"] == 1
     assert report["items_with_unsupported_numbers"] == 0
-    
+
     # 幻觉情况
     md2 = """
 <!-- article_id:a1_123 -->
@@ -82,4 +82,3 @@ Body
 """
 
     assert strip_internal_article_ids(markdown) == "**Title**\nBody\n"
-
