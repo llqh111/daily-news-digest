@@ -38,6 +38,22 @@ class TestEvaluateDigest:
         assert report["overall"] == 4
         assert "空话太多" in report["issues"]
 
+    def test_recovers_issues_with_unescaped_quotes(self):
+        """模型常把引用中的双引号直接放进 JSON 字符串，仍应保留评分与问题。"""
+        content = (
+            '{"overall": 8, "issues": ['
+            '"Story says "stop ships" without attribution.", '
+            '"Second issue."]}'
+        )
+
+        report = evaluate_digest(_DIGEST, call=_llm_returning(content))
+
+        assert report["overall"] == 8
+        assert report["issues"] == [
+            'Story says "stop ships" without attribution.',
+            "Second issue.",
+        ]
+
 
 class TestRefineDigest:
     def test_disabled_passthrough(self):

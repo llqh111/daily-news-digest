@@ -103,10 +103,18 @@ def _collect_candidates() -> tuple[list[dict], list[dict]]:
     for r in rising_raw:
         r["kind"] = "rising"
 
-    # 老牌：pushed 近 N 天，高星
+    # 老牌：pushed 近 N 天，高星。三级降级查询——从最严到最宽，确保每期都有候选。
     veteran_since = (datetime.now(TZ) - timedelta(days=GITHUB_VETERAN_DAYS)).strftime("%Y-%m-%d")
-    veteran_query = f"pushed:>{veteran_since} stars:>={GITHUB_VETERAN_MIN_STARS}"
-    veteran_raw = _search_repos(veteran_query, per_page=GITHUB_QUOTA["veteran"] * 2 + 3)
+    veteran_raw: list[dict] = []
+    for stars_floor in (GITHUB_VETERAN_MIN_STARS, 1000, 100):
+        veteran_query = f"pushed:>{veteran_since} stars:>={stars_floor}"
+        veteran_raw = _search_repos(veteran_query, per_page=GITHUB_QUOTA["veteran"] * 2 + 3)
+        if veteran_raw:
+            log.info(
+                f"老牌查询 stars>=%d 命中 %d 條", stars_floor, len(veteran_raw)
+            )
+            break
+        log.info(f"老牌查询 stars>=%d 无结果，降级重试", stars_floor)
     for r in veteran_raw:
         r["kind"] = "veteran"
 

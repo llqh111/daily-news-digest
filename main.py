@@ -24,6 +24,7 @@ import logging
 import sys
 import time  # 让 `main.time` 存在，支持 monkeypatch.setattr("main.time.sleep", ...)
 import traceback
+from pathlib import Path
 
 import requests  # 让 `main.requests` 存在，支持 monkeypatch.setattr("main.requests.*", ...)
 from dotenv import load_dotenv
@@ -110,6 +111,8 @@ from digest.storage import (  # noqa: E402
     mark_artifact_bundle_status,
     prune_quality_artifacts
 )
+from digest.hermes_export import HermesExportError, export_run  # noqa: E402
+from digest.hermes_intelligence_bundle import build_bundle  # noqa: E402
 from digest.push import (  # noqa: E402
     SERVERCHAN_SENDKEY,
     TELEGRAM_BOT_TOKEN,
@@ -415,6 +418,17 @@ def main() -> None:
         evidence_ok = save_evidence_sidecar(articles)
         quality_ok = save_quality_report(final_quality_report)
         mark_artifact_bundle_status(run_key, evidence_ok, quality_ok)
+        if evidence_ok and quality_ok:
+            try:
+                export_path = export_run(Path.cwd(), run_key)
+                log.info("Hermes AI 情报导出完成: %s", export_path)
+            except HermesExportError as exc:
+                log.warning("HERMES_EXPORT_SKIPPED: %s", exc)
+        try:
+            bundle_path = build_bundle(Path.cwd())
+            log.info("Hermes AI 情报汇总完成: %s", bundle_path)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            log.warning("HERMES_INTELLIGENCE_BUNDLE_SKIPPED: %s", exc)
         prune_quality_artifacts(now)
 
         log.info("=" * 50)

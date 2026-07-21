@@ -76,7 +76,7 @@ def _build_system_prompt(is_batch: bool = False) -> str:
     if is_batch:
         return (
             base
-            + "\n【输出结构】用 Markdown 严格按以下三大板块分类输出新闻（若某板块无新闻请省略标题）：\n"
+            + "\n【输出结构】用 Markdown 严格按以下三大板块分类输出新闻（即使某板块只有 1 条也**必须**写出该板块标题，三大标题缺一不可——它们是后端代码解析板块归属的唯一锚点）：\n"
               "## 🌍 国际要闻\n"
               "## 💻 科技与 AI\n"
               "## 💰 财经市场\n"
@@ -362,6 +362,21 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
                 grouped_parts.append(content)
 
     all_news = "\n\n".join(grouped_parts)
+
+    # ── 安全网：AI 分批时漏写了板块标题（通常是 🌍 国际要闻），未分类桶里有实料就自动补标题 ──
+    uncategorized = "\n".join(sections_data["未分类"]).strip()
+    if uncategorized:
+        missing_secs: list[str] = []
+        for sec in ["🌍 国际要闻", "💻 科技与 AI", "💰 财经市场"]:
+            if not sections_data[sec] or not "\n".join(sections_data[sec]).strip():
+                missing_secs.append(sec)
+        if missing_secs:
+            # 「未分类」最常漏的是国际新闻（科技/财经通常有明确标签，AI 不会忘）
+            # 优先补给第一个缺失的板块
+            promoted_sec = missing_secs[0]
+            log.warning(f"分批合并：检测到未分类桶有 {len(uncategorized)} 字内容，自动补为「{promoted_sec}」标题")
+            all_news = all_news.replace(uncategorized, f"## {promoted_sec}\n{uncategorized}")
+
     log.info(f"各批合计 {sum(len(o) for o in batch_outputs)} 字，已通过代码完成板块归类合并。准备补导语...")
 
     merge_prompt = (
