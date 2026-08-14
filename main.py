@@ -93,7 +93,7 @@ from digest.ai import (  # noqa: E402
     summarize_with_deepseek,
     strip_audit_block,
 )
-from digest.triage import triage_with_deepseek  # noqa: E402
+from digest.triage import ensure_main_news_coverage, triage_with_deepseek  # noqa: E402
 from digest.critique import refine_digest  # noqa: E402
 from digest.scout import scout_for_gaps  # noqa: E402
 from digest.linkage import tag_progress  # noqa: E402
@@ -301,6 +301,7 @@ def main() -> None:
         log.info("🧠 R1 决策精选（triage）...")
         articles = triage_with_deepseek(articles)
         log.info(f"triage 后保留 {len(articles)} 条")
+        ensure_main_news_coverage(articles)
 
         log.info("🔍 信息差侦察兵启动（scout）...")
         gaps = scout_for_gaps()
@@ -449,6 +450,7 @@ def main() -> None:
         stage_map = {
             "fetch_all_feeds": "RSS抓取",
             "triage_with_deepseek": "R1决策精选",
+            "ensure_main_news_coverage": "主新闻覆盖质检",
             "scout_for_gaps": "信息差侦察",
             "pick_bio_breakthrough": "生物前沿挑选",
             "pick_github_trending": "GitHub热榜",

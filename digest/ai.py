@@ -26,6 +26,12 @@ log = logging.getLogger(__name__)
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
 
+def _is_empty_section_placeholder(line: str) -> bool:
+    """Discard model filler such as 'this batch has no candidate' before merging sections."""
+    normalized = re.sub(r"[\s（）()。.!！]", "", line)
+    return "本批暂无符合该板块的候选新闻" in normalized
+
+
 def _build_system_prompt(is_batch: bool = False) -> str:
     """构建系统提示词。is_batch=True 时省略「导语」和「编辑手记」——仅写新闻条目。"""
     base = (
@@ -343,6 +349,8 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
         current_sec = "未分类"
         for line in text.split('\n'):
             line_s = line.strip()
+            if _is_empty_section_placeholder(line_s):
+                continue
             if "🌍 国际要闻" in line_s and line_s.startswith("##"):
                 current_sec = "🌍 国际要闻"
             elif "💻 科技与 AI" in line_s and line_s.startswith("##"):

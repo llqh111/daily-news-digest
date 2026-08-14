@@ -16,11 +16,35 @@ from .config import (
     CATEGORY_FLOOR,
     CATEGORY_QUOTA,
     FINAL_PICK,
+    MIN_MAIN_NEWS,
     READER_PROFILE,
+    REQUIRED_MAIN_CATEGORIES,
     TRIAGE_MODEL,
 )
 
 log = logging.getLogger(__name__)
+
+
+class SelectionCoverageError(RuntimeError):
+    """Raised when a digest would be too thin or miss a required news category."""
+
+
+def ensure_main_news_coverage(articles: list[dict]) -> None:
+    """Refuse delivery when the selected main-news set cannot meet the reader contract."""
+    counts = {category: 0 for category in REQUIRED_MAIN_CATEGORIES}
+    for article in articles:
+        category = article.get("category")
+        if category in counts:
+            counts[category] += 1
+
+    problems = []
+    if len(articles) < MIN_MAIN_NEWS:
+        problems.append(f"主新闻仅 {len(articles)} 条（最低 {MIN_MAIN_NEWS} 条）")
+    missing = [category for category, count in counts.items() if count == 0]
+    if missing:
+        problems.append(f"缺少板块：{'、'.join(missing)}")
+    if problems:
+        raise SelectionCoverageError("；".join(problems))
 
 
 def _select_by_category_quota(kept: list[dict], all_articles: list[dict]) -> list[dict]:
@@ -125,7 +149,13 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
 
     def _fallback(reason: str) -> list[dict]:
         log.warning(f"⚠️ triage 回退粗筛排序（原因：{reason}）")
-        return sorted(articles, key=lambda a: a.get("score", 0), reverse=True)[:FINAL_PICK]
+        fallback = sorted(articles, key=lambda a: a.get("score", 0), reverse=True)[:FINAL_PICK]
+        for article in fallback:
+            # Keep the decision table and its audit trail intact even when R1 is unavailable.
+            article["ai_score"] = float(article.get("score", 0))
+            article["ai_reason"] = f"R1 决策回退：{reason}"
+            article["triage_mode"] = "fallback"
+        return fallback
 
     articles_text = _articles_to_triage_text(articles)
     n = len(articles)

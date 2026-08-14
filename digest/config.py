@@ -58,6 +58,8 @@ SLOW_WINDOW_HOURS = 72
 # ═══════════════════════════════════════════════════
 
 FINAL_PICK = 13                          # triage 精选后最终保留条数
+MIN_MAIN_NEWS = 8                        # 低于此数不发送半成品晨报
+REQUIRED_MAIN_CATEGORIES = ("国际", "科技", "财经")
 TRIAGE_MODEL = "deepseek-v4-pro"         # 决策环节用 V4-Pro 思考模式（吃判断力）
 SCOUT_MODEL = "deepseek-v4-flash"        # 侦察兵 ReAct 循环用 V4-Flash 思考模式（多轮）
 SCOUT_ENABLED = True                     # 侦察兵总开关，想省钱临时关掉改 False
