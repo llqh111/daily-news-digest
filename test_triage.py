@@ -7,7 +7,12 @@ from unittest.mock import patch
 
 import pytest
 
-from digest.triage import triage_with_deepseek, _extract_decisions
+from digest.triage import (
+    SelectionCoverageError,
+    _extract_decisions,
+    ensure_main_news_coverage,
+    triage_with_deepseek,
+)
 
 
 # ──────────────────────────── 辅助 ────────────────────────────
@@ -92,6 +97,7 @@ def test_malformed_json_falls_back():
 
     assert len(result) <= 13
     assert result[0]["score"] >= result[-1]["score"]  # 按粗筛 score 降序
+    assert all("ai_score" in article and "R1 决策回退" in article["ai_reason"] for article in result)
 
 
 def test_llm_raises_falls_back():
@@ -106,6 +112,20 @@ def test_llm_raises_falls_back():
 
     assert len(result) <= 13
     assert all("title" in a for a in result)
+    assert all(article["triage_mode"] == "fallback" for article in result)
+
+
+def test_coverage_rejects_thin_or_missing_category_selection():
+    articles = _make_articles(5)
+    with pytest.raises(SelectionCoverageError, match="主新闻仅 5 条.*缺少板块"):
+        ensure_main_news_coverage(articles)
+
+
+def test_coverage_accepts_complete_selection():
+    articles = _make_articles(8)
+    for article, category in zip(articles, ["国际", "科技", "财经", "国际", "科技", "财经", "国际", "科技"]):
+        article["category"] = category
+    ensure_main_news_coverage(articles)
 
 
 def test_empty_input_returns_empty():
