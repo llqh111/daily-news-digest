@@ -23,6 +23,7 @@ from main import (
     _fetch_feed_content,
     push_to_wechat,
     push_to_telegram,
+    _insert_github_section,
 )
 
 
@@ -730,6 +731,16 @@ class TestSelectFive:
     def test_empty_inputs(self):
         """全空输入 → 返回空列表。"""
         assert _select_five([], [], set()) == []
+
+
+def test_github_section_uses_actual_repo_count():
+    """候选不足五条时，标题必须如实反映实际条数。"""
+    repos = [_make_repo(f"owner/r{i}") for i in range(4)]
+
+    result = _insert_github_section("正文", repos)
+
+    assert "## 🔥 GitHub 热榜 · 今日 4 选" in result
+    assert "## 🔥 GitHub 热榜 · 今日 5 选" not in result
 
 
 class TestSearchRepos:

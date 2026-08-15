@@ -193,8 +193,12 @@ def _articles_to_text(articles: list[dict]) -> str:
 
 def _call_deepseek_once(system_prompt: str, user_prompt: str,
                         max_tokens: int = 8000,
-                        model: str = "deepseek-v4-pro") -> dict:
+                        model: str = "deepseek-v4-pro",
+                        thinking_enabled: bool = True) -> dict:
     """单次调用 DeepSeek（流式 + 自动重试）。
+
+    思考模式若只消耗在 ``reasoning_content`` 而没有最终 ``content``，会用
+    非思考模式再试一次；非思考模式仍为空时视为调用失败。
     返回 {"choices": [{"message": {"content": ...}}], ...} 或抛异常。"""
     RETRYABLE = (
         requests.exceptions.ConnectionError,
@@ -218,9 +222,11 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                         {"role": "user", "content": user_prompt},
                     ],
                     "max_tokens": max_tokens,
-                    # V4 思考模式开关（v4-flash/v4-pro 通用）。显式 enabled，把意图钉死，
-                    # 不赖 API 默认。旧别名 deepseek-chat/reasoner 2026/07/24 废弃，此处迁移配套。
-                    "thinking": {"type": "enabled"},
+                    # V4 思考模式开关（v4-flash/v4-pro 通用）。对于只返回推理而
+                    # 未返回正文的响应，下一次会显式关闭思考模式重试。
+                    "thinking": {
+                        "type": "enabled" if thinking_enabled else "disabled"
+                    },
                 },
                 timeout=(60, 300),
                 stream=True,
@@ -233,10 +239,16 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
             if "application/json" in ct:
                 data = resp.json()
                 content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
-                return {
-                    "choices": [{"message": {"content": content}}],
-                    "usage": data.get("usage", {"total_tokens": "?"}),
-                }
+                usage = data.get("usage", {"total_tokens": "?"})
+                if content.strip():
+                    return {
+                        "choices": [{"message": {"content": content}}],
+                        "usage": usage,
+                    }
+                return _retry_empty_final_content(
+                    system_prompt, user_prompt, max_tokens, model,
+                    thinking_enabled,
+                )
 
             # ── 流式：手动拼接 SSE 流式响应
             chunks: list[str] = []
@@ -257,10 +269,15 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                 except Exception:
                     continue
             content = "".join(chunks)
-            return {
-                "choices": [{"message": {"content": content}}],
-                "usage": {"total_tokens": "?"},
-            }
+            if content.strip():
+                return {
+                    "choices": [{"message": {"content": content}}],
+                    "usage": {"total_tokens": "?"},
+                }
+            return _retry_empty_final_content(
+                system_prompt, user_prompt, max_tokens, model,
+                thinking_enabled,
+            )
         except RETRYABLE as e:
             if attempt == MAX_RETRIES:
                 raise
@@ -270,6 +287,23 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                 f"{wait}s 后重试..."
             )
             time.sleep(wait)
+
+
+def _retry_empty_final_content(system_prompt: str, user_prompt: str,
+                               max_tokens: int, model: str,
+                               thinking_enabled: bool) -> dict:
+    """对空最终正文做一次非思考模式重试，避免静默生成半份简报。"""
+    if not thinking_enabled:
+        raise RuntimeError("DeepSeek 返回空的最终正文")
+
+    log.warning("DeepSeek 思考模式未返回最终正文，改用非思考模式重试一次")
+    return _call_deepseek_once(
+        system_prompt,
+        user_prompt,
+        max_tokens=max_tokens,
+        model=model,
+        thinking_enabled=False,
+    )
 
 
 def _log_sanity(content: str) -> None:

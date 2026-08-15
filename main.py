@@ -210,7 +210,7 @@ def _insert_github_section(summary: str, repos: list[dict] | None) -> str:
     if not repos:
         return summary
 
-    lines = ["\n## 🔥 GitHub 热榜 · 今日 5 选\n"]
+    lines = [f"\n## 🔥 GitHub 热榜 · 今日 {len(repos)} 选\n"]
     for i, r in enumerate(repos, 1):
         # 星数格式化：≥1000 显示 12.3k
         stars = r.get("stargazers_count", 0)
