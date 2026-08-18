@@ -152,11 +152,13 @@ RSS_FEEDS = [
     # ── 第1层：一手信源 ──
     {"name": "美联储新闻稿", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
     {"name": "欧央行新闻稿", "url": "https://www.ecb.europa.eu/rss/press.html", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "BIS 新闻稿", "url": "https://www.bis.org/doclist/all_pressrels.rss", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
     {"name": "SEC 新闻稿", "url": "https://www.sec.gov/news/pressreleases.rss", "category": "财经", "window_hours": SLOW_WINDOW_HOURS},
     {"name": "白宫公告", "url": "https://www.whitehouse.gov/presidential-actions/feed/", "category": "国际", "window_hours": SLOW_WINDOW_HOURS},
     {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
     {"name": "OpenAI 博客", "url": "https://openai.com/blog/rss.xml", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
     {"name": "DeepMind 博客", "url": "https://deepmind.google/blog/rss.xml", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
+    {"name": "Google AI 博客", "url": "https://blog.google/innovation-and-ai/technology/ai/rss/", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
     {"name": "HuggingFace 博客", "url": "https://huggingface.co/blog/feed.xml", "category": "科技", "max_items": 3, "window_hours": SLOW_WINDOW_HOURS},
     {"name": "英伟达博客", "url": "https://blogs.nvidia.com/feed/", "category": "科技", "window_hours": SLOW_WINDOW_HOURS},
     # ── 第2层：高密度垂直源 ──
@@ -355,8 +357,8 @@ SOURCE_TRUST = {
 
 SOURCE_TRUST.update({
     # 第1层 一手信源
-    "美联储新闻稿": 3, "欧央行新闻稿": 3, "SEC 新闻稿": 3, "白宫公告": 2,
-    "arXiv cs.AI": 3, "OpenAI 博客": 3, "DeepMind 博客": 3,
+    "美联储新闻稿": 3, "欧央行新闻稿": 3, "BIS 新闻稿": 3, "SEC 新闻稿": 3, "白宫公告": 2,
+    "arXiv cs.AI": 3, "OpenAI 博客": 3, "DeepMind 博客": 3, "Google AI 博客": 3,
     "HuggingFace 博客": 2, "英伟达博客": 2,
     # 第2层 垂直分析
     "Stratechery": 3, "SemiAnalysis": 3, "Import AI": 3, "Simon Willison": 2,
