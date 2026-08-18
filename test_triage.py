@@ -128,6 +128,55 @@ def test_coverage_accepts_complete_selection():
     ensure_main_news_coverage(articles)
 
 
+def test_triage_backfills_when_llm_selects_only_seven_complete_articles():
+    """模型正常响应但只保留 7 条时，应从同批候选补足送达下限。"""
+    categories = (
+        ["国际"] * 3
+        + ["科技"] * 2
+        + ["财经"] * 2
+        + ["国际"] * 10
+        + ["科技"] * 11
+        + ["财经"] * 11
+    )
+    articles = _make_articles(len(categories))
+    for article, category in zip(articles, categories):
+        article["category"] = category
+
+    # 这是 2026-08-18 的实际故障形态：候选充足、分类齐全，但模型只 keep 7 条。
+    decisions = [
+        {"id": i, "keep": i <= 7, "score": 9, "reason": "模型精选"}
+        for i in range(1, len(articles) + 1)
+    ]
+    with patch("digest.triage._call_deepseek_once", _fake_llm(decisions)):
+        result = triage_with_deepseek(articles)
+
+    assert len(result) == 8
+    ensure_main_news_coverage(result)
+    assert any(
+        article.get("triage_mode") == "coverage_backfill"
+        and "覆盖补充" in article.get("ai_reason", "")
+        for article in result
+    )
+
+
+def test_triage_backfills_a_missing_required_category_when_candidates_exist():
+    """模型选够 8 条但漏掉整个必需板块时，也不能让任务在送达前失败。"""
+    categories = (["国际"] * 6) + (["财经"] * 2) + (["科技"] * 13) + (["国际"] * 7) + (["财经"] * 11)
+    articles = _make_articles(len(categories))
+    for article, category in zip(articles, categories):
+        article["category"] = category
+
+    decisions = [
+        {"id": i, "keep": i <= 8, "score": 9, "reason": "模型精选"}
+        for i in range(1, len(articles) + 1)
+    ]
+    with patch("digest.triage._call_deepseek_once", _fake_llm(decisions)):
+        result = triage_with_deepseek(articles)
+
+    ensure_main_news_coverage(result)
+    assert any(article.get("category") == "科技" and article.get("triage_mode") == "coverage_backfill" for article in result)
+
+
 def test_empty_input_returns_empty():
     """空输入 → 直接返回 []，不调用 LLM。"""
     with patch("digest.triage._call_deepseek_once") as mock_llm:

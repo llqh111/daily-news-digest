@@ -63,7 +63,7 @@ jobs:
           key: fastembed-minilm-l12-v1
 
       - name: 🧪 运行单元测试（不过就不推送）
-        run: python -m pytest test_core.py test_semantic_dedup.py test_critique.py -q
+        run: python -m pytest test_core.py test_semantic_dedup.py test_critique.py test_triage.py -q
 
       - name: 📰 运行每日简报
         run: |

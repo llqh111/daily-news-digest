@@ -29,8 +29,8 @@ class SelectionCoverageError(RuntimeError):
     """Raised when a digest would be too thin or miss a required news category."""
 
 
-def ensure_main_news_coverage(articles: list[dict]) -> None:
-    """Refuse delivery when the selected main-news set cannot meet the reader contract."""
+def _coverage_problems(articles: list[dict]) -> list[str]:
+    """Return unmet delivery-contract requirements without changing the selection."""
     counts = {category: 0 for category in REQUIRED_MAIN_CATEGORIES}
     for article in articles:
         category = article.get("category")
@@ -43,8 +43,80 @@ def ensure_main_news_coverage(articles: list[dict]) -> None:
     missing = [category for category, count in counts.items() if count == 0]
     if missing:
         problems.append(f"缺少板块：{'、'.join(missing)}")
+    return problems
+
+
+def ensure_main_news_coverage(articles: list[dict]) -> None:
+    """Refuse delivery when the selected main-news set cannot meet the reader contract."""
+    problems = _coverage_problems(articles)
     if problems:
         raise SelectionCoverageError("；".join(problems))
+
+
+def _backfill_delivery_coverage(selected: list[dict], all_articles: list[dict]) -> list[dict]:
+    """Use ranked same-run candidates when a valid LLM response under-selects news.
+
+    This is deliberately narrower than the normal fallback: it only revives candidates
+    when the final selection would otherwise fail the pre-delivery quality contract.
+    """
+    if not _coverage_problems(selected):
+        return selected
+    # Do not mutate an already-insufficient source pool: the delivery gate should
+    # still alert when upstream fetching genuinely cannot satisfy the contract.
+    if _coverage_problems(all_articles):
+        return selected
+
+    result = list(selected)
+    selected_ids = {id(article) for article in result}
+    counts = {category: 0 for category in CATEGORY_QUOTA}
+    for article in result:
+        category = article.get("category")
+        if category in counts:
+            counts[category] += 1
+
+    candidates = sorted(
+        [article for article in all_articles if id(article) not in selected_ids],
+        key=lambda article: article.get("score", 0),
+        reverse=True,
+    )
+
+    def add(article: dict) -> None:
+        article["ai_score"] = float(article.get("score", 0))
+        article["ai_reason"] = "R1 覆盖补充：避免主新闻未达送达标准"
+        article["triage_mode"] = "coverage_backfill"
+        result.append(article)
+        selected_ids.add(id(article))
+        counts[article["category"]] += 1
+
+    # Required categories take precedence over count, while preserving each category cap.
+    for category in REQUIRED_MAIN_CATEGORIES:
+        if counts.get(category, 0):
+            continue
+        for article in candidates:
+            if article.get("category") == category and counts[category] < CATEGORY_QUOTA[category]:
+                add(article)
+                break
+
+    # A complete but too-thin selection is filled from the highest-ranked eligible items.
+    for article in candidates:
+        if len(result) >= MIN_MAIN_NEWS:
+            break
+        category = article.get("category")
+        if (
+            id(article) not in selected_ids
+            and category in CATEGORY_QUOTA
+            and counts[category] < CATEGORY_QUOTA[category]
+        ):
+            add(article)
+
+    remaining = _coverage_problems(result)
+    if remaining:
+        log.warning("triage 覆盖补充后仍未达标：%s", "；".join(remaining))
+    else:
+        log.warning("triage 覆盖补充：%d 条 -> %d 条", len(selected), len(result))
+
+    result.sort(key=lambda article: article.get("ai_score", article.get("score", 0)), reverse=True)
+    return result
 
 
 def _select_by_category_quota(kept: list[dict], all_articles: list[dict]) -> list[dict]:
@@ -84,7 +156,7 @@ def _select_by_category_quota(kept: list[dict], all_articles: list[dict]) -> lis
 
     # 呈现顺序：整体按 ai_score（补档项无 ai_score 则退回粗筛 score）降序
     result.sort(key=lambda a: a.get("ai_score", a.get("score", 0)), reverse=True)
-    return result
+    return _backfill_delivery_coverage(result, all_articles)
 
 
 def _articles_to_triage_text(articles: list[dict]) -> str:
