@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "date": "2026-08-27",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_9ebfddb839f49776ed9108a9",
+      "headline": "NVIDIA Develops Custom “NVHBM” Memory For AI, Claiming 30% More Bandwidth and 15% Lower Power Than HBM4E",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "NVIDIA has just announced its custom HBM solution called NVHBM, which will be used in future GPUs, offering higher bandwidth & lower power.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-27T08:05:00.205871+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e",
+          "excerpt": "NVIDIA has just announced its custom HBM solution called NVHBM, which will be used in future GPUs, offering higher bandwidth & lower power.",
+          "sentence_hash": "494baf62d277c9b9e1073e451a12fb199712b4a87245e0e3d4a39a7f8dc2dae4",
+          "anchors": [
+            "custom"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "NVIDIA says that its NVHBM solution offers better bandwidth and efficiency than standard HBM solutions by taking the memory controller off of the XPU and placing it directly within the base die of HBM.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-27T08:05:00.205931+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e",
+          "excerpt": "NVIDIA says that its NVHBM solution offers better bandwidth and efficiency than standard HBM solutions by taking the memory controller off of the XPU and placing it directly within the base die of HBM.",
+          "sentence_hash": "093c9973e93c9f38810be9b366f1616d94341d2b5fe5ffe5071c93be937e7bc3",
+          "anchors": [
+            "base",
+            "solutions"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "We have seen many memory vendors and chipmakers working on similar solutions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-27T08:05:00.205955+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e",
+          "excerpt": "We have seen many memory vendors and chipmakers working on similar solutions.",
+          "sentence_hash": "479471d6cb785dc040f429eb6a7b6b9ef6b1f6b18ae8a4cef4e8c42250fc82a6",
+          "anchors": [
+            "solutions"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "This technology will be incorporated into future GPUs, and the memory controller itself will be a custom design by NVIDIA, which will be integrated within the HBM base die.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-27T08:05:00.205997+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e",
+          "excerpt": "This technology will be incorporated into future GPUs, and the memory controller itself will be a custom design by NVIDIA, which will be integrated within the HBM base die.",
+          "sentence_hash": "1cf5c095e749a6e43d85b83e5af355725cf0d51d4c624469c4457b0b29be85af",
+          "anchors": [
+            "custom",
+            "base"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Through this solution, it is said that the memory bandwidth will see a 30+% boost while power consumption will be 15% lower than a standard HBM4E solution.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-27T08:05:00.206026+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e",
+          "excerpt": "Through this solution, it is said that the memory bandwidth will see a 30+% boost while power consumption will be 15% lower than a standard HBM4E solution.",
+          "sentence_hash": "0728c01a18623712be62e0b2c497162a3e86e56e66ed82851ba7414c12978ecd",
+          "anchors": [
+            "15%",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Removing the memory controller from the XPU also saves up to 25% die area on the main chip, which can be dedicated to additional compute capabilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-27T08:05:00.206055+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e",
+          "excerpt": "Removing the memory controller from the XPU also saves up to 25% die area on the main chip, which can be dedicated to additional compute capabilities.",
+          "sentence_hash": "6d5856cb954da199b9f19f19b4715f0a4818bdd29b7cc4420283104b2f84c350",
+          "anchors": [
+            "ai",
+            "25%"
+          ]
+        }
+      ],
+      "entities": [
+        "custom",
+        "removing",
+        "hynix",
+        "link fusion",
+        "those",
+        "jedec",
+        "phy",
+        "dram",
+        "nvhbm",
+        "xpu",
+        "solution designed by",
+        "annapurna labs",
+        "through",
+        "hbm",
+        "lpddr",
+        "nafea bshara",
+        "ai",
+        "link",
+        "physical",
+        "annapurna labs to speed up",
+        "nvidia",
+        "compared",
+        "table",
+        "one",
+        "solutions",
+        "amazon",
+        "qualcomm",
+        "samsung",
+        "capabilities for future agentic",
+        "micron",
+        "workloads\nthe",
+        "base",
+        "aws",
+        "sk",
+        "hbc"
+      ],
+      "numbers": [
+        "67%",
+        "15%",
+        "80%",
+        "25%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wccftech",
+          "url": "https://wccftech.com/nvidia-develops-custom-nvhbm-memory-for-ai-more-bandwidth-lower-power-than-hbm4e/",
+          "canonical_url": null,
+          "hostname": "wccftech.com",
+          "content_level": "fulltext",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-27T08:05:00.202690+08:00",
+          "content_sha256": "4052595d70389078df619d71d0ae9008133ea23263985192880afe9de6daf40e"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-27T08:05:00.202993+08:00",
+          "content_sha256": "b913370e9ba8e2c0b5fd83ce1a94d1bec4f4a08f417873667840cd0470da347a"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-27T08:05:00.203017+08:00",
+          "content_sha256": "b1b8c25c96c90f34866615b34f85620d6301b349823d89f36bafac42e51282d3"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-27T08:05:00.203038+08:00",
+          "content_sha256": "bb2250be25551844a6f7e95674f650d39884d8ddf1aabeb75f39582f3e55d836"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-27T08:05:00.203055+08:00",
+          "content_sha256": "c701f036e9a6b4ee8965c7098698e40d6aef14f541ac7f6300f39523ef5832a6"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "summary": "NVIDIA has just announced its custom HBM solution called NVHBM, which will be used in future GPUs, offering higher bandwidth &#38; lower power. NVHBM Is A Custom HBM Solution Designed By NVIDIA &#38; Amazon's Annapurna Labs To Speed Up DRAM Capabilities For Future Agentic &#38; Physical AI Workloads The NVIDIA NVHBM DRAM solution is an extension of NVLink Fusion, offering higher memory performance and efficiency to XPUs at a time when memory bandwidth is becoming critical as model sizes increase",
+      "category": "科技",
+      "published_at": 
