@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "date": "2026-08-28",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_344bad964f88c158ecab6bab",
+      "headline": "Breaking Claude Code Opus 5 Auto Mode",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "27th August 2026 - Link Blog Breaking Claude Code Opus 5 Auto Mode.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-28T08:05:14.432034+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c",
+          "excerpt": "27th August 2026 - Link Blog Breaking Claude Code Opus 5 Auto Mode.",
+          "sentence_hash": "479cbb371a1a0e8e1ab7c313f20400c166f0d596dc6a31f3efb76adbf0763d62",
+          "anchors": [
+            "August 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-28T08:05:14.432059+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c",
+          "excerpt": "Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks.",
+          "sentence_hash": "249e03fa4da03c81a27481ab3a4858a6611bcf6397f88fbb10b77086967233dd",
+          "anchors": [
+            "auto mode"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "They recently made that the default and have made bold claims about its effectiveness.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-28T08:05:14.432072+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c",
+          "excerpt": "They recently made that the default and have made bold claims about its effectiveness.",
+          "sentence_hash": "cc095b76e18c49d661b0047af5bb9ae5f0da2a8ffa2cab2099500d8c3c3caa3a",
+          "anchors": [
+            "recent"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Johann Rehberger is one of the most credible prompt injection researchers active today.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-28T08:05:14.432084+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c",
+          "excerpt": "Johann Rehberger is one of the most credible prompt injection researchers active today.",
+          "sentence_hash": "08917811a5e412919bc29a91c44c02bd0077502f59e20757323ead88151de765",
+          "anchors": [
+            "os"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from t",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-28T08:05:14.432106+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c",
+          "excerpt": "He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from t",
+          "sentence_hash": "574fe2f463ab9db5d9ff6a315c4cd59df613b8d194a1aebef11a1fc23ee0115c",
+          "anchors": [
+            "80%",
+            "auto mode"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute!",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-28T08:05:14.432119+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c",
+          "excerpt": "In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute!",
+          "sentence_hash": "cdd7ff03c4adb750d5cfeb59508d59307e895ab1bc9b4acb4e79246ca5ecac81",
+          "anchors": [
+            "auto mode"
+          ]
+        }
+      ],
+      "entities": [
+        "they",
+        "anthropic",
+        "restrict",
+        "qwen",
+        "ssh",
+        "johann rehberger",
+        "conceptual",
+        "august",
+        "recent",
+        "hugging face",
+        "os",
+        "monitor",
+        "claude code",
+        "run",
+        "auto mode",
+        "johann",
+        "now",
+        "link blog\nbreaking claude code opus",
+        "vm",
+        "open",
+        "claude"
+      ],
+      "numbers": [
+        "80%"
+      ],
+      "dates": [
+        "August 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-08-28T08:05:14.430523+08:00",
+          "content_sha256": "868c712f514fe9f814f6181b461512294f6d226d4acd48fcc5e4cb2cc1622a8c"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 23
+      },
+      "summary": "Breaking Claude Code Opus 5 Auto Mode\nAnthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness.\nJohann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip a",
+      "category": "科技",
+      "published_at": 
