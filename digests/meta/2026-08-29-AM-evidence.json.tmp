@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "date": "2026-08-29",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_3bbfcb421a9f48d47b5f6e5f",
+      "headline": "Modder Makes NVIDIA DLSS 5 Neural Rendering Work On GeForce RTX 40 Series Through A Simple CUDA Binaries Swap",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Uncle Burrito made an experimental patch, which got the job done, exposing the controls for tweaking the image quality in the game.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-29T08:05:50.849677+08:00",
+          "content_sha256": "a70657f99f7f4575cf38b1712d1ae88214adcdca19dd75732f3be5f6d5d6d7eb",
+          "excerpt": "Uncle Burrito made an experimental patch, which got the job done, exposing the controls for tweaking the image quality in the game.",
+          "sentence_hash": "feb3eb293672c7c068d6fe411dc35fe8da098ee8610154463be328ecdb287cbd",
+          "anchors": [
+            "control"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "That said, it's important to highlight that, just like the RTX 50 series, the performance was also impacted on the RTX 4090, and the modder saw as much as a 39% performance reduction, witnessing the FPS drop from 135-145 to just 83.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-29T08:05:50.849746+08:00",
+          "content_sha256": "a70657f99f7f4575cf38b1712d1ae88214adcdca19dd75732f3be5f6d5d6d7eb",
+          "excerpt": "That said, it's important to highlight that, just like the RTX 50 series, the performance was also impacted on the RTX 4090, and the modder saw as much as a 39% performance reduction, witnessing the FPS drop from 135-145 to just 83.",
+          "sentence_hash": "daa2ddccce8839b1cffbebb071e3cebcf8f6ca5b6f1a1c2bfc209b6a9ecc3a5e",
+          "anchors": [
+            "39%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Nonetheless, this remains an experimental feature, and we will see how it turns out in the official release.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-29T08:05:50.849775+08:00",
+          "content_sha256": "a70657f99f7f4575cf38b1712d1ae88214adcdca19dd75732f3be5f6d5d6d7eb",
+          "excerpt": "Nonetheless, this remains an experimental feature, and we will see how it turns out in the official release.",
+          "sentence_hash": "3c3c006563fe0aa9549d5f100780018473a5d74deda0fd0aa1516995e6574e4a",
+          "anchors": [
+            "official release"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "News Source: Via Videocardz Follow Wccftech on Google to get more of our news coverage in your feeds.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-29T08:05:50.849798+08:00",
+          "content_sha256": "a70657f99f7f4575cf38b1712d1ae88214adcdca19dd75732f3be5f6d5d6d7eb",
+          "excerpt": "News Source: Via Videocardz Follow Wccftech on Google to get more of our news coverage in your feeds.",
+          "sentence_hash": "c3194d961e913f9195a85f70d11d8971bb3a9bfd52fb716e7e9e70213cec9f49",
+          "anchors": [
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "uncle burrito",
+        "you",
+        "news source",
+        "control",
+        "via videocardz\nfollow wccftech",
+        "google",
+        "reno",
+        "neural rendering",
+        "while",
+        "nvidia",
+        "cuda",
+        "nonetheless",
+        "us ahead",
+        "fps",
+        "dll",
+        "rtx",
+        "nr",
+        "official release",
+        "dlss",
+        "neural rendering now works",
+        "tube",
+        "however",
+        "force",
+        "gpu",
+        "blackwell",
+        "ada",
+        "nba"
+      ],
+      "numbers": [
+        "39%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wccftech",
+          "url": "https://wccftech.com/modder-makes-nvidia-dlss-5-neural-rendering-work-on-geforce-rtx-40-series-through-a-simple-cuda-binaries-swap/",
+          "canonical_url": null,
+          "hostname": "wccftech.com",
+          "content_level": "fulltext",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-29T08:05:50.846712+08:00",
+          "content_sha256": "a70657f99f7f4575cf38b1712d1ae88214adcdca19dd75732f3be5f6d5d6d7eb"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-29T08:05:50.846974+08:00",
+          "content_sha256": "f33870c74e0cf96bdab7b904af0b8d7df02fb157eb4764d3dedf01865d23e628"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-29T08:05:50.846998+08:00",
+          "content_sha256": "d3e5521bed118803ca07cff7fe0abe7118df6ca7297efaf5e55df239e3501e81"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-29T08:05:50.847027+08:00",
+          "content_sha256": "18ea7ce261b288e1aadce1a934101109e0d7184352b8c634936f00c228d37be4"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-08-29T08:05:50.847054+08:00",
+          "content_sha256": "c7642ac306aca7c7883720742f141657ed7d162922f5a8f39da1fe9ff41be017"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 28
+      },
+      "summary": "In just 24 hours, we saw modders enabling DLSS 5 NR implementation in multiple games as well as enabling it on the RTX 40 series cards. NVIDIA DLSS 5 Neural Rendering Now Works on ADA RTX 40 GPUs Ahead of Official Release A lot of development happened in the last two days since the DLSS 5 Neural Rendering DLL file got leaked in the early-access NBA 2K27 build. We saw modders from the RenoDX community enabling the experimental implementation in Control, but later on, we saw this implementation wo",
+      "category": "科技",
+      "published_at": 
