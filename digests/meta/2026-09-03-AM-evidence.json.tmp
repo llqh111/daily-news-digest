@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "date": "2026-09-03",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_ec3862450d2f6d2c9649f65a",
+      "headline": "Gitlawb/openclaude",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenClaude is an open-source coding-agent CLI for cloud and local model providers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.951219+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc",
+          "excerpt": "OpenClaude is an open-source coding-agent CLI for cloud and local model providers.",
+          "sentence_hash": "4cab7236b0f5309043420cdc15453e33f9b1f2ca750f3bc9fc15c3e959f297b0",
+          "anchors": [
+            "id",
+            "open",
+            "providers",
+            "coding"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Use OpenAI-compatible APIs, Gemini, GitHub Models, Codex OAuth, Codex, Ollama, Atomic Chat, and other supported backends while keeping one terminal-first workflow: prompts, tools, agents, MCP, slash commands, and streaming output.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.951270+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc",
+          "excerpt": "Use OpenAI-compatible APIs, Gemini, GitHub Models, Codex OAuth, Codex, Ollama, Atomic Chat, and other supported backends while keeping one terminal-first workflow: prompts, tools, agents, MCP, slash commands, and streaming output.",
+          "sentence_hash": "c4459ff386ee5ba06aed6d4c3e09308c71a75b81d8d1d9e5b1a4e53e8aab705c",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "OpenClaude is also mirrored to GitLawb: gitlawb.com/node/repos/z6MkqDnb/openclaude Quick Start | Setup Guides | Providers | Development | VS Code Extension | Partners | Community - One CLI across cloud APIs and local model backends — no per-provider tooling - Guided provider setu",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.951339+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc",
+          "excerpt": "OpenClaude is also mirrored to GitLawb: gitlawb.com/node/repos/z6MkqDnb/openclaude Quick Start | Setup Guides | Providers | Development | VS Code Extension | Partners | Community - One CLI across cloud APIs and local model backends — no per-provider tooling - Guided provider setu",
+          "sentence_hash": "aded4e64986ae387e1e5b7c28e59f7b6c723cebad1b66c0c54e5bcbe2571affd",
+          "anchors": [
+            "id",
+            "open",
+            "lawb",
+            "one",
+            "claude",
+            "node",
+            "run",
+            "git",
+            "bun"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Bun is only needed for source builds and local development.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.951363+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc",
+          "excerpt": "Bun is only needed for source builds and local development.",
+          "sentence_hash": "7b46debf28165776ef98c9a65c3235ff2403291588f446081159d4c162f9c8db",
+          "anchors": [
+            "development"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "npm install -g @gitlawb/openclaude@latest If you're on Arch Linux, you can install OpenClaude from the community-maintained AUR package: paru -S openclaude If the install later reports ripgrep not found, install ripgrep system-wide and confirm rg --version works in the same termi",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.951405+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc",
+          "excerpt": "npm install -g @gitlawb/openclaude@latest If you're on Arch Linux, you can install OpenClaude from the community-maintained AUR package: paru -S openclaude If the install later reports ripgrep not found, install ripgrep system-wide and confirm rg --version works in the same termi",
+          "sentence_hash": "6514be2867a2aaf311990c11faf399ba9478cbe5f06e0cd79fa480abc83e84ff",
+          "anchors": [
+            "id",
+            "open",
+            "lawb",
+            "claude",
+            "git",
+            "community"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Verify / troubleshoot installed version: openclaude --version npm view @gitlawb/openclaude dist-tags npm install -g @gitlawb/openclaude@latestopenclaude Inside OpenClaude: - run /provider for guided provider setup and saved profiles - run /onboard-github for GitHub Models onboard",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.951447+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc",
+          "excerpt": "Verify / troubleshoot installed version: openclaude --version npm view @gitlawb/openclaude dist-tags npm install -g @gitlawb/openclaude@latestopenclaude Inside OpenClaude: - run /provider for guided provider setup and saved profiles - run /onboard-github for GitHub Models onboard",
+          "sentence_hash": "f35923907c26eea8282ea9ae1b22e20c6facd09f14c58c3efaab0ace4beb07d3",
+          "anchors": [
+            "guided",
+            "id",
+            "open",
+            "lawb",
+            "claude",
+            "run",
+            "git"
+          ]
+        }
+      ],
+      "entities": [
+        "id",
+        "note",
+        "node",
+        "arch linux",
+        "run",
+        "code",
+        "export",
+        "development",
+        "coding",
+        "codex",
+        "cli",
+        "aur",
+        "one",
+        "vs",
+        "add",
+        "git",
+        "quick start",
+        "hub models",
+        "open",
+        "forking",
+        "bun",
+        "community",
+        "guided",
+        "dnb",
+        "enter",
+        "lawb",
+        "atomic chat",
+        "claude",
+        "ollama",
+        "partners",
+        "inside open",
+        "mcp",
+        "auth",
+        "use open",
+        "gemini",
+        "code extension",
+        "meet",
+        "setup guides",
+        "verify",
+        "resume",
+        "providers",
+        "mkq"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/Gitlawb/openclaude",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-03T08:04:18.948444+08:00",
+          "content_sha256": "7c46e7c3145dc0d7a5493d7e65ea7e985979d974a71bf71016a38cb6757a03bc"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "summary": "runs anywhere. uses anythinghttps://openclaude.gitlawb.com \n  \n      \n \nOpenClaude is an open-source coding-agent CLI for cloud and local model providers. \nUse OpenAI-compatible APIs, Gemini, GitHub Models, Codex OAuth, Codex, Ollama, Atomic Chat, and other supported backends while keeping one terminal-first workflow: prompts, tools, agents, MCP, slash commands, and streaming output. \n        \nOpenClaude is also mirrored to GitLawb: gitlawb.com/node/repos/z6MkqDnb/openclaude \nQuick Start | Setup",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源编程Agent，多模型支持",
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_c57c715e94181a53cbce843b",
+      "headline": "Trump calls Xi’s Washington visit ‘exciting’, but claims US leads China in AI race",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement Trump calls Xi’s Washington visit ‘exciting’, but claims US leads China in AI race US president praises Xi and predicts they have ‘a lot of good things to discuss’ at summit, while bragging of beating Beijing in tech war 2-MIN READ2-MIN Listen Mark Magnierin New Yor",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.952190+08:00",
+          "content_sha256": "4c65bb99c6e3d5ddc91f59be4e6a0e9265854b1494bbea20dbdb21b587f43505",
+          "excerpt": "Advertisement Trump calls Xi’s Washington visit ‘exciting’, but claims US leads China in AI race US president praises Xi and predicts they have ‘a lot of good things to discuss’ at summit, while bragging of beating Beijing in tech war 2-MIN READ2-MIN Listen Mark Magnierin New Yor",
+          "sentence_hash": "b0f89c87f0c14e77a443e79d1c7554cb2af663d17e44e3a4f1f094443ab21fe7",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "“By the way, we have the president of China coming on the 24th.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.952224+08:00",
+          "content_sha256": "4c65bb99c6e3d5ddc91f59be4e6a0e9265854b1494bbea20dbdb21b587f43505",
+          "excerpt": "“By the way, we have the president of China coming on the 24th.",
+          "sentence_hash": "ee19056865199149d5da966e3ff572e7a6cabbed863a99f6573d98124386bda1",
+          "anchors": [
+            "min"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "A lot of good things to discuss, very, very productive things to discuss with President Xi.” Analysts say expectations are relatively low for meaningful deliverables or significant structural reform coming out of the summit.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-03T08:04:18.952261+08:00",
+          "content_sha256": "4c65bb99c6e3d5ddc91f59be4e6a0e9265854b1494bbea20dbdb21b587f43505",
+          "excerpt": "A lot of good things to discuss, very, very productive things to discuss with President Xi.” Analysts say expectations are relatively low for meaningful deliverables or significant structural reform coming out of the summit.",
+          "sentence_hash": "a44f91e73fe5bc371406933511a155568e8473361ab36b9dc3f47afa08ab1b65",
+          "anchors": [
+            "min",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "president donald trump",
+        "president xi",
+        "advertisement\nselect voice\nselect speed",
+        "listen\nmark magnierin new york",
+        "november",
+        "washington",
+        "chinese president xi jinping",
+        "beijing",
+        "trump",
+        "ai",
+        "advertisement\ntrump",
+        "oval office",
+        "us",
+        "wednesday",
+        "iran",
+        "great",
+        "analysts",
+        "min",
+        "china"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3366162/trump-calls-xis-washington-visit-exciting-claims-us-leads-china-ai-race?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-03T08:04:18.951530+08:00",
+          "content_sha256": "4c65bb99c6e3d5ddc91f59be4e6a0e9265854b1494bbea20dbdb21b587f43505"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-03T08:04:18.951648+08:00",
+          "content_sha256": "7a56d720c0cbdea335a19009bf4ed67c186767391d0aacea1360563be0ac20aa"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-03T08:04:18.951672+08:00",
+          "content_sha256": "92d9d96a9fe675f0276b208a602dd740299678ebd905f0eec7e2bc5955dde30c"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-03T08:04:18.951687+08:00",
+          "content_sha256": "263ad1b85cf7ffd88924c60fa2c6968b0025d55bdd417c8c21a9c0e627995e2a"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-03T08:04:18.951704+08:00",
+          "content_sha256": "51a57b034a66f9259de440e1574ab97a52c09209717c8b410e330fef792253b9"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 19
+      },
+      "summary": "US President Donald Trump claimed on Wednesday that the US held a significant lead over China in artificial intelligence, touted what he termed unprecedented levels of inbound US investment and said he was thrilled about Chinese President Xi Jinping’s visit to Washington later this month.\nThe president’s bravado comes as inflation and oil prices rise, his war of choice with Iran drags on and his polling numbers hit new lows ahead of the US midterm elections in November.\n“AI is going up, and...",
+      "category": "国际",
+      "published_at": 
