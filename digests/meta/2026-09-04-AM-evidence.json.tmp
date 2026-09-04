@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "date": "2026-09-04",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_ec7cc7f01bbc2e94e4a1b1af",
+      "headline": "GPT‑6 Astra",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "3rd September 2026 - Link Blog GPT‑6 Astra (via) GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not trie",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-04T08:05:21.341129+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51",
+          "excerpt": "3rd September 2026 - Link Blog GPT‑6 Astra (via) GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not trie",
+          "sentence_hash": "f36f6199f0b2772cb1ddcba0be67ecc9754babf15171e89af3189303bf254e32",
+          "anchors": [
+            "September 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-04T08:05:21.341174+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51",
+          "excerpt": "It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output.",
+          "sentence_hash": "06effa33297c3c70c2fad102cf7d46958cb95a61c27b3372b2d9610a9295760d",
+          "anchors": [
+            "$50",
+            "$10"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-04T08:05:21.341204+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51",
+          "excerpt": "This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks.",
+          "sentence_hash": "fc4e59d0b69ef11753c517e10535fbadd430174f2a7a0e834ec65d57b626bd99",
+          "anchors": [
+            "most",
+            "bench"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-04T08:05:21.341251+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51",
+          "excerpt": "Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while",
+          "sentence_hash": "218d4648d0d25efe35881b9ca0050a4e6e6b01f452d61a0221cf0abf321f04d2",
+          "anchors": [
+            "$26",
+            "$19",
+            "62.7%",
+            "99.9%",
+            "arc",
+            "recent",
+            "bench"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-04T08:05:21.341284+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51",
+          "excerpt": "The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work.",
+          "sentence_hash": "256699131e6a717f86fbd83fc1e51d5b61eb2b2e4c69e4030b1b48926be5f4c1",
+          "anchors": [
+            "work"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Unsurprisingly, given the recent Hugging Face incident, Astra is a beast at security tasks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-04T08:05:21.341308+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51",
+          "excerpt": "Unsurprisingly, given the recent Hugging Face incident, Astra is a beast at security tasks.",
+          "sentence_hash": "b378f35ec0e7abbfdf6bcd0f674f6b14d3ea7990ec31224becb78a793a6c073e",
+          "anchors": [
+            "recent"
+          ]
+        }
+      ],
+      "entities": [
+        "open",
+        "index",
+        "most",
+        "artificial analysis",
+        "link blog",
+        "gpt",
+        "claude",
+        "recent",
+        "bench",
+        "september",
+        "august",
+        "pro",
+        "coding agent index",
+        "chat",
+        "intelligence index",
+        "arc",
+        "work",
+        "enterprise",
+        "gym",
+        "leads coding agent index",
+        "meta",
+        "muse spark",
+        "fable",
+        "astra",
+        "api",
+        "the provider adapter",
+        "provider adapter",
+        "sre",
+        "plus",
+        "unsurprisingly",
+        "hugging face",
+        "intelligence",
+        "business",
+        "claude fable",
+        "exploit",
+        "understanding chat",
+        "march",
+        "sol",
+        "per",
+        "agi",
+        "sits",
+        "aws"
+      ],
+      "numbers": [
+        "$50",
+        "68.7%",
+        "78.5%",
+        "42.4%",
+        "$26",
+        "$19",
+        "62.7%",
+        "99.2%",
+        "99.9%",
+        "96.3%",
+        "30.3%",
+        "$10",
+        "100%"
+      ],
+      "dates": [
+        "August 20",
+        "September 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-04T08:05:21.338020+08:00",
+          "content_sha256": "abadd71e24bd608b53dcc4564d702eb8a8767402964955093add5a405e4cba51"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-04T08:05:21.338343+08:00",
+          "content_sha256": "f1318365714fc52c018252a1d1608ee4d4089a7a193c73896d7a64a5af6acb60"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-04T08:05:21.338361+08:00",
+          "content_sha256": "f3e249553d5ced0f1b4e11367ec8ea38ef052ee71601d043001ab89dde3f2454"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-04T08:05:21.338373+08:00",
+          "content_sha256": "69fa8667014a6d769273b4b844a0652ead91a7ac73e9549275f9207f764ea69c"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-04T08:05:21.338389+08:00",
+          "content_sha256": "f1c6f787a4cf727bccd0aa0c58be4c3a71b587ff811ad14261286b86be84952f"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 57
+      },
+      "summary": "GPT‑6 Astra\nGPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet.\nIt's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than ",
+      "category": "科技",
+      "published_at": 
