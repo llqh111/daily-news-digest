@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "date": "2026-09-06",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_ebce11d16b9364cb15c33eeb",
+      "headline": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war NewsFeed US envoys Witkoff, Kushner meet Putin for talks on Ukraine war US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday for talks to try to revive stalled nego",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-06T08:05:14.827558+08:00",
+          "content_sha256": "607655b539cf72287b02649e3b7e0496815c6d91f19cabece35aa1431f01ef31",
+          "excerpt": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war NewsFeed US envoys Witkoff, Kushner meet Putin for talks on Ukraine war US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday for talks to try to revive stalled nego",
+          "sentence_hash": "53e3685487c8e659914f28a61c1fc97a2287708c0550cabfef2a64db3767ffb3",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 5 Sep 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-06T08:05:14.827586+08:00",
+          "content_sha256": "607655b539cf72287b02649e3b7e0496815c6d91f19cabece35aa1431f01ef31",
+          "excerpt": "Published On 5 Sep 2026",
+          "sentence_hash": "8fad679fd15128eea76102683341f33877662c7e5c3298d07dfe0809e2994c0f",
+          "anchors": [
+            "Sep 20"
+          ]
+        }
+      ],
+      "entities": [
+        "steve witkoff",
+        "sep",
+        "witkoff",
+        "kremlin",
+        "ukraine",
+        "russian president vladimir putin",
+        "kushner",
+        "putin",
+        "jared kushner",
+        "russia",
+        "feed",
+        "published on",
+        "us",
+        "saturday"
+      ],
+      "numbers": [],
+      "dates": [
+        "Sep 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-06T08:05:14.825413+08:00",
+          "content_sha256": "607655b539cf72287b02649e3b7e0496815c6d91f19cabece35aa1431f01ef31"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-06T08:05:14.825493+08:00",
+          "content_sha256": "45137b92683a9fc10297bc4bf1ac629935d6df2416a670a89600140cc2d87926"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-06T08:05:14.825514+08:00",
+          "content_sha256": "c4f7e088070ab19649fcc5e9bccfe32d09b73ac2c8fd3309e11afc3b7722bf9f"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-06T08:05:14.825535+08:00",
+          "content_sha256": "74afc4da8b40bf12b7314c9a49b114d14b642b1638b9a2dc75c0130c446db5e8"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-06T08:05:14.825551+08:00",
+          "content_sha256": "0ce896f877efb9f0f163eb780ce80084f33ba76b687bffd849242856e58d3a3d"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 15
+      },
+      "summary": "US envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin on Saturday.",
+      "category": "国际",
+      "published_at": 
