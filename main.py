@@ -20,10 +20,13 @@ test_core.py / diagnose.py 仍可写 `from main import score_importance`
 from __future__ import annotations
 
 import argparse
+import json
 import logging
+import re
 import sys
 import time  # 让 `main.time` 存在，支持 monkeypatch.setattr("main.time.sleep", ...)
 import traceback
+from datetime import datetime
 from pathlib import Path
 
 import requests  # 让 `main.requests` 存在，支持 monkeypatch.setattr("main.requests.*", ...)
@@ -103,7 +106,9 @@ from digest.bio import pick_bio_breakthrough  # noqa: E402
 from digest.github import pick_github_trending  # noqa: E402
 from digest.signals import pick_signals  # noqa: E402
 from digest.topics import generate_topics  # noqa: E402
-from digest.evidence import build_evidence_cards  # noqa: E402
+from digest.evidence import build_evidence_cards, evidence_notice  # noqa: E402
+from digest.events import save_active_events_overview, save_event_archive, update_event_archive  # noqa: E402
+from digest.weekly import build_weekly_review, save_weekly_review  # noqa: E402
 from digest.quality import strip_internal_article_ids, validate_main_digest_evidence  # noqa: E402
 from digest.storage import (  # noqa: E402
     save_evidence_sidecar,
@@ -156,6 +161,62 @@ def _prepend_selection_table(summary: str, articles: list[dict]) -> str:
     if first_section != -1:
         return summary[:first_section] + "\n\n" + table + summary[first_section:]
     return table + "\n" + summary
+
+
+def _prepend_one_minute(summary: str, articles: list[dict]) -> str:
+    """Put the three most important changes before the long-form digest."""
+    picked = sorted(articles, key=lambda article: article.get("ai_score", article.get("score", 0)), reverse=True)[:3]
+    if not picked:
+        return summary
+    lines = ["## ⏱️ 1 分钟先读", ""]
+    for index, article in enumerate(picked, 1):
+        article_id = re.escape(article.get("article_id", ""))
+        section_match = re.search(
+            rf"<!-- article_id:{article_id} -->(.*?)(?=<!-- article_id:|\n## |\Z)",
+            summary,
+            flags=re.S,
+        )
+        section = section_match.group(1) if section_match else ""
+        title_match = re.search(r"\*\*(.*?)\*\*", section, flags=re.S)
+        title = title_match.group(1).strip() if title_match else (article.get("zh") or article.get("title", ""))
+        fact_match = re.search(r"【核心事实】\*\*：?\s*(.*?)(?=\n- \*\*【|\n> |\Z)", section, flags=re.S)
+        event = article.get("event", {})
+        new_fact = fact_match.group(1).strip() if fact_match else article.get("title", "")
+        observation = "；".join(event.get("open_questions", []) or ["后续是否出现可验证进展"])
+        label = "持续事件进展" if event.get("is_update") else "今日新主线"
+        lines.extend([
+            f"### {index}. {title}",
+            f"- **今天新增**：{new_fact}",
+            f"- **为什么重要**：{article.get('ai_reason') or label}",
+            f"- **接下来观察**：{observation}",
+            "",
+        ])
+    return "\n".join(lines) + summary
+
+
+def _insert_evidence_notices(summary: str, articles: list[dict]) -> str:
+    """Add notices beside the matching hidden article marker, before it is stripped."""
+    notices = {article.get("article_id"): article.get("evidence_notice") for article in articles if article.get("evidence_notice")}
+    for article_id, notice in notices.items():
+        marker = f"<!-- article_id:{article_id} -->"
+        summary = summary.replace(marker, f"{marker}\n> ⚠️ 证据提示：{notice}", 1)
+    return summary
+
+
+def run_weekly() -> None:
+    """Create and deliver the weekly review without fetching fresh RSS data."""
+    now = datetime.now(TZ)
+    summary = build_weekly_review(Path.cwd(), now)
+    wechat_ok = 0
+    if SERVERCHAN_SENDKEY:
+        sendkeys = [key.strip() for key in SERVERCHAN_SENDKEY.split(",") if key.strip()]
+        wechat_ok = push_to_wechat(summary, sendkeys)
+    tg_ok = push_to_telegram(summary)
+    if not any_delivered(wechat_ok, tg_ok):
+        raise RuntimeError("周报所有推送渠道均失败，未保存周报归档")
+    path = save_weekly_review(Path.cwd(), summary, now)
+    log.info("周报已归档：%s", path)
+    print(summary)
 
 
 def _insert_gap_section(summary: str, gaps: list[dict]) -> str:
@@ -271,6 +332,7 @@ def _insert_signals_section(summary: str, signals: list[dict] | None) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description="每日全球要闻推送")
     parser.add_argument("--force", action="store_true", help="强制执行，跳过去重检查")
+    parser.add_argument("--weekly", action="store_true", help="只生成并推送周度变化复盘")
     args = parser.parse_args()
 
     # 让控制台输出统一走 UTF-8，遇到无法显示的字符（如 emoji）就替换而非崩溃。
@@ -280,6 +342,10 @@ def main() -> None:
             stream.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError):
             pass  # 某些环境下流不支持 reconfigure，忽略即可
+
+    if args.weekly:
+        run_weekly()
+        return
 
     # 同日同时段去重：防止多个 cron 触发导致重复推送
     if not args.force and should_skip_session():
@@ -333,6 +399,10 @@ def main() -> None:
         # ── P2-A 证据提取：在生成提示词前，提取每条文章的结构化证据 ──
         log.info("📑 构建事实证据卡片 (evidence)...")
         build_evidence_cards(articles)
+        for article in articles:
+            article["evidence_notice"] = evidence_notice(article)
+        # 成稿先使用本期事件上下文；只有送达成功才将它写入磁盘。
+        event_payload = update_event_archive(articles, persist=False)
 
         log.info("🤖 调用 DeepSeek 生成中文简报...")
         summary = summarize_with_deepseek(articles)
@@ -355,6 +425,7 @@ def main() -> None:
 
         # ── 插入选稿决策表 ──
         summary = _prepend_selection_table(summary, articles)
+        summary = _prepend_one_minute(summary, articles)
         # ── 插入信息差板块 ──
         summary = _insert_gap_section(summary, gaps)
         # ── 插入生物前沿板块（每期 1 条）──
@@ -365,6 +436,7 @@ def main() -> None:
         summary = _insert_signals_section(summary, signals)
         # ── 追加自媒体选题 ──
         summary += generate_topics(articles, gaps)
+        summary = _insert_evidence_notices(summary, articles)
 
         # ── 去除 AI 自我审计块（内部自检用，读者无需看到）──
         summary = strip_audit_block(summary)
@@ -400,6 +472,8 @@ def main() -> None:
         # 保存本次候选链接，跨天去重
         candidate_links = [a["link"] for a in articles if a.get("link")]
         save_sent_links(candidate_links)
+        save_event_archive(event_payload)
+        save_active_events_overview(event_payload)
 
         # 保存 GitHub 热榜去重记录（独立于新闻）
         if repos:

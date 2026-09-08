@@ -336,6 +336,19 @@ def build_evidence_cards(articles: list[dict], session_logical_date: str = "") -
             log.warning(f"为条目 {article.get('title')} 生成 evidence_card 失败: {e}")
 
 
+def evidence_notice(article: dict) -> str:
+    """Return a warning only when the collected material is limited."""
+    card = article.get("evidence_card", {})
+    claims = article.get("source_claims", [])
+    if any(isinstance(claim, dict) and claim.get("conflicts") for claim in claims):
+        return "不同来源对关键事实存在分歧，以下只保留可确认部分。"
+    if not card.get("coverage", {}).get("has_fulltext"):
+        return "目前只有标题或摘要，具体细节仍待确认。"
+    if article.get("cluster_size", 1) < 2:
+        return "目前仅有单一可核对信源，后续待交叉验证。"
+    return ""
+
+
 def validate_evidence_card(card: dict) -> list[str]:
     """返回结构问题列表；空列表表示结构有效。"""
     issues = []

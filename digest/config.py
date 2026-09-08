@@ -23,6 +23,8 @@ TZ = timezone(timedelta(hours=8))
 # 路径基于「项目根目录」而非本文件目录——本文件已挪到 digest/ 子包下。
 _PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SENT_LOG_FILE = os.path.join(_PROJECT_ROOT, "sent_articles.json")
+EVENTS_FILE = os.path.join(_PROJECT_ROOT, "digests", "events.json")
+ACTIVE_EVENT_DAYS = 30
 
 # 跨天去重保留天数：超过这个天数的旧记录自动清理
 SENT_RETENTION_DAYS = 7

@@ -138,6 +138,16 @@ def _articles_to_text(articles: list[dict]) -> str:
                 f"请按\"进展\"写（此前→现在→变化意味着什么）"
             )
 
+        event = art.get("event")
+        if event:
+            kind = "持续事件的新进展" if event.get("is_update") else "新建事件档案"
+            p.append(
+                f"   事件档案：{kind}，首见 {event.get('first_seen')}，"
+                f"事件 ID {event.get('id')}。"
+            )
+            if event.get("open_questions"):
+                p.append(f"   仍待观察：{' / '.join(event['open_questions'])}")
+
         # 优先渲染 evidence_card
         card = art.get("evidence_card")
         if card:
@@ -169,6 +179,9 @@ def _articles_to_text(articles: list[dict]) -> str:
             unknowns = card.get("unknowns", [])
             if unknowns:
                 p.append(f"   材料未说明 (unknowns)：{' / '.join(unknowns)}")
+            notice = art.get("evidence_notice")
+            if notice:
+                p.append(f"   读者证据提示（必须原样保留）：⚠️ {notice}")
 
         else:
             # 兼容模式

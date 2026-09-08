@@ -224,6 +224,7 @@ def save_reps_sidecar(reps: list[dict]) -> None:
                     "zh": art.get("zh", ""),
                     "emoji": art.get("emoji", ""),
                     "article_id": art.get("article_id", ""),
+                    "event": art.get("event", {}),
                 }
                 for art in reps
             ],

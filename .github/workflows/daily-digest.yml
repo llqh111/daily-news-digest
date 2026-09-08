@@ -13,6 +13,14 @@ on:
   #    cron-job.org 叠加，二选一）。也可在 GitHub 网页上手动点 workflow_dispatch。
   workflow_dispatch:
     inputs:
+      mode:
+        description: '运行模式：daily 为日报，weekly 为周度复盘'
+        required: false
+        type: choice
+        options:
+          - daily
+          - weekly
+        default: daily
       force:
         description: '强制执行（跳过去重检查）'
         required: false
@@ -67,7 +75,9 @@ jobs:
 
       - name: 📰 运行每日简报
         run: |
-          if [ "${{ github.event.inputs.force }}" == "true" ]; then
+          if [ "${{ github.event.inputs.mode }}" == "weekly" ]; then
+            python main.py --weekly
+          elif [ "${{ github.event.inputs.force }}" == "true" ]; then
             python main.py --force
           else
             python main.py

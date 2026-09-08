@@ -75,6 +75,14 @@ If everything is set up correctly, you should receive a digest on WeChat / Teleg
 3. Actions is enabled by default — digests run at **08:00 and 20:00 Beijing time** every day
 4. You can also trigger a run manually via `Actions → Run workflow`
 
+### Weekly review
+
+日报会维护最近 30 天的活跃事件总览：`digests/ACTIVE_EVENTS.md`。每篇日报顶部先给出 3 条“1 分钟先读”，正文只在材料不足、单一信源或来源冲突时标记证据提示。
+
+每周复盘通过 `python main.py --weekly` 生成，只读取已送达且证据卡、质量报告均完整的最近 7 天档案；不会重新抓取 RSS。它包含“本周真正变化”“本周值得回看”“尚未兑现或仍有分歧”和“下周观察点”。
+
+现有调度由 cron-job.org 调用 `workflow_dispatch`。请新增一条**周日 09:00（北京时间）**任务，调用相同工作流并传入 `mode=weekly`；日常两条任务继续传 `mode=daily`（或不传，默认日报）。手动运行时在 GitHub Actions 的 `mode` 下拉框选择 `weekly`。
+
 > ⚠️ **Note**: The workflow requires `contents: write` permission because it commits `sent_articles.json` after each run to track delivered articles and prevent duplicates.
 
 ## Customization
