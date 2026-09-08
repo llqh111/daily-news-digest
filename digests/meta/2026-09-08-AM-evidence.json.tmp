@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "date": "2026-09-08",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_4be4294e718d08a65818ec99",
+      "headline": "Astonishing mod runs DLSS 5 on a second GPU to boost neural-rendered FPS up to 127% — game renders on one card, neural post-processing runs on the other, much like dedicated PhysX GPUs",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Astonishing mod runs DLSS 5 on a second GPU to boost neural-rendered FPS up to 127% — game renders on one card, neural post-processing runs on the other, much like dedicated PhysX GPUs Harkening back to the days of PhysX.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-08T08:04:58.636422+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5",
+          "excerpt": "Astonishing mod runs DLSS 5 on a second GPU to boost neural-rendered FPS up to 127% — game renders on one card, neural post-processing runs on the other, much like dedicated PhysX GPUs Harkening back to the days of PhysX.",
+          "sentence_hash": "4bef8f094dd16549bf1ab3f5ebac78402e185ae567452d49bf160eb8934922e7",
+          "anchors": [
+            "127%",
+            "neural"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Nvidia's DLSS 5 Neural Rendering technology has taken the PC gaming world by storm since its recent leak and then official rollout in recent days.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-08T08:04:58.636457+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5",
+          "excerpt": "Nvidia's DLSS 5 Neural Rendering technology has taken the PC gaming world by storm since its recent leak and then official rollout in recent days.",
+          "sentence_hash": "7bc6e1f9e71cc1a505d55bad2a80fc6c97c633d9d8bb71e88fe63e8e974b63e5",
+          "anchors": [
+            "its"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "In what might be one of the most impressive technical applications and mods of the feature yet, one developer has showcased DLSS 5 running on a second GPU to share the processing load, rendering the game on the first GPU before applying Neural rendering at the end of the frame, t",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-08T08:04:58.636493+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5",
+          "excerpt": "In what might be one of the most impressive technical applications and mods of the feature yet, one developer has showcased DLSS 5 running on a second GPU to share the processing load, rendering the game on the first GPU before applying Neural rendering at the end of the frame, t",
+          "sentence_hash": "ec661d57240983cade44c23dbcb58dcceb21025769c135cad62447f1556466bd",
+          "anchors": [
+            "neural"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The add-on creates its own D3D12 device on your second GPU, sends each finished frame across to it, runs DLSS-NR there, and displays the result on that card's own monitor — so nothing has to come back.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-08T08:04:58.636559+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5",
+          "excerpt": "The add-on creates its own D3D12 device on your second GPU, sends each finished frame across to it, runs DLSS-NR there, and displays the result on that card's own monitor — so nothing has to come back.",
+          "sentence_hash": "fa8311827f1543e5cf20801444927d7fb6c000ddba1d5fc3e75db9a4d9c9834c",
+          "anchors": [
+            "its",
+            "the re"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The render GPU does no neural work at all and runs cooler for the same reason.\" In the TBOD demo at 1080p, they shared the following performance numbers: Guibout clarified that DLSS super-resolution is running in every column of the test, with the rows showing each mode tested.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-08T08:04:58.636591+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5",
+          "excerpt": "The render GPU does no neural work at all and runs cooler for the same reason.\" In the TBOD demo at 1080p, they shared the following performance numbers: Guibout clarified that DLSS super-resolution is running in every column of the test, with the rows showing each mode tested.",
+          "sentence_hash": "e428349566bc4fbdb787527802e35b930749f7cc7cee7821e527ca73e6c839f6",
+          "anchors": [
+            "neural"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The game rendered at the same internal resolution in all three columns, with the first column giving figures with DLSS 5's neural rendering switched off, representing the ceiling for performance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-08T08:04:58.636614+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5",
+          "excerpt": "The game rendered at the same internal resolution in all three columns, with the first column giving figures with DLSS 5's neural rendering switched off, representing the ceiling for performance.",
+          "sentence_hash": "0cb762e0f6f3508c45e0a27a9d848c6e2ddc0a227845e1a2506e67414f762b2d",
+          "anchors": [
+            "neural",
+            "neural rendering"
+          ]
+        }
+      ],
+      "entities": [
+        "rtx",
+        "guibout",
+        "neural rendering",
+        "ultra performance",
+        "ryzen",
+        "mgpu",
+        "the re",
+        "nr",
+        "dawnwalker",
+        "pc",
+        "fps",
+        "gpu",
+        "nvidia",
+        "the blood",
+        "bridge",
+        "however",
+        "dlaa",
+        "hub",
+        "marcelo guibout",
+        "phys",
+        "its",
+        "cyberpunk",
+        "git",
+        "dlss",
+        "more",
+        "shade",
+        "tbod",
+        "neural",
+        "us\nharkening",
+        "astonishing"
+      ],
+      "numbers": [
+        "127%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/astonishing-mod-runs-nvidia-dlss-5-on-a-second-gpu-using-a-reshade-add-on-to-reduce-performance-impact-boosts-neural-rendered-fps-up-to-127-percent-game-renders-on-one-card-neural-post-processing-runs-on-the-other-much-like-dedicated-physx-gpus",
+          "canonical_url": null,
+          "hostname": "www.tomshardware.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-08T08:04:58.634019+08:00",
+          "content_sha256": "d35c4e53ecd4e9bcd6124861ae0930bd21e233314e6061ee84ff8db924fdbae5"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "summary": "A modder has created a ReShade add-on that runs Nvidia's DLSS 5 Neural Rendering on a second GPU, rendering the game on the first GPU to share the performance load.",
+      "category": "科技",
+      "published_at": 
