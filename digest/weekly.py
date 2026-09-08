@@ -19,12 +19,15 @@ def collect_weekly_items(root: Path, now: datetime | None = None) -> list[dict]:
     cutoff = (now - timedelta(days=7)).strftime("%Y-%m-%d")
     items: list[dict] = []
     for run_key, run in ledger.get("delivery_runs", {}).items():
-        if run_key[:10] < cutoff or run.get("artifact_bundle_status") != "present":
+        if not cutoff <= run_key[:10] <= now.strftime("%Y-%m-%d") or run.get("artifact_bundle_status") != "present" or not run.get("delivered_at"):
             continue
         evidence_path = root / "digests" / "meta" / f"{run_key}-evidence.json"
         digest_path = root / "digests" / f"{run_key}.md"
         try:
             payload = json.loads(evidence_path.read_text(encoding="utf-8"))
+            quality = json.loads((root / "digests" / "quality" / f"{run_key}.json").read_text(encoding="utf-8"))
+            if not isinstance(quality, dict) or not quality:
+                continue
             if not digest_path.exists():
                 continue
             for item in payload.get("items", []):

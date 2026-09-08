@@ -206,6 +206,10 @@ def _insert_evidence_notices(summary: str, articles: list[dict]) -> str:
 def run_weekly() -> None:
     """Create and deliver the weekly review without fetching fresh RSS data."""
     now = datetime.now(TZ)
+    weekly_path = Path.cwd() / "digests" / "weekly" / f"{now.strftime('%G-W%V')}.md"
+    if weekly_path.exists():
+        log.info("本周周报已送达，跳过重复执行")
+        return
     summary = build_weekly_review(Path.cwd(), now)
     wechat_ok = 0
     if SERVERCHAN_SENDKEY:

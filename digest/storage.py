@@ -89,6 +89,7 @@ def save_sent_links(links: list[str]) -> None:
     # 每天 04:00 - 15:59 视为 AM (早班)，16:00 - 03:59 视为 PM (晚班)
     current_session = "AM" if 4 <= now.hour < 16 else "PM"
     data = {
+        "delivery_runs": data.get("delivery_runs", {}),
         "updated": now.strftime("%Y-%m-%d %H:%M"),
         "retention_days": SENT_RETENTION_DAYS,
         "last_session": current_session,

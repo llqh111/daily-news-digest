@@ -52,13 +52,15 @@ def test_active_events_excludes_stale_entries(tmp_path):
 def test_weekly_uses_only_complete_artifacts(tmp_path):
     root = tmp_path
     (root / "digests" / "meta").mkdir(parents=True)
+    (root / "digests" / "quality").mkdir(parents=True)
+    (root / "digests" / "quality" / "2026-09-06-AM.json").write_text(json.dumps({"total_items": 1}), encoding="utf-8")
     (root / "digests" / "2026-09-06-AM.md").write_text("digest", encoding="utf-8")
     (root / "digests" / "meta" / "2026-09-06-AM-evidence.json").write_text(
         json.dumps({"items": [{"headline": "Important", "relevance_score": 9, "coverage": {"has_fulltext": True}}]}),
         encoding="utf-8",
     )
     (root / "sent_articles.json").write_text(json.dumps({"delivery_runs": {
-        "2026-09-06-AM": {"artifact_bundle_status": "present"},
+        "2026-09-06-AM": {"artifact_bundle_status": "present", "delivered_at": "2026-09-06T08:00:00+08:00"},
         "2026-09-06-PM": {"artifact_bundle_status": "missing"},
     }}), encoding="utf-8")
     items = collect_weekly_items(root, datetime(2026, 9, 8, 9, tzinfo=TZ))
@@ -91,3 +93,25 @@ def test_daily_layers_render_three_cards_and_matched_notice():
     articles[0]["evidence_notice"] = "材料不足"
     rendered = _insert_evidence_notices("<!-- article_id:a0 -->\n**新闻**", articles)
     assert "> ⚠️ 证据提示：材料不足" in rendered
+
+
+def test_daily_save_preserves_delivery_history(tmp_path, monkeypatch):
+    from digest import storage
+    target = tmp_path / "sent_articles.json"
+    runs = {"2026-09-01-AM": {"artifact_bundle_status": "present"}}
+    target.write_text(json.dumps({"history": {}, "delivery_runs": runs}), encoding="utf-8")
+    monkeypatch.setattr(storage, "SENT_LOG_FILE", str(target))
+    storage.save_sent_links(["https://example.com/new"])
+    assert json.loads(target.read_text(encoding="utf-8"))["delivery_runs"] == runs
+
+
+def test_weekly_second_run_does_not_send(tmp_path, monkeypatch):
+    import main
+    monkeypatch.chdir(tmp_path)
+    sent = []
+    monkeypatch.setattr(main, "SERVERCHAN_SENDKEY", "")
+    monkeypatch.setattr(main, "build_weekly_review", lambda *args: "本周变化")
+    monkeypatch.setattr(main, "push_to_telegram", lambda content: sent.append(content) or True)
+    main.run_weekly()
+    main.run_weekly()
+    assert sent == ["本周变化"]
