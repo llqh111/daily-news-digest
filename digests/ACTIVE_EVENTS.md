@@ -1,6 +1,77 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-09 08:14。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-10 08:12。
+
+## On the Navier–Stokes Millennium Prize Problem
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：8th September 2026 - Link Blog On the Navier–Stokes Millennium Prize Problem (via) Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize Problems that have been 
+- 事件 ID：`evt_20260910_19bb58aff0e7`
+
+## Paul Christiano joins OpenAI Foundation Board
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：Paul will also join the Safety and Security Committee (SSC) of the Foundation Board, working alongside its chair, Zico Kolter.
+- 事件 ID：`evt_20260910_96b9d0a92baa`
+
+## Trump says the US-Iran war will end right after midterms
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：Published On 9 Sep 2026
+- 事件 ID：`evt_20260910_3478e7c49b06`
+
+## Anthropic discloses fourth AI hacking incident missed in earlier review
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260910_109fdfcfeabe`
+
+## Iran referred to UN Security Council for nuclear non-compliance
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：Iran referred to UN Security Council for nuclear non-compliance - Published The UN nuclear watchdog has referred Iran to the Security Council for "non-compliance" with its obligations under the non-proliferation treaty - the first such move in 20 years.
+- 事件 ID：`evt_20260910_6f07984b2b18`
+
+## Once sidelined, China stands ready to broker another Trump-Kim handshake
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：ExclusiveOnce sidelined, China stands ready to broker another Trump-Kim handshake Beijing seeks role as central player in Korean peninsula diplomacy but wants a guarantee Washington has clear goals, source says Multiple people familiar with the matter told the South China Morning
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_3d7d9997cb6b`
+
+## Trump says Putin wants to make a deal in Ukraine
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260910_16dfcb83ace8`
+
+## obra/superpowers
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_4b107807fac9`
+
+## NVIDIA CUDA 13.4 Packs CUDA Support For Windows-on-Arm Ahead of RTX Spark Launch, While Giving Devs Early Access To Vera Rubin Too
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：NVIDIA CUDA Adds The Final Touches Ahead of RTX Spark Next Month As CUDA 13.4 Gets Windows-on-Arm Support Today, NVIDIA is releasing its latest CUDA platform, the CUDA 13.4 Toolkit, which brings support for newer platforms while broadening the platform with new developer tools.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_ebe0068af2a8`
+
+## Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：backs $300 million hardware push
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260910_b760f5cf44a2`
+
+## AI-Driven IPO Wave Set to Accompany Anthropic Listing
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260910_6592fc1e884a`
+
+## Germany's Merz attacks AfD in stormy debate after far-right election win
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：Merz was addressing the Bundestag in the aftermath of the anti-immigration party's sweeping victory in the eastern state of Saxony-Anhalt where it won almost 44% of the vote, while the chancellor's conservatives saw their vote halved.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_b4aded55c430`
+
+## Barclays raises S&P 500 year-end target, citing 'standout' earnings driven by AI
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
+- 最新事实：Barclays raised its year-end S & P 500 target to 7,950 from 7,800, after what the bank called "a standout earnings season led by tech." "We raise our FY26/FY27 EPS estimates to $365/$414 and our YE26/YE27 S & P 500 [price target] to 7950/8800 following a standout earnings season 
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_e454f696f667`
 
 ## Research acceleration: The view inside OpenAI
 - 状态：更新中；首见 2026-09-09；最近更新 2026-09-09
