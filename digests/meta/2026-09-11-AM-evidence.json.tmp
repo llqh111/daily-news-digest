@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "date": "2026-09-11",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_5f1f56778c6a2a409284affc",
+      "headline": "DeepSeek V4.1 Flash Beats OpenAI’s GPT-5.6 Sol And Anthropic’s Opus 5 On Coding And Cybersecurity At An ~86x Lower Cost, While Reducing HBM Requirements By 3.8x And SSD Ones By 8x",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "DeepSeek's engineers are a marvel, excelling in extracting every ounce of efficiency from the architectural constraints that characterize contemporary LLMs, as they appear to have done with the just-released V4.1 Flash, which is phenomenally competitive with the likes of OpenAI's",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-11T08:04:48.112851+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e",
+          "excerpt": "DeepSeek's engineers are a marvel, excelling in extracting every ounce of efficiency from the architectural constraints that characterize contemporary LLMs, as they appear to have done with the just-released V4.1 Flash, which is phenomenally competitive with the likes of OpenAI's",
+          "sentence_hash": "1b95d6a2717ee26e4fc3aed08e2b4053394034c2f8bcdf44ae93eabd0f2eaa92",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The novel architecture of DeepSeek's V4.1 Flash model DeepSeek's V4.1 Flash model sports a fairly novel architecture.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-11T08:04:48.112910+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e",
+          "excerpt": "The novel architecture of DeepSeek's V4.1 Flash model DeepSeek's V4.1 Flash model sports a fairly novel architecture.",
+          "sentence_hash": "f8b7d4b7a40435f5973b5f32ed3fdc68e058e39c09d61a48a2886d0bf64d746a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Given the inherent complexity, we'll try to explain the model's main architectural elements using easy-to-understand analogies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-11T08:04:48.112938+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e",
+          "excerpt": "Given the inherent complexity, we'll try to explain the model's main architectural elements using easy-to-understand analogies.",
+          "sentence_hash": "990a308b23f107137999797a28fb1177efc785253d8671d4bf14e2005e99d83b",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "To understand MoE, imagine a large kitchen that has 384 specialized chefs (routed experts), overseen by 1 supervisor (shared expert).",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-11T08:04:48.112968+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e",
+          "excerpt": "To understand MoE, imagine a large kitchen that has 384 specialized chefs (routed experts), overseen by 1 supervisor (shared expert).",
+          "sentence_hash": "fe9a902ebafb77378c603e14d62d2ec5799ddc0c5139d35826f9f42657e81d60",
+          "anchors": [
+            "experts"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "A 40-layer transformer, structured as a 20-layer causal encoder followed by a 20-layer decoder (Causal Encoder-Decoder or CED) This is a tricky part.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-11T08:04:48.113005+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e",
+          "excerpt": "A 40-layer transformer, structured as a 20-layer causal encoder followed by a 20-layer decoder (Causal Encoder-Decoder or CED) This is a tricky part.",
+          "sentence_hash": "bf3deceb54ee50551cb6b7d9fb967a333373880610075bf9e3d9a107aab592b2",
+          "anchors": [
+            "for",
+            "decoder",
+            "encoder",
+            "causal encoder"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "An AI model basically consists of a series of transformer blocks that are made up of two key elements: - The Attention Layer looks at how words in a sentence connect with each other.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-11T08:04:48.113037+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e",
+          "excerpt": "An AI model basically consists of a series of transformer blocks that are made up of two key elements: - The Attention Layer looks at how words in a sentence connect with each other.",
+          "sentence_hash": "e21b759af1c2619b1eba14af784b4f4e3bde9a45942fcfc92825867a97149924",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "france",
+        "open",
+        "the attention layer",
+        "anthropic",
+        "normally",
+        "ced",
+        "decoder",
+        "gpt",
+        "the cooking station",
+        "ai",
+        "claude opus",
+        "deep",
+        "instead",
+        "for",
+        "the prep station",
+        "paris",
+        "forward network",
+        "experts",
+        "given",
+        "ffn",
+        "sol",
+        "kv",
+        "causal encoder",
+        "flash",
+        "the recipe hand",
+        "cache",
+        "seek",
+        "even",
+        "the feed",
+        "encoder",
+        "mixture"
+      ],
+      "numbers": [
+        "16 billion",
+        "8 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wccftech",
+          "url": "https://wccftech.com/deepseek-v4-1-flash-beats-openais-gpt-5-6-sol-and-anthropics-opus-5-on-coding-and-cybersecurity-at-an-86x-lower-cost-while-reducing-hbm-requirements-by-3-8x-and-ssd-ones-by-8x/",
+          "canonical_url": null,
+          "hostname": "wccftech.com",
+          "content_level": "fulltext",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-11T08:04:48.109782+08:00",
+          "content_sha256": "e9aef03675cd5ddc86c476dd948d8ca62e1b9c0c2bd3ba4435a008989e66175e"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-11T08:04:48.110108+08:00",
+          "content_sha256": "7788aa98e4f1b0b881cbd17aa066b3a34fd51fa3f3233d79be6bb4ec88f50afc"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-11T08:04:48.110130+08:00",
+          "content_sha256": "e134cdd6a5ac1b6d35df2dd6eb5566f4c74c0c5953dc88cb477d79f7c9008878"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-11T08:04:48.110147+08:00",
+          "content_sha256": "a2c6ae19123415d270093bb7a5f10b64bcd7d1ae7a5713338335b1dc48805acc"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-11T08:04:48.110161+08:00",
+          "content_sha256": "9138e22b0ef9b0b20d54e1a3a9766e440b5144f5f09908f702ceccbcb4a34230"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "summary": "DeepSeek's engineers are a marvel, excelling in extracting every ounce of efficiency from the architectural constraints that characterize contemporary LLMs, as they appear to have done with the just-released V4.1 Flash, which is phenomenally competitive with the likes of OpenAI's GPT-5.6 Sol and Anthropic's Claude Opus 5 on coding and cybersecurity, while entailing just a fraction of their costs! The novel architecture of DeepSeek's V4.1 Flash model DeepSeek's V4.1 Flash model sports a fairly no",
+      "category": "科技",
+      "published_at": 

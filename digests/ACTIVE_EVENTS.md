@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-10 08:12。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-11 08:12。
+
+## DeepSeek V4.1 Flash Beats OpenAI’s GPT-5.6 Sol And Anthropic’s Opus 5 On Coding And Cybersecurity At An ~86x Lower Cost, While Reducing HBM Requirements By 3.8x And SSD Ones By 8x
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：DeepSeek's engineers are a marvel, excelling in extracting every ounce of efficiency from the architectural constraints that characterize contemporary LLMs, as they appear to have done with the just-released V4.1 Flash, which is phenomenally competitive with the likes of OpenAI's
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_165925fa9f5c`
+
+## The likelihood of a Fed interest rate hike next week just got a lot higher
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：Traders pushed chances for a rate increase to 70% in morning action, following a report showing increasing wholesale prices in August and a coincidental jump in U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_ee75c6b50b3e`
+
+## Tech, EV and aerospace executives likely to join Xi’s US trip to mirror Trump team
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：Advertisement ExclusiveTech, EV and aerospace executives likely to join Xi’s US trip to mirror Trump team Sources say business leaders are expected to travel to Washington, but the plans may be ‘more about optics’ than concrete results 3-MIN READ3-MIN 2 Listen Beijing is weighing
+- 事件 ID：`evt_20260911_cec741283ec8`
+
+## European Central Bank raises interest rates a quarter point to quell energy-fueled inflation
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：The European Central Bank has raised interest rates to 2.5% and warned that the risk of higher inflation over the next year has risen following renewed fighting in the Middle East.
+- 事件 ID：`evt_20260911_84b375722fd1`
+
+## Yemen's Houthis reportedly seize strategic Red Sea port of Mokha
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：The Houthis said they posed no threat to international shipping but reiterated their threat to target vessels from Saudi Arabia, which has relied on the Red Sea for oil exports since the US and Israel's war effectively closed the Strait of Hormuz in the Gulf.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_2c9789379179`
+
+## Undervolting Cuts DLSS 5’s Power Spike By 47 W On The RTX 4090 While Retaining The Same Performance
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：A nice and easy way to reduce power consumption while DLSS 5 NR is enabled on RTX hardware without impacting performance.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_3208737a18f9`
+
+## TauricResearch/TradingAgents
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_76b5716067e1`
+
+## EXCLUSIVE: Silver Lake, Intel-backed Altera prepares IPO that could raise over $2 billion as early as 2026, sources say
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：EXCLUSIVE: Silver Lake, Intel-backed Altera prepares IPO that could raise over $2 billion as early as 2026, sources say&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260911_4650ddfe025c`
+
+## Canada offers air defense support for Ukraine as Zelenskyy visits
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：Canada offered support on Thursday to boost Ukraine’s air defenses and help replenish its drone stocks, as the countries pledged to deepen their alliance during a visit by Volodymyr Zelenskyy.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_5ffae97b33c1`
+
+## North Korea spends war windfall on arms, infrastructure
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：North Korea spends war windfall on arms, infrastructure September 10, 2026 North Korean leader Kim Jong Un is spending the money that his troops have earned fighting in Ukraine to fund a long wish list of projects that were previously beyond his financial reach.
+- 事件 ID：`evt_20260911_3b94963b9f69`
+
+## Tencent/teamai-cli
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：TeamAI manages your team's skills, rules, MCP, and knowledge across Claude Code, Codex, CodeBuddy, WorkBuddy, OpenCode, Cursor, and other AI agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_ac8633b630d0`
+
+## Stock futures are little changed as key consumer inflation report looms ahead: Live updates
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：Stock futures were little changed Thursday night as traders looked ahead to August's consumer price index report.
+- 事件 ID：`evt_20260911_87d7f6770431`
+
+## Treasury Yields Surge as Oil, Buyback Results Fuel Selloff
+- 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
+- 最新事实：Treasury yields hit multiyear highs on Thursday as traders digested U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_c0b2b8d1e82f`
 
 ## On the Navier–Stokes Millennium Prize Problem
 - 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
