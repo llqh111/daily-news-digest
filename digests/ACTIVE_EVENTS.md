@@ -1,6 +1,82 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-11 08:12。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-12 08:09。
+
+## Saudi Arabia says East-West pipeline hit by drones launched from Iraq
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：“At the request of the Iraqi Prime Minister to allow the brotherly Iraqi government the opportunity to take the necessary measures to prevent attacks launched from Iraqi territory against the Kingdom and neighbouring countries, the Kingdom has chosen not to respond at this stage 
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_468d702d491f`
+
+## Chinese AI firms shunned US delegation over sanctions fears, commission says
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：Chinese AI firms shunned US delegation over sanctions fears, commission says Members stress value of Washington-Beijing dialogue as both sides prepare for dedicated talks on AI governance A US congressional advisory body on China said on Friday that leading Chinese artificial int
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_a6b3389da7a0`
+
+## AI fight shadows final preparations for Xi Jinping’s White House visit to meet Donald Trump
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：Advertisement ExclusiveAI fight shadows final preparations for Xi Jinping’s White House visit to meet Donald Trump Chinese side is said to view US requests as limiting both harmful outcomes from AI and Beijing’s ability to develop its own capabilities 4-MIN READ4-MIN 2 Listen Ris
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_5724599ac9e5`
+
+## AlexsJones/llmfit
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：llmfit inspects your CPU, system RAM, GPU(s), VRAM, and accelerator configuration to recommend models across popular quantizations.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_1f12e5ffd56f`
+
+## Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260912_56ea43566af4`
+
+## Iran pursues cautious escalation ahead of US midterms
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：Iran pursues cautious escalation ahead of US midterms September 11, 2026 The war with Iran "is going to end immediately after the [US midterm] election because they can't hold out any longer," US President Donald Trump said of Iran's leaders on Wednesday.
+- 事件 ID：`evt_20260912_5e7ce3886da5`
+
+## Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：A senior Trump administration official later told the BBC: "We are in continuous dialogue with Saudi Arabia and the Republic of Yemen government regarding regional stability." On Friday, Yemeni pro-government forces withdrew from Perim (also known as Mayyun).
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_d380c578c4b1`
+
+## Israel says it has destroyed major underground Hezbollah base
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：It said it used more than 1,000 tonnes of explosives to destroy two tunnels spanning more than 2km (1.2 miles) beneath the Ali Taher Ridge.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_f5a1b9887010`
+
+## alsk1992/CloddsBot
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：AI-powered trading terminal for prediction markets, crypto & futures Claude + Odds = Clodds Clodds CA: 2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump Quick Start • WebChat • Features • Channels • Markets • Launch • Forum • Docs Clodds is a personal AI trading terminal for predictio
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_96a2d754e1e1`
+
+## cathrynlavery/diagram-design
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_c62448e8cea7`
+
+## JPMorgan cut off Situational Awareness lending after AI losses
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：JPMorgan cut off Situational Awareness lending after AI losses Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_bdcf3840f482`
+
+## Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260912_626260173c0a`
+
+## armory3d/armorpaint
+- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
+- 最新事实：ArmorPaint is a software for 3D PBR texture painting - check out the manual.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_b50d170798a7`
 
 ## DeepSeek V4.1 Flash Beats OpenAI’s GPT-5.6 Sol And Anthropic’s Opus 5 On Coding And Cybersecurity At An ~86x Lower Cost, While Reducing HBM Requirements By 3.8x And SSD Ones By 8x
 - 状态：更新中；首见 2026-09-11；最近更新 2026-09-11
