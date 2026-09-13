@@ -1,6 +1,77 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-12 08:09。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-13 08:07。
+
+## Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels also used the bot to code ballistic missile guidance systems
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels also used the bot to code ballistic missile guidance systems 'Great Satan's' AI comes in handy.
+- 事件 ID：`evt_20260913_920b1a318228`
+
+## How To Unlock DLSS Multi Frame Generation on RTX 40, RTX 30 & RTX 20 GPUs
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：DLSS Frame Generation And Multi Frame Generation Explained Traditional rendering requires the GPU to render every displayed frame from the game engine.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_9ea513dc765a`
+
+## Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：Saudi Arabia has previously accused Iran-backed militia in Iraq of targeting its oil facilities.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_3e5a37a5d2f4`
+
+## Nvidia is the central bank of AI
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260913_9c7ae770ca7b`
+
+## OpenAI agents attacked RubyGems back in May
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：OpenAI agents attacked RubyGems back in May 12th September 2026 OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx—three of the four authors of the report on the agent attack on disused wikis
+- 事件 ID：`evt_20260913_0af3d4638790`
+
+## Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260913_2e64551f8c6e`
+
+## Second crypto billionaire donates record $49m to far-right Reform UK
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：Second crypto billionaire donates record $49m to far-right Reform UK The two donations increase the total sum of money pledged to Reform since Friday to $97m.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_d26c44aa01b8`
+
+## Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC - Published Ukraine is facing its "toughest winter" since Russia's full-scale invasion in 2022, a top United Nations official told the BBC.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_01818c5c8b32`
+
+## Modi and Xi agree to look beyond 'differences' at New Delhi talks
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_cacb6058f065`
+
+## J.D. Vance group courted Brazil’s Flavio Bolsonaro over anti-China rare earth deal: report
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：Written in English and dated March 19, the 22-page presentation was drafted by Andre Marinho, a close Bolsonaro ally who presented the plan to the Rockbridge Network, a group of wealthy conservative donors founded by J.D.
+- 事件 ID：`evt_20260913_00bba47089aa`
+
+## Houthis hit Saudi base amid renewed fighting with Yemen government forces
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：Houthis hit Saudi base amid renewed fighting with Yemen government forces The rebels have cemented their hold on the Bab al-Mandab Strait, which has become a key route for oil exports after Iran’s Hormuz blockade Houthi fighters on Sunday said they used drones and missiles to att
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_404c8d1e146b`
+
+## India’s central bank tells Tata Sons to take conglomerate public
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 最新事实：India’s central bank tells Tata Sons to take conglomerate public Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260913_7203272e1862`
+
+## Bitcoin activity, passports exposed after Revolut falls for fake government request
+- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260913_7d74e17b2359`
 
 ## Saudi Arabia says East-West pipeline hit by drones launched from Iraq
 - 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
