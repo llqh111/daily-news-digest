@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "date": "2026-09-14",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_b21419bc7b8c1eeb54eec841",
+      "headline": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba Is imitation the sincerest form of flattery?",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-14T08:03:21.967000+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc",
+          "excerpt": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba Is imitation the sincerest form of flattery?",
+          "sentence_hash": "04c2b3c8516cfd65be2ce32f35edebec18a284ae1610d080a980f129923148c5",
+          "anchors": [
+            "ai",
+            "us",
+            "151 million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "While China claims to have advanced AI models that may well compete against those developed in the U.S., for some reason, hundreds of China-linked agents allegedly used Anthropic for at least five different programs: two military, two surveillance, and one aimed at distilling Cla",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-14T08:03:21.967067+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc",
+          "excerpt": "While China claims to have advanced AI models that may well compete against those developed in the U.S., for some reason, hundreds of China-linked agents allegedly used Anthropic for at least five different programs: two military, two surveillance, and one aimed at distilling Cla",
+          "sentence_hash": "4eaf4629eb8590cefaa2c4d6f837efb2fe2531a9873a59f542f2891ac60f37cc",
+          "anchors": [
+            "two",
+            "ai",
+            "us",
+            "September 20"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Two military programs One China-based actor used Claude to draft a fire-control specification for an anti-torpedo fire-control system (the core logic that determines when and where an anti-torpedo weapon should engage an incoming threat), test the potential system against U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-14T08:03:21.967101+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc",
+          "excerpt": "Two military programs One China-based actor used Claude to draft a fire-control specification for an anti-torpedo fire-control system (the core logic that determines when and where an anti-torpedo weapon should engage an incoming threat), test the potential system against U.S.",
+          "sentence_hash": "240d998769d308faeddb0287c7bbe7fbddbd078555cfa9d7f2162569a7f07933",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Another China-based defense and military-industrial researcher used Claude to develop about 16 software modules for electronic warfare and suppression of enemy air defenses.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-14T08:03:21.967138+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc",
+          "excerpt": "Another China-based defense and military-industrial researcher used Claude to develop about 16 software modules for electronic warfare and suppression of enemy air defenses.",
+          "sentence_hash": "e97259ad390566ba1fb11c3e14084ab613668f05e11cab6637c93df12a13f3f3",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "At one point, the default scenario contained 12 targets in Taiwan, including Patriot and Tien Kung batteries, air bases, an early-warning radar, and a command bunker.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-14T08:03:21.967164+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc",
+          "excerpt": "At one point, the default scenario contained 12 targets in Taiwan, including Patriot and Tien Kung batteries, air bases, an early-warning radar, and a command bunker.",
+          "sentence_hash": "26019099a89cffeb86746def3939637dfe473b84ea11d9ed40dbee904afe2012",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Interestingly, Anthropic claims that account metadata and content caught by its safeguards 'indicated the actor was linked to PRC research institutions, including the PLA Academy of Military Sciences,' though it does not outright say that Claude was used by the PLA.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-14T08:03:21.967190+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc",
+          "excerpt": "Interestingly, Anthropic claims that account metadata and content caught by its safeguards 'indicated the actor was linked to PRC research institutions, including the PLA Academy of Military Sciences,' though it does not outright say that Claude was used by the PLA.",
+          "sentence_hash": "142e8837476186a5261b8be463ccf033f57d339b23b58f461650ae556318d7aa",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "two",
+        "chinese",
+        "taiwan",
+        "ai",
+        "while china",
+        "more",
+        "prc",
+        "english",
+        "tien kung",
+        "interestingly",
+        "oem",
+        "patriot",
+        "there",
+        "given",
+        "pla",
+        "navy",
+        "anthropic",
+        "alibaba\nis",
+        "one china",
+        "given china",
+        "academy",
+        "military sciences",
+        "september",
+        "another china",
+        "while",
+        "united states",
+        "china",
+        "claude",
+        "people",
+        "sam",
+        "us",
+        "liberation army navy"
+      ],
+      "numbers": [
+        "151 million"
+      ],
+      "dates": [
+        "September 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
+          "canonical_url": null,
+          "hostname": "www.tomshardware.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-14T08:03:21.965027+08:00",
+          "content_sha256": "4c7efa8e182fd725ae17f59ed7b7c57f5a78536bc39c1a1ce95d5f2cb93e27dc"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "summary": "Anthropic accuses China-linked actors of using its Claude models of weapon development, intelligence activities, distilling AI models.",
+      "category": "科技",
+      "published_at": 

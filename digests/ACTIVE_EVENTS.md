@@ -1,6 +1,77 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-13 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-14 08:08。
+
+## Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba Is imitation the sincerest form of flattery?
+- 事件 ID：`evt_20260914_e4fbd5e4aa87`
+
+## A 5% Treasury Yield Is Raising New Risks for Markets, Economy
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：A 5% Treasury Yield Is Raising New Risks for Markets, Economy&nbsp;&nbsp;Bloomberg.com
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260914_cda76f36a8e3`
+
+## BRICS leaders voice concern over Middle East, condemn unilateral sanctions at India summit
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260914_f96bf0a16515`
+
+## BOJ and Fed face critical test as market pressure rises on rates
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：TOKYO -- Central banks in the U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260914_fbac01e4b80d`
+
+## Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station - Published A Russian drone has hit a train near the Ukraine-Poland border shortly after former UK Prime Minister Boris Johnson and top European security officials had passed through.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260914_80f7baeb3069`
+
+## asgeirtj/system_prompts_leaks
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Reload to refresh your session.You signed out in another tab or window.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260914_6694abf04074`
+
+## Trump and Mike Johnson think the AI industry is overreacting
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to “pace the frontier” and slow down AI development.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260914_29b02d25e826`
+
+## Pacing the Frontier – Tahuna: AI Training Infrastructure, Now Open Source [P]
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260914_7d0e7360c231`
+
+## Anthropic Said to Choose Nasdaq for Much-Anticipated IPO Listing
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260914_808bf00d6f68`
+
+## Is Clarity dead? A vibes-based analysis: State of Crypto
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260914_acc3bd4cd9d2`
+
+## Tehran and Muscat delay talks, citing regional consensus need
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Tehran and Muscat delay talks, citing regional consensus need Negotiations in Oman between Iran and Gulf Arab states have been postponed at the request of some regional countries, Iranian media have reported.
+- 事件 ID：`evt_20260914_a1acf025487f`
+
+## Iran war reshapes Brics ties but also exposes divisions
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Iran war reshapes Brics ties but also exposes divisions - Published This weekend, some of the most powerful people in the world gathered in Delhi around a vast circular table.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260914_c1d243b02ffa`
+
+## Trump to consider releasing 9/11 records after families’ request
+- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
+- 最新事实：Trump to consider releasing 9/11 records after families’ request Families allege that a group of religious leaders in Saudi Arabia gained influence in the Saudi government and aided the hijackers in 2001 US President Donald Trump on Sunday said he will look into requests from fam
+- 事件 ID：`evt_20260914_1e0a0e4b901f`
 
 ## Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels also used the bot to code ballistic missile guidance systems
 - 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
