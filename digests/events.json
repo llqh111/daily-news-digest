@@ -3034,7 +3034,512 @@
       "sources": [
         "https://www.scmp.com/news/world/united-states-canada/article/3367375/trump-consider-releasing-9/11-records-after-families-request?utm_source=rss_feed"
       ]
+    },
+    {
+      "id": "evt_20260915_1c402e6dbbfb",
+      "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_57f0b26d7ba4d4beaaa9b116",
+          "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+          "raw_title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+          "why_relevant": "AI股票大跌与巨头呼吁",
+          "facts": [
+            "AI-linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development, citing fears the technology could soon run out of control.",
+            "Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%.",
+            "The tech-heavy Nasdaq index fund was down 0.5% by the end of the day."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+      "latest_raw_title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+      "status": "更新中",
+      "key_facts": [
+        "AI-linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development, citing fears the technology could soon run out of control.",
+        "Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%.",
+        "The tech-heavy Nasdaq index fund was down 0.5% by the end of the day."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai"
+      ]
+    },
+    {
+      "id": "evt_20260915_f14921dfe14c",
+      "title": "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_1f01a7fd7f5937414194732a",
+          "title": "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC",
+          "raw_title": "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC",
+          "why_relevant": "霍尔木兹海峡油轮爆炸",
+          "facts": [
+            "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC The Islamic Revolutionary Guard Corps said the El Gaia went up in flames after it struck a sea mine but the US rejected the claim Iran’s Islamic Revolutionary Guard Corps (IRGC) said late on Monday that an oil tanker h",
+            "The tanker El Gaia was travelling along the southern route through the strait, which was mined by Iran, state broadcaster IRIB reported, citing the IRGC.",
+            "“The Panama-flagged oil tanker El Gaia was struck by an Iranian missile last month and rendered inoperable."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/world/middle-east/article/3367515/oil-tanker-has-exploded-strait-hormuz-says-irans-irgc?utm_source=rss_feed"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC",
+      "latest_raw_title": "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC",
+      "status": "更新中",
+      "key_facts": [
+        "Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC The Islamic Revolutionary Guard Corps said the El Gaia went up in flames after it struck a sea mine but the US rejected the claim Iran’s Islamic Revolutionary Guard Corps (IRGC) said late on Monday that an oil tanker h",
+        "The tanker El Gaia was travelling along the southern route through the strait, which was mined by Iran, state broadcaster IRIB reported, citing the IRGC.",
+        "“The Panama-flagged oil tanker El Gaia was struck by an Iranian missile last month and rendered inoperable."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/world/middle-east/article/3367515/oil-tanker-has-exploded-strait-hormuz-says-irans-irgc?utm_source=rss_feed"
+      ]
+    },
+    {
+      "id": "evt_20260915_65851864405e",
+      "title": "JustVugg/colibri",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_82d6252b1927d5fda8975b61",
+          "title": "JustVugg/colibri",
+          "raw_title": "JustVugg/colibri",
+          "why_relevant": "纯C实现MoE模型推理",
+          "facts": [
+            "Website · Discord · English · 简体中文 · 繁體中文 · Italiano Tiny engine, immense model.",
+            "Run frontier MoE models — 744B to 2.8T parameters — on consumer and heterogeneous hardware, in pure C with zero engine dependencies, by treating storage, RAM, and VRAM as a single inference hierarchy (AI memory multitiering).",
+            "Nine families run today: GLM-5.2/5.3 (744B), GLM-5.3-Flash (321B, with vision), Inkling (975B), Kimi K3 (2.8T), DeepSeek V4 Flash (284B), DeepSeek V4.1 Flash (552B, with vision), Qwen3.8-Flash-Next (125B + 51B n-gram), Qwen3.6 (35B-A3B) and OLMoE (7B) — one C file each, the same "
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/JustVugg/colibri"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "JustVugg/colibri",
+      "latest_raw_title": "JustVugg/colibri",
+      "status": "更新中",
+      "key_facts": [
+        "Website · Discord · English · 简体中文 · 繁體中文 · Italiano Tiny engine, immense model.",
+        "Run frontier MoE models — 744B to 2.8T parameters — on consumer and heterogeneous hardware, in pure C with zero engine dependencies, by treating storage, RAM, and VRAM as a single inference hierarchy (AI memory multitiering).",
+        "Nine families run today: GLM-5.2/5.3 (744B), GLM-5.3-Flash (321B, with vision), Inkling (975B), Kimi K3 (2.8T), DeepSeek V4 Flash (284B), DeepSeek V4.1 Flash (552B, with vision), Qwen3.8-Flash-Next (125B + 51B n-gram), Qwen3.6 (35B-A3B) and OLMoE (7B) — one C file each, the same "
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/JustVugg/colibri"
+      ]
+    },
+    {
+      "id": "evt_20260915_c7dcb7eab1c0",
+      "title": "Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_9218944b06409d46315a810b",
+          "title": "Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs",
+          "raw_title": "Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs",
+          "why_relevant": "RTX Pro 5500显存翻倍",
+          "facts": [
+            "It offers comparable specifications to the GeForce RTX 5090 but distinguishes itself with 84GB of GDDR7 memory, 2.6X more than the Blackwell gaming flagship.",
+            "The RTX Pro 5500 features the GB202 silicon, the powerhouse die that powers other high-end mainstream and professional Blackwell graphics cards, including the GeForce RTX 5090, RTX Pro 6000, and RTX Pro 5000.",
+            "In fact, the RTX Pro 5500 uses the same die as the GeForce RTX 5090, which means 170 Streaming Multiprocessors (SMs) are enabled out of a possible 192."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.tomshardware.com/pc-components/gpus/gaming-takes-a-backseat-as-nvidia-overhauls-the-rtx-5090-for-maximum-ai-margins-rtx-pro-5500-delivers-2-6x-vram-at-matching-specs"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs",
+      "latest_raw_title": "Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs",
+      "status": "更新中",
+      "key_facts": [
+        "It offers comparable specifications to the GeForce RTX 5090 but distinguishes itself with 84GB of GDDR7 memory, 2.6X more than the Blackwell gaming flagship.",
+        "The RTX Pro 5500 features the GB202 silicon, the powerhouse die that powers other high-end mainstream and professional Blackwell graphics cards, including the GeForce RTX 5090, RTX Pro 6000, and RTX Pro 5000.",
+        "In fact, the RTX Pro 5500 uses the same die as the GeForce RTX 5090, which means 170 Streaming Multiprocessors (SMs) are enabled out of a possible 192."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.tomshardware.com/pc-components/gpus/gaming-takes-a-backseat-as-nvidia-overhauls-the-rtx-5090-for-maximum-ai-margins-rtx-pro-5500-delivers-2-6x-vram-at-matching-specs"
+      ]
+    },
+    {
+      "id": "evt_20260915_57e8371f239b",
+      "title": "Ten-year Treasury yield hits 5% for first time since 2023",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_6cb0e6aaa5cc46aa619901f5",
+          "title": "Ten-year Treasury yield hits 5% for first time since 2023",
+          "raw_title": "Ten-year Treasury yield hits 5% for first time since 2023",
+          "why_relevant": "十年期美债收益率破5%",
+          "facts": [
+            "Ten-year Treasury yield hits 5% for first time since 2023 Save over 40% on Standard Digital was undefined now undefined for your first year.",
+            "Save now on essential digital access to trusted FT journalism on any device.",
+            "Complete digital access with exclusive insights and industry deep dives on any device."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Ten-year Treasury yield hits 5% for first time since 2023",
+      "latest_raw_title": "Ten-year Treasury yield hits 5% for first time since 2023",
+      "status": "更新中",
+      "key_facts": [
+        "Ten-year Treasury yield hits 5% for first time since 2023 Save over 40% on Standard Digital was undefined now undefined for your first year.",
+        "Save now on essential digital access to trusted FT journalism on any device.",
+        "Complete digital access with exclusive insights and industry deep dives on any device."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20260915_2c5ae6b9b58c",
+      "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_5454a95e2d5ed07609cdcdef",
+          "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+          "raw_title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+          "why_relevant": "油价飙至109美元",
+          "facts": [
+            "Oil hits $109 after Saudi Arabia closes vital export pipeline Save over 40% on Standard Digital was undefined now undefined for your first year.",
+            "Save now on essential digital access to trusted FT journalism on any device.",
+            "Complete digital access with exclusive insights and industry deep dives on any device."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+      "latest_raw_title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
+      "status": "更新中",
+      "key_facts": [
+        "Oil hits $109 after Saudi Arabia closes vital export pipeline Save over 40% on Standard Digital was undefined now undefined for your first year.",
+        "Save now on essential digital access to trusted FT journalism on any device.",
+        "Complete digital access with exclusive insights and industry deep dives on any device."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20260915_0945fbc24025",
+      "title": "EU leaders urge unity after Russian strike on train",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_8cd7ece84c6a309cf3436ad7",
+          "title": "EU leaders urge unity after Russian strike on train",
+          "raw_title": "EU leaders urge unity after Russian strike on train",
+          "why_relevant": "俄袭乌克兰列车欧盟反应",
+          "facts": [
+            "EU leaders urge unity after Russian strike on train September 14, 2026 Several top EU politicians have called a Russian drone strike on a passenger train on Ukraine's border with Poland a bid by Moscow to intimidate Kyiv's allies that should be met with even more resolution.",
+            "In the incident, a drone hit the train's locomotive at a railway station in the Volyn region, some 2 kilometers (1.24 miles) from the border, shortly after a diplomatic train carrying former British Prime Minister Boris Johnson and other European diplomats had been at the station",
+            "\"It [the attack] is clearly meant to scare Western countries from supporting Ukraine, from going to Ukraine to show support,\" the EU's foreign policy chief, Kaja Kallas, said."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/eu-leaders-urge-unity-after-russian-strike-on-train/a-79259807?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "EU leaders urge unity after Russian strike on train",
+      "latest_raw_title": "EU leaders urge unity after Russian strike on train",
+      "status": "更新中",
+      "key_facts": [
+        "EU leaders urge unity after Russian strike on train September 14, 2026 Several top EU politicians have called a Russian drone strike on a passenger train on Ukraine's border with Poland a bid by Moscow to intimidate Kyiv's allies that should be met with even more resolution.",
+        "In the incident, a drone hit the train's locomotive at a railway station in the Volyn region, some 2 kilometers (1.24 miles) from the border, shortly after a diplomatic train carrying former British Prime Minister Boris Johnson and other European diplomats had been at the station",
+        "\"It [the attack] is clearly meant to scare Western countries from supporting Ukraine, from going to Ukraine to show support,\" the EU's foreign policy chief, Kaja Kallas, said."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/eu-leaders-urge-unity-after-russian-strike-on-train/a-79259807?maca=en-rss-en-world-4025-xml-mrss"
+      ]
+    },
+    {
+      "id": "evt_20260915_270a2f891c4b",
+      "title": "Why talks in Oman between Iran and Gulf Arab states were postponed",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_adb27b868898ef568ed879e9",
+          "title": "Why talks in Oman between Iran and Gulf Arab states were postponed",
+          "raw_title": "Why talks in Oman between Iran and Gulf Arab states were postponed",
+          "why_relevant": "伊朗海湾会谈推迟",
+          "facts": [
+            "Published On 14 Sep 2026"
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-talks-in-oman-between-iran-and-gulf-arab-states-were-postponed?traffic_source=rss"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Why talks in Oman between Iran and Gulf Arab states were postponed",
+      "latest_raw_title": "Why talks in Oman between Iran and Gulf Arab states were postponed",
+      "status": "更新中",
+      "key_facts": [
+        "Published On 14 Sep 2026"
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-talks-in-oman-between-iran-and-gulf-arab-states-were-postponed?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "evt_20260915_a7b744765899",
+      "title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_60c68be2663e018d04fe4610",
+          "title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+          "raw_title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+          "why_relevant": "非洲最大IPO价值230亿",
+          "facts": [
+            "The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering.",
+            "If Monday’s flotation of Dangote Petroleum Refinery and Petrochemicals on the Nigerian exchange goes to plan, then Aliko Dangote will add a further $23bn (£17bn) to his $35bn net worth.",
+            "The share purchases have a month to complete, with the process finishing on 13 October."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "latest_raw_title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "status": "更新中",
+      "key_facts": [
+        "The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering.",
+        "If Monday’s flotation of Dangote Petroleum Refinery and Petrochemicals on the Nigerian exchange goes to plan, then Aliko Dangote will add a further $23bn (£17bn) to his $35bn net worth.",
+        "The share purchases have a month to complete, with the process finishing on 13 October."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo"
+      ]
+    },
+    {
+      "id": "evt_20260915_122f853fd207",
+      "title": "Ukraine, Russia set for new round of US-mediated talks",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_e0d4e35703e624098e87853e",
+          "title": "Ukraine, Russia set for new round of US-mediated talks",
+          "raw_title": "Ukraine, Russia set for new round of US-mediated talks",
+          "why_relevant": "俄乌新一轮三方会谈",
+          "facts": [
+            "Ukraine, Russia set for new round of US-mediated talks September 14, 2026 Ukraine and Russia have signaled their readiness to resume trilateral talks under US mediation.",
+            "Similar signals came from Moscow: \"We do not rule out such a possibility.",
+            "We are talking about the foreseeable future,\" Kremlin spokesman Dmitry Peskov said."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/ukraine-russia-set-for-new-round-of-us-mediated-talks/a-79261147?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Ukraine, Russia set for new round of US-mediated talks",
+      "latest_raw_title": "Ukraine, Russia set for new round of US-mediated talks",
+      "status": "更新中",
+      "key_facts": [
+        "Ukraine, Russia set for new round of US-mediated talks September 14, 2026 Ukraine and Russia have signaled their readiness to resume trilateral talks under US mediation.",
+        "Similar signals came from Moscow: \"We do not rule out such a possibility.",
+        "We are talking about the foreseeable future,\" Kremlin spokesman Dmitry Peskov said."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/ukraine-russia-set-for-new-round-of-us-mediated-talks/a-79261147?maca=en-rss-en-world-4025-xml-mrss"
+      ]
+    },
+    {
+      "id": "evt_20260915_0b7051809357",
+      "title": "vxcontrol/pentagi",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_246a12d401eb773c0164cbbb",
+          "title": "vxcontrol/pentagi",
+          "raw_title": "vxcontrol/pentagi",
+          "why_relevant": "开源AI渗透测试工具",
+          "facts": [],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/vxcontrol/pentagi"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "vxcontrol/pentagi",
+      "latest_raw_title": "vxcontrol/pentagi",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/vxcontrol/pentagi"
+      ]
+    },
+    {
+      "id": "evt_20260915_dc83931849b3",
+      "title": "tech-leads-club/agent-skills",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_854993563c7c9b7cf6c2b9e6",
+          "title": "tech-leads-club/agent-skills",
+          "raw_title": "tech-leads-club/agent-skills",
+          "why_relevant": "AI编码代理技能注册表",
+          "facts": [
+            "The secure, validated skill registry for professional AI coding agents In an ecosystem where over 13% of marketplace skills contain critical vulnerabilities, Agent Skills stands apart as a hardened library of verified, tested, and safe capabilities.",
+            "https://tech-leads-club.github.io/agent-skills/ Skills are packaged instructions and resources that extend AI agent capabilities.",
+            "Think of them as plugins for your AI assistant — they teach your agent new workflows, patterns, and specialized knowledge."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/tech-leads-club/agent-skills"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "tech-leads-club/agent-skills",
+      "latest_raw_title": "tech-leads-club/agent-skills",
+      "status": "更新中",
+      "key_facts": [
+        "The secure, validated skill registry for professional AI coding agents In an ecosystem where over 13% of marketplace skills contain critical vulnerabilities, Agent Skills stands apart as a hardened library of verified, tested, and safe capabilities.",
+        "https://tech-leads-club.github.io/agent-skills/ Skills are packaged instructions and resources that extend AI agent capabilities.",
+        "Think of them as plugins for your AI assistant — they teach your agent new workflows, patterns, and specialized knowledge."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/tech-leads-club/agent-skills"
+      ]
+    },
+    {
+      "id": "evt_20260915_25b629f1e06a",
+      "title": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+      "first_seen": "2026-09-15",
+      "updates": [
+        {
+          "date": "2026-09-15",
+          "article_id": "a1_f6abd4d40f46532d022c4938",
+          "title": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+          "raw_title": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+          "why_relevant": "特朗普与黄仁勋通话",
+          "facts": [
+            "With Nvidia CEO Jensen Huang speaking on stage at the All-in Summit in Los Angeles, Trump called the tech exec, and was then put on speaker.",
+            "\"I'm telling you, it's all a hoax,\" Trump said, according to a video posted on social media by an attendee.",
+            "\"The data centers are great, and they make people wealthy, and they make states wealthy.\" President Trump has inserted himself into the raging debate about artificial intelligence and whether the model developers, principally Anthropic and OpenAI, are rapidly building technology "
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.cnbc.com/2026/09/14/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax.html"
+          ],
+          "evidence_path": "digests/meta/2026-09-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-15",
+      "latest_title": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+      "latest_raw_title": "Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’",
+      "status": "更新中",
+      "key_facts": [
+        "With Nvidia CEO Jensen Huang speaking on stage at the All-in Summit in Los Angeles, Trump called the tech exec, and was then put on speaker.",
+        "\"I'm telling you, it's all a hoax,\" Trump said, according to a video posted on social media by an attendee.",
+        "\"The data centers are great, and they make people wealthy, and they make states wealthy.\" President Trump has inserted himself into the raging debate about artificial intelligence and whether the model developers, principally Anthropic and OpenAI, are rapidly building technology "
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.cnbc.com/2026/09/14/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax.html"
+      ]
     }
   ],
-  "updated_at": "2026-09-14T08:03:21.972021+08:00"
+  "updated_at": "2026-09-15T08:03:25.720145+08:00"
 }

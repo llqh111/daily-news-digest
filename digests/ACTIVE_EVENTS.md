@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-14 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-15 08:08。
+
+## AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：AI-linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development, citing fears the technology could soon run out of control.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_1c402e6dbbfb`
+
+## Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC The Islamic Revolutionary Guard Corps said the El Gaia went up in flames after it struck a sea mine but the US rejected the claim Iran’s Islamic Revolutionary Guard Corps (IRGC) said late on Monday that an oil tanker h
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_f14921dfe14c`
+
+## JustVugg/colibri
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：Website · Discord · English · 简体中文 · 繁體中文 · Italiano Tiny engine, immense model.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_65851864405e`
+
+## Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：It offers comparable specifications to the GeForce RTX 5090 but distinguishes itself with 84GB of GDDR7 memory, 2.6X more than the Blackwell gaming flagship.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_c7dcb7eab1c0`
+
+## Ten-year Treasury yield hits 5% for first time since 2023
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：Ten-year Treasury yield hits 5% for first time since 2023 Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_57e8371f239b`
+
+## Oil hits $109 after Saudi Arabia closes vital export pipeline
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：Oil hits $109 after Saudi Arabia closes vital export pipeline Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_2c5ae6b9b58c`
+
+## EU leaders urge unity after Russian strike on train
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：EU leaders urge unity after Russian strike on train September 14, 2026 Several top EU politicians have called a Russian drone strike on a passenger train on Ukraine's border with Poland a bid by Moscow to intimidate Kyiv's allies that should be met with even more resolution.
+- 事件 ID：`evt_20260915_0945fbc24025`
+
+## Why talks in Oman between Iran and Gulf Arab states were postponed
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：Published On 14 Sep 2026
+- 事件 ID：`evt_20260915_270a2f891c4b`
+
+## Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering.
+- 事件 ID：`evt_20260915_a7b744765899`
+
+## Ukraine, Russia set for new round of US-mediated talks
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：Ukraine, Russia set for new round of US-mediated talks September 14, 2026 Ukraine and Russia have signaled their readiness to resume trilateral talks under US mediation.
+- 事件 ID：`evt_20260915_122f853fd207`
+
+## vxcontrol/pentagi
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_0b7051809357`
+
+## tech-leads-club/agent-skills
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：The secure, validated skill registry for professional AI coding agents In an ecosystem where over 13% of marketplace skills contain critical vulnerabilities, Agent Skills stands apart as a hardened library of verified, tested, and safe capabilities.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_dc83931849b3`
+
+## Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’
+- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
+- 最新事实：With Nvidia CEO Jensen Huang speaking on stage at the All-in Summit in Los Angeles, Trump called the tech exec, and was then put on speaker.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_25b629f1e06a`
 
 ## Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba
 - 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
