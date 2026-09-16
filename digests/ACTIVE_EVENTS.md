@@ -1,6 +1,54 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-15 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-16 08:06。
+
+## Jensen Huang says battle over AI innovation and safety is ‘false choice’
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：Jensen Huang says battle over AI innovation and safety is ‘false choice’ Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_fd302d98f253`
+
+## Crypto stocks sink after Senate rejects Clarity Act
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：Crypto stocks sink after Senate rejects Clarity Act Coinbase, Circle and Galaxy lead a broad crypto stock selloff after the U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_e9d190c7851b`
+
+## Five takeaways from Canada's push to woo the world's richest investors
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：Five takeaways from Canada's push to woo the world's richest investors - Published Prime Minister Mark Carney is pitching Canada as a "safe harbour" for some of the world's largest investors in an era of geopolitical and economic uncertainty.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_070b03bec79e`
+
+## Ferocious fight among Brazil’s supreme court erupts on eve of presidential election
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：Brazil’s supreme court has been thrust into what experts consider the greatest crisis since the return of democracy in the 1980s, as two rival judges lock horns on the eve of the presidential election with unpredictable consequences for Latin America’s largest democracy.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_0affdc32f203`
+
+## Iran war has led to US munitions shortfalls, Pentagon inspector confirms
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：Iran war has led to US munitions shortfalls, Pentagon inspector confirms - Published The US defence department's inspector general says the war with Iran has led to "shortfalls" in munitions and a bottleneck in resupply, contradicting President Donald Trump who has repeatedly den
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_5640f5e2c77b`
+
+## Panniantong/Agent-Reach
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：给你的 AI Agent 一键装上互联网能力 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念 点击折叠 AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： - 📺 "帮我看看这个 YouTube 教程讲了什么" → 看不了，拿不到字幕 - 🐦 "帮我搜一下推特上大家怎么评价这个产品" → 搜不了，Twitter API 要付费 - 📖 "去 Reddit 上看看有没有人遇到过同样的 bug" → 403 被封
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_e3904d79dcc5`
+
+## rlaope/oh-my-hermes
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：oh-my-hermes (OMH) turns a normal Hermes Agent request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_b2aabd3aa2ff`
+
+## alibaba/open-code-review
+- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
+- 最新事实：English | 简体中文 | 日本語 | 한국어 | Русский Open Code Review is an AI-powered code review CLI tool.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_ab70979c65ef`
 
 ## AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development
 - 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
