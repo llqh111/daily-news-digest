@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-16 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-17 08:07。
+
+## Fed defies Trump with first rate rise since 2023
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Federal Reserve defies Donald Trump with first rate rise since 2023 Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_4864e06a3ffa`
+
+## danny-avila/LibreChat
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：English · 中文 - Agent Management API (beta): Create, discover, update, and delete Agents; manage Agent files and Skills; and authenticate machine clients through deployment-bound OIDC identities while preserving existing role and Agent access controls.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_c65139c27a4e`
+
+## pacifio/atlas
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Atlas is source control for coding agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_604e6d5152c6`
+
+## Claude Cowork and chat are now one Claude
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：16th September 2026 - Link Blog Claude Cowork and chat are now one Claude (via) In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s.
+- 事件 ID：`evt_20260917_df00699344c5`
+
+## NVIDIA’s B200 GPUs Currently Command A Residual Value That Exceeds Their Original Launch Price By 58 Percent!
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Since the advent of the age of LLMs, the residual prices of NVIDIA's GPUs have become a barometer of sorts for gauging the health of the ongoing AI super cycle.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_9bfcfada2632`
+
+## Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：September 16, 2026 Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting For release at 2:00 p.m.
+- 事件 ID：`evt_20260917_f15d2db357a6`
+
+## Robust US retail sales underscore economy's resilience, inflation pressures building
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Robust US retail sales underscore economy's resilience, inflation pressures building&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260917_10dc559812ad`
+
+## US Congress passes bill targeting Russia’s leading energy buyers – China and India
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Advertisement US Congress passes bill targeting Russia’s leading energy buyers – China and India US House of Representatives clears ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Wash
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_368b07f8a347`
+
+## EU chief backs plan for Canada to become 'associate member'
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：EU chief backs plan for Canada to become 'associate member' - Published The president of the European Commission has backed proposals for Canada to become the EU's first "associate member".
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_b7d64fb3382d`
+
+## Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say - Published At least 21 people have been killed, including eight children, after a war-damaged building collapsed in the Gaza Strip overnight, rescuers and medics say.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_84aa823f5404`
+
+## Shock in Kosovo as Hague convicts former President Thaci
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Shock in Kosovo as Hague convicts former President Thaci September 16, 2026 The announcement of the verdict was greeted with shock and profound disappointment in Pristina.
+- 事件 ID：`evt_20260917_a57e31dfd90b`
+
+## Israel and Morocco agree to open embassies, upgrading diplomatic ties
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 最新事实：Israel and Morocco agree to open embassies, upgrading diplomatic ties They also agreed to expand air travel and reinstate direct flights between both countries.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_7463d4bdc378`
+
+## Netanyahu steps up threats against directors of Gaza documentary 'NAZA'
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260917_15fae2213939`
 
 ## Jensen Huang says battle over AI innovation and safety is ‘false choice’
 - 状态：更新中；首见 2026-09-16；最近更新 2026-09-16

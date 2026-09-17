@@ -53,28 +53,19 @@
       "evidence_status": "missing",
       "quality_status": "present",
       "artifact_bundle_status": "missing"
+    },
+    "2026-09-17-AM": {
+      "delivered_at": "2026-09-17T08:07:28.767730+08:00",
+      "evidence_status": "missing",
+      "quality_status": "present",
+      "artifact_bundle_status": "missing"
     }
   },
-  "updated": "2026-09-16 08:06",
+  "updated": "2026-09-17 08:07",
   "retention_days": 7,
   "last_session": "AM",
-  "last_push_timestamp": 1789517185.954974,
+  "last_push_timestamp": 1789603648.762391,
   "history": {
-    "2026-09-09": [
-      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
-      "https://www.scmp.com/opinion/world-opinion/article/3366521/trumps-venezuela-oil-deal-why-china-can-wait-and-watch?utm_source=rss_feed",
-      "https://github.com/mksglu/context-mode",
-      "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
-      "https://www.cnbc.com/2026/09/08/jay-woods-says-two-semi-stocks-may-signal-markets-path-forward.html",
-      "https://www.whitehouse.gov/presidential-actions/2026/09/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-united-states-with-respect-to-motor-vehicles/",
-      "https://www.scmp.com/news/world/united-states-canada/article/3366839/trump-transport-chief-blasts-fords-business-deals-chinese-firms?utm_source=rss_feed",
-      "https://www.dw.com/en/us-canada-tariff-dispute-weighs-on-cross-border-ties/a-78815803?maca=en-rss-en-world-4025-xml-mrss",
-      "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
-      "https://wccftech.com/fragile-16-pin-connectors-keep-melting-rtx-5090s-gpus-teclab-proves-old-8-pin-connectors-can-handle-the-load-just-fine/",
-      "https://www.tomshardware.com/pc-components/gpus/all-in-one-dlss-unlocked-mod-brings-dlss-5-and-multi-frame-gen-to-rtx-20-30-and-40-series-hybrid-tool-taps-amd-fsr-3-1-to-boost-frame-rates-up-to-6x",
-      "https://www.ft.com/content/aa304856-cade-4ad8-a2bf-2dd34fa75b1b?syn-25a6b1a6=1"
-    ],
     "2026-09-10": [
       "https://www.aljazeera.com/video/newsfeed/2026/9/9/trump-says-the-us-iran-war-will-end-right-after-midterms?traffic_source=rss",
       "https://www.cnbc.com/2026/09/09/barclays-raises-sp-500-year-end-target-citing-standout-earnings-driven-by-ai.html",
@@ -174,6 +165,21 @@
       "https://github.com/Panniantong/Agent-Reach",
       "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e?syn-25a6b1a6=1",
       "https://www.bbc.co.uk/news/articles/cmq8jdgel128o?at_medium=RSS&at_campaign=rss"
+    ],
+    "2026-09-17": [
+      "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+      "https://www.dw.com/en/shock-in-kosovo-as-hague-convicts-former-president-thaci/a-79294916?maca=en-rss-en-world-4025-xml-mrss",
+      "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZVdndU5ZZ1lnT0pkMEZEVG4zTjdERHB1Z1Vwem1aUURBS3pxOUpDWXh3Tkd1NDFfWWp1eDJQNWdQanlhcHBJZTJJaWs3U1JXQTluNDV2dUp2QlFNZ1ZFU1Y5T295QXM1akRDdnM4UTBjR09XUjhYV0FUWUZCM3dldUJoTHloMWk1QlFzbjNxeWxRNktyOFVyb3AzYndmMGg1?oc=5",
+      "https://www.aljazeera.com/news/2026/9/16/israel-and-morocco-agree-to-open-embassies-upgrading-diplomatic-ties?traffic_source=rss",
+      "https://wccftech.com/nvidias-b200-gpus-currently-command-a-residual-value-that-exceeds-their-original-launch-price-by-58-percent/",
+      "https://simonwillison.net/2026/Sep/16/one-claude/",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "https://github.com/danny-avila/LibreChat",
+      "https://www.scmp.com/news/us/economy-trade-business/article/3367782/us-congress-passes-bill-targeting-russias-leading-energy-buyers-china-and-india?utm_source=rss_feed",
+      "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNXZudGNQSnowb0xSbmZUNFVsQzZKYkZRWG16eS1nQm1wdVY5aG9EcEcxRWpEN0tBUllFWWNMd1gtdXBNR3l0WGZoc2NFcm1WaHRaWDFRYWZPNjJ3Vi0xb3dPdElqejU1V1VSN05oXzBBeDZNaExqbGktbmQ0c3NPb2QybFRtMmhtbXFlaGY2NzVfb2RjaDg4SzE0ZWVxUzZTR0F5Wkc5Zlg4cmhLZzRWUzdObWlNbGpiZVV1bA?oc=5",
+      "https://github.com/pacifio/atlas"
     ]
   }
 }
