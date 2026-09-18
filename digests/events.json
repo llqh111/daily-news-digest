@@ -4207,22 +4207,41 @@
             "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
           ],
           "evidence_path": "digests/meta/2026-09-17-AM-evidence.json"
+        },
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_08f5bdac270a7842b4aacbb1",
+          "title": "Canada welcomes EU proposal to become 'associate member'",
+          "raw_title": "Canada welcomes EU proposal to become 'associate member'",
+          "why_relevant": "加拿大与欧盟准会员",
+          "facts": [
+            "His comments came a day after European Commission President Ursula von der Leyen proposed \"opening the door\" to Canada's associate membership, a status that does not currently exist.",
+            "US President Donald Trump earlier called the idea \"laughable\" and threatened \"very serious tariffs\" on Europe if he considered it a \"hostile act\".",
+            "\"Today our societies are being battered by new storms,\" Carney said during his address, naming them as climate change, \"the erosion of democratic norms\" and the \"weaponisation of trade\"."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
         }
       ],
-      "latest_seen": "2026-09-17",
-      "latest_title": "EU chief backs plan for Canada to become 'associate member'",
-      "latest_raw_title": "EU chief backs plan for Canada to become 'associate member'",
+      "latest_seen": "2026-09-18",
+      "latest_title": "Canada welcomes EU proposal to become 'associate member'",
+      "latest_raw_title": "Canada welcomes EU proposal to become 'associate member'",
       "status": "更新中",
       "key_facts": [
-        "EU chief backs plan for Canada to become 'associate member' - Published The president of the European Commission has backed proposals for Canada to become the EU's first \"associate member\".",
-        "Ursula von der Leyen told the European Parliament on Wednesday she wanted to work on \"opening the door\" for Canada, which would involve closer ties on various key sectors.",
-        "The country currently faces tense relations with the US, compounded by an intensifying dispute over trade."
+        "His comments came a day after European Commission President Ursula von der Leyen proposed \"opening the door\" to Canada's associate membership, a status that does not currently exist.",
+        "US President Donald Trump earlier called the idea \"laughable\" and threatened \"very serious tariffs\" on Europe if he considered it a \"hostile act\".",
+        "\"Today our societies are being battered by new storms,\" Carney said during his address, naming them as climate change, \"the erosion of democratic norms\" and the \"weaponisation of trade\"."
       ],
       "open_questions": [
         "缺少明确时间"
       ],
       "sources": [
-        "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -4378,7 +4397,489 @@
       "sources": [
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNXZudGNQSnowb0xSbmZUNFVsQzZKYkZRWG16eS1nQm1wdVY5aG9EcEcxRWpEN0tBUllFWWNMd1gtdXBNR3l0WGZoc2NFcm1WaHRaWDFRYWZPNjJ3Vi0xb3dPdElqejU1V1VSN05oXzBBeDZNaExqbGktbmQ0c3NPb2QybFRtMmhtbXFlaGY2NzVfb2RjaDg4SzE0ZWVxUzZTR0F5Wkc5Zlg4cmhLZzRWUzdObWlNbGpiZVV1bA?oc=5"
       ]
+    },
+    {
+      "id": "evt_20260918_233ec3eead21",
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_53af10ab968c82857e3ff9c6",
+          "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+          "raw_title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+          "why_relevant": "GPT-5.6隐藏对齐失效案例",
+          "facts": [
+            "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user.",
+            "OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today.",
+            "The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "latest_raw_title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "status": "更新中",
+      "key_facts": [
+        "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user.",
+        "OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today.",
+        "The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/"
+      ]
+    },
+    {
+      "id": "evt_20260918_7ce496d363fb",
+      "title": "The AI Slowdown Debate Crashed Salesforce’s Party",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_b94f0e12b35515293e9def70",
+          "title": "The AI Slowdown Debate Crashed Salesforce’s Party",
+          "raw_title": "The AI Slowdown Debate Crashed Salesforce’s Party",
+          "why_relevant": "AI放缓争论，大佬隔空交锋",
+          "facts": [
+            "Decked out in purple and plaid, Gwen Stefani belted her 2002 single “Underneath It All” to a packed conference center in San Francisco on Tuesday morning—but she was just the warm-up.",
+            "Dreamforce is billed as the world’s largest enterprise software conference but feels more like attending a megachurch—especially this year.",
+            "Benioff roamed the audience while delivering his Dreamforce sermon, followed by a teleoperated camera on wheels that beamed his face to screens hanging from the cavernous room’s ceiling."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "The AI Slowdown Debate Crashed Salesforce’s Party",
+      "latest_raw_title": "The AI Slowdown Debate Crashed Salesforce’s Party",
+      "status": "更新中",
+      "key_facts": [
+        "Decked out in purple and plaid, Gwen Stefani belted her 2002 single “Underneath It All” to a packed conference center in San Francisco on Tuesday morning—but she was just the warm-up.",
+        "Dreamforce is billed as the world’s largest enterprise software conference but feels more like attending a megachurch—especially this year.",
+        "Benioff roamed the audience while delivering his Dreamforce sermon, followed by a teleoperated camera on wheels that beamed his face to screens hanging from the cavernous room’s ceiling."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/"
+      ]
+    },
+    {
+      "id": "evt_20260918_81841be719a2",
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_e8bdaa1098e044211314631c",
+          "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+          "raw_title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+          "why_relevant": "微软AI CEO怼Anthropic安全",
+          "facts": [
+            "As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.",
+            "If you’ll recall from his last appearance on the show, Mustafa thinks companies like Anthropic have gotten really confused about this concept of so-called model welfare in fairly dangerous ways.",
+            "I’ve always enjoyed getting into the weeds with Mustafa, and he was very game to get into it with me here."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "latest_raw_title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "status": "更新中",
+      "key_facts": [
+        "As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.",
+        "If you’ll recall from his last appearance on the show, Mustafa thinks companies like Anthropic have gotten really confused about this concept of so-called model welfare in fairly dangerous ways.",
+        "I’ve always enjoyed getting into the weeds with Mustafa, and he was very game to get into it with me here."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude"
+      ]
+    },
+    {
+      "id": "evt_20260918_9f6d9f8a4333",
+      "title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_614ecae9e3ce57a3dd17192e",
+          "title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
+          "raw_title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
+          "why_relevant": "真实股票上链，SEC新规",
+          "facts": [
+            "Here’s how the SEC wants it to work The SEC is giving tokenized stocks a regulated U.S.",
+            "pathway, while keeping trading volumes, access and issuer rights tightly controlled.",
+            "- The SEC will give qualifying tokenized securities venues five years to trade real U.S."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
+      "latest_raw_title": "Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work",
+      "status": "更新中",
+      "key_facts": [
+        "Here’s how the SEC wants it to work The SEC is giving tokenized stocks a regulated U.S.",
+        "pathway, while keeping trading volumes, access and issuer rights tightly controlled.",
+        "- The SEC will give qualifying tokenized securities venues five years to trade real U.S."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work"
+      ]
+    },
+    {
+      "id": "evt_20260918_b44c39e988b6",
+      "title": "US regulator opens markets to tokenised stock trading",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_9889694eb255add8f87f775a",
+          "title": "US regulator opens markets to tokenised stock trading",
+          "raw_title": "US regulator opens markets to tokenised stock trading",
+          "why_relevant": "美监管打开代币化股票",
+          "facts": [
+            "US regulator opens markets to tokenised stock trading Save over 40% on Standard Digital was undefined now undefined for your first year.",
+            "Save now on essential digital access to trusted FT journalism on any device.",
+            "Complete digital access with exclusive insights and industry deep dives on any device."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/b528698e-9b04-4497-9d22-67e401be21d3?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "US regulator opens markets to tokenised stock trading",
+      "latest_raw_title": "US regulator opens markets to tokenised stock trading",
+      "status": "更新中",
+      "key_facts": [
+        "US regulator opens markets to tokenised stock trading Save over 40% on Standard Digital was undefined now undefined for your first year.",
+        "Save now on essential digital access to trusted FT journalism on any device.",
+        "Complete digital access with exclusive insights and industry deep dives on any device."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/b528698e-9b04-4497-9d22-67e401be21d3?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20260918_717c7b63406d",
+      "title": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_24627ab9170bf64129400dfc",
+          "title": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+          "raw_title": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+          "why_relevant": "F-35军售，中东地缘",
+          "facts": [
+            "United States President Donald Trump’s administration has asked lawmakers to clear the sale of 48 F-35 fighter jets to Saudi Arabia for an estimated $24.3bn.",
+            "- list 2 of 3Saudi Arabia promises to respond to Houthi attacks ‘firmly’ - list 3 of 3Five killed as Saudi Arabia and Yemen’s Houthis trade attacks The administration said the sale of the jets, the most advanced fighter aircraft the US has, would “not alter the military balance i",
+            "Intensifying fighting between Saudi Arabia and the Houthis reportedly killed at least five people, including three children, on Thursday."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+      "latest_raw_title": "Trump administration approves sale of F-35 jets to Saudi Arabia",
+      "status": "更新中",
+      "key_facts": [
+        "United States President Donald Trump’s administration has asked lawmakers to clear the sale of 48 F-35 fighter jets to Saudi Arabia for an estimated $24.3bn.",
+        "- list 2 of 3Saudi Arabia promises to respond to Houthi attacks ‘firmly’ - list 3 of 3Five killed as Saudi Arabia and Yemen’s Houthis trade attacks The administration said the sale of the jets, the most advanced fighter aircraft the US has, would “not alter the military balance i",
+        "Intensifying fighting between Saudi Arabia and the Houthis reportedly killed at least five people, including three children, on Thursday."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/9/17/trump-administration-approves-sale-of-f-35-jets-to-saudi-arabia?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "evt_20260918_38e907948b85",
+      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_8869417abd27c24d0b3f75ae",
+          "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+          "raw_title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+          "why_relevant": "联合国指美战争罪",
+          "facts": [
+            "UN experts say grounds to believe US committed war crimes in Iran strikes - Published UN human rights experts say there are reasonable grounds to believe the US committed war crimes in two strikes in Iran that killed at least 177 civilians.",
+            "A new report by the Independent International Fact-Finding Mission on Iran, external said February's missile strikes on a primary school in Minab and a sports complex in Lamerd constituted indiscriminate attacks causing civilian deaths and damage to civilian infrastructure.",
+            "The US previously denied striking Lamerd and said it was investigating what happened in Minab."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "latest_raw_title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
+      "status": "更新中",
+      "key_facts": [
+        "UN experts say grounds to believe US committed war crimes in Iran strikes - Published UN human rights experts say there are reasonable grounds to believe the US committed war crimes in two strikes in Iran that killed at least 177 civilians.",
+        "A new report by the Independent International Fact-Finding Mission on Iran, external said February's missile strikes on a primary school in Minab and a sports complex in Lamerd constituted indiscriminate attacks causing civilian deaths and damage to civilian infrastructure.",
+        "The US previously denied striking Lamerd and said it was investigating what happened in Minab."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20260918_b8a49dc7f009",
+      "title": "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_d7527fdcb3557c8db75fc98a",
+          "title": "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says",
+          "raw_title": "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says",
+          "why_relevant": "欧盟拨33亿欧助乌军火",
+          "facts": [
+            "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says&nbsp;&nbsp;Reuters"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUEpxdW9QQURmU29jSHEwTk9JMzk1NFU3dVVQOWdNZF9PQlJldE83S1FyUmxIWlJlcXRLeV9nc2p3TGZCX29sUFdSSGhFeEFlTWNxZmdJMXdENnZGWHZ3RmxSYUpzRVJMeU5KbjJBOVJiSTBVRHFzMWpiQ1ZXOENBVkJyY2x4V0gtc2c2RVFtbGdtNzZBOGJ4UnZRUm1ZNXU1VDB6WUt6aUw1MmxlbHVmcVp3MXZSZw?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says",
+      "latest_raw_title": "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says",
+      "status": "更新中",
+      "key_facts": [
+        "EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says&nbsp;&nbsp;Reuters"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUEpxdW9QQURmU29jSHEwTk9JMzk1NFU3dVVQOWdNZF9PQlJldE83S1FyUmxIWlJlcXRLeV9nc2p3TGZCX29sUFdSSGhFeEFlTWNxZmdJMXdENnZGWHZ3RmxSYUpzRVJMeU5KbjJBOVJiSTBVRHFzMWpiQ1ZXOENBVkJyY2x4V0gtc2c2RVFtbGdtNzZBOGJ4UnZRUm1ZNXU1VDB6WUt6aUw1MmxlbHVmcVp3MXZSZw?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20260918_de338a258f08",
+      "title": "jamiepine/voicebox",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_4c45d1a38ea32196926da76b",
+          "title": "jamiepine/voicebox",
+          "raw_title": "jamiepine/voicebox",
+          "why_relevant": "开源AI声音克隆工具，低门槛玩法",
+          "facts": [
+            "The open-source AI voice studio.",
+            "Clone any voice.",
+            "Talk to agents in voices you own."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/jamiepine/voicebox"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "jamiepine/voicebox",
+      "latest_raw_title": "jamiepine/voicebox",
+      "status": "更新中",
+      "key_facts": [
+        "The open-source AI voice studio.",
+        "Clone any voice.",
+        "Talk to agents in voices you own."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/jamiepine/voicebox"
+      ]
+    },
+    {
+      "id": "evt_20260918_f832344703f6",
+      "title": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_63202179d6eb62b0ae3fe253",
+          "title": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on",
+          "raw_title": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on",
+          "why_relevant": "摩根大通原油终局观点",
+          "facts": [
+            "JPMorgan has thrown in the towel after attempting for months to forecast how and when the Iran war would end.",
+            "\"We simply don't know how to model the endgame.\" JPMorgan assumed at the start of the war that several economic redlines would force President Donald Trump into an agreement to open the Strait of Hormuz sometime in June, Kaneva said.",
+            "Those redlines included oil above $100, gas near $5 per gallon and 10-year Treasury yields above 5%."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSzYzNHdWWVhKTktiSDh6Vi0yOTdmYWZpUlBtUlAwWFNNZjNCdnNkdkxmUWFsUEFuZUl3LWRmTzd4UEdBRVFlODRqenMwUlVya1dNMjY0VkozQVo5VTJNMF9uc1lWRnZlU0pTczdHejBmX2pzWEZiWDhXaWpMZ3FvMm1YS09vVVJKdWo0bWJ1eFZwem5seElGMEFqbjhVQk5zZ1NtblRiT0NFS0dGYUVvQVlhLWtack9OdzROdGxn?oc=5",
+            "https://www.cnbc.com/2026/09/17/jpmorgan-gives-up-forecasting-iran-wars-end-as-trump-blows-past-economic-redlines-.html"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on",
+      "latest_raw_title": "JP Morgan says it has no clear oil market endgame as Iran conflict drags on",
+      "status": "更新中",
+      "key_facts": [
+        "JPMorgan has thrown in the towel after attempting for months to forecast how and when the Iran war would end.",
+        "\"We simply don't know how to model the endgame.\" JPMorgan assumed at the start of the war that several economic redlines would force President Donald Trump into an agreement to open the Strait of Hormuz sometime in June, Kaneva said.",
+        "Those redlines included oil above $100, gas near $5 per gallon and 10-year Treasury yields above 5%."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSzYzNHdWWVhKTktiSDh6Vi0yOTdmYWZpUlBtUlAwWFNNZjNCdnNkdkxmUWFsUEFuZUl3LWRmTzd4UEdBRVFlODRqenMwUlVya1dNMjY0VkozQVo5VTJNMF9uc1lWRnZlU0pTczdHejBmX2pzWEZiWDhXaWpMZ3FvMm1YS09vVVJKdWo0bWJ1eFZwem5seElGMEFqbjhVQk5zZ1NtblRiT0NFS0dGYUVvQVlhLWtack9OdzROdGxn?oc=5",
+        "https://www.cnbc.com/2026/09/17/jpmorgan-gives-up-forecasting-iran-wars-end-as-trump-blows-past-economic-redlines-.html"
+      ]
+    },
+    {
+      "id": "evt_20260918_9dcd0cd8f943",
+      "title": "A war-fatigued and anxious Russia picks a new parliament",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_ca3301e444d24ff20548d4b2",
+          "title": "A war-fatigued and anxious Russia picks a new parliament",
+          "raw_title": "A war-fatigued and anxious Russia picks a new parliament",
+          "why_relevant": "俄国内战争疲劳情绪",
+          "facts": [
+            "A war-fatigued and anxious Russia picks a new parliament September 17, 2026 Russians are increasingly anxious.",
+            "According to data by independent pollster ExtremeScan, 60% of Russians believe that the war against Ukraine has had negative consequences for their day-to-day lives.",
+            "\"Anxiety and war fatigue are driven by increasing uncertainty,\" Margarita Zavadskaya, a sociologist and senior research fellow at the Finnish Institute of International Affairs in Helsinki, told DW."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/a-war-fatigued-and-anxious-russia-picks-a-new-parliament/a-79312440?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "A war-fatigued and anxious Russia picks a new parliament",
+      "latest_raw_title": "A war-fatigued and anxious Russia picks a new parliament",
+      "status": "更新中",
+      "key_facts": [
+        "A war-fatigued and anxious Russia picks a new parliament September 17, 2026 Russians are increasingly anxious.",
+        "According to data by independent pollster ExtremeScan, 60% of Russians believe that the war against Ukraine has had negative consequences for their day-to-day lives.",
+        "\"Anxiety and war fatigue are driven by increasing uncertainty,\" Margarita Zavadskaya, a sociologist and senior research fellow at the Finnish Institute of International Affairs in Helsinki, told DW."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/a-war-fatigued-and-anxious-russia-picks-a-new-parliament/a-79312440?maca=en-rss-en-world-4025-xml-mrss"
+      ]
+    },
+    {
+      "id": "evt_20260918_c1a996ad842e",
+      "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+      "first_seen": "2026-09-18",
+      "updates": [
+        {
+          "date": "2026-09-18",
+          "article_id": "a1_66f1bad1b15acd7829b78214",
+          "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+          "raw_title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+          "why_relevant": "全球股市反弹，利率影响",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-09-18-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-09-18",
+      "latest_title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+      "latest_raw_title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5"
+      ]
     }
   ],
-  "updated_at": "2026-09-17T08:03:28.249067+08:00"
+  "updated_at": "2026-09-18T08:03:27.852030+08:00"
 }

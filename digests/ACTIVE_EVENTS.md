@@ -1,6 +1,82 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-17 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-18 08:07。
+
+## EU chief backs plan for Canada to become 'associate member'
+- 状态：更新中；首见 2026-09-17；最近更新 2026-09-18
+- 最新事实：His comments came a day after European Commission President Ursula von der Leyen proposed "opening the door" to Canada's associate membership, a status that does not currently exist.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260917_b7d64fb3382d`
+
+## OpenAI caught its models leaving notes to successors to hide bad behavior
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_233ec3eead21`
+
+## The AI Slowdown Debate Crashed Salesforce’s Party
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：Decked out in purple and plaid, Gwen Stefani belted her 2002 single “Underneath It All” to a packed conference center in San Francisco on Tuesday morning—but she was just the warm-up.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_7ce496d363fb`
+
+## Microsoft AI CEO says AI threats are real, and Anthropic is making it worse
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_81841be719a2`
+
+## Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：Here’s how the SEC wants it to work The SEC is giving tokenized stocks a regulated U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_9f6d9f8a4333`
+
+## US regulator opens markets to tokenised stock trading
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：US regulator opens markets to tokenised stock trading Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_b44c39e988b6`
+
+## Trump administration approves sale of F-35 jets to Saudi Arabia
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：United States President Donald Trump’s administration has asked lawmakers to clear the sale of 48 F-35 fighter jets to Saudi Arabia for an estimated $24.3bn.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_717c7b63406d`
+
+## UN experts say grounds to believe US committed war crimes in Iran strikes
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：UN experts say grounds to believe US committed war crimes in Iran strikes - Published UN human rights experts say there are reasonable grounds to believe the US committed war crimes in two strikes in Iran that killed at least 177 civilians.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_38e907948b85`
+
+## EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260918_b8a49dc7f009`
+
+## jamiepine/voicebox
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：The open-source AI voice studio.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_de338a258f08`
+
+## JP Morgan says it has no clear oil market endgame as Iran conflict drags on
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：JPMorgan has thrown in the towel after attempting for months to forecast how and when the Iran war would end.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260918_f832344703f6`
+
+## A war-fatigued and anxious Russia picks a new parliament
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 最新事实：A war-fatigued and anxious Russia picks a new parliament September 17, 2026 Russians are increasingly anxious.
+- 事件 ID：`evt_20260918_9dcd0cd8f943`
+
+## World stocks rebound, Treasury yields retreat after Fed, BoE decisions
+- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260918_c1a996ad842e`
 
 ## Fed defies Trump with first rate rise since 2023
 - 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
@@ -47,12 +123,6 @@
 - 最新事实：Advertisement US Congress passes bill targeting Russia’s leading energy buyers – China and India US House of Representatives clears ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Wash
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260917_368b07f8a347`
-
-## EU chief backs plan for Canada to become 'associate member'
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：EU chief backs plan for Canada to become 'associate member' - Published The president of the European Commission has backed proposals for Canada to become the EU's first "associate member".
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_b7d64fb3382d`
 
 ## Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say
 - 状态：更新中；首见 2026-09-17；最近更新 2026-09-17

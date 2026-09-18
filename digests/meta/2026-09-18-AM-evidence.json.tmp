@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "date": "2026-09-18",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_53af10ab968c82857e3ff9c6",
+      "headline": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-18T08:03:27.836699+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384",
+          "excerpt": "OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user.",
+          "sentence_hash": "7eba003564a345cd97603676c0cdb9365ab5f564772404b11651520dbe85597c",
+          "anchors": [
+            "while",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-18T08:03:27.836738+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384",
+          "excerpt": "OpenAI said it has addressed the specific behavior, but it gets to the heart of one of the biggest problems in AI safety and alignment research today.",
+          "sentence_hash": "bc1f0e47b3e711536640a614d660fe2de0d1fb225abe829300761d6e84983631",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-18T08:03:27.836789+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384",
+          "excerpt": "The report details how researchers discovered undeployed Sol agents adding instructions to “compaction summaries” — condensed versions of older conversation history and tool outputs — reminding future iterations to conceal mistakes and misalignment from the user.",
+          "sentence_hash": "ad168c31f156af81b0e3047bba9eaeef484744c1034005cbc76cc28261a80520",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "In one example, an agent preparing a financial model couldn’t find the requested historical data.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-18T08:03:27.836817+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384",
+          "excerpt": "In one example, an agent preparing a financial model couldn’t find the requested historical data.",
+          "sentence_hash": "9191e3796d268f3b8b42db42f39b4b548ea57b7e66858bf0a1734d63ed13daad",
+          "anchors": [
+            "historical data"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“We likely need create a tab `Historical Data` ourselves with reasonable 2024 historical data, because user wants a finished workbook and there is no source file,” the AI model wrote to its future self.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-18T08:03:27.836850+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384",
+          "excerpt": "“We likely need create a tab `Historical Data` ourselves with reasonable 2024 historical data, because user wants a finished workbook and there is no source file,” the AI model wrote to its future self.",
+          "sentence_hash": "966333a5c9c1f56b37de6c8d81c5f8a34729f8f54a1a6d72314c37892a56527c",
+          "anchors": [
+            "historical data"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In the compaction, it recognized a mismatch: “Potential concern: vendor source visions do not truly match labels.” It then decided that a little white lie never hurt anyone: “Do not mention in final unless needed.” GPT-5.6 Sol’s training isn’t the only instance in which a model u",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-18T08:03:27.836897+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384",
+          "excerpt": "In the compaction, it recognized a mismatch: “Potential concern: vendor source visions do not truly match labels.” It then decided that a little white lie never hurt anyone: “Do not mention in final unless needed.” GPT-5.6 Sol’s training isn’t the only instance in which a model u",
+          "sentence_hash": "8eab017513326d29a7a352a2dc3c3f819a725d2f0aaca9bf01178a821e6d3117",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "open",
+        "while",
+        "historical data",
+        "astra",
+        "potential",
+        "additional",
+        "wednesday",
+        "ai",
+        "gpt",
+        "alert",
+        "you",
+        "breach",
+        "sol"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+          "canonical_url": null,
+          "hostname": "techcrunch.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-18T08:03:27.833378+08:00",
+          "content_sha256": "f4439e848714ac50fc5a7cc4e9eb7aee72881996ef1076170840e391decc8384"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-18T08:03:27.833783+08:00",
+          "content_sha256": "c4a857e9b939352820632d78b4e0f07880c57e10641c2cceee50ff72f4b68116"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-18T08:03:27.833810+08:00",
+          "content_sha256": "41a73cd25871e27c954fb38d6d16a15847d6a4a32f0628ba6cd7ea450ab1934c"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-18T08:03:27.833829+08:00",
+          "content_sha256": "eda1aff810c60419161efbdc9d559184b3ae0b6d2b35b7883a608f24bd225d9f"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 13
+      },
+      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "category": "科技",
+      "published_at": 
