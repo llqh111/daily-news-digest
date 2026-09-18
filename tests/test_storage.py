@@ -4,6 +4,29 @@ from datetime import datetime, timedelta
 from digest.storage import save_evidence_sidecar, save_quality_report, prune_quality_artifacts, mark_artifact_bundle_status
 from digest.config import TZ
 
+
+def test_collected_datetime_survives_evidence_save_and_weekly_read(tmp_path, monkeypatch):
+    from digest.evidence import build_evidence_cards
+    from digest.weekly import collect_weekly_items
+
+    monkeypatch.chdir(tmp_path)
+    now = datetime.now(TZ)
+    session = "AM" if 4 <= now.hour < 16 else "PM"
+    run_key = f"{now:%Y-%m-%d}-{session}"
+    articles = [{"title": "Example release", "source": "Example",
+                 "link": "https://example.com/release", "published": now}]
+    build_evidence_cards(articles)
+    assert save_evidence_sidecar(articles)
+    assert save_quality_report({"total_items": 1})
+    (tmp_path / "digests" / f"{run_key}.md").write_text("digest", encoding="utf-8")
+    (tmp_path / "sent_articles.json").write_text(json.dumps({"delivery_runs": {
+        run_key: {"delivered_at": now.isoformat(), "artifact_bundle_status": "present"}
+    }}), encoding="utf-8")
+    items = collect_weekly_items(tmp_path, now)
+    assert len(items) == 1
+    assert items[0]["published_at"] == now.isoformat()
+    assert not list((tmp_path / "digests" / "meta").glob("*.tmp"))
+
 def test_atomic_write_and_prune(tmp_path, monkeypatch):
     # Mock dirs
     meta_dir = tmp_path / "digests" / "meta"

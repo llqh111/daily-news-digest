@@ -390,8 +390,10 @@ def save_evidence_sidecar(articles: list[dict]) -> bool:
             "items": items
         }
 
+        # Serialize before opening the temporary file so failures leave no partial JSON.
+        encoded = json.dumps(data, ensure_ascii=False, indent=2)
         with open(path + ".tmp", "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write(encoded)
         os.replace(path + ".tmp", path)
         log.info(f"已保存 evidence sidecar：{len(items)} 条 → {path}")
         return True
