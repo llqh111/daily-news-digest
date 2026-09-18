@@ -4,19 +4,21 @@ from __future__ import annotations
 
 import logging
 import re
-from typing import Any
-
 from .config import (
     EVIDENCE_VALIDATION_ENABLED,
     EVIDENCE_VALIDATION_MODE,
     UNSUPPORTED_NUMBER_THRESHOLD,
 )
-from .factcheck import extract_numerical_claims
 
 log = logging.getLogger(__name__)
 
 _ARTICLE_ID_COMMENT_RE = re.compile(r"^[ \t]*<!--\s*article_id:[^>]+-->\s*\r?\n?", re.MULTILINE)
 _MAIN_ITEM_END_RE = re.compile(r"(?m)^##\s")
+_NUMBER_RE = re.compile(
+    r"(?<![\d.])(\$?\d{1,3}(?:,\d{3})*(?:\.\d+)?|\$?\d+(?:\.\d+)?)\s*"
+    r"(trillion|billion|million|thousand|亿|万|千|美元|元|人|架|%|percent)",
+    re.IGNORECASE,
+)
 
 
 def parse_main_items(markdown_content: str) -> list[dict]:
@@ -69,34 +71,22 @@ def extract_and_normalize_numbers(text: str) -> list[float]:
     从文本提取数字并进行规范化，转成浮点数，方便进行比较。
     依赖 factcheck.extract_numerical_claims
     """
-    claims = extract_numerical_claims(text)
     nums = []
-
-    for c in claims:
-        if c["type"] in ("数量", "金额", "百分比"):
-            val_str = c["claim"]
-            # 提取数字部分
-            m = re.search(r"(\d+(?:\.\d+)?)", val_str.replace(",", ""))
-            if m:
-                try:
-                    num_val = float(m.group(1))
-
-                    # 处理量级
-                    val_lower = val_str.lower()
-                    if "billion" in val_lower or "十亿" in val_lower:
-                        num_val *= 1e9
-                    elif "million" in val_lower or "百万" in val_lower:
-                        num_val *= 1e6
-                    elif "trillion" in val_lower or "万亿" in val_lower:
-                        num_val *= 1e12
-                    elif "万" in val_lower:
-                        num_val *= 1e4
-                    elif "亿" in val_lower:
-                        num_val *= 1e8
-
-                    nums.append(num_val)
-                except ValueError:
-                    pass
+    for match in _NUMBER_RE.finditer(text):
+        raw_number, unit = match.groups()
+        number = float(raw_number.replace(",", "").lstrip("$"))
+        unit = (unit or "").lower()
+        if unit == "trillion" or unit == "万亿":
+            number *= 1e12
+        elif unit == "billion" or unit == "亿":
+            number *= 1e9 if unit == "billion" else 1e8
+        elif unit == "million":
+            number *= 1e6
+        elif unit == "thousand" or unit == "千":
+            number *= 1e3
+        elif unit == "万":
+            number *= 1e4
+        nums.append(number)
     return nums
 
 
@@ -113,9 +103,12 @@ def validate_main_digest_evidence(markdown_content: str, evidence_cards: list[di
 
     report_items = []
     total_unsupported = 0
+    missing_evidence = 0
+    seen_ids = set()
 
     for item in items:
         aid = item["article_id"]
+        seen_ids.add(aid)
         content = item["content"]
 
         # 提取成稿数字
@@ -124,6 +117,7 @@ def validate_main_digest_evidence(markdown_content: str, evidence_cards: list[di
         # 找对应的 card
         card = card_map.get(aid)
         if not card:
+            missing_evidence += 1
             report_items.append({
                 "article_id": aid,
                 "has_unsupported_numbers": False,
@@ -164,9 +158,13 @@ def validate_main_digest_evidence(markdown_content: str, evidence_cards: list[di
             "unsupported_list": unsupported
         })
 
+    unmatched_evidence_ids = sorted(set(card_map) - seen_ids)
     return {
         "total_items": len(items),
         "items_with_unsupported_numbers": total_unsupported,
+        "items_with_missing_evidence": missing_evidence,
+        "unmatched_evidence_ids": unmatched_evidence_ids,
+        "validation_complete": not missing_evidence and not unmatched_evidence_ids,
         "unsupported_ratio": total_unsupported / len(items) if items else 0.0,
         "items": report_items
     }

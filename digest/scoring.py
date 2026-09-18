@@ -133,11 +133,15 @@ def same_story(words_a: set[str], words_b: set[str],
         # 双方都提取到了专有名词
         shared_pn = pn_a & pn_b
         if shared_pn:
-            # 共享专有名词 → 极大加分，降低普通词阈值到 2
-            if len(shared) >= 2:
+            # Shared organizations alone are not a story. Require one shared
+            # event term in addition to the names (for example, "rate" or
+            # "counteroffensive"), so two unrelated Microsoft stories stay apart.
+            name_words = set().union(*(set(name.split()) for name in pn_a | pn_b))
+            event_words_a = {word.rstrip("s") for word in words_a - name_words}
+            event_words_b = {word.rstrip("s") for word in words_b - name_words}
+            if event_words_a & event_words_b:
                 return True
-            # 关键词不够但专有名高度重合也算
-            return len(shared_pn) >= 2
+            return False
         else:
             # 双方都有专有名词但不共享 → 几乎肯定是不同事件
             # 提高阈值到 4，且要求占比较小标题 ≥60%
@@ -173,24 +177,25 @@ def cluster_and_boost(articles: list[dict]) -> list[dict]:
     # 先按原始分数从高到低，方便后面在候选里挑最高分
     articles = sorted(articles, key=lambda a: a["score"], reverse=True)
 
-    clusters: list[dict] = []   # 每个元素：{"members": [...], "words": 关键词集, "proper_nouns": 专有名词集}
+    clusters: list[dict] = []
     for art in articles:
         words = title_keywords(art["title"])
         pn = extract_proper_nouns(art["title"])
         placed = False
         for c in clusters:
-            if same_story(words, c["words"], pn, c.get("proper_nouns")):
-                c["members"].append(art)
-                c["words"] |= words
-                c["proper_nouns"] |= pn
+            # Each member must independently match. Comparing against a union of
+            # earlier keywords lets unrelated stories join through a word chain.
+            if all(same_story(words, member["words"], pn, member["proper_nouns"])
+                   for member in c["members"]):
+                c["members"].append({"article": art, "words": words, "proper_nouns": pn})
                 placed = True
                 break
         if not placed:
-            clusters.append({"members": [art], "words": words, "proper_nouns": pn})
+            clusters.append({"members": [{"article": art, "words": words, "proper_nouns": pn}]})
 
     reps: list[dict] = []
     for c in clusters:
-        members = c["members"]
+        members = [member["article"] for member in c["members"]]
         size = len(members)
 
         # 代表作：优先在「非参考源」里挑分最高的；没有非参考源才退回全部
@@ -323,30 +328,18 @@ def merge_similar_clusters(articles: list[dict], threshold: float | None = None,
     if not vecs or len(vecs) != len(articles):
         return articles
 
-    # ── 并查集：把相似度 ≥ 阈值的代表作并到同一组（防 A~B、B~C 漏并）──
-    n = len(articles)
-    parent = list(range(n))
+    # Complete-link groups: every story in a group must clear the threshold
+    # with every other story. This rejects A~B~C similarity chains where A and C
+    # are actually separate events.
+    groups: list[list[int]] = []
+    for index in range(len(articles)):
+        for group in groups:
+            if all(_l2_dot(vecs[index], vecs[other]) >= threshold for other in group):
+                group.append(index)
+                break
+        else:
+            groups.append([index])
 
-    def find(x: int) -> int:
-        while parent[x] != x:
-            parent[x] = parent[parent[x]]
-            x = parent[x]
-        return x
-
-    def union(a: int, b: int) -> None:
-        ra, rb = find(a), find(b)
-        if ra != rb:
-            parent[rb] = ra
-
-    for i in range(n):
-        for j in range(i + 1, n):
-            if _l2_dot(vecs[i], vecs[j]) >= threshold:
-                union(i, j)
-
-    groups: dict[int, list[dict]] = {}
-    for i in range(n):
-        groups.setdefault(find(i), []).append(articles[i])
-
-    merged = [_merge_group(g) for g in groups.values()]
+    merged = [_merge_group([articles[index] for index in group]) for group in groups]
     merged.sort(key=lambda a: a["score"], reverse=True)
     return merged

@@ -165,7 +165,17 @@ def _prepend_selection_table(summary: str, articles: list[dict]) -> str:
 
 def _prepend_one_minute(summary: str, articles: list[dict]) -> str:
     """Put the three most important changes before the long-form digest."""
-    picked = sorted(articles, key=lambda article: article.get("ai_score", article.get("score", 0)), reverse=True)[:3]
+    ranked = sorted(articles, key=lambda article: article.get("ai_score", article.get("score", 0)), reverse=True)
+    picked = []
+    for category in ("国际", "科技", "财经"):
+        candidate = next((article for article in ranked if article.get("category") == category), None)
+        if candidate:
+            picked.append(candidate)
+    for article in ranked:
+        if len(picked) == 3:
+            break
+        if article not in picked:
+            picked.append(article)
     if not picked:
         return summary
     lines = ["## ⏱️ 1 分钟先读", ""]
@@ -180,15 +190,13 @@ def _prepend_one_minute(summary: str, articles: list[dict]) -> str:
         title_match = re.search(r"\*\*(.*?)\*\*", section, flags=re.S)
         title = title_match.group(1).strip() if title_match else (article.get("zh") or article.get("title", ""))
         fact_match = re.search(r"【核心事实】\*\*：?\s*(.*?)(?=\n- \*\*【|\n> |\Z)", section, flags=re.S)
-        event = article.get("event", {})
         new_fact = fact_match.group(1).strip() if fact_match else article.get("title", "")
-        observation = "；".join(event.get("open_questions", []) or ["后续是否出现可验证进展"])
-        label = "持续事件进展" if event.get("is_update") else "今日新主线"
+        impact_match = re.search(r"【后市/影响】\*\*：?\s*(.*?)(?=\n> |\Z)", section, flags=re.S)
+        why = impact_match.group(1).strip() if impact_match else "值得关注的当日变化"
         lines.extend([
             f"### {index}. {title}",
             f"- **今天新增**：{new_fact}",
-            f"- **为什么重要**：{article.get('ai_reason') or label}",
-            f"- **接下来观察**：{observation}",
+            f"- **为什么重要**：{why}",
             "",
         ])
     return "\n".join(lines) + summary
