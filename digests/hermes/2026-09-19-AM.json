@@ -1,0 +1,1258 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-09-19-AM",
+  "date": "2026-09-19",
+  "session": "AM",
+  "delivered_at": "2026-09-19T08:08:41.058128+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-09-19T00:08:41.059432+00:00",
+  "quality": {
+    "total_items": 12,
+    "items_with_unsupported_numbers": 2,
+    "unsupported_ratio": 0.16666666666666666
+  },
+  "items": [
+    {
+      "article_id": "a1_9b4e9df122e4545c68cc4d4b",
+      "title": "China makes progress in 3-nm chips without advanced lithography tools",
+      "url": "https://www.scmp.com/tech/tech-war/article/3368042/china-makes-progress-3-nm-chips-without-advanced-lithography-tools?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Chinese researchers have made early strides in pushing semiconductor processing nodes below 3-nm using older lithography technology, as more advanced extreme ultraviolet lithography (EUV) tools from ASML remain blocked under US sanctions.\nThe breakthrough marks the latest progress in China’s drive to chart an alternative path to advanced chipmaking amid US export restrictions. Under current export control rules, Dutch equipment giant ASML is barred from selling its state-of-the-art EUV machines.",
+      "category": "国际",
+      "published_at": "2026-09-19T00:00:21+00:00",
+      "why_relevant": "中国3nm芯片战略突破",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "China makes progress in 3-nm chips without advanced lithography tools The breakthrough by the Chinese Academy of Sciences is far from mass production but shows China is tracking the road map of global leaders Chinese researchers have made early strides in pushing semiconductor pr",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.489427+08:00",
+          "content_sha256": "3ccdfcbb88674d837e2301ceb7d487af300093780f1ca0c49991c742238c7d2c",
+          "excerpt": "China makes progress in 3-nm chips without advanced lithography tools The breakthrough by the Chinese Academy of Sciences is far from mass production but shows China is tracking the road map of global leaders Chinese researchers have made early strides in pushing semiconductor pr",
+          "sentence_hash": "aaaaf0ab6f1c161ad45cb5f2a678a0ef94f8420d4fdf010a8ab00176c76c4691",
+          "anchors": [
+            "under",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In the latest development, state-backed Chinese Academy of Sciences (CAS) has established a preliminary gate-all-around (GAA) device development path using the less advanced deep ultraviolet (DUV) lithography, Taiwanese media Digitimes reported on Thursday, citing a speech by Ye ",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.489498+08:00",
+          "content_sha256": "3ccdfcbb88674d837e2301ceb7d487af300093780f1ca0c49991c742238c7d2c",
+          "excerpt": "In the latest development, state-backed Chinese Academy of Sciences (CAS) has established a preliminary gate-all-around (GAA) device development path using the less advanced deep ultraviolet (DUV) lithography, Taiwanese media Digitimes reported on Thursday, citing a speech by Ye ",
+          "sentence_hash": "281daba41cb5553ba280335e1baf4a04a0be7d959314df42f607f675ac1d7f99",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Ye said the institute had finished early integration for stacked nanosheet-channel GAA CMOS transistors using DUV tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.489524+08:00",
+          "content_sha256": "3ccdfcbb88674d837e2301ceb7d487af300093780f1ca0c49991c742238c7d2c",
+          "excerpt": "Ye said the institute had finished early integration for stacked nanosheet-channel GAA CMOS transistors using DUV tools.",
+          "sentence_hash": "ac62ac5d05858e6996067ee8751f480d3971ba55eb2ea177020ff68a94051503",
+          "anchors": [
+            "institute",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "under",
+        "taiwanese",
+        "asml",
+        "mos",
+        "imecas",
+        "thursday",
+        "gaa",
+        "digitimes",
+        "cmos",
+        "china",
+        "us",
+        "duv",
+        "cas",
+        "sciences",
+        "chinese",
+        "euv",
+        "institute",
+        "chinese academy",
+        "microelectronics",
+        "ye tianchun",
+        "dutch"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 21
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_290c9b6eeb9806b9793208b5",
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "publisher": "GitHub Trending",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.https://code.claude.com/docs/en/overviewClaude Code \n  \nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- a",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI编程核心工具，必读",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.490373+08:00",
+          "content_sha256": "ae61357ba2e7bde2ea6d163ef80ca42427d833b0525f41a476e74aa69b8073ec",
+          "excerpt": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.",
+          "sentence_hash": "71bff37feeb13979d60045a643eeaf27e8ebd3d41815d3604a2cb0ad90aeaf9d",
+          "anchors": [
+            "git",
+            "code"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Use it in your terminal, IDE, or tag @claude on Github.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.490399+08:00",
+          "content_sha256": "ae61357ba2e7bde2ea6d163ef80ca42427d833b0525f41a476e74aa69b8073ec",
+          "excerpt": "Use it in your terminal, IDE, or tag @claude on Github.",
+          "sentence_hash": "15390b467da548d7fcb7ee591f4b8969736da38008243398d0dc7a8537ca7b3e",
+          "anchors": [
+            "hub",
+            "claude"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Note Installation via npm is deprecated.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.490420+08:00",
+          "content_sha256": "ae61357ba2e7bde2ea6d163ef80ca42427d833b0525f41a476e74aa69b8073ec",
+          "excerpt": "Note Installation via npm is deprecated.",
+          "sentence_hash": "96a04bc659280e9dc543349e1058030eb61d8f0830878d0aaff64d65f7d3b444",
+          "anchors": [
+            "deprecated",
+            "npm"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Use one of the recommended methods below.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.490437+08:00",
+          "content_sha256": "ae61357ba2e7bde2ea6d163ef80ca42427d833b0525f41a476e74aa69b8073ec",
+          "excerpt": "Use one of the recommended methods below.",
+          "sentence_hash": "e0788019eb70c2a5dda251cee115e36005998d1d2f4345724bee3196385063c8",
+          "anchors": [
+            "recommended"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "For more installation options, uninstall steps, and troubleshooting, see the setup documentation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.490462+08:00",
+          "content_sha256": "ae61357ba2e7bde2ea6d163ef80ca42427d833b0525f41a476e74aa69b8073ec",
+          "excerpt": "For more installation options, uninstall steps, and troubleshooting, see the setup documentation.",
+          "sentence_hash": "20e1c1fdca613db5d47a5b34d7c245987fe655a4f21c713a58df4b2b9698f88d",
+          "anchors": [
+            "see"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Install Claude Code: MacOS/Linux (Recommended): curl -fsSL https://claude.ai/install.sh | bashHomebrew (MacOS/Linux): brew install --cask claude-code Windows (Recommended): irm https://claude.ai/install.ps1 | iex WinGet (Windows): winget install Anthropic.ClaudeCode NPM (Deprec",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.490499+08:00",
+          "content_sha256": "ae61357ba2e7bde2ea6d163ef80ca42427d833b0525f41a476e74aa69b8073ec",
+          "excerpt": "- Install Claude Code: MacOS/Linux (Recommended): curl -fsSL https://claude.ai/install.sh | bashHomebrew (MacOS/Linux): brew install --cask claude-code Windows (Recommended): irm https://claude.ai/install.ps1 | iex WinGet (Windows): winget install Anthropic.ClaudeCode NPM (Deprec",
+          "sentence_hash": "88a8a84e7e7d340d203244b9ab3a44b1a8f95999d13b5090813bd00c73a02915",
+          "anchors": [
+            "claude",
+            "anthropic",
+            "code",
+            "win",
+            "get",
+            "npm"
+          ]
+        }
+      ],
+      "entities": [
+        "service",
+        "code",
+        "git",
+        "windows",
+        "github",
+        "use",
+        "get",
+        "note\ninstallation",
+        "npm",
+        "privacy policy",
+        "claude",
+        "claude developers discord",
+        "anthropic",
+        "navigate",
+        "install claude code",
+        "ide",
+        "recommended",
+        "learn",
+        "linux",
+        "mac",
+        "join",
+        "hub",
+        "deprecated",
+        "homebrew",
+        "for",
+        "win",
+        "claude code",
+        "see",
+        "commercial terms"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_1a19cbcacd9d46c6b75e78fb",
+      "title": "Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3368079/trump-signs-bill-targeting-chinas-russia-energy-imports-days-xis-us-visit?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "US President Donald Trump on Friday signed a new sanctions bill into law that targets Russia’s leading energy buyers – China and India – just days before Chinese President Xi Jinping arrives in Washington for a state visit.\nThe White House issued a brief statement, saying that the President had “signed into law” the “Lindsey O. Graham Sanctioning Russia and Iran Act of 2026,” which “authorises and expands statutory sanctions, tariffs, and prohibitions on Russia and extends existing sanctions on.",
+      "category": "国际",
+      "published_at": "2026-09-18T22:50:05+00:00",
+      "why_relevant": "中美博弈升级，影响大",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit US president gives backing to ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Washingto",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.491291+08:00",
+          "content_sha256": "be08de1e5bc3ee93426cd47361469e3aed46bc81a43b7d3db09a50e2b8e67e55",
+          "excerpt": "Advertisement Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit US president gives backing to ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Washingto",
+          "sentence_hash": "e85fe1770d09e60ee1b3353f4965b78c1db0d5fa273210560ad28de5cb2f3890",
+          "anchors": [
+            "president",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The White House issued a brief statement, saying that the President had “signed into law” the “Lindsey O.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.491326+08:00",
+          "content_sha256": "be08de1e5bc3ee93426cd47361469e3aed46bc81a43b7d3db09a50e2b8e67e55",
+          "excerpt": "The White House issued a brief statement, saying that the President had “signed into law” the “Lindsey O.",
+          "sentence_hash": "addb7f558bceaba7fea789d023dc6ab8001c488d9854172716cef48c61ba1d54",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Graham Sanctioning Russia and Iran Act of 2026,” which “authorises and expands statutory sanctions, tariffs, and prohibitions on Russia and extends existing sanctions on Iran.” The US House of Representatives passed the bill by a comfortable 262-159 vote on Wednesday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.491369+08:00",
+          "content_sha256": "be08de1e5bc3ee93426cd47361469e3aed46bc81a43b7d3db09a50e2b8e67e55",
+          "excerpt": "Graham Sanctioning Russia and Iran Act of 2026,” which “authorises and expands statutory sanctions, tariffs, and prohibitions on Russia and extends existing sanctions on Iran.” The US House of Representatives passed the bill by a comfortable 262-159 vote on Wednesday.",
+          "sentence_hash": "201596722fa5466cf8fb6321993fbd48855f10650b7c81370e32e1826a1a49f6",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Senate cleared the bill last month by an overwhelming 86-11 vote.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.491390+08:00",
+          "content_sha256": "be08de1e5bc3ee93426cd47361469e3aed46bc81a43b7d3db09a50e2b8e67e55",
+          "excerpt": "The Senate cleared the bill last month by an overwhelming 86-11 vote.",
+          "sentence_hash": "1b84b3711ff85f7941a7e4d4edc2a908c759836ff33005fddef3f61565f12c98",
+          "anchors": [
+            "min"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The legislation, originally backed by the late Republican Senator Lindsey Graham, who died in July, gives Trump the authority to impose tariffs of up to 100 per cent on the five biggest buyers of Russian oil and natural gas, adding another layer to his tariff-driven approach to f",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.491431+08:00",
+          "content_sha256": "be08de1e5bc3ee93426cd47361469e3aed46bc81a43b7d3db09a50e2b8e67e55",
+          "excerpt": "The legislation, originally backed by the late Republican Senator Lindsey Graham, who died in July, gives Trump the authority to impose tariffs of up to 100 per cent on the five biggest buyers of Russian oil and natural gas, adding another layer to his tariff-driven approach to f",
+          "sentence_hash": "a5bbadebde84c599792110d01f2deba8232cb445487e54b3d27bec236d7f763a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "friday",
+        "ai",
+        "advertisement\ntrump",
+        "listen\nnayan sethin washington",
+        "president",
+        "iran act",
+        "india",
+        "lindsey graham sanctioning russia",
+        "min",
+        "representatives",
+        "chinese president xi jinping",
+        "graham sanctioning russia",
+        "china",
+        "us",
+        "washington",
+        "select voice\nselect speed",
+        "the white house",
+        "lindsey",
+        "the senate",
+        "trump",
+        "republican senator lindsey graham",
+        "russian",
+        "house",
+        "president donald trump",
+        "july",
+        "wednesday",
+        "iran",
+        "russia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 28
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_d01e537281dcfd568b0f6a5f",
+      "title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "publisher": "GitHub Trending",
+      "summary": "Production-grade engineering skills for AI coding agents.https://skills.addy.ieAgent Skills \nProduction-grade engineering skills for AI coding agents. \nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. \n \n \n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌─────",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "编码代理工程技能，实用",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Production-grade engineering skills for AI coding agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.492636+08:00",
+          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
+          "excerpt": "Production-grade engineering skills for AI coding agents.",
+          "sentence_hash": "bff6bab7ce46369f72ec4e98cf0bf4d66aef4aad2ede075d53538a982682838d",
+          "anchors": [
+            "skills"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.492667+08:00",
+          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
+          "excerpt": "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software.",
+          "sentence_hash": "78f48d6a44998f6b1bd573ebf9b26fc074b8b802bff3f7dec265488b87ffa9c5",
+          "anchors": [
+            "gate",
+            "ui",
+            "code",
+            "build",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │ QA │ ───▶ │ Go │ │Refine│ │ PRD │ │ Impl │ │Debug │ │ Gate │ │ Live │ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ /spec /",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.492731+08:00",
+          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
+          "excerpt": "DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │ QA │ ───▶ │ Go │ │Refine│ │ PRD │ │ Impl │ │Debug │ │ Gate │ │ Live │ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ /spec /",
+          "sentence_hash": "b0cf286dba324da7967e7ec8d044acb594d0825c92b81f67d6671af90d7b7222",
+          "anchors": [
+            "test",
+            "ui",
+            "spec",
+            "review",
+            "build",
+            "plan",
+            "ship"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Each one activates the right skills automatically.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.492753+08:00",
+          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
+          "excerpt": "Each one activates the right skills automatically.",
+          "sentence_hash": "667521932b132627edcd33e627a87fb4d0f7ab90ac93f5eef948d5619a97365a",
+          "anchors": [
+            "skills"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Want fewer manual steps once the spec exists?",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.492771+08:00",
+          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
+          "excerpt": "Want fewer manual steps once the spec exists?",
+          "sentence_hash": "a38311ee0ec3550f2aad0a38dd87ed20ddb921413a1cdc3f66985d4f14d8fd84",
+          "anchors": [
+            "spec"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "/build auto generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.492804+08:00",
+          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
+          "excerpt": "/build auto generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously.",
+          "sentence_hash": "762c3a9fdc24e71891ef38f78d19373f29c3006d84b8bf19f656722de729a747",
+          "anchors": [
+            "impl",
+            "ui",
+            "build",
+            "plan"
+          ]
+        }
+      ],
+      "entities": [
+        "gate",
+        "ai",
+        "ssh",
+        "production",
+        "want",
+        "ui",
+        "spec",
+        "code",
+        "codex",
+        "skills",
+        "plan",
+        "copilot",
+        "live",
+        "prd",
+        "use",
+        "pick",
+        "idea",
+        "https",
+        "impl",
+        "api",
+        "url",
+        "each",
+        "build",
+        "review",
+        "hub",
+        "fastest",
+        "prefer",
+        "marketplace",
+        "debug",
+        "define",
+        "qa",
+        "test",
+        "installing",
+        "cli",
+        "refine",
+        "cursor",
+        "git",
+        "cline",
+        "these",
+        "verify",
+        "claude code",
+        "ship"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_42c6dc9e1c8787e01e54a5b3",
+      "title": "Quoting Thariq Shihipar",
+      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+      "publisher": "Simon Willison",
+      "summary": "We're adding support for AGENTS.md to Claude Code. \nStarting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.\nAGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness.\nThis is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.\nYou can see the source for the mod here!\n&mdash; Thariq Shihipar, there are more mods here\n\n    Tags: thari",
+      "category": "科技",
+      "published_at": "2026-09-18T19:09:27+00:00",
+      "why_relevant": "Claude Code配置标准更新",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "18th September 2026 We're adding support for AGENTS.md to Claude Code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.493324+08:00",
+          "content_sha256": "5ce26d671333b883f469a59cc76cd4ce0994aae0082f637e466ee0471575e679",
+          "excerpt": "18th September 2026 We're adding support for AGENTS.md to Claude Code.",
+          "sentence_hash": "ca611641b12563357cda510a5775fbd6d9818da5e2205922b1ab98847395986e",
+          "anchors": [
+            "September 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.493362+08:00",
+          "content_sha256": "5ce26d671333b883f469a59cc76cd4ce0994aae0082f637e466ee0471575e679",
+          "excerpt": "This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too.",
+          "sentence_hash": "82311a99d834252f90ca1e69190ca9f688ed8c0674e54e9cf47711e69d718bcd",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "— Thariq Shihipar, there are more mods here Recent articles - Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026 - OpenAI agents attacked RubyGems back in May - 12th September 2026 - Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th ",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.493409+08:00",
+          "content_sha256": "5ce26d671333b883f469a59cc76cd4ce0994aae0082f637e466ee0471575e679",
+          "excerpt": "— Thariq Shihipar, there are more mods here Recent articles - Generating running routes with GPT-6 Astra and ChatGPT Work - 12th September 2026 - OpenAI agents attacked RubyGems back in May - 12th September 2026 - Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th ",
+          "sentence_hash": "3e1380d04e289f6c7d2c65ff06e05cdf03a38f41f9378c872219246a36a5c9b2",
+          "anchors": [
+            "September 20",
+            "agents"
+          ]
+        }
+      ],
+      "entities": [
+        "stokes millennium prize problem",
+        "recent",
+        "astra",
+        "chat",
+        "starting",
+        "generating",
+        "thariq shihipar",
+        "claude",
+        "gpt",
+        "work",
+        "navier",
+        "september",
+        "open",
+        "agents",
+        "ruby",
+        "claude code",
+        "you",
+        "some",
+        "gems"
+      ],
+      "numbers": [],
+      "dates": [
+        "September 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 20
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_01f4fd7ff0c585a5060693ec",
+      "title": "Security researchers used Claude to help them hack into OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "publisher": "The Verge",
+      "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-09-18T15:30:16+00:00",
+      "why_relevant": "AI安全实战高热度",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic’s Claude Opus 4.8 and 5, The Wall Street Journal reports.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.494360+08:00",
+          "content_sha256": "72e7b5441a6591dd950eb05389ce97bf917193d885f31257f41d0ebe4c48f0af",
+          "excerpt": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic’s Claude Opus 4.8 and 5, The Wall Street Journal reports.",
+          "sentence_hash": "7b112d95caaffe6cadd0b399ac2982b2a6dfdec7f9e1868278b19c4ff483350a",
+          "anchors": [
+            "security"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They were able to access OpenAI’s GitHub repository, called “Monorepo,” which reportedly contains “OpenAI’s algorithmic secrets,” according to The Wall Street Journal’s sources.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.494401+08:00",
+          "content_sha256": "72e7b5441a6591dd950eb05389ce97bf917193d885f31257f41d0ebe4c48f0af",
+          "excerpt": "They were able to access OpenAI’s GitHub repository, called “Monorepo,” which reportedly contains “OpenAI’s algorithmic secrets,” according to The Wall Street Journal’s sources.",
+          "sentence_hash": "01403b4f2502218ba530caccf10b52bb895152e9ee34c61dc5521b6301ddfacd",
+          "anchors": [
+            "according",
+            "rce"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Security researchers used Claude to help them hack into OpenAI A three-person team of researchers used a corrupted image file and forum software to hack into OpenAI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.494432+08:00",
+          "content_sha256": "72e7b5441a6591dd950eb05389ce97bf917193d885f31257f41d0ebe4c48f0af",
+          "excerpt": "Security researchers used Claude to help them hack into OpenAI A three-person team of researchers used a corrupted image file and forum software to hack into OpenAI.",
+          "sentence_hash": "e23f8b796e74af0d3a40e2719b9163c1553bbd1e81d9c408d1ed7023ccb7021c",
+          "anchors": [
+            "image"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "They stopped short of accessing internal code in Monorepo themselves, but sent a pull request from an employee’s Codex account to prove they gained access.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.494468+08:00",
+          "content_sha256": "72e7b5441a6591dd950eb05389ce97bf917193d885f31257f41d0ebe4c48f0af",
+          "excerpt": "They stopped short of accessing internal code in Monorepo themselves, but sent a pull request from an employee’s Codex account to prove they gained access.",
+          "sentence_hash": "ce32619628dc5c7783a9a758f8ef5b8ffb6930aebc0a4ff021e43aa95f5f5750",
+          "anchors": [
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They were able to get in through Discourse, the third-party service that hosts OpenAI’s community forums, by exploiting an issue with the system it uses to process HEIF images.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.494503+08:00",
+          "content_sha256": "72e7b5441a6591dd950eb05389ce97bf917193d885f31257f41d0ebe4c48f0af",
+          "excerpt": "They were able to get in through Discourse, the third-party service that hosts OpenAI’s community forums, by exploiting an issue with the system it uses to process HEIF images.",
+          "sentence_hash": "1eefb4b0831be8e47e4cb0f4422a5e53e84e98cfb990716b70efb9d836fc5ec2",
+          "anchors": [
+            "image"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "According to Hacktron, Claude Opus 5 launched in the evening on July 24th, and by 10AM the next day they had used it to achieve RCE on Discourse Cloud and accessed OpenAI’s instance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.494539+08:00",
+          "content_sha256": "72e7b5441a6591dd950eb05389ce97bf917193d885f31257f41d0ebe4c48f0af",
+          "excerpt": "According to Hacktron, Claude Opus 5 launched in the evening on July 24th, and by 10AM the next day they had used it to achieve RCE on Discourse Cloud and accessed OpenAI’s instance.",
+          "sentence_hash": "69f32ee719781175a9f81c56f357ba3a65af91ed3365f9f64260b091845597fd",
+          "anchors": [
+            "July 24",
+            "they",
+            "next"
+          ]
+        }
+      ],
+      "entities": [
+        "rce",
+        "next",
+        "heist",
+        "according",
+        "rails",
+        "codex",
+        "the wall street journal",
+        "hub ent",
+        "magick",
+        "claude",
+        "shopify",
+        "chinese",
+        "claude opus",
+        "hub",
+        "july",
+        "slack",
+        "wsj",
+        "monorepo",
+        "their",
+        "heif",
+        "git",
+        "cto",
+        "they",
+        "anthropic",
+        "open",
+        "discourse",
+        "mohan pedhapati",
+        "hacktron",
+        "meta",
+        "security",
+        "discourse cloud",
+        "image"
+      ],
+      "numbers": [
+        "$3,000 ",
+        "$6,500 "
+      ],
+      "dates": [
+        "July 24"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e3a7ef061412b9d57cf88e7c",
+      "title": "Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade",
+      "url": "https://www.coindesk.com/markets/2026/09/18/layer-2-and-defi-tokens-lead-broad-crypto-advance-as-post-fed-hike-nerves-fade",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-09-18T10:33:05+00:00",
+      "why_relevant": "DeFi反弹信号明确",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin rose above $78,000 during the European morning, adding 2.1% since midnight UTC.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.496036+08:00",
+          "content_sha256": "4938c2e1a76520188f37937c9f72c82e27ba50dfa391d565f78b63ffb9e9900c",
+          "excerpt": "Bitcoin rose above $78,000 during the European morning, adding 2.1% since midnight UTC.",
+          "sentence_hash": "5d2d5038d68b7f305ae895ed43370e899be2a4ff31929c166ba573c08b7250e1",
+          "anchors": [
+            "coin",
+            "2.1%",
+            "oi",
+            "$78,000 "
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Layer-2 and DeFi tokens led the move, with starknet (STRK) up 18%, arbitrum (ARB) up 17% and uniswap (UNI) up 13%, while the DeFi Select Index gained 8.3%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.496072+08:00",
+          "content_sha256": "4938c2e1a76520188f37937c9f72c82e27ba50dfa391d565f78b63ffb9e9900c",
+          "excerpt": "Layer-2 and DeFi tokens led the move, with starknet (STRK) up 18%, arbitrum (ARB) up 17% and uniswap (UNI) up 13%, while the DeFi Select Index gained 8.3%.",
+          "sentence_hash": "cc206197e36280b7e5e4b8cf3adbb1ecab9abc491cc61c4dd297191ce666cc19",
+          "anchors": [
+            "arb",
+            "while",
+            "13%",
+            "17%",
+            "uni",
+            "18%",
+            "8.3%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "A softer macro backdrop did the work: The 10-year Treasury yield dropped back below 5% and Brent crude fell to less than $103, taking heat out of the post-Fed rate hike inflation scare.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.496106+08:00",
+          "content_sha256": "4938c2e1a76520188f37937c9f72c82e27ba50dfa391d565f78b63ffb9e9900c",
+          "excerpt": "A softer macro backdrop did the work: The 10-year Treasury yield dropped back below 5% and Brent crude fell to less than $103, taking heat out of the post-Fed rate hike inflation scare.",
+          "sentence_hash": "11845ff956d5d263d9dad04db65e12f88e8ab8809be5413a2fe3bb1808d71e0c",
+          "anchors": [
+            "5%",
+            "$103"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Crypto’s post-Fed hike bid extended into Friday, with decentralized finance (DeFi) and layer-2 tokens taking over from privacy and haven assets that led Thursday’s gains, a rotation that demonstrates a return to risk-on trading.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.496152+08:00",
+          "content_sha256": "4938c2e1a76520188f37937c9f72c82e27ba50dfa391d565f78b63ffb9e9900c",
+          "excerpt": "Crypto’s post-Fed hike bid extended into Friday, with decentralized finance (DeFi) and layer-2 tokens taking over from privacy and haven assets that led Thursday’s gains, a rotation that demonstrates a return to risk-on trading.",
+          "sentence_hash": "0dd4d5798a9a720c9338f7cf4b22a26dc77573f69ec986712207ebca474be2c2",
+          "anchors": [
+            "layer"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "rose above $78,000 during the European morning, adding 2.1% since midnght UTC and 1.9% over the past 24 hours.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.496178+08:00",
+          "content_sha256": "4938c2e1a76520188f37937c9f72c82e27ba50dfa391d565f78b63ffb9e9900c",
+          "excerpt": "rose above $78,000 during the European morning, adding 2.1% since midnght UTC and 1.9% over the past 24 hours.",
+          "sentence_hash": "5d97ec6def0d4608c6e7ef135d3a96888ccd950f842bd3b322a383c54b84cbd6",
+          "anchors": [
+            "$78,000 ",
+            "2.1%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "It’s still 5% below the Sept.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.496198+08:00",
+          "content_sha256": "4938c2e1a76520188f37937c9f72c82e27ba50dfa391d565f78b63ffb9e9900c",
+          "excerpt": "It’s still 5% below the Sept.",
+          "sentence_hash": "48f1f4e36d3fabadef35d576c8f8033285d93293d502ff05f3e4f5cae40286a3",
+          "anchors": [
+            "5%"
+          ]
+        }
+      ],
+      "entities": [
+        "friday",
+        "sept",
+        "desk",
+        "fed",
+        "nasdaq",
+        "utc",
+        "equity",
+        "fi select index",
+        "futures",
+        "brent",
+        "strk",
+        "oi",
+        "however",
+        "thursday",
+        "btc",
+        "crypto",
+        "layer",
+        "treasury",
+        "bitcoin",
+        "binance",
+        "meanwhile",
+        "european",
+        "arb",
+        "while",
+        "market",
+        "derivative",
+        "uni",
+        "wednesday",
+        "coin",
+        "dfx"
+      ],
+      "numbers": [
+        "$95 billion",
+        "$82,284 ",
+        "$103",
+        "$103 ",
+        "2.1%",
+        "95 billion",
+        "13%",
+        "17%",
+        "5%",
+        "$109 ",
+        "18%",
+        "8.3%",
+        "$78,000 ",
+        "141.2 billion",
+        "$141.2 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 45
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_180641518e8fe748d8cac4ed",
+      "title": "Anthropic says its model Claude is helping to build the next version of itself",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
+      "publisher": "AP",
+      "summary": "Anthropic says its model Claude is helping to build the next version of itself&nbsp;&nbsp;AP News",
+      "category": "国际",
+      "published_at": "2026-09-18T02:18:38+00:00",
+      "why_relevant": "Claude自举开发前沿",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "claude",
+        "anthropic",
+        "ap"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_5ebf058ff9992b71cd2f7dc9",
+      "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
+      "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Trump said the agreement will give the US \"permanent control over security, and all other needs, in Greenland\", though specifics haven't been confirmed by Danish officials.",
+      "category": "国际",
+      "published_at": "2026-09-18T22:58:55+00:00",
+      "why_relevant": "格陵兰地缘安全协议",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US and Denmark reach deal over Greenland after Trump annexation threats - Published The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump's threats to seize the territory by force.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.497586+08:00",
+          "content_sha256": "75f67691e68766f0a5e3ce13ef250b319bd7ddee5ff782450e3d99381385a9c8",
+          "excerpt": "US and Denmark reach deal over Greenland after Trump annexation threats - Published The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump's threats to seize the territory by force.",
+          "sentence_hash": "83b3634d0ce04467eca0ed21d1ad5e5a20479704499fbec493308c1f41ac21bf",
+          "anchors": [
+            "she"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It is for the benefit of us all,\" he said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.497680+08:00",
+          "content_sha256": "75f67691e68766f0a5e3ce13ef250b319bd7ddee5ff782450e3d99381385a9c8",
+          "excerpt": "It is for the benefit of us all,\" he said.",
+          "sentence_hash": "b6b4a75102a5110f4491ae9743a60cda13759bcf9fbf9192a2e2933611f1841e",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Trump had tried for months to purchase or annex the mineral-rich Danish territory, arguing that it is vulnerable to adversaries, including Russia and China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.497708+08:00",
+          "content_sha256": "75f67691e68766f0a5e3ce13ef250b319bd7ddee5ff782450e3d99381385a9c8",
+          "excerpt": "Trump had tried for months to purchase or annex the mineral-rich Danish territory, arguing that it is vulnerable to adversaries, including Russia and China.",
+          "sentence_hash": "6c4afa5766d3c107f4c2bd62884665759f5d1e7ef1ed3988c064c28c9066685d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The BBC has reached out to the Danish Embassy and the White House.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.497747+08:00",
+          "content_sha256": "75f67691e68766f0a5e3ce13ef250b319bd7ddee5ff782450e3d99381385a9c8",
+          "excerpt": "The BBC has reached out to the Danish Embassy and the White House.",
+          "sentence_hash": "83abc78f9a1cb716a82f0cfcd04665954be6b189e901556c687999e322f44397",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "united nations general assembly",
+        "nato",
+        "danish",
+        "united states",
+        "white house",
+        "american",
+        "greenlandic",
+        "china",
+        "us",
+        "state marco rubio",
+        "greenland government jens",
+        "arctic",
+        "president donald trump",
+        "north atlantic",
+        "kingdom",
+        "prime minister mette frederiksen",
+        "among",
+        "secretary",
+        "danish embassy",
+        "state department",
+        "bbc",
+        "danes",
+        "truth social",
+        "published\nthe",
+        "trump",
+        "denmark",
+        "she",
+        "frederik nielsen",
+        "greenland",
+        "prime minister",
+        "chairman",
+        "however",
+        "russia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_5ac8db195ade90c383241d26",
+      "title": "Stocks face a key hurdle in next week’s U.S.-China summit. Here’s what’s at stake",
+      "url": "https://www.cnbc.com/2026/09/18/stock-market-next-week-outlook-for-sept-21-25-2026.html",
+      "publisher": "CNBC",
+      "summary": "The S&P 500 and the Dow Industrials posted weekly losses as investors grappled with rising yields. Next week's U.S.-China summit could be a wildcard for stocks.",
+      "category": "财经",
+      "published_at": "2026-09-18T23:14:10+00:00",
+      "why_relevant": "中美峰会扰动美股，关键",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Investors have gotten past the latest Federal Reserve meeting relatively unscathed, but they are settling in for a higher-for-longer rate environment and anticipating market choppiness in the coming months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.498959+08:00",
+          "content_sha256": "44b017f7b607337e8f0595a51b5aa2390210753d759e2e80eba72bfed89a2cbb",
+          "excerpt": "Investors have gotten past the latest Federal Reserve meeting relatively unscathed, but they are settling in for a higher-for-longer rate environment and anticipating market choppiness in the coming months.",
+          "sentence_hash": "294c1109ec59c6c4715271ab40f241e1b26bdd53ce85a912b17534502b4f9996",
+          "anchors": [
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "But the Nasdaq Composite notched a third winning week in four, as tech stocks led the rebound after the central bank meeting.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499003+08:00",
+          "content_sha256": "44b017f7b607337e8f0595a51b5aa2390210753d759e2e80eba72bfed89a2cbb",
+          "excerpt": "But the Nasdaq Composite notched a third winning week in four, as tech stocks led the rebound after the central bank meeting.",
+          "sentence_hash": "a21e6458cf3ce8d6a1211ac037b9130eefa0b2afb62ea2ab7831d9df6e49b931",
+          "anchors": [
+            "stocks"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "At Wednesday's meeting, policymakers penciled in one more rate increase in 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499030+08:00",
+          "content_sha256": "44b017f7b607337e8f0595a51b5aa2390210753d759e2e80eba72bfed89a2cbb",
+          "excerpt": "At Wednesday's meeting, policymakers penciled in one more rate increase in 2026.",
+          "sentence_hash": "6f51f59bd641e6ddb5c0b2c39e64cc5716e8f309eac0800792e5ece6382ebd92",
+          "anchors": [
+            "more"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "But fed funds futures were last pricing in roughly 42% odds that there are actually two more coming, according to the CME FedWatch Tool .",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499057+08:00",
+          "content_sha256": "44b017f7b607337e8f0595a51b5aa2390210753d759e2e80eba72bfed89a2cbb",
+          "excerpt": "But fed funds futures were last pricing in roughly 42% odds that there are actually two more coming, according to the CME FedWatch Tool .",
+          "sentence_hash": "ac66224c141ef7659957e520797d2537ca26592a76943d2f48274455beb18f47",
+          "anchors": [
+            "more",
+            "42%",
+            "fed"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": ".SPX 5D mountain The S & P 500 in the past five trading days Conventional wisdom suggests that a tightening cycle is a headwind for stocks, as higher rates usually raise borrowing costs and can lower the value of future earnings.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499093+08:00",
+          "content_sha256": "44b017f7b607337e8f0595a51b5aa2390210753d759e2e80eba72bfed89a2cbb",
+          "excerpt": ".SPX 5D mountain The S & P 500 in the past five trading days Conventional wisdom suggests that a tightening cycle is a headwind for stocks, as higher rates usually raise borrowing costs and can lower the value of future earnings.",
+          "sentence_hash": "bb5b255f20d7cc2b10e9c16092a83de91e0817af05d302f8221d2f20bd35bd83",
+          "anchors": [
+            "stocks"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But investors seem to have taken the prospect of a \"higher for longer\" environment in stride, reassured by the strength of the economy and corporate earnings thanks to the outsized spending in artificial intelligence.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499128+08:00",
+          "content_sha256": "44b017f7b607337e8f0595a51b5aa2390210753d759e2e80eba72bfed89a2cbb",
+          "excerpt": "But investors seem to have taken the prospect of a \"higher for longer\" environment in stride, reassured by the strength of the economy and corporate earnings thanks to the outsized spending in artificial intelligence.",
+          "sentence_hash": "155198717041d31092e6a764bebd60c4c960bbbaecf8ab0786d1fc2760bad7d0",
+          "anchors": [
+            "investors"
+          ]
+        }
+      ],
+      "entities": [
+        "friday",
+        "next",
+        "fed",
+        "federal reserve",
+        "dow jones industrial average",
+        "bond",
+        "ed yardeni",
+        "krinsky",
+        "watch tool",
+        "china",
+        "still",
+        "stocks",
+        "cme",
+        "but",
+        "elsewhere",
+        "wednesday",
+        "some",
+        "catalyst funds",
+        "at wednesday",
+        "ultimately",
+        "jonathan krinsky",
+        "conventional",
+        "yardeni research",
+        "nasdaq composite",
+        "david miller",
+        "middle east",
+        "investors",
+        "oil",
+        "spx",
+        "btig",
+        "more",
+        "downside"
+      ],
+      "numbers": [
+        "42%",
+        "$100 ",
+        "49%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_8f779e105ab23faf9c18fc40",
+      "title": "Google’s Gemini AI System Hacked Three Systems in Safety Tests",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbmN1NFNDNEZ6STRONFMyMVR2T0ZVN0gtSkM5RjZGbllCX0VfMzgxdTdpNXlNNlAtMFB1RTdaT05TLTFIRmo5Wk1lakJQV01SeGswT0hBeVVZVmpSTDgxNzJhc2Z6dEJ1bGNyUlZiLVZUeFdqdnFwNEpzYnB3cHFqcFEzc0VCTmt5ZUw5RHNVN0VYUEhyYTRFdmZtZndmR01ndXRtX05UN1hWSFRWSlNRNVBLdw?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Google’s Gemini AI System Hacked Three Systems in Safety Tests&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-09-18T22:45:15+00:00",
+      "why_relevant": "AI系统安全测试新结果",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "ai",
+        "gemini",
+        "safety tests",
+        "bloomberg",
+        "system hacked three systems",
+        "google"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 6
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_e098448480116acc16cdc870",
+      "title": "South Korea wants free ‘AI for All’. Is society ready for it?",
+      "url": "https://www.scmp.com/week-asia/economics/article/3368031/south-korea-wants-free-ai-all-society-ready-it?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "In Silicon Valley and beyond, the architects of artificial intelligence are increasingly warning about the risks it poses to humanity.\nAnthropic CEO Dario Amodei wants the industry to slow down. A former engineer at his company, who also worked at its rival OpenAI, told reporters after quitting earlier this month that he was “genuinely frightened” unchecked AI development might mean “we could all die in the immediate future”.\nEven Geoffrey Hinton, the Nobel Prize-winning computer scientist known",
+      "category": "国际",
+      "published_at": "2026-09-19T00:00:14+00:00",
+      "why_relevant": "韩国全民AI政策观察",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Seoul’s roll-out of free, unlimited AI is set to shake up classrooms, careers and crime – for better or worse 9-MIN READ9-MIN In Silicon Valley and beyond, the architects of artificial intelligence are increasingly warning about the risks it poses to humanity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499869+08:00",
+          "content_sha256": "0496e4b6fc8d7ae989bf822aefe0fb3a371fe4a75cd43486b3bb56e12998fe60",
+          "excerpt": "Seoul’s roll-out of free, unlimited AI is set to shake up classrooms, careers and crime – for better or worse 9-MIN READ9-MIN In Silicon Valley and beyond, the architects of artificial intelligence are increasingly warning about the risks it poses to humanity.",
+          "sentence_hash": "e94facfe36ad6dca8d5eccced7eaae5c6f63b2622076b6c5c78f00de2a773e8b",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "A former engineer at his company, who also worked at its rival OpenAI, told reporters after quitting earlier this month that he was “genuinely frightened” unchecked AI development might mean “we could all die in the immediate future”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-09-19T08:03:44.499913+08:00",
+          "content_sha256": "0496e4b6fc8d7ae989bf822aefe0fb3a371fe4a75cd43486b3bb56e12998fe60",
+          "excerpt": "A former engineer at his company, who also worked at its rival OpenAI, told reporters after quitting earlier this month that he was “genuinely frightened” unchecked AI development might mean “we could all die in the immediate future”.",
+          "sentence_hash": "0002ce2808533d8f47565c96603ab1eac29d6a168c90075f4124ffeec27b89b8",
+          "anchors": [
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "ai",
+        "select voice\nselect speed",
+        "advertisement\nsouth korea",
+        "anthropic",
+        "nobel prize",
+        "concerns",
+        "open",
+        "even geoffrey hinton",
+        "in silicon valley",
+        "min",
+        "all",
+        "dario amodei",
+        "ceo",
+        "seoul"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 14
+      },
+      "evidence_complete": true
+    }
+  ]
+}

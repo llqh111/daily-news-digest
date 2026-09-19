@@ -1,6 +1,74 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-18 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-19 08:08。
+
+## China makes progress in 3-nm chips without advanced lithography tools
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：China makes progress in 3-nm chips without advanced lithography tools The breakthrough by the Chinese Academy of Sciences is far from mass production but shows China is tracking the road map of global leaders Chinese researchers have made early strides in pushing semiconductor pr
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_6564f3dd5bf0`
+
+## anthropics/claude-code
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_4a1060c7ac39`
+
+## Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：Advertisement Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit US president gives backing to ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Washingto
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_6f25027458ef`
+
+## addyosmani/agent-skills
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：Production-grade engineering skills for AI coding agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_d7c30b227e7e`
+
+## Quoting Thariq Shihipar
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：18th September 2026 We're adding support for AGENTS.md to Claude Code.
+- 事件 ID：`evt_20260919_bc01688e820d`
+
+## Security researchers used Claude to help them hack into OpenAI
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic’s Claude Opus 4.8 and 5, The Wall Street Journal reports.
+- 事件 ID：`evt_20260919_e585e5b96d96`
+
+## Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：Bitcoin rose above $78,000 during the European morning, adding 2.1% since midnight UTC.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_980c7cab8161`
+
+## Anthropic says its model Claude is helping to build the next version of itself
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260919_cac26ac8a15c`
+
+## US and Denmark reach deal over Greenland after Trump annexation threats
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：US and Denmark reach deal over Greenland after Trump annexation threats - Published The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump's threats to seize the territory by force.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_7851e9fc8bd7`
+
+## Stocks face a key hurdle in next week’s U.S.-China summit. Here’s what’s at stake
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：Investors have gotten past the latest Federal Reserve meeting relatively unscathed, but they are settling in for a higher-for-longer rate environment and anticipating market choppiness in the coming months.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_7a08e4906f2c`
+
+## Google’s Gemini AI System Hacked Three Systems in Safety Tests
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260919_6d12f1965061`
+
+## South Korea wants free ‘AI for All’. Is society ready for it?
+- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
+- 最新事实：Seoul’s roll-out of free, unlimited AI is set to shake up classrooms, careers and crime – for better or worse 9-MIN READ9-MIN In Silicon Valley and beyond, the architects of artificial intelligence are increasingly warning about the risks it poses to humanity.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_7411c0de6b90`
 
 ## EU chief backs plan for Canada to become 'associate member'
 - 状态：更新中；首见 2026-09-17；最近更新 2026-09-18
