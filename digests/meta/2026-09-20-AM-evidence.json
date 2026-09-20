@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-09-20-AM",
+  "version": 1,
   "date": "2026-09-20",
   "session": "AM",
-  "delivered_at": "2026-09-20T08:07:35.156540+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-09-20T00:07:35.158106+00:00",
-  "quality": {
-    "total_items": 10,
-    "items_with_unsupported_numbers": 0,
-    "unsupported_ratio": 0.0
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_fb3e4ae40b9fbfb1bf739c6a",
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "publisher": "Simon Willison",
-      "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI\nGemini finally caught up on Felony Bench!\n\nThe hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.\nIn one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to",
-      "category": "科技",
-      "published_at": "2026-09-18T23:57:57+00:00",
-      "why_relevant": "Gemini入侵企业，AI安全大事件",
-      "relevance_score": 9.0,
+      "headline": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -117,24 +102,37 @@
         "September 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-20T08:03:18.031082+08:00",
+          "content_sha256": "5bcb9ad79876e564bd12dcfa7802fa7a0d8e84e03a33926f8a89662b8c8e46a4"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 5,
         "anchor_count": 26
       },
-      "evidence_complete": true
+      "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI\nGemini finally caught up on Felony Bench!\n\nThe hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.\nIn one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to",
+      "category": "科技",
+      "published_at": "2026-09-18T23:57:57+00:00",
+      "why_relevant": "Gemini入侵企业，AI安全大事件",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_beaaa68f838b89d2f381ba67",
-      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
-      "publisher": "SEC 新闻稿",
-      "summary": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
-      "category": "财经",
-      "published_at": "2026-09-17T12:55:00+00:00",
-      "why_relevant": "SEC开启代币化股票，变革性事件",
-      "relevance_score": 9.0,
+      "headline": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -270,24 +268,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SEC 新闻稿",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+          "canonical_url": null,
+          "hostname": "www.sec.gov",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-20T08:03:18.033917+08:00",
+          "content_sha256": "f1037e54ec3ce70354b3ef98fe6b6eebea0d6d7f80d0c88146e85b5958dfd378"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 34
       },
-      "evidence_complete": true
+      "summary": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
+      "category": "财经",
+      "published_at": "2026-09-17T12:55:00+00:00",
+      "why_relevant": "SEC开启代币化股票，变革性事件",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_717ddf0d0ca6469455268b12",
-      "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNIX0w3dGlsV1dsUUdPS1l6TXFWSm8yUVBkTlVhZl85V1hGNHVadW9LZFRHRl95Y2VBY0Nvc3FvbDBOcXpfdFlYc1dEckQtbk9BMVlEeHBIYkdBVjJmZDYxMFFpVlR6Mm1NeEZ3cEFvcmtLLXRTWDZjQjRtRWxuYnNQQ204Q0I0Z3haTXRSN0w3QnhSYXZDOG00eXhQd2ZyTVhZc09SR3lSb0ZSMU5mYktsNzNjWTdLVGV6dmZNVQ?oc=5",
-      "publisher": "AP",
-      "summary": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown&nbsp;&nbsp;AP News",
-      "category": "国际",
-      "published_at": "2026-09-19T22:05:00+00:00",
-      "why_relevant": "AI巨头垄断争议，涉及OpenAI等",
-      "relevance_score": 8.0,
+      "headline": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
       "confirmed_facts": [],
       "entities": [
         "ap",
@@ -304,24 +315,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "AP",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNIX0w3dGlsV1dsUUdPS1l6TXFWSm8yUVBkTlVhZl85V1hGNHVadW9LZFRHRl95Y2VBY0Nvc3FvbDBOcXpfdFlYc1dEckQtbk9BMVlEeHBIYkdBVjJmZDYxMFFpVlR6Mm1NeEZ3cEFvcmtLLXRTWDZjQjRtRWxuYnNQQ204Q0I0Z3haTXRSN0w3QnhSYXZDOG00eXhQd2ZyTVhZc09SR3lSb0ZSMU5mYktsNzNjWTdLVGV6dmZNVQ?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-20T08:03:18.035529+08:00",
+          "content_sha256": "7cc5a07b90ae2b561d3efdd2abd58664baacecfdf496630d5c6705b5bbfceb99"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 7
       },
-      "evidence_complete": false
+      "summary": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown&nbsp;&nbsp;AP News",
+      "category": "国际",
+      "published_at": "2026-09-19T22:05:00+00:00",
+      "why_relevant": "AI巨头垄断争议，涉及OpenAI等",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_24198f5d778d10177cb16eb7",
-      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
-      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
-      "category": "国际",
-      "published_at": "2026-09-19T23:49:26+00:00",
-      "why_relevant": "地缘冲突，导弹袭击沙特",
-      "relevance_score": 8.0,
+      "headline": "Houthis say they targeted Saudi capital with ballistic missiles",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -442,24 +466,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-20T08:03:18.035701+08:00",
+          "content_sha256": "6a81601207e0db7f43232804db293ae4082d3dd914f1144fcdd428497a415271"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.035913+08:00",
+          "content_sha256": "1f42e0b5cd464478ebbf7d7a469b2e8b2d4047c13698bdb8b57d906e8e832db9"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 36
       },
-      "evidence_complete": true
+      "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
+      "category": "国际",
+      "published_at": "2026-09-19T23:49:26+00:00",
+      "why_relevant": "地缘冲突，导弹袭击沙特",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_dc25da46ac3f314bd036550b",
-      "title": "Trump says he will create ‘AI Force’, name AI tsar",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3368130/trump-says-he-will-create-ai-force-name-ai-tsar?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "US President Donald Trump ⁠said in a social media post ⁠on Saturday that he plans to appoint a new artificial intelligence adviser, known as an “AI tsar”, and create an “AI force”, though he did not provide details about either initiative or how they would be implemented.\nFears are growing in Washington among lawmakers about the risks posed ‌by AI technology on humans and property. Earlier this month, former Anthropic researcher Jacob Coxon said that “people building AI earnestly believe that it",
-      "category": "国际",
-      "published_at": "2026-09-19T18:19:19+00:00",
-      "why_relevant": "特朗普AI新政，影响科技产业",
-      "relevance_score": 8.0,
+      "headline": "Trump says he will create ‘AI Force’, name AI tsar",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -524,24 +573,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368130/trump-says-he-will-create-ai-force-name-ai-tsar?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-20T08:03:18.037033+08:00",
+          "content_sha256": "d4cf7f8fe2e0e2f78159d92ace0b32c11ceda16dae27d16e6b180f2b142debcd"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.037133+08:00",
+          "content_sha256": "abe8f935727e3d4253a495ad96cb6f241d86383118038121029c05094ca70d13"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 3,
         "anchor_count": 13
       },
-      "evidence_complete": true
+      "summary": "US President Donald Trump ⁠said in a social media post ⁠on Saturday that he plans to appoint a new artificial intelligence adviser, known as an “AI tsar”, and create an “AI force”, though he did not provide details about either initiative or how they would be implemented.\nFears are growing in Washington among lawmakers about the risks posed ‌by AI technology on humans and property. Earlier this month, former Anthropic researcher Jacob Coxon said that “people building AI earnestly believe that it",
+      "category": "国际",
+      "published_at": "2026-09-19T18:19:19+00:00",
+      "why_relevant": "特朗普AI新政，影响科技产业",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_b2f1ce2b5923308a1ec08c41",
-      "title": "Denmark says ‘binding’ US deal on Greenland won’t compromise sovereignty",
-      "url": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Trump has wanted a foothold in Greenland for some time, as a strategic battle unfolds for supremacy in warming Arctic.",
-      "category": "国际",
-      "published_at": "2026-09-19T20:03:23+00:00",
-      "why_relevant": "格陵兰主权博弈，北极战略",
-      "relevance_score": 8.0,
+      "headline": "Denmark says ‘binding’ US deal on Greenland won’t compromise sovereignty",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -661,24 +735,73 @@
         "January 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-20T08:03:18.037658+08:00",
+          "content_sha256": "92d479f581dbb27349a32c6478dafc625ee4d624566e799b7ae693a65a04e1b7"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.037910+08:00",
+          "content_sha256": "14a5ca5e3833cbe296cc5bf81e5bf721dd0b9fce042f1b2f56cdbb80ac1ff415"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.037928+08:00",
+          "content_sha256": "b0a82b34248332c179d8ed4663ffe27a87e815fddcc6c22b8632067be03ba97b"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.037943+08:00",
+          "content_sha256": "0d82ec5a4a2cd2b2b4eeb7779a9c99d4771293ef4ca911e085a97b20acb85d45"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 38
       },
-      "evidence_complete": true
+      "summary": "Trump has wanted a foothold in Greenland for some time, as a strategic battle unfolds for supremacy in warming Arctic.",
+      "category": "国际",
+      "published_at": "2026-09-19T20:03:23+00:00",
+      "why_relevant": "格陵兰主权博弈，北极战略",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_a60673c6dee0db28354ac009",
-      "title": "Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368100/analysts-tip-stronger-hand-china-ahead-xi-trump-summit-washington?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "When the presidents of the United States and China meet in Washington, the world will be watching to see whether their two countries can make good on their agreement to work towards “constructive strategic stability”. In the second part of a series, Fan Chen looks at Beijing’s stronger position going into the high-stakes visit.\nBeijing is poised to begin this week’s summit with Washington from a position of strength, bolstered by a flurry of recent diplomatic outreach.\nChinese confidence could..",
-      "category": "国际",
-      "published_at": "2026-09-19T22:00:08+00:00",
-      "why_relevant": "中美峰会前瞻，地缘核心",
-      "relevance_score": 8.0,
+      "headline": "Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -751,24 +874,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368100/analysts-tip-stronger-hand-china-ahead-xi-trump-summit-washington?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-20T08:03:18.039257+08:00",
+          "content_sha256": "3946e8de3b9633b7845004a2632607b961b5f7989fd8a7ab6793cabc5f19c77c"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.039379+08:00",
+          "content_sha256": "34a1c0834c9edc5f316729d2ac8c108833914d1fde18a92c81fc87045e24b8e1"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 3,
         "anchor_count": 24
       },
-      "evidence_complete": true
+      "summary": "When the presidents of the United States and China meet in Washington, the world will be watching to see whether their two countries can make good on their agreement to work towards “constructive strategic stability”. In the second part of a series, Fan Chen looks at Beijing’s stronger position going into the high-stakes visit.\nBeijing is poised to begin this week’s summit with Washington from a position of strength, bolstered by a flurry of recent diplomatic outreach.\nChinese confidence could..",
+      "category": "国际",
+      "published_at": "2026-09-19T22:00:08+00:00",
+      "why_relevant": "中美峰会前瞻，地缘核心",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_5f8f4527ecc371da6e952bfa",
-      "title": "‘My fear was too great’: the Pussy Riot member recruited by Russian spies to inform on fellow activists",
-      "url": "https://www.theguardian.com/world/2026/sep/19/pussy-riot-russian-spies-fsb-activists-rita-flores",
-      "publisher": "The Guardian",
-      "summary": "Exclusive: In her first media interview since fleeing Russia, Rita Flores describes her three years of being run by the FSBFirst came the blackmail and death threats to secure cooperation, then came a series of tasks, each more sinister than the last: to inform on fellow activists, to elicit personal information from protest-minded artists and – eventually – to help with a plot to kidnap and murder a Kremlin enemy.That is how Rita Flores, a 29-year-old Russian artist, activist and former member ",
-      "category": "国际",
-      "published_at": "2026-09-19T04:00:36+00:00",
-      "why_relevant": "俄谍渗透内幕，独家深度",
-      "relevance_score": 8.0,
+      "headline": "‘My fear was too great’: the Pussy Riot member recruited by Russian spies to inform on fellow activists",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -878,24 +1026,37 @@
         "February 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/19/pussy-riot-russian-spies-fsb-activists-rita-flores",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-20T08:03:18.040058+08:00",
+          "content_sha256": "4a26a361eb461c2b2598aeb55e08c7da900cbd8ee61a3fec12ba655b30d665b3"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 22
       },
-      "evidence_complete": true
+      "summary": "Exclusive: In her first media interview since fleeing Russia, Rita Flores describes her three years of being run by the FSBFirst came the blackmail and death threats to secure cooperation, then came a series of tasks, each more sinister than the last: to inform on fellow activists, to elicit personal information from protest-minded artists and – eventually – to help with a plot to kidnap and murder a Kremlin enemy.That is how Rita Flores, a 29-year-old Russian artist, activist and former member ",
+      "category": "国际",
+      "published_at": "2026-09-19T04:00:36+00:00",
+      "why_relevant": "俄谍渗透内幕，独家深度",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_4686a0b0b129c8973ef384db",
-      "title": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "publisher": "GitHub Trending",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.https://ecc.tools   \n  \n   \n    \n    \n     \n   \n    \n    \n     \n Language: English | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська  \n      \n      \n    \n         \n\n \n  \n   \n  Warning\n Official sources only. Install ECC only from verified channels: the GitHub r",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Claude Code等Agent优化，硬核玩家关注",
-      "relevance_score": 8.0,
+      "headline": "affaan-m/ECC",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1038,24 +1199,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/affaan-m/ECC",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-20T08:03:18.041514+08:00",
+          "content_sha256": "2d560e257a8d03e4b55afa00869cfeb3e6394bd61eba4647a6ce61fd0601fed3"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 52
       },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_09aecf0feb47c1b9c4797f89",
-      "title": "Tencent/BrowserSkill",
-      "url": "https://github.com/Tencent/BrowserSkill",
-      "publisher": "GitHub Trending",
-      "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.BrowserSkill \n   \n Let AI agents use your browser without interrupting your work.  \n English · 中文  \nBrowserSkill connects Cursor, Claude Code, Codex, OpenClaw, CodeBuddy, WorkBuddy, Pi, Hermes Agent, DeepSeek Harness, and other AI agents to your already logged-in browser. \nNeed the agent to touch a tab you already have open? It must borrow that t",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.https://ecc.tools   \n  \n   \n    \n    \n     \n   \n    \n    \n     \n Language: English | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська  \n      \n      \n    \n         \n\n \n  \n   \n  Warning\n Official sources only. Install ECC only from verified channels: the GitHub r",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "Agent浏览器自动化，实用工具",
-      "relevance_score": 8.0,
+      "why_relevant": "Claude Code等Agent优化，硬核玩家关注",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_09aecf0feb47c1b9c4797f89",
+      "headline": "Tencent/BrowserSkill",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1202,24 +1376,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/Tencent/BrowserSkill",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-20T08:03:18.042966+08:00",
+          "content_sha256": "f6916a41a371822cdd0b210548a7c1ee586333de85e2eab7e0ffa3db04fa6ed4"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 52
       },
-      "evidence_complete": true
+      "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.BrowserSkill \n   \n Let AI agents use your browser without interrupting your work.  \n English · 中文  \nBrowserSkill connects Cursor, Claude Code, Codex, OpenClaw, CodeBuddy, WorkBuddy, Pi, Hermes Agent, DeepSeek Harness, and other AI agents to your already logged-in browser. \nNeed the agent to touch a tab you already have open? It must borrow that t",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Agent浏览器自动化，实用工具",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_abcca3380260af84334e0330",
-      "title": "Intel Arc 140V Runs DLSS 5 Neural Rendering Without CUDA, But Frame Rates Collapse To Just 3-5 FPS",
-      "url": "https://wccftech.com/intel-arc-140v-runs-dlss-5-neural-rendering-without-cuda/",
-      "publisher": "Wccftech",
-      "summary": "First, older NVIDIA RTX GPUs, then AMD GPUs, and now Intel integrated graphics. What's next? User Rebuilds the Neural Rendering Pipeline for Intel XMX to Enable DLSS 5 on Intel Arc 140V It's crazy to see the amount of work modders are putting into running the DLSS 5 Neural Rendering on non-NVIDIA hardware. In just a few weeks, the modder community went from enabling DLSS 5 NR on older NVIDIA RTX GPUs to running the new technology on AMD RX 9000 series, and now another modder has managed to run i",
-      "category": "科技",
-      "published_at": "2026-09-19T12:24:35+00:00",
-      "why_relevant": "Intel跑DLSS，显卡玩家必读",
-      "relevance_score": 8.0,
+      "headline": "Intel Arc 140V Runs DLSS 5 Neural Rendering Without CUDA, But Frame Rates Collapse To Just 3-5 FPS",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1340,24 +1527,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wccftech",
+          "url": "https://wccftech.com/intel-arc-140v-runs-dlss-5-neural-rendering-without-cuda/",
+          "canonical_url": null,
+          "hostname": "wccftech.com",
+          "content_level": "fulltext",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.044331+08:00",
+          "content_sha256": "d78d09f04a708df25ba5d77316d2670bd613f47e19318f16e67b0bd9c9f92025"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 5,
         "anchor_count": 46
       },
-      "evidence_complete": true
+      "summary": "First, older NVIDIA RTX GPUs, then AMD GPUs, and now Intel integrated graphics. What's next? User Rebuilds the Neural Rendering Pipeline for Intel XMX to Enable DLSS 5 on Intel Arc 140V It's crazy to see the amount of work modders are putting into running the DLSS 5 Neural Rendering on non-NVIDIA hardware. In just a few weeks, the modder community went from enabling DLSS 5 NR on older NVIDIA RTX GPUs to running the new technology on AMD RX 9000 series, and now another modder has managed to run i",
+      "category": "科技",
+      "published_at": "2026-09-19T12:24:35+00:00",
+      "why_relevant": "Intel跑DLSS，显卡玩家必读",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_47a8388d9c4e9a0b0eb46d3c",
-      "title": "MS NOW, CNN and Politico journalists blocked from White House after Trump ban",
-      "url": "https://www.cnbc.com/2026/09/19/trump-media-ban-ms-now.html",
-      "publisher": "CNBC",
-      "summary": "Journalists from MS NOW, CNN and Politico were denied access to the White House, one day after Trump banned three media outlets over their coverage of him.",
-      "category": "财经",
-      "published_at": "2026-09-19T18:12:15+00:00",
-      "why_relevant": "白宫封杀媒体，宏观政治事件",
-      "relevance_score": 8.0,
+      "headline": "MS NOW, CNN and Politico journalists blocked from White House after Trump ban",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1473,24 +1673,85 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/19/trump-media-ban-ms-now.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-20T08:03:18.045617+08:00",
+          "content_sha256": "a00fed15cbd7c7a0d320f77f48e220e005f0e5eeed42ccd358b0eff1667900b1"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.045828+08:00",
+          "content_sha256": "b51a1e92ec18d87f5045284c532b62b6ef32348130ebac5108c513d27f832af1"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.045846+08:00",
+          "content_sha256": "d5202bd5aea0a79da9b6ecc4e1fcebe732c504a206df7df8f2d6b37fcbe99b29"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.045862+08:00",
+          "content_sha256": "553e6bddc713daee99fd48d1c77bc2147dd6a32183de7c96f7c6015b756aa2c5"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.045878+08:00",
+          "content_sha256": "b2bdf230924bf3784a511e0c5e31f0ad33b38b52d30c665028a5ccf718a961c0"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 32
       },
-      "evidence_complete": true
+      "summary": "Journalists from MS NOW, CNN and Politico were denied access to the White House, one day after Trump banned three media outlets over their coverage of him.",
+      "category": "财经",
+      "published_at": "2026-09-19T18:12:15+00:00",
+      "why_relevant": "白宫封杀媒体，宏观政治事件",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_fa5afe1c8d5e2a7cc0a3b68f",
-      "title": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
-      "url": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-09-19T14:00:00+00:00",
-      "why_relevant": "AI冲击金融系统，投资风险预警",
-      "relevance_score": 8.0,
+      "headline": "'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1602,13 +1863,43 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
+          "canonical_url": null,
+          "hostname": "www.coindesk.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-20T08:03:18.047003+08:00",
+          "content_sha256": "26537a2b0e71fdcb0ca88b51bfff7bdc821fed9c71ce9d59b0ce8a3895626bcd"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-20T08:03:18.047234+08:00",
+          "content_sha256": "4e213f17ddd061bf10b860900882819fa380b7352dee2e64a9bf84b730f11bd9"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 20
       },
-      "evidence_complete": true
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-09-19T14:00:00+00:00",
+      "why_relevant": "AI冲击金融系统，投资风险预警",
+      "relevance_score": 8.0
     }
   ]
 }

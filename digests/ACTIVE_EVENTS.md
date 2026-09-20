@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-19 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-20 08:07。
+
+## Gemini Hacked Three Companies in First Known Breakout by Google’s AI
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：18th September 2026 - Link Blog Gemini Hacked Three Companies in First Known Breakout by Google’s AI.
+- 事件 ID：`evt_20260920_603ed3b7df3b`
+
+## SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：17, 2026 — The Securities and Exchange Commission today issued an order granting temporary, conditional exemptive relief to Tokenized Securities Venues each a “TSV” from the definition of “exchange” in the Securities Exchange Act of 1934 (Exchange Act) to trade tokenized National
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_c1f72b29958e`
+
+## Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260920_916d78680ca5`
+
+## Houthis say they targeted Saudi capital with ballistic missiles
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：Houthis say they targeted Saudi capital with ballistic missiles - Published Iran-backed Houthi militants in Yemen say they carried out drone and ballistic missile attacks on the Saudi capital Riyadh, as well as energy sites on the country's Red Sea coast.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_7d370138e9df`
+
+## Trump says he will create ‘AI Force’, name AI tsar
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：Trump says he will create ‘AI Force’, name AI tsar ‘We will not in any way hinder or stifle’ the growth of the industry, the US president insisted US President Donald Trump said in a social media post on Saturday that he plans to appoint a new artificial intelligence adviser, kno
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_2e6a63ccdc07`
+
+## Denmark says ‘binding’ US deal on Greenland won’t compromise sovereignty
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：Denmark has hailed a “binding” deal by United States President Donald Trump to give Washington “permanent control” over Greenland’s security and bar Russian and Chinese military bases from the Arctic territory.
+- 事件 ID：`evt_20260920_37557a2cb8a6`
+
+## Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：Advertisement Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington Chinese confidence could be boosted by US push to make progress on its war on Iran and the Russia-Ukraine conflict, experts say 5-MIN READ5-MIN 5 Listen When the presidents of the United S
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_e90888c3e396`
+
+## ‘My fear was too great’: the Pussy Riot member recruited by Russian spies to inform on fellow activists
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：First came the blackmail and death threats to secure cooperation, then came a series of tasks, each more sinister than the last: to inform on fellow activists, to elicit personal information from protest-minded artists and – eventually – to help with a plot to kidnap and murder a
+- 事件 ID：`evt_20260920_edfe28c8fc6d`
+
+## affaan-m/ECC
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：Language: English | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська Warning Official sources only.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_418ecde63902`
+
+## Tencent/BrowserSkill
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：Let AI agents use your browser without interrupting your work.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_fedae1515c4f`
+
+## Intel Arc 140V Runs DLSS 5 Neural Rendering Without CUDA, But Frame Rates Collapse To Just 3-5 FPS
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：The Reddit user u/UzbekUnknown just got the DLSS 5 NR running on his Intel Core Ultra 7 256V processor, which hosts the Intel Arc 140V iGPU based on Intel Xe2 architecture.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_a6b1bb2c0417`
+
+## MS NOW, CNN and Politico journalists blocked from White House after Trump ban
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：White House reporter Akayla Gardner said MS NOW journalists were blocked from the grounds for the first time Saturday morning.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_c8e7aac87789`
+
+## 'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks
+- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
+- 最新事实：'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks Marc van der Chijs sold much of his bitcoin to invest in AI.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_5bd964583fdb`
 
 ## China makes progress in 3-nm chips without advanced lithography tools
 - 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
