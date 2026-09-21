@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-09-21-AM",
+  "version": 1,
   "date": "2026-09-21",
   "session": "AM",
-  "delivered_at": "2026-09-21T08:07:58.316949+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-09-21T00:07:58.318196+00:00",
-  "quality": {
-    "total_items": 12,
-    "items_with_unsupported_numbers": 3,
-    "unsupported_ratio": 0.25
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_44238295b3ec33d1631503e5",
-      "title": "US, China open high-level talks ahead of Trump-Xi summit",
-      "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Scott Bessent and He Lifeng meet in New York for US-China talks ahead of the Trump-Xi meeting later this week.",
-      "category": "国际",
-      "published_at": "2026-09-20T19:42:13+00:00",
-      "why_relevant": "中美高层会晤，重大地缘",
-      "relevance_score": 9.0,
+      "headline": "US, China open high-level talks ahead of Trump-Xi summit",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -147,24 +132,49 @@
         "November 10"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-21T08:03:11.819179+08:00",
+          "content_sha256": "099342f837be2d18e602758c49e3b26a70eb0181a79f39ffa19caaeb2fca45f3"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-21T08:03:11.819504+08:00",
+          "content_sha256": "064d8bb0200fbf740e41ddaf0446894fdffbaa38b2f64bd5f2973d3a4bd6344d"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 39
       },
-      "evidence_complete": true
+      "summary": "Scott Bessent and He Lifeng meet in New York for US-China talks ahead of the Trump-Xi meeting later this week.",
+      "category": "国际",
+      "published_at": "2026-09-20T19:42:13+00:00",
+      "why_relevant": "中美高层会晤，重大地缘",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_3bb3ac9cf59842f9b4353ac5",
-      "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-      "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Moscow's mayor says 450 drones were downed during the overnight barrage, in which two people died.",
-      "category": "国际",
-      "published_at": "2026-09-20T10:45:39+00:00",
-      "why_relevant": "乌大规模无人机袭莫斯科",
-      "relevance_score": 9.0,
+      "headline": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -253,24 +263,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-21T08:03:11.822615+08:00",
+          "content_sha256": "851b332a53f9a6a3c61ed9c60265c1807bd1d4dedd792f42fd8bfb20ea7eceff"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-21T08:03:11.822827+08:00",
+          "content_sha256": "1d97a27347b165d83515a7528c1b53190c3dec29e1185ae838f20560ee0980bd"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 4,
         "anchor_count": 30
       },
-      "evidence_complete": true
+      "summary": "Moscow's mayor says 450 drones were downed during the overnight barrage, in which two people died.",
+      "category": "国际",
+      "published_at": "2026-09-20T10:45:39+00:00",
+      "why_relevant": "乌大规模无人机袭莫斯科",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_db68f6381fc486aa8412013d",
-      "title": "higgsfield-ai/higgsfield",
-      "url": "https://github.com/higgsfield-ai/higgsfield",
-      "publisher": "GitHub Trending",
-      "summary": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parametershiggsfield - multi node training without crying \nHiggsfield is an open-source, fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters, such as Large Language Models (LLMs). \n \n \nHiggsfield serves as a GPU workload manager and machine learning frame",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "万亿参数GPU训练框架",
-      "relevance_score": 9.0,
+      "headline": "higgsfield-ai/higgsfield",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -386,24 +421,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/higgsfield-ai/higgsfield",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.823949+08:00",
+          "content_sha256": "6ae101f6a2a87961596119ca50bc6184fd7ddddf0edd6ee14ee970025c3a751d"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 25
       },
-      "evidence_complete": true
+      "summary": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parametershiggsfield - multi node training without crying \nHiggsfield is an open-source, fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters, such as Large Language Models (LLMs). \n \n \nHiggsfield serves as a GPU workload manager and machine learning frame",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "万亿参数GPU训练框架",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_4fac2669105784828a1d351b",
-      "title": "Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
-      "url": "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-09-20T12:00:00+00:00",
-      "why_relevant": "比特币逆势反转，币圈信号",
-      "relevance_score": 9.0,
+      "headline": "Crypto traders braced for a total wipeout this week but Bitcoin had other plans",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -525,24 +573,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/09/18/crypto-traders-braced-for-a-total-wipeout-this-week-but-bitcoin-had-other-plans",
+          "canonical_url": null,
+          "hostname": "www.coindesk.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.825172+08:00",
+          "content_sha256": "5d5cbd4903b380e203bc10bd352fb476b8efa415a5627257d4e12ac300154db6"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 29
       },
-      "evidence_complete": true
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-09-20T12:00:00+00:00",
+      "why_relevant": "比特币逆势反转，币圈信号",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_ecf3f244fef82b7f7b7bdd53",
-      "title": "Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’",
-      "url": "https://www.aljazeera.com/news/2026/9/20/qatari-pm-warns-against-cycles-of-escalation-in-the-middle-east?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Speaking before the UN General Assembly, Sheikh Mohammed also announces a key shift in Qatar&#039;s investment strategy.",
-      "category": "国际",
-      "published_at": "2026-09-20T20:13:18+00:00",
-      "why_relevant": "中东战争地震式影响",
-      "relevance_score": 8.0,
+      "headline": "Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -667,24 +728,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/20/qatari-pm-warns-against-cycles-of-escalation-in-the-middle-east?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-21T08:03:11.826647+08:00",
+          "content_sha256": "b24b05d702e3d9b91a8639655f7b962f44de12c3bfd954293e47d633ae5b2c0a"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 41
       },
-      "evidence_complete": true
+      "summary": "Speaking before the UN General Assembly, Sheikh Mohammed also announces a key shift in Qatar&#039;s investment strategy.",
+      "category": "国际",
+      "published_at": "2026-09-20T20:13:18+00:00",
+      "why_relevant": "中东战争地震式影响",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_17b858ed69ae4717e89f68c2",
-      "title": "Oil rises after Houthi attack on Saudi capital",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5",
-      "publisher": "Reuters",
-      "summary": "Oil rises after Houthi attack on Saudi capital&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-09-20T23:19:46+00:00",
-      "why_relevant": "胡塞袭沙特，油价上涨",
-      "relevance_score": 8.0,
+      "headline": "Oil rises after Houthi attack on Saudi capital",
       "confirmed_facts": [],
       "entities": [
         "reuters",
@@ -698,24 +772,49 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-21T08:03:11.828225+08:00",
+          "content_sha256": "3d00dc5f696650f51226e282225a211c62e2714b197fe1d5521fbe89433cf793"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-21T08:03:11.828249+08:00",
+          "content_sha256": "b2c8f0faa4b812d2c5150454f23a66a46245f10dae59197eb798ae5f45177a86"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 0,
         "anchor_count": 4
       },
-      "evidence_complete": false
+      "summary": "Oil rises after Houthi attack on Saudi capital&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-09-20T23:19:46+00:00",
+      "why_relevant": "胡塞袭沙特，油价上涨",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_4fcfaa45face914917857737",
-      "title": "Qatar says it is working to revive Iran-US talks",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-says-it-is-working-to-revive-iran-us-talks?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Qatar’s Foreign Ministry spokesperson tells Bloomberg that mediators are shuttling between Iran and US to revive talks.",
-      "category": "国际",
-      "published_at": "2026-09-20T19:36:12+00:00",
-      "why_relevant": "卡塔尔斡旋美伊会谈",
-      "relevance_score": 8.0,
+      "headline": "Qatar says it is working to revive Iran-US talks",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -749,24 +848,49 @@
         "Sep 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/qatar-says-it-is-working-to-revive-iran-us-talks?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-21T08:03:11.828374+08:00",
+          "content_sha256": "eac9da91f06f5a9ade115bd53df31b6714b1db18a7670384999a13906331e822"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-21T08:03:11.828440+08:00",
+          "content_sha256": "c38ee423ab117890427ed469d89284096decc8ef016f5d4978cee7660068fa32"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 1,
         "anchor_count": 13
       },
-      "evidence_complete": true
+      "summary": "Qatar’s Foreign Ministry spokesperson tells Bloomberg that mediators are shuttling between Iran and US to revive talks.",
+      "category": "国际",
+      "published_at": "2026-09-20T19:36:12+00:00",
+      "why_relevant": "卡塔尔斡旋美伊会谈",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_d4347064559ecbf83eabe47d",
-      "title": "trycua/cua",
-      "url": "https://github.com/trycua/cua",
-      "publisher": "GitHub Trending",
-      "summary": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.https://cua.ai \n  \n   \n    \n    \n    \n    \n Give AI agents computers they can use.Cua provides open-source desktop automation, isolated cloud desktops, local macOS VMs, specialist decision models, and benchmarks for evaluating computer-use agents. \n Try Cua Fleets now at run.cua.ai \n         \n \nChoose your path \n \n  \n  \n    \n         \n         \n    \n    \n         \n      ",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI计算机使用2.0框架",
-      "relevance_score": 8.0,
+      "headline": "trycua/cua",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -911,24 +1035,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/trycua/cua",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.828685+08:00",
+          "content_sha256": "26d676721a9d69eebb4d7ff8f37d8e0ce55f84479f0eb9ab62c7df2a34162e0e"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 53
       },
-      "evidence_complete": true
+      "summary": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.https://cua.ai \n  \n   \n    \n    \n    \n    \n Give AI agents computers they can use.Cua provides open-source desktop automation, isolated cloud desktops, local macOS VMs, specialist decision models, and benchmarks for evaluating computer-use agents. \n Try Cua Fleets now at run.cua.ai \n         \n \nChoose your path \n \n  \n  \n    \n         \n         \n    \n    \n         \n      ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI计算机使用2.0框架",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_1bb16d0ef6cd5eac45005e0d",
-      "title": "Morgan Stanley says stocks like Warner Music are a table-pounding buy right now",
-      "url": "https://www.cnbc.com/2026/09/20/buy-stocks-such-as-warner-music-morgan-stanley-says-.html",
-      "publisher": "CNBC",
-      "summary": "Morgan Stanley said this week that stocks including SpaceX, SiTime and EchoStar are attractive.",
-      "category": "财经",
-      "published_at": "2026-09-20T12:10:13+00:00",
-      "why_relevant": "摩根士丹利推荐买入股",
-      "relevance_score": 8.0,
+      "headline": "Morgan Stanley says stocks like Warner Music are a table-pounding buy right now",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1056,24 +1193,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/20/buy-stocks-such-as-warner-music-morgan-stanley-says-.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.830036+08:00",
+          "content_sha256": "6e69289f70713d9b807a3a619272b2113111c6eb73cb30d30c9af5573b21939b"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 41
       },
-      "evidence_complete": true
+      "summary": "Morgan Stanley said this week that stocks including SpaceX, SiTime and EchoStar are attractive.",
+      "category": "财经",
+      "published_at": "2026-09-20T12:10:13+00:00",
+      "why_relevant": "摩根士丹利推荐买入股",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_1fd211c77367fa898e260d8c",
-      "title": "Pacific island states are trapped in Cold War 2.0",
-      "url": "https://www.scmp.com/opinion/asia-opinion/article/3367734/pacific-island-states-are-trapped-cold-war-20?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "In early July, China fired a test missile from a nuclear submarine into the South Pacific for the first time, a weapon capable of carrying nuclear warheads. Washington and Canberra were livid. The Pacific has long been the exclusive testing ground for such long-range missiles from the United States. How dare China!\nThe reaction from Pacific island states was more measured. While leaders from Tuvalu, Palau and the Solomon Islands strongly criticised the test, the 18-member Pacific Islands Forum..",
-      "category": "国际",
-      "published_at": "2026-09-20T21:30:06+00:00",
-      "why_relevant": "太平洋岛国冷战2.0",
-      "relevance_score": 7.0,
+      "headline": "Pacific island states are trapped in Cold War 2.0",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1196,24 +1346,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/opinion/asia-opinion/article/3367734/pacific-island-states-are-trapped-cold-war-20?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.831448+08:00",
+          "content_sha256": "64ef20f073522a07d5989426d6736e286266b181a79e01ab36681a93c682c9ab"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 37
       },
-      "evidence_complete": true
+      "summary": "In early July, China fired a test missile from a nuclear submarine into the South Pacific for the first time, a weapon capable of carrying nuclear warheads. Washington and Canberra were livid. The Pacific has long been the exclusive testing ground for such long-range missiles from the United States. How dare China!\nThe reaction from Pacific island states was more measured. While leaders from Tuvalu, Palau and the Solomon Islands strongly criticised the test, the 18-member Pacific Islands Forum..",
+      "category": "国际",
+      "published_at": "2026-09-20T21:30:06+00:00",
+      "why_relevant": "太平洋岛国冷战2.0",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_034e2f8ededf495fc1c68e24",
-      "title": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan has been in motion for months before, calls agreement ‘self-serving’",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
-      "publisher": "Tom's Hardware",
-      "summary": "A proposed class action lawsuit has been lodged against the four big AI tech companies after they agreed to slow AI development for safety reasons. The lead counsel on the lawsuit says that 'AI will quickly spin out of control and could kill us all if we allow AI safety and protocol ... to be controlled by private self-serving agreements between the world's most powerful 'for profit' technology companies.'",
-      "category": "科技",
-      "published_at": "2026-09-20T14:48:57+00:00",
-      "why_relevant": "AI巨头反垄断，监管风向",
-      "relevance_score": 7.0,
+      "headline": "Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan has been in motion for months before, calls agreement ‘self-serving’",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1326,24 +1489,49 @@
         "July 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/anthropic-openai-spacexai-and-google-face-antitrust-lawsuit-for-agreeing-to-slow-ai-development-plaintiffs-say-plan-has-been-in-motion-for-months-before-calls-agreement-self-serving",
+          "canonical_url": null,
+          "hostname": "www.tomshardware.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.832445+08:00",
+          "content_sha256": "0f399270a5bd7e7356e374dcb3e4429a872322732ac81078bf0217640d75b90a"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-21T08:03:11.832689+08:00",
+          "content_sha256": "46446e8bf279e9ee88f5d11908d058ed44f384186d57c896b58ae8bf100f1467"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 28
       },
-      "evidence_complete": true
+      "summary": "A proposed class action lawsuit has been lodged against the four big AI tech companies after they agreed to slow AI development for safety reasons. The lead counsel on the lawsuit says that 'AI will quickly spin out of control and could kill us all if we allow AI safety and protocol ... to be controlled by private self-serving agreements between the world's most powerful 'for profit' technology companies.'",
+      "category": "科技",
+      "published_at": "2026-09-20T14:48:57+00:00",
+      "why_relevant": "AI巨头反垄断，监管风向",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_6d3188ecf252dfb989982370",
-      "title": "The PC gaming ray tracing obsession began with the first RTX 20 graphics cards released on this day in 2018 — the GeForce RTX 2080 and 2080 Ti led the charge, but games were thin on the ground",
-      "url": "https://www.tomshardware.com/pc-components/gpus/the-pc-gaming-ray-tracing-obsession-began-with-the-first-rtx-20-graphics-cards-released-on-this-day-in-2018-the-geforce-rtx-2080-and-2080-ti-led-the-charge-but-games-were-thin-on-the-ground",
-      "publisher": "Tom's Hardware",
-      "summary": "Nvidia’s Turing GPU became available to enthusiasts for the first time on this day eight years ago.",
-      "category": "科技",
-      "published_at": "2026-09-20T14:05:31+00:00",
-      "why_relevant": "RTX 20光追起源回顾",
-      "relevance_score": 7.0,
+      "headline": "The PC gaming ray tracing obsession began with the first RTX 20 graphics cards released on this day in 2018 — the GeForce RTX 2080 and 2080 Ti led the charge, but games were thin on the ground",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1481,13 +1669,31 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/gpus/the-pc-gaming-ray-tracing-obsession-began-with-the-first-rtx-20-graphics-cards-released-on-this-day-in-2018-the-geforce-rtx-2080-and-2080-ti-led-the-charge-but-games-were-thin-on-the-ground",
+          "canonical_url": null,
+          "hostname": "www.tomshardware.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-21T08:03:11.833945+08:00",
+          "content_sha256": "9726690d733a425f419357e623a0d6efba5d4f5c0a3648ba84e8e378c981ea98"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 52
       },
-      "evidence_complete": true
+      "summary": "Nvidia’s Turing GPU became available to enthusiasts for the first time on this day eight years ago.",
+      "category": "科技",
+      "published_at": "2026-09-20T14:05:31+00:00",
+      "why_relevant": "RTX 20光追起源回顾",
+      "relevance_score": 7.0
     }
   ]
 }

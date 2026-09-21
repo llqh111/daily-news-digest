@@ -1,0 +1,85 @@
+{
+  "total_items": 12,
+  "items_with_unsupported_numbers": 3,
+  "items_with_missing_evidence": 0,
+  "unmatched_evidence_ids": [],
+  "validation_complete": true,
+  "unsupported_ratio": 0.25,
+  "items": [
+    {
+      "article_id": "a1_44238295b3ec33d1631503e5",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_3bb3ac9cf59842f9b4353ac5",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_ecf3f244fef82b7f7b7bdd53",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_17b858ed69ae4717e89f68c2",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_4fcfaa45face914917857737",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_1fd211c77367fa898e260d8c",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_db68f6381fc486aa8412013d",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_d4347064559ecbf83eabe47d",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_034e2f8ededf495fc1c68e24",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_6d3188ecf252dfb989982370",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        799.0,
+        699.0,
+        1200.0,
+        1200.0
+      ]
+    },
+    {
+      "article_id": "a1_4fac2669105784828a1d351b",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        75000.0,
+        75000.0,
+        80000.0
+      ]
+    },
+    {
+      "article_id": "a1_1bb16d0ef6cd5eac45005e0d",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        255.0,
+        236.0,
+        255.0,
+        30.0,
+        134.0
+      ]
+    }
+  ]
+}
