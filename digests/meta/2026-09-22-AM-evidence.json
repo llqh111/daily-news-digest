@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-09-22-AM",
+  "version": 1,
   "date": "2026-09-22",
   "session": "AM",
-  "delivered_at": "2026-09-22T08:08:37.530232+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-09-22T00:08:37.531547+00:00",
-  "quality": {
-    "total_items": 13,
-    "items_with_unsupported_numbers": 2,
-    "unsupported_ratio": 0.15384615384615385
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_c171d2b506a49bbb5390c2cd",
-      "title": "US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit",
-      "url": "https://www.scmp.com/news/us/diplomacy/article/3368311/us-china-need-nuclear-style-ai-safeguards-congressman-says-xi-trump-summit?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "The US and China should agree on international regulatory standards for artificial intelligence (AI), akin to atomic-era guardrails, said Ro Khanna, the ranking member of the US House Select Committee on China, in New York on Monday ahead of the two countries’ high-stakes summit.\nThe remarks come two days before Chinese President Xi Jinping is set to arrive in Washington to meet with US President Donald Trump for a closely watched summit where AI is expected to be on the agenda after the two...",
-      "category": "国际",
-      "published_at": "2026-09-21T22:48:38+00:00",
-      "why_relevant": "中美AI核级护栏,峰会前重磅",
-      "relevance_score": 9.0,
+      "headline": "US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -79,24 +64,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3368311/us-china-need-nuclear-style-ai-safeguards-congressman-says-xi-trump-summit?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-22T08:03:37.375898+08:00",
+          "content_sha256": "235758ca79dbff7c380c68560fd948a8b5b0cc06fad8fcc5253638f0070cbfca"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.376084+08:00",
+          "content_sha256": "e97cc280757c71257d86b64054ff882a152a49911cbcdf956b99d81987c60f37"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 2,
         "anchor_count": 21
       },
-      "evidence_complete": true
+      "summary": "The US and China should agree on international regulatory standards for artificial intelligence (AI), akin to atomic-era guardrails, said Ro Khanna, the ranking member of the US House Select Committee on China, in New York on Monday ahead of the two countries’ high-stakes summit.\nThe remarks come two days before Chinese President Xi Jinping is set to arrive in Washington to meet with US President Donald Trump for a closely watched summit where AI is expected to be on the agenda after the two...",
+      "category": "国际",
+      "published_at": "2026-09-21T22:48:38+00:00",
+      "why_relevant": "中美AI核级护栏,峰会前重磅",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_b87c450dd2470f8108e53fe3",
-      "title": "EXCLUSIVE: US to open two new military bases in Greenland, sources say",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbTI3eU92Z3FoaElJN24tR3JUS1F2bFFoYUh6X3ItQjV4T0s1M0FiV0Z6dTB2aU1MX1pxamNJOVpUa0RvbkNVMnR5M0hCeEVsSGVMTlVZazhpOXRPcXB2ZDltTTZKSTRPSm8zNkFVelh2RUVyVHZPdTZJRlpmamxucjRaeGVuOFVmZlE2NmRUY0Z6Q0Q3N0Y1cHFabWZDVG1JM2F3?oc=5",
-      "publisher": "Reuters",
-      "summary": "EXCLUSIVE: US to open two new military bases in Greenland, sources say&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-09-21T22:55:44+00:00",
-      "why_relevant": "美在格陵兰新建基地,北极争霸",
-      "relevance_score": 9.0,
+      "headline": "EXCLUSIVE: US to open two new military bases in Greenland, sources say",
       "confirmed_facts": [],
       "entities": [
         "reuters",
@@ -109,24 +119,49 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbTI3eU92Z3FoaElJN24tR3JUS1F2bFFoYUh6X3ItQjV4T0s1M0FiV0Z6dTB2aU1MX1pxamNJOVpUa0RvbkNVMnR5M0hCeEVsSGVMTlVZazhpOXRPcXB2ZDltTTZKSTRPSm8zNkFVelh2RUVyVHZPdTZJRlpmamxucjRaeGVuOFVmZlE2NmRUY0Z6Q0Q3N0Y1cHFabWZDVG1JM2F3?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.378416+08:00",
+          "content_sha256": "4a7735c980265181c16d196c667902d515f6e7876438ad147c643dc6b3b9ae01"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.378445+08:00",
+          "content_sha256": "92da5c16744963e37e74a913747ac16025ed3f15b3519d93628c42f0848af2e6"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 0,
         "anchor_count": 3
       },
-      "evidence_complete": false
+      "summary": "EXCLUSIVE: US to open two new military bases in Greenland, sources say&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-09-21T22:55:44+00:00",
+      "why_relevant": "美在格陵兰新建基地,北极争霸",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_d91fa52600cd20e2425b72c9",
-      "title": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
-      "publisher": "Reuters",
-      "summary": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-09-21T23:25:27+00:00",
-      "why_relevant": "特朗普支持率创历史新低",
-      "relevance_score": 9.0,
+      "headline": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -154,24 +189,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2xXN3ZZR05LSzJLYVpOTFZTVlJkLWhnZUxnRDVlckVJT0pDN3RDRFJoTnJObVJGY0RYMGJLYUpGT0pNVUlrUFlBTVlzS0hNbUhWNk1lYzBNUEdRYmQwNy04X3ZHQzAzY1NGZDZxVEhsOTl3LWFrcjFDMEJhaUxPS2hlbnlUMkRsYml0bnBkSVBUR3F0YUtXbWxDdnVScmE4dGw1LUhXelhOVVNyVm9YbWRJMXI1R2wybnNz?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.378580+08:00",
+          "content_sha256": "0f0722a1bed590220ae70be3c429f6f8e7b4d7c68e8877a5dacac83d20709cdb"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 1,
         "anchor_count": 4
       },
-      "evidence_complete": true
+      "summary": "EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-09-21T23:25:27+00:00",
+      "why_relevant": "特朗普支持率创历史新低",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_fc47ec6dcef9d70c365f1ba4",
-      "title": "Get the world’s fastest gaming CPU and a DLSS 5-capable GPU in a gaming PC for $2,299 — fully loaded powerhouse sports Ryzen 7 9800X3D, RTX 5080 Founders Edition, 32GB RAM, and 1TB SSD [Updated]",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-the-worlds-fastest-gaming-cpu-and-a-dlss-5-capable-gpu-in-a-gaming-pc-for-usd2-299-fully-loaded-powerhouse-sports-ryzen-7-9800x3d-rtx-5080-founders-edition-32gb-ram-and-1tb-ssd",
-      "publisher": "Tom's Hardware",
-      "summary": "Walmart is selling a CyberPowerPC gaming PC with a Ryzen 7 9800X3D, GeForce RTX 5080 Founders Edition, 32GB of DDR5-6000 memory, and a 1TB PCIe 4.0 SSD for $2,299.",
-      "category": "科技",
-      "published_at": "2026-09-21T17:19:27+00:00",
-      "why_relevant": "顶配游戏PC好价,玩家必读",
-      "relevance_score": 9.0,
+      "headline": "Get the world’s fastest gaming CPU and a DLSS 5-capable GPU in a gaming PC for $2,299 — fully loaded powerhouse sports Ryzen 7 9800X3D, RTX 5080 Founders Edition, 32GB RAM, and 1TB SSD [Updated]",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -311,24 +359,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-the-worlds-fastest-gaming-cpu-and-a-dlss-5-capable-gpu-in-a-gaming-pc-for-usd2-299-fully-loaded-powerhouse-sports-ryzen-7-9800x3d-rtx-5080-founders-edition-32gb-ram-and-1tb-ssd",
+          "canonical_url": null,
+          "hostname": "www.tomshardware.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-22T08:03:37.378743+08:00",
+          "content_sha256": "fc75d289eb8aae3aac08e5d8d8296a54913639ffe74f8a9b8892bf54dbc1d943"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.379038+08:00",
+          "content_sha256": "265b0d3fc1189eaff44634d979280286128a96836c4e175f56d4fa9da877ce69"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 42
       },
-      "evidence_complete": true
+      "summary": "Walmart is selling a CyberPowerPC gaming PC with a Ryzen 7 9800X3D, GeForce RTX 5080 Founders Edition, 32GB of DDR5-6000 memory, and a 1TB PCIe 4.0 SSD for $2,299.",
+      "category": "科技",
+      "published_at": "2026-09-21T17:19:27+00:00",
+      "why_relevant": "顶配游戏PC好价,玩家必读",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_b274f630c41757aff11703d1",
-      "title": "Putin’s party wins supermajority in Russia’s parliamentary election",
-      "url": "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Victory of United Russia party strengthens Putin&#039;s hand even as the war with Ukraine grows more unpopular.",
-      "category": "国际",
-      "published_at": "2026-09-21T20:17:39+00:00",
-      "why_relevant": "普京胜选强化权力,地缘关键",
-      "relevance_score": 8.0,
+      "headline": "Putin’s party wins supermajority in Russia’s parliamentary election",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -412,24 +485,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.380680+08:00",
+          "content_sha256": "4003b5abc03c6763626b00d7fa385dcdbc31485f871c4fb2a153278fcbec480f"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.380930+08:00",
+          "content_sha256": "4d858815a5737efa625d069399cba148feba179a9d868b28479bf46fe6bc3fe9"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.380945+08:00",
+          "content_sha256": "7dba98b4e36509f91254f27e3f262dd32b88b8b20989efebb7e755cdf02fd990"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 3,
         "anchor_count": 38
       },
-      "evidence_complete": true
+      "summary": "Victory of United Russia party strengthens Putin&#039;s hand even as the war with Ukraine grows more unpopular.",
+      "category": "国际",
+      "published_at": "2026-09-21T20:17:39+00:00",
+      "why_relevant": "普京胜选强化权力,地缘关键",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_0ec00b079e6626a37c6a3b04",
-      "title": "Banished to alien lands: Trump’s secret deportation deals",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
-      "publisher": "The Guardian",
-      "summary": "After a plane journey in shackles, an Iranian woman found herself in the middle of Africa in a country she did not know existed. She is one of thousands deported from the US on the back of shadowy deals made with dozens of countries. An in-depth investigation reveals the ‘show of force’ costing American taxpayers millionsNo one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only ",
-      "category": "国际",
-      "published_at": "2026-09-21T05:00:38+00:00",
-      "why_relevant": "特朗普秘密驱逐协议,深度调查",
-      "relevance_score": 8.0,
+      "headline": "Banished to alien lands: Trump’s secret deportation deals",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -557,24 +667,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.382152+08:00",
+          "content_sha256": "49c27d45b24a955ab78515e7a5e4f3d748e8671f43d6cc9a11c32f653a00232e"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.382392+08:00",
+          "content_sha256": "2a322ae52dcb7458c5331e723350d29d03633589f39a0eb691cbba585eb00030"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 44
       },
-      "evidence_complete": true
+      "summary": "After a plane journey in shackles, an Iranian woman found herself in the middle of Africa in a country she did not know existed. She is one of thousands deported from the US on the back of shadowy deals made with dozens of countries. An in-depth investigation reveals the ‘show of force’ costing American taxpayers millionsNo one would tell the shackled detainees onboard the US immigration plane where they were going. The officers in charge would taunt them when they asked, they said. It was only ",
+      "category": "国际",
+      "published_at": "2026-09-21T05:00:38+00:00",
+      "why_relevant": "特朗普秘密驱逐协议,深度调查",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_8b5fc9a40845baa9811261ba",
-      "title": "Nuclear power is back on Southeast Asia's energy agenda",
-      "url": "https://www.dw.com/en/nuclear-power-is-back-on-southeast-asia-s-energy-agenda/a-79358744?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Rising electricity demand, shocks in energy security and climate commitments are reviving long-stalled plans for nuclear power across Southeast Asia. But proponents of nuclear energy still face major obstacles.",
-      "category": "国际",
-      "published_at": "2026-09-21T13:47:00+00:00",
-      "why_relevant": "东南亚核电回归,能源地缘",
-      "relevance_score": 8.0,
+      "headline": "Nuclear power is back on Southeast Asia's energy agenda",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -709,24 +844,37 @@
         "September 21"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "DW",
+          "url": "https://www.dw.com/en/nuclear-power-is-back-on-southeast-asia-s-energy-agenda/a-79358744?maca=en-rss-en-world-4025-xml-mrss",
+          "canonical_url": null,
+          "hostname": "www.dw.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.383538+08:00",
+          "content_sha256": "9c4992238cf617cd2e243065c5e5e619aaf310335e47842c6a19442ed2e1ff94"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 46
       },
-      "evidence_complete": true
+      "summary": "Rising electricity demand, shocks in energy security and climate commitments are reviving long-stalled plans for nuclear power across Southeast Asia. But proponents of nuclear energy still face major obstacles.",
+      "category": "国际",
+      "published_at": "2026-09-21T13:47:00+00:00",
+      "why_relevant": "东南亚核电回归,能源地缘",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_5d6c9226bdb60b8492768192",
-      "title": "anthropics/financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "publisher": "GitHub Trending",
-      "summary": "Claude for Financial Services \nReference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management. \nEverything here is available two ways from one source: install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs. \n\n \n  \n   \n  Important\n Nothing in this repository constit",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "金融AI解决方案,直接对口读者关注",
-      "relevance_score": 8.0,
+      "headline": "anthropics/financial-services",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -851,24 +999,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/anthropics/financial-services",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-22T08:03:37.384855+08:00",
+          "content_sha256": "bb4b94ab3ad89e1817a9d86fe29c70833bf9d98e6360a5eab569a18346b05fc3"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 38
       },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_9fbb10a3abddb06da4923021",
-      "title": "BuilderIO/agent-native",
-      "url": "https://github.com/BuilderIO/agent-native",
-      "publisher": "GitHub Trending",
-      "summary": "A framework for building agentic appshttps://www.agent-native.com \n  \n  \n  \n \nAgent-Native \nAgent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI. Define each capability once as an action: the agent uses it as a tool, and the UI calls it from code. \nQuick start \nnpx --yes @agent-native/core@latest create my-agent --standalone --template chat\n \nFollow the getting started guide for a full intro to the framework. \nWhy build agents ",
+      "summary": "Claude for Financial Services \nReference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management. \nEverything here is available two ways from one source: install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs. \n\n \n  \n   \n  Important\n Nothing in this repository constit",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "构建agentic应用的TS框架",
-      "relevance_score": 8.0,
+      "why_relevant": "金融AI解决方案,直接对口读者关注",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_9fbb10a3abddb06da4923021",
+      "headline": "BuilderIO/agent-native",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1011,24 +1172,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/BuilderIO/agent-native",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-22T08:03:37.386140+08:00",
+          "content_sha256": "e9b4f64d547758db724a99be7236ea9d849d6d2c68af9fb43853753d3063f5c9"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 50
       },
-      "evidence_complete": true
+      "summary": "A framework for building agentic appshttps://www.agent-native.com \n  \n  \n  \n \nAgent-Native \nAgent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI. Define each capability once as an action: the agent uses it as a tool, and the UI calls it from code. \nQuick start \nnpx --yes @agent-native/core@latest create my-agent --standalone --template chat\n \nFollow the getting started guide for a full intro to the framework. \nWhy build agents ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "构建agentic应用的TS框架",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_b04073fde76a1bdf2e43ee8c",
-      "title": "MCP was always a bad idea?",
-      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "publisher": "Simon Willison",
-      "summary": "My comment on MCP was always a bad idea? &mdash; Hacker News.This article entirely misses the value that MCP brings today.\nSure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.\nIf you want to operate something that's less YOLO than that, you'll find yourself wanting:\n\nControl over exactly which external services it can access\nA way to handle authenti",
-      "category": "科技",
-      "published_at": "2026-09-20T20:24:41+00:00",
-      "why_relevant": "MCP价值争议,硬核AI观点",
-      "relevance_score": 8.0,
+      "headline": "MCP was always a bad idea?",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1111,24 +1285,37 @@
         "September 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.387333+08:00",
+          "content_sha256": "fe683fa4c52a21392a259a670286875d6e84de8d621e93c95690a67716729ae6"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 4,
         "anchor_count": 26
       },
-      "evidence_complete": true
+      "summary": "My comment on MCP was always a bad idea? &mdash; Hacker News.This article entirely misses the value that MCP brings today.\nSure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.\nIf you want to operate something that's less YOLO than that, you'll find yourself wanting:\n\nControl over exactly which external services it can access\nA way to handle authenti",
+      "category": "科技",
+      "published_at": "2026-09-20T20:24:41+00:00",
+      "why_relevant": "MCP价值争议,硬核AI观点",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_edff3792efd14be4af51bce0",
-      "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
-      "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-09-21T12:17:48+00:00",
-      "why_relevant": "科技巨头布局稳定币与代币化",
-      "relevance_score": 8.0,
+      "headline": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1235,24 +1422,37 @@
         "March 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
+          "canonical_url": null,
+          "hostname": "www.coindesk.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-22T08:03:37.388020+08:00",
+          "content_sha256": "b3ea00d83447440d28b483406c037d59a9f2a28907596ae10a7a89052d573e72"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 25
       },
-      "evidence_complete": true
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-09-21T12:17:48+00:00",
+      "why_relevant": "科技巨头布局稳定币与代币化",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_419c471fa4ad917c5112aec1",
-      "title": "‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports",
-      "url": "https://www.ft.com/content/319c7b67-b585-407e-a0da-6e23b1612180?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Fuel price crisis triggered by president’s Iran war rattles legislators from rural America’s heartlands",
-      "category": "财经",
-      "published_at": "2026-09-21T23:28:40+00:00",
-      "why_relevant": "柴油出口禁令与通胀压力",
-      "relevance_score": 7.0,
+      "headline": "‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1364,24 +1564,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/319c7b67-b585-407e-a0da-6e23b1612180?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.389376+08:00",
+          "content_sha256": "c68fb5ac67e7de0c5d214d63a038b87863eec11552f63c73a07e74f00950de4c"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.389471+08:00",
+          "content_sha256": "937043ffded82f15f418821e4707cb19fbd4a0ed03d375ff2b8379844a09fd37"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.389486+08:00",
+          "content_sha256": "dd2c10f671454cb7e0dcd2dab70affcaadbe4298eb34da7716b170aea3d57528"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 24
       },
-      "evidence_complete": true
+      "summary": "Fuel price crisis triggered by president’s Iran war rattles legislators from rural America’s heartlands",
+      "category": "财经",
+      "published_at": "2026-09-21T23:28:40+00:00",
+      "why_relevant": "柴油出口禁令与通胀压力",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_76df636c884efa87f78878d4",
-      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
-      "publisher": "Reuters Business",
-      "summary": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat&nbsp;&nbsp;Reuters",
-      "category": "财经",
-      "published_at": "2026-09-21T23:12:31+00:00",
-      "why_relevant": "纳指新高,AI乐观情绪",
-      "relevance_score": 7.0,
+      "headline": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat",
       "confirmed_facts": [],
       "entities": [
         "nasdaq",
@@ -1395,13 +1632,43 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters Business",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-22T08:03:37.390075+08:00",
+          "content_sha256": "f7e427ada4825962f5ef9400be1c73bc0e205624badfb655257dc9754f799428"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-22T08:03:37.390102+08:00",
+          "content_sha256": "61893face600dff043398bbdc2cc59af31deb7ace0c9f6cb823dcf42e7249303"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 0,
         "anchor_count": 4
       },
-      "evidence_complete": false
+      "summary": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat&nbsp;&nbsp;Reuters",
+      "category": "财经",
+      "published_at": "2026-09-21T23:12:31+00:00",
+      "why_relevant": "纳指新高,AI乐观情绪",
+      "relevance_score": 7.0
     }
   ]
 }

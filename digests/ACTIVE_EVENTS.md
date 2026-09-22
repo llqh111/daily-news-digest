@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-21 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-22 08:08。
+
+## US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Advertisement US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit Top Democrat on the House China committee calls for international inspections of leading AI laboratories and a ban on self-improving systems 3-MIN READ3-MIN Listen Lucy Quagginin New
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_3046753d0286`
+
+## EXCLUSIVE: US to open two new military bases in Greenland, sources say
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260922_106e2ccdbaa6`
+
+## EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260922_7399b9286cfc`
+
+## Get the world’s fastest gaming CPU and a DLSS 5-capable GPU in a gaming PC for $2,299 — fully loaded powerhouse sports Ryzen 7 9800X3D, RTX 5080 Founders Edition, 32GB RAM, and 1TB SSD [Updated]
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Get the world’s fastest gaming CPU and a DLSS 5-capable GPU in a gaming PC for $2,299 — fully loaded powerhouse sports Ryzen 7 9800X3D, RTX 5080 Founders Edition, 32GB RAM, and 1TB SSD [Updated] Update 2:39PM PT: This is going in and out of stock.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_7f013071b2f5`
+
+## Putin’s party wins supermajority in Russia’s parliamentary election
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Putin’s party wins supermajority in Russia’s parliamentary election Victory of United Russia party strengthens Putin’s hand even as the war with Ukraine grows more unpopular.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_3a075934606a`
+
+## Banished to alien lands: Trump’s secret deportation deals
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Nika’s story No one would tell the shackled detainees onboard the US immigration plane where they were going.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_64bd12710235`
+
+## Nuclear power is back on Southeast Asia's energy agenda
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Nuclear power is back on Southeast Asia's energy agenda September 21, 2026 Southeast Asian governments are revisiting nuclear power as electricity consumption raises, exposing the region's dependence on fossil fuels.
+- 事件 ID：`evt_20260922_8939c6f88e29`
+
+## anthropics/financial-services
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_d1dea913d32d`
+
+## BuilderIO/agent-native
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Agent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_e294ea3a4048`
+
+## MCP was always a bad idea?
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：20th September 2026 This article entirely misses the value that MCP brings today.
+- 事件 ID：`evt_20260922_e4cb7b702ba8`
+
+## Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails The tech giants’ job listings could indicate that they are separately pursuing experts in stablecoins and tokenized deposits for future projects.
+- 事件 ID：`evt_20260922_467c2b4e466f`
+
+## ‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 最新事实：‘Stop the bleeding’: top Republicans tell Donald Trump to ban US diesel exports ahead of midterms Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_0056c04defce`
+
+## Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260922_38ca17ad28ee`
 
 ## US, China open high-level talks ahead of Trump-Xi summit
 - 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
