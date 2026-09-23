@@ -1,17 +1,87 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-22 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-23 08:07。
+
+## EXCLUSIVE: US to open two new military bases in Greenland, sources say
+- 状态：更新中；首见 2026-09-22；最近更新 2026-09-23
+- 最新事实：US to build two military bases in Greenland under new deal with Denmark - Published The US, Denmark and Greenland have signed a defence deal that allows Washington to build two new military bases in the Arctic territory, while reaffirming Copenhagen's sovereignty over it.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260922_106e2ccdbaa6`
+
+## Zelensky meets Trump, says Ukraine ready for energy truce with Russia
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：Zelensky meets Trump, says Ukraine ready for energy truce with Russia The US president announced such a truce last week, but Russia hit petrol stations in Kyiv the next day and Ukraine bombed an oil refinery Ukrainian leader Volodymyr Zelensky said on Tuesday that he and US Presi
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_4a4a7b4607b8`
+
+## Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：It’s going to take a while to get a good read on all of these new models, but here are my impressions so far.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_a5f1932359c9`
+
+## OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 Luna Now Priced Below Claude Opus 5.5 And DeepSeek’s V4.1 Flash, Respectively, Negating The Rationale For Open-Weight Models
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：OpenAI's GPT-6 Sol is now priced at just $2 per 1 million tokens of input, while the GPT-6 Luna offers 1 million tokens of input at just $0.10 OpenAI's GPT-6 Sol and GPT-6 Luna are both 50 percent cheaper than their previous iterations.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_e7f3ebea0bd2`
+
+## US law enforcement tightens security for Xi summit as welcome and protest events planned
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：Advertisement US law enforcement tightens security for Xi summit as welcome and protest events planned US Secret Service says it is committed to ensuring the safety and security of all foreign heads of state while they are on American soil 2-MIN READ2-MIN Listen Han Liin Washingt
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_aac88fc491c0`
+
+## Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：But this year, he may have upstaged the ghost of Nikita Khrushchev by openly contemplating the annihilation of a fellow UN member state.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_283b36b337ef`
+
+## US Treasury secretary could take on AI czar role, source says
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260923_71db57dcb1c0`
+
+## akitaonrails/ai-memory
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：Long-term memory for AI coding agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_f7e739cf661f`
+
+## Nasdaq rises to new record; S&P 500 closes flat as oil slides for a fifth day
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：The Nasdaq Composite rose to a fresh all-time intraday high on Tuesday, while the S&P 500 was relatively unchanged as traders continued to keep an eye on developments between the U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_1d3bfd3a1407`
+
+## Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260923_4f1f65f8fe7f`
+
+## Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：President Donald Trump disclosed, in a filing released Tuesday, more than 1,100 securities transactions made on his behalf in July, including sales of as much as $25 million each of Microsoft and Amazon shares, as his sprawling investment portfolio underwent another month of heav
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_cdcbaffa779d`
+
+## Canada seeks to wrap up India trade talks soon, as US ties fray
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：Canada seeks to wrap up India trade talks soon, as US ties fray PM Carney says his Indian counterpart Modi will visit Canada around the time of the G20 summit in Miami this December Canadian Prime Minister Mark Carney said on Tuesday that trade negotiations with India are making 
+- 事件 ID：`evt_20260923_06720fffee62`
+
+## Crosstalk-Solutions/project-nomad
+- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
+- 最新事实：Project NOMAD is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered — anytime, anywhere.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_b849bef563b2`
 
 ## US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit
 - 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
 - 最新事实：Advertisement US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit Top Democrat on the House China committee calls for international inspections of leading AI laboratories and a ban on self-improving systems 3-MIN READ3-MIN Listen Lucy Quagginin New
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260922_3046753d0286`
-
-## EXCLUSIVE: US to open two new military bases in Greenland, sources say
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260922_106e2ccdbaa6`
 
 ## EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds
 - 状态：更新中；首见 2026-09-22；最近更新 2026-09-22

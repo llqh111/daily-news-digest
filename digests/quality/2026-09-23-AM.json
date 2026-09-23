@@ -1,0 +1,87 @@
+{
+  "total_items": 13,
+  "items_with_unsupported_numbers": 3,
+  "items_with_missing_evidence": 0,
+  "unmatched_evidence_ids": [],
+  "validation_complete": true,
+  "unsupported_ratio": 0.23076923076923078,
+  "items": [
+    {
+      "article_id": "a1_5310ceb5ec67c356aee343a2",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_b6067a76192f7d1fbf56f5a2",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_1b58ac588acff5e0ac0804dc",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_8fa3425ee4c7b00185cbb6ab",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_c3ad939ba54f5d3bdb10f25e",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_949c0760dc83ff9f6a569c77",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        50.0,
+        50.0,
+        50.0,
+        59.0,
+        54.0,
+        25.0
+      ]
+    },
+    {
+      "article_id": "a1_4b643fae6a01838b98e26f2f",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_85a0f11f4fc45ffc2549a3c4",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_c715616921abc9106805efe1",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        100.0,
+        99.25
+      ]
+    },
+    {
+      "article_id": "a1_09ded955e511d9d0d5e92960",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_4962438d5228a0b226ceab12",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        500000.0
+      ]
+    },
+    {
+      "article_id": "a1_e6670dbe0e58609253c820ad",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_3a136c323b7f59898f179caf",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    }
+  ]
+}

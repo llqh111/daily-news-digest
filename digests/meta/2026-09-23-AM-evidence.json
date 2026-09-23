@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-09-23-AM",
+  "version": 1,
   "date": "2026-09-23",
   "session": "AM",
-  "delivered_at": "2026-09-23T08:07:50.235969+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-09-23T00:07:50.236822+00:00",
-  "quality": {
-    "total_items": 13,
-    "items_with_unsupported_numbers": 3,
-    "unsupported_ratio": 0.23076923076923078
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_5310ceb5ec67c356aee343a2",
-      "title": "Zelensky meets Trump, says Ukraine ready for energy truce with Russia",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3368442/zelensky-meets-trump-says-ukraine-ready-energy-truce-russia?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Ukrainian leader Volodymyr Zelensky said on Tuesday that he and US President Donald Trump had discussed efforts to end the four-year-old war with Russia, including a potential bilateral ceasefire on energy-related targets.\nSpeaking to the media after a 40-minute meeting with Trump at UN headquarters in New York, Zelensky said Kyiv was ready for any ‌format of an energy ceasefire with Moscow but there had been no discussion of Ukraine unilaterally halting its attacks on Russian oil...",
-      "category": "国际",
-      "published_at": "2026-09-22T22:34:24+00:00",
-      "why_relevant": "泽连斯基与特朗普会晤，地缘核心事件",
-      "relevance_score": 9.0,
+      "headline": "Zelensky meets Trump, says Ukraine ready for energy truce with Russia",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -87,24 +72,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3368442/zelensky-meets-trump-says-ukraine-ready-energy-truce-russia?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.424740+08:00",
+          "content_sha256": "df50001027497db1d8214e5d96e3d96312189fe013e2f487a306b40cdff09fae"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.424881+08:00",
+          "content_sha256": "46521a4d73609a6c20875782579106f690bfb92aae6391cb4ab6ce2f8da8b092"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.424894+08:00",
+          "content_sha256": "7260b0eef6effde6335e9d14f067ccc27a76bc07620436936b803197cf559a90"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 3,
         "anchor_count": 17
       },
-      "evidence_complete": true
+      "summary": "Ukrainian leader Volodymyr Zelensky said on Tuesday that he and US President Donald Trump had discussed efforts to end the four-year-old war with Russia, including a potential bilateral ceasefire on energy-related targets.\nSpeaking to the media after a 40-minute meeting with Trump at UN headquarters in New York, Zelensky said Kyiv was ready for any ‌format of an energy ceasefire with Moscow but there had been no discussion of Ukraine unilaterally halting its attacks on Russian oil...",
+      "category": "国际",
+      "published_at": "2026-09-22T22:34:24+00:00",
+      "why_relevant": "泽连斯基与特朗普会晤，地缘核心事件",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_4b643fae6a01838b98e26f2f",
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "publisher": "Simon Willison",
-      "summary": "Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans). Today Anthropic released Claude Opus 5.5, and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna. It's going to take a while to get a good read on all of these new models, but here are my impressions so far.\nGPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents\nGPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really c",
-      "category": "科技",
-      "published_at": "2026-09-22T23:46:41+00:00",
-      "why_relevant": "Claude与GPT-6同日发布，价格战升级，必读",
-      "relevance_score": 9.0,
+      "headline": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -233,24 +255,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-23T08:03:17.426214+08:00",
+          "content_sha256": "8586222c2cc71d457fbf2516be1d1ef976b2a9d49575cd7eae12e9bc6d744074"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 41
       },
-      "evidence_complete": true
+      "summary": "Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans). Today Anthropic released Claude Opus 5.5, and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna. It's going to take a while to get a good read on all of these new models, but here are my impressions so far.\nGPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents\nGPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really c",
+      "category": "科技",
+      "published_at": "2026-09-22T23:46:41+00:00",
+      "why_relevant": "Claude与GPT-6同日发布，价格战升级，必读",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_949c0760dc83ff9f6a569c77",
-      "title": "OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 Luna Now Priced Below Claude Opus 5.5 And DeepSeek’s V4.1 Flash, Respectively, Negating The Rationale For Open-Weight Models",
-      "url": "https://wccftech.com/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-gpt-6-luna-now-priced-below-claude-opus-5-5-and-deepseeks-v4-1-flash-respectively-negating-the-rationale-for-open-weight-models/",
-      "publisher": "Wccftech",
-      "summary": "OpenAI has just done the unthinkable by offering unparalleled performance per dollar with its GPT-6 Sol and GPT-6 Luna models, with the latter's API prices even lower than those from the reigning champ of efficiency, DeepSeek's V4.1 Flash. Also, with Anthropic and OpenAI both releasing newer models today, and just days after their last such model launch, we can safely assume that the calls for pacing the development on AI have been relegated to the proverbial cold storage for now. OpenAI's GPT-6",
-      "category": "科技",
-      "published_at": "2026-09-22T19:55:36+00:00",
-      "why_relevant": "GPT-6定价击穿开源模型，AI成本拐点信号",
-      "relevance_score": 9.0,
+      "headline": "OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 Luna Now Priced Below Claude Opus 5.5 And DeepSeek’s V4.1 Flash, Respectively, Negating The Rationale For Open-Weight Models",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -369,24 +404,85 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wccftech",
+          "url": "https://wccftech.com/openai-unleashes-a-new-price-war-with-gpt-6-sol-and-gpt-6-luna-now-priced-below-claude-opus-5-5-and-deepseeks-v4-1-flash-respectively-negating-the-rationale-for-open-weight-models/",
+          "canonical_url": null,
+          "hostname": "wccftech.com",
+          "content_level": "fulltext",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.427194+08:00",
+          "content_sha256": "ea030e0080701be96e08e0c42d6946a14dfaee1df3b4953e5b39852ebf1a3aa1"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.427325+08:00",
+          "content_sha256": "c898ad5e5d650f33a9c24809c69db60e9f4cc61c33c529a866d500cf2ba37c55"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.427332+08:00",
+          "content_sha256": "02c3956682279ec8fbf295ff496ae5740d157e4e1559d8373b0f7a81f62ed0d1"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.427341+08:00",
+          "content_sha256": "0d24480ae90ac9b1aab5c5c1118b6fe1841c88333ec77fac5dacd1a53a286918"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.427349+08:00",
+          "content_sha256": "a73500f96020bc6552a3d451d51d83de40cca89e4e349e3b5c245c8460599868"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 31
       },
-      "evidence_complete": true
+      "summary": "OpenAI has just done the unthinkable by offering unparalleled performance per dollar with its GPT-6 Sol and GPT-6 Luna models, with the latter's API prices even lower than those from the reigning champ of efficiency, DeepSeek's V4.1 Flash. Also, with Anthropic and OpenAI both releasing newer models today, and just days after their last such model launch, we can safely assume that the calls for pacing the development on AI have been relegated to the proverbial cold storage for now. OpenAI's GPT-6",
+      "category": "科技",
+      "published_at": "2026-09-22T19:55:36+00:00",
+      "why_relevant": "GPT-6定价击穿开源模型，AI成本拐点信号",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_b6067a76192f7d1fbf56f5a2",
-      "title": "US law enforcement tightens security for Xi summit as welcome and protest events planned",
-      "url": "https://www.scmp.com/news/us/diplomacy/article/3368440/us-law-enforcement-tightens-security-xi-summit-welcome-and-protest-events-planned?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Ahead of Chinese President Xi Jinping’s state visit to Washington, starting on Wednesday, US law enforcement agencies have increased security as Chinese diaspora groups organise welcoming events and protest groups plan demonstrations.\nThe US Secret Service, which is leading security for the visit, said it is committed to ensuring the safety and security of all foreign heads of state while they are on US soil.\n“Secret Service personnel have been planning for the visit of the Chinese president for",
-      "category": "国际",
-      "published_at": "2026-09-22T20:46:26+00:00",
-      "why_relevant": "习拜会安全升级，中美关系关键节点",
-      "relevance_score": 8.0,
+      "headline": "US law enforcement tightens security for Xi summit as welcome and protest events planned",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -446,24 +542,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3368440/us-law-enforcement-tightens-security-xi-summit-welcome-and-protest-events-planned?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.428064+08:00",
+          "content_sha256": "fb3d18c7a4739a93b1eecb6bb78c77aa9ed7932ae4a80bf31802938c1743c793"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.428116+08:00",
+          "content_sha256": "c08a7838ff4ebff2f322fa92df978f31a0272db05226324800767b1b95316151"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.428125+08:00",
+          "content_sha256": "93faf6553556907468430062a435dab69b4acb83b1f2541188d3de495c66b501"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 3,
         "anchor_count": 14
       },
-      "evidence_complete": true
+      "summary": "Ahead of Chinese President Xi Jinping’s state visit to Washington, starting on Wednesday, US law enforcement agencies have increased security as Chinese diaspora groups organise welcoming events and protest groups plan demonstrations.\nThe US Secret Service, which is leading security for the visit, said it is committed to ensuring the safety and security of all foreign heads of state while they are on US soil.\n“Secret Service personnel have been planning for the visit of the Chinese president for",
+      "category": "国际",
+      "published_at": "2026-09-22T20:46:26+00:00",
+      "why_relevant": "习拜会安全升级，中美关系关键节点",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_1b58ac588acff5e0ac0804dc",
-      "title": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
-      "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
-      "publisher": "The Guardian",
-      "summary": "US president may have upstaged the ghost of Soviet leader Khrushchev by musing destruction of fellow member stateDonald Trump has a habit of discomfiting delegates to the United Nations general assembly. But this year, he may have upstaged the ghost of Nikita Khrushchev by openly contemplating the annihilation of a fellow UN member state.Eleven minutes into a 40-minute address, the US president announced he had “a big decision to make” over Iran, which has staged a much more determined resistanc",
-      "category": "国际",
-      "published_at": "2026-09-22T18:23:08+00:00",
-      "why_relevant": "特朗普威胁灭伊朗，地缘冲突升级",
-      "relevance_score": 8.0,
+      "headline": "Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -567,24 +700,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/22/donald-trump-unga-speech",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-23T08:03:17.428394+08:00",
+          "content_sha256": "a7a6ba1253c3af308b7cd60681c709767682926677520f1a5fa5a1933bf03966"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.428532+08:00",
+          "content_sha256": "0413029f1cc68934d3ea353f1ac72864e4ae29f1e0087127073bbf7757556681"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 22
       },
-      "evidence_complete": true
+      "summary": "US president may have upstaged the ghost of Soviet leader Khrushchev by musing destruction of fellow member stateDonald Trump has a habit of discomfiting delegates to the United Nations general assembly. But this year, he may have upstaged the ghost of Nikita Khrushchev by openly contemplating the annihilation of a fellow UN member state.Eleven minutes into a 40-minute address, the US president announced he had “a big decision to make” over Iran, which has staged a much more determined resistanc",
+      "category": "国际",
+      "published_at": "2026-09-22T18:23:08+00:00",
+      "why_relevant": "特朗普威胁灭伊朗，地缘冲突升级",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_8fa3425ee4c7b00185cbb6ab",
-      "title": "US to build two military bases in Greenland under new deal with Denmark",
-      "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
-      "category": "国际",
-      "published_at": "2026-09-22T21:36:55+00:00",
-      "why_relevant": "美国格陵兰军事基地，北极安全",
-      "relevance_score": 7.0,
+      "headline": "US to build two military bases in Greenland under new deal with Denmark",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -705,24 +863,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-23T08:03:17.429180+08:00",
+          "content_sha256": "40e80d0e821dfb6638d1baac8d8ca56f9d0d8b1ee0ef9e8f15c0a8e31db946a3"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.429295+08:00",
+          "content_sha256": "d1316aeaffbb3fa2c721f20ef07b33be2964933ddc02949616a4a134b774edf9"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 34
       },
-      "evidence_complete": true
+      "summary": "The defence deal signed at the UN General Assembly also re-affirms Denmark's sovereignty over its semi-autonomous Arctic territory.",
+      "category": "国际",
+      "published_at": "2026-09-22T21:36:55+00:00",
+      "why_relevant": "美国格陵兰军事基地，北极安全",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_c3ad939ba54f5d3bdb10f25e",
-      "title": "US Treasury secretary could take on AI czar role, source says",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNUpGX2hDdFZBMW45ZFVIelJSUll4TnpWR3NYWExINUxaX2planJ6dU9JNkNCcmM1U216U0VNcDd2TjZfNlluVHUyd1NtZkk2MjZlRTZRRWtLUGJBckpEQk91cUl5QnpvQWc2SC11cTRZczZPa2xBMTBjeVRVMWhRLURoazZZR0E1ZHY4OGNzY0wwTFFCXzRUNFlnbFVmcFFxVjRNRw?oc=5",
-      "publisher": "Reuters",
-      "summary": "US Treasury secretary could take on AI czar role, source says&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-09-22T21:57:43+00:00",
-      "why_relevant": "美财长或兼管AI，政策动向",
-      "relevance_score": 7.0,
+      "headline": "US Treasury secretary could take on AI czar role, source says",
       "confirmed_facts": [],
       "entities": [
         "ai",
@@ -736,24 +919,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNUpGX2hDdFZBMW45ZFVIelJSUll4TnpWR3NYWExINUxaX2planJ6dU9JNkNCcmM1U216U0VNcDd2TjZfNlluVHUyd1NtZkk2MjZlRTZRRWtLUGJBckpEQk91cUl5QnpvQWc2SC11cTRZczZPa2xBMTBjeVRVMWhRLURoazZZR0E1ZHY4OGNzY0wwTFFCXzRUNFlnbFVmcFFxVjRNRw?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-23T08:03:17.429906+08:00",
+          "content_sha256": "a456e775c879894e675fb95a41722cc419e8e2a346531426abf5d57dfe594ca5"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 4
       },
-      "evidence_complete": false
+      "summary": "US Treasury secretary could take on AI czar role, source says&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-09-22T21:57:43+00:00",
+      "why_relevant": "美财长或兼管AI，政策动向",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_85a0f11f4fc45ffc2549a3c4",
-      "title": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "publisher": "GitHub Trending",
-      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors \n  \n   \n   \n   \n \n Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. \n \n   \nWhy ai-memory \nYour coding agent already has a memory feature. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. ",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI编程长期记忆工具，直接解决agent切换痛点",
-      "relevance_score": 7.0,
+      "headline": "akitaonrails/ai-memory",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -872,24 +1068,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.429970+08:00",
+          "content_sha256": "e7af67f7f6ce686486dc1aaf9d045a04ca5580e13e9b914ae8f3100b92f7b32f"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 30
       },
-      "evidence_complete": true
+      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors \n  \n   \n   \n   \n \n Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. \n \n   \nWhy ai-memory \nYour coding agent already has a memory feature. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI编程长期记忆工具，直接解决agent切换痛点",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_c715616921abc9106805efe1",
-      "title": "Nasdaq rises to new record; S&P 500 closes flat as oil slides for a fifth day",
-      "url": "https://www.cnbc.com/2026/09/21/stock-market-today-live-updates.html",
-      "publisher": "CNBC",
-      "summary": "Traders continued to keep an eye on developments between the U.S. and Iran.",
-      "category": "财经",
-      "published_at": "2026-09-22T20:21:40+00:00",
-      "why_relevant": "纳指新高+油价连跌，美股大盘信号",
-      "relevance_score": 7.0,
+      "headline": "Nasdaq rises to new record; S&P 500 closes flat as oil slides for a fifth day",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1021,24 +1230,85 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/stock-market-today-live-updates.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.430678+08:00",
+          "content_sha256": "78ddaf51a0e1179553ec60e980d85df2173c3e21fdc872f1363b45f682c47574"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.430796+08:00",
+          "content_sha256": "3544d53cfe0c81005b716b03ff960d9779f18828e607318b20fc03443d5733d9"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.430803+08:00",
+          "content_sha256": "90c52b3386635880aca0580cadd0a4a4465a2576b1c4764b8e917bfa5cc5af98"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.430811+08:00",
+          "content_sha256": "64ffa1fb03a9e86248080b79841df7df0dac4e11808d294ca9ce11d2afd59f58"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.430818+08:00",
+          "content_sha256": "53339374efd4acdbd629a8bc0a68478c6b25c552f0139ba9a0b7eb697be8187c"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 45
       },
-      "evidence_complete": true
+      "summary": "Traders continued to keep an eye on developments between the U.S. and Iran.",
+      "category": "财经",
+      "published_at": "2026-09-22T20:21:40+00:00",
+      "why_relevant": "纳指新高+油价连跌，美股大盘信号",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_09ded955e511d9d0d5e92960",
-      "title": "Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZGR3T2ZLcVk2ZkdRdDBJLWZkVlRlUXBONm9UVmoyX1lmVU1CcE1KM2ViNDhrWllDVTdJdnYtYVlsQnBDMzRGU0JoczNhSlV3UGdnMTl4M3o2NDBVcVhDZDZZQUhHUlFZN0tDVWNGUDFMQkJmSWhtNjhKM2E4LTVtZThna01tSTdGekdrQVVmUGthTEpRLXBVTEtqRDBkNmVJbnQ4MURybndmMkwtMmVVU01CWkxIZG9ISUoycg?oc=5",
-      "publisher": "Reuters Business",
-      "summary": "Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks&nbsp;&nbsp;Reuters",
-      "category": "财经",
-      "published_at": "2026-09-22T16:56:55+00:00",
-      "why_relevant": "美联储官员放风，通胀与关税信号",
-      "relevance_score": 7.0,
+      "headline": "Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks",
       "confirmed_facts": [],
       "entities": [
         "fed",
@@ -1051,24 +1321,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters Business",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZGR3T2ZLcVk2ZkdRdDBJLWZkVlRlUXBONm9UVmoyX1lmVU1CcE1KM2ViNDhrWllDVTdJdnYtYVlsQnBDMzRGU0JoczNhSlV3UGdnMTl4M3o2NDBVcVhDZDZZQUhHUlFZN0tDVWNGUDFMQkJmSWhtNjhKM2E4LTVtZThna01tSTdGekdrQVVmUGthTEpRLXBVTEtqRDBkNmVJbnQ4MURybndmMkwtMmVVU01CWkxIZG9ISUoycg?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-23T08:03:17.431510+08:00",
+          "content_sha256": "565d1fedf2cd26cb9ebce44602c8d7bbc14a01796a9744cb26a8468e30374c37"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 3
       },
-      "evidence_complete": false
+      "summary": "Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks&nbsp;&nbsp;Reuters",
+      "category": "财经",
+      "published_at": "2026-09-22T16:56:55+00:00",
+      "why_relevant": "美联储官员放风，通胀与关税信号",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_4962438d5228a0b226ceab12",
-      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
-      "url": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
-      "publisher": "CNBC",
-      "summary": "Trump sold tech stocks including Amazon and Microsoft when the Mag 7 stocks popped on July 20, adding $291 billion in market value in one day.",
-      "category": "财经",
-      "published_at": "2026-09-22T22:03:33+00:00",
-      "why_relevant": "特朗普个人交易披露，个股视角",
-      "relevance_score": 7.0,
+      "headline": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1205,24 +1488,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.431576+08:00",
+          "content_sha256": "ee205d8608263195e1df64f6b2973e93f8ebd5b8e5d8a4464ecc0cd0cd9fcd56"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 40
       },
-      "evidence_complete": true
+      "summary": "Trump sold tech stocks including Amazon and Microsoft when the Mag 7 stocks popped on July 20, adding $291 billion in market value in one day.",
+      "category": "财经",
+      "published_at": "2026-09-22T22:03:33+00:00",
+      "why_relevant": "特朗普个人交易披露，个股视角",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_e6670dbe0e58609253c820ad",
-      "title": "Canada seeks to wrap up India trade talks soon, as US ties fray",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3368443/canada-seeks-wrap-india-trade-talks-soon-us-ties-fray?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Canadian Prime Minister Mark Carney said on Tuesday that trade negotiations with India are making “good progress” and that the two countries are aiming to conclude talks by the G20 summit in mid-December.\nCarney also said India had, to his understanding, confirmed that Indian Prime Minister Narendra Modi would visit Canada around that time, though the precise date had not been finalised.\n“We are making good progress in our trade negotiations with India,” Carney said at a news conference on the..",
-      "category": "国际",
-      "published_at": "2026-09-22T23:52:31+00:00",
-      "why_relevant": "加拿大印度贸易谈判，地缘经济动态",
-      "relevance_score": 6.0,
+      "headline": "Canada seeks to wrap up India trade talks soon, as US ties fray",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1283,24 +1579,85 @@
         "December 14"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3368443/canada-seeks-wrap-india-trade-talks-soon-us-ties-fray?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.432510+08:00",
+          "content_sha256": "e227621b2160922e9af9eefad10c64338376fa23ab89db00ab1e408c0ab131a5"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.432558+08:00",
+          "content_sha256": "239998b6f45064aa3437af6610ad44bfe30607e3c3ed6a721ff763fa4e607692"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.432566+08:00",
+          "content_sha256": "34de0f0d44f81d4a7c57d263e09fa654385304339d7ecc2675db23fe9f2b9226"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.432574+08:00",
+          "content_sha256": "23e3858f5d0c1c25e71dadc296eb765c15d34cd3e9ac641eb919b9c1a3a6d07c"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-23T08:03:17.432583+08:00",
+          "content_sha256": "8083b69f64646a5fc6260594fb68c2b74e01c5242244b92ac2f1d66df17666ed"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 3,
         "anchor_count": 16
       },
-      "evidence_complete": true
+      "summary": "Canadian Prime Minister Mark Carney said on Tuesday that trade negotiations with India are making “good progress” and that the two countries are aiming to conclude talks by the G20 summit in mid-December.\nCarney also said India had, to his understanding, confirmed that Indian Prime Minister Narendra Modi would visit Canada around that time, though the precise date had not been finalised.\n“We are making good progress in our trade negotiations with India,” Carney said at a news conference on the..",
+      "category": "国际",
+      "published_at": "2026-09-22T23:52:31+00:00",
+      "why_relevant": "加拿大印度贸易谈判，地缘经济动态",
+      "relevance_score": 6.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_3a136c323b7f59898f179caf",
-      "title": "Crosstalk-Solutions/project-nomad",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "publisher": "GitHub Trending",
-      "summary": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.https://www.projectnomad.us \n  \n Project NOMAD \n Knowledge That Never Goes Offline \n    \n \n \nProject NOMAD is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered — anytime, anywhere. \nInstallation & Quickstart \nProj",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "离线知识服务器，契合自托管偏好",
-      "relevance_score": 6.0,
+      "headline": "Crosstalk-Solutions/project-nomad",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1435,13 +1792,31 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-23T08:03:17.432837+08:00",
+          "content_sha256": "1c717596507314a9445bacffc1ee429e6af777627e709e94bfd0b9dc2b1a62c7"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 47
       },
-      "evidence_complete": true
+      "summary": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.https://www.projectnomad.us \n  \n Project NOMAD \n Knowledge That Never Goes Offline \n    \n \n \nProject NOMAD is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered — anytime, anywhere. \nInstallation & Quickstart \nProj",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "离线知识服务器，契合自托管偏好",
+      "relevance_score": 6.0
     }
   ]
 }
