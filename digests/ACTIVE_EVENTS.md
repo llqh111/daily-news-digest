@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-23 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-24 08:08。
+
+## Trump greets Xi Jinping at plane as Chinese leader arrives for state visit
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Donald Trump welcomed Xi Jinping on Wednesday evening, taking the unusual step of greeting the Chinese leader on the tarmac at Joint Base Andrews to kick off his state visit to Washington.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_1d574beef7d8`
+
+## Can the US and China verify an AI deal? Start-ups are starting to build the tools
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Start-ups are starting to build the tools Researchers are developing technology to monitor AI development without relying on trust between Washington and Beijing There are growing calls for Washington and Beijing to agree to slow down development of artificial intelligence.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_ad603624b6af`
+
+## AI superpower ambitions take centre stage as Trump and Xi meet
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：AI superpower ambitions take centre stage as Trump and Xi meet - Published "Whoever wins AI, WINS!" US President Donald Trump has been blunt about his AI ambitions, as well as about who he considers the US's main rival to be: China.
+- 事件 ID：`evt_20260924_ada3bce4375c`
+
+## NVIDIA Smooth Motion Now Runs on RTX 30 Series GPUs Thanks to NVSmooth30 Mod, RTX 3050 Laptop and RTX 3080 Confirmed Working
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：NVIDIA's latest frame generation technologies continue to make their way onto older RTX GPUs thanks to the modding community.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_2b81a0bc315f`
+
+## Claude discovers a novel enzyme system with CRISPR-like repeats
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_951009486bb2`
+
+## Jev introduces a new shape of LLM - System One, aka Decision Models
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Jev introduces a new shape of LLM—System One, aka Decision Models 21st September 2026 Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” is a better name
+- 事件 ID：`evt_20260924_83aa414856da`
+
+## US Weighs Initiative to Promote Dollar-Backed Stablecoin Abroad
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260924_e32d956d16ae`
+
+## Trump administration invites Putin to attend G20 summit in Miami
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Trump administration invites Putin to attend G20 summit in Miami US Secretary of State Marco Rubio says summit would be opportunity for Russian president to engage with global leaders.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_4a56ef15a73c`
+
+## Xi’s US visit begins with rare airport welcome from Trump, trade truce extension
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Xi’s US visit begins with rare airport welcome from Trump, trade truce extension The Chinese president has begun a three-day visit to Washington, with a host of vital topics to be discussed This live article is freely available to our registered users.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_eeea3a71d950`
+
+## Tech leaders to UN: For the sake of humanity, please control the AI technology we created
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Tech leaders to UN: For the sake of humanity, please control the AI technology we created&nbsp;&nbsp;AP News
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260924_b7ad1d32d009`
+
+## google/ax
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Declare an agentic task with workspaces and gateway specifications.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_ab56f6348888`
+
+## FirstFT: Xi Jinping and Donald Trump set for high-stakes summit
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：FirstFT: Xi Jinping and Donald Trump set for high-stakes summit Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260924_00dee8995b04`
+
+## Bonds are getting thumped as yields surge. Here’s what it means for the 60/40 portfolio
+- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
+- 最新事实：Investors are facing volatile times in the stock market, but as of late, even safe-haven Treasurys are selling off, raising questions about what's next for the balanced portfolio.
+- 事件 ID：`evt_20260924_644a49e5ff4e`
 
 ## EXCLUSIVE: US to open two new military bases in Greenland, sources say
 - 状态：更新中；首见 2026-09-22；最近更新 2026-09-23

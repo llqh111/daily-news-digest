@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-09-24-AM",
+  "version": 1,
   "date": "2026-09-24",
   "session": "AM",
-  "delivered_at": "2026-09-24T08:08:58.600746+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-09-24T00:08:58.602200+00:00",
-  "quality": {
-    "total_items": 11,
-    "items_with_unsupported_numbers": 1,
-    "unsupported_ratio": 0.09090909090909091
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_8474cc6c14dd853135f4600a",
-      "title": "Trump greets Xi Jinping at plane as Chinese leader arrives for state visit",
-      "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
-      "publisher": "The Guardian",
-      "summary": "US president to give red-carpet treatment to Chinese counterpart despite tensions over AI developmentTrump greets Xi – live updatesAI, trade, Taiwan and climate: what will and won’t be on agenda at Trump-Xi summitDonald Trump welcomed Xi Jinping on Wednesday evening, taking the unusual step of greeting the Chinese leader on the tarmac at Joint Base Andrews to kick off his state visit to Washington.Xi’s plane was met with a lavish arrival ceremony that included a 100ft long red carpet flanked by ",
-      "category": "国际",
-      "published_at": "2026-09-23T23:30:50+00:00",
-      "why_relevant": "特朗普迎接习近平，地缘核心事件",
-      "relevance_score": 9.0,
+      "headline": "Trump greets Xi Jinping at plane as Chinese leader arrives for state visit",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -138,24 +123,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.005011+08:00",
+          "content_sha256": "f2e9d2074f3cdd795350682bee2e5f6780be21ec8571fb661e9641f7105fd8fd"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.005338+08:00",
+          "content_sha256": "acf2050748143f4c78064aef4981a6b60e030086e8be914958465b4d261f24aa"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.005359+08:00",
+          "content_sha256": "5f3c9c9e9c2f7d84f5cbcd7f88df9d35c6aa90f618dc95f20702345081402118"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 34
       },
-      "evidence_complete": true
+      "summary": "US president to give red-carpet treatment to Chinese counterpart despite tensions over AI developmentTrump greets Xi – live updatesAI, trade, Taiwan and climate: what will and won’t be on agenda at Trump-Xi summitDonald Trump welcomed Xi Jinping on Wednesday evening, taking the unusual step of greeting the Chinese leader on the tarmac at Joint Base Andrews to kick off his state visit to Washington.Xi’s plane was met with a lavish arrival ceremony that included a 100ft long red carpet flanked by ",
+      "category": "国际",
+      "published_at": "2026-09-23T23:30:50+00:00",
+      "why_relevant": "特朗普迎接习近平，地缘核心事件",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_6a2b48934d409622d2f30e8b",
-      "title": "Can the US and China verify an AI deal? Start-ups are starting to build the tools",
-      "url": "https://www.scmp.com/news/us/article/3368570/can-us-and-china-verify-ai-deal-start-ups-are-starting-build-tools?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "There are growing calls for Washington and Beijing to agree to slow down development of artificial intelligence. But even if they wanted to do so, how could they verify that the other side would do the same?\nA group of researchers and start-ups is developing technology intended to make this a possibility, without relying on trust alone. Their proposed tools would allow third parties and governments to check some claims about how AI models are being trained or used – possibly without needing...",
-      "category": "国际",
-      "published_at": "2026-09-23T22:34:38+00:00",
-      "why_relevant": "中美AI验证工具，地缘+AI交叉",
-      "relevance_score": 9.0,
+      "headline": "Can the US and China verify an AI deal? Start-ups are starting to build the tools",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -257,24 +279,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/us/article/3368570/can-us-and-china-verify-ai-deal-start-ups-are-starting-build-tools?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-24T08:04:05.008646+08:00",
+          "content_sha256": "8c1bea925f6c1b0c7aef760452ca28009d7343e332532341816d388c70639a57"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.008780+08:00",
+          "content_sha256": "d4ff0c41db09e3dc0fb18076138be8c71bf1a849fd02641d144f8f172d841452"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 15
       },
-      "evidence_complete": true
+      "summary": "There are growing calls for Washington and Beijing to agree to slow down development of artificial intelligence. But even if they wanted to do so, how could they verify that the other side would do the same?\nA group of researchers and start-ups is developing technology intended to make this a possibility, without relying on trust alone. Their proposed tools would allow third parties and governments to check some claims about how AI models are being trained or used – possibly without needing...",
+      "category": "国际",
+      "published_at": "2026-09-23T22:34:38+00:00",
+      "why_relevant": "中美AI验证工具，地缘+AI交叉",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_4955e9350d1b72dac12dc0d8",
-      "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
-      "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
-      "category": "国际",
-      "published_at": "2026-09-23T22:01:17+00:00",
-      "why_relevant": "中美AI议题，峰会核心",
-      "relevance_score": 9.0,
+      "headline": "AI superpower ambitions take centre stage as Trump and Xi meet",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -399,24 +446,37 @@
         "February 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.009531+08:00",
+          "content_sha256": "0f415b3af03dcbfba417dafbcaeb58ee58acaa3cbc458f7ef0d7a58fa9e94c4e"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 37
       },
-      "evidence_complete": true
+      "summary": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
+      "category": "国际",
+      "published_at": "2026-09-23T22:01:17+00:00",
+      "why_relevant": "中美AI议题，峰会核心",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_7eabddeb4ef53ee35a658e2c",
-      "title": "NVIDIA Smooth Motion Now Runs on RTX 30 Series GPUs Thanks to NVSmooth30 Mod, RTX 3050 Laptop and RTX 3080 Confirmed Working",
-      "url": "https://wccftech.com/nvidia-smooth-motion-now-runs-on-rtx-30-series-gpus-thanks-to-nvsmooth30-mod-rtx-3050-laptop-and-rtx-3080-confirmed-working/",
-      "publisher": "Wccftech",
-      "summary": "NVIDIA's latest frame generation technologies continue to make their way onto older RTX GPUs thanks to the modding community. This time, developer Adeline released NVSmooth30, an experimental compatibility mod that enables NVIDIA Smooth Motion on GeForce RTX 30 Series graphics cards, which the feature officially doesn't support. Introduced with the RTX 50 Series and subsequently expanded to RTX 40 Series GPUs, Smooth Motion is NVIDIA's driver-level AI frame generation solution. Unlike DLSS Frame",
-      "category": "科技",
-      "published_at": "2026-09-23T22:00:00+00:00",
-      "why_relevant": "RTX30系MOD解锁插帧，硬核玩家必看",
-      "relevance_score": 9.0,
+      "headline": "NVIDIA Smooth Motion Now Runs on RTX 30 Series GPUs Thanks to NVSmooth30 Mod, RTX 3050 Laptop and RTX 3080 Confirmed Working",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -535,24 +595,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wccftech",
+          "url": "https://wccftech.com/nvidia-smooth-motion-now-runs-on-rtx-30-series-gpus-thanks-to-nvsmooth30-mod-rtx-3050-laptop-and-rtx-3080-confirmed-working/",
+          "canonical_url": null,
+          "hostname": "wccftech.com",
+          "content_level": "fulltext",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.010975+08:00",
+          "content_sha256": "a5510ac611d8cc35d354b56423dbde6127cd4f8978afba52840cf92a3f444635"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.011178+08:00",
+          "content_sha256": "0cb54dc103a408560e2d2e6245a64c0885527198f5b12518580628aafd7d8c1f"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 33
       },
-      "evidence_complete": true
+      "summary": "NVIDIA's latest frame generation technologies continue to make their way onto older RTX GPUs thanks to the modding community. This time, developer Adeline released NVSmooth30, an experimental compatibility mod that enables NVIDIA Smooth Motion on GeForce RTX 30 Series graphics cards, which the feature officially doesn't support. Introduced with the RTX 50 Series and subsequently expanded to RTX 40 Series GPUs, Smooth Motion is NVIDIA's driver-level AI frame generation solution. Unlike DLSS Frame",
+      "category": "科技",
+      "published_at": "2026-09-23T22:00:00+00:00",
+      "why_relevant": "RTX30系MOD解锁插帧，硬核玩家必看",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_35563de9bd5f6797325dcdfe",
-      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "publisher": "Hacker News",
-      "summary": "Article URL: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system\nComments URL: https://news.ycombinator.com/item?id=49820134\nPoints: 439\n# Comments: 486",
-      "category": "科技",
-      "published_at": "2026-09-23T18:06:47+00:00",
-      "why_relevant": "Claude发现CRISPR系统，AI+生物前沿",
-      "relevance_score": 9.0,
+      "headline": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -658,24 +743,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Hacker News",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "canonical_url": null,
+          "hostname": "www.anthropic.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.012324+08:00",
+          "content_sha256": "f5a86afe801df117d93b9b4f69281c09e909cfd21bb60db8f5958fc39c2296a9"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.012563+08:00",
+          "content_sha256": "4262d42ca2dcfc00def465f044bccb6de092d059e0e504843727c68f99d15748"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 21
       },
-      "evidence_complete": true
+      "summary": "Article URL: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system\nComments URL: https://news.ycombinator.com/item?id=49820134\nPoints: 439\n# Comments: 486",
+      "category": "科技",
+      "published_at": "2026-09-23T18:06:47+00:00",
+      "why_relevant": "Claude发现CRISPR系统，AI+生物前沿",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_0730381664bd38311e95aaa9",
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
-      "publisher": "Simon Willison",
-      "summary": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.\nTypeSafe describe Jev like this:\n\nThink of Jev as a front",
-      "category": "科技",
-      "published_at": "2026-09-21T23:09:20+00:00",
-      "why_relevant": "决策模型新范式，前沿LLM架构",
-      "relevance_score": 9.0,
+      "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -792,24 +902,37 @@
         "September 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Sep/21/jev/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.013749+08:00",
+          "content_sha256": "237833f8ad26ebb2cd86ab7d146b49cbfe00638793e6c8546e38c068c19e4839"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 29
       },
-      "evidence_complete": true
+      "summary": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers corresponding to categories, yes/no questions, ratings, and associated confidence scores.\nTypeSafe describe Jev like this:\n\nThink of Jev as a front",
+      "category": "科技",
+      "published_at": "2026-09-21T23:09:20+00:00",
+      "why_relevant": "决策模型新范式，前沿LLM架构",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_31bbd3237e2e71dd9c7a32f8",
-      "title": "US Weighs Initiative to Promote Dollar-Backed Stablecoin Abroad",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOHFZX0dvRUs2b2Z6d1paWUxNTGN4TWNQQWZXWnNENzV5NHVJRUw1TEdKa0dqaG1tdUZ4UF96YmpMM2VsR0RyZlBEbDQ3UEsxU0Rlc3JwNUtaQW9xYlZFWDZhaEpHS2pzakZ1MzZ0R1oySlBRVFNpb2pfWU5PbmVTbnJUQW9RdldUYUd0MUxCeHlOYzhqTHBYeTZCOEhCTDZ3SkVURnpiT0lOeHNPXzhvR202bmc?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "US Weighs Initiative to Promote Dollar-Backed Stablecoin Abroad&nbsp;&nbsp;Bloomberg",
-      "category": "财经",
-      "published_at": "2026-09-23T22:15:54+00:00",
-      "why_relevant": "美元稳定币推广，币圈+金融监管",
-      "relevance_score": 9.0,
+      "headline": "US Weighs Initiative to Promote Dollar-Backed Stablecoin Abroad",
       "confirmed_facts": [],
       "entities": [
         "us",
@@ -824,24 +947,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOHFZX0dvRUs2b2Z6d1paWUxNTGN4TWNQQWZXWnNENzV5NHVJRUw1TEdKa0dqaG1tdUZ4UF96YmpMM2VsR0RyZlBEbDQ3UEsxU0Rlc3JwNUtaQW9xYlZFWDZhaEpHS2pzakZ1MzZ0R1oySlBRVFNpb2pfWU5PbmVTbnJUQW9RdldUYUd0MUxCeHlOYzhqTHBYeTZCOEhCTDZ3SkVURnpiT0lOeHNPXzhvR202bmc?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.015269+08:00",
+          "content_sha256": "daaa634e29d5732ca60d42e9a5ba5136a6a98b4581e741db2e9b925e2e347b04"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 5
       },
-      "evidence_complete": false
+      "summary": "US Weighs Initiative to Promote Dollar-Backed Stablecoin Abroad&nbsp;&nbsp;Bloomberg",
+      "category": "财经",
+      "published_at": "2026-09-23T22:15:54+00:00",
+      "why_relevant": "美元稳定币推广，币圈+金融监管",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_5f57afc1728801f8fbbad490",
-      "title": "Trump administration invites Putin to attend G20 summit in Miami",
-      "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "US Secretary of State Marco Rubio says summit would be opportunity for Russian president to engage with global leaders.",
-      "category": "国际",
-      "published_at": "2026-09-23T20:23:31+00:00",
-      "why_relevant": "地缘峰会动态，国际要闻必选",
-      "relevance_score": 8.0,
+      "headline": "Trump administration invites Putin to attend G20 summit in Miami",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -962,24 +1098,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.015411+08:00",
+          "content_sha256": "8399cd73feff8f7d8833533e7788d44b3133d3a4b5a63c7faac92c2965db46c6"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.015666+08:00",
+          "content_sha256": "753da075a701ff2d4ec4b51c1b589b4b6f30b654a3014230fd16b3fe31831f93"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 35
       },
-      "evidence_complete": true
+      "summary": "US Secretary of State Marco Rubio says summit would be opportunity for Russian president to engage with global leaders.",
+      "category": "国际",
+      "published_at": "2026-09-23T20:23:31+00:00",
+      "why_relevant": "地缘峰会动态，国际要闻必选",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_50464476bbf3b8df2bf44dfb",
-      "title": "Xi’s US visit begins with rare airport welcome from Trump, trade truce extension",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368567/xi-begin-3-day-us-visit-rare-airport-welcome-trump?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "This live article is freely available to our registered users. Please log in or create an account.\nUnrivalled Xi-Trump summit analysis: get real-time updates and exclusive boots-on-the-ground reporting from our US and China bureaus. Subscribe now with great savings to stay ahead.\nPresident Xi Jinping is meeting US President Donald Trump at Maryland’s Joint Base Andrews air base, in the first face-to-face talks between the Chinese and American leaders since Trump visited Beijing in May.\n\n\nOn this",
-      "category": "国际",
-      "published_at": "2026-09-23T21:18:58+00:00",
-      "why_relevant": "习近平访美细节，峰会核心报道",
-      "relevance_score": 8.0,
+      "headline": "Xi’s US visit begins with rare airport welcome from Trump, trade truce extension",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1041,24 +1202,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368567/xi-begin-3-day-us-visit-rare-airport-welcome-trump?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-24T08:04:05.017007+08:00",
+          "content_sha256": "800d806ab23f9868b6cb5aaae76c0910b0bbbdd02e1e7ba6dd66741cf567612f"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.017108+08:00",
+          "content_sha256": "fef6afdbd25b3b72fb5606448418443c8ba7c90b6e461a5c6f55602ed3cca80f"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 2,
         "anchor_count": 28
       },
-      "evidence_complete": true
+      "summary": "This live article is freely available to our registered users. Please log in or create an account.\nUnrivalled Xi-Trump summit analysis: get real-time updates and exclusive boots-on-the-ground reporting from our US and China bureaus. Subscribe now with great savings to stay ahead.\nPresident Xi Jinping is meeting US President Donald Trump at Maryland’s Joint Base Andrews air base, in the first face-to-face talks between the Chinese and American leaders since Trump visited Beijing in May.\n\n\nOn this",
+      "category": "国际",
+      "published_at": "2026-09-23T21:18:58+00:00",
+      "why_relevant": "习近平访美细节，峰会核心报道",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_325675d9390b29db65076acd",
-      "title": "Tech leaders to UN: For the sake of humanity, please control the AI technology we created",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSHBObE1ZM3ZSc0QwNURQWkZkS2tORVNRMHhNUUhvNjNZRjR4RHNIVWlyUE5qZV82WVowbEFFX2RhR09TeE5WMHQ4S3l0TkdZTjN3YWdvVUNfRUZYdTZVOW9jc3YtQlNHdWNjcFh4cl9jNlk4VDkxMlFJc18ybzlLN3B4NjZxZVB3cFNBTy1mSXlLVmZlbDRpdXd4WVljVEtaZGxkRHpIMTBSZw?oc=5",
-      "publisher": "AP",
-      "summary": "Tech leaders to UN: For the sake of humanity, please control the AI technology we created&nbsp;&nbsp;AP News",
-      "category": "国际",
-      "published_at": "2026-09-23T23:12:00+00:00",
-      "why_relevant": "AI治理联合国呼吁，前沿AI政策",
-      "relevance_score": 8.0,
+      "headline": "Tech leaders to UN: For the sake of humanity, please control the AI technology we created",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1086,24 +1272,49 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "AP",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSHBObE1ZM3ZSc0QwNURQWkZkS2tORVNRMHhNUUhvNjNZRjR4RHNIVWlyUE5qZV82WVowbEFFX2RhR09TeE5WMHQ4S3l0TkdZTjN3YWdvVUNfRUZYdTZVOW9jc3YtQlNHdWNjcFh4cl9jNlk4VDkxMlFJc18ybzlLN3B4NjZxZVB3cFNBTy1mSXlLVmZlbDRpdXd4WVljVEtaZGxkRHpIMTBSZw?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.017637+08:00",
+          "content_sha256": "8f4178ea374f72583ee3addea98fc195d3cc3ae6890359fb34d28d7a58106865"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.017668+08:00",
+          "content_sha256": "1cb5fe960020c6747b9b04014defa7ef15c67b108fbbcfe38dfc2d64731dc551"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 1,
         "anchor_count": 5
       },
-      "evidence_complete": true
+      "summary": "Tech leaders to UN: For the sake of humanity, please control the AI technology we created&nbsp;&nbsp;AP News",
+      "category": "国际",
+      "published_at": "2026-09-23T23:12:00+00:00",
+      "why_relevant": "AI治理联合国呼吁，前沿AI政策",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_9dc2822fc0693609c0e6af8b",
-      "title": "google/ax",
-      "url": "https://github.com/google/ax",
-      "publisher": "GitHub Trending",
-      "summary": "Google's open agentic orchestration runtimehttps://agentexecutor.io  AX  \n\n \n  \n   \n  Warning\n We are still actively refining our core concepts, protocols, and specifications. We will likely to introduce major breaking changes prior to a stable release. \n \nDeclare an agentic task with workspaces and gateway specifications. AX sandboxes it, wires up its workspace, fences its network, and helps running it at scale. \nAX is a high-throughput, declarative orchestrator to run billions of autonomous ag",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Google Agent运行时，硬核Agent框架",
-      "relevance_score": 8.0,
+      "headline": "google/ax",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1230,24 +1441,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/google/ax",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-24T08:04:05.017835+08:00",
+          "content_sha256": "e693761a6997aaf762827612340d72faf7824b0d8a0a5aee1c1dcfb68e6db102"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 31
       },
-      "evidence_complete": true
+      "summary": "Google's open agentic orchestration runtimehttps://agentexecutor.io  AX  \n\n \n  \n   \n  Warning\n We are still actively refining our core concepts, protocols, and specifications. We will likely to introduce major breaking changes prior to a stable release. \n \nDeclare an agentic task with workspaces and gateway specifications. AX sandboxes it, wires up its workspace, fences its network, and helps running it at scale. \nAX is a high-throughput, declarative orchestrator to run billions of autonomous ag",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Google Agent运行时，硬核Agent框架",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_db6ec3e87fdd734147e1305b",
-      "title": "FirstFT: Xi Jinping and Donald Trump set for high-stakes summit",
-      "url": "https://www.ft.com/content/916603fa-c0c4-49e9-911a-a536ec3e245d?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Also in today’s newsletter: Geely’s new fast-charging EV battery and US Treasury yields soar most since ‘liberation day’",
-      "category": "财经",
-      "published_at": "2026-09-23T21:33:15+00:00",
-      "why_relevant": "中美峰会+美债，宏观必读",
-      "relevance_score": 8.0,
+      "headline": "FirstFT: Xi Jinping and Donald Trump set for high-stakes summit",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1343,24 +1567,73 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/916603fa-c0c4-49e9-911a-a536ec3e245d?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-24T08:04:05.019169+08:00",
+          "content_sha256": "a3f7101c1aadb42e50287e81e6c5e593f8212063eff20fee3a1df39a6d08ee09"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.019258+08:00",
+          "content_sha256": "b46805c7440e17346c39a998a33db29321980a49b656fb745ecf14677a89d2fe"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.019274+08:00",
+          "content_sha256": "aa4f1fe120c5c883d8be9d50db7a9a19b9f6f76c74e2b50cf1780ef0d8e8bd09"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.019292+08:00",
+          "content_sha256": "ce463eade19a92694d598cd1b76005d0eef851003639be762766931869a625cb"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 5,
         "anchor_count": 23
       },
-      "evidence_complete": true
+      "summary": "Also in today’s newsletter: Geely’s new fast-charging EV battery and US Treasury yields soar most since ‘liberation day’",
+      "category": "财经",
+      "published_at": "2026-09-23T21:33:15+00:00",
+      "why_relevant": "中美峰会+美债，宏观必读",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_1a65aa284c35e0879efdec46",
-      "title": "Bonds are getting thumped as yields surge. Here’s what it means for the 60/40 portfolio",
-      "url": "https://www.cnbc.com/2026/09/23/bonds-get-thumped-as-yields-surge-what-it-means-for-60/40-portfolio.html",
-      "publisher": "CNBC",
-      "summary": "For the long-term investor, it doesn't hurt to check duration and credit quality, as well as shop around for inflation protection.",
-      "category": "财经",
-      "published_at": "2026-09-23T19:51:32+00:00",
-      "why_relevant": "美债冲击60/40组合，理财必读",
-      "relevance_score": 8.0,
+      "headline": "Bonds are getting thumped as yields surge. Here’s what it means for the 60/40 portfolio",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1496,13 +1769,55 @@
         "July 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/23/bonds-get-thumped-as-yields-surge-what-it-means-for-60/40-portfolio.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-24T08:04:05.019851+08:00",
+          "content_sha256": "f042f096b04f504eddc799550dd016ca83c8b9f0e46ffa8cb34efdc072e40c53"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.020099+08:00",
+          "content_sha256": "45cd00ea8fb2e3e2688de981b50e075eac3c9bf408f3a90aa4b7f284bbe1c628"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-24T08:04:05.020116+08:00",
+          "content_sha256": "407fdd8af6b0484dca3c9d1162d048c06199ece0182f056baef8b65347bafba4"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 42
       },
-      "evidence_complete": true
+      "summary": "For the long-term investor, it doesn't hurt to check duration and credit quality, as well as shop around for inflation protection.",
+      "category": "财经",
+      "published_at": "2026-09-23T19:51:32+00:00",
+      "why_relevant": "美债冲击60/40组合，理财必读",
+      "relevance_score": 8.0
     }
   ]
 }
