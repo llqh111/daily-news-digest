@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-09-25-AM",
+  "version": 1,
   "date": "2026-09-25",
   "session": "AM",
-  "delivered_at": "2026-09-25T08:11:30.341377+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-09-25T00:11:30.342853+00:00",
-  "quality": {
-    "total_items": 8,
-    "items_with_unsupported_numbers": 1,
-    "unsupported_ratio": 0.125
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_507c20c2d51799f832cf1441",
-      "title": "Trump and Xi hold critical talks at White House summit",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.",
-      "category": "国际",
-      "published_at": "2026-09-24T21:41:40+00:00",
-      "why_relevant": "中美峰会直接关系全局走向",
-      "relevance_score": 10.0,
+      "headline": "Trump and Xi hold critical talks at White House summit",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -69,24 +54,73 @@
         "Sep 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.631409+08:00",
+          "content_sha256": "be87c0c67c7122ee4f2f15422523786b971ce0e3c43d1a668f6f50419c013fac"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.631490+08:00",
+          "content_sha256": "0603b2500a74f054cef5fb0017e4f883a4b8cb86fd0417eadaee7976a21ead7c"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.631509+08:00",
+          "content_sha256": "a7a79b90dbfa6cff55615d2281b4030261c481263c779644a856a660062ea0ac"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.631524+08:00",
+          "content_sha256": "2fa0a41e848a7b6056bb7340fba0467ac1d48d714ca30d2b4e25243157b2cde2"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 2,
         "anchor_count": 13
       },
-      "evidence_complete": true
+      "summary": "US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.",
+      "category": "国际",
+      "published_at": "2026-09-24T21:41:40+00:00",
+      "why_relevant": "中美峰会直接关系全局走向",
+      "relevance_score": 10.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_8675647c38ec9ff87c84688e",
-      "title": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict",
-      "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
-      "publisher": "The Guardian",
-      "summary": "Chinese president’s proposals for lessening tensions come amid period of intense competition between the two countries over AI and tradeTrump-Xi summit – latest updatesXi Jinping has called for extensive cooperation with Washington to avoid the “Thucydides trap” that could put the US and China on a military collision course amid rising tensions over artificial intelligence, trade and Taiwan.At the start of his summit meeting with Donald Trump in the White House, the Chinese president laid out te",
-      "category": "国际",
-      "published_at": "2026-09-24T15:52:13+00:00",
-      "why_relevant": "中美军事冲突与AI贸易博弈核心",
-      "relevance_score": 9.0,
+      "headline": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -204,24 +238,49 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.632690+08:00",
+          "content_sha256": "b87cf1f34de61a35152a45779a0939bd0defa7a05c56551d5af15a526aa6c1a2"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.632847+08:00",
+          "content_sha256": "5d4ef11bb1a53284f45dc11dc45e726706b6b6d92e28600d10ba9f0eabd997b5"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 27
       },
-      "evidence_complete": true
+      "summary": "Chinese president’s proposals for lessening tensions come amid period of intense competition between the two countries over AI and tradeTrump-Xi summit – latest updatesXi Jinping has called for extensive cooperation with Washington to avoid the “Thucydides trap” that could put the US and China on a military collision course amid rising tensions over artificial intelligence, trade and Taiwan.At the start of his summit meeting with Donald Trump in the White House, the Chinese president laid out te",
+      "category": "国际",
+      "published_at": "2026-09-24T15:52:13+00:00",
+      "why_relevant": "中美军事冲突与AI贸易博弈核心",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_91cc9cfe6ea4073c4e4ea33f",
-      "title": "Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbWRNa2VXUVQ1UUFOSHlnM3VoVFJGaVB6eFVWdmVNNklWcEh6WEd5amxLdk15emhFU2FEVS1sY0xtS3dEcGszTF9STHljMVJvWTl2dGh3eVBLNXJlajg5X1p2QjQ3UUhzRnpxUE1RaENGMmRfMVhuVFhSWVpHVTZ2NUlhU1A2Ukp6VEZBUTNlbEc5TnFwYzJIM2lQRkpyZTFtemtUUlN5ZUZ1OUdyS3FRWmZ4SQ?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto&nbsp;&nbsp;Bloomberg.com",
-      "category": "财经",
-      "published_at": "2026-09-24T19:01:46+00:00",
-      "why_relevant": "稳定币监管框架持续推进",
-      "relevance_score": 9.0,
+      "headline": "Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto",
       "confirmed_facts": [],
       "entities": [
         "fed unveils more stablecoin plans as regulators embrace crypto",
@@ -233,24 +292,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbWRNa2VXUVQ1UUFOSHlnM3VoVFJGaVB6eFVWdmVNNklWcEh6WEd5amxLdk15emhFU2FEVS1sY0xtS3dEcGszTF9STHljMVJvWTl2dGh3eVBLNXJlajg5X1p2QjQ3UUhzRnpxUE1RaENGMmRfMVhuVFhSWVpHVTZ2NUlhU1A2Ukp6VEZBUTNlbEc5TnFwYzJIM2lQRkpyZTFtemtUUlN5ZUZ1OUdyS3FRWmZ4SQ?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.633505+08:00",
+          "content_sha256": "1e2d85920f11a86f27cf152214a28f71f3e7d47df3b094ea3f864ce51ba67a33"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 2
       },
-      "evidence_complete": false
+      "summary": "Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-09-24T19:01:46+00:00",
+      "why_relevant": "稳定币监管框架持续推进",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_c2571d8851f411f78014a19f",
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "publisher": "美联储新闻稿",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "category": "财经",
-      "published_at": "2026-09-24T18:30:00+00:00",
-      "why_relevant": "稳定币监管下操作接口明确",
-      "relevance_score": 9.0,
+      "headline": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -348,24 +420,49 @@
         "September 24"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "美联储新闻稿",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+          "canonical_url": null,
+          "hostname": "www.federalreserve.gov",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.634031+08:00",
+          "content_sha256": "66e0ffcb586e791996f8f24f7812a62b94bb2c5c59228ff56918f09d3cca7078"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.634090+08:00",
+          "content_sha256": "e7060f9f21a4ca6b19588c944d483b03f3e2b8849354aacb868c3bfc322309db"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 15
       },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_c2571d8851f411f78014a19f",
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "publisher": "美联储新闻稿",
       "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "category": "财经",
       "published_at": "2026-09-24T18:30:00+00:00",
       "why_relevant": "稳定币监管下操作接口明确",
-      "relevance_score": 9.0,
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_c2571d8851f411f78014a19f",
+      "headline": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -463,24 +560,49 @@
         "September 24"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "美联储新闻稿",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+          "canonical_url": null,
+          "hostname": "www.federalreserve.gov",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.634031+08:00",
+          "content_sha256": "66e0ffcb586e791996f8f24f7812a62b94bb2c5c59228ff56918f09d3cca7078"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.634090+08:00",
+          "content_sha256": "e7060f9f21a4ca6b19588c944d483b03f3e2b8849354aacb868c3bfc322309db"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 15
       },
-      "evidence_complete": true
+      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "category": "财经",
+      "published_at": "2026-09-24T18:30:00+00:00",
+      "why_relevant": "稳定币监管下操作接口明确",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_437a8eace60fd3eef05abd92",
-      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-      "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-      "category": "国际",
-      "published_at": "2026-09-24T23:32:51+00:00",
-      "why_relevant": "联合国场合以方立场强硬表态",
-      "relevance_score": 8.0,
+      "headline": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -606,24 +728,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.634452+08:00",
+          "content_sha256": "5982e0a821140857289a96ff06e81b353f150cd6cf9099df46d0dabdac6f024f"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.634565+08:00",
+          "content_sha256": "e353747717dc526792aaacd694f9df4acad543a3e541951f96b101703b624cd1"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.634572+08:00",
+          "content_sha256": "9d7cf1d99730017c818dd6b0f00d28b3043bfd37ce6a006309e5b79332772d22"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 43
       },
-      "evidence_complete": true
+      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+      "category": "国际",
+      "published_at": "2026-09-24T23:32:51+00:00",
+      "why_relevant": "联合国场合以方立场强硬表态",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_cf5c23eb2ff5161f0d67ce13",
-      "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
-      "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
-      "publisher": "The Guardian",
-      "summary": "Fighting escalates after Tigrayan rebels form new coalition aimed at overthrowing Abiy Ahmed governmentThere are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed.About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and para",
-      "category": "国际",
-      "published_at": "2026-09-24T15:29:42+00:00",
-      "why_relevant": "埃塞潜在内战牵动区域稳定",
-      "relevance_score": 8.0,
+      "headline": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -750,24 +909,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.635142+08:00",
+          "content_sha256": "6f10236892ef1eb20975aa536f19f372647dd86589c29e714e7e508631888811"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 43
       },
-      "evidence_complete": true
+      "summary": "Fighting escalates after Tigrayan rebels form new coalition aimed at overthrowing Abiy Ahmed governmentThere are growing fears of a return to civil war in Ethiopia after an offensive by fighters from Tigray into the neighbouring states of Afar and Amhara and the formation of a new rebel alliance aimed at overthrowing the government of the prime minister, Abiy Ahmed.About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and para",
+      "category": "国际",
+      "published_at": "2026-09-24T15:29:42+00:00",
+      "why_relevant": "埃塞潜在内战牵动区域稳定",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_d90e62b5ec8270130779e43a",
-      "title": "Gemini 3.8 TTS Playground",
-      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-      "publisher": "Simon Willison",
-      "summary": "Tool: Gemini 3.8 TTS Playground\n        Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts.\nThey come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\".\nI vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API.\n\nA notable feature of",
-      "category": "科技",
-      "published_at": "2026-09-23T17:12:27+00:00",
-      "why_relevant": "Gemini语音合成实用工具",
-      "relevance_score": 8.0,
+      "headline": "Gemini 3.8 TTS Playground",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -844,24 +1016,37 @@
         "September 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.635887+08:00",
+          "content_sha256": "16fc33b11f0bc174ac366919b7c9bda8922a3b7a68bffefb9036fe0edd32d0a1"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 3,
         "anchor_count": 28
       },
-      "evidence_complete": true
+      "summary": "Tool: Gemini 3.8 TTS Playground\n        Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts.\nThey come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\".\nI vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API.\n\nA notable feature of",
+      "category": "科技",
+      "published_at": "2026-09-23T17:12:27+00:00",
+      "why_relevant": "Gemini语音合成实用工具",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_68f626985c329ae1b1d50c7c",
-      "title": "Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal",
-      "url": "https://www.theverge.com/gadgets/1000122/cyberpowerpc-gaming-prebuilt-rtx-5070-core-i7-asrock-oled-monitor-deal-sale",
-      "publisher": "The Verge",
-      "summary": "While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop. Walmart has a well-equipped CyberPowerPC gaming PC on sale for $1,549, almost $600 off its original price of $2,139. It’s powered by an Intel Core i7-14700KF processor, and paired with 32GB of 6000MHz [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-09-24T18:19:23+00:00",
-      "why_relevant": "RTX5070整机性价比值得关注",
-      "relevance_score": 8.0,
+      "headline": "Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1003,24 +1188,49 @@
         "September 26"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1000122/cyberpowerpc-gaming-prebuilt-rtx-5070-core-i7-asrock-oled-monitor-deal-sale",
+          "canonical_url": null,
+          "hostname": "www.theverge.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-25T08:03:51.636305+08:00",
+          "content_sha256": "b2c5a328a2bae82c3807eb7965d40c543114c90fd67636ed8ab7fcedb2fb921f"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.636428+08:00",
+          "content_sha256": "a3e1ac8cc7858f174093f68e9492a860946f3a457effb5b42c95717cf73ad8d2"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 52
       },
-      "evidence_complete": true
+      "summary": "While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop. Walmart has a well-equipped CyberPowerPC gaming PC on sale for $1,549, almost $600 off its original price of $2,139. It’s powered by an Intel Core i7-14700KF processor, and paired with 32GB of 6000MHz [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-09-24T18:19:23+00:00",
+      "why_relevant": "RTX5070整机性价比值得关注",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_97a419b64ccb8955fd6c9ec8",
-      "title": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "publisher": "GitHub Trending",
-      "summary": "An agentic skills framework & software development methodology that works.Superpowers \nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. \nTable of Contents \n \n How it works \n Commercial Services \n Getting Started \n   \n   Claude Code \n   Antigravity \n   Codex App \n   Codex CLI \n   Cursor \n   Devin CLI \n   Factory Droid \n   Gemini CLI \n   GitHub Copilot CLI",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "编码Agent方法论非常实用",
-      "relevance_score": 8.0,
+      "headline": "obra/superpowers",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1143,24 +1353,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/obra/superpowers",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-25T08:03:51.637103+08:00",
+          "content_sha256": "443ac15e05436510c8f5227898788c720ccb5a8d87c00ca1851fba2c0d64033e"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 32
       },
-      "evidence_complete": true
+      "summary": "An agentic skills framework & software development methodology that works.Superpowers \nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. \nTable of Contents \n \n How it works \n Commercial Services \n Getting Started \n   \n   Claude Code \n   Antigravity \n   Codex App \n   Codex CLI \n   Cursor \n   Devin CLI \n   Factory Droid \n   Gemini CLI \n   GitHub Copilot CLI",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "编码Agent方法论非常实用",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_2671bcb178d2872cba107422",
-      "title": "Pat on the back? Xi and Trump’s body language speaks volumes",
-      "url": "https://www.scmp.com/news/us/article/3368725/pat-back-xi-and-trumps-body-language-speaks-volumes?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Arm touches, laughs, and firm handshakes were on display as Chinese President Xi Jinping and his American counterpart Donald Trump began their high-stakes summit in Washington, which has so far featured a rare airport welcome, military pageantry and closed-door bilateral talks.\nWhile the outcomes of the pair’s discussions are being closely watched, so are the exchanges between the leaders of the world’s two largest economies. A body language expert who reviewed the interactions said Trump’s...",
-      "category": "国际",
-      "published_at": "2026-09-24T22:47:50+00:00",
-      "why_relevant": "峰会肢体语言透露真实信号",
-      "relevance_score": 7.0,
+      "headline": "Pat on the back? Xi and Trump’s body language speaks volumes",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1255,24 +1478,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/us/article/3368725/pat-back-xi-and-trumps-body-language-speaks-volumes?utm_source=rss_feed",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-25T08:03:51.637699+08:00",
+          "content_sha256": "c30bded1a7568eac98e9c6bd4b6a7007729e375f7ee07b6e94080ff5b3aedd94"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 5,
         "anchor_count": 21
       },
-      "evidence_complete": true
+      "summary": "Arm touches, laughs, and firm handshakes were on display as Chinese President Xi Jinping and his American counterpart Donald Trump began their high-stakes summit in Washington, which has so far featured a rare airport welcome, military pageantry and closed-door bilateral talks.\nWhile the outcomes of the pair’s discussions are being closely watched, so are the exchanges between the leaders of the world’s two largest economies. A body language expert who reviewed the interactions said Trump’s...",
+      "category": "国际",
+      "published_at": "2026-09-24T22:47:50+00:00",
+      "why_relevant": "峰会肢体语言透露真实信号",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_d20536f252856ae036cacb44",
-      "title": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Susan Sarandon and Hannah Einbinder were among about 100 protesters arrested outside the UN ahead of Netanyahu’s speech.",
-      "category": "国际",
-      "published_at": "2026-09-24T21:15:56+00:00",
-      "why_relevant": "名人涉入地缘冲突事件",
-      "relevance_score": 7.0,
+      "headline": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1321,24 +1557,49 @@
         "Sep 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-09-25T08:03:51.638117+08:00",
+          "content_sha256": "309305a5c43a0daa278ba58522859dd6421a4995adb7702955173c0815f1bfd2"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-09-25T08:03:51.638143+08:00",
+          "content_sha256": "37bdbaa0c3e8aa7329e8732b7265dc64b375c0abd1e6fea3c6c5773b456c65f5"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 2,
         "anchor_count": 16
       },
-      "evidence_complete": true
+      "summary": "Susan Sarandon and Hannah Einbinder were among about 100 protesters arrested outside the UN ahead of Netanyahu’s speech.",
+      "category": "国际",
+      "published_at": "2026-09-24T21:15:56+00:00",
+      "why_relevant": "名人涉入地缘冲突事件",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_2c1073a34ba036d7073f1fe7",
-      "title": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "publisher": "GitHub Trending",
-      "summary": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.https://docs.univer.ai \n  \n The Office Harness for AI Agents \n Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) \n High-performance, fully customizable Office SDK \n Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one Facade API that works in the browser and on Node.js. \n English | 简体中文 | 繁",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI办公套件潜力大",
-      "relevance_score": 7.0,
+      "headline": "dream-num/univer",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1480,13 +1741,31 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/dream-num/univer",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-09-25T08:03:51.638301+08:00",
+          "content_sha256": "d850433b5408d04a92e349fbc6b66f6b249000e372ebc1121498e0e08566a45f"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 50
       },
-      "evidence_complete": true
+      "summary": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.https://docs.univer.ai \n  \n The Office Harness for AI Agents \n Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) \n High-performance, fully customizable Office SDK \n Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one Facade API that works in the browser and on Node.js. \n English | 简体中文 | 繁",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI办公套件潜力大",
+      "relevance_score": 7.0
     }
   ]
 }

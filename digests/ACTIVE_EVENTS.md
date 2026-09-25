@@ -1,6 +1,72 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-24 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-25 08:11。
+
+## obra/superpowers
+- 状态：更新中；首见 2026-09-10；最近更新 2026-09-25
+- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_4b107807fac9`
+
+## Trump and Xi hold critical talks at White House summit
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：Trump and Xi hold critical talks at White House summit NewsFeed Trump and Xi hold critical talks at White House summit US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.
+- 事件 ID：`evt_20260925_22c9fc5e8434`
+
+## At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：Xi Jinping has called for extensive cooperation with Washington to avoid the “Thucydides trap” that could put the US and China on a military collision course amid rising tensions over artificial intelligence, trade and Taiwan.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260925_0944387ed4cd`
+
+## Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20260925_6ec5123ecd50`
+
+## Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：September 24, 2026 Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act For release at 2:30 p.m.
+- 事件 ID：`evt_20260925_8b05d588725e`
+
+## Netanyahu defends Israeli military action as delegates walk out before UN speech
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：Netanyahu defends Israeli military action as delegates walk out before UN speech - Published Israeli Prime Minister Benjamin Netanyahu has fiercely defended his country's military campaigns in Iran, Gaza and elsewhere in the Middle East in a speech to the UN General Assembly.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260925_3ae42610dd53`
+
+## Rebel offensive against Ethiopian army stokes fears of return to civil war
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF).
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260925_72afb40b49ee`
+
+## Gemini 3.8 TTS Playground
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：23rd September 2026 Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts.
+- 事件 ID：`evt_20260925_98e95d87c005`
+
+## Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop.
+- 事件 ID：`evt_20260925_42a03924b34b`
+
+## Pat on the back? Xi and Trump’s body language speaks volumes
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：Xi and Trump’s body language speaks volumes From firm handshakes and arm touches to bows and laughs, an expert decodes the gestures as the two leaders meet in Washington 3-MIN READ3-MIN Listen Lucy Quagginin Washington Arm touches, laughs, and firm handshakes were on display as C
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260925_37f3e0a4e0db`
+
+## Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest NewsFeed Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest Actors Susan Sarandon and Hannah Einbinder were among roughly 100 protesters arrested by New York City police outside the UN ahead of Israe
+- 事件 ID：`evt_20260925_1b0030a09471`
+
+## dream-num/univer
+- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
+- 最新事实：The Office Harness for AI Agents Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) High-performance, fully customizable Office SDK Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one 
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260925_ed9fa0d45f87`
 
 ## Trump greets Xi Jinping at plane as Chinese leader arrives for state visit
 - 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
@@ -1021,12 +1087,6 @@
 - 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20260910_16dfcb83ace8`
-
-## obra/superpowers
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_4b107807fac9`
 
 ## NVIDIA CUDA 13.4 Packs CUDA Support For Windows-on-Arm Ahead of RTX Spark Launch, While Giving Devs Early Access To Vera Rubin Too
 - 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
