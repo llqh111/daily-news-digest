@@ -15,6 +15,44 @@ def test_real_news_text_is_not_treated_as_placeholder():
     assert not _is_empty_section_placeholder("国际要闻：一项新协议今日生效")
 
 
+def test_streaming_is_requested_from_deepseek_api(monkeypatch):
+    """客户端流式读取不能代替 API 请求体中的 stream 字段。"""
+    def fake_post(*args, **kwargs):
+        assert kwargs["json"].get("stream") is True
+        assert kwargs["stream"] is True
+        return FakeResponse()
+
+    class FakeResponse:
+        headers = {"Content-Type": "text/event-stream"}
+
+        def raise_for_status(self):
+            pass
+
+        def iter_lines(self, decode_unicode=True):
+            yield 'data: {"choices": [{"delta": {"content": "简报正文"}}]}'
+            yield "data: [DONE]"
+
+    monkeypatch.setattr(ai.requests, "post", fake_post)
+    result = ai._call_deepseek_once("system", "user")
+    assert result["choices"][0]["message"]["content"] == "简报正文"
+
+
+def test_api_error_explains_failure_without_exposing_key(monkeypatch):
+    class FakeResponse:
+        def raise_for_status(self):
+            raise ai.requests.exceptions.HTTPError("400 Bad Request", response=self)
+
+        def json(self):
+            return {"error": {"message": "Invalid parameter test-secret"}}
+
+    monkeypatch.setattr(ai, "DEEPSEEK_API_KEY", "test-secret")
+    monkeypatch.setattr(ai.requests, "post", lambda *args, **kwargs: FakeResponse())
+    with pytest.raises(ai.requests.exceptions.HTTPError) as caught:
+        ai._call_deepseek_once("system", "user")
+    assert "Invalid parameter" in str(caught.value)
+    assert "test-secret" not in str(caught.value)
+
+
 def test_empty_thinking_stream_retries_without_thinking(monkeypatch):
     """推理流没有最终正文时，必须改用非思考模式重试一次。"""
     requests_payloads = []

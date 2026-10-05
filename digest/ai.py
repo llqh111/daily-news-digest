@@ -235,6 +235,8 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                         {"role": "user", "content": user_prompt},
                     ],
                     "max_tokens": max_tokens,
+                    # 这是服务端的流式开关；requests 的 stream=True 只控制客户端读取。
+                    "stream": True,
                     # V4 思考模式开关（v4-flash/v4-pro 通用）。对于只返回推理而
                     # 未返回正文的响应，下一次会显式关闭思考模式重试。
                     "thinking": {
@@ -244,11 +246,21 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                 timeout=(60, 300),
                 stream=True,
             )
-            resp.raise_for_status()
+            try:
+                resp.raise_for_status()
+            except requests.exceptions.HTTPError as exc:
+                # 保留 API 的失败原因，避免告警只剩 400/402；不回显密钥。
+                try:
+                    detail = resp.json().get("error", {}).get("message", "")
+                except (ValueError, AttributeError, TypeError):
+                    detail = ""
+                if isinstance(detail, str) and detail:
+                    detail = detail.replace(DEEPSEEK_API_KEY or "", "[redacted]") if DEEPSEEK_API_KEY else detail
+                    exc.args = (f"{exc}: {detail[:500]}",)
+                raise
             ct = resp.headers.get("Content-Type", "")
 
-            # ── 非流式：temperature 等参数可能导致 DeepSeek 忽略 stream:true，
-            #     直接返回 application/json。此时用 resp.json() 解析。
+            # ── 兼容返回 application/json 的服务端响应。
             if "application/json" in ct:
                 data = resp.json()
                 content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
