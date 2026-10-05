@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections import Counter
 from .config import (
     EVIDENCE_VALIDATION_ENABLED,
     EVIDENCE_VALIDATION_MODE,
@@ -11,6 +12,58 @@ from .config import (
 )
 
 log = logging.getLogger(__name__)
+
+
+class DigestLayoutError(ValueError):
+    """成稿结构损坏时阻止发送。"""
+
+
+def validate_digest_layout(markdown_content: str, expected_article_ids: list[str] | None = None) -> None:
+    """验证发送顺序和条目完整性；在移除内部 article_id 前运行。"""
+    errors = []
+    ordered_sections = [
+        "⏱️ 1 分钟先读", "📊 今日选稿决策", "🌍 国际要闻", "💻 科技与 AI", "💰 财经市场",
+        "💡 信息差侦察", "🧬 生物前沿", "🔥 GitHub 热榜", "📡 信号监测",
+        "编辑手记", "🎬 今日自媒体选题",
+    ]
+    positions = []
+    for name in ordered_sections:
+        if name == "编辑手记":
+            matches = list(re.finditer(r"(?m)^(?:『编辑手记[^\n]*』|##\s+编辑手记[^\n]*)", markdown_content))
+        else:
+            matches = list(re.finditer(rf"(?m)^##\s+{re.escape(name)}[^\n]*$", markdown_content))
+        if len(matches) > 1:
+            errors.append(f"重复板块：{name}")
+        if not matches and name in ("🌍 国际要闻", "💻 科技与 AI", "💰 财经市场"):
+            errors.append(f"缺少板块：{name}")
+        if matches:
+            positions.append(matches[0].start())
+    if positions != sorted(positions):
+        errors.append("板块顺序错误")
+    if re.search(r"自我审计|\{\{NEWS\}\}", markdown_content):
+        errors.append("内部审计或占位符泄漏")
+    if len(re.findall(r"(?m)^\s*```", markdown_content)) % 2:
+        errors.append("代码围栏未闭合")
+    in_code = False
+    for line in markdown_content.splitlines():
+        if line.strip().startswith("```"):
+            in_code = not in_code
+        elif in_code and (line.startswith("## ") or "<!-- article_id:" in line):
+            errors.append("新闻正文被包进代码块")
+            break
+    if expected_article_ids is not None:
+        items = parse_main_items(markdown_content)
+        counts = Counter(item["article_id"] for item in items)
+        if counts != Counter(expected_article_ids):
+            errors.append("主新闻 article_id 缺失、重复或被替换")
+        for item in items:
+            content = item["content"]
+            if not all(label in content for label in ("【核心事实】", "【深层逻辑】", "【后市/影响】")):
+                errors.append(f"新闻段落不完整：{item['article_id']}")
+            if not re.search(r"(?m)^>\s*📰\s*来源[^\n]*https?://", content):
+                errors.append(f"新闻来源缺失：{item['article_id']}")
+    if errors:
+        raise DigestLayoutError("；".join(errors))
 
 _ARTICLE_ID_COMMENT_RE = re.compile(r"^[ \t]*<!--\s*article_id:[^>]+-->\s*\r?\n?", re.MULTILINE)
 _MAIN_ITEM_END_RE = re.compile(r"(?m)^##\s")

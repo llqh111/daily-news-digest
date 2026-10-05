@@ -2,7 +2,7 @@
 
 为什么分批：单批喂太多条 → prompt 大 → 服务端流式超时掐断。
 分批策略：每批独立写"新闻条目"（不含导语/编辑手记），最后合并阶段
-让 AI 只写导语+结语+审计块，新闻正文用代码拼接（避免 AI 漏抄）。
+让 AI 只写 JSON 导语+结语，新闻正文用代码拼接（避免 AI 漏抄）。
 """
 
 from __future__ import annotations
@@ -398,7 +398,7 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
         user_prompt += f"\n{articles_text}"
 
         data = _call_deepseek_once(system_prompt, user_prompt, max_tokens=8000)
-        text = data["choices"][0]["message"]["content"]
+        text = strip_audit_block(data["choices"][0]["message"]["content"])
         log.info(f"  第 {bi} 批返回 {len(text)} 字")
         batch_outputs.append(text)
 
@@ -448,20 +448,14 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
 
     merge_prompt = (
         "你是一位资深中文新闻主编。以下是我已经通过程序排版好的今天的新闻简报正文。\n"
-        "【任务】：请你仔细阅读这些新闻内容，然后专门为它写一段『今日导语』和一段『编辑手记 / 今日看点』，最后附上审计块。\n"
+        "【任务】：请你仔细阅读这些新闻内容，然后专门为它写一段『今日导语』和一段『编辑手记 / 今日看点』。\n"
         "【特别警告】：绝对不要重写、复述或包含任何新闻条目的正文内容！新闻正文我会在程序里自己插入。\n"
         "\n"
         "阅读材料：\n\n"
         f"{all_news}\n\n"
-        "请按以下精确格式输出（其中 {{NEWS}} 是占位符，你必须原样输出这几个英文字母，不要替换成新闻内容！）：\n\n"
-        "『今日导语』\n"
-        "（3-4 句概括今天全球主线，末尾加市场情绪温度计）\n\n"
-        "{{NEWS}}\n\n"
-        "『编辑手记 / 今日看点』\n"
-        "（3-5 句串联脉络+前瞻）\n\n"
-        "```自我审计\n"
-        "（逐条回答审计问题）\n"
-        "```\n"
+        '只输出 JSON 对象：{"lead": "导语正文", "editorial": "编辑手记正文"}。\n'
+        "lead 用 3-4 句概括全球主线，末尾加市场情绪温度计；editorial 用 3-5 句串联脉络与前瞻。\n"
+        "两个字段必须是字符串，不含标题、新闻正文、占位符、代码围栏或自我审计。审计只在内部完成。\n"
     )
 
     # 事实核查笔记也在合并阶段注入
@@ -471,29 +465,46 @@ def summarize_with_deepseek(articles: list[dict]) -> str:
 
     log.info("  发送合并请求...")
     data = _call_deepseek_once(
-        "你是资深新闻主编，只需输出导语和结语。不要输出新闻正文，必须用 {{NEWS}} 占位符原样替代！",
+        "你是资深新闻主编，只输出含 lead 和 editorial 两个字符串字段的 JSON 对象。不要输出新闻正文或自我审计。",
         merge_prompt,
         max_tokens=8000,
     )
     final_output = data["choices"][0]["message"]["content"]
 
-    # 用 Python 替换占位符，拼接最终内容
-    if "{{NEWS}}" in final_output:
-        final = final_output.replace("{{NEWS}}", all_news)
-    else:
-        # 如果 AI 漏写了占位符，做 fallback 追加在中间
-        log.warning("AI 合并输出漏写了占位符，采用后备方案拼接。")
-        parts = final_output.split("『编辑手记", 1)
-        if len(parts) == 2:
-            final = parts[0] + "\n\n" + all_news + "\n\n『编辑手记" + parts[1]
-        else:
-            final = final_output + "\n\n" + all_news
+    final = _compose_batch_digest(all_news, final_output)
 
     log.info(f"合并后最终成文 {len(final)} 字")
     _log_sanity(final)
     return final
 
 
+def _compose_batch_digest(all_news: str, narrative: str) -> str:
+    """只拼入已解析的导语/手记；新闻正文原样插入一次，不做全局占位符替换。"""
+    payload = re.sub(r"\A\s*```(?:json)?\s*\n|\n\s*```\s*\Z", "", narrative).strip()
+    try:
+        sections = json.loads(payload)
+        lead, editorial = sections["lead"], sections["editorial"]
+        if not all(isinstance(value, str) and value.strip() for value in (lead, editorial)):
+            raise ValueError("导语和手记必须是非空字符串")
+        for value in (lead, editorial):
+            if re.search(r"```|自我审计|\{\{NEWS\}\}|article_id:|(?m:^##\s)|📰\s*来源", value):
+                raise ValueError("导语或手记包含正文/内部格式")
+    except (ValueError, KeyError, TypeError):
+        log.warning("AI 导语/手记格式无效，保留完整新闻正文，不拼入模型的排版文本。")
+        return all_news.strip()
+    return f"『今日导语』\n{lead.strip()}\n\n{all_news.strip()}\n\n『编辑手记 / 今日看点』\n{editorial.strip()}"
+
+
 def strip_audit_block(text: str) -> str:
-    """删除 AI 自我审计代码块，该块仅供 AI 内部自检，不应出现在推送内容里。"""
-    return re.sub(r"```自我审计[\s\S]*?```", "", text).strip()
+    """清理带围栏或独立标题的内部审计，且不吞掉后续独立板块。"""
+    wrapper = re.fullmatch(r"\s*```(?:markdown|md)?[ \t]*\n([\s\S]*?)\n```\s*", text)
+    if wrapper:
+        text = wrapper.group(1)
+    text = re.sub(
+        r"(?ms)^[ \t]*```[ \t]*自我审计[^\n]*\n.*?(?:^[ \t]*```[ \t]*(?:\n|$)|\Z)",
+        "", text,
+    )
+    return re.sub(
+        r"(?ms)^[ \t]*(?:#{1,6}\s*)?『?自我审计』?[:：]?[ \t]*\n.*?(?=^##\s|\Z)",
+        "", text,
+    ).strip()

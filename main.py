@@ -109,7 +109,7 @@ from digest.topics import generate_topics  # noqa: E402
 from digest.evidence import build_evidence_cards, evidence_notice  # noqa: E402
 from digest.events import save_active_events_overview, save_event_archive, update_event_archive  # noqa: E402
 from digest.weekly import build_weekly_review, save_weekly_review  # noqa: E402
-from digest.quality import strip_internal_article_ids, validate_main_digest_evidence  # noqa: E402
+from digest.quality import strip_internal_article_ids, validate_digest_layout, validate_main_digest_evidence  # noqa: E402
 from digest.storage import (  # noqa: E402
     save_evidence_sidecar,
     save_quality_report,
@@ -199,7 +199,7 @@ def _prepend_one_minute(summary: str, articles: list[dict]) -> str:
             f"- **为什么重要**：{why}",
             "",
         ])
-    return "\n".join(lines) + summary
+    return "\n".join(lines).rstrip() + "\n\n" + summary.lstrip()
 
 
 def _insert_evidence_notices(summary: str, articles: list[dict]) -> str:
@@ -417,7 +417,9 @@ def main() -> None:
         event_payload = update_event_archive(articles, persist=False)
 
         log.info("🤖 调用 DeepSeek 生成中文简报...")
-        summary = summarize_with_deepseek(articles)
+        summary = strip_audit_block(summarize_with_deepseek(articles))
+        expected_article_ids = [article["article_id"] for article in articles]
+        validate_digest_layout(summary, expected_article_ids)
 
         # ── 自评重写环：DeepSeek 给成稿打分，低于阈值带问题清单重写一次 ──
         # ── P2-E 质量校验：根据 evidence cards 发现无支撑数字并要求重写 ──
@@ -425,6 +427,9 @@ def main() -> None:
         evidence_cards = [a["evidence_card"] for a in articles if "evidence_card" in a]
         quality_report = validate_main_digest_evidence(summary, evidence_cards)
         summary = refine_digest(summary, quality_report=quality_report, evidence_cards=evidence_cards)
+        # 重写后先清理内部审计，避免附加板块插入到审计或错误位置。
+        summary = strip_audit_block(summary)
+        validate_digest_layout(summary, expected_article_ids)
 
         # ── #4-A 信息密度地板（观察期：只记日志摸阈值，暂不改稿）──
         thin = density_floor(split_items(summary))
@@ -452,6 +457,7 @@ def main() -> None:
 
         # ── 去除 AI 自我审计块（内部自检用，读者无需看到）──
         summary = strip_audit_block(summary)
+        validate_digest_layout(summary, expected_article_ids)
 
         # ── 在最终成稿上重新生成质量报告用于持久化 ──
         final_quality_report = validate_main_digest_evidence(summary, evidence_cards)
