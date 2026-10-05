@@ -1,6 +1,52 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-09-25 08:11。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-05 22:59。
+
+## Panniantong/Agent-Reach
+- 状态：更新中；首见 2026-09-16；最近更新 2026-10-05
+- 最新事实：给你的 AI Agent 一键装上互联网能力 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念 点击折叠 AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： - 📺 "帮我看看这个 YouTube 教程讲了什么" → 看不了，拿不到字幕 - 🐦 "帮我搜一下推特上大家怎么评价这个产品" → 搜不了，Twitter API 要付费 - 📖 "去 Reddit 上看看有没有人遇到过同样的 bug" → 403 被封
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_e3904d79dcc5`
+
+## Treasury crackdown exposes crypto's role in $2 million Hamas fundraising network
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：Treasury crackdown exposes crypto's role in $2 million Hamas fundraising network The Treasury Department said the network raised more than $2 million through purported humanitarian charities, including hundreds of thousands of dollars sent in crypto.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261005_7b079b284dfc`
+
+## Metaplanet added 1,000 bitcoin net in the third quarter bringing holdings to 44,000 BTC
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：Metaplanet added 1,000 bitcoin net in the third quarter bringing holdings to 44,000 BTC The Japanese firm sold 10,000 BTC before buying 11,000 BTC, demonstrating liquidity as it seeks recurring income from preferred securities.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261005_895e8b677674`
+
+## Spanish PM Sánchez calls early election after housing protests
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：Spanish PM SÃ¡nchez calls early election after housing protests - Published Spanish Prime Minister Pedro SÃ¡nchez has called an early election for 29 November after recent defeats on legislation aimed at addressing the country's housing crisis.
+- 事件 ID：`evt_20261005_d4598711144c`
+
+## Israel's mental health crisis in the wake of Oct. 7 attacks
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：7 attacks October 5, 2026 Warning: This article contains references to death by suicide that some readers may find disturbing.
+- 事件 ID：`evt_20261005_0b75110e6460`
+
+## US pulls bombers from UK base: Is Iran manoeuvring Trump’s war plans?
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：The withdrawal will not prevent the US from continuing to strike Iran, but it does reduce its ability to rapidly generate and sustain heavy bombing missions, said experts.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261005_5cf1594f8812`
+
+## calesthio/OpenMontage
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：Monty the Clapper — the official mascot of OpenMontage The first open-source, agentic video production system.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261005_3992d4e15996`
+
+## pbakaus/impeccable
+- 状态：更新中；首见 2026-10-05；最近更新 2026-10-05
+- 最新事实：1 skill, 24 commands, live browser iteration, and 61 deterministic detector rules for AI-generated frontend design.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261005_38fe51cb8d30`
 
 ## obra/superpowers
 - 状态：更新中；首见 2026-09-10；最近更新 2026-09-25
@@ -668,12 +714,6 @@
 - 最新事实：Iran war has led to US munitions shortfalls, Pentagon inspector confirms - Published The US defence department's inspector general says the war with Iran has led to "shortfalls" in munitions and a bottleneck in resupply, contradicting President Donald Trump who has repeatedly den
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260916_5640f5e2c77b`
-
-## Panniantong/Agent-Reach
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：给你的 AI Agent 一键装上互联网能力 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念 点击折叠 AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： - 📺 "帮我看看这个 YouTube 教程讲了什么" → 看不了，拿不到字幕 - 🐦 "帮我搜一下推特上大家怎么评价这个产品" → 搜不了，Twitter API 要付费 - 📖 "去 Reddit 上看看有没有人遇到过同样的 bug" → 403 被封
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_e3904d79dcc5`
 
 ## rlaope/oh-my-hermes
 - 状态：更新中；首见 2026-09-16；最近更新 2026-09-16

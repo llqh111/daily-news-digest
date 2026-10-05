@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-10-05-PM",
+  "version": 1,
   "date": "2026-10-05",
   "session": "PM",
-  "delivered_at": "2026-10-05T22:59:47.327607+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-10-05T14:59:47.328708+00:00",
-  "quality": {
-    "total_items": 7,
-    "items_with_unsupported_numbers": 1,
-    "unsupported_ratio": 0.14285714285714285
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_3a7733074321baf54bd4e2af",
-      "title": "Treasury crackdown exposes crypto's role in $2 million Hamas fundraising network",
-      "url": "https://www.coindesk.com/policy/2026/10/05/treasury-crackdown-exposes-crypto-s-role-in-usd2-million-hamas-fundraising-network",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-05T11:08:03+00:00",
-      "why_relevant": "",
-      "relevance_score": 0,
+      "headline": "Treasury crackdown exposes crypto's role in $2 million Hamas fundraising network",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -138,24 +123,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/05/treasury-crackdown-exposes-crypto-s-role-in-usd2-million-hamas-fundraising-network",
+          "canonical_url": null,
+          "hostname": "www.coindesk.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-05T22:53:26.054896+08:00",
+          "content_sha256": "6c63b05213300e25dc717a675780151effb558d5407be0f8056d27c27e7f0a6c"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 25
       },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_27527724cc99b9f8bf92809a",
-      "title": "Metaplanet added 1,000 bitcoin net in the third quarter bringing holdings to 44,000 BTC",
-      "url": "https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy",
-      "publisher": "CoinDesk",
       "summary": "",
       "category": "财经",
-      "published_at": "2026-10-05T10:58:03+00:00",
+      "published_at": "2026-10-05T11:08:03+00:00",
       "why_relevant": "",
-      "relevance_score": 0,
+      "relevance_score": 0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_27527724cc99b9f8bf92809a",
+      "headline": "Metaplanet added 1,000 bitcoin net in the third quarter bringing holdings to 44,000 BTC",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -280,24 +278,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy",
+          "canonical_url": null,
+          "hostname": "www.coindesk.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-05T22:53:26.057463+08:00",
+          "content_sha256": "a9cd8918be685412a141a870375967fb354a0b1effb351406965387ec186472e"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 31
       },
-      "evidence_complete": true
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-05T10:58:03+00:00",
+      "why_relevant": "",
+      "relevance_score": 0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_ca094b3aa96f3da8e4f557b9",
-      "title": "Spanish PM Sánchez calls early election after housing protests",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
-      "category": "国际",
-      "published_at": "2026-10-05T10:18:47+00:00",
-      "why_relevant": "",
-      "relevance_score": 0,
+      "headline": "Spanish PM Sánchez calls early election after housing protests",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -409,24 +420,37 @@
         "June 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-05T22:53:26.058561+08:00",
+          "content_sha256": "d0c5c6b342aeea1753d029827202629fcbe21193008105dc1e39655a1031eb1d"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 31
       },
-      "evidence_complete": true
+      "summary": "Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
+      "category": "国际",
+      "published_at": "2026-10-05T10:18:47+00:00",
+      "why_relevant": "",
+      "relevance_score": 0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_83215555cc922014de6f8836",
-      "title": "Israel's mental health crisis in the wake of Oct. 7 attacks",
-      "url": "https://www.dw.com/en/israel-s-mental-health-crisis-in-the-wake-of-oct-7-attacks/a-79507122?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "More than a third of Israelis have shown symptoms of mental health conditions, a report found. Three years after the October 7 attack, the country's health system is still struggling to come to terms with its effects.",
-      "category": "国际",
-      "published_at": "2026-10-05T08:52:00+00:00",
-      "why_relevant": "",
-      "relevance_score": 0,
+      "headline": "Israel's mental health crisis in the wake of Oct. 7 attacks",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -553,24 +577,37 @@
         "October 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "DW",
+          "url": "https://www.dw.com/en/israel-s-mental-health-crisis-in-the-wake-of-oct-7-attacks/a-79507122?maca=en-rss-en-world-4025-xml-mrss",
+          "canonical_url": null,
+          "hostname": "www.dw.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-05T22:53:26.059597+08:00",
+          "content_sha256": "3ef9999608ee2fa3988236851299f1c9573e61b91882715413bc0504182dae19"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 44
       },
-      "evidence_complete": true
+      "summary": "More than a third of Israelis have shown symptoms of mental health conditions, a report found. Three years after the October 7 attack, the country's health system is still struggling to come to terms with its effects.",
+      "category": "国际",
+      "published_at": "2026-10-05T08:52:00+00:00",
+      "why_relevant": "",
+      "relevance_score": 0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_c304b4b1947ce436cf18629a",
-      "title": "US pulls bombers from UK base: Is Iran manoeuvring Trump’s war plans?",
-      "url": "https://www.aljazeera.com/news-analysis/2026/10/5/us-pulls-bombers-from-uk-base-is-iran-maneouvering-trumps-war-plans?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "The withdrawal means the US lost a convenient launchpad, not its underlying strike capability, said an expert.",
-      "category": "国际",
-      "published_at": "2026-10-05T14:19:44+00:00",
-      "why_relevant": "美伊地缘博弈升级",
-      "relevance_score": 9.0,
+      "headline": "US pulls bombers from UK base: Is Iran manoeuvring Trump’s war plans?",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -692,24 +729,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/5/us-pulls-bombers-from-uk-base-is-iran-maneouvering-trumps-war-plans?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-05T22:53:26.060680+08:00",
+          "content_sha256": "8575e7728289fcfa37b9aeba99f84e51c371fa71c7662699e3a6464bf60bacef"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-05T22:53:26.060862+08:00",
+          "content_sha256": "97f0d0489ff4ee1eb88fd4e56c49fca4dfd6e720c2136000e11722f640cf0b2c"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-05T22:53:26.060875+08:00",
+          "content_sha256": "1116f1221cb475eaa001d2ed38791045eeabdc428e59f656908bd405540f295f"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 37
       },
-      "evidence_complete": true
+      "summary": "The withdrawal means the US lost a convenient launchpad, not its underlying strike capability, said an expert.",
+      "category": "国际",
+      "published_at": "2026-10-05T14:19:44+00:00",
+      "why_relevant": "美伊地缘博弈升级",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_193a7d7be9ca5a965b22f711",
-      "title": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "publisher": "GitHub Trending",
-      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.👁️ Agent Reach \n 给你的 AI Agent 一键装上互联网能力  \n 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心  \n    \n     \n 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念  \n \n❤️赞助商 \n \n 想出现在这里？ \n \n \n 点击折叠 \n  \n  \n    \n     \n    BrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "给AI代理联网搜索零费用",
-      "relevance_score": 9.0,
+      "headline": "Panniantong/Agent-Reach",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1198,24 +1272,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-05T22:53:26.061753+08:00",
+          "content_sha256": "9ef01502a6b66a99efc68ba066c17292a1629420b8fc068a91dc90e73a071d18"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 258
       },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_c45aa649e5b590a6eaa02f9b",
-      "title": "calesthio/OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "publisher": "GitHub Trending",
-      "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.https://www.openmontage.video/ \n  \n   \n   \n   \nMonty the Clapper — the official mascot of OpenMontage \nOpenMontage \nThe first open-source, agentic video production system. \n   \n Paste A Video &nbsp;·&nbsp; Quick Start &nbsp;·&nbsp; Try These Prompts &nbsp;·&nbsp; Pipelines &nbsp;·&nbsp; ",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.👁️ Agent Reach \n 给你的 AI Agent 一键装上互联网能力  \n 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心  \n    \n     \n 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念  \n \n❤️赞助商 \n \n 想出现在这里？ \n \n \n 点击折叠 \n  \n  \n    \n     \n    BrowserAct 支持从 Amazon、LinkedIn、X、Google Maps 等复杂网站提取你需要的任意数据。你只需用自然语言描述抓取需求，Agent 就会基于真实浏览器自动探索并测试页面流程，生成可靠、可复用的数据采集 Bot，并返回结构化结果。无需手动构建爬虫，无需编写代码。BrowserAct 内置隐身浏览",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "开源agentic视频生产系统",
-      "relevance_score": 8.0,
+      "why_relevant": "给AI代理联网搜索零费用",
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_c45aa649e5b590a6eaa02f9b",
+      "headline": "calesthio/OpenMontage",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1357,24 +1444,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-05T22:53:26.063177+08:00",
+          "content_sha256": "d2117a689178ab61d3199356e796099b9dff90b2b8d3aa91e27b6ef0d50b1eab"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 52
       },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_b3dbc7fb45869850bb8d71fa",
-      "title": "pbakaus/impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "publisher": "GitHub Trending",
-      "summary": "The design language that makes your AI harness better at design.https://impeccable.styleImpeccable \nDesign guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 61 deterministic detector rules for AI-generated frontend design. \n \n Quick start: From your project root, run npx impeccable install, then run /impeccable init inside your AI coding tool. Full docs: impeccable.style. \n \nWhy Impeccable? \nAnthropic's frontend-design was the first widely-used design skill for Cla",
+      "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.https://www.openmontage.video/ \n  \n   \n   \n   \nMonty the Clapper — the official mascot of OpenMontage \nOpenMontage \nThe first open-source, agentic video production system. \n   \n Paste A Video &nbsp;·&nbsp; Quick Start &nbsp;·&nbsp; Try These Prompts &nbsp;·&nbsp; Pipelines &nbsp;·&nbsp; ",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "AI编程设计语言指南",
-      "relevance_score": 8.0,
+      "why_relevant": "开源agentic视频生产系统",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_b3dbc7fb45869850bb8d71fa",
+      "headline": "pbakaus/impeccable",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1490,13 +1590,31 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/pbakaus/impeccable",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-05T22:53:26.064213+08:00",
+          "content_sha256": "99a6246175b31fbef7551a596d4a2b0c1517c4e6b017563d3ea5846b33c6f7ee"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 30
       },
-      "evidence_complete": true
+      "summary": "The design language that makes your AI harness better at design.https://impeccable.styleImpeccable \nDesign guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 61 deterministic detector rules for AI-generated frontend design. \n \n Quick start: From your project root, run npx impeccable install, then run /impeccable init inside your AI coding tool. Full docs: impeccable.style. \n \nWhy Impeccable? \nAnthropic's frontend-design was the first widely-used design skill for Cla",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI编程设计语言指南",
+      "relevance_score": 8.0
     }
   ]
 }
