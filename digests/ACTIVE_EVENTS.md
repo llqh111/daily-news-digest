@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-05 22:59。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-06 08:09。
+
+## Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：The ship's captain was killed in the strike involving two drones, Zelensky said, and another sailor was unaccounted for.
+- 事件 ID：`evt_20261006_8124017df58b`
+
+## OpenAI is adding text watermarking in ChatGPT and Codex
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_846772314129`
+
+## MCP for agent-to-agent comms may be the riskiest protocol you've never heard of
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：The adoption of AI agents in millions of organizations is creating new opportunities for attackers to make them take malicious actions, such as exfiltrating database contents and sensitive business and personal information.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_bf75542586dc`
+
+## Flávio Bolsonaro poised to win Brazilian presidency after shock first-round victory
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：The 45-year-old rightwing candidate received 56.1m votes to Lula’s 53.8m – 47.03% to 45.16% – meaning the 80-year-old leftwinger has a mountain to climb if he is to bounce back in the second round on 25 October.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_20ed316d642c`
+
+## Whistleblower warns that humans don’t control AI
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：Published On 5 Oct 2026
+- 事件 ID：`evt_20261006_56a2207aec2e`
+
+## Oil from South Korea being shipped to Russia as Ukraine war grinds on
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：“This undermines the sanctions regime and South Korea’s support for Ukraine.” Seoul has sent Ukraine humanitarian aid and non-lethal military supplies such as helmets, body armour and demining vehicles, and in 2023 pledged $2.3bn in support, most of it in loans.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_044f8d4214fd`
+
+## Brazil election: Bolsonaro and Lula head to runoff
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：Brazil election: Bolsonaro and Lula head to runoff Published October 4, 2026last updated October 5, 2026 With votes being counted in Brazil following the presidential election on Sunday, populist Senator Flavio Bolsonaro was leading the race ahead of leftist President Luiz Inacio
+- 事件 ID：`evt_20261006_1a3c9fefb949`
+
+## Pentagon stops using Anthropic AI tools after blacklisting company, BBC told
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：Pentagon stops using Anthropic AI tools after blacklisting company, BBC told - Published The US Department of Defence is no longer using Anthropic's AI tools, an official has told the BBC, months after it designated the company a supply chain risk on national security grounds.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_ad2fdfb29386`
+
+## coreyhaines31/marketingskills
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：A collection of AI agent skills focused on marketing tasks.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_b1778982ede9`
+
+## Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse Soaring computer hardware prices have taken the joy out of PC building.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_91568b6e45c6`
+
+## Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic Save over 40% on Standard Digital was undefined now undefined for your first year.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_2459d08c310e`
+
+## Stock futures are little changed after Nasdaq hits new record: Live updates
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 最新事实：Stock futures were near the flatline on Monday evening after the Nasdaq Composite climbed to a fresh record.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261006_7b6170c74360`
+
+## India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish
+- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261006_ecb3adb449f3`
 
 ## Panniantong/Agent-Reach
 - 状态：更新中；首见 2026-09-16；最近更新 2026-10-05

@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-10-06-AM",
+  "version": 1,
   "date": "2026-10-06",
   "session": "AM",
-  "delivered_at": "2026-10-06T08:09:30.217605+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-10-06T00:09:30.222113+00:00",
-  "quality": {
-    "total_items": 13,
-    "items_with_unsupported_numbers": 4,
-    "unsupported_ratio": 0.3076923076923077
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_ecf65b08e11642fd493598c4",
-      "title": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
-      "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.",
-      "category": "国际",
-      "published_at": "2026-10-05T15:17:23+00:00",
-      "why_relevant": "俄袭运粮船，地缘冲突",
-      "relevance_score": 9.0,
+      "headline": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -142,24 +127,61 @@
         "February 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.389783+08:00",
+          "content_sha256": "6b719767ba258213105981d732dcac150e5c6f4dc4ca30d7478c39f696c18eeb"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.390067+08:00",
+          "content_sha256": "81040a6c7c78022fe114a4e7d5fedf85ec029e64bbc85d1d78c82a04c4f0d6ed"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.390093+08:00",
+          "content_sha256": "91abf47c1046abf60b20791b21f7e80280305c7a8435d5a47b9c7c879fc25a54"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 37
       },
-      "evidence_complete": true
+      "summary": "The vessel's captain was killed and 11 crew members were rescued after the attack on the Turkish-owned ship, Ukraine's leader says.",
+      "category": "国际",
+      "published_at": "2026-10-05T15:17:23+00:00",
+      "why_relevant": "俄袭运粮船，地缘冲突",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_7ac2e0260b5e57c712bc5d67",
-      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "publisher": "The Verge",
-      "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-10-05T18:08:39+00:00",
-      "why_relevant": "OpenAI文本水印，重大安全",
-      "relevance_score": 9.0,
+      "headline": "OpenAI is adding text watermarking in ChatGPT and Codex",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -270,24 +292,85 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "canonical_url": null,
+          "hostname": "www.theverge.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-06T08:04:21.393037+08:00",
+          "content_sha256": "f1193dceff6c9f018af3d0c6f5717e6c3b8d469c7e1600aa53c97ba2717baa26"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.393253+08:00",
+          "content_sha256": "1924d19f1510baa643f281ab0d590d33a860e93d746271777568239d6a0df76d"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.393271+08:00",
+          "content_sha256": "9bd6711f62f10e321205a41eb395ad381607cfb1fdcc821999268effc52781cd"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.393288+08:00",
+          "content_sha256": "178a3e3e074a2eea9d175dc3e75c63f75a1170a9eabed4695e3ba1383e993c0e"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.393303+08:00",
+          "content_sha256": "a0d7f858ff7dbbf98dbce460a34ac9d8efb1e4f0f62dd10a0c31d79913c497f1"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 26
       },
-      "evidence_complete": true
+      "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-10-05T18:08:39+00:00",
+      "why_relevant": "OpenAI文本水印，重大安全",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_e90cf80140facd96812b77cc",
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "publisher": "Ars Technica",
-      "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-      "category": "科技",
-      "published_at": "2026-10-05T22:26:35+00:00",
-      "why_relevant": "MCP安全漏洞，关键警示",
-      "relevance_score": 9.0,
+      "headline": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -391,24 +474,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+          "canonical_url": null,
+          "hostname": "arstechnica.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-06T08:04:21.394380+08:00",
+          "content_sha256": "cc24cd07c59f45cfa5dfcd0842d2d234df611b0527a32be8ba50a522da4a4a5a"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 19
       },
-      "evidence_complete": true
+      "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+      "category": "科技",
+      "published_at": "2026-10-05T22:26:35+00:00",
+      "why_relevant": "MCP安全漏洞，关键警示",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_3f56229112582399d4b19446",
-      "title": "Flávio Bolsonaro poised to win Brazilian presidency after shock first-round victory",
-      "url": "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory",
-      "publisher": "The Guardian",
-      "summary": "Progressive voters and supporters of incumbent president Luiz Inácio Lula da Silva left reeling after far-right surgeFlávio Bolsonaro is in pole position to win Brazil’s presidential election, after a far-right tsunami propelled him to a shock first-round victory over the incumbent, Luiz Inácio Lula da Silva, leaving progressive voters reeling.The 45-year-old rightwing candidate received 56.1m votes to Lula’s 53.8m – 47.03% to 45.16% – meaning the 80-year-old leftwinger has a mountain to climb i",
-      "category": "国际",
-      "published_at": "2026-10-05T20:06:18+00:00",
-      "why_relevant": "巴西极右翼领先，地缘",
-      "relevance_score": 8.0,
+      "headline": "Flávio Bolsonaro poised to win Brazilian presidency after shock first-round victory",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -538,24 +634,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.395419+08:00",
+          "content_sha256": "40deeaf6e1cba689888229ba0f67166cb6bcd4f0c3d60231c380320361803bda"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.395710+08:00",
+          "content_sha256": "c7591b8ea0a1901407d97098b9ff5f09b6f1b0fa256c3de4581ab80221df8683"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.395741+08:00",
+          "content_sha256": "b6c5cc1da352b06e46bb133701bcc158781e635ae04f2a0d8e28337afec781c6"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 45
       },
-      "evidence_complete": true
+      "summary": "Progressive voters and supporters of incumbent president Luiz Inácio Lula da Silva left reeling after far-right surgeFlávio Bolsonaro is in pole position to win Brazil’s presidential election, after a far-right tsunami propelled him to a shock first-round victory over the incumbent, Luiz Inácio Lula da Silva, leaving progressive voters reeling.The 45-year-old rightwing candidate received 56.1m votes to Lula’s 53.8m – 47.03% to 45.16% – meaning the 80-year-old leftwinger has a mountain to climb i",
+      "category": "国际",
+      "published_at": "2026-10-05T20:06:18+00:00",
+      "why_relevant": "巴西极右翼领先，地缘",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_aadcf2cdc628a570f4aeaeb6",
-      "title": "Whistleblower warns that humans don’t control AI",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whistleblower-warns-that-humans-dont-control-ai?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Former Anthropic researcher Jacob Coxon warns that AI companies ‘don’t fully control’ their models.",
-      "category": "国际",
-      "published_at": "2026-10-05T23:23:47+00:00",
-      "why_relevant": "AI失控警告，安全议题",
-      "relevance_score": 8.0,
+      "headline": "Whistleblower warns that humans don’t control AI",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -587,24 +720,49 @@
         "Oct 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whistleblower-warns-that-humans-dont-control-ai?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.397277+08:00",
+          "content_sha256": "b5b471759b7578bcc569480fb942a647135c46950d19ca314a5f7da19ef92bef"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.397344+08:00",
+          "content_sha256": "608ad3fe69ed2e2436077f37a82738c427185c6aa91d7ea5550b0a4e6d574685"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 1,
         "anchor_count": 11
       },
-      "evidence_complete": true
+      "summary": "Former Anthropic researcher Jacob Coxon warns that AI companies ‘don’t fully control’ their models.",
+      "category": "国际",
+      "published_at": "2026-10-05T23:23:47+00:00",
+      "why_relevant": "AI失控警告，安全议题",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_532783084ac1594ef22c61cc",
-      "title": "Oil from South Korea being shipped to Russia as Ukraine war grinds on",
-      "url": "https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war",
-      "publisher": "The Guardian",
-      "summary": "Exclusive: Guardian analysis finds more than 150,000 tonnes of fuel was shipped to Russian ports in July and August, some using sanctioned tankers Oil is being shipped from South Korea to Russia via sanctioned tankers as Moscow scrambles for supplies amid the war in Ukraine, a move one expert said “undermines” Seoul’s public backing for Kyiv.Guardian analysis of port records and ship-tracking data found that in July and August over 176,000 tonnes of fuel, mostly diesel, was loaded at several Sou",
-      "category": "国际",
-      "published_at": "2026-10-05T23:50:12+00:00",
-      "why_relevant": "韩油入俄，地缘经济",
-      "relevance_score": 8.0,
+      "headline": "Oil from South Korea being shipped to Russia as Ukraine war grinds on",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -663,24 +821,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/06/oil-tankers-south-korea-russia-ukraine-war",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.397697+08:00",
+          "content_sha256": "7606e358229b4d4dd863e2ab045b9377c1e5ed3ccbe8c13f073a27609c48c036"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 1,
         "anchor_count": 36
       },
-      "evidence_complete": true
+      "summary": "Exclusive: Guardian analysis finds more than 150,000 tonnes of fuel was shipped to Russian ports in July and August, some using sanctioned tankers Oil is being shipped from South Korea to Russia via sanctioned tankers as Moscow scrambles for supplies amid the war in Ukraine, a move one expert said “undermines” Seoul’s public backing for Kyiv.Guardian analysis of port records and ship-tracking data found that in July and August over 176,000 tonnes of fuel, mostly diesel, was loaded at several Sou",
+      "category": "国际",
+      "published_at": "2026-10-05T23:50:12+00:00",
+      "why_relevant": "韩油入俄，地缘经济",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_305040ce75f932c719118967",
-      "title": "Brazil election: Bolsonaro and Lula head to runoff",
-      "url": "https://www.dw.com/en/brazil-election-bolsonaro-and-lula-head-to-runoff/a-79533857?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Populist Flavio Bolsonaro has secured a thin lead over incumbent Luiz Inacio Lula da Silva, but the next president of Brazil will be decided in the runoff round, according to the country’s electoral court.",
-      "category": "国际",
-      "published_at": "2026-10-05T00:27:00+00:00",
-      "why_relevant": "巴西选举胶着，地缘",
-      "relevance_score": 8.0,
+      "headline": "Brazil election: Bolsonaro and Lula head to runoff",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -808,24 +979,73 @@
         "October 25"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "DW",
+          "url": "https://www.dw.com/en/brazil-election-bolsonaro-and-lula-head-to-runoff/a-79533857?maca=en-rss-en-world-4025-xml-mrss",
+          "canonical_url": null,
+          "hostname": "www.dw.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.399473+08:00",
+          "content_sha256": "5a3168e34f837081806a587f1f18fa58ac6a01c7a453d638652afceaf27f7a2d"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.399721+08:00",
+          "content_sha256": "bb593f7b1e7e9796154feafba48667088d4d4619c14ae5cc8530b75e0d8d2533"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.399748+08:00",
+          "content_sha256": "9a407c25b6d3d79bd0616f4c9dffd895ce0166964a421823aa6c436d2547265d"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.399767+08:00",
+          "content_sha256": "410d54f83eaa76c2d68acf75df90cc61d7490a806eec4606bd3e83da59bf7496"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 42
       },
-      "evidence_complete": true
+      "summary": "Populist Flavio Bolsonaro has secured a thin lead over incumbent Luiz Inacio Lula da Silva, but the next president of Brazil will be decided in the runoff round, according to the country’s electoral court.",
+      "category": "国际",
+      "published_at": "2026-10-05T00:27:00+00:00",
+      "why_relevant": "巴西选举胶着，地缘",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_cd4fbbac3a80ca7d43be0a2e",
-      "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
-      "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
-      "category": "国际",
-      "published_at": "2026-10-05T16:13:21+00:00",
-      "why_relevant": "五角大楼弃用AI，供应链",
-      "relevance_score": 8.0,
+      "headline": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -943,24 +1163,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.401069+08:00",
+          "content_sha256": "28835492101167488a2fd9c10972eac5315baf5b3c6ef8d347e7f32b73e193ca"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 30
       },
-      "evidence_complete": true
+      "summary": "It labelled Anthropic a \"supply chain risk\" in February after the firm refused to remove safety guardrails from its tools.",
+      "category": "国际",
+      "published_at": "2026-10-05T16:13:21+00:00",
+      "why_relevant": "五角大楼弃用AI，供应链",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_6e39f0793c7ad8fb8f070be9",
-      "title": "coreyhaines31/marketingskills",
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "publisher": "GitHub Trending",
-      "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.https://marketing-skills.comMarketing Skills for AI Agents \nA collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the Agent Skills spec. \nBuilt b",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI智能体营销技能，实用",
-      "relevance_score": 8.0,
+      "headline": "coreyhaines31/marketingskills",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1092,24 +1325,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/coreyhaines31/marketingskills",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-06T08:04:21.402379+08:00",
+          "content_sha256": "42ccc2da3c4487eaba74e4eec0b235db0f11cdf83582d836adec10636c3b05f8"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 45
       },
-      "evidence_complete": true
+      "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.https://marketing-skills.comMarketing Skills for AI Agents \nA collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the Agent Skills spec. \nBuilt b",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI智能体营销技能，实用",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_25db7ad34f08b3d51576bd09",
-      "title": "Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse",
-      "url": "https://www.tomshardware.com/pc-components/nvidia-rtx-5060-ti-gaming-pc-hits-usd999-with-8-core-ryzen-cpu-16gb-ram-and-1tb-pcie-4-0-ssd-usd600-instant-savings-on-a-complete-1080p-powerhouse",
-      "publisher": "Tom's Hardware",
-      "summary": "MSI's Codex Z2C is on sale for $999 and comes with a Ryzen 7 8700F and a GeForce RTX 5060 Ti 8GB.",
-      "category": "科技",
-      "published_at": "2026-10-05T19:28:28+00:00",
-      "why_relevant": "RTX5060Ti整机价格，游戏",
-      "relevance_score": 8.0,
+      "headline": "Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1232,24 +1478,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/nvidia-rtx-5060-ti-gaming-pc-hits-usd999-with-8-core-ryzen-cpu-16gb-ram-and-1tb-pcie-4-0-ssd-usd600-instant-savings-on-a-complete-1080p-powerhouse",
+          "canonical_url": null,
+          "hostname": "www.tomshardware.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-06T08:04:21.403771+08:00",
+          "content_sha256": "9947ad7f2f1f9d30e4043962bff15e9ea9a081f683caf4ba0291b3e1201203df"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 36
       },
-      "evidence_complete": true
+      "summary": "MSI's Codex Z2C is on sale for $999 and comes with a Ryzen 7 8700F and a GeForce RTX 5060 Ti 8GB.",
+      "category": "科技",
+      "published_at": "2026-10-05T19:28:28+00:00",
+      "why_relevant": "RTX5060Ti整机价格，游戏",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_7e7e91013505d82abd2e3e0d",
-      "title": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
-      "url": "https://www.ft.com/content/5b9c8ce3-d07c-46f9-8cea-cbc4e7f8ccca?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Syndication of the massive financing package tests lending appetite amid growing concerns over mounting AI debt",
-      "category": "财经",
-      "published_at": "2026-10-05T20:58:19+00:00",
-      "why_relevant": "博通AI债务，资本动态",
-      "relevance_score": 8.0,
+      "headline": "Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1346,24 +1605,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/5b9c8ce3-d07c-46f9-8cea-cbc4e7f8ccca?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.405232+08:00",
+          "content_sha256": "39a51979e8fd159ba5b63f14c6183eab6dc0f3b6828b1eee194c795826f73ae4"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 5,
         "anchor_count": 24
       },
-      "evidence_complete": true
+      "summary": "Syndication of the massive financing package tests lending appetite amid growing concerns over mounting AI debt",
+      "category": "财经",
+      "published_at": "2026-10-05T20:58:19+00:00",
+      "why_relevant": "博通AI债务，资本动态",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_71b0de7ceb0152329b8aea72",
-      "title": "Stock futures are little changed after Nasdaq hits new record: Live updates",
-      "url": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
-      "publisher": "CNBC",
-      "summary": "The Nasdaq Composite jumped to a a fresh intraday all-time high and a record close on Monday.",
-      "category": "财经",
-      "published_at": "2026-10-05T23:32:37+00:00",
-      "why_relevant": "纳指新高，市场信号",
-      "relevance_score": 7.0,
+      "headline": "Stock futures are little changed after Nasdaq hits new record: Live updates",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1511,24 +1783,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-06T08:04:21.405890+08:00",
+          "content_sha256": "05c6cc9625cf8518b55893ab5de3abcb6e3253fdc8c39dd9edeac5b814d4bf8c"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.406062+08:00",
+          "content_sha256": "79f451f28749bb9d30bde18ce060019333803b2b481b8869d961ac555c03f2c3"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-06T08:04:21.406081+08:00",
+          "content_sha256": "ebc64c24bc578e619bea7128fa34bb43a7533773e79c1553df12072415c6e3bb"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 54
       },
-      "evidence_complete": true
+      "summary": "The Nasdaq Composite jumped to a a fresh intraday all-time high and a record close on Monday.",
+      "category": "财经",
+      "published_at": "2026-10-05T23:32:37+00:00",
+      "why_relevant": "纳指新高，市场信号",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_e94708943b4e74102de4ee6a",
-      "title": "India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN2ZLWG5udy12czJna0lwTVJkMDRYRktHekNjMmFyTlN3OXI2SVBFNXMyc2VTTUJ5SDU3QzUzOWVVamVYTjBmc3E4UUtCMHhMM18wTVJFak8xMG1fMUJfaDlBbVAycXMtd0xjbFB5YTltMUNKQ1BjY0pnR0lab2ZteHFTaVlqOHpBSmstZVpxWjdlS1F3UG1RTHI3ZEtvNmZG?oc=5",
-      "publisher": "Reuters Business",
-      "summary": "India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish&nbsp;&nbsp;Reuters",
-      "category": "财经",
-      "published_at": "2026-10-05T00:35:00+00:00",
-      "why_relevant": "印度加息周期，宏观",
-      "relevance_score": 7.0,
+      "headline": "India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish",
       "confirmed_facts": [],
       "entities": [
         "reuters",
@@ -1540,13 +1849,31 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters Business",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN2ZLWG5udy12czJna0lwTVJkMDRYRktHekNjMmFyTlN3OXI2SVBFNXMyc2VTTUJ5SDU3QzUzOWVVamVYTjBmc3E4UUtCMHhMM18wTVJFak8xMG1fMUJfaDlBbVAycXMtd0xjbFB5YTltMUNKQ1BjY0pnR0lab2ZteHFTaVlqOHpBSmstZVpxWjdlS1F3UG1RTHI3ZEtvNmZG?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-06T08:04:21.407243+08:00",
+          "content_sha256": "556c55d497013b8bd3b890be1bf4bba70b17fb96e574fb429ee2aeee276763ca"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 2
       },
-      "evidence_complete": false
+      "summary": "India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish&nbsp;&nbsp;Reuters",
+      "category": "财经",
+      "published_at": "2026-10-05T00:35:00+00:00",
+      "why_relevant": "印度加息周期，宏观",
+      "relevance_score": 7.0
     }
   ]
 }
