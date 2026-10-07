@@ -7,6 +7,7 @@
 
 from __future__ import annotations
 
+import html
 import json
 import logging
 import os
@@ -24,6 +25,10 @@ log = logging.getLogger(__name__)
 
 # 模块加载时一次性读取——保持与原 main.py 顶部行为一致
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+
+
+class DeepSeekContentRejected(requests.exceptions.HTTPError):
+    """服务商内容审核拒绝；不得当作网络错误重试。"""
 
 
 def _is_empty_section_placeholder(line: str) -> bool:
@@ -257,6 +262,8 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                 if isinstance(detail, str) and detail:
                     detail = detail.replace(DEEPSEEK_API_KEY or "", "[redacted]") if DEEPSEEK_API_KEY else detail
                     exc.args = (f"{exc}: {detail[:500]}",)
+                    if getattr(resp, "status_code", None) == 400 and "content exists risk" in detail.lower():
+                        raise DeepSeekContentRejected(str(exc), response=resp) from exc
                 raise
             ct = resp.headers.get("Content-Type", "")
 
@@ -341,6 +348,45 @@ def _log_sanity(content: str) -> None:
 
 
 def summarize_with_deepseek(articles: list[dict]) -> str:
+    """内容审核拒绝时提供来源快讯，不重发被拒素材或编造分析。"""
+    try:
+        return _summarize_with_deepseek(articles)
+    except DeepSeekContentRejected:
+        log.warning("DEEPSEEK_CONTENT_REJECTED: 改用原始来源快讯，跳过后续 AI 改写")
+        result = _render_source_digest(articles)
+        for article in articles:
+            article["summary_mode"] = "source_only"
+        return result
+
+
+def _render_source_digest(articles: list[dict]) -> str:
+    """保留选稿、来源和内部 ID；事实段仅引用来源标题，不生成推断。"""
+    def plain(value: str) -> str:
+        value = html.escape(" ".join(value.split()))
+        return re.sub(r"([\\`*_{}\[\]])", r"\\\1", value)
+
+    parts = [
+        "『今日导语』\n部分素材未通过 AI 服务内容审核，本期改为原始来源快讯。"
+        "以下保留来源原文标题（可能为英文）及链接，未生成 AI 分析。"
+    ]
+    for category, section in (("国际", "🌍 国际要闻"), ("科技", "💻 科技与 AI"), ("财经", "💰 财经市场")):
+        parts.append(f"## {section}")
+        for article in articles:
+            if article["category"] != category:
+                continue
+            title = plain(article["title"])
+            parts.append(
+                f"<!-- article_id:{article['article_id']} -->\n"
+                f"**📡 {title}**\n"
+                f"- **【核心事实】**：来源原文标题：{title}。\n"
+                "- **【深层逻辑】**：本期未生成 AI 分析，请阅读原文了解报道背景。\n"
+                "- **【后市/影响】**：本期不作影响判断。\n"
+                f"> 📰 来源：{plain(article['source'])}（{article['link']}）"
+            )
+    return "\n\n".join(parts)
+
+
+def _summarize_with_deepseek(articles: list[dict]) -> str:
     """把新闻列表发给 DeepSeek，让它用中文总结成每日简报。
     超过 BATCH_SIZE 条时自动拆批，每批独立写，最后拼成完整晨报。"""
     if not DEEPSEEK_API_KEY:

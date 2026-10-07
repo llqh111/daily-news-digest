@@ -426,7 +426,9 @@ def main() -> None:
         log.info("📝 自评重写与事实幻觉校验 (critique & quality)...")
         evidence_cards = [a["evidence_card"] for a in articles if "evidence_card" in a]
         quality_report = validate_main_digest_evidence(summary, evidence_cards)
-        summary = refine_digest(summary, quality_report=quality_report, evidence_cards=evidence_cards)
+        source_only = any(article.get("summary_mode") == "source_only" for article in articles)
+        if not source_only:
+            summary = refine_digest(summary, quality_report=quality_report, evidence_cards=evidence_cards)
         # 重写后先清理内部审计，避免附加板块插入到审计或错误位置。
         summary = strip_audit_block(summary)
         validate_digest_layout(summary, expected_article_ids)
@@ -452,7 +454,8 @@ def main() -> None:
         # ── 插入信号监测板块（每期 3 条）──
         summary = _insert_signals_section(summary, signals)
         # ── 追加自媒体选题 ──
-        summary += generate_topics(articles, gaps)
+        if not source_only:
+            summary += generate_topics(articles, gaps)
         summary = _insert_evidence_notices(summary, articles)
 
         # ── 去除 AI 自我审计块（内部自检用，读者无需看到）──
