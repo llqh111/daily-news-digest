@@ -1,28 +1,13 @@
 {
-  "schema_version": 1,
-  "source": "daily-news-digest",
-  "run_key": "2026-10-10-AM",
+  "version": 1,
   "date": "2026-10-10",
   "session": "AM",
-  "delivered_at": "2026-10-10T08:07:47.906636+08:00",
-  "delivery_successful": true,
-  "exported_at": "2026-10-10T00:07:47.908184+00:00",
-  "quality": {
-    "total_items": 13,
-    "items_with_unsupported_numbers": 4,
-    "unsupported_ratio": 0.3076923076923077
-  },
   "items": [
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_f40c4239aa31f0f0220e6f93",
-      "title": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "publisher": "GitHub Trending",
-      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.https://rea.tools \n English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی \n REA: Reverse Engineer Anything \n One MCP for reverse engineering across binaries, applications, and runtime behavior. \n See a feature you like. Understand how it works, down to the binary level. \n        \n  \n Website · Guides · Showc",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "代理逆向工程，硬核技术读者必看",
-      "relevance_score": 9.0,
+      "headline": "morluto/rea",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -172,24 +157,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/morluto/rea",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-10T08:03:30.710519+08:00",
+          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 52
       },
-      "evidence_complete": true
+      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.https://rea.tools \n English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی \n REA: Reverse Engineer Anything \n One MCP for reverse engineering across binaries, applications, and runtime behavior. \n See a feature you like. Understand how it works, down to the binary level. \n        \n  \n Website · Guides · Showc",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "代理逆向工程，硬核技术读者必看",
+      "relevance_score": 9.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_d0e304a905696bf3f4b1c159",
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
-      "category": "国际",
-      "published_at": "2026-10-09T21:54:28+00:00",
-      "why_relevant": "俄柴油交易引乌批评，地缘冲突",
-      "relevance_score": 8.0,
+      "headline": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -318,24 +316,73 @@
         "April 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.714141+08:00",
+          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.714387+08:00",
+          "content_sha256": "2db059cf79571fb604886d90d164ebd614ccc5976322ed4779081399a0af4675"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.714404+08:00",
+          "content_sha256": "fcaa1996edc39ea3ae79723c433877c2aace39a6369e48586bb6b63d26a6aa12"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.714419+08:00",
+          "content_sha256": "f004ad507b5a24917615785fd919f163629ee295ffd3ca7603e6bfbdd756903d"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 37
       },
-      "evidence_complete": true
+      "summary": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
+      "category": "国际",
+      "published_at": "2026-10-09T21:54:28+00:00",
+      "why_relevant": "俄柴油交易引乌批评，地缘冲突",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_447bca03b55a821ea43e60e6",
-      "title": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQVJCMFpxdHZyV3d5ZGpwMFJOODA4dW4wZW53NnJ4OHN0MGJWeWtZSzU1ZzhvRS1Jd2VvanVvN3Rsa2hxZHQwRWlqM2p4bV9PM2tYS09PTDZDV0pnbkNtLXJqMkV6ZVpXS05xc29JX3RraVZ0SnM5QmEza1NaeGJnRUJqbTNWZVBLSEtCb0p2SlFVMk5GRW9TTUtnc3FyQmw5RUN3ZFQ1Yl9EeUk?oc=5",
-      "publisher": "Reuters",
-      "summary": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-10-09T20:42:23+00:00",
-      "why_relevant": "俄柴油销美，泽连斯基斥战争投资",
-      "relevance_score": 8.0,
+      "headline": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -362,24 +409,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQVJCMFpxdHZyV3d5ZGpwMFJOODA4dW4wZW53NnJ4OHN0MGJWeWtZSzU1ZzhvRS1Jd2VvanVvN3Rsa2hxZHQwRWlqM2p4bV9PM2tYS09PTDZDV0pnbkNtLXJqMkV6ZVpXS05xc29JX3RraVZ0SnM5QmEza1NaeGJnRUJqbTNWZVBLSEtCb0p2SlFVMk5GRW9TTUtnc3FyQmw5RUN3ZFQ1Yl9EeUk?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.715624+08:00",
+          "content_sha256": "0acde88b237572837a3dcc56c69b4e7aeab52ff8632e4a2e2967cce4a5d2bf3b"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 1,
         "anchor_count": 4
       },
-      "evidence_complete": true
+      "summary": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-09T20:42:23+00:00",
+      "why_relevant": "俄柴油销美，泽连斯基斥战争投资",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_2cccfe8d6988fe9a094506aa",
-      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
-      "category": "国际",
-      "published_at": "2026-10-09T18:40:10+00:00",
-      "why_relevant": "美国制裁ICC，国际法秩序冲击",
-      "relevance_score": 8.0,
+      "headline": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -498,24 +558,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.715795+08:00",
+          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.716017+08:00",
+          "content_sha256": "31199200ebc5eac150624213a7a5d09c23dcae7878563452be220420b2013fbc"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.716070+08:00",
+          "content_sha256": "03cf1d0a8b4a0814b7e1d7f681697bfbc45908cc7a3c03246729b399afe39040"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 36
       },
-      "evidence_complete": true
+      "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
+      "category": "国际",
+      "published_at": "2026-10-09T18:40:10+00:00",
+      "why_relevant": "美国制裁ICC，国际法秩序冲击",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_5645886957b2bdf2c1debf2a",
-      "title": "Eritrean troops in Ethiopia raise fears of a regional war",
-      "url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Ethiopia and Eritrea are trading blame for confrontations in Tigray amid international calls for restraint. Their respective allies have the potential to catapult the conflict into a regional war.",
-      "category": "国际",
-      "published_at": "2026-10-09T15:20:00+00:00",
-      "why_relevant": "厄立特里亚军队入埃塞，区域战争风险",
-      "relevance_score": 8.0,
+      "headline": "Eritrean troops in Ethiopia raise fears of a regional war",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -647,24 +744,37 @@
         "October 9"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "DW",
+          "url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065?maca=en-rss-en-world-4025-xml-mrss",
+          "canonical_url": null,
+          "hostname": "www.dw.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.717207+08:00",
+          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 47
       },
-      "evidence_complete": true
+      "summary": "Ethiopia and Eritrea are trading blame for confrontations in Tigray amid international calls for restraint. Their respective allies have the potential to catapult the conflict into a regional war.",
+      "category": "国际",
+      "published_at": "2026-10-09T15:20:00+00:00",
+      "why_relevant": "厄立特里亚军队入埃塞，区域战争风险",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_bafd02ef100945499a8b3185",
-      "title": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "publisher": "GitHub Trending",
-      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + Morehttps://claude-mem.ai   \n   \n    \n    \n    \n     \n  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;   \n 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русски",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Claude多会话记忆代理，实战价值高",
-      "relevance_score": 8.0,
+      "headline": "thedotmack/claude-mem",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -812,24 +922,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-10T08:03:30.718592+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 59
       },
-      "evidence_complete": true
+      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + Morehttps://claude-mem.ai   \n   \n    \n    \n    \n     \n  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;   \n 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русски",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude多会话记忆代理，实战价值高",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_e2751381182549dc259bbdb9",
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "publisher": "Simon Willison",
-      "summary": "As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5.\nThe previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna, released last month.\n\nThe new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$",
-      "category": "科技",
-      "published_at": "2026-10-07T20:56:21+00:00",
-      "why_relevant": "Anthropic新快速模型，API定价影响大",
-      "relevance_score": 8.0,
+      "headline": "Claude Haiku 5.5",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -956,24 +1079,37 @@
         "October 20"
       ],
       "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.720168+08:00",
+          "content_sha256": "7cbe154e6edfa72b0d2480cd72770fe3a7845122276c5f45c2d94ea05ec33fc5"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 40
       },
-      "evidence_complete": true
+      "summary": "As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5.\nThe previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna, released last month.\n\nThe new Haiku exactly matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the price increases 5x to $0.50/$",
+      "category": "科技",
+      "published_at": "2026-10-07T20:56:21+00:00",
+      "why_relevant": "Anthropic新快速模型，API定价影响大",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_c62009100b5d0d55c714cd58",
-      "title": "EpicGames/raddebugger",
-      "url": "https://github.com/EpicGames/raddebugger",
-      "publisher": "GitHub Trending",
-      "summary": "A native, user-mode, multi-process, graphical debugger.The RAD Debugger Project \nNOTE: This README does not document usage instructions and tips for the debugger itself, and is intended as a technical overview of the project. The debugger's README, which includes usage instructions and tips, can be found packaged along with debugger releases, or within the build folder after a local copy has been built. You can find pre-built release binaries here. \nThe RAD Debugger is a native, user-mode, multi",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Epic开源调试器，逆向调试利器",
-      "relevance_score": 8.0,
+      "headline": "EpicGames/raddebugger",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1077,24 +1213,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/EpicGames/raddebugger",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-10T08:03:30.721814+08:00",
+          "content_sha256": "b9cc1ea53954166e8342464b5a0071e966fac9b7e1303c74da47d489c607a980"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 19
       },
-      "evidence_complete": true
+      "summary": "A native, user-mode, multi-process, graphical debugger.The RAD Debugger Project \nNOTE: This README does not document usage instructions and tips for the debugger itself, and is intended as a technical overview of the project. The debugger's README, which includes usage instructions and tips, can be found packaged along with debugger releases, or within the build folder after a local copy has been built. You can find pre-built release binaries here. \nThe RAD Debugger is a native, user-mode, multi",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Epic开源调试器，逆向调试利器",
+      "relevance_score": 8.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_a2fe52df3a3d151ed192f3ce",
-      "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-      "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
-      "category": "国际",
-      "published_at": "2026-10-09T21:26:30+00:00",
-      "why_relevant": "巴拿马强震，突发地缘事件",
-      "relevance_score": 7.0,
+      "headline": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1209,24 +1358,61 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.723099+08:00",
+          "content_sha256": "10bcc0b262c2b67f08ef333ce3ee6e31fd124f2382511224d5e33e4d38282d71"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.723314+08:00",
+          "content_sha256": "21dc73eef3f0747dec93617528f1cbe2e4e31a3cfb2ca8e7999a7a9c63b25318"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.723331+08:00",
+          "content_sha256": "f15d6e3f1a25afc096efd007389799a064ed477f8fdddcc9a90a68be181f3d1f"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 31
       },
-      "evidence_complete": true
+      "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
+      "category": "国际",
+      "published_at": "2026-10-09T21:26:30+00:00",
+      "why_relevant": "巴拿马强震，突发地缘事件",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_0cbfc29e545ca4eb96b7f5c9",
-      "title": "UN envoy warns Yemen has returned to ‘full-scale war’, urges dialogue",
-      "url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Saudi Arabia and Yemen&#039;s internationally recognised gov&#039;t urge UN Security Council action amid Houthi escalation.",
-      "category": "国际",
-      "published_at": "2026-10-09T20:56:01+00:00",
-      "why_relevant": "也门重返全面战争，中东风险",
-      "relevance_score": 7.0,
+      "headline": "UN envoy warns Yemen has returned to ‘full-scale war’, urges dialogue",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1346,24 +1532,37 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue?traffic_source=rss",
+          "canonical_url": null,
+          "hostname": "www.aljazeera.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.724399+08:00",
+          "content_sha256": "c6ed9585d44edadf59fd8f23881d7ae1f67097a8472a6dba0b1d34ecf76e4903"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
         "anchor_count": 36
       },
-      "evidence_complete": true
+      "summary": "Saudi Arabia and Yemen&#039;s internationally recognised gov&#039;t urge UN Security Council action amid Houthi escalation.",
+      "category": "国际",
+      "published_at": "2026-10-09T20:56:01+00:00",
+      "why_relevant": "也门重返全面战争，中东风险",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_e329c55fed0f31bbafa91bd3",
-      "title": "The hazy OpenAI growth metric driving Wall Street",
-      "url": "https://www.ft.com/content/62653892-2333-4953-a8d5-cfd760ae3257?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Revelations that the AI giant’s annualised revenues were $20bn less than previously reported triggered volatility in US stocks",
-      "category": "财经",
-      "published_at": "2026-10-09T20:57:10+00:00",
-      "why_relevant": "OpenAI收入数据争议，AI投资信号",
-      "relevance_score": 7.0,
+      "headline": "The hazy OpenAI growth metric driving Wall Street",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1392,24 +1591,73 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/62653892-2333-4953-a8d5-cfd760ae3257?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.725855+08:00",
+          "content_sha256": "0564f356dd547658de2a686d763a568b80a5b6221664a86eeeaa0da5125efaf2"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.725885+08:00",
+          "content_sha256": "9a719c00596f6860f9356389faea8ac754e8d8d9274b791f381c9a371d3897ce"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.725900+08:00",
+          "content_sha256": "fcb6ef6949eb14da32a2f75522a241f7bb503ab7c3aa592e20a8c0f0d6e077a0"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.725919+08:00",
+          "content_sha256": "1acfb82fc430c0c1674c934b8e1a1735fb18ed3118d0b3c4cf1de5dae42b555e"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 1,
         "anchor_count": 4
       },
-      "evidence_complete": true
+      "summary": "Revelations that the AI giant’s annualised revenues were $20bn less than previously reported triggered volatility in US stocks",
+      "category": "财经",
+      "published_at": "2026-10-09T20:57:10+00:00",
+      "why_relevant": "OpenAI收入数据争议，AI投资信号",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_77dce168a5bfc027a7d50bdc",
-      "title": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
-      "publisher": "Reuters Business",
-      "summary": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records&nbsp;&nbsp;Reuters",
-      "category": "财经",
-      "published_at": "2026-10-09T21:04:49+00:00",
-      "why_relevant": "银行财报与CPI，美股关键周",
-      "relevance_score": 7.0,
+      "headline": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records",
       "confirmed_facts": [],
       "entities": [
         "wall st week ahead bank",
@@ -1422,24 +1670,37 @@
         "正文未抓到",
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters Business",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-10T08:03:30.726129+08:00",
+          "content_sha256": "0cba7d873bb571647888bceca7b5d804c03da8f98593f9e9a3e7e5b6497889bf"
+        }
+      ],
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 3
       },
-      "evidence_complete": false
+      "summary": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records&nbsp;&nbsp;Reuters",
+      "category": "财经",
+      "published_at": "2026-10-09T21:04:49+00:00",
+      "why_relevant": "银行财报与CPI，美股关键周",
+      "relevance_score": 7.0
     },
     {
+      "version": 1,
+      "id_scheme_version": 1,
       "article_id": "a1_9a31018e94c12b024cc1400f",
-      "title": "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
-      "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-09T10:44:22+00:00",
-      "why_relevant": "比特币企稳，地缘与币圈联动",
-      "relevance_score": 7.0,
+      "headline": "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
       "confirmed_facts": [
         {
           "fact_id": "f1",
@@ -1579,13 +1840,55 @@
       "unknowns": [
         "缺少明确时间"
       ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+          "canonical_url": null,
+          "hostname": "www.coindesk.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-10T08:03:30.726272+08:00",
+          "content_sha256": "2e87250ac6c552e6fb409a866080410c0ed469c23fd7b6772f894cad62cf5929"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.726525+08:00",
+          "content_sha256": "20e6a5a16714f813749f75cbe05f0f3e5c47971b963177fd51a9b557ac4fb9d3"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-10T08:03:30.726543+08:00",
+          "content_sha256": "63058057223764536f6682b905ea7e71ee5ad325acf483e0df7ffd9b5268b8b9"
+        }
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 46
       },
-      "evidence_complete": true
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-09T10:44:22+00:00",
+      "why_relevant": "比特币企稳，地缘与币圈联动",
+      "relevance_score": 7.0
     }
   ]
 }
