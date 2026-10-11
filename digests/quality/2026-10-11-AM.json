@@ -1,67 +1,79 @@
 {
-  "total_items": 12,
-  "items_with_unsupported_numbers": 1,
-  "unsupported_ratio": 0.08333333333333333,
+  "total_items": 13,
+  "items_with_unsupported_numbers": 2,
+  "items_with_missing_evidence": 0,
+  "unmatched_evidence_ids": [],
+  "validation_complete": true,
+  "unsupported_ratio": 0.15384615384615385,
   "items": [
     {
-      "article_id": "a1_67be35975a219c043a15e7ca",
-      "has_unsupported_numbers": false,
-      "unsupported_list": []
-    },
-    {
-      "article_id": "a1_042f9d3442ae3bd9c31e5576",
-      "has_unsupported_numbers": false,
-      "unsupported_list": []
-    },
-    {
-      "article_id": "a1_15f1675e6ff0eef6794f557c",
+      "article_id": "a1_8036d403b41efc0fa47beede",
       "has_unsupported_numbers": true,
       "unsupported_list": [
-        90.0
+        12.0,
+        309.0
       ]
     },
     {
-      "article_id": "a1_f0deb6c57984da4edc724460",
+      "article_id": "a1_059bd9fa51d370a51e8d69d1",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_ae2e769ecaea5e861630a9fc",
+      "article_id": "a1_e2a0287dd95108b644dcc52d",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_494a197febb7d969f55efa5f",
+      "article_id": "a1_1f64f1d69d35ccd981bc18d4",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        20.0,
+        32.0
+      ]
+    },
+    {
+      "article_id": "a1_b05b6dcf3ce70a36fcb4b9f6",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_d154c9f78a3eb4381ea38b95",
+      "article_id": "a1_6df22f17586a8383a019dc5a",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_f43f1f280647d1a12c20c009",
+      "article_id": "a1_6af3aa10b33b9f5baffed1ed",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_6cae6628b2e7ef9099a7ef17",
+      "article_id": "a1_52eec3a7d2e59ccbe4265911",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_812d309de33540160e28866a",
+      "article_id": "a1_fdd9125c50b679eede30e1a5",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_cd47e1dca81002fda58039c6",
+      "article_id": "a1_d01e537281dcfd568b0f6a5f",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     },
     {
-      "article_id": "a1_59523b390c9b13a36513e5c0",
+      "article_id": "a1_e87ca66478052f1ff04fd54e",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_a69e35bff1a8d7f5748eec5a",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_2adaeeda97733dc828917a57",
       "has_unsupported_numbers": false,
       "unsupported_list": []
     }

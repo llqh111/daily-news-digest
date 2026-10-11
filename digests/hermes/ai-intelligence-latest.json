@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-10",
-  "generated_at": "2026-10-10T00:07:47.922668+00:00",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T03:18:08.184334+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-10-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-10.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-11.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-09.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-10.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,496 +23,674 @@
   },
   "items": [
     {
-      "article_id": "a1_f40c4239aa31f0f0220e6f93",
-      "title": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "publisher": "GitHub Trending",
-      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.https://rea.tools \n English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی \n REA: Reverse Engineer Anything \n One MCP for reverse engineering across binaries, applications, and runtime behavior. \n See a feature you like. Understand how it works, down to the binary level. \n        \n  \n Website · Guides · Showc",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "代理逆向工程，硬核技术读者必看",
+      "article_id": "a1_8036d403b41efc0fa47beede",
+      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Another 309 people are injured in an attack a Saudi-led military coalition calls a \"war crime\".",
+      "category": "国际",
+      "published_at": "2026-10-11T00:21:52+00:00",
+      "why_relevant": "地缘冲突升级，必须覆盖",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی See a feature you like.",
+          "text": "Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.713841+08:00",
-          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753",
-          "excerpt": "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی See a feature you like.",
-          "sentence_hash": "85ecab7192b3dbaf197fbba5375d06180ae3597a08608bb627e8de28ae2231e0",
+          "captured_at": "2026-10-11T11:12:43.644999+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.",
+          "sentence_hash": "13560f7a7adfa0a42c2493f414b28cb4797c3ef9a87e396100db48e094cca438",
           "anchors": [
-            "简体中文",
-            "日本語",
-            "you",
-            "繁體中文"
+            "309 injured",
+            "12 people"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Quick start · How REA works · What you can analyze · Showcases · FAQ · Documentation npx rea-agents setup See a feature in an app that you want in your own product?",
+          "text": "Operations at King Khalid International Airport have been suspended.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.713906+08:00",
-          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753",
-          "excerpt": "Quick start · How REA works · What you can analyze · Showcases · FAQ · Documentation npx rea-agents setup See a feature in an app that you want in your own product?",
-          "sentence_hash": "322afa5e82758983e04f977c1ab3b4f8cd4926d43a9a5488031b104ee9378a6b",
+          "captured_at": "2026-10-11T11:12:43.645044+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "Operations at King Khalid International Airport have been suspended.",
+          "sentence_hash": "e618898495839c74e7c5656c5b630b42869374e9031eed5b79863937c234e42c",
           "anchors": [
-            "you",
-            "your",
-            "rea",
-            "setup"
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Ask your agent to investigate it with REA.",
+          "text": "A Saudi-led military coalition has vowed to respond to the attack, which it has blamed on the Houthis and called a \"war crime\".",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.713930+08:00",
-          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753",
-          "excerpt": "Ask your agent to investigate it with REA.",
-          "sentence_hash": "455a4f8cf7113ffc680feb3f33bf137700be9cdcd26da6b61b420d0cec9d29c9",
+          "captured_at": "2026-10-11T11:12:43.645097+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "A Saudi-led military coalition has vowed to respond to the attack, which it has blamed on the Houthis and called a \"war crime\".",
+          "sentence_hash": "75ce798fda6440761c6f225da62c2a52125590f13c623f868c7be41f76d8ad05",
           "anchors": [
-            "you",
-            "your"
+            "all"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project.",
+          "text": "Saturday's attack was the deadliest in the kingdom since May 2015.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.713961+08:00",
-          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753",
-          "excerpt": "It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project.",
-          "sentence_hash": "19661b22f9f6f7d66d578e3cc3aff90e370b10c358de3a98c9c2e88b3f8e82ca",
+          "captured_at": "2026-10-11T11:12:43.645141+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "Saturday's attack was the deadliest in the kingdom since May 2015.",
+          "sentence_hash": "91a47a1df6cb1aa4bbf0c56c923ac0bb912c2aed21dc70def49781b8d4e89ab5",
           "anchors": [
-            "you",
-            "evidence",
-            "inspect",
-            "for",
-            "your"
+            "May 20"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites.",
+          "text": "An eyewitness who said they had been in the domestic terminal told the news agency that they had seen gate 401 hit and \"injured [people] in front of my eyes\", adding: \"Everyone was running.\" More than a dozen ambulances were seen rushing to the airport, according to news agency R",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.713989+08:00",
-          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753",
-          "excerpt": "REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites.",
-          "sentence_hash": "b7ed6c8f837134edd333b92989a74aef64abe44ce4be4f45f7ea3b9feb199cab",
+          "captured_at": "2026-10-11T11:12:43.645224+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "An eyewitness who said they had been in the domestic terminal told the news agency that they had seen gate 401 hit and \"injured [people] in front of my eyes\", adding: \"Everyone was running.\" More than a dozen ambulances were seen rushing to the airport, according to news agency R",
+          "sentence_hash": "2d779dd860e3ffd8955850b99e50eb1050472b4e1bfaaed8db84ab0c4080544e",
           "anchors": [
-            "you",
-            "inspect",
-            "for",
-            "your",
-            "native"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "You can also use the same tools from your terminal.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.714009+08:00",
-          "content_sha256": "fb4a3a64fe04572d230fe751d0a51f84f051e23eafd87c500881815e45a47753",
-          "excerpt": "You can also use the same tools from your terminal.",
-          "sentence_hash": "c8e681f4ee382543f2a053a21e93da330fc764282fcd1be11dc6b8d9e1a9a6e1",
-          "anchors": [
-            "you",
-            "your"
+            "us"
           ]
         }
       ],
       "entities": [
-        "windows",
-        "english",
-        "script",
-        "java",
-        "notes",
-        "setup",
-        "see",
-        "portugu",
-        "quick",
-        "gemini",
-        "ghidra",
-        "cursor",
-        "net",
-        "analysis",
-        "review",
-        "replace notes",
-        "evidence",
-        "ida",
-        "ask",
-        "choose",
-        "static java",
-        "繁體中文",
-        "understand",
-        "showcases",
-        "your",
-        "native",
-        "visit",
-        "日本語",
-        "electron",
-        "espa",
-        "hopper",
-        "for",
-        "简体中文",
-        "fran",
-        "with node",
-        "deutsch",
-        "restart",
-        "documentation",
-        "codex",
-        "mcp",
-        "keep",
-        "you",
-        "grok build",
-        "replace",
-        "cli",
-        "polski",
-        "inspect",
-        "asar",
-        "brasil",
-        "claude code",
-        "faq",
-        "rea"
+        "saudis",
+        "several gulf",
+        "yemen",
+        "egypt",
+        "sudan",
+        "published\nat",
+        "kuwait airways",
+        "us",
+        "flightradar",
+        "king khalid international airport",
+        "syria",
+        "more",
+        "the houthis",
+        "reuters",
+        "jordan",
+        "thursday",
+        "western",
+        "bangladesh",
+        "saudi",
+        "saturday",
+        "another",
+        "american",
+        "houthis",
+        "operations",
+        "riyadh",
+        "palestine",
+        "in saturday",
+        "british",
+        "all",
+        "iran",
+        "twelve",
+        "dammam",
+        "houthi",
+        "secretary",
+        "state marco rubio",
+        "october",
+        "maliki",
+        "fighting",
+        "saudi arabia",
+        "foreign office",
+        "king fahd international airport",
+        "uk",
+        "everyone",
+        "maj gen turki"
       ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
+      "numbers": [
+        "309 injured",
+        "12 people"
       ],
+      "dates": [
+        "May 20"
+      ],
+      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 52
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 47
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-10-AM.json",
-      "source_artifact_date": "2026-10-10",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_d0e304a905696bf3f4b1c159",
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
+      "article_id": "a1_059bd9fa51d370a51e8d69d1",
+      "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+      "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+      "publisher": "The Guardian",
+      "summary": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato alliesDonald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not",
       "category": "国际",
-      "published_at": "2026-10-09T21:54:28+00:00",
-      "why_relevant": "俄柴油交易引乌批评，地缘冲突",
-      "relevance_score": 8.0,
+      "published_at": "2026-10-10T10:09:46+00:00",
+      "why_relevant": "美俄交易冲击乌克兰，重大地缘",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin' - Published US President Donald Trump says he has reached an agreement with Russian President Vladimir Putin allowing Moscow to \"immediately release\" diesel to the US and globally.",
+          "text": "Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715383+08:00",
-          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f",
-          "excerpt": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin' - Published US President Donald Trump says he has reached an agreement with Russian President Vladimir Putin allowing Moscow to \"immediately release\" diesel to the US and globally.",
-          "sentence_hash": "da2da22dbc795cdad655d6f06b574a28099a6278e0afd238aeef7e16dec98a87",
+          "captured_at": "2026-10-11T11:12:43.646691+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.",
+          "sentence_hash": "43e49ea9cb8e92de3f8c321ad6615f6a46c3d3d98d99e876300ff0c7add91973",
           "anchors": [
-            "and",
+            "diesel",
             "in",
+            "and",
             "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Trump said the proposed release of hundreds of thousands of tonnes of Russian diesel, in tranches, would see prices \"COMING DOWN, IN RECORD NUMBERS, AND FAST!\".",
+          "text": "Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715419+08:00",
-          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f",
-          "excerpt": "Trump said the proposed release of hundreds of thousands of tonnes of Russian diesel, in tranches, would see prices \"COMING DOWN, IN RECORD NUMBERS, AND FAST!\".",
-          "sentence_hash": "9a3fb93edc70d2e9aeb661c8e83d19b783af2202c5baab8d0f8a8287ce800797",
+          "captured_at": "2026-10-11T11:12:43.646737+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”.",
+          "sentence_hash": "bc9737cbb565eddea052363e45f1879aaaa98fe7843d1a8351d34858c6783713",
           "anchors": [
-            "and",
             "in",
+            "and",
             "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "It is understood the US Treasury is suspending sanctions on Russian diesel exports until 7 April 2027 as part of the deal, but other assets like those in American banks are still frozen.",
+          "text": "The Ukrainian president said “back room deals” with the Russian leader would give Putin more chances on the battlefield.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715452+08:00",
-          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f",
-          "excerpt": "It is understood the US Treasury is suspending sanctions on Russian diesel exports until 7 April 2027 as part of the deal, but other assets like those in American banks are still frozen.",
-          "sentence_hash": "b4be8c659c3746179dee02fa2940b88ede415251c4dc92814653862fc83144a8",
+          "captured_at": "2026-10-11T11:12:43.646775+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "The Ukrainian president said “back room deals” with the Russian leader would give Putin more chances on the battlefield.",
+          "sentence_hash": "f27017ec6e2f0435faa6b7210aa574ed4c7b793905b2cbd740f87e084bd0e667",
           "anchors": [
-            "April 20",
             "in",
             "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Ukraine's president criticised the decision, saying any easing of sanctions on Russia played into Moscow's hands and would prolong the war between the two countries.",
+          "text": "On Saturday morning, Ukrainian officials reported that a Russian attack had killed 12 people in the south-east, including three children, and Moscow claimed its troops were advancing in the east.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715481+08:00",
-          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f",
-          "excerpt": "Ukraine's president criticised the decision, saying any easing of sanctions on Russia played into Moscow's hands and would prolong the war between the two countries.",
-          "sentence_hash": "bf8d2729e3a59c03fbbf14e44ef277dc1e0f6cf11ac28aa33f48a4e6bf8b8b6b",
+          "captured_at": "2026-10-11T11:12:43.646813+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "On Saturday morning, Ukrainian officials reported that a Russian attack had killed 12 people in the south-east, including three children, and Moscow claimed its troops were advancing in the east.",
+          "sentence_hash": "8d1614d4e1bb46f1fc982469dba9a7a99d0192c87dbf8b009c0139615c2ff99c",
           "anchors": [
-            "and",
             "in",
-            "us"
+            "and",
+            "us",
+            "12 people"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Trump said Putin had agreed to release 300,000 tonnes of diesel immediately, followed by 500,000 tonnes in November and another million after that.",
+          "text": "In a move likely to create a fresh crisis with Washington’s Nato allies, Trump announced the deal with Putin on his Truth Social network, saying it was essential to reduce fuel prices in the US, which have soared as a result of his decision to go to war against Iran.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715511+08:00",
-          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f",
-          "excerpt": "Trump said Putin had agreed to release 300,000 tonnes of diesel immediately, followed by 500,000 tonnes in November and another million after that.",
-          "sentence_hash": "0b6ca709e22adb328e9cacfc670f1df02a16519298447c68fdb50e946f06a91d",
+          "captured_at": "2026-10-11T11:12:43.646867+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "In a move likely to create a fresh crisis with Washington’s Nato allies, Trump announced the deal with Putin on his Truth Social network, saying it was essential to reduce fuel prices in the US, which have soared as a result of his decision to go to war against Iran.",
+          "sentence_hash": "ac79509b750b7df64071886da107cd113fd0c2892a4f17b6c6bf4f2c228757e1",
           "anchors": [
-            "and",
+            "fuel",
             "in"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "He added that a further three million tonnes of Russian diesel would be delivered \"within a short period\" after, dependent on the condition of its refineries, which have seen attacks by Ukraine.",
+          "text": "“I have just concluded a highly successful discussion with President Vladimir Putin, of Russia,” he said, to deliver millions of tonnes of diesel fuel over the next few months.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715543+08:00",
-          "content_sha256": "e6175176e993e48c0f4a48043abeb16c555d54310a4dafb28d33198850d76b2f",
-          "excerpt": "He added that a further three million tonnes of Russian diesel would be delivered \"within a short period\" after, dependent on the condition of its refineries, which have seen attacks by Ukraine.",
-          "sentence_hash": "9a4ee81e18d4160401718b6cb2b3194166d4807bd4943316a31cab36af52467b",
+          "captured_at": "2026-10-11T11:12:43.646908+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "“I have just concluded a highly successful discussion with President Vladimir Putin, of Russia,” he said, to deliver millions of tonnes of diesel fuel over the next few months.",
+          "sentence_hash": "40e9285c69e3bbcc8683ef973161b42c08c9766fe3cd8cae2e36b89cf7ed5749",
           "anchors": [
+            "fuel",
+            "diesel",
             "in",
             "us"
           ]
         }
       ],
       "entities": [
-        "february",
-        "april",
-        "fast",
-        "friday",
-        "russia",
-        "allowing russia",
-        "the russian",
-        "moscow",
-        "russian president vladimir putin",
+        "democrat",
+        "donald trump",
+        "chuck schumer",
         "america",
-        "american",
-        "shortly",
-        "ukraine",
-        "november",
-        "kirill dmitriev",
-        "bbc",
-        "down",
-        "putin",
-        "zelensky",
-        "aaa",
-        "treasury",
-        "september",
-        "and",
-        "record",
-        "trump",
-        "iran",
-        "coming",
-        "president donald trump",
+        "great farmers",
+        "european",
+        "volodymyr zelenskyy",
+        "truckers",
+        "fast",
+        "president trump",
         "us",
-        "but zelensky",
-        "published",
-        "white house",
+        "propping",
+        "ranchers",
+        "truth social",
+        "record",
+        "hormuz",
+        "friday",
+        "ukraine",
+        "president vladimir putin",
+        "failure",
+        "americans",
+        "russia",
+        "russian",
+        "diesel",
+        "some republicans",
+        "senate democratic",
+        "putin",
+        "fuel",
+        "washington",
+        "november",
+        "republicans",
+        "vladimir putin",
+        "while",
+        "kremlin",
+        "senator elizabeth warren",
+        "the ukrainian",
+        "iran",
+        "nato",
+        "and",
+        "down",
+        "zelenskyy",
+        "coming",
+        "on saturday",
+        "moscow",
+        "trump",
         "in",
-        "russian"
+        "senator jeanne shaheen",
+        "lower",
+        "democrats",
+        "ukrainian"
       ],
       "numbers": [
-        "$6.28 ",
-        "$6.53 "
+        "$4.20 ",
+        "$6.52",
+        "12 people",
+        "20%"
       ],
-      "dates": [
-        "April 20"
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 37
+        "anchor_count": 54
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-10-AM.json",
-      "source_artifact_date": "2026-10-10",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_447bca03b55a821ea43e60e6",
-      "title": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQVJCMFpxdHZyV3d5ZGpwMFJOODA4dW4wZW53NnJ4OHN0MGJWeWtZSzU1ZzhvRS1Jd2VvanVvN3Rsa2hxZHQwRWlqM2p4bV9PM2tYS09PTDZDV0pnbkNtLXJqMkV6ZVpXS05xc29JX3RraVZ0SnM5QmEza1NaeGJnRUJqbTNWZVBLSEtCb0p2SlFVMk5GRW9TTUtnc3FyQmw5RUN3ZFQ1Yl9EeUk?oc=5",
-      "publisher": "Reuters",
-      "summary": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'&nbsp;&nbsp;Reuters",
+      "article_id": "a1_e2a0287dd95108b644dcc52d",
+      "title": "Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
       "category": "国际",
-      "published_at": "2026-10-09T20:42:23+00:00",
-      "why_relevant": "俄柴油销美，泽连斯基斥战争投资",
+      "published_at": "2026-10-11T00:00:13+00:00",
+      "why_relevant": "利雅得袭击+美沙互动",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'&nbsp;&nbsp;Reuters",
+          "text": "Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.715721+08:00",
-          "content_sha256": "0acde88b237572837a3dcc56c69b4e7aeab52ff8632e4a2e2967cce4a5d2bf3b",
-          "excerpt": "Zelenskiy says letting Russia sell diesel to US is 'investment in war'&nbsp;&nbsp;Reuters",
-          "sentence_hash": "d6003854b448e4ba9fd42236389617852392fd7f0cdaba4796da28eeddd133fb",
+          "captured_at": "2026-10-11T11:12:43.647450+08:00",
+          "content_sha256": "9aad899c37d7f232fd1c10312cfcaeb409313c7d4acf0457455c1d510cda2a04",
+          "excerpt": "Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
+          "sentence_hash": "6deb4640a8b78f93e2ae46079493b65ae3d0c16f775c80dc1183ee20c65c00a7",
           "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "zelenskiy",
-        "reuters",
-        "russia",
-        "us"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 4
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-10-AM.json",
-      "source_artifact_date": "2026-10-10",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_2cccfe8d6988fe9a094506aa",
-      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
-      "category": "国际",
-      "published_at": "2026-10-09T18:40:10+00:00",
-      "why_relevant": "美国制裁ICC，国际法秩序冲击",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law' - Published The Trump administration has unveiled sweeping sanctions on the International Criminal Court (ICC) in a significant acceleration of its attempt to \"dismantle\" what it sees as a \"rogue\" inst",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.716941+08:00",
-          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6",
-          "excerpt": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law' - Published The Trump administration has unveiled sweeping sanctions on the International Criminal Court (ICC) in a significant acceleration of its attempt to \"dismantle\" what it sees as a \"rogue\" inst",
-          "sentence_hash": "53bceebd121a30b5cbfecc97e1df2f316a913a3e6bf38426b7d98d38373e14a5",
-          "anchors": [
-            "un"
+            "live",
+            "12 killed"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "US Secretary of State Marco Rubio said the measures - which include a ban on US entities making transactions with the ICC - were intended to \"defend US sovereignty\" and accused the court of seeking to prosecute Americans.",
+          "text": "Published On 11 Oct 2026 - Saudi Arabia’s civil aviation authority says 12 people were killed and 309 injured in the latest Houthi attack on Riyadh’s King Khalid airport, as Saudi-led coalition forces have since destroyed a drone launched towards the eastern region.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.716980+08:00",
-          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6",
-          "excerpt": "US Secretary of State Marco Rubio said the measures - which include a ban on US entities making transactions with the ICC - were intended to \"defend US sovereignty\" and accused the court of seeking to prosecute Americans.",
-          "sentence_hash": "83cdca6f80a5a12fac192b2c8e4293f64ee73f35c65da24753adadc5f989e5bd",
+          "captured_at": "2026-10-11T11:12:43.647496+08:00",
+          "content_sha256": "9aad899c37d7f232fd1c10312cfcaeb409313c7d4acf0457455c1d510cda2a04",
+          "excerpt": "Published On 11 Oct 2026 - Saudi Arabia’s civil aviation authority says 12 people were killed and 309 injured in the latest Houthi attack on Riyadh’s King Khalid airport, as Saudi-led coalition forces have since destroyed a drone launched towards the eastern region.",
+          "sentence_hash": "ac568174511fe4a1397ed306b04c6d83a993dc57cbae7b2e89118a731410dbab",
           "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The ICC said the measures were an assault on the rule of law and the foundations of the international legal order.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.717006+08:00",
-          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6",
-          "excerpt": "The ICC said the measures were an assault on the rule of law and the foundations of the international legal order.",
-          "sentence_hash": "1a058e06746fd8bc32448925921239f1540a75e6a0729d58697dbf0ecf0f82b9",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The announcement came just hours after former ICC judge Navi Pillay was awarded the 2026 Nobel Peace Prize for her efforts to promote peace and international law.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.717056+08:00",
-          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6",
-          "excerpt": "The announcement came just hours after former ICC judge Navi Pillay was awarded the 2026 Nobel Peace Prize for her efforts to promote peace and international law.",
-          "sentence_hash": "a98f282ea46dbbbf844370f5f885942854dff81175e2f20563dbde4ffdba8ba8",
-          "anchors": [
-            "un",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "However, the US has provided a six month grace period before some of these latest sanctions kick in, meaning member states can keep paying for its operations - a move Washington says is to allow countries time to negotiate a \"solution to address\" US concerns.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.717105+08:00",
-          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6",
-          "excerpt": "However, the US has provided a six month grace period before some of these latest sanctions kick in, meaning member states can keep paying for its operations - a move Washington says is to allow countries time to negotiate a \"solution to address\" US concerns.",
-          "sentence_hash": "8136a65ccf0763e44e2645c01b603b1a908d5bcd59433b7e61db4a4a60a8534a",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "UN Secretary General Antonio Guterres called the US decision \"a serious blow to our collective pursuit of international criminal justice, of which the ICC is a key pillar\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.717135+08:00",
-          "content_sha256": "bc9987730b5965d09983329b0b593fe195a104bafdbaeaaabb8a379a3d436cc6",
-          "excerpt": "UN Secretary General Antonio Guterres called the US decision \"a serious blow to our collective pursuit of international criminal justice, of which the ICC is a key pillar\".",
-          "sentence_hash": "1088e361126ddbf35764e4b3e0a74b97d6956887ddb25f2c0bfdfc314c5727db",
-          "anchors": [
-            "us"
+            "309 injured",
+            "Oct 20",
+            "12 people"
           ]
         }
       ],
       "entities": [
-        "un",
-        "they",
-        "japan",
-        "icc",
-        "afghanistan",
-        "netherlands",
-        "nobel peace prize",
-        "published\nthe trump",
-        "americans",
-        "the trump",
-        "china",
-        "russia",
-        "france",
-        "italy",
-        "israeli",
-        "international criminal court",
-        "american",
-        "several",
-        "secretary",
-        "rubio",
-        "state marco rubio",
+        "king khalid",
+        "mbs",
         "washington",
-        "canada",
-        "israel",
-        "denmark",
-        "either",
-        "navi pillay",
-        "however",
-        "trump",
-        "prime minister benjamin netanyahu",
-        "uk",
-        "india",
+        "houthis",
+        "published on",
+        "salman",
+        "riyadh",
+        "president donald trump",
+        "iran",
         "us",
-        "secretary general antonio guterres",
-        "germany",
-        "but rubio"
+        "live",
+        "houthi",
+        "saudi arabia",
+        "trump",
+        "following",
+        "saudi",
+        "saudi prime minister crown prince mohammed",
+        "oct"
+      ],
+      "numbers": [
+        "309 injured",
+        "12 people",
+        "12 killed"
+      ],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 22
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_1f64f1d69d35ccd981bc18d4",
+      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+      "category": "国际",
+      "published_at": "2026-10-10T20:51:12+00:00",
+      "why_relevant": "俄袭乌克兰，与柴油交易联动",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648702+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.",
+          "sentence_hash": "a02cd4a03c2ecf43154540609803d75394f44b5c5d652b9105ad645a12a06cc4",
+          "anchors": [
+            "20 people",
+            "she",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "At least 32 others were injured in the attack, with more still missing and believed to be under the rubble.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648735+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "At least 32 others were injured in the attack, with more still missing and believed to be under the rubble.",
+          "sentence_hash": "55598ac143c8ab1a533a30ca923241bf8a0f01a3dbdb73e27bca23fa87cda549",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Ukrainian President Volodymyr Zelensky said the attacks on Zaporizhzhia were Russia expressing \"its thanks\" for a deal announced by US President Donald Trump last night easing sanctions on Moscow to import Russian diesel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648770+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "Ukrainian President Volodymyr Zelensky said the attacks on Zaporizhzhia were Russia expressing \"its thanks\" for a deal announced by US President Donald Trump last night easing sanctions on Moscow to import Russian diesel.",
+          "sentence_hash": "3800acee8aa1a62ad43542b79b253a95d16a1873924dc5bf58c1f477196e9a5c",
+          "anchors": [
+            "us",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "He added that 13 other regions had come under attack overnight, arguing this demonstrated Russia took \"any easing of pressure to mean they can keep fighting\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648799+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "He added that 13 other regions had come under attack overnight, arguing this demonstrated Russia took \"any easing of pressure to mean they can keep fighting\".",
+          "sentence_hash": "2bbb7b5c3f3b1d159881883067ebfec68a80a6b03294f4a97f264c0cd3107236",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Photos and videos from the site of one of the strikes in Zaporizhzhia show an apartment block mostly destroyed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648821+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "Photos and videos from the site of one of the strikes in Zaporizhzhia show an apartment block mostly destroyed.",
+          "sentence_hash": "b8d465d0f808f750003dd6fe3733565adea0142a027085b5421002ff8bd5ed42",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"The ground floor was hit, and the floors above just collapsed,\" acting Mayor Regina Harchenko told Ukrainian television from the scene.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648846+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "\"The ground floor was hit, and the floors above just collapsed,\" acting Mayor Regina Harchenko told Ukrainian television from the scene.",
+          "sentence_hash": "a02b1834fda6a51dc775f487ef1add1fe9cda5e4e89cb0a65bb26870b5ab15b9",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "pryluky",
+        "saturday",
+        "both russia",
+        "mayor regina harchenko",
+        "for",
+        "she",
+        "president donald trump",
+        "photos",
+        "russian",
+        "us",
+        "donetsk",
+        "ukrainian president volodymyr zelensky",
+        "published\nrussia",
+        "and",
+        "zelensky",
+        "zaporizhzhia",
+        "ukraine",
+        "kramatorsk",
+        "ukrainian",
+        "moscow",
+        "trump",
+        "kyiv",
+        "russia",
+        "unfortunately",
+        "on thursday",
+        "harchenko",
+        "analysts",
+        "russian president vladimir putin"
+      ],
+      "numbers": [
+        "33 people",
+        "20 people",
+        "22 people"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6af3aa10b33b9f5baffed1ed",
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "publisher": "GitHub Trending",
+      "summary": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]https://docs.litellm.ai/docs/ 🚅 LiteLLM  \n \nLiteLLM AI Gateway  \nOpen Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format. \n      \n \nLiteLLM Proxy Server (AI Gateway) |  Hosted Proxy | Enterprise Tier | Website \n        ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI网关核心工具，读者关注API",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650153+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
+          "sentence_hash": "d876b5b929efe5d4dbcc20fc70443f4281babeae4022e99e040c12a261ba8fe8",
+          "anchors": [
+            "open",
+            "unified",
+            "call"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Jump to LiteLLM Proxy (LLM Gateway) Docs Jump to Supported LLM Providers Managing LLM calls across providers gets complicated fast — different SDKs, auth patterns, request formats, and error types for every model.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650208+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "Jump to LiteLLM Proxy (LLM Gateway) Docs Jump to Supported LLM Providers Managing LLM calls across providers gets complicated fast — different SDKs, auth patterns, request formats, and error types for every model.",
+          "sentence_hash": "e85ab9398c52c53903b192e7eef5f29bf40a12822a6a465692dd2cfa3ca47bb0",
+          "anchors": [
+            "call"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "LiteLLM removes that friction: - Unified API — one interface for 100+ LLMs, no provider-specific SDK juggling - Drop-in OpenAI compatibility — swap providers without rewriting your code - Production-ready gateway — virtual keys, spend tracking, guardrails, load balancing, and an ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650264+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "LiteLLM removes that friction: - Unified API — one interface for 100+ LLMs, no provider-specific SDK juggling - Drop-in OpenAI compatibility — swap providers without rewriting your code - Production-ready gateway — virtual keys, spend tracking, guardrails, load balancing, and an ",
+          "sentence_hash": "e27db604a046324b614cb9081a8716da5ee67ac8b489f826bea2936e8a340062",
+          "anchors": [
+            "gateway",
+            "gat",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "uv add litellm An independent litellm-core distribution provides the Python SDK with the same import litellm API and runtime dependencies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650292+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "uv add litellm An independent litellm-core distribution provides the Python SDK with the same import litellm API and runtime dependencies.",
+          "sentence_hash": "014681b66574ed1d9c85cb974677fe8a56c5a93b8f4dfbc35e58d317e3f58728",
+          "anchors": [
+            "llm",
+            "run",
+            "lite"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Install one SDK distribution per environment because litellm and litellm-core own overlapping Python files.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650323+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "Install one SDK distribution per environment because litellm and litellm-core own overlapping Python files.",
+          "sentence_hash": "bb16dd25e0092621b152dd69bb9dc1e5407ce12d773a0855e2d02dcee8f39eb1",
+          "anchors": [
+            "llm",
+            "lite",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Use litellm for the proxy, CLI, and optional extras Build and install core from this checkout while its release integration is pending: python scripts/build_core_distribution.py --out-dir dist/core python -m pip install dist/core/litellm_core-*.whl The builder requires Git, uv an",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650362+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "Use litellm for the proxy, CLI, and optional extras Build and install core from this checkout while its release integration is pending: python scripts/build_core_distribution.py --out-dir dist/core python -m pip install dist/core/litellm_core-*.whl The builder requires Git, uv an",
+          "sentence_hash": "e8590f963eb73dcee2c7388e37d07245285772a2222273b7177300df6429cad9",
+          "anchors": [
+            "install",
+            "lite",
+            "proxy",
+            "build",
+            "python",
+            "llm",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "production",
+        "hello",
+        "getting started",
+        "unified",
+        "proxy",
+        "setup",
+        "agents",
+        "open",
+        "anthropic",
+        "all supported endpoints",
+        "sdk",
+        "gateway\nopen source",
+        "api",
+        "lite",
+        "cli",
+        "gemini",
+        "drop",
+        "git",
+        "self",
+        "supported",
+        "rps",
+        "llm",
+        "docs \njump",
+        "enterprise",
+        "run",
+        "rust",
+        "azure",
+        "use",
+        "python",
+        "gateway",
+        "build",
+        "invoke",
+        "providers\nmanaging",
+        "install",
+        "tutorial",
+        "jump",
+        "call",
+        "bedrock",
+        "proxy server",
+        "gat",
+        "ai"
       ],
       "numbers": [],
       "dates": [],
@@ -521,167 +699,14 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 36
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-10-AM.json",
-      "source_artifact_date": "2026-10-10",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_5645886957b2bdf2c1debf2a",
-      "title": "Eritrean troops in Ethiopia raise fears of a regional war",
-      "url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Ethiopia and Eritrea are trading blame for confrontations in Tigray amid international calls for restraint. Their respective allies have the potential to catapult the conflict into a regional war.",
-      "category": "国际",
-      "published_at": "2026-10-09T15:20:00+00:00",
-      "why_relevant": "厄立特里亚军队入埃塞，区域战争风险",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Eritrean troops in Ethiopia raise fears of a regional war October 9, 2026 Various sources have confirmed the presence of Eritrean armed forces in Ethiopia.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.718292+08:00",
-          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79",
-          "excerpt": "Eritrean troops in Ethiopia raise fears of a regional war October 9, 2026 Various sources have confirmed the presence of Eritrean armed forces in Ethiopia.",
-          "sentence_hash": "7299e100e5255128816604c1fd1acdce7f5f155c7e3c8f735f9bb71182efffa9",
-          "anchors": [
-            "October 9",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "According to Reuters, the government of Ethiopia has written to the UN Security Council, calling for the immediate withdrawal of Eritrean troops from its territory.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.718344+08:00",
-          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79",
-          "excerpt": "According to Reuters, the government of Ethiopia has written to the UN Security Council, calling for the immediate withdrawal of Eritrean troops from its territory.",
-          "sentence_hash": "7193e5732ded35b6a0847b006c943a3eb9989f2187225f03217610145342b0da",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "8, Ethiopian Foreign Minister Gedion Timothewos said the presence of Eritrean troops in Ethiopia left \"no option but to defend itself against Eritrea,\" in a post on X on October 7, Eritrean Minister of Information Yemane Meskel had accused Ethiopia of \"incessantly beating the dru",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.718402+08:00",
-          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79",
-          "excerpt": "8, Ethiopian Foreign Minister Gedion Timothewos said the presence of Eritrean troops in Ethiopia left \"no option but to defend itself against Eritrea,\" in a post on X on October 7, Eritrean Minister of Information Yemane Meskel had accused Ethiopia of \"incessantly beating the dru",
-          "sentence_hash": "76c254da2470cfb7a423f349320ba135468d421d27ea3b41f1f4fb385b064bc1",
-          "anchors": [
-            "October 7",
-            "un",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Just last week, it expelled diplomats from Egypt and Eritrea, causing the latter to sever diplomatic ties altogether.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.718435+08:00",
-          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79",
-          "excerpt": "Just last week, it expelled diplomats from Egypt and Eritrea, causing the latter to sever diplomatic ties altogether.",
-          "sentence_hash": "2cfaaef033c1801817febcd45ab0bb6cbd0868fc6cedd8857e04850d5e602220",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Abiy's internal opposition: Tsimdo and the Alliance for Survival While the Ethiopian National Defence Forces (ENDF), aided by the Tigray Peace Force milita, have made significant advances and notably recaptured the Tigray federal state capital of Mekelle, opposition to Ethiopia h",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.718497+08:00",
-          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79",
-          "excerpt": "Abiy's internal opposition: Tsimdo and the Alliance for Survival While the Ethiopian National Defence Forces (ENDF), aided by the Tigray Peace Force milita, have made significant advances and notably recaptured the Tigray federal state capital of Mekelle, opposition to Ethiopia h",
-          "sentence_hash": "da9de29f06cde98231921875eb9fe3a7b3cf6c1fa524c57c33dbc1e374841a9b",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "One is the Tsimdo movement, named after a Tigrinya term that loosely translates as \"engagement.\" \"The Tsimdo concept initially surfaced through cross-border peace initiatives involving activists, religious figures, and local communities in the Tigray and Eritrea border villages i",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-10T08:03:30.718540+08:00",
-          "content_sha256": "eebd142343ecc70b4ed70d3c6d4ca00bfd5fa3e3fe9468c13dccd3cef02c9a79",
-          "excerpt": "One is the Tsimdo movement, named after a Tigrinya term that loosely translates as \"engagement.\" \"The Tsimdo concept initially surfaced through cross-border peace initiatives involving activists, religious figures, and local communities in the Tigray and Eritrea border villages i",
-          "sentence_hash": "f3763eb32b6be98f5d19ae339e34f48766a1bce7dc3aa470221beeccdad7388b",
-          "anchors": [
-            "un",
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "jalale",
-        "un",
-        "two",
-        "just",
-        "east africa",
-        "tigray",
-        "tigray peace force",
-        "survival",
-        "ethiopian",
-        "tsimdo",
-        "abiy ahmed",
-        "ethiopia",
-        "acled",
-        "the tsimdo",
-        "survival\nwhile",
-        "mekelle",
-        "eritrea",
-        "information yemane meskel",
-        "the ethiopian peoples",
-        "forces alliance",
-        "according",
-        "tigrinya",
-        "endf",
-        "security council",
-        "eritrean minister",
-        "abiy",
-        "one",
-        "egypt",
-        "afp",
-        "some",
-        "ethiopian national defence forces",
-        "ethiopian foreign minister gedion timothewos",
-        "alliance",
-        "oct",
-        "september",
-        "on monday",
-        "jalale getachew birru",
-        "dw",
-        "reuters",
-        "us",
-        "eritrean",
-        "various",
-        "assab",
-        "october",
-        "meanwhile"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 7",
-        "October 9"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 47
+        "anchor_count": 41
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-10-AM.json",
-      "source_artifact_date": "2026-10-10",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
       "freshness_label": "today"
     }
   ]

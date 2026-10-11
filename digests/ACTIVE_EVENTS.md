@@ -1,17 +1,84 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-10 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-11 11:18。
+
+## addyosmani/agent-skills
+- 状态：更新中；首见 2026-09-19；最近更新 2026-10-11
+- 最新事实：Production-grade engineering skills for AI coding agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_d7c30b227e7e`
+
+## Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'
+- 状态：更新中；首见 2026-10-10；最近更新 2026-10-11
+- 最新事实：Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261010_a2f8bc7fb841`
+
+## Twelve killed in attack on airport in Saudi capital Riyadh
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.
+- 事件 ID：`evt_20261011_5cfb3acb3fff`
+
+## Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.
+- 事件 ID：`evt_20261011_2c2b5ce96594`
+
+## Russian glide bomb attack on Zaporizhzhia kills at least 20 people
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261011_0a8034073478`
+
+## BerriAI/litellm
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261011_0491934768cd`
+
+## Talorys – A self-hosted personal AI agent on Cloudflare's free tier
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：Your personal AI agent.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261011_2fbc521fea5c`
+
+## Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through Amazon, creating a more seamless path from device setup to gameplay.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261011_ccf95237be4b`
+
+## Nvidia in talks to acquire US ‘open’ model start-up Reflection AI
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261011_9ce477b12577`
+
+## Saudi Arabia Suspends Operations at Riyadh Airport After Attack
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261011_21de42a0de6d`
+
+## US warns Kyiv that strikes on Russia jeopardise intelligence-sharing
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261011_bf858b13c2dc`
+
+## Anthropic’s Claude AI submits a false tip on a Philadelphia unsolved homicide case
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：Philadelphia police have revealed that Anthropic’s artificial intelligence model submitted a false homicide tip to authorities, an incident disclosed separately by the tech company.
+- 事件 ID：`evt_20261011_e9f2712a1be2`
+
+## Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom
+- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
+- 最新事实：Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom The investment underscores the growing importance of advanced packaging materials in the semiconductor supply chain The Tokyo-based company said on Friday that it would add production lines for m
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261011_001e1005e90b`
 
 ## morluto/rea
 - 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
 - 最新事实：English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی See a feature you like.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261010_1ecb8dd5dbd8`
-
-## Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin' - Published US President Donald Trump says he has reached an agreement with Russian President Vladimir Putin allowing Moscow to "immediately release" diesel to the US and globally.
-- 事件 ID：`evt_20261010_a2f8bc7fb841`
 
 ## Zelenskiy says letting Russia sell diesel to US is 'investment in war'
 - 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
@@ -639,12 +706,6 @@
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260919_6f25027458ef`
 
-## addyosmani/agent-skills
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：Production-grade engineering skills for AI coding agents.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_d7c30b227e7e`
-
 ## Quoting Thariq Shihipar
 - 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
 - 最新事实：18th September 2026 We're adding support for AGENTS.md to Claude Code.
@@ -1239,69 +1300,4 @@
 - 最新事实：Treasury yields hit multiyear highs on Thursday as traders digested U.S.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260911_c0b2b8d1e82f`
-
-## On the Navier–Stokes Millennium Prize Problem
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：8th September 2026 - Link Blog On the Navier–Stokes Millennium Prize Problem (via) Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize Problems that have been 
-- 事件 ID：`evt_20260910_19bb58aff0e7`
-
-## Paul Christiano joins OpenAI Foundation Board
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：Paul will also join the Safety and Security Committee (SSC) of the Foundation Board, working alongside its chair, Zico Kolter.
-- 事件 ID：`evt_20260910_96b9d0a92baa`
-
-## Trump says the US-Iran war will end right after midterms
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：Published On 9 Sep 2026
-- 事件 ID：`evt_20260910_3478e7c49b06`
-
-## Anthropic discloses fourth AI hacking incident missed in earlier review
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260910_109fdfcfeabe`
-
-## Iran referred to UN Security Council for nuclear non-compliance
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：Iran referred to UN Security Council for nuclear non-compliance - Published The UN nuclear watchdog has referred Iran to the Security Council for "non-compliance" with its obligations under the non-proliferation treaty - the first such move in 20 years.
-- 事件 ID：`evt_20260910_6f07984b2b18`
-
-## Once sidelined, China stands ready to broker another Trump-Kim handshake
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：ExclusiveOnce sidelined, China stands ready to broker another Trump-Kim handshake Beijing seeks role as central player in Korean peninsula diplomacy but wants a guarantee Washington has clear goals, source says Multiple people familiar with the matter told the South China Morning
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_3d7d9997cb6b`
-
-## Trump says Putin wants to make a deal in Ukraine
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260910_16dfcb83ace8`
-
-## NVIDIA CUDA 13.4 Packs CUDA Support For Windows-on-Arm Ahead of RTX Spark Launch, While Giving Devs Early Access To Vera Rubin Too
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：NVIDIA CUDA Adds The Final Touches Ahead of RTX Spark Next Month As CUDA 13.4 Gets Windows-on-Arm Support Today, NVIDIA is releasing its latest CUDA platform, the CUDA 13.4 Toolkit, which brings support for newer platforms while broadening the platform with new developer tools.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_ebe0068af2a8`
-
-## Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：backs $300 million hardware push
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260910_b760f5cf44a2`
-
-## AI-Driven IPO Wave Set to Accompany Anthropic Listing
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260910_6592fc1e884a`
-
-## Germany's Merz attacks AfD in stormy debate after far-right election win
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：Merz was addressing the Bundestag in the aftermath of the anti-immigration party's sweeping victory in the eastern state of Saxony-Anhalt where it won almost 44% of the vote, while the chancellor's conservatives saw their vote halved.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_b4aded55c430`
-
-## Barclays raises S&P 500 year-end target, citing 'standout' earnings driven by AI
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-10
-- 最新事实：Barclays raised its year-end S & P 500 target to 7,950 from 7,800, after what the bank called "a standout earnings season led by tech." "We raise our FY26/FY27 EPS estimates to $365/$414 and our YE26/YE27 S & P 500 [price target] to 7950/8800 following a standout earnings season 
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_e454f696f667`
 

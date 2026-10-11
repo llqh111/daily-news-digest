@@ -1,0 +1,713 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T03:18:08.184334+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-11.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-10.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_8036d403b41efc0fa47beede",
+      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Another 309 people are injured in an attack a Saudi-led military coalition calls a \"war crime\".",
+      "category": "国际",
+      "published_at": "2026-10-11T00:21:52+00:00",
+      "why_relevant": "地缘冲突升级，必须覆盖",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.644999+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.",
+          "sentence_hash": "13560f7a7adfa0a42c2493f414b28cb4797c3ef9a87e396100db48e094cca438",
+          "anchors": [
+            "309 injured",
+            "12 people"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Operations at King Khalid International Airport have been suspended.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.645044+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "Operations at King Khalid International Airport have been suspended.",
+          "sentence_hash": "e618898495839c74e7c5656c5b630b42869374e9031eed5b79863937c234e42c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "A Saudi-led military coalition has vowed to respond to the attack, which it has blamed on the Houthis and called a \"war crime\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.645097+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "A Saudi-led military coalition has vowed to respond to the attack, which it has blamed on the Houthis and called a \"war crime\".",
+          "sentence_hash": "75ce798fda6440761c6f225da62c2a52125590f13c623f868c7be41f76d8ad05",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Saturday's attack was the deadliest in the kingdom since May 2015.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.645141+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "Saturday's attack was the deadliest in the kingdom since May 2015.",
+          "sentence_hash": "91a47a1df6cb1aa4bbf0c56c923ac0bb912c2aed21dc70def49781b8d4e89ab5",
+          "anchors": [
+            "May 20"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "An eyewitness who said they had been in the domestic terminal told the news agency that they had seen gate 401 hit and \"injured [people] in front of my eyes\", adding: \"Everyone was running.\" More than a dozen ambulances were seen rushing to the airport, according to news agency R",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.645224+08:00",
+          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
+          "excerpt": "An eyewitness who said they had been in the domestic terminal told the news agency that they had seen gate 401 hit and \"injured [people] in front of my eyes\", adding: \"Everyone was running.\" More than a dozen ambulances were seen rushing to the airport, according to news agency R",
+          "sentence_hash": "2d779dd860e3ffd8955850b99e50eb1050472b4e1bfaaed8db84ab0c4080544e",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "saudis",
+        "several gulf",
+        "yemen",
+        "egypt",
+        "sudan",
+        "published\nat",
+        "kuwait airways",
+        "us",
+        "flightradar",
+        "king khalid international airport",
+        "syria",
+        "more",
+        "the houthis",
+        "reuters",
+        "jordan",
+        "thursday",
+        "western",
+        "bangladesh",
+        "saudi",
+        "saturday",
+        "another",
+        "american",
+        "houthis",
+        "operations",
+        "riyadh",
+        "palestine",
+        "in saturday",
+        "british",
+        "all",
+        "iran",
+        "twelve",
+        "dammam",
+        "houthi",
+        "secretary",
+        "state marco rubio",
+        "october",
+        "maliki",
+        "fighting",
+        "saudi arabia",
+        "foreign office",
+        "king fahd international airport",
+        "uk",
+        "everyone",
+        "maj gen turki"
+      ],
+      "numbers": [
+        "309 injured",
+        "12 people"
+      ],
+      "dates": [
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 47
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_059bd9fa51d370a51e8d69d1",
+      "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
+      "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
+      "publisher": "The Guardian",
+      "summary": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato alliesDonald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not",
+      "category": "国际",
+      "published_at": "2026-10-10T10:09:46+00:00",
+      "why_relevant": "美俄交易冲击乌克兰，重大地缘",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.646691+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.",
+          "sentence_hash": "43e49ea9cb8e92de3f8c321ad6615f6a46c3d3d98d99e876300ff0c7add91973",
+          "anchors": [
+            "diesel",
+            "in",
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.646737+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”.",
+          "sentence_hash": "bc9737cbb565eddea052363e45f1879aaaa98fe7843d1a8351d34858c6783713",
+          "anchors": [
+            "in",
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Ukrainian president said “back room deals” with the Russian leader would give Putin more chances on the battlefield.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.646775+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "The Ukrainian president said “back room deals” with the Russian leader would give Putin more chances on the battlefield.",
+          "sentence_hash": "f27017ec6e2f0435faa6b7210aa574ed4c7b793905b2cbd740f87e084bd0e667",
+          "anchors": [
+            "in",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "On Saturday morning, Ukrainian officials reported that a Russian attack had killed 12 people in the south-east, including three children, and Moscow claimed its troops were advancing in the east.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.646813+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "On Saturday morning, Ukrainian officials reported that a Russian attack had killed 12 people in the south-east, including three children, and Moscow claimed its troops were advancing in the east.",
+          "sentence_hash": "8d1614d4e1bb46f1fc982469dba9a7a99d0192c87dbf8b009c0139615c2ff99c",
+          "anchors": [
+            "in",
+            "and",
+            "us",
+            "12 people"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In a move likely to create a fresh crisis with Washington’s Nato allies, Trump announced the deal with Putin on his Truth Social network, saying it was essential to reduce fuel prices in the US, which have soared as a result of his decision to go to war against Iran.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.646867+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "In a move likely to create a fresh crisis with Washington’s Nato allies, Trump announced the deal with Putin on his Truth Social network, saying it was essential to reduce fuel prices in the US, which have soared as a result of his decision to go to war against Iran.",
+          "sentence_hash": "ac79509b750b7df64071886da107cd113fd0c2892a4f17b6c6bf4f2c228757e1",
+          "anchors": [
+            "fuel",
+            "in"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "“I have just concluded a highly successful discussion with President Vladimir Putin, of Russia,” he said, to deliver millions of tonnes of diesel fuel over the next few months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.646908+08:00",
+          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
+          "excerpt": "“I have just concluded a highly successful discussion with President Vladimir Putin, of Russia,” he said, to deliver millions of tonnes of diesel fuel over the next few months.",
+          "sentence_hash": "40e9285c69e3bbcc8683ef973161b42c08c9766fe3cd8cae2e36b89cf7ed5749",
+          "anchors": [
+            "fuel",
+            "diesel",
+            "in",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "democrat",
+        "donald trump",
+        "chuck schumer",
+        "america",
+        "great farmers",
+        "european",
+        "volodymyr zelenskyy",
+        "truckers",
+        "fast",
+        "president trump",
+        "us",
+        "propping",
+        "ranchers",
+        "truth social",
+        "record",
+        "hormuz",
+        "friday",
+        "ukraine",
+        "president vladimir putin",
+        "failure",
+        "americans",
+        "russia",
+        "russian",
+        "diesel",
+        "some republicans",
+        "senate democratic",
+        "putin",
+        "fuel",
+        "washington",
+        "november",
+        "republicans",
+        "vladimir putin",
+        "while",
+        "kremlin",
+        "senator elizabeth warren",
+        "the ukrainian",
+        "iran",
+        "nato",
+        "and",
+        "down",
+        "zelenskyy",
+        "coming",
+        "on saturday",
+        "moscow",
+        "trump",
+        "in",
+        "senator jeanne shaheen",
+        "lower",
+        "democrats",
+        "ukrainian"
+      ],
+      "numbers": [
+        "$4.20 ",
+        "$6.52",
+        "12 people",
+        "20%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 54
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e2a0287dd95108b644dcc52d",
+      "title": "Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
+      "category": "国际",
+      "published_at": "2026-10-11T00:00:13+00:00",
+      "why_relevant": "利雅得袭击+美沙互动",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.647450+08:00",
+          "content_sha256": "9aad899c37d7f232fd1c10312cfcaeb409313c7d4acf0457455c1d510cda2a04",
+          "excerpt": "Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
+          "sentence_hash": "6deb4640a8b78f93e2ae46079493b65ae3d0c16f775c80dc1183ee20c65c00a7",
+          "anchors": [
+            "live",
+            "12 killed"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 11 Oct 2026 - Saudi Arabia’s civil aviation authority says 12 people were killed and 309 injured in the latest Houthi attack on Riyadh’s King Khalid airport, as Saudi-led coalition forces have since destroyed a drone launched towards the eastern region.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.647496+08:00",
+          "content_sha256": "9aad899c37d7f232fd1c10312cfcaeb409313c7d4acf0457455c1d510cda2a04",
+          "excerpt": "Published On 11 Oct 2026 - Saudi Arabia’s civil aviation authority says 12 people were killed and 309 injured in the latest Houthi attack on Riyadh’s King Khalid airport, as Saudi-led coalition forces have since destroyed a drone launched towards the eastern region.",
+          "sentence_hash": "ac568174511fe4a1397ed306b04c6d83a993dc57cbae7b2e89118a731410dbab",
+          "anchors": [
+            "309 injured",
+            "Oct 20",
+            "12 people"
+          ]
+        }
+      ],
+      "entities": [
+        "king khalid",
+        "mbs",
+        "washington",
+        "houthis",
+        "published on",
+        "salman",
+        "riyadh",
+        "president donald trump",
+        "iran",
+        "us",
+        "live",
+        "houthi",
+        "saudi arabia",
+        "trump",
+        "following",
+        "saudi",
+        "saudi prime minister crown prince mohammed",
+        "oct"
+      ],
+      "numbers": [
+        "309 injured",
+        "12 people",
+        "12 killed"
+      ],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 22
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_1f64f1d69d35ccd981bc18d4",
+      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
+      "category": "国际",
+      "published_at": "2026-10-10T20:51:12+00:00",
+      "why_relevant": "俄袭乌克兰，与柴油交易联动",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648702+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.",
+          "sentence_hash": "a02cd4a03c2ecf43154540609803d75394f44b5c5d652b9105ad645a12a06cc4",
+          "anchors": [
+            "20 people",
+            "she",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "At least 32 others were injured in the attack, with more still missing and believed to be under the rubble.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648735+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "At least 32 others were injured in the attack, with more still missing and believed to be under the rubble.",
+          "sentence_hash": "55598ac143c8ab1a533a30ca923241bf8a0f01a3dbdb73e27bca23fa87cda549",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Ukrainian President Volodymyr Zelensky said the attacks on Zaporizhzhia were Russia expressing \"its thanks\" for a deal announced by US President Donald Trump last night easing sanctions on Moscow to import Russian diesel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648770+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "Ukrainian President Volodymyr Zelensky said the attacks on Zaporizhzhia were Russia expressing \"its thanks\" for a deal announced by US President Donald Trump last night easing sanctions on Moscow to import Russian diesel.",
+          "sentence_hash": "3800acee8aa1a62ad43542b79b253a95d16a1873924dc5bf58c1f477196e9a5c",
+          "anchors": [
+            "us",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "He added that 13 other regions had come under attack overnight, arguing this demonstrated Russia took \"any easing of pressure to mean they can keep fighting\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648799+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "He added that 13 other regions had come under attack overnight, arguing this demonstrated Russia took \"any easing of pressure to mean they can keep fighting\".",
+          "sentence_hash": "2bbb7b5c3f3b1d159881883067ebfec68a80a6b03294f4a97f264c0cd3107236",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Photos and videos from the site of one of the strikes in Zaporizhzhia show an apartment block mostly destroyed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648821+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "Photos and videos from the site of one of the strikes in Zaporizhzhia show an apartment block mostly destroyed.",
+          "sentence_hash": "b8d465d0f808f750003dd6fe3733565adea0142a027085b5421002ff8bd5ed42",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"The ground floor was hit, and the floors above just collapsed,\" acting Mayor Regina Harchenko told Ukrainian television from the scene.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.648846+08:00",
+          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
+          "excerpt": "\"The ground floor was hit, and the floors above just collapsed,\" acting Mayor Regina Harchenko told Ukrainian television from the scene.",
+          "sentence_hash": "a02b1834fda6a51dc775f487ef1add1fe9cda5e4e89cb0a65bb26870b5ab15b9",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "pryluky",
+        "saturday",
+        "both russia",
+        "mayor regina harchenko",
+        "for",
+        "she",
+        "president donald trump",
+        "photos",
+        "russian",
+        "us",
+        "donetsk",
+        "ukrainian president volodymyr zelensky",
+        "published\nrussia",
+        "and",
+        "zelensky",
+        "zaporizhzhia",
+        "ukraine",
+        "kramatorsk",
+        "ukrainian",
+        "moscow",
+        "trump",
+        "kyiv",
+        "russia",
+        "unfortunately",
+        "on thursday",
+        "harchenko",
+        "analysts",
+        "russian president vladimir putin"
+      ],
+      "numbers": [
+        "33 people",
+        "20 people",
+        "22 people"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6af3aa10b33b9f5baffed1ed",
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "publisher": "GitHub Trending",
+      "summary": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]https://docs.litellm.ai/docs/ 🚅 LiteLLM  \n \nLiteLLM AI Gateway  \nOpen Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format. \n      \n \nLiteLLM Proxy Server (AI Gateway) |  Hosted Proxy | Enterprise Tier | Website \n        ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI网关核心工具，读者关注API",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650153+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
+          "sentence_hash": "d876b5b929efe5d4dbcc20fc70443f4281babeae4022e99e040c12a261ba8fe8",
+          "anchors": [
+            "open",
+            "unified",
+            "call"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Jump to LiteLLM Proxy (LLM Gateway) Docs Jump to Supported LLM Providers Managing LLM calls across providers gets complicated fast — different SDKs, auth patterns, request formats, and error types for every model.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650208+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "Jump to LiteLLM Proxy (LLM Gateway) Docs Jump to Supported LLM Providers Managing LLM calls across providers gets complicated fast — different SDKs, auth patterns, request formats, and error types for every model.",
+          "sentence_hash": "e85ab9398c52c53903b192e7eef5f29bf40a12822a6a465692dd2cfa3ca47bb0",
+          "anchors": [
+            "call"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "LiteLLM removes that friction: - Unified API — one interface for 100+ LLMs, no provider-specific SDK juggling - Drop-in OpenAI compatibility — swap providers without rewriting your code - Production-ready gateway — virtual keys, spend tracking, guardrails, load balancing, and an ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650264+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "LiteLLM removes that friction: - Unified API — one interface for 100+ LLMs, no provider-specific SDK juggling - Drop-in OpenAI compatibility — swap providers without rewriting your code - Production-ready gateway — virtual keys, spend tracking, guardrails, load balancing, and an ",
+          "sentence_hash": "e27db604a046324b614cb9081a8716da5ee67ac8b489f826bea2936e8a340062",
+          "anchors": [
+            "gateway",
+            "gat",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "uv add litellm An independent litellm-core distribution provides the Python SDK with the same import litellm API and runtime dependencies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650292+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "uv add litellm An independent litellm-core distribution provides the Python SDK with the same import litellm API and runtime dependencies.",
+          "sentence_hash": "014681b66574ed1d9c85cb974677fe8a56c5a93b8f4dfbc35e58d317e3f58728",
+          "anchors": [
+            "llm",
+            "run",
+            "lite"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Install one SDK distribution per environment because litellm and litellm-core own overlapping Python files.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650323+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "Install one SDK distribution per environment because litellm and litellm-core own overlapping Python files.",
+          "sentence_hash": "bb16dd25e0092621b152dd69bb9dc1e5407ce12d773a0855e2d02dcee8f39eb1",
+          "anchors": [
+            "llm",
+            "lite",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Use litellm for the proxy, CLI, and optional extras Build and install core from this checkout while its release integration is pending: python scripts/build_core_distribution.py --out-dir dist/core python -m pip install dist/core/litellm_core-*.whl The builder requires Git, uv an",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-11T11:12:43.650362+08:00",
+          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
+          "excerpt": "Use litellm for the proxy, CLI, and optional extras Build and install core from this checkout while its release integration is pending: python scripts/build_core_distribution.py --out-dir dist/core python -m pip install dist/core/litellm_core-*.whl The builder requires Git, uv an",
+          "sentence_hash": "e8590f963eb73dcee2c7388e37d07245285772a2222273b7177300df6429cad9",
+          "anchors": [
+            "install",
+            "lite",
+            "proxy",
+            "build",
+            "python",
+            "llm",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "production",
+        "hello",
+        "getting started",
+        "unified",
+        "proxy",
+        "setup",
+        "agents",
+        "open",
+        "anthropic",
+        "all supported endpoints",
+        "sdk",
+        "gateway\nopen source",
+        "api",
+        "lite",
+        "cli",
+        "gemini",
+        "drop",
+        "git",
+        "self",
+        "supported",
+        "rps",
+        "llm",
+        "docs \njump",
+        "enterprise",
+        "run",
+        "rust",
+        "azure",
+        "use",
+        "python",
+        "gateway",
+        "build",
+        "invoke",
+        "providers\nmanaging",
+        "install",
+        "tutorial",
+        "jump",
+        "call",
+        "bedrock",
+        "proxy server",
+        "gat",
+        "ai"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-11-AM.json",
+      "source_artifact_date": "2026-10-11",
+      "freshness_label": "today"
+    }
+  ]
+}
