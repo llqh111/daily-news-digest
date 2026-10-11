@@ -3,7 +3,7 @@
 设计要点：
 · 下载与解析分离 —— 下载并发、解析串行（feedparser 写全局去重 set 不是线程安全）
 · 任何单源失败/超时都返回 None，绝不向上抛 —— 一个挂掉的源不能拖死整个 job
-· 正文抓取也用线程池，但 trafilatura 是 CPU 密集（lxml C 扩展），收益边际
+· 正文下载并发，原生 HTML 解析放在独立进程，避免单篇解析崩溃拖死整期
 · 去重状态（标题/链接 set）是 fetch_all_feeds 函数内局部 —— 同进程多次
   调用互不污染
 """
@@ -11,13 +11,15 @@
 from __future__ import annotations
 
 import logging
+from pathlib import Path
 import re
+import subprocess
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 import feedparser
 import requests
-import trafilatura
 
 from .config import (
     RSS_FEEDS,
@@ -214,13 +216,16 @@ def fetch_one_fulltext(art: dict) -> str:
             headers={"User-Agent": "Mozilla/5.0 (compatible; DailyDigestBot/1.0)"},
         )
         resp.raise_for_status()
-        # trafilatura 负责从一堆 HTML 里把「文章正文」抠出来，丢掉导航/广告/评论
-        text = trafilatura.extract(
-            resp.text,
-            include_comments=False,
-            include_tables=False,
-            no_fallback=False,
+        # 原生解析器的 abort/内存错误不能用 Python except 捕获，隔离到子进程。
+        parsed = subprocess.run(
+            [sys.executable, str(Path(__file__).with_name("fulltext_worker.py"))],
+            input=resp.text, capture_output=True, text=True, encoding="utf-8",
+            timeout=FULLTEXT_TIMEOUT, check=False,
         )
+        if parsed.returncode:
+            log.warning("正文解析进程退出（code=%s），回退 RSS 摘要", parsed.returncode)
+            return ""
+        text = parsed.stdout
         if not text:
             return ""
         return text.strip()[:FULLTEXT_MAX_CHARS]
