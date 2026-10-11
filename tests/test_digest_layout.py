@@ -49,7 +49,11 @@ def test_real_batch_pipeline_preserves_every_article(monkeypatch, narrative):
     monkeypatch.setattr(ai, "_call_deepseek_once", lambda *args, **kwargs: {
         "choices": [{"message": {"content": next(replies)}}]
     })
-    result = strip_audit_block(ai.summarize_with_deepseek([{}, {}, {}]))
+    articles = [
+        {"article_id": f"a{index}", "category": category, "link": "https://example.com"}
+        for index, category in enumerate(("国际", "科技", "财经"))
+    ]
+    result = strip_audit_block(ai.summarize_with_deepseek(articles))
     validate_digest_layout(result, ["a0", "a1", "a2"])
     assert all(result.count(f"article_id:a{index}") == 1 for index in range(3))
 
@@ -102,3 +106,51 @@ def test_quick_read_and_digest_have_a_blank_line_boundary():
 def test_layout_gate_blocks_corrupt_or_incomplete_delivery(bad):
     with pytest.raises(DigestLayoutError):
         validate_digest_layout(bad(body()), ["a0", "a1", "a2"])
+
+
+@pytest.mark.parametrize("damage", [
+    lambda text: text[:text.index("## 💰 财经市场")],
+    lambda text: text.replace("article_id:a2", "article_id:wrong"),
+    lambda text: text + "\n" + body().split("\n\n")[2],
+    lambda text: text.replace("https://example.com", "https://wrong.example", 1),
+])
+def test_invalid_batch_repairs_only_broken_articles(monkeypatch, damage):
+    articles = [
+        {"article_id": f"a{index}", "category": category, "link": "https://example.com", "title": f"标题{index}"}
+        for index, category in enumerate(("国际", "科技", "财经"))
+    ]
+    calls = []
+    monkeypatch.setattr(ai, "_articles_to_text", lambda rows: rows[0]["article_id"])
+
+    def respond(system, prompt, **kwargs):
+        aid = prompt[-2:]
+        calls.append(aid)
+        assert kwargs["thinking_enabled"] is False
+        return {"choices": [{"message": {"content": body().split("\n\n")[int(aid[1])]}}]}
+
+    monkeypatch.setattr(ai, "_call_deepseek_once", respond)
+    result = ai._repair_batch_output(damage(body()), articles)
+    validate_digest_layout(result, ["a0", "a1", "a2"])
+    assert len(calls) == 1
+    assert "wrong" not in result
+
+
+def test_failed_item_repair_still_blocks_delivery(monkeypatch):
+    article = {"article_id": "a2", "category": "财经", "link": "https://example.com"}
+    monkeypatch.setattr(ai, "_articles_to_text", lambda _: "素材")
+    monkeypatch.setattr(ai, "_call_deepseek_once", lambda *a, **k: {
+        "choices": [{"message": {"content": "没有新闻正文"}}]
+    })
+    with pytest.raises(DigestLayoutError, match="补写后"):
+        ai._repair_batch_output("", [article])
+
+
+def test_single_batch_repair_does_not_embed_old_editorial_in_news(monkeypatch):
+    articles = [
+        {"article_id": f"a{index}", "category": category, "link": "https://example.com"}
+        for index, category in enumerate(("国际", "科技", "财经"))
+    ]
+    monkeypatch.setattr(ai, "_call_deepseek_once", lambda *a, **k: pytest.fail("完整条目不应重写"))
+    result = ai._repair_batch_output(body() + "\n『编辑手记 / 今日看点』\n旧手记", articles)
+    validate_digest_layout(result, ["a0", "a1", "a2"])
+    assert "旧手记" not in result

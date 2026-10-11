@@ -49,7 +49,9 @@ def test_rejection_preserves_all_sources_without_resubmitting(monkeypatch, batch
         calls.append(args)
         if len(calls) == reject_at:
             raise ai.DeepSeekContentRejected("Content Exists Risk")
-        return {"choices": [{"message": {"content": "## 🌍 国际要闻\nDraft"}}]}
+        # 拒绝前的批次使用完整稿件，确保拒绝确实发生在目标批次/合并阶段。
+        draft = ai._render_source_digest([selected[len(calls) - 1]])
+        return {"choices": [{"message": {"content": draft}}]}
 
     monkeypatch.setattr(ai, "_call_deepseek_once", call)
     result = ai.summarize_with_deepseek(selected)

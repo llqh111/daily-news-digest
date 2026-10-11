@@ -20,6 +20,7 @@ import requests
 from .config import TZ, BATCH_SIZE, _PERSONAL_RE
 from .factcheck import build_factcheck_notes, sanity_check_output
 from .storage import load_recent_digests
+from .quality import DigestLayoutError, parse_main_items, validate_digest_layout
 
 log = logging.getLogger(__name__)
 
@@ -50,7 +51,7 @@ def _build_system_prompt(is_batch: bool = False) -> str:
         "\n"
         "【深度思考要求（在正式输出前的内部推理中完成）】\n"
         "1. 交叉比对：核对各篇素材之间的数据是否冲突，冲突时取多数或最权威来源并注明。\n"
-        "2. 过滤降噪：剔除洋八卦、标题党、纯软文，宁缺毋滥。\n"
+        "2. 选稿已由上游完成：本次只负责写稿，不得再次筛选或删除条目。\n"
         "3. 连续性判断：对照我附上的「近期已报道事件清单」，判断今天哪些是旧事件的新进展。\n"
         "4. 本土化与个人相关性：评估每条对「中国」和「上述读者画像」的具体意义。\n"
         "\n"
@@ -78,6 +79,7 @@ def _build_system_prompt(is_batch: bool = False) -> str:
         "末行来源（不可省略）：> 📰 来源：媒体名（原文链接）\n"
         "\n"
         "【硬性要求】\n"
+        "· 输入的每个内部 ID 必须原样输出且只出现一次；不得省略、替换或新增 ID。\n"
         "· 全程中文，专有名词首次出现可附英文原名。\n"
         "· 三段式结构严格保持，点评要有信息增量和观点。\n"
         "· 每条「📰 来源」必须写明媒体名和原文链接，一条都不能省。\n"
@@ -92,7 +94,7 @@ def _build_system_prompt(is_batch: bool = False) -> str:
               "## 💻 科技与 AI\n"
               "## 💰 财经市场\n"
               "\n"
-              "【任务】我会给你一批候选新闻。请将它们按格式写成简报，并分类到上述三个板块下。绝对不要输出今日导语、编辑手记等其他内容！除非是纯软文或毫无信息量的凑数内容，否则尽量保留，不要过度删减。\n"
+              "【任务】我会给你一批已确定入选的新闻。必须逐条全部写出，分类沿用输入分类。绝对不要输出今日导语、编辑手记等其他内容！\n"
         )
     else:
         return (
@@ -107,7 +109,7 @@ def _build_system_prompt(is_batch: bool = False) -> str:
               "   - 标 📈 进展的条目，是否确与「近期已报道」清单中同一事件？\n"
               "   - 标 🎯 个人雷达的条目，影响是否落到了读者画像的具体层面？\n"
               "\n"
-              "【任务】我会给你一批已初筛的候选新闻（已按重要性排序），请先在内部完成推理与事实审计，然后编成今天的深度晨报。除非是纯软文或毫无信息量的凑数内容，否则尽量保留，确保国际、科技、财经三大类均有涉及，不要过度删减。\n"
+              "【任务】我会给你一批已确定入选的新闻（已按重要性排序），请先在内部完成推理与事实审计，然后逐条全部写成今天的深度晨报，不得再次筛选。\n"
         )
 
 
@@ -386,6 +388,54 @@ def _render_source_digest(articles: list[dict]) -> str:
     return "\n\n".join(parts)
 
 
+def _repair_batch_output(text: str, articles: list[dict]) -> str:
+    """只补写缺失/损坏条目一次；不猜测 ID 与正文的对应关系。"""
+    parsed = parse_main_items(strip_audit_block(text))
+    grouped: dict[str, list[str]] = {}
+    for item in parsed:
+        grouped.setdefault(item["article_id"], []).append(item["content"])
+    sections = {"国际": "🌍 国际要闻", "科技": "💻 科技与 AI", "财经": "💰 财经市场"}
+    rendered = {category: [] for category in sections}
+
+    def checked_block(article: dict, candidates: list[str]) -> str:
+        aid = article["article_id"]
+        if len(candidates) != 1:
+            raise DigestLayoutError(f"条目 {aid} 缺失或重复")
+        content = re.split(r"(?m)^『(?:今日导语|编辑手记)[^\n]*』", candidates[0], maxsplit=1)[0].strip()
+        block = f"<!-- article_id:{aid} -->\n{content}"
+        # 校验函数要求三大标题；这里只验证当前条目的完整性。
+        scaffold = "\n\n".join(f"## {section}" for section in sections.values())
+        validate_digest_layout(scaffold + "\n" + block, [aid])
+        source_lines = re.findall(r"(?m)^>\s*📰\s*来源[^\n]*", block)
+        if not re.search(re.escape(article["link"]) + r"(?=[）)\s]|$)", "\n".join(source_lines)):
+            raise DigestLayoutError(f"条目 {aid} 来源链接被替换")
+        return block
+
+    for article in articles:
+        aid = article["article_id"]
+        try:
+            block = checked_block(article, grouped.get(aid, []))
+        except DigestLayoutError as exc:
+            log.warning("补写不完整条目 %s：%s", aid, exc)
+            prompt = (
+                "只写以下这一条已入选新闻，保留内部 ID、三段正文及原始来源链接。"
+                "不要筛选，不写导语或手记。\n" + _articles_to_text([article])
+            )
+            reply = _call_deepseek_once(
+                _build_system_prompt(is_batch=True), prompt,
+                max_tokens=4000, thinking_enabled=False,
+            )
+            repaired = parse_main_items(strip_audit_block(reply["choices"][0]["message"]["content"]))
+            if len(repaired) != 1 or repaired[0]["article_id"] != aid:
+                raise DigestLayoutError(f"补写后条目 {aid} 的 ID 仍不完整")
+            block = checked_block(article, [repaired[0]["content"]])
+        rendered[article["category"]].append(block)
+    return "\n\n".join(
+        f"## {section}\n" + "\n\n".join(rendered[category])
+        for category, section in sections.items()
+    )
+
+
 def _summarize_with_deepseek(articles: list[dict]) -> str:
     """把新闻列表发给 DeepSeek，让它用中文总结成每日简报。
     超过 BATCH_SIZE 条时自动拆批，每批独立写，最后拼成完整晨报。"""
@@ -409,7 +459,7 @@ def _summarize_with_deepseek(articles: list[dict]) -> str:
 
         user_prompt = (
             f"今天是 {today_str}。以下是已初筛的候选新闻（共 {n} 条），"
-            f"请按要求精选并编成今天的深度晨报。"
+            f"请按要求逐条全部编成今天的深度晨报，不得再次筛选。"
             f"每条新闻末尾务必附上「📰 来源：媒体名（原文链接）」。\n"
         )
         if recent_digests:
@@ -420,6 +470,11 @@ def _summarize_with_deepseek(articles: list[dict]) -> str:
         content = data["choices"][0]["message"]["content"]
         log.info(f"DeepSeek 返回 {len(content)} 字")
         _log_sanity(content)
+        content = strip_audit_block(content)
+        try:
+            validate_digest_layout(content, [article["article_id"] for article in articles])
+        except DigestLayoutError:
+            content = _repair_batch_output(content, articles)
         return content
 
     # ── 分批模式：拆成多批，每批独立写新闻条目，最后拼起来 ──
@@ -445,6 +500,7 @@ def _summarize_with_deepseek(articles: list[dict]) -> str:
 
         data = _call_deepseek_once(system_prompt, user_prompt, max_tokens=8000)
         text = strip_audit_block(data["choices"][0]["message"]["content"])
+        text = _repair_batch_output(text, batch)
         log.info(f"  第 {bi} 批返回 {len(text)} 字")
         batch_outputs.append(text)
 
@@ -468,7 +524,7 @@ def _summarize_with_deepseek(articles: list[dict]) -> str:
     grouped_parts = []
     for sec in ["🌍 国际要闻", "💻 科技与 AI", "💰 财经市场", "未分类"]:
         content = "\n".join(sections_data[sec]).strip()
-        if content:
+        if content or sec != "未分类":
             if sec != "未分类":
                 grouped_parts.append(f"## {sec}\n{content}")
             else:
