@@ -1,0 +1,1303 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-10-12-AM",
+  "date": "2026-10-12",
+  "session": "AM",
+  "delivered_at": "2026-10-12T08:07:25.850593+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-10-12T00:07:25.852494+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
+  },
+  "items": [
+    {
+      "article_id": "a1_68d1d667bc13363eb0fa704f",
+      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+      "category": "国际",
+      "published_at": "2026-10-11T21:36:40+00:00",
+      "why_relevant": "能源停火提议，俄方沉默",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390128+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
+          "sentence_hash": "43580e19cadc616dcb3da02630eb2659b62dc9922e42891839a84ab499c984ad",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390159+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
+          "sentence_hash": "529c86a3a8325fe11110d406c484d8c33f88b25acc9299c12a00f8f3798da270",
+          "anchors": [
+            "all",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390177+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
+          "sentence_hash": "cac3dbdb8d7200c00981a51ffdb5f148296ab612e408a5b98745f01fa362172a",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390203+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
+          "sentence_hash": "9965d5a69011ecbeb723cc609236c8a4412f9833862896d016dd0575fe30760c",
+          "anchors": [
+            "us",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390217+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
+          "sentence_hash": "2b1479379091c5dcd34b9e1107a255a2889e45285bee4bdc7122c912e6e9b522",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Zelensky called it a gift to Russian President Vladimir Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390229+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Zelensky called it a gift to Russian President Vladimir Putin.",
+          "sentence_hash": "76951b59fecbde3770ff66b5f0f737f124b80b7ba70bff2e567c4a8c3257d52c",
+          "anchors": [
+            "us",
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "zelensky",
+        "eu",
+        "us",
+        "for",
+        "france",
+        "iran",
+        "kharkiv",
+        "president trump",
+        "all",
+        "white house",
+        "uk",
+        "american",
+        "published\ndonald trump",
+        "axios",
+        "britain",
+        "russian",
+        "republican",
+        "ukrainian president volodymyr zelensky",
+        "bbc",
+        "russia",
+        "canada",
+        "kyiv",
+        "moscow",
+        "european",
+        "prime minister andy burnham",
+        "america",
+        "russian president vladimir putin",
+        "ukrainian",
+        "trump",
+        "united states",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_43b0f832d5b7f2f6bcea0953",
+      "title": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met",
+      "url": "https://www.tomshardware.com/software/linux/cyberleek-threatens-full-gta-6-build-leak-unless-take-two-apologizes-and-his-usd30-million-crypto-memecoin-goal-is-met-leaker-demands-physical-release-while-pumping-solana-memecoin-to-usd30m",
+      "publisher": "Tom's Hardware",
+      "summary": "Notorious GTA VI leaker Cyberleek is threatening to release a full build of GTA VI if Take-Two doesn't release a physical build, but only if its memecoin hits $30 million.",
+      "category": "科技",
+      "published_at": "2026-10-11T16:10:00+00:00",
+      "why_relevant": "GTA6泄露与加密memecoin",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390997+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
+          "sentence_hash": "5c3571996e67444b9ecb3431939cb09620d80bcb41c57f7d8118d45942ebcaa2",
+          "anchors": [
+            "us",
+            "$30",
+            "while",
+            "$30 million",
+            "30 million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391035+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
+          "sentence_hash": "93992171d459f245c31edd0a6bbf4da6c836c934ce416d7baaefcb078bc1ec05",
+          "anchors": [
+            "am",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391058+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
+          "sentence_hash": "cccd3ef344513ef83ae908a49e889fea45112ed113f20a8de48a3605352d63fa",
+          "anchors": [
+            "us",
+            "vi"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391076+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "sentence_hash": "dab55bd3a26b7ee699687617d979c546d14ba377702b7c9b6363a0b02640c5d1",
+          "anchors": [
+            "us",
+            "$250,000 "
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391100+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "sentence_hash": "1bcc6db4907ad078480cda6906b8e45d3ad22ea471a582e5b206b43df2aa5e3c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391112+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "sentence_hash": "00d213078d485f48ba3fb47e2224bc97836a93c64611655ff9a20b98159723fb",
+          "anchors": [
+            "vi"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "those",
+        "well",
+        "november",
+        "while",
+        "gta",
+        "am",
+        "central",
+        "cyberleek",
+        "rockstar",
+        "grand theft auto",
+        "neither rockstar",
+        "rockstar games",
+        "extended look",
+        "lucia",
+        "solana",
+        "netflix",
+        "two",
+        "vi",
+        "the offer",
+        "take",
+        "two interactive",
+        "have"
+      ],
+      "numbers": [
+        "$250,000 ",
+        "7.6 million",
+        "$5 million",
+        "5 million",
+        "$30",
+        "$6 million",
+        "6 million",
+        "$30 million",
+        "30 million",
+        "$7.6 million"
+      ],
+      "dates": [
+        "November 19"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_fe3794a75007bc3594fb01f2",
+      "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+      "publisher": "Tom's Hardware",
+      "summary": "Russian bot traffic falls dramatically as Ukraine takes out several Yandex data centers.",
+      "category": "科技",
+      "published_at": "2026-10-11T13:15:09+00:00",
+      "why_relevant": "乌击Yandex数据中心",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391819+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "sentence_hash": "fc8f359abf17b52bd116b417d195d3bf32238e981d51de31718e304a9230e7c4",
+          "anchors": [
+            "net",
+            "0.4%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It initially dropped to around 57% on Oct.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391830+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "It initially dropped to around 57% on Oct.",
+          "sentence_hash": "504625a373cd0e503456a3341630b3192fad9756cb8dcc1ffa3c0fa8e3759011",
+          "anchors": [
+            "57%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391874+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "sentence_hash": "1d7bfefcb31a241c1ec825a89492074f20516d0624fd66efa8912ce2590a06e1",
+          "anchors": [
+            "net",
+            "30%",
+            "63%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391901+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "sentence_hash": "f22a53c30b600dd1ef7340d5b55590a38f176dba70f24af0c430d5c8f7ccd3c6",
+          "anchors": [
+            "net",
+            "while"
+          ]
+        }
+      ],
+      "entities": [
+        "these",
+        "crimea",
+        "however",
+        "while",
+        "yandex cloud",
+        "google",
+        "net",
+        "http",
+        "russian",
+        "russia",
+        "cloudflare",
+        "kremlin",
+        "kaluga",
+        "kyiv",
+        "global",
+        "moscow",
+        "unfortunately",
+        "llc",
+        "blocks",
+        "starlink",
+        "yandex",
+        "sasovo",
+        "oct",
+        "rassvet",
+        "ukraine"
+      ],
+      "numbers": [
+        "30%",
+        "57%",
+        "0.4%",
+        "63%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_77fb233231ebc610a46ed8d1",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046\nComments URL: https://news.ycombinator.com/item?id=50047422\nPoints: 181\n# Comments: 268",
+      "category": "科技",
+      "published_at": "2026-10-11T20:20:52+00:00",
+      "why_relevant": "LLM能力理解差距，Karpathy",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392586+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
+          "sentence_hash": "3e6ddcd293560a53a7c3b5cca0823c0e11757b343ff897fcc9a68bfcca98119b",
+          "anchors": [
+            "capability",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392601+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+          "sentence_hash": "2827c229f32385802155257a91339967a7902a860fb11c014496e130fafbe753",
+          "anchors": [
+            "now",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392616+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
+          "sentence_hash": "12d2af3ae037b368d0e812ebf579eb3ebf1dc0f9fd1e78a202a4d7ca24831f37",
+          "anchors": [
+            "75%",
+            "around",
+            "somewhere"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392628+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
+          "sentence_hash": "54dc59a3d78c463ed3e04aa82fbc7e309ec7476ce0e9fc25e551c77351b59c84",
+          "anchors": [
+            "20%",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392641+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
+          "sentence_hash": "363499fd16931dc30a68ba12a3af4896933130f6ca53c141e9c536934ce0d951",
+          "anchors": [
+            "chat",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Maybe an agent tries to book you a flight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392651+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "Maybe an agent tries to book you a flight.",
+          "sentence_hash": "72accc0b2d420f24f2f9209f5520e94f47f0601b0ff5d38a80bc43b7042f9911",
+          "anchors": [
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "maybe",
+        "now",
+        "for",
+        "even",
+        "dusting",
+        "april",
+        "google",
+        "somewhere",
+        "and",
+        "capability",
+        "open",
+        "building",
+        "napkin",
+        "things",
+        "meanwhile",
+        "chat",
+        "llm",
+        "tab",
+        "you",
+        "around",
+        "mathematicians",
+        "hf"
+      ],
+      "numbers": [
+        "5,000 people",
+        "20%",
+        "75%",
+        "0.00006%",
+        "0.2%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 27
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_aa90a862ae6039ca7aec796b",
+      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+      "category": "国际",
+      "published_at": "2026-10-11T22:45:58+00:00",
+      "why_relevant": "胡塞袭击利雅得，地缘升级",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393346+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
+          "sentence_hash": "482ce465065bd36f9c3f52bd5e13d4d5974b038ad330a3e9460f0f1305e9423b",
+          "anchors": [
+            "11 injured"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393369+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
+          "sentence_hash": "80829905c4b1f3e0dfd52736e517fe63a4d8b23da98a3ce46edd2fc1d33ec9bc",
+          "anchors": [
+            "us",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393389+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
+          "sentence_hash": "68e8325b9513240118891e8dc9389f81e1ba1f7b244b1b45388887653480259e",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393408+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
+          "sentence_hash": "62262b4c6252cda654eec35e1f47642ea14bd78d7c5206767f935bb0c8cf148c",
+          "anchors": [
+            "13 people"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393427+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
+          "sentence_hash": "c9afc415e2b9164bad6beb384675e13c74617386d274cf7b7f8bbee1ffa55364",
+          "anchors": [
+            "they",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393445+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
+          "sentence_hash": "77c097a543d7aaf8ba8c035a1fe8fa18ceef104caf8cc1f813c0c339077c92f7",
+          "anchors": [
+            "they",
+            "one"
+          ]
+        }
+      ],
+      "entities": [
+        "pakistani",
+        "passenger hall no",
+        "secretary",
+        "state marco rubio",
+        "saudi arabian",
+        "iran",
+        "yemen",
+        "houthi",
+        "indian",
+        "published",
+        "sudan",
+        "riyadh",
+        "dammam",
+        "medina",
+        "the houthis",
+        "houthis",
+        "egypt",
+        "foreign office",
+        "published\none",
+        "israel",
+        "on sunday maj gen turki",
+        "brig gen yahya saree",
+        "february",
+        "us",
+        "saudi arabia",
+        "king khalid international airport",
+        "foreign secretary ed miliband",
+        "they",
+        "syria",
+        "the indian",
+        "gulf arab",
+        "uk",
+        "september\nsaturday",
+        "president donald trump",
+        "maliki",
+        "bangladesh",
+        "sunday",
+        "defence secretary wes streeting",
+        "four saudi",
+        "saudi",
+        "the saudi",
+        "sanaa",
+        "jordan",
+        "one",
+        "palestine",
+        "mecca"
+      ],
+      "numbers": [
+        "13 people",
+        "11 injured"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ceab084ee697901ba6a0c464",
+      "title": "Footage shows moment Russian strike hits Ukrainian grocery store",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/footage-shows-moment-russian-strike-hits-ukrainian-grocery-store?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine.",
+      "category": "国际",
+      "published_at": "2026-10-11T22:49:23+00:00",
+      "why_relevant": "俄袭乌克兰杂货店视频",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Footage shows moment Russian strike hits Ukrainian grocery store NewsFeed Footage shows moment Russian strike hits Ukrainian grocery store CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine, followed by fires and debris.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393634+08:00",
+          "content_sha256": "95e95213c2c31dd4bcd6585dc4b36547b944683c9ae6df5fba0de93d6e7a9e7a",
+          "excerpt": "Footage shows moment Russian strike hits Ukrainian grocery store NewsFeed Footage shows moment Russian strike hits Ukrainian grocery store CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine, followed by fires and debris.",
+          "sentence_hash": "98e1b190f4f86a89ecb6eaef2ad108a3966f3611fb8cee1eb99281ba75ca16ab",
+          "anchors": [
+            "footage"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 11 Oct 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393644+08:00",
+          "content_sha256": "95e95213c2c31dd4bcd6585dc4b36547b944683c9ae6df5fba0de93d6e7a9e7a",
+          "excerpt": "Published On 11 Oct 2026",
+          "sentence_hash": "93d336e98ad47dc1917651df7a41e068c0c01889a920509271eb9054d29f0c9e",
+          "anchors": [
+            "Oct 20"
+          ]
+        }
+      ],
+      "entities": [
+        "footage",
+        "kharkiv",
+        "feed\nfootage",
+        "oct",
+        "ukraine",
+        "russian",
+        "ukrainian",
+        "published on",
+        "cctv"
+      ],
+      "numbers": [],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 10
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_18940e068b8ee1a25830c281",
+      "title": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSTR0SUxydGYzRDJmaGtaWkRTYkkybS1GWlRkZFFnMjVXRFlZX0hHMUtVdFdIN0ZyQk0wMk1LNFhaUml3Y3FlRUV6SWFxVk9UUFg3MTUzelJtZU8tdjVpREpVS0owdkt2aVJhMUVObjg1TlRTREtZQzBINHJTTFloWDNBQTFCVl9yOE9HNXhBazJWMElncnlIZWNPdG5IY25ObFg0SGswNks5MkF0ODM4bEVRWkhjS3ZqcXVuWlVnamU0dw?oc=5",
+      "publisher": "Reuters",
+      "summary": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-11T21:46:14+00:00",
+      "why_relevant": "亚马逊拟70亿收购AI初创",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393752+08:00",
+          "content_sha256": "9d86c2ce1a402260a03e4568261a78dd3967a7d7f8bfd49bf596da1d6f2a6bc5",
+          "excerpt": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters",
+          "sentence_hash": "1f6f38e6de44f16e6cc6fdba8a1fea7e6e294df4b0bfb932d891cd8efc3fc750",
+          "anchors": [
+            "$7 billion",
+            "7 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "reuters",
+        "ai",
+        "decart",
+        "amazon",
+        "wsj"
+      ],
+      "numbers": [
+        "$7 billion",
+        "7 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 7
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b85b6eb5e59ccb79141ff818",
+      "title": "Kurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370485/kurt-campbell-us-deterrence-quad-aukus-and-taiwan-after-xi-trump-summit?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Kurt Campbell is a veteran US diplomat and strategist who has played a leading role in shaping Washington’s approach to China and the Indo-Pacific for more than a decade.\nHe served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025. Previously, he served as assistant secretary of state for East Asian and Pacific affairs from 2009 to 2013 and was a key architect of the Obama administration’s “pivot to Asia”.\nOften...",
+      "category": "国际",
+      "published_at": "2026-10-11T22:00:15+00:00",
+      "why_relevant": "美印太战略名家专访",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "ExclusiveKurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships Kurt Campbell is a veteran US diplomat and strategist who has played a lea",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394119+08:00",
+          "content_sha256": "213d6b5f49abff20987c25e186253aa041fe18b3dda0a78c55d4d6f42958dcc5",
+          "excerpt": "ExclusiveKurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships Kurt Campbell is a veteran US diplomat and strategist who has played a lea",
+          "sentence_hash": "4cdd9b290ed1d68baa81a4e22e9c4df77a9e42d1bf2f4d8b409d314c5af14854",
+          "anchors": [
+            "veteran",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "He served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394138+08:00",
+          "content_sha256": "213d6b5f49abff20987c25e186253aa041fe18b3dda0a78c55d4d6f42958dcc5",
+          "excerpt": "He served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025.",
+          "sentence_hash": "758ba8535b23b55407ff03bbf18a961aed5e742feb3ab64beccbcd3d6f02af65",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Previously, he served as assistant secretary of state for East Asian and Pacific affairs from 2009 to 2013 and was a key architect of the Obama administration’s “pivot to Asia”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394158+08:00",
+          "content_sha256": "213d6b5f49abff20987c25e186253aa041fe18b3dda0a78c55d4d6f42958dcc5",
+          "excerpt": "Previously, he served as assistant secretary of state for East Asian and Pacific affairs from 2009 to 2013 and was a key architect of the Obama administration’s “pivot to Asia”.",
+          "sentence_hash": "00c3c850f12ae61bbe5f429d94318b6e653b285c63a2cc96266bbc4e998723d1",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "quad",
+        "us",
+        "navy",
+        "kurt campbell",
+        "white house",
+        "the asia group",
+        "aukus",
+        "taiwan",
+        "asia",
+        "exclusive",
+        "new american security",
+        "indo",
+        "obama",
+        "pacific",
+        "harvard",
+        "campbell",
+        "veteran",
+        "previously",
+        "east asian",
+        "washington",
+        "centre",
+        "trump",
+        "china",
+        "biden",
+        "often"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 25
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_a66af74f1e34b8ad9989e0e2",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "publisher": "GitHub Trending",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.https://context-mode.comContext Mode \nThe other half of the context problem. \n         \n Used across teams at                     \nThe Problem \nEvery MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your co",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI编码上下文优化工具，契合读者",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "After 30 minutes, 40% of your context is gone.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394877+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "After 30 minutes, 40% of your context is gone.",
+          "sentence_hash": "9b40165fe72108edfb35f335b7c3fafd79bac3c472f9d55e7570cd78934bfa22",
+          "anchors": [
+            "40%",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394898+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for.",
+          "sentence_hash": "2488f975855ec072d8a486f663d8d3fdf52a4f98aa6176e97da1545d324f4738",
+          "anchors": [
+            "file",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394930+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.",
+          "sentence_hash": "5e186911aa82ace1704d4e99b4b7b8e20abff073695b38374d510ce9df4809a7",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Context Mode is an MCP server that solves all four sides of this problem: - Context Saving — Sandbox tools keep raw data out of the context window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394953+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "Context Mode is an MCP server that solves all four sides of this problem: - Context Saving — Sandbox tools keep raw data out of the context window.",
+          "sentence_hash": "0578a3875295f0cf17d5fa796324cd1385bbdf7d904ba8db4683e6ddf693b6a7",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "98% reduction.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394965+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "98% reduction.",
+          "sentence_hash": "bce72aa1d8ecd448293347e7630dfe3bcad937f4b43a3be7a5bfd4b272ce269d",
+          "anchors": [
+            "98%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Session Continuity — Every file edit, git operation, task, error, and user decision is tracked in SQLite.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394983+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "- Session Continuity — Every file edit, git operation, task, error, and user decision is tracked in SQLite.",
+          "sentence_hash": "6f8c93232a264ee4e1e8e793fd14e147fc10ae83a0f29fb961d23cd279f5ca5c",
+          "anchors": [
+            "file",
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "before",
+        "read",
+        "instead",
+        "context saving",
+        "sandbox",
+        "moonshot",
+        "after",
+        "hub",
+        "open",
+        "sync",
+        "claude code",
+        "context mode",
+        "non",
+        "install",
+        "mcp",
+        "each",
+        "agents",
+        "restart claude code",
+        "hook",
+        "prerequisites",
+        "brevity",
+        "with",
+        "claw",
+        "file",
+        "platforms",
+        "aggressive",
+        "playwright",
+        "and",
+        "think",
+        "kb",
+        "claude",
+        "code",
+        "llm",
+        "ai",
+        "session continuity",
+        "every",
+        "one",
+        "twenty git",
+        "lite"
+      ],
+      "numbers": [
+        "40%",
+        "98%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_596e9e46d33fac07cc1ee790",
+      "title": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
+      "url": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Lawmakers from both parties say the agreement would finance Putin’s war machine in Ukraine and violate US law",
+      "category": "财经",
+      "published_at": "2026-10-11T21:17:58+00:00",
+      "why_relevant": "特朗普对俄柴油交易遭反对",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "lawmakers",
+        "us",
+        "putin",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_0aa7647296956801dbe6862f",
+      "title": "S&P 500 futures are little changed with big banks set to kick off earnings season: Live updates",
+      "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Investors are looking ahead to a busy week of earnings results from the big banks and inflation data.",
+      "category": "财经",
+      "published_at": "2026-10-11T23:24:29+00:00",
+      "why_relevant": "大行财报季与通胀数据",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "S&P 500 futures were little changed on Sunday night after the major averages posted a winning week, as investors looked ahead to a busy week of earnings results and inflation data.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395786+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "S&P 500 futures were little changed on Sunday night after the major averages posted a winning week, as investors looked ahead to a busy week of earnings results and inflation data.",
+          "sentence_hash": "4374271e73d3cf33d171b4c1be09812afb62034ea857b32bc35f3f27371ce281",
+          "anchors": [
+            "futures",
+            "investors"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Futures tied to the broader market climbed 0.12%, while Nasdaq 100 futures rose 0.24%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395802+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "Futures tied to the broader market climbed 0.12%, while Nasdaq 100 futures rose 0.24%.",
+          "sentence_hash": "8c57e9ff72ce62a8b3607ca5e61f11b5128128253ae5b261945e605f0628cbf2",
+          "anchors": [
+            "futures",
+            "0.12%",
+            "0.24%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Dow Jones Industrial Average futures rose by 28 points, or 0.05%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395816+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "Dow Jones Industrial Average futures rose by 28 points, or 0.05%.",
+          "sentence_hash": "91793426cb361d380363c7152d5dda98f21ada6c2f99f86c8142cd7123699a6e",
+          "anchors": [
+            "futures",
+            "0.05%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Wall Street is coming off a winning week for the major averages, as a rally in tech stocks helped investors shrug off higher oil prices and yields.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395836+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "Wall Street is coming off a winning week for the major averages, as a rally in tech stocks helped investors shrug off higher oil prices and yields.",
+          "sentence_hash": "d007ba2c76821c1d9ad7cafc15dee4bf4a38c8b166004680c53ad24deb3ccb5d",
+          "anchors": [
+            "investors"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Dow and S&P 500 each posted their second positive week in three, while the Nasdaq Composite netted its fourth straight week of gains.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395855+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "The Dow and S&P 500 each posted their second positive week in three, while the Nasdaq Composite netted its fourth straight week of gains.",
+          "sentence_hash": "64f5fcfe87e7315d2f7a890f6fcc54b1ed2d983a36961c2436ee32702722939d",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In Asia, markets were set to open higher.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395866+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "In Asia, markets were set to open higher.",
+          "sentence_hash": "90092e21e48d43244d3253b701e7e851f213f933ca2d0ff7905a93d5b49dd654",
+          "anchors": [
+            "set"
+          ]
+        }
+      ],
+      "entities": [
+        "keeley gabelli small cap dividend fund",
+        "australia",
+        "but",
+        "the dow",
+        "john butters",
+        "citigroup",
+        "wednesday",
+        "wall street",
+        "yemen",
+        "brian leonard",
+        "concerns",
+        "nasdaq",
+        "morgan chase",
+        "thursday",
+        "riyadh",
+        "hong kong",
+        "japan",
+        "houthis",
+        "dow jones industrial average",
+        "hang seng",
+        "tehran",
+        "in asia",
+        "fact",
+        "set",
+        "nasdaq composite",
+        "according",
+        "morgan stanley",
+        "key",
+        "ksdix",
+        "brent",
+        "saudi arabia",
+        "goldman sachs",
+        "futures",
+        "middle east",
+        "cnbc",
+        "president donald trump",
+        "pass",
+        "bank",
+        "sunday",
+        "terri cullen",
+        "wells fargo",
+        "america",
+        "ai",
+        "september",
+        "asx",
+        "investors"
+      ],
+      "numbers": [
+        "0.05%",
+        "29.6%",
+        "$104 ",
+        "0.24%",
+        "0.25%",
+        "0.12%",
+        "25%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 53
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_008d808668f4ba5818d59388",
+      "title": "US hits commercial tanker in Gulf of Oman as tensions flare",
+      "url": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Ship tried to break through American naval blockade of Iranian ports, Central Command says of its first attack in a month",
+      "category": "财经",
+      "published_at": "2026-10-11T19:53:56+00:00",
+      "why_relevant": "美军打击商船，阿曼湾紧张",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "central command",
+        "ship",
+        "american",
+        "iranian"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_a91cbdf5aaa68dd5175bf300",
+      "title": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50.",
+      "category": "国际",
+      "published_at": "2026-10-11T20:44:17+00:00",
+      "why_relevant": "苏丹空袭重大伤亡",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Deadly air strike kills dozens at Sudan gold mine near Egypt border NewsFeed Deadly air strike kills dozens at Sudan gold mine near Egypt border An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50, according to rights",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.396163+08:00",
+          "content_sha256": "bb0c097c004dcc241849e42f6446be70b848f2502de5d6c05012c79ef1e77f1f",
+          "excerpt": "Deadly air strike kills dozens at Sudan gold mine near Egypt border NewsFeed Deadly air strike kills dozens at Sudan gold mine near Egypt border An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50, according to rights",
+          "sentence_hash": "5367cf0cb5c994552d113d4e2f958553fcaf9a7725d1164acfa5b5076ae9444c",
+          "anchors": [
+            "72 people"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 11 Oct 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.396174+08:00",
+          "content_sha256": "bb0c097c004dcc241849e42f6446be70b848f2502de5d6c05012c79ef1e77f1f",
+          "excerpt": "Published On 11 Oct 2026",
+          "sentence_hash": "93d336e98ad47dc1917651df7a41e068c0c01889a920509271eb9054d29f0c9e",
+          "anchors": [
+            "Oct 20"
+          ]
+        }
+      ],
+      "entities": [
+        "feed\ndeadly",
+        "oct",
+        "egypt",
+        "deadly",
+        "sudan",
+        "published on"
+      ],
+      "numbers": [
+        "72 people"
+      ],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 8
+      },
+      "evidence_complete": true
+    }
+  ]
+}

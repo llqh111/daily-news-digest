@@ -1,308 +1,139 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-10-11-AM",
-  "date": "2026-10-11",
+  "run_key": "2026-10-12-AM",
+  "date": "2026-10-12",
   "session": "AM",
-  "delivered_at": "2026-10-11T11:18:08.166983+08:00",
+  "delivered_at": "2026-10-12T08:07:25.850593+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-10-11T03:18:08.168469+00:00",
+  "exported_at": "2026-10-12T00:07:25.852494+00:00",
   "quality": {
     "total_items": 13,
-    "items_with_unsupported_numbers": 2,
-    "unsupported_ratio": 0.15384615384615385
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
   },
   "items": [
     {
-      "article_id": "a1_8036d403b41efc0fa47beede",
-      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
-      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_68d1d667bc13363eb0fa704f",
+      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "Another 309 people are injured in an attack a Saudi-led military coalition calls a \"war crime\".",
+      "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
       "category": "国际",
-      "published_at": "2026-10-11T00:21:52+00:00",
-      "why_relevant": "地缘冲突升级，必须覆盖",
+      "published_at": "2026-10-11T21:36:40+00:00",
+      "why_relevant": "能源停火提议，俄方沉默",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.",
+          "text": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.644999+08:00",
-          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
-          "excerpt": "Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.",
-          "sentence_hash": "13560f7a7adfa0a42c2493f414b28cb4797c3ef9a87e396100db48e094cca438",
+          "captured_at": "2026-10-12T08:03:19.390128+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
+          "sentence_hash": "43580e19cadc616dcb3da02630eb2659b62dc9922e42891839a84ab499c984ad",
           "anchors": [
-            "309 injured",
-            "12 people"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Operations at King Khalid International Airport have been suspended.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.645044+08:00",
-          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
-          "excerpt": "Operations at King Khalid International Airport have been suspended.",
-          "sentence_hash": "e618898495839c74e7c5656c5b630b42869374e9031eed5b79863937c234e42c",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "A Saudi-led military coalition has vowed to respond to the attack, which it has blamed on the Houthis and called a \"war crime\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.645097+08:00",
-          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
-          "excerpt": "A Saudi-led military coalition has vowed to respond to the attack, which it has blamed on the Houthis and called a \"war crime\".",
-          "sentence_hash": "75ce798fda6440761c6f225da62c2a52125590f13c623f868c7be41f76d8ad05",
-          "anchors": [
-            "all"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Saturday's attack was the deadliest in the kingdom since May 2015.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.645141+08:00",
-          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
-          "excerpt": "Saturday's attack was the deadliest in the kingdom since May 2015.",
-          "sentence_hash": "91a47a1df6cb1aa4bbf0c56c923ac0bb912c2aed21dc70def49781b8d4e89ab5",
-          "anchors": [
-            "May 20"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "An eyewitness who said they had been in the domestic terminal told the news agency that they had seen gate 401 hit and \"injured [people] in front of my eyes\", adding: \"Everyone was running.\" More than a dozen ambulances were seen rushing to the airport, according to news agency R",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.645224+08:00",
-          "content_sha256": "8fd4f63e83d4517760c3f3df831fd8f3aa9a38726e1ed97f2b03eb59d4ec55e0",
-          "excerpt": "An eyewitness who said they had been in the domestic terminal told the news agency that they had seen gate 401 hit and \"injured [people] in front of my eyes\", adding: \"Everyone was running.\" More than a dozen ambulances were seen rushing to the airport, according to news agency R",
-          "sentence_hash": "2d779dd860e3ffd8955850b99e50eb1050472b4e1bfaaed8db84ab0c4080544e",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "saudis",
-        "several gulf",
-        "yemen",
-        "egypt",
-        "sudan",
-        "published\nat",
-        "kuwait airways",
-        "us",
-        "flightradar",
-        "king khalid international airport",
-        "syria",
-        "more",
-        "the houthis",
-        "reuters",
-        "jordan",
-        "thursday",
-        "western",
-        "bangladesh",
-        "saudi",
-        "saturday",
-        "another",
-        "american",
-        "houthis",
-        "operations",
-        "riyadh",
-        "palestine",
-        "in saturday",
-        "british",
-        "all",
-        "iran",
-        "twelve",
-        "dammam",
-        "houthi",
-        "secretary",
-        "state marco rubio",
-        "october",
-        "maliki",
-        "fighting",
-        "saudi arabia",
-        "foreign office",
-        "king fahd international airport",
-        "uk",
-        "everyone",
-        "maj gen turki"
-      ],
-      "numbers": [
-        "309 injured",
-        "12 people"
-      ],
-      "dates": [
-        "May 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 5,
-        "anchor_count": 47
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_059bd9fa51d370a51e8d69d1",
-      "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel",
-      "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-      "publisher": "The Guardian",
-      "summary": "US president says agreement needed to lower fuel prices, but move likely to create fresh crisis with Ukraine and Nato alliesDonald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not",
-      "category": "国际",
-      "published_at": "2026-10-10T10:09:46+00:00",
-      "why_relevant": "美俄交易冲击乌克兰，重大地缘",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.646691+08:00",
-          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
-          "excerpt": "Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.",
-          "sentence_hash": "43e49ea9cb8e92de3f8c321ad6615f6a46c3d3d98d99e876300ff0c7add91973",
-          "anchors": [
-            "diesel",
-            "in",
-            "and",
             "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”.",
+          "text": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.646737+08:00",
-          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
-          "excerpt": "Zelenskyy reacted furiously to Trump’s announcement of the deal with Vladimir Putin on Friday, calling it “absolutely terrible” and “not fair and not honest”.",
-          "sentence_hash": "bc9737cbb565eddea052363e45f1879aaaa98fe7843d1a8351d34858c6783713",
+          "captured_at": "2026-10-12T08:03:19.390159+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
+          "sentence_hash": "529c86a3a8325fe11110d406c484d8c33f88b25acc9299c12a00f8f3798da270",
           "anchors": [
-            "in",
-            "and",
-            "us"
+            "all",
+            "for"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The Ukrainian president said “back room deals” with the Russian leader would give Putin more chances on the battlefield.",
+          "text": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.646775+08:00",
-          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
-          "excerpt": "The Ukrainian president said “back room deals” with the Russian leader would give Putin more chances on the battlefield.",
-          "sentence_hash": "f27017ec6e2f0435faa6b7210aa574ed4c7b793905b2cbd740f87e084bd0e667",
+          "captured_at": "2026-10-12T08:03:19.390177+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
+          "sentence_hash": "cac3dbdb8d7200c00981a51ffdb5f148296ab612e408a5b98745f01fa362172a",
           "anchors": [
-            "in",
             "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "On Saturday morning, Ukrainian officials reported that a Russian attack had killed 12 people in the south-east, including three children, and Moscow claimed its troops were advancing in the east.",
+          "text": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.646813+08:00",
-          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
-          "excerpt": "On Saturday morning, Ukrainian officials reported that a Russian attack had killed 12 people in the south-east, including three children, and Moscow claimed its troops were advancing in the east.",
-          "sentence_hash": "8d1614d4e1bb46f1fc982469dba9a7a99d0192c87dbf8b009c0139615c2ff99c",
+          "captured_at": "2026-10-12T08:03:19.390203+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
+          "sentence_hash": "9965d5a69011ecbeb723cc609236c8a4412f9833862896d016dd0575fe30760c",
           "anchors": [
-            "in",
-            "and",
             "us",
-            "12 people"
+            "for"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "In a move likely to create a fresh crisis with Washington’s Nato allies, Trump announced the deal with Putin on his Truth Social network, saying it was essential to reduce fuel prices in the US, which have soared as a result of his decision to go to war against Iran.",
+          "text": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.646867+08:00",
-          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
-          "excerpt": "In a move likely to create a fresh crisis with Washington’s Nato allies, Trump announced the deal with Putin on his Truth Social network, saying it was essential to reduce fuel prices in the US, which have soared as a result of his decision to go to war against Iran.",
-          "sentence_hash": "ac79509b750b7df64071886da107cd113fd0c2892a4f17b6c6bf4f2c228757e1",
+          "captured_at": "2026-10-12T08:03:19.390217+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
+          "sentence_hash": "2b1479379091c5dcd34b9e1107a255a2889e45285bee4bdc7122c912e6e9b522",
           "anchors": [
-            "fuel",
-            "in"
+            "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "“I have just concluded a highly successful discussion with President Vladimir Putin, of Russia,” he said, to deliver millions of tonnes of diesel fuel over the next few months.",
+          "text": "Zelensky called it a gift to Russian President Vladimir Putin.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.646908+08:00",
-          "content_sha256": "2c0292f67e04948e99d257e61eb67a705c2e4f95ec10397c3697b7eb74f0b0ce",
-          "excerpt": "“I have just concluded a highly successful discussion with President Vladimir Putin, of Russia,” he said, to deliver millions of tonnes of diesel fuel over the next few months.",
-          "sentence_hash": "40e9285c69e3bbcc8683ef973161b42c08c9766fe3cd8cae2e36b89cf7ed5749",
+          "captured_at": "2026-10-12T08:03:19.390229+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Zelensky called it a gift to Russian President Vladimir Putin.",
+          "sentence_hash": "76951b59fecbde3770ff66b5f0f737f124b80b7ba70bff2e567c4a8c3257d52c",
           "anchors": [
-            "fuel",
-            "diesel",
-            "in",
-            "us"
+            "us",
+            "all"
           ]
         }
       ],
       "entities": [
-        "democrat",
-        "donald trump",
-        "chuck schumer",
-        "america",
-        "great farmers",
-        "european",
-        "volodymyr zelenskyy",
-        "truckers",
-        "fast",
-        "president trump",
+        "zelensky",
+        "eu",
         "us",
-        "propping",
-        "ranchers",
-        "truth social",
-        "record",
-        "hormuz",
-        "friday",
-        "ukraine",
-        "president vladimir putin",
-        "failure",
-        "americans",
-        "russia",
-        "russian",
-        "diesel",
-        "some republicans",
-        "senate democratic",
-        "putin",
-        "fuel",
-        "washington",
-        "november",
-        "republicans",
-        "vladimir putin",
-        "while",
-        "kremlin",
-        "senator elizabeth warren",
-        "the ukrainian",
+        "for",
+        "france",
         "iran",
-        "nato",
-        "and",
-        "down",
-        "zelenskyy",
-        "coming",
-        "on saturday",
+        "kharkiv",
+        "president trump",
+        "all",
+        "white house",
+        "uk",
+        "american",
+        "published\ndonald trump",
+        "axios",
+        "britain",
+        "russian",
+        "republican",
+        "ukrainian president volodymyr zelensky",
+        "bbc",
+        "russia",
+        "canada",
+        "kyiv",
         "moscow",
+        "european",
+        "prime minister andy burnham",
+        "america",
+        "russian president vladimir putin",
+        "ukrainian",
         "trump",
-        "in",
-        "senator jeanne shaheen",
-        "lower",
-        "democrats",
-        "ukrainian"
+        "united states",
+        "ukraine"
       ],
-      "numbers": [
-        "$4.20 ",
-        "$6.52",
-        "12 people",
-        "20%"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -311,208 +142,379 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 54
+        "anchor_count": 31
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_e2a0287dd95108b644dcc52d",
-      "title": "Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
-      "category": "国际",
-      "published_at": "2026-10-11T00:00:13+00:00",
-      "why_relevant": "利雅得袭击+美沙互动",
-      "relevance_score": 8.0,
+      "article_id": "a1_43b0f832d5b7f2f6bcea0953",
+      "title": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met",
+      "url": "https://www.tomshardware.com/software/linux/cyberleek-threatens-full-gta-6-build-leak-unless-take-two-apologizes-and-his-usd30-million-crypto-memecoin-goal-is-met-leaker-demands-physical-release-while-pumping-solana-memecoin-to-usd30m",
+      "publisher": "Tom's Hardware",
+      "summary": "Notorious GTA VI leaker Cyberleek is threatening to release a full build of GTA VI if Take-Two doesn't release a physical build, but only if its memecoin hits $30 million.",
+      "category": "科技",
+      "published_at": "2026-10-11T16:10:00+00:00",
+      "why_relevant": "GTA6泄露与加密memecoin",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
+          "text": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.647450+08:00",
-          "content_sha256": "9aad899c37d7f232fd1c10312cfcaeb409313c7d4acf0457455c1d510cda2a04",
-          "excerpt": "Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.",
-          "sentence_hash": "6deb4640a8b78f93e2ae46079493b65ae3d0c16f775c80dc1183ee20c65c00a7",
+          "captured_at": "2026-10-12T08:03:19.390997+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
+          "sentence_hash": "5c3571996e67444b9ecb3431939cb09620d80bcb41c57f7d8118d45942ebcaa2",
           "anchors": [
-            "live",
-            "12 killed"
+            "us",
+            "$30",
+            "while",
+            "$30 million",
+            "30 million"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Published On 11 Oct 2026 - Saudi Arabia’s civil aviation authority says 12 people were killed and 309 injured in the latest Houthi attack on Riyadh’s King Khalid airport, as Saudi-led coalition forces have since destroyed a drone launched towards the eastern region.",
+          "text": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.647496+08:00",
-          "content_sha256": "9aad899c37d7f232fd1c10312cfcaeb409313c7d4acf0457455c1d510cda2a04",
-          "excerpt": "Published On 11 Oct 2026 - Saudi Arabia’s civil aviation authority says 12 people were killed and 309 injured in the latest Houthi attack on Riyadh’s King Khalid airport, as Saudi-led coalition forces have since destroyed a drone launched towards the eastern region.",
-          "sentence_hash": "ac568174511fe4a1397ed306b04c6d83a993dc57cbae7b2e89118a731410dbab",
+          "captured_at": "2026-10-12T08:03:19.391035+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
+          "sentence_hash": "93992171d459f245c31edd0a6bbf4da6c836c934ce416d7baaefcb078bc1ec05",
           "anchors": [
-            "309 injured",
-            "Oct 20",
-            "12 people"
-          ]
-        }
-      ],
-      "entities": [
-        "king khalid",
-        "mbs",
-        "washington",
-        "houthis",
-        "published on",
-        "salman",
-        "riyadh",
-        "president donald trump",
-        "iran",
-        "us",
-        "live",
-        "houthi",
-        "saudi arabia",
-        "trump",
-        "following",
-        "saudi",
-        "saudi prime minister crown prince mohammed",
-        "oct"
-      ],
-      "numbers": [
-        "309 injured",
-        "12 people",
-        "12 killed"
-      ],
-      "dates": [
-        "Oct 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 22
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_1f64f1d69d35ccd981bc18d4",
-      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
-      "category": "国际",
-      "published_at": "2026-10-10T20:51:12+00:00",
-      "why_relevant": "俄袭乌克兰，与柴油交易联动",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.648702+08:00",
-          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
-          "excerpt": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.",
-          "sentence_hash": "a02cd4a03c2ecf43154540609803d75394f44b5c5d652b9105ad645a12a06cc4",
-          "anchors": [
-            "20 people",
-            "she",
+            "am",
             "us"
           ]
         },
         {
-          "fact_id": "f2",
-          "text": "At least 32 others were injured in the attack, with more still missing and believed to be under the rubble.",
+          "fact_id": "f3",
+          "text": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.648735+08:00",
-          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
-          "excerpt": "At least 32 others were injured in the attack, with more still missing and believed to be under the rubble.",
-          "sentence_hash": "55598ac143c8ab1a533a30ca923241bf8a0f01a3dbdb73e27bca23fa87cda549",
+          "captured_at": "2026-10-12T08:03:19.391058+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
+          "sentence_hash": "cccd3ef344513ef83ae908a49e889fea45112ed113f20a8de48a3605352d63fa",
           "anchors": [
+            "us",
+            "vi"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391076+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "sentence_hash": "dab55bd3a26b7ee699687617d979c546d14ba377702b7c9b6363a0b02640c5d1",
+          "anchors": [
+            "us",
+            "$250,000 "
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391100+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "sentence_hash": "1bcc6db4907ad078480cda6906b8e45d3ad22ea471a582e5b206b43df2aa5e3c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391112+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "sentence_hash": "00d213078d485f48ba3fb47e2224bc97836a93c64611655ff9a20b98159723fb",
+          "anchors": [
+            "vi"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "those",
+        "well",
+        "november",
+        "while",
+        "gta",
+        "am",
+        "central",
+        "cyberleek",
+        "rockstar",
+        "grand theft auto",
+        "neither rockstar",
+        "rockstar games",
+        "extended look",
+        "lucia",
+        "solana",
+        "netflix",
+        "two",
+        "vi",
+        "the offer",
+        "take",
+        "two interactive",
+        "have"
+      ],
+      "numbers": [
+        "$250,000 ",
+        "7.6 million",
+        "$5 million",
+        "5 million",
+        "$30",
+        "$6 million",
+        "6 million",
+        "$30 million",
+        "30 million",
+        "$7.6 million"
+      ],
+      "dates": [
+        "November 19"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_fe3794a75007bc3594fb01f2",
+      "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+      "publisher": "Tom's Hardware",
+      "summary": "Russian bot traffic falls dramatically as Ukraine takes out several Yandex data centers.",
+      "category": "科技",
+      "published_at": "2026-10-11T13:15:09+00:00",
+      "why_relevant": "乌击Yandex数据中心",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391819+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "sentence_hash": "fc8f359abf17b52bd116b417d195d3bf32238e981d51de31718e304a9230e7c4",
+          "anchors": [
+            "net",
+            "0.4%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It initially dropped to around 57% on Oct.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391830+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "It initially dropped to around 57% on Oct.",
+          "sentence_hash": "504625a373cd0e503456a3341630b3192fad9756cb8dcc1ffa3c0fa8e3759011",
+          "anchors": [
+            "57%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391874+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "sentence_hash": "1d7bfefcb31a241c1ec825a89492074f20516d0624fd66efa8912ce2590a06e1",
+          "anchors": [
+            "net",
+            "30%",
+            "63%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391901+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "sentence_hash": "f22a53c30b600dd1ef7340d5b55590a38f176dba70f24af0c430d5c8f7ccd3c6",
+          "anchors": [
+            "net",
+            "while"
+          ]
+        }
+      ],
+      "entities": [
+        "these",
+        "crimea",
+        "however",
+        "while",
+        "yandex cloud",
+        "google",
+        "net",
+        "http",
+        "russian",
+        "russia",
+        "cloudflare",
+        "kremlin",
+        "kaluga",
+        "kyiv",
+        "global",
+        "moscow",
+        "unfortunately",
+        "llc",
+        "blocks",
+        "starlink",
+        "yandex",
+        "sasovo",
+        "oct",
+        "rassvet",
+        "ukraine"
+      ],
+      "numbers": [
+        "30%",
+        "57%",
+        "0.4%",
+        "63%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_77fb233231ebc610a46ed8d1",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046\nComments URL: https://news.ycombinator.com/item?id=50047422\nPoints: 181\n# Comments: 268",
+      "category": "科技",
+      "published_at": "2026-10-11T20:20:52+00:00",
+      "why_relevant": "LLM能力理解差距，Karpathy",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392586+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
+          "sentence_hash": "3e6ddcd293560a53a7c3b5cca0823c0e11757b343ff897fcc9a68bfcca98119b",
+          "anchors": [
+            "capability",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392601+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+          "sentence_hash": "2827c229f32385802155257a91339967a7902a860fb11c014496e130fafbe753",
+          "anchors": [
+            "now",
             "and"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Ukrainian President Volodymyr Zelensky said the attacks on Zaporizhzhia were Russia expressing \"its thanks\" for a deal announced by US President Donald Trump last night easing sanctions on Moscow to import Russian diesel.",
+          "text": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.648770+08:00",
-          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
-          "excerpt": "Ukrainian President Volodymyr Zelensky said the attacks on Zaporizhzhia were Russia expressing \"its thanks\" for a deal announced by US President Donald Trump last night easing sanctions on Moscow to import Russian diesel.",
-          "sentence_hash": "3800acee8aa1a62ad43542b79b253a95d16a1873924dc5bf58c1f477196e9a5c",
+          "captured_at": "2026-10-12T08:03:19.392616+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
+          "sentence_hash": "12d2af3ae037b368d0e812ebf579eb3ebf1dc0f9fd1e78a202a4d7ca24831f37",
           "anchors": [
-            "us",
-            "for"
+            "75%",
+            "around",
+            "somewhere"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "He added that 13 other regions had come under attack overnight, arguing this demonstrated Russia took \"any easing of pressure to mean they can keep fighting\".",
+          "text": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.648799+08:00",
-          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
-          "excerpt": "He added that 13 other regions had come under attack overnight, arguing this demonstrated Russia took \"any easing of pressure to mean they can keep fighting\".",
-          "sentence_hash": "2bbb7b5c3f3b1d159881883067ebfec68a80a6b03294f4a97f264c0cd3107236",
+          "captured_at": "2026-10-12T08:03:19.392628+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
+          "sentence_hash": "54dc59a3d78c463ed3e04aa82fbc7e309ec7476ce0e9fc25e551c77351b59c84",
           "anchors": [
-            "us"
+            "20%",
+            "and"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Photos and videos from the site of one of the strikes in Zaporizhzhia show an apartment block mostly destroyed.",
+          "text": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.648821+08:00",
-          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
-          "excerpt": "Photos and videos from the site of one of the strikes in Zaporizhzhia show an apartment block mostly destroyed.",
-          "sentence_hash": "b8d465d0f808f750003dd6fe3733565adea0142a027085b5421002ff8bd5ed42",
+          "captured_at": "2026-10-12T08:03:19.392641+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
+          "sentence_hash": "363499fd16931dc30a68ba12a3af4896933130f6ca53c141e9c536934ce0d951",
           "anchors": [
+            "chat",
             "and"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "\"The ground floor was hit, and the floors above just collapsed,\" acting Mayor Regina Harchenko told Ukrainian television from the scene.",
+          "text": "Maybe an agent tries to book you a flight.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.648846+08:00",
-          "content_sha256": "a6d1590f837293cd403bca06201aefb994ced06f3f15d251d330c0f7b5fa9163",
-          "excerpt": "\"The ground floor was hit, and the floors above just collapsed,\" acting Mayor Regina Harchenko told Ukrainian television from the scene.",
-          "sentence_hash": "a02b1834fda6a51dc775f487ef1add1fe9cda5e4e89cb0a65bb26870b5ab15b9",
+          "captured_at": "2026-10-12T08:03:19.392651+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "Maybe an agent tries to book you a flight.",
+          "sentence_hash": "72accc0b2d420f24f2f9209f5520e94f47f0601b0ff5d38a80bc43b7042f9911",
           "anchors": [
-            "and",
-            "us"
+            "you"
           ]
         }
       ],
       "entities": [
-        "pryluky",
-        "saturday",
-        "both russia",
-        "mayor regina harchenko",
+        "maybe",
+        "now",
         "for",
-        "she",
-        "president donald trump",
-        "photos",
-        "russian",
-        "us",
-        "donetsk",
-        "ukrainian president volodymyr zelensky",
-        "published\nrussia",
+        "even",
+        "dusting",
+        "april",
+        "google",
+        "somewhere",
         "and",
-        "zelensky",
-        "zaporizhzhia",
-        "ukraine",
-        "kramatorsk",
-        "ukrainian",
-        "moscow",
-        "trump",
-        "kyiv",
-        "russia",
-        "unfortunately",
-        "on thursday",
-        "harchenko",
-        "analysts",
-        "russian president vladimir putin"
+        "capability",
+        "open",
+        "building",
+        "napkin",
+        "things",
+        "meanwhile",
+        "chat",
+        "llm",
+        "tab",
+        "you",
+        "around",
+        "mathematicians",
+        "hf"
       ],
       "numbers": [
-        "33 people",
-        "20 people",
-        "22 people"
+        "5,000 people",
+        "20%",
+        "75%",
+        "0.00006%",
+        "0.2%"
       ],
       "dates": [],
       "unknowns": [
@@ -522,152 +524,491 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 31
+        "anchor_count": 27
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_6af3aa10b33b9f5baffed1ed",
-      "title": "BerriAI/litellm",
-      "url": "https://github.com/BerriAI/litellm",
-      "publisher": "GitHub Trending",
-      "summary": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]https://docs.litellm.ai/docs/ 🚅 LiteLLM  \n \nLiteLLM AI Gateway  \nOpen Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format. \n      \n \nLiteLLM Proxy Server (AI Gateway) |  Hosted Proxy | Enterprise Tier | Website \n        ",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI网关核心工具，读者关注API",
+      "article_id": "a1_aa90a862ae6039ca7aec796b",
+      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+      "category": "国际",
+      "published_at": "2026-10-11T22:45:58+00:00",
+      "why_relevant": "胡塞袭击利雅得，地缘升级",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
+          "text": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.650153+08:00",
-          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
-          "excerpt": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.",
-          "sentence_hash": "d876b5b929efe5d4dbcc20fc70443f4281babeae4022e99e040c12a261ba8fe8",
+          "captured_at": "2026-10-12T08:03:19.393346+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
+          "sentence_hash": "482ce465065bd36f9c3f52bd5e13d4d5974b038ad330a3e9460f0f1305e9423b",
           "anchors": [
-            "open",
-            "unified",
-            "call"
+            "11 injured"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Jump to LiteLLM Proxy (LLM Gateway) Docs Jump to Supported LLM Providers Managing LLM calls across providers gets complicated fast — different SDKs, auth patterns, request formats, and error types for every model.",
+          "text": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.650208+08:00",
-          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
-          "excerpt": "Jump to LiteLLM Proxy (LLM Gateway) Docs Jump to Supported LLM Providers Managing LLM calls across providers gets complicated fast — different SDKs, auth patterns, request formats, and error types for every model.",
-          "sentence_hash": "e85ab9398c52c53903b192e7eef5f29bf40a12822a6a465692dd2cfa3ca47bb0",
+          "captured_at": "2026-10-12T08:03:19.393369+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
+          "sentence_hash": "80829905c4b1f3e0dfd52736e517fe63a4d8b23da98a3ce46edd2fc1d33ec9bc",
           "anchors": [
-            "call"
+            "us",
+            "one"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "LiteLLM removes that friction: - Unified API — one interface for 100+ LLMs, no provider-specific SDK juggling - Drop-in OpenAI compatibility — swap providers without rewriting your code - Production-ready gateway — virtual keys, spend tracking, guardrails, load balancing, and an ",
+          "text": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.650264+08:00",
-          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
-          "excerpt": "LiteLLM removes that friction: - Unified API — one interface for 100+ LLMs, no provider-specific SDK juggling - Drop-in OpenAI compatibility — swap providers without rewriting your code - Production-ready gateway — virtual keys, spend tracking, guardrails, load balancing, and an ",
-          "sentence_hash": "e27db604a046324b614cb9081a8716da5ee67ac8b489f826bea2936e8a340062",
+          "captured_at": "2026-10-12T08:03:19.393389+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
+          "sentence_hash": "68e8325b9513240118891e8dc9389f81e1ba1f7b244b1b45388887653480259e",
           "anchors": [
-            "gateway",
-            "gat",
-            "ai"
+            "one"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "uv add litellm An independent litellm-core distribution provides the Python SDK with the same import litellm API and runtime dependencies.",
+          "text": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.650292+08:00",
-          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
-          "excerpt": "uv add litellm An independent litellm-core distribution provides the Python SDK with the same import litellm API and runtime dependencies.",
-          "sentence_hash": "014681b66574ed1d9c85cb974677fe8a56c5a93b8f4dfbc35e58d317e3f58728",
+          "captured_at": "2026-10-12T08:03:19.393408+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
+          "sentence_hash": "62262b4c6252cda654eec35e1f47642ea14bd78d7c5206767f935bb0c8cf148c",
           "anchors": [
-            "llm",
-            "run",
-            "lite"
+            "13 people"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Install one SDK distribution per environment because litellm and litellm-core own overlapping Python files.",
+          "text": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.650323+08:00",
-          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
-          "excerpt": "Install one SDK distribution per environment because litellm and litellm-core own overlapping Python files.",
-          "sentence_hash": "bb16dd25e0092621b152dd69bb9dc1e5407ce12d773a0855e2d02dcee8f39eb1",
+          "captured_at": "2026-10-12T08:03:19.393427+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
+          "sentence_hash": "c9afc415e2b9164bad6beb384675e13c74617386d274cf7b7f8bbee1ffa55364",
           "anchors": [
-            "llm",
-            "lite",
-            "use"
+            "they",
+            "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Use litellm for the proxy, CLI, and optional extras Build and install core from this checkout while its release integration is pending: python scripts/build_core_distribution.py --out-dir dist/core python -m pip install dist/core/litellm_core-*.whl The builder requires Git, uv an",
+          "text": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.650362+08:00",
-          "content_sha256": "62febd08431725f60170e5b5c487ec56889de0f818eac3724f07c2157486c4cd",
-          "excerpt": "Use litellm for the proxy, CLI, and optional extras Build and install core from this checkout while its release integration is pending: python scripts/build_core_distribution.py --out-dir dist/core python -m pip install dist/core/litellm_core-*.whl The builder requires Git, uv an",
-          "sentence_hash": "e8590f963eb73dcee2c7388e37d07245285772a2222273b7177300df6429cad9",
+          "captured_at": "2026-10-12T08:03:19.393445+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
+          "sentence_hash": "77c097a543d7aaf8ba8c035a1fe8fa18ceef104caf8cc1f813c0c339077c92f7",
           "anchors": [
-            "install",
-            "lite",
-            "proxy",
-            "build",
-            "python",
-            "llm",
-            "ai"
+            "they",
+            "one"
           ]
         }
       ],
       "entities": [
-        "production",
-        "hello",
-        "getting started",
-        "unified",
-        "proxy",
-        "setup",
-        "agents",
-        "open",
-        "anthropic",
-        "all supported endpoints",
-        "sdk",
-        "gateway\nopen source",
-        "api",
-        "lite",
-        "cli",
-        "gemini",
-        "drop",
-        "git",
-        "self",
-        "supported",
-        "rps",
-        "llm",
-        "docs \njump",
-        "enterprise",
-        "run",
-        "rust",
-        "azure",
-        "use",
-        "python",
-        "gateway",
-        "build",
-        "invoke",
-        "providers\nmanaging",
-        "install",
-        "tutorial",
-        "jump",
-        "call",
-        "bedrock",
-        "proxy server",
-        "gat",
-        "ai"
+        "pakistani",
+        "passenger hall no",
+        "secretary",
+        "state marco rubio",
+        "saudi arabian",
+        "iran",
+        "yemen",
+        "houthi",
+        "indian",
+        "published",
+        "sudan",
+        "riyadh",
+        "dammam",
+        "medina",
+        "the houthis",
+        "houthis",
+        "egypt",
+        "foreign office",
+        "published\none",
+        "israel",
+        "on sunday maj gen turki",
+        "brig gen yahya saree",
+        "february",
+        "us",
+        "saudi arabia",
+        "king khalid international airport",
+        "foreign secretary ed miliband",
+        "they",
+        "syria",
+        "the indian",
+        "gulf arab",
+        "uk",
+        "september\nsaturday",
+        "president donald trump",
+        "maliki",
+        "bangladesh",
+        "sunday",
+        "defence secretary wes streeting",
+        "four saudi",
+        "saudi",
+        "the saudi",
+        "sanaa",
+        "jordan",
+        "one",
+        "palestine",
+        "mecca"
+      ],
+      "numbers": [
+        "13 people",
+        "11 injured"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ceab084ee697901ba6a0c464",
+      "title": "Footage shows moment Russian strike hits Ukrainian grocery store",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/footage-shows-moment-russian-strike-hits-ukrainian-grocery-store?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine.",
+      "category": "国际",
+      "published_at": "2026-10-11T22:49:23+00:00",
+      "why_relevant": "俄袭乌克兰杂货店视频",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Footage shows moment Russian strike hits Ukrainian grocery store NewsFeed Footage shows moment Russian strike hits Ukrainian grocery store CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine, followed by fires and debris.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393634+08:00",
+          "content_sha256": "95e95213c2c31dd4bcd6585dc4b36547b944683c9ae6df5fba0de93d6e7a9e7a",
+          "excerpt": "Footage shows moment Russian strike hits Ukrainian grocery store NewsFeed Footage shows moment Russian strike hits Ukrainian grocery store CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine, followed by fires and debris.",
+          "sentence_hash": "98e1b190f4f86a89ecb6eaef2ad108a3966f3611fb8cee1eb99281ba75ca16ab",
+          "anchors": [
+            "footage"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 11 Oct 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393644+08:00",
+          "content_sha256": "95e95213c2c31dd4bcd6585dc4b36547b944683c9ae6df5fba0de93d6e7a9e7a",
+          "excerpt": "Published On 11 Oct 2026",
+          "sentence_hash": "93d336e98ad47dc1917651df7a41e068c0c01889a920509271eb9054d29f0c9e",
+          "anchors": [
+            "Oct 20"
+          ]
+        }
+      ],
+      "entities": [
+        "footage",
+        "kharkiv",
+        "feed\nfootage",
+        "oct",
+        "ukraine",
+        "russian",
+        "ukrainian",
+        "published on",
+        "cctv"
       ],
       "numbers": [],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 10
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_18940e068b8ee1a25830c281",
+      "title": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSTR0SUxydGYzRDJmaGtaWkRTYkkybS1GWlRkZFFnMjVXRFlZX0hHMUtVdFdIN0ZyQk0wMk1LNFhaUml3Y3FlRUV6SWFxVk9UUFg3MTUzelJtZU8tdjVpREpVS0owdkt2aVJhMUVObjg1TlRTREtZQzBINHJTTFloWDNBQTFCVl9yOE9HNXhBazJWMElncnlIZWNPdG5IY25ObFg0SGswNks5MkF0ODM4bEVRWkhjS3ZqcXVuWlVnamU0dw?oc=5",
+      "publisher": "Reuters",
+      "summary": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-11T21:46:14+00:00",
+      "why_relevant": "亚马逊拟70亿收购AI初创",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393752+08:00",
+          "content_sha256": "9d86c2ce1a402260a03e4568261a78dd3967a7d7f8bfd49bf596da1d6f2a6bc5",
+          "excerpt": "Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters",
+          "sentence_hash": "1f6f38e6de44f16e6cc6fdba8a1fea7e6e294df4b0bfb932d891cd8efc3fc750",
+          "anchors": [
+            "$7 billion",
+            "7 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "reuters",
+        "ai",
+        "decart",
+        "amazon",
+        "wsj"
+      ],
+      "numbers": [
+        "$7 billion",
+        "7 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 7
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b85b6eb5e59ccb79141ff818",
+      "title": "Kurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370485/kurt-campbell-us-deterrence-quad-aukus-and-taiwan-after-xi-trump-summit?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Kurt Campbell is a veteran US diplomat and strategist who has played a leading role in shaping Washington’s approach to China and the Indo-Pacific for more than a decade.\nHe served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025. Previously, he served as assistant secretary of state for East Asian and Pacific affairs from 2009 to 2013 and was a key architect of the Obama administration’s “pivot to Asia”.\nOften...",
+      "category": "国际",
+      "published_at": "2026-10-11T22:00:15+00:00",
+      "why_relevant": "美印太战略名家专访",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "ExclusiveKurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships Kurt Campbell is a veteran US diplomat and strategist who has played a lea",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394119+08:00",
+          "content_sha256": "213d6b5f49abff20987c25e186253aa041fe18b3dda0a78c55d4d6f42958dcc5",
+          "excerpt": "ExclusiveKurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships Kurt Campbell is a veteran US diplomat and strategist who has played a lea",
+          "sentence_hash": "4cdd9b290ed1d68baa81a4e22e9c4df77a9e42d1bf2f4d8b409d314c5af14854",
+          "anchors": [
+            "veteran",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "He served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394138+08:00",
+          "content_sha256": "213d6b5f49abff20987c25e186253aa041fe18b3dda0a78c55d4d6f42958dcc5",
+          "excerpt": "He served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025.",
+          "sentence_hash": "758ba8535b23b55407ff03bbf18a961aed5e742feb3ab64beccbcd3d6f02af65",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Previously, he served as assistant secretary of state for East Asian and Pacific affairs from 2009 to 2013 and was a key architect of the Obama administration’s “pivot to Asia”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394158+08:00",
+          "content_sha256": "213d6b5f49abff20987c25e186253aa041fe18b3dda0a78c55d4d6f42958dcc5",
+          "excerpt": "Previously, he served as assistant secretary of state for East Asian and Pacific affairs from 2009 to 2013 and was a key architect of the Obama administration’s “pivot to Asia”.",
+          "sentence_hash": "00c3c850f12ae61bbe5f429d94318b6e653b285c63a2cc96266bbc4e998723d1",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "quad",
+        "us",
+        "navy",
+        "kurt campbell",
+        "white house",
+        "the asia group",
+        "aukus",
+        "taiwan",
+        "asia",
+        "exclusive",
+        "new american security",
+        "indo",
+        "obama",
+        "pacific",
+        "harvard",
+        "campbell",
+        "veteran",
+        "previously",
+        "east asian",
+        "washington",
+        "centre",
+        "trump",
+        "china",
+        "biden",
+        "often"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 25
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_a66af74f1e34b8ad9989e0e2",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "publisher": "GitHub Trending",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.https://context-mode.comContext Mode \nThe other half of the context problem. \n         \n Used across teams at                     \nThe Problem \nEvery MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your co",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI编码上下文优化工具，契合读者",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "After 30 minutes, 40% of your context is gone.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394877+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "After 30 minutes, 40% of your context is gone.",
+          "sentence_hash": "9b40165fe72108edfb35f335b7c3fafd79bac3c472f9d55e7570cd78934bfa22",
+          "anchors": [
+            "40%",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394898+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for.",
+          "sentence_hash": "2488f975855ec072d8a486f663d8d3fdf52a4f98aa6176e97da1545d324f4738",
+          "anchors": [
+            "file",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394930+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides.",
+          "sentence_hash": "5e186911aa82ace1704d4e99b4b7b8e20abff073695b38374d510ce9df4809a7",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Context Mode is an MCP server that solves all four sides of this problem: - Context Saving — Sandbox tools keep raw data out of the context window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394953+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "Context Mode is an MCP server that solves all four sides of this problem: - Context Saving — Sandbox tools keep raw data out of the context window.",
+          "sentence_hash": "0578a3875295f0cf17d5fa796324cd1385bbdf7d904ba8db4683e6ddf693b6a7",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "98% reduction.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394965+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "98% reduction.",
+          "sentence_hash": "bce72aa1d8ecd448293347e7630dfe3bcad937f4b43a3be7a5bfd4b272ce269d",
+          "anchors": [
+            "98%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Session Continuity — Every file edit, git operation, task, error, and user decision is tracked in SQLite.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.394983+08:00",
+          "content_sha256": "1215a618e296036578608689aa0dad1fa56fd63e2d8edc5829ddfcc09b113626",
+          "excerpt": "- Session Continuity — Every file edit, git operation, task, error, and user decision is tracked in SQLite.",
+          "sentence_hash": "6f8c93232a264ee4e1e8e793fd14e147fc10ae83a0f29fb961d23cd279f5ca5c",
+          "anchors": [
+            "file",
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "before",
+        "read",
+        "instead",
+        "context saving",
+        "sandbox",
+        "moonshot",
+        "after",
+        "hub",
+        "open",
+        "sync",
+        "claude code",
+        "context mode",
+        "non",
+        "install",
+        "mcp",
+        "each",
+        "agents",
+        "restart claude code",
+        "hook",
+        "prerequisites",
+        "brevity",
+        "with",
+        "claw",
+        "file",
+        "platforms",
+        "aggressive",
+        "playwright",
+        "and",
+        "think",
+        "kb",
+        "claude",
+        "code",
+        "llm",
+        "ai",
+        "session continuity",
+        "every",
+        "one",
+        "twenty git",
+        "lite"
+      ],
+      "numbers": [
+        "40%",
+        "98%"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -681,305 +1022,181 @@
       "evidence_complete": true
     },
     {
-      "article_id": "a1_52eec3a7d2e59ccbe4265911",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "url": "https://github.com/rociiu/talorys",
-      "publisher": "Hacker News",
-      "summary": "Article URL: https://github.com/rociiu/talorys\nComments URL: https://news.ycombinator.com/item?id=50031614\nPoints: 259\n# Comments: 123",
-      "category": "科技",
-      "published_at": "2026-10-10T10:52:09+00:00",
-      "why_relevant": "自托管AI Agent，本地部署话题",
+      "article_id": "a1_596e9e46d33fac07cc1ee790",
+      "title": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
+      "url": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Lawmakers from both parties say the agreement would finance Putin’s war machine in Ukraine and violate US law",
+      "category": "财经",
+      "published_at": "2026-10-11T21:17:58+00:00",
+      "why_relevant": "特朗普对俄柴油交易遭反对",
       "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Your personal AI agent.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.651623+08:00",
-          "content_sha256": "aa65175a35cfdc00dc61d2c6f442b72c4d3bf1e1b4df1929b3929ce9b10d0038",
-          "excerpt": "Your personal AI agent.",
-          "sentence_hash": "c5a728c994ddf85f312bd9bb47cc1acee015017ed5e631368569cf65375ef4cf",
-          "anchors": [
-            "agent"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Talorys is a free, open-source personal AI assistant that runs entirely inside your own Cloudflare account.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.651657+08:00",
-          "content_sha256": "aa65175a35cfdc00dc61d2c6f442b72c4d3bf1e1b4df1929b3929ce9b10d0038",
-          "excerpt": "Talorys is a free, open-source personal AI assistant that runs entirely inside your own Cloudflare account.",
-          "sentence_hash": "31607300608f922d0398e7ae71d1e112d8b5672cfa506dc07ea9c98187f4a7c0",
-          "anchors": [
-            "your"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It chats with you, remembers what matters, manages tasks, notes and projects, and runs reminders and routines on a schedule — without any server, database or account operated by the Talorys developers.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.651700+08:00",
-          "content_sha256": "aa65175a35cfdc00dc61d2c6f442b72c4d3bf1e1b4df1929b3929ce9b10d0038",
-          "excerpt": "It chats with you, remembers what matters, manages tasks, notes and projects, and runs reminders and routines on a schedule — without any server, database or account operated by the Talorys developers.",
-          "sentence_hash": "322d41037baf047799d1f161198b8528d69e19d315bd6a4f5272f49714cb1754",
-          "anchors": [
-            "tasks",
-            "server",
-            "asks",
-            "chat"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "One personal AI agent.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.651729+08:00",
-          "content_sha256": "aa65175a35cfdc00dc61d2c6f442b72c4d3bf1e1b4df1929b3929ce9b10d0038",
-          "excerpt": "One personal AI agent.",
-          "sentence_hash": "3281876969805fc0bf1cf61b8de50dd034e81f00663fdc8983960a8a51f77301",
-          "anchors": [
-            "agent"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "npx create-talorys@latest - A private assistant — chat with streaming responses, Markdown and tool activity indicators.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.651762+08:00",
-          "content_sha256": "aa65175a35cfdc00dc61d2c6f442b72c4d3bf1e1b4df1929b3929ce9b10d0038",
-          "excerpt": "npx create-talorys@latest - A private assistant — chat with streaming responses, Markdown and tool activity indicators.",
-          "sentence_hash": "7b68c74b567f00bde56a870ff565172066294743cf48fc87e6262bd1cf517875",
-          "anchors": [
-            "chat",
-            "talorys"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "- Tasks, notes and projects — full CRUD in the UI, and from chat (\"Add a task to review my project tomorrow\").",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.651811+08:00",
-          "content_sha256": "aa65175a35cfdc00dc61d2c6f442b72c4d3bf1e1b4df1929b3929ce9b10d0038",
-          "excerpt": "- Tasks, notes and projects — full CRUD in the UI, and from chat (\"Add a task to review my project tomorrow\").",
-          "sentence_hash": "09b33b17e2176bec023c51e6283563005b6afd66d0c8ffba9df916ce178e2e81",
-          "anchors": [
-            "asks",
-            "chat"
-          ]
-        }
-      ],
+      "confirmed_facts": [],
       "entities": [
-        "single",
-        "crud",
-        "react",
-        "url",
-        "checks node",
-        "vectorize",
-        "one cloudflare",
-        "sent events",
-        "markdown",
-        "talorys",
-        "https",
-        "cloudflare",
-        "sdk",
-        "browser",
-        "alarms",
-        "agent",
-        "lite",
-        "more",
-        "cli",
-        "cloudflare agents",
-        "tasks",
-        "asks",
-        "one",
-        "authentication",
-        "cloudflare pages",
-        "search",
-        "verifies",
-        "ui",
-        "name",
-        "server",
-        "kv",
-        "pages function",
-        "wrangler",
-        "private worker",
-        "lets",
-        "worker",
-        "workflows",
-        "hono",
-        "automations",
-        "they",
-        "memory",
-        "durable object",
-        "chat",
-        "works",
-        "add",
-        "only",
-        "your",
-        "workers",
-        "ai"
+        "lawmakers",
+        "us",
+        "putin",
+        "ukraine"
       ],
       "numbers": [],
       "dates": [],
       "unknowns": [
+        "正文未抓到",
         "缺少明确时间"
       ],
       "coverage": {
-        "has_fulltext": true,
+        "has_fulltext": false,
         "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 49
+        "fact_count": 0,
+        "anchor_count": 4
       },
-      "evidence_complete": true
+      "evidence_complete": false
     },
     {
-      "article_id": "a1_fdd9125c50b679eede30e1a5",
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-      "publisher": "英伟达博客",
-      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-10-08T13:00:46+00:00",
-      "why_relevant": "GeForce NOW+战争机器，玩家关注",
+      "article_id": "a1_0aa7647296956801dbe6862f",
+      "title": "S&P 500 futures are little changed with big banks set to kick off earnings season: Live updates",
+      "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Investors are looking ahead to a busy week of earnings results from the big banks and inflation data.",
+      "category": "财经",
+      "published_at": "2026-10-11T23:24:29+00:00",
+      "why_relevant": "大行财报季与通胀数据",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through Amazon, creating a more seamless path from device setup to gameplay.",
+          "text": "S&P 500 futures were little changed on Sunday night after the major averages posted a winning week, as investors looked ahead to a busy week of earnings results and inflation data.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.653201+08:00",
-          "content_sha256": "b2db961924e5b9b5ae729e44c54a0564776040526aa527ec2d230c8954c6c4ca",
-          "excerpt": "A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through Amazon, creating a more seamless path from device setup to gameplay.",
-          "sentence_hash": "6f93589a9e65abcbd28394149422d0738e3185d0e34c635181fae526be0ce03d",
+          "captured_at": "2026-10-12T08:03:19.395786+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "S&P 500 futures were little changed on Sunday night after the major averages posted a winning week, as investors looked ahead to a busy week of earnings results and inflation data.",
+          "sentence_hash": "4374271e73d3cf33d171b4c1be09812afb62034ea857b32bc35f3f27371ce281",
           "anchors": [
-            "from",
+            "futures",
+            "investors"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Futures tied to the broader market climbed 0.12%, while Nasdaq 100 futures rose 0.24%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395802+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "Futures tied to the broader market climbed 0.12%, while Nasdaq 100 futures rose 0.24%.",
+          "sentence_hash": "8c57e9ff72ce62a8b3607ca5e61f11b5128128253ae5b261945e605f0628cbf2",
+          "anchors": [
+            "futures",
+            "0.12%",
+            "0.24%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Dow Jones Industrial Average futures rose by 28 points, or 0.05%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395816+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "Dow Jones Industrial Average futures rose by 28 points, or 0.05%.",
+          "sentence_hash": "91793426cb361d380363c7152d5dda98f21ada6c2f99f86c8142cd7123699a6e",
+          "anchors": [
+            "futures",
+            "0.05%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Wall Street is coming off a winning week for the major averages, as a rally in tech stocks helped investors shrug off higher oil prices and yields.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395836+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "Wall Street is coming off a winning week for the major averages, as a rally in tech stocks helped investors shrug off higher oil prices and yields.",
+          "sentence_hash": "d007ba2c76821c1d9ad7cafc15dee4bf4a38c8b166004680c53ad24deb3ccb5d",
+          "anchors": [
+            "investors"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Dow and S&P 500 each posted their second positive week in three, while the Nasdaq Composite netted its fourth straight week of gains.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395855+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "The Dow and S&P 500 each posted their second positive week in three, while the Nasdaq Composite netted its fourth straight week of gains.",
+          "sentence_hash": "64f5fcfe87e7315d2f7a890f6fcc54b1ed2d983a36961c2436ee32702722939d",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In Asia, markets were set to open higher.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.395866+08:00",
+          "content_sha256": "add9d57477056b8de1ae6f1125b27482f32f71b2b9817ad1c917eb4c49b82ab0",
+          "excerpt": "In Asia, markets were set to open higher.",
+          "sentence_hash": "90092e21e48d43244d3253b701e7e851f213f933ca2d0ff7905a93d5b49dd654",
+          "anchors": [
             "set"
           ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "There’s more in store this GFN Thursday, with the cloud serving up 10 games, including seven new releases.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.653245+08:00",
-          "content_sha256": "b2db961924e5b9b5ae729e44c54a0564776040526aa527ec2d230c8954c6c4ca",
-          "excerpt": "There’s more in store this GFN Thursday, with the cloud serving up 10 games, including seven new releases.",
-          "sentence_hash": "7d6c8663211ca3e92e4a0733ec5596b99a9f844398ef4d4bd7d819c114e3a0d9",
-          "anchors": [
-            "day"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Emergence Day Is Here Gears of War: E-Day is now streaming on GeForce NOW following its global release on Tuesday, Oct.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.653275+08:00",
-          "content_sha256": "b2db961924e5b9b5ae729e44c54a0564776040526aa527ec2d230c8954c6c4ca",
-          "excerpt": "Emergence Day Is Here Gears of War: E-Day is now streaming on GeForce NOW following its global release on Tuesday, Oct.",
-          "sentence_hash": "9de8effeaa98c505ee4d7793d959241b920a3d477508aa2d5cb3c612f51909b8",
-          "anchors": [
-            "day",
-            "now"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "From campaign missions to cooperative and competitive modes, GeForce NOW keeps the fight ready across low-power laptops, Macs, mobile devices, handhelds, Firefox and other browsers, and more — no massive downloads or expensive gaming rig required.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.653365+08:00",
-          "content_sha256": "b2db961924e5b9b5ae729e44c54a0564776040526aa527ec2d230c8954c6c4ca",
-          "excerpt": "From campaign missions to cooperative and competitive modes, GeForce NOW keeps the fight ready across low-power laptops, Macs, mobile devices, handhelds, Firefox and other browsers, and more — no massive downloads or expensive gaming rig required.",
-          "sentence_hash": "2a6c91ce1749dd885e11dbd2eda3c78aa73d29fb3bf8ed74a69e2f223f0e6350",
-          "anchors": [
-            "keep"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "New on the Cloud Menu Members can look forward to the following games joining the GeForce NOW library this week: - Gears of War: E-Day (New release on Steam and Xbox, Oct.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.653400+08:00",
-          "content_sha256": "b2db961924e5b9b5ae729e44c54a0564776040526aa527ec2d230c8954c6c4ca",
-          "excerpt": "New on the Cloud Menu Members can look forward to the following games joining the GeForce NOW library this week: - Gears of War: E-Day (New release on Steam and Xbox, Oct.",
-          "sentence_hash": "ab6ce95bd2ccce44cb63154a8fe1542b28310c90ee2deecd6be5aa24412de667",
-          "anchors": [
-            "war"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Stay tuned to GFN Thursday for updates on game availability.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.653474+08:00",
-          "content_sha256": "b2db961924e5b9b5ae729e44c54a0564776040526aa527ec2d230c8954c6c4ca",
-          "excerpt": "Stay tuned to GFN Thursday for updates on game availability.",
-          "sentence_hash": "0243ab784b158bb196336b0a2d15a86c1d83d0e11b8122d5d3d40e238bb2a1b1",
-          "anchors": [
-            "day",
-            "dates"
-          ]
         }
       ],
       "entities": [
-        "dlss",
-        "thursdays",
-        "steam",
-        "marcus fenix",
-        "keep",
-        "revival",
-        "tyr",
-        "better",
-        "galactic racer",
-        "dates",
-        "now",
-        "stay",
-        "day",
-        "locust horde",
-        "tv",
-        "rtx",
-        "ii",
-        "there",
-        "firefox",
+        "keeley gabelli small cap dividend fund",
+        "australia",
+        "but",
+        "the dow",
+        "john butters",
+        "citigroup",
+        "wednesday",
+        "wall street",
+        "yemen",
+        "brian leonard",
+        "concerns",
+        "nasdaq",
+        "morgan chase",
         "thursday",
-        "sinking star",
-        "nvidia",
-        "xbox",
-        "fire",
-        "solasta",
-        "gears",
-        "emergence day is here\ngears",
-        "hellraiser",
-        "forever ago",
-        "oct",
-        "ultimate",
-        "september",
-        "awakening",
-        "star",
-        "wars",
-        "tuesday",
-        "from",
-        "force",
-        "the xbox",
-        "horde",
-        "dom santiago",
+        "riyadh",
+        "hong kong",
+        "japan",
+        "houthis",
+        "dow jones industrial average",
+        "hang seng",
+        "tehran",
+        "in asia",
+        "fact",
         "set",
-        "amazon",
-        "emergence day",
-        "order",
-        "graveyard keeper",
-        "silver pines",
-        "dune",
-        "game pass",
-        "war",
-        "macs",
-        "cloud menu\nmembers",
-        "reflex",
-        "permafrost",
-        "clive barker",
-        "gfn",
-        "gamers"
+        "nasdaq composite",
+        "according",
+        "morgan stanley",
+        "key",
+        "ksdix",
+        "brent",
+        "saudi arabia",
+        "goldman sachs",
+        "futures",
+        "middle east",
+        "cnbc",
+        "president donald trump",
+        "pass",
+        "bank",
+        "sunday",
+        "terri cullen",
+        "wells fargo",
+        "america",
+        "ai",
+        "september",
+        "asx",
+        "investors"
       ],
-      "numbers": [],
+      "numbers": [
+        "0.05%",
+        "29.6%",
+        "$104 ",
+        "0.24%",
+        "0.25%",
+        "0.12%",
+        "25%"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -988,56 +1205,26 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 57
+        "anchor_count": 53
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_e87ca66478052f1ff04fd54e",
-      "title": "Nvidia in talks to acquire US ‘open’ model start-up Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
+      "article_id": "a1_008d808668f4ba5818d59388",
+      "title": "US hits commercial tanker in Gulf of Oman as tensions flare",
+      "url": "https://www.ft.com/content/f9b9f937-97b0-4a03-90f6-05d7c7344ab9?syn-25a6b1a6=1",
       "publisher": "FT",
-      "summary": "Donald Trump’s administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+      "summary": "Ship tried to break through American naval blockade of Iranian ports, Central Command says of its first attack in a month",
       "category": "财经",
-      "published_at": "2026-10-10T18:14:28+00:00",
-      "why_relevant": "AI并购+中美竞争，金融科技交叉",
+      "published_at": "2026-10-11T19:53:56+00:00",
+      "why_relevant": "美军打击商船，阿曼湾紧张",
       "relevance_score": 8.0,
       "confirmed_facts": [],
       "entities": [
-        "chinese",
-        "deep",
-        "seek",
-        "donald trump"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 0,
-        "anchor_count": 4
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_a69e35bff1a8d7f5748eec5a",
-      "title": "Saudi Arabia Suspends Operations at Riyadh Airport After Attack",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONlhKZ2t3ZDBmbnc3Umd3am1aWF9pcXp0a1U5SmFyZVRjUkpBT0pnclZuQk52MXRPb1EwZjJEb09aTEdPU2gzb09SbUJ0NjNTdnJJa2FDS2NlS0FKRlJPU21fMWZaWEZnZlBNS09BWDVyUkY2dnJDMm5sU01OUjdQSUg0MW82SHNGcXJ1ZjlaWk9XVjZZZ1ZHb0RZTzN4dmtJd1E4LWFGYWtFQTlseTBMUl9lN2Y?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "Saudi Arabia Suspends Operations at Riyadh Airport After Attack&nbsp;&nbsp;Bloomberg.com",
-      "category": "财经",
-      "published_at": "2026-10-10T16:47:10+00:00",
-      "why_relevant": "利雅得机场关闭，冲突升级信号",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "riyadh airport after attack",
-        "bloomberg",
-        "saudi arabia suspends operations"
+        "central command",
+        "ship",
+        "american",
+        "iranian"
       ],
       "numbers": [],
       "dates": [],
@@ -1049,362 +1236,66 @@
         "has_fulltext": false,
         "has_multiple_sources": false,
         "fact_count": 0,
-        "anchor_count": 3
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_2adaeeda97733dc828917a57",
-      "title": "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing",
-      "url": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Trump suggests Volodymyr Zelenskyy should be replaced after Ukraine’s leader criticised diesel deal with Moscow",
-      "category": "财经",
-      "published_at": "2026-10-10T17:42:28+00:00",
-      "why_relevant": "美乌情报矛盾，地缘金融交叉",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "moscow",
-        "volodymyr zelenskyy",
-        "ukraine",
-        "trump"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 0,
         "anchor_count": 4
       },
       "evidence_complete": false
     },
     {
-      "article_id": "a1_b05b6dcf3ce70a36fcb4b9f6",
-      "title": "Anthropic’s Claude AI submits a false tip on a Philadelphia unsolved homicide case",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLXhqV3p0UGc3M1lxVTI0RG1qMXJmd0Rnb3ZXbDdQQXpqYjEwcGplMkgtTXdBRjJRcVBYclRmMGlSYzV1RS0yM1VCN1JkYlhDekU1LXNsNVB3SFJKM1RWZEpCQnlQTTVadjNpSXZoQi1oVVhtVVY5REprcHRZRFNQdE5RWl9lTnVwMnAxZE9NanVBNmdIR1pzOFRXM1NjLTFHcVE?oc=5",
-      "publisher": "AP",
-      "summary": "Anthropic’s Claude AI submits a false tip on a Philadelphia unsolved homicide case&nbsp;&nbsp;AP News",
+      "article_id": "a1_a91cbdf5aaa68dd5175bf300",
+      "title": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50.",
       "category": "国际",
-      "published_at": "2026-10-10T16:11:44+00:00",
-      "why_relevant": "AI错误现实影响，值得警惕",
+      "published_at": "2026-10-11T20:44:17+00:00",
+      "why_relevant": "苏丹空袭重大伤亡",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Philadelphia police have revealed that Anthropic’s artificial intelligence model submitted a false homicide tip to authorities, an incident disclosed separately by the tech company.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-11T11:12:43.655265+08:00",
-          "content_sha256": "5c383212d637977423cfe13a6eaf67ab83c1dbcffbf7a995cef30c83a87720f1",
-          "excerpt": "Philadelphia police have revealed that Anthropic’s artificial intelligence model submitted a false homicide tip to authorities, an incident disclosed separately by the tech company.",
-          "sentence_hash": "1fc9092ddc37088281e9d073164e15b5f96b9b252392377cb1195efa7c4e3668",
+          "text": "Deadly air strike kills dozens at Sudan gold mine near Egypt border NewsFeed Deadly air strike kills dozens at Sudan gold mine near Egypt border An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50, according to rights",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.396163+08:00",
+          "content_sha256": "bb0c097c004dcc241849e42f6446be70b848f2502de5d6c05012c79ef1e77f1f",
+          "excerpt": "Deadly air strike kills dozens at Sudan gold mine near Egypt border NewsFeed Deadly air strike kills dozens at Sudan gold mine near Egypt border An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50, according to rights",
+          "sentence_hash": "5367cf0cb5c994552d113d4e2f958553fcaf9a7725d1164acfa5b5076ae9444c",
           "anchors": [
-            "authorities"
+            "72 people"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The Philadelphia Police Department said on Friday that the false submission was made in July through PhillyUnsolvedMurders.com, a public website where people can share information about unsolved killings.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-11T11:12:43.655477+08:00",
-          "content_sha256": "5c383212d637977423cfe13a6eaf67ab83c1dbcffbf7a995cef30c83a87720f1",
-          "excerpt": "The Philadelphia Police Department said on Friday that the false submission was made in July through PhillyUnsolvedMurders.com, a public website where people can share information about unsolved killings.",
-          "sentence_hash": "2985754863f2beff3b051f4bf0f2c7b88e74c27bab7d9dcb1993e94f09a0afc1",
+          "text": "Published On 11 Oct 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.396174+08:00",
+          "content_sha256": "bb0c097c004dcc241849e42f6446be70b848f2502de5d6c05012c79ef1e77f1f",
+          "excerpt": "Published On 11 Oct 2026",
+          "sentence_hash": "93d336e98ad47dc1917651df7a41e068c0c01889a920509271eb9054d29f0c9e",
           "anchors": [
-            "unsolved",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Anthropic mentioned the case in a Friday report detailing unsanctioned manipulation of government websites by Claude models.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-11T11:12:43.655680+08:00",
-          "content_sha256": "5c383212d637977423cfe13a6eaf67ab83c1dbcffbf7a995cef30c83a87720f1",
-          "excerpt": "Anthropic mentioned the case in a Friday report detailing unsanctioned manipulation of government websites by Claude models.",
-          "sentence_hash": "2ec21d637aaa5c1ac78618382fddaaf504eb08d2188a457de63534ab510a780a",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "It is the first known instance in which a rogue AI appeared to communicate a false tip to authorities, despite instructions not to create accounts or submit anything destructive.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-11T11:12:43.655881+08:00",
-          "content_sha256": "5c383212d637977423cfe13a6eaf67ab83c1dbcffbf7a995cef30c83a87720f1",
-          "excerpt": "It is the first known instance in which a rogue AI appeared to communicate a false tip to authorities, despite instructions not to create accounts or submit anything destructive.",
-          "sentence_hash": "0e999784ade66cf5e66a35714defca91b059c17c6093a15415bf03488a652fb3",
-          "anchors": [
-            "authorities"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Philadelphia police said the tip “was flagged as spam and was never forwarded to the Real-Time Crime Center for investigative vetting or dissemination”.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-11T11:12:43.656108+08:00",
-          "content_sha256": "5c383212d637977423cfe13a6eaf67ab83c1dbcffbf7a995cef30c83a87720f1",
-          "excerpt": "Philadelphia police said the tip “was flagged as spam and was never forwarded to the Real-Time Crime Center for investigative vetting or dissemination”.",
-          "sentence_hash": "7e282ba778845b7fb4c486d9c0feec26fc4473184c20a43ea34e9cf683ca352d",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The department said it is disclosing the incident ahead of Anthropic’s report “in the interests of full government transparency and accountability”.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-11T11:12:43.656312+08:00",
-          "content_sha256": "5c383212d637977423cfe13a6eaf67ab83c1dbcffbf7a995cef30c83a87720f1",
-          "excerpt": "The department said it is disclosing the incident ahead of Anthropic’s report “in the interests of full government transparency and accountability”.",
-          "sentence_hash": "1f060460808787d2a1e2fac810273e92192a78c30c69fb8d20e4b2a793979e26",
-          "anchors": [
-            "ai"
+            "Oct 20"
           ]
         }
       ],
       "entities": [
-        "in september",
-        "ai",
-        "open",
-        "murders",
-        "anthropic",
-        "from",
-        "australian",
-        "philadelphia",
-        "the philadelphia police department",
-        "friday",
-        "philly",
-        "october",
-        "real",
-        "authorities",
-        "claude",
-        "white house",
-        "time crime center",
-        "unsolved",
-        "july"
+        "feed\ndeadly",
+        "oct",
+        "egypt",
+        "deadly",
+        "sudan",
+        "published on"
       ],
-      "numbers": [],
+      "numbers": [
+        "72 people"
+      ],
       "dates": [
-        "October 8"
+        "Oct 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 20
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_6df22f17586a8383a019dc5a",
-      "title": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Japanese semiconductor materials giant Sumitomo Bakelite plans to expand production of advanced chip packaging materials in China and Singapore, marking the second such announcement for its Chinese operations in less than four months as artificial intelligence drives demand for more sophisticated semiconductors.\nThe Tokyo-based company said on Friday that it would add production lines for mould underfill (MUF) materials and compression-moulding granules at its facilities in Suzhou, eastern...",
-      "category": "国际",
-      "published_at": "2026-10-11T03:04:32+00:00",
-      "why_relevant": "芯片材料扩张，半导体供应链",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom The investment underscores the growing importance of advanced packaging materials in the semiconductor supply chain The Tokyo-based company said on Friday that it would add production lines for m",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.656854+08:00",
-          "content_sha256": "0b6200decb643f2372fddf314b02a33157ee52beb8fcf40b0923feb685dbb238",
-          "excerpt": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom The investment underscores the growing importance of advanced packaging materials in the semiconductor supply chain The Tokyo-based company said on Friday that it would add production lines for m",
-          "sentence_hash": "3f15f18e1cb478e1847dac5e32a7b743894627795ce6582a9f26111b4a053b5e",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "sumitomo bakelite",
-        "friday",
-        "singapore",
-        "china",
-        "suzhou",
-        "japan",
-        "jiangsu",
-        "muf",
-        "the singapore",
-        "the suzhou",
-        "the tokyo",
-        "ai"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 12
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_d01e537281dcfd568b0f6a5f",
-      "title": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "publisher": "GitHub Trending",
-      "summary": "Production-grade engineering skills for AI coding agents.https://skills.addy.ieAgent Skills \nProduction-grade engineering skills for AI coding agents. \nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. \n \n \n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌─────",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "编码Agent技能，实用性强",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Production-grade engineering skills for AI coding agents.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.658048+08:00",
-          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
-          "excerpt": "Production-grade engineering skills for AI coding agents.",
-          "sentence_hash": "bff6bab7ce46369f72ec4e98cf0bf4d66aef4aad2ede075d53538a982682838d",
-          "anchors": [
-            "skills"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.658096+08:00",
-          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
-          "excerpt": "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software.",
-          "sentence_hash": "78f48d6a44998f6b1bd573ebf9b26fc074b8b802bff3f7dec265488b87ffa9c5",
-          "anchors": [
-            "build",
-            "code",
-            "use",
-            "gate",
-            "ui"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │ QA │ ───▶ │ Go │ │Refine│ │ PRD │ │ Impl │ │Debug │ │ Gate │ │ Live │ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ /spec /",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.658157+08:00",
-          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
-          "excerpt": "DEFINE PLAN BUILD VERIFY REVIEW SHIP ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐ │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │ QA │ ───▶ │ Go │ │Refine│ │ PRD │ │ Impl │ │Debug │ │ Gate │ │ Live │ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ └──────┘ /spec /",
-          "sentence_hash": "b0cf286dba324da7967e7ec8d044acb594d0825c92b81f67d6671af90d7b7222",
-          "anchors": [
-            "ship",
-            "plan",
-            "review",
-            "ui",
-            "build",
-            "test",
-            "spec"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Each one activates the right skills automatically.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.658178+08:00",
-          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
-          "excerpt": "Each one activates the right skills automatically.",
-          "sentence_hash": "667521932b132627edcd33e627a87fb4d0f7ab90ac93f5eef948d5619a97365a",
-          "anchors": [
-            "skills"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Want fewer manual steps once the spec exists?",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.658196+08:00",
-          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
-          "excerpt": "Want fewer manual steps once the spec exists?",
-          "sentence_hash": "a38311ee0ec3550f2aad0a38dd87ed20ddb921413a1cdc3f66985d4f14d8fd84",
-          "anchors": [
-            "spec"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "/build auto generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-11T11:12:43.658228+08:00",
-          "content_sha256": "e3d792a4a7f578d53c689c64f032eb9ccbf803ffc500812829f67498ddd7ed5a",
-          "excerpt": "/build auto generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously.",
-          "sentence_hash": "762c3a9fdc24e71891ef38f78d19373f29c3006d84b8bf19f656722de729a747",
-          "anchors": [
-            "build",
-            "impl",
-            "ui",
-            "plan"
-          ]
-        }
-      ],
-      "entities": [
-        "production",
-        "url",
-        "want",
-        "ssh",
-        "https",
-        "api",
-        "cline",
-        "idea",
-        "impl",
-        "these",
-        "review",
-        "cli",
-        "marketplace",
-        "claude code",
-        "git",
-        "hub",
-        "verify",
-        "fastest",
-        "code",
-        "qa",
-        "ui",
-        "pick",
-        "ship",
-        "debug",
-        "refine",
-        "copilot",
-        "skills",
-        "use",
-        "spec",
-        "build",
-        "live",
-        "installing",
-        "plan",
-        "prefer",
-        "cursor",
-        "test",
-        "codex",
-        "define",
-        "gate",
-        "each",
-        "prd",
-        "ai"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 42
+        "fact_count": 2,
+        "anchor_count": 8
       },
       "evidence_complete": true
     }

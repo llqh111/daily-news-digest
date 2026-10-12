@@ -1,0 +1,712 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T00:07:25.868663+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-12.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-11.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_68d1d667bc13363eb0fa704f",
+      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+      "category": "国际",
+      "published_at": "2026-10-11T21:36:40+00:00",
+      "why_relevant": "能源停火提议，俄方沉默",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390128+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
+          "sentence_hash": "43580e19cadc616dcb3da02630eb2659b62dc9922e42891839a84ab499c984ad",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390159+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
+          "sentence_hash": "529c86a3a8325fe11110d406c484d8c33f88b25acc9299c12a00f8f3798da270",
+          "anchors": [
+            "all",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390177+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
+          "sentence_hash": "cac3dbdb8d7200c00981a51ffdb5f148296ab612e408a5b98745f01fa362172a",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390203+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
+          "sentence_hash": "9965d5a69011ecbeb723cc609236c8a4412f9833862896d016dd0575fe30760c",
+          "anchors": [
+            "us",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390217+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
+          "sentence_hash": "2b1479379091c5dcd34b9e1107a255a2889e45285bee4bdc7122c912e6e9b522",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Zelensky called it a gift to Russian President Vladimir Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390229+08:00",
+          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
+          "excerpt": "Zelensky called it a gift to Russian President Vladimir Putin.",
+          "sentence_hash": "76951b59fecbde3770ff66b5f0f737f124b80b7ba70bff2e567c4a8c3257d52c",
+          "anchors": [
+            "us",
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "zelensky",
+        "eu",
+        "us",
+        "for",
+        "france",
+        "iran",
+        "kharkiv",
+        "president trump",
+        "all",
+        "white house",
+        "uk",
+        "american",
+        "published\ndonald trump",
+        "axios",
+        "britain",
+        "russian",
+        "republican",
+        "ukrainian president volodymyr zelensky",
+        "bbc",
+        "russia",
+        "canada",
+        "kyiv",
+        "moscow",
+        "european",
+        "prime minister andy burnham",
+        "america",
+        "russian president vladimir putin",
+        "ukrainian",
+        "trump",
+        "united states",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "source_artifact_date": "2026-10-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_43b0f832d5b7f2f6bcea0953",
+      "title": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met",
+      "url": "https://www.tomshardware.com/software/linux/cyberleek-threatens-full-gta-6-build-leak-unless-take-two-apologizes-and-his-usd30-million-crypto-memecoin-goal-is-met-leaker-demands-physical-release-while-pumping-solana-memecoin-to-usd30m",
+      "publisher": "Tom's Hardware",
+      "summary": "Notorious GTA VI leaker Cyberleek is threatening to release a full build of GTA VI if Take-Two doesn't release a physical build, but only if its memecoin hits $30 million.",
+      "category": "科技",
+      "published_at": "2026-10-11T16:10:00+00:00",
+      "why_relevant": "GTA6泄露与加密memecoin",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.390997+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
+          "sentence_hash": "5c3571996e67444b9ecb3431939cb09620d80bcb41c57f7d8118d45942ebcaa2",
+          "anchors": [
+            "us",
+            "$30",
+            "while",
+            "$30 million",
+            "30 million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391035+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
+          "sentence_hash": "93992171d459f245c31edd0a6bbf4da6c836c934ce416d7baaefcb078bc1ec05",
+          "anchors": [
+            "am",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391058+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
+          "sentence_hash": "cccd3ef344513ef83ae908a49e889fea45112ed113f20a8de48a3605352d63fa",
+          "anchors": [
+            "us",
+            "vi"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391076+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "sentence_hash": "dab55bd3a26b7ee699687617d979c546d14ba377702b7c9b6363a0b02640c5d1",
+          "anchors": [
+            "us",
+            "$250,000 "
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391100+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "sentence_hash": "1bcc6db4907ad078480cda6906b8e45d3ad22ea471a582e5b206b43df2aa5e3c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391112+08:00",
+          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
+          "excerpt": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "sentence_hash": "00d213078d485f48ba3fb47e2224bc97836a93c64611655ff9a20b98159723fb",
+          "anchors": [
+            "vi"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "those",
+        "well",
+        "november",
+        "while",
+        "gta",
+        "am",
+        "central",
+        "cyberleek",
+        "rockstar",
+        "grand theft auto",
+        "neither rockstar",
+        "rockstar games",
+        "extended look",
+        "lucia",
+        "solana",
+        "netflix",
+        "two",
+        "vi",
+        "the offer",
+        "take",
+        "two interactive",
+        "have"
+      ],
+      "numbers": [
+        "$250,000 ",
+        "7.6 million",
+        "$5 million",
+        "5 million",
+        "$30",
+        "$6 million",
+        "6 million",
+        "$30 million",
+        "30 million",
+        "$7.6 million"
+      ],
+      "dates": [
+        "November 19"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "source_artifact_date": "2026-10-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_fe3794a75007bc3594fb01f2",
+      "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+      "publisher": "Tom's Hardware",
+      "summary": "Russian bot traffic falls dramatically as Ukraine takes out several Yandex data centers.",
+      "category": "科技",
+      "published_at": "2026-10-11T13:15:09+00:00",
+      "why_relevant": "乌击Yandex数据中心",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391819+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "sentence_hash": "fc8f359abf17b52bd116b417d195d3bf32238e981d51de31718e304a9230e7c4",
+          "anchors": [
+            "net",
+            "0.4%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It initially dropped to around 57% on Oct.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391830+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "It initially dropped to around 57% on Oct.",
+          "sentence_hash": "504625a373cd0e503456a3341630b3192fad9756cb8dcc1ffa3c0fa8e3759011",
+          "anchors": [
+            "57%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391874+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "sentence_hash": "1d7bfefcb31a241c1ec825a89492074f20516d0624fd66efa8912ce2590a06e1",
+          "anchors": [
+            "net",
+            "30%",
+            "63%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.391901+08:00",
+          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
+          "excerpt": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "sentence_hash": "f22a53c30b600dd1ef7340d5b55590a38f176dba70f24af0c430d5c8f7ccd3c6",
+          "anchors": [
+            "net",
+            "while"
+          ]
+        }
+      ],
+      "entities": [
+        "these",
+        "crimea",
+        "however",
+        "while",
+        "yandex cloud",
+        "google",
+        "net",
+        "http",
+        "russian",
+        "russia",
+        "cloudflare",
+        "kremlin",
+        "kaluga",
+        "kyiv",
+        "global",
+        "moscow",
+        "unfortunately",
+        "llc",
+        "blocks",
+        "starlink",
+        "yandex",
+        "sasovo",
+        "oct",
+        "rassvet",
+        "ukraine"
+      ],
+      "numbers": [
+        "30%",
+        "57%",
+        "0.4%",
+        "63%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "source_artifact_date": "2026-10-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_77fb233231ebc610a46ed8d1",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046\nComments URL: https://news.ycombinator.com/item?id=50047422\nPoints: 181\n# Comments: 268",
+      "category": "科技",
+      "published_at": "2026-10-11T20:20:52+00:00",
+      "why_relevant": "LLM能力理解差距，Karpathy",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392586+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
+          "sentence_hash": "3e6ddcd293560a53a7c3b5cca0823c0e11757b343ff897fcc9a68bfcca98119b",
+          "anchors": [
+            "capability",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392601+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+          "sentence_hash": "2827c229f32385802155257a91339967a7902a860fb11c014496e130fafbe753",
+          "anchors": [
+            "now",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392616+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
+          "sentence_hash": "12d2af3ae037b368d0e812ebf579eb3ebf1dc0f9fd1e78a202a4d7ca24831f37",
+          "anchors": [
+            "75%",
+            "around",
+            "somewhere"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392628+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
+          "sentence_hash": "54dc59a3d78c463ed3e04aa82fbc7e309ec7476ce0e9fc25e551c77351b59c84",
+          "anchors": [
+            "20%",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392641+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
+          "sentence_hash": "363499fd16931dc30a68ba12a3af4896933130f6ca53c141e9c536934ce0d951",
+          "anchors": [
+            "chat",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Maybe an agent tries to book you a flight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.392651+08:00",
+          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
+          "excerpt": "Maybe an agent tries to book you a flight.",
+          "sentence_hash": "72accc0b2d420f24f2f9209f5520e94f47f0601b0ff5d38a80bc43b7042f9911",
+          "anchors": [
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "maybe",
+        "now",
+        "for",
+        "even",
+        "dusting",
+        "april",
+        "google",
+        "somewhere",
+        "and",
+        "capability",
+        "open",
+        "building",
+        "napkin",
+        "things",
+        "meanwhile",
+        "chat",
+        "llm",
+        "tab",
+        "you",
+        "around",
+        "mathematicians",
+        "hf"
+      ],
+      "numbers": [
+        "5,000 people",
+        "20%",
+        "75%",
+        "0.00006%",
+        "0.2%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 27
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "source_artifact_date": "2026-10-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_aa90a862ae6039ca7aec796b",
+      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+      "category": "国际",
+      "published_at": "2026-10-11T22:45:58+00:00",
+      "why_relevant": "胡塞袭击利雅得，地缘升级",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393346+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
+          "sentence_hash": "482ce465065bd36f9c3f52bd5e13d4d5974b038ad330a3e9460f0f1305e9423b",
+          "anchors": [
+            "11 injured"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393369+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
+          "sentence_hash": "80829905c4b1f3e0dfd52736e517fe63a4d8b23da98a3ce46edd2fc1d33ec9bc",
+          "anchors": [
+            "us",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393389+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
+          "sentence_hash": "68e8325b9513240118891e8dc9389f81e1ba1f7b244b1b45388887653480259e",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393408+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
+          "sentence_hash": "62262b4c6252cda654eec35e1f47642ea14bd78d7c5206767f935bb0c8cf148c",
+          "anchors": [
+            "13 people"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393427+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
+          "sentence_hash": "c9afc415e2b9164bad6beb384675e13c74617386d274cf7b7f8bbee1ffa55364",
+          "anchors": [
+            "they",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-12T08:03:19.393445+08:00",
+          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
+          "excerpt": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
+          "sentence_hash": "77c097a543d7aaf8ba8c035a1fe8fa18ceef104caf8cc1f813c0c339077c92f7",
+          "anchors": [
+            "they",
+            "one"
+          ]
+        }
+      ],
+      "entities": [
+        "pakistani",
+        "passenger hall no",
+        "secretary",
+        "state marco rubio",
+        "saudi arabian",
+        "iran",
+        "yemen",
+        "houthi",
+        "indian",
+        "published",
+        "sudan",
+        "riyadh",
+        "dammam",
+        "medina",
+        "the houthis",
+        "houthis",
+        "egypt",
+        "foreign office",
+        "published\none",
+        "israel",
+        "on sunday maj gen turki",
+        "brig gen yahya saree",
+        "february",
+        "us",
+        "saudi arabia",
+        "king khalid international airport",
+        "foreign secretary ed miliband",
+        "they",
+        "syria",
+        "the indian",
+        "gulf arab",
+        "uk",
+        "september\nsaturday",
+        "president donald trump",
+        "maliki",
+        "bangladesh",
+        "sunday",
+        "defence secretary wes streeting",
+        "four saudi",
+        "saudi",
+        "the saudi",
+        "sanaa",
+        "jordan",
+        "one",
+        "palestine",
+        "mecca"
+      ],
+      "numbers": [
+        "13 people",
+        "11 injured"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "source_artifact_date": "2026-10-12",
+      "freshness_label": "today"
+    }
+  ]
+}
