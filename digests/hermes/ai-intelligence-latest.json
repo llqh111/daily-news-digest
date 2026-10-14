@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12T00:07:25.868663+00:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T00:07:27.609846+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-12.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-14.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-11.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-13.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,124 +23,267 @@
   },
   "items": [
     {
-      "article_id": "a1_68d1d667bc13363eb0fa704f",
-      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+      "article_id": "a1_9e5a6e59b47c7c3dc984bdf9",
+      "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
+      "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Germany's Johann Wadephul said hybrid plots like the Starlink fire showed Europe was \"in Russia's crosshairs.\" The UK's Ed Miliband said Trump's Russian diesel deal led to a \"very difficult few days\" diplomatically.",
       "category": "国际",
-      "published_at": "2026-10-11T21:36:40+00:00",
-      "why_relevant": "能源停火提议，俄方沉默",
-      "relevance_score": 9.0,
+      "published_at": "2026-10-13T18:52:00+00:00",
+      "why_relevant": "盟友讨论星链袭击，俄乌冲突新战线",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
+          "text": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390128+08:00",
-          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
-          "excerpt": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an \"energy ceasefire\", with Kyiv saying it would support such a move but Moscow yet to comment.",
-          "sentence_hash": "43580e19cadc616dcb3da02630eb2659b62dc9922e42891839a84ab499c984ad",
+          "captured_at": "2026-10-14T08:04:06.218549+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.",
+          "sentence_hash": "77be62c2159db6398b23f5ce47c584e8a0ade6407389e14636bc0ca0ee3b4162",
           "anchors": [
-            "us"
+            "October 13",
+            "and"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
+          "text": "This came as investigators in Germany were chasing down suspects for a fire at a Starlink station in Poland, and as Ukraine's European allies scrambled to deal with US President Donald Trump's latest lurch into Vladimir Putin's lap.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390159+08:00",
-          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
-          "excerpt": "Ukrainian President Volodymyr Zelensky initially expressed surprise at the announcement, before saying Kyiv would support it if Moscow did.",
-          "sentence_hash": "529c86a3a8325fe11110d406c484d8c33f88b25acc9299c12a00f8f3798da270",
+          "captured_at": "2026-10-14T08:04:06.218570+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "This came as investigators in Germany were chasing down suspects for a fire at a Starlink station in Poland, and as Ukraine's European allies scrambled to deal with US President Donald Trump's latest lurch into Vladimir Putin's lap.",
+          "sentence_hash": "b83c1b992b91417db4f096942c2df10bb77ebd4ce9356cd5e92281fb82431aa3",
           "anchors": [
-            "all",
-            "for"
+            "us",
+            "and"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
+          "text": "What did the ministers say about Russian diesel and Ukraine?",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390177+08:00",
-          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
-          "excerpt": "He also accused Russia of striking Ukrainian energy facilities after Trump's post.",
-          "sentence_hash": "cac3dbdb8d7200c00981a51ffdb5f148296ab612e408a5b98745f01fa362172a",
+          "captured_at": "2026-10-14T08:04:06.218581+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "What did the ministers say about Russian diesel and Ukraine?",
+          "sentence_hash": "27e8ffc196ed0c535104df8489b61bee40c15827732672a1f24d973bba38b6df",
           "anchors": [
-            "us"
+            "us",
+            "and"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
+          "text": "German Foreign Minister Johann Wadephul bemoaned the US decision to lift sanctions on Russian diesel as part of a deal to supply the US — seemingly struck as Trump panics about fuel prices with the Iran war still unresolved and a month to go until midterm elections.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390203+08:00",
-          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
-          "excerpt": "Trump has been urging Ukraine to stop strikes on Russian oil infrastructure - which Kyiv says are vital to curtailing revenue for Moscow's war machine - so Russia can fulfil a recently-struck deal to release diesel to the US and the global market.",
-          "sentence_hash": "9965d5a69011ecbeb723cc609236c8a4412f9833862896d016dd0575fe30760c",
+          "captured_at": "2026-10-14T08:04:06.218607+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "German Foreign Minister Johann Wadephul bemoaned the US decision to lift sanctions on Russian diesel as part of a deal to supply the US — seemingly struck as Trump panics about fuel prices with the Iran war still unresolved and a month to go until midterm elections.",
+          "sentence_hash": "df4937b3986f146c0ef8363022348fe72239ddb10a4ea2a31aef11a8a8815263",
           "anchors": [
             "us",
-            "for"
+            "and"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
+          "text": "UK Foreign Secretary Ed Miliband arguably found even clearer words.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390217+08:00",
-          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
-          "excerpt": "The diesel deal, temporarily undoing sanctions on Russian imports, is attracting growing criticism.",
-          "sentence_hash": "2b1479379091c5dcd34b9e1107a255a2889e45285bee4bdc7122c912e6e9b522",
+          "captured_at": "2026-10-14T08:04:06.218629+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "UK Foreign Secretary Ed Miliband arguably found even clearer words.",
+          "sentence_hash": "087adf0add31c4f7f1a4c636d4096ddd2532035565806d16e7fe0b8ba39ae495",
           "anchors": [
-            "us"
+            "and"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Zelensky called it a gift to Russian President Vladimir Putin.",
+          "text": "\"Within the bounds of diplomacy we should acknowledge that it's been a very difficult few days,\" Miliband said in the Polish capital that's just a few hours' drive from Ukraine's western border.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390229+08:00",
-          "content_sha256": "6eca86b2e1df2a9f6e4cb87abe9d6c36a6baa3393cd83cd43b4192077d14b78a",
-          "excerpt": "Zelensky called it a gift to Russian President Vladimir Putin.",
-          "sentence_hash": "76951b59fecbde3770ff66b5f0f737f124b80b7ba70bff2e567c4a8c3257d52c",
+          "captured_at": "2026-10-14T08:04:06.218644+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "\"Within the bounds of diplomacy we should acknowledge that it's been a very difficult few days,\" Miliband said in the Polish capital that's just a few hours' drive from Ukraine's western border.",
+          "sentence_hash": "2a485d437303f020b3e6fecb20462a03d4d574b7eab8b87224944e911157fa2c",
           "anchors": [
             "us",
-            "all"
+            "and"
           ]
         }
       ],
       "entities": [
-        "zelensky",
-        "eu",
-        "us",
-        "for",
-        "france",
-        "iran",
-        "kharkiv",
-        "president trump",
-        "all",
-        "white house",
-        "uk",
-        "american",
-        "published\ndonald trump",
-        "axios",
-        "britain",
+        "europe",
         "russian",
-        "republican",
-        "ukrainian president volodymyr zelensky",
-        "bbc",
-        "russia",
+        "sikorski",
+        "espen barth eide",
+        "norway",
+        "within",
+        "maga",
+        "foreign minister radoslaw sikorski",
+        "miliband",
+        "facing",
+        "monday",
         "canada",
-        "kyiv",
-        "moscow",
+        "us",
         "european",
-        "prime minister andy burnham",
-        "america",
-        "russian president vladimir putin",
-        "ukrainian",
+        "washington",
         "trump",
-        "united states",
-        "ukraine"
+        "iran",
+        "starlink",
+        "german foreign minister johann wadephul",
+        "andrzej duda",
+        "president donald trump",
+        "polish",
+        "zelenskyy",
+        "putin",
+        "wadephul",
+        "eide",
+        "poland",
+        "warsaw security forum",
+        "pol",
+        "october",
+        "number",
+        "foreign secretary ed miliband",
+        "and",
+        "russia\nwadephul",
+        "tuesday",
+        "germany",
+        "vladimir putin",
+        "eu",
+        "ukraine",
+        "uk"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_d1067aefdbe26654565f8611",
+      "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
+      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal scale\".",
+      "category": "国际",
+      "published_at": "2026-10-13T15:52:15+00:00",
+      "why_relevant": "MI5 警告 AI 威胁，安全与科技交叉",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219144+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
+          "sentence_hash": "50b181cfe813647962806a6e2968b5b818486eb0a90fddd89ede483aaebe3b17",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Sir Ken McCallum said threats from foreign adversaries had quadrupled in the last decade, with Russia \"aggressor number one\" as well as increased Iran-linked aggression against Jewish sites and military bases.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219159+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "Sir Ken McCallum said threats from foreign adversaries had quadrupled in the last decade, with Russia \"aggressor number one\" as well as increased Iran-linked aggression against Jewish sites and military bases.",
+          "sentence_hash": "d3b5544dd3e791d1366640d8dd520057316ad4546275f2a734e07c7bee13e412",
+          "anchors": [
+            "with",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "At an annual speech in London, MI5's chief said Russia was waging hybrid warfare at a time when AI was \"supercharging the cyber-security contest between attackers and defenders\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219172+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "At an annual speech in London, MI5's chief said Russia was waging hybrid warfare at a time when AI was \"supercharging the cyber-security contest between attackers and defenders\".",
+          "sentence_hash": "07a8eca5cbb8a689891299b69dc5b94b0e8695a1467bc511be183a6fd3fd056f",
+          "anchors": [
+            "hybrid",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "He also warned of rising threats from \"extreme right-wing terrorism\" and said MI5 had \"caught terrorists seeking to exploit AI,\" including by integrating the technology with drones.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219185+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "He also warned of rising threats from \"extreme right-wing terrorism\" and said MI5 had \"caught terrorists seeking to exploit AI,\" including by integrating the technology with drones.",
+          "sentence_hash": "79597a3a21a55caafacc0f1d29954b7595f88c9fbda1ca7ad6b83038e6597d3f",
+          "anchors": [
+            "with",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "He said the biggest threat from the misuse of AI was extremist groups using the technology to harness new and existing bioweapons.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219196+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "He said the biggest threat from the misuse of AI was extremist groups using the technology to harness new and existing bioweapons.",
+          "sentence_hash": "e314bf5a6005ea246d1b1b9d0fe6a6a16f911aca7b4c849fe2de273c15e5d26e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Sir Ken said Russia had stopped short of \"conventional conflict\" against Nato and is instead trying to unsettle European countries while its progress in its full-scale invasion of Ukraine is \"minimal and horrifically costly\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219214+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "Sir Ken said Russia had stopped short of \"conventional conflict\" against Nato and is instead trying to unsettle European countries while its progress in its full-scale invasion of Ukraine is \"minimal and horrifically costly\".",
+          "sentence_hash": "24adf9694b4fb638f377ec67c784974bca0ceba4b0a51895c8164fb5ec20fa8a",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "europe",
+        "nato",
+        "cold war",
+        "russian",
+        "with",
+        "jewish",
+        "prime minister andy burnham",
+        "russia",
+        "however",
+        "ukraine",
+        "these",
+        "his",
+        "moscow",
+        "kremlin",
+        "sir ken",
+        "callum",
+        "published",
+        "european",
+        "brexit",
+        "sir ken mc",
+        "iran",
+        "asked",
+        "hybrid",
+        "ai",
+        "london",
+        "uk"
       ],
       "numbers": [],
       "dates": [],
@@ -151,391 +294,298 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 31
+        "anchor_count": 26
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
-      "source_artifact_date": "2026-10-12",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_43b0f832d5b7f2f6bcea0953",
-      "title": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met",
-      "url": "https://www.tomshardware.com/software/linux/cyberleek-threatens-full-gta-6-build-leak-unless-take-two-apologizes-and-his-usd30-million-crypto-memecoin-goal-is-met-leaker-demands-physical-release-while-pumping-solana-memecoin-to-usd30m",
-      "publisher": "Tom's Hardware",
-      "summary": "Notorious GTA VI leaker Cyberleek is threatening to release a full build of GTA VI if Take-Two doesn't release a physical build, but only if its memecoin hits $30 million.",
-      "category": "科技",
-      "published_at": "2026-10-11T16:10:00+00:00",
-      "why_relevant": "GTA6泄露与加密memecoin",
-      "relevance_score": 9.0,
+      "article_id": "a1_c1c84f4ba6b4f493e2da1a8b",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+      "category": "国际",
+      "published_at": "2026-10-13T23:42:22+00:00",
+      "why_relevant": "北溪事件开审，关键地缘政治进展",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
+          "text": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.390997+08:00",
-          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
-          "excerpt": "Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme",
-          "sentence_hash": "5c3571996e67444b9ecb3431939cb09620d80bcb41c57f7d8118d45942ebcaa2",
+          "captured_at": "2026-10-14T08:04:06.219707+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe",
+          "sentence_hash": "270471ae1c5e9c826b7ddad13ecd6268705d611cb3a0f33a07ceca0062123b71",
           "anchors": [
-            "us",
-            "$30",
-            "while",
-            "$30 million",
-            "30 million"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
+          "text": "Serhii K, as he is identified by German prosecutors, is accused of plotting with other Ukrainian military personnel to destroy the pipelines and stop Russia financing its war with gas revenue.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391035+08:00",
-          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
-          "excerpt": "Cyberleek, the infamous group that's been drip-feeding the gaming community with improperly tone-mapped leaks of GTA 6 from what appears to be a real final build of the game, has just put down an ultimatum for Take-Two Interactive and Rockstar Games: do a physical release for GTA",
-          "sentence_hash": "93992171d459f245c31edd0a6bbf4da6c836c934ce416d7baaefcb078bc1ec05",
+          "captured_at": "2026-10-14T08:04:06.219723+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "Serhii K, as he is identified by German prosecutors, is accused of plotting with other Ukrainian military personnel to destroy the pipelines and stop Russia financing its war with gas revenue.",
+          "sentence_hash": "2e5efe85435905111a4a23d987b1a9115116ab4057f0624e938da5516b2cc102",
           "anchors": [
-            "am",
             "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
+          "text": "The case is highly sensitive in Germany, seen as one of Ukraine's closest allies since Russia launched its full-scale invasion in February 2022, seven months before the attacks took place.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391058+08:00",
-          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
-          "excerpt": "As we reported previously, Cyberleek is leveraging its stolen build of Grand Theft Auto VI to try and pump its memecoin, $CYBERLEEK on Solana.",
-          "sentence_hash": "cccd3ef344513ef83ae908a49e889fea45112ed113f20a8de48a3605352d63fa",
+          "captured_at": "2026-10-14T08:04:06.219738+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "The case is highly sensitive in Germany, seen as one of Ukraine's closest allies since Russia launched its full-scale invasion in February 2022, seven months before the attacks took place.",
+          "sentence_hash": "96d6e4a57ddd93802f93039c8ffe4196f0fc0c50827912faa3173157042323a3",
           "anchors": [
             "us",
-            "vi"
+            "February 20"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
+          "text": "Serhii K, extradited to Germany last year, will become the first suspect to go on trial for the blasts.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391076+08:00",
-          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
-          "excerpt": "That has seemingly always been the plan; the leakers cashed out some $250,000 just hours before Rockstar's Extended Look show went live on Netflix.",
-          "sentence_hash": "dab55bd3a26b7ee699687617d979c546d14ba377702b7c9b6363a0b02640c5d1",
+          "captured_at": "2026-10-14T08:04:06.219749+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "Serhii K, extradited to Germany last year, will become the first suspect to go on trial for the blasts.",
+          "sentence_hash": "40c8043f4a440ec3db60bb55b3c4f5178c3208b6afdd8b19fdaff8593d32bb4b",
           "anchors": [
-            "us",
-            "$250,000 "
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
+          "text": "He denies the charges, as does a second suspect who is fighting extradition from Croatia.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391100+08:00",
-          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
-          "excerpt": "We thought that would probably be the last we heard of Cyberleek, but the outlaw has returned this week with more leaks, including footage of both main characters as undressed as they get and numerous major story spoilers.",
-          "sentence_hash": "1bcc6db4907ad078480cda6906b8e45d3ad22ea471a582e5b206b43df2aa5e3c",
+          "captured_at": "2026-10-14T08:04:06.219759+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "He denies the charges, as does a second suspect who is fighting extradition from Croatia.",
+          "sentence_hash": "457a21f0bef63616d16a0a85f1e8577f9a56eeb616555755cb9c9e0808cce1b5",
           "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
+          "text": "In the months after explosives destroyed three of the four gas pipelines in the Baltic Sea off the island of Bornholm on 26 September 2022, Western suspicion looked towards Moscow without directly apportioning blame.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391112+08:00",
-          "content_sha256": "581b61517e0bd36031b83d37d6e7b03f3264bb274ce8f9c68701e3d09a883d26",
-          "excerpt": "This time, Cyberleek's goals are grander, and also more transparently self-serving.",
-          "sentence_hash": "00d213078d485f48ba3fb47e2224bc97836a93c64611655ff9a20b98159723fb",
+          "captured_at": "2026-10-14T08:04:06.219774+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "In the months after explosives destroyed three of the four gas pipelines in the Baltic Sea off the island of Bornholm on 26 September 2022, Western suspicion looked towards Moscow without directly apportioning blame.",
+          "sentence_hash": "f33815facc6e070a6f1a3f7fca7eb02593e16865d3f2643b98a14854b4e01b23",
           "anchors": [
-            "vi"
+            "us",
+            "September 20"
           ]
         }
       ],
       "entities": [
+        "january",
+        "russian",
+        "published\nfour",
+        "wednesday",
+        "german",
+        "nord stream",
+        "sweden",
+        "russia",
+        "ukrainian",
+        "september",
+        "saxons",
         "us",
-        "those",
-        "well",
-        "november",
-        "while",
-        "gta",
-        "am",
-        "central",
-        "cyberleek",
-        "rockstar",
-        "grand theft auto",
-        "neither rockstar",
-        "rockstar games",
-        "extended look",
-        "lucia",
-        "solana",
-        "netflix",
-        "two",
-        "vi",
-        "the offer",
-        "take",
-        "two interactive",
-        "have"
+        "european",
+        "kyiv",
+        "rostock",
+        "serhii",
+        "eventually",
+        "hamburg",
+        "volodymyr zelensky",
+        "anglo",
+        "how german",
+        "croatia",
+        "baltic sea",
+        "andromeda",
+        "denmark",
+        "bornholm",
+        "moscow",
+        "published",
+        "they",
+        "despite",
+        "germany",
+        "february",
+        "berlin",
+        "vladimir putin",
+        "ukraine",
+        "western",
+        "uk"
       ],
-      "numbers": [
-        "$250,000 ",
-        "7.6 million",
-        "$5 million",
-        "5 million",
-        "$30",
-        "$6 million",
-        "6 million",
-        "$30 million",
-        "30 million",
-        "$7.6 million"
-      ],
+      "numbers": [],
       "dates": [
-        "November 19"
+        "January 20",
+        "February 20",
+        "September 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 34
+        "anchor_count": 40
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
-      "source_artifact_date": "2026-10-12",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_fe3794a75007bc3594fb01f2",
-      "title": "Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
-      "publisher": "Tom's Hardware",
-      "summary": "Russian bot traffic falls dramatically as Ukraine takes out several Yandex data centers.",
+      "article_id": "a1_ed108fd86da5bb0dce71a73b",
+      "title": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "publisher": "GitHub Trending",
+      "summary": "AirLLM 2.8T LLM inference with single 4GB GPU \nQuickstart | Configurations | MacOS | Example notebooks | FAQ \nAirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB. We now also support training huge models on small VRAM: Qwen3",
       "category": "科技",
-      "published_at": "2026-10-11T13:15:09+00:00",
-      "why_relevant": "乌击Yandex数据中心",
-      "relevance_score": 9.0,
+      "published_at": "",
+      "why_relevant": "低显存跑 2.8T 模型，降低本地推理门槛",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
+          "text": "Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391819+08:00",
-          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
-          "excerpt": "Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.",
-          "sentence_hash": "fc8f359abf17b52bd116b417d195d3bf32238e981d51de31718e304a9230e7c4",
+          "captured_at": "2026-10-14T08:04:06.220328+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.",
+          "sentence_hash": "4f87b93d099c25eb4dd77676ed991ef98da245ca143383f0bcf0c05d800e3a6a",
           "anchors": [
-            "net",
-            "0.4%"
+            "model"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "It initially dropped to around 57% on Oct.",
+          "text": "You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391830+08:00",
-          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
-          "excerpt": "It initially dropped to around 57% on Oct.",
-          "sentence_hash": "504625a373cd0e503456a3341630b3192fad9756cb8dcc1ffa3c0fa8e3759011",
+          "captured_at": "2026-10-14T08:04:06.220347+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB.",
+          "sentence_hash": "4e6952e63ac5875b1657dd2a7c763a67c24d8c5026d7eb8e8a4f30fd6503e574",
           "anchors": [
-            "57%"
+            "model"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
+          "text": "We now also support training huge models on small VRAM: Qwen3.8-Flash-Next (125B) under 6GB.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391874+08:00",
-          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
-          "excerpt": "Global internet monitoring firm NetBlocks said that Yandex’s network traffic has dropped to just 30% for Yandex Cloud and 63% for Yandex LLC, most likely resulting in slower internet services or complete disruption for the average Russian.",
-          "sentence_hash": "1d7bfefcb31a241c1ec825a89492074f20516d0624fd66efa8912ce2590a06e1",
+          "captured_at": "2026-10-14T08:04:06.220358+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "We now also support training huge models on small VRAM: Qwen3.8-Flash-Next (125B) under 6GB.",
+          "sentence_hash": "4fd3b0f6425cf6697f42fd85681d760518cd9e0df694cefd8d260c76e5d823b6",
           "anchors": [
-            "net",
-            "30%",
-            "63%"
+            "training",
+            "model",
+            "support"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
+          "text": "[2026/09] Training support: stream frozen weights one layer at a time and keep adapters on the GPU.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.391901+08:00",
-          "content_sha256": "3433caa9d38e99b10b2a4db2f4f80d1465889b97e4e49190b48e26029f052d7a",
-          "excerpt": "Unfortunately, the ordinary Russian wouldn’t be able to use high-speed satellite internet as a backup, as Starlink does not work in Russia, while the competing Rassvet constellation has had a good number of its existing satellites fall back to the surface after launch.",
-          "sentence_hash": "f22a53c30b600dd1ef7340d5b55590a38f176dba70f24af0c430d5c8f7ccd3c6",
+          "captured_at": "2026-10-14T08:04:06.220370+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "[2026/09] Training support: stream frozen weights one layer at a time and keep adapters on the GPU.",
+          "sentence_hash": "650b8f75cae183a57e289009d72b0c26a9765dfc1f596506b1f5daf354af731c",
           "anchors": [
-            "net",
-            "while"
-          ]
-        }
-      ],
-      "entities": [
-        "these",
-        "crimea",
-        "however",
-        "while",
-        "yandex cloud",
-        "google",
-        "net",
-        "http",
-        "russian",
-        "russia",
-        "cloudflare",
-        "kremlin",
-        "kaluga",
-        "kyiv",
-        "global",
-        "moscow",
-        "unfortunately",
-        "llc",
-        "blocks",
-        "starlink",
-        "yandex",
-        "sasovo",
-        "oct",
-        "rassvet",
-        "ukraine"
-      ],
-      "numbers": [
-        "30%",
-        "57%",
-        "0.4%",
-        "63%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 4,
-        "anchor_count": 29
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
-      "source_artifact_date": "2026-10-12",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_77fb233231ebc610a46ed8d1",
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "publisher": "Hacker News",
-      "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046\nComments URL: https://news.ycombinator.com/item?id=50047422\nPoints: 181\n# Comments: 268",
-      "category": "科技",
-      "published_at": "2026-10-11T20:20:52+00:00",
-      "why_relevant": "LLM能力理解差距，Karpathy",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.392586+08:00",
-          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
-          "excerpt": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.",
-          "sentence_hash": "3e6ddcd293560a53a7c3b5cca0823c0e11757b343ff897fcc9a68bfcca98119b",
-          "anchors": [
-            "capability",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.392601+08:00",
-          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
-          "excerpt": "It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
-          "sentence_hash": "2827c229f32385802155257a91339967a7902a860fb11c014496e130fafbe753",
-          "anchors": [
-            "now",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.392616+08:00",
-          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
-          "excerpt": "- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.",
-          "sentence_hash": "12d2af3ae037b368d0e812ebf579eb3ebf1dc0f9fd1e78a202a4d7ca24831f37",
-          "anchors": [
-            "75%",
-            "around",
-            "somewhere"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.392628+08:00",
-          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
-          "excerpt": "- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products.",
-          "sentence_hash": "54dc59a3d78c463ed3e04aa82fbc7e309ec7476ce0e9fc25e551c77351b59c84",
-          "anchors": [
-            "20%",
-            "and"
+            "support",
+            "ada"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
+          "text": "[2026/08] Qwen3.8-Flash-Next support: Qwen's 125B MoE flagship (Qwen4ExpForConditionalGeneration) with a ~51B n-gram embedding runs in 5.95GB of VRAM, measured end to end on one RTX 4090.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.392641+08:00",
-          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
-          "excerpt": "This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc.",
-          "sentence_hash": "363499fd16931dc30a68ba12a3af4896933130f6ca53c141e9c536934ce0d951",
+          "captured_at": "2026-10-14T08:04:06.220391+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "[2026/08] Qwen3.8-Flash-Next support: Qwen's 125B MoE flagship (Qwen4ExpForConditionalGeneration) with a ~51B n-gram embedding runs in 5.95GB of VRAM, measured end to end on one RTX 4090.",
+          "sentence_hash": "eddfe237b2146a6b4a4e8ddfaa270d16cfa9d44dbdccd733758df3a1cf800274",
           "anchors": [
-            "chat",
-            "and"
+            "support"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Maybe an agent tries to book you a flight.",
+          "text": "The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.392651+08:00",
-          "content_sha256": "e278b0d2180b27fccb8b30bd2b933909165a9f657f1085da074153ef18ea6fc2",
-          "excerpt": "Maybe an agent tries to book you a flight.",
-          "sentence_hash": "72accc0b2d420f24f2f9209f5520e94f47f0601b0ff5d38a80bc43b7042f9911",
+          "captured_at": "2026-10-14T08:04:06.220402+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream.",
+          "sentence_hash": "9655469499aefb8630d37e275288fa2ac3ec91348ab7906a5a9c8a6728c0553c",
           "anchors": [
-            "you"
+            "mac"
           ]
         }
       ],
       "entities": [
-        "maybe",
-        "now",
-        "for",
-        "even",
-        "dusting",
-        "april",
-        "google",
-        "somewhere",
-        "and",
-        "capability",
-        "open",
-        "building",
-        "napkin",
-        "things",
-        "meanwhile",
-        "chat",
-        "llm",
-        "tab",
         "you",
-        "around",
-        "mathematicians",
-        "hf"
+        "auto",
+        "true",
+        "llama",
+        "exp",
+        "configurations",
+        "support mac",
+        "see training",
+        "for",
+        "generation",
+        "per",
+        "net",
+        "seek",
+        "example",
+        "support llama",
+        "added auto",
+        "gated delta",
+        "model",
+        "deep",
+        "ada",
+        "air",
+        "quickstart",
+        "mac",
+        "conditional",
+        "needs",
+        "peiris",
+        "support air",
+        "cuda",
+        "navod",
+        "gemma",
+        "run deep",
+        "run llama",
+        "support",
+        "flash",
+        "thanks",
+        "next",
+        "gated attention",
+        "training",
+        "phi",
+        "faq",
+        "kimi",
+        "support qwen",
+        "rtx",
+        "qwen",
+        "vram",
+        "gpu",
+        "vl",
+        "mixtral",
+        "cpu"
       ],
       "numbers": [
-        "5,000 people",
-        "20%",
-        "75%",
-        "0.00006%",
-        "0.2%"
+        "10%"
       ],
       "dates": [],
       "unknowns": [
@@ -545,152 +595,159 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 27
+        "anchor_count": 50
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
-      "source_artifact_date": "2026-10-12",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_aa90a862ae6039ca7aec796b",
-      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
-      "category": "国际",
-      "published_at": "2026-10-11T22:45:58+00:00",
-      "why_relevant": "胡塞袭击利雅得，地缘升级",
+      "article_id": "a1_d077dad58a4e25a6d04fc434",
+      "title": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "publisher": "GitHub Trending",
+      "summary": "Official inference framework for 1-bit LLMs \n bitnet.cpp \n       \n \n \n 📰 News \n 07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms. [Code] [Models] [Report]  \n 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "1-bit LLM 推理框架，模型量化加速",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
+          "text": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.393346+08:00",
-          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
-          "excerpt": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.",
-          "sentence_hash": "482ce465065bd36f9c3f52bd5e13d4d5974b038ad330a3e9460f0f1305e9423b",
+          "captured_at": "2026-10-14T08:04:06.220963+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.",
+          "sentence_hash": "8efb3b420384847f513fbfa53c5383e760514f9f9e7aa01624f231851df8e20f",
           "anchors": [
-            "11 injured"
+            "inference"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
+          "text": "[Code] [Models] [Report] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.393369+08:00",
-          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
-          "excerpt": "A Saudi military spokesman said a projectile had hit King Khalid International Airport on Sunday, causing a fire in one of its passenger halls.",
-          "sentence_hash": "80829905c4b1f3e0dfd52736e517fe63a4d8b23da98a3ce46edd2fc1d33ec9bc",
+          "captured_at": "2026-10-14T08:04:06.220986+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "[Code] [Models] [Report] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.",
+          "sentence_hash": "1911b794a72dba50e8b6478650a85e4417d27a0e9db1d5d14431b6ba9fa50bfe",
           "anchors": [
-            "us",
-            "one"
+            "bit",
+            "inference",
+            "models",
+            "fast"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
+          "text": "- 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill (8 threads) - 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill (8 threads) - Supports I2_S conversion with optimized kernels on x86 CPUs - Lossless inference with 2 bits per weight 07/16/2026: 📣 Re",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.393389+08:00",
-          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
-          "excerpt": "Saudi Arabia's civil aviation authority said in a statement on X that one person, a Pakistani resident, had been killed in the attack.",
-          "sentence_hash": "68e8325b9513240118891e8dc9389f81e1ba1f7b244b1b45388887653480259e",
+          "captured_at": "2026-10-14T08:04:06.221016+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "- 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill (8 threads) - 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill (8 threads) - Supports I2_S conversion with optimized kernels on x86 CPUs - Lossless inference with 2 bits per weight 07/16/2026: 📣 Re",
+          "sentence_hash": "824cfab2b8f55a259eaafdbb8cf8dc64c0788686771161fd92d7bf7e4bffd52d",
           "anchors": [
-            "one"
+            "conversion",
+            "inference",
+            "bit",
+            "bits",
+            "models",
+            "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
+          "text": "05/20/2025: 📣 Released BitNet Official GPU inference kernel — extending 1-bit inference beyond CPUs.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.393408+08:00",
-          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
-          "excerpt": "It comes a day after a strike on the same airport killed 13 people and injured 308 others, following similar strikes earlier this week.",
-          "sentence_hash": "62262b4c6252cda654eec35e1f47642ea14bd78d7c5206767f935bb0c8cf148c",
+          "captured_at": "2026-10-14T08:04:06.221041+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "05/20/2025: 📣 Released BitNet Official GPU inference kernel — extending 1-bit inference beyond CPUs.",
+          "sentence_hash": "8f441e73dc97de88886ad37d6d4f4f3796f4e987d9a48830c72ec44d7218bed7",
           "anchors": [
-            "13 people"
+            "bit",
+            "inference"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
+          "text": "04/14/2025: 📣 Released BitNet Official 2B Parameter Model on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.393427+08:00",
-          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
-          "excerpt": "The Houthis in Yemen said they were behind the attacks and warned airlines and passengers against using Saudi Arabian airports and airspace.",
-          "sentence_hash": "c9afc415e2b9164bad6beb384675e13c74617386d274cf7b7f8bbee1ffa55364",
+          "captured_at": "2026-10-14T08:04:06.221057+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "04/14/2025: 📣 Released BitNet Official 2B Parameter Model on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.",
+          "sentence_hash": "224d34ff4c55b73db76e409580422b9a808e48f1387fa141118acffd5d588010",
           "anchors": [
-            "they",
-            "us"
+            "ai"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
+          "text": "02/18/2025: 📑 Bitnet.cpp: Efficient Edge Inference for Ternary LLMs — system-level paper on bitnet.cpp's architecture and design.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-12T08:03:19.393445+08:00",
-          "content_sha256": "c8028ba50dc34fd69faeeb3c87e2ab7a255761c4724a451cc6de477493332789",
-          "excerpt": "The group said they had targeted the airport with a mix of ballistic and cruise missiles, as well as drones in the past 24 hours.",
-          "sentence_hash": "77c097a543d7aaf8ba8c035a1fe8fa18ceef104caf8cc1f813c0c339077c92f7",
+          "captured_at": "2026-10-14T08:04:06.221073+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "02/18/2025: 📑 Bitnet.cpp: Efficient Edge Inference for Ternary LLMs — system-level paper on bitnet.cpp's architecture and design.",
+          "sentence_hash": "e188b69f27a3d63b1b609f011f49dc89e4252ce9427a7764cf2070612972e11c",
           "anchors": [
-            "they",
-            "one"
+            "bit",
+            "net",
+            "bitnet"
           ]
         }
       ],
       "entities": [
-        "pakistani",
-        "passenger hall no",
-        "secretary",
-        "state marco rubio",
-        "saudi arabian",
-        "iran",
-        "yemen",
-        "houthi",
-        "indian",
-        "published",
-        "sudan",
-        "riyadh",
-        "dammam",
-        "medina",
-        "the houthis",
-        "houthis",
-        "egypt",
-        "foreign office",
-        "published\none",
-        "israel",
-        "on sunday maj gen turki",
-        "brig gen yahya saree",
-        "february",
-        "us",
-        "saudi arabia",
-        "king khalid international airport",
-        "foreign secretary ed miliband",
-        "they",
-        "syria",
-        "the indian",
-        "gulf arab",
-        "uk",
-        "september\nsaturday",
-        "president donald trump",
-        "maliki",
-        "bangladesh",
-        "sunday",
-        "defence secretary wes streeting",
-        "four saudi",
-        "saudi",
-        "the saudi",
-        "sanaa",
-        "jordan",
-        "one",
-        "palestine",
-        "mecca"
+        "lossless bit",
+        "conversion",
+        "supports",
+        "npu",
+        "infra",
+        "training tips",
+        "net",
+        "models",
+        "ternary",
+        "activations",
+        "rtf",
+        "parameter model",
+        "scaling",
+        "additionally",
+        "the era",
+        "fast",
+        "inference",
+        "bits",
+        "try",
+        "net official",
+        "released bit",
+        "asr",
+        "hugging face",
+        "ai",
+        "bitnet",
+        "vibe",
+        "transformers",
+        "era",
+        "bit",
+        "part",
+        "net embeddings",
+        "furthermore",
+        "faq",
+        "code",
+        "inference optimization",
+        "large language models",
+        "lossless",
+        "all large language models",
+        "gpu",
+        "neon",
+        "efficient edge inference",
+        "arm",
+        "cpu"
       ],
       "numbers": [
-        "13 people",
-        "11 injured"
+        "82.2%",
+        "71.9%",
+        "70.0%",
+        "55.4%"
       ],
       "dates": [],
       "unknowns": [
@@ -698,14 +755,14 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 48
+        "anchor_count": 47
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-12-AM.json",
-      "source_artifact_date": "2026-10-12",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
       "freshness_label": "today"
     }
   ]

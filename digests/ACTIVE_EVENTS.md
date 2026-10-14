@@ -1,6 +1,76 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-12 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-14 08:07。
+
+## Saudi OpenAI engineer arrested by FBI for planting covert recording device, US DOJ says
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261014_44d5177f69e5`
+
+## Ukraine allies in Poland after Starlink sabotage, Trump diesel deal
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.
+- 事件 ID：`evt_20261014_3cb332a7e59f`
+
+## Fed Governor Cook's lawyer denounces Trump's latest attempt to remove her
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261014_fa970121aeaa`
+
+## MI5 chief warns of threats to UK from Russia, Iran and AI
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261014_fd6873d2b3bf`
+
+## Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261014_d47f3988da70`
+
+## Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe
+- 事件 ID：`evt_20261014_9385bce53cda`
+
+## lyogavin/airllm
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261014_97d284d111b5`
+
+## microsoft/BitNet
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261014_3a957f9f9f71`
+
+## Saudi Aramco HQ attacked in suspected Houthi strike
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261014_2af6756996e0`
+
+## IMF flags risks to global economy from AI market correction, war and debt
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261014_ea3508cc899c`
+
+## open-webui/open-webui
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：Open WebUI is a home for AI, a self-hosted AI platform that's extensible, feature-rich, user-friendly, and built to run entirely offline.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261014_20c3bf7d1c82`
+
+## bilawalsidhu/gods-eye-view
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
+- 事件 ID：`evt_20261014_3ea1a870cbe0`
+
+## Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
+- 最新事实：Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns Investors are positioning ahead of today's bank earnings reports and Wednesday’s U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261014_1fe0eb02ef5d`
 
 ## mksglu/context-mode
 - 状态：更新中；首见 2026-09-09；最近更新 2026-10-12
@@ -1152,151 +1222,4 @@
 - 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
 - 最新事实：Trump to consider releasing 9/11 records after families’ request Families allege that a group of religious leaders in Saudi Arabia gained influence in the Saudi government and aided the hijackers in 2001 US President Donald Trump on Sunday said he will look into requests from fam
 - 事件 ID：`evt_20260914_1e0a0e4b901f`
-
-## Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels also used the bot to code ballistic missile guidance systems
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：Iran and Houthi rebels used Anthropic's Claude AI to target US warships and build hypersonic missiles — Houthi rebels also used the bot to code ballistic missile guidance systems 'Great Satan's' AI comes in handy.
-- 事件 ID：`evt_20260913_920b1a318228`
-
-## How To Unlock DLSS Multi Frame Generation on RTX 40, RTX 30 & RTX 20 GPUs
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：DLSS Frame Generation And Multi Frame Generation Explained Traditional rendering requires the GPU to render every displayed frame from the game engine.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_9ea513dc765a`
-
-## Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：Saudi Arabia has previously accused Iran-backed militia in Iraq of targeting its oil facilities.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_3e5a37a5d2f4`
-
-## Nvidia is the central bank of AI
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260913_9c7ae770ca7b`
-
-## OpenAI agents attacked RubyGems back in May
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：OpenAI agents attacked RubyGems back in May 12th September 2026 OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx—three of the four authors of the report on the agent attack on disused wikis
-- 事件 ID：`evt_20260913_0af3d4638790`
-
-## Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260913_2e64551f8c6e`
-
-## Second crypto billionaire donates record $49m to far-right Reform UK
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：Second crypto billionaire donates record $49m to far-right Reform UK The two donations increase the total sum of money pledged to Reform since Friday to $97m.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_d26c44aa01b8`
-
-## Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC - Published Ukraine is facing its "toughest winter" since Russia's full-scale invasion in 2022, a top United Nations official told the BBC.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_01818c5c8b32`
-
-## Modi and Xi agree to look beyond 'differences' at New Delhi talks
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_cacb6058f065`
-
-## J.D. Vance group courted Brazil’s Flavio Bolsonaro over anti-China rare earth deal: report
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：Written in English and dated March 19, the 22-page presentation was drafted by Andre Marinho, a close Bolsonaro ally who presented the plan to the Rockbridge Network, a group of wealthy conservative donors founded by J.D.
-- 事件 ID：`evt_20260913_00bba47089aa`
-
-## Houthis hit Saudi base amid renewed fighting with Yemen government forces
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：Houthis hit Saudi base amid renewed fighting with Yemen government forces The rebels have cemented their hold on the Bab al-Mandab Strait, which has become a key route for oil exports after Iran’s Hormuz blockade Houthi fighters on Sunday said they used drones and missiles to att
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_404c8d1e146b`
-
-## India’s central bank tells Tata Sons to take conglomerate public
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 最新事实：India’s central bank tells Tata Sons to take conglomerate public Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260913_7203272e1862`
-
-## Bitcoin activity, passports exposed after Revolut falls for fake government request
-- 状态：更新中；首见 2026-09-13；最近更新 2026-09-13
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260913_7d74e17b2359`
-
-## Saudi Arabia says East-West pipeline hit by drones launched from Iraq
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：“At the request of the Iraqi Prime Minister to allow the brotherly Iraqi government the opportunity to take the necessary measures to prevent attacks launched from Iraqi territory against the Kingdom and neighbouring countries, the Kingdom has chosen not to respond at this stage 
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_468d702d491f`
-
-## Chinese AI firms shunned US delegation over sanctions fears, commission says
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：Chinese AI firms shunned US delegation over sanctions fears, commission says Members stress value of Washington-Beijing dialogue as both sides prepare for dedicated talks on AI governance A US congressional advisory body on China said on Friday that leading Chinese artificial int
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_a6b3389da7a0`
-
-## AI fight shadows final preparations for Xi Jinping’s White House visit to meet Donald Trump
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：Advertisement ExclusiveAI fight shadows final preparations for Xi Jinping’s White House visit to meet Donald Trump Chinese side is said to view US requests as limiting both harmful outcomes from AI and Beijing’s ability to develop its own capabilities 4-MIN READ4-MIN 2 Listen Ris
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_5724599ac9e5`
-
-## AlexsJones/llmfit
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：llmfit inspects your CPU, system RAM, GPU(s), VRAM, and accelerator configuration to recommend models across popular quantizations.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_1f12e5ffd56f`
-
-## Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260912_56ea43566af4`
-
-## Iran pursues cautious escalation ahead of US midterms
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：Iran pursues cautious escalation ahead of US midterms September 11, 2026 The war with Iran "is going to end immediately after the [US midterm] election because they can't hold out any longer," US President Donald Trump said of Iran's leaders on Wednesday.
-- 事件 ID：`evt_20260912_5e7ce3886da5`
-
-## Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：A senior Trump administration official later told the BBC: "We are in continuous dialogue with Saudi Arabia and the Republic of Yemen government regarding regional stability." On Friday, Yemeni pro-government forces withdrew from Perim (also known as Mayyun).
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_d380c578c4b1`
-
-## Israel says it has destroyed major underground Hezbollah base
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：It said it used more than 1,000 tonnes of explosives to destroy two tunnels spanning more than 2km (1.2 miles) beneath the Ali Taher Ridge.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_f5a1b9887010`
-
-## alsk1992/CloddsBot
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：AI-powered trading terminal for prediction markets, crypto & futures Claude + Odds = Clodds Clodds CA: 2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump Quick Start • WebChat • Features • Channels • Markets • Launch • Forum • Docs Clodds is a personal AI trading terminal for predictio
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_96a2d754e1e1`
-
-## cathrynlavery/diagram-design
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_c62448e8cea7`
-
-## JPMorgan cut off Situational Awareness lending after AI losses
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：JPMorgan cut off Situational Awareness lending after AI losses Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_bdcf3840f482`
-
-## Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260912_626260173c0a`
-
-## armory3d/armorpaint
-- 状态：更新中；首见 2026-09-12；最近更新 2026-09-12
-- 最新事实：ArmorPaint is a software for 3D PBR texture painting - check out the manual.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260912_b50d170798a7`
 

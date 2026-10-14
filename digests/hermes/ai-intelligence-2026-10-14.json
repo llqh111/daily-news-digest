@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T00:07:27.609846+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-14.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-13.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_9e5a6e59b47c7c3dc984bdf9",
+      "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
+      "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Germany's Johann Wadephul said hybrid plots like the Starlink fire showed Europe was \"in Russia's crosshairs.\" The UK's Ed Miliband said Trump's Russian diesel deal led to a \"very difficult few days\" diplomatically.",
+      "category": "国际",
+      "published_at": "2026-10-13T18:52:00+00:00",
+      "why_relevant": "盟友讨论星链袭击，俄乌冲突新战线",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.218549+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.",
+          "sentence_hash": "77be62c2159db6398b23f5ce47c584e8a0ade6407389e14636bc0ca0ee3b4162",
+          "anchors": [
+            "October 13",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This came as investigators in Germany were chasing down suspects for a fire at a Starlink station in Poland, and as Ukraine's European allies scrambled to deal with US President Donald Trump's latest lurch into Vladimir Putin's lap.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.218570+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "This came as investigators in Germany were chasing down suspects for a fire at a Starlink station in Poland, and as Ukraine's European allies scrambled to deal with US President Donald Trump's latest lurch into Vladimir Putin's lap.",
+          "sentence_hash": "b83c1b992b91417db4f096942c2df10bb77ebd4ce9356cd5e92281fb82431aa3",
+          "anchors": [
+            "us",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "What did the ministers say about Russian diesel and Ukraine?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.218581+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "What did the ministers say about Russian diesel and Ukraine?",
+          "sentence_hash": "27e8ffc196ed0c535104df8489b61bee40c15827732672a1f24d973bba38b6df",
+          "anchors": [
+            "us",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "German Foreign Minister Johann Wadephul bemoaned the US decision to lift sanctions on Russian diesel as part of a deal to supply the US — seemingly struck as Trump panics about fuel prices with the Iran war still unresolved and a month to go until midterm elections.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.218607+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "German Foreign Minister Johann Wadephul bemoaned the US decision to lift sanctions on Russian diesel as part of a deal to supply the US — seemingly struck as Trump panics about fuel prices with the Iran war still unresolved and a month to go until midterm elections.",
+          "sentence_hash": "df4937b3986f146c0ef8363022348fe72239ddb10a4ea2a31aef11a8a8815263",
+          "anchors": [
+            "us",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "UK Foreign Secretary Ed Miliband arguably found even clearer words.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.218629+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "UK Foreign Secretary Ed Miliband arguably found even clearer words.",
+          "sentence_hash": "087adf0add31c4f7f1a4c636d4096ddd2532035565806d16e7fe0b8ba39ae495",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"Within the bounds of diplomacy we should acknowledge that it's been a very difficult few days,\" Miliband said in the Polish capital that's just a few hours' drive from Ukraine's western border.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.218644+08:00",
+          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
+          "excerpt": "\"Within the bounds of diplomacy we should acknowledge that it's been a very difficult few days,\" Miliband said in the Polish capital that's just a few hours' drive from Ukraine's western border.",
+          "sentence_hash": "2a485d437303f020b3e6fecb20462a03d4d574b7eab8b87224944e911157fa2c",
+          "anchors": [
+            "us",
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "europe",
+        "russian",
+        "sikorski",
+        "espen barth eide",
+        "norway",
+        "within",
+        "maga",
+        "foreign minister radoslaw sikorski",
+        "miliband",
+        "facing",
+        "monday",
+        "canada",
+        "us",
+        "european",
+        "washington",
+        "trump",
+        "iran",
+        "starlink",
+        "german foreign minister johann wadephul",
+        "andrzej duda",
+        "president donald trump",
+        "polish",
+        "zelenskyy",
+        "putin",
+        "wadephul",
+        "eide",
+        "poland",
+        "warsaw security forum",
+        "pol",
+        "october",
+        "number",
+        "foreign secretary ed miliband",
+        "and",
+        "russia\nwadephul",
+        "tuesday",
+        "germany",
+        "vladimir putin",
+        "eu",
+        "ukraine",
+        "uk"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_d1067aefdbe26654565f8611",
+      "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
+      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal scale\".",
+      "category": "国际",
+      "published_at": "2026-10-13T15:52:15+00:00",
+      "why_relevant": "MI5 警告 AI 威胁，安全与科技交叉",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219144+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
+          "sentence_hash": "50b181cfe813647962806a6e2968b5b818486eb0a90fddd89ede483aaebe3b17",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Sir Ken McCallum said threats from foreign adversaries had quadrupled in the last decade, with Russia \"aggressor number one\" as well as increased Iran-linked aggression against Jewish sites and military bases.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219159+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "Sir Ken McCallum said threats from foreign adversaries had quadrupled in the last decade, with Russia \"aggressor number one\" as well as increased Iran-linked aggression against Jewish sites and military bases.",
+          "sentence_hash": "d3b5544dd3e791d1366640d8dd520057316ad4546275f2a734e07c7bee13e412",
+          "anchors": [
+            "with",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "At an annual speech in London, MI5's chief said Russia was waging hybrid warfare at a time when AI was \"supercharging the cyber-security contest between attackers and defenders\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219172+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "At an annual speech in London, MI5's chief said Russia was waging hybrid warfare at a time when AI was \"supercharging the cyber-security contest between attackers and defenders\".",
+          "sentence_hash": "07a8eca5cbb8a689891299b69dc5b94b0e8695a1467bc511be183a6fd3fd056f",
+          "anchors": [
+            "hybrid",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "He also warned of rising threats from \"extreme right-wing terrorism\" and said MI5 had \"caught terrorists seeking to exploit AI,\" including by integrating the technology with drones.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219185+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "He also warned of rising threats from \"extreme right-wing terrorism\" and said MI5 had \"caught terrorists seeking to exploit AI,\" including by integrating the technology with drones.",
+          "sentence_hash": "79597a3a21a55caafacc0f1d29954b7595f88c9fbda1ca7ad6b83038e6597d3f",
+          "anchors": [
+            "with",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "He said the biggest threat from the misuse of AI was extremist groups using the technology to harness new and existing bioweapons.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219196+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "He said the biggest threat from the misuse of AI was extremist groups using the technology to harness new and existing bioweapons.",
+          "sentence_hash": "e314bf5a6005ea246d1b1b9d0fe6a6a16f911aca7b4c849fe2de273c15e5d26e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Sir Ken said Russia had stopped short of \"conventional conflict\" against Nato and is instead trying to unsettle European countries while its progress in its full-scale invasion of Ukraine is \"minimal and horrifically costly\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219214+08:00",
+          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
+          "excerpt": "Sir Ken said Russia had stopped short of \"conventional conflict\" against Nato and is instead trying to unsettle European countries while its progress in its full-scale invasion of Ukraine is \"minimal and horrifically costly\".",
+          "sentence_hash": "24adf9694b4fb638f377ec67c784974bca0ceba4b0a51895c8164fb5ec20fa8a",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "europe",
+        "nato",
+        "cold war",
+        "russian",
+        "with",
+        "jewish",
+        "prime minister andy burnham",
+        "russia",
+        "however",
+        "ukraine",
+        "these",
+        "his",
+        "moscow",
+        "kremlin",
+        "sir ken",
+        "callum",
+        "published",
+        "european",
+        "brexit",
+        "sir ken mc",
+        "iran",
+        "asked",
+        "hybrid",
+        "ai",
+        "london",
+        "uk"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 26
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_c1c84f4ba6b4f493e2da1a8b",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+      "category": "国际",
+      "published_at": "2026-10-13T23:42:22+00:00",
+      "why_relevant": "北溪事件开审，关键地缘政治进展",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219707+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe",
+          "sentence_hash": "270471ae1c5e9c826b7ddad13ecd6268705d611cb3a0f33a07ceca0062123b71",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Serhii K, as he is identified by German prosecutors, is accused of plotting with other Ukrainian military personnel to destroy the pipelines and stop Russia financing its war with gas revenue.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219723+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "Serhii K, as he is identified by German prosecutors, is accused of plotting with other Ukrainian military personnel to destroy the pipelines and stop Russia financing its war with gas revenue.",
+          "sentence_hash": "2e5efe85435905111a4a23d987b1a9115116ab4057f0624e938da5516b2cc102",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The case is highly sensitive in Germany, seen as one of Ukraine's closest allies since Russia launched its full-scale invasion in February 2022, seven months before the attacks took place.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219738+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "The case is highly sensitive in Germany, seen as one of Ukraine's closest allies since Russia launched its full-scale invasion in February 2022, seven months before the attacks took place.",
+          "sentence_hash": "96d6e4a57ddd93802f93039c8ffe4196f0fc0c50827912faa3173157042323a3",
+          "anchors": [
+            "us",
+            "February 20"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Serhii K, extradited to Germany last year, will become the first suspect to go on trial for the blasts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219749+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "Serhii K, extradited to Germany last year, will become the first suspect to go on trial for the blasts.",
+          "sentence_hash": "40c8043f4a440ec3db60bb55b3c4f5178c3208b6afdd8b19fdaff8593d32bb4b",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "He denies the charges, as does a second suspect who is fighting extradition from Croatia.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219759+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "He denies the charges, as does a second suspect who is fighting extradition from Croatia.",
+          "sentence_hash": "457a21f0bef63616d16a0a85f1e8577f9a56eeb616555755cb9c9e0808cce1b5",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In the months after explosives destroyed three of the four gas pipelines in the Baltic Sea off the island of Bornholm on 26 September 2022, Western suspicion looked towards Moscow without directly apportioning blame.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.219774+08:00",
+          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
+          "excerpt": "In the months after explosives destroyed three of the four gas pipelines in the Baltic Sea off the island of Bornholm on 26 September 2022, Western suspicion looked towards Moscow without directly apportioning blame.",
+          "sentence_hash": "f33815facc6e070a6f1a3f7fca7eb02593e16865d3f2643b98a14854b4e01b23",
+          "anchors": [
+            "us",
+            "September 20"
+          ]
+        }
+      ],
+      "entities": [
+        "january",
+        "russian",
+        "published\nfour",
+        "wednesday",
+        "german",
+        "nord stream",
+        "sweden",
+        "russia",
+        "ukrainian",
+        "september",
+        "saxons",
+        "us",
+        "european",
+        "kyiv",
+        "rostock",
+        "serhii",
+        "eventually",
+        "hamburg",
+        "volodymyr zelensky",
+        "anglo",
+        "how german",
+        "croatia",
+        "baltic sea",
+        "andromeda",
+        "denmark",
+        "bornholm",
+        "moscow",
+        "published",
+        "they",
+        "despite",
+        "germany",
+        "february",
+        "berlin",
+        "vladimir putin",
+        "ukraine",
+        "western",
+        "uk"
+      ],
+      "numbers": [],
+      "dates": [
+        "January 20",
+        "February 20",
+        "September 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_ed108fd86da5bb0dce71a73b",
+      "title": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "publisher": "GitHub Trending",
+      "summary": "AirLLM 2.8T LLM inference with single 4GB GPU \nQuickstart | Configurations | MacOS | Example notebooks | FAQ \nAirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB. We now also support training huge models on small VRAM: Qwen3",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "低显存跑 2.8T 模型，降低本地推理门槛",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220328+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.",
+          "sentence_hash": "4f87b93d099c25eb4dd77676ed991ef98da245ca143383f0bcf0c05d800e3a6a",
+          "anchors": [
+            "model"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220347+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB.",
+          "sentence_hash": "4e6952e63ac5875b1657dd2a7c763a67c24d8c5026d7eb8e8a4f30fd6503e574",
+          "anchors": [
+            "model"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "We now also support training huge models on small VRAM: Qwen3.8-Flash-Next (125B) under 6GB.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220358+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "We now also support training huge models on small VRAM: Qwen3.8-Flash-Next (125B) under 6GB.",
+          "sentence_hash": "4fd3b0f6425cf6697f42fd85681d760518cd9e0df694cefd8d260c76e5d823b6",
+          "anchors": [
+            "training",
+            "model",
+            "support"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "[2026/09] Training support: stream frozen weights one layer at a time and keep adapters on the GPU.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220370+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "[2026/09] Training support: stream frozen weights one layer at a time and keep adapters on the GPU.",
+          "sentence_hash": "650b8f75cae183a57e289009d72b0c26a9765dfc1f596506b1f5daf354af731c",
+          "anchors": [
+            "support",
+            "ada"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "[2026/08] Qwen3.8-Flash-Next support: Qwen's 125B MoE flagship (Qwen4ExpForConditionalGeneration) with a ~51B n-gram embedding runs in 5.95GB of VRAM, measured end to end on one RTX 4090.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220391+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "[2026/08] Qwen3.8-Flash-Next support: Qwen's 125B MoE flagship (Qwen4ExpForConditionalGeneration) with a ~51B n-gram embedding runs in 5.95GB of VRAM, measured end to end on one RTX 4090.",
+          "sentence_hash": "eddfe237b2146a6b4a4e8ddfaa270d16cfa9d44dbdccd733758df3a1cf800274",
+          "anchors": [
+            "support"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220402+08:00",
+          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
+          "excerpt": "The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream.",
+          "sentence_hash": "9655469499aefb8630d37e275288fa2ac3ec91348ab7906a5a9c8a6728c0553c",
+          "anchors": [
+            "mac"
+          ]
+        }
+      ],
+      "entities": [
+        "you",
+        "auto",
+        "true",
+        "llama",
+        "exp",
+        "configurations",
+        "support mac",
+        "see training",
+        "for",
+        "generation",
+        "per",
+        "net",
+        "seek",
+        "example",
+        "support llama",
+        "added auto",
+        "gated delta",
+        "model",
+        "deep",
+        "ada",
+        "air",
+        "quickstart",
+        "mac",
+        "conditional",
+        "needs",
+        "peiris",
+        "support air",
+        "cuda",
+        "navod",
+        "gemma",
+        "run deep",
+        "run llama",
+        "support",
+        "flash",
+        "thanks",
+        "next",
+        "gated attention",
+        "training",
+        "phi",
+        "faq",
+        "kimi",
+        "support qwen",
+        "rtx",
+        "qwen",
+        "vram",
+        "gpu",
+        "vl",
+        "mixtral",
+        "cpu"
+      ],
+      "numbers": [
+        "10%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 50
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_d077dad58a4e25a6d04fc434",
+      "title": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "publisher": "GitHub Trending",
+      "summary": "Official inference framework for 1-bit LLMs \n bitnet.cpp \n       \n \n \n 📰 News \n 07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms. [Code] [Models] [Report]  \n 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "1-bit LLM 推理框架，模型量化加速",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220963+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.",
+          "sentence_hash": "8efb3b420384847f513fbfa53c5383e760514f9f9e7aa01624f231851df8e20f",
+          "anchors": [
+            "inference"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "[Code] [Models] [Report] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.220986+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "[Code] [Models] [Report] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.",
+          "sentence_hash": "1911b794a72dba50e8b6478650a85e4417d27a0e9db1d5d14431b6ba9fa50bfe",
+          "anchors": [
+            "bit",
+            "inference",
+            "models",
+            "fast"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill (8 threads) - 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill (8 threads) - Supports I2_S conversion with optimized kernels on x86 CPUs - Lossless inference with 2 bits per weight 07/16/2026: 📣 Re",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.221016+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "- 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill (8 threads) - 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill (8 threads) - Supports I2_S conversion with optimized kernels on x86 CPUs - Lossless inference with 2 bits per weight 07/16/2026: 📣 Re",
+          "sentence_hash": "824cfab2b8f55a259eaafdbb8cf8dc64c0788686771161fd92d7bf7e4bffd52d",
+          "anchors": [
+            "conversion",
+            "inference",
+            "bit",
+            "bits",
+            "models",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "05/20/2025: 📣 Released BitNet Official GPU inference kernel — extending 1-bit inference beyond CPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.221041+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "05/20/2025: 📣 Released BitNet Official GPU inference kernel — extending 1-bit inference beyond CPUs.",
+          "sentence_hash": "8f441e73dc97de88886ad37d6d4f4f3796f4e987d9a48830c72ec44d7218bed7",
+          "anchors": [
+            "bit",
+            "inference"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "04/14/2025: 📣 Released BitNet Official 2B Parameter Model on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.221057+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "04/14/2025: 📣 Released BitNet Official 2B Parameter Model on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.",
+          "sentence_hash": "224d34ff4c55b73db76e409580422b9a808e48f1387fa141118acffd5d588010",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "02/18/2025: 📑 Bitnet.cpp: Efficient Edge Inference for Ternary LLMs — system-level paper on bitnet.cpp's architecture and design.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-14T08:04:06.221073+08:00",
+          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
+          "excerpt": "02/18/2025: 📑 Bitnet.cpp: Efficient Edge Inference for Ternary LLMs — system-level paper on bitnet.cpp's architecture and design.",
+          "sentence_hash": "e188b69f27a3d63b1b609f011f49dc89e4252ce9427a7764cf2070612972e11c",
+          "anchors": [
+            "bit",
+            "net",
+            "bitnet"
+          ]
+        }
+      ],
+      "entities": [
+        "lossless bit",
+        "conversion",
+        "supports",
+        "npu",
+        "infra",
+        "training tips",
+        "net",
+        "models",
+        "ternary",
+        "activations",
+        "rtf",
+        "parameter model",
+        "scaling",
+        "additionally",
+        "the era",
+        "fast",
+        "inference",
+        "bits",
+        "try",
+        "net official",
+        "released bit",
+        "asr",
+        "hugging face",
+        "ai",
+        "bitnet",
+        "vibe",
+        "transformers",
+        "era",
+        "bit",
+        "part",
+        "net embeddings",
+        "furthermore",
+        "faq",
+        "code",
+        "inference optimization",
+        "large language models",
+        "lossless",
+        "all large language models",
+        "gpu",
+        "neon",
+        "efficient edge inference",
+        "arm",
+        "cpu"
+      ],
+      "numbers": [
+        "82.2%",
+        "71.9%",
+        "70.0%",
+        "55.4%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "source_artifact_date": "2026-10-14",
+      "freshness_label": "today"
+    }
+  ]
+}
