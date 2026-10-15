@@ -10789,11 +10789,27 @@
             "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1"
           ],
           "evidence_path": "digests/meta/2026-10-14-AM-evidence.json"
+        },
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_667cf0f141f00a5c9fd63730",
+          "title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+          "raw_title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+          "why_relevant": "胡塞袭击阿美，地缘能源",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
         }
       ],
-      "latest_seen": "2026-10-14",
-      "latest_title": "Saudi Aramco HQ attacked in suspected Houthi strike",
-      "latest_raw_title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+      "latest_seen": "2026-10-15",
+      "latest_title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+      "latest_raw_title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
       "status": "更新中",
       "key_facts": [],
       "open_questions": [
@@ -10801,7 +10817,7 @@
         "缺少明确时间"
       ],
       "sources": [
-        "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1"
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
       ]
     },
     {
@@ -10957,7 +10973,477 @@
       "sources": [
         "https://www.coindesk.com/markets/2026/10/13/bitcoin-ether-slip-and-rebound-as-south-korean-stocks-slide-on-ai-related-concerns"
       ]
+    },
+    {
+      "id": "evt_20261015_6147e6841325",
+      "title": "vercel-labs/skills",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_a906f2b94a96d9b16d06fac8",
+          "title": "vercel-labs/skills",
+          "raw_title": "vercel-labs/skills",
+          "why_relevant": "开源agent技能工具，实用性强",
+          "facts": [
+            "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
+            "With --agent, it starts one supported agent interactively with the generated prompt.",
+            "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline"
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/vercel-labs/skills"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "vercel-labs/skills",
+      "latest_raw_title": "vercel-labs/skills",
+      "status": "更新中",
+      "key_facts": [
+        "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
+        "With --agent, it starts one supported agent interactively with the generated prompt.",
+        "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline"
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/vercel-labs/skills"
+      ]
+    },
+    {
+      "id": "evt_20261015_19492675d19a",
+      "title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_0b69b32dedd74fe2ee619509",
+          "title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+          "raw_title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+          "why_relevant": "AI设计RISC-V芯片，前沿硬核",
+          "facts": [
+            "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
+            "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+            "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec"
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://wccftech.com/metas-muse-ai-agent-just-designed-a-crypto-specific-soc-on-the-risc-v-architecture-for-2000-to-transform-the-thru-blockchain-into-the-fastest-on-earth/"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+      "latest_raw_title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+      "status": "更新中",
+      "key_facts": [
+        "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
+        "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+        "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec"
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://wccftech.com/metas-muse-ai-agent-just-designed-a-crypto-specific-soc-on-the-risc-v-architecture-for-2000-to-transform-the-thru-blockchain-into-the-fastest-on-earth/"
+      ]
+    },
+    {
+      "id": "evt_20261015_17fb7da79015",
+      "title": "Redesigning source control at Anthropic",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_a8a5ee8bee953cd85d0e3ce3",
+          "title": "Redesigning source control at Anthropic",
+          "raw_title": "Redesigning source control at Anthropic",
+          "why_relevant": "Anthropic自研源码管理，深度工程",
+          "facts": [
+            "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
+            "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+            "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Redesigning source control at Anthropic",
+      "latest_raw_title": "Redesigning source control at Anthropic",
+      "status": "更新中",
+      "key_facts": [
+        "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
+        "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+        "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+      ]
+    },
+    {
+      "id": "evt_20261015_1d7d330373d9",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_1d8d06301a1e6f1904c8e540",
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "raw_title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "why_relevant": "OpenAI展示agent应用前沿",
+          "facts": [
+            "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
+            "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+            "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://openai.com/index/amp-beyond-coding"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "latest_raw_title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "status": "更新中",
+      "key_facts": [
+        "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
+        "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+        "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://openai.com/index/amp-beyond-coding"
+      ]
+    },
+    {
+      "id": "evt_20261015_1a325c4dbf63",
+      "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_6dc3c5370ad3d215b0f8c822",
+          "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+          "raw_title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+          "why_relevant": "中美关系与气球危机",
+          "facts": [
+            "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+            "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
+            "Leader-level meetings are the only guardrail we really have in US-China relations right now."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis?utm_source=rss_feed"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "latest_raw_title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "status": "更新中",
+      "key_facts": [
+        "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+        "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
+        "Leader-level meetings are the only guardrail we really have in US-China relations right now."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis?utm_source=rss_feed"
+      ]
+    },
+    {
+      "id": "evt_20261015_ee3cf18099e5",
+      "title": "AI-armed hackers tear through corporate Japan’s neglected defences",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_c8012cdc49de3f2e387882cd",
+          "title": "AI-armed hackers tear through corporate Japan’s neglected defences",
+          "raw_title": "AI-armed hackers tear through corporate Japan’s neglected defences",
+          "why_relevant": "AI加剧日本网络攻击",
+          "facts": [
+            "Advertisement AI-armed hackers tear through corporate Japan’s neglected defences For years, the Japanese language was a defence against hacking in and of itself, observers say.",
+            "But no more 3-MIN READ3-MIN Julian Ryallin Tokyo Japanese companies have faced a growing wave of cyberattacks in recent weeks, exposing millions of customers’ records as analysts warn that artificial intelligence is helping hackers exploit long-standing security weaknesses and ov",
+            "More than 500 breaches of corporate systems were reported in the year to this month, surpassing the total for all of 2025, the Yomiuri newspaper reported last week."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.scmp.com/week-asia/economics/article/3370875/ai-armed-hackers-tear-through-corporate-japans-neglected-defences?utm_source=rss_feed"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "AI-armed hackers tear through corporate Japan’s neglected defences",
+      "latest_raw_title": "AI-armed hackers tear through corporate Japan’s neglected defences",
+      "status": "更新中",
+      "key_facts": [
+        "Advertisement AI-armed hackers tear through corporate Japan’s neglected defences For years, the Japanese language was a defence against hacking in and of itself, observers say.",
+        "But no more 3-MIN READ3-MIN Julian Ryallin Tokyo Japanese companies have faced a growing wave of cyberattacks in recent weeks, exposing millions of customers’ records as analysts warn that artificial intelligence is helping hackers exploit long-standing security weaknesses and ov",
+        "More than 500 breaches of corporate systems were reported in the year to this month, surpassing the total for all of 2025, the Yomiuri newspaper reported last week."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.scmp.com/week-asia/economics/article/3370875/ai-armed-hackers-tear-through-corporate-japans-neglected-defences?utm_source=rss_feed"
+      ]
+    },
+    {
+      "id": "evt_20261015_6e5b76e62f5f",
+      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_e42459082587e7b57ac4c062",
+          "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+          "raw_title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+          "why_relevant": "星链限速影响乌克兰",
+          "facts": [
+            "Musk says US government may be behind slowdown of Ukraine drone speeds - Published Elon Musk has suggested that the US government may be behind restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to SpaceX's Starlink internet network.",
+            "Starlink is a vital tool allowing Kyiv to guide drones to Russian targets and also protect its own skies, but on Tuesday night Ukraine said unexpected new speed limits were disrupting its battlefield missions.",
+            "Musk said that Starshield, the military-grade sister service to Starlink, is controlled by the US government, and \"any limits on speed or usage are decided by the US military and ultimately [the US president]\"."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "latest_raw_title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "status": "更新中",
+      "key_facts": [
+        "Musk says US government may be behind slowdown of Ukraine drone speeds - Published Elon Musk has suggested that the US government may be behind restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to SpaceX's Starlink internet network.",
+        "Starlink is a vital tool allowing Kyiv to guide drones to Russian targets and also protect its own skies, but on Tuesday night Ukraine said unexpected new speed limits were disrupting its battlefield missions.",
+        "Musk said that Starshield, the military-grade sister service to Starlink, is controlled by the US government, and \"any limits on speed or usage are decided by the US military and ultimately [the US president]\"."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261015_7a69144aaa53",
+      "title": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_b2f20649cd2b841323038d36",
+          "title": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China",
+          "raw_title": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China",
+          "why_relevant": "美国防预算对华指向",
+          "facts": [
+            "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China Pentagon chief warns US risks falling behind China in drones, robotics and AI without major investment in military capabilities US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence b",
+            "Speaking at a panel discussion during the Association of the United States Army (AUSA) Annual Meeting and Exposition on Wednesday, Hegseth said that Project Agincourt, the Pentagon’s initiative to accelerate drone and autonomous warfare capabilities, is the “end state” of what th",
+            "Asked how significant the increase to nearly US$1.5 trillion in the defence budget is, Hegseth replied that it is “absolutely critical” and a “one-time generational investment” that gives Washington a chance to “fully rebuild” the military amid threats from adversaries."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/us/politics/article/3370924/hegseth-calls-us15-trillion-defence-budget-critical-counter-china?utm_source=rss_feed"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China",
+      "latest_raw_title": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China",
+      "status": "更新中",
+      "key_facts": [
+        "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China Pentagon chief warns US risks falling behind China in drones, robotics and AI without major investment in military capabilities US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence b",
+        "Speaking at a panel discussion during the Association of the United States Army (AUSA) Annual Meeting and Exposition on Wednesday, Hegseth said that Project Agincourt, the Pentagon’s initiative to accelerate drone and autonomous warfare capabilities, is the “end state” of what th",
+        "Asked how significant the increase to nearly US$1.5 trillion in the defence budget is, Hegseth replied that it is “absolutely critical” and a “one-time generational investment” that gives Washington a chance to “fully rebuild” the military amid threats from adversaries."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/us/politics/article/3370924/hegseth-calls-us15-trillion-defence-budget-critical-counter-china?utm_source=rss_feed"
+      ]
+    },
+    {
+      "id": "evt_20261015_b83ab40f32bb",
+      "title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_6a83275e545106aa8a7459bf",
+          "title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
+          "raw_title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
+          "why_relevant": "Anthropic收入暴增，AI财经信号",
+          "facts": [
+            "San Francisco-based Anthropic will release the numbers to a group of institutional investors, according to two people familiar with the matter, who asked not to be named because the details were confidential.",
+            "The meeting comes as revenue numbers from the private AI giants have proven to have an outsized impact on broader markets.",
+            "Last week, confusion around a report detailing OpenAI's revenue and updated accounting dragged down major semiconductor stocks and the broader Nasdaq."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQU84aFhKaGNhRmkxOW4xRGJOZ0hBZC1rcFR5R2YyS2RqTHNaZExvaTg4ckppc2tTaHZUaFRzWmVTY2IxMXlUMFlpT1pBWk1zY1ZtZVpLdHBGZ1AzbEVSS29zMDB2eFQ4Wnhab0RrSnVxUFhkWHBfVVdDUHFIR3FGb05odzJEQ0VlQkF5QzYxYnlSRHZJd055blRMRTJTWXA5U0VWZ1Q5OWZ5VDBTcDJFWHZ3?oc=5",
+            "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
+      "latest_raw_title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
+      "status": "更新中",
+      "key_facts": [
+        "San Francisco-based Anthropic will release the numbers to a group of institutional investors, according to two people familiar with the matter, who asked not to be named because the details were confidential.",
+        "The meeting comes as revenue numbers from the private AI giants have proven to have an outsized impact on broader markets.",
+        "Last week, confusion around a report detailing OpenAI's revenue and updated accounting dragged down major semiconductor stocks and the broader Nasdaq."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQU84aFhKaGNhRmkxOW4xRGJOZ0hBZC1rcFR5R2YyS2RqTHNaZExvaTg4ckppc2tTaHZUaFRzWmVTY2IxMXlUMFlpT1pBWk1zY1ZtZVpLdHBGZ1AzbEVSS29zMDB2eFQ4Wnhab0RrSnVxUFhkWHBfVVdDUHFIR3FGb05odzJEQ0VlQkF5QzYxYnlSRHZJd055blRMRTJTWXA5U0VWZ1Q5OWZ5VDBTcDJFWHZ3?oc=5",
+        "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+      ]
+    },
+    {
+      "id": "evt_20261015_19482926cddf",
+      "title": "Fed rate hike call seen tight as inflation heats up",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_808c6832ee675fc47365fc38",
+          "title": "Fed rate hike call seen tight as inflation heats up",
+          "raw_title": "Fed rate hike call seen tight as inflation heats up",
+          "why_relevant": "美联储加息预期，市场核心",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjl1ZWZGd2lIRXg1US1hUjNacTVDN2o5S2lIcXpCdnZ1VHBXcEpqOHV5SzJJZHJrT3RxYjdrRjRrRU03eHNGTTFRMnVCVEdZa0VfLU9BeFdSeTE1aFRrc3ZRampyOFVTczZRbWk0azFBakVndUJ1X0NjVmJmV1JmeXNXSlFkNzF0NUZKTUUyUnlHWi1sOXFpVHV5NnVvcDA?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Fed rate hike call seen tight as inflation heats up",
+      "latest_raw_title": "Fed rate hike call seen tight as inflation heats up",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjl1ZWZGd2lIRXg1US1hUjNacTVDN2o5S2lIcXpCdnZ1VHBXcEpqOHV5SzJJZHJrT3RxYjdrRjRrRU03eHNGTTFRMnVCVEdZa0VfLU9BeFdSeTE1aFRrc3ZRampyOFVTczZRbWk0azFBakVndUJ1X0NjVmJmV1JmeXNXSlFkNzF0NUZKTUUyUnlHWi1sOXFpVHV5NnVvcDA?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261015_dcb8e7440d1d",
+      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_8fe4f06e49f20a423784c33a",
+          "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+          "raw_title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+          "why_relevant": "通胀数据冲击纳指",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+      "latest_raw_title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261015_cc20514845c1",
+      "title": "Iran: Political infighting deepens as economic woes mount during war",
+      "first_seen": "2026-10-15",
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "article_id": "a1_26b0fd919950ec23a867798a",
+          "title": "Iran: Political infighting deepens as economic woes mount during war",
+          "raw_title": "Iran: Political infighting deepens as economic woes mount during war",
+          "why_relevant": "伊朗内斗与经济困局",
+          "facts": [
+            "Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.",
+            "As the war continues and diplomatic efforts to find a solution make little headway, the internal power struggle is intensifying.",
+            "President Pezeshkian’s government is the focus of mounting tension."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/iran-political-infighting-deepens-as-economic-woes-mount-during-war/a-79654461?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-10-15-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-15",
+      "latest_title": "Iran: Political infighting deepens as economic woes mount during war",
+      "latest_raw_title": "Iran: Political infighting deepens as economic woes mount during war",
+      "status": "更新中",
+      "key_facts": [
+        "Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.",
+        "As the war continues and diplomatic efforts to find a solution make little headway, the internal power struggle is intensifying.",
+        "President Pezeshkian’s government is the focus of mounting tension."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/iran-political-infighting-deepens-as-economic-woes-mount-during-war/a-79654461?maca=en-rss-en-world-4025-xml-mrss"
+      ]
     }
   ],
-  "updated_at": "2026-10-14T08:04:06.222975+08:00"
+  "updated_at": "2026-10-15T08:03:47.582181+08:00"
 }

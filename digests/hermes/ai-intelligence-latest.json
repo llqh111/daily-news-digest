@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14T00:07:27.609846+00:00",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T00:08:32.238794+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-14.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-15.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-13.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-14.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,731 +23,275 @@
   },
   "items": [
     {
-      "article_id": "a1_9e5a6e59b47c7c3dc984bdf9",
-      "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
-      "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Germany's Johann Wadephul said hybrid plots like the Starlink fire showed Europe was \"in Russia's crosshairs.\" The UK's Ed Miliband said Trump's Russian diesel deal led to a \"very difficult few days\" diplomatically.",
-      "category": "国际",
-      "published_at": "2026-10-13T18:52:00+00:00",
-      "why_relevant": "盟友讨论星链袭击，俄乌冲突新战线",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.218549+08:00",
-          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
-          "excerpt": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.",
-          "sentence_hash": "77be62c2159db6398b23f5ce47c584e8a0ade6407389e14636bc0ca0ee3b4162",
-          "anchors": [
-            "October 13",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "This came as investigators in Germany were chasing down suspects for a fire at a Starlink station in Poland, and as Ukraine's European allies scrambled to deal with US President Donald Trump's latest lurch into Vladimir Putin's lap.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.218570+08:00",
-          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
-          "excerpt": "This came as investigators in Germany were chasing down suspects for a fire at a Starlink station in Poland, and as Ukraine's European allies scrambled to deal with US President Donald Trump's latest lurch into Vladimir Putin's lap.",
-          "sentence_hash": "b83c1b992b91417db4f096942c2df10bb77ebd4ce9356cd5e92281fb82431aa3",
-          "anchors": [
-            "us",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "What did the ministers say about Russian diesel and Ukraine?",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.218581+08:00",
-          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
-          "excerpt": "What did the ministers say about Russian diesel and Ukraine?",
-          "sentence_hash": "27e8ffc196ed0c535104df8489b61bee40c15827732672a1f24d973bba38b6df",
-          "anchors": [
-            "us",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "German Foreign Minister Johann Wadephul bemoaned the US decision to lift sanctions on Russian diesel as part of a deal to supply the US — seemingly struck as Trump panics about fuel prices with the Iran war still unresolved and a month to go until midterm elections.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.218607+08:00",
-          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
-          "excerpt": "German Foreign Minister Johann Wadephul bemoaned the US decision to lift sanctions on Russian diesel as part of a deal to supply the US — seemingly struck as Trump panics about fuel prices with the Iran war still unresolved and a month to go until midterm elections.",
-          "sentence_hash": "df4937b3986f146c0ef8363022348fe72239ddb10a4ea2a31aef11a8a8815263",
-          "anchors": [
-            "us",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "UK Foreign Secretary Ed Miliband arguably found even clearer words.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.218629+08:00",
-          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
-          "excerpt": "UK Foreign Secretary Ed Miliband arguably found even clearer words.",
-          "sentence_hash": "087adf0add31c4f7f1a4c636d4096ddd2532035565806d16e7fe0b8ba39ae495",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "\"Within the bounds of diplomacy we should acknowledge that it's been a very difficult few days,\" Miliband said in the Polish capital that's just a few hours' drive from Ukraine's western border.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.218644+08:00",
-          "content_sha256": "959328d96b138610852530cd09f95e221ca6960a24e9167369f87593f5dee91c",
-          "excerpt": "\"Within the bounds of diplomacy we should acknowledge that it's been a very difficult few days,\" Miliband said in the Polish capital that's just a few hours' drive from Ukraine's western border.",
-          "sentence_hash": "2a485d437303f020b3e6fecb20462a03d4d574b7eab8b87224944e911157fa2c",
-          "anchors": [
-            "us",
-            "and"
-          ]
-        }
-      ],
-      "entities": [
-        "europe",
-        "russian",
-        "sikorski",
-        "espen barth eide",
-        "norway",
-        "within",
-        "maga",
-        "foreign minister radoslaw sikorski",
-        "miliband",
-        "facing",
-        "monday",
-        "canada",
-        "us",
-        "european",
-        "washington",
-        "trump",
-        "iran",
-        "starlink",
-        "german foreign minister johann wadephul",
-        "andrzej duda",
-        "president donald trump",
-        "polish",
-        "zelenskyy",
-        "putin",
-        "wadephul",
-        "eide",
-        "poland",
-        "warsaw security forum",
-        "pol",
-        "october",
-        "number",
-        "foreign secretary ed miliband",
-        "and",
-        "russia\nwadephul",
-        "tuesday",
-        "germany",
-        "vladimir putin",
-        "eu",
-        "ukraine",
-        "uk"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 13"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 41
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
-      "source_artifact_date": "2026-10-14",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_d1067aefdbe26654565f8611",
-      "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
-      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal scale\".",
-      "category": "国际",
-      "published_at": "2026-10-13T15:52:15+00:00",
-      "why_relevant": "MI5 警告 AI 威胁，安全与科技交叉",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219144+08:00",
-          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
-          "excerpt": "MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.",
-          "sentence_hash": "50b181cfe813647962806a6e2968b5b818486eb0a90fddd89ede483aaebe3b17",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Sir Ken McCallum said threats from foreign adversaries had quadrupled in the last decade, with Russia \"aggressor number one\" as well as increased Iran-linked aggression against Jewish sites and military bases.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219159+08:00",
-          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
-          "excerpt": "Sir Ken McCallum said threats from foreign adversaries had quadrupled in the last decade, with Russia \"aggressor number one\" as well as increased Iran-linked aggression against Jewish sites and military bases.",
-          "sentence_hash": "d3b5544dd3e791d1366640d8dd520057316ad4546275f2a734e07c7bee13e412",
-          "anchors": [
-            "with",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "At an annual speech in London, MI5's chief said Russia was waging hybrid warfare at a time when AI was \"supercharging the cyber-security contest between attackers and defenders\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219172+08:00",
-          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
-          "excerpt": "At an annual speech in London, MI5's chief said Russia was waging hybrid warfare at a time when AI was \"supercharging the cyber-security contest between attackers and defenders\".",
-          "sentence_hash": "07a8eca5cbb8a689891299b69dc5b94b0e8695a1467bc511be183a6fd3fd056f",
-          "anchors": [
-            "hybrid",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "He also warned of rising threats from \"extreme right-wing terrorism\" and said MI5 had \"caught terrorists seeking to exploit AI,\" including by integrating the technology with drones.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219185+08:00",
-          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
-          "excerpt": "He also warned of rising threats from \"extreme right-wing terrorism\" and said MI5 had \"caught terrorists seeking to exploit AI,\" including by integrating the technology with drones.",
-          "sentence_hash": "79597a3a21a55caafacc0f1d29954b7595f88c9fbda1ca7ad6b83038e6597d3f",
-          "anchors": [
-            "with",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "He said the biggest threat from the misuse of AI was extremist groups using the technology to harness new and existing bioweapons.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219196+08:00",
-          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
-          "excerpt": "He said the biggest threat from the misuse of AI was extremist groups using the technology to harness new and existing bioweapons.",
-          "sentence_hash": "e314bf5a6005ea246d1b1b9d0fe6a6a16f911aca7b4c849fe2de273c15e5d26e",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Sir Ken said Russia had stopped short of \"conventional conflict\" against Nato and is instead trying to unsettle European countries while its progress in its full-scale invasion of Ukraine is \"minimal and horrifically costly\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219214+08:00",
-          "content_sha256": "b24fbbe22a362a5d6752c98cb6186a5353f07e318ae92f2595fa363c8320e0a5",
-          "excerpt": "Sir Ken said Russia had stopped short of \"conventional conflict\" against Nato and is instead trying to unsettle European countries while its progress in its full-scale invasion of Ukraine is \"minimal and horrifically costly\".",
-          "sentence_hash": "24adf9694b4fb638f377ec67c784974bca0ceba4b0a51895c8164fb5ec20fa8a",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "europe",
-        "nato",
-        "cold war",
-        "russian",
-        "with",
-        "jewish",
-        "prime minister andy burnham",
-        "russia",
-        "however",
-        "ukraine",
-        "these",
-        "his",
-        "moscow",
-        "kremlin",
-        "sir ken",
-        "callum",
-        "published",
-        "european",
-        "brexit",
-        "sir ken mc",
-        "iran",
-        "asked",
-        "hybrid",
-        "ai",
-        "london",
-        "uk"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 26
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
-      "source_artifact_date": "2026-10-14",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_c1c84f4ba6b4f493e2da1a8b",
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
-      "category": "国际",
-      "published_at": "2026-10-13T23:42:22+00:00",
-      "why_relevant": "北溪事件开审，关键地缘政治进展",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219707+08:00",
-          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
-          "excerpt": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe",
-          "sentence_hash": "270471ae1c5e9c826b7ddad13ecd6268705d611cb3a0f33a07ceca0062123b71",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Serhii K, as he is identified by German prosecutors, is accused of plotting with other Ukrainian military personnel to destroy the pipelines and stop Russia financing its war with gas revenue.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219723+08:00",
-          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
-          "excerpt": "Serhii K, as he is identified by German prosecutors, is accused of plotting with other Ukrainian military personnel to destroy the pipelines and stop Russia financing its war with gas revenue.",
-          "sentence_hash": "2e5efe85435905111a4a23d987b1a9115116ab4057f0624e938da5516b2cc102",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The case is highly sensitive in Germany, seen as one of Ukraine's closest allies since Russia launched its full-scale invasion in February 2022, seven months before the attacks took place.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219738+08:00",
-          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
-          "excerpt": "The case is highly sensitive in Germany, seen as one of Ukraine's closest allies since Russia launched its full-scale invasion in February 2022, seven months before the attacks took place.",
-          "sentence_hash": "96d6e4a57ddd93802f93039c8ffe4196f0fc0c50827912faa3173157042323a3",
-          "anchors": [
-            "us",
-            "February 20"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Serhii K, extradited to Germany last year, will become the first suspect to go on trial for the blasts.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219749+08:00",
-          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
-          "excerpt": "Serhii K, extradited to Germany last year, will become the first suspect to go on trial for the blasts.",
-          "sentence_hash": "40c8043f4a440ec3db60bb55b3c4f5178c3208b6afdd8b19fdaff8593d32bb4b",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "He denies the charges, as does a second suspect who is fighting extradition from Croatia.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219759+08:00",
-          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
-          "excerpt": "He denies the charges, as does a second suspect who is fighting extradition from Croatia.",
-          "sentence_hash": "457a21f0bef63616d16a0a85f1e8577f9a56eeb616555755cb9c9e0808cce1b5",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In the months after explosives destroyed three of the four gas pipelines in the Baltic Sea off the island of Bornholm on 26 September 2022, Western suspicion looked towards Moscow without directly apportioning blame.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.219774+08:00",
-          "content_sha256": "ab66d4c0da6ab740799676eca3c68c21b3edcd61023631ea1c7d654615756ba3",
-          "excerpt": "In the months after explosives destroyed three of the four gas pipelines in the Baltic Sea off the island of Bornholm on 26 September 2022, Western suspicion looked towards Moscow without directly apportioning blame.",
-          "sentence_hash": "f33815facc6e070a6f1a3f7fca7eb02593e16865d3f2643b98a14854b4e01b23",
-          "anchors": [
-            "us",
-            "September 20"
-          ]
-        }
-      ],
-      "entities": [
-        "january",
-        "russian",
-        "published\nfour",
-        "wednesday",
-        "german",
-        "nord stream",
-        "sweden",
-        "russia",
-        "ukrainian",
-        "september",
-        "saxons",
-        "us",
-        "european",
-        "kyiv",
-        "rostock",
-        "serhii",
-        "eventually",
-        "hamburg",
-        "volodymyr zelensky",
-        "anglo",
-        "how german",
-        "croatia",
-        "baltic sea",
-        "andromeda",
-        "denmark",
-        "bornholm",
-        "moscow",
-        "published",
-        "they",
-        "despite",
-        "germany",
-        "february",
-        "berlin",
-        "vladimir putin",
-        "ukraine",
-        "western",
-        "uk"
-      ],
-      "numbers": [],
-      "dates": [
-        "January 20",
-        "February 20",
-        "September 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 40
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
-      "source_artifact_date": "2026-10-14",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_ed108fd86da5bb0dce71a73b",
-      "title": "lyogavin/airllm",
-      "url": "https://github.com/lyogavin/airllm",
+      "article_id": "a1_a906f2b94a96d9b16d06fac8",
+      "title": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
       "publisher": "GitHub Trending",
-      "summary": "AirLLM 2.8T LLM inference with single 4GB GPU \nQuickstart | Configurations | MacOS | Example notebooks | FAQ \nAirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB. We now also support training huge models on small VRAM: Qwen3",
+      "summary": "The open agent skills tool - npx skillshttps://skills.shskills \nThe CLI for the open agent skills ecosystem. \n \nSupports OpenCode, Claude Code, Codex, Cursor, and 75 more. \n \n       \nInstall a Skill \nnpx skills add vercel-labs/agent-skills\n \nUse a Skill Without Installing \nGenerate a prompt for one skill, or start a supported coding agent interactively: \nnpx skills use vercel-labs/agent-skills@web-design-guidelines | claude\nnpx skills use vercel-labs/agent-skills --skill web-design-guidelines --",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "低显存跑 2.8T 模型，降低本地推理门槛",
+      "why_relevant": "开源agent技能工具，实用性强",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.",
+          "text": "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
           "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220328+08:00",
-          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
-          "excerpt": "Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.",
-          "sentence_hash": "4f87b93d099c25eb4dd77676ed991ef98da245ca143383f0bcf0c05d800e3a6a",
+          "captured_at": "2026-10-15T08:03:47.569321+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
+          "sentence_hash": "a788500c3f60d9e0e1da5b3e5d4baf5860bfb335233917c49f39f6e7324b9b9b",
           "anchors": [
-            "model"
+            "direct",
+            "generate",
+            "use",
+            "code",
+            "lab"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB.",
+          "text": "With --agent, it starts one supported agent interactively with the generated prompt.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220347+08:00",
-          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
-          "excerpt": "You can even run Kimi K3 (2.8T) — the largest open-source model released to date — on under 4GB, Qwen3.8-Flash-Next (125B) on 6GB, and DeepSeek-V3 (671B) on ~12GB.",
-          "sentence_hash": "4e6952e63ac5875b1657dd2a7c763a67c24d8c5026d7eb8e8a4f30fd6503e574",
+          "captured_at": "2026-10-15T08:03:47.569355+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "With --agent, it starts one supported agent interactively with the generated prompt.",
+          "sentence_hash": "0c446f9e62a3101a001cde912dc5bc1cd57e5fc005b83b4dfff0e6ade28316d3",
           "anchors": [
-            "model"
+            "generate",
+            "with"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "We now also support training huge models on small VRAM: Qwen3.8-Flash-Next (125B) under 6GB.",
+          "text": "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline",
           "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220358+08:00",
-          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
-          "excerpt": "We now also support training huge models on small VRAM: Qwen3.8-Flash-Next (125B) under 6GB.",
-          "sentence_hash": "4fd3b0f6425cf6697f42fd85681d760518cd9e0df694cefd8d260c76e5d823b6",
+          "captured_at": "2026-10-15T08:03:47.569402+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline",
+          "sentence_hash": "43a1d3fcf9dc20555933665c3f1ab42ca4735677484ddd6b0bcbba46d9f32f24",
           "anchors": [
-            "training",
-            "model",
-            "support"
+            "git",
+            "hub",
+            "local",
+            "https",
+            "lab"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "[2026/09] Training support: stream frozen weights one layer at a time and keep adapters on the GPU.",
+          "text": "The CLI uses the authentication already configured for the repository URL: # GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback) npx skills add acme/private-skills # SSH on GitHub, GitLab, or another Git host npx skills add git@github.com:acme/private",
           "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220370+08:00",
-          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
-          "excerpt": "[2026/09] Training support: stream frozen weights one layer at a time and keep adapters on the GPU.",
-          "sentence_hash": "650b8f75cae183a57e289009d72b0c26a9765dfc1f596506b1f5daf354af731c",
+          "captured_at": "2026-10-15T08:03:47.569449+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "The CLI uses the authentication already configured for the repository URL: # GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback) npx skills add acme/private-skills # SSH on GitHub, GitLab, or another Git host npx skills add git@github.com:acme/private",
+          "sentence_hash": "a4bc4466c671e60074da214a778fd4cfa318a1195d52f1df598726c55403218c",
           "anchors": [
-            "support",
-            "ada"
+            "git",
+            "ssh",
+            "hub",
+            "use",
+            "https",
+            "any"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "[2026/08] Qwen3.8-Flash-Next support: Qwen's 125B MoE flagship (Qwen4ExpForConditionalGeneration) with a ~51B n-gram embedding runs in 5.95GB of VRAM, measured end to end on one RTX 4090.",
+          "text": "For GitHub tree lookups, skills first tries the API anonymously, then an explicitly supplied environment token, then gh api.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220391+08:00",
-          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
-          "excerpt": "[2026/08] Qwen3.8-Flash-Next support: Qwen's 125B MoE flagship (Qwen4ExpForConditionalGeneration) with a ~51B n-gram embedding runs in 5.95GB of VRAM, measured end to end on one RTX 4090.",
-          "sentence_hash": "eddfe237b2146a6b4a4e8ddfaa270d16cfa9d44dbdccd733758df3a1cf800274",
+          "captured_at": "2026-10-15T08:03:47.569483+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "For GitHub tree lookups, skills first tries the API anonymously, then an explicitly supplied environment token, then gh api.",
+          "sentence_hash": "6108b54d5c585dc6529dcd63db31fd28ce8715dff551a5db050a16f8358fe537",
           "anchors": [
-            "support"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220402+08:00",
-          "content_sha256": "8927b387326e5e24d992dff91a4b2d7fb7077cb445947cee8e00fee7a20cb007",
-          "excerpt": "The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream.",
-          "sentence_hash": "9655469499aefb8630d37e275288fa2ac3ec91348ab7906a5a9c8a6728c0553c",
-          "anchors": [
-            "mac"
+            "api"
           ]
         }
       ],
       "entities": [
-        "you",
-        "auto",
-        "true",
-        "llama",
-        "exp",
-        "configurations",
-        "support mac",
-        "see training",
-        "for",
-        "generation",
-        "per",
-        "net",
-        "seek",
-        "example",
-        "support llama",
-        "added auto",
-        "gated delta",
-        "model",
-        "deep",
-        "ada",
-        "air",
-        "quickstart",
-        "mac",
-        "conditional",
-        "needs",
-        "peiris",
-        "support air",
-        "cuda",
-        "navod",
-        "gemma",
-        "run deep",
-        "run llama",
-        "support",
-        "flash",
-        "thanks",
-        "next",
-        "gated attention",
-        "training",
-        "phi",
-        "faq",
-        "kimi",
-        "support qwen",
-        "rtx",
-        "qwen",
-        "vram",
-        "gpu",
-        "vl",
-        "mixtral",
-        "cpu"
-      ],
-      "numbers": [
-        "10%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 50
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
-      "source_artifact_date": "2026-10-14",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_d077dad58a4e25a6d04fc434",
-      "title": "microsoft/BitNet",
-      "url": "https://github.com/microsoft/BitNet",
-      "publisher": "GitHub Trending",
-      "summary": "Official inference framework for 1-bit LLMs \n bitnet.cpp \n       \n \n \n 📰 News \n 07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms. [Code] [Models] [Report]  \n 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly ",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "1-bit LLM 推理框架，模型量化加速",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220963+08:00",
-          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
-          "excerpt": "07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.",
-          "sentence_hash": "8efb3b420384847f513fbfa53c5383e760514f9f9e7aa01624f231851df8e20f",
-          "anchors": [
-            "inference"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "[Code] [Models] [Report] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.220986+08:00",
-          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
-          "excerpt": "[Code] [Models] [Report] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.",
-          "sentence_hash": "1911b794a72dba50e8b6478650a85e4417d27a0e9db1d5d14431b6ba9fa50bfe",
-          "anchors": [
-            "bit",
-            "inference",
-            "models",
-            "fast"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "- 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill (8 threads) - 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill (8 threads) - Supports I2_S conversion with optimized kernels on x86 CPUs - Lossless inference with 2 bits per weight 07/16/2026: 📣 Re",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.221016+08:00",
-          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
-          "excerpt": "- 1.42x to 2.28x speedup over F16 on BitNet-embedding-0.6B prefill (8 threads) - 1.32x to 1.74x speedup over F16 on BitNet-embedding-270M prefill (8 threads) - Supports I2_S conversion with optimized kernels on x86 CPUs - Lossless inference with 2 bits per weight 07/16/2026: 📣 Re",
-          "sentence_hash": "824cfab2b8f55a259eaafdbb8cf8dc64c0788686771161fd92d7bf7e4bffd52d",
-          "anchors": [
-            "conversion",
-            "inference",
-            "bit",
-            "bits",
-            "models",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "05/20/2025: 📣 Released BitNet Official GPU inference kernel — extending 1-bit inference beyond CPUs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.221041+08:00",
-          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
-          "excerpt": "05/20/2025: 📣 Released BitNet Official GPU inference kernel — extending 1-bit inference beyond CPUs.",
-          "sentence_hash": "8f441e73dc97de88886ad37d6d4f4f3796f4e987d9a48830c72ec44d7218bed7",
-          "anchors": [
-            "bit",
-            "inference"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "04/14/2025: 📣 Released BitNet Official 2B Parameter Model on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.221057+08:00",
-          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
-          "excerpt": "04/14/2025: 📣 Released BitNet Official 2B Parameter Model on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.",
-          "sentence_hash": "224d34ff4c55b73db76e409580422b9a808e48f1387fa141118acffd5d588010",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "02/18/2025: 📑 Bitnet.cpp: Efficient Edge Inference for Ternary LLMs — system-level paper on bitnet.cpp's architecture and design.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-14T08:04:06.221073+08:00",
-          "content_sha256": "b7ccf09d1b9b97db86b427efa4e75cb58b5e720ec26f61b9dd44d581b4469f5b",
-          "excerpt": "02/18/2025: 📑 Bitnet.cpp: Efficient Edge Inference for Ternary LLMs — system-level paper on bitnet.cpp's architecture and design.",
-          "sentence_hash": "e188b69f27a3d63b1b609f011f49dc89e4252ce9427a7764cf2070612972e11c",
-          "anchors": [
-            "bit",
-            "net",
-            "bitnet"
-          ]
-        }
-      ],
-      "entities": [
-        "lossless bit",
-        "conversion",
-        "supports",
-        "npu",
-        "infra",
-        "training tips",
-        "net",
-        "models",
-        "ternary",
-        "activations",
-        "rtf",
-        "parameter model",
-        "scaling",
-        "additionally",
-        "the era",
-        "fast",
-        "inference",
-        "bits",
-        "try",
-        "net official",
-        "released bit",
-        "asr",
-        "hugging face",
-        "ai",
-        "bitnet",
-        "vibe",
-        "transformers",
-        "era",
-        "bit",
-        "part",
-        "net embeddings",
-        "furthermore",
-        "faq",
+        "ops services",
+        "server",
+        "url",
+        "api",
+        "claude code",
+        "azure repos",
+        "local",
+        "https",
+        "for git",
+        "supports open",
+        "lab",
+        "cli",
+        "cursor",
+        "list",
+        "bmain",
+        "git",
+        "direct",
+        "azure dev",
+        "generate",
+        "node",
+        "ssh",
+        "hub",
+        "use",
+        "any",
         "code",
-        "inference optimization",
-        "large language models",
-        "lossless",
-        "all large language models",
-        "gpu",
-        "neon",
-        "efficient edge inference",
-        "arm",
-        "cpu"
+        "codex",
+        "full git",
+        "they",
+        "with"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_0b69b32dedd74fe2ee619509",
+      "title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+      "url": "https://wccftech.com/metas-muse-ai-agent-just-designed-a-crypto-specific-soc-on-the-risc-v-architecture-for-2000-to-transform-the-thru-blockchain-into-the-fastest-on-earth/",
+      "publisher": "Wccftech",
+      "summary": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools. Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V architecture using only Meta's Muse AI agent. Meta's Muse AI agent wrote the chip design based on the RISC-V a",
+      "category": "科技",
+      "published_at": "2026-10-14T22:05:41+00:00",
+      "why_relevant": "AI设计RISC-V芯片，前沿硬核",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570755+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
+          "sentence_hash": "daa46752995ebf27b982117697914cb3e5ea507ad2fa7871c02def5931ba2f7b",
+          "anchors": [
+            "ri"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570806+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+          "sentence_hash": "d92eba7f9b3516320bc783f3041ce2dd94d092d8ce84660f12d2fd471a72517c",
+          "anchors": [
+            "ri",
+            "chip",
+            "only"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570856+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec",
+          "sentence_hash": "66cac1fe7d4742d0bc1b4326ccc79784763d12d75a5d1ef7128a269d3be90286",
+          "anchors": [
+            "around",
+            "act",
+            "ri",
+            "$2,000",
+            "also",
+            "even",
+            "chip",
+            "meta",
+            "ai",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Generate the final digital blueprint file, called GDS (or GDSII), of the entire chip layout.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570880+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "- Generate the final digital blueprint file, called GDS (or GDSII), of the entire chip layout.",
+          "sentence_hash": "c2ea7f7dc8502e93384fd9baead6ad5825238ed153e556ac716b134f2b6cf6e5",
+          "anchors": [
+            "ri",
+            "chip"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This is what is typically sent to a fab to manufacture the real silicon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570902+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "This is what is typically sent to a fab to manufacture the real silicon.",
+          "sentence_hash": "5e3f2e7df547294b96511d329048d80d3c10eae8324f955fcb6d6ecedf54a392",
+          "anchors": [
+            "act"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Build support within the ASIC for standard cryptographic algorithms used in almost every blockchain for hashing data and creating/verifying digital signatures, including SHA-256/512, Keccak, Ed25519, and secp256k1.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570937+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "- Build support within the ASIC for standard cryptographic algorithms used in almost every blockchain for hashing data and creating/verifying digital signatures, including SHA-256/512, Keccak, Ed25519, and secp256k1.",
+          "sentence_hash": "0156516d39b0b64a90eaadde522bdb78e6936a17de95f7010996a2a5fb1f5c18",
+          "anchors": [
+            "ri",
+            "for",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "managed",
+        "open",
+        "berkeley test",
+        "float",
+        "design rule check",
+        "chip",
+        "meta",
+        "risc",
+        "thru",
+        "only",
+        "next",
+        "act",
+        "rust",
+        "gdsii",
+        "critically",
+        "generate",
+        "also",
+        "build",
+        "complete",
+        "keccak",
+        "eda",
+        "gds",
+        "asic",
+        "even",
+        "layer",
+        "ai",
+        "around",
+        "ri",
+        "for",
+        "drc",
+        "muse",
+        "sha"
       ],
       "numbers": [
-        "82.2%",
-        "71.9%",
-        "70.0%",
-        "55.4%"
+        "$2,000\n",
+        "$2,000",
+        "100 million"
       ],
       "dates": [],
       "unknowns": [
@@ -757,12 +301,379 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 47
+        "anchor_count": 35
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-14-AM.json",
-      "source_artifact_date": "2026-10-14",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_a8a5ee8bee953cd85d0e3ce3",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "publisher": "Simon Willison",
+      "summary": "Redesigning source control at Anthropic\nInteresting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\n\nIn May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.\n\nThey included a chart showing those changes. I had Claude modify their chart (code here) to add markers for the public releases of each of th",
+      "category": "科技",
+      "published_at": "2026-10-13T23:00:06+00:00",
+      "why_relevant": "Anthropic自研源码管理，深度工程",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572165+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
+          "sentence_hash": "929bd533f355aca7a4157eb17b16964a1dc0670d10f0d678d4ad256685aa8b9f",
+          "anchors": [
+            "October 20",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572198+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+          "sentence_hash": "004ec4fdae3a6bb0bbbfb4296d99b894e21d7e00f20293fbf0ca3480fdc52a0a",
+          "anchors": [
+            "May 20"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572235+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.",
+          "sentence_hash": "f5174b1a2660a831b4a0aea56d4bc176d8abba19ebd03f339aab105b7a8a911c",
+          "anchors": [
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572286+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.",
+          "sentence_hash": "8291709e12a63cd3a361a1c7de0cf90b891e82dd24e4cb1a3d4e41f589964d0c",
+          "anchors": [
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572327+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs.",
+          "sentence_hash": "0a0d8c1871c5d34f24859abab1d5e3b16f390fa4b195c869f7649c4d2cd55d6b",
+          "anchors": [
+            "25 million"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Fetched naively, that would be over 600 PB of git traffic per day.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572347+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "Fetched naively, that would be over 600 PB of git traffic per day.",
+          "sentence_hash": "78217380a3e8a7786c9404f56d84a014671b590d996b02856734bcc2e00aed60",
+          "anchors": [
+            "git"
+          ]
+        }
+      ],
+      "entities": [
+        "google",
+        "piper",
+        "subversion",
+        "sapling",
+        "mononoke",
+        "nick",
+        "antique",
+        "mythos",
+        "september",
+        "claude haiku",
+        "meta",
+        "ci",
+        "update",
+        "pb",
+        "gb",
+        "link blog\nredesigning",
+        "hacker news",
+        "git",
+        "scion",
+        "recent",
+        "october",
+        "fable",
+        "interesting",
+        "since claude",
+        "hello python",
+        "in may",
+        "anthropic",
+        "claude",
+        "gpt",
+        "they",
+        "fetched"
+      ],
+      "numbers": [
+        "25 million"
+      ],
+      "dates": [
+        "October 20",
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_1d8d06301a1e6f1904c8e540",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "publisher": "OpenAI 博客",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "category": "科技",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "why_relevant": "OpenAI展示agent应用前沿",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573750+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
+          "sentence_hash": "2016839cf3ec64d6d3dd5808858cba0a975ee2a9bc78ee3377d22c64c8b47aa0",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573782+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+          "sentence_hash": "a971856c07497c782a3795972c060c98c1957acead77015aecf6b07f5cd0bf68",
+          "anchors": [
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573817+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
+          "sentence_hash": "c9740266f974257ed5db7fa4de05bb52602d01c26cb2d167bfb043404d9cb534",
+          "anchors": [
+            "and",
+            "sign"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573844+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
+          "sentence_hash": "70231f764c7d769e6e929f2c101147dace90e6fec622e6fd704942f7c0bc4d25",
+          "anchors": [
+            "and",
+            "its",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573870+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
+          "sentence_hash": "323db61407c50a126c59b50bef75eac9245bf886b64c8a75b8732e95a5613007",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "You can do all of your work in Amp with OpenAI models and be really happy.” “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” As builders give agents more work, token costs can become a constraint.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573913+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "You can do all of your work in Amp with OpenAI models and be really happy.” “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” As builders give agents more work, token costs can become a constraint.",
+          "sentence_hash": "c26302815795f6fc5fd2dca9c9a945cd56f9d5513e213b5b43c5241295c8c7bb",
+          "anchors": [
+            "and",
+            "you",
+            "our",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "open",
+        "and",
+        "ultrafast",
+        "chat",
+        "astra",
+        "ai",
+        "quinn",
+        "live",
+        "amp",
+        "blender",
+        "sign",
+        "its",
+        "you",
+        "our",
+        "see",
+        "for",
+        "gpt",
+        "for quinn slack",
+        "ceo"
+      ],
+      "numbers": [
+        "10 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 20
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6dc3c5370ad3d215b0f8c822",
+      "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Susan Thornton is a former American diplomat who for decades worked on US policy in Eurasia in the State Department before becoming acting assistant secretary of state for East Asian and Pacific affairs during the first Trump presidency. She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School. She spoke to Orange Wang about keeping the lines of China-US communication...",
+      "category": "国际",
+      "published_at": "2026-10-14T22:00:07+00:00",
+      "why_relevant": "中美关系与气球危机",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.574630+08:00",
+          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
+          "excerpt": "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+          "sentence_hash": "2a8c64cfbc223c73f472e11a8e6330db2a40c2df201a0e274e72bb1acdb38516",
+          "anchors": [
+            "min",
+            "ai",
+            "for",
+            "us",
+            "asia"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.574668+08:00",
+          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
+          "excerpt": "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
+          "sentence_hash": "2bb312ce879ef873ae7105e4a44feb5a508f32fcefb92cce49d94ac711b3ea57",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Leader-level meetings are the only guardrail we really have in US-China relations right now.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.574705+08:00",
+          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
+          "excerpt": "Leader-level meetings are the only guardrail we really have in US-China relations right now.",
+          "sentence_hash": "8373228377d6701a3dcd116dea40c559f82dbf705bf8fd655147930b53a343c8",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "she",
+        "national committee",
+        "state department",
+        "min",
+        "chinese president xi jinping",
+        "american",
+        "trump",
+        "pacific security",
+        "ai",
+        "forum",
+        "american foreign policy",
+        "yale law school",
+        "us",
+        "eurasia",
+        "listen\nsusan thornton",
+        "open questions",
+        "president donald trump",
+        "pacific",
+        "select voice\nselect speed",
+        "advertisement\nopen questions",
+        "leader",
+        "paul tsai china centre",
+        "susan thornton",
+        "orange wang",
+        "china",
+        "for",
+        "east asian",
+        "asia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 28
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
       "freshness_label": "today"
     }
   ]

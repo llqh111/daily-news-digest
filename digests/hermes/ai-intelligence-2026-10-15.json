@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T00:08:32.238794+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-15.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-14.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_a906f2b94a96d9b16d06fac8",
+      "title": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "publisher": "GitHub Trending",
+      "summary": "The open agent skills tool - npx skillshttps://skills.shskills \nThe CLI for the open agent skills ecosystem. \n \nSupports OpenCode, Claude Code, Codex, Cursor, and 75 more. \n \n       \nInstall a Skill \nnpx skills add vercel-labs/agent-skills\n \nUse a Skill Without Installing \nGenerate a prompt for one skill, or start a supported coding agent interactively: \nnpx skills use vercel-labs/agent-skills@web-design-guidelines | claude\nnpx skills use vercel-labs/agent-skills --skill web-design-guidelines --",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源agent技能工具，实用性强",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.569321+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
+          "sentence_hash": "a788500c3f60d9e0e1da5b3e5d4baf5860bfb335233917c49f39f6e7324b9b9b",
+          "anchors": [
+            "direct",
+            "generate",
+            "use",
+            "code",
+            "lab"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "With --agent, it starts one supported agent interactively with the generated prompt.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.569355+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "With --agent, it starts one supported agent interactively with the generated prompt.",
+          "sentence_hash": "0c446f9e62a3101a001cde912dc5bc1cd57e5fc005b83b4dfff0e6ade28316d3",
+          "anchors": [
+            "generate",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.569402+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline",
+          "sentence_hash": "43a1d3fcf9dc20555933665c3f1ab42ca4735677484ddd6b0bcbba46d9f32f24",
+          "anchors": [
+            "git",
+            "hub",
+            "local",
+            "https",
+            "lab"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The CLI uses the authentication already configured for the repository URL: # GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback) npx skills add acme/private-skills # SSH on GitHub, GitLab, or another Git host npx skills add git@github.com:acme/private",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.569449+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "The CLI uses the authentication already configured for the repository URL: # GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback) npx skills add acme/private-skills # SSH on GitHub, GitLab, or another Git host npx skills add git@github.com:acme/private",
+          "sentence_hash": "a4bc4466c671e60074da214a778fd4cfa318a1195d52f1df598726c55403218c",
+          "anchors": [
+            "git",
+            "ssh",
+            "hub",
+            "use",
+            "https",
+            "any"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "For GitHub tree lookups, skills first tries the API anonymously, then an explicitly supplied environment token, then gh api.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.569483+08:00",
+          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
+          "excerpt": "For GitHub tree lookups, skills first tries the API anonymously, then an explicitly supplied environment token, then gh api.",
+          "sentence_hash": "6108b54d5c585dc6529dcd63db31fd28ce8715dff551a5db050a16f8358fe537",
+          "anchors": [
+            "api"
+          ]
+        }
+      ],
+      "entities": [
+        "ops services",
+        "server",
+        "url",
+        "api",
+        "claude code",
+        "azure repos",
+        "local",
+        "https",
+        "for git",
+        "supports open",
+        "lab",
+        "cli",
+        "cursor",
+        "list",
+        "bmain",
+        "git",
+        "direct",
+        "azure dev",
+        "generate",
+        "node",
+        "ssh",
+        "hub",
+        "use",
+        "any",
+        "code",
+        "codex",
+        "full git",
+        "they",
+        "with"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_0b69b32dedd74fe2ee619509",
+      "title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
+      "url": "https://wccftech.com/metas-muse-ai-agent-just-designed-a-crypto-specific-soc-on-the-risc-v-architecture-for-2000-to-transform-the-thru-blockchain-into-the-fastest-on-earth/",
+      "publisher": "Wccftech",
+      "summary": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools. Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V architecture using only Meta's Muse AI agent. Meta's Muse AI agent wrote the chip design based on the RISC-V a",
+      "category": "科技",
+      "published_at": "2026-10-14T22:05:41+00:00",
+      "why_relevant": "AI设计RISC-V芯片，前沿硬核",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570755+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
+          "sentence_hash": "daa46752995ebf27b982117697914cb3e5ea507ad2fa7871c02def5931ba2f7b",
+          "anchors": [
+            "ri"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570806+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+          "sentence_hash": "d92eba7f9b3516320bc783f3041ce2dd94d092d8ce84660f12d2fd471a72517c",
+          "anchors": [
+            "ri",
+            "chip",
+            "only"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570856+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec",
+          "sentence_hash": "66cac1fe7d4742d0bc1b4326ccc79784763d12d75a5d1ef7128a269d3be90286",
+          "anchors": [
+            "around",
+            "act",
+            "ri",
+            "$2,000",
+            "also",
+            "even",
+            "chip",
+            "meta",
+            "ai",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Generate the final digital blueprint file, called GDS (or GDSII), of the entire chip layout.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570880+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "- Generate the final digital blueprint file, called GDS (or GDSII), of the entire chip layout.",
+          "sentence_hash": "c2ea7f7dc8502e93384fd9baead6ad5825238ed153e556ac716b134f2b6cf6e5",
+          "anchors": [
+            "ri",
+            "chip"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This is what is typically sent to a fab to manufacture the real silicon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570902+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "This is what is typically sent to a fab to manufacture the real silicon.",
+          "sentence_hash": "5e3f2e7df547294b96511d329048d80d3c10eae8324f955fcb6d6ecedf54a392",
+          "anchors": [
+            "act"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Build support within the ASIC for standard cryptographic algorithms used in almost every blockchain for hashing data and creating/verifying digital signatures, including SHA-256/512, Keccak, Ed25519, and secp256k1.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.570937+08:00",
+          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
+          "excerpt": "- Build support within the ASIC for standard cryptographic algorithms used in almost every blockchain for hashing data and creating/verifying digital signatures, including SHA-256/512, Keccak, Ed25519, and secp256k1.",
+          "sentence_hash": "0156516d39b0b64a90eaadde522bdb78e6936a17de95f7010996a2a5fb1f5c18",
+          "anchors": [
+            "ri",
+            "for",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "managed",
+        "open",
+        "berkeley test",
+        "float",
+        "design rule check",
+        "chip",
+        "meta",
+        "risc",
+        "thru",
+        "only",
+        "next",
+        "act",
+        "rust",
+        "gdsii",
+        "critically",
+        "generate",
+        "also",
+        "build",
+        "complete",
+        "keccak",
+        "eda",
+        "gds",
+        "asic",
+        "even",
+        "layer",
+        "ai",
+        "around",
+        "ri",
+        "for",
+        "drc",
+        "muse",
+        "sha"
+      ],
+      "numbers": [
+        "$2,000\n",
+        "$2,000",
+        "100 million"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_a8a5ee8bee953cd85d0e3ce3",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "publisher": "Simon Willison",
+      "summary": "Redesigning source control at Anthropic\nInteresting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\n\nIn May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.\n\nThey included a chart showing those changes. I had Claude modify their chart (code here) to add markers for the public releases of each of th",
+      "category": "科技",
+      "published_at": "2026-10-13T23:00:06+00:00",
+      "why_relevant": "Anthropic自研源码管理，深度工程",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572165+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
+          "sentence_hash": "929bd533f355aca7a4157eb17b16964a1dc0670d10f0d678d4ad256685aa8b9f",
+          "anchors": [
+            "October 20",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572198+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
+          "sentence_hash": "004ec4fdae3a6bb0bbbfb4296d99b894e21d7e00f20293fbf0ca3480fdc52a0a",
+          "anchors": [
+            "May 20"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572235+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.",
+          "sentence_hash": "f5174b1a2660a831b4a0aea56d4bc176d8abba19ebd03f339aab105b7a8a911c",
+          "anchors": [
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572286+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.",
+          "sentence_hash": "8291709e12a63cd3a361a1c7de0cf90b891e82dd24e4cb1a3d4e41f589964d0c",
+          "anchors": [
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572327+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs.",
+          "sentence_hash": "0a0d8c1871c5d34f24859abab1d5e3b16f390fa4b195c869f7649c4d2cd55d6b",
+          "anchors": [
+            "25 million"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Fetched naively, that would be over 600 PB of git traffic per day.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.572347+08:00",
+          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
+          "excerpt": "Fetched naively, that would be over 600 PB of git traffic per day.",
+          "sentence_hash": "78217380a3e8a7786c9404f56d84a014671b590d996b02856734bcc2e00aed60",
+          "anchors": [
+            "git"
+          ]
+        }
+      ],
+      "entities": [
+        "google",
+        "piper",
+        "subversion",
+        "sapling",
+        "mononoke",
+        "nick",
+        "antique",
+        "mythos",
+        "september",
+        "claude haiku",
+        "meta",
+        "ci",
+        "update",
+        "pb",
+        "gb",
+        "link blog\nredesigning",
+        "hacker news",
+        "git",
+        "scion",
+        "recent",
+        "october",
+        "fable",
+        "interesting",
+        "since claude",
+        "hello python",
+        "in may",
+        "anthropic",
+        "claude",
+        "gpt",
+        "they",
+        "fetched"
+      ],
+      "numbers": [
+        "25 million"
+      ],
+      "dates": [
+        "October 20",
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_1d8d06301a1e6f1904c8e540",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "publisher": "OpenAI 博客",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "category": "科技",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "why_relevant": "OpenAI展示agent应用前沿",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573750+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
+          "sentence_hash": "2016839cf3ec64d6d3dd5808858cba0a975ee2a9bc78ee3377d22c64c8b47aa0",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573782+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
+          "sentence_hash": "a971856c07497c782a3795972c060c98c1957acead77015aecf6b07f5cd0bf68",
+          "anchors": [
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573817+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
+          "sentence_hash": "c9740266f974257ed5db7fa4de05bb52602d01c26cb2d167bfb043404d9cb534",
+          "anchors": [
+            "and",
+            "sign"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573844+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
+          "sentence_hash": "70231f764c7d769e6e929f2c101147dace90e6fec622e6fd704942f7c0bc4d25",
+          "anchors": [
+            "and",
+            "its",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573870+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
+          "sentence_hash": "323db61407c50a126c59b50bef75eac9245bf886b64c8a75b8732e95a5613007",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "You can do all of your work in Amp with OpenAI models and be really happy.” “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” As builders give agents more work, token costs can become a constraint.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.573913+08:00",
+          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
+          "excerpt": "You can do all of your work in Amp with OpenAI models and be really happy.” “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” As builders give agents more work, token costs can become a constraint.",
+          "sentence_hash": "c26302815795f6fc5fd2dca9c9a945cd56f9d5513e213b5b43c5241295c8c7bb",
+          "anchors": [
+            "and",
+            "you",
+            "our",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "open",
+        "and",
+        "ultrafast",
+        "chat",
+        "astra",
+        "ai",
+        "quinn",
+        "live",
+        "amp",
+        "blender",
+        "sign",
+        "its",
+        "you",
+        "our",
+        "see",
+        "for",
+        "gpt",
+        "for quinn slack",
+        "ceo"
+      ],
+      "numbers": [
+        "10 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 20
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6dc3c5370ad3d215b0f8c822",
+      "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Susan Thornton is a former American diplomat who for decades worked on US policy in Eurasia in the State Department before becoming acting assistant secretary of state for East Asian and Pacific affairs during the first Trump presidency. She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School. She spoke to Orange Wang about keeping the lines of China-US communication...",
+      "category": "国际",
+      "published_at": "2026-10-14T22:00:07+00:00",
+      "why_relevant": "中美关系与气球危机",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.574630+08:00",
+          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
+          "excerpt": "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+          "sentence_hash": "2a8c64cfbc223c73f472e11a8e6330db2a40c2df201a0e274e72bb1acdb38516",
+          "anchors": [
+            "min",
+            "ai",
+            "for",
+            "us",
+            "asia"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.574668+08:00",
+          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
+          "excerpt": "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
+          "sentence_hash": "2bb312ce879ef873ae7105e4a44feb5a508f32fcefb92cce49d94ac711b3ea57",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Leader-level meetings are the only guardrail we really have in US-China relations right now.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-15T08:03:47.574705+08:00",
+          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
+          "excerpt": "Leader-level meetings are the only guardrail we really have in US-China relations right now.",
+          "sentence_hash": "8373228377d6701a3dcd116dea40c559f82dbf705bf8fd655147930b53a343c8",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "she",
+        "national committee",
+        "state department",
+        "min",
+        "chinese president xi jinping",
+        "american",
+        "trump",
+        "pacific security",
+        "ai",
+        "forum",
+        "american foreign policy",
+        "yale law school",
+        "us",
+        "eurasia",
+        "listen\nsusan thornton",
+        "open questions",
+        "president donald trump",
+        "pacific",
+        "select voice\nselect speed",
+        "advertisement\nopen questions",
+        "leader",
+        "paul tsai china centre",
+        "susan thornton",
+        "orange wang",
+        "china",
+        "for",
+        "east asian",
+        "asia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 28
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-15-AM.json",
+      "source_artifact_date": "2026-10-15",
+      "freshness_label": "today"
+    }
+  ]
+}

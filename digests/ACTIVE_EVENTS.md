@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-14 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-15 08:08。
+
+## Saudi Aramco HQ attacked in suspected Houthi strike
+- 状态：更新中；首见 2026-10-14；最近更新 2026-10-15
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261014_2af6756996e0`
+
+## vercel-labs/skills
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_6147e6841325`
+
+## Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_19492675d19a`
+
+## Redesigning source control at Anthropic
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.
+- 事件 ID：`evt_20261015_17fb7da79015`
+
+## Amp puts AI agents to work beyond code with OpenAI models
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_1d7d330373d9`
+
+## Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_1a325c4dbf63`
+
+## AI-armed hackers tear through corporate Japan’s neglected defences
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Advertisement AI-armed hackers tear through corporate Japan’s neglected defences For years, the Japanese language was a defence against hacking in and of itself, observers say.
+- 事件 ID：`evt_20261015_ee3cf18099e5`
+
+## Musk says US government may be behind slowdown of Ukraine drone speeds
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Musk says US government may be behind slowdown of Ukraine drone speeds - Published Elon Musk has suggested that the US government may be behind restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to SpaceX's Starlink internet network.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_6e5b76e62f5f`
+
+## Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China Pentagon chief warns US risks falling behind China in drones, robotics and AI without major investment in military capabilities US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence b
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_7a69144aaa53`
+
+## Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：San Francisco-based Anthropic will release the numbers to a group of institutional investors, according to two people familiar with the matter, who asked not to be named because the details were confidential.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261015_b83ab40f32bb`
+
+## Fed rate hike call seen tight as inflation heats up
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261015_19482926cddf`
+
+## Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261015_dcb8e7440d1d`
+
+## Iran: Political infighting deepens as economic woes mount during war
+- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
+- 最新事实：Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.
+- 事件 ID：`evt_20261015_cc20514845c1`
 
 ## Saudi OpenAI engineer arrested by FBI for planting covert recording device, US DOJ says
 - 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
@@ -44,11 +116,6 @@
 - 最新事实：07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261014_3a957f9f9f71`
-
-## Saudi Aramco HQ attacked in suspected Houthi strike
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261014_2af6756996e0`
 
 ## IMF flags risks to global economy from AI market correction, war and debt
 - 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
@@ -1151,75 +1218,4 @@
 - 最新事实：With Nvidia CEO Jensen Huang speaking on stage at the All-in Summit in Los Angeles, Trump called the tech exec, and was then put on speaker.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260915_25b629f1e06a`
-
-## Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba Is imitation the sincerest form of flattery?
-- 事件 ID：`evt_20260914_e4fbd5e4aa87`
-
-## A 5% Treasury Yield Is Raising New Risks for Markets, Economy
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：A 5% Treasury Yield Is Raising New Risks for Markets, Economy&nbsp;&nbsp;Bloomberg.com
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260914_cda76f36a8e3`
-
-## BRICS leaders voice concern over Middle East, condemn unilateral sanctions at India summit
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260914_f96bf0a16515`
-
-## BOJ and Fed face critical test as market pressure rises on rates
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：TOKYO -- Central banks in the U.S.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260914_fbac01e4b80d`
-
-## Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station - Published A Russian drone has hit a train near the Ukraine-Poland border shortly after former UK Prime Minister Boris Johnson and top European security officials had passed through.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260914_80f7baeb3069`
-
-## asgeirtj/system_prompts_leaks
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Reload to refresh your session.You signed out in another tab or window.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260914_6694abf04074`
-
-## Trump and Mike Johnson think the AI industry is overreacting
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to “pace the frontier” and slow down AI development.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260914_29b02d25e826`
-
-## Pacing the Frontier – Tahuna: AI Training Infrastructure, Now Open Source [P]
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260914_7d0e7360c231`
-
-## Anthropic Said to Choose Nasdaq for Much-Anticipated IPO Listing
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260914_808bf00d6f68`
-
-## Is Clarity dead? A vibes-based analysis: State of Crypto
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260914_acc3bd4cd9d2`
-
-## Tehran and Muscat delay talks, citing regional consensus need
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Tehran and Muscat delay talks, citing regional consensus need Negotiations in Oman between Iran and Gulf Arab states have been postponed at the request of some regional countries, Iranian media have reported.
-- 事件 ID：`evt_20260914_a1acf025487f`
-
-## Iran war reshapes Brics ties but also exposes divisions
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Iran war reshapes Brics ties but also exposes divisions - Published This weekend, some of the most powerful people in the world gathered in Delhi around a vast circular table.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260914_c1d243b02ffa`
-
-## Trump to consider releasing 9/11 records after families’ request
-- 状态：更新中；首见 2026-09-14；最近更新 2026-09-14
-- 最新事实：Trump to consider releasing 9/11 records after families’ request Families allege that a group of religious leaders in Saudi Arabia gained influence in the Saudi government and aided the hijackers in 2001 US President Donald Trump on Sunday said he will look into requests from fam
-- 事件 ID：`evt_20260914_1e0a0e4b901f`
 
