@@ -5685,12 +5685,12 @@
           "evidence_path": "digests/meta/2026-09-20-AM-evidence.json"
         }
       ],
-      "latest_seen": "2026-09-20",
+      "latest_seen": "2026-10-17",
       "latest_title": "affaan-m/ECC",
       "latest_raw_title": "affaan-m/ECC",
       "status": "更新中",
       "key_facts": [
-        "Language: English | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська Warning Official sources only.",
+        "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
         "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
         "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware."
       ],
@@ -11443,7 +11443,475 @@
       "sources": [
         "https://www.dw.com/en/iran-political-infighting-deepens-as-economic-woes-mount-during-war/a-79654461?maca=en-rss-en-world-4025-xml-mrss"
       ]
+    },
+    {
+      "id": "evt_20261017_d81557c979da",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_716f00b83644ac6198c8d0ac",
+          "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+          "raw_title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+          "why_relevant": "代码审查新思路，硬核观点",
+          "facts": [
+            "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
+            "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
+            "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://simonwillison.net/2026/Oct/16/code-review/"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "latest_raw_title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "status": "更新中",
+      "key_facts": [
+        "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
+        "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
+        "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://simonwillison.net/2026/Oct/16/code-review/"
+      ]
+    },
+    {
+      "id": "evt_20261017_0acf8b0dfe12",
+      "title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_056b44b4187584486a38af7a",
+          "title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+          "raw_title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+          "why_relevant": "GPU价格动态，硬件玩家关注",
+          "facts": [
+            "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+            "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
+            "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://wccftech.com/nvidia-tesla-v100-32gb-price-rises-ai-boom-pcie-sxm2/"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+      "latest_raw_title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+      "status": "更新中",
+      "key_facts": [
+        "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+        "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
+        "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://wccftech.com/nvidia-tesla-v100-32gb-price-rises-ai-boom-pcie-sxm2/"
+      ]
+    },
+    {
+      "id": "evt_20261017_44df2dd92b56",
+      "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_fc0c1016fa79931bcf9a1d5f",
+          "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+          "raw_title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+          "why_relevant": "科技股暴跌，AI交易恐慌",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+      "latest_raw_title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261017_19ebefee27ce",
+      "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_ffc867a4840633cc1cffc878",
+          "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+          "raw_title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+          "why_relevant": "AI暴跌加石油冲击",
+          "facts": [
+            "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
+            "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
+            "The data center operator's bonds sold off sharply this week, pushing yields above 15%."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVHNoVXVmaThlSEx4SkpxSzR2TEdOLVl0ZnlTWjhQT0FwRWxQOGJKSllUMEl1YzliOVVMTEtRM1FfclQwdWdnMDhremNOTmZJZjhMRVF5R3U0Z2NzQTZUOU5jV3Y1a1BtMXl2ZzhIX1ZvZ1Z5QURkdnJ5djVwTXpROC1xZGQwUkRXQmJhTGNXNURRWElIS0NpSEtlWkdwU2xNcWFocVF0QmFVXy01dUE?oc=5",
+            "https://asia.nikkei.com/business/markets/equities/ai-stocks-slide-as-debt-fears-grip-wall-street"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+      "latest_raw_title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+      "status": "更新中",
+      "key_facts": [
+        "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
+        "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
+        "The data center operator's bonds sold off sharply this week, pushing yields above 15%."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVHNoVXVmaThlSEx4SkpxSzR2TEdOLVl0ZnlTWjhQT0FwRWxQOGJKSllUMEl1YzliOVVMTEtRM1FfclQwdWdnMDhremNOTmZJZjhMRVF5R3U0Z2NzQTZUOU5jV3Y1a1BtMXl2ZzhIX1ZvZ1Z5QURkdnJ5djVwTXpROC1xZGQwUkRXQmJhTGNXNURRWElIS0NpSEtlWkdwU2xNcWFocVF0QmFVXy01dUE?oc=5",
+        "https://asia.nikkei.com/business/markets/equities/ai-stocks-slide-as-debt-fears-grip-wall-street"
+      ]
+    },
+    {
+      "id": "evt_20261017_702f13478402",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_0a3d40b229328cbf649cfa84",
+          "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+          "raw_title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+          "why_relevant": "平台干预选举，国际要闻",
+          "facts": [
+            "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
+            "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
+            "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "latest_raw_title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "status": "更新中",
+      "key_facts": [
+        "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
+        "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
+        "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "evt_20261017_a1637d92caf7",
+      "title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_e5c72a50328e4f302df622ca",
+          "title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+          "raw_title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+          "why_relevant": "中欧贸易摩擦，宏观事件",
+          "facts": [
+            "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
+            "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/china/diplomacy/article/3371217/china-warns-eu-not-fantasise-trade-approach-brussels-confirms-new-kill-switch?utm_source=rss_feed"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+      "latest_raw_title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+      "status": "更新中",
+      "key_facts": [
+        "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
+        "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/china/diplomacy/article/3371217/china-warns-eu-not-fantasise-trade-approach-brussels-confirms-new-kill-switch?utm_source=rss_feed"
+      ]
+    },
+    {
+      "id": "evt_20261017_503aa93bef47",
+      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_5a8f1a4af8d7be3771467542",
+          "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+          "raw_title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+          "why_relevant": "美乌关系，地缘政治",
+          "facts": [
+            "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against",
+            "In a BBC interview, Guido Crosetto warned that any such move by US President Donald Trump's administration \"makes absolutely no sense\" and risked prolonging Russia's full-scale invasion rather than helping to bring peace.",
+            "Trump has also denied that the US has stopped sharing early-warning alerts of incoming Russian aerial attacks with Ukraine."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "latest_raw_title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "status": "更新中",
+      "key_facts": [
+        "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against",
+        "In a BBC interview, Guido Crosetto warned that any such move by US President Donald Trump's administration \"makes absolutely no sense\" and risked prolonging Russia's full-scale invasion rather than helping to bring peace.",
+        "Trump has also denied that the US has stopped sharing early-warning alerts of incoming Russian aerial attacks with Ukraine."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261017_53267b6317e9",
+      "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_155b0f3b7007c8d66c547011",
+          "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+          "raw_title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+          "why_relevant": "乌克兰局势，欧盟立场",
+          "facts": [
+            "Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.",
+            "Speaking to press at the summit, he said that \"Putin wants to destroy us\" and that Ukraine must prepare for a hard winter.",
+            "\"Ukraine is arguably entering the most difficult winter since [Russia's] full scale invasion,\" Olena Prokopenko, a senior fellow at the German Marshall Fund of the United States, a nonpartisan think-tank, told DW."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+      "latest_raw_title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+      "status": "更新中",
+      "key_facts": [
+        "Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.",
+        "Speaking to press at the summit, he said that \"Putin wants to destroy us\" and that Ukraine must prepare for a hard winter.",
+        "\"Ukraine is arguably entering the most difficult winter since [Russia's] full scale invasion,\" Olena Prokopenko, a senior fellow at the German Marshall Fund of the United States, a nonpartisan think-tank, told DW."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-xml-mrss"
+      ]
+    },
+    {
+      "id": "evt_20261017_9ab8cdb3bfcc",
+      "title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_605353348ccf1ea2d5dac3f0",
+          "title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+          "raw_title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+          "why_relevant": "美俄柴油交易，地缘动态",
+          "facts": [
+            "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2hXSnYwZU9ldlRnMk4yckJBZGdyYUJDZWJBa1ZRNFM5bWVmUkRYVmNfWVdtMFlGOG5TX3YwREZYWi1jeGRmLVpTanpzYWltYlR4UVpqblpnUUZuUEdYODVMS3VORFJHaXNIcC1PMVVKVERPTS1GeS1Ra0Y4dVNNb2otSWliai0zcXBaLWRmR3hfc2FMNFZZMTN4Q3F4YzN4NmM1RFg1cGtOdDQ0REFRN1B2RV95Wnp3R0NYUA?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+      "latest_raw_title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+      "status": "更新中",
+      "key_facts": [
+        "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2hXSnYwZU9ldlRnMk4yckJBZGdyYUJDZWJBa1ZRNFM5bWVmUkRYVmNfWVdtMFlGOG5TX3YwREZYWi1jeGRmLVpTanpzYWltYlR4UVpqblpnUUZuUEdYODVMS3VORFJHaXNIcC1PMVVKVERPTS1GeS1Ra0Y4dVNNb2otSWliai0zcXBaLWRmR3hfc2FMNFZZMTN4Q3F4YzN4NmM1RFg1cGtOdDQ0REFRN1B2RV95Wnp3R0NYUA?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261017_0606567eedd3",
+      "title": "Trump denies limiting Ukraine access to Starlink network",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_57a5dc8fa70c58b9e1bd39e4",
+          "title": "Trump denies limiting Ukraine access to Starlink network",
+          "raw_title": "Trump denies limiting Ukraine access to Starlink network",
+          "why_relevant": "星链限制，技术地缘",
+          "facts": [
+            "Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.",
+            "\"It wasn't me and I don't think it was [Starlink owner] Elon [Musk],\" Trump said, hours after Ukrainian President Volodymyr Zelensky said speed had yet to be restored.",
+            "Musk himself suggested the US government might have been behind the restrictions, while Reuters news agency reported on Thursday that the order had come from inside the White House."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Trump denies limiting Ukraine access to Starlink network",
+      "latest_raw_title": "Trump denies limiting Ukraine access to Starlink network",
+      "status": "更新中",
+      "key_facts": [
+        "Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.",
+        "\"It wasn't me and I don't think it was [Starlink owner] Elon [Musk],\" Trump said, hours after Ukrainian President Volodymyr Zelensky said speed had yet to be restored.",
+        "Musk himself suggested the US government might have been behind the restrictions, while Reuters news agency reported on Thursday that the order had come from inside the White House."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261017_b8621738d1b8",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_c6dcb9ac1054db0e60e61855",
+          "title": "K-Dense-AI/scientific-agent-skills",
+          "raw_title": "K-Dense-AI/scientific-agent-skills",
+          "why_relevant": "科研Agent技能库，实用性强",
+          "facts": [
+            "New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.",
+            "Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo.",
+            "Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/K-Dense-AI/scientific-agent-skills"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "K-Dense-AI/scientific-agent-skills",
+      "latest_raw_title": "K-Dense-AI/scientific-agent-skills",
+      "status": "更新中",
+      "key_facts": [
+        "New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.",
+        "Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo.",
+        "Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ]
+    },
+    {
+      "id": "evt_20261017_d6f23b420111",
+      "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+      "first_seen": "2026-10-17",
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "article_id": "a1_63d38ad7fa12f484eb1ba0ce",
+          "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+          "raw_title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+          "why_relevant": "比特币行情，市场信号",
+          "facts": [
+            "VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.",
+            "While not nearly as dramatic as the S&P 500’s 5% decline 39 years ago, the Nasdaq fell 2.15% today.",
+            "Alongside, the volatility index (VIX) — often referred to as the “fear gauge” — soared 22%."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue"
+          ],
+          "evidence_path": "digests/meta/2026-10-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-17",
+      "latest_title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+      "latest_raw_title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+      "status": "更新中",
+      "key_facts": [
+        "VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.",
+        "While not nearly as dramatic as the S&P 500’s 5% decline 39 years ago, the Nasdaq fell 2.15% today.",
+        "Alongside, the volatility index (VIX) — often referred to as the “fear gauge” — soared 22%."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue"
+      ]
     }
   ],
-  "updated_at": "2026-10-15T08:03:47.582181+08:00"
+  "updated_at": "2026-10-17T08:03:45.377863+08:00"
 }

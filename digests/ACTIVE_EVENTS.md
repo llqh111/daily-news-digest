@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-15 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-17 08:06。
+
+## affaan-m/ECC
+- 状态：更新中；首见 2026-09-20；最近更新 2026-10-17
+- 最新事实：Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_418ecde63902`
+
+## Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：16th October 2026 We think "did a human read the code?" is an imprecise proxy for "what could go wrong with this change, and which check—automated or human—is the right one to catch it?" Asking that question also changed when review happens.
+- 事件 ID：`evt_20261017_d81557c979da`
+
+## NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.
+- 事件 ID：`evt_20261017_0acf8b0dfe12`
+
+## Big Tech stocks suffer biggest weekly drop since ‘liberation day’
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261017_44df2dd92b56`
+
+## Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_19ebefee27ce`
+
+## Meta employees say Lula’s accounts restricted in Brazil election: Report
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.
+- 事件 ID：`evt_20261017_702f13478402`
+
+## China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_a1637d92caf7`
+
+## Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a "complete mistake, a major mistake" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_503aa93bef47`
+
+## Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.
+- 事件 ID：`evt_20261017_53267b6317e9`
+
+## Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261017_9ab8cdb3bfcc`
+
+## Trump denies limiting Ukraine access to Starlink network
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_0606567eedd3`
+
+## K-Dense-AI/scientific-agent-skills
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_b8621738d1b8`
+
+## Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
+- 最新事实：VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_d6f23b420111`
 
 ## Saudi Aramco HQ attacked in suspected Houthi strike
 - 状态：更新中；首见 2026-10-14；最近更新 2026-10-15
@@ -868,12 +941,6 @@
 - 最新事实：First came the blackmail and death threats to secure cooperation, then came a series of tasks, each more sinister than the last: to inform on fellow activists, to elicit personal information from protest-minded artists and – eventually – to help with a plot to kidnap and murder a
 - 事件 ID：`evt_20260920_edfe28c8fc6d`
 
-## affaan-m/ECC
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：Language: English | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська Warning Official sources only.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_418ecde63902`
-
 ## Tencent/BrowserSkill
 - 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
 - 最新事实：Let AI agents use your browser without interrupting your work.
@@ -1103,119 +1170,4 @@
 - 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20260917_15fae2213939`
-
-## Jensen Huang says battle over AI innovation and safety is ‘false choice’
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：Jensen Huang says battle over AI innovation and safety is ‘false choice’ Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_fd302d98f253`
-
-## Crypto stocks sink after Senate rejects Clarity Act
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：Crypto stocks sink after Senate rejects Clarity Act Coinbase, Circle and Galaxy lead a broad crypto stock selloff after the U.S.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_e9d190c7851b`
-
-## Five takeaways from Canada's push to woo the world's richest investors
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：Five takeaways from Canada's push to woo the world's richest investors - Published Prime Minister Mark Carney is pitching Canada as a "safe harbour" for some of the world's largest investors in an era of geopolitical and economic uncertainty.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_070b03bec79e`
-
-## Ferocious fight among Brazil’s supreme court erupts on eve of presidential election
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：Brazil’s supreme court has been thrust into what experts consider the greatest crisis since the return of democracy in the 1980s, as two rival judges lock horns on the eve of the presidential election with unpredictable consequences for Latin America’s largest democracy.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_0affdc32f203`
-
-## Iran war has led to US munitions shortfalls, Pentagon inspector confirms
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：Iran war has led to US munitions shortfalls, Pentagon inspector confirms - Published The US defence department's inspector general says the war with Iran has led to "shortfalls" in munitions and a bottleneck in resupply, contradicting President Donald Trump who has repeatedly den
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_5640f5e2c77b`
-
-## rlaope/oh-my-hermes
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：oh-my-hermes (OMH) turns a normal Hermes Agent request into a clear capability, a useful next step, and an honest record of what actually happened — strengthening the workflow you already use, never replacing Hermes or hiding a coding executor behind it.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_b2aabd3aa2ff`
-
-## alibaba/open-code-review
-- 状态：更新中；首见 2026-09-16；最近更新 2026-09-16
-- 最新事实：English | 简体中文 | 日本語 | 한국어 | Русский Open Code Review is an AI-powered code review CLI tool.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260916_ab70979c65ef`
-
-## AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：AI-linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development, citing fears the technology could soon run out of control.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_1c402e6dbbfb`
-
-## Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：Oil tanker has exploded in Strait of Hormuz, says Iran’s IRGC The Islamic Revolutionary Guard Corps said the El Gaia went up in flames after it struck a sea mine but the US rejected the claim Iran’s Islamic Revolutionary Guard Corps (IRGC) said late on Monday that an oil tanker h
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_f14921dfe14c`
-
-## JustVugg/colibri
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：Website · Discord · English · 简体中文 · 繁體中文 · Italiano Tiny engine, immense model.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_65851864405e`
-
-## Gaming takes a backseat as Nvidia overhauls the RTX 5090 for maximum AI margins — RTX Pro 5500 delivers 2.6X VRAM at matching specs
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：It offers comparable specifications to the GeForce RTX 5090 but distinguishes itself with 84GB of GDDR7 memory, 2.6X more than the Blackwell gaming flagship.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_c7dcb7eab1c0`
-
-## Ten-year Treasury yield hits 5% for first time since 2023
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：Ten-year Treasury yield hits 5% for first time since 2023 Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_57e8371f239b`
-
-## Oil hits $109 after Saudi Arabia closes vital export pipeline
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：Oil hits $109 after Saudi Arabia closes vital export pipeline Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_2c5ae6b9b58c`
-
-## EU leaders urge unity after Russian strike on train
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：EU leaders urge unity after Russian strike on train September 14, 2026 Several top EU politicians have called a Russian drone strike on a passenger train on Ukraine's border with Poland a bid by Moscow to intimidate Kyiv's allies that should be met with even more resolution.
-- 事件 ID：`evt_20260915_0945fbc24025`
-
-## Why talks in Oman between Iran and Gulf Arab states were postponed
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：Published On 14 Sep 2026
-- 事件 ID：`evt_20260915_270a2f891c4b`
-
-## Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：The fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering.
-- 事件 ID：`evt_20260915_a7b744765899`
-
-## Ukraine, Russia set for new round of US-mediated talks
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：Ukraine, Russia set for new round of US-mediated talks September 14, 2026 Ukraine and Russia have signaled their readiness to resume trilateral talks under US mediation.
-- 事件 ID：`evt_20260915_122f853fd207`
-
-## vxcontrol/pentagi
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_0b7051809357`
-
-## tech-leads-club/agent-skills
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：The secure, validated skill registry for professional AI coding agents In an ecosystem where over 13% of marketplace skills contain critical vulnerabilities, Agent Skills stands apart as a hardened library of verified, tested, and safe capabilities.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_dc83931849b3`
-
-## Trump phones Nvidia’s Huang at All-In Summit, calls data center opposition a ‘hoax’
-- 状态：更新中；首见 2026-09-15；最近更新 2026-09-15
-- 最新事实：With Nvidia CEO Jensen Huang speaking on stage at the All-in Summit in Los Angeles, Trump called the tech exec, and was then put on speaker.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260915_25b629f1e06a`
 

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-10-15-AM",
-  "date": "2026-10-15",
+  "run_key": "2026-10-17-AM",
+  "date": "2026-10-17",
   "session": "AM",
-  "delivered_at": "2026-10-15T08:08:32.219350+08:00",
+  "delivered_at": "2026-10-17T08:06:43.351936+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-10-15T00:08:32.220776+00:00",
+  "exported_at": "2026-10-17T00:06:43.352987+00:00",
   "quality": {
     "total_items": 13,
     "items_with_unsupported_numbers": 4,
@@ -14,407 +14,223 @@
   },
   "items": [
     {
-      "article_id": "a1_a906f2b94a96d9b16d06fac8",
-      "title": "vercel-labs/skills",
-      "url": "https://github.com/vercel-labs/skills",
-      "publisher": "GitHub Trending",
-      "summary": "The open agent skills tool - npx skillshttps://skills.shskills \nThe CLI for the open agent skills ecosystem. \n \nSupports OpenCode, Claude Code, Codex, Cursor, and 75 more. \n \n       \nInstall a Skill \nnpx skills add vercel-labs/agent-skills\n \nUse a Skill Without Installing \nGenerate a prompt for one skill, or start a supported coding agent interactively: \nnpx skills use vercel-labs/agent-skills@web-design-guidelines | claude\nnpx skills use vercel-labs/agent-skills --skill web-design-guidelines --",
+      "article_id": "a1_716f00b83644ac6198c8d0ac",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "publisher": "Simon Willison",
+      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.\nNow, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This c",
       "category": "科技",
-      "published_at": "",
-      "why_relevant": "开源agent技能工具，实用性强",
+      "published_at": "2026-10-16T22:06:37+00:00",
+      "why_relevant": "代码审查新思路，硬核观点",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
+          "text": "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.569321+08:00",
-          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
-          "excerpt": "npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co",
-          "sentence_hash": "a788500c3f60d9e0e1da5b3e5d4baf5860bfb335233917c49f39f6e7324b9b9b",
+          "captured_at": "2026-10-17T08:03:45.372064+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
+          "sentence_hash": "49c95861663db265857bca339fb353a290e820a831e8e9edb8cf49a454f91f90",
           "anchors": [
-            "direct",
-            "generate",
-            "use",
-            "code",
-            "lab"
+            "October 20",
+            "pr"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "With --agent, it starts one supported agent interactively with the generated prompt.",
+          "text": "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.569355+08:00",
-          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
-          "excerpt": "With --agent, it starts one supported agent interactively with the generated prompt.",
-          "sentence_hash": "0c446f9e62a3101a001cde912dc5bc1cd57e5fc005b83b4dfff0e6ade28316d3",
+          "captured_at": "2026-10-17T08:03:45.372088+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
+          "sentence_hash": "509b3a664d74453bad9286191d6567005ff0795f39eb425a7778855c943739d4",
           "anchors": [
-            "generate",
+            "before"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372098+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.",
+          "sentence_hash": "e5bbc3eecea0bec2d33d58c1f52fb85705ee0fca8357852155ac234575ab4e40",
+          "anchors": [
+            "most"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "— Addy Osmani, Morgan Westlee Lunt, and Qing Wang, How the Claude Code team does code review Recent articles - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372118+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "— Addy Osmani, Morgan Westlee Lunt, and Qing Wang, How the Claude Code team does code review Recent articles - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th",
+          "sentence_hash": "1d64b671f0e391e3db4f510b4a192b7a7c11adb79246130cf4017569645fdaab",
+          "anchors": [
+            "October 20",
+            "pr",
+            "now"
+          ]
+        }
+      ],
+      "entities": [
+        "morgan westlee lunt",
+        "recent",
+        "addy osmani",
+        "claude haiku",
+        "claude",
+        "now",
+        "asking",
+        "before",
+        "pr",
+        "october",
+        "qing wang",
+        "claude code",
+        "most",
+        "hello python"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 15
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_056b44b4187584486a38af7a",
+      "title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+      "url": "https://wccftech.com/nvidia-tesla-v100-32gb-price-rises-ai-boom-pcie-sxm2/",
+      "publisher": "Wccftech",
+      "summary": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback. With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum. Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 p",
+      "category": "科技",
+      "published_at": "2026-10-16T18:56:03+00:00",
+      "why_relevant": "GPU价格动态，硬件玩家关注",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372639+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+          "sentence_hash": "af7cfeef65848cc4438b344007a9c49baf64501e0dc734682f97d2de3f7ae602",
+          "anchors": [
+            "for",
             "with"
           ]
         },
         {
-          "fact_id": "f3",
-          "text": "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.569402+08:00",
-          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
-          "excerpt": "# GitHub shorthand (owner/repo) npx skills add vercel-labs/agent-skills # Full GitHub URL npx skills add https://github.com/vercel-labs/agent-skills # Direct path to a skill in a repo npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guideline",
-          "sentence_hash": "43a1d3fcf9dc20555933665c3f1ab42ca4735677484ddd6b0bcbba46d9f32f24",
-          "anchors": [
-            "git",
-            "hub",
-            "local",
-            "https",
-            "lab"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The CLI uses the authentication already configured for the repository URL: # GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback) npx skills add acme/private-skills # SSH on GitHub, GitLab, or another Git host npx skills add git@github.com:acme/private",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.569449+08:00",
-          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
-          "excerpt": "The CLI uses the authentication already configured for the repository URL: # GitHub shorthand or HTTPS (Git credential helper, GitHub CLI, then SSH fallback) npx skills add acme/private-skills # SSH on GitHub, GitLab, or another Git host npx skills add git@github.com:acme/private",
-          "sentence_hash": "a4bc4466c671e60074da214a778fd4cfa318a1195d52f1df598726c55403218c",
-          "anchors": [
-            "git",
-            "ssh",
-            "hub",
-            "use",
-            "https",
-            "any"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "For GitHub tree lookups, skills first tries the API anonymously, then an explicitly supplied environment token, then gh api.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.569483+08:00",
-          "content_sha256": "817419eab6fcc96e83bd9ef3a746de33b8c042cc74cae51134c1cb1038a5481f",
-          "excerpt": "For GitHub tree lookups, skills first tries the API anonymously, then an explicitly supplied environment token, then gh api.",
-          "sentence_hash": "6108b54d5c585dc6529dcd63db31fd28ce8715dff551a5db050a16f8358fe537",
-          "anchors": [
-            "api"
-          ]
-        }
-      ],
-      "entities": [
-        "ops services",
-        "server",
-        "url",
-        "api",
-        "claude code",
-        "azure repos",
-        "local",
-        "https",
-        "for git",
-        "supports open",
-        "lab",
-        "cli",
-        "cursor",
-        "list",
-        "bmain",
-        "git",
-        "direct",
-        "azure dev",
-        "generate",
-        "node",
-        "ssh",
-        "hub",
-        "use",
-        "any",
-        "code",
-        "codex",
-        "full git",
-        "they",
-        "with"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 5,
-        "anchor_count": 29
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_0b69b32dedd74fe2ee619509",
-      "title": "Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”",
-      "url": "https://wccftech.com/metas-muse-ai-agent-just-designed-a-crypto-specific-soc-on-the-risc-v-architecture-for-2000-to-transform-the-thru-blockchain-into-the-fastest-on-earth/",
-      "publisher": "Wccftech",
-      "summary": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools. Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V architecture using only Meta's Muse AI agent. Meta's Muse AI agent wrote the chip design based on the RISC-V a",
-      "category": "科技",
-      "published_at": "2026-10-14T22:05:41+00:00",
-      "why_relevant": "AI设计RISC-V芯片，前沿硬核",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.570755+08:00",
-          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
-          "excerpt": "Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.",
-          "sentence_hash": "daa46752995ebf27b982117697914cb3e5ea507ad2fa7871c02def5931ba2f7b",
-          "anchors": [
-            "ri"
-          ]
-        },
-        {
           "fact_id": "f2",
-          "text": "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
+          "text": "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.570806+08:00",
-          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
-          "excerpt": "Even so, as is the case with so many other technical fields right now, AI agents might soon be able to realistically shrink the chip design pipeline to mere hours or days, as a semiconductor expert appears to have just done by designing a viable crypto-specific SoC on the RISC-V ",
-          "sentence_hash": "d92eba7f9b3516320bc783f3041ce2dd94d092d8ce84660f12d2fd471a72517c",
+          "captured_at": "2026-10-17T08:03:45.372653+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
+          "sentence_hash": "c2dc58dd657fa9ae03ea18d8ecf1cfa93d05de58371ea3a99d3b63c5e7446846",
           "anchors": [
-            "ri",
-            "chip",
-            "only"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.570856+08:00",
-          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
-          "excerpt": "Meta's Muse AI agent wrote the chip design based on the RISC-V architecture, tested it, and even ran the manufacturing-prep software by itself, with the entire task costing just around $2,000 The semiconductor expert @bubbleboi, who is also a mascot for the Thru blockchain projec",
-          "sentence_hash": "66cac1fe7d4742d0bc1b4326ccc79784763d12d75a5d1ef7128a269d3be90286",
-          "anchors": [
-            "around",
-            "act",
-            "ri",
-            "$2,000",
-            "also",
-            "even",
-            "chip",
-            "meta",
-            "ai",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "- Generate the final digital blueprint file, called GDS (or GDSII), of the entire chip layout.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.570880+08:00",
-          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
-          "excerpt": "- Generate the final digital blueprint file, called GDS (or GDSII), of the entire chip layout.",
-          "sentence_hash": "c2ea7f7dc8502e93384fd9baead6ad5825238ed153e556ac716b134f2b6cf6e5",
-          "anchors": [
-            "ri",
-            "chip"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This is what is typically sent to a fab to manufacture the real silicon.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.570902+08:00",
-          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
-          "excerpt": "This is what is typically sent to a fab to manufacture the real silicon.",
-          "sentence_hash": "5e3f2e7df547294b96511d329048d80d3c10eae8324f955fcb6d6ecedf54a392",
-          "anchors": [
-            "act"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "- Build support within the ASIC for standard cryptographic algorithms used in almost every blockchain for hashing data and creating/verifying digital signatures, including SHA-256/512, Keccak, Ed25519, and secp256k1.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.570937+08:00",
-          "content_sha256": "830612eeb5bd5af940c09710363594616c733d267b266c1ecefbeec44ecab1dd",
-          "excerpt": "- Build support within the ASIC for standard cryptographic algorithms used in almost every blockchain for hashing data and creating/verifying digital signatures, including SHA-256/512, Keccak, Ed25519, and secp256k1.",
-          "sentence_hash": "0156516d39b0b64a90eaadde522bdb78e6936a17de95f7010996a2a5fb1f5c18",
-          "anchors": [
-            "ri",
             "for",
+            "with",
             "ai"
           ]
-        }
-      ],
-      "entities": [
-        "managed",
-        "open",
-        "berkeley test",
-        "float",
-        "design rule check",
-        "chip",
-        "meta",
-        "risc",
-        "thru",
-        "only",
-        "next",
-        "act",
-        "rust",
-        "gdsii",
-        "critically",
-        "generate",
-        "also",
-        "build",
-        "complete",
-        "keccak",
-        "eda",
-        "gds",
-        "asic",
-        "even",
-        "layer",
-        "ai",
-        "around",
-        "ri",
-        "for",
-        "drc",
-        "muse",
-        "sha"
-      ],
-      "numbers": [
-        "$2,000\n",
-        "$2,000",
-        "100 million"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 35
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_a8a5ee8bee953cd85d0e3ce3",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "publisher": "Simon Willison",
-      "summary": "Redesigning source control at Anthropic\nInteresting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\n\nIn May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.\n\nThey included a chart showing those changes. I had Claude modify their chart (code here) to add markers for the public releases of each of th",
-      "category": "科技",
-      "published_at": "2026-10-13T23:00:06+00:00",
-      "why_relevant": "Anthropic自研源码管理，深度工程",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.572165+08:00",
-          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
-          "excerpt": "13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.",
-          "sentence_hash": "929bd533f355aca7a4157eb17b16964a1dc0670d10f0d678d4ad256685aa8b9f",
-          "anchors": [
-            "October 20",
-            "they"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.572198+08:00",
-          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
-          "excerpt": "In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.",
-          "sentence_hash": "004ec4fdae3a6bb0bbbfb4296d99b894e21d7e00f20293fbf0ca3480fdc52a0a",
-          "anchors": [
-            "May 20"
-          ]
         },
         {
           "fact_id": "f3",
-          "text": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.",
+          "text": "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.572235+08:00",
-          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
-          "excerpt": "My guess is that the introduction of Fable/Mythos class models is a key factor in the increased coding velocity.",
-          "sentence_hash": "f5174b1a2660a831b4a0aea56d4bc176d8abba19ebd03f339aab105b7a8a911c",
+          "captured_at": "2026-10-17T08:03:45.372667+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100.",
+          "sentence_hash": "4308e5761635371f6a632fd3c4c992febd32d7da1451afc6ddabe46c8c7bfc7c",
           "anchors": [
-            "ci"
+            "for",
+            "with",
+            "$200 "
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.",
+          "text": "For a 9-year-old GPU, the Tesla V100 packs a ton of bandwidth and GPU memory to be able to run decent LLMs at a fraction of the RTX 6000 PRO’s price A post shared by @unbug on X provides details of the Tesla V100 being repurposed and shipped in truckloads for inference purposes, ",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.572286+08:00",
-          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
-          "excerpt": "The source control system is called Scion, and sounds to me like a reinvention of centralized source control along the lines of Subversion.",
-          "sentence_hash": "8291709e12a63cd3a361a1c7de0cf90b891e82dd24e4cb1a3d4e41f589964d0c",
+          "captured_at": "2026-10-17T08:03:45.372688+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "For a 9-year-old GPU, the Tesla V100 packs a ton of bandwidth and GPU memory to be able to run decent LLMs at a fraction of the RTX 6000 PRO’s price A post shared by @unbug on X provides details of the Tesla V100 being repurposed and shipped in truckloads for inference purposes, ",
+          "sentence_hash": "2453e74b8a5e054f6a7c1aac34f24707de5643a5e24357c4088d6090074d4360",
           "anchors": [
-            "ci"
+            "for",
+            "pro",
+            "$2,000",
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs.",
+          "text": "Though this figure is still on the higher side, it sure beats purchasing something like the RTX 6000 PRO, which crossed the $16,000 mark back in August.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.572327+08:00",
-          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
-          "excerpt": "We perform on the order of 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs.",
-          "sentence_hash": "0a0d8c1871c5d34f24859abab1d5e3b16f390fa4b195c869f7649c4d2cd55d6b",
+          "captured_at": "2026-10-17T08:03:45.372700+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "Though this figure is still on the higher side, it sure beats purchasing something like the RTX 6000 PRO, which crossed the $16,000 mark back in August.",
+          "sentence_hash": "a651f307c7fec3d3665e31d997cbd823ec2cbfe646383a0e0b6554ad42bde953",
           "anchors": [
-            "25 million"
+            "$16,000 "
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Fetched naively, that would be over 600 PB of git traffic per day.",
+          "text": "In one of the pictures, we can see that the Tesla V100 has been modded with a triple-fan cooler, making it easier to attach to traditional motherboards featuring a PCIe slot.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.572347+08:00",
-          "content_sha256": "06efb42ef3bdfa7f43df4134c716f91028645fdac8c84f8bfa0f0c983fdbcd69",
-          "excerpt": "Fetched naively, that would be over 600 PB of git traffic per day.",
-          "sentence_hash": "78217380a3e8a7786c9404f56d84a014671b590d996b02856734bcc2e00aed60",
+          "captured_at": "2026-10-17T08:03:45.372713+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "In one of the pictures, we can see that the Tesla V100 has been modded with a triple-fan cooler, making it easier to attach to traditional motherboards featuring a PCIe slot.",
+          "sentence_hash": "8737b03625940cbe01b8f841cc9858877ba986fb60b45bfaf32f688fc9d38b25",
           "anchors": [
-            "git"
+            "with",
+            "one"
           ]
         }
       ],
       "entities": [
+        "follow wccftech",
+        "link",
+        "ultra",
+        "spark",
+        "next",
+        "flash",
+        "gpu",
+        "for",
+        "with",
+        "august",
+        "pro",
+        "qwen",
         "google",
-        "piper",
-        "subversion",
-        "sapling",
-        "mononoke",
-        "nick",
-        "antique",
-        "mythos",
-        "september",
-        "claude haiku",
-        "meta",
-        "ci",
-        "update",
-        "pb",
-        "gb",
-        "link blog\nredesigning",
-        "hacker news",
-        "git",
-        "scion",
-        "recent",
-        "october",
-        "fable",
-        "interesting",
-        "since claude",
-        "hello python",
-        "in may",
-        "anthropic",
-        "claude",
-        "gpt",
-        "they",
-        "fetched"
+        "llm",
+        "news source",
+        "one",
+        "nvidia",
+        "tesla",
+        "despite",
+        "ai",
+        "originally",
+        "unfortunately",
+        "dgx",
+        "though",
+        "rtx"
       ],
       "numbers": [
-        "25 million"
+        "$16,000 ",
+        "$200 ",
+        "$2,000"
       ],
       "dates": [
-        "October 20",
         "May 20"
       ],
       "unknowns": [],
@@ -422,123 +238,176 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 34
+        "anchor_count": 29
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_1d8d06301a1e6f1904c8e540",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "publisher": "OpenAI 博客",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "category": "科技",
-      "published_at": "2026-10-14T12:00:00+00:00",
-      "why_relevant": "OpenAI展示agent应用前沿",
+      "article_id": "a1_fc0c1016fa79931bcf9a1d5f",
+      "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
+      "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "AI trade jitters send investors scrambling for government debt in a move that halts a months-long Treasury sell-off",
+      "category": "财经",
+      "published_at": "2026-10-16T20:42:16+00:00",
+      "why_relevant": "科技股暴跌，AI交易恐慌",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "treasury",
+        "ai"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 2
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_ffc867a4840633cc1cffc878",
+      "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVHNoVXVmaThlSEx4SkpxSzR2TEdOLVl0ZnlTWjhQT0FwRWxQOGJKSllUMEl1YzliOVVMTEtRM1FfclQwdWdnMDhremNOTmZJZjhMRVF5R3U0Z2NzQTZUOU5jV3Y1a1BtMXl2ZzhIX1ZvZ1Z5QURkdnJ5djVwTXpROC1xZGQwUkRXQmJhTGNXNURRWElIS0NpSEtlWkdwU2xNcWFocVF0QmFVXy01dUE?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-10-16T20:31:45+00:00",
+      "why_relevant": "AI暴跌加石油冲击",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.573750+08:00",
-          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
-          "excerpt": "Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.",
-          "sentence_hash": "2016839cf3ec64d6d3dd5808858cba0a975ee2a9bc78ee3377d22c64c8b47aa0",
+          "text": "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373310+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
+          "sentence_hash": "8fc1fbcde6796f1b925d695e7b0b3961b22126b7d446877aa46eb03edbfdcda2",
           "anchors": [
-            "and"
+            "its"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.573782+08:00",
-          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
-          "excerpt": "Amp(opens in a new window) is building a frontier AI agent that helps developers turn ambitious ideas into working software.",
-          "sentence_hash": "a971856c07497c782a3795972c060c98c1957acead77015aecf6b07f5cd0bf68",
+          "text": "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373378+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
+          "sentence_hash": "cf7a19e3437c531bf86ef9df2ef91a4b9889c4def7cd5505b2d7a29aa9e3bf3d",
           "anchors": [
-            "open"
+            "adding"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.573817+08:00",
-          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
-          "excerpt": "For Quinn Slack, Amp’s CEO, each improvement in the models is an opportunity to expand what the agent can do, from helping developers decide what to build to writing code and designing pages.",
-          "sentence_hash": "c9740266f974257ed5db7fa4de05bb52602d01c26cb2d167bfb043404d9cb534",
+          "text": "The data center operator's bonds sold off sharply this week, pushing yields above 15%.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373445+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "The data center operator's bonds sold off sharply this week, pushing yields above 15%.",
+          "sentence_hash": "3c516aaa832289263fb26576d4f19a4a4f59fddc3cbb2140664054e86fb4ac24",
           "anchors": [
-            "and",
-            "sign"
+            "15%"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.573844+08:00",
-          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
-          "excerpt": "Amp chooses and recommends models based on what works best for its users, and OpenAI models account for the majority of tokens used in Amp.",
-          "sentence_hash": "70231f764c7d769e6e929f2c101147dace90e6fec622e6fd704942f7c0bc4d25",
+          "text": "Broadcom fell and the PHLX chip index fell for an eighth straight day.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373538+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "Broadcom fell and the PHLX chip index fell for an eighth straight day.",
+          "sentence_hash": "3d52b3050f2a266b3f74add8916da4d2543109a5da3d22950a9cdc0309e01046",
           "anchors": [
-            "and",
-            "its",
-            "for"
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.573870+08:00",
-          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
-          "excerpt": "Quinn shares, “OpenAI is very transparent, and when there are safeguards applied, users know and they understand.",
-          "sentence_hash": "323db61407c50a126c59b50bef75eac9245bf886b64c8a75b8732e95a5613007",
+          "text": "Investors on Friday were also watching oil prices jump more than 3% due to Middle East supply worries.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373665+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "Investors on Friday were also watching oil prices jump more than 3% due to Middle East supply worries.",
+          "sentence_hash": "bb256872cf623b3476c214e7fd075dad7bf7218710d9cdea4cb6dc3f9931c760",
           "anchors": [
-            "and"
+            "3%"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "You can do all of your work in Amp with OpenAI models and be really happy.” “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” As builders give agents more work, token costs can become a constraint.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.573913+08:00",
-          "content_sha256": "0b4b766722a3dbb916a21c139e360e29a827bc24a6740073ab1524e0bf054a9d",
-          "excerpt": "You can do all of your work in Amp with OpenAI models and be really happy.” “Our users really appreciate the consistency with which OpenAI models have been getting better and better.” As builders give agents more work, token costs can become a constraint.",
-          "sentence_hash": "c26302815795f6fc5fd2dca9c9a945cd56f9d5513e213b5b43c5241295c8c7bb",
+          "text": "\"There is some fear in the market,\" said Rob Haworth, senior investment strategist at U.S.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373731+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "\"There is some fear in the market,\" said Rob Haworth, senior investment strategist at U.S.",
+          "sentence_hash": "38d1ee18097159403d8889704ef901c0d191b85639ed83006a4043cef340bf61",
           "anchors": [
-            "and",
-            "you",
-            "our",
             "ai"
           ]
         }
       ],
       "entities": [
-        "open",
-        "and",
-        "ultrafast",
-        "chat",
-        "astra",
-        "ai",
-        "quinn",
-        "live",
-        "amp",
-        "blender",
-        "sign",
+        "lseg",
+        "disney",
+        "nasdaq composite",
+        "rob haworth",
+        "high",
+        "thursday",
+        "peter rice",
+        "adding",
+        "according",
+        "phlx",
+        "hotter",
+        "federal reserve chair kevin warsh",
+        "meta platforms",
+        "seattle",
+        "the dow jones industrial average",
+        "ipo",
+        "weave",
+        "roadster",
+        "friday",
+        "there",
+        "third",
+        "reuters",
+        "bank wealth management",
+        "wall street",
+        "january",
+        "netflix",
+        "broadcom",
+        "middle east",
+        "anthropic",
+        "december",
+        "markets",
+        "core",
+        "space",
+        "fed",
+        "the nasdaq",
         "its",
-        "you",
-        "our",
-        "see",
-        "for",
-        "gpt",
-        "for quinn slack",
-        "ceo"
+        "nvidia",
+        "tesla",
+        "barclays",
+        "ai",
+        "gamble",
+        "investors",
+        "analysts",
+        "procter"
       ],
       "numbers": [
-        "10 billion"
+        "1.10%",
+        "30%",
+        "15%",
+        "2.15%",
+        "3%",
+        "0.36%"
       ],
       "dates": [],
       "unknowns": [
@@ -548,91 +417,200 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 20
+        "anchor_count": 50
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_6dc3c5370ad3d215b0f8c822",
-      "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Susan Thornton is a former American diplomat who for decades worked on US policy in Eurasia in the State Department before becoming acting assistant secretary of state for East Asian and Pacific affairs during the first Trump presidency. She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School. She spoke to Orange Wang about keeping the lines of China-US communication...",
+      "article_id": "a1_0a3d40b229328cbf649cfa84",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro&#039;s profile and his WhatsApp channel.",
       "category": "国际",
-      "published_at": "2026-10-14T22:00:07+00:00",
-      "why_relevant": "中美关系与气球危机",
+      "published_at": "2026-10-16T21:08:50+00:00",
+      "why_relevant": "平台干预选举，国际要闻",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
+          "text": "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.574630+08:00",
-          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
-          "excerpt": "Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan",
-          "sentence_hash": "2a8c64cfbc223c73f472e11a8e6330db2a40c2df201a0e274e72bb1acdb38516",
+          "captured_at": "2026-10-17T08:03:45.374242+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
+          "sentence_hash": "c87fa9d2f9a6458fa041c383b51633efd5e4b7663d9c7393beb0d4f56f207c4f",
+          "anchors": [
+            "his",
+            "employees",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374263+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
+          "sentence_hash": "215e8343da134f030e12ba6a7304886bad9379b069bc776e56d36373233c4a13",
+          "anchors": [
+            "his",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374287+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month.",
+          "sentence_hash": "1fc04fbe0cb6ac9b8399e36380c10fba960895dcf6a5f0d37734adf8d74550ac",
+          "anchors": [
+            "his",
+            "October 25"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The ruling by a judge in Brazil’s top electoral court was made shortly after Lula filed a complaint that accused the tech giant – which owns Instagram, Facebook and WhatsApp – of using biased algorithms and AI restrictions to favour opposition candidate Bolsonaro ahead of the ele",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374312+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "The ruling by a judge in Brazil’s top electoral court was made shortly after Lula filed a complaint that accused the tech giant – which owns Instagram, Facebook and WhatsApp – of using biased algorithms and AI restrictions to favour opposition candidate Bolsonaro ahead of the ele",
+          "sentence_hash": "ce5d2ba124fe6820562670f7b0a8ad2bf0ff5d7480cb5570dfd0a1cf54196b0a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "His ruling also orders the company to ensure its artificial intelligence tool applies identical criteria to both candidacies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374329+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "His ruling also orders the company to ensure its artificial intelligence tool applies identical criteria to both candidacies.",
+          "sentence_hash": "ebfeb6a51b3399a62c124e334f492bd85192404a4e24ac945451a334e70e804e",
+          "anchors": [
+            "any",
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Bellizze said in his ruling that Meta must pay a fine of 500,000 reais ($98,700) per day if it fails to comply.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374339+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "Bellizze said in his ruling that Meta must pay a fine of 500,000 reais ($98,700) per day if it fails to comply.",
+          "sentence_hash": "5a4ed30b9c2eaefd817eae9b41ca93a87cfaa2403701153688ba45239b84fb08",
+          "anchors": [
+            "his",
+            "ai",
+            "$98,700"
+          ]
+        }
+      ],
+      "entities": [
+        "report\nthe",
+        "sao paulo",
+        "bellizze",
+        "app",
+        "brazilian president luiz inacio lula",
+        "facebook",
+        "brazil",
+        "silva",
+        "thursday",
+        "employees",
+        "folha",
+        "brazilian",
+        "meta",
+        "october",
+        "according",
+        "bolsonaro",
+        "options",
+        "his",
+        "instagram",
+        "paulo",
+        "ai",
+        "any",
+        "senator flavio bolsonaro",
+        "friday",
+        "justice marco aurelio bellizze",
+        "lula",
+        "whats",
+        "reuters"
+      ],
+      "numbers": [
+        "$98,700"
+      ],
+      "dates": [
+        "October 25"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 30
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e5c72a50328e4f302df622ca",
+      "title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371217/china-warns-eu-not-fantasise-trade-approach-brussels-confirms-new-kill-switch?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Beijing warned Brussels not to “fantasise” that taking a hard line will force it into concessions, as the bloc confirmed plans for a gung-ho new kill switch that will allow Brussels to “immediately” kick China out of the single market.\nExactly a week after the two sides struck a surprise deal to restrict the volume of hybrid cars China ships to Europe, the flare-up suggests the threat of a trade war between two of the world’s three biggest economies has far from subsided.\n“The EU should not...",
+      "category": "国际",
+      "published_at": "2026-10-16T22:30:02+00:00",
+      "why_relevant": "中欧贸易摩擦，宏观事件",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374557+08:00",
+          "content_sha256": "6eb1e3a76e50a8264a929ead52698f0ecbc0fe36d8b2393298ad5f03e5ce86a0",
+          "excerpt": "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
+          "sentence_hash": "c3e2f4b49985678ef766e48d057f75cd5c930c2bb0c58ea8db45df87f2796ee2",
+          "anchors": [
+            "min"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374575+08:00",
+          "content_sha256": "6eb1e3a76e50a8264a929ead52698f0ecbc0fe36d8b2393298ad5f03e5ce86a0",
+          "excerpt": "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday.",
+          "sentence_hash": "4699b5534d71a5e8b6619c5f902ffac42c59ec03db6764b1586a1dbcc69164cd",
           "anchors": [
             "min",
-            "ai",
-            "for",
-            "us",
-            "asia"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.574668+08:00",
-          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
-          "excerpt": "She is the director of the Forum on Asia-Pacific Security at the National Committee on American Foreign Policy and a senior fellow at the Paul Tsai China Centre, Yale Law School.",
-          "sentence_hash": "2bb312ce879ef873ae7105e4a44feb5a508f32fcefb92cce49d94ac711b3ea57",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Leader-level meetings are the only guardrail we really have in US-China relations right now.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.574705+08:00",
-          "content_sha256": "51b47019eb364259816a4deb60fd51f88a3e605d8d6510cc41a53a047a312e3b",
-          "excerpt": "Leader-level meetings are the only guardrail we really have in US-China relations right now.",
-          "sentence_hash": "8373228377d6701a3dcd116dea40c559f82dbf705bf8fd655147930b53a343c8",
-          "anchors": [
             "ai"
           ]
         }
       ],
       "entities": [
-        "she",
-        "national committee",
-        "state department",
+        "eu",
+        "europe",
+        "ministry",
+        "brussels",
         "min",
-        "chinese president xi jinping",
-        "american",
-        "trump",
-        "pacific security",
+        "listen\nfinbarr berminghamin brussels\nbeijing",
+        "advertisement\nchina",
+        "latest",
+        "south china morning post",
+        "beijing",
         "ai",
-        "forum",
-        "american foreign policy",
-        "yale law school",
-        "us",
-        "eurasia",
-        "listen\nsusan thornton",
-        "open questions",
-        "president donald trump",
-        "pacific",
         "select voice\nselect speed",
-        "advertisement\nopen questions",
-        "leader",
-        "paul tsai china centre",
-        "susan thornton",
-        "orange wang",
-        "china",
-        "for",
-        "east asian",
-        "asia"
+        "exactly",
+        "friday",
+        "commerce",
+        "china"
       ],
       "numbers": [],
       "dates": [],
@@ -641,29 +619,314 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 3,
-        "anchor_count": 28
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 16
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_667cf0f141f00a5c9fd63730",
-      "title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5",
-      "publisher": "AP",
-      "summary": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say&nbsp;&nbsp;AP News",
+      "article_id": "a1_5a8f1a4af8d7be3771467542",
+      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
       "category": "国际",
-      "published_at": "2026-10-14T21:59:00+00:00",
-      "why_relevant": "胡塞袭击阿美，地缘能源",
+      "published_at": "2026-10-16T23:54:35+00:00",
+      "why_relevant": "美乌关系，地缘政治",
       "relevance_score": 7.0,
-      "confirmed_facts": [],
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375017+08:00",
+          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
+          "excerpt": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against",
+          "sentence_hash": "36c239ed033868fd445d216294383977efaabc1e98947ef7cef8f981c7145a71",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In a BBC interview, Guido Crosetto warned that any such move by US President Donald Trump's administration \"makes absolutely no sense\" and risked prolonging Russia's full-scale invasion rather than helping to bring peace.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375032+08:00",
+          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
+          "excerpt": "In a BBC interview, Guido Crosetto warned that any such move by US President Donald Trump's administration \"makes absolutely no sense\" and risked prolonging Russia's full-scale invasion rather than helping to bring peace.",
+          "sentence_hash": "02a137a8112033448a8177138cb9e492e4896447cec81d1ff26ae64f75569bcf",
+          "anchors": [
+            "us",
+            "peace"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Trump has also denied that the US has stopped sharing early-warning alerts of incoming Russian aerial attacks with Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375045+08:00",
+          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
+          "excerpt": "Trump has also denied that the US has stopped sharing early-warning alerts of incoming Russian aerial attacks with Ukraine.",
+          "sentence_hash": "5f16d4c6dde366a04a604683b6071a46e51b58deb7b73ff31a4001a22b15f255",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Earlier this week, Prime Minister Giorgia Meloni called Trump's deal to buy diesel from Russia a \"very risky choice\", and said it would \"grant Russia legitimacy\" as it bombed cities in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375061+08:00",
+          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
+          "excerpt": "Earlier this week, Prime Minister Giorgia Meloni called Trump's deal to buy diesel from Russia a \"very risky choice\", and said it would \"grant Russia legitimacy\" as it bombed cities in Ukraine.",
+          "sentence_hash": "04bed77cb2bd2eac3594ba49b268fc83c6cfdbb75e60c185ff30a2670d4c8bdd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Trump agreed the deal with Vladimir Putin, blaming Kyiv's own attacks on Russian refineries for rising fuel prices.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375070+08:00",
+          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
+          "excerpt": "Trump agreed the deal with Vladimir Putin, blaming Kyiv's own attacks on Russian refineries for rising fuel prices.",
+          "sentence_hash": "584a6b7d5371cb533edfcb68e889d841ee8b88e6ab257942502e8582f98e44f8",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Crosetto was a co-founder of Meloni's hard-right Fratelli d'Italia party, which has led a right-wing government coalition since 2022, shortly after the start of Russia's full-scale war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375089+08:00",
+          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
+          "excerpt": "Crosetto was a co-founder of Meloni's hard-right Fratelli d'Italia party, which has led a right-wing government coalition since 2022, shortly after the start of Russia's full-scale war.",
+          "sentence_hash": "619dc9fa22444ac3c9b60d341e05326de7be8a893dabf75e13ba5e4d2a0441dd",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
       "entities": [
-        "iran",
-        "saudi",
-        "houthis",
-        "aramco",
-        "ap"
+        "russian",
+        "putin",
+        "president donald trump",
+        "vladimir putin",
+        "europe",
+        "meloni",
+        "italia",
+        "kyiv",
+        "roberto vannacci",
+        "peace",
+        "ukrainian",
+        "rome",
+        "us",
+        "guido crosetto",
+        "published\nitaly",
+        "prime minister giorgia meloni",
+        "italian",
+        "crosetto",
+        "trump",
+        "ukraine",
+        "fratelli",
+        "italy",
+        "bbc",
+        "despite",
+        "futuro nazionale",
+        "russia",
+        "earlier"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 27
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_155b0f3b7007c8d66c547011",
+      "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+      "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
+      "category": "国际",
+      "published_at": "2026-10-16T19:42:00+00:00",
+      "why_relevant": "乌克兰局势，欧盟立场",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375543+08:00",
+          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
+          "excerpt": "Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.",
+          "sentence_hash": "12f7fbae1327b0a64470a5f9bc4978c4f8ac46e94b024d1590a385445401318c",
+          "anchors": [
+            "October 16",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Speaking to press at the summit, he said that \"Putin wants to destroy us\" and that Ukraine must prepare for a hard winter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375561+08:00",
+          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
+          "excerpt": "Speaking to press at the summit, he said that \"Putin wants to destroy us\" and that Ukraine must prepare for a hard winter.",
+          "sentence_hash": "72d62bb18d730a6191b4a0676b7d2d27dfbea3f5471acff1cda737197068d41f",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"Ukraine is arguably entering the most difficult winter since [Russia's] full scale invasion,\" Olena Prokopenko, a senior fellow at the German Marshall Fund of the United States, a nonpartisan think-tank, told DW.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375580+08:00",
+          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
+          "excerpt": "\"Ukraine is arguably entering the most difficult winter since [Russia's] full scale invasion,\" Olena Prokopenko, a senior fellow at the German Marshall Fund of the United States, a nonpartisan think-tank, told DW.",
+          "sentence_hash": "2b21aea085e7214e6d16df93069c497fb658d76d631cc75f88652fc6e1c45035",
+          "anchors": [
+            "since",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Three painful topics were on the table at the summit for discussion between Zelenskyy and EU leaders: US relations with Russia, Starlink ― and money.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375596+08:00",
+          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
+          "excerpt": "Three painful topics were on the table at the summit for discussion between Zelenskyy and EU leaders: US relations with Russia, Starlink ― and money.",
+          "sentence_hash": "b0e04a3b435ee065bcc7d31e1c2bda398044baeba02f3674d927faee94f2eef0",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Is the US siding with Russia?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375602+08:00",
+          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
+          "excerpt": "Is the US siding with Russia?",
+          "sentence_hash": "72b1c29276ce2f4b458163ea03c5ccc51b77d5b8923ecf12c467f514b7040b9f",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Zelenskyy's visit to Brussels comes at a time when he needs European support more than ever.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375613+08:00",
+          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
+          "excerpt": "Zelenskyy's visit to Brussels comes at a time when he needs European support more than ever.",
+          "sentence_hash": "26471acc03bff9652d63f99cd334ebe3eab838aadf1f28195c1ecf8b2b223152",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "russian",
+        "putin",
+        "eu",
+        "olena prokopenko",
+        "elon musk",
+        "experts",
+        "german marshall fund",
+        "ukrainian",
+        "white house",
+        "us",
+        "president trump",
+        "dw",
+        "october",
+        "russian president vladimir",
+        "february",
+        "but",
+        "starlink",
+        "zelenskyy",
+        "worries",
+        "friday",
+        "russia",
+        "president donald trump",
+        "europe",
+        "since",
+        "ukrainian president volodymyr zelenskyy",
+        "starshield",
+        "middle east",
+        "brussels",
+        "donald trump",
+        "internet",
+        "when zelenskyy",
+        "trump",
+        "ukraine",
+        "speaking",
+        "both elon musk",
+        "united states",
+        "newsmax",
+        "trump\noctober",
+        "three",
+        "the starlink",
+        "european"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 16",
+        "February 20",
+        "October 12"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 44
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_605353348ccf1ea2d5dac3f0",
+      "title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2hXSnYwZU9ldlRnMk4yckJBZGdyYUJDZWJBa1ZRNFM5bWVmUkRYVmNfWVdtMFlGOG5TX3YwREZYWi1jeGRmLVpTanpzYWltYlR4UVpqblpnUUZuUEdYODVMS3VORFJHaXNIcC1PMVVKVERPTS1GeS1Ra0Y4dVNNb2otSWliai0zcXBaLWRmR3hfc2FMNFZZMTN4Q3F4YzN4NmM1RFg1cGtOdDQ0REFRN1B2RV95Wnp3R0NYUA?oc=5",
+      "publisher": "Reuters",
+      "summary": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-16T20:00:09+00:00",
+      "why_relevant": "美俄柴油交易，地缘动态",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.375688+08:00",
+          "content_sha256": "fd44545cea576420eb0c8b97707d9e407e113ec5425b2f8d79609e575d51d833",
+          "excerpt": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters",
+          "sentence_hash": "c19bebf7cc33daa512ee6810c7cd787292101d99526d04d8b4624d723e79064a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "russian",
+        "zelenskiy",
+        "ukraine",
+        "european",
+        "us",
+        "reuters"
       ],
       "numbers": [],
       "dates": [],
@@ -673,679 +936,607 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 5
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 6
       },
-      "evidence_complete": false
+      "evidence_complete": true
     },
     {
-      "article_id": "a1_c8012cdc49de3f2e387882cd",
-      "title": "AI-armed hackers tear through corporate Japan’s neglected defences",
-      "url": "https://www.scmp.com/week-asia/economics/article/3370875/ai-armed-hackers-tear-through-corporate-japans-neglected-defences?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Japanese companies have faced a growing wave of cyberattacks in recent weeks, exposing millions of customers’ records as analysts warn that artificial intelligence is helping hackers exploit long-standing security weaknesses and overcome language barriers that once offered some protection.\nMore than 500 breaches of corporate systems were reported in the year to this month, surpassing the total for all of 2025, the Yomiuri newspaper reported last week.\nOn October 7, a ransomware attack on IDC...",
+      "article_id": "a1_57a5dc8fa70c58b9e1bd39e4",
+      "title": "Trump denies limiting Ukraine access to Starlink network",
+      "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
       "category": "国际",
-      "published_at": "2026-10-15T00:00:13+00:00",
-      "why_relevant": "AI加剧日本网络攻击",
+      "published_at": "2026-10-16T19:33:48+00:00",
+      "why_relevant": "星链限制，技术地缘",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Advertisement AI-armed hackers tear through corporate Japan’s neglected defences For years, the Japanese language was a defence against hacking in and of itself, observers say.",
+          "text": "Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.575524+08:00",
-          "content_sha256": "3703035ddd4220903164d3c67b5beae9476b6f24e632d75e439fd1bd3589ee85",
-          "excerpt": "Advertisement AI-armed hackers tear through corporate Japan’s neglected defences For years, the Japanese language was a defence against hacking in and of itself, observers say.",
-          "sentence_hash": "531589cdc9d6711308784e7f325e505827502f3ace43b3c240a59fcd99d158b5",
+          "captured_at": "2026-10-17T08:03:45.376113+08:00",
+          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
+          "excerpt": "Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.",
+          "sentence_hash": "20ab0c19405764b1481fbbd95c0b8b756a0653357ea9ced1962f94c29e4626eb",
           "anchors": [
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "But no more 3-MIN READ3-MIN Julian Ryallin Tokyo Japanese companies have faced a growing wave of cyberattacks in recent weeks, exposing millions of customers’ records as analysts warn that artificial intelligence is helping hackers exploit long-standing security weaknesses and ov",
+          "text": "\"It wasn't me and I don't think it was [Starlink owner] Elon [Musk],\" Trump said, hours after Ukrainian President Volodymyr Zelensky said speed had yet to be restored.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.575573+08:00",
-          "content_sha256": "3703035ddd4220903164d3c67b5beae9476b6f24e632d75e439fd1bd3589ee85",
-          "excerpt": "But no more 3-MIN READ3-MIN Julian Ryallin Tokyo Japanese companies have faced a growing wave of cyberattacks in recent weeks, exposing millions of customers’ records as analysts warn that artificial intelligence is helping hackers exploit long-standing security weaknesses and ov",
-          "sentence_hash": "e226041b710cc4a52fa6c4ebe2bf1b5b0a6e9763ec8785d190c9ca0cf8a37156",
+          "captured_at": "2026-10-17T08:03:45.376127+08:00",
+          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
+          "excerpt": "\"It wasn't me and I don't think it was [Starlink owner] Elon [Musk],\" Trump said, hours after Ukrainian President Volodymyr Zelensky said speed had yet to be restored.",
+          "sentence_hash": "a7e753f48e270b88559eaf543120151b69b77b7c531474264ec950040168526c",
           "anchors": [
-            "off",
-            "more"
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "More than 500 breaches of corporate systems were reported in the year to this month, surpassing the total for all of 2025, the Yomiuri newspaper reported last week.",
+          "text": "Musk himself suggested the US government might have been behind the restrictions, while Reuters news agency reported on Thursday that the order had come from inside the White House.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.575604+08:00",
-          "content_sha256": "3703035ddd4220903164d3c67b5beae9476b6f24e632d75e439fd1bd3589ee85",
-          "excerpt": "More than 500 breaches of corporate systems were reported in the year to this month, surpassing the total for all of 2025, the Yomiuri newspaper reported last week.",
-          "sentence_hash": "60d6fa1196cca03b515c08656c2d768ab412d21540f501ad2240d7085645629b",
+          "captured_at": "2026-10-17T08:03:45.376141+08:00",
+          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
+          "excerpt": "Musk himself suggested the US government might have been behind the restrictions, while Reuters news agency reported on Thursday that the order had come from inside the White House.",
+          "sentence_hash": "189293100e26e64e99e8807fa9307c95b44c2d023936db46b34730dcc4a945fd",
+          "anchors": [
+            "eu",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Starlink is a civilian-use high-speed internet network operated by Musk's SpaceX.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376152+08:00",
+          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
+          "excerpt": "Starlink is a civilian-use high-speed internet network operated by Musk's SpaceX.",
+          "sentence_hash": "d9d51da23ebba8bbf66b6969f884ca17b8dec4995317214934b0ed356596ee8d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The US had previously warned it could withhold sharing intelligence, crucial for Kyiv's defences, if Ukraine did not stop hitting Russian oil refineries.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376167+08:00",
+          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
+          "excerpt": "The US had previously warned it could withhold sharing intelligence, crucial for Kyiv's defences, if Ukraine did not stop hitting Russian oil refineries.",
+          "sentence_hash": "c032d8a04a03511c984e9e37bee4e9183cac8fe51fd47f4fb27a9c067a53d0dc",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Tension has been brewing between Washington and Kyiv for days over a recent controversial diesel deal between Russia and the US.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376178+08:00",
+          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
+          "excerpt": "Tension has been brewing between Washington and Kyiv for days over a recent controversial diesel deal between Russia and the US.",
+          "sentence_hash": "fe5e1ae164c45bbc13155949eaeab828176a401df498c03bacfbb593c5c675b8",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "russian",
+        "putin",
+        "eu",
+        "on tuesday",
+        "kyiv",
+        "pentagon",
+        "ukrainian",
+        "white house",
+        "thursday",
+        "musk",
+        "us",
+        "tuesday",
+        "moscow",
+        "russian president vladimir",
+        "february",
+        "but",
+        "starlink",
+        "western",
+        "published",
+        "friday",
+        "russia",
+        "some",
+        "elon",
+        "reuters",
+        "president donald trump",
+        "zelensky",
+        "starshield",
+        "asked",
+        "space",
+        "trump",
+        "ukraine",
+        "ukrainian president volodymyr zelensky",
+        "tension",
+        "washington"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_4686a0b0b129c8973ef384db",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "publisher": "GitHub Trending",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.https://ecc.tools   \n  \n   \n    \n    \n     \n   \n    \n    \n     \n Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা  \n      \n      \n    \n         \n\n \n  \n   \n  Warning\n Official sources only. Install ECC only from veri",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI编程工具性能优化，符合读者兴趣",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376632+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
+          "sentence_hash": "819b381c8b137edea75e3c753b9e5c6119de8a56d458e6f0245c4543864154a4",
+          "anchors": [
+            "繁體中文",
+            "日本語",
+            "简体中文"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376652+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
+          "sentence_hash": "590576aacf7621dcea7499c9e5665ea84001a44d0dbdfaf6031511a6d11bda30",
+          "anchors": [
+            "git",
+            "hub",
+            "shield",
+            "agent",
+            "pro",
+            "ecc"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376665+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.",
+          "sentence_hash": "3440df42dd301770631700a4878b8e29b5c513ddd98a5adef891923918f2fc54",
+          "anchors": [
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Both install the same ecc@ecc plugin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376677+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Both install the same ecc@ecc plugin.",
+          "sentence_hash": "3e9898bd253d465f5a7f8ab3a95ffba6bdabc7e919ad6a22ded0f0c00f137447",
+          "anchors": [
+            "ecc",
+            "install"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Choose one and do not stack a full manual Claude install on top.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376687+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Choose one and do not stack a full manual Claude install on top.",
+          "sentence_hash": "970762a6ba91eeb509aca252b3da80a8540184fc2863eb8950653974a5fb6265",
+          "anchors": [
+            "install"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This repo is MIT-licensed forever.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.376696+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "This repo is MIT-licensed forever.",
+          "sentence_hash": "37b4782f9b8d6bc338f8f47718ee6dee98bd5598eb772c077cd929052a282f0f",
           "anchors": [
             "for"
           ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "On October 7, a ransomware attack on IDC Frontier – a Japanese cloud hosting and data centre services provider – paralysed systems used by 495 companies and local authorities in the country.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.575638+08:00",
-          "content_sha256": "3703035ddd4220903164d3c67b5beae9476b6f24e632d75e439fd1bd3589ee85",
-          "excerpt": "On October 7, a ransomware attack on IDC Frontier – a Japanese cloud hosting and data centre services provider – paralysed systems used by 495 companies and local authorities in the country.",
-          "sentence_hash": "f5f5c6051b908297caf13041f9d93501f2e870e8f7d15d40c0dddf206536096e",
-          "anchors": [
-            "used",
-            "October 7"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Those affected included railway operator JR East, which confirmed that more than 6 million customer accounts had been compromised.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.575663+08:00",
-          "content_sha256": "3703035ddd4220903164d3c67b5beae9476b6f24e632d75e439fd1bd3589ee85",
-          "excerpt": "Those affected included railway operator JR East, which confirmed that more than 6 million customer accounts had been compromised.",
-          "sentence_hash": "92de86ccef7595deccb6b274f6db6162deb1bfd537da7922b3ca00918a47ef0f",
-          "anchors": [
-            "6 million",
-            "more",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Used book retailer BookOff also reported that data belonging to 6.43 million members had leaked.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.575685+08:00",
-          "content_sha256": "3703035ddd4220903164d3c67b5beae9476b6f24e632d75e439fd1bd3589ee85",
-          "excerpt": "Used book retailer BookOff also reported that data belonging to 6.43 million members had leaked.",
-          "sentence_hash": "73b1fc432efa333890ecc51b71542c7f3ba5a0e2539dc35a0cf62455544d13c8",
-          "anchors": [
-            "book",
-            "6.43 million",
-            "ai"
-          ]
         }
       ],
       "entities": [
-        "advertisement",
-        "japan",
-        "more",
-        "on october",
-        "min",
-        "used",
-        "but",
-        "east",
-        "those",
-        "jr",
-        "ai",
-        "yomiuri",
-        "frontier",
-        "book",
-        "julian ryallin tokyo\njapanese",
-        "idc",
-        "select voice\nselect speed",
-        "japanese",
-        "off",
-        "for"
-      ],
-      "numbers": [
-        "6.43 million",
-        "6 million"
-      ],
-      "dates": [
-        "October 7"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 23
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_e42459082587e7b57ac4c062",
-      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
-      "category": "国际",
-      "published_at": "2026-10-14T20:55:24+00:00",
-      "why_relevant": "星链限速影响乌克兰",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Musk says US government may be behind slowdown of Ukraine drone speeds - Published Elon Musk has suggested that the US government may be behind restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to SpaceX's Starlink internet network.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.576886+08:00",
-          "content_sha256": "572ca478f746f1d8d48d88b96dbab8a19ef4c954092cae815145eaac9fbdf3d3",
-          "excerpt": "Musk says US government may be behind slowdown of Ukraine drone speeds - Published Elon Musk has suggested that the US government may be behind restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to SpaceX's Starlink internet network.",
-          "sentence_hash": "5e1b0850501f0412f62fdd84f49457d032a60c9128a86a903a3b7ffb8e8ef67a",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Starlink is a vital tool allowing Kyiv to guide drones to Russian targets and also protect its own skies, but on Tuesday night Ukraine said unexpected new speed limits were disrupting its battlefield missions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.576924+08:00",
-          "content_sha256": "572ca478f746f1d8d48d88b96dbab8a19ef4c954092cae815145eaac9fbdf3d3",
-          "excerpt": "Starlink is a vital tool allowing Kyiv to guide drones to Russian targets and also protect its own skies, but on Tuesday night Ukraine said unexpected new speed limits were disrupting its battlefield missions.",
-          "sentence_hash": "92c79f2037b34e10b0b83c8ec83059fe956d7a8cfa91cdb68cbfe033c6105784",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Musk said that Starshield, the military-grade sister service to Starlink, is controlled by the US government, and \"any limits on speed or usage are decided by the US military and ultimately [the US president]\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.576964+08:00",
-          "content_sha256": "572ca478f746f1d8d48d88b96dbab8a19ef4c954092cae815145eaac9fbdf3d3",
-          "excerpt": "Musk said that Starshield, the military-grade sister service to Starlink, is controlled by the US government, and \"any limits on speed or usage are decided by the US military and ultimately [the US president]\".",
-          "sentence_hash": "bea3bdddca032311dcac3b28b79f1452ba240e1582e1ca7e04c6bca21f6effd4",
-          "anchors": [
-            "us",
-            "any"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Musk - writing on X - had been responding to pleas from Ukrainian officials to restore connectivity, including from Zelensky who told UK media: \"I hope that it's a mistake, maybe [a] huge technical problem.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.576997+08:00",
-          "content_sha256": "572ca478f746f1d8d48d88b96dbab8a19ef4c954092cae815145eaac9fbdf3d3",
-          "excerpt": "Musk - writing on X - had been responding to pleas from Ukrainian officials to restore connectivity, including from Zelensky who told UK media: \"I hope that it's a mistake, maybe [a] huge technical problem.",
-          "sentence_hash": "d105c028ad5a39f9575b7801679a7f9111e4864fa2f9a2c81a6716bf45ddf4e7",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "switch [it] on.\" Starlink, which is owned by Musk's SpaceX, restricted speed limits on Tuesday night to 100mph (160km/h), meaning any weapons that travelled faster than that lost connectivity to the network.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.577030+08:00",
-          "content_sha256": "572ca478f746f1d8d48d88b96dbab8a19ef4c954092cae815145eaac9fbdf3d3",
-          "excerpt": "switch [it] on.\" Starlink, which is owned by Musk's SpaceX, restricted speed limits on Tuesday night to 100mph (160km/h), meaning any weapons that travelled faster than that lost connectivity to the network.",
-          "sentence_hash": "d2fa5485ad7354c57dbecd92af6c3ac5999fb0adf5cef5a60389b6648e252be5",
-          "anchors": [
-            "us",
-            "any"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "\"Removing Starshield's speed limit entirely is now critical for Ukraine's defense,\" he wrote on X, thanking Elon Musk and asking for his \"continued support\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.577060+08:00",
-          "content_sha256": "572ca478f746f1d8d48d88b96dbab8a19ef4c954092cae815145eaac9fbdf3d3",
-          "excerpt": "\"Removing Starshield's speed limit entirely is now critical for Ukraine's defense,\" he wrote on X, thanking Elon Musk and asking for his \"continued support\".",
-          "sentence_hash": "b2f4a09db8e47ddb95e10c127423838c164b89908fd72fc3d8c8c8c9a4396e62",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "uk",
-        "space",
-        "russia",
-        "musk",
-        "tuesday",
-        "while",
-        "published\nelon musk",
-        "ukrainian",
-        "mykhailo fedorov",
-        "us",
-        "kyiv",
-        "earth",
-        "ukraine",
-        "starshield",
-        "zelensky",
-        "starlink",
-        "wednesday",
-        "president volodymyr zelensky",
-        "washington",
-        "removing starshield",
-        "any",
-        "potus",
-        "about",
-        "elon musk",
-        "russian"
-      ],
-      "numbers": [
-        "600,000 people"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 26
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_b2f20649cd2b841323038d36",
-      "title": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China",
-      "url": "https://www.scmp.com/news/us/politics/article/3370924/hegseth-calls-us15-trillion-defence-budget-critical-counter-china?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence budget request “absolutely critical”, warning that whoever falls behind in autonomy, robotics and AI will fall “even further behind” as Washington eyes China’s rapid military modernisation.\nSpeaking at a panel discussion during the Association of the United States Army (AUSA) Annual Meeting and Exposition on Wednesday, Hegseth said that Project Agincourt, the Pentagon’s initiative to accelerate drone and autonomous...",
-      "category": "国际",
-      "published_at": "2026-10-14T21:45:00+00:00",
-      "why_relevant": "美国防预算对华指向",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China Pentagon chief warns US risks falling behind China in drones, robotics and AI without major investment in military capabilities US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence b",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.577691+08:00",
-          "content_sha256": "b556c7f1b7dd70ebfff14dab789fc2ff49b2c330ec85ba69394bc461ab81a629",
-          "excerpt": "Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China Pentagon chief warns US risks falling behind China in drones, robotics and AI without major investment in military capabilities US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence b",
-          "sentence_hash": "d5f99e4238e00764b9b38a12a1ce4f93f6dd3fbdf6c4407d01dbcbc0f37e1358",
-          "anchors": [
-            "1.5 trillion",
-            "$1.5 trillion"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Speaking at a panel discussion during the Association of the United States Army (AUSA) Annual Meeting and Exposition on Wednesday, Hegseth said that Project Agincourt, the Pentagon’s initiative to accelerate drone and autonomous warfare capabilities, is the “end state” of what th",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.577742+08:00",
-          "content_sha256": "b556c7f1b7dd70ebfff14dab789fc2ff49b2c330ec85ba69394bc461ab81a629",
-          "excerpt": "Speaking at a panel discussion during the Association of the United States Army (AUSA) Annual Meeting and Exposition on Wednesday, Hegseth said that Project Agincourt, the Pentagon’s initiative to accelerate drone and autonomous warfare capabilities, is the “end state” of what th",
-          "sentence_hash": "8c5bc12097f55db91c7576c546be1cbe395c414b94de59a71ecdae43f097253b",
-          "anchors": [
-            "us",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Asked how significant the increase to nearly US$1.5 trillion in the defence budget is, Hegseth replied that it is “absolutely critical” and a “one-time generational investment” that gives Washington a chance to “fully rebuild” the military amid threats from adversaries.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.577783+08:00",
-          "content_sha256": "b556c7f1b7dd70ebfff14dab789fc2ff49b2c330ec85ba69394bc461ab81a629",
-          "excerpt": "Asked how significant the increase to nearly US$1.5 trillion in the defence budget is, Hegseth replied that it is “absolutely critical” and a “one-time generational investment” that gives Washington a chance to “fully rebuild” the military amid threats from adversaries.",
-          "sentence_hash": "0fec5bb4ca1dfa4c1053aa7919aba97473321d52b563205888e77577b81f70e7",
-          "anchors": [
-            "1.5 trillion",
-            "$1.5 trillion"
-          ]
-        }
-      ],
-      "entities": [
-        "project agincourt",
-        "annual meeting",
-        "speaking",
-        "china\npentagon",
-        "hegseth",
-        "exposition",
-        "defence secretary pete hegseth",
-        "ai",
-        "us",
-        "ausa",
-        "association",
-        "asked",
-        "wednesday",
-        "washington",
-        "united states army",
-        "pentagon",
-        "china"
-      ],
-      "numbers": [
-        "1.5 trillion",
-        "$1.5 trillion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 19
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_6a83275e545106aa8a7459bf",
-      "title": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQU84aFhKaGNhRmkxOW4xRGJOZ0hBZC1rcFR5R2YyS2RqTHNaZExvaTg4ckppc2tTaHZUaFRzWmVTY2IxMXlUMFlpT1pBWk1zY1ZtZVpLdHBGZ1AzbEVSS29zMDB2eFQ4Wnhab0RrSnVxUFhkWHBfVVdDUHFIR3FGb05odzJEQ0VlQkF5QzYxYnlSRHZJd055blRMRTJTWXA5U0VWZ1Q5OWZ5VDBTcDJFWHZ3?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO&nbsp;&nbsp;Bloomberg.com",
-      "category": "财经",
-      "published_at": "2026-10-14T22:22:48+00:00",
-      "why_relevant": "Anthropic收入暴增，AI财经信号",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "San Francisco-based Anthropic will release the numbers to a group of institutional investors, according to two people familiar with the matter, who asked not to be named because the details were confidential.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-15T08:03:47.579191+08:00",
-          "content_sha256": "7ea639b963c75912be0acaaa67b8277e1dc3ca3ecdda38c09c0cd304203c927d",
-          "excerpt": "San Francisco-based Anthropic will release the numbers to a group of institutional investors, according to two people familiar with the matter, who asked not to be named because the details were confidential.",
-          "sentence_hash": "279ce0c755c78e0c20f312290e28c426b0b29292757a9b0aa0944054f32d4465",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The meeting comes as revenue numbers from the private AI giants have proven to have an outsized impact on broader markets.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-15T08:03:47.579442+08:00",
-          "content_sha256": "7ea639b963c75912be0acaaa67b8277e1dc3ca3ecdda38c09c0cd304203c927d",
-          "excerpt": "The meeting comes as revenue numbers from the private AI giants have proven to have an outsized impact on broader markets.",
-          "sentence_hash": "1f9a1fe6037f8c61d4328ca0b8acfdb2ea057bf1f17b47a4744953d379e3fa9f",
-          "anchors": [
-            "market"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Last week, confusion around a report detailing OpenAI's revenue and updated accounting dragged down major semiconductor stocks and the broader Nasdaq.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-15T08:03:47.579668+08:00",
-          "content_sha256": "7ea639b963c75912be0acaaa67b8277e1dc3ca3ecdda38c09c0cd304203c927d",
-          "excerpt": "Last week, confusion around a report detailing OpenAI's revenue and updated accounting dragged down major semiconductor stocks and the broader Nasdaq.",
-          "sentence_hash": "a19579564547b4c6a465677726331a616b61e3f257da6a371fcc4132e7873ae5",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "OpenAI shared an updated revenue number of $50 billion with current investors as part of an ongoing fundraise, which was lower than the $70 billion that had been widely reported.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-15T08:03:47.579894+08:00",
-          "content_sha256": "7ea639b963c75912be0acaaa67b8277e1dc3ca3ecdda38c09c0cd304203c927d",
-          "excerpt": "OpenAI shared an updated revenue number of $50 billion with current investors as part of an ongoing fundraise, which was lower than the $70 billion that had been widely reported.",
-          "sentence_hash": "b928558004d7b534c7b407253c03ddc3cbd0347c65490062b3b21cb78dc4bceb",
-          "anchors": [
-            "50 billion",
-            "$70 billion",
-            "$50 billion",
-            "ai",
-            "70 billion"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Anthropic is plowing ahead with what could be a $2 trillion listing based on its latest reported revenue numbers, which could top $100 billion by the end of this year, according to people familiar with the plans.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-15T08:03:47.580144+08:00",
-          "content_sha256": "7ea639b963c75912be0acaaa67b8277e1dc3ca3ecdda38c09c0cd304203c927d",
-          "excerpt": "Anthropic is plowing ahead with what could be a $2 trillion listing based on its latest reported revenue numbers, which could top $100 billion by the end of this year, according to people familiar with the plans.",
-          "sentence_hash": "96593ef79e63d90f7eb361acbd75cb843b282ecdabde06ebed7962c6e67a74cd",
-          "anchors": [
-            "$100 billion",
-            "100 billion",
-            "2 trillion",
-            "$2 trillion"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Tan said at a conference on Monday that with rates climbing, access to capital could be the biggest constraint on AI companies.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-15T08:03:47.580417+08:00",
-          "content_sha256": "7ea639b963c75912be0acaaa67b8277e1dc3ca3ecdda38c09c0cd304203c927d",
-          "excerpt": "Tan said at a conference on Monday that with rates climbing, access to capital could be the biggest constraint on AI companies.",
-          "sentence_hash": "99e555b20f520f7ee3c325eae499ae9b280534354b166f1c0fce51fc6017a564",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "bloomberg",
-        "space",
+        "gemini",
+        "kimi code",
+        "polski",
+        "git",
+        "both",
+        "path",
+        "hub",
+        "mike morgan",
+        "claude",
+        "persist",
+        "community",
+        "zed",
+        "shield",
+        "shell",
+        "espa",
+        "for",
+        "for claude code",
+        "claude code",
+        "sponsors",
+        "warning\nofficial",
+        "ecc",
+        "global",
+        "antigravity",
+        "mit",
+        "access",
+        "your",
+        "qoder",
+        "hub copilot",
+        "oss",
+        "important",
+        "third",
+        "install",
+        "use",
+        "choose",
+        "past",
+        "日本語",
+        "codex",
+        "instead",
         "open",
-        "comments",
-        "exchange commission",
-        "ipo",
-        "hock tan",
-        "tuesday",
-        "securities",
-        "nasdaq",
-        "chip",
-        "reuters",
-        "ai",
-        "san francisco",
-        "tan",
-        "november",
-        "wednesday",
-        "last",
-        "broadcom",
-        "monday",
-        "anthropic",
-        "market",
-        "ceo"
+        "open power",
+        "run",
+        "cursor",
+        "partners",
+        "atlas cloud",
+        "language",
+        "portugu",
+        "pro",
+        "see",
+        "install node",
+        "brasil",
+        "简体中文",
+        "code",
+        "confirm",
+        "qwen",
+        "windows start",
+        "english",
+        "hub app",
+        "deutsch",
+        "node",
+        "agent",
+        "optimize",
+        "繁體中文"
       ],
-      "numbers": [
-        "50 billion",
-        "$100 billion",
-        "$2 trillion",
-        "100 billion",
-        "$70 billion",
-        "$50 billion",
-        "2 trillion",
-        "70 billion"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 31
+        "anchor_count": 62
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_808c6832ee675fc47365fc38",
-      "title": "Fed rate hike call seen tight as inflation heats up",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjl1ZWZGd2lIRXg1US1hUjNacTVDN2o5S2lIcXpCdnZ1VHBXcEpqOHV5SzJJZHJrT3RxYjdrRjRrRU03eHNGTTFRMnVCVEdZa0VfLU9BeFdSeTE1aFRrc3ZRampyOFVTczZRbWk0azFBakVndUJ1X0NjVmJmV1JmeXNXSlFkNzF0NUZKTUUyUnlHWi1sOXFpVHV5NnVvcDA?oc=5",
-      "publisher": "Reuters Business",
-      "summary": "Fed rate hike call seen tight as inflation heats up&nbsp;&nbsp;Reuters",
-      "category": "财经",
-      "published_at": "2026-10-14T14:22:26+00:00",
-      "why_relevant": "美联储加息预期，市场核心",
+      "article_id": "a1_c6dcb9ac1054db0e60e61855",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "publisher": "GitHub Trending",
+      "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.https://arxiv.org/abs/2609.00065Scientific Agent Skills \n              \n \n 🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compa",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "科研Agent技能库，实用性强",
       "relevance_score": 7.0,
-      "confirmed_facts": [],
-      "entities": [
-        "fed",
-        "reuters"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 0,
-        "anchor_count": 2
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_8fe4f06e49f20a423784c33a",
-      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDkzb0Zhb0ExSzhlSnR6c25HbzdpY2g1djVFZ1R4eVktaWtCZ2gya1lEdHpzcHlEM1VITE1Pdlc1MmlDclhQQmxOWC13NXdXZjhPOEYtUnc3bm80eThIZ0lEam8tN0hXV3kxNnhob3g5OHFxNHd5VzJsTks4SzlJR0JRVE5LZ2JMbXhYNFhvOC1yTUJ5bWFEN0JWTFdpaFkxN2c?oc=5",
-      "publisher": "Reuters Business",
-      "summary": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries&nbsp;&nbsp;Reuters",
-      "category": "财经",
-      "published_at": "2026-10-14T23:33:39+00:00",
-      "why_relevant": "通胀数据冲击纳指",
-      "relevance_score": 7.0,
-      "confirmed_facts": [],
-      "entities": [
-        "nasdaq",
-        "reuters"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 2
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_26b0fd919950ec23a867798a",
-      "title": "Iran: Political infighting deepens as economic woes mount during war",
-      "url": "https://www.dw.com/en/iran-political-infighting-deepens-as-economic-woes-mount-during-war/a-79654461?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Hardliners are stepping up pressure on Iran's government and calling for Foreign Minister Abbas Araghchi's removal. The oil minister resigned, but that's doing little to ease the pressure on President Masoud Pezeshkian.",
-      "category": "国际",
-      "published_at": "2026-10-14T05:30:00+00:00",
-      "why_relevant": "伊朗内斗与经济困局",
-      "relevance_score": 6.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.",
+          "text": "New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.581994+08:00",
-          "content_sha256": "23f52e152d9b9f1b2f2e65150799ea6c101d823c123227177fd5ef7e924cf2c1",
-          "excerpt": "Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.",
-          "sentence_hash": "2a45f19c44c4f4809dc5e61031d25978ce14d3e5f62a16b93f6ea4566379b788",
+          "captured_at": "2026-10-17T08:03:45.377168+08:00",
+          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
+          "excerpt": "New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.",
+          "sentence_hash": "c57dbf297f342e61aba4003b2ac33949eec3210a5c2e5bbe16a2aa753aab6519",
           "anchors": [
-            "October 14"
+            "you",
+            "your"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "As the war continues and diplomatic efforts to find a solution make little headway, the internal power struggle is intensifying.",
+          "text": "Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.582036+08:00",
-          "content_sha256": "23f52e152d9b9f1b2f2e65150799ea6c101d823c123227177fd5ef7e924cf2c1",
-          "excerpt": "As the war continues and diplomatic efforts to find a solution make little headway, the internal power struggle is intensifying.",
-          "sentence_hash": "db21c230a987f49d927979fb244953bcf3a631b9cb5bab0467a80a1b7b30d1c8",
+          "captured_at": "2026-10-17T08:03:45.377183+08:00",
+          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
+          "excerpt": "Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo.",
+          "sentence_hash": "844cf94f4ced773bcbc71cc276393affe6a9d1658147f8a6563e168a28fed10a",
           "anchors": [
-            "dw"
+            "get",
+            "you",
+            "your"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "President Pezeshkian’s government is the focus of mounting tension.",
+          "text": "Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.582059+08:00",
-          "content_sha256": "23f52e152d9b9f1b2f2e65150799ea6c101d823c123227177fd5ef7e924cf2c1",
-          "excerpt": "President Pezeshkian’s government is the focus of mounting tension.",
-          "sentence_hash": "c5efe4ed12d7186243dbd678235e1fdeae118dd81c149f6a7ab4bbeea9bfe993",
+          "captured_at": "2026-10-17T08:03:45.377194+08:00",
+          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
+          "excerpt": "Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads.",
+          "sentence_hash": "809f5f47029485bda73a4bfd6dc05aadabf7a25c8f1eacc3ae4f0e647406cbe8",
           "anchors": [
-            "us"
+            "you",
+            "stay",
+            "your"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Hardliners in Iran's parliament are pushing for impeachment proceedings against Araghchi.",
+          "text": "🎥 Webinar recording — Getting Started with K-Dense BYOK A hands-on walkthrough of K-Dense BYOK, our free, open-source AI co-scientist that runs locally on your own machine and is powered by Scientific Agent Skills.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.582081+08:00",
-          "content_sha256": "23f52e152d9b9f1b2f2e65150799ea6c101d823c123227177fd5ef7e924cf2c1",
-          "excerpt": "Hardliners in Iran's parliament are pushing for impeachment proceedings against Araghchi.",
-          "sentence_hash": "08fbde1522df53e06bc9667fc12d6bedc5779eaadb4336421f79addb8de419ec",
+          "captured_at": "2026-10-17T08:03:45.377214+08:00",
+          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
+          "excerpt": "🎥 Webinar recording — Getting Started with K-Dense BYOK A hands-on walkthrough of K-Dense BYOK, our free, open-source AI co-scientist that runs locally on your own machine and is powered by Scientific Agent Skills.",
+          "sentence_hash": "70b5cbfddcbd6fcdf218c61370823b06525b42463153bc34ec50ff048f514ad5",
           "anchors": [
-            "us"
+            "you",
+            "your"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Critics accuse the foreign minister of holding the talks without official authorization.",
+          "text": "We cover how to set it up, bring your own API keys, and run real research workflows with these skills.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.582108+08:00",
-          "content_sha256": "23f52e152d9b9f1b2f2e65150799ea6c101d823c123227177fd5ef7e924cf2c1",
-          "excerpt": "Critics accuse the foreign minister of holding the talks without official authorization.",
-          "sentence_hash": "ac9f366c486cdaa89fd4b813a1748795ed38401202d5b07691e7503535deca30",
+          "captured_at": "2026-10-17T08:03:45.377225+08:00",
+          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
+          "excerpt": "We cover how to set it up, bring your own API keys, and run real research workflows with these skills.",
+          "sentence_hash": "c07da5ceeff1cd3c3433f5a1b46f8e7838ab300f0d74cf7d8ce019ccc26123fb",
           "anchors": [
-            "us"
+            "bring",
+            "these",
+            "you",
+            "your"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Lawmaker Hossein-Ali Haji-Deligani also said parliament could use its oversight powers, including impeachment proceedings.",
+          "text": "Watch the recording → Stay up to date: Follow K-Dense on X, LinkedIn, YouTube, and Reddit for new skills, release announcements, walkthroughs, research workflow demos, and examples you can use with your own AI agent.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-15T08:03:47.582142+08:00",
-          "content_sha256": "23f52e152d9b9f1b2f2e65150799ea6c101d823c123227177fd5ef7e924cf2c1",
-          "excerpt": "Lawmaker Hossein-Ali Haji-Deligani also said parliament could use its oversight powers, including impeachment proceedings.",
-          "sentence_hash": "4d47fdab32cd88c3de9308703d8d748ef5d25bcf8e8b1077614c7255aac8014b",
+          "captured_at": "2026-10-17T08:03:45.377245+08:00",
+          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
+          "excerpt": "Watch the recording → Stay up to date: Follow K-Dense on X, LinkedIn, YouTube, and Reddit for new skills, release announcements, walkthroughs, research workflow demos, and examples you can use with your own AI agent.",
+          "sentence_hash": "8319996ad30b3aa43bd8a7d7b551c03242e04d9579c14ca2afb023a8bfaf6e4b",
           "anchors": [
-            "us"
+            "you",
+            "your"
           ]
         }
       ],
       "entities": [
-        "lawmaker hossein",
-        "iran",
-        "oil ministe",
-        "united nations general assembly",
-        "araghchi",
-        "ali haji",
-        "president masoud pezeshkian",
-        "oil minister mohsen paknejad",
-        "us",
-        "bagher ghalibaf",
-        "afshari",
-        "meanwhile",
-        "action",
-        "tehran",
-        "political",
-        "dw",
-        "critics",
-        "new york",
-        "deligani",
-        "mohammad",
-        "president pezeshkian",
-        "united states",
-        "joint comprehensive plan",
-        "the foreign ministry",
-        "foreign minister abbas araghchi",
-        "hardliners",
-        "jcpoa",
-        "ali afshari",
-        "islamic republic",
-        "their",
-        "lawmakers",
-        "october",
-        "amirhossein sabeti"
+        "reddit",
+        "modal",
+        "if scientific agent skills",
+        "browse",
+        "byok",
+        "claude",
+        "research agents",
+        "agent plugins",
+        "get",
+        "each",
+        "watch",
+        "procedural knowledge",
+        "google antigravity",
+        "claude code",
+        "stay",
+        "tube",
+        "agent skills",
+        "scientific agent skills",
+        "your",
+        "you",
+        "xiv",
+        "these",
+        "getting started",
+        "claude scientific skills",
+        "paper",
+        "codex",
+        "earth",
+        "api",
+        "cursor",
+        "same",
+        "bring",
+        "webinar",
+        "dense",
+        "help",
+        "ai",
+        "linked",
+        "follow",
+        "library"
       ],
       "numbers": [],
-      "dates": [
-        "October 14"
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_63d38ad7fa12f484eb1ba0ce",
+      "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
+      "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-16T09:48:14+00:00",
+      "why_relevant": "比特币行情，市场信号",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.377777+08:00",
+          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
+          "excerpt": "VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.",
+          "sentence_hash": "e8ba7d5b9eb20ea4dd98ba1383cc3ea516315998a458442ab79092d6691e395c",
+          "anchors": [
+            "20%",
+            "2%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "While not nearly as dramatic as the S&P 500’s 5% decline 39 years ago, the Nasdaq fell 2.15% today.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.377799+08:00",
+          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
+          "excerpt": "While not nearly as dramatic as the S&P 500’s 5% decline 39 years ago, the Nasdaq fell 2.15% today.",
+          "sentence_hash": "1a1ef011c29ea9155d82a992b1606febdbd43589378640dac5e0363da73340c5",
+          "anchors": [
+            "5%",
+            "2.15%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Alongside, the volatility index (VIX) — often referred to as the “fear gauge” — soared 22%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.377810+08:00",
+          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
+          "excerpt": "Alongside, the volatility index (VIX) — often referred to as the “fear gauge” — soared 22%.",
+          "sentence_hash": "513df8352a1780f9249c335b87b410ff3559990aee04d14b143784554281a242",
+          "anchors": [
+            "22%",
+            "2%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Bitcoin is off of its lows, but still down 1% over the past 24 hours at $81,500.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.377824+08:00",
+          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
+          "excerpt": "Bitcoin is off of its lows, but still down 1% over the past 24 hours at $81,500.",
+          "sentence_hash": "524c48d95d85a5a2c6d33d932f0273ccaa644e97d768a8e6aebb803d454d267a",
+          "anchors": [
+            "$81,500",
+            "1%",
+            "down"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Stocks losses quickly double, with bitcoin attempting to decouple The Nasdaq is at session lows a bit less than 90 minutes before the close of trading for the week, down 2.3%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.377838+08:00",
+          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
+          "excerpt": "Stocks losses quickly double, with bitcoin attempting to decouple The Nasdaq is at session lows a bit less than 90 minutes before the close of trading for the week, down 2.3%.",
+          "sentence_hash": "50128dc978b830a0aed7615df544f0cb3a2629cfbd0031db5a1eee8438c8b136",
+          "anchors": [
+            "bitcoin",
+            "2.3%",
+            "down"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The S&P 500 is down 1.25%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.377844+08:00",
+          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
+          "excerpt": "The S&P 500 is down 1.25%.",
+          "sentence_hash": "688b3ce10a5eb577bbeb57005b83c44133e96d7b79587240894f36fc5d9534e6",
+          "anchors": [
+            "1.25%",
+            "5%",
+            "down"
+          ]
+        }
+      ],
+      "entities": [
+        "bitcoin",
+        "down",
+        "east",
+        "west",
+        "alongside",
+        "stocks",
+        "surely",
+        "black monday",
+        "government",
+        "rumors",
+        "while",
+        "october",
+        "the nasdaq",
+        "crypto",
+        "vix",
+        "nasdaq",
+        "rising",
+        "after",
+        "wti",
+        "monday",
+        "friday",
+        "there",
+        "saudi arabia",
+        "treasury"
+      ],
+      "numbers": [
+        "5%",
+        "1%",
+        "$101.70",
+        "2.15%",
+        "20%",
+        "1.25%",
+        "2%",
+        "$101 ",
+        "22%",
+        "2.3%",
+        "$99.40 ",
+        "$81,500",
+        "$81,300",
+        "$81,350",
+        "$3 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 34
+        "anchor_count": 39
       },
       "evidence_complete": true
     }

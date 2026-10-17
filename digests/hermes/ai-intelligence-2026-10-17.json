@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T00:06:43.363342+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-17-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-17.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-16.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_716f00b83644ac6198c8d0ac",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "publisher": "Simon Willison",
+      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.\nNow, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This c",
+      "category": "科技",
+      "published_at": "2026-10-16T22:06:37+00:00",
+      "why_relevant": "代码审查新思路，硬核观点",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372064+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
+          "sentence_hash": "49c95861663db265857bca339fb353a290e820a831e8e9edb8cf49a454f91f90",
+          "anchors": [
+            "October 20",
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372088+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
+          "sentence_hash": "509b3a664d74453bad9286191d6567005ff0795f39eb425a7778855c943739d4",
+          "anchors": [
+            "before"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372098+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.",
+          "sentence_hash": "e5bbc3eecea0bec2d33d58c1f52fb85705ee0fca8357852155ac234575ab4e40",
+          "anchors": [
+            "most"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "— Addy Osmani, Morgan Westlee Lunt, and Qing Wang, How the Claude Code team does code review Recent articles - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372118+08:00",
+          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
+          "excerpt": "— Addy Osmani, Morgan Westlee Lunt, and Qing Wang, How the Claude Code team does code review Recent articles - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th",
+          "sentence_hash": "1d64b671f0e391e3db4f510b4a192b7a7c11adb79246130cf4017569645fdaab",
+          "anchors": [
+            "October 20",
+            "pr",
+            "now"
+          ]
+        }
+      ],
+      "entities": [
+        "morgan westlee lunt",
+        "recent",
+        "addy osmani",
+        "claude haiku",
+        "claude",
+        "now",
+        "asking",
+        "before",
+        "pr",
+        "october",
+        "qing wang",
+        "claude code",
+        "most",
+        "hello python"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 15
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-17-AM.json",
+      "source_artifact_date": "2026-10-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_056b44b4187584486a38af7a",
+      "title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
+      "url": "https://wccftech.com/nvidia-tesla-v100-32gb-price-rises-ai-boom-pcie-sxm2/",
+      "publisher": "Wccftech",
+      "summary": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback. With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum. Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 p",
+      "category": "科技",
+      "published_at": "2026-10-16T18:56:03+00:00",
+      "why_relevant": "GPU价格动态，硬件玩家关注",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372639+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+          "sentence_hash": "af7cfeef65848cc4438b344007a9c49baf64501e0dc734682f97d2de3f7ae602",
+          "anchors": [
+            "for",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372653+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
+          "sentence_hash": "c2dc58dd657fa9ae03ea18d8ecf1cfa93d05de58371ea3a99d3b63c5e7446846",
+          "anchors": [
+            "for",
+            "with",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372667+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100.",
+          "sentence_hash": "4308e5761635371f6a632fd3c4c992febd32d7da1451afc6ddabe46c8c7bfc7c",
+          "anchors": [
+            "for",
+            "with",
+            "$200 "
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "For a 9-year-old GPU, the Tesla V100 packs a ton of bandwidth and GPU memory to be able to run decent LLMs at a fraction of the RTX 6000 PRO’s price A post shared by @unbug on X provides details of the Tesla V100 being repurposed and shipped in truckloads for inference purposes, ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372688+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "For a 9-year-old GPU, the Tesla V100 packs a ton of bandwidth and GPU memory to be able to run decent LLMs at a fraction of the RTX 6000 PRO’s price A post shared by @unbug on X provides details of the Tesla V100 being repurposed and shipped in truckloads for inference purposes, ",
+          "sentence_hash": "2453e74b8a5e054f6a7c1aac34f24707de5643a5e24357c4088d6090074d4360",
+          "anchors": [
+            "for",
+            "pro",
+            "$2,000",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Though this figure is still on the higher side, it sure beats purchasing something like the RTX 6000 PRO, which crossed the $16,000 mark back in August.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372700+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "Though this figure is still on the higher side, it sure beats purchasing something like the RTX 6000 PRO, which crossed the $16,000 mark back in August.",
+          "sentence_hash": "a651f307c7fec3d3665e31d997cbd823ec2cbfe646383a0e0b6554ad42bde953",
+          "anchors": [
+            "$16,000 "
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In one of the pictures, we can see that the Tesla V100 has been modded with a triple-fan cooler, making it easier to attach to traditional motherboards featuring a PCIe slot.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.372713+08:00",
+          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
+          "excerpt": "In one of the pictures, we can see that the Tesla V100 has been modded with a triple-fan cooler, making it easier to attach to traditional motherboards featuring a PCIe slot.",
+          "sentence_hash": "8737b03625940cbe01b8f841cc9858877ba986fb60b45bfaf32f688fc9d38b25",
+          "anchors": [
+            "with",
+            "one"
+          ]
+        }
+      ],
+      "entities": [
+        "follow wccftech",
+        "link",
+        "ultra",
+        "spark",
+        "next",
+        "flash",
+        "gpu",
+        "for",
+        "with",
+        "august",
+        "pro",
+        "qwen",
+        "google",
+        "llm",
+        "news source",
+        "one",
+        "nvidia",
+        "tesla",
+        "despite",
+        "ai",
+        "originally",
+        "unfortunately",
+        "dgx",
+        "though",
+        "rtx"
+      ],
+      "numbers": [
+        "$16,000 ",
+        "$200 ",
+        "$2,000"
+      ],
+      "dates": [
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-17-AM.json",
+      "source_artifact_date": "2026-10-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_ffc867a4840633cc1cffc878",
+      "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVHNoVXVmaThlSEx4SkpxSzR2TEdOLVl0ZnlTWjhQT0FwRWxQOGJKSllUMEl1YzliOVVMTEtRM1FfclQwdWdnMDhremNOTmZJZjhMRVF5R3U0Z2NzQTZUOU5jV3Y1a1BtMXl2ZzhIX1ZvZ1Z5QURkdnJ5djVwTXpROC1xZGQwUkRXQmJhTGNXNURRWElIS0NpSEtlWkdwU2xNcWFocVF0QmFVXy01dUE?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-10-16T20:31:45+00:00",
+      "why_relevant": "AI暴跌加石油冲击",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373310+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
+          "sentence_hash": "8fc1fbcde6796f1b925d695e7b0b3961b22126b7d446877aa46eb03edbfdcda2",
+          "anchors": [
+            "its"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373378+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
+          "sentence_hash": "cf7a19e3437c531bf86ef9df2ef91a4b9889c4def7cd5505b2d7a29aa9e3bf3d",
+          "anchors": [
+            "adding"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The data center operator's bonds sold off sharply this week, pushing yields above 15%.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373445+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "The data center operator's bonds sold off sharply this week, pushing yields above 15%.",
+          "sentence_hash": "3c516aaa832289263fb26576d4f19a4a4f59fddc3cbb2140664054e86fb4ac24",
+          "anchors": [
+            "15%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Broadcom fell and the PHLX chip index fell for an eighth straight day.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373538+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "Broadcom fell and the PHLX chip index fell for an eighth straight day.",
+          "sentence_hash": "3d52b3050f2a266b3f74add8916da4d2543109a5da3d22950a9cdc0309e01046",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Investors on Friday were also watching oil prices jump more than 3% due to Middle East supply worries.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373665+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "Investors on Friday were also watching oil prices jump more than 3% due to Middle East supply worries.",
+          "sentence_hash": "bb256872cf623b3476c214e7fd075dad7bf7218710d9cdea4cb6dc3f9931c760",
+          "anchors": [
+            "3%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"There is some fear in the market,\" said Rob Haworth, senior investment strategist at U.S.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-17T08:03:45.373731+08:00",
+          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
+          "excerpt": "\"There is some fear in the market,\" said Rob Haworth, senior investment strategist at U.S.",
+          "sentence_hash": "38d1ee18097159403d8889704ef901c0d191b85639ed83006a4043cef340bf61",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "lseg",
+        "disney",
+        "nasdaq composite",
+        "rob haworth",
+        "high",
+        "thursday",
+        "peter rice",
+        "adding",
+        "according",
+        "phlx",
+        "hotter",
+        "federal reserve chair kevin warsh",
+        "meta platforms",
+        "seattle",
+        "the dow jones industrial average",
+        "ipo",
+        "weave",
+        "roadster",
+        "friday",
+        "there",
+        "third",
+        "reuters",
+        "bank wealth management",
+        "wall street",
+        "january",
+        "netflix",
+        "broadcom",
+        "middle east",
+        "anthropic",
+        "december",
+        "markets",
+        "core",
+        "space",
+        "fed",
+        "the nasdaq",
+        "its",
+        "nvidia",
+        "tesla",
+        "barclays",
+        "ai",
+        "gamble",
+        "investors",
+        "analysts",
+        "procter"
+      ],
+      "numbers": [
+        "1.10%",
+        "30%",
+        "15%",
+        "2.15%",
+        "3%",
+        "0.36%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 50
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-17-AM.json",
+      "source_artifact_date": "2026-10-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_0a3d40b229328cbf649cfa84",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro&#039;s profile and his WhatsApp channel.",
+      "category": "国际",
+      "published_at": "2026-10-16T21:08:50+00:00",
+      "why_relevant": "平台干预选举，国际要闻",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374242+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
+          "sentence_hash": "c87fa9d2f9a6458fa041c383b51633efd5e4b7663d9c7393beb0d4f56f207c4f",
+          "anchors": [
+            "his",
+            "employees",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374263+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
+          "sentence_hash": "215e8343da134f030e12ba6a7304886bad9379b069bc776e56d36373233c4a13",
+          "anchors": [
+            "his",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374287+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month.",
+          "sentence_hash": "1fc04fbe0cb6ac9b8399e36380c10fba960895dcf6a5f0d37734adf8d74550ac",
+          "anchors": [
+            "his",
+            "October 25"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The ruling by a judge in Brazil’s top electoral court was made shortly after Lula filed a complaint that accused the tech giant – which owns Instagram, Facebook and WhatsApp – of using biased algorithms and AI restrictions to favour opposition candidate Bolsonaro ahead of the ele",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374312+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "The ruling by a judge in Brazil’s top electoral court was made shortly after Lula filed a complaint that accused the tech giant – which owns Instagram, Facebook and WhatsApp – of using biased algorithms and AI restrictions to favour opposition candidate Bolsonaro ahead of the ele",
+          "sentence_hash": "ce5d2ba124fe6820562670f7b0a8ad2bf0ff5d7480cb5570dfd0a1cf54196b0a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "His ruling also orders the company to ensure its artificial intelligence tool applies identical criteria to both candidacies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374329+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "His ruling also orders the company to ensure its artificial intelligence tool applies identical criteria to both candidacies.",
+          "sentence_hash": "ebfeb6a51b3399a62c124e334f492bd85192404a4e24ac945451a334e70e804e",
+          "anchors": [
+            "any",
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Bellizze said in his ruling that Meta must pay a fine of 500,000 reais ($98,700) per day if it fails to comply.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374339+08:00",
+          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
+          "excerpt": "Bellizze said in his ruling that Meta must pay a fine of 500,000 reais ($98,700) per day if it fails to comply.",
+          "sentence_hash": "5a4ed30b9c2eaefd817eae9b41ca93a87cfaa2403701153688ba45239b84fb08",
+          "anchors": [
+            "his",
+            "ai",
+            "$98,700"
+          ]
+        }
+      ],
+      "entities": [
+        "report\nthe",
+        "sao paulo",
+        "bellizze",
+        "app",
+        "brazilian president luiz inacio lula",
+        "facebook",
+        "brazil",
+        "silva",
+        "thursday",
+        "employees",
+        "folha",
+        "brazilian",
+        "meta",
+        "october",
+        "according",
+        "bolsonaro",
+        "options",
+        "his",
+        "instagram",
+        "paulo",
+        "ai",
+        "any",
+        "senator flavio bolsonaro",
+        "friday",
+        "justice marco aurelio bellizze",
+        "lula",
+        "whats",
+        "reuters"
+      ],
+      "numbers": [
+        "$98,700"
+      ],
+      "dates": [
+        "October 25"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 30
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-17-AM.json",
+      "source_artifact_date": "2026-10-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e5c72a50328e4f302df622ca",
+      "title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371217/china-warns-eu-not-fantasise-trade-approach-brussels-confirms-new-kill-switch?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Beijing warned Brussels not to “fantasise” that taking a hard line will force it into concessions, as the bloc confirmed plans for a gung-ho new kill switch that will allow Brussels to “immediately” kick China out of the single market.\nExactly a week after the two sides struck a surprise deal to restrict the volume of hybrid cars China ships to Europe, the flare-up suggests the threat of a trade war between two of the world’s three biggest economies has far from subsided.\n“The EU should not...",
+      "category": "国际",
+      "published_at": "2026-10-16T22:30:02+00:00",
+      "why_relevant": "中欧贸易摩擦，宏观事件",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374557+08:00",
+          "content_sha256": "6eb1e3a76e50a8264a929ead52698f0ecbc0fe36d8b2393298ad5f03e5ce86a0",
+          "excerpt": "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
+          "sentence_hash": "c3e2f4b49985678ef766e48d057f75cd5c930c2bb0c58ea8db45df87f2796ee2",
+          "anchors": [
+            "min"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-17T08:03:45.374575+08:00",
+          "content_sha256": "6eb1e3a76e50a8264a929ead52698f0ecbc0fe36d8b2393298ad5f03e5ce86a0",
+          "excerpt": "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday.",
+          "sentence_hash": "4699b5534d71a5e8b6619c5f902ffac42c59ec03db6764b1586a1dbcc69164cd",
+          "anchors": [
+            "min",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "eu",
+        "europe",
+        "ministry",
+        "brussels",
+        "min",
+        "listen\nfinbarr berminghamin brussels\nbeijing",
+        "advertisement\nchina",
+        "latest",
+        "south china morning post",
+        "beijing",
+        "ai",
+        "select voice\nselect speed",
+        "exactly",
+        "friday",
+        "commerce",
+        "china"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 16
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-17-AM.json",
+      "source_artifact_date": "2026-10-17",
+      "freshness_label": "today"
+    }
+  ]
+}
