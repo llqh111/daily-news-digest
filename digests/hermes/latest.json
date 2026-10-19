@@ -1,1073 +1,148 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-10-17-AM",
-  "date": "2026-10-17",
+  "run_key": "2026-10-19-AM",
+  "date": "2026-10-19",
   "session": "AM",
-  "delivered_at": "2026-10-17T08:06:43.351936+08:00",
+  "delivered_at": "2026-10-19T08:07:43.812370+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-10-17T00:06:43.352987+00:00",
+  "exported_at": "2026-10-19T00:07:43.813862+00:00",
   "quality": {
-    "total_items": 13,
-    "items_with_unsupported_numbers": 4,
-    "unsupported_ratio": 0.3076923076923077
+    "total_items": 10,
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.3
   },
   "items": [
     {
-      "article_id": "a1_716f00b83644ac6198c8d0ac",
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "publisher": "Simon Willison",
-      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.\nNow, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This c",
+      "article_id": "a1_d8b4fa1142f86e67260775a7",
+      "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs",
+      "url": "https://www.tomshardware.com/pc-components/gpus/amd-cards-now-run-all-dlss-features-thanks-to-one-developers-project-plans-to-match-native-nvidia-gpu-performance",
+      "publisher": "Tom's Hardware",
+      "summary": "Radeon GPUs get the full DLSS experience as solo project ports all the DLSS features for RDNA2-4 GPUs.",
       "category": "科技",
-      "published_at": "2026-10-16T22:06:37+00:00",
-      "why_relevant": "代码审查新思路，硬核观点",
-      "relevance_score": 8.0,
+      "published_at": "2026-10-18T16:03:01+00:00",
+      "why_relevant": "DLSS移植AMD，硬核必读",
+      "relevance_score": 10.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
+          "text": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs — plans to match native Nvidia GPU performance Radeon users finally get to enjoy more DLSS features.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372064+08:00",
-          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
-          "excerpt": "16th October 2026 We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens.",
-          "sentence_hash": "49c95861663db265857bca339fb353a290e820a831e8e9edb8cf49a454f91f90",
+          "captured_at": "2026-10-19T08:03:11.919466+08:00",
+          "content_sha256": "934c771b7ebd287dc3b19684a6c6ff09c1fcb3ae2d72c9db5cd89adc37e4ea5c",
+          "excerpt": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs — plans to match native Nvidia GPU performance Radeon users finally get to enjoy more DLSS features.",
+          "sentence_hash": "40d5c938cb92e6cbf31ecbcbb95d27aee60a23970ef9e301481d754de2502482",
           "anchors": [
-            "October 20",
-            "pr"
+            "ui"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
+          "text": "The DLSS-NR project on AMD by Daniel Blanco was first released on September 3, 2026, bringing DLSS 5 Neural Rendering to Radeon GPUs; in the latest 0.8.0 update, however, it makes all the main DLSS features available, featuring DLSS SR, Frame Generation, Ray Regeneration, and the",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372088+08:00",
-          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
-          "excerpt": "Most changes have been reviewed and fixed by Claude at least once before a human is asked to look.",
-          "sentence_hash": "509b3a664d74453bad9286191d6567005ff0795f39eb425a7778855c943739d4",
+          "captured_at": "2026-10-19T08:03:11.919524+08:00",
+          "content_sha256": "934c771b7ebd287dc3b19684a6c6ff09c1fcb3ae2d72c9db5cd89adc37e4ea5c",
+          "excerpt": "The DLSS-NR project on AMD by Daniel Blanco was first released on September 3, 2026, bringing DLSS 5 Neural Rendering to Radeon GPUs; in the latest 0.8.0 update, however, it makes all the main DLSS features available, featuring DLSS SR, Frame Generation, Ray Regeneration, and the",
+          "sentence_hash": "2a2c9e80034d0e057894203b95b32fc2aa327f74be15a598fae0bed268b9c95e",
           "anchors": [
-            "before"
+            "with",
+            "September 3"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.",
+          "text": "While AMD has equivalents for most DLSS features like FSR upscaling, frame generation, ray regeneration, and anti-lag, it’s not as commonly supported by most games compared to Nvidia’s offerings.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372098+08:00",
-          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
-          "excerpt": "This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.",
-          "sentence_hash": "e5bbc3eecea0bec2d33d58c1f52fb85705ee0fca8357852155ac234575ab4e40",
+          "captured_at": "2026-10-19T08:03:11.919568+08:00",
+          "content_sha256": "934c771b7ebd287dc3b19684a6c6ff09c1fcb3ae2d72c9db5cd89adc37e4ea5c",
+          "excerpt": "While AMD has equivalents for most DLSS features like FSR upscaling, frame generation, ray regeneration, and anti-lag, it’s not as commonly supported by most games compared to Nvidia’s offerings.",
+          "sentence_hash": "493e5b4fef994ad149ecaf035d8a056c1e2b2e6db3966cf1a7e4ce473c5bcb65",
           "anchors": [
-            "most"
+            "ui",
+            "ray regeneration",
+            "frame generation"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "— Addy Osmani, Morgan Westlee Lunt, and Qing Wang, How the Claude Code team does code review Recent articles - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th",
+          "text": "Even if players could use the AMD equivalent features, Neural Rendering is one that AMD just doesn’t have an equivalent for yet, which is why mods like DLSS-NR on AMD were made.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372118+08:00",
-          "content_sha256": "7452e4e651e732a4a95f6aa605c564a18838cf7925a153f26b9386240c1961ac",
-          "excerpt": "— Addy Osmani, Morgan Westlee Lunt, and Qing Wang, How the Claude Code team does code review Recent articles - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th",
-          "sentence_hash": "1d64b671f0e391e3db4f510b4a192b7a7c11adb79246130cf4017569645fdaab",
+          "captured_at": "2026-10-19T08:03:11.919606+08:00",
+          "content_sha256": "934c771b7ebd287dc3b19684a6c6ff09c1fcb3ae2d72c9db5cd89adc37e4ea5c",
+          "excerpt": "Even if players could use the AMD equivalent features, Neural Rendering is one that AMD just doesn’t have an equivalent for yet, which is why mods like DLSS-NR on AMD were made.",
+          "sentence_hash": "53a6f8fa258fda252aaab2a45951f42c679d39ac5c6e3e9948df1390ce492838",
           "anchors": [
-            "October 20",
-            "pr",
-            "now"
+            "ui"
           ]
-        }
-      ],
-      "entities": [
-        "morgan westlee lunt",
-        "recent",
-        "addy osmani",
-        "claude haiku",
-        "claude",
-        "now",
-        "asking",
-        "before",
-        "pr",
-        "october",
-        "qing wang",
-        "claude code",
-        "most",
-        "hello python"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 4,
-        "anchor_count": 15
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_056b44b4187584486a38af7a",
-      "title": "NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium",
-      "url": "https://wccftech.com/nvidia-tesla-v100-32gb-price-rises-ai-boom-pcie-sxm2/",
-      "publisher": "Wccftech",
-      "summary": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback. With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum. Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 p",
-      "category": "科技",
-      "published_at": "2026-10-16T18:56:03+00:00",
-      "why_relevant": "GPU价格动态，硬件玩家关注",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
+        },
         {
-          "fact_id": "f1",
-          "text": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
+          "fact_id": "f5",
+          "text": "Daniel Blanco wanted to fill the gap with NR in its initial release, but in the latest update, he added all the DLSS features: DLSS Ray Reconstruction, Super Resolution 4.5, Frame Generation, and the latest 310.9.16 improved Neural Rendering build that we covered recently with mo",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372639+08:00",
-          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
-          "excerpt": "The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.",
-          "sentence_hash": "af7cfeef65848cc4438b344007a9c49baf64501e0dc734682f97d2de3f7ae602",
+          "captured_at": "2026-10-19T08:03:11.919649+08:00",
+          "content_sha256": "934c771b7ebd287dc3b19684a6c6ff09c1fcb3ae2d72c9db5cd89adc37e4ea5c",
+          "excerpt": "Daniel Blanco wanted to fill the gap with NR in its initial release, but in the latest update, he added all the DLSS features: DLSS Ray Reconstruction, Super Resolution 4.5, Frame Generation, and the latest 310.9.16 improved Neural Rendering build that we covered recently with mo",
+          "sentence_hash": "d62b5e36de40913aa7b5366cfff02010ce690fa37ecd22469a176e54fb413268",
           "anchors": [
-            "for",
+            "modder",
+            "with",
+            "ui"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Interestingly, the update notes say it includes FSR 4.1.1 upscaling; AMD GPUs already use FSR, but having FSR 4.1.1 specifically gives the mod a consistent version of FSR to work with, instead of having to be compatible with the various implementations of FSR in different scenari",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.919689+08:00",
+          "content_sha256": "934c771b7ebd287dc3b19684a6c6ff09c1fcb3ae2d72c9db5cd89adc37e4ea5c",
+          "excerpt": "Interestingly, the update notes say it includes FSR 4.1.1 upscaling; AMD GPUs already use FSR, but having FSR 4.1.1 specifically gives the mod a consistent version of FSR to work with, instead of having to be compatible with the various implementations of FSR in different scenari",
+          "sentence_hash": "e0e7f8606901057ccb21a7d5aee3dbf66549956aad6e123e3e6272c477cac02e",
+          "anchors": [
             "with"
           ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372653+08:00",
-          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
-          "excerpt": "With its 32GB of HBM2 memory, it is available in both PCIe and SXM2 form factors for consumers wishing to run local AI models without spending a ludicrous sum.",
-          "sentence_hash": "c2dc58dd657fa9ae03ea18d8ecf1cfa93d05de58371ea3a99d3b63c5e7446846",
-          "anchors": [
-            "for",
-            "with",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372667+08:00",
-          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
-          "excerpt": "Unfortunately, there’s always a catch, and with the top-end GPUs out of reach for regular buyers, a $200 premium is being slapped on the Tesla V100.",
-          "sentence_hash": "4308e5761635371f6a632fd3c4c992febd32d7da1451afc6ddabe46c8c7bfc7c",
-          "anchors": [
-            "for",
-            "with",
-            "$200 "
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "For a 9-year-old GPU, the Tesla V100 packs a ton of bandwidth and GPU memory to be able to run decent LLMs at a fraction of the RTX 6000 PRO’s price A post shared by @unbug on X provides details of the Tesla V100 being repurposed and shipped in truckloads for inference purposes, ",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372688+08:00",
-          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
-          "excerpt": "For a 9-year-old GPU, the Tesla V100 packs a ton of bandwidth and GPU memory to be able to run decent LLMs at a fraction of the RTX 6000 PRO’s price A post shared by @unbug on X provides details of the Tesla V100 being repurposed and shipped in truckloads for inference purposes, ",
-          "sentence_hash": "2453e74b8a5e054f6a7c1aac34f24707de5643a5e24357c4088d6090074d4360",
-          "anchors": [
-            "for",
-            "pro",
-            "$2,000",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Though this figure is still on the higher side, it sure beats purchasing something like the RTX 6000 PRO, which crossed the $16,000 mark back in August.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372700+08:00",
-          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
-          "excerpt": "Though this figure is still on the higher side, it sure beats purchasing something like the RTX 6000 PRO, which crossed the $16,000 mark back in August.",
-          "sentence_hash": "a651f307c7fec3d3665e31d997cbd823ec2cbfe646383a0e0b6554ad42bde953",
-          "anchors": [
-            "$16,000 "
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In one of the pictures, we can see that the Tesla V100 has been modded with a triple-fan cooler, making it easier to attach to traditional motherboards featuring a PCIe slot.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.372713+08:00",
-          "content_sha256": "5119066b2a6f19480a9bf5c439700a68b493233ed42bbd3b2435ca1dc6cea4ef",
-          "excerpt": "In one of the pictures, we can see that the Tesla V100 has been modded with a triple-fan cooler, making it easier to attach to traditional motherboards featuring a PCIe slot.",
-          "sentence_hash": "8737b03625940cbe01b8f841cc9858877ba986fb60b45bfaf32f688fc9d38b25",
-          "anchors": [
-            "with",
-            "one"
-          ]
         }
       ],
       "entities": [
-        "follow wccftech",
-        "link",
-        "ultra",
-        "spark",
-        "next",
-        "flash",
-        "gpu",
-        "for",
+        "neural",
+        "nr",
+        "interestingly",
         "with",
-        "august",
-        "pro",
-        "qwen",
-        "google",
-        "llm",
-        "news source",
-        "one",
-        "nvidia",
-        "tesla",
-        "despite",
-        "ai",
-        "originally",
-        "unfortunately",
-        "dgx",
-        "though",
-        "rtx"
+        "while",
+        "frame generation",
+        "amd",
+        "super resolution",
+        "real",
+        "neural rendering",
+        "ui",
+        "radeon",
+        "ray reconstruction",
+        "xt",
+        "pc",
+        "even",
+        "september",
+        "ray regeneration",
+        "fps",
+        "hub",
+        "fsr",
+        "daniel blanco",
+        "you",
+        "direct",
+        "reddit",
+        "gpu",
+        "sr",
+        "dlss",
+        "rx",
+        "modder",
+        "nvidia"
       ],
       "numbers": [
-        "$16,000 ",
-        "$200 ",
-        "$2,000"
+        "25%",
+        "100%"
       ],
       "dates": [
-        "May 20"
+        "September 3"
       ],
       "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 29
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_fc0c1016fa79931bcf9a1d5f",
-      "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’",
-      "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "AI trade jitters send investors scrambling for government debt in a move that halts a months-long Treasury sell-off",
-      "category": "财经",
-      "published_at": "2026-10-16T20:42:16+00:00",
-      "why_relevant": "科技股暴跌，AI交易恐慌",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "treasury",
-        "ai"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 2
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_ffc867a4840633cc1cffc878",
-      "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVHNoVXVmaThlSEx4SkpxSzR2TEdOLVl0ZnlTWjhQT0FwRWxQOGJKSllUMEl1YzliOVVMTEtRM1FfclQwdWdnMDhremNOTmZJZjhMRVF5R3U0Z2NzQTZUOU5jV3Y1a1BtMXl2ZzhIX1ZvZ1Z5QURkdnJ5djVwTXpROC1xZGQwUkRXQmJhTGNXNURRWElIS0NpSEtlWkdwU2xNcWFocVF0QmFVXy01dUE?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock&nbsp;&nbsp;Bloomberg.com",
-      "category": "财经",
-      "published_at": "2026-10-16T20:31:45+00:00",
-      "why_relevant": "AI暴跌加石油冲击",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-17T08:03:45.373310+08:00",
-          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
-          "excerpt": "The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.",
-          "sentence_hash": "8fc1fbcde6796f1b925d695e7b0b3961b22126b7d446877aa46eb03edbfdcda2",
-          "anchors": [
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-17T08:03:45.373378+08:00",
-          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
-          "excerpt": "Nvidia-backed CoreWeave slumped, also adding to recent losses.",
-          "sentence_hash": "cf7a19e3437c531bf86ef9df2ef91a4b9889c4def7cd5505b2d7a29aa9e3bf3d",
-          "anchors": [
-            "adding"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The data center operator's bonds sold off sharply this week, pushing yields above 15%.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-17T08:03:45.373445+08:00",
-          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
-          "excerpt": "The data center operator's bonds sold off sharply this week, pushing yields above 15%.",
-          "sentence_hash": "3c516aaa832289263fb26576d4f19a4a4f59fddc3cbb2140664054e86fb4ac24",
-          "anchors": [
-            "15%"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Broadcom fell and the PHLX chip index fell for an eighth straight day.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-17T08:03:45.373538+08:00",
-          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
-          "excerpt": "Broadcom fell and the PHLX chip index fell for an eighth straight day.",
-          "sentence_hash": "3d52b3050f2a266b3f74add8916da4d2543109a5da3d22950a9cdc0309e01046",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Investors on Friday were also watching oil prices jump more than 3% due to Middle East supply worries.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-17T08:03:45.373665+08:00",
-          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
-          "excerpt": "Investors on Friday were also watching oil prices jump more than 3% due to Middle East supply worries.",
-          "sentence_hash": "bb256872cf623b3476c214e7fd075dad7bf7218710d9cdea4cb6dc3f9931c760",
-          "anchors": [
-            "3%"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "\"There is some fear in the market,\" said Rob Haworth, senior investment strategist at U.S.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-10-17T08:03:45.373731+08:00",
-          "content_sha256": "914a244551acc71a9d737e31cd03c939a7f7f54d088a923de6c954f13f9f16cd",
-          "excerpt": "\"There is some fear in the market,\" said Rob Haworth, senior investment strategist at U.S.",
-          "sentence_hash": "38d1ee18097159403d8889704ef901c0d191b85639ed83006a4043cef340bf61",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "lseg",
-        "disney",
-        "nasdaq composite",
-        "rob haworth",
-        "high",
-        "thursday",
-        "peter rice",
-        "adding",
-        "according",
-        "phlx",
-        "hotter",
-        "federal reserve chair kevin warsh",
-        "meta platforms",
-        "seattle",
-        "the dow jones industrial average",
-        "ipo",
-        "weave",
-        "roadster",
-        "friday",
-        "there",
-        "third",
-        "reuters",
-        "bank wealth management",
-        "wall street",
-        "january",
-        "netflix",
-        "broadcom",
-        "middle east",
-        "anthropic",
-        "december",
-        "markets",
-        "core",
-        "space",
-        "fed",
-        "the nasdaq",
-        "its",
-        "nvidia",
-        "tesla",
-        "barclays",
-        "ai",
-        "gamble",
-        "investors",
-        "analysts",
-        "procter"
-      ],
-      "numbers": [
-        "1.10%",
-        "30%",
-        "15%",
-        "2.15%",
-        "3%",
-        "0.36%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 50
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_0a3d40b229328cbf649cfa84",
-      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
-      "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro&#039;s profile and his WhatsApp channel.",
-      "category": "国际",
-      "published_at": "2026-10-16T21:08:50+00:00",
-      "why_relevant": "平台干预选举，国际要闻",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374242+08:00",
-          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
-          "excerpt": "Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.",
-          "sentence_hash": "c87fa9d2f9a6458fa041c383b51633efd5e4b7663d9c7393beb0d4f56f207c4f",
-          "anchors": [
-            "his",
-            "employees",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374263+08:00",
-          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
-          "excerpt": "The messages, reported on Friday by Brazilian daily Folha de S Paulo, also acknowledged the platform recommended the profile of Lula challenger Senator Flavio Bolsonaro, as well as his WhatsApp channel.",
-          "sentence_hash": "215e8343da134f030e12ba6a7304886bad9379b069bc776e56d36373233c4a13",
-          "anchors": [
-            "his",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374287+08:00",
-          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
-          "excerpt": "Lula, the left-wing incumbent, will face right-wing challenger Bolsonaro in a presidential runoff on October 25, following a stronger-than-expected performance by the senator in the first-round vote earlier this month.",
-          "sentence_hash": "1fc04fbe0cb6ac9b8399e36380c10fba960895dcf6a5f0d37734adf8d74550ac",
-          "anchors": [
-            "his",
-            "October 25"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The ruling by a judge in Brazil’s top electoral court was made shortly after Lula filed a complaint that accused the tech giant – which owns Instagram, Facebook and WhatsApp – of using biased algorithms and AI restrictions to favour opposition candidate Bolsonaro ahead of the ele",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374312+08:00",
-          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
-          "excerpt": "The ruling by a judge in Brazil’s top electoral court was made shortly after Lula filed a complaint that accused the tech giant – which owns Instagram, Facebook and WhatsApp – of using biased algorithms and AI restrictions to favour opposition candidate Bolsonaro ahead of the ele",
-          "sentence_hash": "ce5d2ba124fe6820562670f7b0a8ad2bf0ff5d7480cb5570dfd0a1cf54196b0a",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "His ruling also orders the company to ensure its artificial intelligence tool applies identical criteria to both candidacies.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374329+08:00",
-          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
-          "excerpt": "His ruling also orders the company to ensure its artificial intelligence tool applies identical criteria to both candidacies.",
-          "sentence_hash": "ebfeb6a51b3399a62c124e334f492bd85192404a4e24ac945451a334e70e804e",
-          "anchors": [
-            "any",
-            "app"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Bellizze said in his ruling that Meta must pay a fine of 500,000 reais ($98,700) per day if it fails to comply.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374339+08:00",
-          "content_sha256": "0ee20184d7af034f5dc827b434ba80fcff3a19a38c43668da8a8a7fc5d2b3a65",
-          "excerpt": "Bellizze said in his ruling that Meta must pay a fine of 500,000 reais ($98,700) per day if it fails to comply.",
-          "sentence_hash": "5a4ed30b9c2eaefd817eae9b41ca93a87cfaa2403701153688ba45239b84fb08",
-          "anchors": [
-            "his",
-            "ai",
-            "$98,700"
-          ]
-        }
-      ],
-      "entities": [
-        "report\nthe",
-        "sao paulo",
-        "bellizze",
-        "app",
-        "brazilian president luiz inacio lula",
-        "facebook",
-        "brazil",
-        "silva",
-        "thursday",
-        "employees",
-        "folha",
-        "brazilian",
-        "meta",
-        "october",
-        "according",
-        "bolsonaro",
-        "options",
-        "his",
-        "instagram",
-        "paulo",
-        "ai",
-        "any",
-        "senator flavio bolsonaro",
-        "friday",
-        "justice marco aurelio bellizze",
-        "lula",
-        "whats",
-        "reuters"
-      ],
-      "numbers": [
-        "$98,700"
-      ],
-      "dates": [
-        "October 25"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 30
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_e5c72a50328e4f302df622ca",
-      "title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3371217/china-warns-eu-not-fantasise-trade-approach-brussels-confirms-new-kill-switch?utm_source=rss_feed",
-      "publisher": "SCMP",
-      "summary": "Beijing warned Brussels not to “fantasise” that taking a hard line will force it into concessions, as the bloc confirmed plans for a gung-ho new kill switch that will allow Brussels to “immediately” kick China out of the single market.\nExactly a week after the two sides struck a surprise deal to restrict the volume of hybrid cars China ships to Europe, the flare-up suggests the threat of a trade war between two of the world’s three biggest economies has far from subsided.\n“The EU should not...",
-      "category": "国际",
-      "published_at": "2026-10-16T22:30:02+00:00",
-      "why_relevant": "中欧贸易摩擦，宏观事件",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374557+08:00",
-          "content_sha256": "6eb1e3a76e50a8264a929ead52698f0ecbc0fe36d8b2393298ad5f03e5ce86a0",
-          "excerpt": "Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel",
-          "sentence_hash": "c3e2f4b49985678ef766e48d057f75cd5c930c2bb0c58ea8db45df87f2796ee2",
-          "anchors": [
-            "min"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.374575+08:00",
-          "content_sha256": "6eb1e3a76e50a8264a929ead52698f0ecbc0fe36d8b2393298ad5f03e5ce86a0",
-          "excerpt": "“The EU should not fantasise about gaining benefits through pressure, nor should it underestimate China’s determination and ability to safeguard its own interests,” read a Ministry of Commerce statement on Friday.",
-          "sentence_hash": "4699b5534d71a5e8b6619c5f902ffac42c59ec03db6764b1586a1dbcc69164cd",
-          "anchors": [
-            "min",
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "eu",
-        "europe",
-        "ministry",
-        "brussels",
-        "min",
-        "listen\nfinbarr berminghamin brussels\nbeijing",
-        "advertisement\nchina",
-        "latest",
-        "south china morning post",
-        "beijing",
-        "ai",
-        "select voice\nselect speed",
-        "exactly",
-        "friday",
-        "commerce",
-        "china"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 2,
-        "anchor_count": 16
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_5a8f1a4af8d7be3771467542",
-      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
-      "category": "国际",
-      "published_at": "2026-10-16T23:54:35+00:00",
-      "why_relevant": "美乌关系，地缘政治",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375017+08:00",
-          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
-          "excerpt": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a \"complete mistake, a major mistake\" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against",
-          "sentence_hash": "36c239ed033868fd445d216294383977efaabc1e98947ef7cef8f981c7145a71",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "In a BBC interview, Guido Crosetto warned that any such move by US President Donald Trump's administration \"makes absolutely no sense\" and risked prolonging Russia's full-scale invasion rather than helping to bring peace.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375032+08:00",
-          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
-          "excerpt": "In a BBC interview, Guido Crosetto warned that any such move by US President Donald Trump's administration \"makes absolutely no sense\" and risked prolonging Russia's full-scale invasion rather than helping to bring peace.",
-          "sentence_hash": "02a137a8112033448a8177138cb9e492e4896447cec81d1ff26ae64f75569bcf",
-          "anchors": [
-            "us",
-            "peace"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Trump has also denied that the US has stopped sharing early-warning alerts of incoming Russian aerial attacks with Ukraine.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375045+08:00",
-          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
-          "excerpt": "Trump has also denied that the US has stopped sharing early-warning alerts of incoming Russian aerial attacks with Ukraine.",
-          "sentence_hash": "5f16d4c6dde366a04a604683b6071a46e51b58deb7b73ff31a4001a22b15f255",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Earlier this week, Prime Minister Giorgia Meloni called Trump's deal to buy diesel from Russia a \"very risky choice\", and said it would \"grant Russia legitimacy\" as it bombed cities in Ukraine.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375061+08:00",
-          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
-          "excerpt": "Earlier this week, Prime Minister Giorgia Meloni called Trump's deal to buy diesel from Russia a \"very risky choice\", and said it would \"grant Russia legitimacy\" as it bombed cities in Ukraine.",
-          "sentence_hash": "04bed77cb2bd2eac3594ba49b268fc83c6cfdbb75e60c185ff30a2670d4c8bdd",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Trump agreed the deal with Vladimir Putin, blaming Kyiv's own attacks on Russian refineries for rising fuel prices.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375070+08:00",
-          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
-          "excerpt": "Trump agreed the deal with Vladimir Putin, blaming Kyiv's own attacks on Russian refineries for rising fuel prices.",
-          "sentence_hash": "584a6b7d5371cb533edfcb68e889d841ee8b88e6ab257942502e8582f98e44f8",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Crosetto was a co-founder of Meloni's hard-right Fratelli d'Italia party, which has led a right-wing government coalition since 2022, shortly after the start of Russia's full-scale war.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375089+08:00",
-          "content_sha256": "e0b0e8597efdf2f67052ba3af5273ec7d45ef869275da5f4008ba957b67c9a9d",
-          "excerpt": "Crosetto was a co-founder of Meloni's hard-right Fratelli d'Italia party, which has led a right-wing government coalition since 2022, shortly after the start of Russia's full-scale war.",
-          "sentence_hash": "619dc9fa22444ac3c9b60d341e05326de7be8a893dabf75e13ba5e4d2a0441dd",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "russian",
-        "putin",
-        "president donald trump",
-        "vladimir putin",
-        "europe",
-        "meloni",
-        "italia",
-        "kyiv",
-        "roberto vannacci",
-        "peace",
-        "ukrainian",
-        "rome",
-        "us",
-        "guido crosetto",
-        "published\nitaly",
-        "prime minister giorgia meloni",
-        "italian",
-        "crosetto",
-        "trump",
-        "ukraine",
-        "fratelli",
-        "italy",
-        "bbc",
-        "despite",
-        "futuro nazionale",
-        "russia",
-        "earlier"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 27
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_155b0f3b7007c8d66c547011",
-      "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
-      "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
-      "category": "国际",
-      "published_at": "2026-10-16T19:42:00+00:00",
-      "why_relevant": "乌克兰局势，欧盟立场",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375543+08:00",
-          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
-          "excerpt": "Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.",
-          "sentence_hash": "12f7fbae1327b0a64470a5f9bc4978c4f8ac46e94b024d1590a385445401318c",
-          "anchors": [
-            "October 16",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Speaking to press at the summit, he said that \"Putin wants to destroy us\" and that Ukraine must prepare for a hard winter.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375561+08:00",
-          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
-          "excerpt": "Speaking to press at the summit, he said that \"Putin wants to destroy us\" and that Ukraine must prepare for a hard winter.",
-          "sentence_hash": "72d62bb18d730a6191b4a0676b7d2d27dfbea3f5471acff1cda737197068d41f",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "\"Ukraine is arguably entering the most difficult winter since [Russia's] full scale invasion,\" Olena Prokopenko, a senior fellow at the German Marshall Fund of the United States, a nonpartisan think-tank, told DW.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375580+08:00",
-          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
-          "excerpt": "\"Ukraine is arguably entering the most difficult winter since [Russia's] full scale invasion,\" Olena Prokopenko, a senior fellow at the German Marshall Fund of the United States, a nonpartisan think-tank, told DW.",
-          "sentence_hash": "2b21aea085e7214e6d16df93069c497fb658d76d631cc75f88652fc6e1c45035",
-          "anchors": [
-            "since",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Three painful topics were on the table at the summit for discussion between Zelenskyy and EU leaders: US relations with Russia, Starlink ― and money.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375596+08:00",
-          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
-          "excerpt": "Three painful topics were on the table at the summit for discussion between Zelenskyy and EU leaders: US relations with Russia, Starlink ― and money.",
-          "sentence_hash": "b0e04a3b435ee065bcc7d31e1c2bda398044baeba02f3674d927faee94f2eef0",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Is the US siding with Russia?",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375602+08:00",
-          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
-          "excerpt": "Is the US siding with Russia?",
-          "sentence_hash": "72b1c29276ce2f4b458163ea03c5ccc51b77d5b8923ecf12c467f514b7040b9f",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Zelenskyy's visit to Brussels comes at a time when he needs European support more than ever.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375613+08:00",
-          "content_sha256": "bb7b224e3c2a16c3f3e5ae70e9e33171bdc563febb5859ff9c8fb03190996d1a",
-          "excerpt": "Zelenskyy's visit to Brussels comes at a time when he needs European support more than ever.",
-          "sentence_hash": "26471acc03bff9652d63f99cd334ebe3eab838aadf1f28195c1ecf8b2b223152",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "russian",
-        "putin",
-        "eu",
-        "olena prokopenko",
-        "elon musk",
-        "experts",
-        "german marshall fund",
-        "ukrainian",
-        "white house",
-        "us",
-        "president trump",
-        "dw",
-        "october",
-        "russian president vladimir",
-        "february",
-        "but",
-        "starlink",
-        "zelenskyy",
-        "worries",
-        "friday",
-        "russia",
-        "president donald trump",
-        "europe",
-        "since",
-        "ukrainian president volodymyr zelenskyy",
-        "starshield",
-        "middle east",
-        "brussels",
-        "donald trump",
-        "internet",
-        "when zelenskyy",
-        "trump",
-        "ukraine",
-        "speaking",
-        "both elon musk",
-        "united states",
-        "newsmax",
-        "trump\noctober",
-        "three",
-        "the starlink",
-        "european"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 16",
-        "February 20",
-        "October 12"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 44
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_605353348ccf1ea2d5dac3f0",
-      "title": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2hXSnYwZU9ldlRnMk4yckJBZGdyYUJDZWJBa1ZRNFM5bWVmUkRYVmNfWVdtMFlGOG5TX3YwREZYWi1jeGRmLVpTanpzYWltYlR4UVpqblpnUUZuUEdYODVMS3VORFJHaXNIcC1PMVVKVERPTS1GeS1Ra0Y4dVNNb2otSWliai0zcXBaLWRmR3hfc2FMNFZZMTN4Q3F4YzN4NmM1RFg1cGtOdDQ0REFRN1B2RV95Wnp3R0NYUA?oc=5",
-      "publisher": "Reuters",
-      "summary": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-10-16T20:00:09+00:00",
-      "why_relevant": "美俄柴油交易，地缘动态",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.375688+08:00",
-          "content_sha256": "fd44545cea576420eb0c8b97707d9e407e113ec5425b2f8d79609e575d51d833",
-          "excerpt": "Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters",
-          "sentence_hash": "c19bebf7cc33daa512ee6810c7cd787292101d99526d04d8b4624d723e79064a",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "russian",
-        "zelenskiy",
-        "ukraine",
-        "european",
-        "us",
-        "reuters"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 6
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_57a5dc8fa70c58b9e1bd39e4",
-      "title": "Trump denies limiting Ukraine access to Starlink network",
-      "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
-      "category": "国际",
-      "published_at": "2026-10-16T19:33:48+00:00",
-      "why_relevant": "星链限制，技术地缘",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376113+08:00",
-          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
-          "excerpt": "Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.",
-          "sentence_hash": "20ab0c19405764b1481fbbd95c0b8b756a0653357ea9ced1962f94c29e4626eb",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "\"It wasn't me and I don't think it was [Starlink owner] Elon [Musk],\" Trump said, hours after Ukrainian President Volodymyr Zelensky said speed had yet to be restored.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376127+08:00",
-          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
-          "excerpt": "\"It wasn't me and I don't think it was [Starlink owner] Elon [Musk],\" Trump said, hours after Ukrainian President Volodymyr Zelensky said speed had yet to be restored.",
-          "sentence_hash": "a7e753f48e270b88559eaf543120151b69b77b7c531474264ec950040168526c",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Musk himself suggested the US government might have been behind the restrictions, while Reuters news agency reported on Thursday that the order had come from inside the White House.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376141+08:00",
-          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
-          "excerpt": "Musk himself suggested the US government might have been behind the restrictions, while Reuters news agency reported on Thursday that the order had come from inside the White House.",
-          "sentence_hash": "189293100e26e64e99e8807fa9307c95b44c2d023936db46b34730dcc4a945fd",
-          "anchors": [
-            "eu",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Starlink is a civilian-use high-speed internet network operated by Musk's SpaceX.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376152+08:00",
-          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
-          "excerpt": "Starlink is a civilian-use high-speed internet network operated by Musk's SpaceX.",
-          "sentence_hash": "d9d51da23ebba8bbf66b6969f884ca17b8dec4995317214934b0ed356596ee8d",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The US had previously warned it could withhold sharing intelligence, crucial for Kyiv's defences, if Ukraine did not stop hitting Russian oil refineries.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376167+08:00",
-          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
-          "excerpt": "The US had previously warned it could withhold sharing intelligence, crucial for Kyiv's defences, if Ukraine did not stop hitting Russian oil refineries.",
-          "sentence_hash": "c032d8a04a03511c984e9e37bee4e9183cac8fe51fd47f4fb27a9c067a53d0dc",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Tension has been brewing between Washington and Kyiv for days over a recent controversial diesel deal between Russia and the US.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376178+08:00",
-          "content_sha256": "3e538ebd51540a890eb7f7f76e6002652eef77df21a94cf27ab6aed20c89856d",
-          "excerpt": "Tension has been brewing between Washington and Kyiv for days over a recent controversial diesel deal between Russia and the US.",
-          "sentence_hash": "fe5e1ae164c45bbc13155949eaeab828176a401df498c03bacfbb593c5c675b8",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "russian",
-        "putin",
-        "eu",
-        "on tuesday",
-        "kyiv",
-        "pentagon",
-        "ukrainian",
-        "white house",
-        "thursday",
-        "musk",
-        "us",
-        "tuesday",
-        "moscow",
-        "russian president vladimir",
-        "february",
-        "but",
-        "starlink",
-        "western",
-        "published",
-        "friday",
-        "russia",
-        "some",
-        "elon",
-        "reuters",
-        "president donald trump",
-        "zelensky",
-        "starshield",
-        "asked",
-        "space",
-        "trump",
-        "ukraine",
-        "ukrainian president volodymyr zelensky",
-        "tension",
-        "washington"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
@@ -1077,160 +152,127 @@
       "evidence_complete": true
     },
     {
-      "article_id": "a1_4686a0b0b129c8973ef384db",
-      "title": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
+      "article_id": "a1_290c9b6eeb9806b9793208b5",
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
       "publisher": "GitHub Trending",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.https://ecc.tools   \n  \n   \n    \n    \n     \n   \n    \n    \n     \n Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা  \n      \n      \n    \n         \n\n \n  \n   \n  Warning\n Official sources only. Install ECC only from veri",
+      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.https://code.claude.com/docs/en/overviewClaude Code \n  \nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- a",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "AI编程工具性能优化，符合读者兴趣",
-      "relevance_score": 7.0,
+      "why_relevant": "Claude Code必装工具",
+      "relevance_score": 10.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
+          "text": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376632+08:00",
-          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
-          "excerpt": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
-          "sentence_hash": "819b381c8b137edea75e3c753b9e5c6119de8a56d458e6f0245c4543864154a4",
+          "captured_at": "2026-10-19T08:03:11.920501+08:00",
+          "content_sha256": "6192723a8aef9e4e4f7189ff3b100eaf5c9e93ddef1b5e324462287a2c659ad3",
+          "excerpt": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.",
+          "sentence_hash": "71bff37feeb13979d60045a643eeaf27e8ebd3d41815d3604a2cb0ad90aeaf9d",
           "anchors": [
-            "繁體中文",
-            "日本語",
-            "简体中文"
+            "code",
+            "git"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
+          "text": "Use it in your terminal, IDE, or tag @claude on Github.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376652+08:00",
-          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
-          "excerpt": "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
-          "sentence_hash": "590576aacf7621dcea7499c9e5665ea84001a44d0dbdfaf6031511a6d11bda30",
+          "captured_at": "2026-10-19T08:03:11.920525+08:00",
+          "content_sha256": "6192723a8aef9e4e4f7189ff3b100eaf5c9e93ddef1b5e324462287a2c659ad3",
+          "excerpt": "Use it in your terminal, IDE, or tag @claude on Github.",
+          "sentence_hash": "15390b467da548d7fcb7ee591f4b8969736da38008243398d0dc7a8537ca7b3e",
           "anchors": [
-            "git",
-            "hub",
-            "shield",
-            "agent",
-            "pro",
-            "ecc"
+            "claude",
+            "hub"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.",
+          "text": "Note Installation via npm is deprecated.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376665+08:00",
-          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
-          "excerpt": "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.",
-          "sentence_hash": "3440df42dd301770631700a4878b8e29b5c513ddd98a5adef891923918f2fc54",
+          "captured_at": "2026-10-19T08:03:11.920546+08:00",
+          "content_sha256": "6192723a8aef9e4e4f7189ff3b100eaf5c9e93ddef1b5e324462287a2c659ad3",
+          "excerpt": "Note Installation via npm is deprecated.",
+          "sentence_hash": "96a04bc659280e9dc543349e1058030eb61d8f0830878d0aaff64d65f7d3b444",
           "anchors": [
-            "pro"
+            "deprecated",
+            "npm"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Both install the same ecc@ecc plugin.",
+          "text": "Use one of the recommended methods below.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376677+08:00",
-          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
-          "excerpt": "Both install the same ecc@ecc plugin.",
-          "sentence_hash": "3e9898bd253d465f5a7f8ab3a95ffba6bdabc7e919ad6a22ded0f0c00f137447",
+          "captured_at": "2026-10-19T08:03:11.920565+08:00",
+          "content_sha256": "6192723a8aef9e4e4f7189ff3b100eaf5c9e93ddef1b5e324462287a2c659ad3",
+          "excerpt": "Use one of the recommended methods below.",
+          "sentence_hash": "e0788019eb70c2a5dda251cee115e36005998d1d2f4345724bee3196385063c8",
           "anchors": [
-            "ecc",
-            "install"
+            "recommended"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Choose one and do not stack a full manual Claude install on top.",
+          "text": "For more installation options, uninstall steps, and troubleshooting, see the setup documentation.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376687+08:00",
-          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
-          "excerpt": "Choose one and do not stack a full manual Claude install on top.",
-          "sentence_hash": "970762a6ba91eeb509aca252b3da80a8540184fc2863eb8950653974a5fb6265",
+          "captured_at": "2026-10-19T08:03:11.920586+08:00",
+          "content_sha256": "6192723a8aef9e4e4f7189ff3b100eaf5c9e93ddef1b5e324462287a2c659ad3",
+          "excerpt": "For more installation options, uninstall steps, and troubleshooting, see the setup documentation.",
+          "sentence_hash": "20e1c1fdca613db5d47a5b34d7c245987fe655a4f21c713a58df4b2b9698f88d",
           "anchors": [
-            "install"
+            "see"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "This repo is MIT-licensed forever.",
+          "text": "- Install Claude Code: MacOS/Linux (Recommended): curl -fsSL https://claude.ai/install.sh | bash Homebrew (MacOS/Linux): brew install --cask claude-code Windows (Recommended): irm https://claude.ai/install.ps1 | iex WinGet (Windows): winget install Anthropic.ClaudeCode NPM (Depre",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.376696+08:00",
-          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
-          "excerpt": "This repo is MIT-licensed forever.",
-          "sentence_hash": "37b4782f9b8d6bc338f8f47718ee6dee98bd5598eb772c077cd929052a282f0f",
+          "captured_at": "2026-10-19T08:03:11.920623+08:00",
+          "content_sha256": "6192723a8aef9e4e4f7189ff3b100eaf5c9e93ddef1b5e324462287a2c659ad3",
+          "excerpt": "- Install Claude Code: MacOS/Linux (Recommended): curl -fsSL https://claude.ai/install.sh | bash Homebrew (MacOS/Linux): brew install --cask claude-code Windows (Recommended): irm https://claude.ai/install.ps1 | iex WinGet (Windows): winget install Anthropic.ClaudeCode NPM (Depre",
+          "sentence_hash": "24faf907854cc75b7c21e1928cd390e431878c56eba1ef79ad6da2bd0ed91cc6",
           "anchors": [
-            "for"
+            "win",
+            "get",
+            "claude",
+            "code",
+            "npm",
+            "anthropic"
           ]
         }
       ],
       "entities": [
-        "gemini",
-        "kimi code",
-        "polski",
-        "git",
-        "both",
-        "path",
-        "hub",
-        "mike morgan",
-        "claude",
-        "persist",
-        "community",
-        "zed",
-        "shield",
-        "shell",
-        "espa",
         "for",
-        "for claude code",
-        "claude code",
-        "sponsors",
-        "warning\nofficial",
-        "ecc",
-        "global",
-        "antigravity",
-        "mit",
-        "access",
-        "your",
-        "qoder",
-        "hub copilot",
-        "oss",
-        "important",
-        "third",
-        "install",
+        "ide",
+        "commercial terms",
         "use",
-        "choose",
-        "past",
-        "日本語",
-        "codex",
-        "instead",
-        "open",
-        "open power",
-        "run",
-        "cursor",
-        "partners",
-        "atlas cloud",
-        "language",
-        "portugu",
-        "pro",
+        "learn",
+        "git",
+        "note\ninstallation",
+        "anthropic",
+        "homebrew",
+        "github",
+        "win",
         "see",
-        "install node",
-        "brasil",
-        "简体中文",
+        "mac",
+        "deprecated",
+        "claude code",
+        "get",
+        "hub",
+        "service",
+        "linux",
+        "join",
+        "claude developers discord",
+        "privacy policy",
+        "navigate",
+        "windows",
+        "install claude code",
+        "claude",
         "code",
-        "confirm",
-        "qwen",
-        "windows start",
-        "english",
-        "hub app",
-        "deutsch",
-        "node",
-        "agent",
-        "optimize",
-        "繁體中文"
+        "npm",
+        "recommended"
       ],
       "numbers": [],
       "dates": [],
@@ -1241,143 +283,383 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 62
+        "anchor_count": 29
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_c6dcb9ac1054db0e60e61855",
-      "title": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "publisher": "GitHub Trending",
-      "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.https://arxiv.org/abs/2609.00065Scientific Agent Skills \n              \n \n 🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compa",
+      "article_id": "a1_1f53a90295107ee9c2c7973c",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "publisher": "英伟达博客",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.  Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
       "category": "科技",
-      "published_at": "",
-      "why_relevant": "科研Agent技能库，实用性强",
-      "relevance_score": 7.0,
+      "published_at": "2026-10-17T21:00:13+00:00",
+      "why_relevant": "NVIDIA新本硬件焦点",
+      "relevance_score": 10.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.",
+          "text": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377168+08:00",
-          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
-          "excerpt": "New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.",
-          "sentence_hash": "c57dbf297f342e61aba4003b2ac33949eec3210a5c2e5bbe16a2aa753aab6519",
+          "captured_at": "2026-10-19T08:03:11.921928+08:00",
+          "content_sha256": "87b2824a2c417aee12a151ef7621066fb66350f2ca08956d42e4d6b61b22e613",
+          "excerpt": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
+          "sentence_hash": "cc0615d61677fa7ef16958f3f73c73c4a8474aa9a4566b53dd70b19f1c85f7ba",
           "anchors": [
-            "you",
-            "your"
+            "ai"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo.",
+          "text": "Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with additional systems on the way.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377183+08:00",
-          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
-          "excerpt": "Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo.",
-          "sentence_hash": "844cf94f4ced773bcbc71cc276393affe6a9d1658147f8a6563e168a28fed10a",
+          "captured_at": "2026-10-19T08:03:11.921970+08:00",
+          "content_sha256": "87b2824a2c417aee12a151ef7621066fb66350f2ca08956d42e4d6b61b22e613",
+          "excerpt": "Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with additional systems on the way.",
+          "sentence_hash": "691de484bb92646d64f49a4b2b2e110b4300db35a521f644e14146dab3f70098",
           "anchors": [
-            "get",
-            "you",
-            "your"
+            "$2,399"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads.",
+          "text": "RTX Spark Launch Celebrations Light Up Berlin The arrival of RTX Spark brought fans, creators and PC enthusiasts together in Berlin during the Festival of Lights, an annual autumn art festival that transforms the German capital’s most famous landmarks, streets and squares into gl",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377194+08:00",
-          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
-          "excerpt": "Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads.",
-          "sentence_hash": "809f5f47029485bda73a4bfd6dc05aadabf7a25c8f1eacc3ae4f0e647406cbe8",
+          "captured_at": "2026-10-19T08:03:11.922055+08:00",
+          "content_sha256": "87b2824a2c417aee12a151ef7621066fb66350f2ca08956d42e4d6b61b22e613",
+          "excerpt": "RTX Spark Launch Celebrations Light Up Berlin The arrival of RTX Spark brought fans, creators and PC enthusiasts together in Berlin during the Festival of Lights, an annual autumn art festival that transforms the German capital’s most famous landmarks, streets and squares into gl",
+          "sentence_hash": "a609de1760113aa735cd1e02bb0ef60dc7f32aefbcb53fbe7114a073ee7d3a35",
           "anchors": [
-            "you",
-            "stay",
-            "your"
+            "festival",
+            "fans"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "🎥 Webinar recording — Getting Started with K-Dense BYOK A hands-on walkthrough of K-Dense BYOK, our free, open-source AI co-scientist that runs locally on your own machine and is powered by Scientific Agent Skills.",
+          "text": "This year, the festival featured RTX Spark-themed lighting on the Berlin TV Tower.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377214+08:00",
-          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
-          "excerpt": "🎥 Webinar recording — Getting Started with K-Dense BYOK A hands-on walkthrough of K-Dense BYOK, our free, open-source AI co-scientist that runs locally on your own machine and is powered by Scientific Agent Skills.",
-          "sentence_hash": "70b5cbfddcbd6fcdf218c61370823b06525b42463153bc34ec50ff048f514ad5",
+          "captured_at": "2026-10-19T08:03:11.922080+08:00",
+          "content_sha256": "87b2824a2c417aee12a151ef7621066fb66350f2ca08956d42e4d6b61b22e613",
+          "excerpt": "This year, the festival featured RTX Spark-themed lighting on the Berlin TV Tower.",
+          "sentence_hash": "c7ced32091a8757a5f44cccf42ae18cb41e802a664a4c37af526eec22e3af1b3",
           "anchors": [
-            "you",
-            "your"
+            "festival"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "We cover how to set it up, bring your own API keys, and run real research workflows with these skills.",
+          "text": "Fans gathered hours ahead in anticipation for the launch celebration at XPERION, the gaming venue inside Saturn at Alexanderplatz, where attendees got hands-on with RTX Spark laptops from leading PC makers, exploring the latest gaming experiences, content-creation workflows and l",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377225+08:00",
-          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
-          "excerpt": "We cover how to set it up, bring your own API keys, and run real research workflows with these skills.",
-          "sentence_hash": "c07da5ceeff1cd3c3433f5a1b46f8e7838ab300f0d74cf7d8ce019ccc26123fb",
+          "captured_at": "2026-10-19T08:03:11.922124+08:00",
+          "content_sha256": "87b2824a2c417aee12a151ef7621066fb66350f2ca08956d42e4d6b61b22e613",
+          "excerpt": "Fans gathered hours ahead in anticipation for the launch celebration at XPERION, the gaming venue inside Saturn at Alexanderplatz, where attendees got hands-on with RTX Spark laptops from leading PC makers, exploring the latest gaming experiences, content-creation workflows and l",
+          "sentence_hash": "54a71c9dc0dcd49a8b705d835730f3c1ea7d90dcaae6b3ce033c23f923df9cef",
           "anchors": [
-            "bring",
-            "these",
-            "you",
-            "your"
+            "attendees"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Watch the recording → Stay up to date: Follow K-Dense on X, LinkedIn, YouTube, and Reddit for new skills, release announcements, walkthroughs, research workflow demos, and examples you can use with your own AI agent.",
+          "text": "The celebration included a special appearance by Huang, who greeted an enthusiastic crowd, passed out popcorn and posed for selfies.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377245+08:00",
-          "content_sha256": "fe74e7016e723f2efadc3cd4b6de88ab62e3039a1743cb9bb7cf9e556919d9be",
-          "excerpt": "Watch the recording → Stay up to date: Follow K-Dense on X, LinkedIn, YouTube, and Reddit for new skills, release announcements, walkthroughs, research workflow demos, and examples you can use with your own AI agent.",
-          "sentence_hash": "8319996ad30b3aa43bd8a7d7b551c03242e04d9579c14ca2afb023a8bfaf6e4b",
+          "captured_at": "2026-10-19T08:03:11.922152+08:00",
+          "content_sha256": "87b2824a2c417aee12a151ef7621066fb66350f2ca08956d42e4d6b61b22e613",
+          "excerpt": "The celebration included a special appearance by Huang, who greeted an enthusiastic crowd, passed out popcorn and posed for selfies.",
+          "sentence_hash": "2beece0eb7a76347321e33dd54e9d72c1ecba19aaa2283c597093f128e5910c4",
           "anchors": [
-            "you",
-            "your"
+            "pc"
           ]
         }
       ],
       "entities": [
-        "reddit",
-        "modal",
-        "if scientific agent skills",
-        "browse",
-        "byok",
-        "claude",
-        "research agents",
-        "agent plugins",
-        "get",
-        "each",
-        "watch",
-        "procedural knowledge",
-        "google antigravity",
-        "claude code",
-        "stay",
-        "tube",
-        "agent skills",
-        "scientific agent skills",
-        "your",
-        "you",
-        "xiv",
-        "these",
-        "getting started",
-        "claude scientific skills",
-        "paper",
-        "codex",
-        "earth",
-        "api",
-        "cursor",
-        "same",
-        "bring",
-        "webinar",
-        "dense",
-        "help",
+        "huang",
+        "developers",
+        "beijing",
+        "justine",
+        "pc",
+        "new generation",
+        "jd",
         "ai",
-        "linked",
-        "follow",
-        "library"
+        "attendees",
+        "istanbul",
+        "asus",
+        "lenovo",
+        "shuangjing store",
+        "starting",
+        "blackwell",
+        "coex",
+        "world welcomed",
+        "microsoft",
+        "festival",
+        "tv",
+        "mall",
+        "seoul",
+        "spark",
+        "vatan bilgisayar topkap",
+        "dell",
+        "cpu",
+        "saturn",
+        "muse garden",
+        "read",
+        "rtx",
+        "san francisco",
+        "tower",
+        "jensen huang",
+        "spark launch celebrations light up berlin\nthe",
+        "fans",
+        "east lobby",
+        "grace",
+        "hp",
+        "german",
+        "lights",
+        "best buy",
+        "gpu",
+        "tech",
+        "windows",
+        "berlin",
+        "cs has arrived",
+        "msi",
+        "ceo",
+        "from san francisco",
+        "alexanderplatz",
+        "taipei",
+        "nvidia"
+      ],
+      "numbers": [
+        "$2,399"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 53
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_dd42003afed4fce651402e4b",
+      "title": "Zelensky speaks to US envoys amid Trump spat after warning US not to side with Russia",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3371329/zelensky-speaks-us-envoys-amid-trump-spat-after-warning-us-not-side-russia?utm_source=rss_feed",
+      "publisher": "SCMP",
+      "summary": "Ukraine’s Volodymyr Zelensky spoke to US envoys Steve Witkoff and Jared Kushner in the midst of his spat with US President Donald Trump on Sunday, saying “a lot depends on America” as he earlier warned Washington not to side with Moscow in Europe’s worst conflict since World War II.\nThe wartime leader spoke to the US officials as both Russia and Ukraine hit each other’s energy sites, with Moscow leaving thousands without power and Kyiv carrying out the largest drone attack on St Petersburg since",
+      "category": "国际",
+      "published_at": "2026-10-18T19:31:04+00:00",
+      "why_relevant": "美乌俄三角市场关注",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Zelensky speaks to US envoys amid Trump spat after warning US not to side with Russia The Ukrainian president said ‘a lot depends on America’ and Ukraine was ready to work ‘constructively’ and ‘honestly’ with the US Ukraine’s Volodymyr Zelensky spoke to US envoys Steve Witkoff an",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.922867+08:00",
+          "content_sha256": "87c5283a1d15f46e2a2f8a03a01ad36a88a80eb016713d2c343d66ea0d770126",
+          "excerpt": "Zelensky speaks to US envoys amid Trump spat after warning US not to side with Russia The Ukrainian president said ‘a lot depends on America’ and Ukraine was ready to work ‘constructively’ and ‘honestly’ with the US Ukraine’s Volodymyr Zelensky spoke to US envoys Steve Witkoff an",
+          "sentence_hash": "2a961910ca48ba14f0369062186e2035be86117b49d9228efbd0698684e88ba8",
+          "anchors": [
+            "us",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The wartime leader spoke to the US officials as both Russia and Ukraine hit each other’s energy sites, with Moscow leaving thousands without power and Kyiv carrying out the largest drone attack on St Petersburg since the start of the 2022 war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.922910+08:00",
+          "content_sha256": "87c5283a1d15f46e2a2f8a03a01ad36a88a80eb016713d2c343d66ea0d770126",
+          "excerpt": "The wartime leader spoke to the US officials as both Russia and Ukraine hit each other’s energy sites, with Moscow leaving thousands without power and Kyiv carrying out the largest drone attack on St Petersburg since the start of the 2022 war.",
+          "sentence_hash": "4dd07149b55778f44e14bfe3693cf24f95eb40ac892e8060f9a602c702610277",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Trump and Zelensky have clashed as the US leader blocked new sanctions on Russia and struck a diesel deal with Moscow, fuelling fears in Kyiv and Europe that the White House was steering towards Moscow.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.922943+08:00",
+          "content_sha256": "87c5283a1d15f46e2a2f8a03a01ad36a88a80eb016713d2c343d66ea0d770126",
+          "excerpt": "Trump and Zelensky have clashed as the US leader blocked new sanctions on Russia and struck a diesel deal with Moscow, fuelling fears in Kyiv and Europe that the White House was steering towards Moscow.",
+          "sentence_hash": "4354a85548e14475080ada099adbffd966267cf9623200decb7860c7e8a3e630",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "After speaking to Trump’s business partner Witkoff and son-in-law Kushner, Zelensky said “a lot depends” on the US position in the war but that “it is clear that there are many things that matter to all of us and that this war must be brought to an end”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.922984+08:00",
+          "content_sha256": "87c5283a1d15f46e2a2f8a03a01ad36a88a80eb016713d2c343d66ea0d770126",
+          "excerpt": "After speaking to Trump’s business partner Witkoff and son-in-law Kushner, Zelensky said “a lot depends” on the US position in the war but that “it is clear that there are many things that matter to all of us and that this war must be brought to an end”.",
+          "sentence_hash": "06ed457026433a6c2aa8da0eb19abc44bff6d952166f4d42ea64c9e13a3ce291",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "america",
+        "russia",
+        "volodymyr zelensky",
+        "kushner",
+        "world war",
+        "ukraine",
+        "us",
+        "witkoff",
+        "st petersburg",
+        "kyiv",
+        "jared kushner",
+        "russia\nthe ukrainian",
+        "steve witkoff",
+        "white house",
+        "washington",
+        "ii",
+        "president donald trump",
+        "zelensky",
+        "after",
+        "sunday",
+        "moscow",
+        "europe",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 23
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c768b8b9e74edb19fcbfc8a9",
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+      "category": "国际",
+      "published_at": "2026-10-18T15:46:10+00:00",
+      "why_relevant": "能源地缘冲突升级",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Oil facilities hit in deadly overnight attack on St Petersburg - Published At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.924174+08:00",
+          "content_sha256": "9584a7d8e7ce7530ba77d5c4b17ac91142b8821d3c9fd936221b7c8d359ef7f0",
+          "excerpt": "Oil facilities hit in deadly overnight attack on St Petersburg - Published At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities.",
+          "sentence_hash": "fd79a15b4e7f3930cf9cbfd57aad80f871230e2ebb05e3786dc90dde5557159a",
+          "anchors": [
+            "oil"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.924208+08:00",
+          "content_sha256": "9584a7d8e7ce7530ba77d5c4b17ac91142b8821d3c9fd936221b7c8d359ef7f0",
+          "excerpt": "The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five.",
+          "sentence_hash": "e8452f16d4fbba555794882050d83b6d2d809abff8de58fea640b20a9bec1dba",
+          "anchors": [
+            "oil"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.924237+08:00",
+          "content_sha256": "9584a7d8e7ce7530ba77d5c4b17ac91142b8821d3c9fd936221b7c8d359ef7f0",
+          "excerpt": "A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit.",
+          "sentence_hash": "c10830e6310ad37b881708fb984e1301ab44b5ab385e2c8e7659b5d85eaad500",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.924269+08:00",
+          "content_sha256": "9584a7d8e7ce7530ba77d5c4b17ac91142b8821d3c9fd936221b7c8d359ef7f0",
+          "excerpt": "Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week.",
+          "sentence_hash": "55ba9e3d927270acef0402346cc6a3647656cbcedb25776e9e0061ebbf37751d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.924302+08:00",
+          "content_sha256": "9584a7d8e7ce7530ba77d5c4b17ac91142b8821d3c9fd936221b7c8d359ef7f0",
+          "excerpt": "Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing.",
+          "sentence_hash": "81122c818932454b099e7f546574e0db7b0c6dfe84fd59d174347dbd9f2af406",
+          "anchors": [
+            "us",
+            "oil"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.924352+08:00",
+          "content_sha256": "9584a7d8e7ce7530ba77d5c4b17ac91142b8821d3c9fd936221b7c8d359ef7f0",
+          "excerpt": "It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
+          "sentence_hash": "2da63e77c292b8ba26b329892fb11c343beb1b988789aefcc0307fddfe3bab28",
+          "anchors": [
+            "earlier",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "donald trump",
+        "russia",
+        "saturday",
+        "vk",
+        "published\nat",
+        "ukraine",
+        "us",
+        "vladimir putin",
+        "st petersburg",
+        "st petersburg oil terminal",
+        "oil",
+        "washington",
+        "ozon",
+        "july",
+        "social",
+        "zelensky",
+        "moscow",
+        "sunday",
+        "pulkovo airport",
+        "amazon",
+        "trump",
+        "yandex",
+        "ukrainian president volodymyr zelensky",
+        "ukrainian",
+        "earlier",
+        "kyiv",
+        "iran",
+        "ruchyi",
+        "relations",
+        "facebook",
+        "kontakte",
+        "russian",
+        "governor alexander beglov"
       ],
       "numbers": [],
       "dates": [],
@@ -1388,145 +670,416 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 38
+        "anchor_count": 33
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_63d38ad7fa12f484eb1ba0ce",
-      "title": "Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary",
-      "url": "https://www.coindesk.com/markets/2026/10/16/live-updates-bitcoin-back-above-usd82-000-zec-jumps-11-as-etf-outflows-continue",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-16T09:48:14+00:00",
-      "why_relevant": "比特币行情，市场信号",
-      "relevance_score": 7.0,
+      "article_id": "a1_f30e2c5541d2b694bf3107c3",
+      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
+      "category": "国际",
+      "published_at": "2026-10-18T23:20:15+00:00",
+      "why_relevant": "美暂停对俄制裁重要",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.",
+          "text": "Trump says suspension of Russia sanctions is to keep peace negotiations going - Published US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377777+08:00",
-          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
-          "excerpt": "VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.",
-          "sentence_hash": "e8ba7d5b9eb20ea4dd98ba1383cc3ea516315998a458442ab79092d6691e395c",
+          "captured_at": "2026-10-19T08:03:11.925541+08:00",
+          "content_sha256": "1762e83072ac340635da4df12f8c1746743c4f3f8e6172c13d17a439df949e43",
+          "excerpt": "Trump says suspension of Russia sanctions is to keep peace negotiations going - Published US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table.",
+          "sentence_hash": "a49439cc5d0a4691c3aa0bdc6d2171f5d8a832520af7b1cdf695d93af9122c1a",
           "anchors": [
-            "20%",
-            "2%"
+            "us",
+            "peace"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "While not nearly as dramatic as the S&P 500’s 5% decline 39 years ago, the Nasdaq fell 2.15% today.",
+          "text": "\"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\".",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377799+08:00",
-          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
-          "excerpt": "While not nearly as dramatic as the S&P 500’s 5% decline 39 years ago, the Nasdaq fell 2.15% today.",
-          "sentence_hash": "1a1ef011c29ea9155d82a992b1606febdbd43589378640dac5e0363da73340c5",
+          "captured_at": "2026-10-19T08:03:11.925588+08:00",
+          "content_sha256": "1762e83072ac340635da4df12f8c1746743c4f3f8e6172c13d17a439df949e43",
+          "excerpt": "\"I am in the process of negotiating Peace in the war between Russia and Ukraine,\" Trump said on his Truth Social messaging platform, adding that he didn't want to \"do anything that will drive, foolishly, Russia away from the bargaining table\".",
+          "sentence_hash": "47156de7b4ac49372db0709f33b04a1f8ee5b52080de689d397ea092b8e9842d",
           "anchors": [
-            "5%",
-            "2.15%"
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Alongside, the volatility index (VIX) — often referred to as the “fear gauge” — soared 22%.",
+          "text": "Trump blocked numerous sanctions on Russia on Friday night, two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377810+08:00",
-          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
-          "excerpt": "Alongside, the volatility index (VIX) — often referred to as the “fear gauge” — soared 22%.",
-          "sentence_hash": "513df8352a1780f9249c335b87b410ff3559990aee04d14b143784554281a242",
+          "captured_at": "2026-10-19T08:03:11.925619+08:00",
+          "content_sha256": "1762e83072ac340635da4df12f8c1746743c4f3f8e6172c13d17a439df949e43",
+          "excerpt": "Trump blocked numerous sanctions on Russia on Friday night, two days before they were due to take effect, as a row with Ukrainian President Volodymyr Zelensky deepened.",
+          "sentence_hash": "fd7e0fcaa799d93ca4501ecf466967f3b2564d531b1ae35c13d907a91d8c1422",
           "anchors": [
-            "22%",
-            "2%"
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Bitcoin is off of its lows, but still down 1% over the past 24 hours at $81,500.",
+          "text": "Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377824+08:00",
-          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
-          "excerpt": "Bitcoin is off of its lows, but still down 1% over the past 24 hours at $81,500.",
-          "sentence_hash": "524c48d95d85a5a2c6d33d932f0273ccaa644e97d768a8e6aebb803d454d267a",
+          "captured_at": "2026-10-19T08:03:11.925645+08:00",
+          "content_sha256": "1762e83072ac340635da4df12f8c1746743c4f3f8e6172c13d17a439df949e43",
+          "excerpt": "Zelensky told NBC News on Sunday that siding with Russian President Vladimir Putin would be a \"historic mistake\".",
+          "sentence_hash": "138486cd7ded8e66e07c96ce3385283a1e20c7fea0ce557400ad84e1cc5d4a23",
           "anchors": [
-            "$81,500",
-            "1%",
-            "down"
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Stocks losses quickly double, with bitcoin attempting to decouple The Nasdaq is at session lows a bit less than 90 minutes before the close of trading for the week, down 2.3%.",
+          "text": "Russian envoy Kirill Dmitriev has responded to Trump's order by calling it \"an important and truly historic moment\".",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377838+08:00",
-          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
-          "excerpt": "Stocks losses quickly double, with bitcoin attempting to decouple The Nasdaq is at session lows a bit less than 90 minutes before the close of trading for the week, down 2.3%.",
-          "sentence_hash": "50128dc978b830a0aed7615df544f0cb3a2629cfbd0031db5a1eee8438c8b136",
+          "captured_at": "2026-10-19T08:03:11.925669+08:00",
+          "content_sha256": "1762e83072ac340635da4df12f8c1746743c4f3f8e6172c13d17a439df949e43",
+          "excerpt": "Russian envoy Kirill Dmitriev has responded to Trump's order by calling it \"an important and truly historic moment\".",
+          "sentence_hash": "913062c1f4ed3d368c12c5578ea218479d4268946acae32fb3fb1678df5067d6",
           "anchors": [
-            "bitcoin",
-            "2.3%",
-            "down"
+            "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The S&P 500 is down 1.25%.",
+          "text": "He said the sanctions, which were passed by the US Congress and signed into law by the US president in September, would have inflicted \"serious damage\" on the US and global market.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-17T08:03:45.377844+08:00",
-          "content_sha256": "b294d9c4cae6c7d8e9e4904affb62cbf1cf5c4dc59a07757ac658f04ef0f9eb3",
-          "excerpt": "The S&P 500 is down 1.25%.",
-          "sentence_hash": "688b3ce10a5eb577bbeb57005b83c44133e96d7b79587240894f36fc5d9534e6",
+          "captured_at": "2026-10-19T08:03:11.925701+08:00",
+          "content_sha256": "1762e83072ac340635da4df12f8c1746743c4f3f8e6172c13d17a439df949e43",
+          "excerpt": "He said the sanctions, which were passed by the US Congress and signed into law by the US president in September, would have inflicted \"serious damage\" on the US and global market.",
+          "sentence_hash": "2503a9751e488e09a7fd240a52f4df8dbbf058a670b82c6a635124525279ab04",
           "anchors": [
-            "1.25%",
-            "5%",
-            "down"
+            "us"
           ]
         }
       ],
       "entities": [
-        "bitcoin",
-        "down",
-        "east",
-        "west",
-        "alongside",
-        "stocks",
-        "surely",
-        "black monday",
-        "government",
-        "rumors",
-        "while",
-        "october",
-        "the nasdaq",
-        "crypto",
-        "vix",
-        "nasdaq",
-        "rising",
-        "after",
-        "wti",
-        "monday",
+        "congress",
+        "energy",
+        "peace",
+        "russia",
+        "russian president vladimir putin",
+        "india",
+        "european union",
+        "february",
+        "ukraine",
+        "according",
+        "clean air",
+        "putin",
+        "us",
+        "washington",
+        "president donald trump",
+        "published",
+        "european",
+        "zelensky",
+        "truth social",
+        "centre",
+        "concerns",
+        "moscow",
+        "sunday",
+        "trump",
+        "ukrainian president volodymyr zelensky",
+        "despite",
+        "secretary",
+        "research",
+        "kyiv",
+        "nbc",
+        "iran",
+        "september",
+        "state marco rubio",
         "friday",
-        "there",
-        "saudi arabia",
-        "treasury"
+        "kirill dmitriev",
+        "relations",
+        "china",
+        "after",
+        "russian",
+        "crea"
       ],
       "numbers": [
-        "5%",
-        "1%",
-        "$101.70",
-        "2.15%",
-        "20%",
-        "1.25%",
-        "2%",
-        "$101 ",
-        "22%",
-        "2.3%",
-        "$99.40 ",
-        "$81,500",
-        "$81,300",
-        "$81,350",
-        "$3 "
+        "37%"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7485b091485cd38160e9fbbb",
+      "title": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "publisher": "GitHub Trending",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.https://code.claude.com/docs/en/pluginsClaude Code Plugins Directory \nA curated directory of high-quality plugins for Claude Code. \n \n ⚠️ Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "官方插件目录实用",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A curated directory of high-quality plugins for Claude Code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.926859+08:00",
+          "content_sha256": "86b58dd72f32fa082296c247dd77b410df80b870677fcbccc3af97437d26daf7",
+          "excerpt": "A curated directory of high-quality plugins for Claude Code.",
+          "sentence_hash": "4166168633b5ce542bc637e884f881584916c266d2dfe8e7740fad6918e3d475",
+          "anchors": [
+            "plugins",
+            "plugin"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "⚠️ Important: Make sure you trust a plugin before installing, updating, or using it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.926889+08:00",
+          "content_sha256": "86b58dd72f32fa082296c247dd77b410df80b870677fcbccc3af97437d26daf7",
+          "excerpt": "⚠️ Important: Make sure you trust a plugin before installing, updating, or using it.",
+          "sentence_hash": "46394c7ebf934e488f24551e408001f9100db7d83e3e6d659be64221c40de35e",
+          "anchors": [
+            "plugin"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.926918+08:00",
+          "content_sha256": "86b58dd72f32fa082296c247dd77b410df80b870677fcbccc3af97437d26daf7",
+          "excerpt": "Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change.",
+          "sentence_hash": "06683c618e01722a9f16b3c1d54fdfdc620211a8685c2a753b533c40e0fbeea8",
+          "anchors": [
+            "plugins",
+            "plugin"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "See each plugin's homepage for more information.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.926935+08:00",
+          "content_sha256": "86b58dd72f32fa082296c247dd77b410df80b870677fcbccc3af97437d26daf7",
+          "excerpt": "See each plugin's homepage for more information.",
+          "sentence_hash": "d5440505d0cc49eaf94c4a848ec9f1612aabe25a6f74ea6d0c7d90fad51b5d27",
+          "anchors": [
+            "plugin",
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- /plugins - Internal plugins developed and maintained by Anthropic - /external_plugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.926965+08:00",
+          "content_sha256": "86b58dd72f32fa082296c247dd77b410df80b870677fcbccc3af97437d26daf7",
+          "excerpt": "- /plugins - Internal plugins developed and maintained by Anthropic - /external_plugins - Third-party plugins from partners and the community Plugins can be installed directly from this marketplace via Claude Code's plugin system.",
+          "sentence_hash": "3aa8e2a24a1db9b727c13b48b35c241965beafedb6e84d6b007d6cd0942aa06f",
+          "anchors": [
+            "plugins",
+            "external",
+            "plugin"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "To install, run /plugin install {plugin-name}@claude-plugins-official or browse for the plugin in /plugin > Discover Internal plugins are developed by Anthropic team members.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.926993+08:00",
+          "content_sha256": "86b58dd72f32fa082296c247dd77b410df80b870677fcbccc3af97437d26daf7",
+          "excerpt": "To install, run /plugin install {plugin-name}@claude-plugins-official or browse for the plugin in /plugin > Discover Internal plugins are developed by Anthropic team members.",
+          "sentence_hash": "4896e515a1d5238417206bf94d3fb628d71ba31ff53e80ff91ceaaf543f08973",
+          "anchors": [
+            "plugins",
+            "plugin",
+            "name"
+          ]
+        }
+      ],
+      "entities": [
+        "documentation\nthe",
+        "important",
+        "author name",
+        "internal",
+        "third",
+        "plugins",
+        "name",
+        "readme",
+        "agent",
+        "ui",
+        "mcp",
+        "each",
+        "anthropic",
+        "see",
+        "slash",
+        "skill",
+        "claude code",
+        "the claude code",
+        "make",
+        "external",
+        "brief",
+        "once",
+        "discover\ninternal",
+        "plugin"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 24
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7669f76b6cbeb2c9e8ebd8f8",
+      "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
+      "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-18T13:00:00+00:00",
+      "why_relevant": "BTC年终预期币圈必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928403+08:00",
+          "content_sha256": "b59c5f8d0630e50f206aa042aa4ebff3dfbcc50395200e572d3ada5a3b649612",
+          "excerpt": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.",
+          "sentence_hash": "45a9dd9bdcb323a4dbeaa9cdb273bb7d2d5a6d94ee55a6ec1c4e36f6221c6cfd",
+          "anchors": [
+            "$100,000 ",
+            "inflation",
+            "lo",
+            "coin",
+            "$100,000",
+            "analysts"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- Bitwise sees bitcoin potentially topping $100,000 by year-end, supported by institutional adoption and demand for hard assets.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928436+08:00",
+          "content_sha256": "b59c5f8d0630e50f206aa042aa4ebff3dfbcc50395200e572d3ada5a3b649612",
+          "excerpt": "- Bitwise sees bitcoin potentially topping $100,000 by year-end, supported by institutional adoption and demand for hard assets.",
+          "sentence_hash": "0b818eb8e6c69050f75f934fd8b85982df21cc02632f197a7fbbe2f9a7356850",
+          "anchors": [
+            "$100,000 ",
+            "$100,000",
+            "coin",
+            "bitcoin"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- LO:TECH expects an $85,000–$95,000 year-end range as inflation and rate-hike risks constrain gains.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928462+08:00",
+          "content_sha256": "b59c5f8d0630e50f206aa042aa4ebff3dfbcc50395200e572d3ada5a3b649612",
+          "excerpt": "- LO:TECH expects an $85,000–$95,000 year-end range as inflation and rate-hike risks constrain gains.",
+          "sentence_hash": "7d40aa531cfde1cd78be8dc874c3c8c3ace842c152e4b632a36443d1897ab917",
+          "anchors": [
+            "$85,000",
+            "inflation",
+            "$95,000 "
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Bitcoin could reclaim $100,000 before year-end as institutional adoption and demand for hard assets overcome near-term economic uncertainty, according to crypto asset manager Bitwise, offering a more bullish outlook than traders who expect inflation and elevated interest rates to",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928507+08:00",
+          "content_sha256": "b59c5f8d0630e50f206aa042aa4ebff3dfbcc50395200e572d3ada5a3b649612",
+          "excerpt": "Bitcoin could reclaim $100,000 before year-end as institutional adoption and demand for hard assets overcome near-term economic uncertainty, according to crypto asset manager Bitwise, offering a more bullish outlook than traders who expect inflation and elevated interest rates to",
+          "sentence_hash": "99162315f74e9482dc54cd01bd4188694de1c1d7dac3e3da84337e8d05b29066",
+          "anchors": [
+            "$100,000 ",
+            "inflation",
+            "lo",
+            "coin",
+            "$100,000"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Analysts see longer-term support from institutional investment, regulatory progress and concerns about government debt, but disagree on whether those forces can drive a breakout before the end of 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928541+08:00",
+          "content_sha256": "b59c5f8d0630e50f206aa042aa4ebff3dfbcc50395200e572d3ada5a3b649612",
+          "excerpt": "Analysts see longer-term support from institutional investment, regulatory progress and concerns about government debt, but disagree on whether those forces can drive a breakout before the end of 2026.",
+          "sentence_hash": "5fda841fb047d2a3d237f7ef9f91fa729a4c9e76daae82f14399330d504b53e0",
+          "anchors": [
+            "lo"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Ryan Rasmussen, head of research at Bitwise, expects bitcoin to emerge from the coming weeks’ uncertainty at a higher valuation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928573+08:00",
+          "content_sha256": "b59c5f8d0630e50f206aa042aa4ebff3dfbcc50395200e572d3ada5a3b649612",
+          "excerpt": "Ryan Rasmussen, head of research at Bitwise, expects bitcoin to emerge from the coming weeks’ uncertainty at a higher valuation.",
+          "sentence_hash": "c29f91042c622747d09f03ad9c63194123d33854241a95968f0fb5e65acd2d19",
+          "anchors": [
+            "coin",
+            "bitcoin"
+          ]
+        }
+      ],
+      "entities": [
+        "october federal reserve",
+        "lo",
+        "coin",
+        "laser digital",
+        "desk",
+        "bitwise",
+        "shares",
+        "london",
+        "bitcoin",
+        "macro",
+        "his",
+        "analysts",
+        "september",
+        "inflation",
+        "gasoline",
+        "tech",
+        "oct",
+        "carthy",
+        "december",
+        "the fed",
+        "rasmussen",
+        "ryan rasmussen",
+        "adam morgan mc",
+        "november",
+        "fed"
+      ],
+      "numbers": [
+        "$100,000 ",
+        "75%",
+        "$95,000 ",
+        "0.6%",
+        "0.3%",
+        "$85,000",
+        "$100,000"
       ],
       "dates": [],
       "unknowns": [
@@ -1536,7 +1089,209 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 39
+        "anchor_count": 32
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_4c8ef295b4359b36a4f804a1",
+      "title": "Macron condemns violence after riots lead to looting and mass arrests",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "French President Emmanuel Macron says protesters who attacked government buildings need to pay for their crimes.",
+      "category": "国际",
+      "published_at": "2026-10-18T21:10:47+00:00",
+      "why_relevant": "法国动荡影响欧元",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Published On 18 Oct 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.928898+08:00",
+          "content_sha256": "b378da47a9127913b8ba2aff859fd425658c60087a463b3d78fa87832837ab00",
+          "excerpt": "Published On 18 Oct 2026",
+          "sentence_hash": "dfe6ecb2b9c65a1c667eb9f283153d584993ce705e25aaec42f87d9b0652b4f4",
+          "anchors": [
+            "Oct 20"
+          ]
+        }
+      ],
+      "entities": [
+        "feed\nmacron",
+        "french president emmanuel macron",
+        "france",
+        "macron",
+        "his",
+        "published on",
+        "oct"
+      ],
+      "numbers": [],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 8
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_512c1a41edc7080497c9287e",
+      "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+      "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-18T14:00:00+00:00",
+      "why_relevant": "稳定币支付激增关键信号",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.930223+08:00",
+          "content_sha256": "c5c373bb97b54d457a097aa1c58d83c28dd7d4fd1a058bd989f5e5ad5e781594",
+          "excerpt": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.",
+          "sentence_hash": "fe103f07280bb95b9d47da19076294b949604be5eec0ad95e6e33f8a446efa3b",
+          "anchors": [
+            "45%",
+            "payments",
+            "stablecoin",
+            "spending",
+            "$482 billion",
+            "482 billion"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- Stablecoin payments grew 45% to $482 billion this year through September, despite circulating supply stalling in 2026, according to a fresh report by blockchain analytics firm Allium.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.930261+08:00",
+          "content_sha256": "c5c373bb97b54d457a097aa1c58d83c28dd7d4fd1a058bd989f5e5ad5e781594",
+          "excerpt": "- Stablecoin payments grew 45% to $482 billion this year through September, despite circulating supply stalling in 2026, according to a fresh report by blockchain analytics firm Allium.",
+          "sentence_hash": "dafaa0482b8a6dcb1bf73bd07456249f4d1558bf69306b63d1daad9c4f0906af",
+          "anchors": [
+            "45%",
+            "payments",
+            "analytics",
+            "$482 billion",
+            "482 billion"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- Mastercard, Stripe and Visa all announced services this week that combine stablecoins with familiar payment systems as digital dollars become increasingly part of global money movement.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.930294+08:00",
+          "content_sha256": "c5c373bb97b54d457a097aa1c58d83c28dd7d4fd1a058bd989f5e5ad5e781594",
+          "excerpt": "- Mastercard, Stripe and Visa all announced services this week that combine stablecoins with familiar payment systems as digital dollars become increasingly part of global money movement.",
+          "sentence_hash": "9a4e138ba312e3f1fd4ed3ec75ed43590087d24bc657f4e482d88f43ce4e9bb0",
+          "anchors": [
+            "stablecoins",
+            "stablecoin"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Businesses want stablecoins being integrated into their existing financial operations, instead of running separate systems for digital assets, said CEO of Paris-based enterprise payments firm Fipto.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.930347+08:00",
+          "content_sha256": "c5c373bb97b54d457a097aa1c58d83c28dd7d4fd1a058bd989f5e5ad5e781594",
+          "excerpt": "- Businesses want stablecoins being integrated into their existing financial operations, instead of running separate systems for digital assets, said CEO of Paris-based enterprise payments firm Fipto.",
+          "sentence_hash": "51dc0971b4c48607e93b26f697b7b2b522678c0f881f7720ab3e4ee5d51b43fc",
+          "anchors": [
+            "stablecoins",
+            "payments",
+            "stablecoin"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Stablecoin supply has barely budged this year, but the digital dollars already in circulation are doing more work in payments, according to a fresh report from blockchain analytics firm Allium.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.930383+08:00",
+          "content_sha256": "c5c373bb97b54d457a097aa1c58d83c28dd7d4fd1a058bd989f5e5ad5e781594",
+          "excerpt": "Stablecoin supply has barely budged this year, but the digital dollars already in circulation are doing more work in payments, according to a fresh report from blockchain analytics firm Allium.",
+          "sentence_hash": "b02a98f90619c4b48e48eb9662c2ce32204d54e2d85c084f4155cc334ac538a9",
+          "anchors": [
+            "payments",
+            "analytics"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Stablecoin payments are growing at a rapid pace, reaching $482 billion in the first nine months of 2026, up 45% from a year earlier, the report found.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-19T08:03:11.930411+08:00",
+          "content_sha256": "c5c373bb97b54d457a097aa1c58d83c28dd7d4fd1a058bd989f5e5ad5e781594",
+          "excerpt": "Stablecoin payments are growing at a rapid pace, reaching $482 billion in the first nine months of 2026, up 45% from a year earlier, the report found.",
+          "sentence_hash": "182f0470fc65175a077549e4cd10e4cd8bd90f76baa445012702c833f70d8465",
+          "anchors": [
+            "$482 billion",
+            "45%",
+            "payments",
+            "482 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "plasma",
+        "brazilian",
+        "stablecoin",
+        "three",
+        "august",
+        "marqeta",
+        "spending",
+        "ma",
+        "global money platform",
+        "businesses",
+        "small",
+        "visa",
+        "september",
+        "fipto",
+        "payments",
+        "thursday",
+        "banks",
+        "mastercard",
+        "paris",
+        "stablecoins",
+        "analytics",
+        "mexican",
+        "allium",
+        "ceo",
+        "nuvei",
+        "bvnk",
+        "colombian",
+        "stripe"
+      ],
+      "numbers": [
+        "45%",
+        "$305 billion",
+        "0.4%",
+        "71%",
+        "1 billion",
+        "305 billion",
+        "3.9 billion",
+        "84%",
+        "$482 billion",
+        "$50 ",
+        "$3.9 billion",
+        "482 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
       },
       "evidence_complete": true
     }

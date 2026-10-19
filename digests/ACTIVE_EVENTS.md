@@ -1,6 +1,63 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-17 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-19 08:07。
+
+## anthropics/claude-code
+- 状态：更新中；首见 2026-09-19；最近更新 2026-10-19
+- 最新事实：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_4a1060c7ac39`
+
+## Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump
+- 状态：更新中；首见 2026-10-17；最近更新 2026-10-19
+- 最新事实：Zelensky speaks to US envoys amid Trump spat after warning US not to side with Russia The Ukrainian president said ‘a lot depends on America’ and Ukraine was ready to work ‘constructively’ and ‘honestly’ with the US Ukraine’s Volodymyr Zelensky spoke to US envoys Steve Witkoff an
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261017_53267b6317e9`
+
+## Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs — plans to match native Nvidia GPU performance Radeon users finally get to enjoy more DLSS features.
+- 事件 ID：`evt_20261019_d617d8f99cf9`
+
+## RTX Spark Ignites Global Celebration as New Windows PCs Arrive
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261019_6b876c6bcea4`
+
+## Oil facilities hit in deadly overnight attack on St Petersburg
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：Oil facilities hit in deadly overnight attack on St Petersburg - Published At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261019_02624e7bfb32`
+
+## Trump says suspension of Russia sanctions is to keep peace negotiations going
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：Trump says suspension of Russia sanctions is to keep peace negotiations going - Published US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table.
+- 事件 ID：`evt_20261019_b8502025bcdf`
+
+## anthropics/claude-plugins-official
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：A curated directory of high-quality plugins for Claude Code.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261019_f4c63011ebdb`
+
+## Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261019_0fa06e68c5ba`
+
+## Macron condemns violence after riots lead to looting and mass arrests
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：Published On 18 Oct 2026
+- 事件 ID：`evt_20261019_930d4d87baff`
+
+## Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash
+- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
+- 最新事实：Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261019_4af6502804a0`
 
 ## affaan-m/ECC
 - 状态：更新中；首见 2026-09-20；最近更新 2026-10-17
@@ -45,11 +102,6 @@
 - 最新事实：Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a "complete mistake, a major mistake" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261017_503aa93bef47`
-
-## Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：Ukraine's Zelenskyy speaks at EU summit amid spat with Trump October 16, 2026 Ukrainian President Volodymyr Zelenskyy was applauded by EU leaders when he appeared at this week's summit in Brussels.
-- 事件 ID：`evt_20261017_53267b6317e9`
 
 ## Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process
 - 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
@@ -971,12 +1023,6 @@
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260919_6564f3dd5bf0`
 
-## anthropics/claude-code
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_4a1060c7ac39`
-
 ## Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit
 - 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
 - 最新事实：Advertisement Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit US president gives backing to ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Washingto
@@ -1026,148 +1072,4 @@
 - 最新事实：Seoul’s roll-out of free, unlimited AI is set to shake up classrooms, careers and crime – for better or worse 9-MIN READ9-MIN In Silicon Valley and beyond, the architects of artificial intelligence are increasingly warning about the risks it poses to humanity.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260919_7411c0de6b90`
-
-## EU chief backs plan for Canada to become 'associate member'
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-18
-- 最新事实：His comments came a day after European Commission President Ursula von der Leyen proposed "opening the door" to Canada's associate membership, a status that does not currently exist.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_b7d64fb3382d`
-
-## OpenAI caught its models leaving notes to successors to hide bad behavior
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：OpenAI caught something unusual while training its latest model, GPT-5.6 Sol: It began leaving instructions for future versions of itself, telling them to conceal mistakes and misaligned behavior from the user.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_233ec3eead21`
-
-## The AI Slowdown Debate Crashed Salesforce’s Party
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：Decked out in purple and plaid, Gwen Stefani belted her 2002 single “Underneath It All” to a packed conference center in San Francisco on Tuesday morning—but she was just the warm-up.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_7ce496d363fb`
-
-## Microsoft AI CEO says AI threats are real, and Anthropic is making it worse
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_81841be719a2`
-
-## Real stocks are finally coming on blockchain. Here’s how the SEC wants it to work
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：Here’s how the SEC wants it to work The SEC is giving tokenized stocks a regulated U.S.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_9f6d9f8a4333`
-
-## US regulator opens markets to tokenised stock trading
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：US regulator opens markets to tokenised stock trading Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_b44c39e988b6`
-
-## Trump administration approves sale of F-35 jets to Saudi Arabia
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：United States President Donald Trump’s administration has asked lawmakers to clear the sale of 48 F-35 fighter jets to Saudi Arabia for an estimated $24.3bn.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_717c7b63406d`
-
-## UN experts say grounds to believe US committed war crimes in Iran strikes
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：UN experts say grounds to believe US committed war crimes in Iran strikes - Published UN human rights experts say there are reasonable grounds to believe the US committed war crimes in two strikes in Iran that killed at least 177 civilians.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_38e907948b85`
-
-## EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：EU to disburse €3.3 billion to Ukraine to procure missiles and drones, von der Leyen says&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260918_b8a49dc7f009`
-
-## jamiepine/voicebox
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：The open-source AI voice studio.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_de338a258f08`
-
-## JP Morgan says it has no clear oil market endgame as Iran conflict drags on
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：JPMorgan has thrown in the towel after attempting for months to forecast how and when the Iran war would end.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260918_f832344703f6`
-
-## A war-fatigued and anxious Russia picks a new parliament
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 最新事实：A war-fatigued and anxious Russia picks a new parliament September 17, 2026 Russians are increasingly anxious.
-- 事件 ID：`evt_20260918_9dcd0cd8f943`
-
-## World stocks rebound, Treasury yields retreat after Fed, BoE decisions
-- 状态：更新中；首见 2026-09-18；最近更新 2026-09-18
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260918_c1a996ad842e`
-
-## Fed defies Trump with first rate rise since 2023
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Federal Reserve defies Donald Trump with first rate rise since 2023 Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_4864e06a3ffa`
-
-## danny-avila/LibreChat
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：English · 中文 - Agent Management API (beta): Create, discover, update, and delete Agents; manage Agent files and Skills; and authenticate machine clients through deployment-bound OIDC identities while preserving existing role and Agent access controls.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_c65139c27a4e`
-
-## pacifio/atlas
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Atlas is source control for coding agents.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_604e6d5152c6`
-
-## Claude Cowork and chat are now one Claude
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：16th September 2026 - Link Blog Claude Cowork and chat are now one Claude (via) In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s.
-- 事件 ID：`evt_20260917_df00699344c5`
-
-## NVIDIA’s B200 GPUs Currently Command A Residual Value That Exceeds Their Original Launch Price By 58 Percent!
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Since the advent of the age of LLMs, the residual prices of NVIDIA's GPUs have become a barometer of sorts for gauging the health of the ongoing AI super cycle.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_9bfcfada2632`
-
-## Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：September 16, 2026 Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting For release at 2:00 p.m.
-- 事件 ID：`evt_20260917_f15d2db357a6`
-
-## Robust US retail sales underscore economy's resilience, inflation pressures building
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Robust US retail sales underscore economy's resilience, inflation pressures building&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260917_10dc559812ad`
-
-## US Congress passes bill targeting Russia’s leading energy buyers – China and India
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Advertisement US Congress passes bill targeting Russia’s leading energy buyers – China and India US House of Representatives clears ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Wash
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_368b07f8a347`
-
-## Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say - Published At least 21 people have been killed, including eight children, after a war-damaged building collapsed in the Gaza Strip overnight, rescuers and medics say.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_84aa823f5404`
-
-## Shock in Kosovo as Hague convicts former President Thaci
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Shock in Kosovo as Hague convicts former President Thaci September 16, 2026 The announcement of the verdict was greeted with shock and profound disappointment in Pristina.
-- 事件 ID：`evt_20260917_a57e31dfd90b`
-
-## Israel and Morocco agree to open embassies, upgrading diplomatic ties
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 最新事实：Israel and Morocco agree to open embassies, upgrading diplomatic ties They also agreed to expand air travel and reinstate direct flights between both countries.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260917_7463d4bdc378`
-
-## Netanyahu steps up threats against directors of Gaza documentary 'NAZA'
-- 状态：更新中；首见 2026-09-17；最近更新 2026-09-17
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260917_15fae2213939`
 
