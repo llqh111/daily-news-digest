@@ -1,6 +1,81 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-19 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-21 08:07。
+
+## akitaonrails/ai-memory
+- 状态：更新中；首见 2026-09-23；最近更新 2026-10-21
+- 最新事实：Long-term memory for AI coding agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260923_f7e739cf661f`
+
+## China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports — ByteDance, Alibaba and Tencent order 3 million cards despite warnings that only 10% of orders are fulfillable Surging demand for Nvidi
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_f50e7d4dc6b7`
+
+## Why Anthropic has a major China problem ahead of its blockbuster IPO
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Advertisement Why Anthropic has a major China problem ahead of its blockbuster IPO Surging demand for low-cost Chinese AI models is sparking investor jitters, with some fearing ‘massive capital destruction’ in Silicon Valley 3-MIN READ3-MIN The growing popularity of Chinese artif
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_d5677eac0fed`
+
+## Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261021_128803330332`
+
+## headroomlabs-ai/headroom
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Quickstart · Headroom for Teams · Install · Proof · Agents · Docs · Discord · llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index · full docs blob.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_e79f13d3bcf0`
+
+## Universal MFG Unlocker 1.6.1 Brings Real-Time DLSS Preset Switching To All RTX GPUs
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Universal MFG Unlocker, the increasingly popular community-developed utility from modder dashdogy, has received another substantial update.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_c3e650231c15`
+
+## Anthropic May Spend $750 Billion on Computing Costs, Report Says
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Anthropic May Spend $750 Billion on Computing Costs, Report Says&nbsp;&nbsp;Bloomberg.com
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261021_24fcc088dcd7`
+
+## Odds of fifth interest rate hike this year likely to shorten as RBA deputy warns inflation outlook ‘worsening’
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Hauser, speaking at an investment bank conference in Sydney on Wednesday morning, said the RBA monetary policy board members were juggling a slowing economy with fears that Australians were starting to lose faith in the central bank’s ability to bring inflation back to the 2.5% t
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_8283ba002449`
+
+## Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote October 20, 2026 There are only a few days left until Brazil's runoff election on October 25, with neither left-wing incumbent Luiz Inacio Lula da Silva nor right-wing populist Flavio Bolsonaro a clear favorite.
+- 事件 ID：`evt_20261021_4c20414a2501`
+
+## Zelenskyy says early warning system for Russian missile attacks resumes following call with Rubio
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_f9b142fbe901`
+
+## Trump commits more than $400m ahead of high-stakes midterm elections
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：Trump commits more than $400m ahead of high-stakes midterm elections The president’s Republican Party seeks to maintain its hold over both chambers of Congress, despite declining poll numbers.
+- 事件 ID：`evt_20261021_0ee612b03a13`
+
+## Musk says Tesla and SpaceX formed special committees to discuss merger: Live updates
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：SpaceX shares climbed about 5% in extended trading on Tuesday after the company reported 161% revenue growth for the third quarter, beating Wall Street estimates, with its artificial intelligence business growing ninefold.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261021_81b6be640eba`
+
+## U.S. CFTC sets agenda for AI forum, exploring trading and agentic finance
+- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
+- 最新事实：CFTC sets agenda for AI forum, exploring trading and agentic finance A Commodity Futures Trading Commission task force is scheduled for October 28 to talk about how the latest "super intelligence" technology may impact markets.
+- 事件 ID：`evt_20261021_c279f8b08e5c`
 
 ## anthropics/claude-code
 - 状态：更新中；首见 2026-09-19；最近更新 2026-10-19
@@ -779,12 +854,6 @@
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20260923_71db57dcb1c0`
 
-## akitaonrails/ai-memory
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：Long-term memory for AI coding agents.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_f7e739cf661f`
-
 ## Nasdaq rises to new record; S&P 500 closes flat as oil slides for a fifth day
 - 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
 - 最新事实：The Nasdaq Composite rose to a fresh all-time intraday high on Tuesday, while the S&P 500 was relatively unchanged as traders continued to keep an eye on developments between the U.S.
@@ -948,128 +1017,4 @@
 - 最新事实：The PC gaming ray tracing obsession began with the first RTX 20 graphics cards released on this day in 2018 — the GeForce RTX 2080 and 2080 Ti led the charge, but games were thin on the ground Nvidia said the video game hardware and software-disrupting Turing architecture was '20
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260921_203f480f89d0`
-
-## Gemini Hacked Three Companies in First Known Breakout by Google’s AI
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：18th September 2026 - Link Blog Gemini Hacked Three Companies in First Known Breakout by Google’s AI.
-- 事件 ID：`evt_20260920_603ed3b7df3b`
-
-## SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：17, 2026 — The Securities and Exchange Commission today issued an order granting temporary, conditional exemptive relief to Tokenized Securities Venues each a “TSV” from the definition of “exchange” in the Securities Exchange Act of 1934 (Exchange Act) to trade tokenized National
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_c1f72b29958e`
-
-## Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260920_916d78680ca5`
-
-## Houthis say they targeted Saudi capital with ballistic missiles
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：Houthis say they targeted Saudi capital with ballistic missiles - Published Iran-backed Houthi militants in Yemen say they carried out drone and ballistic missile attacks on the Saudi capital Riyadh, as well as energy sites on the country's Red Sea coast.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_7d370138e9df`
-
-## Trump says he will create ‘AI Force’, name AI tsar
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：Trump says he will create ‘AI Force’, name AI tsar ‘We will not in any way hinder or stifle’ the growth of the industry, the US president insisted US President Donald Trump said in a social media post on Saturday that he plans to appoint a new artificial intelligence adviser, kno
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_2e6a63ccdc07`
-
-## Denmark says ‘binding’ US deal on Greenland won’t compromise sovereignty
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：Denmark has hailed a “binding” deal by United States President Donald Trump to give Washington “permanent control” over Greenland’s security and bar Russian and Chinese military bases from the Arctic territory.
-- 事件 ID：`evt_20260920_37557a2cb8a6`
-
-## Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：Advertisement Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington Chinese confidence could be boosted by US push to make progress on its war on Iran and the Russia-Ukraine conflict, experts say 5-MIN READ5-MIN 5 Listen When the presidents of the United S
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_e90888c3e396`
-
-## ‘My fear was too great’: the Pussy Riot member recruited by Russian spies to inform on fellow activists
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：First came the blackmail and death threats to secure cooperation, then came a series of tasks, each more sinister than the last: to inform on fellow activists, to elicit personal information from protest-minded artists and – eventually – to help with a plot to kidnap and murder a
-- 事件 ID：`evt_20260920_edfe28c8fc6d`
-
-## Tencent/BrowserSkill
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：Let AI agents use your browser without interrupting your work.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_fedae1515c4f`
-
-## Intel Arc 140V Runs DLSS 5 Neural Rendering Without CUDA, But Frame Rates Collapse To Just 3-5 FPS
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：The Reddit user u/UzbekUnknown just got the DLSS 5 NR running on his Intel Core Ultra 7 256V processor, which hosts the Intel Arc 140V iGPU based on Intel Xe2 architecture.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_a6b1bb2c0417`
-
-## MS NOW, CNN and Politico journalists blocked from White House after Trump ban
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：White House reporter Akayla Gardner said MS NOW journalists were blocked from the grounds for the first time Saturday morning.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_c8e7aac87789`
-
-## 'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks
-- 状态：更新中；首见 2026-09-20；最近更新 2026-09-20
-- 最新事实：'We have lost control': Crypto pioneer warns AI could trigger systemic banking and infrastructure shocks Marc van der Chijs sold much of his bitcoin to invest in AI.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_5bd964583fdb`
-
-## China makes progress in 3-nm chips without advanced lithography tools
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：China makes progress in 3-nm chips without advanced lithography tools The breakthrough by the Chinese Academy of Sciences is far from mass production but shows China is tracking the road map of global leaders Chinese researchers have made early strides in pushing semiconductor pr
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_6564f3dd5bf0`
-
-## Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：Advertisement Trump signs bill targeting China’s Russia energy imports days before Xi’s US visit US president gives backing to ‘Lindsey Graham Sanctioning Russia and Iran Act of 2026’ before next week’s Xi-Trump summit in Washington 3-MIN READ3-MIN 3 Listen Nayan Sethin Washingto
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_6f25027458ef`
-
-## Quoting Thariq Shihipar
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：18th September 2026 We're adding support for AGENTS.md to Claude Code.
-- 事件 ID：`evt_20260919_bc01688e820d`
-
-## Security researchers used Claude to help them hack into OpenAI
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic’s Claude Opus 4.8 and 5, The Wall Street Journal reports.
-- 事件 ID：`evt_20260919_e585e5b96d96`
-
-## Layer-2 and DeFi tokens lead broad crypto advance as post-Fed hike nerves fade
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：Bitcoin rose above $78,000 during the European morning, adding 2.1% since midnight UTC.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_980c7cab8161`
-
-## Anthropic says its model Claude is helping to build the next version of itself
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260919_cac26ac8a15c`
-
-## US and Denmark reach deal over Greenland after Trump annexation threats
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：US and Denmark reach deal over Greenland after Trump annexation threats - Published The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump's threats to seize the territory by force.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_7851e9fc8bd7`
-
-## Stocks face a key hurdle in next week’s U.S.-China summit. Here’s what’s at stake
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：Investors have gotten past the latest Federal Reserve meeting relatively unscathed, but they are settling in for a higher-for-longer rate environment and anticipating market choppiness in the coming months.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_7a08e4906f2c`
-
-## Google’s Gemini AI System Hacked Three Systems in Safety Tests
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260919_6d12f1965061`
-
-## South Korea wants free ‘AI for All’. Is society ready for it?
-- 状态：更新中；首见 2026-09-19；最近更新 2026-09-19
-- 最新事实：Seoul’s roll-out of free, unlimited AI is set to shake up classrooms, careers and crime – for better or worse 9-MIN READ9-MIN In Silicon Valley and beyond, the architects of artificial intelligence are increasingly warning about the risks it poses to humanity.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_7411c0de6b90`
 
