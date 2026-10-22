@@ -1,0 +1,747 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T00:07:45.998984+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-22-AM.json",
+      "count": "12"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-22.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-21.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_b5c1a8bc923a4108efb22578",
+      "title": "Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.",
+      "url": "https://www.dw.com/en/trump-putin-and-xi-at-one-table-without-ukraine-what-moscow-wants-from-the-proposal-and-why-beijing-might-agree/a-79726190?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Moscow is pushing for a summit with Donald Trump and Xi Jinping to discuss ending the war in Ukraine, without Kyiv or the EU. What does Russia hope to gain, and why might China be willing to take part?",
+      "category": "国际",
+      "published_at": "2026-10-21T19:32:00+00:00",
+      "why_relevant": "美俄中三方峰会动向影响全球格局",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "What China wants from a Trump-Putin summit on Ukraine October 21, 2026 The administration of US President Donald Trump has stepped up diplomatic efforts this autumn to revive stalled negotiations aimed at ending Russia's war in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.081525+08:00",
+          "content_sha256": "8bc68f37c71f765b22bf47b5e57fba5ca52bff51c42dd8d014edce5c529f6ed6",
+          "excerpt": "What China wants from a Trump-Putin summit on Ukraine October 21, 2026 The administration of US President Donald Trump has stepped up diplomatic efforts this autumn to revive stalled negotiations aimed at ending Russia's war in Ukraine.",
+          "sentence_hash": "7f41a49b544b99892813d480314b73f2d4ece702df0ec7110e5f89f2edf745f0",
+          "anchors": [
+            "October 21",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Washington has increased pressure on Kyiv and its European partners while seeking to draw Moscow back to the negotiating table through a series of concessions, including a deal involving Russian diesel exports to the US and the temporary easing of some sanctions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.081584+08:00",
+          "content_sha256": "8bc68f37c71f765b22bf47b5e57fba5ca52bff51c42dd8d014edce5c529f6ed6",
+          "excerpt": "Washington has increased pressure on Kyiv and its European partners while seeking to draw Moscow back to the negotiating table through a series of concessions, including a deal involving Russian diesel exports to the US and the temporary easing of some sanctions.",
+          "sentence_hash": "dbec6e84b418f1e2b428bfde9f0806b6a5d9ec2f854c1e32454f195a4423a6c0",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Moscow is ready to hold negotiations with Ukraine at a technical level next month, the Kremlin said after the meeting between US special envoy Steve Witkoff and Russian President Vladimir Putin in St.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.081631+08:00",
+          "content_sha256": "8bc68f37c71f765b22bf47b5e57fba5ca52bff51c42dd8d014edce5c529f6ed6",
+          "excerpt": "Moscow is ready to hold negotiations with Ukraine at a technical level next month, the Kremlin said after the meeting between US special envoy Steve Witkoff and Russian President Vladimir Putin in St.",
+          "sentence_hash": "4ed5adcf15912c3722fdf512ae8448466d7b39ab084ecad85f5ad0b02d0ed956",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Petersburg on November 21.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.081650+08:00",
+          "content_sha256": "8bc68f37c71f765b22bf47b5e57fba5ca52bff51c42dd8d014edce5c529f6ed6",
+          "excerpt": "Petersburg on November 21.",
+          "sentence_hash": "0d7cac7f8a7f69528bd65a34ce9c27a810a1da92a12e77f9c415d2384e37bc47",
+          "anchors": [
+            "November 21"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Putin agreed to resume the peace talks mediated by Washington after November 10, his aide Yury Ushakov said after the meeting.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.081677+08:00",
+          "content_sha256": "8bc68f37c71f765b22bf47b5e57fba5ca52bff51c42dd8d014edce5c529f6ed6",
+          "excerpt": "Putin agreed to resume the peace talks mediated by Washington after November 10, his aide Yury Ushakov said after the meeting.",
+          "sentence_hash": "cd5592cb7abf611ee604c1db6d0e7df11ffc08493136431e40531f13de150c9b",
+          "anchors": [
+            "November 10"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "He added that the next round of negotiations could take place in Abu Dhabi and would focus on \"building the security system for Russia and Ukraine after the end of the war.\" According to his aide, Putin also shared some thoughts with Witkoff on the possible trilateral summit invo",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.081724+08:00",
+          "content_sha256": "8bc68f37c71f765b22bf47b5e57fba5ca52bff51c42dd8d014edce5c529f6ed6",
+          "excerpt": "He added that the next round of negotiations could take place in Abu Dhabi and would focus on \"building the security system for Russia and Ukraine after the end of the war.\" According to his aide, Putin also shared some thoughts with Witkoff on the possible trilateral summit invo",
+          "sentence_hash": "09d081edb09eff8c0b288cb3e7c0c68eca8a2fd5a78ecf01de69b184f1e50762",
+          "anchors": [
+            "us",
+            "trilateral"
+          ]
+        }
+      ],
+      "entities": [
+        "european",
+        "putin",
+        "washington",
+        "nazi germany",
+        "asia",
+        "great britain",
+        "steve witkoff",
+        "russian president vladimir putin",
+        "china",
+        "pacific economic cooperation",
+        "us",
+        "ukraine\noctober",
+        "ukraine\nmoscow",
+        "yalta conference",
+        "ushakov",
+        "what china",
+        "president donald trump",
+        "yet",
+        "witkoff",
+        "yury ushakov",
+        "russia",
+        "chinese president xi jinping",
+        "petersburg",
+        "trilateral",
+        "chinese",
+        "beijing",
+        "moscow",
+        "president volodymyr zelenskyy",
+        "kremlin",
+        "united states",
+        "kyiv",
+        "ukraine",
+        "soviet union",
+        "europe",
+        "wsj",
+        "november",
+        "trump",
+        "european union",
+        "apec",
+        "russian",
+        "according",
+        "the wall street journal",
+        "abu dhabi",
+        "shenzhen"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 18",
+        "October 21",
+        "November 10",
+        "November 21"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-22-AM.json",
+      "source_artifact_date": "2026-10-22",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_52fe7496d3d48eeae7c9ede6",
+      "title": "Anthropic unveils Claude Duet AI agent app",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRFhacjJyXzZ6ZzNUdkptUDkwRHFyV2pxSXhOc2JucmxQdDJFQ09WZ05DamcxS1NvNUx1b0cyR05DM1U3SzgwdXpvQlhaajl2dHNlVTVlYml2LVhLVENGaWtDbkdMWjFNVkdPMDRTWWFubXJsYkFZQ19peDBLMUI2cXF4cU1hN2lrU2FuZi1wSTRndFU?oc=5",
+      "publisher": "Reuters",
+      "summary": "Anthropic unveils Claude Duet AI agent app&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-21T20:25:35+00:00",
+      "why_relevant": "Anthropic发布Duet直接对标Claude用户",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Claude Duet is designed for small businesses and professionals, Anthropic said.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-22T08:03:26.082980+08:00",
+          "content_sha256": "24ee52b688b88095cee0ad2d2cf4cb53670d2079f3abd26a057bc619a0ccf3f7",
+          "excerpt": "Claude Duet is designed for small businesses and professionals, Anthropic said.",
+          "sentence_hash": "7cacc02007f9a0b468c9c1fd65deb9341ecdc1b6521cd2bc5665edcc851e394d",
+          "anchors": [
+            "ai",
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It can send users daily briefs, keep tabs on connected apps, and carry out a range of tasks like building dashboards, scheduling meetings and creating financial forecasts.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-22T08:03:26.083171+08:00",
+          "content_sha256": "24ee52b688b88095cee0ad2d2cf4cb53670d2079f3abd26a057bc619a0ccf3f7",
+          "excerpt": "It can send users daily briefs, keep tabs on connected apps, and carry out a range of tasks like building dashboards, scheduling meetings and creating financial forecasts.",
+          "sentence_hash": "9b318d91ab3f29f072e64d06a5b8e0b70b76697a269a7410868aa4a5078b1339",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"It comes to you with what needs your attention, completes tasks you ask of it, keeps working even when you step away, and checks with you before it acts on your behalf,\" Anthropic said in a blog post.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-22T08:03:26.083361+08:00",
+          "content_sha256": "24ee52b688b88095cee0ad2d2cf4cb53670d2079f3abd26a057bc619a0ccf3f7",
+          "excerpt": "\"It comes to you with what needs your attention, completes tasks you ask of it, keeps working even when you step away, and checks with you before it acts on your behalf,\" Anthropic said in a blog post.",
+          "sentence_hash": "41f5232c04b5630c61c00c092bae804f9a47d0fe145350f7523778c89aed777f",
+          "anchors": [
+            "ai",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The debut comes as competing products from Meta and OpenAI have started to show real traction with users.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-22T08:03:26.083586+08:00",
+          "content_sha256": "24ee52b688b88095cee0ad2d2cf4cb53670d2079f3abd26a057bc619a0ccf3f7",
+          "excerpt": "The debut comes as competing products from Meta and OpenAI have started to show real traction with users.",
+          "sentence_hash": "bf102cd18ee11ab5ba01b82dce5aaf0ffab326159f3c214fcc0e81fc9759714d",
+          "anchors": [
+            "with",
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "OpenAI introduced dots, its \"always-on agents,\" during its annual developer conference weeks later.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-22T08:03:26.083770+08:00",
+          "content_sha256": "24ee52b688b88095cee0ad2d2cf4cb53670d2079f3abd26a057bc619a0ccf3f7",
+          "excerpt": "OpenAI introduced dots, its \"always-on agents,\" during its annual developer conference weeks later.",
+          "sentence_hash": "83be2014d2b17fa63936af588605ad4068514548fa61e936e04da7ac9bb37526",
+          "anchors": [
+            "dots"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Meta has primarily marketed its agent toward consumers, while OpenAI's product straddles both the enterprise and consumer markets.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-10-22T08:03:26.083951+08:00",
+          "content_sha256": "24ee52b688b88095cee0ad2d2cf4cb53670d2079f3abd26a057bc619a0ccf3f7",
+          "excerpt": "Meta has primarily marketed its agent toward consumers, while OpenAI's product straddles both the enterprise and consumer markets.",
+          "sentence_hash": "a8acabbec8f8618ba702c37afcaa31840607ac007a160010e2abbf778bd53e5d",
+          "anchors": [
+            "pro"
+          ]
+        }
+      ],
+      "entities": [
+        "open",
+        "september",
+        "ceo",
+        "mark zuckerberg",
+        "watch",
+        "claude",
+        "anthropic",
+        "dots",
+        "canada",
+        "claude duet",
+        "wednesday",
+        "max",
+        "ai",
+        "apple",
+        "pro",
+        "wall street",
+        "app store",
+        "with",
+        "meta",
+        "muse"
+      ],
+      "numbers": [
+        "5%",
+        "10 million"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 22
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-22-AM.json",
+      "source_artifact_date": "2026-10-22",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_8d089ae2e84def8d57698cc4",
+      "title": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+      "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "During talks between Vladimir Putin and Steve Witkoff, Putin announced that jailed American Stephen Hubbard had been released. The Kremlin also said Russia was \"in principle\" ready to resume trilateral talks next month.",
+      "category": "国际",
+      "published_at": "2026-10-21T13:56:00+00:00",
+      "why_relevant": "俄美换囚谈判释放地缘缓和信号",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russia frees jailed American Stephen Hubbard Published October 21, 2026last updated October 21, 2026 Russian President Vladimir Putin announced the release of US captive Stephen Hubbard during talks with US special envoy Steve Witkoff in St.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.085498+08:00",
+          "content_sha256": "607ffad706e3ca64a61b2b25a6e06ca85f5aa84c2ecfbd240adb27fce290b015",
+          "excerpt": "Russia frees jailed American Stephen Hubbard Published October 21, 2026last updated October 21, 2026 Russian President Vladimir Putin announced the release of US captive Stephen Hubbard during talks with US special envoy Steve Witkoff in St.",
+          "sentence_hash": "a6635b80f501d753def5f116d37c2356a34e4e75f248542b9baa604cb1156cd1",
+          "anchors": [
+            "October 21",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Hubbard had been taken captive by Russian forces on charges of being a mercenary, which he denies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.085532+08:00",
+          "content_sha256": "607ffad706e3ca64a61b2b25a6e06ca85f5aa84c2ecfbd240adb27fce290b015",
+          "excerpt": "Hubbard had been taken captive by Russian forces on charges of being a mercenary, which he denies.",
+          "sentence_hash": "36ea0738e82dff693c6e01d8acfbea82c6ecb1fd028e0cbf2eafd977780a51a0",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"The United States, out of respect for President Trump, was not required to give anything in return — an unprecedented situation for Russia,\" Trump claimed in a post on his Truth Social platform.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.085588+08:00",
+          "content_sha256": "607ffad706e3ca64a61b2b25a6e06ca85f5aa84c2ecfbd240adb27fce290b015",
+          "excerpt": "\"The United States, out of respect for President Trump, was not required to give anything in return — an unprecedented situation for Russia,\" Trump claimed in a post on his Truth Social platform.",
+          "sentence_hash": "a661b0394aa10c6688c870819970ec2a5a1f5d893730b1221393df8ef0403739",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "\"There was no 'swap' necessary for this release.\" However, in a follow-up post, Trump also claimed that \"numerous people\" had called him to apologize after they criticized him for suspending a new round of sanctions, which he said was a necessary concession.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.085632+08:00",
+          "content_sha256": "607ffad706e3ca64a61b2b25a6e06ca85f5aa84c2ecfbd240adb27fce290b015",
+          "excerpt": "\"There was no 'swap' necessary for this release.\" However, in a follow-up post, Trump also claimed that \"numerous people\" had called him to apologize after they criticized him for suspending a new round of sanctions, which he said was a necessary concession.",
+          "sentence_hash": "f71325e7406944bc504a5ca34e04fc62028c0c2f97ca6c1943d894711a3bc977",
+          "anchors": [
+            "us",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Russia agrees to trilateral talks with Ukraine, US The release of Hubbard was seen as a goodwill gesture to the Trump administration as the two sides discuss a deal for peace between Russia and Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.085674+08:00",
+          "content_sha256": "607ffad706e3ca64a61b2b25a6e06ca85f5aa84c2ecfbd240adb27fce290b015",
+          "excerpt": "Russia agrees to trilateral talks with Ukraine, US The release of Hubbard was seen as a goodwill gesture to the Trump administration as the two sides discuss a deal for peace between Russia and Ukraine.",
+          "sentence_hash": "bdd3ce102371ffe9a0c914ed287d3507814c1c3f7665d2eaef7569905b1da2ae",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "It's really some ideas, some sort of peace deal between Russia and Ukraine, and you'll read that at your leisure,\" Witkoff told Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.085704+08:00",
+          "content_sha256": "607ffad706e3ca64a61b2b25a6e06ca85f5aa84c2ecfbd240adb27fce290b015",
+          "excerpt": "It's really some ideas, some sort of peace deal between Russia and Ukraine, and you'll read that at your leisure,\" Witkoff told Putin.",
+          "sentence_hash": "4427843ed59ad4702d0c89c2e916ddd0d42b1034f09697c5217b2eb0b54295d4",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "however",
+        "meanwhile",
+        "european",
+        "putin",
+        "washington",
+        "steve witkoff",
+        "ukrainian",
+        "ukrainian president volodymyr zelenskyy",
+        "russian president vladimir putin",
+        "stephen hubbard",
+        "truth social",
+        "china",
+        "us",
+        "yuri ushakov",
+        "zelenskyy",
+        "after",
+        "october",
+        "wednesday",
+        "the united states",
+        "ushakov",
+        "president donald trump",
+        "there",
+        "witkoff",
+        "right",
+        "russia",
+        "chinese president xi jinping",
+        "norway",
+        "petersburg",
+        "hubbard",
+        "beijing",
+        "moscow",
+        "kremlin",
+        "such",
+        "united states",
+        "ukraine",
+        "american stephen hubbard\npublished october",
+        "november",
+        "president trump",
+        "russian",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 21",
+        "November 10"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-22-AM.json",
+      "source_artifact_date": "2026-10-22",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_589b037d0bccd48b8f259450",
+      "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+      "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
+      "category": "国际",
+      "published_at": "2026-10-21T19:58:06+00:00",
+      "why_relevant": "普京态度揭示俄乌和谈阻力",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace - Published After two days of diplomacy â in Norway's capital and Russia's St Petersburg â is the war in Ukraine any closer to ending?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.086893+08:00",
+          "content_sha256": "225bef95cefd4e2bbc8a3c953bae768be5b709dbe35751673f953f52c2611f98",
+          "excerpt": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace - Published After two days of diplomacy â in Norway's capital and Russia's St Petersburg â is the war in Ukraine any closer to ending?",
+          "sentence_hash": "f4a4eb890937cb679a291a7b87603713914bcf8e3ae7fc64797d1dff81e8f721",
+          "anchors": [
+            "for",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"Good and constructive\" is how Norway's prime minister described Tuesday's talks between Ukrainian President Volodymyr Zelensky, US President Trump's special envoy Steve Witkoff and European representatives.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.086933+08:00",
+          "content_sha256": "225bef95cefd4e2bbc8a3c953bae768be5b709dbe35751673f953f52c2611f98",
+          "excerpt": "\"Good and constructive\" is how Norway's prime minister described Tuesday's talks between Ukrainian President Volodymyr Zelensky, US President Trump's special envoy Steve Witkoff and European representatives.",
+          "sentence_hash": "42621f1a188d059342392c26610da9258a0dd52b1b5e4265cfc36251c6ba894d",
+          "anchors": [
+            "mp"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The hope was that Steve Witkoff's trip to Russia would pave the way for President Vladimir Putin, Zelensky and Trump to meet and agree an end to the fighting.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.086969+08:00",
+          "content_sha256": "225bef95cefd4e2bbc8a3c953bae768be5b709dbe35751673f953f52c2611f98",
+          "excerpt": "The hope was that Steve Witkoff's trip to Russia would pave the way for President Vladimir Putin, Zelensky and Trump to meet and agree an end to the fighting.",
+          "sentence_hash": "d62ce203af067c99103f929f3817c2e772d7dd86f67642c4d0367c7777390029",
+          "anchors": [
+            "mp",
+            "for",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "In a post on X, Steve Witkoff himself conceded that \"there is still important work to do\", though he claimed \"President Trump remains committed to seeing this war end...\" - Russia says it is ready to resume talks with Ukraine and US to end war - Published2 hours ago - Trump and Z",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.087036+08:00",
+          "content_sha256": "225bef95cefd4e2bbc8a3c953bae768be5b709dbe35751673f953f52c2611f98",
+          "excerpt": "In a post on X, Steve Witkoff himself conceded that \"there is still important work to do\", though he claimed \"President Trump remains committed to seeing this war end...\" - Russia says it is ready to resume talks with Ukraine and US to end war - Published2 hours ago - Trump and Z",
+          "sentence_hash": "f256c1da58dc45d40b8e97870c546a6f52229f1d3ca456463b50b32fea4e228f",
+          "anchors": [
+            "mp",
+            "for",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Ushakov said that Steve Witkoff had told President Putin about the discussions in Oslo and (as Witkoff viewed them) \"new approaches from the Europeans and Kyiv\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.087070+08:00",
+          "content_sha256": "225bef95cefd4e2bbc8a3c953bae768be5b709dbe35751673f953f52c2611f98",
+          "excerpt": "Ushakov said that Steve Witkoff had told President Putin about the discussions in Oslo and (as Witkoff viewed them) \"new approaches from the Europeans and Kyiv\".",
+          "sentence_hash": "8ceb1b6910bfd90267035bc6a6f5b0cb15ff8739b0e1041a8d586573798e8df2",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The Kremlin adviser was clearly unimpressed by what he heard.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.087093+08:00",
+          "content_sha256": "225bef95cefd4e2bbc8a3c953bae768be5b709dbe35751673f953f52c2611f98",
+          "excerpt": "The Kremlin adviser was clearly unimpressed by what he heard.",
+          "sentence_hash": "ff7ae2d15f2b9b4c44f842974c1ab133ac22cd06faba3bc32dc43209ba12fe68",
+          "anchors": [
+            "mp"
+          ]
+        }
+      ],
+      "entities": [
+        "in oslo",
+        "european",
+        "doing",
+        "ukrainian president volodymyr zelensky",
+        "putin",
+        "europeans",
+        "for",
+        "rosenberg",
+        "steve witkoff",
+        "president vladimir putin",
+        "stephen hubbard",
+        "us",
+        "oslo",
+        "yuri ushakov",
+        "tuesday",
+        "white house",
+        "ushakov",
+        "good",
+        "witkoff",
+        "right",
+        "later russian",
+        "russia",
+        "tv",
+        "president zelensky",
+        "president putin",
+        "norway",
+        "but putin",
+        "all",
+        "abu dhabi",
+        "st petersburg",
+        "published\nafter",
+        "mp",
+        "moscow",
+        "kremlin",
+        "evgeny popov",
+        "kyiv",
+        "ukraine",
+        "the kremlin",
+        "western",
+        "zelensky",
+        "published",
+        "president trump",
+        "russian",
+        "donald trump",
+        "vladimir putin",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 46
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-22-AM.json",
+      "source_artifact_date": "2026-10-22",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_999bba1cf47ff538b0dbbde1",
+      "title": "MOFCOM's New Rules and the Future of Chinese AI",
+      "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
+      "publisher": "ChinaTalk",
+      "summary": "a big deal",
+      "category": "国际",
+      "published_at": "2026-10-21T13:43:39+00:00",
+      "why_relevant": "中国AI监管新规重塑行业格局",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "As fast followers to the frontier, Chinese AI companies have gained trust by publicizing their weights and architectures.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.088377+08:00",
+          "content_sha256": "29e7b29fe7a88c0ae425b71724869aff6c6e89225fa6254ac12ab2fa3c55e50a",
+          "excerpt": "As fast followers to the frontier, Chinese AI companies have gained trust by publicizing their weights and architectures.",
+          "sentence_hash": "befeab8e6ebc4515cc991257f2ff255d736d9ffc01fb471e7c94277ccabacc6a",
+          "anchors": [
+            "ai",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "And at the cost of revenue, they have achieved global adoption, brand recognition, and a truly competitive dynamic with American labs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.088427+08:00",
+          "content_sha256": "29e7b29fe7a88c0ae425b71724869aff6c6e89225fa6254ac12ab2fa3c55e50a",
+          "excerpt": "And at the cost of revenue, they have achieved global adoption, brand recognition, and a truly competitive dynamic with American labs.",
+          "sentence_hash": "846d24d53bcb73199cae06f6988885d913b9abbbf9fdfca30cc615a4b1e7e063",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Last week, China’s Ministries of Commerce (MOFCOM) and Science and Technology (MOST) jointly proposed expanding China’s catalogue of export-controlled technologies, with most of the proposed regulations taking aim at subsets of China’s AI industry.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.088469+08:00",
+          "content_sha256": "29e7b29fe7a88c0ae425b71724869aff6c6e89225fa6254ac12ab2fa3c55e50a",
+          "excerpt": "Last week, China’s Ministries of Commerce (MOFCOM) and Science and Technology (MOST) jointly proposed expanding China’s catalogue of export-controlled technologies, with most of the proposed regulations taking aim at subsets of China’s AI industry.",
+          "sentence_hash": "452b2b83666b5777f2f31a9b9b3e5254614d6f85a78b8a0b2e2d68cf9c7f4f82",
+          "anchors": [
+            "ai",
+            "most",
+            "and",
+            "catalogue",
+            "export"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Regulators will spend a month taking comments on the draft before anything becomes law, but we can already learn a ton from this announcement in its current form.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.088501+08:00",
+          "content_sha256": "29e7b29fe7a88c0ae425b71724869aff6c6e89225fa6254ac12ab2fa3c55e50a",
+          "excerpt": "Regulators will spend a month taking comments on the draft before anything becomes law, but we can already learn a ton from this announcement in its current form.",
+          "sentence_hash": "d49b45d243cb018aa3dc59109479dc0806e8eb250898c36def2b5b7325696089",
+          "anchors": [
+            "announcement"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Why is MOFCOM writing these rules now, and what does this say about the Chinese government’s appetite for AI-enabled risks versus growth?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.088534+08:00",
+          "content_sha256": "29e7b29fe7a88c0ae425b71724869aff6c6e89225fa6254ac12ab2fa3c55e50a",
+          "excerpt": "Why is MOFCOM writing these rules now, and what does this say about the Chinese government’s appetite for AI-enabled risks versus growth?",
+          "sentence_hash": "0ed3eab161dd260a6bdbe35db15eccbfa8019cbcddf45e77d8855305788c9235",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "What’s ahead: - How these rules came to be — and how this draft is already affecting the Chinese AI industry; - What the proposed rules mean for frontier models, chip design, memory, cybersecurity, AI content detection, and even China’s minority languages; - Who actually decides ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-22T08:03:26.088590+08:00",
+          "content_sha256": "29e7b29fe7a88c0ae425b71724869aff6c6e89225fa6254ac12ab2fa3c55e50a",
+          "excerpt": "What’s ahead: - How these rules came to be — and how this draft is already affecting the Chinese AI industry; - What the proposed rules mean for frontier models, chip design, memory, cybersecurity, AI content detection, and even China’s minority languages; - Who actually decides ",
+          "sentence_hash": "14ebab50fe12135a6a9905961e237c2124205d76413cf6590bb14c299c4d6bdf",
+          "anchors": [
+            "export",
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "subscribe",
+        "does beijing",
+        "science",
+        "last",
+        "now china",
+        "chinese",
+        "beijing",
+        "目录",
+        "on october",
+        "china",
+        "and",
+        "catalogue",
+        "限制出口技术",
+        "today",
+        "export",
+        "mofcom",
+        "technology",
+        "restricted",
+        "while",
+        "american",
+        "pv",
+        "rule\nsince",
+        "technologies prohibited",
+        "the road",
+        "ministries",
+        "ai",
+        "most",
+        "announcement",
+        "commerce",
+        "中国禁止出口",
+        "regulators"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 16"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-22-AM.json",
+      "source_artifact_date": "2026-10-22",
+      "freshness_label": "today"
+    }
+  ]
+}

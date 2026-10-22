@@ -1,6 +1,72 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-21 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-22 08:07。
+
+## Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：What China wants from a Trump-Putin summit on Ukraine October 21, 2026 The administration of US President Donald Trump has stepped up diplomatic efforts this autumn to revive stalled negotiations aimed at ending Russia's war in Ukraine.
+- 事件 ID：`evt_20261022_3071ac99ca78`
+
+## Anthropic unveils Claude Duet AI agent app
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Claude Duet is designed for small businesses and professionals, Anthropic said.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261022_3b6927f20e00`
+
+## Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261022_407d7fb98af8`
+
+## Russia frees jailed American Stephen Hubbard during Witkoff talks
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Russia frees jailed American Stephen Hubbard Published October 21, 2026last updated October 21, 2026 Russian President Vladimir Putin announced the release of US captive Stephen Hubbard during talks with US special envoy Steve Witkoff in St.
+- 事件 ID：`evt_20261022_17d146022ab6`
+
+## Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace - Published After two days of diplomacy â in Norway's capital and Russia's St Petersburg â is the war in Ukraine any closer to ending?
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261022_9d374d9ac8a2`
+
+## MOFCOM's New Rules and the Future of Chinese AI
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：As fast followers to the frontier, Chinese AI companies have gained trust by publicizing their weights and architectures.
+- 事件 ID：`evt_20261022_8332884beb9c`
+
+## OpenAI's latest AI models are coming to Google Cloud and Antigravity
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Google would certainly prefer that everyone used its Gemini models with Google Cloud services, but soon, you’ll have more options.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261022_3e406666db00`
+
+## US orders some personnel to leave Saudi Arabia after Houthi attacks
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261022_b68fa815575f`
+
+## North Korea's Kim Yo Jong warns South Korea, says border loudspeakers to be ready within days
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261022_f73b2e8081b1`
+
+## Graphify-Labs/graphify
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Read this in other languages English | 简体中文 | 日本語 | 한국어 | Deutsch | Français | Español | हिन्दी | Português | Русский | العربية | فارسی | Italiano | Polski | Nederlands | Türkçe | Українська | Tiếng Việt | Bahasa Indonesia | Svenska | Ελληνικά | Română | Čeština | Suomi | Dansk |
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261022_362deafd25b5`
+
+## Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Private equity giant Blackstone is putting itself at the center of the AI boom, firm veteran Jas Khaira discussed last week on stage at TechCrunch Disrupt.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261022_12afeccdf4da`
+
+## Stocks rise with upbeat earnings; France's 10-year bond yield hits 5% mark
+- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
+- 最新事实：Stocks rise with upbeat earnings; France's 10-year bond yield hits 5% mark&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261022_1e1038fbeedf`
 
 ## akitaonrails/ai-memory
 - 状态：更新中；首见 2026-09-23；最近更新 2026-10-21
@@ -949,72 +1015,4 @@
 - 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20260922_38ca17ad28ee`
-
-## US, China open high-level talks ahead of Trump-Xi summit
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：US, China open high-level talks ahead of Trump-Xi summit Scott Bessent and He Lifeng meet in New York for US-China talks ahead of the Trump-Xi meeting later this week.
-- 事件 ID：`evt_20260921_d85e965ad079`
-
-## Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says - Published Ukraine has fired its largest drone attack on the Moscow region, the mayor has said, hitting the city's main oil refinery and a residential building.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_2073400f5041`
-
-## higgsfield-ai/higgsfield
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：$ pip install higgsfield==0.0.3 That's all you have to do in order to train LLaMa in a distributed setting: from higgsfield.llama import Llama70b from higgsfield.loaders import LlamaLoader from higgsfield.experiment import experiment import torch.optim as optim from alpaca import
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_8ba9fdaa97b0`
-
-## Crypto traders braced for a total wipeout this week but Bitcoin had other plans
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Crypto traders braced for a total wipeout this week but Bitcoin had other plans Market experts view bitcoin’s price stability as evidence of its fundamental independence from Washington, maintaining that global liquidity and adoption cycles remain the primary growth drivers.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_adf4f9cf4851`
-
-## Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’ Qatar’s Prime Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani has called on states to respect sovereignty as a condition for security in the Middle East, warning against “cycles of escalation” after 
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_1bd3b54aeeed`
-
-## Oil rises after Houthi attack on Saudi capital
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260921_ae4eca190db8`
-
-## Qatar says it is working to revive Iran-US talks
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Published On 20 Sep 2026
-- 事件 ID：`evt_20260921_7a57482cec28`
-
-## trycua/cua
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Give AI agents computers they can use.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_5b0a851eee9e`
-
-## Morgan Stanley says stocks like Warner Music are a table-pounding buy right now
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Morgan Stanley also raised its per-share price target to $255 from $236.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_7112f052650f`
-
-## Pacific island states are trapped in Cold War 2.0
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Advertisement Opinion Pacific island states are trapped in Cold War 2.0 Geopolitically, it’s like a feudal hierarchy: small island nations as vassals, Australia and New Zealand as local lords and the US as king 4-MIN READ4-MIN Listen Alex Lo has been an SCMP columnist since 2012,
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_e8985fa0f482`
-
-## Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan has been in motion for months before, calls agreement ‘self-serving’
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development — plaintiffs say plan has been in motion for months before, calls agreement ‘self-serving’ The plaintiffs call the agreement a 'shortcut' that 'substitutes collective restraint for 
-- 事件 ID：`evt_20260921_cf2a5855f268`
-
-## The PC gaming ray tracing obsession began with the first RTX 20 graphics cards released on this day in 2018 — the GeForce RTX 2080 and 2080 Ti led the charge, but games were thin on the ground
-- 状态：更新中；首见 2026-09-21；最近更新 2026-09-21
-- 最新事实：The PC gaming ray tracing obsession began with the first RTX 20 graphics cards released on this day in 2018 — the GeForce RTX 2080 and 2080 Ti led the charge, but games were thin on the ground Nvidia said the video game hardware and software-disrupting Turing architecture was '20
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260921_203f480f89d0`
 
