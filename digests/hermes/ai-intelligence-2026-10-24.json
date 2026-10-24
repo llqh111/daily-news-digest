@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T00:07:26.125774+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-24-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-24.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-23.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_b7d48ef787a40ded9b580c17",
+      "title": "NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More",
+      "url": "https://wccftech.com/nvidia-rtx-remix-1-6-launches-with-dlss-5-6x-multi-frame-generation-minecraft-java-edition-support-and-more/",
+      "publisher": "Wccftech",
+      "summary": "NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities. Available through GitHub and the NVIDIA App, RTX Remix 1.6 introduces DLSS 5 with 3D-Guided Neural Rendering, up to 6X Multi Frame Generation, native Windows on ARM support, and expanded AI-powered asset creation tools. Perhaps most interestingly, the update also introduces experimental RTX Remix support for Minecraft Ja",
+      "category": "科技",
+      "published_at": "2026-10-23T22:20:18+00:00",
+      "why_relevant": "RTX Remix更新，DLSS5与MC支持",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707065+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.",
+          "sentence_hash": "f77916ddfbe006f2c3c5b7c25a5626c7f71513a83c43cba4f8e36556c72f3ac1",
+          "anchors": [
+            "performance"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Available through GitHub and the NVIDIA App, RTX Remix 1.6 introduces DLSS 5 with 3D-Guided Neural Rendering, up to 6X Multi Frame Generation, native Windows on ARM support, and expanded AI-powered asset creation tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707111+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "Available through GitHub and the NVIDIA App, RTX Remix 1.6 introduces DLSS 5 with 3D-Guided Neural Rendering, up to 6X Multi Frame Generation, native Windows on ARM support, and expanded AI-powered asset creation tools.",
+          "sentence_hash": "70cb93bb3a0eb14fe29b9c731b3faa6ca49b63f249271a0cb1c7b4403f007cac",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The latest release represents another major expansion of the platform, both in terms of graphical capabilities and the tools available to modders.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707155+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "The latest release represents another major expansion of the platform, both in terms of graphical capabilities and the tools available to modders.",
+          "sentence_hash": "f2aadf51e0d6bd6048bdbf2b386f5d00c86ce9ec6a580fe048009df9da6247e0",
+          "anchors": [
+            "ai",
+            "available",
+            "other"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "DLSS 5 Neural Rendering And 6X Multi Frame Generation Arrive One of the most significant additions is DLSS 5's 3D-Guided Neural Rendering, which uses AI to enhance the lighting and material appearance of rendered scenes while taking the game's underlying geometry, textures, and l",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707197+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "DLSS 5 Neural Rendering And 6X Multi Frame Generation Arrive One of the most significant additions is DLSS 5's 3D-Guided Neural Rendering, which uses AI to enhance the lighting and material appearance of rendered scenes while taking the game's underlying geometry, textures, and l",
+          "sentence_hash": "20c43fb3e33aa399c54356b568be627e2691e9d25e8abe480c14daa3bcc1db03",
+          "anchors": [
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "These include three model selections (A, B, and C), highlight and volumetric adjustments, and per-material control masks, giving creators greater influence over the final appearance of their remastered games.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707238+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "These include three model selections (A, B, and C), highlight and volumetric adjustments, and per-material control masks, giving creators greater influence over the final appearance of their remastered games.",
+          "sentence_hash": "fc213ed18e36704d099a8a9965bfc1ac5afdc253eca51d320b05e9c41e186c1f",
+          "anchors": [
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Performance improvements are another important focus.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707270+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "Performance improvements are another important focus.",
+          "sentence_hash": "4aa2b36302c8d193b1c9f12516271cfe413c3975808d51196ddeeab2623d1b49",
+          "anchors": [
+            "other"
+          ]
+        }
+      ],
+      "entities": [
+        "windows",
+        "mirror",
+        "remix toolkit",
+        "preset",
+        "dlss",
+        "guided neural rendering",
+        "force",
+        "multi frame generation arrive\none",
+        "minecraft java edition",
+        "perhaps",
+        "fallout",
+        "frame generation performance mode",
+        "rtx",
+        "sparse rendering",
+        "series",
+        "arm",
+        "performance",
+        "ray reconstruc",
+        "edge",
+        "pc",
+        "according",
+        "available",
+        "remix",
+        "app",
+        "multi frame generation",
+        "hub",
+        "neural rendering and",
+        "git",
+        "ai",
+        "these",
+        "nvidia",
+        "other"
+      ],
+      "numbers": [
+        "35%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-24-AM.json",
+      "source_artifact_date": "2026-10-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_8bf1910f9ba2b13088ead0f8",
+      "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+      "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-23T12:03:53+00:00",
+      "why_relevant": "比特币安全规则变更，AI漏洞威胁",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy Developers merged a policy change that ends the months-long embargo for flaws a chatbot could rediscover, after a summer in which AI found hundreds of bitcoin bugs before the humans did.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708625+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy Developers merged a policy change that ends the months-long embargo for flaws a chatbot could rediscover, after a summer in which AI found hundreds of bitcoin bugs before the humans did.",
+          "sentence_hash": "72b6a826ba5c2c226de156bced1f4bbdd1155a0a9850a21cee08a9515ca6a58f",
+          "anchors": [
+            "for",
+            "bitcoin"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- Maintainers said the change would speed fixes for easily rediscovered flaws, though updates may receive less testing before reaching users.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708663+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "- Maintainers said the change would speed fixes for easily rediscovered flaws, though updates may receive less testing before reaching users.",
+          "sentence_hash": "2656ccc21e521fa783e72531688e93eb923a68a6afbc668361bec5840c59b77a",
+          "anchors": [
+            "for",
+            "ai",
+            "fixes"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- The policy follows a surge in AI-assisted security reports, including a review of 390 Bitcoin projects that identified 4,962 potential flaws, 85 of them critical.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708690+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "- The policy follows a surge in AI-assisted security reports, including a review of 390 Bitcoin projects that identified 4,962 potential flaws, 85 of them critical.",
+          "sentence_hash": "4b69e601c6038cf49dbd1bdd8a413a07af83a316daed5dc4214a379c90221f78",
+          "anchors": [
+            "low"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Bitcoin Core, the software most of the bitcoin network runs on, will stop sitting on bug fixes for months when the bug is one an AI could find again, after its maintainers merged a change to the project’s security policy on Thursday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708730+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "Bitcoin Core, the software most of the bitcoin network runs on, will stop sitting on bug fixes for months when the bug is one an AI could find again, after its maintainers merged a change to the project’s security policy on Thursday.",
+          "sentence_hash": "1b3062797e8e0752b15d70a8ee7e7e4fe9d0abbc9d121a3fd18415c3012cdd9d",
+          "anchors": [
+            "for",
+            "bitcoin",
+            "ai",
+            "fixes",
+            "maintainers"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The logic was that shipping a fix quietly and explaining it much later kept attackers from learning about a hole before the people running nodes, the computers that check and relay every bitcoin transaction, had upgraded.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708773+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "The logic was that shipping a fix quietly and explaining it much later kept attackers from learning about a hole before the people running nodes, the computers that check and relay every bitcoin transaction, had upgraded.",
+          "sentence_hash": "61a4e0ce986ebff9738276d4950a8878d597d81ad0a8c3b4a1beaf063d26378d",
+          "anchors": [
+            "for",
+            "ai",
+            "bitcoin"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But the old rule was built for a world where finding a bug took skill, and the spread of AI tools has broken how that process worked.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708797+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "But the old rule was built for a world where finding a bug took skill, and the spread of AI tools has broken how that process worked.",
+          "sentence_hash": "740416a616dd8c5e248d73857bc5784f590394786f61954af907326a0f3d05a8",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "low",
+        "for",
+        "those",
+        "bitcoin core",
+        "fixes",
+        "but",
+        "not",
+        "antoine poinsot",
+        "thursday",
+        "antoine riard",
+        "llm",
+        "bitcoin",
+        "ai",
+        "poinsot",
+        "maintainers",
+        "core",
+        "developers",
+        "chaincode labs",
+        "medium"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-24-AM.json",
+      "source_artifact_date": "2026-10-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_a87b30ae996ef5a5e0e702f3",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "publisher": "GitHub Trending",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.https://ponytail.dev \n  \n   \n   \n   \nPonytail \n He says nothing. He writes one line. It works.  \n   \n       \n   \n     \n   \n Ponytail 5: rebuilt from the ground up. -53% code · -41% time · -26% cost · -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + Re",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "反直觉AI工具，极简风格受硬核玩家追捧",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ponytail 5: rebuilt from the ground up.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710053+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Ponytail 5: rebuilt from the ground up.",
+          "sentence_hash": "4ebb22e29934ac87701e81319fe0ef978281ae7cdebf5f2018afeb142b4594b6",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "-53% code · -41% time · -26% cost · -45% tokens And yet: 98% of risky logic ships with a test.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710084+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "-53% code · -41% time · -26% cost · -45% tokens And yet: 98% of risky logic ships with a test.",
+          "sentence_hash": "b78fbca4bc533c6eebf42380a5cd88aee792d13a4a2ca856d5141d5eab86cc86",
+          "anchors": [
+            "98%",
+            "41%",
+            "code",
+            "45%",
+            "26%",
+            "53%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Without Ponytail: 68%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710101+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Without Ponytail: 68%.",
+          "sentence_hash": "95dfa3be079f28ce6fa58abac062b5c000fdd7ac300b76778c4b7ff8a125988a",
+          "anchors": [
+            "ai",
+            "68%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710129+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each.",
+          "sentence_hash": "6a6ef160587c4d4bf53c437a43b3c725f177018b1cf7eade4734ac6076124476",
+          "anchors": [
+            "and",
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Details.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710142+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Details.",
+          "sentence_hash": "d4c11048de15fd7081c8abc8066517c31e162779e071c0b5b5a9190b4f79a481",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "You know him.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710156+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "You know him.",
+          "sentence_hash": "ddd30350ea6518fa67623592b3334fa241c7593df1d5655a24ca295290916ae3",
+          "anchors": [
+            "now"
+          ]
+        }
+      ],
+      "entities": [
+        "input",
+        "more",
+        "sql",
+        "claude code",
+        "react",
+        "ponytail",
+        "its",
+        "then",
+        "without ponytail",
+        "fast",
+        "each",
+        "details",
+        "vs",
+        "board",
+        "markdown",
+        "has",
+        "opus",
+        "long",
+        "two",
+        "csv",
+        "needs claude code",
+        "don",
+        "method",
+        "you",
+        "ai",
+        "now",
+        "code",
+        "lower",
+        "in claude code",
+        "benchmarked",
+        "and",
+        "oval"
+      ],
+      "numbers": [
+        "98%",
+        "41%",
+        "68%",
+        "45%",
+        "26%",
+        "53%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-24-AM.json",
+      "source_artifact_date": "2026-10-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_4d5e5c6b3f516e91568982ad",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "publisher": "Simon Willison",
+      "summary": "Introducing Kimi K3.1 Pro\nKimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise \"Full model weights will be released by Nov 4, 2026\".\nThey're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).\nThe US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.\nMoonshot's own benchmarks show ",
+      "category": "科技",
+      "published_at": "2026-10-23T19:40:54+00:00",
+      "why_relevant": "Kimi新模型发布，开源承诺值得关注",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "23rd October 2026 - Link Blog Introducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711160+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "23rd October 2026 - Link Blog Introducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".",
+          "sentence_hash": "9982a0e7326de4a61d0814a2c8342e214dabc9d87c2b9a355b190e9635133afd",
+          "anchors": [
+            "October 20",
+            "pro",
+            "Nov 4",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711193+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).",
+          "sentence_hash": "7a987a13f25a227362922455a7c044d5e6a441516e80cb180aad932dc3f6dce1",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711225+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.",
+          "sentence_hash": "6ef4311ff4adaac2662bc223153a8e7a1aa8555aab4a76466f42709cc9685f74",
+          "anchors": [
+            "$2.00",
+            "for",
+            "us",
+            "$10"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711252+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.",
+          "sentence_hash": "9275e21b04b29836854b5369020c80496a1418a9d4de7eac66c4accf996b1145",
+          "anchors": [
+            "pro",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711279+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).",
+          "sentence_hash": "28f4e1049ce078807db6f1aa49a12299d97f7a69e6025489d8dbf48846e1eaf6",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711301+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.",
+          "sentence_hash": "4f7cc09ce283ea450e1cfdcc87daf341267c73680104e7cb475fdd1cfb60efa7",
+          "anchors": [
+            "open"
+          ]
+        }
+      ],
+      "entities": [
+        "nov",
+        "for",
+        "astra",
+        "us",
+        "claude haiku",
+        "claude opus",
+        "kimi",
+        "artificial analysis",
+        "rts",
+        "generate",
+        "pro",
+        "svg",
+        "opus",
+        "here",
+        "october",
+        "argon",
+        "recent",
+        "hello python",
+        "full",
+        "highspeed",
+        "sol",
+        "gemini",
+        "they",
+        "api",
+        "llm",
+        "battle drones",
+        "moonshot",
+        "august",
+        "claude fable",
+        "open",
+        "link blog\nintroducing kimi",
+        "gpt"
+      ],
+      "numbers": [
+        "$2.00",
+        "$10"
+      ],
+      "dates": [
+        "October 20",
+        "Nov 4"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-24-AM.json",
+      "source_artifact_date": "2026-10-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_1185f051610305b3a7aa4ae5",
+      "title": "Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdpek9/are_we_solving_llm_memory_by_remembering_more/",
+      "publisher": "r/MachineLearning",
+      "summary": "Long-context models can now handle hundreds of thousands, even millions of tokens. But I've been wondering if we're focusing too much on recall and not enough on what happens when information changes. Say a coding agent reads that an API timeout is 30 seconds. Later, the documentation changes it to 5 seconds. Both versions are still in context, but the agent keeps using 30. It hasn't forgotten anything. It just hasn't updated what it knows. I've been reading about different memory architectures,",
+      "category": "科技",
+      "published_at": "2026-10-23T20:39:06+00:00",
+      "why_relevant": "LLM遗忘机制讨论，切中长上下文痛点",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Both versions are still in context, but the agent keeps using 30.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711613+08:00",
+          "content_sha256": "fdad0ca6d79e822d19ea8038266d6ef415ee1b26ebe94a04495354fb5917ea1d",
+          "excerpt": "Both versions are still in context, but the agent keeps using 30.",
+          "sentence_hash": "993610eb8f5e4aaa64bb9c8419894c2db7ce5781ff41b017aae2006a4b5ec768",
+          "anchors": [
+            "but"
+          ]
+        }
+      ],
+      "entities": [
+        "long",
+        "api",
+        "later",
+        "say",
+        "but",
+        "both"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 6
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-24-AM.json",
+      "source_artifact_date": "2026-10-24",
+      "freshness_label": "today"
+    }
+  ]
+}

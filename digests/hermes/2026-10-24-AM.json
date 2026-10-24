@@ -1,0 +1,1460 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-10-24-AM",
+  "date": "2026-10-24",
+  "session": "AM",
+  "delivered_at": "2026-10-24T08:07:26.105367+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-10-24T00:07:26.106882+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 2,
+    "unsupported_ratio": 0.15384615384615385
+  },
+  "items": [
+    {
+      "article_id": "a1_b7d48ef787a40ded9b580c17",
+      "title": "NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More",
+      "url": "https://wccftech.com/nvidia-rtx-remix-1-6-launches-with-dlss-5-6x-multi-frame-generation-minecraft-java-edition-support-and-more/",
+      "publisher": "Wccftech",
+      "summary": "NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities. Available through GitHub and the NVIDIA App, RTX Remix 1.6 introduces DLSS 5 with 3D-Guided Neural Rendering, up to 6X Multi Frame Generation, native Windows on ARM support, and expanded AI-powered asset creation tools. Perhaps most interestingly, the update also introduces experimental RTX Remix support for Minecraft Ja",
+      "category": "科技",
+      "published_at": "2026-10-23T22:20:18+00:00",
+      "why_relevant": "RTX Remix更新，DLSS5与MC支持",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707065+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.",
+          "sentence_hash": "f77916ddfbe006f2c3c5b7c25a5626c7f71513a83c43cba4f8e36556c72f3ac1",
+          "anchors": [
+            "performance"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Available through GitHub and the NVIDIA App, RTX Remix 1.6 introduces DLSS 5 with 3D-Guided Neural Rendering, up to 6X Multi Frame Generation, native Windows on ARM support, and expanded AI-powered asset creation tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707111+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "Available through GitHub and the NVIDIA App, RTX Remix 1.6 introduces DLSS 5 with 3D-Guided Neural Rendering, up to 6X Multi Frame Generation, native Windows on ARM support, and expanded AI-powered asset creation tools.",
+          "sentence_hash": "70cb93bb3a0eb14fe29b9c731b3faa6ca49b63f249271a0cb1c7b4403f007cac",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The latest release represents another major expansion of the platform, both in terms of graphical capabilities and the tools available to modders.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707155+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "The latest release represents another major expansion of the platform, both in terms of graphical capabilities and the tools available to modders.",
+          "sentence_hash": "f2aadf51e0d6bd6048bdbf2b386f5d00c86ce9ec6a580fe048009df9da6247e0",
+          "anchors": [
+            "ai",
+            "available",
+            "other"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "DLSS 5 Neural Rendering And 6X Multi Frame Generation Arrive One of the most significant additions is DLSS 5's 3D-Guided Neural Rendering, which uses AI to enhance the lighting and material appearance of rendered scenes while taking the game's underlying geometry, textures, and l",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707197+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "DLSS 5 Neural Rendering And 6X Multi Frame Generation Arrive One of the most significant additions is DLSS 5's 3D-Guided Neural Rendering, which uses AI to enhance the lighting and material appearance of rendered scenes while taking the game's underlying geometry, textures, and l",
+          "sentence_hash": "20c43fb3e33aa399c54356b568be627e2691e9d25e8abe480c14daa3bcc1db03",
+          "anchors": [
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "These include three model selections (A, B, and C), highlight and volumetric adjustments, and per-material control masks, giving creators greater influence over the final appearance of their remastered games.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707238+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "These include three model selections (A, B, and C), highlight and volumetric adjustments, and per-material control masks, giving creators greater influence over the final appearance of their remastered games.",
+          "sentence_hash": "fc213ed18e36704d099a8a9965bfc1ac5afdc253eca51d320b05e9c41e186c1f",
+          "anchors": [
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Performance improvements are another important focus.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.707270+08:00",
+          "content_sha256": "bda9fb3a03e7c06308039dc2aa437a20670ccb6bc9121b8c5f2bc4afc991036c",
+          "excerpt": "Performance improvements are another important focus.",
+          "sentence_hash": "4aa2b36302c8d193b1c9f12516271cfe413c3975808d51196ddeeab2623d1b49",
+          "anchors": [
+            "other"
+          ]
+        }
+      ],
+      "entities": [
+        "windows",
+        "mirror",
+        "remix toolkit",
+        "preset",
+        "dlss",
+        "guided neural rendering",
+        "force",
+        "multi frame generation arrive\none",
+        "minecraft java edition",
+        "perhaps",
+        "fallout",
+        "frame generation performance mode",
+        "rtx",
+        "sparse rendering",
+        "series",
+        "arm",
+        "performance",
+        "ray reconstruc",
+        "edge",
+        "pc",
+        "according",
+        "available",
+        "remix",
+        "app",
+        "multi frame generation",
+        "hub",
+        "neural rendering and",
+        "git",
+        "ai",
+        "these",
+        "nvidia",
+        "other"
+      ],
+      "numbers": [
+        "35%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_8bf1910f9ba2b13088ead0f8",
+      "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+      "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-23T12:03:53+00:00",
+      "why_relevant": "比特币安全规则变更，AI漏洞威胁",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy Developers merged a policy change that ends the months-long embargo for flaws a chatbot could rediscover, after a summer in which AI found hundreds of bitcoin bugs before the humans did.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708625+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy Developers merged a policy change that ends the months-long embargo for flaws a chatbot could rediscover, after a summer in which AI found hundreds of bitcoin bugs before the humans did.",
+          "sentence_hash": "72b6a826ba5c2c226de156bced1f4bbdd1155a0a9850a21cee08a9515ca6a58f",
+          "anchors": [
+            "for",
+            "bitcoin"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- Maintainers said the change would speed fixes for easily rediscovered flaws, though updates may receive less testing before reaching users.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708663+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "- Maintainers said the change would speed fixes for easily rediscovered flaws, though updates may receive less testing before reaching users.",
+          "sentence_hash": "2656ccc21e521fa783e72531688e93eb923a68a6afbc668361bec5840c59b77a",
+          "anchors": [
+            "for",
+            "ai",
+            "fixes"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- The policy follows a surge in AI-assisted security reports, including a review of 390 Bitcoin projects that identified 4,962 potential flaws, 85 of them critical.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708690+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "- The policy follows a surge in AI-assisted security reports, including a review of 390 Bitcoin projects that identified 4,962 potential flaws, 85 of them critical.",
+          "sentence_hash": "4b69e601c6038cf49dbd1bdd8a413a07af83a316daed5dc4214a379c90221f78",
+          "anchors": [
+            "low"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Bitcoin Core, the software most of the bitcoin network runs on, will stop sitting on bug fixes for months when the bug is one an AI could find again, after its maintainers merged a change to the project’s security policy on Thursday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708730+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "Bitcoin Core, the software most of the bitcoin network runs on, will stop sitting on bug fixes for months when the bug is one an AI could find again, after its maintainers merged a change to the project’s security policy on Thursday.",
+          "sentence_hash": "1b3062797e8e0752b15d70a8ee7e7e4fe9d0abbc9d121a3fd18415c3012cdd9d",
+          "anchors": [
+            "for",
+            "bitcoin",
+            "ai",
+            "fixes",
+            "maintainers"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The logic was that shipping a fix quietly and explaining it much later kept attackers from learning about a hole before the people running nodes, the computers that check and relay every bitcoin transaction, had upgraded.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708773+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "The logic was that shipping a fix quietly and explaining it much later kept attackers from learning about a hole before the people running nodes, the computers that check and relay every bitcoin transaction, had upgraded.",
+          "sentence_hash": "61a4e0ce986ebff9738276d4950a8878d597d81ad0a8c3b4a1beaf063d26378d",
+          "anchors": [
+            "for",
+            "ai",
+            "bitcoin"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But the old rule was built for a world where finding a bug took skill, and the spread of AI tools has broken how that process worked.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.708797+08:00",
+          "content_sha256": "e316be7ac9989787b2a3ff65774f820aae25fd2876b61f198502a836c09cb5a3",
+          "excerpt": "But the old rule was built for a world where finding a bug took skill, and the spread of AI tools has broken how that process worked.",
+          "sentence_hash": "740416a616dd8c5e248d73857bc5784f590394786f61954af907326a0f3d05a8",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "low",
+        "for",
+        "those",
+        "bitcoin core",
+        "fixes",
+        "but",
+        "not",
+        "antoine poinsot",
+        "thursday",
+        "antoine riard",
+        "llm",
+        "bitcoin",
+        "ai",
+        "poinsot",
+        "maintainers",
+        "core",
+        "developers",
+        "chaincode labs",
+        "medium"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_a87b30ae996ef5a5e0e702f3",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "publisher": "GitHub Trending",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.https://ponytail.dev \n  \n   \n   \n   \nPonytail \n He says nothing. He writes one line. It works.  \n   \n       \n   \n     \n   \n Ponytail 5: rebuilt from the ground up. -53% code · -41% time · -26% cost · -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + Re",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "反直觉AI工具，极简风格受硬核玩家追捧",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ponytail 5: rebuilt from the ground up.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710053+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Ponytail 5: rebuilt from the ground up.",
+          "sentence_hash": "4ebb22e29934ac87701e81319fe0ef978281ae7cdebf5f2018afeb142b4594b6",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "-53% code · -41% time · -26% cost · -45% tokens And yet: 98% of risky logic ships with a test.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710084+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "-53% code · -41% time · -26% cost · -45% tokens And yet: 98% of risky logic ships with a test.",
+          "sentence_hash": "b78fbca4bc533c6eebf42380a5cd88aee792d13a4a2ca856d5141d5eab86cc86",
+          "anchors": [
+            "98%",
+            "41%",
+            "code",
+            "45%",
+            "26%",
+            "53%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Without Ponytail: 68%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710101+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Without Ponytail: 68%.",
+          "sentence_hash": "95dfa3be079f28ce6fa58abac062b5c000fdd7ac300b76778c4b7ff8a125988a",
+          "anchors": [
+            "ai",
+            "68%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710129+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each.",
+          "sentence_hash": "6a6ef160587c4d4bf53c437a43b3c725f177018b1cf7eade4734ac6076124476",
+          "anchors": [
+            "and",
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Details.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710142+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "Details.",
+          "sentence_hash": "d4c11048de15fd7081c8abc8066517c31e162779e071c0b5b5a9190b4f79a481",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "You know him.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.710156+08:00",
+          "content_sha256": "52800f7b315dccba1b856974030f680a09b22763bc89504cd29ddb569eb3e268",
+          "excerpt": "You know him.",
+          "sentence_hash": "ddd30350ea6518fa67623592b3334fa241c7593df1d5655a24ca295290916ae3",
+          "anchors": [
+            "now"
+          ]
+        }
+      ],
+      "entities": [
+        "input",
+        "more",
+        "sql",
+        "claude code",
+        "react",
+        "ponytail",
+        "its",
+        "then",
+        "without ponytail",
+        "fast",
+        "each",
+        "details",
+        "vs",
+        "board",
+        "markdown",
+        "has",
+        "opus",
+        "long",
+        "two",
+        "csv",
+        "needs claude code",
+        "don",
+        "method",
+        "you",
+        "ai",
+        "now",
+        "code",
+        "lower",
+        "in claude code",
+        "benchmarked",
+        "and",
+        "oval"
+      ],
+      "numbers": [
+        "98%",
+        "41%",
+        "68%",
+        "45%",
+        "26%",
+        "53%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_4d5e5c6b3f516e91568982ad",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "publisher": "Simon Willison",
+      "summary": "Introducing Kimi K3.1 Pro\nKimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise \"Full model weights will be released by Nov 4, 2026\".\nThey're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).\nThe US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.\nMoonshot's own benchmarks show ",
+      "category": "科技",
+      "published_at": "2026-10-23T19:40:54+00:00",
+      "why_relevant": "Kimi新模型发布，开源承诺值得关注",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "23rd October 2026 - Link Blog Introducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711160+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "23rd October 2026 - Link Blog Introducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".",
+          "sentence_hash": "9982a0e7326de4a61d0814a2c8342e214dabc9d87c2b9a355b190e9635133afd",
+          "anchors": [
+            "October 20",
+            "pro",
+            "Nov 4",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711193+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).",
+          "sentence_hash": "7a987a13f25a227362922455a7c044d5e6a441516e80cb180aad932dc3f6dce1",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711225+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.",
+          "sentence_hash": "6ef4311ff4adaac2662bc223153a8e7a1aa8555aab4a76466f42709cc9685f74",
+          "anchors": [
+            "$2.00",
+            "for",
+            "us",
+            "$10"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711252+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.",
+          "sentence_hash": "9275e21b04b29836854b5369020c80496a1418a9d4de7eac66c4accf996b1145",
+          "anchors": [
+            "pro",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711279+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).",
+          "sentence_hash": "28f4e1049ce078807db6f1aa49a12299d97f7a69e6025489d8dbf48846e1eaf6",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711301+08:00",
+          "content_sha256": "25324b298ea21f4fc30322eaaca0a1fd396edb66e2b8fe6792250f01259bcf8b",
+          "excerpt": "This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.",
+          "sentence_hash": "4f7cc09ce283ea450e1cfdcc87daf341267c73680104e7cb475fdd1cfb60efa7",
+          "anchors": [
+            "open"
+          ]
+        }
+      ],
+      "entities": [
+        "nov",
+        "for",
+        "astra",
+        "us",
+        "claude haiku",
+        "claude opus",
+        "kimi",
+        "artificial analysis",
+        "rts",
+        "generate",
+        "pro",
+        "svg",
+        "opus",
+        "here",
+        "october",
+        "argon",
+        "recent",
+        "hello python",
+        "full",
+        "highspeed",
+        "sol",
+        "gemini",
+        "they",
+        "api",
+        "llm",
+        "battle drones",
+        "moonshot",
+        "august",
+        "claude fable",
+        "open",
+        "link blog\nintroducing kimi",
+        "gpt"
+      ],
+      "numbers": [
+        "$2.00",
+        "$10"
+      ],
+      "dates": [
+        "October 20",
+        "Nov 4"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_1185f051610305b3a7aa4ae5",
+      "title": "Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdpek9/are_we_solving_llm_memory_by_remembering_more/",
+      "publisher": "r/MachineLearning",
+      "summary": "Long-context models can now handle hundreds of thousands, even millions of tokens. But I've been wondering if we're focusing too much on recall and not enough on what happens when information changes. Say a coding agent reads that an API timeout is 30 seconds. Later, the documentation changes it to 5 seconds. Both versions are still in context, but the agent keeps using 30. It hasn't forgotten anything. It just hasn't updated what it knows. I've been reading about different memory architectures,",
+      "category": "科技",
+      "published_at": "2026-10-23T20:39:06+00:00",
+      "why_relevant": "LLM遗忘机制讨论，切中长上下文痛点",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Both versions are still in context, but the agent keeps using 30.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711613+08:00",
+          "content_sha256": "fdad0ca6d79e822d19ea8038266d6ef415ee1b26ebe94a04495354fb5917ea1d",
+          "excerpt": "Both versions are still in context, but the agent keeps using 30.",
+          "sentence_hash": "993610eb8f5e4aaa64bb9c8419894c2db7ce5781ff41b017aae2006a4b5ec768",
+          "anchors": [
+            "but"
+          ]
+        }
+      ],
+      "entities": [
+        "long",
+        "api",
+        "later",
+        "say",
+        "but",
+        "both"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 6
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c3b95776666afcca3d23f9e4",
+      "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities",
+      "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Rise in energy prices pushes US inflation expectations higher",
+      "category": "财经",
+      "published_at": "2026-10-23T20:13:21+00:00",
+      "why_relevant": "油价飙至117，通胀与地缘风险",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Rise in energy prices pushes US inflation expectations higher",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.711790+08:00",
+          "content_sha256": "41f036ad1227ff99dffbc60709f9bbda7470867be014357aaf1c57a2cbc0d165",
+          "excerpt": "Rise in energy prices pushes US inflation expectations higher",
+          "sentence_hash": "3c808c627b6c4366bdb53775b0c74d0f881977b543f4252f6b8a6770fdfc0386",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "rise"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 2
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_6dae8192f3861e43af5d19f9",
+      "title": "Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371987/zelensky-hopes-beijing-can-use-influence-over-moscow-help-stop-ukraine-war",
+      "publisher": "SCMP",
+      "summary": "Ukrainian President Volodymyr Zelensky said on Friday that Beijing has “influence” over Moscow it should use to stop the war in Ukraine, and that a proposed summit meeting of the US, Chinese and Russian leaders must not lead to the division of his war-torn country.\nSpeaking virtually at an event hosted by Washington-based Hudson Institute think tank, Zelensky said he did not know what would be discussed at the potential meeting between US President Donald Trump, Chinese President Xi Jinping and.",
+      "category": "国际",
+      "published_at": "2026-10-23T20:51:17+00:00",
+      "why_relevant": "泽连斯基盼中国施压，地缘关键",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war Proposed summit meeting of US, Chinese and Russian leaders must not lead to division of his war-torn country, Ukrainian president says 3-MIN READ3-MIN 5 Listen Seong Hyeon Choiin Washing",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.712353+08:00",
+          "content_sha256": "917fc48a14648f33c39dd38f5e1631f75f7ac7ea77aeeb44a8ff798f4828d209",
+          "excerpt": "Advertisement Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war Proposed summit meeting of US, Chinese and Russian leaders must not lead to division of his war-torn country, Ukrainian president says 3-MIN READ3-MIN 5 Listen Seong Hyeon Choiin Washing",
+          "sentence_hash": "625697287a44affa1f7b15b9b88e743453eb99aafa31731f82141c8c1fa9db9e",
+          "anchors": [
+            "proposed",
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Speaking virtually at an event hosted by Washington-based Hudson Institute think tank, Zelensky said he did not know what would be discussed at the potential meeting between US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.712395+08:00",
+          "content_sha256": "917fc48a14648f33c39dd38f5e1631f75f7ac7ea77aeeb44a8ff798f4828d209",
+          "excerpt": "Speaking virtually at an event hosted by Washington-based Hudson Institute think tank, Zelensky said he did not know what would be discussed at the potential meeting between US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin.",
+          "sentence_hash": "205643f062fa5feac751204610c554a505cea401f914b6b7dcb59b04b597428b",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "However, Zelensky described China as a “strong” country with “influence” over Russia, one of its largest trade partners.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.712422+08:00",
+          "content_sha256": "917fc48a14648f33c39dd38f5e1631f75f7ac7ea77aeeb44a8ff798f4828d209",
+          "excerpt": "However, Zelensky described China as a “strong” country with “influence” over Russia, one of its largest trade partners.",
+          "sentence_hash": "b28ec7e265276264b0397364f08a4cb3c2069bfc0ceefd091d689741c81c529e",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "chinese",
+        "us",
+        "china",
+        "proposed",
+        "listen\nseong hyeon choiin washington\nukrainian president volodymyr zelensky",
+        "russia",
+        "speaking",
+        "select voice\nselect speed",
+        "friday",
+        "min",
+        "washington",
+        "ai",
+        "moscow",
+        "advertisement\nzelensky",
+        "zelensky",
+        "president donald trump",
+        "ukrainian",
+        "russian president vladimir putin",
+        "russian",
+        "however",
+        "chinese president xi jinping",
+        "beijing",
+        "hudson institute",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 24
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_899b561cc95b405988bb982d",
+      "title": "Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like",
+      "url": "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Russia's attacks on the Ukrainian capital are hitting harder and more frequently, making 2026 one of the long war's bloodiest years for Kyiv. DW asked people on the ground what life is like.",
+      "category": "国际",
+      "published_at": "2026-10-23T19:08:00+00:00",
+      "why_relevant": "基辅遭袭加剧，战争前线实录",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "With repeat attacks, Russia has put Kyiv on war's front line October 23, 2026 Until a few months ago, life was relatively peaceful in Kyiv when compared with the situation near the war's front lines elsewhere in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.713729+08:00",
+          "content_sha256": "75e3a36b6087031e606c28b0494a7ed18ebff9028bdf8b4555fd4d6577d6eafe",
+          "excerpt": "With repeat attacks, Russia has put Kyiv on war's front line October 23, 2026 Until a few months ago, life was relatively peaceful in Kyiv when compared with the situation near the war's front lines elsewhere in Ukraine.",
+          "sentence_hash": "23cb6b4666314be72d89c1e141f7c170b6e6f1e3f6fee73acd0806d28b846ea9",
+          "anchors": [
+            "October 23",
+            "with",
+            "her"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "With too few shelters for the 4 million residents of Kyiv, subway stations double as makeshift dormitories.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.713762+08:00",
+          "content_sha256": "75e3a36b6087031e606c28b0494a7ed18ebff9028bdf8b4555fd4d6577d6eafe",
+          "excerpt": "With too few shelters for the 4 million residents of Kyiv, subway stations double as makeshift dormitories.",
+          "sentence_hash": "f005cdcc57cc0a3735164b1c88bfbca133a7ac6eae078c41f2bf15a62102d167",
+          "anchors": [
+            "4 million"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Starting at about 10 every night, people create sleeping areas with mattresses and small tents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.713784+08:00",
+          "content_sha256": "75e3a36b6087031e606c28b0494a7ed18ebff9028bdf8b4555fd4d6577d6eafe",
+          "excerpt": "Starting at about 10 every night, people create sleeping areas with mattresses and small tents.",
+          "sentence_hash": "85a2578409b447925521e920c3b8068c2eedd7792aa639eb7b4e795dcd85c5b1",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "\"We're alive,\" Halyna told DW, holding her 5-year-old son, Roman, close.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.713809+08:00",
+          "content_sha256": "75e3a36b6087031e606c28b0494a7ed18ebff9028bdf8b4555fd4d6577d6eafe",
+          "excerpt": "\"We're alive,\" Halyna told DW, holding her 5-year-old son, Roman, close.",
+          "sentence_hash": "1e2870c6aca9d9bbb9ecc9d776ff4389414026069e9c3109dd4f054ebee51863",
+          "anchors": [
+            "her"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "\"We've been lucky once again.\" Most evenings — even when no air-raid siren has sounded — she takes the boy to the nearest subway station.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.713842+08:00",
+          "content_sha256": "75e3a36b6087031e606c28b0494a7ed18ebff9028bdf8b4555fd4d6577d6eafe",
+          "excerpt": "\"We've been lucky once again.\" Most evenings — even when no air-raid siren has sounded — she takes the boy to the nearest subway station.",
+          "sentence_hash": "7577439bb2454f4575b8bbe9248521664c83c64ab778dba2f6592b22c7ad2a1a",
+          "anchors": [
+            "even"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "'These sick monsters don't care who they kill' In September, 14-year-old Daniel Umanskyj was doing homework in his room when a Russian drone struck the apartment building in the central district of Pechersk.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.713883+08:00",
+          "content_sha256": "75e3a36b6087031e606c28b0494a7ed18ebff9028bdf8b4555fd4d6577d6eafe",
+          "excerpt": "'These sick monsters don't care who they kill' In September, 14-year-old Daniel Umanskyj was doing homework in his room when a Russian drone struck the apartment building in the central district of Pechersk.",
+          "sentence_hash": "b1f05af74c4d035deecf7e290e9ab876bbd30d2dab7053c4d8d770c90f40cff0",
+          "anchors": [
+            "one",
+            "her"
+          ]
+        }
+      ],
+      "entities": [
+        "even",
+        "starting",
+        "her",
+        "flowers",
+        "until",
+        "roman",
+        "daniel umanskyj",
+        "kyiv",
+        "russia",
+        "halyna",
+        "with",
+        "fortunately",
+        "valentyna chorna",
+        "whether",
+        "vlad",
+        "danger",
+        "you",
+        "dw",
+        "now",
+        "these",
+        "lukyanivka",
+        "children",
+        "in september",
+        "most",
+        "russian",
+        "pechersk",
+        "daniel",
+        "one",
+        "antonov",
+        "ukraine",
+        "october"
+      ],
+      "numbers": [
+        "4 million"
+      ],
+      "dates": [
+        "October 23"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_903bf1396d57d959ff0f5a05",
+      "title": "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+      "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+      "publisher": "CNBC",
+      "summary": "Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.",
+      "category": "财经",
+      "published_at": "2026-10-23T22:49:04+00:00",
+      "why_relevant": "AI基建遇冷，云厂商信用风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The Nasdaq followed Thursday's beating with an additional drop on Friday to end the week down 0.7%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715141+08:00",
+          "content_sha256": "da7b1017553b53d6ff83988eddb2bd9b9fcee3a68f449088fddb14b4fab6eaa6",
+          "excerpt": "The Nasdaq followed Thursday's beating with an additional drop on Friday to end the week down 0.7%.",
+          "sentence_hash": "c5c6d46fd9f611891db789a67a2ec20756cecdae888c78a27c917a6f8dc66ee7",
+          "anchors": [
+            "0.7%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Among the hyperscalers, the worst performer was Alphabet, shares of which sank 6% ahead of the internet giant's third-quarter earnings report next week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715177+08:00",
+          "content_sha256": "da7b1017553b53d6ff83988eddb2bd9b9fcee3a68f449088fddb14b4fab6eaa6",
+          "excerpt": "Among the hyperscalers, the worst performer was Alphabet, shares of which sank 6% ahead of the internet giant's third-quarter earnings report next week.",
+          "sentence_hash": "e597da0083c2cca81291d5b3500db167a6bfa5f87134809e64e7a984ff126b5c",
+          "anchors": [
+            "6%",
+            "shares",
+            "next"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Microsoft and Amazon are also on the docket, and they each saw shares fall less than 1%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715203+08:00",
+          "content_sha256": "da7b1017553b53d6ff83988eddb2bd9b9fcee3a68f449088fddb14b4fab6eaa6",
+          "excerpt": "Microsoft and Amazon are also on the docket, and they each saw shares fall less than 1%.",
+          "sentence_hash": "0f9133efd0be405ecb033181a3afd4463251d7fd1d848528437e4e67808fb7b4",
+          "anchors": [
+            "and",
+            "shares",
+            "1%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "While the tech market has thus far avoided a dramatic across-the-board sell-off, the artificial intelligence build-out is showing signs of strain.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715236+08:00",
+          "content_sha256": "da7b1017553b53d6ff83988eddb2bd9b9fcee3a68f449088fddb14b4fab6eaa6",
+          "excerpt": "While the tech market has thus far avoided a dramatic across-the-board sell-off, the artificial intelligence build-out is showing signs of strain.",
+          "sentence_hash": "0cb50e042c3fb23198222fe8e56692dee7ed8392deede7a4b0d0784b5de4c204",
+          "anchors": [
+            "ai",
+            "intel"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Shares of neoclouds CoreWeave, Nebius and IREN all fell sharply this week, bringing their losses for October to well over 30% each.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715265+08:00",
+          "content_sha256": "da7b1017553b53d6ff83988eddb2bd9b9fcee3a68f449088fddb14b4fab6eaa6",
+          "excerpt": "Shares of neoclouds CoreWeave, Nebius and IREN all fell sharply this week, bringing their losses for October to well over 30% each.",
+          "sentence_hash": "70f9de2d00bebce65ce3587c91d5d157500385247f673cb4928cce3d0a766b45",
+          "anchors": [
+            "30%",
+            "and",
+            "neoclouds"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "CoreWeave, the leader of the pack, has seen spreads on its CDS widen past 11%, generally viewed as a distress level, as investors have to pay up for protection against default.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715300+08:00",
+          "content_sha256": "da7b1017553b53d6ff83988eddb2bd9b9fcee3a68f449088fddb14b4fab6eaa6",
+          "excerpt": "CoreWeave, the leader of the pack, has seen spreads on its CDS widen past 11%, generally viewed as a distress level, as investors have to pay up for protection against default.",
+          "sentence_hash": "9462af24b77065becfcfd9f7c2970330015cabe7200ab90d1ac274c90c7b445a",
+          "anchors": [
+            "11%",
+            "ai",
+            "1%"
+          ]
+        }
+      ],
+      "entities": [
+        "huang",
+        "alphabet",
+        "arjun kharpal",
+        "weave",
+        "ipo",
+        "roundhill investments",
+        "iren",
+        "on thursday",
+        "friday",
+        "sk",
+        "cds",
+        "gartner",
+        "south korean",
+        "ssd",
+        "squawk",
+        "australia",
+        "next",
+        "october",
+        "wall street",
+        "amazon",
+        "while",
+        "intel",
+        "shares",
+        "solidigm",
+        "tuesday",
+        "meta",
+        "ceo",
+        "cnbc",
+        "hynix",
+        "wednesday",
+        "berlin",
+        "elice group",
+        "street",
+        "withdrawn",
+        "thursday",
+        "neoclouds",
+        "the nasdaq",
+        "microsoft",
+        "jensen huang",
+        "analysts",
+        "among",
+        "ai",
+        "meanwhile",
+        "nebius",
+        "however",
+        "nvidia",
+        "credit",
+        "core",
+        "nand",
+        "and",
+        "dave mazza",
+        "fears"
+      ],
+      "numbers": [
+        "80%",
+        "0.7%",
+        "15%",
+        "30%",
+        "6%",
+        "1%",
+        "11%",
+        "39.5%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 60
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_25f7c6c679663cc3688731d3",
+      "title": "Japan banks prepared to weather AI crash, global rate spike: BOJ stress test",
+      "url": "https://asia.nikkei.com/business/finance/japan-banks-prepared-to-weather-ai-crash-global-rate-spike-boj-stress-test",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "日本银行抗风险测试，宏观信号",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Finance Japan banks prepared to weather AI crash, global rate spike: BOJ stress test Central bank report finds institutions would keep sufficient capital ratios Japan's financial system would \"maintain overall stability\" the BOJ said in its report released on Oct.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715682+08:00",
+          "content_sha256": "8b1d40ced162546148a984ef3dda435410bead85868dd894511ba29310874e49",
+          "excerpt": "Finance Japan banks prepared to weather AI crash, global rate spike: BOJ stress test Central bank report finds institutions would keep sufficient capital ratios Japan's financial system would \"maintain overall stability\" the BOJ said in its report released on Oct.",
+          "sentence_hash": "29a4a23d6d12ca4977bb0095a9067c9553f9650a06901d4a390f02a86e72cf6e",
+          "anchors": [
+            "ai",
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "(Photo by Nanami Sato) SORA KITAJIMA October 24, 2026 01:48 JST TOKYO -- Japanese banks would maintain capital ratios above regulatory requirements even in a scenario involving a surge in global interest rates and a collapse in artificial intelligence-linked stocks, the Bank of J",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.715721+08:00",
+          "content_sha256": "8b1d40ced162546148a984ef3dda435410bead85868dd894511ba29310874e49",
+          "excerpt": "(Photo by Nanami Sato) SORA KITAJIMA October 24, 2026 01:48 JST TOKYO -- Japanese banks would maintain capital ratios above regulatory requirements even in a scenario involving a surge in global interest rates and a collapse in artificial intelligence-linked stocks, the Bank of J",
+          "sentence_hash": "4745ea3234dc95d67218ab30807c2e5dfdb8aecc049ee29cab88210645c013ef",
+          "anchors": [
+            "October 24",
+            "ai",
+            "bank"
+          ]
+        }
+      ],
+      "entities": [
+        "central",
+        "financial system report",
+        "jst",
+        "bank",
+        "boj",
+        "nanami sato",
+        "oct",
+        "japan",
+        "tokyo",
+        "japanese",
+        "friday",
+        "ai",
+        "sora",
+        "finance\njapan",
+        "october",
+        "photo"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 24"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 17
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_202821cbed353155f7bfb61a",
+      "title": "Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3371986/trump-lowers-some-canada-tariffs-help-maine-lawmakers-re-election-bid",
+      "publisher": "SCMP",
+      "summary": "The Trump administration is expanding tariff exemptions to more Canadian products, a move that may help boost Republican US Senator Susan Collins’ re-election campaign in Maine.\nCollins announced in a statement on Friday that the exemptions would apply to certain paper, plastic, machinery and seaweed products, saying they would help the state’s rural and coastal economy, including the blueberry, potato, apple and seaweed industries.\n“Many of our farmers and growers rely on specialised equipment,",
+      "category": "国际",
+      "published_at": "2026-10-23T20:04:15+00:00",
+      "why_relevant": "特朗普关税调整，地缘贸易动态",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid Susan Collins one of the most endangered incumbent Senate Republicans in the coming midterms The Trump administration is expanding tariff exemptions to more Canadian products, a move that may help boost Rep",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.716312+08:00",
+          "content_sha256": "34b63374be586025eb8f726fd9d021c907cab16eaefea42edd4c59ede0d5506b",
+          "excerpt": "Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid Susan Collins one of the most endangered incumbent Senate Republicans in the coming midterms The Trump administration is expanding tariff exemptions to more Canadian products, a move that may help boost Rep",
+          "sentence_hash": "d96a22b8e1bfd3e5382cafcb37e8807f03952f37427d584c629b707509108fec",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Collins announced in a statement on Friday that the exemptions would apply to certain paper, plastic, machinery and seaweed products, saying they would help the state’s rural and coastal economy, including the blueberry, potato, apple and seaweed industries.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.716353+08:00",
+          "content_sha256": "34b63374be586025eb8f726fd9d021c907cab16eaefea42edd4c59ede0d5506b",
+          "excerpt": "Collins announced in a statement on Friday that the exemptions would apply to certain paper, plastic, machinery and seaweed products, saying they would help the state’s rural and coastal economy, including the blueberry, potato, apple and seaweed industries.",
+          "sentence_hash": "08673af9241f4f27e9f5cd3c86a0e6bed6b78fb41aff4f7aeb50b2de95dce9a4",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Trump will amend the tariffs to add new ones to replace the exclusions so that the overall tariff impact is unchanged, a US official said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.716384+08:00",
+          "content_sha256": "34b63374be586025eb8f726fd9d021c907cab16eaefea42edd4c59ede0d5506b",
+          "excerpt": "Trump will amend the tariffs to add new ones to replace the exclusions so that the overall tariff impact is unchanged, a US official said.",
+          "sentence_hash": "11dcc602c86cbc72cfcacb6e00fe8cd3cda402e420339ad3b80791bfeec2d43d",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "canadian",
+        "susan collins",
+        "american",
+        "friday",
+        "maine",
+        "senate republicans",
+        "many",
+        "canada",
+        "senator susan collins",
+        "us",
+        "republican",
+        "trump",
+        "collins",
+        "the trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 14
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_6e3bc2ac7b0ed233c073f0c7",
+      "title": "Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says",
+      "url": "https://www.aljazeera.com/news/2026/10/23/time-running-out-to-reach-yemens-taiz-amid-deepening-crisis-un-says?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.",
+      "category": "国际",
+      "published_at": "2026-10-23T20:44:02+00:00",
+      "why_relevant": "也门人道危机加剧，联合国警告",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.717721+08:00",
+          "content_sha256": "ed8da2b88052401191d1e0e9adde17cda37d5c8dc6fcd4a6a64b7ac2a0855177",
+          "excerpt": "Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.",
+          "sentence_hash": "a39c8bf40616f962f572395ac517bd139cbe10dce5cedc053b3821e1ff358dc8",
+          "anchors": [
+            "800,000 people",
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "A mounting humanitarian disaster is gripping Yemen’s Taiz after nearly three weeks of a Houthi siege that has prevented supplies from entering the city, the United Nations has warned.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.717765+08:00",
+          "content_sha256": "ed8da2b88052401191d1e0e9adde17cda37d5c8dc6fcd4a6a64b7ac2a0855177",
+          "excerpt": "A mounting humanitarian disaster is gripping Yemen’s Taiz after nearly three weeks of a Houthi siege that has prevented supplies from entering the city, the United Nations has warned.",
+          "sentence_hash": "462a5b597036ba7a786584d976acef20f4d6da4828027d777dfbde71cfbceaac",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "“It’s 20 days and counting since Taiz has been cut off,” Jens Laerke, spokesperson for the UN’s humanitarian arm, OCHA, told a news conference in Geneva on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.717820+08:00",
+          "content_sha256": "ed8da2b88052401191d1e0e9adde17cda37d5c8dc6fcd4a6a64b7ac2a0855177",
+          "excerpt": "“It’s 20 days and counting since Taiz has been cut off,” Jens Laerke, spokesperson for the UN’s humanitarian arm, OCHA, told a news conference in Geneva on Friday.",
+          "sentence_hash": "187f86cc060c713459ad00f115dc3de386b5c8805a8ea5d80e6481ede48cf3e2",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“We are seeing increasingly that the fighting makes it impossible for us to get in and impossible for people to get out.” Most people depend on water brought in by trucks, the cost of which has tripled, Laerke said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.717865+08:00",
+          "content_sha256": "ed8da2b88052401191d1e0e9adde17cda37d5c8dc6fcd4a6a64b7ac2a0855177",
+          "excerpt": "“We are seeing increasingly that the fighting makes it impossible for us to get in and impossible for people to get out.” Most people depend on water brought in by trucks, the cost of which has tripled, Laerke said.",
+          "sentence_hash": "1c89dd67d1c74bf523d0d6b2fb03233f2b1a1dc784c34d0d3eac74bf14f707c0",
+          "anchors": [
+            "fighting"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Cooking gas is also “largely unavailable”, threatening community kitchens that provide meals to families.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.717893+08:00",
+          "content_sha256": "ed8da2b88052401191d1e0e9adde17cda37d5c8dc6fcd4a6a64b7ac2a0855177",
+          "excerpt": "Cooking gas is also “largely unavailable”, threatening community kitchens that provide meals to families.",
+          "sentence_hash": "c6e0a38d2fcaa5260e1b57c6721878b1405ad81a0ed0b5e44eb54d753971c0f2",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Altogether, more than 800,000 people in Taiz are cut off from aid, about three-quarters of whom depend on humanitarian assistance, according to the UN World Food Programme (WFP).",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.717925+08:00",
+          "content_sha256": "ed8da2b88052401191d1e0e9adde17cda37d5c8dc6fcd4a6a64b7ac2a0855177",
+          "excerpt": "Altogether, more than 800,000 people in Taiz are cut off from aid, about three-quarters of whom depend on humanitarian assistance, according to the UN World Food Programme (WFP).",
+          "sentence_hash": "201c540594e56c6cef2afcf91aaebb665182bd4d6c7388b24e11136078802477",
+          "anchors": [
+            "800,000 people",
+            "more"
+          ]
+        }
+      ],
+      "entities": [
+        "jens laerke",
+        "houthis",
+        "wfp",
+        "fighting",
+        "southern africa",
+        "more",
+        "al jazeera",
+        "world food programme",
+        "christian lindmeier",
+        "un",
+        "yemen",
+        "world health organization",
+        "colonel majid",
+        "united nations",
+        "laerke",
+        "friday",
+        "most",
+        "forty",
+        "october",
+        "azfar deen",
+        "hospitals",
+        "nuzaili",
+        "while",
+        "altogether",
+        "ocha",
+        "desperate",
+        "taiz",
+        "houthi",
+        "masrakh",
+        "in taiz",
+        "little",
+        "jabal han",
+        "the iran",
+        "cooking",
+        "geneva",
+        "time",
+        "dhubab",
+        "european commission",
+        "aden"
+      ],
+      "numbers": [
+        "800,000 people",
+        "22.5 million"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e4959b751c94043d0a86eefb",
+      "title": "Argentina drops investigation into President Milei over crypto fraud",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
+      "category": "国际",
+      "published_at": "2026-10-23T20:59:39+00:00",
+      "why_relevant": "阿根廷总统加密欺诈案撤销",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Argentina drops investigation into President Milei over crypto fraud - Published A criminal investigation into Argentine President Javier Milei and his sister's links to a cryptocurrency scandal has been dropped.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.718886+08:00",
+          "content_sha256": "daa4402734a337e52d5dbeb634abfbb5be3b6d31dfaf4eca048da71a00eb8ed2",
+          "excerpt": "Argentina drops investigation into President Milei over crypto fraud - Published A criminal investigation into Argentine President Javier Milei and his sister's links to a cryptocurrency scandal has been dropped.",
+          "sentence_hash": "604cf9338848bcf2a0da4ca19677dd4ecc804b713641ce4172d96d88374e046f",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The case against Milei and his sister Karina Milei was dismissed by federal judge Marcelo Martinez de Giorgi at the request of prosecutors, court records show.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.718916+08:00",
+          "content_sha256": "daa4402734a337e52d5dbeb634abfbb5be3b6d31dfaf4eca048da71a00eb8ed2",
+          "excerpt": "The case against Milei and his sister Karina Milei was dismissed by federal judge Marcelo Martinez de Giorgi at the request of prosecutors, court records show.",
+          "sentence_hash": "2b2c6737822abb7486cd793faa995eb695106fc7c7d3e98f3d982a77071e26ae",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Argentinian president had denied promoting the newly launched cryptocoin $Libra , which collapsed shortly after he mentioned it in a social media post in February 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.718943+08:00",
+          "content_sha256": "daa4402734a337e52d5dbeb634abfbb5be3b6d31dfaf4eca048da71a00eb8ed2",
+          "excerpt": "The Argentinian president had denied promoting the newly launched cryptocoin $Libra , which collapsed shortly after he mentioned it in a social media post in February 2025.",
+          "sentence_hash": "671d4fd44d61994a1f3ab0493141b0e1a97ec10e45030246f9c3c601eda2ef3d",
+          "anchors": [
+            "February 20"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "He said he had acted \"in good faith\" when the cryptocurrency rose in value before crashing and causing huge losses for the majority of its investors.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.718987+08:00",
+          "content_sha256": "daa4402734a337e52d5dbeb634abfbb5be3b6d31dfaf4eca048da71a00eb8ed2",
+          "excerpt": "He said he had acted \"in good faith\" when the cryptocurrency rose in value before crashing and causing huge losses for the majority of its investors.",
+          "sentence_hash": "25896afa0c5f215f6ca71f9d90153e40e6e4084cd2e4699c73e0a75d41af76ba",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Dismissing the case, the judge said \"the reported events do not fall under a legal category\", and concluded that no \"criminally relevant deception\" had been proven.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.719019+08:00",
+          "content_sha256": "daa4402734a337e52d5dbeb634abfbb5be3b6d31dfaf4eca048da71a00eb8ed2",
+          "excerpt": "Dismissing the case, the judge said \"the reported events do not fall under a legal category\", and concluded that no \"criminally relevant deception\" had been proven.",
+          "sentence_hash": "47f1cf038bfd7bcf43e2ec6e8d6f83920927e8c9b14ae6f8b7205792554935aa",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Accusations of fraud arose when Milei posted on X, formerly Twitter, about the $Libra coin, which he said at the time would help fund small businesses and start-ups.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-24T08:03:41.719046+08:00",
+          "content_sha256": "daa4402734a337e52d5dbeb634abfbb5be3b6d31dfaf4eca048da71a00eb8ed2",
+          "excerpt": "Accusations of fraud arose when Milei posted on X, formerly Twitter, about the $Libra coin, which he said at the time would help fund small businesses and start-ups.",
+          "sentence_hash": "10522312e4ab6d8dcfe7b11c3cc0e32b722de217a39a5894c1e7a3979bfb2f18",
+          "anchors": [
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "congress",
+        "corruption office",
+        "milei",
+        "accusations",
+        "dismissing",
+        "karina milei",
+        "president milei",
+        "february",
+        "but",
+        "giorgi",
+        "marcelo martinez",
+        "libra",
+        "argentina",
+        "todo noticias",
+        "tv",
+        "argentine",
+        "twitter",
+        "argentine president javier milei",
+        "related",
+        "anti",
+        "the argentinian",
+        "and",
+        "published"
+      ],
+      "numbers": [],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 24
+      },
+      "evidence_complete": true
+    }
+  ]
+}

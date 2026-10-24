@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-22 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-24 08:07。
+
+## NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_947ae59a998f`
+
+## Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy Developers merged a policy change that ends the months-long embargo for flaws a chatbot could rediscover, after a summer in which AI found hundreds of bitcoin bugs before the humans did.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_0db96b070f5f`
+
+## DietrichGebert/ponytail
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Ponytail 5: rebuilt from the ground up.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_e11f7e5b835b`
+
+## Introducing Kimi K3.1 Pro
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：23rd October 2026 - Link Blog Introducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise "Full model weights will be released by Nov 4, 2026".
+- 事件 ID：`evt_20261024_5bd3f0f34dd2`
+
+## Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Both versions are still in context, but the agent keeps using 30.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261024_4984729159f3`
+
+## Oil hits $117 for first time since April on fears of flare-up in Iran hostilities
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Rise in energy prices pushes US inflation expectations higher
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261024_a78d43ddb951`
+
+## Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Advertisement Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war Proposed summit meeting of US, Chinese and Russian leaders must not lead to division of his war-torn country, Ukrainian president says 3-MIN READ3-MIN 5 Listen Seong Hyeon Choiin Washing
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_6b82527387dd`
+
+## Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：With repeat attacks, Russia has put Kyiv on war's front line October 23, 2026 Until a few months ago, life was relatively peaceful in Kyiv when compared with the situation near the war's front lines elsewhere in Ukraine.
+- 事件 ID：`evt_20261024_a3c6eee552a3`
+
+## Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：The Nasdaq followed Thursday's beating with an additional drop on Friday to end the week down 0.7%.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_caf29af21f77`
+
+## Japan banks prepared to weather AI crash, global rate spike: BOJ stress test
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Finance Japan banks prepared to weather AI crash, global rate spike: BOJ stress test Central bank report finds institutions would keep sufficient capital ratios Japan's financial system would "maintain overall stability" the BOJ said in its report released on Oct.
+- 事件 ID：`evt_20261024_02d14adf44e1`
+
+## Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid Susan Collins one of the most endangered incumbent Senate Republicans in the coming midterms The Trump administration is expanding tariff exemptions to more Canadian products, a move that may help boost Rep
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_03da6acaa71f`
+
+## Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261024_608cab956449`
+
+## Argentina drops investigation into President Milei over crypto fraud
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
+- 最新事实：Argentina drops investigation into President Milei over crypto fraud - Published A criminal investigation into Argentine President Javier Milei and his sister's links to a cryptocurrency scandal has been dropped.
+- 事件 ID：`evt_20261024_c74cfdcb21a8`
 
 ## Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.
 - 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
@@ -878,141 +952,4 @@
 - 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
 - 最新事实：Investors are facing volatile times in the stock market, but as of late, even safe-haven Treasurys are selling off, raising questions about what's next for the balanced portfolio.
 - 事件 ID：`evt_20260924_644a49e5ff4e`
-
-## EXCLUSIVE: US to open two new military bases in Greenland, sources say
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-23
-- 最新事实：US to build two military bases in Greenland under new deal with Denmark - Published The US, Denmark and Greenland have signed a defence deal that allows Washington to build two new military bases in the Arctic territory, while reaffirming Copenhagen's sovereignty over it.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_106e2ccdbaa6`
-
-## Zelensky meets Trump, says Ukraine ready for energy truce with Russia
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：Zelensky meets Trump, says Ukraine ready for energy truce with Russia The US president announced such a truce last week, but Russia hit petrol stations in Kyiv the next day and Ukraine bombed an oil refinery Ukrainian leader Volodymyr Zelensky said on Tuesday that he and US Presi
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_4a4a7b4607b8`
-
-## Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：It’s going to take a while to get a good read on all of these new models, but here are my impressions so far.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_a5f1932359c9`
-
-## OpenAI Unleashes A New Price War, With GPT-6 Sol And GPT-6 Luna Now Priced Below Claude Opus 5.5 And DeepSeek’s V4.1 Flash, Respectively, Negating The Rationale For Open-Weight Models
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：OpenAI's GPT-6 Sol is now priced at just $2 per 1 million tokens of input, while the GPT-6 Luna offers 1 million tokens of input at just $0.10 OpenAI's GPT-6 Sol and GPT-6 Luna are both 50 percent cheaper than their previous iterations.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_e7f3ebea0bd2`
-
-## US law enforcement tightens security for Xi summit as welcome and protest events planned
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：Advertisement US law enforcement tightens security for Xi summit as welcome and protest events planned US Secret Service says it is committed to ensuring the safety and security of all foreign heads of state while they are on American soil 2-MIN READ2-MIN Listen Han Liin Washingt
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_aac88fc491c0`
-
-## Trump’s threat to annihilate Iran to UN general assembly is stunning, even for him
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：But this year, he may have upstaged the ghost of Nikita Khrushchev by openly contemplating the annihilation of a fellow UN member state.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_283b36b337ef`
-
-## US Treasury secretary could take on AI czar role, source says
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260923_71db57dcb1c0`
-
-## Nasdaq rises to new record; S&P 500 closes flat as oil slides for a fifth day
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：The Nasdaq Composite rose to a fresh all-time intraday high on Tuesday, while the S&P 500 was relatively unchanged as traders continued to keep an eye on developments between the U.S.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_1d3bfd3a1407`
-
-## Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260923_4f1f65f8fe7f`
-
-## Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：President Donald Trump disclosed, in a filing released Tuesday, more than 1,100 securities transactions made on his behalf in July, including sales of as much as $25 million each of Microsoft and Amazon shares, as his sprawling investment portfolio underwent another month of heav
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_cdcbaffa779d`
-
-## Canada seeks to wrap up India trade talks soon, as US ties fray
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：Canada seeks to wrap up India trade talks soon, as US ties fray PM Carney says his Indian counterpart Modi will visit Canada around the time of the G20 summit in Miami this December Canadian Prime Minister Mark Carney said on Tuesday that trade negotiations with India are making 
-- 事件 ID：`evt_20260923_06720fffee62`
-
-## Crosstalk-Solutions/project-nomad
-- 状态：更新中；首见 2026-09-23；最近更新 2026-09-23
-- 最新事实：Project NOMAD is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered — anytime, anywhere.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_b849bef563b2`
-
-## US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Advertisement US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit Top Democrat on the House China committee calls for international inspections of leading AI laboratories and a ban on self-improving systems 3-MIN READ3-MIN Listen Lucy Quagginin New
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_3046753d0286`
-
-## EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：EXCLUSIVE: Trump approval falls to record low of 32% as high costs bite, Reuters/Ipsos poll finds&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260922_7399b9286cfc`
-
-## Get the world’s fastest gaming CPU and a DLSS 5-capable GPU in a gaming PC for $2,299 — fully loaded powerhouse sports Ryzen 7 9800X3D, RTX 5080 Founders Edition, 32GB RAM, and 1TB SSD [Updated]
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Get the world’s fastest gaming CPU and a DLSS 5-capable GPU in a gaming PC for $2,299 — fully loaded powerhouse sports Ryzen 7 9800X3D, RTX 5080 Founders Edition, 32GB RAM, and 1TB SSD [Updated] Update 2:39PM PT: This is going in and out of stock.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_7f013071b2f5`
-
-## Putin’s party wins supermajority in Russia’s parliamentary election
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Putin’s party wins supermajority in Russia’s parliamentary election Victory of United Russia party strengthens Putin’s hand even as the war with Ukraine grows more unpopular.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_3a075934606a`
-
-## Banished to alien lands: Trump’s secret deportation deals
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Nika’s story No one would tell the shackled detainees onboard the US immigration plane where they were going.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_64bd12710235`
-
-## Nuclear power is back on Southeast Asia's energy agenda
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Nuclear power is back on Southeast Asia's energy agenda September 21, 2026 Southeast Asian governments are revisiting nuclear power as electricity consumption raises, exposing the region's dependence on fossil fuels.
-- 事件 ID：`evt_20260922_8939c6f88e29`
-
-## anthropics/financial-services
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_d1dea913d32d`
-
-## BuilderIO/agent-native
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Agent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_e294ea3a4048`
-
-## MCP was always a bad idea?
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：20th September 2026 This article entirely misses the value that MCP brings today.
-- 事件 ID：`evt_20260922_e4cb7b702ba8`
-
-## Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails The tech giants’ job listings could indicate that they are separately pursuing experts in stablecoins and tokenized deposits for future projects.
-- 事件 ID：`evt_20260922_467c2b4e466f`
-
-## ‘Stop the bleeding’: Republicans tell Trump to ban US diesel exports
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 最新事实：‘Stop the bleeding’: top Republicans tell Donald Trump to ban US diesel exports ahead of midterms Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260922_0056c04defce`
-
-## Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat
-- 状态：更新中；首见 2026-09-22；最近更新 2026-09-22
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260922_38ca17ad28ee`
 
