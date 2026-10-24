@@ -65,6 +65,21 @@ def test_rejection_preserves_all_sources_without_resubmitting(monkeypatch, batch
         assert article["summary_mode"] == "source_only"
 
 
+def test_ai_outage_delivers_labeled_original_sources(monkeypatch):
+    selected = articles()
+    monkeypatch.setattr(ai, "DEEPSEEK_API_KEY", "test-key")
+    monkeypatch.setattr(ai, "BATCH_SIZE", 7)
+    def timeout(*args, **kwargs):
+        raise ai.requests.exceptions.Timeout("upstream timeout")
+
+    monkeypatch.setattr(ai, "_call_deepseek_once", timeout)
+    result = ai.summarize_with_deepseek(selected)
+    validate_digest_layout(result, [item["article_id"] for item in selected])
+    assert "AI 服务暂不可用" in result
+    assert all(item["link"] in result for item in selected)
+    assert all(item["summary_mode"] == "source_only" for item in selected)
+
+
 @pytest.mark.parametrize("status,message", [(400, "Invalid parameter"), (401, "Unauthorized"), (402, "Insufficient Balance"), (500, "Content Exists Risk")])
 def test_other_api_errors_still_fail(monkeypatch, status, message):
     class Response:

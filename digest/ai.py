@@ -350,25 +350,25 @@ def _log_sanity(content: str) -> None:
 
 
 def summarize_with_deepseek(articles: list[dict]) -> str:
-    """内容审核拒绝时提供来源快讯，不重发被拒素材或编造分析。"""
+    """AI 服务无法成稿时提供来源快讯，不编造分析。"""
     try:
         return _summarize_with_deepseek(articles)
     except DeepSeekContentRejected:
         log.warning("DEEPSEEK_CONTENT_REJECTED: 改用原始来源快讯，跳过后续 AI 改写")
-        result = _render_source_digest(articles)
-        for article in articles:
-            article["summary_mode"] = "source_only"
-        return result
+        reason = "部分素材未通过 AI 服务内容审核"
+    except (requests.exceptions.RequestException, RuntimeError) as exc:
+        log.warning("DEEPSEEK_UNAVAILABLE: %s，改用原始来源快讯", type(exc).__name__)
+        reason = "AI 服务暂不可用"
+    result = _render_source_digest(articles, reason=reason)
+    for article in articles:
+        article["summary_mode"] = "source_only"
+    return result
 
 
-def _render_source_digest(articles: list[dict]) -> str:
+def _render_source_digest(articles: list[dict], *, reason: str = "部分素材未通过 AI 服务内容审核") -> str:
     """保留选稿、来源和内部 ID；事实段仅引用来源标题，不生成推断。"""
-    def plain(value: str) -> str:
-        value = html.escape(" ".join(value.split()))
-        return re.sub(r"([\\`*_{}\[\]])", r"\\\1", value)
-
     parts = [
-        "『今日导语』\n部分素材未通过 AI 服务内容审核，本期改为原始来源快讯。"
+        f"『今日导语』\n{reason}，本期改为原始来源快讯。"
         "以下保留来源原文标题（可能为英文）及链接，未生成 AI 分析。"
     ]
     for category, section in (("国际", "🌍 国际要闻"), ("科技", "💻 科技与 AI"), ("财经", "💰 财经市场")):
@@ -376,20 +376,32 @@ def _render_source_digest(articles: list[dict]) -> str:
         for article in articles:
             if article["category"] != category:
                 continue
-            title = plain(article["title"])
-            parts.append(
-                f"<!-- article_id:{article['article_id']} -->\n"
-                f"**📡 {title}**\n"
-                f"- **【核心事实】**：来源原文标题：{title}。\n"
-                "- **【深层逻辑】**：本期未生成 AI 分析，请阅读原文了解报道背景。\n"
-                "- **【后市/影响】**：本期不作影响判断。\n"
-                f"> 📰 来源：{plain(article['source'])}（{article['link']}）"
-            )
+            parts.append(_render_source_item(article))
     return "\n\n".join(parts)
 
 
+def _plain_source_text(value: str) -> str:
+    value = html.escape(" ".join(value.split()))
+    return re.sub(r"([\\`*_{}\[\]])", r"\\\1", value)
+
+
+def _render_source_item(article: dict) -> str:
+    """只用上游选稿元数据构造一条标明局限的快讯。"""
+    if not all(article.get(field) for field in ("title", "source", "link")):
+        raise DigestLayoutError(f"条目 {article['article_id']} 缺少原始来源元数据，无法安全回退")
+    title = _plain_source_text(article["title"])
+    return (
+        f"<!-- article_id:{article['article_id']} -->\n"
+        f"**📡 原始来源快讯：{title}**\n"
+        f"- **【核心事实】**：来源原文标题：{title}。\n"
+        "- **【深层逻辑】**：本条未生成 AI 分析，请阅读原文了解报道背景。\n"
+        "- **【后市/影响】**：本条不作影响判断。\n"
+        f"> 📰 来源：{_plain_source_text(article['source'])}（{article['link']}）"
+    )
+
+
 def _repair_batch_output(text: str, articles: list[dict]) -> str:
-    """只补写缺失/损坏条目一次；不猜测 ID 与正文的对应关系。"""
+    """由原始选稿数据提供来源；损坏正文补写一次，失败时回退来源快讯。"""
     parsed = parse_main_items(strip_audit_block(text))
     grouped: dict[str, list[str]] = {}
     for item in parsed:
@@ -402,6 +414,10 @@ def _repair_batch_output(text: str, articles: list[dict]) -> str:
         if len(candidates) != 1:
             raise DigestLayoutError(f"条目 {aid} 缺失或重复")
         content = re.split(r"(?m)^『(?:今日导语|编辑手记)[^\n]*』", candidates[0], maxsplit=1)[0].strip()
+        if article.get("source") and article.get("link"):
+            # Citation provenance belongs to the selected article, never the model.
+            content = re.sub(r"(?m)^>\s*📰\s*来源[^\n]*(?:\n|$)", "", content).rstrip()
+            content += f"\n> 📰 来源：{_plain_source_text(article['source'])}（{article['link']}）"
         block = f"<!-- article_id:{aid} -->\n{content}"
         # 校验函数要求三大标题；这里只验证当前条目的完整性。
         scaffold = "\n\n".join(f"## {section}" for section in sections.values())
@@ -426,9 +442,14 @@ def _repair_batch_output(text: str, articles: list[dict]) -> str:
                 max_tokens=4000, thinking_enabled=False,
             )
             repaired = parse_main_items(strip_audit_block(reply["choices"][0]["message"]["content"]))
-            if len(repaired) != 1 or repaired[0]["article_id"] != aid:
-                raise DigestLayoutError(f"补写后条目 {aid} 的 ID 仍不完整")
-            block = checked_block(article, [repaired[0]["content"]])
+            try:
+                if len(repaired) != 1 or repaired[0]["article_id"] != aid:
+                    raise DigestLayoutError(f"补写后条目 {aid} 的 ID 仍不完整")
+                block = checked_block(article, [repaired[0]["content"]])
+            except DigestLayoutError as repair_exc:
+                log.warning("条目 %s 补写仍不完整，改用原始来源快讯：%s", aid, repair_exc)
+                block = _render_source_item(article)
+                article["summary_mode"] = "source_only"
         rendered[article["category"]].append(block)
     return "\n\n".join(
         f"## {section}\n" + "\n\n".join(rendered[category])
@@ -473,6 +494,11 @@ def _summarize_with_deepseek(articles: list[dict]) -> str:
         content = strip_audit_block(content)
         try:
             validate_digest_layout(content, [article["article_id"] for article in articles])
+            items = {item["article_id"]: item["content"] for item in parse_main_items(content)}
+            if any(not any(article.get("link") in line for line in re.findall(
+                       r"(?m)^>\s*📰\s*来源[^\n]*", items[article["article_id"]]))
+                   for article in articles):
+                raise DigestLayoutError("单批成稿来源链接与选稿不一致")
         except DigestLayoutError:
             content = _repair_batch_output(content, articles)
         return content
@@ -531,6 +557,12 @@ def _summarize_with_deepseek(articles: list[dict]) -> str:
                 grouped_parts.append(content)
 
     all_news = "\n\n".join(grouped_parts)
+
+    # A source-only item has no AI analysis to summarize; keep the validated
+    # article body without asking the model to infer a lead from it.
+    if any(article.get("summary_mode") == "source_only" for article in articles):
+        log.warning("本期含原始来源快讯，跳过 AI 导语与编辑手记")
+        return all_news
 
     # ── 安全网：AI 分批时漏写了板块标题（通常是 🌍 国际要闻），未分类桶里有实料就自动补标题 ──
     uncategorized = "\n".join(sections_data["未分类"]).strip()
