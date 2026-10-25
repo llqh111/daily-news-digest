@@ -1,6 +1,6 @@
 # 日报稳定性修复验收（2026-10-25）
 
-状态：本地修复完成，未发布；离线测试不能证明连续一个月生产稳定。
+状态：修复 648fa30 已发布，真实日报验证通过；尚未经过连续一个月生产观察。
 基线：origin/release f30423b；保留已上线的 80f7b2d 来源快讯降级。
 
 ## 线上证据
@@ -36,7 +36,7 @@ python -m pytest --ignore=test_rss.py -q -p no:cacheprovider --basetemp=.task-te
 
 ## 上线及一个月验收
 
-发布和真实外发待授权；只发布本修复提交，不合入原工作区未提交内容。
+用户已授权发布和一次真实外发；仅发布本修复提交，原工作区未提交内容未合入。
 上线后验证 daily、force=false 的实际稿件、每位微信收件人回执、去重台账、evidence/quality 归档。
 连续 30 个应发日期均有完整微信送达才算月度验收通过；来源快讯降级次数另计。
 
@@ -47,3 +47,15 @@ Git 同步三次仍失败或 runner 硬中止时，须核对回执并恢复台�
 自动审批拒绝新增包含稿件和台账的 GitHub Actions 附件上传；该方案已移除。
 
 回滚：在生产分支 git revert 本修复提交，保留生产台账，不 reset 到历史状态。
+
+## 真实生产验收
+
+- [运行 40160139995](https://github.com/llqh111/daily-news-digest/actions/runs/40160139995)：success，执行代码 648fa30，daily 模式。
+- 因今天 08:07 已发过早报，本次已授权验证使用一次 force=true；定时任务默认值未改。
+- 生产 Python 3.12 测试：198 passed in 1.58s（工作流测试范围小于本地完整 254 项）。
+- 北京时间 12:06 微信四位收件人均返回成功回执，4 人各 1 段；本轮未使用来源快讯降级。
+- Telegram 返回 Unauthorized，仍需修复凭据；未影响微信送达和台账保存。
+- 远程台账提交 da4ba7d，updated=2026-10-25 12:06；稿件、evidence、quality 和 reps 已保存。
+- 13 个主新闻 ID 在 evidence/quality/reps 中一致；validation_complete=true、artifact_bundle_status=present。
+- 成稿没有 article_id、自我审计或占位符泄漏；14 条来源行包含附加板块来源。
+- 质量报告有 6 条数字证据匹配提示，缺失证据条目为 0；匹配提示并不等于已证实错误，也不代表事实质量完全通过。
