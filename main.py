@@ -479,7 +479,12 @@ def main() -> None:
             log.info("📲 Server酱 未配置，跳过微信推送")
 
         # Telegram：海外 runner 直连，不受 GFW 影响
-        tg_ok = push_to_telegram(summary)
+        try:
+            tg_ok = push_to_telegram(summary)
+        except Exception as exc:
+            # 微信可能已经送达，备用通道异常不能阻断去重台账保存。
+            log.warning("Telegram 通道异常：%s", type(exc).__name__)
+            tg_ok = False
 
         # ── 送达判定 ──────────────────────────────────
         # 只有至少一个渠道成功送达，才保存去重记录；全部失败则抛错，

@@ -16,7 +16,8 @@ import json
 import logging
 import re
 
-from .ai import _call_deepseek_once
+from .ai import _call_deepseek_once, strip_audit_block
+from .quality import DigestLayoutError, validate_digest_layout
 from .config import CRITIQUE_MODEL, EVIDENCE_GUIDED_REWRITE_ENABLED, REWRITE_THRESHOLD, SELF_CRITIQUE_ENABLED
 from .factcheck import sanity_check_output
 
@@ -188,6 +189,17 @@ def refine_digest(summary: str, *, quality_report: dict | None = None,
         return summary
 
     # ── 保全校验：破格式就弃用重写 ──
+    if _article_ids(summary):
+        rewritten = strip_audit_block(rewritten)
+        try:
+            validate_digest_layout(rewritten, _article_ids(summary))
+        except DigestLayoutError as exc:
+            log.warning("重写后结构损坏，回退原稿：%s", exc)
+            return summary
+        source_lines = r"(?m)^>\s*📰\s*来源[^\n]*"
+        if re.findall(source_lines, rewritten) != re.findall(source_lines, summary):
+            log.warning("重写后来源行被改动，回退原稿")
+            return summary
     if _source_count(rewritten) < _source_count(summary):
         log.warning("重写后「📰 来源」标记减少，疑似丢链接 → 回退原稿")
         return summary

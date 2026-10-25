@@ -221,7 +221,8 @@ def triage_with_deepseek(articles: list[dict]) -> list[dict]:
 
     def _fallback(reason: str) -> list[dict]:
         log.warning(f"⚠️ triage 回退粗筛排序（原因：{reason}）")
-        fallback = sorted(articles, key=lambda a: a.get("score", 0), reverse=True)[:FINAL_PICK]
+        ranked = sorted(articles, key=lambda a: a.get("score", 0), reverse=True)
+        fallback = _select_by_category_quota(ranked, ranked)
         for article in fallback:
             # Keep the decision table and its audit trail intact even when R1 is unavailable.
             article["ai_score"] = float(article.get("score", 0))

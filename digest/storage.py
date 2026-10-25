@@ -97,12 +97,13 @@ def save_sent_links(links: list[str]) -> None:
         "history": history,
     }
     try:
-        with open(SENT_LOG_FILE, "w", encoding="utf-8") as f:
+        with open(SENT_LOG_FILE + ".tmp", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+        os.replace(SENT_LOG_FILE + ".tmp", SENT_LOG_FILE)
         total = sum(len(v) for v in history.values())
         log.info(f"已保存跨天推送记录：{len(links)} 条（今日），总计 {total} 条 / {len(history)} 天")
     except Exception as e:
-        log.warning(f"保存推送记录失败（不影响推送）: {e}")
+        raise RuntimeError("保存推送记录失败，需要恢复台账后再重跑") from e
 
 
 def _logical_date(dt: datetime) -> str:

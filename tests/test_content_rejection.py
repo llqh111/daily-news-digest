@@ -98,7 +98,8 @@ def test_other_api_errors_still_fail(monkeypatch, status, message):
 
 
 @pytest.mark.parametrize("delivered", [True, False])
-def test_pipeline_keeps_delivery_checks_and_skips_ai_after_rejection(monkeypatch, tmp_path, delivered):
+@pytest.mark.parametrize("tg_exception", [False, True])
+def test_pipeline_keeps_delivery_checks_and_skips_ai_after_rejection(monkeypatch, tmp_path, delivered, tg_exception):
     import main
     from digest import storage
 
@@ -141,7 +142,11 @@ def test_pipeline_keeps_delivery_checks_and_skips_ai_after_rejection(monkeypatch
     monkeypatch.setattr(main, "generate_topics", forbidden)
     monkeypatch.setattr(main, "SERVERCHAN_SENDKEY", "test-key")
     monkeypatch.setattr(main, "push_to_wechat", lambda summary, keys: sent.append(summary) or int(delivered))
-    monkeypatch.setattr(main, "push_to_telegram", lambda _: False)
+    def telegram(_):
+        if tg_exception:
+            raise ValueError("invalid gateway response")
+        return False
+    monkeypatch.setattr(main, "push_to_telegram", telegram)
     monkeypatch.setattr(main, "send_failure_alert", lambda *args: None)
 
     if delivered:

@@ -272,7 +272,12 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
             # ── 兼容返回 application/json 的服务端响应。
             if "application/json" in ct:
                 data = resp.json()
-                content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+                try:
+                    content = data["choices"][0]["message"]["content"]
+                    if not isinstance(content, str):
+                        raise TypeError("content must be a string")
+                except (KeyError, IndexError, TypeError) as exc:
+                    raise RuntimeError("DeepSeek 返回无效的正文数据结构") from exc
                 usage = data.get("usage", {"total_tokens": "?"})
                 if content.strip():
                     return {
@@ -298,7 +303,7 @@ def _call_deepseek_once(system_prompt: str, user_prompt: str,
                     delta = json.loads(data_str)
                     choice = delta.get("choices", [{}])[0]
                     chunk_text = choice.get("delta", {}).get("content", "")
-                    if chunk_text:
+                    if isinstance(chunk_text, str) and chunk_text:
                         chunks.append(chunk_text)
                 except Exception:
                     continue
