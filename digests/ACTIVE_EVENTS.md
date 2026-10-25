@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-24 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-25 08:07。
+
+## NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：A new GPU unlock tool has unlocked the full potential of NVIDIA's RTX 30 & RTX 40 GPUs, achieving faster AI LLM performance and compute capabilities.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_6b5cd0936819`
+
+## OpenBMB/VoxCPM
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support!
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_257e1ca585b3`
+
+## Donating Agent Skills to the Agentic AI Foundation
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：22nd October 2026 - Link Blog Donating Agent Skills to the Agentic AI Foundation.
+- 事件 ID：`evt_20261025_af39ea823203`
+
+## NVIDIA/OpenShell
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：OpenShell is the safe, private runtime for fleets of autonomous AI agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_30dbe84a1058`
+
+## Nvidia's role as AI financier faces first big test as neoclouds take market hit
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Nvidia's emergence as financier for the global AI buildout is facing its first major stress test as credit markets tighten for key partners.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_969e1b0d2177`
+
+## Singapore embraces AI for cyber defence, with one caveat: breach transparency
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Advertisement Singapore embraces AI for cyber defence, with one caveat: breach transparency The city state will take a ‘pragmatic’ approach to AI adoption as it seeks to bolster protection for its critical infrastructure 4-MIN READ4-MIN Kolette Limin Singapore Singapore is turnin
+- 事件 ID：`evt_20261025_623c80c7affd`
+
+## Trump lauds Melania over Russia-Ukraine localised ceasefire deal
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Trump lauds Melania over Russia-Ukraine localised ceasefire deal NewsFeed Trump lauds Melania over Russia-Ukraine localised ceasefire deal US President Donald Trump praised First Lady Melania Trump, saying she was ‘better than our professionals’ following her diplomatic efforts t
+- 事件 ID：`evt_20261025_0b5eb42b695a`
+
+## Iran blames US for deal failure, urges new try amid fear of new attacks
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：In comments broadcast by Iranian Press TV on Saturday, But Pezeshkian also said that both sides should return to the deal and “conclude it”.
+- 事件 ID：`evt_20261025_15756a917f48`
+
+## Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Another 527 people were injured during heavy wind and torrential rain.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_dda6c1de5341`
+
+## Kim Jong-un crosses newly opened bridge into China
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：The pair toured a car factory, and promised to strengthen the bilateral relationship.
+- 事件 ID：`evt_20261025_e041bb1ab7ec`
+
+## Israeli central bank rejects Netanyahu’s plan to use crypto to evade sanctions
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261025_2ab21e9790d5`
+
+## Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Crypto under weekend pressure, bitcoin slides below $80,000 on U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_7b041b9c71bf`
+
+## More than one million Lula supporters rally on eve of Brazilian election runoff
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_faa14867a937`
 
 ## NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More
 - 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
@@ -878,78 +950,4 @@
 - 最新事实：The Office Harness for AI Agents Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) High-performance, fully customizable Office SDK Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one 
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20260925_ed9fa0d45f87`
-
-## Trump greets Xi Jinping at plane as Chinese leader arrives for state visit
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Donald Trump welcomed Xi Jinping on Wednesday evening, taking the unusual step of greeting the Chinese leader on the tarmac at Joint Base Andrews to kick off his state visit to Washington.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_1d574beef7d8`
-
-## Can the US and China verify an AI deal? Start-ups are starting to build the tools
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Start-ups are starting to build the tools Researchers are developing technology to monitor AI development without relying on trust between Washington and Beijing There are growing calls for Washington and Beijing to agree to slow down development of artificial intelligence.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_ad603624b6af`
-
-## AI superpower ambitions take centre stage as Trump and Xi meet
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：AI superpower ambitions take centre stage as Trump and Xi meet - Published "Whoever wins AI, WINS!" US President Donald Trump has been blunt about his AI ambitions, as well as about who he considers the US's main rival to be: China.
-- 事件 ID：`evt_20260924_ada3bce4375c`
-
-## NVIDIA Smooth Motion Now Runs on RTX 30 Series GPUs Thanks to NVSmooth30 Mod, RTX 3050 Laptop and RTX 3080 Confirmed Working
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：NVIDIA's latest frame generation technologies continue to make their way onto older RTX GPUs thanks to the modding community.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_2b81a0bc315f`
-
-## Claude discovers a novel enzyme system with CRISPR-like repeats
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_951009486bb2`
-
-## Jev introduces a new shape of LLM - System One, aka Decision Models
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Jev introduces a new shape of LLM—System One, aka Decision Models 21st September 2026 Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” is a better name
-- 事件 ID：`evt_20260924_83aa414856da`
-
-## US Weighs Initiative to Promote Dollar-Backed Stablecoin Abroad
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260924_e32d956d16ae`
-
-## Trump administration invites Putin to attend G20 summit in Miami
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Trump administration invites Putin to attend G20 summit in Miami US Secretary of State Marco Rubio says summit would be opportunity for Russian president to engage with global leaders.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_4a56ef15a73c`
-
-## Xi’s US visit begins with rare airport welcome from Trump, trade truce extension
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Xi’s US visit begins with rare airport welcome from Trump, trade truce extension The Chinese president has begun a three-day visit to Washington, with a host of vital topics to be discussed This live article is freely available to our registered users.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_eeea3a71d950`
-
-## Tech leaders to UN: For the sake of humanity, please control the AI technology we created
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Tech leaders to UN: For the sake of humanity, please control the AI technology we created&nbsp;&nbsp;AP News
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260924_b7ad1d32d009`
-
-## google/ax
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Declare an agentic task with workspaces and gateway specifications.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_ab56f6348888`
-
-## FirstFT: Xi Jinping and Donald Trump set for high-stakes summit
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：FirstFT: Xi Jinping and Donald Trump set for high-stakes summit Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260924_00dee8995b04`
-
-## Bonds are getting thumped as yields surge. Here’s what it means for the 60/40 portfolio
-- 状态：更新中；首见 2026-09-24；最近更新 2026-09-24
-- 最新事实：Investors are facing volatile times in the stock market, but as of late, even safe-haven Treasurys are selling off, raising questions about what's next for the balanced portfolio.
-- 事件 ID：`evt_20260924_644a49e5ff4e`
 

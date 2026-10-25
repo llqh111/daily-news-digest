@@ -1,0 +1,823 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T00:07:37.931763+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-25.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-24.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_0d3334f8e2cba89c35231443",
+      "title": "NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too",
+      "url": "https://wccftech.com/nvidia-rtx-30-40-gpus-get-faster-in-ai-llms-with-new-unlock-tool-but-prices-surge-too/",
+      "publisher": "Wccftech",
+      "summary": "A new GPU unlock tool has unlocked the full potential of NVIDIA's RTX 30 &#38; RTX 40 GPUs, achieving faster AI LLM performance and compute capabilities. Zagitta \"GPU-Unlock\" Tool Gives NVIDIA RTX 30/40 GPUs A New Life In AI LLMs, As Compute Gets Unlocked To Original Rates Back in the crypto mining days, NVIDIA had the compute performance of its GeForce RTX 30 GPUs virtually unlocked through BIOS firmware and patches as it rolled out its mining-specific CMP line of chips. The CMP cards have also",
+      "category": "科技",
+      "published_at": "2026-10-24T18:55:32+00:00",
+      "why_relevant": "RTX30/40算力解锁工具",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A new GPU unlock tool has unlocked the full potential of NVIDIA's RTX 30 & RTX 40 GPUs, achieving faster AI LLM performance and compute capabilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.368690+08:00",
+          "content_sha256": "a414b841be794a5b9689b849779ca61f6fe7a82af73103e657ba7b9326b7e8b3",
+          "excerpt": "A new GPU unlock tool has unlocked the full potential of NVIDIA's RTX 30 & RTX 40 GPUs, achieving faster AI LLM performance and compute capabilities.",
+          "sentence_hash": "1749816797a55781d2829cf5d6071bab52c312f503146cdd1040ea06ce0bdc2e",
+          "anchors": [
+            "for",
+            "unlock"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Zagitta \"GPU-Unlock\" Tool Gives NVIDIA RTX 30/40 GPUs A New Life In AI LLMs, As Compute Gets Unlocked To Original Rates Back in the crypto mining days, NVIDIA had the compute performance of its GeForce RTX 30 GPUs virtually unlocked through BIOS firmware and patches as it rolled ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.368736+08:00",
+          "content_sha256": "a414b841be794a5b9689b849779ca61f6fe7a82af73103e657ba7b9326b7e8b3",
+          "excerpt": "Zagitta \"GPU-Unlock\" Tool Gives NVIDIA RTX 30/40 GPUs A New Life In AI LLMs, As Compute Gets Unlocked To Original Rates Back in the crypto mining days, NVIDIA had the compute performance of its GeForce RTX 30 GPUs virtually unlocked through BIOS firmware and patches as it rolled ",
+          "sentence_hash": "cb17d11e735c2ed5a42e99152a0f62163d373ad98b177a04d425ae247c5663d6",
+          "anchors": [
+            "for",
+            "git",
+            "unlock"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The CMP cards have also recieved a special unlock tool which exposes their full memory capabilities, jumping from 8-10 GB to 64-80 GB.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.368759+08:00",
+          "content_sha256": "a414b841be794a5b9689b849779ca61f6fe7a82af73103e657ba7b9326b7e8b3",
+          "excerpt": "The CMP cards have also recieved a special unlock tool which exposes their full memory capabilities, jumping from 8-10 GB to 64-80 GB.",
+          "sentence_hash": "0f332b1ea73fac371b4a929776c7326f78682648fcf5252e08a1d672ffa86658",
+          "anchors": [
+            "unlock"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "While modders managed to unlock the full mining rates, the compute restrictions were still in place.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.368777+08:00",
+          "content_sha256": "a414b841be794a5b9689b849779ca61f6fe7a82af73103e657ba7b9326b7e8b3",
+          "excerpt": "While modders managed to unlock the full mining rates, the compute restrictions were still in place.",
+          "sentence_hash": "2bd1dafc35cfc67a7be9940d78d2f8fcf1706be64c1e906363b5d963c7c4deac",
+          "anchors": [
+            "unlock"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But that changes through a new open-source GitHub project called \"Zagita,\" which is unlocking the full BF16/FP16 rates featured on the Ampere GPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.368798+08:00",
+          "content_sha256": "a414b841be794a5b9689b849779ca61f6fe7a82af73103e657ba7b9326b7e8b3",
+          "excerpt": "But that changes through a new open-source GitHub project called \"Zagita,\" which is unlocking the full BF16/FP16 rates featured on the Ampere GPUs.",
+          "sentence_hash": "19e7c68ef8a589da8c8e94912fce0e92393392d48220233869e1f76fa36f09e0",
+          "anchors": [
+            "git",
+            "unlock"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Running the tool is simple, and it unlocks double the compute capabilities of NVIDIA's RTX 30 series FP16/BF16 FMA across all GA102, GA103, GA104, and GA106 GPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.368824+08:00",
+          "content_sha256": "a414b841be794a5b9689b849779ca61f6fe7a82af73103e657ba7b9326b7e8b3",
+          "excerpt": "Running the tool is simple, and it unlocks double the compute capabilities of NVIDIA's RTX 30 series FP16/BF16 FMA across all GA102, GA103, GA104, and GA106 GPUs.",
+          "sentence_hash": "c3736141ae976dc0f689b06948a258f72886193d689ca896228811a62fa4220c",
+          "anchors": [
+            "unlock"
+          ]
+        }
+      ],
+      "entities": [
+        "this linux",
+        "other",
+        "as compute gets unlocked to original rates\nback",
+        "but",
+        "time",
+        "force",
+        "git",
+        "currently",
+        "zagitta",
+        "ttft",
+        "bios",
+        "even",
+        "hub",
+        "flr",
+        "fma",
+        "new life in",
+        "ai",
+        "while",
+        "unlock",
+        "decode",
+        "for",
+        "similarly",
+        "nvidia",
+        "fp",
+        "rtx",
+        "prefill",
+        "many",
+        "gpu",
+        "ampere",
+        "windows",
+        "zagita",
+        "cmp",
+        "linux",
+        "gemm",
+        "gb",
+        "plm",
+        "gtx",
+        "uefi",
+        "tool gives",
+        "llm",
+        "running"
+      ],
+      "numbers": [
+        "36%",
+        "25%",
+        "80%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 44
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "source_artifact_date": "2026-10-25",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_7d9e2edd52808ee943d1b35e",
+      "title": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "publisher": "GitHub Trending",
+      "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloninghttps://voxcpm.comVoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning \n English | 中文  \n         \n \n  \n \n  \n  \n \n \n 👋 Join our community for discussion and support!    Feishu  &nbsp;|&nbsp;   Discord  &nbsp;|&nbsp;  📚 MiniCPM Wiki   \nVoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech repre",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源多语言TTS，技术新颖",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support!",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.369890+08:00",
+          "content_sha256": "17ec025128adbec47c5a327eb748f0d131aeb1e5b33d86384fd6d45e3f3d2c6e",
+          "excerpt": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support!",
+          "sentence_hash": "4fc997dab932d074c0ce210166908d626067e323956b1000283e279350e01f5e",
+          "anchors": [
+            "中文"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Feishu | Discord | 📚 MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture, bypassing discrete tokenization to achieve highly natural and expressive synthesis",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.369960+08:00",
+          "content_sha256": "17ec025128adbec47c5a327eb748f0d131aeb1e5b33d86384fd6d45e3f3d2c6e",
+          "excerpt": "Feishu | Discord | 📚 MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture, bypassing discrete tokenization to achieve highly natural and expressive synthesis",
+          "sentence_hash": "27fa729492f9b720b3cf835b6716e2fa202eeeb50fc029463cd62ef4e8dd75c8",
+          "anchors": [
+            "speech",
+            "tokenizer",
+            "free"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "VoxCPM2 is the latest major release — a 2B parameter model trained on over 2 million hours of multilingual speech data, now supporting 30 languages, Voice Design, Controllable Voice Cloning, and 48kHz studio-quality audio output.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370010+08:00",
+          "content_sha256": "17ec025128adbec47c5a327eb748f0d131aeb1e5b33d86384fd6d45e3f3d2c6e",
+          "excerpt": "VoxCPM2 is the latest major release — a 2B parameter model trained on over 2 million hours of multilingual speech data, now supporting 30 languages, Voice Design, Controllable Voice Cloning, and 48kHz studio-quality audio output.",
+          "sentence_hash": "39c17a32e0a90ad1b8d160002331f616789ca00461295112927aa639c76e3a2e",
+          "anchors": [
+            "2 million",
+            "quality audio",
+            "audio",
+            "speech"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- 🌍 30-Language Multilingual — Input text in any of the 30 supported languages and synthesize directly, no language tag needed - 🎨 Voice Design — Create a brand-new voice from a natural-language description alone (gender, age, tone, emotion, pace …), no reference audio required -",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370164+08:00",
+          "content_sha256": "17ec025128adbec47c5a327eb748f0d131aeb1e5b33d86384fd6d45e3f3d2c6e",
+          "excerpt": "- 🌍 30-Language Multilingual — Input text in any of the 30 supported languages and synthesize directly, no language tag needed - 🎨 Voice Design — Create a brand-new voice from a natural-language description alone (gender, age, tone, emotion, pace …), no reference audio required -",
+          "sentence_hash": "fd460f1e112629aeb780f132e4b61f5810d2b9eeacdfe92a1ba2a496209a72d2",
+          "anchors": [
+            "built",
+            "四川话",
+            "audio",
+            "quality audio",
+            "陕西话",
+            "commercial",
+            "闽南话",
+            "山东话",
+            "河南话",
+            "text",
+            "东北话",
+            "free",
+            "omni",
+            "粤语",
+            "supported languages",
+            "天津话",
+            "吴语"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Weights | Docs | Playground | Technical Report - [2025.12] 🎉 Open-source VoxCPM1.5 weights with SFT & LoRA fine-tuning.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370198+08:00",
+          "content_sha256": "17ec025128adbec47c5a327eb748f0d131aeb1e5b33d86384fd6d45e3f3d2c6e",
+          "excerpt": "Weights | Docs | Playground | Technical Report - [2025.12] 🎉 Open-source VoxCPM1.5 weights with SFT & LoRA fine-tuning.",
+          "sentence_hash": "5ce6448e6e818c2a31c1e0103a15546aad70e044459e9c3caafb945d011f685a",
+          "anchors": [
+            "weights",
+            "source"
+          ]
+        }
+      ],
+      "entities": [
+        "rtf",
+        "german",
+        "commercial",
+        "free",
+        "ultimate cloning",
+        "天津话",
+        "real",
+        "vietnamese\nchinese dialect",
+        "lao",
+        "multilingual speech generation",
+        "arabic",
+        "danish",
+        "english",
+        "open",
+        "italian",
+        "indonesian",
+        "korean",
+        "mini",
+        "french",
+        "discord",
+        "tokenizer",
+        "speech",
+        "greek",
+        "apache",
+        "malay",
+        "rtx",
+        "source",
+        "陕西话",
+        "hebrew",
+        "hub trending",
+        "join",
+        "create",
+        "ready",
+        "wiki\n  \nvox",
+        "finnish",
+        "controllable voice cloning",
+        "portuguese",
+        "accepts",
+        "吴语",
+        "audio",
+        "norwegian",
+        "四川话",
+        "playground",
+        "khmer",
+        "input",
+        "tagalog",
+        "api",
+        "true",
+        "text",
+        "vox",
+        "thai",
+        "nano",
+        "release vox",
+        "docs",
+        "context",
+        "spanish",
+        "git",
+        "山东话",
+        "hz high",
+        "weights",
+        "东北话",
+        "dutch",
+        "creative voice design",
+        "quality audio",
+        "fully open",
+        "polish",
+        "河南话",
+        "attention",
+        "turkish",
+        "reproduce",
+        "russian",
+        "nvidia",
+        "omni",
+        "粤语",
+        "time streaming",
+        "built",
+        "automatically",
+        "life cloning\nenglish",
+        "controllable cloning",
+        "tts",
+        "language multilingual",
+        "闽南话",
+        "swahili",
+        "中文",
+        "hindi",
+        "japanese",
+        "supported languages",
+        "clone",
+        "paged",
+        "sft",
+        "aware synthesis",
+        "chinese",
+        "voice design",
+        "burmese",
+        "feishu",
+        "swedish",
+        "technical report"
+      ],
+      "numbers": [
+        "2 million"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 98
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "source_artifact_date": "2026-10-25",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_cc3cd4bb2a0a084ad2a7b00b",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "publisher": "Simon Willison",
+      "summary": "Donating Agent Skills to the Agentic AI Foundation\nNews today from Anthropic:\n\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP).\n\nI'm pleased to note I called this one last December, when Anthropic first declared skills to be an \"open standard\":\n\nI wouldn",
+      "category": "科技",
+      "published_at": "2026-10-22T18:09:56+00:00",
+      "why_relevant": "Anthropic开源Agent技能标准",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "22nd October 2026 - Link Blog Donating Agent Skills to the Agentic AI Foundation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370718+08:00",
+          "content_sha256": "1f64e9003a15eb9f629952a1d5a5d3cbf89a0a2fb7dfd290819fc0562930aa3c",
+          "excerpt": "22nd October 2026 - Link Blog Donating Agent Skills to the Agentic AI Foundation.",
+          "sentence_hash": "df13a1c3003244f59071e6078c021b5c23e5982e8fab217838c3a3a30fc45ecb",
+          "anchors": [
+            "October 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370738+08:00",
+          "content_sha256": "1f64e9003a15eb9f629952a1d5a5d3cbf89a0a2fb7dfd290819fc0562930aa3c",
+          "excerpt": "News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral.",
+          "sentence_hash": "5e1ba7016014a90f03d5b1bb21a8e2682acd5f647c44150267090a606e279494",
+          "anchors": [
+            "open",
+            "today"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "I'm pleased to note I called this one last December, when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF, recently the new home of the MCP specification.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370768+08:00",
+          "content_sha256": "1f64e9003a15eb9f629952a1d5a5d3cbf89a0a2fb7dfd290819fc0562930aa3c",
+          "excerpt": "I'm pleased to note I called this one last December, when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF, recently the new home of the MCP specification.",
+          "sentence_hash": "4e9bd7c67c5fe5c93da8c8c5d3ce11146a7a94c47b824f3a894059b55bc54df2",
+          "anchors": [
+            "recent",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \"Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370794+08:00",
+          "content_sha256": "1f64e9003a15eb9f629952a1d5a5d3cbf89a0a2fb7dfd290819fc0562930aa3c",
+          "excerpt": "Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \"Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body\".",
+          "sentence_hash": "7fa4cb21f1efe4f8d272452a27baba01f59a20d8679a1391e8ee7f9b6ab8223c",
+          "anchors": [
+            "mcp",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Recent articles - Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th October ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.370823+08:00",
+          "content_sha256": "1f64e9003a15eb9f629952a1d5a5d3cbf89a0a2fb7dfd290819fc0562930aa3c",
+          "excerpt": "Recent articles - Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my blog, built using my voice - 9th October 2026 - Claude Haiku 5.5 - 7th October ",
+          "sentence_hash": "06f78a829488014d0b97428b6a5344f6cf7d721b3e0453b719091db6e997566f",
+          "anchors": [
+            "use",
+            "October 20",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "hello python",
+        "agent skills",
+        "december",
+        "rts",
+        "today",
+        "aaif",
+        "link blog\ndonating agent skills",
+        "battle drones",
+        "use",
+        "model context protocol",
+        "fun",
+        "recent",
+        "linux foundation",
+        "agentic",
+        "mcp",
+        "ai",
+        "open",
+        "claude",
+        "october",
+        "claude haiku",
+        "block",
+        "anthropic",
+        "foundation"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 24
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "source_artifact_date": "2026-10-25",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_349f84233a39ab0899513b65",
+      "title": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "publisher": "GitHub Trending",
+      "summary": "OpenShell is the safe, private runtime for autonomous AI agents.https://docs.nvidia.com/openshell/latest/ \n  \n  \n  \n \n \n    \n\n \n  \n   \n  Important\n New in OpenShell 0.1.x: a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. Read the 0.1.0 upgrade guide. \n \nOpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they can read files, install packages, call APIs, and use credentials. OpenShell gives them tha",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "NVIDIA开源AI Agent运行时",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenShell is the safe, private runtime for fleets of autonomous AI agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.371632+08:00",
+          "content_sha256": "e0ca5bfbea6ac1d6760b7a5bdf5c7752e26ebc62353c3b238449b2450df1f56e",
+          "excerpt": "OpenShell is the safe, private runtime for fleets of autonomous AI agents.",
+          "sentence_hash": "92a19eb633c48d0d0af0f8258f5ecd0db88d96c36a4de0ee176fd60ca240a2f6",
+          "anchors": [
+            "agents"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Agents are most useful when they can read files, install packages, call APIs, and use credentials.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.371652+08:00",
+          "content_sha256": "e0ca5bfbea6ac1d6760b7a5bdf5c7752e26ebc62353c3b238449b2450df1f56e",
+          "excerpt": "Agents are most useful when they can read files, install packages, call APIs, and use credentials.",
+          "sentence_hash": "27ab2003b7e07d68bdcc99b418f8aec84fa99a554952c0d0f52f91bc49c38de3",
+          "anchors": [
+            "read",
+            "install"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.371670+08:00",
+          "content_sha256": "e0ca5bfbea6ac1d6760b7a5bdf5c7752e26ebc62353c3b238449b2450df1f56e",
+          "excerpt": "OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network.",
+          "sentence_hash": "ee733aa16f222d78a7148c121036ee6447ff6c400e6f0c997ed80f0dface007c",
+          "anchors": [
+            "you",
+            "network",
+            "your"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "You declare what each agent can touch in a policy, and OpenShell enforces it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.371686+08:00",
+          "content_sha256": "e0ca5bfbea6ac1d6760b7a5bdf5c7752e26ebc62353c3b238449b2450df1f56e",
+          "excerpt": "You declare what each agent can touch in a policy, and OpenShell enforces it.",
+          "sentence_hash": "2eb55c0f5c6b9907bf4b8eb2b3c2f5534b90d2fa8124e28c16147da79710f86a",
+          "anchors": [
+            "policy",
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.371718+08:00",
+          "content_sha256": "e0ca5bfbea6ac1d6760b7a5bdf5c7752e26ebc62353c3b238449b2450df1f56e",
+          "excerpt": "OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied.",
+          "sentence_hash": "c40b63903ba7697ed39403b2c2b317e7135ab044185f4b5a1ab43a8676067f25",
+          "anchors": [
+            "kernel",
+            "policy",
+            "network",
+            "before",
+            "agents"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Kernel controls confine which files it can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.371749+08:00",
+          "content_sha256": "e0ca5bfbea6ac1d6760b7a5bdf5c7752e26ebc62353c3b238449b2450df1f56e",
+          "excerpt": "Kernel controls confine which files it can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox.",
+          "sentence_hash": "0104aae64f624b70cf70cc3cf29aa37d53a7e83f164b2889eb0f26d4b83b978f",
+          "anchors": [
+            "policy",
+            "before",
+            "network"
+          ]
+        }
+      ],
+      "entities": [
+        "see architecture",
+        "tutorials",
+        "router",
+        "policies",
+        "important\nnew",
+        "policy",
+        "network",
+        "kubernetes",
+        "see",
+        "sandboxes",
+        "your",
+        "gateways",
+        "agents",
+        "kernel",
+        "ai",
+        "support matrix",
+        "open",
+        "wsl",
+        "formally",
+        "nvidia",
+        "shell\nthe",
+        "you",
+        "apple silicon",
+        "read",
+        "podman",
+        "windows",
+        "install",
+        "cli",
+        "prerelease",
+        "code",
+        "extensibility",
+        "linux",
+        "before",
+        "docker",
+        "providers",
+        "helm",
+        "cni",
+        "each",
+        "api",
+        "run your first agent",
+        "ubuntu",
+        "shell"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "source_artifact_date": "2026-10-25",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_66db8af067f10723b3df9df7",
+      "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+      "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "publisher": "CNBC",
+      "summary": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
+      "category": "财经",
+      "published_at": "2026-10-24T11:00:01+00:00",
+      "why_relevant": "NVIDIA AI融资风险受关注",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Nvidia's emergence as financier for the global AI buildout is facing its first major stress test as credit markets tighten for key partners.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.372614+08:00",
+          "content_sha256": "b5bab169007db248d0d414b4707789addc3e1b03015c792a1d580a0299f27aa5",
+          "excerpt": "Nvidia's emergence as financier for the global AI buildout is facing its first major stress test as credit markets tighten for key partners.",
+          "sentence_hash": "7a47673a3d493f7aa70b53e1b06701b78e3d9eeab1afba919fdf2e40239209e7",
+          "anchors": [
+            "market",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "That's meant taking full advantage of Nvidia's investment grade credit rating and providing backstop guarantees on mega-projects for OpenAI so that buildouts can get funded at lower interest rates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.372660+08:00",
+          "content_sha256": "b5bab169007db248d0d414b4707789addc3e1b03015c792a1d580a0299f27aa5",
+          "excerpt": "That's meant taking full advantage of Nvidia's investment grade credit rating and providing backstop guarantees on mega-projects for OpenAI so that buildouts can get funded at lower interest rates.",
+          "sentence_hash": "0c3c9fe5342565234ab3095addf79245566eabc899373e8db7ac57296ecca83b",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As of its last quarterly financial filing in July, Nvidia had $36 billion in off-balance-sheet AI cloud agreements, or backstops, for neoclouds, in addition to its guarantee on up to $105 billion for chips, land and power at a proposed 10 gigawatt OpenAI data center in Ohio.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.372693+08:00",
+          "content_sha256": "b5bab169007db248d0d414b4707789addc3e1b03015c792a1d580a0299f27aa5",
+          "excerpt": "As of its last quarterly financial filing in July, Nvidia had $36 billion in off-balance-sheet AI cloud agreements, or backstops, for neoclouds, in addition to its guarantee on up to $105 billion for chips, land and power at a proposed 10 gigawatt OpenAI data center in Ohio.",
+          "sentence_hash": "5681312b1eef6e1c4c0424464560d205e31ddc9b5cf35de04d2db530501376c9",
+          "anchors": [
+            "$105 billion",
+            "105 billion",
+            "36 billion",
+            "for",
+            "$36 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The company signed as a tenant for $20 billion in future data center leases, which will later be assigned to third parties.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.372716+08:00",
+          "content_sha256": "b5bab169007db248d0d414b4707789addc3e1b03015c792a1d580a0299f27aa5",
+          "excerpt": "The company signed as a tenant for $20 billion in future data center leases, which will later be assigned to third parties.",
+          "sentence_hash": "dcd8c89860462a27e09d53d2087e377b77e659b54ad4b13962ff5b6dd381ac4a",
+          "anchors": [
+            "for",
+            "$20 billion",
+            "20 billion"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "\"If the demand for compute doesn't meet these really super lofty expectations, we're going to have a problem,\" said David Trainer, founder and CEO of financial research firm New Constructs, in an interview.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.372748+08:00",
+          "content_sha256": "b5bab169007db248d0d414b4707789addc3e1b03015c792a1d580a0299f27aa5",
+          "excerpt": "\"If the demand for compute doesn't meet these really super lofty expectations, we're going to have a problem,\" said David Trainer, founder and CEO of financial research firm New Constructs, in an interview.",
+          "sentence_hash": "5a9ae682aa4ed6a71c367276540bc3978df8b3c0cc3f4922934370c49f5149e6",
+          "anchors": [
+            "for",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Nvidia declined to comment for this story.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-25T08:03:38.372761+08:00",
+          "content_sha256": "b5bab169007db248d0d414b4707789addc3e1b03015c792a1d580a0299f27aa5",
+          "excerpt": "Nvidia declined to comment for this story.",
+          "sentence_hash": "4069a3082510bfc64b0d2bd1853e3d01690fe7b260da3ab06e975d3a4466751f",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "arjun kharpal",
+        "jensen huang",
+        "ceo",
+        "bank",
+        "gtc",
+        "ohio",
+        "wall street",
+        "november",
+        "huang",
+        "nebius",
+        "nscale",
+        "sb",
+        "friday",
+        "australian",
+        "david trainer",
+        "thursday",
+        "ai",
+        "open",
+        "firmus",
+        "october",
+        "for",
+        "energy",
+        "nvidia",
+        "weave",
+        "both",
+        "berlin",
+        "after",
+        "july",
+        "cnbc",
+        "soft",
+        "core",
+        "iren",
+        "ipo",
+        "september",
+        "shares",
+        "because",
+        "new constructs",
+        "market"
+      ],
+      "numbers": [
+        "$20 billion",
+        "30%",
+        "$105 billion",
+        "105 billion",
+        "11%",
+        "36 billion",
+        "7.6%",
+        "20 billion",
+        "$36 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "source_artifact_date": "2026-10-25",
+      "freshness_label": "today"
+    }
+  ]
+}
