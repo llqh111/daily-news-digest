@@ -1,6 +1,11 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-25 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-25 12:06。
+
+## Argentina drops investigation into President Milei over crypto fraud
+- 状态：更新中；首见 2026-10-24；最近更新 2026-10-25
+- 最新事实：Argentina drops criminal probe into President Milei over crashed memecoin LIBRA The judge found that Milei's promotion of LIBRA did not constitute fraud, despite the attention his support drew to the token.
+- 事件 ID：`evt_20261024_c74cfdcb21a8`
 
 ## NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too
 - 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
@@ -74,6 +79,72 @@
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261025_faa14867a937`
 
+## Iran war live: Trump hints at possible Sunday Iran attack or deal reached
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Live updatesLive updates, Iran war live: Trump hints at possible Sunday Iran attack or deal reached Trump says the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.
+- 事件 ID：`evt_20261025_c0d87310dacf`
+
+## NVIDIA DLSS 5 Neural Rendering Now Available In Portal With RTX And Half-Life 2 RTX Demo, Alongside 6X Multi Frame Generation
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing.
+- 事件 ID：`evt_20261025_fce949a4ca2a`
+
+## NVIDIA GeForce RTX 3090 Ti Gets Nearly 80% FP16/BF16 Compute Boost With Linux-Based Unlocking Trick
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_9bdbfd45177a`
+
+## Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping block If you are wondering why th
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_aa12ccbf7e51`
+
+## Palestinian families displaced as Israeli forces demolish Hebron homes
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：He added that he believed the military planned to displace a total of 2,500 people from about 0.35 sq km of urban land.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_2d00b2c26483`
+
+## Mass rally against Netanyahu ahead of pivotal Israeli election
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Mass rally against Netanyahu ahead of pivotal Israeli election NewsFeed Mass rally against Netanyahu ahead of pivotal Israeli election Thousands of Israelis rallied against PM Benjamin Netanyahu, demanding a change of government and an independent inquiry into the security failur
+- 事件 ID：`evt_20261025_f0f7068ae68a`
+
+## NVIDIA GPUs Are Becoming Appreciating Assets In The Rental Space, With Models As Old As The A100 Reaching Up To A 143% Price Premium Due To AI Token Consumption
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：The Tesla V100 has found itself a new purpose during the AI boom, meaning that NVIDIA's older GPUs are also being treated with the same value as token consumption from running LLMs continues to rise.
+- 事件 ID：`evt_20261025_46f75ca88820`
+
+## Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO Borrowing against bitcoin and earning income to build their BTC holdings are becoming priorities for long-term investors, Xapo Bank CEO Seamus Rocca told CoinDesk.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_858cecefa913`
+
+## Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Obama urged Ohioans to vote against the Republican administration, saying: “After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, ‘Enough is enough’.” Heated Ohio races The former pres
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_bc0cda6d988e`
+
+## Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Advertisement Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols For many on the mainland, the recent rising sun flag incident and controversies like it show a fondness for anime and manga only goes so far 4-MIN READ4-MIN 2 Listen Young Chin
+- 事件 ID：`evt_20261025_cf6ac550ec4b`
+
+## Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 最新事实：Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat - Published Police in the southern German state of Bavaria have detained a 33-year-old German man during a fire at Adolf Hitler's Alpine mountain retreat, the Kehlsteinhaus, also known as the Eagle's Nest.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261025_d91b9467c085`
+
+## Hundreds of thousands protest in France in second weekend of mass demonstrations
+- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261025_8ecaae199e51`
+
 ## NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More
 - 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
 - 最新事实：NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.
@@ -142,11 +213,6 @@
 - 最新事实：Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261024_608cab956449`
-
-## Argentina drops investigation into President Milei over crypto fraud
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Argentina drops investigation into President Milei over crypto fraud - Published A criminal investigation into Argentine President Javier Milei and his sister's links to a cryptocurrency scandal has been dropped.
-- 事件 ID：`evt_20261024_c74cfdcb21a8`
 
 ## Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.
 - 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
