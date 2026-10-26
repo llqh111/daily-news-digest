@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-25 12:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-26 08:07。
+
+## luongnv89/claude-howto
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.
+- 事件 ID：`evt_20261026_c0adafb9e3a8`
+
+## google-gemini/gemini-cli
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.
+- 事件 ID：`evt_20261026_48af2d4e7ebd`
+
+## Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_cd26483cd959`
+
+## Serbia's veteran ruler Vučić concedes election to student-led protest movement
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_0c1ac9cc8f0b`
+
+## Musk says SpaceX restricted Ukraine's Starlink connection as service restored
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_8a9e8c3ab303`
+
+## Venezuelan opposition leader María Machado returns after months in exile
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Venezuelan opposition leader MarÃa Machado returns after months in exile - Published Venezuelan opposition leader MarÃa Corina Machado has returned home to a fraught political landscape after more than 10 months in exile.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_e36318aa31cd`
+
+## aws/agent-toolkit-for-aws
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Help AI coding agents build, deploy, and manage applications on AWS.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_01b8f391c5f8`
+
+## Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Stock futures rose on Sunday evening as traders look toward a slew of central bank decisions this week.
+- 事件 ID：`evt_20261026_04b77ea9270e`
+
+## UK banks face 10,000 complaints in 3 months over crypto restrictions
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：UK banks face 10,000 complaints in 3 months over crypto restrictions The U.K.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_08b6e1ad67fe`
+
+## Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：Advertisement Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches But the venture has yet to commit to a launch date, saying it will not rush the product to market 2-MIN READ2-MIN Listen After HSBC RedCoin launched on Friday, Anchorpoint – the stab
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_3e73294073ee`
+
+## Deeply divided Israel braces for pivotal election
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 最新事实：The general election on Tuesday hangs over a country that's deeply divided and ready for a fight.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261026_0fc019a5efd1`
+
+## Algeria to send troops to Niger in first foreign deployment since 1973
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261026_15773be4ff17`
+
+## France’s Le Pen vows national ‘renewal’ in campaign launch
+- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261026_8d6bd4b993a1`
 
 ## Argentina drops investigation into President Milei over crypto fraud
 - 状态：更新中；首见 2026-10-24；最近更新 2026-10-25
@@ -950,70 +1023,4 @@
 - 最新事实：1 skill, 24 commands, live browser iteration, and 61 deterministic detector rules for AI-generated frontend design.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261005_38fe51cb8d30`
-
-## obra/superpowers
-- 状态：更新中；首见 2026-09-10；最近更新 2026-09-25
-- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_4b107807fac9`
-
-## Trump and Xi hold critical talks at White House summit
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：Trump and Xi hold critical talks at White House summit NewsFeed Trump and Xi hold critical talks at White House summit US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.
-- 事件 ID：`evt_20260925_22c9fc5e8434`
-
-## At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：Xi Jinping has called for extensive cooperation with Washington to avoid the “Thucydides trap” that could put the US and China on a military collision course amid rising tensions over artificial intelligence, trade and Taiwan.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260925_0944387ed4cd`
-
-## Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20260925_6ec5123ecd50`
-
-## Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：September 24, 2026 Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act For release at 2:30 p.m.
-- 事件 ID：`evt_20260925_8b05d588725e`
-
-## Netanyahu defends Israeli military action as delegates walk out before UN speech
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：Netanyahu defends Israeli military action as delegates walk out before UN speech - Published Israeli Prime Minister Benjamin Netanyahu has fiercely defended his country's military campaigns in Iran, Gaza and elsewhere in the Middle East in a speech to the UN General Assembly.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260925_3ae42610dd53`
-
-## Rebel offensive against Ethiopian army stokes fears of return to civil war
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：About 600,000 people died between 2020 and 2022 during a devastating war between the Ethiopian army and the political party and paramilitary group the Tigray People’s Liberation Front (TPLF).
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260925_72afb40b49ee`
-
-## Gemini 3.8 TTS Playground
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：23rd September 2026 Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts.
-- 事件 ID：`evt_20260925_98e95d87c005`
-
-## Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop.
-- 事件 ID：`evt_20260925_42a03924b34b`
-
-## Pat on the back? Xi and Trump’s body language speaks volumes
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：Xi and Trump’s body language speaks volumes From firm handshakes and arm touches to bows and laughs, an expert decodes the gestures as the two leaders meet in Washington 3-MIN READ3-MIN Listen Lucy Quagginin Washington Arm touches, laughs, and firm handshakes were on display as C
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260925_37f3e0a4e0db`
-
-## Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest NewsFeed Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest Actors Susan Sarandon and Hannah Einbinder were among roughly 100 protesters arrested by New York City police outside the UN ahead of Israe
-- 事件 ID：`evt_20260925_1b0030a09471`
-
-## dream-num/univer
-- 状态：更新中；首见 2026-09-25；最近更新 2026-09-25
-- 最新事实：The Office Harness for AI Agents Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) High-performance, fully customizable Office SDK Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one 
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260925_ed9fa0d45f87`
 

@@ -1,367 +1,744 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-10-25-AM",
-  "date": "2026-10-25",
+  "run_key": "2026-10-26-AM",
+  "date": "2026-10-26",
   "session": "AM",
-  "delivered_at": "2026-10-25T08:07:37.916590+08:00",
+  "delivered_at": "2026-10-26T08:07:36.869216+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-10-25T04:06:46.455089+00:00",
+  "exported_at": "2026-10-26T00:07:36.870762+00:00",
   "quality": {
     "total_items": 13,
-    "items_with_unsupported_numbers": 6,
-    "unsupported_ratio": 0.46153846153846156
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.23076923076923078
   },
   "items": [
     {
-      "article_id": "a1_3350b340723d0f13f9aa8072",
-      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Trump says US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-      "category": "国际",
-      "published_at": "2026-10-25T00:00:00+00:00",
-      "why_relevant": "特朗普威胁打伊朗",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Live updatesLive updates, Iran war live: Trump hints at possible Sunday Iran attack or deal reached Trump says the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.413899+08:00",
-          "content_sha256": "827d204c18be92190b5cf9328df385ef371f06fb293dcb3602dcabbb372a733c",
-          "excerpt": "Live updatesLive updates, Iran war live: Trump hints at possible Sunday Iran attack or deal reached Trump says the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-          "sentence_hash": "e747b506228df96da8e110e402f9f6fa1d2aa70d03cbe2e56e3a5acba33b90e6",
-          "anchors": [
-            "live"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Published On 25 Oct 2026 - US President Donald Trump says the US is considering a possible attack on Iran as soon as Sunday, pointing out that Washington might have to “finish the job” or could reach a deal with Tehran.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.413951+08:00",
-          "content_sha256": "827d204c18be92190b5cf9328df385ef371f06fb293dcb3602dcabbb372a733c",
-          "excerpt": "Published On 25 Oct 2026 - US President Donald Trump says the US is considering a possible attack on Iran as soon as Sunday, pointing out that Washington might have to “finish the job” or could reach a deal with Tehran.",
-          "sentence_hash": "5965b43889b2fd9b56e177d014cae9e5a1bc033e55ed6c408e08ba3634b957fc",
-          "anchors": [
-            "Oct 20"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "- Iranian President Masoud Pezeshkian blames the US for breaking down interim agreement talks, calling the Americans “cowards” who “messed everything up”, while maintaining that Tehran should still push to conclude a deal.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.413991+08:00",
-          "content_sha256": "827d204c18be92190b5cf9328df385ef371f06fb293dcb3602dcabbb372a733c",
-          "excerpt": "- Iranian President Masoud Pezeshkian blames the US for breaking down interim agreement talks, calling the Americans “cowards” who “messed everything up”, while maintaining that Tehran should still push to conclude a deal.",
-          "sentence_hash": "263114f92934aa71adca29f4759801f74064bc9a93cb291d6aaddf73f9b7d487",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "americans",
-        "washington",
-        "sunday",
-        "trump",
-        "sunday iran",
-        "iran",
-        "live",
-        "us",
-        "oct",
-        "iranian president masoud pezeshkian",
-        "president donald trump",
-        "published on",
-        "tehran"
-      ],
-      "numbers": [],
-      "dates": [
-        "Oct 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 14
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_d65f3ab3c10300d63c36cf04",
-      "title": "NVIDIA DLSS 5 Neural Rendering Now Available In Portal With RTX And Half-Life 2 RTX Demo, Alongside 6X Multi Frame Generation",
-      "url": "https://wccftech.com/nvidia-dlss-5-neural-rendering-now-available-in-portal-with-rtx-and-half-life-2-rtx-demo-alongside-6x-multi-frame-generation/",
-      "publisher": "Wccftech",
-      "summary": "NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing. Both games have also received additional rendering and performance improvements, including support for up to 6X Multi Frame Generation on compatible GeForce RTX 50 Series GPUs. The updates follow the release of NVIDIA RTX Remix 1.6, which we covere",
+      "article_id": "a1_8d7e43204a773dfafae39977",
+      "title": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "publisher": "GitHub Trending",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.http://luongnv.com/claude-howto/ \n  \n  \n \n     \n     \n🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 \nMaster Claude Code in a Weekend \nGo from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. \nGet Started in 15 Minutes | Find Your",
       "category": "科技",
-      "published_at": "2026-10-24T15:29:37+00:00",
-      "why_relevant": "DLSS5神经渲染",
+      "published_at": "",
+      "why_relevant": "Claude Code可视化指南",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing.",
+          "text": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415240+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing.",
-          "sentence_hash": "08fbd22551f8e7b90a131c2d318bf828420de340830198ae7ccc00df66a9257c",
+          "captured_at": "2026-10-26T08:03:10.630194+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
+          "sentence_hash": "9cda15ae8170231966020ffc977e9e0c3ba7533545c058c4cae95f9b8fa79c09",
           "anchors": [
-            "players",
-            "its"
+            "语言",
+            "中文",
+            "日本語",
+            "skills",
+            "claude",
+            "copy",
+            "learn"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Both games have also received additional rendering and performance improvements, including support for up to 6X Multi Frame Generation on compatible GeForce RTX 50 Series GPUs.",
+          "text": "- The official docs describe features — but don't show you how to combine them.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415281+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "Both games have also received additional rendering and performance improvements, including support for up to 6X Multi Frame Generation on compatible GeForce RTX 50 Series GPUs.",
-          "sentence_hash": "3f41f360a6bd13e888bda56b7855e2886cd7c4e4182e09c57eeb2a956d7051c2",
+          "captured_at": "2026-10-26T08:03:10.630253+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "- The official docs describe features — but don't show you how to combine them.",
+          "sentence_hash": "6907b4f6a77636551880cf2406e3b11d73071b4bdf16ff30d17d45e3a45e9fa0",
           "anchors": [
-            "receive"
+            "you"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The latest version of NVIDIA's open-source modding platform introduces DLSS 5 integration, expanded frame generation capabilities, Windows on ARM support, and numerous enhancements for modders looking to modernize classic PC games.",
+          "text": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415326+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "The latest version of NVIDIA's open-source modding platform introduces DLSS 5 integration, expanded frame generation capabilities, Windows on ARM support, and numerous enhancements for modders looking to modernize classic PC games.",
-          "sentence_hash": "8db52ee1bc4e4f52a61e91f8f6d413a02f5c1cc48d5dd66b8f1f23d403ad40c2",
+          "captured_at": "2026-10-26T08:03:10.630278+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
+          "sentence_hash": "d340370bf68aa3ed029c4743ce51a2f333e16c73db81eb49d923a6fe1597a6d2",
           "anchors": [
-            "frame generation"
+            "work",
+            "now"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Its AI model uses the game's rendered image and motion vectors to enhance lighting, material properties, and fine details while remaining anchored to the original scene.",
+          "text": "- There's no clear learning path.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415371+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "Its AI model uses the game's rendered image and motion vectors to enhance lighting, material properties, and fine details while remaining anchored to the original scene.",
-          "sentence_hash": "c322f4b6fc93cef850d528ac4ad0406ed1a4a8cc2de0d962d02187bc111c20fb",
+          "captured_at": "2026-10-26T08:03:10.630292+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "- There's no clear learning path.",
+          "sentence_hash": "ed288a66b33aed6c2312d6b5e905cf65296ae19386434f02cd623113726d220c",
           "anchors": [
-            "ai"
+            "learn"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "According to NVIDIA's technical explanation, the technology operates as a final neural rendering stage and benefits from richer source information, making fully path-traced games particularly interesting candidates.",
+          "text": "Should you learn MCP before hooks?",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415409+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "According to NVIDIA's technical explanation, the technology operates as a final neural rendering stage and benefits from richer source information, making fully path-traced games particularly interesting candidates.",
-          "sentence_hash": "7e5cbce1a6c15912f71d6b1fa7ebbae03d41740f38900ebd65b684ee888b5920",
+          "captured_at": "2026-10-26T08:03:10.630304+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "Should you learn MCP before hooks?",
+          "sentence_hash": "3ac2761acf15589fc59c40a88ba0bd021eb748872229c8921a6bab39713858d0",
           "anchors": [
-            "neural rendering",
-            "its"
+            "you",
+            "learn"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Portal With RTX And Half-Life 2 RTX Receive DLSS 5 Upgrades Portal with RTX received its update on October 21, with NVIDIA's Jacob Freeman showcasing the new implementation on X.",
+          "text": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415443+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "Portal With RTX And Half-Life 2 RTX Receive DLSS 5 Upgrades Portal with RTX received its update on October 21, with NVIDIA's Jacob Freeman showcasing the new implementation on X.",
-          "sentence_hash": "1e639002517743a8b3d1b3ea5185690e9c4971ea88c3933fdcd9ee77d7334199",
+          "captured_at": "2026-10-26T08:03:10.630337+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
+          "sentence_hash": "5e9a9c48973d9ceda09074382721dc161b970871413baccc5008f7ce0029e763",
           "anchors": [
-            "receive",
-            "October 21",
-            "its"
+            "run",
+            "you"
           ]
         }
       ],
       "entities": [
-        "and half",
-        "neural rendering",
-        "both",
-        "receive",
-        "steam",
-        "frame generation",
-        "freeman",
-        "shadow",
-        "unlike",
-        "portal",
-        "frame generation preset",
-        "series",
-        "arm",
-        "sparse rendering",
-        "meanwhile",
-        "pc",
-        "guided neural rendering",
-        "alt",
-        "ray reconstruction",
-        "according",
-        "its",
-        "players",
-        "frame generation performance mode",
-        "valve",
-        "nvidia",
-        "several",
-        "force",
-        "preset",
-        "dlss",
-        "upgrades\nportal",
-        "nrc",
-        "rtx",
-        "super resolution",
-        "portal with",
-        "life",
-        "spatially hashed radiance cache",
-        "half",
-        "windows",
-        "jacob freeman",
-        "these",
-        "ai",
-        "remix",
+        "语言",
+        "hub",
+        "get",
+        "日本語",
+        "work",
+        "skills",
+        "should",
+        "examples",
+        "there",
+        "learn",
+        "claude code",
+        "forks",
+        "mermaid",
+        "full",
+        "now",
+        "starting",
+        "actively",
+        "git",
+        "language",
+        "you",
         "october",
-        "neural radiance cache",
-        "multi frame generation"
+        "take",
+        "linux",
+        "minutes",
+        "feature catalog\nyou",
+        "中文",
+        "english",
+        "claude",
+        "copy",
+        "win",
+        "find your level",
+        "community",
+        "installation",
+        "mcp",
+        "browse",
+        "built",
+        "run",
+        "get started"
       ],
-      "numbers": [],
+      "numbers": [
+        "90%"
+      ],
       "dates": [
-        "October 23",
-        "October 21"
+        "October 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 47
+        "anchor_count": 40
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_a3edd1193e2991012e39a639",
-      "title": "NVIDIA GeForce RTX 3090 Ti Gets Nearly 80% FP16/BF16 Compute Boost With Linux-Based Unlocking Trick",
-      "url": "https://wccftech.com/nvidia-geforce-rtx-3090-ti-gets-nearly-80-fp16-bf16-compute-boost-with-linux-based-unlocking-trick/",
-      "publisher": "Wccftech",
-      "summary": "The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%. Open-Source Project \"GPU Unlock\" Bypasses NVIDIA's Software-Level Restrictions on GeForce GPUs, Unlocking Professional-Grade Compute Capabilities A new trick has been unlocked to bypass NVIDIA's software-level restrictions on consumer GeForce graphics cards. This has been achieved with a new open-source project called \"GPU Unlock",
+      "article_id": "a1_e98647d7a02230f487247428",
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "publisher": "GitHub Trending",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.https://geminicli.com\n \n  \n   \n  Note\n  \n Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post. \n Gemini CLI has not been optimized for Gemini 4 Argon. To use Gemini 4 Argon, please use Antigravity. \n \nGemini CLI \n     \n\n \n  \n   \n  Note\n  \n Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemi",
       "category": "科技",
-      "published_at": "2026-10-24T14:54:31+00:00",
-      "why_relevant": "3090Ti算力解锁",
+      "published_at": "",
+      "why_relevant": "谷歌开源终端AI代理",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%.",
+          "text": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416619+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%.",
-          "sentence_hash": "a6b16016725c4b521e159ed0eeaf237c3bf46e5434c4db8448e144c90788dfa9",
+          "captured_at": "2026-10-26T08:03:10.631281+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
+          "sentence_hash": "c2fb45b8666f37a9067b58d6f5dc8ddd0c782d267fc8e0554d7c82b78ac50679",
           "anchors": [
-            "36%"
+            "use",
+            "ai",
+            "June 18"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Open-Source Project \"GPU Unlock\" Bypasses NVIDIA's Software-Level Restrictions on GeForce GPUs, Unlocking Professional-Grade Compute Capabilities A new trick has been unlocked to bypass NVIDIA's software-level restrictions on consumer GeForce graphics cards.",
+          "text": "To learn more, see our blog post.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416660+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "Open-Source Project \"GPU Unlock\" Bypasses NVIDIA's Software-Level Restrictions on GeForce GPUs, Unlocking Professional-Grade Compute Capabilities A new trick has been unlocked to bypass NVIDIA's software-level restrictions on consumer GeForce graphics cards.",
-          "sentence_hash": "d3e6b2c19140cefdc44bde995309c157fce0933aea5b2600444599a7037c24c1",
+          "captured_at": "2026-10-26T08:03:10.631297+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "To learn more, see our blog post.",
+          "sentence_hash": "fa20edb8ee58371a29632fded2ff6da119ff711ac2a6db178b6c2ca75ef79072",
           "anchors": [
-            "software",
-            "level restrictions",
-            "unlock"
+            "learn"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "This has been achieved with a new open-source project called \"GPU Unlock\", which allows the GPUs to access higher half-precision floating-point compute performance, which typically is reserved for the professional workstation GPUs.",
+          "text": "Gemini CLI has not been optimized for Gemini 4 Argon.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416694+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "This has been achieved with a new open-source project called \"GPU Unlock\", which allows the GPUs to access higher half-precision floating-point compute performance, which typically is reserved for the professional workstation GPUs.",
-          "sentence_hash": "828ca187633318aea64dee01c3c6c29c2841249f450df2a1d2d96fd279cf07ee",
+          "captured_at": "2026-10-26T08:03:10.631312+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Gemini CLI has not been optimized for Gemini 4 Argon.",
+          "sentence_hash": "fd13998b1c8a925693db9f244af743cae8b6ae6d142aaae6346ab401a8e60ea8",
           "anchors": [
-            "open",
-            "source project"
+            "for"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "\"GPU Unlock\" dynamically patches the NVIDIA driver module within the Linux kernel and intercepts requests for the GPU's physical PCIe Device ID before replacing the returned identifier with that of a compatible professional GPU.",
+          "text": "To use Gemini 4 Argon, please use Antigravity.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416746+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "\"GPU Unlock\" dynamically patches the NVIDIA driver module within the Linux kernel and intercepts requests for the GPU's physical PCIe Device ID before replacing the returned identifier with that of a compatible professional GPU.",
-          "sentence_hash": "801e23d52a968ff0d841378b757da536f15908ef9e04345a390fa075ac0eea2a",
+          "captured_at": "2026-10-26T08:03:10.631326+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "To use Gemini 4 Argon, please use Antigravity.",
+          "sentence_hash": "b93634fcc32453b3411a036fdcb9d31b05d9a425b5e544ddcfd1b346d92c3f4f",
           "anchors": [
-            "id"
+            "use",
+            "please"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "This basically tricks the driver into recognizing a consumer GeForce GPU as a professional NVIDIA card, bypassing the restrictions and unlocking additional compute capabilities.",
+          "text": "Note Gemini CLI is not optimized for the latest Gemini models.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416775+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "This basically tricks the driver into recognizing a consumer GeForce GPU as a professional NVIDIA card, bypassing the restrictions and unlocking additional compute capabilities.",
-          "sentence_hash": "b78e1cddde1a57ab3bd27c6f231e22dcdfb04884eeed727f6179ca0e0a83e6f5",
+          "captured_at": "2026-10-26T08:03:10.631341+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Note Gemini CLI is not optimized for the latest Gemini models.",
+          "sentence_hash": "29fa471c5dca1cbc4533f3dffe6abe265bffbad06b0c0985c4f8662b565047df",
           "anchors": [
-            "unlock"
+            "model",
+            "for"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "On the GeForce RTX 3090 Ti, an Ampere GPU, the BF16 compute performance increases from 87.5 TFLOPS to a whopping 157 TFLOPS, which is a staggering 80% improvement.",
+          "text": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416808+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "On the GeForce RTX 3090 Ti, an Ampere GPU, the BF16 compute performance increases from 87.5 TFLOPS to a whopping 157 TFLOPS, which is a staggering 80% improvement.",
-          "sentence_hash": "abef430edea28210aa5c316087310cc86d0a46dd48070970c1a42163cd18b37f",
+          "captured_at": "2026-10-26T08:03:10.631365+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "sentence_hash": "d3463b628af5c808964b4e21d8b033c94c3cbfaaa4b44b83d22a0cc9b08237a9",
           "anchors": [
-            "80%"
+            "model",
+            "use",
+            "best"
           ]
         }
       ],
       "entities": [
-        "the ge",
-        "software",
-        "follow wccftech",
-        "unlocking professional",
-        "nvidia",
-        "flops",
-        "bypasses",
-        "quadra",
-        "decode",
+        "please",
+        "gemini",
+        "tuesdays",
+        "antigravity",
+        "google cloud project",
+        "get",
+        "lyria",
+        "see releases",
+        "debug",
+        "learn",
+        "imagen",
+        "choose",
+        "cli",
+        "upgrade",
+        "using",
+        "usage",
+        "utc",
+        "model",
+        "best",
+        "argon",
+        "june",
+        "developers",
+        "create",
+        "use",
+        "veo",
+        "code assist license",
+        "see gemini",
+        "google one",
+        "ai",
+        "these",
+        "note\nunpaid",
+        "benefits",
+        "automate",
+        "query",
+        "generate",
+        "note\ngemini",
+        "for",
+        "mcp",
+        "run",
+        "install gemini",
+        "set"
+      ],
+      "numbers": [],
+      "dates": [
+        "June 18"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_de27875ea33985f5d5ca331b",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publisher": "OpenAI 博客",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "category": "科技",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "why_relevant": "OpenAI存储架构揭秘",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632263+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
+          "sentence_hash": "a83c1e8872e0730b4774c0ab9f28465fef30e3493177f0f8e1044000d6b03ab4",
+          "anchors": [
+            "1 billion",
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632282+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+          "sentence_hash": "7cfc0e1603fb1d3dcd41b1e54ae0923143fad6ccbc29bf69d85fd55416e41510",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632298+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+          "sentence_hash": "a338b1f347220f8db006c54165d07a4bcc3bdb87aa4d583e113efe8b8eb9c0e5",
+          "anchors": [
+            "1 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632317+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+          "sentence_hash": "850b7d7987daf0f004b19a4c71ff9e6ebfbb00d201a458281fd318b07f1c09a8",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632341+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
+          "sentence_hash": "9864367e987b11a3f6bf1b00aac6a2bd439efb77bfcc0d7ccfa328f8dffa41dc",
+          "anchors": [
+            "part",
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632364+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
+          "sentence_hash": "edc4aa1329f4ec49db3e6e33559a81957bee94dd0e7a1148a15d3bb45dcedee6",
+          "anchors": [
+            "through"
+          ]
+        }
+      ],
+      "entities": [
+        "in habitat",
+        "part",
         "open",
-        "however",
-        "force",
-        "unlock",
-        "rtx",
-        "id",
-        "token",
-        "linux",
-        "grade compute capabilities",
-        "gpu",
-        "level restrictions",
-        "time",
-        "ampere",
-        "testa",
-        "google",
-        "prefill",
-        "source project",
-        "gtx",
-        "tflops",
-        "according",
-        "first",
-        "ie device"
+        "ii",
+        "habitat",
+        "all open",
+        "chat",
+        "but",
+        "azure",
+        "db",
+        "rapidly",
+        "today",
+        "conversely",
+        "our",
+        "solving",
+        "through",
+        "python",
+        "azure cosmos",
+        "single"
       ],
       "numbers": [
-        "36%",
-        "80%",
-        "25%"
+        "1 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 20
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c0aa54346898edeec50bf91c",
+      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "category": "国际",
+      "published_at": "2026-10-25T22:54:57+00:00",
+      "why_relevant": "塞尔维亚政局地震",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.633354+08:00",
+          "content_sha256": "aee862855eb989020bc7a234245026e1ce5cb10952c20d90913aa33a31893f01",
+          "excerpt": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "sentence_hash": "693534ccb5b671baa63d1360baa79c774d718f0abd77c4180b80e98e0016d627",
+          "anchors": [
+            "64.9%"
+          ]
+        }
+      ],
+      "entities": [
+        "earlier",
+        "david vasi",
+        "european union",
+        "ukraine",
+        "gmt",
+        "aleksandar vu",
+        "preliminary",
+        "there",
+        "serbian progressive party",
+        "russia",
+        "serbian",
+        "published\nserbia",
+        "the student list",
+        "novi sad",
+        "sns",
+        "serbia",
+        "sunday",
+        "ilija srdanovi",
+        "everything",
+        "bbc",
+        "belgrade"
+      ],
+      "numbers": [
+        "64.9%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 22
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_aa74ac474866e9a4995bdf79",
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+      "category": "国际",
+      "published_at": "2026-10-25T09:00:00+00:00",
+      "why_relevant": "马斯克限制星链军事用途",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634186+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
+          "sentence_hash": "d894a99cf7878571e661b529f0b4d65b499ff51093ae914e3a3bb3ec60068674",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634212+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "sentence_hash": "ae5dea46a51a76aa1477a50146a5666a0d9e1d9a42006cc0d90fb658fbdc9dd1",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634231+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "sentence_hash": "f229737c826738c3b98a49fa1a4962836a2bc6279a68449be66875513bc84416",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634260+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
+          "sentence_hash": "17dfe69178791593a4c8df598962b16bcc3b3bd272cd8234d0a79330aa9e5b74",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634278+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
+          "sentence_hash": "b7be2d2dea2b15dc1c59ea7f72489de14ecef3f3980307f0a52d7ebaf975d920",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634301+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
+          "sentence_hash": "f54670a9722bbc80da5af7c5cc1a8cf39a4e1eb3794a1945a53a39c8b9e92f73",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "using starlink",
+        "us",
+        "president donald trump",
+        "serhii beskrestnov",
+        "tesla",
+        "ukraine",
+        "beskrestnov",
+        "space",
+        "starl",
+        "telegram",
+        "starshield",
+        "kyiv",
+        "there",
+        "russia",
+        "therefore",
+        "reacting",
+        "saturday",
+        "washington",
+        "ukrainian",
+        "musk",
+        "starlink",
+        "published\nelon musk",
+        "russian",
+        "elon musk",
+        "earth"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 25
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_472f7b27b4fa1b81b219c3ac",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "category": "国际",
+      "published_at": "2026-10-25T23:33:14+00:00",
+      "why_relevant": "委内瑞拉反对派领袖返国",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Venezuelan opposition leader MarÃa Machado returns after months in exile - Published Venezuelan opposition leader MarÃa Corina Machado has returned home to a fraught political landscape after more than 10 months in exile.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.635184+08:00",
+          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
+          "excerpt": "Venezuelan opposition leader MarÃa Machado returns after months in exile - Published Venezuelan opposition leader MarÃa Corina Machado has returned home to a fraught political landscape after more than 10 months in exile.",
+          "sentence_hash": "d4752dab43f05cf4cb45d762bccfe9fd99d101103a09610eca55b90b836eb529",
+          "anchors": [
+            "she",
+            "more"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"I am here.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.635196+08:00",
+          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
+          "excerpt": "\"I am here.",
+          "sentence_hash": "4ce51b75ef387ae360454c65c5eb7588e3f8a7124f42d7c075125427e59b1651",
+          "anchors": [
+            "her"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "In January, a month after Machado left Venezuela on a speedboat under cover of darkness to accept the Nobel Peace Prize in Norway, the US seized her opponent, President NicolÃ¡s Maduro.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.635229+08:00",
+          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
+          "excerpt": "In January, a month after Machado left Venezuela on a speedboat under cover of darkness to accept the Nobel Peace Prize in Norway, the US seized her opponent, President NicolÃ¡s Maduro.",
+          "sentence_hash": "1e712bde68837ad0c8f09017fc9e9a3eff01257d28641436bacfeaa58b93de54",
+          "anchors": [
+            "her"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Trump administration then backed his deputy, Delcy RodrÃguez, as leader and she was sworn in as interim president, later signing an oil deal which granted very favourable terms to the US.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.635282+08:00",
+          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
+          "excerpt": "The Trump administration then backed his deputy, Delcy RodrÃguez, as leader and she was sworn in as interim president, later signing an oil deal which granted very favourable terms to the US.",
+          "sentence_hash": "f6637e1ccd1099d5641c558f6305f9abe735d0a5b9157718bb283455110bc83a",
+          "anchors": [
+            "she",
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Machado was photographed on Sunday attending Mass at a church in the Venezuelan state of Lara, surrounded by supporters hugging her and clasping her hands.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.635303+08:00",
+          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
+          "excerpt": "Machado was photographed on Sunday attending Mass at a church in the Venezuelan state of Lara, surrounded by supporters hugging her and clasping her hands.",
+          "sentence_hash": "ecc89f95991a865d659bd080c6ef4caf9a1ed7cf70749984f41f88eccae96309",
+          "anchors": [
+            "her"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "More supporters have lined the route of her journey to the capital.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.635321+08:00",
+          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
+          "excerpt": "More supporters have lined the route of her journey to the capital.",
+          "sentence_hash": "2b2e5a8447b7e0d0d3c069b3463f463085235541b1913da5223c4350dbb8b56f",
+          "anchors": [
+            "her",
+            "our"
+          ]
+        }
+      ],
+      "entities": [
+        "more",
+        "us",
+        "edmundo gonz",
+        "with",
+        "her",
+        "the trump",
+        "there",
+        "trump",
+        "today",
+        "venezuelans",
+        "corina machado",
+        "she",
+        "gonz",
+        "president nicol",
+        "sunday",
+        "lara",
+        "september",
+        "nobel peace prize",
+        "venezuelan",
+        "despite",
+        "delcy rodr",
+        "maduro",
+        "in january",
+        "machado",
+        "mar",
+        "mass",
+        "caracas",
+        "corina",
+        "our",
+        "published\nvenezuelan",
+        "venezuela",
+        "nobel prize",
+        "norway"
+      ],
+      "numbers": [
+        "90%"
       ],
       "dates": [],
       "unknowns": [
@@ -376,667 +753,165 @@
       "evidence_complete": true
     },
     {
-      "article_id": "a1_f19d1254df19b22ac9fcb2fc",
-      "title": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers",
-      "url": "https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block",
-      "publisher": "Tom's Hardware",
-      "summary": "Wondering why RTX 5090s are so hard to find? Leaked footage shows thousands of consumer GPUs, including Founders Editions, being torn apart for AI servers.",
+      "article_id": "a1_349843b1643e0258f53d2db0",
+      "title": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "publisher": "GitHub Trending",
+      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWSAgent Toolkit for AWS \n   \nHelp AI coding agents build, deploy, and manage applications on AWS. \nThe Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services. It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx. \nQuick start \nAWS CLI \nUse the Agent Toolkit directly from your terminal with",
       "category": "科技",
-      "published_at": "2026-10-24T11:15:00+00:00",
-      "why_relevant": "5090被拆AI卡",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping block If you are wondering why th",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418243+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping block If you are wondering why th",
-          "sentence_hash": "7d3ebfc23527cd11068e07812e7d226c908f3c8c47e65d2e72d606d4c0ac5321",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "So, what exactly is a GeForce RTX 5090 doing in China when the graphics card is not even officially available there?",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418283+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "So, what exactly is a GeForce RTX 5090 doing in China when the graphics card is not even officially available there?",
-          "sentence_hash": "0b2b8e0b6a5ed3c8bf20f653dd72cbd107a3f057a816edda3a1b87ff7e139943",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The recently leaked footage offers a glimpse inside these Chinese workshops, where skilled technicians meticulously desolder the pricey flagship’s GB202 silicon and GDDR7 memory chips.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418319+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "The recently leaked footage offers a glimpse inside these Chinese workshops, where skilled technicians meticulously desolder the pricey flagship’s GB202 silicon and GDDR7 memory chips.",
-          "sentence_hash": "8127a4f69287e975e43f0db1545a85a51d91625ad643c6c00953248fb9891dc9",
-          "anchors": [
-            "leaked"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "They then transplant the components into a dual-slot blower design tailored for server use.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418341+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "They then transplant the components into a dual-slot blower design tailored for server use.",
-          "sentence_hash": "8754b1911dcb702e3f9ea088536771a647069fafd5317bb4c0adeed1b27fdc2a",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The GeForce RTX 5090 blower graphics cards will ultimately end up in high-density server racks where they will become the backbone of massive AI compute clusters.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418368+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "The GeForce RTX 5090 blower graphics cards will ultimately end up in high-density server racks where they will become the backbone of massive AI compute clusters.",
-          "sentence_hash": "df524440b5b036a298d39fef1aa1918a1e620a3e90de441e92c245b18ccf44e1",
-          "anchors": [
-            "they"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The scale and efficiency of these operations are impressive, with production lines converting shipments of brand-new GeForce RTX 5090 graphics cards, from Nvidia's custom partner models to the chipmaker's highly coveted Founders Edition.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418403+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "The scale and efficiency of these operations are impressive, with production lines converting shipments of brand-new GeForce RTX 5090 graphics cards, from Nvidia's custom partner models to the chipmaker's highly coveted Founders Edition.",
-          "sentence_hash": "957e837bba44e5e27094d1f5e2e2ba7f742e711e3454105c2c464e336a44bb42",
-          "anchors": [
-            "pro"
-          ]
-        }
-      ],
-      "entities": [
-        "pro",
-        "the ge",
-        "chinese",
-        "nvidia",
-        "blackwell",
-        "leaked",
-        "however",
-        "sometimes",
-        "force",
-        "rtx",
-        "middlemen",
-        "founders edition",
-        "after",
-        "gpu",
-        "ai",
-        "china",
-        "they",
-        "custom ge",
-        "nvidia founders editions",
-        "redirected",
-        "many"
-      ],
-      "numbers": [
-        "$8,500"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 22
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_9a128fbacd8775e8747530db",
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
-      "category": "国际",
-      "published_at": "2026-10-24T23:02:06+00:00",
-      "why_relevant": "以军拆房冲突",
+      "published_at": "",
+      "why_relevant": "AWS官方MCP，AI编程相关",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "He added that he believed the military planned to displace a total of 2,500 people from about 0.35 sq km of urban land.",
+          "text": "Help AI coding agents build, deploy, and manage applications on AWS.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.419621+08:00",
-          "content_sha256": "a968d6221a1d6c6f89f66df9cb23415cef6223a43723a49e2a9a6ae212a0d737",
-          "excerpt": "He added that he believed the military planned to displace a total of 2,500 people from about 0.35 sq km of urban land.",
-          "sentence_hash": "3b793856b2bda23ccd99d08262a01a7c914c2d2a6116569155015759ed61ea2c",
+          "captured_at": "2026-10-26T08:03:10.636159+08:00",
+          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
+          "excerpt": "Help AI coding agents build, deploy, and manage applications on AWS.",
+          "sentence_hash": "aedcd8d7fe9ef795cde65344d450f7341ca16e9cab44193890adf85411aaa37c",
           "anchors": [
-            "2,500 people"
-          ]
-        }
-      ],
-      "entities": [
-        "palestinians",
-        "published\nthe israeli",
-        "the israel defense forces",
-        "three",
-        "bbc",
-        "netanyahu",
-        "hebron",
-        "israel",
-        "palestinian",
-        "friday",
-        "ein deir baha",
-        "prime minister benjamin netanyahu",
-        "west bank",
-        "israeli defence minister israel katz",
-        "israeli",
-        "farsh",
-        "idf",
-        "footage",
-        "hawa",
-        "israelis"
-      ],
-      "numbers": [
-        "2,500 people"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 21
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_843c9a4fa6097a673f6db123",
-      "title": "Mass rally against Netanyahu ahead of pivotal Israeli election",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/mass-rally-against-netanyahu-ahead-of-pivotal-israeli-election?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Thousands of Israelis rallied against PM Benjamin Netanyahu ahead of elections on Tuesday.",
-      "category": "国际",
-      "published_at": "2026-10-25T02:07:29+00:00",
-      "why_relevant": "反内塔尼亚胡集会",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Mass rally against Netanyahu ahead of pivotal Israeli election NewsFeed Mass rally against Netanyahu ahead of pivotal Israeli election Thousands of Israelis rallied against PM Benjamin Netanyahu, demanding a change of government and an independent inquiry into the security failur",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.419977+08:00",
-          "content_sha256": "41d0660bdb5d2449b61b730ef05631623d80acda1687ab24ea457c4fd1c9695e",
-          "excerpt": "Mass rally against Netanyahu ahead of pivotal Israeli election NewsFeed Mass rally against Netanyahu ahead of pivotal Israeli election Thousands of Israelis rallied against PM Benjamin Netanyahu, demanding a change of government and an independent inquiry into the security failur",
-          "sentence_hash": "1a0310367e070ff5442eb084d18bbad4ccabc0ca85c353974738e6d9907ee2e1",
-          "anchors": [
-            "October 7"
+            "agent"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The election will be held on Tuesday October 27.",
+          "text": "The Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.419996+08:00",
-          "content_sha256": "41d0660bdb5d2449b61b730ef05631623d80acda1687ab24ea457c4fd1c9695e",
-          "excerpt": "The election will be held on Tuesday October 27.",
-          "sentence_hash": "d21997a36036f6c2bbd6b19199af522349aa1abcbb47fe8a315d926f443f649e",
-          "anchors": [
-            "October 27"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Published On 25 Oct 2026",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.420011+08:00",
-          "content_sha256": "41d0660bdb5d2449b61b730ef05631623d80acda1687ab24ea457c4fd1c9695e",
-          "excerpt": "Published On 25 Oct 2026",
-          "sentence_hash": "8b87f46dd8f19dbcc061bff79862ea94dba63b6ae4595a12ec84b28085805924",
-          "anchors": [
-            "Oct 20"
-          ]
-        }
-      ],
-      "entities": [
-        "published on",
-        "tuesday october",
-        "hamas",
-        "benjamin netanyahu",
-        "israeli",
-        "netanyahu",
-        "mass",
-        "october",
-        "oct",
-        "feed\nmass",
-        "pm",
-        "israelis",
-        "thousands"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 7",
-        "Oct 20",
-        "October 27"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 16
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_3cfd37f6a59c19c2748a9154",
-      "title": "NVIDIA GPUs Are Becoming Appreciating Assets In The Rental Space, With Models As Old As The A100 Reaching Up To A 143% Price Premium Due To AI Token Consumption",
-      "url": "https://wccftech.com/nvidia-gpus-appreciating-assets-a100-rental-premium/",
-      "publisher": "Wccftech",
-      "summary": "The Tesla V100 has found itself a new purpose during the AI boom, meaning that NVIDIA's older GPUs are also being treated with the same value as token consumption from running LLMs continues to rise. According to the latest data, four graphics processors, the A100, H100, H200, and the RTX PRO 6000, have seen a rise in rental prices by up to 143 percent compared to the start of 2026. Despite GPU rental prices increasing, not all NVIDIA's graphics chip premiums were the same; only the H200 witness",
-      "category": "科技",
-      "published_at": "2026-10-24T12:05:52+00:00",
-      "why_relevant": "老GPU租用溢价",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "The Tesla V100 has found itself a new purpose during the AI boom, meaning that NVIDIA's older GPUs are also being treated with the same value as token consumption from running LLMs continues to rise.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.421262+08:00",
-          "content_sha256": "9c90a6c319894b4a4ccc0917f3f8d8f13a5a4682e21b4253dd0b170df77b1076",
-          "excerpt": "The Tesla V100 has found itself a new purpose during the AI boom, meaning that NVIDIA's older GPUs are also being treated with the same value as token consumption from running LLMs continues to rise.",
-          "sentence_hash": "26a4a4138313e49fc8b734e38d032c8abc9ee9155594202247d819b349162a99",
-          "anchors": [
-            "with"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "According to the latest data, four graphics processors, the A100, H100, H200, and the RTX PRO 6000, have seen a rise in rental prices by up to 143 percent compared to the start of 2026.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.421298+08:00",
-          "content_sha256": "9c90a6c319894b4a4ccc0917f3f8d8f13a5a4682e21b4253dd0b170df77b1076",
-          "excerpt": "According to the latest data, four graphics processors, the A100, H100, H200, and the RTX PRO 6000, have seen a rise in rental prices by up to 143 percent compared to the start of 2026.",
-          "sentence_hash": "31a175e857c0c8fe7389f2ffb71614f0820fec984e4e127dbecb3a2ac8c3d980",
-          "anchors": [
-            "pro"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Despite GPU rental prices increasing, not all NVIDIA's graphics chip premiums were the same; only the H200 witnessed the biggest disparity The statistics monitored by Ornn Data were reported by a16z, and as of January 1, 2026, the H200 that launched in 2024 witnessed the biggest ",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.421340+08:00",
-          "content_sha256": "9c90a6c319894b4a4ccc0917f3f8d8f13a5a4682e21b4253dd0b170df77b1076",
-          "excerpt": "Despite GPU rental prices increasing, not all NVIDIA's graphics chip premiums were the same; only the H200 witnessed the biggest disparity The statistics monitored by Ornn Data were reported by a16z, and as of January 1, 2026, the H200 that launched in 2024 witnessed the biggest ",
-          "sentence_hash": "8aa1528d1636593a97c8de55b11d3a5fa43b37ed2e4585e8c4c0494c320946c4",
-          "anchors": [
-            "January 1"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "As for the B200, it gained a 111 percent rental rate, with the RTX 6000 PRO reaching 73 percent and H100 topping 54 percent, with the A100 sporting the smallest increase at a measly 9 percent.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.421372+08:00",
-          "content_sha256": "9c90a6c319894b4a4ccc0917f3f8d8f13a5a4682e21b4253dd0b170df77b1076",
-          "excerpt": "As for the B200, it gained a 111 percent rental rate, with the RTX 6000 PRO reaching 73 percent and H100 topping 54 percent, with the A100 sporting the smallest increase at a measly 9 percent.",
-          "sentence_hash": "f48b3add8b46fff50afc3ef6f2e3282446f6225affc254c00a7080893bfdc915",
+          "captured_at": "2026-10-26T08:03:10.636182+08:00",
+          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
+          "excerpt": "The Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services.",
+          "sentence_hash": "fae159f2e232857c56b1efa816a6bb1a5f57a40790a8315f07f721d363d26216",
           "anchors": [
             "ai",
-            "with"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Timing is also an important metric here because the majority of GPUs bottomed in the first quarter, with the H100 and B200 falling roughly 23 percent below their January level, then rebounded in April and May.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.421407+08:00",
-          "content_sha256": "9c90a6c319894b4a4ccc0917f3f8d8f13a5a4682e21b4253dd0b170df77b1076",
-          "excerpt": "Timing is also an important metric here because the majority of GPUs bottomed in the first quarter, with the H100 and B200 falling roughly 23 percent below their January level, then rebounded in April and May.",
-          "sentence_hash": "e4228a45bd965410429aa350f9f147bae00f9ccb4bfad6da5484de5793f05083",
-          "anchors": [
-            "with"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The H100 was also flat until early May before making a solid jump within weeks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.421429+08:00",
-          "content_sha256": "9c90a6c319894b4a4ccc0917f3f8d8f13a5a4682e21b4253dd0b170df77b1076",
-          "excerpt": "The H100 was also flat until early May before making a solid jump within weeks.",
-          "sentence_hash": "20891c190054a1aa8f3d25da914b6f555462d37d5dba2f108b2a4554b0623408",
-          "anchors": [
-            "with"
-          ]
-        }
-      ],
-      "entities": [
-        "pro",
-        "timing",
-        "sure",
-        "follow wccftech",
-        "ornn data",
-        "nvidia",
-        "with",
-        "however",
-        "news source",
-        "link",
-        "tesla",
-        "rtx",
-        "vram",
-        "dgx",
-        "spark",
-        "given",
-        "gpu",
-        "ultra",
-        "google",
-        "take",
-        "ai",
-        "despite",
-        "the tesla",
-        "october",
-        "april",
-        "according",
-        "january"
-      ],
-      "numbers": [
-        "$200 "
-      ],
-      "dates": [
-        "January 1"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 29
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_0326af2fc76baa1f2b12bc96",
-      "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
-      "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-24T14:38:47+00:00",
-      "why_relevant": "米莱迷因币结案",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA The judge found that Milei's promotion of LIBRA did not constitute fraud, despite the attention his support drew to the token.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.422753+08:00",
-          "content_sha256": "5c916a3247e72991d149578802d434e4bb32663c2713ec531ade325c88737097",
-          "excerpt": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA The judge found that Milei's promotion of LIBRA did not constitute fraud, despite the attention his support drew to the token.",
-          "sentence_hash": "fae52e6c11a58aced6bd9c36a5de79b215b5b427040b5270c8edbd57b5a78bde",
-          "anchors": [
-            "coin"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "- LIBRA lost more than 95% of its value after reaching about $5, while wallets linked to its creator withdrew around $99 million in cryptocurrency.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.422800+08:00",
-          "content_sha256": "5c916a3247e72991d149578802d434e4bb32663c2713ec531ade325c88737097",
-          "excerpt": "- LIBRA lost more than 95% of its value after reaching about $5, while wallets linked to its creator withdrew around $99 million in cryptocurrency.",
-          "sentence_hash": "19950aab8fe66848a712f9bb8ffa3310bb93568abcd995f87600e15024d3b4b8",
-          "anchors": [
-            "$99 million",
-            "95%",
-            "99 million",
-            "$5"
+            "agent",
+            "for"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "An Argentine federal judge has dismissed the criminal case against President Javier Milei over his promotion of LIBRA, a memecoin that crashed soon after its launch in February 2025.",
+          "text": "It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.422834+08:00",
-          "content_sha256": "5c916a3247e72991d149578802d434e4bb32663c2713ec531ade325c88737097",
-          "excerpt": "An Argentine federal judge has dismissed the criminal case against President Javier Milei over his promotion of LIBRA, a memecoin that crashed soon after its launch in February 2025.",
-          "sentence_hash": "4ad80effd181fd8737b2bcce3e16e2746e6e87c282240704a941e1c15050ecd6",
+          "captured_at": "2026-10-26T08:03:10.636206+08:00",
+          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
+          "excerpt": "It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx.",
+          "sentence_hash": "a3dcbbe4425da05dec9cc7e8c8d5ac81f18ca4f10bba3d538bbb37c71183549b",
           "anchors": [
-            "coin",
-            "February 20"
+            "use",
+            "agent",
+            "dev"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "In all, 11 people were cleared, including lobbyist Mauricio Novelli and KIP Protocol CEO Julian Peh, according to Infobae.",
+          "text": "Use the Agent Toolkit directly from your terminal with the AWS CLI: aws configure agent-toolkit See the AWS CLI integration guide for setup, configuration, and usage instructions.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.422875+08:00",
-          "content_sha256": "5c916a3247e72991d149578802d434e4bb32663c2713ec531ade325c88737097",
-          "excerpt": "In all, 11 people were cleared, including lobbyist Mauricio Novelli and KIP Protocol CEO Julian Peh, according to Infobae.",
-          "sentence_hash": "fae478d1851aea857112c61eebe03ac2315737440ff010405fe759d285cd7326",
-          "anchors": [
-            "11 people"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "In February 2025, CoinDesk reported that it had obtained text messages in which Davis bragged about buying access to the president’s inner circle, sent money to Karina Milei, and claimed he could influence the president's decisions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.422947+08:00",
-          "content_sha256": "5c916a3247e72991d149578802d434e4bb32663c2713ec531ade325c88737097",
-          "excerpt": "In February 2025, CoinDesk reported that it had obtained text messages in which Davis bragged about buying access to the president’s inner circle, sent money to Karina Milei, and claimed he could influence the president's decisions.",
-          "sentence_hash": "c06be780226ba75ac235d5c6a97a7cc53511ebca61246ba7d73159e27432a664",
-          "anchors": [
-            "February 20"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "It rose exponentially before losing more than 90% of its value, leading to the destruction of over $250 million in investor wealth.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.422989+08:00",
-          "content_sha256": "5c916a3247e72991d149578802d434e4bb32663c2713ec531ade325c88737097",
-          "excerpt": "It rose exponentially before losing more than 90% of its value, leading to the destruction of over $250 million in investor wealth.",
-          "sentence_hash": "f6cbc31998613c4e10cd7a4ba2d95195706fba0b72152d43ec08d00d8107841a",
-          "anchors": [
-            "90%",
-            "$250 million",
-            "250 million"
-          ]
-        }
-      ],
-      "entities": [
-        "julian peh",
-        "president javier milei",
-        "feb",
-        "february",
-        "in february",
-        "none",
-        "libra",
-        "karina",
-        "mauricio novelli",
-        "president milei",
-        "davis",
-        "milei",
-        "judge marcelo mart",
-        "coin",
-        "argentine",
-        "reuters",
-        "chequeado",
-        "ceo",
-        "desk",
-        "giorgi",
-        "kip",
-        "infobae",
-        "solana",
-        "protocol",
-        "hayden davis",
-        "an argentine",
-        "karina milei",
-        "blockchain",
-        "argentina"
-      ],
-      "numbers": [
-        "11 people",
-        "$99 million",
-        "$250 million",
-        "99 million",
-        "250 million",
-        "$5",
-        "$100 million",
-        "100 million",
-        "90%",
-        "95%"
-      ],
-      "dates": [
-        "February 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 40
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_164d0a0fbf13c2c10ff055ef",
-      "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
-      "url": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-24T14:00:00+00:00",
-      "why_relevant": "比特币大户借贷",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO Borrowing against bitcoin and earning income to build their BTC holdings are becoming priorities for long-term investors, Xapo Bank CEO Seamus Rocca told CoinDesk.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.424299+08:00",
-          "content_sha256": "540412d3ea0b2c492638300cff89f47f96d8bb75af23d8caea3c57ae8d703a90",
-          "excerpt": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO Borrowing against bitcoin and earning income to build their BTC holdings are becoming priorities for long-term investors, Xapo Bank CEO Seamus Rocca told CoinDesk.",
-          "sentence_hash": "b4500702b1efd9f9d8d1fa0026bd99769471a3865a1cf7ed0c2d9b4293182e8c",
+          "captured_at": "2026-10-26T08:03:10.636233+08:00",
+          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
+          "excerpt": "Use the Agent Toolkit directly from your terminal with the AWS CLI: aws configure agent-toolkit See the AWS CLI integration guide for setup, configuration, and usage instructions.",
+          "sentence_hash": "cbef6a33378bff5f1a659467da8af1b3bf9fe4fbbf47d2661a9084be8cf94b15",
           "anchors": [
             "for",
-            "bitcoin",
-            "coin",
-            "wealthy",
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "- Xapo customers are using bitcoin as collateral and accumulating BTC through interest on dollar savings, its CEO told CoinDesk.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.424333+08:00",
-          "content_sha256": "540412d3ea0b2c492638300cff89f47f96d8bb75af23d8caea3c57ae8d703a90",
-          "excerpt": "- Xapo customers are using bitcoin as collateral and accumulating BTC through interest on dollar savings, its CEO told CoinDesk.",
-          "sentence_hash": "9e6be4576ffdd69b95ae1ffbf3c2fdd5a04b471fab458c859844653c6fb7bc20",
-          "anchors": [
-            "customers",
-            "bitcoin",
-            "coin",
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "- Traditional banks’ cautious approach leaves an opening for specialist providers, Seamus Rocca said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.424363+08:00",
-          "content_sha256": "540412d3ea0b2c492638300cff89f47f96d8bb75af23d8caea3c57ae8d703a90",
-          "excerpt": "- Traditional banks’ cautious approach leaves an opening for specialist providers, Seamus Rocca said.",
-          "sentence_hash": "c24892cbf8303615e39140464f01bea0d1e7ff8b1fa302da1a37be2310a79295",
-          "anchors": [
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Wealthy bitcoin holders are increasingly treating their cryptocurrency as an asset to borrow against and generate income from, marking a shift from speculation toward private banking, according to Xapo Bank CEO Seamus Rocca.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.424398+08:00",
-          "content_sha256": "540412d3ea0b2c492638300cff89f47f96d8bb75af23d8caea3c57ae8d703a90",
-          "excerpt": "Wealthy bitcoin holders are increasingly treating their cryptocurrency as an asset to borrow against and generate income from, marking a shift from speculation toward private banking, according to Xapo Bank CEO Seamus Rocca.",
-          "sentence_hash": "c0b2fb02b48631044276310a4ff4df346e7289bd61b7f12e00b926facb6b473f",
-          "anchors": [
-            "bitcoin",
-            "coin"
+            "agent",
+            "setup",
+            "aws"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "At the Gibraltar-based bank, customers are seeking cash without selling their bitcoin, putting some of their holdings into income-generating investments, or accumulating more BTC through interest paid on dollar savings, he said.",
+          "text": "The plugins are available on the official Anthropic marketplace (claude-plugins-official) which is added to your Claude Code installation by default.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.424431+08:00",
-          "content_sha256": "540412d3ea0b2c492638300cff89f47f96d8bb75af23d8caea3c57ae8d703a90",
-          "excerpt": "At the Gibraltar-based bank, customers are seeking cash without selling their bitcoin, putting some of their holdings into income-generating investments, or accumulating more BTC through interest paid on dollar savings, he said.",
-          "sentence_hash": "020963a2345fc7a36eac002e44e59266a7d21a165ae9bf346ae8379f088c40ed",
+          "captured_at": "2026-10-26T08:03:10.636266+08:00",
+          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
+          "excerpt": "The plugins are available on the official Anthropic marketplace (claude-plugins-official) which is added to your Claude Code installation by default.",
+          "sentence_hash": "88a776a16bb26cc3eae338db13638d3bfaa5e30f6dff52198251096431013571",
           "anchors": [
-            "customers",
-            "some",
-            "bitcoin",
-            "coin"
+            "plugin",
+            "add",
+            "ai",
+            "plugins",
+            "claude"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "“Customers are looking for yield and alpha,” Rocca told CoinDesk in an interview, pointing to demand from funds and family offices for accumulation and income products.",
+          "text": "Use the following commands to install supported plugins from the toolkit: For aws-core that covers service selection, CDK/CloudFormation, serverless, containers, storage, observability, billing, SDK usage, and deployment: /plugin install aws-core@claude-plugins-official Tip: If y",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.424463+08:00",
-          "content_sha256": "540412d3ea0b2c492638300cff89f47f96d8bb75af23d8caea3c57ae8d703a90",
-          "excerpt": "“Customers are looking for yield and alpha,” Rocca told CoinDesk in an interview, pointing to demand from funds and family offices for accumulation and income products.",
-          "sentence_hash": "1cffa55d1930ccdd06c7b45c33467b999dcbecc80f8b71d2de0a82a18aa634dc",
+          "captured_at": "2026-10-26T08:03:10.636319+08:00",
+          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
+          "excerpt": "Use the following commands to install supported plugins from the toolkit: For aws-core that covers service selection, CDK/CloudFormation, serverless, containers, storage, observability, billing, SDK usage, and deployment: /plugin install aws-core@claude-plugins-official Tip: If y",
+          "sentence_hash": "848474e01b863c0c8f60687630de60d1b144f33fa571799d4356ece5d93fbce7",
           "anchors": [
-            "for"
+            "plugin",
+            "use",
+            "core",
+            "dev",
+            "aws",
+            "then",
+            "ai",
+            "agent",
+            "for",
+            "plugins",
+            "claude",
+            "server"
           ]
         }
       ],
       "entities": [
-        "gibraltar",
-        "xapo",
-        "others",
-        "customers",
-        "five",
-        "some",
-        "coin",
-        "borrowing",
-        "experience",
-        "today",
-        "seamus rocca",
-        "ceo",
-        "desk",
-        "traditional",
-        "bitcoin",
-        "wealthy",
-        "rocca",
-        "xapo bank",
-        "two",
-        "swiss",
+        "plugin",
+        "heroku",
+        "gemini",
+        "the agent toolkit",
+        "formation",
+        "anthropic",
+        "see",
+        "each",
+        "cloud",
+        "settings",
+        "claude code",
+        "azure",
+        "add",
+        "cli",
+        "activate",
+        "core",
+        "dev",
+        "athena",
+        "then",
+        "devin",
+        "kiro",
+        "server",
+        "sdk",
+        "amazon bedrock",
+        "help",
+        "security agent",
+        "codex",
+        "use",
+        "open",
+        "cdk",
+        "ops agent",
+        "import",
+        "ai",
+        "agent",
+        "uat",
+        "claude",
+        "gcp",
+        "tables",
+        "agent toolkit",
+        "cursor",
+        "add marketplace",
+        "glue",
+        "team marketplaces",
+        "repo",
+        "setup",
+        "aws",
         "for",
-        "its",
-        "btc"
+        "plugins",
+        "mcp",
+        "etl",
+        "tip"
       ],
-      "numbers": [
-        "4%",
-        "$1,000",
-        "4.1%",
-        "45%",
-        "4.6%"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -1044,350 +919,509 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 51
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_3426b868da479c99fe27611b",
+      "title": "Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates",
+      "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Traders looked ahead to a busy week with the Federal Reserve's policy decision due on Wednesday.",
+      "category": "财经",
+      "published_at": "2026-10-25T23:52:24+00:00",
+      "why_relevant": "美股期货，联储周",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Stock futures rose on Sunday evening as traders look toward a slew of central bank decisions this week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.637274+08:00",
+          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
+          "excerpt": "Stock futures rose on Sunday evening as traders look toward a slew of central bank decisions this week.",
+          "sentence_hash": "984b0ab6d3f25f8d96d5049f28b4e1cc3c6ad9297f835b383a5472563271a69f",
+          "anchors": [
+            "traders",
+            "futures",
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "S&P 500 futures were up 0.4% while Dow Jones Industrial Average futures added 128 points, or 0.2%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.637296+08:00",
+          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
+          "excerpt": "S&P 500 futures were up 0.4% while Dow Jones Industrial Average futures added 128 points, or 0.2%.",
+          "sentence_hash": "bf4a734258d4fb311a9694b60d8be39b26d790afa087a9399cb4a8dedd9c683a",
+          "anchors": [
+            "0.4%",
+            "futures",
+            "4%",
+            "0.2%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Nasdaq-100 futures gained 0.6%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.637309+08:00",
+          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
+          "excerpt": "Nasdaq-100 futures gained 0.6%.",
+          "sentence_hash": "6168702b2c9bae3b41782b8386d5a39b4cc9cba911f6ba020b9cd1fea93029da",
+          "anchors": [
+            "futures",
+            "0.6%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Asian markets are set to start the week mixed, with futures for Japan's Nikkei 225 in Chicago at 63,030, compared with the index's previous close of 62,693.16.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.637345+08:00",
+          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
+          "excerpt": "Asian markets are set to start the week mixed, with futures for Japan's Nikkei 225 in Chicago at 63,030, compared with the index's previous close of 62,693.16.",
+          "sentence_hash": "03f5a212050c4f10954891a9e0288a96177f4519dbae30e78118b22ddd86e78a",
+          "anchors": [
+            "futures"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Australia's S&P/ASX 200 was down 0.79% in early trading.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.637366+08:00",
+          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
+          "excerpt": "Australia's S&P/ASX 200 was down 0.79% in early trading.",
+          "sentence_hash": "c0aaeb61b4df58111149012b6dd4b55dac07254965173c1d9466e5871474da68",
+          "anchors": [
+            "0.79%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Oil prices were lower on Monday in Asia, with Brent futures falling 0.89% to trade at $115.68 a barrel while U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.637386+08:00",
+          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
+          "excerpt": "Oil prices were lower on Monday in Asia, with Brent futures falling 0.89% to trade at $115.68 a barrel while U.S.",
+          "sentence_hash": "93b47c8a780e298fac5de440be0acdf0f50df83bef1f0663ba8b08142c7bd959",
+          "anchors": [
+            "futures",
+            "0.89%",
+            "$115.68 "
+          ]
+        }
+      ],
+      "entities": [
+        "moody",
+        "hong kong",
+        "warsh",
+        "friday",
+        "israel",
+        "america",
+        "april",
+        "wednesday",
+        "traders",
+        "thursday",
+        "france",
+        "brent",
+        "asian",
+        "hang seng",
+        "monday",
+        "asx",
+        "west texas intermediate",
+        "the dow",
+        "european central bank",
+        "sunday",
+        "stock",
+        "claudio irigoyen",
+        "nasdaq",
+        "bank",
+        "dow jones industrial average",
+        "nikkei",
+        "futures",
+        "asia",
+        "the oct",
+        "federal reserve",
+        "chicago",
+        "japan",
+        "chair warsh",
+        "australia",
+        "oil",
+        "higher",
+        "gdp",
+        "the nasdaq composite",
+        "fed",
+        "iran"
+      ],
+      "numbers": [
+        "3.75%",
+        "0.79%",
+        "120%",
+        "1.03%",
+        "0.2%",
+        "$102.22 ",
+        "0.4%",
+        "0.89%",
+        "90%",
+        "0.5%",
+        "4%",
+        "5%",
+        "$115.68 ",
+        "0.6%"
+      ],
+      "dates": [
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 55
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_14a5788e5cd7bf68277bec46",
+      "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+      "url": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-25T13:00:00+00:00",
+      "why_relevant": "英国银行加密投诉激增",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "UK banks face 10,000 complaints in 3 months over crypto restrictions The U.K.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.638329+08:00",
+          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
+          "excerpt": "UK banks face 10,000 complaints in 3 months over crypto restrictions The U.K.",
+          "sentence_hash": "00a775b12fc34ac39822548e1ebe59fc81ef1a9404dcc21f99b8273d2afc482f",
+          "anchors": [
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "claims to aspire to become a global cryptocurrency hub, an ambition that would appear to be at odds with the attitude to crypto purchases of its major banks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.638353+08:00",
+          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
+          "excerpt": "claims to aspire to become a global cryptocurrency hub, an ambition that would appear to be at odds with the attitude to crypto purchases of its major banks.",
+          "sentence_hash": "b6afc647d385942a082a98f58b251d953b18bdc3bfc2598eded3db48950a4dda",
+          "anchors": [
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- More than 10,000 complaints about bank restrictions on cryptocurrency transactions were submitted across the U.K.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.638369+08:00",
+          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
+          "excerpt": "- More than 10,000 complaints about bank restrictions on cryptocurrency transactions were submitted across the U.K.",
+          "sentence_hash": "deaab14a77d4e0d4d8b617e34e453318224ac16a17d1f85312a31db8580a2fb0",
+          "anchors": [
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Lloyds Banking Group received the most complaints, followed by Barclays and NatWest, though the voluntary data was not adjusted for each bank’s market share and does not represent all customers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.638398+08:00",
+          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
+          "excerpt": "- Lloyds Banking Group received the most complaints, followed by Barclays and NatWest, though the voluntary data was not adjusted for each bank’s market share and does not represent all customers.",
+          "sentence_hash": "f56db6b4c3ed84bfdc872abe66809c2dea791823f7ddc7d7a7fd9df012799b7c",
+          "anchors": [
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Stand With Crypto said banks’ blanket bans, rigid limits and unclear policies could impede access to regulated exchanges and undermine Britain’s ambition to become a global cryptocurrency hub.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.638423+08:00",
+          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
+          "excerpt": "- Stand With Crypto said banks’ blanket bans, rigid limits and unclear policies could impede access to regulated exchanges and undermine Britain’s ambition to become a global cryptocurrency hub.",
+          "sentence_hash": "da54fc59902ec10f9884604c81a12cb5529a423bdb0ee44091b4c286b839b598",
+          "anchors": [
+            "bank"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The U.K.’s desire to become a global cryptocurrency hub appears to have collided with a barrier in the form of the country’s high-street banks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.638447+08:00",
+          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
+          "excerpt": "The U.K.’s desire to become a global cryptocurrency hub appears to have collided with a barrier in the form of the country’s high-street banks.",
+          "sentence_hash": "c48c305eaa8e8e766d5b7160e03e1606984a2d1da91f371fb4213ecb6c41576e",
+          "anchors": [
+            "bank"
+          ]
+        }
+      ],
+      "entities": [
+        "financial conduct authority",
+        "august",
+        "increased",
+        "more",
+        "coinbase",
+        "halifax",
+        "conservative",
+        "fca",
+        "european",
+        "treasury",
+        "nat",
+        "rishi sunak",
+        "britain",
+        "lloyds banking group",
+        "harries",
+        "scotland",
+        "while",
+        "stand with crypto",
+        "lucy rigby",
+        "west",
+        "swc",
+        "barclays",
+        "katie harries",
+        "west group",
+        "uk",
+        "labour",
+        "bank"
+      ],
+      "numbers": [
+        "23%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 28
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_746f5872f59c8773b6bb42c4",
-      "title": "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
-      "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Former US president says Trump &#039;chose to make a series of bad decisions&#039;, highlighting the US-Israel war on Iran.",
+      "article_id": "a1_43c8f487672a80531aea9a61",
+      "title": "Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches",
+      "url": "https://www.scmp.com/business/cryptocurrency/article/3372060/standard-chartered-led-anchorpoint-plans-retail-stablecoin-hsbc-redcoin-launches",
+      "publisher": "SCMP",
+      "summary": "After HSBC RedCoin launched on Friday, Anchorpoint – the stablecoin-issuing joint venture led by Standard Chartered – said it plans to launch a retail product on a public blockchain, even as it takes a “prudent approach”.\n“Our next major milestone is to [help] bring regulated digital money into everyday payments and commercial applications, while connecting traditional payment infrastructure with this emerging digital finance,” said Dominic Maffei, CEO of Anchorpoint.\n“This is a public...",
       "category": "国际",
-      "published_at": "2026-10-25T00:34:43+00:00",
-      "why_relevant": "奥巴马抨击特朗普",
+      "published_at": "2026-10-25T23:00:15+00:00",
+      "why_relevant": "稳定币零售产品动态",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Obama urged Ohioans to vote against the Republican administration, saying: “After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, ‘Enough is enough’.” Heated Ohio races The former pres",
+          "text": "Advertisement Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches But the venture has yet to commit to a launch date, saying it will not rush the product to market 2-MIN READ2-MIN Listen After HSBC RedCoin launched on Friday, Anchorpoint – the stab",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.425874+08:00",
-          "content_sha256": "d0ff3b4eaf97687e91a178e08e5abaa7d14d37e647d0c5aac41ecf34db6e375a",
-          "excerpt": "Obama urged Ohioans to vote against the Republican administration, saying: “After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, ‘Enough is enough’.” Heated Ohio races The former pres",
-          "sentence_hash": "3860eeeaa1437e5300e0120e4db0c5da941fa031565569ae4e53a9c061742b11",
+          "captured_at": "2026-10-26T08:03:10.638844+08:00",
+          "content_sha256": "6ce9bbfb3d91cbc289778b4af05293384a39016bd37de95b85db1ea0fbba4158",
+          "excerpt": "Advertisement Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches But the venture has yet to commit to a launch date, saying it will not rush the product to market 2-MIN READ2-MIN Listen After HSBC RedCoin launched on Friday, Anchorpoint – the stab",
+          "sentence_hash": "016450d05eb57ab1a95f25c241a5fc06e5624942dfa4377a29cf430417cbcb03",
           "anchors": [
-            "enough"
+            "ai",
+            "coin",
+            "red"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "“I don’t know what’s happened where the standards of behaviour are so low that somebody could run an ad like that.” In the advertisement, Donna Arthur, Acton’s mother, disputes her daughter’s account of a childhood involving homelessness and sexual abuse by her stepfather, urging",
+          "text": "“Our next major milestone is to [help] bring regulated digital money into everyday payments and commercial applications, while connecting traditional payment infrastructure with this emerging digital finance,” said Dominic Maffei, CEO of Anchorpoint.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.425939+08:00",
-          "content_sha256": "d0ff3b4eaf97687e91a178e08e5abaa7d14d37e647d0c5aac41ecf34db6e375a",
-          "excerpt": "“I don’t know what’s happened where the standards of behaviour are so low that somebody could run an ad like that.” In the advertisement, Donna Arthur, Acton’s mother, disputes her daughter’s account of a childhood involving homelessness and sexual abuse by her stepfather, urging",
-          "sentence_hash": "074e7045c07715deba871c7e99e08938462acac0fee1598e2d31ed20bcf19528",
+          "captured_at": "2026-10-26T08:03:10.638875+08:00",
+          "content_sha256": "6ce9bbfb3d91cbc289778b4af05293384a39016bd37de95b85db1ea0fbba4158",
+          "excerpt": "“Our next major milestone is to [help] bring regulated digital money into everyday payments and commercial applications, while connecting traditional payment infrastructure with this emerging digital finance,” said Dominic Maffei, CEO of Anchorpoint.",
+          "sentence_hash": "9c3829619eac8ecd7dffa69c5e786479515f4bc53135d61af061dc5986d7398d",
           "anchors": [
-            "us"
+            "ai",
+            "pay",
+            "min"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Acton’s brother has supported her account of being sexually abused by her stepfather when she was a child.",
+          "text": "“This is a public blockchain stablecoin, so applying this to retail, a lot of considerations need to be made.” Anchorpoint’s commitment to serving its retail customers comes as HSBC just launched its Hong Kong dollar-backed HSBC RedCoin for the 3.3 million users of its PayMe app.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.425974+08:00",
-          "content_sha256": "d0ff3b4eaf97687e91a178e08e5abaa7d14d37e647d0c5aac41ecf34db6e375a",
-          "excerpt": "Acton’s brother has supported her account of being sexually abused by her stepfather when she was a child.",
-          "sentence_hash": "b438983456c8e76a561e1b5128f134f24699cf5c5cadc01a772fe91b16041ba4",
+          "captured_at": "2026-10-26T08:03:10.638903+08:00",
+          "content_sha256": "6ce9bbfb3d91cbc289778b4af05293384a39016bd37de95b85db1ea0fbba4158",
+          "excerpt": "“This is a public blockchain stablecoin, so applying this to retail, a lot of considerations need to be made.” Anchorpoint’s commitment to serving its retail customers comes as HSBC just launched its Hong Kong dollar-backed HSBC RedCoin for the 3.3 million users of its PayMe app.",
+          "sentence_hash": "b3b1167b6ffb168129090b75cd4bf8aa790ba40a8ace9d7c2228570ffae12b26",
           "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Obama backed Acton, saying that she has “spoken movingly about her painful childhood and all she’s experienced: abuse, neglect and homelessness.” The former president shared the rally stage with Acton and Ohio’s former Democratic senator, Sherrod Brown, who will attempt a comebac",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.426026+08:00",
-          "content_sha256": "d0ff3b4eaf97687e91a178e08e5abaa7d14d37e647d0c5aac41ecf34db6e375a",
-          "excerpt": "Obama backed Acton, saying that she has “spoken movingly about her painful childhood and all she’s experienced: abuse, neglect and homelessness.” The former president shared the rally stage with Acton and Ohio’s former Democratic senator, Sherrod Brown, who will attempt a comebac",
-          "sentence_hash": "246ae1c6b4bfea36281842369ff10f2932f41b57773b4916523c8d0cec403f91",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Defending El-Sayed Later on Saturday evening, Obama headed to Michigan, where he condemned critics of Democratic Senate candidate Abdul El-Sayed, suggesting that they are using the 41-year-old politician’s name and Muslim faith to tear him down.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.426082+08:00",
-          "content_sha256": "d0ff3b4eaf97687e91a178e08e5abaa7d14d37e647d0c5aac41ecf34db6e375a",
-          "excerpt": "Defending El-Sayed Later on Saturday evening, Obama headed to Michigan, where he condemned critics of Democratic Senate candidate Abdul El-Sayed, suggesting that they are using the 41-year-old politician’s name and Muslim faith to tear him down.",
-          "sentence_hash": "7288636b4c7894fc43ca4ea9d3a28452a85864a30e962ec98b76d68264d8b6af",
-          "anchors": [
-            "us"
+            "ai",
+            "coin",
+            "3.3 million"
           ]
         }
       ],
       "entities": [
-        "detroit",
-        "abdul el",
-        "iran",
-        "polls",
-        "abdul",
-        "democrats",
-        "after",
-        "acton",
-        "democratic senate",
-        "democrats\nformer",
-        "barack obama",
-        "enough",
-        "michigan",
-        "sherrod brown",
-        "heated ohio",
-        "ramaswamy",
-        "donna arthur",
-        "muslim",
-        "midwestern",
-        "defending el",
-        "trump",
-        "sayed\nlater",
-        "vivek ramaswamy",
-        "most",
-        "democrat amy acton",
-        "president donald trump",
-        "florida",
-        "israel",
-        "democrat",
-        "obama",
-        "republican",
-        "republican senator jon husted",
-        "us",
-        "sayed",
-        "saturday",
-        "ohioans",
-        "ohio",
-        "democratic"
+        "hong kong",
+        "coin",
+        "friday",
+        "anchorpoint",
+        "ai",
+        "listen\nafter",
+        "min",
+        "hsbc",
+        "but",
+        "ceo",
+        "dominic maffei",
+        "our",
+        "standard chartered",
+        "pay",
+        "advertisement\nstandard chartered",
+        "select voice\nselect speed",
+        "red"
       ],
-      "numbers": [],
+      "numbers": [
+        "3.3 million"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 5,
-        "anchor_count": 38
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_77651e1a243d37cab831093b",
-      "title": "Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372036/fandom-vs-flag-why-young-chinese-embrace-japanese-pop-culture-reject-war-era-symbols",
-      "publisher": "SCMP",
-      "summary": "Young Chinese people enjoy Japanese pop culture such as anime and music, but many draw a firm line at symbols of Japanese militarism.\nThat line was tested recently at Moscow State University, where Chinese students confronted a classmate wearing Japan’s rising sun flag in class and called for his repatriation, state-run newspaper Global Times reported on Sunday.\nMany countries, including China, view the flag as a symbol of Japanese militarism and aggression. Japan’s Self-Defence Forces still use",
-      "category": "国际",
-      "published_at": "2026-10-25T02:00:16+00:00",
-      "why_relevant": "中日文化符号",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Advertisement Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols For many on the mainland, the recent rising sun flag incident and controversies like it show a fondness for anime and manga only goes so far 4-MIN READ4-MIN 2 Listen Young Chin",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.427756+08:00",
-          "content_sha256": "7710e1db4f0735cf8b5c049ca4a795f047b2fb6e5b0e4767b487fc877c78df1b",
-          "excerpt": "Advertisement Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols For many on the mainland, the recent rising sun flag incident and controversies like it show a fondness for anime and manga only goes so far 4-MIN READ4-MIN 2 Listen Young Chin",
-          "sentence_hash": "54c2210a67d53cc3adbfedd2fce908dca80819dbe9c67f9936f339f6455f1b1e",
-          "anchors": [
-            "ai",
-            "people",
-            "for",
-            "many"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "That line was tested recently at Moscow State University, where Chinese students confronted a classmate wearing Japan’s rising sun flag in class and called for his repatriation, state-run newspaper Global Times reported on Sunday.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.427797+08:00",
-          "content_sha256": "7710e1db4f0735cf8b5c049ca4a795f047b2fb6e5b0e4767b487fc877c78df1b",
-          "excerpt": "That line was tested recently at Moscow State University, where Chinese students confronted a classmate wearing Japan’s rising sun flag in class and called for his repatriation, state-run newspaper Global Times reported on Sunday.",
-          "sentence_hash": "8a2d6a601e5fd4cbfc98114b24c2e1b1e5c78db37e6cd7700bad756edeeb60b5",
-          "anchors": [
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The October 14 incident sparked an online backlash against the Chinese student and praise for those who reported him, following commentaries by People’s Daily, the Communist Party’s official newspaper, and the People’s Liberation Army.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.427845+08:00",
-          "content_sha256": "7710e1db4f0735cf8b5c049ca4a795f047b2fb6e5b0e4767b487fc877c78df1b",
-          "excerpt": "The October 14 incident sparked an online backlash against the Chinese student and praise for those who reported him, following commentaries by People’s Daily, the Communist Party’s official newspaper, and the People’s Liberation Army.",
-          "sentence_hash": "ee2724b45f0caca307a4acec339bbebb913735af4ab1ce87fd765e2469ecebaa",
-          "anchors": [
-            "October 14",
-            "ai",
-            "for"
-          ]
-        }
-      ],
-      "entities": [
-        "chinese",
-        "sunday",
-        "daily",
-        "people",
-        "moscow state university",
-        "self",
-        "communist party",
-        "advertisement\nfandom",
-        "defence forces",
-        "liberation army",
-        "japan",
-        "global times",
-        "min",
-        "japanese",
-        "listen\nyoung chinese",
-        "ai",
-        "china",
-        "select voice\nselect speed",
-        "for",
-        "the october",
-        "many"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 14"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 3,
-        "anchor_count": 22
+        "anchor_count": 18
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_0f03b767d77a4599a3a9cb9e",
-      "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_f3302444d0b367f1a7cfba8f",
+      "title": "Deeply divided Israel braces for pivotal election",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
       "category": "国际",
-      "published_at": "2026-10-24T15:21:44+00:00",
-      "why_relevant": "鹰巢火灾",
+      "published_at": "2026-10-25T22:11:13+00:00",
+      "why_relevant": "以色列重大选举",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat - Published Police in the southern German state of Bavaria have detained a 33-year-old German man during a fire at Adolf Hitler's Alpine mountain retreat, the Kehlsteinhaus, also known as the Eagle's Nest.",
+          "text": "The general election on Tuesday hangs over a country that's deeply divided and ready for a fight.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.429081+08:00",
-          "content_sha256": "cad0e5d3cff8a6702c6a0630654d118eca044e38bbeffbd2b8cf4795c35b7c89",
-          "excerpt": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat - Published Police in the southern German state of Bavaria have detained a 33-year-old German man during a fire at Adolf Hitler's Alpine mountain retreat, the Kehlsteinhaus, also known as the Eagle's Nest.",
-          "sentence_hash": "c28875de7edf2c862b787069442b7a7b65705ef88f3e83147a2c140bacfddaa4",
+          "captured_at": "2026-10-26T08:03:10.639743+08:00",
+          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
+          "excerpt": "The general election on Tuesday hangs over a country that's deeply divided and ready for a fight.",
+          "sentence_hash": "cb1ff1ce9adc82f3f2daa0068a315089a8ec38819919d296560b3b4f3125ecdc",
           "anchors": [
-            "during",
-            "man"
+            "and",
+            "deeply"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Dispatchers in Traunstein received a fire alarm from the building at 21:15 local time (19:15 GMT) on Friday and firefighters found it engulfed in flames.",
+          "text": "Polls published on Friday put the governing coalition and the main opposition bloc almost neck-and-neck, with half a million first-time voters due to cast their ballot and some 70,000 Israelis reportedly flying in from abroad specifically to vote.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.429113+08:00",
-          "content_sha256": "cad0e5d3cff8a6702c6a0630654d118eca044e38bbeffbd2b8cf4795c35b7c89",
-          "excerpt": "Dispatchers in Traunstein received a fire alarm from the building at 21:15 local time (19:15 GMT) on Friday and firefighters found it engulfed in flames.",
-          "sentence_hash": "87b1fac155727369f6eba45ab13a484ad9e7d4e550a6d1095dd262fd966450cc",
+          "captured_at": "2026-10-26T08:03:10.639771+08:00",
+          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
+          "excerpt": "Polls published on Friday put the governing coalition and the main opposition bloc almost neck-and-neck, with half a million first-time voters due to cast their ballot and some 70,000 Israelis reportedly flying in from abroad specifically to vote.",
+          "sentence_hash": "f171c71e01d71f294619b8091ab65bcbb4f2ad58b02811a5e71d36e8c1d6dba5",
           "anchors": [
-            "local"
+            "ai",
+            "and",
+            "published"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Some 200 emergency personnel were deployed to the scene where the blaze was still burning early on Saturday, as police said difficult terrain hindered efforts to bring the fire under control.",
+          "text": "On Saturday night, vast crowds of opposition voters gathered in central Tel Aviv to demand a change of government.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.429147+08:00",
-          "content_sha256": "cad0e5d3cff8a6702c6a0630654d118eca044e38bbeffbd2b8cf4795c35b7c89",
-          "excerpt": "Some 200 emergency personnel were deployed to the scene where the blaze was still burning early on Saturday, as police said difficult terrain hindered efforts to bring the fire under control.",
-          "sentence_hash": "2a9e3e8e534a70a7984c8e15d1a8d5e8729a975270abb91aee7fea34ac8089d7",
+          "captured_at": "2026-10-26T08:03:10.639788+08:00",
+          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
+          "excerpt": "On Saturday night, vast crowds of opposition voters gathered in central Tel Aviv to demand a change of government.",
+          "sentence_hash": "edfc8c86d43dad6eb88bb018fe017610239028abf630a24d9d80998b3f7bbb2b",
           "anchors": [
-            "police"
+            "and"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Police said they apprehended the man riding a motorcycle near the scene, German media reported.",
+          "text": "\"I want peace, I want security, and I want to end corruption and get the religious fanatics out.\" This campaign has been energized by new tactics - including AI videos designed to grab the headlines - and also by a new face.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.429190+08:00",
-          "content_sha256": "cad0e5d3cff8a6702c6a0630654d118eca044e38bbeffbd2b8cf4795c35b7c89",
-          "excerpt": "Police said they apprehended the man riding a motorcycle near the scene, German media reported.",
-          "sentence_hash": "cfde820ea8933e919a0e0e7bfeb138c642b817aea94921d0ea2e9c9e2a409201",
+          "captured_at": "2026-10-26T08:03:10.639816+08:00",
+          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
+          "excerpt": "\"I want peace, I want security, and I want to end corruption and get the religious fanatics out.\" This campaign has been energized by new tactics - including AI videos designed to grab the headlines - and also by a new face.",
+          "sentence_hash": "39da29e7a00497616f8571ee25e707735b015270619dd84ab03a073445b0f2de",
           "anchors": [
-            "man"
+            "ai",
+            "and"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "There is currently nothing to suggest the involvement of further suspects, police official Gerhart Holzinger told a press conference on Saturday afternoon.",
+          "text": "Gadi Eisenkot is, perhaps, not the man you might expect to take on the flashy, aggressive, media-savvy brand of Israel's longest-serving prime minister, Benjamin Netanyahu.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.429223+08:00",
-          "content_sha256": "cad0e5d3cff8a6702c6a0630654d118eca044e38bbeffbd2b8cf4795c35b7c89",
-          "excerpt": "There is currently nothing to suggest the involvement of further suspects, police official Gerhart Holzinger told a press conference on Saturday afternoon.",
-          "sentence_hash": "2d30c7990aac78b6cbc586e9566f8cccb9fe076aab7b8d6f48d0b42bd48456f7",
+          "captured_at": "2026-10-26T08:03:10.639840+08:00",
+          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
+          "excerpt": "Gadi Eisenkot is, perhaps, not the man you might expect to take on the flashy, aggressive, media-savvy brand of Israel's longest-serving prime minister, Benjamin Netanyahu.",
+          "sentence_hash": "3b868fb497d9f59abaa2da23b24ec317919aeec2c2c1068216898e4a2e711f54",
           "anchors": [
-            "police"
+            "and"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Public prosecutor Rainer Vietze said a psychiatric report had concluded the 33-year-old man showed signs of possible mental illness and diminished responsibility might therefore be assumed.",
+          "text": "- How do Israel's elections work and who are the main contenders?",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.429254+08:00",
-          "content_sha256": "cad0e5d3cff8a6702c6a0630654d118eca044e38bbeffbd2b8cf4795c35b7c89",
-          "excerpt": "Public prosecutor Rainer Vietze said a psychiatric report had concluded the 33-year-old man showed signs of possible mental illness and diminished responsibility might therefore be assumed.",
-          "sentence_hash": "6bbf5e7983a94292257f284782c14a747a72c8b77af3d29fa682c9940dab1341",
+          "captured_at": "2026-10-26T08:03:10.639854+08:00",
+          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
+          "excerpt": "- How do Israel's elections work and who are the main contenders?",
+          "sentence_hash": "0b258183ccaca50a1c688d8961a01d767a2914076f9e13572c6d0f7c8745c374",
           "anchors": [
-            "there",
-            "man"
+            "ai",
+            "and"
           ]
         }
       ],
       "entities": [
-        "man",
-        "some",
-        "police",
-        "berchtesgaden",
-        "nazis",
-        "vietze",
-        "gmt",
-        "nazi",
-        "alpine",
-        "public",
-        "homosexuals",
+        "ethiopian jews",
+        "netanyahu",
+        "israeli",
         "friday",
-        "completed",
-        "during",
-        "nest",
-        "adolf hitler",
-        "vienna",
-        "rainer vietze",
-        "ussr",
-        "kehlsteinhaus",
-        "traunstein",
-        "bavaria",
-        "dispatchers",
-        "hitler",
-        "since",
-        "local",
-        "while",
-        "german",
-        "gerhart holzinger",
-        "there",
-        "world war two",
-        "european jews",
-        "published\npolice",
-        "eagle",
-        "berghof",
-        "germany",
-        "interior minister joachim herrmann",
-        "saturday"
+        "israel",
+        "tel aviv",
+        "published\nafter",
+        "ai",
+        "one",
+        "on saturday",
+        "polls",
+        "and",
+        "but",
+        "omri",
+        "deeply",
+        "his moroccan",
+        "benjamin netanyahu",
+        "netanya",
+        "ramle",
+        "israelis",
+        "likud",
+        "gadi eisenkot",
+        "published",
+        "relatively",
+        "moroccan",
+        "gaza war",
+        "yashar",
+        "david",
+        "eisenkot",
+        "tuesday"
       ],
       "numbers": [],
       "dates": [],
@@ -1398,23 +1432,25 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 38
+        "anchor_count": 30
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_0c2383fce787e914ee4702c5",
-      "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
-      "url": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Government puts 70,000 police officers on the streets to boost security after last weekend’s riots",
-      "category": "财经",
-      "published_at": "2026-10-24T23:23:01+00:00",
-      "why_relevant": "法国周末抗议",
+      "article_id": "a1_8aab52d655a062391519effe",
+      "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU0lJZ29paHVHYVJsR1ZCMnJ4MHFia1VjMjZMc2VFWDFfUHdjUVlNUXplaUQzTWdMc0gzRV8zLTBIQWg5R1ctZEN4M0RRWEVKbmllZEVXc1BpQ2FmMXF3TGNlenVnOEc1bEN0R0FvMklJWXNCLWNtTmlGMTc1Yi1sb1VHbF9mMm1OcVYtVFF6MmJLVmE3aHV2NzdNdzI0cEFURnR3eDd1VkpTeTNEOF9J?oc=5",
+      "publisher": "Reuters",
+      "summary": "Algeria to send troops to Niger in first foreign deployment since 1973&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-25T20:08:19+00:00",
+      "why_relevant": "阿尔及利亚首次海外驻军",
       "relevance_score": 7.0,
       "confirmed_facts": [],
       "entities": [
-        "government"
+        "reuters",
+        "algeria",
+        "niger"
       ],
       "numbers": [],
       "dates": [],
@@ -1424,7 +1460,35 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_a90fd49c8e4aa089e2c8f18d",
+      "title": "France’s Le Pen vows national ‘renewal’ in campaign launch",
+      "url": "https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Far-right leader casts herself as only presidential candidate able to restore order and unity",
+      "category": "财经",
+      "published_at": "2026-10-25T18:37:17+00:00",
+      "why_relevant": "勒庞竞选，欧洲右翼",
+      "relevance_score": 7.0,
+      "confirmed_facts": [],
+      "entities": [
+        "far"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
         "fact_count": 0,
         "anchor_count": 1
       },

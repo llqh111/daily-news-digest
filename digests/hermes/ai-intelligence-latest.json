@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T04:06:46.480344+00:00",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T00:07:36.883486+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-25.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-26.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-24.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-25.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,363 +23,611 @@
   },
   "items": [
     {
-      "article_id": "a1_3350b340723d0f13f9aa8072",
-      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Trump says US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-      "category": "国际",
-      "published_at": "2026-10-25T00:00:00+00:00",
-      "why_relevant": "特朗普威胁打伊朗",
+      "article_id": "a1_8d7e43204a773dfafae39977",
+      "title": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "publisher": "GitHub Trending",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.http://luongnv.com/claude-howto/ \n  \n  \n \n     \n     \n🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 \nMaster Claude Code in a Weekend \nGo from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. \nGet Started in 15 Minutes | Find Your",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code可视化指南",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Live updatesLive updates, Iran war live: Trump hints at possible Sunday Iran attack or deal reached Trump says the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
+          "text": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.413899+08:00",
-          "content_sha256": "827d204c18be92190b5cf9328df385ef371f06fb293dcb3602dcabbb372a733c",
-          "excerpt": "Live updatesLive updates, Iran war live: Trump hints at possible Sunday Iran attack or deal reached Trump says the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-          "sentence_hash": "e747b506228df96da8e110e402f9f6fa1d2aa70d03cbe2e56e3a5acba33b90e6",
+          "captured_at": "2026-10-26T08:03:10.630194+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
+          "sentence_hash": "9cda15ae8170231966020ffc977e9e0c3ba7533545c058c4cae95f9b8fa79c09",
           "anchors": [
-            "live"
+            "语言",
+            "中文",
+            "日本語",
+            "skills",
+            "claude",
+            "copy",
+            "learn"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Published On 25 Oct 2026 - US President Donald Trump says the US is considering a possible attack on Iran as soon as Sunday, pointing out that Washington might have to “finish the job” or could reach a deal with Tehran.",
+          "text": "- The official docs describe features — but don't show you how to combine them.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.413951+08:00",
-          "content_sha256": "827d204c18be92190b5cf9328df385ef371f06fb293dcb3602dcabbb372a733c",
-          "excerpt": "Published On 25 Oct 2026 - US President Donald Trump says the US is considering a possible attack on Iran as soon as Sunday, pointing out that Washington might have to “finish the job” or could reach a deal with Tehran.",
-          "sentence_hash": "5965b43889b2fd9b56e177d014cae9e5a1bc033e55ed6c408e08ba3634b957fc",
+          "captured_at": "2026-10-26T08:03:10.630253+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "- The official docs describe features — but don't show you how to combine them.",
+          "sentence_hash": "6907b4f6a77636551880cf2406e3b11d73071b4bdf16ff30d17d45e3a45e9fa0",
           "anchors": [
-            "Oct 20"
+            "you"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "- Iranian President Masoud Pezeshkian blames the US for breaking down interim agreement talks, calling the Americans “cowards” who “messed everything up”, while maintaining that Tehran should still push to conclude a deal.",
+          "text": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.413991+08:00",
-          "content_sha256": "827d204c18be92190b5cf9328df385ef371f06fb293dcb3602dcabbb372a733c",
-          "excerpt": "- Iranian President Masoud Pezeshkian blames the US for breaking down interim agreement talks, calling the Americans “cowards” who “messed everything up”, while maintaining that Tehran should still push to conclude a deal.",
-          "sentence_hash": "263114f92934aa71adca29f4759801f74064bc9a93cb291d6aaddf73f9b7d487",
+          "captured_at": "2026-10-26T08:03:10.630278+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
+          "sentence_hash": "d340370bf68aa3ed029c4743ce51a2f333e16c73db81eb49d923a6fe1597a6d2",
+          "anchors": [
+            "work",
+            "now"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- There's no clear learning path.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630292+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "- There's no clear learning path.",
+          "sentence_hash": "ed288a66b33aed6c2312d6b5e905cf65296ae19386434f02cd623113726d220c",
+          "anchors": [
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Should you learn MCP before hooks?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630304+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "Should you learn MCP before hooks?",
+          "sentence_hash": "3ac2761acf15589fc59c40a88ba0bd021eb748872229c8921a6bab39713858d0",
+          "anchors": [
+            "you",
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630337+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
+          "sentence_hash": "5e9a9c48973d9ceda09074382721dc161b970871413baccc5008f7ce0029e763",
+          "anchors": [
+            "run",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "语言",
+        "hub",
+        "get",
+        "日本語",
+        "work",
+        "skills",
+        "should",
+        "examples",
+        "there",
+        "learn",
+        "claude code",
+        "forks",
+        "mermaid",
+        "full",
+        "now",
+        "starting",
+        "actively",
+        "git",
+        "language",
+        "you",
+        "october",
+        "take",
+        "linux",
+        "minutes",
+        "feature catalog\nyou",
+        "中文",
+        "english",
+        "claude",
+        "copy",
+        "win",
+        "find your level",
+        "community",
+        "installation",
+        "mcp",
+        "browse",
+        "built",
+        "run",
+        "get started"
+      ],
+      "numbers": [
+        "90%"
+      ],
+      "dates": [
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e98647d7a02230f487247428",
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "publisher": "GitHub Trending",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.https://geminicli.com\n \n  \n   \n  Note\n  \n Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post. \n Gemini CLI has not been optimized for Gemini 4 Argon. To use Gemini 4 Argon, please use Antigravity. \n \nGemini CLI \n     \n\n \n  \n   \n  Note\n  \n Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemi",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "谷歌开源终端AI代理",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631281+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
+          "sentence_hash": "c2fb45b8666f37a9067b58d6f5dc8ddd0c782d267fc8e0554d7c82b78ac50679",
+          "anchors": [
+            "use",
+            "ai",
+            "June 18"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "To learn more, see our blog post.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631297+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "To learn more, see our blog post.",
+          "sentence_hash": "fa20edb8ee58371a29632fded2ff6da119ff711ac2a6db178b6c2ca75ef79072",
+          "anchors": [
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Gemini CLI has not been optimized for Gemini 4 Argon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631312+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Gemini CLI has not been optimized for Gemini 4 Argon.",
+          "sentence_hash": "fd13998b1c8a925693db9f244af743cae8b6ae6d142aaae6346ab401a8e60ea8",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "To use Gemini 4 Argon, please use Antigravity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631326+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "To use Gemini 4 Argon, please use Antigravity.",
+          "sentence_hash": "b93634fcc32453b3411a036fdcb9d31b05d9a425b5e544ddcfd1b346d92c3f4f",
+          "anchors": [
+            "use",
+            "please"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Note Gemini CLI is not optimized for the latest Gemini models.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631341+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Note Gemini CLI is not optimized for the latest Gemini models.",
+          "sentence_hash": "29fa471c5dca1cbc4533f3dffe6abe265bffbad06b0c0985c4f8662b565047df",
+          "anchors": [
+            "model",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631365+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "sentence_hash": "d3463b628af5c808964b4e21d8b033c94c3cbfaaa4b44b83d22a0cc9b08237a9",
+          "anchors": [
+            "model",
+            "use",
+            "best"
+          ]
+        }
+      ],
+      "entities": [
+        "please",
+        "gemini",
+        "tuesdays",
+        "antigravity",
+        "google cloud project",
+        "get",
+        "lyria",
+        "see releases",
+        "debug",
+        "learn",
+        "imagen",
+        "choose",
+        "cli",
+        "upgrade",
+        "using",
+        "usage",
+        "utc",
+        "model",
+        "best",
+        "argon",
+        "june",
+        "developers",
+        "create",
+        "use",
+        "veo",
+        "code assist license",
+        "see gemini",
+        "google one",
+        "ai",
+        "these",
+        "note\nunpaid",
+        "benefits",
+        "automate",
+        "query",
+        "generate",
+        "note\ngemini",
+        "for",
+        "mcp",
+        "run",
+        "install gemini",
+        "set"
+      ],
+      "numbers": [],
+      "dates": [
+        "June 18"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_de27875ea33985f5d5ca331b",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publisher": "OpenAI 博客",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "category": "科技",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "why_relevant": "OpenAI存储架构揭秘",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632263+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
+          "sentence_hash": "a83c1e8872e0730b4774c0ab9f28465fef30e3493177f0f8e1044000d6b03ab4",
+          "anchors": [
+            "1 billion",
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632282+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+          "sentence_hash": "7cfc0e1603fb1d3dcd41b1e54ae0923143fad6ccbc29bf69d85fd55416e41510",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632298+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+          "sentence_hash": "a338b1f347220f8db006c54165d07a4bcc3bdb87aa4d583e113efe8b8eb9c0e5",
+          "anchors": [
+            "1 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632317+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+          "sentence_hash": "850b7d7987daf0f004b19a4c71ff9e6ebfbb00d201a458281fd318b07f1c09a8",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632341+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
+          "sentence_hash": "9864367e987b11a3f6bf1b00aac6a2bd439efb77bfcc0d7ccfa328f8dffa41dc",
+          "anchors": [
+            "part",
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632364+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
+          "sentence_hash": "edc4aa1329f4ec49db3e6e33559a81957bee94dd0e7a1148a15d3bb45dcedee6",
+          "anchors": [
+            "through"
+          ]
+        }
+      ],
+      "entities": [
+        "in habitat",
+        "part",
+        "open",
+        "ii",
+        "habitat",
+        "all open",
+        "chat",
+        "but",
+        "azure",
+        "db",
+        "rapidly",
+        "today",
+        "conversely",
+        "our",
+        "solving",
+        "through",
+        "python",
+        "azure cosmos",
+        "single"
+      ],
+      "numbers": [
+        "1 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 20
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_c0aa54346898edeec50bf91c",
+      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "category": "国际",
+      "published_at": "2026-10-25T22:54:57+00:00",
+      "why_relevant": "塞尔维亚政局地震",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.633354+08:00",
+          "content_sha256": "aee862855eb989020bc7a234245026e1ce5cb10952c20d90913aa33a31893f01",
+          "excerpt": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "sentence_hash": "693534ccb5b671baa63d1360baa79c774d718f0abd77c4180b80e98e0016d627",
+          "anchors": [
+            "64.9%"
+          ]
+        }
+      ],
+      "entities": [
+        "earlier",
+        "david vasi",
+        "european union",
+        "ukraine",
+        "gmt",
+        "aleksandar vu",
+        "preliminary",
+        "there",
+        "serbian progressive party",
+        "russia",
+        "serbian",
+        "published\nserbia",
+        "the student list",
+        "novi sad",
+        "sns",
+        "serbia",
+        "sunday",
+        "ilija srdanovi",
+        "everything",
+        "bbc",
+        "belgrade"
+      ],
+      "numbers": [
+        "64.9%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 22
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_aa74ac474866e9a4995bdf79",
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+      "category": "国际",
+      "published_at": "2026-10-25T09:00:00+00:00",
+      "why_relevant": "马斯克限制星链军事用途",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634186+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
+          "sentence_hash": "d894a99cf7878571e661b529f0b4d65b499ff51093ae914e3a3bb3ec60068674",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634212+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "sentence_hash": "ae5dea46a51a76aa1477a50146a5666a0d9e1d9a42006cc0d90fb658fbdc9dd1",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634231+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "sentence_hash": "f229737c826738c3b98a49fa1a4962836a2bc6279a68449be66875513bc84416",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634260+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
+          "sentence_hash": "17dfe69178791593a4c8df598962b16bcc3b3bd272cd8234d0a79330aa9e5b74",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634278+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
+          "sentence_hash": "b7be2d2dea2b15dc1c59ea7f72489de14ecef3f3980307f0a52d7ebaf975d920",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634301+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
+          "sentence_hash": "f54670a9722bbc80da5af7c5cc1a8cf39a4e1eb3794a1945a53a39c8b9e92f73",
           "anchors": [
             "us"
           ]
         }
       ],
       "entities": [
-        "americans",
-        "washington",
-        "sunday",
-        "trump",
-        "sunday iran",
-        "iran",
-        "live",
+        "using starlink",
         "us",
-        "oct",
-        "iranian president masoud pezeshkian",
         "president donald trump",
-        "published on",
-        "tehran"
+        "serhii beskrestnov",
+        "tesla",
+        "ukraine",
+        "beskrestnov",
+        "space",
+        "starl",
+        "telegram",
+        "starshield",
+        "kyiv",
+        "there",
+        "russia",
+        "therefore",
+        "reacting",
+        "saturday",
+        "washington",
+        "ukrainian",
+        "musk",
+        "starlink",
+        "published\nelon musk",
+        "russian",
+        "elon musk",
+        "earth"
       ],
       "numbers": [],
-      "dates": [
-        "Oct 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 14
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
-      "source_artifact_date": "2026-10-25",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_d65f3ab3c10300d63c36cf04",
-      "title": "NVIDIA DLSS 5 Neural Rendering Now Available In Portal With RTX And Half-Life 2 RTX Demo, Alongside 6X Multi Frame Generation",
-      "url": "https://wccftech.com/nvidia-dlss-5-neural-rendering-now-available-in-portal-with-rtx-and-half-life-2-rtx-demo-alongside-6x-multi-frame-generation/",
-      "publisher": "Wccftech",
-      "summary": "NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing. Both games have also received additional rendering and performance improvements, including support for up to 6X Multi Frame Generation on compatible GeForce RTX 50 Series GPUs. The updates follow the release of NVIDIA RTX Remix 1.6, which we covere",
-      "category": "科技",
-      "published_at": "2026-10-24T15:29:37+00:00",
-      "why_relevant": "DLSS5神经渲染",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415240+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing.",
-          "sentence_hash": "08fbd22551f8e7b90a131c2d318bf828420de340830198ae7ccc00df66a9257c",
-          "anchors": [
-            "players",
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Both games have also received additional rendering and performance improvements, including support for up to 6X Multi Frame Generation on compatible GeForce RTX 50 Series GPUs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415281+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "Both games have also received additional rendering and performance improvements, including support for up to 6X Multi Frame Generation on compatible GeForce RTX 50 Series GPUs.",
-          "sentence_hash": "3f41f360a6bd13e888bda56b7855e2886cd7c4e4182e09c57eeb2a956d7051c2",
-          "anchors": [
-            "receive"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The latest version of NVIDIA's open-source modding platform introduces DLSS 5 integration, expanded frame generation capabilities, Windows on ARM support, and numerous enhancements for modders looking to modernize classic PC games.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415326+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "The latest version of NVIDIA's open-source modding platform introduces DLSS 5 integration, expanded frame generation capabilities, Windows on ARM support, and numerous enhancements for modders looking to modernize classic PC games.",
-          "sentence_hash": "8db52ee1bc4e4f52a61e91f8f6d413a02f5c1cc48d5dd66b8f1f23d403ad40c2",
-          "anchors": [
-            "frame generation"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Its AI model uses the game's rendered image and motion vectors to enhance lighting, material properties, and fine details while remaining anchored to the original scene.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415371+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "Its AI model uses the game's rendered image and motion vectors to enhance lighting, material properties, and fine details while remaining anchored to the original scene.",
-          "sentence_hash": "c322f4b6fc93cef850d528ac4ad0406ed1a4a8cc2de0d962d02187bc111c20fb",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "According to NVIDIA's technical explanation, the technology operates as a final neural rendering stage and benefits from richer source information, making fully path-traced games particularly interesting candidates.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415409+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "According to NVIDIA's technical explanation, the technology operates as a final neural rendering stage and benefits from richer source information, making fully path-traced games particularly interesting candidates.",
-          "sentence_hash": "7e5cbce1a6c15912f71d6b1fa7ebbae03d41740f38900ebd65b684ee888b5920",
-          "anchors": [
-            "neural rendering",
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Portal With RTX And Half-Life 2 RTX Receive DLSS 5 Upgrades Portal with RTX received its update on October 21, with NVIDIA's Jacob Freeman showcasing the new implementation on X.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.415443+08:00",
-          "content_sha256": "5b40fa92f8255f999ae090cdd7175bdcd4c0e785ae34ad6f13c527160bd151e9",
-          "excerpt": "Portal With RTX And Half-Life 2 RTX Receive DLSS 5 Upgrades Portal with RTX received its update on October 21, with NVIDIA's Jacob Freeman showcasing the new implementation on X.",
-          "sentence_hash": "1e639002517743a8b3d1b3ea5185690e9c4971ea88c3933fdcd9ee77d7334199",
-          "anchors": [
-            "receive",
-            "October 21",
-            "its"
-          ]
-        }
-      ],
-      "entities": [
-        "and half",
-        "neural rendering",
-        "both",
-        "receive",
-        "steam",
-        "frame generation",
-        "freeman",
-        "shadow",
-        "unlike",
-        "portal",
-        "frame generation preset",
-        "series",
-        "arm",
-        "sparse rendering",
-        "meanwhile",
-        "pc",
-        "guided neural rendering",
-        "alt",
-        "ray reconstruction",
-        "according",
-        "its",
-        "players",
-        "frame generation performance mode",
-        "valve",
-        "nvidia",
-        "several",
-        "force",
-        "preset",
-        "dlss",
-        "upgrades\nportal",
-        "nrc",
-        "rtx",
-        "super resolution",
-        "portal with",
-        "life",
-        "spatially hashed radiance cache",
-        "half",
-        "windows",
-        "jacob freeman",
-        "these",
-        "ai",
-        "remix",
-        "october",
-        "neural radiance cache",
-        "multi frame generation"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 23",
-        "October 21"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 47
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
-      "source_artifact_date": "2026-10-25",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_a3edd1193e2991012e39a639",
-      "title": "NVIDIA GeForce RTX 3090 Ti Gets Nearly 80% FP16/BF16 Compute Boost With Linux-Based Unlocking Trick",
-      "url": "https://wccftech.com/nvidia-geforce-rtx-3090-ti-gets-nearly-80-fp16-bf16-compute-boost-with-linux-based-unlocking-trick/",
-      "publisher": "Wccftech",
-      "summary": "The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%. Open-Source Project \"GPU Unlock\" Bypasses NVIDIA's Software-Level Restrictions on GeForce GPUs, Unlocking Professional-Grade Compute Capabilities A new trick has been unlocked to bypass NVIDIA's software-level restrictions on consumer GeForce graphics cards. This has been achieved with a new open-source project called \"GPU Unlock",
-      "category": "科技",
-      "published_at": "2026-10-24T14:54:31+00:00",
-      "why_relevant": "3090Ti算力解锁",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416619+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%.",
-          "sentence_hash": "a6b16016725c4b521e159ed0eeaf237c3bf46e5434c4db8448e144c90788dfa9",
-          "anchors": [
-            "36%"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Open-Source Project \"GPU Unlock\" Bypasses NVIDIA's Software-Level Restrictions on GeForce GPUs, Unlocking Professional-Grade Compute Capabilities A new trick has been unlocked to bypass NVIDIA's software-level restrictions on consumer GeForce graphics cards.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416660+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "Open-Source Project \"GPU Unlock\" Bypasses NVIDIA's Software-Level Restrictions on GeForce GPUs, Unlocking Professional-Grade Compute Capabilities A new trick has been unlocked to bypass NVIDIA's software-level restrictions on consumer GeForce graphics cards.",
-          "sentence_hash": "d3e6b2c19140cefdc44bde995309c157fce0933aea5b2600444599a7037c24c1",
-          "anchors": [
-            "software",
-            "level restrictions",
-            "unlock"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "This has been achieved with a new open-source project called \"GPU Unlock\", which allows the GPUs to access higher half-precision floating-point compute performance, which typically is reserved for the professional workstation GPUs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416694+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "This has been achieved with a new open-source project called \"GPU Unlock\", which allows the GPUs to access higher half-precision floating-point compute performance, which typically is reserved for the professional workstation GPUs.",
-          "sentence_hash": "828ca187633318aea64dee01c3c6c29c2841249f450df2a1d2d96fd279cf07ee",
-          "anchors": [
-            "open",
-            "source project"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "\"GPU Unlock\" dynamically patches the NVIDIA driver module within the Linux kernel and intercepts requests for the GPU's physical PCIe Device ID before replacing the returned identifier with that of a compatible professional GPU.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416746+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "\"GPU Unlock\" dynamically patches the NVIDIA driver module within the Linux kernel and intercepts requests for the GPU's physical PCIe Device ID before replacing the returned identifier with that of a compatible professional GPU.",
-          "sentence_hash": "801e23d52a968ff0d841378b757da536f15908ef9e04345a390fa075ac0eea2a",
-          "anchors": [
-            "id"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This basically tricks the driver into recognizing a consumer GeForce GPU as a professional NVIDIA card, bypassing the restrictions and unlocking additional compute capabilities.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416775+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "This basically tricks the driver into recognizing a consumer GeForce GPU as a professional NVIDIA card, bypassing the restrictions and unlocking additional compute capabilities.",
-          "sentence_hash": "b78e1cddde1a57ab3bd27c6f231e22dcdfb04884eeed727f6179ca0e0a83e6f5",
-          "anchors": [
-            "unlock"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "On the GeForce RTX 3090 Ti, an Ampere GPU, the BF16 compute performance increases from 87.5 TFLOPS to a whopping 157 TFLOPS, which is a staggering 80% improvement.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.416808+08:00",
-          "content_sha256": "b80df16b8b4e28e0b74b9a7fd9ab30d06ee816a4e35f6f21c467ec6f5c3b0fd3",
-          "excerpt": "On the GeForce RTX 3090 Ti, an Ampere GPU, the BF16 compute performance increases from 87.5 TFLOPS to a whopping 157 TFLOPS, which is a staggering 80% improvement.",
-          "sentence_hash": "abef430edea28210aa5c316087310cc86d0a46dd48070970c1a42163cd18b37f",
-          "anchors": [
-            "80%"
-          ]
-        }
-      ],
-      "entities": [
-        "the ge",
-        "software",
-        "follow wccftech",
-        "unlocking professional",
-        "nvidia",
-        "flops",
-        "bypasses",
-        "quadra",
-        "decode",
-        "open",
-        "however",
-        "force",
-        "unlock",
-        "rtx",
-        "id",
-        "token",
-        "linux",
-        "grade compute capabilities",
-        "gpu",
-        "level restrictions",
-        "time",
-        "ampere",
-        "testa",
-        "google",
-        "prefill",
-        "source project",
-        "gtx",
-        "tflops",
-        "according",
-        "first",
-        "ie device"
-      ],
-      "numbers": [
-        "36%",
-        "80%",
-        "25%"
-      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -388,203 +636,12 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 34
+        "anchor_count": 25
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
-      "source_artifact_date": "2026-10-25",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_f19d1254df19b22ac9fcb2fc",
-      "title": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers",
-      "url": "https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block",
-      "publisher": "Tom's Hardware",
-      "summary": "Wondering why RTX 5090s are so hard to find? Leaked footage shows thousands of consumer GPUs, including Founders Editions, being torn apart for AI servers.",
-      "category": "科技",
-      "published_at": "2026-10-24T11:15:00+00:00",
-      "why_relevant": "5090被拆AI卡",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping block If you are wondering why th",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418243+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping block If you are wondering why th",
-          "sentence_hash": "7d3ebfc23527cd11068e07812e7d226c908f3c8c47e65d2e72d606d4c0ac5321",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "So, what exactly is a GeForce RTX 5090 doing in China when the graphics card is not even officially available there?",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418283+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "So, what exactly is a GeForce RTX 5090 doing in China when the graphics card is not even officially available there?",
-          "sentence_hash": "0b2b8e0b6a5ed3c8bf20f653dd72cbd107a3f057a816edda3a1b87ff7e139943",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The recently leaked footage offers a glimpse inside these Chinese workshops, where skilled technicians meticulously desolder the pricey flagship’s GB202 silicon and GDDR7 memory chips.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418319+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "The recently leaked footage offers a glimpse inside these Chinese workshops, where skilled technicians meticulously desolder the pricey flagship’s GB202 silicon and GDDR7 memory chips.",
-          "sentence_hash": "8127a4f69287e975e43f0db1545a85a51d91625ad643c6c00953248fb9891dc9",
-          "anchors": [
-            "leaked"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "They then transplant the components into a dual-slot blower design tailored for server use.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418341+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "They then transplant the components into a dual-slot blower design tailored for server use.",
-          "sentence_hash": "8754b1911dcb702e3f9ea088536771a647069fafd5317bb4c0adeed1b27fdc2a",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The GeForce RTX 5090 blower graphics cards will ultimately end up in high-density server racks where they will become the backbone of massive AI compute clusters.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418368+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "The GeForce RTX 5090 blower graphics cards will ultimately end up in high-density server racks where they will become the backbone of massive AI compute clusters.",
-          "sentence_hash": "df524440b5b036a298d39fef1aa1918a1e620a3e90de441e92c245b18ccf44e1",
-          "anchors": [
-            "they"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The scale and efficiency of these operations are impressive, with production lines converting shipments of brand-new GeForce RTX 5090 graphics cards, from Nvidia's custom partner models to the chipmaker's highly coveted Founders Edition.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.418403+08:00",
-          "content_sha256": "da7ec4145976d5bbdcaa311277e6205675a5c791b8c0986034221be11a5efcec",
-          "excerpt": "The scale and efficiency of these operations are impressive, with production lines converting shipments of brand-new GeForce RTX 5090 graphics cards, from Nvidia's custom partner models to the chipmaker's highly coveted Founders Edition.",
-          "sentence_hash": "957e837bba44e5e27094d1f5e2e2ba7f742e711e3454105c2c464e336a44bb42",
-          "anchors": [
-            "pro"
-          ]
-        }
-      ],
-      "entities": [
-        "pro",
-        "the ge",
-        "chinese",
-        "nvidia",
-        "blackwell",
-        "leaked",
-        "however",
-        "sometimes",
-        "force",
-        "rtx",
-        "middlemen",
-        "founders edition",
-        "after",
-        "gpu",
-        "ai",
-        "china",
-        "they",
-        "custom ge",
-        "nvidia founders editions",
-        "redirected",
-        "many"
-      ],
-      "numbers": [
-        "$8,500"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 22
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
-      "source_artifact_date": "2026-10-25",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_9a128fbacd8775e8747530db",
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
-      "category": "国际",
-      "published_at": "2026-10-24T23:02:06+00:00",
-      "why_relevant": "以军拆房冲突",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "He added that he believed the military planned to displace a total of 2,500 people from about 0.35 sq km of urban land.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-25T12:01:03.419621+08:00",
-          "content_sha256": "a968d6221a1d6c6f89f66df9cb23415cef6223a43723a49e2a9a6ae212a0d737",
-          "excerpt": "He added that he believed the military planned to displace a total of 2,500 people from about 0.35 sq km of urban land.",
-          "sentence_hash": "3b793856b2bda23ccd99d08262a01a7c914c2d2a6116569155015759ed61ea2c",
-          "anchors": [
-            "2,500 people"
-          ]
-        }
-      ],
-      "entities": [
-        "palestinians",
-        "published\nthe israeli",
-        "the israel defense forces",
-        "three",
-        "bbc",
-        "netanyahu",
-        "hebron",
-        "israel",
-        "palestinian",
-        "friday",
-        "ein deir baha",
-        "prime minister benjamin netanyahu",
-        "west bank",
-        "israeli defence minister israel katz",
-        "israeli",
-        "farsh",
-        "idf",
-        "footage",
-        "hawa",
-        "israelis"
-      ],
-      "numbers": [
-        "2,500 people"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 21
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-25-AM.json",
-      "source_artifact_date": "2026-10-25",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
       "freshness_label": "today"
     }
   ]

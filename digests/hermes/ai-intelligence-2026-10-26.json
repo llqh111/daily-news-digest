@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T00:07:36.883486+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-26.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-25.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_8d7e43204a773dfafae39977",
+      "title": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "publisher": "GitHub Trending",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.http://luongnv.com/claude-howto/ \n  \n  \n \n     \n     \n🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 \nMaster Claude Code in a Weekend \nGo from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. \nGet Started in 15 Minutes | Find Your",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code可视化指南",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630194+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
+          "sentence_hash": "9cda15ae8170231966020ffc977e9e0c3ba7533545c058c4cae95f9b8fa79c09",
+          "anchors": [
+            "语言",
+            "中文",
+            "日本語",
+            "skills",
+            "claude",
+            "copy",
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- The official docs describe features — but don't show you how to combine them.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630253+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "- The official docs describe features — but don't show you how to combine them.",
+          "sentence_hash": "6907b4f6a77636551880cf2406e3b11d73071b4bdf16ff30d17d45e3a45e9fa0",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630278+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
+          "sentence_hash": "d340370bf68aa3ed029c4743ce51a2f333e16c73db81eb49d923a6fe1597a6d2",
+          "anchors": [
+            "work",
+            "now"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- There's no clear learning path.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630292+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "- There's no clear learning path.",
+          "sentence_hash": "ed288a66b33aed6c2312d6b5e905cf65296ae19386434f02cd623113726d220c",
+          "anchors": [
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Should you learn MCP before hooks?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630304+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "Should you learn MCP before hooks?",
+          "sentence_hash": "3ac2761acf15589fc59c40a88ba0bd021eb748872229c8921a6bab39713858d0",
+          "anchors": [
+            "you",
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.630337+08:00",
+          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
+          "excerpt": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
+          "sentence_hash": "5e9a9c48973d9ceda09074382721dc161b970871413baccc5008f7ce0029e763",
+          "anchors": [
+            "run",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "语言",
+        "hub",
+        "get",
+        "日本語",
+        "work",
+        "skills",
+        "should",
+        "examples",
+        "there",
+        "learn",
+        "claude code",
+        "forks",
+        "mermaid",
+        "full",
+        "now",
+        "starting",
+        "actively",
+        "git",
+        "language",
+        "you",
+        "october",
+        "take",
+        "linux",
+        "minutes",
+        "feature catalog\nyou",
+        "中文",
+        "english",
+        "claude",
+        "copy",
+        "win",
+        "find your level",
+        "community",
+        "installation",
+        "mcp",
+        "browse",
+        "built",
+        "run",
+        "get started"
+      ],
+      "numbers": [
+        "90%"
+      ],
+      "dates": [
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e98647d7a02230f487247428",
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "publisher": "GitHub Trending",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.https://geminicli.com\n \n  \n   \n  Note\n  \n Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post. \n Gemini CLI has not been optimized for Gemini 4 Argon. To use Gemini 4 Argon, please use Antigravity. \n \nGemini CLI \n     \n\n \n  \n   \n  Note\n  \n Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemi",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "谷歌开源终端AI代理",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631281+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
+          "sentence_hash": "c2fb45b8666f37a9067b58d6f5dc8ddd0c782d267fc8e0554d7c82b78ac50679",
+          "anchors": [
+            "use",
+            "ai",
+            "June 18"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "To learn more, see our blog post.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631297+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "To learn more, see our blog post.",
+          "sentence_hash": "fa20edb8ee58371a29632fded2ff6da119ff711ac2a6db178b6c2ca75ef79072",
+          "anchors": [
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Gemini CLI has not been optimized for Gemini 4 Argon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631312+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Gemini CLI has not been optimized for Gemini 4 Argon.",
+          "sentence_hash": "fd13998b1c8a925693db9f244af743cae8b6ae6d142aaae6346ab401a8e60ea8",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "To use Gemini 4 Argon, please use Antigravity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631326+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "To use Gemini 4 Argon, please use Antigravity.",
+          "sentence_hash": "b93634fcc32453b3411a036fdcb9d31b05d9a425b5e544ddcfd1b346d92c3f4f",
+          "anchors": [
+            "use",
+            "please"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Note Gemini CLI is not optimized for the latest Gemini models.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631341+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "Note Gemini CLI is not optimized for the latest Gemini models.",
+          "sentence_hash": "29fa471c5dca1cbc4533f3dffe6abe265bffbad06b0c0985c4f8662b565047df",
+          "anchors": [
+            "model",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.631365+08:00",
+          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
+          "excerpt": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "sentence_hash": "d3463b628af5c808964b4e21d8b033c94c3cbfaaa4b44b83d22a0cc9b08237a9",
+          "anchors": [
+            "model",
+            "use",
+            "best"
+          ]
+        }
+      ],
+      "entities": [
+        "please",
+        "gemini",
+        "tuesdays",
+        "antigravity",
+        "google cloud project",
+        "get",
+        "lyria",
+        "see releases",
+        "debug",
+        "learn",
+        "imagen",
+        "choose",
+        "cli",
+        "upgrade",
+        "using",
+        "usage",
+        "utc",
+        "model",
+        "best",
+        "argon",
+        "june",
+        "developers",
+        "create",
+        "use",
+        "veo",
+        "code assist license",
+        "see gemini",
+        "google one",
+        "ai",
+        "these",
+        "note\nunpaid",
+        "benefits",
+        "automate",
+        "query",
+        "generate",
+        "note\ngemini",
+        "for",
+        "mcp",
+        "run",
+        "install gemini",
+        "set"
+      ],
+      "numbers": [],
+      "dates": [
+        "June 18"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_de27875ea33985f5d5ca331b",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publisher": "OpenAI 博客",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "category": "科技",
+      "published_at": "2026-10-23T17:00:00+00:00",
+      "why_relevant": "OpenAI存储架构揭秘",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632263+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
+          "sentence_hash": "a83c1e8872e0730b4774c0ab9f28465fef30e3493177f0f8e1044000d6b03ab4",
+          "anchors": [
+            "1 billion",
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632282+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
+          "sentence_hash": "7cfc0e1603fb1d3dcd41b1e54ae0923143fad6ccbc29bf69d85fd55416e41510",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632298+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
+          "sentence_hash": "a338b1f347220f8db006c54165d07a4bcc3bdb87aa4d583e113efe8b8eb9c0e5",
+          "anchors": [
+            "1 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632317+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
+          "sentence_hash": "850b7d7987daf0f004b19a4c71ff9e6ebfbb00d201a458281fd318b07f1c09a8",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632341+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
+          "sentence_hash": "9864367e987b11a3f6bf1b00aac6a2bd439efb77bfcc0d7ccfa328f8dffa41dc",
+          "anchors": [
+            "part",
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.632364+08:00",
+          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
+          "excerpt": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
+          "sentence_hash": "edc4aa1329f4ec49db3e6e33559a81957bee94dd0e7a1148a15d3bb45dcedee6",
+          "anchors": [
+            "through"
+          ]
+        }
+      ],
+      "entities": [
+        "in habitat",
+        "part",
+        "open",
+        "ii",
+        "habitat",
+        "all open",
+        "chat",
+        "but",
+        "azure",
+        "db",
+        "rapidly",
+        "today",
+        "conversely",
+        "our",
+        "solving",
+        "through",
+        "python",
+        "azure cosmos",
+        "single"
+      ],
+      "numbers": [
+        "1 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 20
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_c0aa54346898edeec50bf91c",
+      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "category": "国际",
+      "published_at": "2026-10-25T22:54:57+00:00",
+      "why_relevant": "塞尔维亚政局地震",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.633354+08:00",
+          "content_sha256": "aee862855eb989020bc7a234245026e1ce5cb10952c20d90913aa33a31893f01",
+          "excerpt": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "sentence_hash": "693534ccb5b671baa63d1360baa79c774d718f0abd77c4180b80e98e0016d627",
+          "anchors": [
+            "64.9%"
+          ]
+        }
+      ],
+      "entities": [
+        "earlier",
+        "david vasi",
+        "european union",
+        "ukraine",
+        "gmt",
+        "aleksandar vu",
+        "preliminary",
+        "there",
+        "serbian progressive party",
+        "russia",
+        "serbian",
+        "published\nserbia",
+        "the student list",
+        "novi sad",
+        "sns",
+        "serbia",
+        "sunday",
+        "ilija srdanovi",
+        "everything",
+        "bbc",
+        "belgrade"
+      ],
+      "numbers": [
+        "64.9%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 22
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_aa74ac474866e9a4995bdf79",
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+      "category": "国际",
+      "published_at": "2026-10-25T09:00:00+00:00",
+      "why_relevant": "马斯克限制星链军事用途",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634186+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
+          "sentence_hash": "d894a99cf7878571e661b529f0b4d65b499ff51093ae914e3a3bb3ec60068674",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634212+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "sentence_hash": "ae5dea46a51a76aa1477a50146a5666a0d9e1d9a42006cc0d90fb658fbdc9dd1",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634231+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "sentence_hash": "f229737c826738c3b98a49fa1a4962836a2bc6279a68449be66875513bc84416",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634260+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
+          "sentence_hash": "17dfe69178791593a4c8df598962b16bcc3b3bd272cd8234d0a79330aa9e5b74",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634278+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
+          "sentence_hash": "b7be2d2dea2b15dc1c59ea7f72489de14ecef3f3980307f0a52d7ebaf975d920",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-26T08:03:10.634301+08:00",
+          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
+          "excerpt": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
+          "sentence_hash": "f54670a9722bbc80da5af7c5cc1a8cf39a4e1eb3794a1945a53a39c8b9e92f73",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "using starlink",
+        "us",
+        "president donald trump",
+        "serhii beskrestnov",
+        "tesla",
+        "ukraine",
+        "beskrestnov",
+        "space",
+        "starl",
+        "telegram",
+        "starshield",
+        "kyiv",
+        "there",
+        "russia",
+        "therefore",
+        "reacting",
+        "saturday",
+        "washington",
+        "ukrainian",
+        "musk",
+        "starlink",
+        "published\nelon musk",
+        "russian",
+        "elon musk",
+        "earth"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 25
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "source_artifact_date": "2026-10-26",
+      "freshness_label": "today"
+    }
+  ]
+}
