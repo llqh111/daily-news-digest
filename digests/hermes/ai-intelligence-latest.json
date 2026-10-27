@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T00:07:36.883486+00:00",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T00:06:59.093200+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-27-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-26.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-27.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-25.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-26.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,609 +23,181 @@
   },
   "items": [
     {
-      "article_id": "a1_8d7e43204a773dfafae39977",
-      "title": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "publisher": "GitHub Trending",
-      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.http://luongnv.com/claude-howto/ \n  \n  \n \n     \n     \n🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 \nMaster Claude Code in a Weekend \nGo from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. \nGet Started in 15 Minutes | Find Your",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Claude Code可视化指南",
-      "relevance_score": 9.0,
+      "article_id": "a1_d7f5593e982969e32f3d6ea7",
+      "title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3372222/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran",
+      "publisher": "SCMP",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu boasted of ⁠his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Iran if he wins, after Trump said they should “finish the job”.\n“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president. And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance",
+      "category": "国际",
+      "published_at": "2026-10-26T22:29:05+00:00",
+      "why_relevant": "地缘政治风险叠加伊朗战争信号",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
+          "text": "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630194+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
-          "sentence_hash": "9cda15ae8170231966020ffc977e9e0c3ba7533545c058c4cae95f9b8fa79c09",
+          "captured_at": "2026-10-27T08:03:01.118950+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
+          "sentence_hash": "2f69c9ab08c7d4d7c9b33ee64e3275f2c873156f6c1778ab0a9d3458d5745f63",
           "anchors": [
-            "语言",
-            "中文",
-            "日本語",
-            "skills",
-            "claude",
-            "copy",
-            "learn"
+            "October 7"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "- The official docs describe features — but don't show you how to combine them.",
+          "text": "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630253+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "- The official docs describe features — but don't show you how to combine them.",
-          "sentence_hash": "6907b4f6a77636551880cf2406e3b11d73071b4bdf16ff30d17d45e3a45e9fa0",
+          "captured_at": "2026-10-27T08:03:01.118992+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
+          "sentence_hash": "8795467c0bfd4be4469acedd380a3fc32f8727da4ae3c4015c8fe3b5ac12b955",
           "anchors": [
-            "you"
+            "min",
+            "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
+          "text": "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630278+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
-          "sentence_hash": "d340370bf68aa3ed029c4743ce51a2f333e16c73db81eb49d923a6fe1597a6d2",
+          "captured_at": "2026-10-27T08:03:01.119017+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president.",
+          "sentence_hash": "24fe6318ae01498d14f98dced1355644d4cb170970709c142d0be0079e2b0b85",
           "anchors": [
-            "work",
-            "now"
+            "min",
+            "and"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "- There's no clear learning path.",
+          "text": "And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance late on Sunday night.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630292+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "- There's no clear learning path.",
-          "sentence_hash": "ed288a66b33aed6c2312d6b5e905cf65296ae19386434f02cd623113726d220c",
+          "captured_at": "2026-10-27T08:03:01.119039+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance late on Sunday night.",
+          "sentence_hash": "2277ba1f88fee5d2e3140dcef89107dcc3e140816e01bd4e7621aa3b9af643ce",
           "anchors": [
-            "learn"
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Should you learn MCP before hooks?",
+          "text": "“He has another two years, and he says he is calling on you to vote for me.” Select Voice Select Speed 1x AI-generated voice",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630304+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "Should you learn MCP before hooks?",
-          "sentence_hash": "3ac2761acf15589fc59c40a88ba0bd021eb748872229c8921a6bab39713858d0",
+          "captured_at": "2026-10-27T08:03:01.119059+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "“He has another two years, and he says he is calling on you to vote for me.” Select Voice Select Speed 1x AI-generated voice",
+          "sentence_hash": "da997868897d0d281467792fd8d05ec239af66e617d7ed7ce496686f0f1b2c64",
           "anchors": [
-            "you",
-            "learn"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630337+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
-          "sentence_hash": "5e9a9c48973d9ceda09074382721dc161b970871413baccc5008f7ce0029e763",
-          "anchors": [
-            "run",
-            "you"
+            "and"
           ]
         }
       ],
       "entities": [
-        "语言",
-        "hub",
-        "get",
-        "日本語",
-        "work",
-        "skills",
-        "should",
-        "examples",
-        "there",
-        "learn",
-        "claude code",
-        "forks",
-        "mermaid",
-        "full",
-        "now",
-        "starting",
-        "actively",
-        "git",
-        "language",
-        "you",
-        "october",
-        "take",
-        "linux",
-        "minutes",
-        "feature catalog\nyou",
-        "中文",
-        "english",
-        "claude",
-        "copy",
-        "win",
-        "find your level",
-        "community",
-        "installation",
-        "mcp",
-        "browse",
-        "built",
-        "run",
-        "get started"
-      ],
-      "numbers": [
-        "90%"
-      ],
-      "dates": [
-        "October 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 40
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
-      "source_artifact_date": "2026-10-26",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_e98647d7a02230f487247428",
-      "title": "google-gemini/gemini-cli",
-      "url": "https://github.com/google-gemini/gemini-cli",
-      "publisher": "GitHub Trending",
-      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.https://geminicli.com\n \n  \n   \n  Note\n  \n Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post. \n Gemini CLI has not been optimized for Gemini 4 Argon. To use Gemini 4 Argon, please use Antigravity. \n \nGemini CLI \n     \n\n \n  \n   \n  Note\n  \n Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemi",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "谷歌开源终端AI代理",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631281+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
-          "sentence_hash": "c2fb45b8666f37a9067b58d6f5dc8ddd0c782d267fc8e0554d7c82b78ac50679",
-          "anchors": [
-            "use",
-            "ai",
-            "June 18"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "To learn more, see our blog post.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631297+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "To learn more, see our blog post.",
-          "sentence_hash": "fa20edb8ee58371a29632fded2ff6da119ff711ac2a6db178b6c2ca75ef79072",
-          "anchors": [
-            "learn"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Gemini CLI has not been optimized for Gemini 4 Argon.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631312+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "Gemini CLI has not been optimized for Gemini 4 Argon.",
-          "sentence_hash": "fd13998b1c8a925693db9f244af743cae8b6ae6d142aaae6346ab401a8e60ea8",
-          "anchors": [
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "To use Gemini 4 Argon, please use Antigravity.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631326+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "To use Gemini 4 Argon, please use Antigravity.",
-          "sentence_hash": "b93634fcc32453b3411a036fdcb9d31b05d9a425b5e544ddcfd1b346d92c3f4f",
-          "anchors": [
-            "use",
-            "please"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Note Gemini CLI is not optimized for the latest Gemini models.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631341+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "Note Gemini CLI is not optimized for the latest Gemini models.",
-          "sentence_hash": "29fa471c5dca1cbc4533f3dffe6abe265bffbad06b0c0985c4f8662b565047df",
-          "anchors": [
-            "model",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631365+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "sentence_hash": "d3463b628af5c808964b4e21d8b033c94c3cbfaaa4b44b83d22a0cc9b08237a9",
-          "anchors": [
-            "model",
-            "use",
-            "best"
-          ]
-        }
-      ],
-      "entities": [
-        "please",
-        "gemini",
-        "tuesdays",
-        "antigravity",
-        "google cloud project",
-        "get",
-        "lyria",
-        "see releases",
-        "debug",
-        "learn",
-        "imagen",
-        "choose",
-        "cli",
-        "upgrade",
-        "using",
-        "usage",
-        "utc",
-        "model",
-        "best",
-        "argon",
-        "june",
-        "developers",
-        "create",
-        "use",
-        "veo",
-        "code assist license",
-        "see gemini",
-        "google one",
+        "israeli",
+        "iran\ntuesday",
+        "netanyahu",
+        "american",
+        "gadi eisenkot",
+        "donald trump",
+        "sunday",
+        "israel",
         "ai",
-        "these",
-        "note\nunpaid",
-        "benefits",
-        "automate",
-        "query",
-        "generate",
-        "note\ngemini",
-        "for",
-        "mcp",
-        "run",
-        "install gemini",
-        "set"
+        "listen\nisraeli prime minister benjamin netanyahu",
+        "iran",
+        "select voice\nselect speed",
+        "us",
+        "advertisement\nnetanyahu",
+        "president donald trump",
+        "min",
+        "october",
+        "and",
+        "trump"
       ],
       "numbers": [],
       "dates": [
-        "June 18"
+        "October 7"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 42
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
-      "source_artifact_date": "2026-10-26",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_de27875ea33985f5d5ca331b",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "publisher": "OpenAI 博客",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "category": "科技",
-      "published_at": "2026-10-23T17:00:00+00:00",
-      "why_relevant": "OpenAI存储架构揭秘",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632263+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
-          "sentence_hash": "a83c1e8872e0730b4774c0ab9f28465fef30e3493177f0f8e1044000d6b03ab4",
-          "anchors": [
-            "1 billion",
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632282+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
-          "sentence_hash": "7cfc0e1603fb1d3dcd41b1e54ae0923143fad6ccbc29bf69d85fd55416e41510",
-          "anchors": [
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632298+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
-          "sentence_hash": "a338b1f347220f8db006c54165d07a4bcc3bdb87aa4d583e113efe8b8eb9c0e5",
-          "anchors": [
-            "1 billion"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632317+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
-          "sentence_hash": "850b7d7987daf0f004b19a4c71ff9e6ebfbb00d201a458281fd318b07f1c09a8",
-          "anchors": [
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632341+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
-          "sentence_hash": "9864367e987b11a3f6bf1b00aac6a2bd439efb77bfcc0d7ccfa328f8dffa41dc",
-          "anchors": [
-            "part",
-            "but"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632364+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
-          "sentence_hash": "edc4aa1329f4ec49db3e6e33559a81957bee94dd0e7a1148a15d3bb45dcedee6",
-          "anchors": [
-            "through"
-          ]
-        }
-      ],
-      "entities": [
-        "in habitat",
-        "part",
-        "open",
-        "ii",
-        "habitat",
-        "all open",
-        "chat",
-        "but",
-        "azure",
-        "db",
-        "rapidly",
-        "today",
-        "conversely",
-        "our",
-        "solving",
-        "through",
-        "python",
-        "azure cosmos",
-        "single"
-      ],
-      "numbers": [
-        "1 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
+        "has_multiple_sources": true,
+        "fact_count": 5,
         "anchor_count": 20
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
-      "source_artifact_date": "2026-10-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-27-AM.json",
+      "source_artifact_date": "2026-10-27",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_c0aa54346898edeec50bf91c",
-      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "article_id": "a1_d30e350e0e118afab9d480ee",
+      "title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+      "url": "https://www.scmp.com/news/china/military/article/3372206/what-message-china-sending-latest-footage-no-notice-df-rocket-drill",
+      "publisher": "SCMP",
+      "summary": "China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to showcase the People’s Liberation Army’s rapid-response capabilities.\nState broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.\nNo other details were provided.\nThe footage – which is believed to show a missile from the Dongfeng (east wind)...",
       "category": "国际",
-      "published_at": "2026-10-25T22:54:57+00:00",
-      "why_relevant": "塞尔维亚政局地震",
+      "published_at": "2026-10-27T00:00:19+00:00",
+      "why_relevant": "中国东风导弹无预告演练，军事信号",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
+          "text": "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.633354+08:00",
-          "content_sha256": "aee862855eb989020bc7a234245026e1ce5cb10952c20d90913aa33a31893f01",
-          "excerpt": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
-          "sentence_hash": "693534ccb5b671baa63d1360baa79c774d718f0abd77c4180b80e98e0016d627",
+          "captured_at": "2026-10-27T08:03:01.119404+08:00",
+          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
+          "excerpt": "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
+          "sentence_hash": "9620f4de5f5575676e01dc1128c619a035fd3167a30119131d8311ab68e84a9c",
           "anchors": [
-            "64.9%"
-          ]
-        }
-      ],
-      "entities": [
-        "earlier",
-        "david vasi",
-        "european union",
-        "ukraine",
-        "gmt",
-        "aleksandar vu",
-        "preliminary",
-        "there",
-        "serbian progressive party",
-        "russia",
-        "serbian",
-        "published\nserbia",
-        "the student list",
-        "novi sad",
-        "sns",
-        "serbia",
-        "sunday",
-        "ilija srdanovi",
-        "everything",
-        "bbc",
-        "belgrade"
-      ],
-      "numbers": [
-        "64.9%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 22
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
-      "source_artifact_date": "2026-10-26",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_aa74ac474866e9a4995bdf79",
-      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-      "category": "国际",
-      "published_at": "2026-10-25T09:00:00+00:00",
-      "why_relevant": "马斯克限制星链军事用途",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634186+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
-          "sentence_hash": "d894a99cf7878571e661b529f0b4d65b499ff51093ae914e3a3bb3ec60068674",
-          "anchors": [
-            "us"
+            "state"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
+          "text": "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634212+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
-          "sentence_hash": "ae5dea46a51a76aa1477a50146a5666a0d9e1d9a42006cc0d90fb658fbdc9dd1",
+          "captured_at": "2026-10-27T08:03:01.119428+08:00",
+          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
+          "excerpt": "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
+          "sentence_hash": "5fdf4d7d265b5d5d4c29561844125298fb4302f181dd190c1add26b5821a4417",
           "anchors": [
+            "ai",
             "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
+          "text": "No other details were provided.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634231+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
-          "sentence_hash": "f229737c826738c3b98a49fa1a4962836a2bc6279a68449be66875513bc84416",
+          "captured_at": "2026-10-27T08:03:01.119439+08:00",
+          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
+          "excerpt": "No other details were provided.",
+          "sentence_hash": "d67435a2bd932a936804dd230ecc435d0b252269478520afe7847b79e9ced108",
           "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634260+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
-          "sentence_hash": "17dfe69178791593a4c8df598962b16bcc3b3bd272cd8234d0a79330aa9e5b74",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634278+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
-          "sentence_hash": "b7be2d2dea2b15dc1c59ea7f72489de14ecef3f3980307f0a52d7ebaf975d920",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634301+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
-          "sentence_hash": "f54670a9722bbc80da5af7c5cc1a8cf39a4e1eb3794a1945a53a39c8b9e92f73",
-          "anchors": [
-            "us"
+            "ai"
           ]
         }
       ],
       "entities": [
-        "using starlink",
+        "liberation army",
+        "state",
+        "guam",
+        "china",
+        "amber wangin beijing\nchina",
+        "people",
+        "df",
+        "select voice\nselect speed",
         "us",
-        "president donald trump",
-        "serhii beskrestnov",
-        "tesla",
-        "ukraine",
-        "beskrestnov",
-        "space",
-        "starl",
-        "telegram",
-        "starshield",
-        "kyiv",
-        "there",
-        "russia",
-        "therefore",
-        "reacting",
-        "saturday",
-        "washington",
-        "ukrainian",
-        "musk",
-        "starlink",
-        "published\nelon musk",
-        "russian",
-        "elon musk",
-        "earth"
+        "min",
+        "advertisement\nwhat",
+        "monday",
+        "cctv",
+        "ai"
       ],
       "numbers": [],
       "dates": [],
@@ -634,14 +206,443 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 25
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 14
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-26-AM.json",
-      "source_artifact_date": "2026-10-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-27-AM.json",
+      "source_artifact_date": "2026-10-27",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_4d66d131c73f0fd99583356d",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "publisher": "GitHub Trending",
+      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Frameworkhttps://arxiv.org/pdf/2412.20138   \n \n  \n  \n  \n  \n \n \n \n  \n \n \n \n  \n Deutsch | \n Español | \n français | \n 日本語 | \n 한국어 | \n Português | \n Русский | \n 中文 \n \n \nTradingAgents: Multi-Agents LLM Financial Trading Framework \nNews \n \n \n [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attach",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "多智能体金融交易框架，契合量化投资关注",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.120409+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
+          "sentence_hash": "04fe81a3f2297806197cfd68d354f428fb1e4cccd3d84724a7bca5cfe4001fcd",
+          "anchors": [
+            "ci",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.120449+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
+          "sentence_hash": "07714198f0d86dce7ee25a9e1d99d727258c77d37c0f6201f182e59d78122b12",
+          "anchors": [
+            "pro",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.120484+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date.",
+          "sentence_hash": "b0ceefd156d6b5f0cd65edfeeb1660c794d658021cedbe4e713812dd9e7eaa6b",
+          "anchors": [
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Earlier news - [2026-09] TradingAgents v0.5.1 released with a package layout organised by what each module holds (import paths moved), optional Jev screening of social posts, GPT-6 Sol and Luna as the default models, and fixes to run isolation and SEC EDGAR statements.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.120524+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "Earlier news - [2026-09] TradingAgents v0.5.1 released with a package layout organised by what each module holds (import paths moved), optional Jev screening of social posts, GPT-6 Sol and Luna as the default models, and fixes to run isolation and SEC EDGAR statements.",
+          "sentence_hash": "e62f491186bc89fbe86dcd19c5348a8c25c8b6dc3a511e56ebd900a760f1e2c3",
+          "anchors": [
+            "ci",
+            "sol"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- [2026-09] TradingAgents v0.5.0 released with point-in-time integrity across every dated path, SEC EDGAR fundamentals served as filed, backtesting over a ticker and date grid, portfolio-aware runs, and current model lineups across every provider.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.120564+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-09] TradingAgents v0.5.0 released with point-in-time integrity across every dated path, SEC EDGAR fundamentals served as filed, backtesting over a ticker and date grid, portfolio-aware runs, and current model lineups across every provider.",
+          "sentence_hash": "56ebb9568715ea4fa4f0a767a684275a0a4e7b44aaca5d7ecedeb31fc2ce0824",
+          "anchors": [
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.120595+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
+          "sentence_hash": "5946b8e541110060b8d0caf8af40b46c34d34496fb19e50bc51db00cf7369820",
+          "anchors": [
+            "ci"
+          ]
+        }
+      ],
+      "entities": [
+        "ollama",
+        "azure",
+        "research manager",
+        "deep",
+        "llm",
+        "hub",
+        "cli",
+        "docker",
+        "full",
+        "sec",
+        "trader",
+        "fred",
+        "git",
+        "earlier",
+        "windows",
+        "html",
+        "jev",
+        "utf",
+        "trading",
+        "groq",
+        "claude sonnet",
+        "mini",
+        "open",
+        "portfolio manager",
+        "us",
+        "nvidia",
+        "edgar",
+        "kimi",
+        "sol",
+        "luna",
+        "seek",
+        "plus",
+        "yahoo",
+        "gpt",
+        "sentiment analyst",
+        "pro",
+        "chat",
+        "polymarket",
+        "graph",
+        "mistral",
+        "ci",
+        "max",
+        "api",
+        "alpha vantage",
+        "fable",
+        "bedrock",
+        "agents",
+        "glm",
+        "qwen",
+        "lang"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 50
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-27-AM.json",
+      "source_artifact_date": "2026-10-27",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_5c4a48cf6b263d72a4db2269",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "publisher": "TechCrunch",
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "category": "科技",
+      "published_at": "2026-10-26T16:49:42+00:00",
+      "why_relevant": "Anthropic IPO战略剖析，企业客户交叉销售",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121589+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
+          "sentence_hash": "7ffef0c7bdcef92f11c9da3f4938c349b9bcf1bad14163eef571af2412aa1960",
+          "anchors": [
+            "like"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121618+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
+          "sentence_hash": "e25e19e196b671f17bad26b9ef0b7612e8c2c376ed71ed6a5d81816de3e54692",
+          "anchors": [
+            "like",
+            "$100,000 ",
+            "$100,000",
+            "30%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121647+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads.",
+          "sentence_hash": "9407150c7d5072489032f058aaef823210faa36631d37befdf625f94ac8c15a5",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "As of September 30, Anthropic recorded more than 11,900 customers spending at least $100,000; more than 1,900 customers spending upward of $1 million; and about 250 customers spending $10 million or more annually.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121689+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "As of September 30, Anthropic recorded more than 11,900 customers spending at least $100,000; more than 1,900 customers spending upward of $1 million; and about 250 customers spending $10 million or more annually.",
+          "sentence_hash": "8e3a094771fa774107cf83a64f2c94185358af1d4df86d5cbe82a93bcc681e1d",
+          "anchors": [
+            "$100,000",
+            "$1 million",
+            "1 million",
+            "$10 million",
+            "10 million",
+            "more",
+            "September 30"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Anthropic attributes customer momentum to a “significant usage expansion as customers realize the value of deploying Claude across their organizations,” which drove net revenue retention of about 900% as of the end of the third quarter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121720+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "Anthropic attributes customer momentum to a “significant usage expansion as customers realize the value of deploying Claude across their organizations,” which drove net revenue retention of about 900% as of the end of the third quarter.",
+          "sentence_hash": "83f9a024969cdea1744949517533f18c10467f38908dbf2fa91589566350d52b",
+          "anchors": [
+            "900%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Throwing shade at the entire legacy SaaS industry, Anthropic pitches Claude as not a “static product that serves a single use case,” but rather “frontier AI with rapidly advancing capabilities” spanning the models, the developer platform, and the applications users interact with ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121757+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "Throwing shade at the entire legacy SaaS industry, Anthropic pitches Claude as not a “static product that serves a single use case,” but rather “frontier AI with rapidly advancing capabilities” spanning the models, the developer platform, and the applications users interact with ",
+          "sentence_hash": "47fc76b1cb1f1c6680eddf73bd2b4bb1c94fd12d2bb070c2279b52ca4d352489",
+          "anchors": [
+            "with",
+            "api"
+          ]
+        }
+      ],
+      "entities": [
+        "throwing",
+        "claude enterprise",
+        "with",
+        "uber",
+        "like",
+        "claude",
+        "those",
+        "more",
+        "ai",
+        "cowork",
+        "claude code",
+        "api",
+        "applied",
+        "claude platform",
+        "black",
+        "aws",
+        "securities",
+        "saa",
+        "exchange commission",
+        "september",
+        "monday",
+        "amazon",
+        "anthropic"
+      ],
+      "numbers": [
+        "900%",
+        "$100,000",
+        "$1 million",
+        "1 million",
+        "$100,000 ",
+        "$10 million",
+        "10 million",
+        "30%",
+        "5%"
+      ],
+      "dates": [
+        "September 30"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-27-AM.json",
+      "source_artifact_date": "2026-10-27",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_9bec6a25c2275f02384229c1",
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "publisher": "MIT Tech Review",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it&#8230;",
+      "category": "科技",
+      "published_at": "2026-10-26T17:45:43+00:00",
+      "why_relevant": "Anthropic IPO深度分析，MIT视角",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122686+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
+          "sentence_hash": "1fa981e9c14e280612214fc5dc38d9324f3549d5519eceda57e61c54d34d7053",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122725+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
+          "sentence_hash": "d0ce23acd9077303a59d095ed28db97498c9fcdb4911e8af6bdb14a4c774bf98",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122760+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.",
+          "sentence_hash": "3fc349049ad791bdddda1206d7f731c58e578ce4f049166fe87a790b9335cf79",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122789+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.",
+          "sentence_hash": "6a12d66a170abb3150af9041ee3060dbf2592ff59e16c9583adebaba83175e05",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122810+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.",
+          "sentence_hash": "bb98f3ba9e407edd0aeeefe521a93808e72da9b6ddf9e91b8975dda9e2829e68",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122835+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.",
+          "sentence_hash": "bd579bfa7ff638870a2ddbe6a4cf5079781ec19d08a2f24945ffec732fe20e4f",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "but anthropic",
+        "take",
+        "chris olah",
+        "but",
+        "imf",
+        "clark",
+        "never",
+        "xiv",
+        "earlier",
+        "ai",
+        "apparently",
+        "jack clark",
+        "introduced",
+        "after",
+        "the algorithm",
+        "ipo",
+        "vernor vinge",
+        "pope leo",
+        "bangkok",
+        "humans",
+        "last",
+        "vatican",
+        "and",
+        "anthropic"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 24
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-27-AM.json",
+      "source_artifact_date": "2026-10-27",
       "freshness_label": "today"
     }
   ]

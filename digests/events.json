@@ -1280,14 +1280,14 @@
           "evidence_path": "digests/meta/2026-09-11-AM-evidence.json"
         }
       ],
-      "latest_seen": "2026-09-11",
+      "latest_seen": "2026-10-27",
       "latest_title": "TauricResearch/TradingAgents",
       "latest_raw_title": "TauricResearch/TradingAgents",
       "status": "更新中",
       "key_facts": [
-        "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
-        "- [2026-07] TradingAgents v0.3.1 released with correctness and stability fixes: Alpha Vantage look-ahead filtering, graph-router crash-safety, graph-shape-aware checkpoint resume, working crypto sentiment sources, a configurable LLM retry budget, Bedrock API-key auth, and Claude ",
-        "- [2026-04] TradingAgents v0.2.4 released with structured-output agents (Research Manager, Trader, Portfolio Manager), LangGraph checkpoint resume, persistent decision log, DeepSeek/Qwen/GLM/Azure provider support, Docker, and a Windows UTF-8 encoding fix."
+        "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
+        "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
+        "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date."
       ],
       "open_questions": [
         "缺少明确时间"
@@ -15180,7 +15180,475 @@
       "sources": [
         "https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1"
       ]
+    },
+    {
+      "id": "evt_20261027_f1a00e016829",
+      "title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_d7f5593e982969e32f3d6ea7",
+          "title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+          "raw_title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+          "why_relevant": "地缘政治风险叠加伊朗战争信号",
+          "facts": [
+            "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
+            "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
+            "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.scmp.com/news/world/middle-east/article/3372222/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+      "latest_raw_title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+      "status": "更新中",
+      "key_facts": [
+        "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
+        "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
+        "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.scmp.com/news/world/middle-east/article/3372222/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran"
+      ]
+    },
+    {
+      "id": "evt_20261027_217b722b4a5c",
+      "title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_d30e350e0e118afab9d480ee",
+          "title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+          "raw_title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+          "why_relevant": "中国东风导弹无预告演练，军事信号",
+          "facts": [
+            "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
+            "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
+            "No other details were provided."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/china/military/article/3372206/what-message-china-sending-latest-footage-no-notice-df-rocket-drill"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+      "latest_raw_title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+      "status": "更新中",
+      "key_facts": [
+        "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
+        "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
+        "No other details were provided."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/china/military/article/3372206/what-message-china-sending-latest-footage-no-notice-df-rocket-drill"
+      ]
+    },
+    {
+      "id": "evt_20261027_6b30b1d7488a",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_5c4a48cf6b263d72a4db2269",
+          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "raw_title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "why_relevant": "Anthropic IPO战略剖析，企业客户交叉销售",
+          "facts": [
+            "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
+            "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
+            "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "latest_raw_title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "status": "更新中",
+      "key_facts": [
+        "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
+        "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
+        "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+      ]
+    },
+    {
+      "id": "evt_20261027_ace770137461",
+      "title": "Will the real Anthropic please stand up",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_9bec6a25c2275f02384229c1",
+          "title": "Will the real Anthropic please stand up",
+          "raw_title": "Will the real Anthropic please stand up",
+          "why_relevant": "Anthropic IPO深度分析，MIT视角",
+          "facts": [
+            "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
+            "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
+            "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "Will the real Anthropic please stand up",
+      "latest_raw_title": "Will the real Anthropic please stand up",
+      "status": "更新中",
+      "key_facts": [
+        "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
+        "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
+        "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+      ]
+    },
+    {
+      "id": "evt_20261027_7110158e7664",
+      "title": "AI giant Anthropic files for blockbuster IPO",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_4e2230c0e7756e161ef43a4a",
+          "title": "AI giant Anthropic files for blockbuster IPO",
+          "raw_title": "AI giant Anthropic files for blockbuster IPO",
+          "why_relevant": "AI巨头IPO核心事件，区块链视角",
+          "facts": [
+            "AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.",
+            "- Anthropic’s S-1 shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion.",
+            "The FT reports investors expect a $1.5–1.75 trillion valuation, and Fox Business’s Liz Claman says a Nov."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "AI giant Anthropic files for blockbuster IPO",
+      "latest_raw_title": "AI giant Anthropic files for blockbuster IPO",
+      "status": "更新中",
+      "key_facts": [
+        "AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.",
+        "- Anthropic’s S-1 shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion.",
+        "The FT reports investors expect a $1.5–1.75 trillion valuation, and Fox Business’s Liz Claman says a Nov."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo"
+      ]
+    },
+    {
+      "id": "evt_20261027_4bc9148a54f0",
+      "title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_5734e2bfd21734f0da1fc574",
+          "title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+          "raw_title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+          "why_relevant": "Anthropic招股书及全球市场简报",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/d79ea4f9-dc54-4b9c-b739-6e6fc99feebc?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+      "latest_raw_title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/d79ea4f9-dc54-4b9c-b739-6e6fc99feebc?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261027_153ccea77397",
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_6054f6252dc59489aa243db2",
+          "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+          "raw_title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+          "why_relevant": "IPO对AI交易和利率环境影响",
+          "facts": [
+            "Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.",
+            "It's a critical moment for the whole tech sector, as the artificial intelligence boom has been largely driven by two companies: Anthropic and OpenAI.",
+            "The latter has confidentially filed to go public, but has said a debut likely won't take place until 2027."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "latest_raw_title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "status": "更新中",
+      "key_facts": [
+        "Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.",
+        "It's a critical moment for the whole tech sector, as the artificial intelligence boom has been largely driven by two companies: Anthropic and OpenAI.",
+        "The latter has confidentially filed to go public, but has said a debut likely won't take place until 2027."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html"
+      ]
+    },
+    {
+      "id": "evt_20261027_09a03f784b71",
+      "title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_2a33b1b4f2909b5052de355c",
+          "title": "Lula wins fourth term in dramatic Brazil election comeback",
+          "raw_title": "Lula wins fourth term in dramatic Brazil election comeback",
+          "why_relevant": "巴西大选反转，宏观政治事件",
+          "facts": [
+            "Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.",
+            "Left-wing leader Lula took 51.79% of votes, becoming the first president since Brazil's return to civilian rule in 1985 to be elected after losing the first round of voting.",
+            "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\"."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "latest_raw_title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "status": "更新中",
+      "key_facts": [
+        "Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.",
+        "Left-wing leader Lula took 51.79% of votes, becoming the first president since Brazil's return to civilian rule in 1985 to be elected after losing the first round of voting.",
+        "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\"."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261027_c38f91796e11",
+      "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_922999913730c996b62bc301",
+          "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+          "raw_title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+          "why_relevant": "卢拉击败博索纳罗，巴西政治转折",
+          "facts": [
+            "How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.",
+            "Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+      "latest_raw_title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+      "status": "更新中",
+      "key_facts": [
+        "How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.",
+        "Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest"
+      ]
+    },
+    {
+      "id": "evt_20261027_be70604b2c0c",
+      "title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_66c419dbae9440422bcbc07f",
+          "title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+          "raw_title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+          "why_relevant": "美加关税缓和，贸易政策信号",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1JXYWUtZ2l1TGNtSDlwbkN6SkxUR1RxaWZjQnFpNk8yTzBuLTR5OEUxQ296SmZEd3dDS25tMjh1eW5hRGg4X1gtVUpVQi1UbWIyYXpJQmh6NGxpX011WWlEYWh0Z3FKRm55UUl6UnpKUTZmM3lhUElLNUVIb0tkWDBYVkI1LXI2aWxwT1Q2aUpSZjhOcUVxaTByX21WVlExQVE?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+      "latest_raw_title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1JXYWUtZ2l1TGNtSDlwbkN6SkxUR1RxaWZjQnFpNk8yTzBuLTR5OEUxQ296SmZEd3dDS25tMjh1eW5hRGg4X1gtVUpVQi1UbWIyYXpJQmh6NGxpX011WWlEYWh0Z3FKRm55UUl6UnpKUTZmM3lhUElLNUVIb0tkWDBYVkI1LXI2aWxwT1Q2aUpSZjhOcUVxaTByX21WVlExQVE?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261027_684193803f2a",
+      "title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_c585b9f7120a2c3b13c5758b",
+          "title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
+          "raw_title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
+          "why_relevant": "中国自动驾驶牌照，产业竞速",
+          "facts": [
+            "Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec",
+            "Xpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/business/china-evs/article/3372153/china-grants-permits-vw-joint-venture-xpeng-autonomous-driving-race-intensifies"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
+      "latest_raw_title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
+      "status": "更新中",
+      "key_facts": [
+        "Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec",
+        "Xpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/business/china-evs/article/3372153/china-grants-permits-vw-joint-venture-xpeng-autonomous-driving-race-intensifies"
+      ]
+    },
+    {
+      "id": "evt_20261027_5e74a8519164",
+      "title": "debpalash/VoiceStudio",
+      "first_seen": "2026-10-27",
+      "updates": [
+        {
+          "date": "2026-10-27",
+          "article_id": "a1_d1f33cfb0e43e0de85967d9f",
+          "title": "debpalash/VoiceStudio",
+          "raw_title": "debpalash/VoiceStudio",
+          "why_relevant": "本地语音克隆，开源替代方案",
+          "facts": [
+            "Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+            "Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine.",
+            "Local workflows run on your hardware."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/debpalash/VoiceStudio"
+          ],
+          "evidence_path": "digests/meta/2026-10-27-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-10-27",
+      "latest_title": "debpalash/VoiceStudio",
+      "latest_raw_title": "debpalash/VoiceStudio",
+      "status": "更新中",
+      "key_facts": [
+        "Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine.",
+        "Local workflows run on your hardware."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/debpalash/VoiceStudio"
+      ]
     }
   ],
-  "updated_at": "2026-10-26T08:03:10.640086+08:00"
+  "updated_at": "2026-10-27T08:03:01.128245+08:00"
 }

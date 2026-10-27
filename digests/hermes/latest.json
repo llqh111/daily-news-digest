@@ -1,1295 +1,192 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-10-26-AM",
-  "date": "2026-10-26",
+  "run_key": "2026-10-27-AM",
+  "date": "2026-10-27",
   "session": "AM",
-  "delivered_at": "2026-10-26T08:07:36.869216+08:00",
+  "delivered_at": "2026-10-27T08:06:59.079887+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-10-26T00:07:36.870762+00:00",
+  "exported_at": "2026-10-27T00:06:59.081113+00:00",
   "quality": {
     "total_items": 13,
-    "items_with_unsupported_numbers": 3,
-    "unsupported_ratio": 0.23076923076923078
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
   },
   "items": [
     {
-      "article_id": "a1_8d7e43204a773dfafae39977",
-      "title": "luongnv89/claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "publisher": "GitHub Trending",
-      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.http://luongnv.com/claude-howto/ \n  \n  \n \n     \n     \n🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 \nMaster Claude Code in a Weekend \nGo from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. \nGet Started in 15 Minutes | Find Your",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Claude Code可视化指南",
-      "relevance_score": 9.0,
+      "article_id": "a1_d7f5593e982969e32f3d6ea7",
+      "title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3372222/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran",
+      "publisher": "SCMP",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu boasted of ⁠his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Iran if he wins, after Trump said they should “finish the job”.\n“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president. And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance",
+      "category": "国际",
+      "published_at": "2026-10-26T22:29:05+00:00",
+      "why_relevant": "地缘政治风险叠加伊朗战争信号",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
+          "text": "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630194+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.",
-          "sentence_hash": "9cda15ae8170231966020ffc977e9e0c3ba7533545c058c4cae95f9b8fa79c09",
+          "captured_at": "2026-10-27T08:03:01.118950+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
+          "sentence_hash": "2f69c9ab08c7d4d7c9b33ee64e3275f2c873156f6c1778ab0a9d3458d5745f63",
           "anchors": [
-            "语言",
-            "中文",
-            "日本語",
-            "skills",
-            "claude",
-            "copy",
-            "learn"
+            "October 7"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "- The official docs describe features — but don't show you how to combine them.",
+          "text": "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630253+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "- The official docs describe features — but don't show you how to combine them.",
-          "sentence_hash": "6907b4f6a77636551880cf2406e3b11d73071b4bdf16ff30d17d45e3a45e9fa0",
+          "captured_at": "2026-10-27T08:03:01.118992+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
+          "sentence_hash": "8795467c0bfd4be4469acedd380a3fc32f8727da4ae3c4015c8fe3b5ac12b955",
           "anchors": [
-            "you"
+            "min",
+            "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
+          "text": "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630278+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "You know slash commands exist, but not how to chain them with hooks, memory, and subagents into a workflow that actually saves hours.",
-          "sentence_hash": "d340370bf68aa3ed029c4743ce51a2f333e16c73db81eb49d923a6fe1597a6d2",
+          "captured_at": "2026-10-27T08:03:01.119017+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president.",
+          "sentence_hash": "24fe6318ae01498d14f98dced1355644d4cb170970709c142d0be0079e2b0b85",
           "anchors": [
-            "work",
-            "now"
+            "min",
+            "and"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "- There's no clear learning path.",
+          "text": "And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance late on Sunday night.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630292+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "- There's no clear learning path.",
-          "sentence_hash": "ed288a66b33aed6c2312d6b5e905cf65296ae19386434f02cd623113726d220c",
+          "captured_at": "2026-10-27T08:03:01.119039+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance late on Sunday night.",
+          "sentence_hash": "2277ba1f88fee5d2e3140dcef89107dcc3e140816e01bd4e7621aa3b9af643ce",
           "anchors": [
-            "learn"
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Should you learn MCP before hooks?",
+          "text": "“He has another two years, and he says he is calling on you to vote for me.” Select Voice Select Speed 1x AI-generated voice",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630304+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "Should you learn MCP before hooks?",
-          "sentence_hash": "3ac2761acf15589fc59c40a88ba0bd021eb748872229c8921a6bab39713858d0",
+          "captured_at": "2026-10-27T08:03:01.119059+08:00",
+          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
+          "excerpt": "“He has another two years, and he says he is calling on you to vote for me.” Select Voice Select Speed 1x AI-generated voice",
+          "sentence_hash": "da997868897d0d281467792fd8d05ec239af66e617d7ed7ce496686f0f1b2c64",
           "anchors": [
-            "you",
-            "learn"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.630337+08:00",
-          "content_sha256": "b3ca5d52557e5df8433b40f25f23e0402a2dedb9c44fd881326af4841150c730",
-          "excerpt": "A \"hello world\" slash command doesn't help you build a production code review pipeline that uses memory, delegates to specialized agents, and runs security scans automatically.",
-          "sentence_hash": "5e9a9c48973d9ceda09074382721dc161b970871413baccc5008f7ce0029e763",
-          "anchors": [
-            "run",
-            "you"
+            "and"
           ]
         }
       ],
       "entities": [
-        "语言",
-        "hub",
-        "get",
-        "日本語",
-        "work",
-        "skills",
-        "should",
-        "examples",
-        "there",
-        "learn",
-        "claude code",
-        "forks",
-        "mermaid",
-        "full",
-        "now",
-        "starting",
-        "actively",
-        "git",
-        "language",
-        "you",
-        "october",
-        "take",
-        "linux",
-        "minutes",
-        "feature catalog\nyou",
-        "中文",
-        "english",
-        "claude",
-        "copy",
-        "win",
-        "find your level",
-        "community",
-        "installation",
-        "mcp",
-        "browse",
-        "built",
-        "run",
-        "get started"
-      ],
-      "numbers": [
-        "90%"
-      ],
-      "dates": [
-        "October 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 40
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_e98647d7a02230f487247428",
-      "title": "google-gemini/gemini-cli",
-      "url": "https://github.com/google-gemini/gemini-cli",
-      "publisher": "GitHub Trending",
-      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.https://geminicli.com\n \n  \n   \n  Note\n  \n Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post. \n Gemini CLI has not been optimized for Gemini 4 Argon. To use Gemini 4 Argon, please use Antigravity. \n \nGemini CLI \n     \n\n \n  \n   \n  Note\n  \n Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemi",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "谷歌开源终端AI代理",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631281+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.",
-          "sentence_hash": "c2fb45b8666f37a9067b58d6f5dc8ddd0c782d267fc8e0554d7c82b78ac50679",
-          "anchors": [
-            "use",
-            "ai",
-            "June 18"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "To learn more, see our blog post.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631297+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "To learn more, see our blog post.",
-          "sentence_hash": "fa20edb8ee58371a29632fded2ff6da119ff711ac2a6db178b6c2ca75ef79072",
-          "anchors": [
-            "learn"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Gemini CLI has not been optimized for Gemini 4 Argon.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631312+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "Gemini CLI has not been optimized for Gemini 4 Argon.",
-          "sentence_hash": "fd13998b1c8a925693db9f244af743cae8b6ae6d142aaae6346ab401a8e60ea8",
-          "anchors": [
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "To use Gemini 4 Argon, please use Antigravity.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631326+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "To use Gemini 4 Argon, please use Antigravity.",
-          "sentence_hash": "b93634fcc32453b3411a036fdcb9d31b05d9a425b5e544ddcfd1b346d92c3f4f",
-          "anchors": [
-            "use",
-            "please"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Note Gemini CLI is not optimized for the latest Gemini models.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631341+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "Note Gemini CLI is not optimized for the latest Gemini models.",
-          "sentence_hash": "29fa471c5dca1cbc4533f3dffe6abe265bffbad06b0c0985c4f8662b565047df",
-          "anchors": [
-            "model",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.631365+08:00",
-          "content_sha256": "17ac4023195352ebabd2281bd1adac2af5f83ddabe6023416a4d0bc69d8b4929",
-          "excerpt": "For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "sentence_hash": "d3463b628af5c808964b4e21d8b033c94c3cbfaaa4b44b83d22a0cc9b08237a9",
-          "anchors": [
-            "model",
-            "use",
-            "best"
-          ]
-        }
-      ],
-      "entities": [
-        "please",
-        "gemini",
-        "tuesdays",
-        "antigravity",
-        "google cloud project",
-        "get",
-        "lyria",
-        "see releases",
-        "debug",
-        "learn",
-        "imagen",
-        "choose",
-        "cli",
-        "upgrade",
-        "using",
-        "usage",
-        "utc",
-        "model",
-        "best",
-        "argon",
-        "june",
-        "developers",
-        "create",
-        "use",
-        "veo",
-        "code assist license",
-        "see gemini",
-        "google one",
+        "israeli",
+        "iran\ntuesday",
+        "netanyahu",
+        "american",
+        "gadi eisenkot",
+        "donald trump",
+        "sunday",
+        "israel",
         "ai",
-        "these",
-        "note\nunpaid",
-        "benefits",
-        "automate",
-        "query",
-        "generate",
-        "note\ngemini",
-        "for",
-        "mcp",
-        "run",
-        "install gemini",
-        "set"
+        "listen\nisraeli prime minister benjamin netanyahu",
+        "iran",
+        "select voice\nselect speed",
+        "us",
+        "advertisement\nnetanyahu",
+        "president donald trump",
+        "min",
+        "october",
+        "and",
+        "trump"
       ],
       "numbers": [],
       "dates": [
-        "June 18"
+        "October 7"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 42
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_de27875ea33985f5d5ca331b",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "publisher": "OpenAI 博客",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "category": "科技",
-      "published_at": "2026-10-23T17:00:00+00:00",
-      "why_relevant": "OpenAI存储架构揭秘",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632263+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.",
-          "sentence_hash": "a83c1e8872e0730b4774c0ab9f28465fef30e3493177f0f8e1044000d6b03ab4",
-          "anchors": [
-            "1 billion",
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632282+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "All OpenAI products require fast, reliable access to data, provided by our storage platform, Habitat.",
-          "sentence_hash": "7cfc0e1603fb1d3dcd41b1e54ae0923143fad6ccbc29bf69d85fd55416e41510",
-          "anchors": [
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632298+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "It has to respond in milliseconds to over 1 billion users across 40 geographic regions.",
-          "sentence_hash": "a338b1f347220f8db006c54165d07a4bcc3bdb87aa4d583e113efe8b8eb9c0e5",
-          "anchors": [
-            "1 billion"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632317+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "Solving that challenge required rethinking how our online storage platform was designed and operated.",
-          "sentence_hash": "850b7d7987daf0f004b19a4c71ff9e6ebfbb00d201a458281fd318b07f1c09a8",
-          "anchors": [
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632341+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "This two-part series explains how we developed Habitat from a simple client library and database into a globally distributed storage platform serving over 500 petabytes of data.",
-          "sentence_hash": "9864367e987b11a3f6bf1b00aac6a2bd439efb77bfcc0d7ccfa328f8dffa41dc",
-          "anchors": [
-            "part",
-            "but"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.632364+08:00",
-          "content_sha256": "4b0e2dd19599ba220ee408e7d559127ed6e33bba530add7d76a3178428762f09",
-          "excerpt": "In this post, Part II, we walk through how we scaled the underlying storage component: Azure Cosmos DB.",
-          "sentence_hash": "edc4aa1329f4ec49db3e6e33559a81957bee94dd0e7a1148a15d3bb45dcedee6",
-          "anchors": [
-            "through"
-          ]
-        }
-      ],
-      "entities": [
-        "in habitat",
-        "part",
-        "open",
-        "ii",
-        "habitat",
-        "all open",
-        "chat",
-        "but",
-        "azure",
-        "db",
-        "rapidly",
-        "today",
-        "conversely",
-        "our",
-        "solving",
-        "through",
-        "python",
-        "azure cosmos",
-        "single"
-      ],
-      "numbers": [
-        "1 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
+        "has_multiple_sources": true,
+        "fact_count": 5,
         "anchor_count": 20
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_c0aa54346898edeec50bf91c",
-      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-      "category": "国际",
-      "published_at": "2026-10-25T22:54:57+00:00",
-      "why_relevant": "塞尔维亚政局地震",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.633354+08:00",
-          "content_sha256": "aee862855eb989020bc7a234245026e1ce5cb10952c20d90913aa33a31893f01",
-          "excerpt": "Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.",
-          "sentence_hash": "693534ccb5b671baa63d1360baa79c774d718f0abd77c4180b80e98e0016d627",
-          "anchors": [
-            "64.9%"
-          ]
-        }
-      ],
-      "entities": [
-        "earlier",
-        "david vasi",
-        "european union",
-        "ukraine",
-        "gmt",
-        "aleksandar vu",
-        "preliminary",
-        "there",
-        "serbian progressive party",
-        "russia",
-        "serbian",
-        "published\nserbia",
-        "the student list",
-        "novi sad",
-        "sns",
-        "serbia",
-        "sunday",
-        "ilija srdanovi",
-        "everything",
-        "bbc",
-        "belgrade"
-      ],
-      "numbers": [
-        "64.9%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 22
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_aa74ac474866e9a4995bdf79",
-      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-      "category": "国际",
-      "published_at": "2026-10-25T09:00:00+00:00",
-      "why_relevant": "马斯克限制星链军事用途",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634186+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.",
-          "sentence_hash": "d894a99cf7878571e661b529f0b4d65b499ff51093ae914e3a3bb3ec60068674",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634212+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "The tech billionaire accused Ukraine of violating its terms of service by using it for military activity - but denied being responsible for a simultaneous issue with its US-run, military-grade counterpart Starshield.",
-          "sentence_hash": "ae5dea46a51a76aa1477a50146a5666a0d9e1d9a42006cc0d90fb658fbdc9dd1",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634231+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Kyiv has not officially commented on Musk's latest claim but Ukrainian presidential adviser Serhii Beskrestnov said his post was \"very strange\".",
-          "sentence_hash": "f229737c826738c3b98a49fa1a4962836a2bc6279a68449be66875513bc84416",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634260+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Musk had earlier denied deliberately throttling Ukraine's connection, which it says hampered its ability to conduct defensive operations for more than a week.",
-          "sentence_hash": "17dfe69178791593a4c8df598962b16bcc3b3bd272cd8234d0a79330aa9e5b74",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634278+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "The issue first emerged last week during a broader row between Washington and Kyiv over Ukrainian strikes on Russian oil infrastructure.",
-          "sentence_hash": "b7be2d2dea2b15dc1c59ea7f72489de14ecef3f3980307f0a52d7ebaf975d920",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.634301+08:00",
-          "content_sha256": "8e0887db0294a213a6d97055287175a6f9f977f963bd5b0ee8ef1e539c58fa82",
-          "excerpt": "Musk's latest comments, and the seeming restoration of the service, came after US President Donald Trump said he had told the Tesla and X owner to \"put it back\", having repeatedly denied instructing him to limit the service.",
-          "sentence_hash": "f54670a9722bbc80da5af7c5cc1a8cf39a4e1eb3794a1945a53a39c8b9e92f73",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "using starlink",
-        "us",
-        "president donald trump",
-        "serhii beskrestnov",
-        "tesla",
-        "ukraine",
-        "beskrestnov",
-        "space",
-        "starl",
-        "telegram",
-        "starshield",
-        "kyiv",
-        "there",
-        "russia",
-        "therefore",
-        "reacting",
-        "saturday",
-        "washington",
-        "ukrainian",
-        "musk",
-        "starlink",
-        "published\nelon musk",
-        "russian",
-        "elon musk",
-        "earth"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 25
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_472f7b27b4fa1b81b219c3ac",
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
-      "category": "国际",
-      "published_at": "2026-10-25T23:33:14+00:00",
-      "why_relevant": "委内瑞拉反对派领袖返国",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Venezuelan opposition leader MarÃa Machado returns after months in exile - Published Venezuelan opposition leader MarÃa Corina Machado has returned home to a fraught political landscape after more than 10 months in exile.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.635184+08:00",
-          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
-          "excerpt": "Venezuelan opposition leader MarÃa Machado returns after months in exile - Published Venezuelan opposition leader MarÃa Corina Machado has returned home to a fraught political landscape after more than 10 months in exile.",
-          "sentence_hash": "d4752dab43f05cf4cb45d762bccfe9fd99d101103a09610eca55b90b836eb529",
-          "anchors": [
-            "she",
-            "more"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "\"I am here.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.635196+08:00",
-          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
-          "excerpt": "\"I am here.",
-          "sentence_hash": "4ce51b75ef387ae360454c65c5eb7588e3f8a7124f42d7c075125427e59b1651",
-          "anchors": [
-            "her"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "In January, a month after Machado left Venezuela on a speedboat under cover of darkness to accept the Nobel Peace Prize in Norway, the US seized her opponent, President NicolÃ¡s Maduro.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.635229+08:00",
-          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
-          "excerpt": "In January, a month after Machado left Venezuela on a speedboat under cover of darkness to accept the Nobel Peace Prize in Norway, the US seized her opponent, President NicolÃ¡s Maduro.",
-          "sentence_hash": "1e712bde68837ad0c8f09017fc9e9a3eff01257d28641436bacfeaa58b93de54",
-          "anchors": [
-            "her"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The Trump administration then backed his deputy, Delcy RodrÃguez, as leader and she was sworn in as interim president, later signing an oil deal which granted very favourable terms to the US.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.635282+08:00",
-          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
-          "excerpt": "The Trump administration then backed his deputy, Delcy RodrÃguez, as leader and she was sworn in as interim president, later signing an oil deal which granted very favourable terms to the US.",
-          "sentence_hash": "f6637e1ccd1099d5641c558f6305f9abe735d0a5b9157718bb283455110bc83a",
-          "anchors": [
-            "she",
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Machado was photographed on Sunday attending Mass at a church in the Venezuelan state of Lara, surrounded by supporters hugging her and clasping her hands.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.635303+08:00",
-          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
-          "excerpt": "Machado was photographed on Sunday attending Mass at a church in the Venezuelan state of Lara, surrounded by supporters hugging her and clasping her hands.",
-          "sentence_hash": "ecc89f95991a865d659bd080c6ef4caf9a1ed7cf70749984f41f88eccae96309",
-          "anchors": [
-            "her"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "More supporters have lined the route of her journey to the capital.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.635321+08:00",
-          "content_sha256": "67a1444f622d8753d4a9975b47304c148bc455d28fe990c306e689732816e2cb",
-          "excerpt": "More supporters have lined the route of her journey to the capital.",
-          "sentence_hash": "2b2e5a8447b7e0d0d3c069b3463f463085235541b1913da5223c4350dbb8b56f",
-          "anchors": [
-            "her",
-            "our"
-          ]
-        }
-      ],
-      "entities": [
-        "more",
-        "us",
-        "edmundo gonz",
-        "with",
-        "her",
-        "the trump",
-        "there",
-        "trump",
-        "today",
-        "venezuelans",
-        "corina machado",
-        "she",
-        "gonz",
-        "president nicol",
-        "sunday",
-        "lara",
-        "september",
-        "nobel peace prize",
-        "venezuelan",
-        "despite",
-        "delcy rodr",
-        "maduro",
-        "in january",
-        "machado",
-        "mar",
-        "mass",
-        "caracas",
-        "corina",
-        "our",
-        "published\nvenezuelan",
-        "venezuela",
-        "nobel prize",
-        "norway"
-      ],
-      "numbers": [
-        "90%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 34
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_349843b1643e0258f53d2db0",
-      "title": "aws/agent-toolkit-for-aws",
-      "url": "https://github.com/aws/agent-toolkit-for-aws",
-      "publisher": "GitHub Trending",
-      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWSAgent Toolkit for AWS \n   \nHelp AI coding agents build, deploy, and manage applications on AWS. \nThe Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services. It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx. \nQuick start \nAWS CLI \nUse the Agent Toolkit directly from your terminal with",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AWS官方MCP，AI编程相关",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Help AI coding agents build, deploy, and manage applications on AWS.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.636159+08:00",
-          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
-          "excerpt": "Help AI coding agents build, deploy, and manage applications on AWS.",
-          "sentence_hash": "aedcd8d7fe9ef795cde65344d450f7341ca16e9cab44193890adf85411aaa37c",
-          "anchors": [
-            "agent"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.636182+08:00",
-          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
-          "excerpt": "The Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services.",
-          "sentence_hash": "fae159f2e232857c56b1efa816a6bb1a5f57a40790a8315f07f721d363d26216",
-          "anchors": [
-            "ai",
-            "agent",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.636206+08:00",
-          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
-          "excerpt": "It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx.",
-          "sentence_hash": "a3dcbbe4425da05dec9cc7e8c8d5ac81f18ca4f10bba3d538bbb37c71183549b",
-          "anchors": [
-            "use",
-            "agent",
-            "dev"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Use the Agent Toolkit directly from your terminal with the AWS CLI: aws configure agent-toolkit See the AWS CLI integration guide for setup, configuration, and usage instructions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.636233+08:00",
-          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
-          "excerpt": "Use the Agent Toolkit directly from your terminal with the AWS CLI: aws configure agent-toolkit See the AWS CLI integration guide for setup, configuration, and usage instructions.",
-          "sentence_hash": "cbef6a33378bff5f1a659467da8af1b3bf9fe4fbbf47d2661a9084be8cf94b15",
-          "anchors": [
-            "for",
-            "agent",
-            "setup",
-            "aws"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The plugins are available on the official Anthropic marketplace (claude-plugins-official) which is added to your Claude Code installation by default.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.636266+08:00",
-          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
-          "excerpt": "The plugins are available on the official Anthropic marketplace (claude-plugins-official) which is added to your Claude Code installation by default.",
-          "sentence_hash": "88a776a16bb26cc3eae338db13638d3bfaa5e30f6dff52198251096431013571",
-          "anchors": [
-            "plugin",
-            "add",
-            "ai",
-            "plugins",
-            "claude"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Use the following commands to install supported plugins from the toolkit: For aws-core that covers service selection, CDK/CloudFormation, serverless, containers, storage, observability, billing, SDK usage, and deployment: /plugin install aws-core@claude-plugins-official Tip: If y",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.636319+08:00",
-          "content_sha256": "5497f885e275d116ee3ab945afab5cea492a77d7cb3262408c9f9430123f6731",
-          "excerpt": "Use the following commands to install supported plugins from the toolkit: For aws-core that covers service selection, CDK/CloudFormation, serverless, containers, storage, observability, billing, SDK usage, and deployment: /plugin install aws-core@claude-plugins-official Tip: If y",
-          "sentence_hash": "848474e01b863c0c8f60687630de60d1b144f33fa571799d4356ece5d93fbce7",
-          "anchors": [
-            "plugin",
-            "use",
-            "core",
-            "dev",
-            "aws",
-            "then",
-            "ai",
-            "agent",
-            "for",
-            "plugins",
-            "claude",
-            "server"
-          ]
-        }
-      ],
-      "entities": [
-        "plugin",
-        "heroku",
-        "gemini",
-        "the agent toolkit",
-        "formation",
-        "anthropic",
-        "see",
-        "each",
-        "cloud",
-        "settings",
-        "claude code",
-        "azure",
-        "add",
-        "cli",
-        "activate",
-        "core",
-        "dev",
-        "athena",
-        "then",
-        "devin",
-        "kiro",
-        "server",
-        "sdk",
-        "amazon bedrock",
-        "help",
-        "security agent",
-        "codex",
-        "use",
-        "open",
-        "cdk",
-        "ops agent",
-        "import",
-        "ai",
-        "agent",
-        "uat",
-        "claude",
-        "gcp",
-        "tables",
-        "agent toolkit",
-        "cursor",
-        "add marketplace",
-        "glue",
-        "team marketplaces",
-        "repo",
-        "setup",
-        "aws",
-        "for",
-        "plugins",
-        "mcp",
-        "etl",
-        "tip"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 51
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_3426b868da479c99fe27611b",
-      "title": "Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates",
-      "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
-      "publisher": "CNBC",
-      "summary": "Traders looked ahead to a busy week with the Federal Reserve's policy decision due on Wednesday.",
-      "category": "财经",
-      "published_at": "2026-10-25T23:52:24+00:00",
-      "why_relevant": "美股期货，联储周",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Stock futures rose on Sunday evening as traders look toward a slew of central bank decisions this week.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.637274+08:00",
-          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
-          "excerpt": "Stock futures rose on Sunday evening as traders look toward a slew of central bank decisions this week.",
-          "sentence_hash": "984b0ab6d3f25f8d96d5049f28b4e1cc3c6ad9297f835b383a5472563271a69f",
-          "anchors": [
-            "traders",
-            "futures",
-            "bank"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "S&P 500 futures were up 0.4% while Dow Jones Industrial Average futures added 128 points, or 0.2%.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.637296+08:00",
-          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
-          "excerpt": "S&P 500 futures were up 0.4% while Dow Jones Industrial Average futures added 128 points, or 0.2%.",
-          "sentence_hash": "bf4a734258d4fb311a9694b60d8be39b26d790afa087a9399cb4a8dedd9c683a",
-          "anchors": [
-            "0.4%",
-            "futures",
-            "4%",
-            "0.2%"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Nasdaq-100 futures gained 0.6%.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.637309+08:00",
-          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
-          "excerpt": "Nasdaq-100 futures gained 0.6%.",
-          "sentence_hash": "6168702b2c9bae3b41782b8386d5a39b4cc9cba911f6ba020b9cd1fea93029da",
-          "anchors": [
-            "futures",
-            "0.6%"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Asian markets are set to start the week mixed, with futures for Japan's Nikkei 225 in Chicago at 63,030, compared with the index's previous close of 62,693.16.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.637345+08:00",
-          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
-          "excerpt": "Asian markets are set to start the week mixed, with futures for Japan's Nikkei 225 in Chicago at 63,030, compared with the index's previous close of 62,693.16.",
-          "sentence_hash": "03f5a212050c4f10954891a9e0288a96177f4519dbae30e78118b22ddd86e78a",
-          "anchors": [
-            "futures"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Australia's S&P/ASX 200 was down 0.79% in early trading.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.637366+08:00",
-          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
-          "excerpt": "Australia's S&P/ASX 200 was down 0.79% in early trading.",
-          "sentence_hash": "c0aaeb61b4df58111149012b6dd4b55dac07254965173c1d9466e5871474da68",
-          "anchors": [
-            "0.79%"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Oil prices were lower on Monday in Asia, with Brent futures falling 0.89% to trade at $115.68 a barrel while U.S.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.637386+08:00",
-          "content_sha256": "24c8b543d1564f38b3267305b48e5bd1408b8e5b7a52fb1dcc8a91675af85c03",
-          "excerpt": "Oil prices were lower on Monday in Asia, with Brent futures falling 0.89% to trade at $115.68 a barrel while U.S.",
-          "sentence_hash": "93b47c8a780e298fac5de440be0acdf0f50df83bef1f0663ba8b08142c7bd959",
-          "anchors": [
-            "futures",
-            "0.89%",
-            "$115.68 "
-          ]
-        }
-      ],
-      "entities": [
-        "moody",
-        "hong kong",
-        "warsh",
-        "friday",
-        "israel",
-        "america",
-        "april",
-        "wednesday",
-        "traders",
-        "thursday",
-        "france",
-        "brent",
-        "asian",
-        "hang seng",
-        "monday",
-        "asx",
-        "west texas intermediate",
-        "the dow",
-        "european central bank",
-        "sunday",
-        "stock",
-        "claudio irigoyen",
-        "nasdaq",
-        "bank",
-        "dow jones industrial average",
-        "nikkei",
-        "futures",
-        "asia",
-        "the oct",
-        "federal reserve",
-        "chicago",
-        "japan",
-        "chair warsh",
-        "australia",
-        "oil",
-        "higher",
-        "gdp",
-        "the nasdaq composite",
-        "fed",
-        "iran"
-      ],
-      "numbers": [
-        "3.75%",
-        "0.79%",
-        "120%",
-        "1.03%",
-        "0.2%",
-        "$102.22 ",
-        "0.4%",
-        "0.89%",
-        "90%",
-        "0.5%",
-        "4%",
-        "5%",
-        "$115.68 ",
-        "0.6%"
-      ],
-      "dates": [
-        "May 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 55
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_14a5788e5cd7bf68277bec46",
-      "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
-      "url": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-25T13:00:00+00:00",
-      "why_relevant": "英国银行加密投诉激增",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "UK banks face 10,000 complaints in 3 months over crypto restrictions The U.K.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638329+08:00",
-          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
-          "excerpt": "UK banks face 10,000 complaints in 3 months over crypto restrictions The U.K.",
-          "sentence_hash": "00a775b12fc34ac39822548e1ebe59fc81ef1a9404dcc21f99b8273d2afc482f",
-          "anchors": [
-            "bank"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "claims to aspire to become a global cryptocurrency hub, an ambition that would appear to be at odds with the attitude to crypto purchases of its major banks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638353+08:00",
-          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
-          "excerpt": "claims to aspire to become a global cryptocurrency hub, an ambition that would appear to be at odds with the attitude to crypto purchases of its major banks.",
-          "sentence_hash": "b6afc647d385942a082a98f58b251d953b18bdc3bfc2598eded3db48950a4dda",
-          "anchors": [
-            "bank"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "- More than 10,000 complaints about bank restrictions on cryptocurrency transactions were submitted across the U.K.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638369+08:00",
-          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
-          "excerpt": "- More than 10,000 complaints about bank restrictions on cryptocurrency transactions were submitted across the U.K.",
-          "sentence_hash": "deaab14a77d4e0d4d8b617e34e453318224ac16a17d1f85312a31db8580a2fb0",
-          "anchors": [
-            "bank"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "- Lloyds Banking Group received the most complaints, followed by Barclays and NatWest, though the voluntary data was not adjusted for each bank’s market share and does not represent all customers.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638398+08:00",
-          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
-          "excerpt": "- Lloyds Banking Group received the most complaints, followed by Barclays and NatWest, though the voluntary data was not adjusted for each bank’s market share and does not represent all customers.",
-          "sentence_hash": "f56db6b4c3ed84bfdc872abe66809c2dea791823f7ddc7d7a7fd9df012799b7c",
-          "anchors": [
-            "bank"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "- Stand With Crypto said banks’ blanket bans, rigid limits and unclear policies could impede access to regulated exchanges and undermine Britain’s ambition to become a global cryptocurrency hub.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638423+08:00",
-          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
-          "excerpt": "- Stand With Crypto said banks’ blanket bans, rigid limits and unclear policies could impede access to regulated exchanges and undermine Britain’s ambition to become a global cryptocurrency hub.",
-          "sentence_hash": "da54fc59902ec10f9884604c81a12cb5529a423bdb0ee44091b4c286b839b598",
-          "anchors": [
-            "bank"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The U.K.’s desire to become a global cryptocurrency hub appears to have collided with a barrier in the form of the country’s high-street banks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638447+08:00",
-          "content_sha256": "a51b50738f6fb8e0f5a0ad3b241022f9237d291029044d552ebd666deded744b",
-          "excerpt": "The U.K.’s desire to become a global cryptocurrency hub appears to have collided with a barrier in the form of the country’s high-street banks.",
-          "sentence_hash": "c48c305eaa8e8e766d5b7160e03e1606984a2d1da91f371fb4213ecb6c41576e",
-          "anchors": [
-            "bank"
-          ]
-        }
-      ],
-      "entities": [
-        "financial conduct authority",
-        "august",
-        "increased",
-        "more",
-        "coinbase",
-        "halifax",
-        "conservative",
-        "fca",
-        "european",
-        "treasury",
-        "nat",
-        "rishi sunak",
-        "britain",
-        "lloyds banking group",
-        "harries",
-        "scotland",
-        "while",
-        "stand with crypto",
-        "lucy rigby",
-        "west",
-        "swc",
-        "barclays",
-        "katie harries",
-        "west group",
-        "uk",
-        "labour",
-        "bank"
-      ],
-      "numbers": [
-        "23%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 28
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_43c8f487672a80531aea9a61",
-      "title": "Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches",
-      "url": "https://www.scmp.com/business/cryptocurrency/article/3372060/standard-chartered-led-anchorpoint-plans-retail-stablecoin-hsbc-redcoin-launches",
+      "article_id": "a1_d30e350e0e118afab9d480ee",
+      "title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
+      "url": "https://www.scmp.com/news/china/military/article/3372206/what-message-china-sending-latest-footage-no-notice-df-rocket-drill",
       "publisher": "SCMP",
-      "summary": "After HSBC RedCoin launched on Friday, Anchorpoint – the stablecoin-issuing joint venture led by Standard Chartered – said it plans to launch a retail product on a public blockchain, even as it takes a “prudent approach”.\n“Our next major milestone is to [help] bring regulated digital money into everyday payments and commercial applications, while connecting traditional payment infrastructure with this emerging digital finance,” said Dominic Maffei, CEO of Anchorpoint.\n“This is a public...",
+      "summary": "China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to showcase the People’s Liberation Army’s rapid-response capabilities.\nState broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.\nNo other details were provided.\nThe footage – which is believed to show a missile from the Dongfeng (east wind)...",
       "category": "国际",
-      "published_at": "2026-10-25T23:00:15+00:00",
-      "why_relevant": "稳定币零售产品动态",
-      "relevance_score": 7.0,
+      "published_at": "2026-10-27T00:00:19+00:00",
+      "why_relevant": "中国东风导弹无预告演练，军事信号",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Advertisement Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches But the venture has yet to commit to a launch date, saying it will not rush the product to market 2-MIN READ2-MIN Listen After HSBC RedCoin launched on Friday, Anchorpoint – the stab",
+          "text": "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638844+08:00",
-          "content_sha256": "6ce9bbfb3d91cbc289778b4af05293384a39016bd37de95b85db1ea0fbba4158",
-          "excerpt": "Advertisement Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches But the venture has yet to commit to a launch date, saying it will not rush the product to market 2-MIN READ2-MIN Listen After HSBC RedCoin launched on Friday, Anchorpoint – the stab",
-          "sentence_hash": "016450d05eb57ab1a95f25c241a5fc06e5624942dfa4377a29cf430417cbcb03",
+          "captured_at": "2026-10-27T08:03:01.119404+08:00",
+          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
+          "excerpt": "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
+          "sentence_hash": "9620f4de5f5575676e01dc1128c619a035fd3167a30119131d8311ab68e84a9c",
           "anchors": [
-            "ai",
-            "coin",
-            "red"
+            "state"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "“Our next major milestone is to [help] bring regulated digital money into everyday payments and commercial applications, while connecting traditional payment infrastructure with this emerging digital finance,” said Dominic Maffei, CEO of Anchorpoint.",
+          "text": "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638875+08:00",
-          "content_sha256": "6ce9bbfb3d91cbc289778b4af05293384a39016bd37de95b85db1ea0fbba4158",
-          "excerpt": "“Our next major milestone is to [help] bring regulated digital money into everyday payments and commercial applications, while connecting traditional payment infrastructure with this emerging digital finance,” said Dominic Maffei, CEO of Anchorpoint.",
-          "sentence_hash": "9c3829619eac8ecd7dffa69c5e786479515f4bc53135d61af061dc5986d7398d",
+          "captured_at": "2026-10-27T08:03:01.119428+08:00",
+          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
+          "excerpt": "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
+          "sentence_hash": "5fdf4d7d265b5d5d4c29561844125298fb4302f181dd190c1add26b5821a4417",
           "anchors": [
             "ai",
-            "pay",
-            "min"
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "“This is a public blockchain stablecoin, so applying this to retail, a lot of considerations need to be made.” Anchorpoint’s commitment to serving its retail customers comes as HSBC just launched its Hong Kong dollar-backed HSBC RedCoin for the 3.3 million users of its PayMe app.",
+          "text": "No other details were provided.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.638903+08:00",
-          "content_sha256": "6ce9bbfb3d91cbc289778b4af05293384a39016bd37de95b85db1ea0fbba4158",
-          "excerpt": "“This is a public blockchain stablecoin, so applying this to retail, a lot of considerations need to be made.” Anchorpoint’s commitment to serving its retail customers comes as HSBC just launched its Hong Kong dollar-backed HSBC RedCoin for the 3.3 million users of its PayMe app.",
-          "sentence_hash": "b3b1167b6ffb168129090b75cd4bf8aa790ba40a8ace9d7c2228570ffae12b26",
+          "captured_at": "2026-10-27T08:03:01.119439+08:00",
+          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
+          "excerpt": "No other details were provided.",
+          "sentence_hash": "d67435a2bd932a936804dd230ecc435d0b252269478520afe7847b79e9ced108",
           "anchors": [
-            "ai",
-            "coin",
-            "3.3 million"
+            "ai"
           ]
         }
       ],
       "entities": [
-        "hong kong",
-        "coin",
-        "friday",
-        "anchorpoint",
-        "ai",
-        "listen\nafter",
-        "min",
-        "hsbc",
-        "but",
-        "ceo",
-        "dominic maffei",
-        "our",
-        "standard chartered",
-        "pay",
-        "advertisement\nstandard chartered",
+        "liberation army",
+        "state",
+        "guam",
+        "china",
+        "amber wangin beijing\nchina",
+        "people",
+        "df",
         "select voice\nselect speed",
-        "red"
+        "us",
+        "min",
+        "advertisement\nwhat",
+        "monday",
+        "cctv",
+        "ai"
       ],
-      "numbers": [
-        "3.3 million"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -1298,130 +195,148 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 3,
-        "anchor_count": 18
+        "anchor_count": 14
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_f3302444d0b367f1a7cfba8f",
-      "title": "Deeply divided Israel braces for pivotal election",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
-      "category": "国际",
-      "published_at": "2026-10-25T22:11:13+00:00",
-      "why_relevant": "以色列重大选举",
-      "relevance_score": 7.0,
+      "article_id": "a1_4d66d131c73f0fd99583356d",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "publisher": "GitHub Trending",
+      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Frameworkhttps://arxiv.org/pdf/2412.20138   \n \n  \n  \n  \n  \n \n \n \n  \n \n \n \n  \n Deutsch | \n Español | \n français | \n 日本語 | \n 한국어 | \n Português | \n Русский | \n 中文 \n \n \nTradingAgents: Multi-Agents LLM Financial Trading Framework \nNews \n \n \n [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attach",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "多智能体金融交易框架，契合量化投资关注",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "The general election on Tuesday hangs over a country that's deeply divided and ready for a fight.",
+          "text": "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.639743+08:00",
-          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
-          "excerpt": "The general election on Tuesday hangs over a country that's deeply divided and ready for a fight.",
-          "sentence_hash": "cb1ff1ce9adc82f3f2daa0068a315089a8ec38819919d296560b3b4f3125ecdc",
+          "captured_at": "2026-10-27T08:03:01.120409+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
+          "sentence_hash": "04fe81a3f2297806197cfd68d354f428fb1e4cccd3d84724a7bca5cfe4001fcd",
           "anchors": [
-            "and",
-            "deeply"
+            "ci",
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Polls published on Friday put the governing coalition and the main opposition bloc almost neck-and-neck, with half a million first-time voters due to cast their ballot and some 70,000 Israelis reportedly flying in from abroad specifically to vote.",
+          "text": "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.639771+08:00",
-          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
-          "excerpt": "Polls published on Friday put the governing coalition and the main opposition bloc almost neck-and-neck, with half a million first-time voters due to cast their ballot and some 70,000 Israelis reportedly flying in from abroad specifically to vote.",
-          "sentence_hash": "f171c71e01d71f294619b8091ab65bcbb4f2ad58b02811a5e71d36e8c1d6dba5",
+          "captured_at": "2026-10-27T08:03:01.120449+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
+          "sentence_hash": "07714198f0d86dce7ee25a9e1d99d727258c77d37c0f6201f182e59d78122b12",
           "anchors": [
-            "ai",
-            "and",
-            "published"
+            "pro",
+            "ci"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "On Saturday night, vast crowds of opposition voters gathered in central Tel Aviv to demand a change of government.",
+          "text": "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.639788+08:00",
-          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
-          "excerpt": "On Saturday night, vast crowds of opposition voters gathered in central Tel Aviv to demand a change of government.",
-          "sentence_hash": "edfc8c86d43dad6eb88bb018fe017610239028abf630a24d9d80998b3f7bbb2b",
+          "captured_at": "2026-10-27T08:03:01.120484+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date.",
+          "sentence_hash": "b0ceefd156d6b5f0cd65edfeeb1660c794d658021cedbe4e713812dd9e7eaa6b",
           "anchors": [
-            "and"
+            "pro"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "\"I want peace, I want security, and I want to end corruption and get the religious fanatics out.\" This campaign has been energized by new tactics - including AI videos designed to grab the headlines - and also by a new face.",
+          "text": "Earlier news - [2026-09] TradingAgents v0.5.1 released with a package layout organised by what each module holds (import paths moved), optional Jev screening of social posts, GPT-6 Sol and Luna as the default models, and fixes to run isolation and SEC EDGAR statements.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.639816+08:00",
-          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
-          "excerpt": "\"I want peace, I want security, and I want to end corruption and get the religious fanatics out.\" This campaign has been energized by new tactics - including AI videos designed to grab the headlines - and also by a new face.",
-          "sentence_hash": "39da29e7a00497616f8571ee25e707735b015270619dd84ab03a073445b0f2de",
+          "captured_at": "2026-10-27T08:03:01.120524+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "Earlier news - [2026-09] TradingAgents v0.5.1 released with a package layout organised by what each module holds (import paths moved), optional Jev screening of social posts, GPT-6 Sol and Luna as the default models, and fixes to run isolation and SEC EDGAR statements.",
+          "sentence_hash": "e62f491186bc89fbe86dcd19c5348a8c25c8b6dc3a511e56ebd900a760f1e2c3",
           "anchors": [
-            "ai",
-            "and"
+            "ci",
+            "sol"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Gadi Eisenkot is, perhaps, not the man you might expect to take on the flashy, aggressive, media-savvy brand of Israel's longest-serving prime minister, Benjamin Netanyahu.",
+          "text": "- [2026-09] TradingAgents v0.5.0 released with point-in-time integrity across every dated path, SEC EDGAR fundamentals served as filed, backtesting over a ticker and date grid, portfolio-aware runs, and current model lineups across every provider.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.639840+08:00",
-          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
-          "excerpt": "Gadi Eisenkot is, perhaps, not the man you might expect to take on the flashy, aggressive, media-savvy brand of Israel's longest-serving prime minister, Benjamin Netanyahu.",
-          "sentence_hash": "3b868fb497d9f59abaa2da23b24ec317919aeec2c2c1068216898e4a2e711f54",
+          "captured_at": "2026-10-27T08:03:01.120564+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-09] TradingAgents v0.5.0 released with point-in-time integrity across every dated path, SEC EDGAR fundamentals served as filed, backtesting over a ticker and date grid, portfolio-aware runs, and current model lineups across every provider.",
+          "sentence_hash": "56ebb9568715ea4fa4f0a767a684275a0a4e7b44aaca5d7ecedeb31fc2ce0824",
           "anchors": [
-            "and"
+            "pro"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "- How do Israel's elections work and who are the main contenders?",
+          "text": "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-26T08:03:10.639854+08:00",
-          "content_sha256": "4037514f2d02e03e060c6aa96677a7e867c28a1635d0954480c2335ebcbb1124",
-          "excerpt": "- How do Israel's elections work and who are the main contenders?",
-          "sentence_hash": "0b258183ccaca50a1c688d8961a01d767a2914076f9e13572c6d0f7c8745c374",
+          "captured_at": "2026-10-27T08:03:01.120595+08:00",
+          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
+          "excerpt": "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
+          "sentence_hash": "5946b8e541110060b8d0caf8af40b46c34d34496fb19e50bc51db00cf7369820",
           "anchors": [
-            "ai",
-            "and"
+            "ci"
           ]
         }
       ],
       "entities": [
-        "ethiopian jews",
-        "netanyahu",
-        "israeli",
-        "friday",
-        "israel",
-        "tel aviv",
-        "published\nafter",
-        "ai",
-        "one",
-        "on saturday",
-        "polls",
-        "and",
-        "but",
-        "omri",
-        "deeply",
-        "his moroccan",
-        "benjamin netanyahu",
-        "netanya",
-        "ramle",
-        "israelis",
-        "likud",
-        "gadi eisenkot",
-        "published",
-        "relatively",
-        "moroccan",
-        "gaza war",
-        "yashar",
-        "david",
-        "eisenkot",
-        "tuesday"
+        "ollama",
+        "azure",
+        "research manager",
+        "deep",
+        "llm",
+        "hub",
+        "cli",
+        "docker",
+        "full",
+        "sec",
+        "trader",
+        "fred",
+        "git",
+        "earlier",
+        "windows",
+        "html",
+        "jev",
+        "utf",
+        "trading",
+        "groq",
+        "claude sonnet",
+        "mini",
+        "open",
+        "portfolio manager",
+        "us",
+        "nvidia",
+        "edgar",
+        "kimi",
+        "sol",
+        "luna",
+        "seek",
+        "plus",
+        "yahoo",
+        "gpt",
+        "sentiment analyst",
+        "pro",
+        "chat",
+        "polymarket",
+        "graph",
+        "mistral",
+        "ci",
+        "max",
+        "api",
+        "alpha vantage",
+        "fable",
+        "bedrock",
+        "agents",
+        "glm",
+        "qwen",
+        "lang"
       ],
       "numbers": [],
       "dates": [],
@@ -1430,27 +345,840 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 30
+        "anchor_count": 50
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_8aab52d655a062391519effe",
-      "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU0lJZ29paHVHYVJsR1ZCMnJ4MHFia1VjMjZMc2VFWDFfUHdjUVlNUXplaUQzTWdMc0gzRV8zLTBIQWg5R1ctZEN4M0RRWEVKbmllZEVXc1BpQ2FmMXF3TGNlenVnOEc1bEN0R0FvMklJWXNCLWNtTmlGMTc1Yi1sb1VHbF9mMm1OcVYtVFF6MmJLVmE3aHV2NzdNdzI0cEFURnR3eDd1VkpTeTNEOF9J?oc=5",
-      "publisher": "Reuters",
-      "summary": "Algeria to send troops to Niger in first foreign deployment since 1973&nbsp;&nbsp;Reuters",
+      "article_id": "a1_5c4a48cf6b263d72a4db2269",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "publisher": "TechCrunch",
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "category": "科技",
+      "published_at": "2026-10-26T16:49:42+00:00",
+      "why_relevant": "Anthropic IPO战略剖析，企业客户交叉销售",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121589+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
+          "sentence_hash": "7ffef0c7bdcef92f11c9da3f4938c349b9bcf1bad14163eef571af2412aa1960",
+          "anchors": [
+            "like"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121618+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
+          "sentence_hash": "e25e19e196b671f17bad26b9ef0b7612e8c2c376ed71ed6a5d81816de3e54692",
+          "anchors": [
+            "like",
+            "$100,000 ",
+            "$100,000",
+            "30%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121647+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads.",
+          "sentence_hash": "9407150c7d5072489032f058aaef823210faa36631d37befdf625f94ac8c15a5",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "As of September 30, Anthropic recorded more than 11,900 customers spending at least $100,000; more than 1,900 customers spending upward of $1 million; and about 250 customers spending $10 million or more annually.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121689+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "As of September 30, Anthropic recorded more than 11,900 customers spending at least $100,000; more than 1,900 customers spending upward of $1 million; and about 250 customers spending $10 million or more annually.",
+          "sentence_hash": "8e3a094771fa774107cf83a64f2c94185358af1d4df86d5cbe82a93bcc681e1d",
+          "anchors": [
+            "$100,000",
+            "$1 million",
+            "1 million",
+            "$10 million",
+            "10 million",
+            "more",
+            "September 30"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Anthropic attributes customer momentum to a “significant usage expansion as customers realize the value of deploying Claude across their organizations,” which drove net revenue retention of about 900% as of the end of the third quarter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121720+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "Anthropic attributes customer momentum to a “significant usage expansion as customers realize the value of deploying Claude across their organizations,” which drove net revenue retention of about 900% as of the end of the third quarter.",
+          "sentence_hash": "83f9a024969cdea1744949517533f18c10467f38908dbf2fa91589566350d52b",
+          "anchors": [
+            "900%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Throwing shade at the entire legacy SaaS industry, Anthropic pitches Claude as not a “static product that serves a single use case,” but rather “frontier AI with rapidly advancing capabilities” spanning the models, the developer platform, and the applications users interact with ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.121757+08:00",
+          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
+          "excerpt": "Throwing shade at the entire legacy SaaS industry, Anthropic pitches Claude as not a “static product that serves a single use case,” but rather “frontier AI with rapidly advancing capabilities” spanning the models, the developer platform, and the applications users interact with ",
+          "sentence_hash": "47fc76b1cb1f1c6680eddf73bd2b4bb1c94fd12d2bb070c2279b52ca4d352489",
+          "anchors": [
+            "with",
+            "api"
+          ]
+        }
+      ],
+      "entities": [
+        "throwing",
+        "claude enterprise",
+        "with",
+        "uber",
+        "like",
+        "claude",
+        "those",
+        "more",
+        "ai",
+        "cowork",
+        "claude code",
+        "api",
+        "applied",
+        "claude platform",
+        "black",
+        "aws",
+        "securities",
+        "saa",
+        "exchange commission",
+        "september",
+        "monday",
+        "amazon",
+        "anthropic"
+      ],
+      "numbers": [
+        "900%",
+        "$100,000",
+        "$1 million",
+        "1 million",
+        "$100,000 ",
+        "$10 million",
+        "10 million",
+        "30%",
+        "5%"
+      ],
+      "dates": [
+        "September 30"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9bec6a25c2275f02384229c1",
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "publisher": "MIT Tech Review",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it&#8230;",
+      "category": "科技",
+      "published_at": "2026-10-26T17:45:43+00:00",
+      "why_relevant": "Anthropic IPO深度分析，MIT视角",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122686+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
+          "sentence_hash": "1fa981e9c14e280612214fc5dc38d9324f3549d5519eceda57e61c54d34d7053",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122725+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
+          "sentence_hash": "d0ce23acd9077303a59d095ed28db97498c9fcdb4911e8af6bdb14a4c774bf98",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122760+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.",
+          "sentence_hash": "3fc349049ad791bdddda1206d7f731c58e578ce4f049166fe87a790b9335cf79",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122789+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.",
+          "sentence_hash": "6a12d66a170abb3150af9041ee3060dbf2592ff59e16c9583adebaba83175e05",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122810+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.",
+          "sentence_hash": "bb98f3ba9e407edd0aeeefe521a93808e72da9b6ddf9e91b8975dda9e2829e68",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.122835+08:00",
+          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
+          "excerpt": "Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.",
+          "sentence_hash": "bd579bfa7ff638870a2ddbe6a4cf5079781ec19d08a2f24945ffec732fe20e4f",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "but anthropic",
+        "take",
+        "chris olah",
+        "but",
+        "imf",
+        "clark",
+        "never",
+        "xiv",
+        "earlier",
+        "ai",
+        "apparently",
+        "jack clark",
+        "introduced",
+        "after",
+        "the algorithm",
+        "ipo",
+        "vernor vinge",
+        "pope leo",
+        "bangkok",
+        "humans",
+        "last",
+        "vatican",
+        "and",
+        "anthropic"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 24
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_4e2230c0e7756e161ef43a4a",
+      "title": "AI giant Anthropic files for blockbuster IPO",
+      "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-10-26T13:22:09+00:00",
+      "why_relevant": "AI巨头IPO核心事件，区块链视角",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.123964+08:00",
+          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
+          "excerpt": "AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.",
+          "sentence_hash": "b86d505c5173daaadb79ef8c072bebd4d3078692171cd3e622a6c4e01f8bed9f",
+          "anchors": [
+            "$16.3 billion",
+            "16.3 billion",
+            "80.7 billion",
+            "$80.7 billion",
+            "ai",
+            "et"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- Anthropic’s S-1 shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.123990+08:00",
+          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
+          "excerpt": "- Anthropic’s S-1 shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion.",
+          "sentence_hash": "21bcb325622b5bb92aa16b7ba8b988e3fd1423e484dea48f5b16325726bfa794",
+          "anchors": [
+            "$16.3 billion",
+            "16.3 billion",
+            "80.7 billion",
+            "$80.7 billion",
+            "et"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The FT reports investors expect a $1.5–1.75 trillion valuation, and Fox Business’s Liz Claman says a Nov.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.124019+08:00",
+          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
+          "excerpt": "The FT reports investors expect a $1.5–1.75 trillion valuation, and Fox Business’s Liz Claman says a Nov.",
+          "sentence_hash": "c6ad8a44b70d7a5e2f7c8b7562976ccc391755fdd44727b407328c9f47b785a4",
+          "anchors": [
+            "$1.5",
+            "1.75 trillion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "19 or 20 pricing remains on track.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.124031+08:00",
+          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
+          "excerpt": "19 or 20 pricing remains on track.",
+          "sentence_hash": "760f1986f0ab4968ee239b73ad5b760fdd97ad77d206c1a4ed8432d82d91d832",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Chip stocks rose in premarket trading after the filing, with Nvidia up 1.4%, Broadcom up 1.5% and Micron up 2.3%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.124051+08:00",
+          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
+          "excerpt": "- Chip stocks rose in premarket trading after the filing, with Nvidia up 1.4%, Broadcom up 1.5% and Micron up 2.3%.",
+          "sentence_hash": "a292a46631db032c21d801b5bd51aaca20e181a23026784e0dc3c11af1868ab2",
+          "anchors": [
+            "ft",
+            "et"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Hyperliquid’s ANTH contract spiked to about $1,980 around the 9 a.m.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.124070+08:00",
+          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
+          "excerpt": "- Hyperliquid’s ANTH contract spiked to about $1,980 around the 9 a.m.",
+          "sentence_hash": "a856aa88b0a0e0e3fdc98c98608cbe6a399baddff10f7c5e57abe49a5ceb1f37",
+          "anchors": [
+            "$1,980 ",
+            "around"
+          ]
+        }
+      ],
+      "entities": [
+        "around",
+        "advanced",
+        "anth",
+        "enterprise",
+        "nevertheless",
+        "claude",
+        "ai",
+        "liz claman",
+        "later",
+        "micron",
+        "nvidia",
+        "broadcom",
+        "nov",
+        "rwa",
+        "diversified",
+        "et",
+        "fox business",
+        "anthropic",
+        "november",
+        "hyperliquid",
+        "nvda",
+        "june",
+        "share",
+        "by sept",
+        "chip",
+        "mu",
+        "previous",
+        "ipo",
+        "ft",
+        "utc",
+        "the claude",
+        "avgo",
+        "monday"
+      ],
+      "numbers": [
+        "$16.3 billion",
+        "2 trillion",
+        "$1.5",
+        "1.75 trillion",
+        "12 million",
+        "$1,980 ",
+        "16.3 billion",
+        "80.7 billion",
+        "1 million",
+        "19.3 billion",
+        "10 million",
+        "$80.7 billion",
+        "100 billion",
+        "$1,857 ",
+        "112.4 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_5734e2bfd21734f0da1fc574",
+      "title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+      "url": "https://www.ft.com/content/d79ea4f9-dc54-4b9c-b739-6e6fc99feebc?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Also in today’s newsletter: Brazil’s currency plunges and Singapore to store Saudi Arabian oil in caverns",
+      "category": "财经",
+      "published_at": "2026-10-26T21:41:18+00:00",
+      "why_relevant": "Anthropic招股书及全球市场简报",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "also",
+        "brazil",
+        "singapore",
+        "saudi arabian"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_6054f6252dc59489aa243db2",
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "publisher": "CNBC",
+      "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+      "category": "财经",
+      "published_at": "2026-10-26T22:50:07+00:00",
+      "why_relevant": "IPO对AI交易和利率环境影响",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.125071+08:00",
+          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
+          "excerpt": "Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.",
+          "sentence_hash": "ffd591ae04ddbb8ba99a179f30b9872f28ac9a82b89113ca5453374bb871fe00",
+          "anchors": [
+            "market"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It's a critical moment for the whole tech sector, as the artificial intelligence boom has been largely driven by two companies: Anthropic and OpenAI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.125095+08:00",
+          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
+          "excerpt": "It's a critical moment for the whole tech sector, as the artificial intelligence boom has been largely driven by two companies: Anthropic and OpenAI.",
+          "sentence_hash": "a7df7bc90934b74f6a1de623d997d6a0a9739b9fc8765286b1aa42246da5c448",
+          "anchors": [
+            "for",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The latter has confidentially filed to go public, but has said a debut likely won't take place until 2027.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.125115+08:00",
+          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
+          "excerpt": "The latter has confidentially filed to go public, but has said a debut likely won't take place until 2027.",
+          "sentence_hash": "d24a7ccc4f15953c76a18217c53dde9d4c4e723f48e9e82f3b984badcbef0588",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Meanwhile, the stock market is showing signs of jitters on the AI trade.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.125131+08:00",
+          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
+          "excerpt": "Meanwhile, the stock market is showing signs of jitters on the AI trade.",
+          "sentence_hash": "61ed761d17a8543ea28e595024e35408f4b1169373575ab7922c7bfcdd35100d",
+          "anchors": [
+            "market"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Neoclouds and data center companies have been getting pummeled, prompting Australia's Firmus to withdraw its IPO plans and for SK Hynix's U.S.-based Solidigm unit to do the same.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.125154+08:00",
+          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
+          "excerpt": "Neoclouds and data center companies have been getting pummeled, prompting Australia's Firmus to withdraw its IPO plans and for SK Hynix's U.S.-based Solidigm unit to do the same.",
+          "sentence_hash": "0f625c2dfbbccd334053fc96ee8dfa10fafcc0122d6554bdf6a029b0d38da0f8",
+          "anchors": [
+            "and",
+            "for",
+            "cloud"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Now, all eyes turn to Anthropic, which is betting that investors will look past over $80 billion in losses in the first half of the year, and see the 14-fold increase in revenue as a reflection of seemingly insatiable demand for the company's leading models and services.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.125187+08:00",
+          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
+          "excerpt": "Now, all eyes turn to Anthropic, which is betting that investors will look past over $80 billion in losses in the first half of the year, and see the 14-fold increase in revenue as a reflection of seemingly insatiable demand for the company's leading models and services.",
+          "sentence_hash": "717befb9862bd0d335ef0ddc942099ae68b0502b65f774ba432d8894674ee92b",
+          "anchors": [
+            "80 billion",
+            "$80 billion",
+            "investors",
+            "and",
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "google",
+        "menlo ventures",
+        "alphabet",
+        "texas",
+        "chips",
+        "claude",
+        "ai",
+        "sk",
+        "ceo",
+        "open",
+        "bessemer venture partners",
+        "broadcom",
+        "nvidia",
+        "hock tan",
+        "solidigm",
+        "adobe",
+        "amazon",
+        "anthropic",
+        "now",
+        "for",
+        "cloud",
+        "wall street",
+        "neoclouds",
+        "investors",
+        "australia",
+        "advanced micro devices",
+        "market",
+        "cnbc",
+        "sapphire ventures",
+        "firmus",
+        "salesforce",
+        "close",
+        "microsoft",
+        "hynix",
+        "meanwhile",
+        "ipo",
+        "beyond",
+        "monday",
+        "and",
+        "jai das"
+      ],
+      "numbers": [
+        "$77 billion",
+        "15 billion",
+        "80 billion",
+        "$80 billion",
+        "77 billion",
+        "$15 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 46
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2a33b1b4f2909b5052de355c",
+      "title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
       "category": "国际",
-      "published_at": "2026-10-25T20:08:19+00:00",
-      "why_relevant": "阿尔及利亚首次海外驻军",
+      "published_at": "2026-10-26T21:02:47+00:00",
+      "why_relevant": "巴西大选反转，宏观政治事件",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126159+08:00",
+          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
+          "excerpt": "Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.",
+          "sentence_hash": "15974951eb9c49dbc5bec89cd9ff9f0580c479bb2567b76b84990e483be228e4",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Left-wing leader Lula took 51.79% of votes, becoming the first president since Brazil's return to civilian rule in 1985 to be elected after losing the first round of voting.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126185+08:00",
+          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
+          "excerpt": "Left-wing leader Lula took 51.79% of votes, becoming the first president since Brazil's return to civilian rule in 1985 to be elected after losing the first round of voting.",
+          "sentence_hash": "a6a66ef054737c6493e86f1963fc117679bb9e9d6f525703ec46a935035b8fdf",
+          "anchors": [
+            "51.79%",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126202+08:00",
+          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
+          "excerpt": "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\".",
+          "sentence_hash": "5dd9d3a2eb4b2ce6a015917bac2f2c2ae2f17dee499889bad86f0e34188bc385",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "World leaders have congratulated Lula on his re-election.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126221+08:00",
+          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
+          "excerpt": "World leaders have congratulated Lula on his re-election.",
+          "sentence_hash": "22c99d6c2f5fb2a03ccc5e762394961ad292a9b5c2867732118689b360869199",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But both teams had requested an extension to voting times - Lula's had argued that voters in SÃ£o Paulo and Bahia could not get to the polling stations because of a lack of buses, while Bolsonaro's campaign cited heavy rain in some areas in the south of the country and in SÃ£o Pa",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126270+08:00",
+          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
+          "excerpt": "But both teams had requested an extension to voting times - Lula's had argued that voters in SÃ£o Paulo and Bahia could not get to the polling stations because of a lack of buses, while Bolsonaro's campaign cited heavy rain in some areas in the south of the country and in SÃ£o Pa",
+          "sentence_hash": "58c95f4d8ccc093da5256b80d65033f2a530d67a73694c49bde3e7e2b13b8ae0",
+          "anchors": [
+            "both"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The sheer gap between the two candidates' tallies - 4.4 million votes - makes the result more difficult to challenge.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126300+08:00",
+          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
+          "excerpt": "The sheer gap between the two candidates' tallies - 4.4 million votes - makes the result more difficult to challenge.",
+          "sentence_hash": "0d848f27e22e89687f7e2a7e5473ffe564d4fb471ab6ccdd50dc3800896256e0",
+          "anchors": [
+            "4.4 million"
+          ]
+        }
+      ],
+      "entities": [
+        "his",
+        "jair bolsonaro",
+        "congress",
+        "supreme court justice cristiano zanin",
+        "supreme electoral court",
+        "brazil",
+        "but",
+        "bahia",
+        "nunes marques",
+        "silva",
+        "president luiz in",
+        "published\nbrazil",
+        "sunday",
+        "after",
+        "but lula",
+        "left",
+        "paulo",
+        "markets",
+        "bras",
+        "zanin",
+        "some bolsonaro",
+        "brazilian",
+        "lula",
+        "firstly",
+        "october",
+        "bolsonaro",
+        "both"
+      ],
+      "numbers": [
+        "45%",
+        "4.4 million",
+        "33 million",
+        "47%",
+        "51.79%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_922999913730c996b62bc301",
+      "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest",
+      "publisher": "The Guardian",
+      "summary": "Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%. His win bucks a regional trend, after the son of the former president Jair Bolsonaro had spearheaded a radical populist movement.But with Flávio Bolsonaro refusing to concede defeat, what’s next for",
+      "category": "国际",
+      "published_at": "2026-10-26T17:38:16+00:00",
+      "why_relevant": "卢拉击败博索纳罗，巴西政治转折",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126627+08:00",
+          "content_sha256": "71e0171bd3c21d28b36697122b48fbf7769df55fc5d0d3000e2012faca945aaa",
+          "excerpt": "How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.",
+          "sentence_hash": "a8550ca2ba5258d16c4920cb910e550bd8f78096e626d2a5fb285ef885c6a810",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.126651+08:00",
+          "content_sha256": "71e0171bd3c21d28b36697122b48fbf7769df55fc5d0d3000e2012faca945aaa",
+          "excerpt": "Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%.",
+          "sentence_hash": "46b42dcb5f9dba36ed4bc79f92127a7855cec1bafdfd925f16cb93185669cdfc",
+          "anchors": [
+            "his",
+            "51.79%",
+            "48.21%"
+          ]
+        }
+      ],
+      "entities": [
+        "his",
+        "jair bolsonaro",
+        "latin america",
+        "tom phillips",
+        "you",
+        "tube\nexplore",
+        "how lula",
+        "luiz in",
+        "michael safi",
+        "brazil",
+        "but",
+        "silva",
+        "lula",
+        "the latest\nbrazil",
+        "bolsonaro"
+      ],
+      "numbers": [
+        "48.21%",
+        "51.79%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 17
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_66c419dbae9440422bcbc07f",
+      "title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1JXYWUtZ2l1TGNtSDlwbkN6SkxUR1RxaWZjQnFpNk8yTzBuLTR5OEUxQ296SmZEd3dDS25tMjh1eW5hRGg4X1gtVUpVQi1UbWIyYXpJQmh6NGxpX011WWlEYWh0Z3FKRm55UUl6UnpKUTZmM3lhUElLNUVIb0tkWDBYVkI1LXI2aWxwT1Q2aUpSZjhOcUVxaTByX21WVlExQVE?oc=5",
+      "publisher": "Reuters",
+      "summary": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-10-26T22:35:46+00:00",
+      "why_relevant": "美加关税缓和，贸易政策信号",
       "relevance_score": 7.0,
       "confirmed_facts": [],
       "entities": [
-        "reuters",
-        "algeria",
-        "niger"
+        "us",
+        "canada",
+        "reuters"
       ],
       "numbers": [],
       "dates": [],
@@ -1467,32 +1195,246 @@
       "evidence_complete": false
     },
     {
-      "article_id": "a1_a90fd49c8e4aa089e2c8f18d",
-      "title": "France’s Le Pen vows national ‘renewal’ in campaign launch",
-      "url": "https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Far-right leader casts herself as only presidential candidate able to restore order and unity",
-      "category": "财经",
-      "published_at": "2026-10-25T18:37:17+00:00",
-      "why_relevant": "勒庞竞选，欧洲右翼",
+      "article_id": "a1_c585b9f7120a2c3b13c5758b",
+      "title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
+      "url": "https://www.scmp.com/business/china-evs/article/3372153/china-grants-permits-vw-joint-venture-xpeng-autonomous-driving-race-intensifies",
+      "publisher": "SCMP",
+      "summary": "China has granted new autonomous-driving permission to electric vehicle (EV) maker Xpeng and a mainland joint venture of Volkswagen, intensifying the commercialisation race between China’s autonomous driving firms and US company Tesla.\nXpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.\nThe licence, which...",
+      "category": "国际",
+      "published_at": "2026-10-27T00:00:14+00:00",
+      "why_relevant": "中国自动驾驶牌照，产业竞速",
       "relevance_score": 7.0,
-      "confirmed_facts": [],
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.127136+08:00",
+          "content_sha256": "779421516c2c2f283ea9d371a433fadb9c88e617a367d1739821b3a4fabff3d1",
+          "excerpt": "Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec",
+          "sentence_hash": "90ca2684a8a02bb882fd3d62a16d4dd1ea19cf92f1282a9fe74b7587367324de",
+          "anchors": [
+            "$1 trillion",
+            "ai",
+            "us",
+            "1 trillion"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Xpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.127164+08:00",
+          "content_sha256": "779421516c2c2f283ea9d371a433fadb9c88e617a367d1739821b3a4fabff3d1",
+          "excerpt": "Xpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.",
+          "sentence_hash": "49d4a6ffb9e3418997935f57db047187a3538a3223faa2b80e8e97fbfb7ab3f2",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
       "entities": [
-        "far"
+        "xpeng",
+        "vw",
+        "china",
+        "tesla",
+        "select voice\nselect speed",
+        "us",
+        "min",
+        "volkswagen",
+        "yoyo",
+        "guangdong",
+        "monday",
+        "ai",
+        "ev",
+        "advertisement\nchina"
+      ],
+      "numbers": [
+        "$1 trillion",
+        "1 trillion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 16
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_d1f33cfb0e43e0de85967d9f",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "publisher": "GitHub Trending",
+      "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.https://voicestudio.sh \n  \n VoiceStudio \n    \n Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. \n  Website · Download · Get started · Docs · Discord · 简体中文 · 日本語  \n       \n \n \nYour voice. Your workflow. \n \n  \n   \n   Create \n   Produce \n   Connect \n   \n ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "本地语音克隆，开源替代方案",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.128061+08:00",
+          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
+          "excerpt": "Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "sentence_hash": "e28f602d718f1c2bfb94a34a78b392d42f106c5cad084efd12b95ea39cdb6b9f",
+          "anchors": [
+            "voice"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.128092+08:00",
+          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
+          "excerpt": "Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine.",
+          "sentence_hash": "32ba046207bf3fd2b98ac59035b1b85147cdd7a49ad3bc58efd934d4dcac1635",
+          "anchors": [
+            "简体中文",
+            "power",
+            "start",
+            "日本語"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Local workflows run on your hardware.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.128111+08:00",
+          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
+          "excerpt": "Local workflows run on your hardware.",
+          "sentence_hash": "f721ba617d3e11f5f1e50cb239a616dcf6de1ab172e9bc82cdbebff20df475dc",
+          "anchors": [
+            "hardware",
+            "run"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "OmniVoice GGUF source builds can optionally use Vulkan on Windows and Linux; see the native engine guide for build requirements, CPU fallback, and device overrides.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.128141+08:00",
+          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
+          "excerpt": "OmniVoice GGUF source builds can optionally use Vulkan on Windows and Linux; see the native engine guide for build requirements, CPU fallback, and device overrides.",
+          "sentence_hash": "4ad6918689a147e0a04b06821fac2987df484d30374ca51c91b48546c3fa64cf",
+          "anchors": [
+            "build",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "# Latest Electron release curl -fsSL https://voicestudio.sh/install | sh # A specific published Electron release (replace X.Y.Z) curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z # Build current main and install the desktop app curl -fsSL https://voicestudio.sh",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.128182+08:00",
+          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
+          "excerpt": "# Latest Electron release curl -fsSL https://voicestudio.sh/install | sh # A specific published Electron release (replace X.Y.Z) curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z # Build current main and install the desktop app curl -fsSL https://voicestudio.sh",
+          "sentence_hash": "1778d5e4fc8ca1484438bac298f5c37b25d6678c32b1b2bb18b4fd854886bb19",
+          "anchors": [
+            "app",
+            "uninstall",
+            "voice",
+            "release",
+            "install",
+            "studio",
+            "run"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "If voicestudio.sh/install is unreachable or returns 404, run the same script straight from the repository, or clone it and run scripts/install.sh: curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh Release downloads require curl and a ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-27T08:03:01.128216+08:00",
+          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
+          "excerpt": "If voicestudio.sh/install is unreachable or returns 404, run the same script straight from the repository, or clone it and run scripts/install.sh: curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh Release downloads require curl and a ",
+          "sentence_hash": "43074beccb0443820f49afdf81c092a17c7edcb1371e7716b6183d438b0ade06",
+          "anchors": [
+            "use",
+            "voice",
+            "download",
+            "git",
+            "install",
+            "studio",
+            "run"
+          ]
+        }
+      ],
+      "entities": [
+        "hardware",
+        "omni",
+        "latest electron",
+        "android",
+        "cpu",
+        "local",
+        "electron",
+        "python",
+        "rust",
+        "docker",
+        "on windows",
+        "linux",
+        "git",
+        "app",
+        "windows",
+        "claude code",
+        "uninstall",
+        "discord",
+        "see electron",
+        "sha",
+        "build",
+        "phone",
+        "open",
+        "release",
+        "website",
+        "get",
+        "install",
+        "studio",
+        "phone\nopen voice",
+        "image",
+        "vulkan",
+        "use",
+        "download",
+        "remote",
+        "docs",
+        "tauri",
+        "shell",
+        "简体中文",
+        "features",
+        "start",
+        "node",
+        "bun",
+        "cursor",
+        "codex",
+        "voice",
+        "gguf",
+        "日本語",
+        "older",
+        "cargo",
+        "agents",
+        "studio electron",
+        "releases",
+        "paste",
+        "run",
+        "power"
       ],
       "numbers": [],
       "dates": [],
       "unknowns": [
-        "正文未抓到",
         "缺少明确时间"
       ],
       "coverage": {
-        "has_fulltext": false,
+        "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 1
+        "fact_count": 6,
+        "anchor_count": 55
       },
-      "evidence_complete": false
+      "evidence_complete": true
     }
   ]
 }

@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-26 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-27 08:06。
+
+## TauricResearch/TradingAgents
+- 状态：更新中；首见 2026-09-11；最近更新 2026-10-27
+- 最新事实：- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260911_76b5716067e1`
+
+## Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.
+- 事件 ID：`evt_20261027_f1a00e016829`
+
+## What message is China sending with latest footage of ‘no-notice’ DF rocket drill?
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_217b722b4a5c`
+
+## Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.
+- 事件 ID：`evt_20261027_6b30b1d7488a`
+
+## Will the real Anthropic please stand up
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Will the real Anthropic please stand up The company has been masterful at storytelling for years.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_ace770137461`
+
+## AI giant Anthropic files for blockbuster IPO
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_7110158e7664`
+
+## FirstFT: Anthropic unveils long-awaited IPO prospectus
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261027_4bc9148a54f0`
+
+## From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_153ccea77397`
+
+## Lula wins fourth term in dramatic Brazil election comeback
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_09a03f784b71`
+
+## How Lula beat far-right Bolsonaro in Brazil – The Latest
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_c38f91796e11`
+
+## EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261027_be70604b2c0c`
+
+## China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_684193803f2a`
+
+## debpalash/VoiceStudio
+- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
+- 最新事实：Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261027_5e74a8519164`
 
 ## luongnv89/claude-howto
 - 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
