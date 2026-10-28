@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-10-27-AM",
-  "date": "2026-10-27",
+  "run_key": "2026-10-28-AM",
+  "date": "2026-10-28",
   "session": "AM",
-  "delivered_at": "2026-10-27T08:06:59.079887+08:00",
+  "delivered_at": "2026-10-28T08:06:58.951625+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-10-27T00:06:59.081113+00:00",
+  "exported_at": "2026-10-28T00:06:58.953405+00:00",
   "quality": {
     "total_items": 13,
     "items_with_unsupported_numbers": 4,
@@ -14,600 +14,122 @@
   },
   "items": [
     {
-      "article_id": "a1_d7f5593e982969e32f3d6ea7",
-      "title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3372222/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran",
-      "publisher": "SCMP",
-      "summary": "Israeli Prime Minister Benjamin Netanyahu boasted of ⁠his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Iran if he wins, after Trump said they should “finish the job”.\n“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president. And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance",
-      "category": "国际",
-      "published_at": "2026-10-26T22:29:05+00:00",
-      "why_relevant": "地缘政治风险叠加伊朗战争信号",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.118950+08:00",
-          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
-          "excerpt": "Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.",
-          "sentence_hash": "2f69c9ab08c7d4d7c9b33ee64e3275f2c873156f6c1778ab0a9d3458d5745f63",
-          "anchors": [
-            "October 7"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.118992+08:00",
-          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
-          "excerpt": "Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’ 3-MIN READ3-MIN Listen Israeli Prime Minister Benjamin Netanyahu boasted of his endorsement from Donald Trump on the eve of Israel’s election, suggesting the two leaders could restart their war against Ira",
-          "sentence_hash": "8795467c0bfd4be4469acedd380a3fc32f8727da4ae3c4015c8fe3b5ac12b955",
-          "anchors": [
-            "min",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.119017+08:00",
-          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
-          "excerpt": "“US President Donald Trump has come with a friendship that has never existed before between an Israeli prime minister and an American president.",
-          "sentence_hash": "24fe6318ae01498d14f98dced1355644d4cb170970709c142d0be0079e2b0b85",
-          "anchors": [
-            "min",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance late on Sunday night.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.119039+08:00",
-          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
-          "excerpt": "And it is doubtful we will ever have such a friendly president again,” Netanyahu said in a televised appearance late on Sunday night.",
-          "sentence_hash": "2277ba1f88fee5d2e3140dcef89107dcc3e140816e01bd4e7621aa3b9af643ce",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "“He has another two years, and he says he is calling on you to vote for me.” Select Voice Select Speed 1x AI-generated voice",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.119059+08:00",
-          "content_sha256": "0b2097e660e41cf679b3f9befac6e795756d499cf1774b59898b9396202900b5",
-          "excerpt": "“He has another two years, and he says he is calling on you to vote for me.” Select Voice Select Speed 1x AI-generated voice",
-          "sentence_hash": "da997868897d0d281467792fd8d05ec239af66e617d7ed7ce496686f0f1b2c64",
-          "anchors": [
-            "and"
-          ]
-        }
-      ],
-      "entities": [
-        "israeli",
-        "iran\ntuesday",
-        "netanyahu",
-        "american",
-        "gadi eisenkot",
-        "donald trump",
-        "sunday",
-        "israel",
-        "ai",
-        "listen\nisraeli prime minister benjamin netanyahu",
-        "iran",
-        "select voice\nselect speed",
-        "us",
-        "advertisement\nnetanyahu",
-        "president donald trump",
-        "min",
-        "october",
-        "and",
-        "trump"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 7"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 5,
-        "anchor_count": 20
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_d30e350e0e118afab9d480ee",
-      "title": "What message is China sending with latest footage of ‘no-notice’ DF rocket drill?",
-      "url": "https://www.scmp.com/news/china/military/article/3372206/what-message-china-sending-latest-footage-no-notice-df-rocket-drill",
-      "publisher": "SCMP",
-      "summary": "China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to showcase the People’s Liberation Army’s rapid-response capabilities.\nState broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.\nNo other details were provided.\nThe footage – which is believed to show a missile from the Dongfeng (east wind)...",
-      "category": "国际",
-      "published_at": "2026-10-27T00:00:19+00:00",
-      "why_relevant": "中国东风导弹无预告演练，军事信号",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.119404+08:00",
-          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
-          "excerpt": "State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh",
-          "sentence_hash": "9620f4de5f5575676e01dc1128c619a035fd3167a30119131d8311ab68e84a9c",
-          "anchors": [
-            "state"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.119428+08:00",
-          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
-          "excerpt": "State broadcaster CCTV on Monday released a brief video showing the exercise in mountainous terrain and said it had been carried out with no advance notice given to the troops involved.",
-          "sentence_hash": "5fdf4d7d265b5d5d4c29561844125298fb4302f181dd190c1add26b5821a4417",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "No other details were provided.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.119439+08:00",
-          "content_sha256": "a9afb4fe568fc9395a66927e22da88ce640c2b703fe84c3b2487395a05e05d2a",
-          "excerpt": "No other details were provided.",
-          "sentence_hash": "d67435a2bd932a936804dd230ecc435d0b252269478520afe7847b79e9ced108",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "liberation army",
-        "state",
-        "guam",
-        "china",
-        "amber wangin beijing\nchina",
-        "people",
-        "df",
-        "select voice\nselect speed",
-        "us",
-        "min",
-        "advertisement\nwhat",
-        "monday",
-        "cctv",
-        "ai"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 14
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_4d66d131c73f0fd99583356d",
-      "title": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "publisher": "GitHub Trending",
-      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Frameworkhttps://arxiv.org/pdf/2412.20138   \n \n  \n  \n  \n  \n \n \n \n  \n \n \n \n  \n Deutsch | \n Español | \n français | \n 日本語 | \n 한국어 | \n Português | \n Русский | \n 中文 \n \n \nTradingAgents: Multi-Agents LLM Financial Trading Framework \nNews \n \n \n [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attach",
+      "article_id": "a1_a9317a8ffa2c429d50d54a08",
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "publisher": "Simon Willison",
+      "summary": "GPT-6.1 Terra\nIt's always interesting to note which aspects of a new model are emphasized in the release announcement.\nIn the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use:\n\nWe’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting ",
       "category": "科技",
-      "published_at": "",
-      "why_relevant": "多智能体金融交易框架，契合量化投资关注",
-      "relevance_score": 8.0,
+      "published_at": "2026-10-26T23:53:07+00:00",
+      "why_relevant": "GPT-6.1视觉推理重磅",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
+          "text": "26th October 2026 - Link Blog GPT-6.1 Terra (via) It's always interesting to note which aspects of a new model are emphasized in the release announcement.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.120409+08:00",
-          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
-          "excerpt": "- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
-          "sentence_hash": "04fe81a3f2297806197cfd68d354f428fb1e4cccd3d84724a7bca5cfe4001fcd",
+          "captured_at": "2026-10-28T08:02:56.276166+08:00",
+          "content_sha256": "773e9d483e8dafd571eb60f598f21ed14aca4a69f1b2615a309f845aca20823d",
+          "excerpt": "26th October 2026 - Link Blog GPT-6.1 Terra (via) It's always interesting to note which aspects of a new model are emphasized in the release announcement.",
+          "sentence_hash": "0874e87fd12ffb22363f7d3e1f04173c1835012cb9dea99ca05a64491b610f47",
           "anchors": [
-            "ci",
-            "us"
+            "October 20"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
+          "text": "In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.120449+08:00",
-          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
-          "excerpt": "- [2026-10] TradingAgents v0.6.0 released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo'",
-          "sentence_hash": "07714198f0d86dce7ee25a9e1d99d727258c77d37c0f6201f182e59d78122b12",
+          "captured_at": "2026-10-28T08:02:56.276204+08:00",
+          "content_sha256": "773e9d483e8dafd571eb60f598f21ed14aca4a69f1b2615a309f845aca20823d",
+          "excerpt": "In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing.",
+          "sentence_hash": "c08153505677b6f861ed1079c18cb13998c5e65bfe64e991292bb1d78cd88c72",
           "anchors": [
-            "pro",
-            "ci"
+            "computer"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date.",
+          "text": "A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.120484+08:00",
-          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
-          "excerpt": "- [2026-09] TradingAgents v0.5.2 released with parallel analysts for a faster analysis, a CLI that runs without prompts from flags such as --ticker and --date, the run's settings recorded in every report, and backtests that see only data published by each analysis date.",
-          "sentence_hash": "b0ceefd156d6b5f0cd65edfeeb1660c794d658021cedbe4e713812dd9e7eaa6b",
+          "captured_at": "2026-10-28T08:02:56.276232+08:00",
+          "content_sha256": "773e9d483e8dafd571eb60f598f21ed14aca4a69f1b2615a309f845aca20823d",
+          "excerpt": "A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.",
+          "sentence_hash": "9232af3f65da0fad7a943a676d8f4b4fb37872f5149a941337a1017a48629932",
           "anchors": [
-            "pro"
+            "for",
+            "computer"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Earlier news - [2026-09] TradingAgents v0.5.1 released with a package layout organised by what each module holds (import paths moved), optional Jev screening of social posts, GPT-6 Sol and Luna as the default models, and fixes to run isolation and SEC EDGAR statements.",
+          "text": "OpenAI's Ted Sanders provided some useful advice in a comment on Hacker News: In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.120524+08:00",
-          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
-          "excerpt": "Earlier news - [2026-09] TradingAgents v0.5.1 released with a package layout organised by what each module holds (import paths moved), optional Jev screening of social posts, GPT-6 Sol and Luna as the default models, and fixes to run isolation and SEC EDGAR statements.",
-          "sentence_hash": "e62f491186bc89fbe86dcd19c5348a8c25c8b6dc3a511e56ebd900a760f1e2c3",
+          "captured_at": "2026-10-28T08:02:56.276272+08:00",
+          "content_sha256": "773e9d483e8dafd571eb60f598f21ed14aca4a69f1b2615a309f845aca20823d",
+          "excerpt": "OpenAI's Ted Sanders provided some useful advice in a comment on Hacker News: In the case of GPT-6.1 Terra, I'd say Terra is probably better than Astra and Sol at technical communication, similar on vision and computer use (but much faster!), and a bit worse on most other things.",
+          "sentence_hash": "13f482cfdf8f4857149c0f5724d8121d81d54d4a69cdba002254ff3bafc3b0cc",
           "anchors": [
-            "ci",
-            "sol"
+            "computer"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "- [2026-09] TradingAgents v0.5.0 released with point-in-time integrity across every dated path, SEC EDGAR fundamentals served as filed, backtesting over a ticker and date grid, portfolio-aware runs, and current model lineups across every provider.",
+          "text": "For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication).",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.120564+08:00",
-          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
-          "excerpt": "- [2026-09] TradingAgents v0.5.0 released with point-in-time integrity across every dated path, SEC EDGAR fundamentals served as filed, backtesting over a ticker and date grid, portfolio-aware runs, and current model lineups across every provider.",
-          "sentence_hash": "56ebb9568715ea4fa4f0a767a684275a0a4e7b44aaca5d7ecedeb31fc2ce0824",
+          "captured_at": "2026-10-28T08:02:56.276291+08:00",
+          "content_sha256": "773e9d483e8dafd571eb60f598f21ed14aca4a69f1b2615a309f845aca20823d",
+          "excerpt": "For API developers, it's a nice midrange option if you want something cheaper than Sol but a lot smarter than Luna (especially for vision / computer use / communication).",
+          "sentence_hash": "261f97fa8b9b3b5e87b3f640d342c104651921e49e2e74778ec42ba5de76fde3",
           "anchors": [
-            "pro"
+            "for",
+            "computer"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
+          "text": "For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.120595+08:00",
-          "content_sha256": "fc96b36e710c57c42ba75fda7b1392814fa93e95f1116bcb5e8e55cea8b3ec5d",
-          "excerpt": "- [2026-08] TradingAgents v0.4.0 released with look-ahead / point-in-time fixes across FRED macro, social sentiment, and the decision-log memory; clearer decision signals; working CLI checkpoint resume; Trader price grounding; and the GPT-5.6 and GLM-5.3 models.",
-          "sentence_hash": "5946b8e541110060b8d0caf8af40b46c34d34496fb19e50bc51db00cf7369820",
+          "captured_at": "2026-10-28T08:02:56.276314+08:00",
+          "content_sha256": "773e9d483e8dafd571eb60f598f21ed14aca4a69f1b2615a309f845aca20823d",
+          "excerpt": "For subscribers, it's not a bombshell release - if you're hitting usage limits, maybe it helps you go a bit further, and if you want clearer communication or faster computer use, it can be a nice option to select.",
+          "sentence_hash": "dd8917fdcc7967e84cc3d153f7c46bd7aac3ad56a25e0ae9594b4934e48bdf3d",
           "anchors": [
-            "ci"
+            "computer"
           ]
         }
       ],
       "entities": [
-        "ollama",
-        "azure",
-        "research manager",
-        "deep",
-        "llm",
-        "hub",
-        "cli",
-        "docker",
-        "full",
-        "sec",
-        "trader",
-        "fred",
-        "git",
-        "earlier",
-        "windows",
-        "html",
-        "jev",
-        "utf",
-        "trading",
-        "groq",
-        "claude sonnet",
-        "mini",
-        "open",
-        "portfolio manager",
-        "us",
-        "nvidia",
-        "edgar",
-        "kimi",
-        "sol",
-        "luna",
-        "seek",
-        "plus",
-        "yahoo",
+        "hacker news",
+        "hello python",
+        "ted sanders",
+        "here",
         "gpt",
-        "sentiment analyst",
-        "pro",
-        "chat",
-        "polymarket",
-        "graph",
-        "mistral",
-        "ci",
-        "max",
+        "for",
+        "luna",
+        "claude haiku",
+        "recent",
+        "astra",
+        "open",
+        "rts",
+        "link blog",
+        "sonnet",
+        "terra",
         "api",
-        "alpha vantage",
-        "fable",
-        "bedrock",
-        "agents",
-        "glm",
-        "qwen",
-        "lang"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 50
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_5c4a48cf6b263d72a4db2269",
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "publisher": "TechCrunch",
-      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-      "category": "科技",
-      "published_at": "2026-10-26T16:49:42+00:00",
-      "why_relevant": "Anthropic IPO战略剖析，企业客户交叉销售",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.121589+08:00",
-          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
-          "excerpt": "Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.",
-          "sentence_hash": "7ffef0c7bdcef92f11c9da3f4938c349b9bcf1bad14163eef571af2412aa1960",
-          "anchors": [
-            "like"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.121618+08:00",
-          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
-          "excerpt": "More than half of customers spending at least $100,000 annually now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year.",
-          "sentence_hash": "e25e19e196b671f17bad26b9ef0b7612e8c2c376ed71ed6a5d81816de3e54692",
-          "anchors": [
-            "like",
-            "$100,000 ",
-            "$100,000",
-            "30%"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.121647+08:00",
-          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
-          "excerpt": "“The speed and depth of our enterprise customer adoption are powerful evidence of Claude’s position at the frontier of AI,” the S-1, filed with the Securities and Exchange Commission on Monday, reads.",
-          "sentence_hash": "9407150c7d5072489032f058aaef823210faa36631d37befdf625f94ac8c15a5",
-          "anchors": [
-            "with"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "As of September 30, Anthropic recorded more than 11,900 customers spending at least $100,000; more than 1,900 customers spending upward of $1 million; and about 250 customers spending $10 million or more annually.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.121689+08:00",
-          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
-          "excerpt": "As of September 30, Anthropic recorded more than 11,900 customers spending at least $100,000; more than 1,900 customers spending upward of $1 million; and about 250 customers spending $10 million or more annually.",
-          "sentence_hash": "8e3a094771fa774107cf83a64f2c94185358af1d4df86d5cbe82a93bcc681e1d",
-          "anchors": [
-            "$100,000",
-            "$1 million",
-            "1 million",
-            "$10 million",
-            "10 million",
-            "more",
-            "September 30"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Anthropic attributes customer momentum to a “significant usage expansion as customers realize the value of deploying Claude across their organizations,” which drove net revenue retention of about 900% as of the end of the third quarter.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.121720+08:00",
-          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
-          "excerpt": "Anthropic attributes customer momentum to a “significant usage expansion as customers realize the value of deploying Claude across their organizations,” which drove net revenue retention of about 900% as of the end of the third quarter.",
-          "sentence_hash": "83f9a024969cdea1744949517533f18c10467f38908dbf2fa91589566350d52b",
-          "anchors": [
-            "900%"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Throwing shade at the entire legacy SaaS industry, Anthropic pitches Claude as not a “static product that serves a single use case,” but rather “frontier AI with rapidly advancing capabilities” spanning the models, the developer platform, and the applications users interact with ",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.121757+08:00",
-          "content_sha256": "d0130e525953d6744f344d4eaae7def607e2b8986022a1be2be4f31ca2974f19",
-          "excerpt": "Throwing shade at the entire legacy SaaS industry, Anthropic pitches Claude as not a “static product that serves a single use case,” but rather “frontier AI with rapidly advancing capabilities” spanning the models, the developer platform, and the applications users interact with ",
-          "sentence_hash": "47fc76b1cb1f1c6680eddf73bd2b4bb1c94fd12d2bb070c2279b52ca4d352489",
-          "anchors": [
-            "with",
-            "api"
-          ]
-        }
-      ],
-      "entities": [
-        "throwing",
-        "claude enterprise",
-        "with",
-        "uber",
-        "like",
-        "claude",
-        "those",
-        "more",
-        "ai",
-        "cowork",
-        "claude code",
-        "api",
-        "applied",
-        "claude platform",
-        "black",
-        "aws",
-        "securities",
-        "saa",
-        "exchange commission",
-        "september",
-        "monday",
-        "amazon",
+        "october",
+        "battle drones",
+        "computer",
+        "sol",
         "anthropic"
       ],
       "numbers": [
-        "900%",
-        "$100,000",
-        "$1 million",
-        "1 million",
-        "$100,000 ",
-        "$10 million",
-        "10 million",
-        "30%",
-        "5%"
+        "$5",
+        "$1"
       ],
       "dates": [
-        "September 30"
+        "October 20"
       ],
       "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 33
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_9bec6a25c2275f02384229c1",
-      "title": "Will the real Anthropic please stand up",
-      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "publisher": "MIT Tech Review",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it&#8230;",
-      "category": "科技",
-      "published_at": "2026-10-26T17:45:43+00:00",
-      "why_relevant": "Anthropic IPO深度分析，MIT视角",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.122686+08:00",
-          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
-          "excerpt": "Will the real Anthropic please stand up The company has been masterful at storytelling for years.",
-          "sentence_hash": "1fa981e9c14e280612214fc5dc38d9324f3549d5519eceda57e61c54d34d7053",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.122725+08:00",
-          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
-          "excerpt": "The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.",
-          "sentence_hash": "d0ce23acd9077303a59d095ed28db97498c9fcdb4911e8af6bdb14a4c774bf98",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.122760+08:00",
-          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
-          "excerpt": "Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.",
-          "sentence_hash": "3fc349049ad791bdddda1206d7f731c58e578ce4f049166fe87a790b9335cf79",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.122789+08:00",
-          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
-          "excerpt": "Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.",
-          "sentence_hash": "6a12d66a170abb3150af9041ee3060dbf2592ff59e16c9583adebaba83175e05",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.122810+08:00",
-          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
-          "excerpt": "Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.",
-          "sentence_hash": "bb98f3ba9e407edd0aeeefe521a93808e72da9b6ddf9e91b8975dda9e2829e68",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.122835+08:00",
-          "content_sha256": "d861ac4267bc00b627fa60be9586f44be7e0a8edef0744abac1395fad009dbad",
-          "excerpt": "Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.",
-          "sentence_hash": "bd579bfa7ff638870a2ddbe6a4cf5079781ec19d08a2f24945ffec732fe20e4f",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "but anthropic",
-        "take",
-        "chris olah",
-        "but",
-        "imf",
-        "clark",
-        "never",
-        "xiv",
-        "earlier",
-        "ai",
-        "apparently",
-        "jack clark",
-        "introduced",
-        "after",
-        "the algorithm",
-        "ipo",
-        "vernor vinge",
-        "pope leo",
-        "bangkok",
-        "humans",
-        "last",
-        "vatican",
-        "and",
-        "anthropic"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
@@ -617,540 +139,71 @@
       "evidence_complete": true
     },
     {
-      "article_id": "a1_4e2230c0e7756e161ef43a4a",
-      "title": "AI giant Anthropic files for blockbuster IPO",
-      "url": "https://www.coindesk.com/business/2026/10/26/ai-giant-anthropic-files-for-blockbuster-ipo",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-10-26T13:22:09+00:00",
-      "why_relevant": "AI巨头IPO核心事件，区块链视角",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.123964+08:00",
-          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
-          "excerpt": "AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.",
-          "sentence_hash": "b86d505c5173daaadb79ef8c072bebd4d3078692171cd3e622a6c4e01f8bed9f",
-          "anchors": [
-            "$16.3 billion",
-            "16.3 billion",
-            "80.7 billion",
-            "$80.7 billion",
-            "ai",
-            "et"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "- Anthropic’s S-1 shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.123990+08:00",
-          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
-          "excerpt": "- Anthropic’s S-1 shows first-half 2026 revenue of $16.3 billion and a net loss of $80.7 billion.",
-          "sentence_hash": "21bcb325622b5bb92aa16b7ba8b988e3fd1423e484dea48f5b16325726bfa794",
-          "anchors": [
-            "$16.3 billion",
-            "16.3 billion",
-            "80.7 billion",
-            "$80.7 billion",
-            "et"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The FT reports investors expect a $1.5–1.75 trillion valuation, and Fox Business’s Liz Claman says a Nov.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.124019+08:00",
-          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
-          "excerpt": "The FT reports investors expect a $1.5–1.75 trillion valuation, and Fox Business’s Liz Claman says a Nov.",
-          "sentence_hash": "c6ad8a44b70d7a5e2f7c8b7562976ccc391755fdd44727b407328c9f47b785a4",
-          "anchors": [
-            "$1.5",
-            "1.75 trillion"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "19 or 20 pricing remains on track.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.124031+08:00",
-          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
-          "excerpt": "19 or 20 pricing remains on track.",
-          "sentence_hash": "760f1986f0ab4968ee239b73ad5b760fdd97ad77d206c1a4ed8432d82d91d832",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "- Chip stocks rose in premarket trading after the filing, with Nvidia up 1.4%, Broadcom up 1.5% and Micron up 2.3%.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.124051+08:00",
-          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
-          "excerpt": "- Chip stocks rose in premarket trading after the filing, with Nvidia up 1.4%, Broadcom up 1.5% and Micron up 2.3%.",
-          "sentence_hash": "a292a46631db032c21d801b5bd51aaca20e181a23026784e0dc3c11af1868ab2",
-          "anchors": [
-            "ft",
-            "et"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "- Hyperliquid’s ANTH contract spiked to about $1,980 around the 9 a.m.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.124070+08:00",
-          "content_sha256": "e28f05ed99d3ebd6f221cc9e6b11083be310fa1af490570039707d3c059ff781",
-          "excerpt": "- Hyperliquid’s ANTH contract spiked to about $1,980 around the 9 a.m.",
-          "sentence_hash": "a856aa88b0a0e0e3fdc98c98608cbe6a399baddff10f7c5e57abe49a5ceb1f37",
-          "anchors": [
-            "$1,980 ",
-            "around"
-          ]
-        }
-      ],
-      "entities": [
-        "around",
-        "advanced",
-        "anth",
-        "enterprise",
-        "nevertheless",
-        "claude",
-        "ai",
-        "liz claman",
-        "later",
-        "micron",
-        "nvidia",
-        "broadcom",
-        "nov",
-        "rwa",
-        "diversified",
-        "et",
-        "fox business",
-        "anthropic",
-        "november",
-        "hyperliquid",
-        "nvda",
-        "june",
-        "share",
-        "by sept",
-        "chip",
-        "mu",
-        "previous",
-        "ipo",
-        "ft",
-        "utc",
-        "the claude",
-        "avgo",
-        "monday"
-      ],
-      "numbers": [
-        "$16.3 billion",
-        "2 trillion",
-        "$1.5",
-        "1.75 trillion",
-        "12 million",
-        "$1,980 ",
-        "16.3 billion",
-        "80.7 billion",
-        "1 million",
-        "19.3 billion",
-        "10 million",
-        "$80.7 billion",
-        "100 billion",
-        "$1,857 ",
-        "112.4 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 48
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_5734e2bfd21734f0da1fc574",
-      "title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
-      "url": "https://www.ft.com/content/d79ea4f9-dc54-4b9c-b739-6e6fc99feebc?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Also in today’s newsletter: Brazil’s currency plunges and Singapore to store Saudi Arabian oil in caverns",
-      "category": "财经",
-      "published_at": "2026-10-26T21:41:18+00:00",
-      "why_relevant": "Anthropic招股书及全球市场简报",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "also",
-        "brazil",
-        "singapore",
-        "saudi arabian"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 4
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_6054f6252dc59489aa243db2",
-      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
-      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
-      "publisher": "CNBC",
-      "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
-      "category": "财经",
-      "published_at": "2026-10-26T22:50:07+00:00",
-      "why_relevant": "IPO对AI交易和利率环境影响",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.125071+08:00",
-          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
-          "excerpt": "Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.",
-          "sentence_hash": "ffd591ae04ddbb8ba99a179f30b9872f28ac9a82b89113ca5453374bb871fe00",
-          "anchors": [
-            "market"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "It's a critical moment for the whole tech sector, as the artificial intelligence boom has been largely driven by two companies: Anthropic and OpenAI.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.125095+08:00",
-          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
-          "excerpt": "It's a critical moment for the whole tech sector, as the artificial intelligence boom has been largely driven by two companies: Anthropic and OpenAI.",
-          "sentence_hash": "a7df7bc90934b74f6a1de623d997d6a0a9739b9fc8765286b1aa42246da5c448",
-          "anchors": [
-            "for",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The latter has confidentially filed to go public, but has said a debut likely won't take place until 2027.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.125115+08:00",
-          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
-          "excerpt": "The latter has confidentially filed to go public, but has said a debut likely won't take place until 2027.",
-          "sentence_hash": "d24a7ccc4f15953c76a18217c53dde9d4c4e723f48e9e82f3b984badcbef0588",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Meanwhile, the stock market is showing signs of jitters on the AI trade.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.125131+08:00",
-          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
-          "excerpt": "Meanwhile, the stock market is showing signs of jitters on the AI trade.",
-          "sentence_hash": "61ed761d17a8543ea28e595024e35408f4b1169373575ab7922c7bfcdd35100d",
-          "anchors": [
-            "market"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Neoclouds and data center companies have been getting pummeled, prompting Australia's Firmus to withdraw its IPO plans and for SK Hynix's U.S.-based Solidigm unit to do the same.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.125154+08:00",
-          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
-          "excerpt": "Neoclouds and data center companies have been getting pummeled, prompting Australia's Firmus to withdraw its IPO plans and for SK Hynix's U.S.-based Solidigm unit to do the same.",
-          "sentence_hash": "0f625c2dfbbccd334053fc96ee8dfa10fafcc0122d6554bdf6a029b0d38da0f8",
-          "anchors": [
-            "and",
-            "for",
-            "cloud"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Now, all eyes turn to Anthropic, which is betting that investors will look past over $80 billion in losses in the first half of the year, and see the 14-fold increase in revenue as a reflection of seemingly insatiable demand for the company's leading models and services.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.125187+08:00",
-          "content_sha256": "9563ab2be85691971d637ae6b69a09f5a4a95745c25b446129947353d6aaa2df",
-          "excerpt": "Now, all eyes turn to Anthropic, which is betting that investors will look past over $80 billion in losses in the first half of the year, and see the 14-fold increase in revenue as a reflection of seemingly insatiable demand for the company's leading models and services.",
-          "sentence_hash": "717befb9862bd0d335ef0ddc942099ae68b0502b65f774ba432d8894674ee92b",
-          "anchors": [
-            "80 billion",
-            "$80 billion",
-            "investors",
-            "and",
-            "for"
-          ]
-        }
-      ],
-      "entities": [
-        "google",
-        "menlo ventures",
-        "alphabet",
-        "texas",
-        "chips",
-        "claude",
-        "ai",
-        "sk",
-        "ceo",
-        "open",
-        "bessemer venture partners",
-        "broadcom",
-        "nvidia",
-        "hock tan",
-        "solidigm",
-        "adobe",
-        "amazon",
-        "anthropic",
-        "now",
-        "for",
-        "cloud",
-        "wall street",
-        "neoclouds",
-        "investors",
-        "australia",
-        "advanced micro devices",
-        "market",
-        "cnbc",
-        "sapphire ventures",
-        "firmus",
-        "salesforce",
-        "close",
-        "microsoft",
-        "hynix",
-        "meanwhile",
-        "ipo",
-        "beyond",
-        "monday",
-        "and",
-        "jai das"
-      ],
-      "numbers": [
-        "$77 billion",
-        "15 billion",
-        "80 billion",
-        "$80 billion",
-        "77 billion",
-        "$15 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 46
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_2a33b1b4f2909b5052de355c",
-      "title": "Lula wins fourth term in dramatic Brazil election comeback",
-      "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
+      "article_id": "a1_d8954e2d7f4dce64ab38a247",
+      "title": "Global carmakers search for new China strategy as market share slips below 30%",
+      "url": "https://www.scmp.com/business/china-business/article/3372359/global-carmakers-search-new-china-strategy-market-share-slips-below-30",
+      "publisher": "SCMP",
+      "summary": "Global carmakers are searching for a way to survive in China’s cutthroat market, as they continue to lose ground to domestic competitors in a landscape that is increasingly tilting towards electric vehicles.\nInternational auto brands from Volkswagen to Toyota saw their market share in the Chinese mainland slide once again in the third quarter of the year, as consumers turned away from expensive foreign cars amid an economic slowdown and the Iran war.\nForeign marques accounted for less than 30...",
       "category": "国际",
-      "published_at": "2026-10-26T21:02:47+00:00",
-      "why_relevant": "巴西大选反转，宏观政治事件",
-      "relevance_score": 7.0,
+      "published_at": "2026-10-27T23:59:35+00:00",
+      "why_relevant": "合资车企中国困局",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.",
+          "text": "Global carmakers search for new China strategy as market share slips below 30% Carmakers are scrambling to revamp their strategies as China’s cash-strapped consumers turn away from expensive foreign brands Global carmakers are searching for a way to survive in China’s cutthroat m",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126159+08:00",
-          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
-          "excerpt": "Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.",
-          "sentence_hash": "15974951eb9c49dbc5bec89cd9ff9f0580c479bb2567b76b84990e483be228e4",
+          "captured_at": "2026-10-28T08:02:56.276659+08:00",
+          "content_sha256": "e0c3ccf36bb359f582a16adf9f56434f0818aa784a08756bc227bb2d992681b5",
+          "excerpt": "Global carmakers search for new China strategy as market share slips below 30% Carmakers are scrambling to revamp their strategies as China’s cash-strapped consumers turn away from expensive foreign brands Global carmakers are searching for a way to survive in China’s cutthroat m",
+          "sentence_hash": "fa9cd6625a9277f176c7953951be1e1c3e79329e4999482a5f2b41bf061090b9",
           "anchors": [
-            "his"
+            "30%",
+            "carmakers",
+            "foreign"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Left-wing leader Lula took 51.79% of votes, becoming the first president since Brazil's return to civilian rule in 1985 to be elected after losing the first round of voting.",
+          "text": "International auto brands from Volkswagen to Toyota saw their market share in the Chinese mainland slide once again in the third quarter of the year, as consumers turned away from expensive foreign cars amid an economic slowdown and the Iran war.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126185+08:00",
-          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
-          "excerpt": "Left-wing leader Lula took 51.79% of votes, becoming the first president since Brazil's return to civilian rule in 1985 to be elected after losing the first round of voting.",
-          "sentence_hash": "a6a66ef054737c6493e86f1963fc117679bb9e9d6f525703ec46a935035b8fdf",
+          "captured_at": "2026-10-28T08:02:56.276684+08:00",
+          "content_sha256": "e0c3ccf36bb359f582a16adf9f56434f0818aa784a08756bc227bb2d992681b5",
+          "excerpt": "International auto brands from Volkswagen to Toyota saw their market share in the Chinese mainland slide once again in the third quarter of the year, as consumers turned away from expensive foreign cars amid an economic slowdown and the Iran war.",
+          "sentence_hash": "36df2e9c373a26c1db1fed5a1382ea15eeae09ce5e9b686a95cf31849b21e765",
           "anchors": [
-            "51.79%",
-            "after"
+            "foreign"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\".",
+          "text": "Foreign marques accounted for less than 30 per cent of deliveries over the period, down from 34.6 per cent a year earlier, as they delivered just 1.38 million cars to mainland customers, according to data from the China Passenger Car Association (CPCA).",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126202+08:00",
-          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
-          "excerpt": "Lula told jubilant crowds his victory was a \"loss for negativity, lies\", adding \"long live democracy\".",
-          "sentence_hash": "5dd9d3a2eb4b2ce6a015917bac2f2c2ae2f17dee499889bad86f0e34188bc385",
+          "captured_at": "2026-10-28T08:02:56.276705+08:00",
+          "content_sha256": "e0c3ccf36bb359f582a16adf9f56434f0818aa784a08756bc227bb2d992681b5",
+          "excerpt": "Foreign marques accounted for less than 30 per cent of deliveries over the period, down from 34.6 per cent a year earlier, as they delivered just 1.38 million cars to mainland customers, according to data from the China Passenger Car Association (CPCA).",
+          "sentence_hash": "1d665f0a88ff6a22fb4ec44ca42cbca896b691390c3a027c809d12af2b4f4226",
           "anchors": [
-            "his"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "World leaders have congratulated Lula on his re-election.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126221+08:00",
-          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
-          "excerpt": "World leaders have congratulated Lula on his re-election.",
-          "sentence_hash": "22c99d6c2f5fb2a03ccc5e762394961ad292a9b5c2867732118689b360869199",
-          "anchors": [
-            "his"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "But both teams had requested an extension to voting times - Lula's had argued that voters in SÃ£o Paulo and Bahia could not get to the polling stations because of a lack of buses, while Bolsonaro's campaign cited heavy rain in some areas in the south of the country and in SÃ£o Pa",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126270+08:00",
-          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
-          "excerpt": "But both teams had requested an extension to voting times - Lula's had argued that voters in SÃ£o Paulo and Bahia could not get to the polling stations because of a lack of buses, while Bolsonaro's campaign cited heavy rain in some areas in the south of the country and in SÃ£o Pa",
-          "sentence_hash": "58c95f4d8ccc093da5256b80d65033f2a530d67a73694c49bde3e7e2b13b8ae0",
-          "anchors": [
-            "both"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The sheer gap between the two candidates' tallies - 4.4 million votes - makes the result more difficult to challenge.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126300+08:00",
-          "content_sha256": "4ef91ef66f7e7cce7f8eaf37414bfa595636670e9d124a74a7b751c73c2a60ca",
-          "excerpt": "The sheer gap between the two candidates' tallies - 4.4 million votes - makes the result more difficult to challenge.",
-          "sentence_hash": "0d848f27e22e89687f7e2a7e5473ffe564d4fb471ab6ccdd50dc3800896256e0",
-          "anchors": [
-            "4.4 million"
+            "1.38 million"
           ]
         }
       ],
       "entities": [
-        "his",
-        "jair bolsonaro",
-        "congress",
-        "supreme court justice cristiano zanin",
-        "supreme electoral court",
-        "brazil",
-        "but",
-        "bahia",
-        "nunes marques",
-        "silva",
-        "president luiz in",
-        "published\nbrazil",
-        "sunday",
-        "after",
-        "but lula",
-        "left",
-        "paulo",
-        "markets",
-        "bras",
-        "zanin",
-        "some bolsonaro",
-        "brazilian",
-        "lula",
-        "firstly",
-        "october",
-        "bolsonaro",
-        "both"
+        "cpca",
+        "global",
+        "international",
+        "carmakers",
+        "volkswagen",
+        "iran",
+        "chinese",
+        "toyota",
+        "china",
+        "china passenger car association",
+        "foreign"
       ],
       "numbers": [
-        "45%",
-        "4.4 million",
-        "33 million",
-        "47%",
-        "51.79%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 32
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_922999913730c996b62bc301",
-      "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
-      "url": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest",
-      "publisher": "The Guardian",
-      "summary": "Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%. His win bucks a regional trend, after the son of the former president Jair Bolsonaro had spearheaded a radical populist movement.But with Flávio Bolsonaro refusing to concede defeat, what’s next for",
-      "category": "国际",
-      "published_at": "2026-10-26T17:38:16+00:00",
-      "why_relevant": "卢拉击败博索纳罗，巴西政治转折",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126627+08:00",
-          "content_sha256": "71e0171bd3c21d28b36697122b48fbf7769df55fc5d0d3000e2012faca945aaa",
-          "excerpt": "How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.",
-          "sentence_hash": "a8550ca2ba5258d16c4920cb910e550bd8f78096e626d2a5fb285ef885c6a810",
-          "anchors": [
-            "his"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.126651+08:00",
-          "content_sha256": "71e0171bd3c21d28b36697122b48fbf7769df55fc5d0d3000e2012faca945aaa",
-          "excerpt": "Lula is the first candidate to win a runoff election after losing in the first round, taking victory with 51.79% of the vote to his rival’s 48.21%.",
-          "sentence_hash": "46b42dcb5f9dba36ed4bc79f92127a7855cec1bafdfd925f16cb93185669cdfc",
-          "anchors": [
-            "his",
-            "51.79%",
-            "48.21%"
-          ]
-        }
-      ],
-      "entities": [
-        "his",
-        "jair bolsonaro",
-        "latin america",
-        "tom phillips",
-        "you",
-        "tube\nexplore",
-        "how lula",
-        "luiz in",
-        "michael safi",
-        "brazil",
-        "but",
-        "silva",
-        "lula",
-        "the latest\nbrazil",
-        "bolsonaro"
-      ],
-      "numbers": [
-        "48.21%",
-        "51.79%"
+        "30%",
+        "1.38 million"
       ],
       "dates": [],
       "unknowns": [
@@ -1159,26 +212,26 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 2,
-        "anchor_count": 17
+        "fact_count": 3,
+        "anchor_count": 13
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_66c419dbae9440422bcbc07f",
-      "title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1JXYWUtZ2l1TGNtSDlwbkN6SkxUR1RxaWZjQnFpNk8yTzBuLTR5OEUxQ296SmZEd3dDS25tMjh1eW5hRGg4X1gtVUpVQi1UbWIyYXpJQmh6NGxpX011WWlEYWh0Z3FKRm55UUl6UnpKUTZmM3lhUElLNUVIb0tkWDBYVkI1LXI2aWxwT1Q2aUpSZjhOcUVxaTByX21WVlExQVE?oc=5",
+      "article_id": "a1_d3f3766c973faeea4fc22dec",
+      "title": "Ukraine's Zelenskiy says territory recaptured, forces on the offensive",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMEQ4aXRxak9YazJ6cHdyRU0zOERvRFlIOV9HWldZeEU3VXEtejNHZThWWHp3TU1LLThqeHItX3BqTjBMQU13X2VCOVgxV0RkZldtMEM2bHYzWGNTR1A4U1pjejhvTWZCLUZneWR2cHlUVlNEZVNGZlpha3hCYTlQSmlLZ3NPQXFTcDhwUlVjcHBKeF9zTURQamNNakI2ak5uUlF1cEJWZkZiRk1QcnVRVkV3dHdvSTI1bDFvaG1BSjBFUQ?oc=5",
       "publisher": "Reuters",
-      "summary": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say&nbsp;&nbsp;Reuters",
+      "summary": "Ukraine's Zelenskiy says territory recaptured, forces on the offensive&nbsp;&nbsp;Reuters",
       "category": "国际",
-      "published_at": "2026-10-26T22:35:46+00:00",
-      "why_relevant": "美加关税缓和，贸易政策信号",
-      "relevance_score": 7.0,
+      "published_at": "2026-10-27T22:19:44+00:00",
+      "why_relevant": "乌克兰反攻关键",
+      "relevance_score": 8.0,
       "confirmed_facts": [],
       "entities": [
-        "us",
-        "canada",
-        "reuters"
+        "ukraine",
+        "reuters",
+        "zelenskiy"
       ],
       "numbers": [],
       "dates": [],
@@ -1195,235 +248,157 @@
       "evidence_complete": false
     },
     {
-      "article_id": "a1_c585b9f7120a2c3b13c5758b",
-      "title": "China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies",
-      "url": "https://www.scmp.com/business/china-evs/article/3372153/china-grants-permits-vw-joint-venture-xpeng-autonomous-driving-race-intensifies",
-      "publisher": "SCMP",
-      "summary": "China has granted new autonomous-driving permission to electric vehicle (EV) maker Xpeng and a mainland joint venture of Volkswagen, intensifying the commercialisation race between China’s autonomous driving firms and US company Tesla.\nXpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.\nThe licence, which...",
-      "category": "国际",
-      "published_at": "2026-10-27T00:00:14+00:00",
-      "why_relevant": "中国自动驾驶牌照，产业竞速",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.127136+08:00",
-          "content_sha256": "779421516c2c2f283ea9d371a433fadb9c88e617a367d1739821b3a4fabff3d1",
-          "excerpt": "Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec",
-          "sentence_hash": "90ca2684a8a02bb882fd3d62a16d4dd1ea19cf92f1282a9fe74b7587367324de",
-          "anchors": [
-            "$1 trillion",
-            "ai",
-            "us",
-            "1 trillion"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Xpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.127164+08:00",
-          "content_sha256": "779421516c2c2f283ea9d371a433fadb9c88e617a367d1739821b3a4fabff3d1",
-          "excerpt": "Xpeng would now be allowed to conduct “demonstration operations” of its Yoyo driverless taxis in the capital city of southern China’s Guangdong province under a licence officially granted recently, the company said on social media on Monday.",
-          "sentence_hash": "49d4a6ffb9e3418997935f57db047187a3538a3223faa2b80e8e97fbfb7ab3f2",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "xpeng",
-        "vw",
-        "china",
-        "tesla",
-        "select voice\nselect speed",
-        "us",
-        "min",
-        "volkswagen",
-        "yoyo",
-        "guangdong",
-        "monday",
-        "ai",
-        "ev",
-        "advertisement\nchina"
-      ],
-      "numbers": [
-        "$1 trillion",
-        "1 trillion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 2,
-        "anchor_count": 16
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_d1f33cfb0e43e0de85967d9f",
-      "title": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
+      "article_id": "a1_1ddf5d95180e17796d70fd63",
+      "title": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
       "publisher": "GitHub Trending",
-      "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.https://voicestudio.sh \n  \n VoiceStudio \n    \n Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. \n  Website · Download · Get started · Docs · Discord · 简体中文 · 日本語  \n       \n \n \nYour voice. Your workflow. \n \n  \n   \n   Create \n   Produce \n   Connect \n   \n ",
+      "summary": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.https://docs.nvidia.com/skills/scanning-agent-skillsSkillSpector \nSecurity scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks before installing agent skills. \n  \nOverview \nAI agent skills (used by Claude Code, Codex CLI, Gemini CLI, etc.) ",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "本地语音克隆，开源替代方案",
-      "relevance_score": 7.0,
+      "why_relevant": "AI Agent安全风险高",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "text": "Security scanner for AI agent skills.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.128061+08:00",
-          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
-          "excerpt": "Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-          "sentence_hash": "e28f602d718f1c2bfb94a34a78b392d42f106c5cad084efd12b95ea39cdb6b9f",
+          "captured_at": "2026-10-28T08:02:56.277477+08:00",
+          "content_sha256": "80521d0701666f3b471f803329fd95d8091e7ee921546ffdc7291569cc1826ab",
+          "excerpt": "Security scanner for AI agent skills.",
+          "sentence_hash": "94848e393769132a198a7c604e01e734c67a8fb5dbda027e40db0034a758c992",
           "anchors": [
-            "voice"
+            "skill",
+            "skills",
+            "scan"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine.",
+          "text": "Detect vulnerabilities, malicious patterns, and security risks before installing agent skills.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.128092+08:00",
-          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
-          "excerpt": "Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choose another engine.",
-          "sentence_hash": "32ba046207bf3fd2b98ac59035b1b85147cdd7a49ad3bc58efd934d4dcac1635",
+          "captured_at": "2026-10-28T08:02:56.277495+08:00",
+          "content_sha256": "80521d0701666f3b471f803329fd95d8091e7ee921546ffdc7291569cc1826ab",
+          "excerpt": "Detect vulnerabilities, malicious patterns, and security risks before installing agent skills.",
+          "sentence_hash": "d0f25adcdfad53552bf70dff9056d07211ccf8ac586648a0e386e4ead4810ff1",
           "anchors": [
-            "简体中文",
-            "power",
-            "start",
-            "日本語"
+            "skill",
+            "skills",
+            "security",
+            "risk"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Local workflows run on your hardware.",
+          "text": "AI agent skills (used by Claude Code, Codex CLI, Gemini CLI, etc.) execute with implicit trust and minimal vetting.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.128111+08:00",
-          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
-          "excerpt": "Local workflows run on your hardware.",
-          "sentence_hash": "f721ba617d3e11f5f1e50cb239a616dcf6de1ab172e9bc82cdbebff20df475dc",
+          "captured_at": "2026-10-28T08:02:56.277514+08:00",
+          "content_sha256": "80521d0701666f3b471f803329fd95d8091e7ee921546ffdc7291569cc1826ab",
+          "excerpt": "AI agent skills (used by Claude Code, Codex CLI, Gemini CLI, etc.) execute with implicit trust and minimal vetting.",
+          "sentence_hash": "d9bdd6cc7ccb9f2df10ec37bd68b0279eb5d5577f4558cfbf53d4cb21de09ad1",
           "anchors": [
-            "hardware",
-            "run"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "OmniVoice GGUF source builds can optionally use Vulkan on Windows and Linux; see the native engine guide for build requirements, CPU fallback, and device overrides.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.128141+08:00",
-          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
-          "excerpt": "OmniVoice GGUF source builds can optionally use Vulkan on Windows and Linux; see the native engine guide for build requirements, CPU fallback, and device overrides.",
-          "sentence_hash": "4ad6918689a147e0a04b06821fac2987df484d30374ca51c91b48546c3fa64cf",
-          "anchors": [
-            "build",
+            "skill",
+            "skills",
             "use"
           ]
         },
         {
-          "fact_id": "f5",
-          "text": "# Latest Electron release curl -fsSL https://voicestudio.sh/install | sh # A specific published Electron release (replace X.Y.Z) curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z # Build current main and install the desktop app curl -fsSL https://voicestudio.sh",
+          "fact_id": "f4",
+          "text": "In the 31,132-skill analyzed subset of the research dataset, 26.1% of skills contain vulnerabilities and 5.2% show likely malicious intent.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.128182+08:00",
-          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
-          "excerpt": "# Latest Electron release curl -fsSL https://voicestudio.sh/install | sh # A specific published Electron release (replace X.Y.Z) curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z # Build current main and install the desktop app curl -fsSL https://voicestudio.sh",
-          "sentence_hash": "1778d5e4fc8ca1484438bac298f5c37b25d6678c32b1b2bb18b4fd854886bb19",
+          "captured_at": "2026-10-28T08:02:56.277544+08:00",
+          "content_sha256": "80521d0701666f3b471f803329fd95d8091e7ee921546ffdc7291569cc1826ab",
+          "excerpt": "In the 31,132-skill analyzed subset of the research dataset, 26.1% of skills contain vulnerabilities and 5.2% show likely malicious intent.",
+          "sentence_hash": "d8a05a483b13115bdebde6b20d6f96da721b7718ff7141d0bc11787bd79c9db2",
           "anchors": [
-            "app",
-            "uninstall",
-            "voice",
-            "release",
-            "install",
-            "studio",
-            "run"
+            "skill",
+            "26.1%",
+            "5.2%",
+            "skills",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "SkillSpector helps you answer: \"Is this skill safe to install?\" SkillSpector is part of the NVIDIA Verified Skills pipeline, which scans, evaluates, and signs agent skills before publication.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.277572+08:00",
+          "content_sha256": "80521d0701666f3b471f803329fd95d8091e7ee921546ffdc7291569cc1826ab",
+          "excerpt": "SkillSpector helps you answer: \"Is this skill safe to install?\" SkillSpector is part of the NVIDIA Verified Skills pipeline, which scans, evaluates, and signs agent skills before publication.",
+          "sentence_hash": "bae871fdbf8a6998c0dcb801a103e00e26bff023077fe0861cf5a75f4d9be30f",
+          "anchors": [
+            "skill",
+            "skills",
+            "scan"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "If voicestudio.sh/install is unreachable or returns 404, run the same script straight from the repository, or clone it and run scripts/install.sh: curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh Release downloads require curl and a ",
+          "text": "Skills that pass are published to the NVIDIA skills catalog.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-27T08:03:01.128216+08:00",
-          "content_sha256": "b4182ca8f53d69e200d4f69f6bbd6398656a5eb54a4f38afc6e4cf0bdb200fb8",
-          "excerpt": "If voicestudio.sh/install is unreachable or returns 404, run the same script straight from the repository, or clone it and run scripts/install.sh: curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh Release downloads require curl and a ",
-          "sentence_hash": "43074beccb0443820f49afdf81c092a17c7edcb1371e7716b6183d438b0ade06",
+          "captured_at": "2026-10-28T08:02:56.277586+08:00",
+          "content_sha256": "80521d0701666f3b471f803329fd95d8091e7ee921546ffdc7291569cc1826ab",
+          "excerpt": "Skills that pass are published to the NVIDIA skills catalog.",
+          "sentence_hash": "f636276046c9ec828654e14eeb341129a5afae5398bf432cbd5993d04a7fadb7",
           "anchors": [
-            "use",
-            "voice",
-            "download",
-            "git",
-            "install",
-            "studio",
-            "run"
+            "skill",
+            "skills"
           ]
         }
       ],
       "entities": [
-        "hardware",
-        "omni",
-        "latest electron",
-        "android",
-        "cpu",
-        "local",
-        "electron",
-        "python",
-        "rust",
-        "docker",
-        "on windows",
-        "linux",
-        "git",
-        "app",
-        "windows",
-        "claude code",
-        "uninstall",
-        "discord",
-        "see electron",
-        "sha",
-        "build",
-        "phone",
+        "skill",
+        "fail",
+        "fast",
+        "security",
+        "yara",
+        "detect",
+        "install skill",
+        "code",
+        "markdown",
+        "multiple",
         "open",
-        "release",
-        "website",
-        "get",
-        "install",
-        "studio",
-        "phone\nopen voice",
-        "image",
-        "vulkan",
+        "sarif",
+        "osv",
+        "development",
+        "live",
+        "nvidia",
+        "architecture",
+        "risk",
+        "skills",
+        "gemini",
+        "update",
+        "spector",
+        "verified skills",
+        "claude code",
+        "ast",
+        "create",
         "use",
-        "download",
-        "remote",
-        "docs",
-        "tauri",
-        "shell",
-        "简体中文",
-        "features",
-        "start",
-        "node",
-        "bun",
-        "cursor",
+        "makefile",
+        "review",
+        "analysis",
+        "llm",
+        "multi",
+        "scan git",
+        "cli",
+        "hosted",
+        "clone",
+        "two",
+        "accept",
+        "cve",
+        "terminal",
+        "quick",
+        "scan",
+        "mcp",
+        "baseline",
+        "json",
+        "ai",
         "codex",
-        "voice",
-        "gguf",
-        "日本語",
-        "older",
-        "cargo",
-        "agents",
-        "studio electron",
-        "releases",
-        "paste",
-        "run",
-        "power"
+        "from"
       ],
-      "numbers": [],
+      "numbers": [
+        "5.2%",
+        "26.1%"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -1432,7 +407,1059 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 55
+        "anchor_count": 50
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7712b44799a8ebee161df9ce",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "publisher": "Ars Technica",
+      "summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "category": "科技",
+      "published_at": "2026-10-27T21:31:14+00:00",
+      "why_relevant": "Anthropic风险警示必读",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "But amid the numbers and forward-looking optimism about AI “rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,” Anthropic also spends an inordinate amount of time in its S-",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.278272+08:00",
+          "content_sha256": "f7bf34ee5214aa8d221a4b3491ac0c4c1382191ae1860d9868bb2fda3f58059d",
+          "excerpt": "But amid the numbers and forward-looking optimism about AI “rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,” Anthropic also spends an inordinate amount of time in its S-",
+          "sentence_hash": "6e17e2ff0128725e999c7fb77f6d559d56ea55271394872c915aede6ff746660",
+          "anchors": [
+            "risk factors"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Many of these potential risks are the kind of standard worries about competition, costs, customer acquisition, and potential regulation that almost any business must worry about.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.278296+08:00",
+          "content_sha256": "f7bf34ee5214aa8d221a4b3491ac0c4c1382191ae1860d9868bb2fda3f58059d",
+          "excerpt": "Many of these potential risks are the kind of standard worries about competition, costs, customer acquisition, and potential regulation that almost any business must worry about.",
+          "sentence_hash": "29ba29604c801aa49b463057fbe6ca8494487da2d902296b08421ca6e2a0074c",
+          "anchors": [
+            "most"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "But some risks highlight interesting potential points of failure for Anthropic specifically and the hype-filled AI bubble more generally.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.278310+08:00",
+          "content_sha256": "f7bf34ee5214aa8d221a4b3491ac0c4c1382191ae1860d9868bb2fda3f58059d",
+          "excerpt": "But some risks highlight interesting potential points of failure for Anthropic specifically and the hype-filled AI bubble more generally.",
+          "sentence_hash": "5cc9d359b65de237b99b9cbd1024910eb730746670f79874ab1de9884e2b3471",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "After wading through Anthropic’s book-length treatise on its greatest risks, we’ve narrowed the list to the seven most surprising, interesting, or thought-provoking potential problems.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.278329+08:00",
+          "content_sha256": "f7bf34ee5214aa8d221a4b3491ac0c4c1382191ae1860d9868bb2fda3f58059d",
+          "excerpt": "After wading through Anthropic’s book-length treatise on its greatest risks, we’ve narrowed the list to the seven most surprising, interesting, or thought-provoking potential problems.",
+          "sentence_hash": "384a8200f5eddaee5ebc8d5ba2d8b27f7d8862e55caeb245a3cb294cb847e9f0",
+          "anchors": [
+            "most"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The company acknowledges that concerns about these risks “have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants.” The specific worry isn’t in any current Anthropic model, the company says, but near-future model",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.278362+08:00",
+          "content_sha256": "f7bf34ee5214aa8d221a4b3491ac0c4c1382191ae1860d9868bb2fda3f58059d",
+          "excerpt": "The company acknowledges that concerns about these risks “have been raised both within our organization and by other researchers, regulators, policymakers, and industry participants.” The specific worry isn’t in any current Anthropic model, the company says, but near-future model",
+          "sentence_hash": "87798650365ca88c57b365b49644a3ce2fa4709fff3e404f837044309b8224c8",
+          "anchors": [
+            "ai",
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Credit: Getty Images Somewhat hilariously, Anthropic writes that, besides threatening all of humanity, this kind of self-improving AI “could adversely affect our business, financial condition, and results of operations.” If the worst comes to pass, as some prominent critics have ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.278399+08:00",
+          "content_sha256": "f7bf34ee5214aa8d221a4b3491ac0c4c1382191ae1860d9868bb2fda3f58059d",
+          "excerpt": "Credit: Getty Images Somewhat hilariously, Anthropic writes that, besides threatening all of humanity, this kind of self-improving AI “could adversely affect our business, financial condition, and results of operations.” If the worst comes to pass, as some prominent critics have ",
+          "sentence_hash": "1de76013b03bafcbabf9402dca5cb69e2b23a3d2de33f45d8e653d5429efbd0e",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "credit",
+        "getty images",
+        "after",
+        "consider",
+        "across",
+        "let",
+        "getty images\nsomewhat",
+        "exchange commission",
+        "risk factors",
+        "those",
+        "monday",
+        "but",
+        "most",
+        "many",
+        "the securities",
+        "ai",
+        "anthropic"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 17
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_02f19ca8d18bd9e099173c95",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai",
+      "publisher": "OpenAI 博客",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "category": "科技",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "why_relevant": "OpenAI语音落地案例",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Retell uses OpenAI models to help power 100M monthly calls GPT‑6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279172+08:00",
+          "content_sha256": "f28485bfc207fee333211d6c57be67f221228984412195043206707bb99f29d9",
+          "excerpt": "Retell uses OpenAI models to help power 100M monthly calls GPT‑6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "sentence_hash": "25dd24e97420140a428a8af0db0687de2dea7707580e7bce23e3fb5b2ef7dd36",
+          "anchors": [
+            "annual",
+            "monthly",
+            "$1.6"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "100M+ Monthly calls handled 80%+ Customer resolution rates 1 trillion OpenAI tokens consumed $1.6M Annual revenue run rate per employee Retell AI(opens in a new window) is a voice AI platform for contact center operations, helping businesses build agents that can answer questions",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279202+08:00",
+          "content_sha256": "f28485bfc207fee333211d6c57be67f221228984412195043206707bb99f29d9",
+          "excerpt": "100M+ Monthly calls handled 80%+ Customer resolution rates 1 trillion OpenAI tokens consumed $1.6M Annual revenue run rate per employee Retell AI(opens in a new window) is a voice AI platform for contact center operations, helping businesses build agents that can answer questions",
+          "sentence_hash": "667ab9b904a1f4979c5add3df06bb7d8f1d4ec852dfd01b2580de59c93b1d936",
+          "anchors": [
+            "$1.6",
+            "1 trillion",
+            "contact",
+            "80%",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Its platform now serves more than 4,000 businesses, with monthly call volume growing from 30 million in early 2026 to more than 100 million by September.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279222+08:00",
+          "content_sha256": "f28485bfc207fee333211d6c57be67f221228984412195043206707bb99f29d9",
+          "excerpt": "Its platform now serves more than 4,000 businesses, with monthly call volume growing from 30 million in early 2026 to more than 100 million by September.",
+          "sentence_hash": "09fff70496c63c1906896a4d49b30bad466ff49728bfc0cdf0e6ae884a2b98b8",
+          "anchors": [
+            "100 million",
+            "monthly",
+            "30 million"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "As Retell serves more enterprises with complex workflows, it uses OpenAI models to keep call quality and reliability high.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279239+08:00",
+          "content_sha256": "f28485bfc207fee333211d6c57be67f221228984412195043206707bb99f29d9",
+          "excerpt": "As Retell serves more enterprises with complex workflows, it uses OpenAI models to keep call quality and reliability high.",
+          "sentence_hash": "af512c0136a2e1bec38594d2998da058a3f1e9a3fdb35100676c9d739b6980f9",
+          "anchors": [
+            "enterprise"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Today, OpenAI models generate responses for 80% of calls on Retell, with customers achieving resolution rates above 80%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279255+08:00",
+          "content_sha256": "f28485bfc207fee333211d6c57be67f221228984412195043206707bb99f29d9",
+          "excerpt": "Today, OpenAI models generate responses for 80% of calls on Retell, with customers achieving resolution rates above 80%.",
+          "sentence_hash": "3e523623d52abca5784b48726b085665d0fd3fc5edb635868b187759d6bfc1b4",
+          "anchors": [
+            "customer",
+            "80%",
+            "customers"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Retell has also surpassed 1 trillion tokens consumed across OpenAI models, reflecting the scale of that adoption.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279270+08:00",
+          "content_sha256": "f28485bfc207fee333211d6c57be67f221228984412195043206707bb99f29d9",
+          "excerpt": "Retell has also surpassed 1 trillion tokens consumed across OpenAI models, reflecting the scale of that adoption.",
+          "sentence_hash": "cdef313c7f9bb0fc5404499ac2ee86eb6119da58b6fa52d132b3f1bc3c782fba",
+          "anchors": [
+            "1 trillion"
+          ]
+        }
+      ],
+      "entities": [
+        "during",
+        "pro",
+        "as retell",
+        "customers",
+        "enterprise",
+        "gpt",
+        "contact",
+        "realtime",
+        "retell",
+        "claude",
+        "astra",
+        "annual",
+        "open",
+        "september",
+        "customer",
+        "monthly",
+        "api",
+        "october",
+        "in retell",
+        "developers",
+        "gemini",
+        "its",
+        "ai",
+        "codex",
+        "today"
+      ],
+      "numbers": [
+        "$1.6",
+        "1 trillion",
+        "89.7%",
+        "100 million",
+        "80%",
+        "88.0%",
+        "30 million",
+        "88.3%"
+      ],
+      "dates": [
+        "October 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_549ecbed3aedb43b61ba1abe",
+      "title": "Israel election turnout highest in decades",
+      "url": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "First vote since October 7 2023 attack pits Netanyahu’s far-right coalition against opposition bloc in knife-edge contest",
+      "category": "财经",
+      "published_at": "2026-10-27T19:13:09+00:00",
+      "why_relevant": "以色列选举影响重大",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "First vote since October 7 2023 attack pits Netanyahu’s far-right coalition against opposition bloc in knife-edge contest",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.279426+08:00",
+          "content_sha256": "b79fce9b701f42114fd2b87baf2c47d59ace1a707b4130e4ea719d7709733d7a",
+          "excerpt": "First vote since October 7 2023 attack pits Netanyahu’s far-right coalition against opposition bloc in knife-edge contest",
+          "sentence_hash": "e4eb9cb5846056a9f6d6cf9183add171d9569c92278181a38ea8b8c566de2ddf",
+          "anchors": [
+            "October 7"
+          ]
+        }
+      ],
+      "entities": [
+        "october",
+        "netanyahu",
+        "first"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 7"
+      ],
+      "unknowns": [
+        "正文未抓到"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 4
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_3713b98d1b5fdadf1e4288c5",
+      "title": "Trump administration may let more Russian diesel onto market, energy secretary tells CNBC",
+      "url": "https://www.cnbc.com/2026/10/27/trump-putin-zelenskyy-russia-ukraine-diesel.html",
+      "publisher": "CNBC",
+      "summary": "The diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared to total demand, analysts say.",
+      "category": "财经",
+      "published_at": "2026-10-27T22:18:59+00:00",
+      "why_relevant": "俄柴油影响油价",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "may allow more diesel fuel from Russia onto the global market depending on Moscow's behavior, Energy Secretary Chris Wright told CNBC in an interview Tuesday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280033+08:00",
+          "content_sha256": "77a91a6900642a55421d17e38687eed0a66f6cb1bc0be878551c1421515d290d",
+          "excerpt": "may allow more diesel fuel from Russia onto the global market depending on Moscow's behavior, Energy Secretary Chris Wright told CNBC in an interview Tuesday.",
+          "sentence_hash": "00c2e8ad4b33c55be7d9b108c5a984bf9a7af8d47cd594a5e38b89d8a12f6f33",
+          "anchors": [
+            "fuel",
+            "more"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It will help with fuel supplies on the margin, he said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280056+08:00",
+          "content_sha256": "77a91a6900642a55421d17e38687eed0a66f6cb1bc0be878551c1421515d290d",
+          "excerpt": "It will help with fuel supplies on the margin, he said.",
+          "sentence_hash": "3ae9de7322c6d875a7fc0f1d6a229205bcf2273ccf22d96d2917860a0f1b79b8",
+          "anchors": [
+            "fuel"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "President Donald Trump struck a deal with President Vladimir Putin for Russia to export 800,000 metric tons of diesel in October and November, followed by another million tons.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280101+08:00",
+          "content_sha256": "77a91a6900642a55421d17e38687eed0a66f6cb1bc0be878551c1421515d290d",
+          "excerpt": "President Donald Trump struck a deal with President Vladimir Putin for Russia to export 800,000 metric tons of diesel in October and November, followed by another million tons.",
+          "sentence_hash": "df91952fd659e10ea7ebae5e5d64822b55b8266d54dda06c72e7d70b5e1a9aae",
+          "anchors": [
+            "another"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "But the diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared with total global demand of around 28 million barrels per day, analysts say.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280138+08:00",
+          "content_sha256": "77a91a6900642a55421d17e38687eed0a66f6cb1bc0be878551c1421515d290d",
+          "excerpt": "But the diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared with total global demand of around 28 million barrels per day, analysts say.",
+          "sentence_hash": "97747eeec26ffc9ebb89d801d6ff30f14ba8cf308658ec31c1d7470eedc8302e",
+          "anchors": [
+            "28 million"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The first shipment from Russia of 300,000 metric tons is equivalent to about 75,000 barrels per day if rolled out over one month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280155+08:00",
+          "content_sha256": "77a91a6900642a55421d17e38687eed0a66f6cb1bc0be878551c1421515d290d",
+          "excerpt": "The first shipment from Russia of 300,000 metric tons is equivalent to about 75,000 barrels per day if rolled out over one month.",
+          "sentence_hash": "1f17c089e1aa96ef2b622afb4fabda5445b7395da01dd4d30d76dfbdb3171d37",
+          "anchors": [
+            "75,000 barrels"
+          ]
+        }
+      ],
+      "entities": [
+        "president donald trump",
+        "marine",
+        "ukraine",
+        "leruo",
+        "russian",
+        "november",
+        "kyiv",
+        "democratic",
+        "tuesday",
+        "east coast",
+        "several republican",
+        "allies",
+        "the russian",
+        "more",
+        "another",
+        "october",
+        "energy secretary chris wright",
+        "president vladimir putin",
+        "israel",
+        "ukraine president volodymyr zelenskyy",
+        "putin",
+        "nov",
+        "atlantic coast",
+        "feb",
+        "trump",
+        "russia",
+        "traffic",
+        "iran",
+        "talisman",
+        "moscow",
+        "cnbc",
+        "wright",
+        "power lunch",
+        "but",
+        "fuel",
+        "kremlin",
+        "the kremlin",
+        "july"
+      ],
+      "numbers": [
+        "28 million",
+        "75,000 barrels"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 40
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_f6d3e3a239b86712b8d51bfb",
+      "title": "Iran war live: Pezeshkian says Middle East can solve own issues without US",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Iranian president&#039;s words came at summit for gas exporting countries in Russia.",
+      "category": "国际",
+      "published_at": "2026-10-27T22:29:31+00:00",
+      "why_relevant": "中东局势持续关注",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live updatesLive updates, Iran war live: Pezeshkian says Middle East can solve own issues without US Iranian president’s words came at summit for gas exporting countries in Russia.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280397+08:00",
+          "content_sha256": "f71f21b0254773aeda9ada14929188c05027d3cb81eb645eeb1356ab61b78bc0",
+          "excerpt": "Live updatesLive updates, Iran war live: Pezeshkian says Middle East can solve own issues without US Iranian president’s words came at summit for gas exporting countries in Russia.",
+          "sentence_hash": "80ae7dbd2f5f4ad8a9b61b09ce5ae7f1057dddd3052509bb294b6ef80a5100ac",
+          "anchors": [
+            "live",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 27 Oct 2026 - Iranian President Masoud Pezeshkian tells Russia’s Putin Middle East is “capable of resolving our problems” without US involvement.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.280415+08:00",
+          "content_sha256": "f71f21b0254773aeda9ada14929188c05027d3cb81eb645eeb1356ab61b78bc0",
+          "excerpt": "Published On 27 Oct 2026 - Iranian President Masoud Pezeshkian tells Russia’s Putin Middle East is “capable of resolving our problems” without US involvement.",
+          "sentence_hash": "a4f36be90a7239fd6b4ee5fca4189e3069a1a92a75180d3cf8c5440b74467a30",
+          "anchors": [
+            "Oct 20",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "middle east",
+        "putin middle east",
+        "published on",
+        "saudi",
+        "russia",
+        "iran",
+        "oct",
+        "pezeshkian",
+        "us",
+        "bab",
+        "yemen",
+        "live",
+        "houthis",
+        "iranian",
+        "iranian president masoud pezeshkian",
+        "mandeb"
+      ],
+      "numbers": [],
+      "dates": [
+        "Oct 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 17
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c2a4dc02153a1f6bd2db21cf",
+      "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+      "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+      "publisher": "The Guardian",
+      "summary": "Far-right senator en route to US after missing deadline to hand over his passport since loss to LulaThe far-right senator Flávio Bolsonaro has reportedly fled Brazil and is on his way to the United States after losing Sunday’s presidential election to the leftwing incumbent, Luiz Inácio Lula da Silva.A report by the news website Metrópoles, citing people close to the politician’s family, said he was en route to the US. “The plane is in flight,” Metrópoles reported, without making clear where it ",
+      "category": "国际",
+      "published_at": "2026-10-27T22:03:00+00:00",
+      "why_relevant": "巴西极右翼流亡",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bolsonaro allies told Metrópoles that he would land in Florida on Tuesday afternoon and planned to request political asylum.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.281156+08:00",
+          "content_sha256": "a3949557b7fd78f692ffe2922fac9ab7d831dde51f78ae297658e5e4d17ed0a2",
+          "excerpt": "Bolsonaro allies told Metrópoles that he would land in Florida on Tuesday afternoon and planned to request political asylum.",
+          "sentence_hash": "b3b807cef24a00d4660339fae86f11158a4f3cc2eb04bb5be1c24b948f43ab02",
+          "anchors": [
+            "allies"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Brazil is their second homeland.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.281205+08:00",
+          "content_sha256": "a3949557b7fd78f692ffe2922fac9ab7d831dde51f78ae297658e5e4d17ed0a2",
+          "excerpt": "Brazil is their second homeland.",
+          "sentence_hash": "ded3c9e8f7e6f97452a85e9226581bf77fdcff6aaeb231f5288ef6d7c2ccc2cf",
+          "anchors": [
+            "their"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Their first homeland is licking the boots of the US, as he’s become accustomed to doing,” he said at an event celebrating his 81st birthday in Brasília.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.281226+08:00",
+          "content_sha256": "a3949557b7fd78f692ffe2922fac9ab7d831dde51f78ae297658e5e4d17ed0a2",
+          "excerpt": "Their first homeland is licking the boots of the US, as he’s become accustomed to doing,” he said at an event celebrating his 81st birthday in Brasília.",
+          "sentence_hash": "e96e5b59573fc8d45da27cb0d7f4014431f2f6a11d67754b75f31d63d5d3afd9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“I keep imagining what’s on the conscience of a citizen who just lost the elections and flees his country … He who owes nothing, fears nothing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.281246+08:00",
+          "content_sha256": "a3949557b7fd78f692ffe2922fac9ab7d831dde51f78ae297658e5e4d17ed0a2",
+          "excerpt": "“I keep imagining what’s on the conscience of a citizen who just lost the elections and flees his country … He who owes nothing, fears nothing.",
+          "sentence_hash": "d0f0f892bb3f90028e9f9b7e0fca2f20274307bfdfa4a672e8fa8566dbf63bdb",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "A supreme court justice cancelled Bolsonaro’s passport minutes after the result in a ruling related to a criminal case against the senator.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.281292+08:00",
+          "content_sha256": "a3949557b7fd78f692ffe2922fac9ab7d831dde51f78ae297658e5e4d17ed0a2",
+          "excerpt": "A supreme court justice cancelled Bolsonaro’s passport minutes after the result in a ruling related to a criminal case against the senator.",
+          "sentence_hash": "986b0a1e14ee4de9a9f8f6290f8c05b29974b4ba089f718c25b02a2529b94fa2",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "red notice",
+        "sunday",
+        "lula",
+        "bras",
+        "puerto iguaz",
+        "italian",
+        "us",
+        "brazil",
+        "tuesday",
+        "allies",
+        "lawmakers",
+        "pt",
+        "bolsonaro",
+        "globo",
+        "metr",
+        "brasil",
+        "they",
+        "silva",
+        "their",
+        "luiz in",
+        "argentina",
+        "the argentinian",
+        "brazilian",
+        "infobae",
+        "paulo",
+        "cnn",
+        "interpol",
+        "monday",
+        "united states",
+        "the donald trump",
+        "worker",
+        "european",
+        "florida",
+        "folha"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c4001ff13cdf9cea39c433fb",
+      "title": "‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions",
+      "url": "https://www.theguardian.com/world/live/2026/oct/27/brazil-election-reader-questions-lula-bolsonaro",
+      "publisher": "The Guardian",
+      "summary": "Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second. The Guardian’s Latin America corrrespondent Tom Phillips answered your questions on what’s next for Brazil.Jeremy Hurley asks: Why did the Brazil stock market tank after the election result, and will it recover?Tom: Basically, because the markets had been convinced that Flávio Bolsonaro was going to win and that after taking",
+      "category": "国际",
+      "published_at": "2026-10-27T16:46:23+00:00",
+      "why_relevant": "巴西大选背景解读",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282044+08:00",
+          "content_sha256": "4b65e27eb1fb5ed2374d87b41f747ee20724e9c3b6b4028750a5b72eeda19d8f",
+          "excerpt": "‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second.",
+          "sentence_hash": "55a7bf8a3adbda16415f8dc0bce06c7b3923313b90dde15baf6b284eb0bf5d8f",
+          "anchors": [
+            "our",
+            "first"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The Guardian’s Latin America corrrespondent Tom Phillips answered your questions on what’s next for Brazil.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282066+08:00",
+          "content_sha256": "4b65e27eb1fb5ed2374d87b41f747ee20724e9c3b6b4028750a5b72eeda19d8f",
+          "excerpt": "The Guardian’s Latin America corrrespondent Tom Phillips answered your questions on what’s next for Brazil.",
+          "sentence_hash": "5b40c606d06725250b2fd5393d830adb52d9450e4ab48e89f6ffedd8f5873470",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Updated Tom Phillips, Michael Hubbard and Guardian moderators Tue 27 Oct 2026 12.46 EDTFirst published on Mon 26 Oct 2026 20.00 EDT Thanks so much everyone.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282087+08:00",
+          "content_sha256": "4b65e27eb1fb5ed2374d87b41f747ee20724e9c3b6b4028750a5b72eeda19d8f",
+          "excerpt": "Updated Tom Phillips, Michael Hubbard and Guardian moderators Tue 27 Oct 2026 12.46 EDTFirst published on Mon 26 Oct 2026 20.00 EDT Thanks so much everyone.",
+          "sentence_hash": "ea1884fd6aa865e96331f4df4eb997004031340eb60de192d1003670fb0dd741",
+          "anchors": [
+            "Oct 20",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "I really appreciate everyone following and supporting our coverage of Brazil.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282112+08:00",
+          "content_sha256": "4b65e27eb1fb5ed2374d87b41f747ee20724e9c3b6b4028750a5b72eeda19d8f",
+          "excerpt": "I really appreciate everyone following and supporting our coverage of Brazil.",
+          "sentence_hash": "8244057cfb102ec4796d1d329258fa9c3318240609a7728fe3a9aa0adf4d3fc4",
+          "anchors": [
+            "our",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But for now, tens of millions of Brazilians, and the world, breathe a sign of relief.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282130+08:00",
+          "content_sha256": "4b65e27eb1fb5ed2374d87b41f747ee20724e9c3b6b4028750a5b72eeda19d8f",
+          "excerpt": "But for now, tens of millions of Brazilians, and the world, breathe a sign of relief.",
+          "sentence_hash": "ae02481088950a225eaaeb3df72f34ea5592112a3d5e7e795a4cd84683de4073",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Dougie McGilvray asks: To what extent was Lula’s victory a case of choosing the “lesser of two evils”, given his previous corruption convictions (annulled on procedural grounds) and net-negative approval ratings?",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282161+08:00",
+          "content_sha256": "4b65e27eb1fb5ed2374d87b41f747ee20724e9c3b6b4028750a5b72eeda19d8f",
+          "excerpt": "Dougie McGilvray asks: To what extent was Lula’s victory a case of choosing the “lesser of two evils”, given his previous corruption convictions (annulled on procedural grounds) and net-negative approval ratings?",
+          "sentence_hash": "d7e9ede8b87ac62b10a2918aa81b7760ede953935bc0249f6163afab92ca132b",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "having",
+        "sunday",
+        "lula",
+        "covid",
+        "grata",
+        "michael hubbard",
+        "us",
+        "was lula",
+        "brazil",
+        "thanks",
+        "and",
+        "bolsonaro",
+        "tom phillips",
+        "acabou",
+        "edt",
+        "first",
+        "gilvray",
+        "many",
+        "jair bolsonaro",
+        "our",
+        "they",
+        "the guardian",
+        "silva",
+        "january",
+        "certainly",
+        "luiz in",
+        "el salvador",
+        "oct",
+        "argentina",
+        "tue",
+        "brazilians",
+        "dougie mc",
+        "person",
+        "mon",
+        "but",
+        "guardian",
+        "tom",
+        "updated\ntom phillips",
+        "latin america",
+        "will lula",
+        "colombia",
+        "latin american"
+      ],
+      "numbers": [],
+      "dates": [
+        "Oct 20",
+        "January 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 44
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c5fcb5f510a0ff664a2c2a0e",
+      "title": "Norway and Finland leaders hold rare call with Putin",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
+      "category": "国际",
+      "published_at": "2026-10-27T18:28:23+00:00",
+      "why_relevant": "北欧与普京罕见通话",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Norway and Finland leaders hold rare call with Putin - Published The leaders of Finland and Norway have held a joint call with Vladimir Putin - rare contact between the Russian president and European leaders.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282881+08:00",
+          "content_sha256": "6d0966ec1d9dc003307ded4e7a8261a4c2fcc7d5a83081d6239ad972541231ba",
+          "excerpt": "Norway and Finland leaders hold rare call with Putin - Published The leaders of Finland and Norway have held a joint call with Vladimir Putin - rare contact between the Russian president and European leaders.",
+          "sentence_hash": "f108e4c9010a1814d29b71540a0bb7aeed5df18e2d1633c0da3e204a49a1c1ea",
+          "anchors": [
+            "all",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Finland's President Alexander Stubb and Norwegian Prime Minister Jonas Gahr StÃ¸re said the aim of the call had been to \"convey messages directly regarding future negotiations\" towards peace.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282905+08:00",
+          "content_sha256": "6d0966ec1d9dc003307ded4e7a8261a4c2fcc7d5a83081d6239ad972541231ba",
+          "excerpt": "Finland's President Alexander Stubb and Norwegian Prime Minister Jonas Gahr StÃ¸re said the aim of the call had been to \"convey messages directly regarding future negotiations\" towards peace.",
+          "sentence_hash": "0cea6c06694c88916a8cf98e65095ccd81b6e822d025b50a5004b03a4249da67",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Neither side suggested the needle had been moved on ending the war, which began when Russia launched its full-scale invasion of Ukraine in 2022.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282927+08:00",
+          "content_sha256": "6d0966ec1d9dc003307ded4e7a8261a4c2fcc7d5a83081d6239ad972541231ba",
+          "excerpt": "Neither side suggested the needle had been moved on ending the war, which began when Russia launched its full-scale invasion of Ukraine in 2022.",
+          "sentence_hash": "48580f65d0f7b2305611d93d3c3b2cdcb666c0d1e6f8ab826f4075acd8d59640",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Although the Finnish leader said the conversation with Putin had been \"frank and substantive,\" StÃ¸re added that there were \"big differences in views\" with Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282946+08:00",
+          "content_sha256": "6d0966ec1d9dc003307ded4e7a8261a4c2fcc7d5a83081d6239ad972541231ba",
+          "excerpt": "Although the Finnish leader said the conversation with Putin had been \"frank and substantive,\" StÃ¸re added that there were \"big differences in views\" with Putin.",
+          "sentence_hash": "8d21766c5adc8d30ad32a2343d1bbf25fbf782645250dc90d0e3952dbfb0f354",
+          "anchors": [
+            "there"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Several European leaders have recently shown willingness to engage with Russia directly, but both Stubb and StÃ¸re pointed out their initiative was taken in their capacity as neighbours of Russia, rather than on behalf of Europe as a whole.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282970+08:00",
+          "content_sha256": "6d0966ec1d9dc003307ded4e7a8261a4c2fcc7d5a83081d6239ad972541231ba",
+          "excerpt": "Several European leaders have recently shown willingness to engage with Russia directly, but both Stubb and StÃ¸re pointed out their initiative was taken in their capacity as neighbours of Russia, rather than on behalf of Europe as a whole.",
+          "sentence_hash": "821630d01bb86c0808f9c6985ea24e253b7eda3c134486e57f53f26826d1608e",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Stubb added the call had been prepared in consultation with Ukraine and the US following a meeting between Ukrainian President Volodymyr Zelensky, the Nordic leaders and US special envoy Steve Witkoff in Oslo last week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.282997+08:00",
+          "content_sha256": "6d0966ec1d9dc003307ded4e7a8261a4c2fcc7d5a83081d6239ad972541231ba",
+          "excerpt": "Stubb added the call had been prepared in consultation with Ukraine and the US following a meeting between Ukrainian President Volodymyr Zelensky, the Nordic leaders and US special envoy Steve Witkoff in Oslo last week.",
+          "sentence_hash": "e2b5d8ea567dc39bb733e3378b7ef330933f6507cfb040abc49dcfbce9d43dfc",
+          "anchors": [
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "several european",
+        "ukraine",
+        "norway",
+        "foreign minister andrii sybiha",
+        "russian",
+        "november",
+        "zelensky",
+        "us",
+        "all",
+        "vladimir putin",
+        "european",
+        "danish",
+        "norwegian prime minister jonas gahr st",
+        "published\nthe",
+        "president alexander stubb",
+        "there",
+        "europe",
+        "putin",
+        "helsinki",
+        "russia",
+        "neither",
+        "finnish",
+        "swedish",
+        "finland",
+        "steve witkoff",
+        "ukrainian president volodymyr zelensky",
+        "stubb",
+        "abu dhabi",
+        "the kremlin",
+        "nordic",
+        "oslo",
+        "eu",
+        "although"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_4814301478c44590c1ba4a3d",
+      "title": "How investors can position ahead of the Fed's next policy decision",
+      "url": "https://www.cnbc.com/2026/10/27/how-investors-can-position-ahead-of-into-the-feds-next-policy-decision.html",
+      "publisher": "CNBC",
+      "summary": "The Federal Reserve's October rate decision has been a focus for investors and economists as Chairman Kevin Warsh has rejected traditional forward guidance.",
+      "category": "财经",
+      "published_at": "2026-10-27T21:18:47+00:00",
+      "why_relevant": "美联储决策前瞻",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The Federal Reserve's October rate decision has been a focus for investors and economists as Chairman Kevin Warsh has rejected traditional forward guidance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.283725+08:00",
+          "content_sha256": "5bd33f24dde5b9d07349572a4433eac41fd293aee447b059ee89560fb1678209",
+          "excerpt": "The Federal Reserve's October rate decision has been a focus for investors and economists as Chairman Kevin Warsh has rejected traditional forward guidance.",
+          "sentence_hash": "33c26d26dfcd7267933ca000ed6d4ab9fe130a3689434ec05d9f29fb5ca7e55f",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Fed officials are widely expected to keep rates unchanged, with the CME Group's FedWatch tool showing a roughly 90% chance the central bank's target range for the federal funds rate remains at 3.75% to 4%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.283757+08:00",
+          "content_sha256": "5bd33f24dde5b9d07349572a4433eac41fd293aee447b059ee89560fb1678209",
+          "excerpt": "Fed officials are widely expected to keep rates unchanged, with the CME Group's FedWatch tool showing a roughly 90% chance the central bank's target range for the federal funds rate remains at 3.75% to 4%.",
+          "sentence_hash": "d0359b71aa6ef10fe33046ecbf2277da9a3f6c77ca53ac596c74978f77b91414",
+          "anchors": [
+            "4%",
+            "3.75%",
+            "ai",
+            "90%",
+            "fed"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "But Warsh's tone and commentary in the news conference following Wednesday's announcement will be closely watched, with EY-Parthenon chief economist Gregory Daco calling it a \"delicate balancing exercise\" with real implications for the markets.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.283784+08:00",
+          "content_sha256": "5bd33f24dde5b9d07349572a4433eac41fd293aee447b059ee89560fb1678209",
+          "excerpt": "But Warsh's tone and commentary in the news conference following Wednesday's announcement will be closely watched, with EY-Parthenon chief economist Gregory Daco calling it a \"delicate balancing exercise\" with real implications for the markets.",
+          "sentence_hash": "28e107d6cfaba1bddc9881d6cef219d807a4799cc3fe630d0313205d5c64289b",
+          "anchors": [
+            "then",
+            "watch"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "\"While he will want to avoid forward guidance, he cannot risk the Fed's credibility by saying the Fed simply wants more time to assess the data, as that would undermine the urgency of the September move and could lead to a bond market selloff.\" Here is how a select group of inves",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.283834+08:00",
+          "content_sha256": "5bd33f24dde5b9d07349572a4433eac41fd293aee447b059ee89560fb1678209",
+          "excerpt": "\"While he will want to avoid forward guidance, he cannot risk the Fed's credibility by saying the Fed simply wants more time to assess the data, as that would undermine the urgency of the September move and could lead to a bond market selloff.\" Here is how a select group of inves",
+          "sentence_hash": "d0cbe613b394f2e1fc71cc5e97d90131fa02db9b4e37d14985ae74e5e30f673b",
+          "anchors": [
+            "group"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The case for commodities SoFi chief market strategist Liz Thomas said investors should increase exposure to commodities regardless of the Fed's rate path going forward.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.283855+08:00",
+          "content_sha256": "5bd33f24dde5b9d07349572a4433eac41fd293aee447b059ee89560fb1678209",
+          "excerpt": "The case for commodities SoFi chief market strategist Liz Thomas said investors should increase exposure to commodities regardless of the Fed's rate path going forward.",
+          "sentence_hash": "42153468e1bfefb386e063d2c82b41f5f2e8d28436b35ffac368eb248c6d51ca",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"I think what you want to do right now is have exposure to all the different scenarios,\" said Thomas.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-28T08:02:56.283871+08:00",
+          "content_sha256": "5bd33f24dde5b9d07349572a4433eac41fd293aee447b059ee89560fb1678209",
+          "excerpt": "\"I think what you want to do right now is have exposure to all the different scenarios,\" said Thomas.",
+          "sentence_hash": "8dfd36118360e20be0e20578a7d6ef2be8e2b892a19a7f423e55aafd75e4bf58",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "rosen",
+        "thomas",
+        "here",
+        "pdbc",
+        "valero",
+        "etf",
+        "phillips",
+        "silvia",
+        "daco",
+        "watch",
+        "george acheampong",
+        "while",
+        "september",
+        "group",
+        "energy",
+        "cme",
+        "liz thomas",
+        "parthenon",
+        "chairman kevin warsh",
+        "but warsh",
+        "october",
+        "capitalwize",
+        "fed",
+        "warsh",
+        "invesco optimum yield diversified commodity strategy",
+        "ytd",
+        "phil rosen",
+        "oct",
+        "iran",
+        "wednesday",
+        "marathon petroleum",
+        "playing",
+        "the federal reserve",
+        "xle",
+        "apa",
+        "ey",
+        "then",
+        "ai",
+        "gregory daco"
+      ],
+      "numbers": [
+        "4%",
+        "51%",
+        "3.75%",
+        "55%",
+        "90%",
+        "0.59%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 45
       },
       "evidence_complete": true
     }

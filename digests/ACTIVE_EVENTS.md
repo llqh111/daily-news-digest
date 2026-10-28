@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-27 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-28 08:06。
+
+## GPT-6.1 Terra
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：26th October 2026 - Link Blog GPT-6.1 Terra (via) It's always interesting to note which aspects of a new model are emphasized in the release announcement.
+- 事件 ID：`evt_20261028_660153ef8887`
+
+## Global carmakers search for new China strategy as market share slips below 30%
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：Global carmakers search for new China strategy as market share slips below 30% Carmakers are scrambling to revamp their strategies as China’s cash-strapped consumers turn away from expensive foreign brands Global carmakers are searching for a way to survive in China’s cutthroat m
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_aaaae1c5b1c9`
+
+## Ukraine's Zelenskiy says territory recaptured, forces on the offensive
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261028_5d2271ef7ab0`
+
+## NVIDIA/SkillSpector
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：Security scanner for AI agent skills.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_b2c303344398`
+
+## Anthropic IPO warns its AI could blackmail people, become sentient, end humanity
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：But amid the numbers and forward-looking optimism about AI “rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,” Anthropic also spends an inordinate amount of time in its S-
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_c040eda5bafe`
+
+## Retell uses OpenAI models to help power 100M monthly calls
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：Retell uses OpenAI models to help power 100M monthly calls GPT‑6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.
+- 事件 ID：`evt_20261028_42e8a25466a2`
+
+## Israel election turnout highest in decades
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：First vote since October 7 2023 attack pits Netanyahu’s far-right coalition against opposition bloc in knife-edge contest
+- 仍待观察：正文未抓到
+- 事件 ID：`evt_20261028_4f2f88a3f2e7`
+
+## Trump administration may let more Russian diesel onto market, energy secretary tells CNBC
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：may allow more diesel fuel from Russia onto the global market depending on Moscow's behavior, Energy Secretary Chris Wright told CNBC in an interview Tuesday.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_34f6d1ca424c`
+
+## Iran war live: Pezeshkian says Middle East can solve own issues without US
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：Live updatesLive updates, Iran war live: Pezeshkian says Middle East can solve own issues without US Iranian president’s words came at summit for gas exporting countries in Russia.
+- 事件 ID：`evt_20261028_59ddd28ed2db`
+
+## Flávio Bolsonaro flees Brazil after presidential election loss, reports say
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：Bolsonaro allies told Metrópoles that he would land in Florida on Tuesday afternoon and planned to request political asylum.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_76c15c8de26e`
+
+## ‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second.
+- 事件 ID：`evt_20261028_f998a8a5fcea`
+
+## Norway and Finland leaders hold rare call with Putin
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：Norway and Finland leaders hold rare call with Putin - Published The leaders of Finland and Norway have held a joint call with Vladimir Putin - rare contact between the Russian president and European leaders.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_58b96c46e7cf`
+
+## How investors can position ahead of the Fed's next policy decision
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
+- 最新事实：The Federal Reserve's October rate decision has been a focus for investors and economists as Chairman Kevin Warsh has rejected traditional forward guidance.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_e4fd0ea63201`
 
 ## TauricResearch/TradingAgents
 - 状态：更新中；首见 2026-09-11；最近更新 2026-10-27
