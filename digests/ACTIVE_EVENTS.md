@@ -1,6 +1,81 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-28 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-29 08:07。
+
+## affaan-m/ECC
+- 状态：更新中；首见 2026-09-20；最近更新 2026-10-29
+- 最新事实：Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260920_418ecde63902`
+
+## Flávio Bolsonaro flees Brazil after presidential election loss, reports say
+- 状态：更新中；首见 2026-10-28；最近更新 2026-10-29
+- 最新事实："I did not flee Brazil; I left for the sake of Brazil," he said in his first statement since his departure.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261028_76c15c8de26e`
+
+## Fed holds fire on interest rates despite intensifying inflation
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261029_907d6c906718`
+
+## High-speed train crash kills at least 68 people in Spain
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：High-speed train crash kills at least 68 people in Spain - Published A high-speed train crash has killed at least 68 people and injured dozens more in central Spain.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_7ad4f0bd1557`
+
+## The October inflection point for vibe game development
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：The October inflection point for vibe game development 28th October 2026 I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable da
+- 事件 ID：`evt_20261029_8568dd32b786`
+
+## Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：Google has released its latest frontier model, Gemini 4 Carbon, offering “significant gains” in coding, agentic tasks, and cybersecurity.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_aea6736bedd8`
+
+## Fed meeting recap: Warsh says central bank will host fewer rate-setting meetings in future years
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：This is CNBC's live blog covering the Federal Reserve interest rate decision and Chairman Kevin Warsh's news conference.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_0b37791328cc`
+
+## Google shares tumble 10% after $51bn AI outlay deepens cash burn
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：Search giant admits its ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261029_f4950322c086`
+
+## Google parent's revenue jumps 25% as homegrown AI chips take on Nvidia
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_d2d99ccfb30c`
+
+## nightly-labs/openbot
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：OpenBot is a local-first desktop workspace for persistent AI teammates.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_6621fd864563`
+
+## Netanyahu's bloc leading Israel election but short of majority, partial results show
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：With 85% of ballots counted, Netanyahu's Likud party and its far-right and ultra-Orthodox Jewish allies were on track to win 53 seats in the 120-seat Knesset.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_fa08fc5ed06d`
+
+## Mizuho's US track record pays off with role in Anthropic IPO
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：The Japanese bank group came to investment banking later than its domestic peers.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_ae0d3d26fd22`
+
+## EU backs away from offer to Canada to start ‘associate member’ talks
+- 状态：更新中；首见 2026-10-29；最近更新 2026-10-29
+- 最新事实：The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261029_97174b2351db`
 
 ## GPT-6.1 Terra
 - 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
@@ -51,12 +126,6 @@
 - 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
 - 最新事实：Live updatesLive updates, Iran war live: Pezeshkian says Middle East can solve own issues without US Iranian president’s words came at summit for gas exporting countries in Russia.
 - 事件 ID：`evt_20261028_59ddd28ed2db`
-
-## Flávio Bolsonaro flees Brazil after presidential election loss, reports say
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：Bolsonaro allies told Metrópoles that he would land in Florida on Tuesday afternoon and planned to request political asylum.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_76c15c8de26e`
 
 ## ‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions
 - 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
@@ -631,12 +700,6 @@
 - 最新事实：Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261019_4af6502804a0`
-
-## affaan-m/ECC
-- 状态：更新中；首见 2026-09-20；最近更新 2026-10-17
-- 最新事实：Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260920_418ecde63902`
 
 ## Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
 - 状态：更新中；首见 2026-10-17；最近更新 2026-10-17

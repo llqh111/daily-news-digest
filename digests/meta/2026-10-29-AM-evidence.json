@@ -1,0 +1,1751 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_2d87d642799d903663296e7f",
+      "headline": "Fed holds fire on interest rates despite intensifying inflation",
+      "confirmed_facts": [],
+      "entities": [
+        "central"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/f31fccd8-e9b6-4b01-989d-790ca6bb4d29?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.419817+08:00",
+          "content_sha256": "a8625c95c891e2b9fe994894a8efdd3a09d4a5bcaf9979cd400f8679ba7dbd27"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.419859+08:00",
+          "content_sha256": "688c466e0aacb35ea1de371e63230bf0d6eb8f123c9de651434a5580915d15fb"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.419873+08:00",
+          "content_sha256": "7bf298d4ebcd350c54ab23796bfcf81ba09f973d73e63074d0767dc031999505"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.419885+08:00",
+          "content_sha256": "ed437a3dfe86931ad6e14f6503e44bec3998c84833f7b42c22ec1293e71e1e7b"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.419897+08:00",
+          "content_sha256": "332a90169bc4fda300ae78b591447a5f70d2689802adfd39d24d252edb51ec48"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 1
+      },
+      "summary": "Central bank to vote on monetary policy seven times next year in shift from decades-old custom of having eight such meetings",
+      "category": "财经",
+      "published_at": "2026-10-28T21:32:08+00:00",
+      "why_relevant": "美联储按兵不动",
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_d7c14ddd2293f1afcac0ddfb",
+      "headline": "High-speed train crash kills at least 68 people in Spain",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "High-speed train crash kills at least 68 people in Spain - Published A high-speed train crash has killed at least 68 people and injured dozens more in central Spain.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.422341+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213",
+          "excerpt": "High-speed train crash kills at least 68 people in Spain - Published A high-speed train crash has killed at least 68 people and injured dozens more in central Spain.",
+          "sentence_hash": "271025d70db2cd5785f2275ae584c72cc7b7ad0b3f8c301b55e89fb83e8fb51e",
+          "anchors": [
+            "high",
+            "68 people"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It occurred when a train travelling from Madrid to Seville barrelled into another train - which was stationary on the tracks - on Wednesday morning.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.422370+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213",
+          "excerpt": "It occurred when a train travelling from Madrid to Seville barrelled into another train - which was stationary on the tracks - on Wednesday morning.",
+          "sentence_hash": "e6cf7c3c90fc218b9cbb6299dd2a273e3af5135c6e8fa122eb98a9a3f08e2614",
+          "anchors": [
+            "another"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The transport minister said a computer failure followed by human error caused the crash, which is one of the worst in Europe's modern history, and Spain's deadliest train disaster in 13 years.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.422398+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213",
+          "excerpt": "The transport minister said a computer failure followed by human error caused the crash, which is one of the worst in Europe's modern history, and Spain's deadliest train disaster in 13 years.",
+          "sentence_hash": "045de0a8e1e386f76fe9c2f6a5653f7be4ac03f349fc65adb4cabccba45fb3d4",
+          "anchors": [
+            "transport minister",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Survivors described harrowing scenes of passengers being thrown into the air, trapped in the wreckage and smashing windows to get out.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.422418+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213",
+          "excerpt": "Survivors described harrowing scenes of passengers being thrown into the air, trapped in the wreckage and smashing windows to get out.",
+          "sentence_hash": "f9a9870723dbca2c9c60e14d4b537b333bc42181f5c8fc49ce4b987677730f7d",
+          "anchors": [
+            "passengers"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stationary train, run by private rail operator Iryo, had 147 passengers on board, and had stopped on the tracks because of a computer failure, Spain's Transport Minister Ãscar Puente said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.422446+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213",
+          "excerpt": "The stationary train, run by private rail operator Iryo, had 147 passengers on board, and had stopped on the tracks because of a computer failure, Spain's Transport Minister Ãscar Puente said.",
+          "sentence_hash": "86eb55bd384572062d52e91043836855766aed047d1274575f80a1adac3091cc",
+          "anchors": [
+            "passengers"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "He explained that when there is a system failure, a 24-hour control centre in Madrid takes over, but it had made an \"inexplicable\" decision to instruct the trains to move again, without any speed restrictions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.422470+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213",
+          "excerpt": "He explained that when there is a system failure, a 24-hour control centre in Madrid takes over, but it had made an \"inexplicable\" decision to instruct the trains to move again, without any speed restrictions.",
+          "sentence_hash": "357d6fbaec03a61609f1455d6559b8a4d9ef5dc2877da951dbe034e5d81f6371",
+          "anchors": [
+            "there"
+          ]
+        }
+      ],
+      "entities": [
+        "spanish",
+        "renfe",
+        "survivors",
+        "pictures",
+        "tangui binier",
+        "binier",
+        "one",
+        "europe",
+        "gmt",
+        "passengers",
+        "antonio jim",
+        "published",
+        "barca",
+        "mora",
+        "wednesday",
+        "seville",
+        "transport minister",
+        "el pais",
+        "another",
+        "bbc",
+        "puente",
+        "salvador arriza",
+        "reuters",
+        "there",
+        "high",
+        "spain",
+        "orgaz",
+        "madrid",
+        "iryo"
+      ],
+      "numbers": [
+        "68 people"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.421274+08:00",
+          "content_sha256": "84b303d0e57ded62aa72423a0a74107a83541bd3b0a8e8ce6a8c30f1cd35a213"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.421520+08:00",
+          "content_sha256": "0722fbe7fb8025f32b801e1c5b151017580211c5f5fc1837c35ebedd8ee4b86e"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.421538+08:00",
+          "content_sha256": "df372eb4ec719e58cba9d29d6914315d0db99dfd63c04e253ea7ac07f3df00a9"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 30
+      },
+      "summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+      "category": "国际",
+      "published_at": "2026-10-28T21:38:54+00:00",
+      "why_relevant": "西班牙高铁事故",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_497e6c28abef0165c964854e",
+      "headline": "The October inflection point for vibe game development",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The October inflection point for vibe game development 28th October 2026 I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable da",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.423451+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c",
+          "excerpt": "The October inflection point for vibe game development 28th October 2026 I’ve written before about how November 2025 was an inflection point for coding agents—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable da",
+          "sentence_hash": "b68e7521d320e08856c257fd64e32cfec209069883a9dd0da7a649ea53a24e88",
+          "anchors": [
+            "game",
+            "ai",
+            "November 20",
+            "October 20",
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "I think we’ve reached a new inflection point in October 2026, and this time it’s for vibe coding computer games.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.423478+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c",
+          "excerpt": "I think we’ve reached a new inflection point in October 2026, and this time it’s for vibe coding computer games.",
+          "sentence_hash": "0008d5182830a9c8cd8179bbe1a501a1ce55d39261dc1b9a711c553635e2c9b1",
+          "anchors": [
+            "October 20",
+            "game",
+            "think"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Claude Opus 5.5 in particular exhibits meaningful improvements in several areas needed to build a compelling game: - 3D modeling - Music generation (see Scrimshaw Jukebox) - Game design (!) That last one is particularly important.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.423507+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c",
+          "excerpt": "Claude Opus 5.5 in particular exhibits meaningful improvements in several areas needed to build a compelling game: - 3D modeling - Music generation (see Scrimshaw Jukebox) - Game design (!) That last one is particularly important.",
+          "sentence_hash": "7817758523badad0b25f71bda201149ba9ca58df4dc5e1f3d6ac7826970649ef",
+          "anchors": [
+            "build",
+            "game"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Models have been able to create something that looks like a game for quite a while now, as seen in my previous experiments.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.423528+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c",
+          "excerpt": "Models have been able to create something that looks like a game for quite a while now, as seen in my previous experiments.",
+          "sentence_hash": "2912dbff86f96d4704a2cbb80c04fc805eb2ffad178bf77723147ea9c82c4022",
+          "anchors": [
+            "game"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The challenge has been getting to a game that’s actually fun to play.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.423545+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c",
+          "excerpt": "The challenge has been getting to a game that’s actually fun to play.",
+          "sentence_hash": "b4febb92d2d556b79f4b2f2f9951788264fbcbde095093d3295a2b3008c07fe9",
+          "anchors": [
+            "game",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Creating a novel, compelling gameplay loop which challenges players at the right level and provides a satisfying learning curve is a fine art.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.423575+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c",
+          "excerpt": "Creating a novel, compelling gameplay loop which challenges players at the right level and provides a satisfying learning curve is a fine art.",
+          "sentence_hash": "eda400a061d87d7269627782f77ba07cd7b981a266d4d923bc42a61e6654db70",
+          "anchors": [
+            "game",
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "opus",
+        "music",
+        "creating",
+        "tree appreciator",
+        "tree appreciator\nthe",
+        "ai",
+        "scrimshaw jukebox",
+        "skyline boulevard",
+        "claude",
+        "models",
+        "tree",
+        "november",
+        "astra",
+        "java",
+        "game",
+        "script",
+        "claude code",
+        "claude opus",
+        "make",
+        "all",
+        "berkeley",
+        "think",
+        "build",
+        "foo camp",
+        "building",
+        "gpt",
+        "lot",
+        "html",
+        "october",
+        "here",
+        "then",
+        "open",
+        "the october"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 20",
+        "November 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.422521+08:00",
+          "content_sha256": "c8e8fb083ea02dd9ee7454db4d2ece6acc8c9dc70ff1521eecdcbbd7aaaeb43c"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games.\n\n\n  Tree Appreciator\n  Emberwick\n  Battle Drones\n  Pumpkin Farmer, aka Quarter Sun Cove\n  Four times as insulting\n  What happens if someone ac",
+      "category": "科技",
+      "published_at": "2026-10-28T13:55:15+00:00",
+      "why_relevant": "编码Agent拐点分析",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_0643df24b69720e51fbdf3f5",
+      "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Google has released its latest frontier model, Gemini 4 Carbon, offering “significant gains” in coding, agentic tasks, and cybersecurity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.424195+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2",
+          "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering “significant gains” in coding, agentic tasks, and cybersecurity.",
+          "sentence_hash": "97e58930980525c10e8aed6eecc80af6e63e9604cbb3fa004d769b4a3ad1f05d",
+          "anchors": [
+            "sec",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In an announcement on Wednesday, Google highlights Carbon’s top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.424220+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2",
+          "excerpt": "In an announcement on Wednesday, Google highlights Carbon’s top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind.",
+          "sentence_hash": "76904651dfe77c88e4c4169ca429f4454879d59641b693c93cdc69fb6ff75868",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity Gemini 4 Carbon is outperforming the top models from OpenAI and Anthropic on some benchmarks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.424242+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2",
+          "excerpt": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity Gemini 4 Carbon is outperforming the top models from OpenAI and Anthropic on some benchmarks.",
+          "sentence_hash": "991ae6764925e064e838a23596b460838718acce05a43825a33d85c3a8469140",
+          "anchors": [
+            "sec"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The new Gemini 4 Carbon model offers improvements over Argon, which Google released earlier this month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.424258+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2",
+          "excerpt": "The new Gemini 4 Carbon model offers improvements over Argon, which Google released earlier this month.",
+          "sentence_hash": "419abec2028e6a7932b5db4c4bc0212ef9143ba45ec58ca7caf0b0c57db9e9e5",
+          "anchors": [
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It’s currently only available to a select group of cybersecurity defense companies, but it will eventually expand to other partners in its Fairwind Program.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.424278+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2",
+          "excerpt": "It’s currently only available to a select group of cybersecurity defense companies, but it will eventually expand to other partners in its Fairwind Program.",
+          "sentence_hash": "0830ba23df8a4767ea4bbaf4bde3d7f6df65fc521ec62f7fd2f95cc2dabf8a30",
+          "anchors": [
+            "sec",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The company says Carbon reflects the “pace at which we’re pushing the frontier forward,” coming with a “significant leap” in cyberdefense that makes it better at finding vulnerabilities and generating secure code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.424302+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2",
+          "excerpt": "The company says Carbon reflects the “pace at which we’re pushing the frontier forward,” coming with a “significant leap” in cyberdefense that makes it better at finding vulnerabilities and generating secure code.",
+          "sentence_hash": "8604e4f8c81176b74d65b7a720c5000bfe744ac6aed175884ef5d2ebaf22c0bb",
+          "anchors": [
+            "sec"
+          ]
+        }
+      ],
+      "entities": [
+        "claude opus",
+        "carbon",
+        "ai",
+        "argon",
+        "exploit",
+        "wednesday",
+        "gpt",
+        "artificial analysis intelligence index",
+        "pro",
+        "astra",
+        "anthropic",
+        "sec",
+        "google",
+        "gym",
+        "fairwind program",
+        "gemini",
+        "open"
+      ],
+      "numbers": [
+        "$2 ",
+        "$10 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Verge",
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+          "canonical_url": null,
+          "hostname": "www.theverge.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-29T08:03:00.423619+08:00",
+          "content_sha256": "42dc18876d6c5b2d5802df741763a5d5ba7fe93ce17f2b3b084e8a456b7154c2"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-10-28T20:03:00+00:00",
+      "why_relevant": "Gemini 4安全能力",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_ccf09c92027242c1e79c255e",
+      "headline": "Fed meeting recap: Warsh says central bank will host fewer rate-setting meetings in future years",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "This is CNBC's live blog covering the Federal Reserve interest rate decision and Chairman Kevin Warsh's news conference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425285+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda",
+          "excerpt": "This is CNBC's live blog covering the Federal Reserve interest rate decision and Chairman Kevin Warsh's news conference.",
+          "sentence_hash": "20b85c0f36f41923d93813a28d7b28cf8e8d3fc75ee360f262afbe1965529016",
+          "anchors": [
+            "ai",
+            "inte"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The Federal Reserve held steady on rates at the conclusion of its October meeting, maintaining its target range of 3.75% to 4%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425307+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda",
+          "excerpt": "The Federal Reserve held steady on rates at the conclusion of its October meeting, maintaining its target range of 3.75% to 4%.",
+          "sentence_hash": "d9b3b06bbbfde9975f347eee2dfc49c284080baf0565d212ec04f2c77072d3df",
+          "anchors": [
+            "3.75%",
+            "ai",
+            "4%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Two members of the Federal Open Market Committee dissented from the decision: Governor Lisa Cook and Cleveland Fed President Beth Hammack were in favor of raising rates by a quarter percentage point.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425333+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda",
+          "excerpt": "Two members of the Federal Open Market Committee dissented from the decision: Governor Lisa Cook and Cleveland Fed President Beth Hammack were in favor of raising rates by a quarter percentage point.",
+          "sentence_hash": "30189075e0d998e266bbb56d65559c92e9fa6ff2b0704917429dd9593a434c08",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Fed Chairman Kevin Warsh announced that the central bank will reduce the number of rate-setting meetings starting in 2027, noting that while eight meetings per year is \"the right number\" for the FOMC, one of them will focus exclusively on broad monetary policy strategy starting i",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425363+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda",
+          "excerpt": "Fed Chairman Kevin Warsh announced that the central bank will reduce the number of rate-setting meetings starting in 2027, noting that while eight meetings per year is \"the right number\" for the FOMC, one of them will focus exclusively on broad monetary policy strategy starting i",
+          "sentence_hash": "34c67a9221421e4449eb7045c058591f0a28ddfb1c12a4ac375c83830187a346",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The remainder will be policy-setting meetings.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425375+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda",
+          "excerpt": "The remainder will be policy-setting meetings.",
+          "sentence_hash": "d28c928375671df79254987ff4c7be7720aa77d3e942af7cd5c974f1a5fd2a20",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In 2028, the Fed will plan to host two meetings focused on strategy discussions and the remaining six will be centered on policy setting, Warsh said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425395+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda",
+          "excerpt": "In 2028, the Fed will plan to host two meetings focused on strategy discussions and the remaining six will be centered on policy setting, Warsh said.",
+          "sentence_hash": "0ac0a7968465638f80cc7acdab79bf4646d9a8cf0af0d533db1ce1545f228bfb",
+          "anchors": [
+            "two",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "hours ago\nwarsh",
+        "cleveland fed president beth hammack",
+        "two",
+        "ai",
+        "the federal reserve",
+        "line capital",
+        "closing bell",
+        "federal reserve",
+        "governor lisa cook",
+        "chief investment officer",
+        "inte",
+        "you",
+        "chairman kevin warsh",
+        "gundlach",
+        "double",
+        "fred imbert",
+        "ceo",
+        "hours ago\nfederal reserve",
+        "jeffrey gundlach",
+        "broadly",
+        "fomc",
+        "warsh",
+        "treasury",
+        "scott schnipper",
+        "line",
+        "cnbc",
+        "jeffrey gundlach\ninflation",
+        "fed",
+        "nobel prize",
+        "federal open market committee",
+        "but",
+        "october",
+        "fed chairman kevin warsh"
+      ],
+      "numbers": [
+        "3.75%",
+        "4.714%",
+        "4%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html",
+          "canonical_url": null,
+          "hostname": "www.cnbc.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-29T08:03:00.424345+08:00",
+          "content_sha256": "b217c48b68a59b84227954ef6b39845a12d151c2c4f3aed2f768e9cd78df0eda"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.424521+08:00",
+          "content_sha256": "dac6d133853218e65c611c10ec13d121a1330a94b57dcdf44300640687a62e60"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.424532+08:00",
+          "content_sha256": "037a95af3658937a51d721453fa980cda518410d96e4bf6ff50f75fea469caf6"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "summary": "The Federal Reserve held steady on rates at the conclusion of its October meeting, maintaining its target range of 3.75% to 4%.",
+      "category": "财经",
+      "published_at": "2026-10-28T21:02:56+00:00",
+      "why_relevant": "美联储会议纪要",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_8e2ed1c5705ccfe2424a21f0",
+      "headline": "Google shares tumble 10% after $51bn AI outlay deepens cash burn",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Search giant admits its ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.425535+08:00",
+          "content_sha256": "e9f90523b6a6098d11b60fcce5ea4b9be20124f853e4a3f9392854d8d9a64b54",
+          "excerpt": "Search giant admits its ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
+          "sentence_hash": "be577294a9e9783d089d0383d25e3a9548f704bb6940473ab34b23c362f00754",
+          "anchors": [
+            "search"
+          ]
+        }
+      ],
+      "entities": [
+        "ai",
+        "search"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.425449+08:00",
+          "content_sha256": "e9f90523b6a6098d11b60fcce5ea4b9be20124f853e4a3f9392854d8d9a64b54"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.425471+08:00",
+          "content_sha256": "819bb7f771eecd588cdcde25d7dc6538e1c29880385e7397b7ec89b7909b6a82"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 2
+      },
+      "summary": "Search giant admits its ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
+      "category": "财经",
+      "published_at": "2026-10-28T23:27:01+00:00",
+      "why_relevant": "谷歌AI烧钱大跌",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_c2f86ba190788d175fa03fd0",
+      "headline": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "\"I did not flee Brazil; I left for the sake of Brazil,\" he said in his first statement since his departure.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.426402+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927",
+          "excerpt": "\"I did not flee Brazil; I left for the sake of Brazil,\" he said in his first statement since his departure.",
+          "sentence_hash": "4841b451ab3da9130793799850d8d9882c72fa2bd739be1fd1d10777e069e4c9",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Bolsonaro's arrival in Florida ended days of confusion over his whereabouts, after he was reported to have travelled to Argentina, and then prematurely reported to have already entered the US on Tuesday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.426439+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927",
+          "excerpt": "Bolsonaro's arrival in Florida ended days of confusion over his whereabouts, after he was reported to have travelled to Argentina, and then prematurely reported to have already entered the US on Tuesday.",
+          "sentence_hash": "dc8fc783f2492d15085a21f6d3849d9caa0c957cbced78c7e633add0e69a53f9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "On Wednesday, Trump declined to discuss the allegations made in Bolsonaro's letter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.426470+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927",
+          "excerpt": "On Wednesday, Trump declined to discuss the allegations made in Bolsonaro's letter.",
+          "sentence_hash": "931616fe0e4fe312e36a16ee1abe6ab9a7711355966026cbb45b9154e0ea7c12",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It was a very strange election, that's for sure,\" Trump said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.426485+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927",
+          "excerpt": "It was a very strange election, that's for sure,\" Trump said.",
+          "sentence_hash": "ebd6ac953057fba0c8b39705a4d7e54ed8afb81b3e391eb4399d410854c87497",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The result was confirmed by the president of Brazil's top electoral court, who was appointed by Bolsonaro's father, former president Jair Bolsonaro.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.426510+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927",
+          "excerpt": "The result was confirmed by the president of Brazil's top electoral court, who was appointed by Bolsonaro's father, former president Jair Bolsonaro.",
+          "sentence_hash": "5cd464e52640aeed1c2f693f0d5e58d15d03e90d5fdfb6618720993418ad51d2",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Brazilian police took the rumours seriously.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.426529+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927",
+          "excerpt": "Brazilian police took the rumours seriously.",
+          "sentence_hash": "0e561276709baec5f19c1a619d6b636d74a918d3c9121582332593511b365f3a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "silva",
+        "newly",
+        "president donald trump",
+        "trump",
+        "american",
+        "early",
+        "florida",
+        "argentina",
+        "lula",
+        "brazilian",
+        "president luiz in",
+        "brazil",
+        "published\nbrazilian senator fl",
+        "argentine",
+        "jair bolsonaro",
+        "sunday",
+        "on wednesday",
+        "for",
+        "speculation",
+        "after bolsonaro",
+        "tuesday",
+        "bolsonaro",
+        "miami"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.425584+08:00",
+          "content_sha256": "29cffeb3ed0fff641f7c6d7fe0ff5617a78043f350d0523390bf9fd01c5d0927"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.425749+08:00",
+          "content_sha256": "d79b169eb2a1755d3d7f4e5ffd198658b5f6583b295ef3d1cd2b7104eba2118e"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.425761+08:00",
+          "content_sha256": "98bc5f170eea3c185bbbbdc4131232938ca8176470b5af465d3ee69c37cbc293"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.425773+08:00",
+          "content_sha256": "864e8e4788ddf528f6c27854a89e054c6b4c664d7c34932d4192b92158eda997"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 24
+      },
+      "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "category": "国际",
+      "published_at": "2026-10-28T23:21:48+00:00",
+      "why_relevant": "巴西选举逃亡",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_f613ef5d3b3c3a901013e5e8",
+      "headline": "Google parent's revenue jumps 25% as homegrown AI chips take on Nvidia",
+      "confirmed_facts": [],
+      "entities": [
+        "palo",
+        "california",
+        "tensor processing units",
+        "alto",
+        "ai",
+        "google",
+        "nvidia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/business/technology/google-parent-s-revenue-jumps-25-as-homegrown-ai-chips-take-on-nvidia",
+          "canonical_url": null,
+          "hostname": "asia.nikkei.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-29T08:03:00.426567+08:00",
+          "content_sha256": "d861d85d22a66fcb6831d43bf0353909dc69fc312c73f94df7a8619dda95c0e1"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.426592+08:00",
+          "content_sha256": "244530993e0810713edfb22d6a30f60163171baae399ad94fa6aca94cb85b263"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 7
+      },
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "谷歌自研AI芯片",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_4686a0b0b129c8973ef384db",
+      "headline": "affaan-m/ECC",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.427610+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা Warning Official sources only.",
+          "sentence_hash": "819b381c8b137edea75e3c753b9e5c6119de8a56d458e6f0245c4543864154a4",
+          "anchors": [
+            "繁體中文",
+            "简体中文",
+            "日本語"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.427644+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages ecc-universal and ecc-agentshield, the GitHub App, the plugin slug ecc@ecc, and the project website ecc.tools.",
+          "sentence_hash": "590576aacf7621dcea7499c9e5665ea84001a44d0dbdfaf6031511a6d11bda30",
+          "anchors": [
+            "hub",
+            "pro",
+            "ecc",
+            "agent",
+            "shield",
+            "git"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.427665+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware.",
+          "sentence_hash": "3440df42dd301770631700a4878b8e29b5c513ddd98a5adef891923918f2fc54",
+          "anchors": [
+            "pro"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Both install the same ecc@ecc plugin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.427684+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Both install the same ecc@ecc plugin.",
+          "sentence_hash": "3e9898bd253d465f5a7f8ab3a95ffba6bdabc7e919ad6a22ded0f0c00f137447",
+          "anchors": [
+            "ecc",
+            "install"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Choose one and do not stack a full manual Claude install on top.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.427702+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "Choose one and do not stack a full manual Claude install on top.",
+          "sentence_hash": "970762a6ba91eeb509aca252b3da80a8540184fc2863eb8950653974a5fb6265",
+          "anchors": [
+            "install"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "This repo is MIT-licensed forever.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.427718+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91",
+          "excerpt": "This repo is MIT-licensed forever.",
+          "sentence_hash": "37b4782f9b8d6bc338f8f47718ee6dee98bd5598eb772c077cd929052a282f0f",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "third",
+        "warning\nofficial",
+        "for claude code",
+        "node",
+        "atlas cloud",
+        "mike morgan",
+        "install",
+        "ecc",
+        "instead",
+        "open power",
+        "oss",
+        "windows start",
+        "zed",
+        "global",
+        "hub app",
+        "hub copilot",
+        "claude",
+        "deutsch",
+        "qwen",
+        "qoder",
+        "brasil",
+        "persist",
+        "confirm",
+        "繁體中文",
+        "portugu",
+        "espa",
+        "partners",
+        "important",
+        "cursor",
+        "polski",
+        "community",
+        "use",
+        "optimize",
+        "see",
+        "claude code",
+        "for",
+        "mit",
+        "git",
+        "language",
+        "both",
+        "access",
+        "english",
+        "kimi code",
+        "run",
+        "日本語",
+        "path",
+        "your",
+        "install node",
+        "hub",
+        "pro",
+        "agent",
+        "sponsors",
+        "past",
+        "codex",
+        "code",
+        "antigravity",
+        "choose",
+        "简体中文",
+        "open",
+        "gemini",
+        "shield",
+        "shell"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/affaan-m/ECC",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-29T08:03:00.426711+08:00",
+          "content_sha256": "e35c707c0ee8e82f4d9851f9174d3985ee352f8fe5eab1477dcdbdba45dc6f91"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 62
+      },
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.https://ecc.tools   \n  \n   \n    \n    \n     \n   \n    \n    \n     \n Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা  \n      \n      \n    \n         \n\n \n  \n   \n  Warning\n Official sources only. Install ECC only from veri",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code优化系统",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_296f1c71bfc95cb06687bf69",
+      "headline": "nightly-labs/openbot",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenBot is a local-first desktop workspace for persistent AI teammates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.428551+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e",
+          "excerpt": "OpenBot is a local-first desktop workspace for persistent AI teammates.",
+          "sentence_hash": "04391a9049832ba20e1b5830790ef27ac084e42fd121d11af130c37c2c90f50e",
+          "anchors": [
+            "local",
+            "persistent",
+            "per"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It supports the local Codex App Server and Claude Code, plus Grok CLI, OpenCode, Gemini, Cursor CLI, and Cline CLI through ACP.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.428575+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e",
+          "excerpt": "It supports the local Codex App Server and Claude Code, plus Grok CLI, OpenCode, Gemini, Cursor CLI, and Cline CLI through ACP.",
+          "sentence_hash": "99d8612cd8d73d3a2bc6322d202cf11fec40ed08a1564b25d4342346923354e5",
+          "anchors": [
+            "local"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.428600+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e",
+          "excerpt": "It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app.",
+          "sentence_hash": "461f6db28ce6076dc40db429c4e21fe0b940e5464bd436b97f5d8c875b38a109",
+          "anchors": [
+            "local",
+            "agent",
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Agents currently run with danger-full-access and approvalPolicy: never.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.428620+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e",
+          "excerpt": "Agents currently run with danger-full-access and approvalPolicy: never.",
+          "sentence_hash": "3578a09842f6050063a8177a5951ae7dc0e1561251926be4c42a26213a23a1f6",
+          "anchors": [
+            "run",
+            "app"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They can read and modify files, run commands, use the network, and control the embedded browser without per-action confirmations after the explicit first-launch consent.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.428644+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e",
+          "excerpt": "They can read and modify files, run commands, use the network, and control the embedded browser without per-action confirmations after the explicit first-launch consent.",
+          "sentence_hash": "01ec8a0c6ed60a7666bd6beab7263a90d8f655566bb57e8f4274dd448f3e58a1",
+          "anchors": [
+            "run",
+            "per"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Run only agents and tasks you trust, keep backups, and review Security before use.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.428660+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e",
+          "excerpt": "Run only agents and tasks you trust, keep backups, and review Security before use.",
+          "sentence_hash": "8067c1bec3b7106a84f67d449f9c59d04ae871d93bb3fb1335c67e3cb8e2d1e5",
+          "anchors": [
+            "agent",
+            "agents"
+          ]
+        }
+      ],
+      "entities": [
+        "per",
+        "fifo",
+        "applications",
+        "ai",
+        "windows",
+        "download",
+        "intel mac",
+        "codex app server",
+        "security",
+        "drag open",
+        "claude",
+        "reassign",
+        "bot",
+        "hub releases",
+        "acp",
+        "cursor",
+        "google",
+        "prompt",
+        "optional open",
+        "claude code",
+        "stop",
+        "cloudflare workers",
+        "git",
+        "they",
+        "studio",
+        "restore",
+        "image",
+        "local",
+        "optional computer use",
+        "persistent",
+        "cline",
+        "shared",
+        "lm",
+        "agents",
+        "ollama",
+        "run",
+        "archive",
+        "resume",
+        "linux",
+        "intel",
+        "policy",
+        "apple",
+        "custom open",
+        "agent",
+        "anthropic",
+        "codex",
+        "app",
+        "code",
+        "api",
+        "open",
+        "gemini",
+        "grok",
+        "warning\nopen",
+        "cli"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/nightly-labs/openbot",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-29T08:03:00.427755+08:00",
+          "content_sha256": "a71f03f4d77810864ea57b290e196584ffd39f3eb95eb0db9f03d5d87233f97e"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 54
+      },
+      "summary": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.https://openbot.run/OpenBot \n  \nOpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local Codex App Server and Claude Code, plus Grok CLI, OpenCode, Gemini, Cursor CLI, and Cline CLI through ACP. It gives every agent its own workspace and conversation, and provides local",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "本地多Agent协作",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_e4a31e39fa663564d7c7534c",
+      "headline": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "With 85% of ballots counted, Netanyahu's Likud party and its far-right and ultra-Orthodox Jewish allies were on track to win 53 seats in the 120-seat Knesset.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429536+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8",
+          "excerpt": "With 85% of ballots counted, Netanyahu's Likud party and its far-right and ultra-Orthodox Jewish allies were on track to win 53 seats in the 120-seat Knesset.",
+          "sentence_hash": "8e1f8605b06552fe27d9d8c331d87feeb2cbb43e751489af7e621747608853f1",
+          "anchors": [
+            "85%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Arab-led parties, who are on course to win an unprecedented 19 seats, could emerge as kingmakers, but all but one of the Jewish parties have pledged not to work with them.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429566+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8",
+          "excerpt": "Arab-led parties, who are on course to win an unprecedented 19 seats, could emerge as kingmakers, but all but one of the Jewish parties have pledged not to work with them.",
+          "sentence_hash": "2cc0958e7ea155001eca3586e21493ade330ffbb0cfe5f09f74e6de74000095a",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Once they are confirmed, President Isaac Herzog will hold consultations with all the political factions and invite the leader whom he believes has the best chance of success to form a government - a process that could take weeks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429596+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8",
+          "excerpt": "Once they are confirmed, President Isaac Herzog will hold consultations with all the political factions and invite the leader whom he believes has the best chance of success to form a government - a process that could take weeks.",
+          "sentence_hash": "29fe396945a40dc36ae14f018423391b5659e81ebe55c7365ddd8732d6a9f2ab",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "If they fail, then ultimately there would have to be another election.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429611+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8",
+          "excerpt": "If they fail, then ultimately there would have to be another election.",
+          "sentence_hash": "71b44ae9b0bb4bc40dda3732b93daae1c645ed54546ed55208458d46a7e27c6c",
+          "anchors": [
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Here are four scenarios - Published9 hours ago - Netanyahu and Eisenkot face difficult paths to power as neither set to win majority - Published13 hours ago During a meeting at his residence in Jerusalem, Herzog praised the 77.7% turnout in Tuesday's election, which was the count",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429642+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8",
+          "excerpt": "Here are four scenarios - Published9 hours ago - Netanyahu and Eisenkot face difficult paths to power as neither set to win majority - Published13 hours ago During a meeting at his residence in Jerusalem, Herzog praised the 77.7% turnout in Tuesday's election, which was the count",
+          "sentence_hash": "7242c1722b5312150527ff5c44ca13e878bd16927164c328e391fb7bb53d61da",
+          "anchors": [
+            "77.7%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "He added that he expected to receive the official results next week, after which he would begin discussions with every faction.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429664+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8",
+          "excerpt": "He added that he expected to receive the official results next week, after which he would begin discussions with every faction.",
+          "sentence_hash": "9567404bf4fdfa2ebf8b0a0f495f732d30404ce0b831f2dd2471e38b2f7bdd6e",
+          "anchors": [
+            "with"
+          ]
+        }
+      ],
+      "entities": [
+        "tuesday",
+        "jewish",
+        "both",
+        "israeli",
+        "published\npartial",
+        "zionist",
+        "published",
+        "israel",
+        "jerusalem",
+        "once",
+        "later",
+        "tel aviv",
+        "arab",
+        "eisenkot",
+        "likud",
+        "gadi eisenkot",
+        "yashar",
+        "president isaac herzog",
+        "prime minister benjamin netanyahu",
+        "herzog",
+        "netanyahu",
+        "here",
+        "with",
+        "knesset",
+        "orthodox jewish",
+        "during",
+        "change bloc"
+      ],
+      "numbers": [
+        "77.7%",
+        "85%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.428717+08:00",
+          "content_sha256": "35b02086237de8867d335d5397ea5a2c5845d060d2d606347509b828d5dcbcc8"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.428871+08:00",
+          "content_sha256": "583c258563235b9f80bcf5d0fa10cd81a634e1f44462916ffe8ddc662be1677a"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "category": "国际",
+      "published_at": "2026-10-28T20:24:39+00:00",
+      "why_relevant": "以色列选举动态",
+      "relevance_score": 6.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_885b2f60957e5836f4e0af2b",
+      "headline": "Mizuho's US track record pays off with role in Anthropic IPO",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The Japanese bank group came to investment banking later than its domestic peers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.429862+08:00",
+          "content_sha256": "e6d4d589c20790d6154b2d07ea5fecc5ef3bf7108fa2a9464a6dfbb874c24f88",
+          "excerpt": "The Japanese bank group came to investment banking later than its domestic peers.",
+          "sentence_hash": "7e638d47ed770cbac176439c34f70851ebcf18a1eec29386abfd71270b6d80df",
+          "anchors": [
+            "bank"
+          ]
+        }
+      ],
+      "entities": [
+        "mizuho financial group",
+        "the japanese",
+        "anthropic",
+        "soft",
+        "japan",
+        "york",
+        "japanese",
+        "space",
+        "bank",
+        "mizuho",
+        "new york"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/business/finance/mizuho-s-us-track-record-pays-off-with-role-in-anthropic-ipo",
+          "canonical_url": null,
+          "hostname": "asia.nikkei.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-29T08:03:00.429705+08:00",
+          "content_sha256": "e6d4d589c20790d6154b2d07ea5fecc5ef3bf7108fa2a9464a6dfbb874c24f88"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-29T08:03:00.429735+08:00",
+          "content_sha256": "768470c143a24c985d42abfd1edea3935ddd0f6134c18e965d2f8807db1568f2"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 11
+      },
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "Anthropic IPO承销",
+      "relevance_score": 6.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_55db52d537adf094c55e6c47",
+      "headline": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.430754+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99",
+          "excerpt": "The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal.",
+          "sentence_hash": "d3a65af44c2c55fcff953b32c77bf965aa5c740d0b5021d51ce932c63c5d5b3b",
+          "anchors": [
+            "associate"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The issue was triggered after the European Commission president, Ursula von der Leyen, surprised nearly everyone by announcing in last month’s state of the union address that the EU would consider “associate membership” for Canada.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.430789+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99",
+          "excerpt": "The issue was triggered after the European Commission president, Ursula von der Leyen, surprised nearly everyone by announcing in last month’s state of the union address that the EU would consider “associate membership” for Canada.",
+          "sentence_hash": "f1505241e488df410035103f8762068a53c33c74439e7c43b42cab8838413aeb",
+          "anchors": [
+            "von",
+            "associate"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "But instead of announcing a work programme on developing “associate membership”, the draft communique, seen by the Guardian, states the two sides would “work to define by the 2027 EU-Canada summit the concept of an ever closer association of Canada to the EU, short of full member",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.430835+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99",
+          "excerpt": "But instead of announcing a work programme on developing “associate membership”, the draft communique, seen by the Guardian, states the two sides would “work to define by the 2027 EU-Canada summit the concept of an ever closer association of Canada to the EU, short of full member",
+          "sentence_hash": "eb7fdaa4395f02f3a1d003730b9af55fce04ca73769d4f12e4986921c17f536d",
+          "anchors": [
+            "associate"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Given “associate status” has no definition, diplomats wondered about such issues as whether Canada could join the European Council, legislative bodies or decision-making processes without a vote.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.430865+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99",
+          "excerpt": "Given “associate status” has no definition, diplomats wondered about such issues as whether Canada could join the European Council, legislative bodies or decision-making processes without a vote.",
+          "sentence_hash": "a584464ebf1328291a3fc36f50a4e55754e6cd66c4bc4955cf37c7e163c926c2",
+          "anchors": [
+            "associate"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "At a meeting on Monday, ambassadors in the EU raised concerns about the dramatic offer, but vowed to make efforts to seek a diplomatic path to rescinding the offer of “associate” membership without embarrassing Von der Leyen.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.430894+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99",
+          "excerpt": "At a meeting on Monday, ambassadors in the EU raised concerns about the dramatic offer, but vowed to make efforts to seek a diplomatic path to rescinding the offer of “associate” membership without embarrassing Von der Leyen.",
+          "sentence_hash": "888da1020e9195160a97164307d1c8dd09f4e5263b106d8a2fd4c81cc09cd80c",
+          "anchors": [
+            "but",
+            "associate"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "It is understood that Italy suggested “associate membership as proposed by the commission”, with the definition to be thrashed out later by member states.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-29T08:03:00.430916+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99",
+          "excerpt": "It is understood that Italy suggested “associate membership as proposed by the commission”, with the definition to be thrashed out later by member states.",
+          "sentence_hash": "bb7748bcd8c7225b365fb7ef2c3c30c4d0e1acb2e0740fff1dac0c2f42d503ea",
+          "anchors": [
+            "associate"
+          ]
+        }
+      ],
+      "entities": [
+        "montreal",
+        "ukraine",
+        "mark carney",
+        "davos",
+        "guardian",
+        "italy",
+        "european council",
+        "montenegro",
+        "nobody",
+        "von",
+        "ursula",
+        "croatia",
+        "european commission",
+        "associate",
+        "leyen",
+        "monday",
+        "friday",
+        "canada",
+        "january",
+        "many",
+        "thursday",
+        "but",
+        "germany",
+        "given",
+        "eu"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-29T08:03:00.429901+08:00",
+          "content_sha256": "a36713879dce062e4741b25b7aa62372cf035c3b4ce55c3620eec80b374cba99"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 25
+      },
+      "summary": "Watered-down version of statement to be issued at end of Montreal summit instead offers ‘ever closer association’The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal.A draft of a joint statement to be issued after the end of the summit, which runs Thursday and Friday, showed a watered-down version offering “an ever closer association of Canada to the EU,",
+      "category": "国际",
+      "published_at": "2026-10-28T21:27:33+00:00",
+      "why_relevant": "欧盟对加拿大政策",
+      "relevance_score": 6.0
+    }
+  ]
+}
