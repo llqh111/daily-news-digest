@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-29 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-30 08:06。
+
+## obra/superpowers
+- 状态：更新中；首见 2026-09-10；最近更新 2026-10-30
+- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_4b107807fac9`
+
+## Ukraine's Zelenskiy: We have intelligence of new Russian ballistic missile strikes
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261030_a8d78d293cc8`
+
+## Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available — original $999 MSRP long forgotten, with prices now 2-3x higher Nvidia RTX 50-series GPU prices just haven't stopped going up The Nvidia GeForce RTX 5080, Nvi
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_4683bb23d60a`
+
+## A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：Earlier this year, sources tell WIRED, a contractor caused a security incident at the Department of Defense by connecting a secure centralized system used by multiple intelligence agencies to their personal account for Claude Code, Anthropic’s AI coding agent.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_6496dc3bf4b5`
+
+## Binance 'potential security issue' sees $2.54 billion frozen by the likes of Circle, Tether
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：Several crypto firms, including Circle Internet Group and Tether, on Thursday froze $2.54 billion of funds tied to a potential hack on cryptocurrency exchange Binance.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_bb4171d74c79`
+
+## European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：ECB head Christine Lagarde to step down in February October 29, 2026 Christine Lagarde, who has headed the European Central Bank for seven years, has announced that she is stepping down prematurely from the position.
+- 事件 ID：`evt_20261030_3d258fccd428`
+
+## Palestinians face growing bans from Al-Aqsa as Israel tightens control
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：And with his latest exclusion order extending the ban until April 2027, the Palestinian preacher – the head of the Higher Islamic Council in Jerusalem – is among those facing Israeli restrictions at the site – the third holiest in Islam and a Palestinian national symbol.
+- 事件 ID：`evt_20261030_b02c88fc1b51`
+
+## Russian drone attack on Ukrainian train station kills at least 14, officials say
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：Russian drone attack on Ukrainian train station kills at least 14, officials say - Published At least 14 people have been killed after a Russian jet-powered drone hit a crowded platform at the main railway station in the central Ukrainian city of Dnipro, local officials have said
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_ebc00fe0ecde`
+
+## Building a multiplayer game world with autonomous Fable-class models
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：29th October 2026 - Link Blog How I Built the Most AI-Pilled Company in the World.
+- 事件 ID：`evt_20261030_4d2fe8590f81`
+
+## Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：Intel shares plummeted more than 20% in extended trading on Thursday after the chipmaker issued a weak fourth-quarter forecast, citing continued softness in the global PC market.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_c134f4e416ce`
+
+## Amazon sinks as AI spending eclipses fastest cloud growth in five years
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261030_5f16a473938c`
+
+## EU chief lays out vision for new Canada partnership at Montreal summit
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：EU chief lays out vision for new Canada partnership at Montreal summit - Published European Commission President Ursula von der Leyen has laid out her vision for what an "associate membership" status for Canada to the EU would look like as officials gather in Montreal to discuss 
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_6f572626532c`
+
+## ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears
+- 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
+- 最新事实：ServiceNow shares sank 27% on Thursday and recorded their worst day on record after the enterprise software company's third-quarter results underwhelmed, reigniting artificial intelligence disruption concerns.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261030_3a4875ba555b`
 
 ## affaan-m/ECC
 - 状态：更新中；首见 2026-09-20；最近更新 2026-10-29
