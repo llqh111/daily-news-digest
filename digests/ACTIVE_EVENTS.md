@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-30 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-31 08:07。
+
+## thedotmack/claude-mem
+- 状态：更新中；首见 2026-10-10；最近更新 2026-10-31
+- 最新事实：🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261010_f9bc3c9eedd3`
+
+## Wall Street drops to its worst day since June after tech sell-off deepens
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261031_9324acbfd84a`
+
+## Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a "complex" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261031_f8f2229db442`
+
+## How crypto hacking funds isolated North Korea’s nuclear programme
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.
+- 事件 ID：`evt_20261031_832d3779127c`
+
+## US tech stocks tumble as concerns over AI spending intensify
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261031_148773f069bf`
+
+## Stocks fall on AI cash burn worries while bonds rally with oil
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261031_b36749d37cba`
+
+## Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261031_5a1b86e49682`
+
+## European Central Bank head resigns, allowing EU leaders to choose successor before French election
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261031_04a2b490b0bb`
+
+## Canada and EU announce new alliance open to like-minded countries
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261031_c129da5705d6`
+
+## Poland deploys riot police, as court chief’s ousting sparks crisis
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261031_acfbd44449b4`
+
+## Anthropic orders AI tool Claude to stop remaking video games
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：Anthropic orders AI tool Claude to stop remaking video games Update: Anthropic has confirmed it's released an update to Opus 5.5 to "steer" Claude Code away from "recreating someone else's specific game." It appears Anthropic may be (quietly) taking action to stem the flood of AI
+- 事件 ID：`evt_20261031_b503453d7719`
+
+## A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：The AI software-development platform Cursor, which is owned by SpaceX, had a malicious Anthropic Claude Code extension for Windows, macOS, and Linux live in its integrated development environment extension marketplace for roughly 11 hours on Thursday.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261031_4a04aa85d7ce`
+
+## CopilotKit/OpenBot
+- 状态：更新中；首见 2026-10-31；最近更新 2026-10-31
+- 最新事实：The AI assistant your company can actually own.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261031_7155f1ae17ec`
 
 ## obra/superpowers
 - 状态：更新中；首见 2026-09-10；最近更新 2026-10-30
@@ -1140,12 +1212,6 @@
 - 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
 - 最新事实：Eritrean troops in Ethiopia raise fears of a regional war October 9, 2026 Various sources have confirmed the presence of Eritrean armed forces in Ethiopia.
 - 事件 ID：`evt_20261010_d7facddddbd5`
-
-## thedotmack/claude-mem
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_f9bc3c9eedd3`
 
 ## Claude Haiku 5.5
 - 状态：更新中；首见 2026-10-10；最近更新 2026-10-10

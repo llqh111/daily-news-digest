@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T00:07:55.761132+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-31.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-30.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_abfb15cc861e115223884332",
+      "title": "Wall Street drops to its worst day since June after tech sell-off deepens",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372800/wall-street-drops-its-worst-day-june-after-tech-sell-deepens",
+      "publisher": "SCMP",
+      "summary": "A sell-off for tech stocks got even worse on Friday on worries that Wall Street’s frenzy around artificial intelligence technology sent prices too high.\nThe S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week. The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.\nThe US stock market remains only 3.1 per cent below its...",
+      "category": "国际",
+      "published_at": "2026-10-30T22:01:13+00:00",
+      "why_relevant": "AI泡沫担忧引发美股大跌",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855129+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
+          "sentence_hash": "6fb77d2519ce8314f40dfe5d293bffddf710b239d7bf8758a443cab31701e9cd",
+          "anchors": [
+            "worries"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855163+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
+          "sentence_hash": "ba09c970aac824fb7607c42a6f64cd17c5da2b1ab15771a9c36db82dec4072af",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855195+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
+          "sentence_hash": "1c40a2e55f47f3309b2b4ec1819be9151d5b353bb6bdf573ce013ad72a4e8804",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855230+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
+          "sentence_hash": "9cf1cdde3f234afb90e6306c20faa56d6bc81a2e4d0902143c11e01fac135f44",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "june",
+        "ai",
+        "tuesday",
+        "worries",
+        "wall street",
+        "nasdaq",
+        "us",
+        "dow jones industrial average",
+        "friday"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 9
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_adbd094c735021692ad1b9d7",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "category": "国际",
+      "published_at": "2026-10-30T21:13:14+00:00",
+      "why_relevant": "币安遭朝鲜黑客巨额窃案",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856857+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "sentence_hash": "5f66b69d4df4ba08a46bd250312132b152f6bf856824ad03bda7cc30819a5164",
+          "anchors": [
+            "cryptocurrency",
+            "$6.3",
+            "crypto"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856894+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "sentence_hash": "7a21e6cc44d9270734a551aad13edf18c7de28908d0fc6a38e0acf9b8556a3c3",
+          "anchors": [
+            "$3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856921+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "sentence_hash": "6ebcbf78a9dba33df905673cf68504e61e79f63098a28b174fe96de9b2a12c13",
+          "anchors": [
+            "initially"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856951+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "sentence_hash": "20d7f758ebf7360320f6781d35d37f7008e5a125922dfe8f24a41583c07f2255",
+          "anchors": [
+            "$1.5"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856992+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "sentence_hash": "99a3f9bd1a66b943c657fd1a45da8d9cf281c96ce633a4a0b813062118089981",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.857028+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "sentence_hash": "67db53fa15797250182e29df23318715a1f36b0ff7376a6c329e616c12c361a7",
+          "anchors": [
+            "crypto"
+          ]
+        }
+      ],
+      "entities": [
+        "circle",
+        "new york",
+        "several",
+        "cryptocurrency",
+        "secret service",
+        "north korean",
+        "dev",
+        "america",
+        "coinbase",
+        "us",
+        "ops",
+        "tether",
+        "friday",
+        "our",
+        "published",
+        "robinhood",
+        "initially",
+        "while binance",
+        "binance",
+        "the binance",
+        "published\nbinance",
+        "fbi",
+        "crypto",
+        "ceo",
+        "bybit",
+        "north korea",
+        "richard teng",
+        "bitcoin",
+        "teng"
+      ],
+      "numbers": [
+        "$6.34",
+        "$6.3",
+        "$3",
+        "$76,800 ",
+        "$1.5",
+        "12%",
+        "5%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_ae80c127d1bf2e414cce6c9c",
+      "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+      "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+      "publisher": "The Guardian",
+      "summary": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency incomeNorth Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit t",
+      "category": "国际",
+      "published_at": "2026-10-30T17:37:46+00:00",
+      "why_relevant": "加密黑客资助朝鲜核武",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858434+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
+          "sentence_hash": "5d8e73e924b42f88c311ee4b9fe7777befb9410731602cf1b39a06716041ca79",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858476+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
+          "sentence_hash": "4f1345e30db1627a0040fa47fa772fa322c5d31914e2ccba593530026fa86330",
+          "anchors": [
+            "un",
+            "$6.3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858553+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "sentence_hash": "89d53e210677d0282b5a89fe5764e2534b707506bb5a98019548f7d262154529",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858589+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "sentence_hash": "590e7e7cea2ba0741a22c5b61caf07036279cd35712573cfda53f7babdff2125",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858617+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
+          "sentence_hash": "75643c04f3af3f5d8bb7643d7a1c09cbe5a867ff322eb454ce27e9c962ae3f7d",
+          "anchors": [
+            "un",
+            "one",
+            "40%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858658+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
+          "sentence_hash": "3f13ec6243b55104928b757f7208501672baeb30b2ce3fe20f84bc23626a156f",
+          "anchors": [
+            "un",
+            "experts",
+            "$3"
+          ]
+        }
+      ],
+      "entities": [
+        "trader",
+        "un",
+        "new york",
+        "ukraine",
+        "though",
+        "north korean",
+        "ciaran martin",
+        "labs",
+        "martin",
+        "bangladesh bank",
+        "russia",
+        "national cyber security centre",
+        "federal reserve bank",
+        "traitor",
+        "phil",
+        "lazarus group",
+        "but north korea",
+        "february",
+        "binance",
+        "fbi",
+        "one",
+        "over",
+        "uk",
+        "kim jong",
+        "bybit",
+        "trm",
+        "north korea",
+        "experts"
+      ],
+      "numbers": [
+        "40%",
+        "$951",
+        "$6.3",
+        "$3",
+        "$750",
+        "$1.5",
+        "$100"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_8eac02103f27f008d98e6755",
+      "title": "Canada and EU announce new alliance open to like-minded countries",
+      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "publisher": "The Guardian",
+      "summary": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, U",
+      "category": "国际",
+      "published_at": "2026-10-30T19:42:15+00:00",
+      "why_relevant": "加欧组建新联盟",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860601+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "sentence_hash": "fe0dc6319865fff1b8beea301015b5e5c0d3ac19e24f82bb5c6cf7ead59e68dc",
+          "anchors": [
+            "our",
+            "alliance",
+            "while",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860660+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "sentence_hash": "b9d8932ea5244bdafbe22410e4fc5c695a2eb6ed2af297ba5c0266df0631565e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860703+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
+          "sentence_hash": "3a2269c346828b7016d27092c2a72b421e929a9a93b75c87dca2a04c135f8f0c",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860737+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "sentence_hash": "f17a084d78a13901e97e4b326d221563dfd48ee7ab77033687a1c02f12a8dc0b",
+          "anchors": [
+            "future",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860784+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "sentence_hash": "90b7154d0b510fa1ef34b681e3c740746641977c7fc6c438c0ba222fd5d1a105",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860818+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "sentence_hash": "c1b76cd3b3debd2c95509a1ea2ea216da34c40f8e8417108d95b0fe613518ac2",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "elon musk",
+        "cohere",
+        "united states",
+        "ukraine",
+        "speaking",
+        "ai",
+        "mark carney",
+        "germany",
+        "eu",
+        "alliance",
+        "october",
+        "canada",
+        "last",
+        "future",
+        "aleph alpha gmb",
+        "ottawa",
+        "starlink",
+        "leyen",
+        "american",
+        "cohere inc",
+        "thursday",
+        "carney",
+        "european commission",
+        "while",
+        "liberal",
+        "berlin",
+        "starshield",
+        "friday",
+        "our",
+        "montreal",
+        "europe",
+        "toronto",
+        "ursula",
+        "musk",
+        "canadian",
+        "european",
+        "brussels",
+        "leaders",
+        "ukrainian"
+      ],
+      "numbers": [
+        "$1.6"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6cecbcf6fb3f295464c183be",
+      "title": "Poland deploys riot police, as court chief’s ousting sparks crisis",
+      "url": "https://www.scmp.com/news/world/europe/article/3372802/poland-deploys-riot-police-court-chiefs-ousting-sparks-crisis",
+      "publisher": "SCMP",
+      "summary": "Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot police deployed around the country’s constitutional court on Friday following the suspension of its chief justice in a battle between the centrist government and the nationalist right.\nDozens of police guarded the entrance to the court as followers of the opposition right-wing Law and Justice party (PiS) protested against the ousting of constitutional court president Bogdan Swieczkowski.\nThe court’s official...",
+      "category": "国际",
+      "published_at": "2026-10-30T23:43:02+00:00",
+      "why_relevant": "波兰宪政危机升级",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.861304+08:00",
+          "content_sha256": "93d767d86981448b601a2feb1a12b9431e5922188fdb56ac1b5b5be9c120135e",
+          "excerpt": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
+          "sentence_hash": "2a8712e1360f4c1a82cc088789345ba1a4a615f4cd1a408751856840c94e8cf3",
+          "anchors": [
+            "justice"
+          ]
+        }
+      ],
+      "entities": [
+        "law",
+        "poland",
+        "bogdan swieczkowski",
+        "president karol nawrocki",
+        "justice",
+        "warsaw",
+        "dozens",
+        "africa",
+        "tusk",
+        "prime minister donald tusk",
+        "friday"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 11
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    }
+  ]
+}

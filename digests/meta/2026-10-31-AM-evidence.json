@@ -1,0 +1,1535 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_abfb15cc861e115223884332",
+      "headline": "Wall Street drops to its worst day since June after tech sell-off deepens",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855129+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
+          "sentence_hash": "6fb77d2519ce8314f40dfe5d293bffddf710b239d7bf8758a443cab31701e9cd",
+          "anchors": [
+            "worries"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855163+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
+          "sentence_hash": "ba09c970aac824fb7607c42a6f64cd17c5da2b1ab15771a9c36db82dec4072af",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855195+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
+          "sentence_hash": "1c40a2e55f47f3309b2b4ec1819be9151d5b353bb6bdf573ce013ad72a4e8804",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.855230+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
+          "sentence_hash": "9cf1cdde3f234afb90e6306c20faa56d6bc81a2e4d0902143c11e01fac135f44",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "june",
+        "ai",
+        "tuesday",
+        "worries",
+        "wall street",
+        "nasdaq",
+        "us",
+        "dow jones industrial average",
+        "friday"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372800/wall-street-drops-its-worst-day-june-after-tech-sell-deepens",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-31T08:03:30.852876+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.853015+08:00",
+          "content_sha256": "ab2058ebf6dc057defda7a2b935c1e8a821eb41c2b6faa3471c368d275b66062"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.853037+08:00",
+          "content_sha256": "85c97a72389dc4a66ddbe9f267b2cb39a95204c593cdd21c2b289f21b7b52d85"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.853056+08:00",
+          "content_sha256": "7d005c22ce65a76e06f8530dd1f1d887acca8c1a6f422c178b3504f8a0958cbf"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 9
+      },
+      "summary": "A sell-off for tech stocks got even worse on Friday on worries that Wall Street’s frenzy around artificial intelligence technology sent prices too high.\nThe S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week. The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.\nThe US stock market remains only 3.1 per cent below its...",
+      "category": "国际",
+      "published_at": "2026-10-30T22:01:13+00:00",
+      "why_relevant": "AI泡沫担忧引发美股大跌",
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_adbd094c735021692ad1b9d7",
+      "headline": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856857+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "sentence_hash": "5f66b69d4df4ba08a46bd250312132b152f6bf856824ad03bda7cc30819a5164",
+          "anchors": [
+            "cryptocurrency",
+            "$6.3",
+            "crypto"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856894+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "sentence_hash": "7a21e6cc44d9270734a551aad13edf18c7de28908d0fc6a38e0acf9b8556a3c3",
+          "anchors": [
+            "$3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856921+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "sentence_hash": "6ebcbf78a9dba33df905673cf68504e61e79f63098a28b174fe96de9b2a12c13",
+          "anchors": [
+            "initially"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856951+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "sentence_hash": "20d7f758ebf7360320f6781d35d37f7008e5a125922dfe8f24a41583c07f2255",
+          "anchors": [
+            "$1.5"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856992+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "sentence_hash": "99a3f9bd1a66b943c657fd1a45da8d9cf281c96ce633a4a0b813062118089981",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.857028+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "sentence_hash": "67db53fa15797250182e29df23318715a1f36b0ff7376a6c329e616c12c361a7",
+          "anchors": [
+            "crypto"
+          ]
+        }
+      ],
+      "entities": [
+        "circle",
+        "new york",
+        "several",
+        "cryptocurrency",
+        "secret service",
+        "north korean",
+        "dev",
+        "america",
+        "coinbase",
+        "us",
+        "ops",
+        "tether",
+        "friday",
+        "our",
+        "published",
+        "robinhood",
+        "initially",
+        "while binance",
+        "binance",
+        "the binance",
+        "published\nbinance",
+        "fbi",
+        "crypto",
+        "ceo",
+        "bybit",
+        "north korea",
+        "richard teng",
+        "bitcoin",
+        "teng"
+      ],
+      "numbers": [
+        "$6.34",
+        "$6.3",
+        "$3",
+        "$76,800 ",
+        "$1.5",
+        "12%",
+        "5%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": null,
+          "hostname": "www.bbc.co.uk",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.855329+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.855828+08:00",
+          "content_sha256": "1348775b5000c27c523e772e4cc88a672aaaec27e771b9182ad1cdd7fd98912d"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.855853+08:00",
+          "content_sha256": "17c626277566eefbdd36949a5e66c5ce9e24ab775f67f068e842de61743de886"
+        },
+        {
+          "id": "source:corroboration:2",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.855869+08:00",
+          "content_sha256": "957bd0e92ab08ba417b0a92a8153f09df8e76c72bd1816a3ce22f61ce41182b3"
+        },
+        {
+          "id": "source:corroboration:3",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.855883+08:00",
+          "content_sha256": "e02716cc35ed053e887ed6e1968f26690873632b80735589da89f67d11561d7d"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "category": "国际",
+      "published_at": "2026-10-30T21:13:14+00:00",
+      "why_relevant": "币安遭朝鲜黑客巨额窃案",
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_ae80c127d1bf2e414cce6c9c",
+      "headline": "How crypto hacking funds isolated North Korea’s nuclear programme",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858434+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
+          "sentence_hash": "5d8e73e924b42f88c311ee4b9fe7777befb9410731602cf1b39a06716041ca79",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858476+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
+          "sentence_hash": "4f1345e30db1627a0040fa47fa772fa322c5d31914e2ccba593530026fa86330",
+          "anchors": [
+            "un",
+            "$6.3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858553+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "sentence_hash": "89d53e210677d0282b5a89fe5764e2534b707506bb5a98019548f7d262154529",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858589+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "sentence_hash": "590e7e7cea2ba0741a22c5b61caf07036279cd35712573cfda53f7babdff2125",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858617+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
+          "sentence_hash": "75643c04f3af3f5d8bb7643d7a1c09cbe5a867ff322eb454ce27e9c962ae3f7d",
+          "anchors": [
+            "un",
+            "one",
+            "40%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858658+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
+          "sentence_hash": "3f13ec6243b55104928b757f7208501672baeb30b2ce3fe20f84bc23626a156f",
+          "anchors": [
+            "un",
+            "experts",
+            "$3"
+          ]
+        }
+      ],
+      "entities": [
+        "trader",
+        "un",
+        "new york",
+        "ukraine",
+        "though",
+        "north korean",
+        "ciaran martin",
+        "labs",
+        "martin",
+        "bangladesh bank",
+        "russia",
+        "national cyber security centre",
+        "federal reserve bank",
+        "traitor",
+        "phil",
+        "lazarus group",
+        "but north korea",
+        "february",
+        "binance",
+        "fbi",
+        "one",
+        "over",
+        "uk",
+        "kim jong",
+        "bybit",
+        "trm",
+        "north korea",
+        "experts"
+      ],
+      "numbers": [
+        "40%",
+        "$951",
+        "$6.3",
+        "$3",
+        "$750",
+        "$1.5",
+        "$100"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.857093+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "summary": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency incomeNorth Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit t",
+      "category": "国际",
+      "published_at": "2026-10-30T17:37:46+00:00",
+      "why_relevant": "加密黑客资助朝鲜核武",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_70672214a41787c8e31f81c6",
+      "headline": "US tech stocks tumble as concerns over AI spending intensify",
+      "confirmed_facts": [],
+      "entities": [
+        "revelations",
+        "anthropic",
+        "ipo"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "FT",
+          "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+          "canonical_url": null,
+          "hostname": "www.ft.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.858734+08:00",
+          "content_sha256": "a724a8807485978726404ad53f4fdb08ce7d2e03b885a00064a919a1616843c3"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.858767+08:00",
+          "content_sha256": "45fb136ff3f6833cab3d68d44ab467d32c0e530311ddddd173b54ae15456c344"
+        },
+        {
+          "id": "source:corroboration:1",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.858783+08:00",
+          "content_sha256": "2745c5a8e3d44666efea82639e3875a6d425471968441926df4d5501431d8057"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "summary": "Revelations that Anthropic could receive junk rating after IPO add to concerns over industry borrowing spree",
+      "category": "财经",
+      "published_at": "2026-10-30T21:13:50+00:00",
+      "why_relevant": "AI支出风险冲击股市",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_3ab5bdfd7964153d2592dc4c",
+      "headline": "Stocks fall on AI cash burn worries while bonds rally with oil",
+      "confirmed_facts": [],
+      "entities": [
+        "reuters",
+        "stocks",
+        "ai"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Reuters Business",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODMxOENneGV3TmZjN25YblpGTWpPOWRUV3Boay12aGxXWENUbUFLTnJzUURrYklnTkZjUHVOTTFCNkM5V0luRXRLcExGdXJxSEt4SzhFNzNSZG9qQ0F2c3RWclhFVnMySTNvRkJITU9OTVZfZUZ1NFEwX2x2enZVNFhuX2x5bGxRMnA3NElR?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.858923+08:00",
+          "content_sha256": "84204f6fd9ffda0f0d53507a4f16f7106c953bf233befb1f9dbb01df3488e841"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "summary": "Stocks fall on AI cash burn worries while bonds rally with oil&nbsp;&nbsp;Reuters",
+      "category": "财经",
+      "published_at": "2026-10-30T02:45:00+00:00",
+      "why_relevant": "AI烧钱担忧拖累股市",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_40883ce82d02fe0c5426ac4f",
+      "headline": "Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets",
+      "confirmed_facts": [],
+      "entities": [
+        "hits third correction",
+        "nasdaq",
+        "bloomberg",
+        "unwinding tech stock bets"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT2hWVEFoNDNKaGNxWFRDTUxBZms0MmhXa1hMaGI2ck1jRUlOQzIyUzdHT09DMjQxNFBjNHRXRGV3NWdDZlBLR21TbFhyMXg5dVhhWkM4Q1FuTGdKWENyRmNWa2FqMkJHU0VpNUJQZlcxSG9UdWNOMHByRE94THJXeTNZSmhzX2ZHeTJ2VHA1UzM3WkRwNTQtVUYtM1Q3eGRrQ2Q5RWg4dXdCMzUzSlpIbWc2d1NMVjQ3XzJmN242dkIzUGkw?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.859062+08:00",
+          "content_sha256": "970d5d0460b0a9989cd9a8d4e16e2cbb5331d7822b40cb918c755c9b8d60d126"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "summary": "Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-10-30T18:57:15+00:00",
+      "why_relevant": "纳指年内三度回调",
+      "relevance_score": 8.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_383a2496aee5e04169c494bb",
+      "headline": "European Central Bank head resigns, allowing EU leaders to choose successor before French election",
+      "confirmed_facts": [],
+      "entities": [
+        "ap",
+        "eu",
+        "french",
+        "european central bank"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "AP",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0t1M2lJYVRDeHhmSWRYc01ONFJxdlNybDhYZWpzNzJBdFd6OGJ0TEh2SkdwTndiRzVsM3B5eERhaG10eng3MDZzM0JpMko2dnFiQkZSc0tNVXppX0xyck5wNmxQMV9LcmJuOEQ3cFpveldnRlRkcHh2MFkwRjVOU0JYTjdIV0JQTHVBYmo0ZkNyUQ?oc=5",
+          "canonical_url": null,
+          "hostname": "news.google.com",
+          "content_level": "summary",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.859212+08:00",
+          "content_sha256": "2ca4cf91e74d2526b951e4bc9f9b665a39a3830f7d86bc1fca062b6b324fc981"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "summary": "European Central Bank head resigns, allowing EU leaders to choose successor before French election&nbsp;&nbsp;AP News",
+      "category": "国际",
+      "published_at": "2026-10-30T03:42:00+00:00",
+      "why_relevant": "欧央行行长辞职",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_8eac02103f27f008d98e6755",
+      "headline": "Canada and EU announce new alliance open to like-minded countries",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860601+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "sentence_hash": "fe0dc6319865fff1b8beea301015b5e5c0d3ac19e24f82bb5c6cf7ead59e68dc",
+          "anchors": [
+            "our",
+            "alliance",
+            "while",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860660+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "sentence_hash": "b9d8932ea5244bdafbe22410e4fc5c695a2eb6ed2af297ba5c0266df0631565e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860703+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
+          "sentence_hash": "3a2269c346828b7016d27092c2a72b421e929a9a93b75c87dca2a04c135f8f0c",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860737+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "sentence_hash": "f17a084d78a13901e97e4b326d221563dfd48ee7ab77033687a1c02f12a8dc0b",
+          "anchors": [
+            "future",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860784+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "sentence_hash": "90b7154d0b510fa1ef34b681e3c740746641977c7fc6c438c0ba222fd5d1a105",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860818+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "sentence_hash": "c1b76cd3b3debd2c95509a1ea2ea216da34c40f8e8417108d95b0fe613518ac2",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "elon musk",
+        "cohere",
+        "united states",
+        "ukraine",
+        "speaking",
+        "ai",
+        "mark carney",
+        "germany",
+        "eu",
+        "alliance",
+        "october",
+        "canada",
+        "last",
+        "future",
+        "aleph alpha gmb",
+        "ottawa",
+        "starlink",
+        "leyen",
+        "american",
+        "cohere inc",
+        "thursday",
+        "carney",
+        "european commission",
+        "while",
+        "liberal",
+        "berlin",
+        "starshield",
+        "friday",
+        "our",
+        "montreal",
+        "europe",
+        "toronto",
+        "ursula",
+        "musk",
+        "canadian",
+        "european",
+        "brussels",
+        "leaders",
+        "ukrainian"
+      ],
+      "numbers": [
+        "$1.6"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+          "canonical_url": null,
+          "hostname": "www.theguardian.com",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-10-31T08:03:30.859348+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "summary": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, U",
+      "category": "国际",
+      "published_at": "2026-10-30T19:42:15+00:00",
+      "why_relevant": "加欧组建新联盟",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_6cecbcf6fb3f295464c183be",
+      "headline": "Poland deploys riot police, as court chief’s ousting sparks crisis",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.861304+08:00",
+          "content_sha256": "93d767d86981448b601a2feb1a12b9431e5922188fdb56ac1b5b5be9c120135e",
+          "excerpt": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
+          "sentence_hash": "2a8712e1360f4c1a82cc088789345ba1a4a615f4cd1a408751856840c94e8cf3",
+          "anchors": [
+            "justice"
+          ]
+        }
+      ],
+      "entities": [
+        "law",
+        "poland",
+        "bogdan swieczkowski",
+        "president karol nawrocki",
+        "justice",
+        "warsaw",
+        "dozens",
+        "africa",
+        "tusk",
+        "prime minister donald tusk",
+        "friday"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3372802/poland-deploys-riot-police-court-chiefs-ousting-sparks-crisis",
+          "canonical_url": null,
+          "hostname": "www.scmp.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-31T08:03:30.860876+08:00",
+          "content_sha256": "93d767d86981448b601a2feb1a12b9431e5922188fdb56ac1b5b5be9c120135e"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.860962+08:00",
+          "content_sha256": "bbd1bd4a5f4c27222f8d63864c6717f4a199c123475e6b4271ca5f73d85e82ae"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 11
+      },
+      "summary": "Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot police deployed around the country’s constitutional court on Friday following the suspension of its chief justice in a battle between the centrist government and the nationalist right.\nDozens of police guarded the entrance to the court as followers of the opposition right-wing Law and Justice party (PiS) protested against the ousting of constitutional court president Bogdan Swieczkowski.\nThe court’s official...",
+      "category": "国际",
+      "published_at": "2026-10-30T23:43:02+00:00",
+      "why_relevant": "波兰宪政危机升级",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_116eaaea5aaa7f1b4129750f",
+      "headline": "Anthropic orders AI tool Claude to stop remaking video games",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic orders AI tool Claude to stop remaking video games Update: Anthropic has confirmed it's released an update to Opus 5.5 to \"steer\" Claude Code away from \"recreating someone else's specific game.\" It appears Anthropic may be (quietly) taking action to stem the flood of AI",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.862652+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406",
+          "excerpt": "Anthropic orders AI tool Claude to stop remaking video games Update: Anthropic has confirmed it's released an update to Opus 5.5 to \"steer\" Claude Code away from \"recreating someone else's specific game.\" It appears Anthropic may be (quietly) taking action to stem the flood of AI",
+          "sentence_hash": "81ebf6ebac708bcc62dde53ac27957ab63f76ea4aac911411b3774930f81f48e",
+          "anchors": [
+            "and",
+            "game",
+            "update",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Earlier today X (formerly Twitter) user Chasm said that they spotted an update to Claude Code's \"rules\" that was pushed sometime on October 27.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.862685+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406",
+          "excerpt": "Earlier today X (formerly Twitter) user Chasm said that they spotted an update to Claude Code's \"rules\" that was pushed sometime on October 27.",
+          "sentence_hash": "92dd802e2d637f9a2c33e5bae9b0af0564535a6221fd4a6c388e1040b973bcf9",
+          "anchors": [
+            "October 27",
+            "update",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The rule is listed under \"tengu_heron_brook,\" and reads \"Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.862718+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406",
+          "excerpt": "The rule is listed under \"tengu_heron_brook,\" and reads \"Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "sentence_hash": "4abdbba1f468d4b9328696e81dd590f0901d2b67428c55df65b320ddb8304df9",
+          "anchors": [
+            "game",
+            "original",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Do not build a recreation of a specific existing game, even if it is renamed or called original.\" Chasm reports that there is no way to disable the rule.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.862750+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406",
+          "excerpt": "Do not build a recreation of a specific existing game, even if it is renamed or called original.\" Chasm reports that there is no way to disable the rule.",
+          "sentence_hash": "dbec6a8660103cc4a26f2fb37092f93def499090b229acde5aa8b64143790bca",
+          "anchors": [
+            "game",
+            "original"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "\"We added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game because using Claude to infringe IP is against our usage policy,\" Osmani wrote.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.862787+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406",
+          "excerpt": "\"We added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game because using Claude to infringe IP is against our usage policy,\" Osmani wrote.",
+          "sentence_hash": "ae9c921c0fde5511e551605e899cc95c48f44c3cc788f6db622555f803b7589b",
+          "anchors": [
+            "game",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"Original games, genre games, and games built from your own designs and assets are meant to keep working.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.862810+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406",
+          "excerpt": "\"Original games, genre games, and games built from your own designs and assets are meant to keep working.",
+          "sentence_hash": "82d7dbc210ce2d17210556db6bbcd0ec18efd42f43abc9b16ae742650e7ec75e",
+          "anchors": [
+            "game",
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "chasm",
+        "while",
+        "ai",
+        "scientists",
+        "game",
+        "october",
+        "earlier",
+        "vamp",
+        "ip",
+        "update",
+        "claude code",
+        "south korea",
+        "developer",
+        "twitter",
+        "claude",
+        "addy osmani",
+        "original",
+        "digital sun games",
+        "fear",
+        "osmani",
+        "steam",
+        "an anthropic",
+        "valve",
+        "developers",
+        "and",
+        "anthropic",
+        "opus"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 27"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GameDeveloper",
+          "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+          "canonical_url": null,
+          "hostname": "www.gamedeveloper.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-31T08:03:30.861366+08:00",
+          "content_sha256": "83e5d47f15cc73e30da820ff485397eb59865123284a80650a6ccf55f9562406"
+        },
+        {
+          "id": "source:corroboration:0",
+          "role": "corroboration",
+          "publisher": "Unknown",
+          "url": "",
+          "canonical_url": null,
+          "hostname": "",
+          "content_level": "headline",
+          "trust_tier": "unknown",
+          "captured_at": "2026-10-31T08:03:30.861650+08:00",
+          "content_sha256": "6110166c61d2d3bccbbf8ff4ed3ae43066ba79a2b01d302457e4cf73b399d4c8"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "summary": "Update: Anthropic has confirmed it's released an update to Opus 5.5 to \"steer\" Claude Code away from \"recreating someone else's specific game.\"",
+      "category": "科技",
+      "published_at": "2026-10-30T18:52:20+00:00",
+      "why_relevant": "Claude限制游戏复刻",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_d29683289abe8657d0744760",
+      "headline": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The AI software-development platform Cursor, which is owned by SpaceX, had a malicious Anthropic Claude Code extension for Windows, macOS, and Linux live in its integrated development environment extension marketplace for roughly 11 hours on Thursday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.863880+08:00",
+          "content_sha256": "fb3dc48b3fe6c9bc83c5f362714e6c69e26ed3d042789629cf5c41a4f475844c",
+          "excerpt": "The AI software-development platform Cursor, which is owned by SpaceX, had a malicious Anthropic Claude Code extension for Windows, macOS, and Linux live in its integrated development environment extension marketplace for roughly 11 hours on Thursday.",
+          "sentence_hash": "d7c86e2c118eeb21ba775c4979090587ea18dd402fc3d6f6f310b906b39432c2",
+          "anchors": [
+            "mac"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The tainted extension was designed with a backdoor to give attackers access to victim devices—the type of implant that malicious hackers often use as a stepping stone to deeper control inside a target network.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.863927+08:00",
+          "content_sha256": "fb3dc48b3fe6c9bc83c5f362714e6c69e26ed3d042789629cf5c41a4f475844c",
+          "excerpt": "The tainted extension was designed with a backdoor to give attackers access to victim devices—the type of implant that malicious hackers often use as a stepping stone to deeper control inside a target network.",
+          "sentence_hash": "65940b4379424d84c091a1db69a338e7ff1f3ccb57066c794d11891108f9f2af",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "But Cursor said in its Thursday security alert that “these malicious versions of the extension were not developed by Anthropic.” Felix Rieseberg, a member of Anthropic's technical staff, posted on X on Friday: “We’re working with Cursor on this incident, but it wasn’t a compromis",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.863994+08:00",
+          "content_sha256": "fb3dc48b3fe6c9bc83c5f362714e6c69e26ed3d042789629cf5c41a4f475844c",
+          "excerpt": "But Cursor said in its Thursday security alert that “these malicious versions of the extension were not developed by Anthropic.” Felix Rieseberg, a member of Anthropic's technical staff, posted on X on Friday: “We’re working with Cursor on this incident, but it wasn’t a compromis",
+          "sentence_hash": "4984405a7f0ffd023a28147aceea9ef2da71be12acaaf252f04d2c8797bb5fb8",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The versions on our official channels are not affected and this only impacts Cursor users.” David Dworken, who works on security at Anthropic, posted on X shortly after, explaining that “this did not involve a compromise of any Anthropic systems … We were not involved with buildi",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.864045+08:00",
+          "content_sha256": "fb3dc48b3fe6c9bc83c5f362714e6c69e26ed3d042789629cf5c41a4f475844c",
+          "excerpt": "The versions on our official channels are not affected and this only impacts Cursor users.” David Dworken, who works on security at Anthropic, posted on X shortly after, explaining that “this did not involve a compromise of any Anthropic systems … We were not involved with buildi",
+          "sentence_hash": "70aded4c7353fb55650a39fa0257b80bf18383156e585b75234a24e3d79e4c8f",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "thursday",
+        "felix rieseberg",
+        "calum hall",
+        "ai",
+        "anthropic claude code",
+        "space",
+        "some",
+        "mac",
+        "phorion",
+        "claude code",
+        "linux",
+        "friday",
+        "everyone",
+        "cursor",
+        "but cursor",
+        "ceo",
+        "wired",
+        "windows",
+        "anthropic",
+        "david dworken"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Wired",
+          "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+          "canonical_url": null,
+          "hostname": "www.wired.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-31T08:03:30.862867+08:00",
+          "content_sha256": "fb3dc48b3fe6c9bc83c5f362714e6c69e26ed3d042789629cf5c41a4f475844c"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 20
+      },
+      "summary": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.",
+      "category": "科技",
+      "published_at": "2026-10-30T20:38:46+00:00",
+      "why_relevant": "供应链攻击污染Claude生态",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_bafd02ef100945499a8b3185",
+      "headline": "thedotmack/claude-mem",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 ",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.865446+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768",
+          "excerpt": "🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 ",
+          "sentence_hash": "b7125d6f26e3b895f41b5845ee1873103eab4305add862c220912695cd3419f8",
+          "anchors": [
+            "日本語",
+            "mem",
+            "中文",
+            "繁體中文"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observations, generating semantic summaries, and making them available to future ses",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.865529+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768",
+          "excerpt": "Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observations, generating semantic summaries, and making them available to future ses",
+          "sentence_hash": "d5ba78f54421964a95d9a4e31a8cebe8b57dcd9a396ad700e5945fa10ee876a4",
+          "anchors": [
+            "mm"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "This enables Claude to maintain continuity of knowledge about projects even after sessions end or reconnect.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.865562+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768",
+          "excerpt": "This enables Claude to maintain continuity of knowledge about projects even after sessions end or reconnect.",
+          "sentence_hash": "d9da4d72c8cc23c5d443546aa86f28944789e7b3571b0088d909954076c0aad9",
+          "anchors": [
+            "pro",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Install claude-mem for Grok Bot: npx claude-mem install --ide grok-bot Grok Bot has no host hooks, so we watch the chat log files.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.865591+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768",
+          "excerpt": "Install claude-mem for Grok Bot: npx claude-mem install --ide grok-bot Grok Bot has no host hooks, so we watch the chat log files.",
+          "sentence_hash": "76c00b7eadf035cb75175ccb282c7f4a38bc6fab134e7b93f14f7393983f7317",
+          "anchors": [
+            "install",
+            "claude",
+            "mem"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Default is CMEM Pro, the hosted memory.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.865610+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768",
+          "excerpt": "Default is CMEM Pro, the hosted memory.",
+          "sentence_hash": "9e4bc035151badfd4f16a5d67747521bfab5f73ceac2823f761688e50d1e2225",
+          "anchors": [
+            "mem"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Local observer is opt-in: --provider host.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.865628+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768",
+          "excerpt": "Local observer is opt-in: --provider host.",
+          "sentence_hash": "d1308cbe1bb6503a145efe85bd3cf414085ce452c9ad60327ee2d19f659ff239",
+          "anchors": [
+            "pro"
+          ]
+        }
+      ],
+      "entities": [
+        "svenska",
+        "pro",
+        "gemini",
+        "codex",
+        "day free trial",
+        "restart open",
+        "magyar",
+        "search tools",
+        "restart",
+        "indonesia",
+        "claude code",
+        "see",
+        "prefer",
+        "after",
+        "how it works",
+        "cursor",
+        "rom",
+        "繁體中文",
+        "documentation",
+        "日本語",
+        "local",
+        "lfg",
+        "open",
+        "troubleshooting",
+        "quick start",
+        "中文",
+        "suomi",
+        "install",
+        "awareness",
+        "license\nclaude",
+        "pass",
+        "portugu",
+        "router",
+        "ci",
+        "polski",
+        "tagalog",
+        "mem",
+        "orifice",
+        "nederlands",
+        "dd",
+        "configuration",
+        "yyyy",
+        "grok bot",
+        "disable",
+        "cmem",
+        "claude",
+        "mm",
+        "installing",
+        "signing",
+        "espa",
+        "dansk",
+        "deutsch",
+        "fran",
+        "italiano",
+        "code",
+        "default",
+        "norsk\npersistent",
+        "anthropic"
+      ],
+      "numbers": [
+        "100%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-31T08:03:30.864099+08:00",
+          "content_sha256": "eaa4d32e551cffb476d73414deb2279fb16d53e29c448a984be104d3b81db768"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 59
+      },
+      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + Morehttps://claude-mem.ai   \n   \n    \n    \n    \n     \n  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;   \n 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русски",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude会话持久记忆",
+      "relevance_score": 7.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_18c6c04fca4c8b576d9842a8",
+      "headline": "CopilotKit/OpenBot",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The AI assistant your company can actually own.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.866895+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1",
+          "excerpt": "The AI assistant your company can actually own.",
+          "sentence_hash": "aef65e8928ec876d6ff1fbc38d84e3d7d1e140d62a1ac007394d41e883844c36",
+          "anchors": [
+            "our",
+            "any",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Same shape as ChatGPT, Claude or Grok, with one difference that matters: it runs on your infrastructure and you can change anything about it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.866928+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1",
+          "excerpt": "Same shape as ChatGPT, Claude or Grok, with one difference that matters: it runs on your infrastructure and you can change anything about it.",
+          "sentence_hash": "36108806c404c2f54757487f046900fa08d78fdd1a02c3b6d18d37cd3d5acda0",
+          "anchors": [
+            "our",
+            "any",
+            "runs",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Any agent stack, through AG-UI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.866945+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1",
+          "excerpt": "Any agent stack, through AG-UI.",
+          "sentence_hash": "86256e73b7b6f8bf1cda3db5e6c0f666e5737a4246e5c6ba074ccae2887dd25a",
+          "anchors": [
+            "ag"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Each coworker gets a real browser with its own logins, its own files, and only the tools you grant.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.866971+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1",
+          "excerpt": "Each coworker gets a real browser with its own logins, its own files, and only the tools you grant.",
+          "sentence_hash": "06921a1f2434594df95ccf05e096f7b5a2ec3f932412dd8548a4e2b0801894d8",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Talk to an engineer · Have us build it with you · copilotkit.ai/openbot · Quick start · Docs demo-openbot.mp4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a channel of its own.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.867016+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1",
+          "excerpt": "Talk to an engineer · Have us build it with you · copilotkit.ai/openbot · Quick start · Docs demo-openbot.mp4 Bring any AG-UI agent, written on a framework or by hand, and it arrives as a coworker with a channel of its own.",
+          "sentence_hash": "41047288b0f00ed809368aec0661afd1cc97c773676644e09b313cd3b70a2eda",
+          "anchors": [
+            "kit",
+            "any",
+            "start",
+            "ai",
+            "ui",
+            "copilot",
+            "open",
+            "bot",
+            "you",
+            "ag"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Watch it work on its own screen, take the wheel when it reaches something it should not do alone, then hand it back.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.867044+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1",
+          "excerpt": "Watch it work on its own screen, take the wheel when it reaches something it should not do alone, then hand it back.",
+          "sentence_hash": "f0ed8bf89c6fea9f8da5a2accbf8a0a172852cef3c7b363365ba13c4b0b3fe37",
+          "anchors": [
+            "each"
+          ]
+        }
+      ],
+      "entities": [
+        "runs",
+        "everything",
+        "general assistant",
+        "ai",
+        "issues",
+        "sign",
+        "intelligence",
+        "copilot",
+        "knowledge",
+        "watch",
+        "mac",
+        "risk analyst",
+        "each",
+        "same",
+        "any",
+        "start",
+        "every",
+        "ui",
+        "docker compose",
+        "open",
+        "beta",
+        "grok",
+        "there",
+        "auth",
+        "bot",
+        "kit",
+        "you",
+        "docs",
+        "chat",
+        "ag",
+        "our",
+        "developer",
+        "bring",
+        "claude",
+        "talk",
+        "expect",
+        "postgre",
+        "have",
+        "quick",
+        "docker"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-10-31T08:03:30.865689+08:00",
+          "content_sha256": "86c09e65d1b6d01a9ee8dc94aa02912d16206f8106b197f56d39ef0be3f7e2b1"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.https://www.copilotkit.ai/openbot \n OpenBot \n The AI assistant your company can actually own. Same shape as ChatGPT, Claude or Grok, with one difference that matters: it runs on your infrastructure and you can change anything about it. Any agent stack, through AG-UI. \n Each coworker gets a real browser with its own login",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI同事拥有独立电脑",
+      "relevance_score": 7.0
+    }
+  ]
+}

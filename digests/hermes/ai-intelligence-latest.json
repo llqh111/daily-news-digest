@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30T00:06:42.884302+00:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T00:07:55.761132+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-30-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-30.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-31.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-29.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-30.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,157 +23,218 @@
   },
   "items": [
     {
-      "article_id": "a1_eb819c75b7b4f20140345e32",
-      "title": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5080-prices-hit-usd2-000-costing-more-than-the-rtx-5090-did-at-launch-and-with-limited-stock-available-original-usd999-msrp-long-forgotten-with-prices-now-2-3x-higher",
-      "publisher": "Tom's Hardware",
-      "summary": "It costs just as much to buy an Nvidia GeForce RTX 5080 right now as the launch price for the RTX 5090, with prices now at least two times higher for this high spec GPU.",
-      "category": "科技",
-      "published_at": "2026-10-29T14:21:59+00:00",
-      "why_relevant": "RTX5080暴涨，硬核玩家必读",
+      "article_id": "a1_abfb15cc861e115223884332",
+      "title": "Wall Street drops to its worst day since June after tech sell-off deepens",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372800/wall-street-drops-its-worst-day-june-after-tech-sell-deepens",
+      "publisher": "SCMP",
+      "summary": "A sell-off for tech stocks got even worse on Friday on worries that Wall Street’s frenzy around artificial intelligence technology sent prices too high.\nThe S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week. The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.\nThe US stock market remains only 3.1 per cent below its...",
+      "category": "国际",
+      "published_at": "2026-10-30T22:01:13+00:00",
+      "why_relevant": "AI泡沫担忧引发美股大跌",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available — original $999 MSRP long forgotten, with prices now 2-3x higher Nvidia RTX 50-series GPU prices just haven't stopped going up The Nvidia GeForce RTX 5080, Nvi",
+          "text": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485419+08:00",
-          "content_sha256": "794486a08aa837d6ddf9f49d06a319b473a7866a299e6b4f065609d51c41523f",
-          "excerpt": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available — original $999 MSRP long forgotten, with prices now 2-3x higher Nvidia RTX 50-series GPU prices just haven't stopped going up The Nvidia GeForce RTX 5080, Nvi",
-          "sentence_hash": "729a528ca54618cf4749eae5395ceff30fa5fd87c5f09baf2211924f1e0fc98b",
+          "captured_at": "2026-10-31T08:03:30.855129+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
+          "sentence_hash": "6fb77d2519ce8314f40dfe5d293bffddf710b239d7bf8758a443cab31701e9cd",
           "anchors": [
-            "$999 ",
-            "ai",
-            "for",
-            "$2,000",
-            "stock",
-            "prices"
+            "worries"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Prices have reached $2,000 and higher, with most of the available stock online limited to third-party sellers.",
+          "text": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485437+08:00",
-          "content_sha256": "794486a08aa837d6ddf9f49d06a319b473a7866a299e6b4f065609d51c41523f",
-          "excerpt": "Prices have reached $2,000 and higher, with most of the available stock online limited to third-party sellers.",
-          "sentence_hash": "34a91a5e39336eaebb6b4a97130c74d8fac3c3d31a3f7d5be590da961eaf2915",
+          "captured_at": "2026-10-31T08:03:30.855163+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
+          "sentence_hash": "ba09c970aac824fb7607c42a6f64cd17c5da2b1ab15771a9c36db82dec4072af",
           "anchors": [
-            "$2,000 ",
-            "ai",
-            "$2,000",
-            "stock"
+            "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "If you can find it in stock, it may end up costing you two to three times as much as it did when it launched.",
+          "text": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485451+08:00",
-          "content_sha256": "794486a08aa837d6ddf9f49d06a319b473a7866a299e6b4f065609d51c41523f",
-          "excerpt": "If you can find it in stock, it may end up costing you two to three times as much as it did when it launched.",
-          "sentence_hash": "0c8ff3cd258bf4614d989c83ec2f62e4b1e5536430a76b518550fc7f72f6e6ac",
+          "captured_at": "2026-10-31T08:03:30.855195+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
+          "sentence_hash": "1c40a2e55f47f3309b2b4ec1819be9151d5b353bb6bdf573ce013ad72a4e8804",
           "anchors": [
-            "you",
-            "stock"
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The cheapest, in-stock RTX 5080 available to buy from a reputable seller online for delivery is this PNY RTX 5080 for $1,999 from Best Buy, the same price as the RTX 5090's on-paper MSRP.",
+          "text": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485467+08:00",
-          "content_sha256": "794486a08aa837d6ddf9f49d06a319b473a7866a299e6b4f065609d51c41523f",
-          "excerpt": "The cheapest, in-stock RTX 5080 available to buy from a reputable seller online for delivery is this PNY RTX 5080 for $1,999 from Best Buy, the same price as the RTX 5090's on-paper MSRP.",
-          "sentence_hash": "b01f66a071a94c33a93f85027fbeded53ea0c29ea4623e46b8459aa645a5731b",
+          "captured_at": "2026-10-31T08:03:30.855230+08:00",
+          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
+          "excerpt": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
+          "sentence_hash": "9cf1cdde3f234afb90e6306c20faa56d6bc81a2e4d0902143c11e01fac135f44",
           "anchors": [
-            "ai",
-            "for",
-            "$1,999",
-            "reputable",
-            "$1,999 ",
-            "stock"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "You might otherwise end up paying $2,299.99, at least, for this Asus ROG Astral mode at Newegg, or you could pay nearly $3000 for this Gigabyte RTX 5080 from MemoryC, now priced at $2,983.23.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485483+08:00",
-          "content_sha256": "794486a08aa837d6ddf9f49d06a319b473a7866a299e6b4f065609d51c41523f",
-          "excerpt": "You might otherwise end up paying $2,299.99, at least, for this Asus ROG Astral mode at Newegg, or you could pay nearly $3000 for this Gigabyte RTX 5080 from MemoryC, now priced at $2,983.23.",
-          "sentence_hash": "59b7e975510fef368b3ebc9e99d6652c122fa80b735171978c4540d722db5b29",
-          "anchors": [
-            "for",
-            "$300",
-            "$2,299.99",
-            "$2,983.23",
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Stock for the RTX 5080 is otherwise limited everywhere, with just one or two available for local pickup (in Best Buy's case), and limited options for delivery.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485497+08:00",
-          "content_sha256": "794486a08aa837d6ddf9f49d06a319b473a7866a299e6b4f065609d51c41523f",
-          "excerpt": "Stock for the RTX 5080 is otherwise limited everywhere, with just one or two available for local pickup (in Best Buy's case), and limited options for delivery.",
-          "sentence_hash": "25a95031a7b775c5cc108064978708de206e4bdde17ddf82c46bdcc30f904eec",
-          "anchors": [
-            "ai",
-            "for"
+            "ai"
           ]
         }
       ],
       "entities": [
+        "june",
         "ai",
-        "gigabyte",
-        "gpu",
-        "pc",
-        "rog",
-        "stock",
-        "unfortunately",
-        "prices",
-        "amazon",
-        "you",
-        "memory",
-        "best buy",
-        "the nvidia ge",
-        "however",
-        "msrp",
-        "astral",
-        "vram",
-        "for",
-        "micro center",
-        "nvidia ge",
-        "asus",
-        "newegg",
-        "rtx",
-        "empowered",
-        "pny",
-        "dra",
-        "august",
-        "cuda",
-        "reputable",
-        "nvidia",
-        "force",
-        "demand"
+        "tuesday",
+        "worries",
+        "wall street",
+        "nasdaq",
+        "us",
+        "dow jones industrial average",
+        "friday"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 9
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_adbd094c735021692ad1b9d7",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "category": "国际",
+      "published_at": "2026-10-30T21:13:14+00:00",
+      "why_relevant": "币安遭朝鲜黑客巨额窃案",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856857+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "sentence_hash": "5f66b69d4df4ba08a46bd250312132b152f6bf856824ad03bda7cc30819a5164",
+          "anchors": [
+            "cryptocurrency",
+            "$6.3",
+            "crypto"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856894+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "sentence_hash": "7a21e6cc44d9270734a551aad13edf18c7de28908d0fc6a38e0acf9b8556a3c3",
+          "anchors": [
+            "$3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856921+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "sentence_hash": "6ebcbf78a9dba33df905673cf68504e61e79f63098a28b174fe96de9b2a12c13",
+          "anchors": [
+            "initially"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856951+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "sentence_hash": "20d7f758ebf7360320f6781d35d37f7008e5a125922dfe8f24a41583c07f2255",
+          "anchors": [
+            "$1.5"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.856992+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "sentence_hash": "99a3f9bd1a66b943c657fd1a45da8d9cf281c96ce633a4a0b813062118089981",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.857028+08:00",
+          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
+          "excerpt": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "sentence_hash": "67db53fa15797250182e29df23318715a1f36b0ff7376a6c329e616c12c361a7",
+          "anchors": [
+            "crypto"
+          ]
+        }
+      ],
+      "entities": [
+        "circle",
+        "new york",
+        "several",
+        "cryptocurrency",
+        "secret service",
+        "north korean",
+        "dev",
+        "america",
+        "coinbase",
+        "us",
+        "ops",
+        "tether",
+        "friday",
+        "our",
+        "published",
+        "robinhood",
+        "initially",
+        "while binance",
+        "binance",
+        "the binance",
+        "published\nbinance",
+        "fbi",
+        "crypto",
+        "ceo",
+        "bybit",
+        "north korea",
+        "richard teng",
+        "bitcoin",
+        "teng"
       ],
       "numbers": [
-        "$999 ",
-        "$1,999",
-        "$2,299.99",
-        "$300",
-        "$2,983.23",
-        "81%",
-        "$2,000",
-        "$1,500 ",
-        "$2,211.17 ",
-        "$12,000",
-        "$2,000 ",
-        "$1,999 ",
-        "$9,500 ",
-        "$1,979.99"
+        "$6.34",
+        "$6.3",
+        "$3",
+        "$76,800 ",
+        "$1.5",
+        "12%",
+        "5%"
       ],
       "dates": [],
       "unknowns": [
@@ -183,80 +244,290 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 46
+        "anchor_count": 36
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-30-AM.json",
-      "source_artifact_date": "2026-10-30",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_de0caf149bbb5bd56e012c8c",
-      "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
-      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "publisher": "Wired",
-      "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
-      "category": "科技",
-      "published_at": "2026-10-29T18:39:43+00:00",
-      "why_relevant": "AI agent进国防系统，安全风险",
-      "relevance_score": 9.0,
+      "article_id": "a1_ae80c127d1bf2e414cce6c9c",
+      "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+      "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+      "publisher": "The Guardian",
+      "summary": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency incomeNorth Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit t",
+      "category": "国际",
+      "published_at": "2026-10-30T17:37:46+00:00",
+      "why_relevant": "加密黑客资助朝鲜核武",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Earlier this year, sources tell WIRED, a contractor caused a security incident at the Department of Defense by connecting a secure centralized system used by multiple intelligence agencies to their personal account for Claude Code, Anthropic’s AI coding agent.",
+          "text": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485950+08:00",
-          "content_sha256": "28c2022cfb8af11d27e98b7307299fb93036c81c90aa103fbe84e0b8c2a7291a",
-          "excerpt": "Earlier this year, sources tell WIRED, a contractor caused a security incident at the Department of Defense by connecting a secure centralized system used by multiple intelligence agencies to their personal account for Claude Code, Anthropic’s AI coding agent.",
-          "sentence_hash": "5480023b440ca1d3f90dd969316ed65d43fdd7427b938aa830ec8bbe49455d2f",
+          "captured_at": "2026-10-31T08:03:30.858434+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
+          "sentence_hash": "5d8e73e924b42f88c311ee4b9fe7777befb9410731602cf1b39a06716041ca79",
           "anchors": [
-            "sources"
+            "un"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The centralized system contains controlled unclassified information (CUI), which is considered sensitive and not to be released to the public without review.",
+          "text": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.485965+08:00",
-          "content_sha256": "28c2022cfb8af11d27e98b7307299fb93036c81c90aa103fbe84e0b8c2a7291a",
-          "excerpt": "The centralized system contains controlled unclassified information (CUI), which is considered sensitive and not to be released to the public without review.",
-          "sentence_hash": "e042393f99920b52f9a680668b793f38b749d6330fb1848420e998eeafac3b02",
+          "captured_at": "2026-10-31T08:03:30.858476+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
+          "sentence_hash": "4f1345e30db1627a0040fa47fa772fa322c5d31914e2ccba593530026fa86330",
+          "anchors": [
+            "un",
+            "$6.3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858553+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "sentence_hash": "89d53e210677d0282b5a89fe5764e2534b707506bb5a98019548f7d262154529",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858589+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "sentence_hash": "590e7e7cea2ba0741a22c5b61caf07036279cd35712573cfda53f7babdff2125",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858617+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
+          "sentence_hash": "75643c04f3af3f5d8bb7643d7a1c09cbe5a867ff322eb454ce27e9c962ae3f7d",
+          "anchors": [
+            "un",
+            "one",
+            "40%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.858658+08:00",
+          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
+          "excerpt": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
+          "sentence_hash": "3f13ec6243b55104928b757f7208501672baeb30b2ce3fe20f84bc23626a156f",
+          "anchors": [
+            "un",
+            "experts",
+            "$3"
+          ]
+        }
+      ],
+      "entities": [
+        "trader",
+        "un",
+        "new york",
+        "ukraine",
+        "though",
+        "north korean",
+        "ciaran martin",
+        "labs",
+        "martin",
+        "bangladesh bank",
+        "russia",
+        "national cyber security centre",
+        "federal reserve bank",
+        "traitor",
+        "phil",
+        "lazarus group",
+        "but north korea",
+        "february",
+        "binance",
+        "fbi",
+        "one",
+        "over",
+        "uk",
+        "kim jong",
+        "bybit",
+        "trm",
+        "north korea",
+        "experts"
+      ],
+      "numbers": [
+        "40%",
+        "$951",
+        "$6.3",
+        "$3",
+        "$750",
+        "$1.5",
+        "$100"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_8eac02103f27f008d98e6755",
+      "title": "Canada and EU announce new alliance open to like-minded countries",
+      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "publisher": "The Guardian",
+      "summary": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, U",
+      "category": "国际",
+      "published_at": "2026-10-30T19:42:15+00:00",
+      "why_relevant": "加欧组建新联盟",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860601+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "sentence_hash": "fe0dc6319865fff1b8beea301015b5e5c0d3ac19e24f82bb5c6cf7ead59e68dc",
+          "anchors": [
+            "our",
+            "alliance",
+            "while",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860660+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "sentence_hash": "b9d8932ea5244bdafbe22410e4fc5c695a2eb6ed2af297ba5c0266df0631565e",
           "anchors": [
             "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "DOD employees and federal contractors are required to report any cybersecurity incident within 72 hours of its discovery, but sources indicate Accenture did not initially repor",
+          "text": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486010+08:00",
-          "content_sha256": "28c2022cfb8af11d27e98b7307299fb93036c81c90aa103fbe84e0b8c2a7291a",
-          "excerpt": "DOD employees and federal contractors are required to report any cybersecurity incident within 72 hours of its discovery, but sources indicate Accenture did not initially repor",
-          "sentence_hash": "42619e125f67a466c612e0f11e9434575789887ae5726ac60be0d6205e366063",
+          "captured_at": "2026-10-31T08:03:30.860703+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
+          "sentence_hash": "3a2269c346828b7016d27092c2a72b421e929a9a93b75c87dca2a04c135f8f0c",
           "anchors": [
-            "sources"
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860737+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "sentence_hash": "f17a084d78a13901e97e4b326d221563dfd48ee7ab77033687a1c02f12a8dc0b",
+          "anchors": [
+            "future",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860784+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "sentence_hash": "90b7154d0b510fa1ef34b681e3c740746641977c7fc6c438c0ba222fd5d1a105",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "source_id": "source:primary",
+          "captured_at": "2026-10-31T08:03:30.860818+08:00",
+          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
+          "excerpt": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "sentence_hash": "c1b76cd3b3debd2c95509a1ea2ea216da34c40f8e8417108d95b0fe613518ac2",
+          "anchors": [
+            "ai"
           ]
         }
       ],
       "entities": [
-        "anthropic",
+        "elon musk",
+        "cohere",
+        "united states",
+        "ukraine",
+        "speaking",
         "ai",
-        "department",
-        "accenture",
-        "cui",
-        "earlier",
-        "claude",
-        "dod",
-        "claude code",
-        "wired",
-        "defense",
-        "additionally",
-        "the accenture",
-        "these",
-        "sources"
+        "mark carney",
+        "germany",
+        "eu",
+        "alliance",
+        "october",
+        "canada",
+        "last",
+        "future",
+        "aleph alpha gmb",
+        "ottawa",
+        "starlink",
+        "leyen",
+        "american",
+        "cohere inc",
+        "thursday",
+        "carney",
+        "european commission",
+        "while",
+        "liberal",
+        "berlin",
+        "starshield",
+        "friday",
+        "our",
+        "montreal",
+        "europe",
+        "toronto",
+        "ursula",
+        "musk",
+        "canadian",
+        "european",
+        "brussels",
+        "leaders",
+        "ukrainian"
       ],
-      "numbers": [],
+      "numbers": [
+        "$1.6"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -264,162 +535,53 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 15
+        "fact_count": 6,
+        "anchor_count": 40
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-30-AM.json",
-      "source_artifact_date": "2026-10-30",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_06b5361b8aa2e527f2129747",
-      "title": "Binance 'potential security issue' sees $2.54 billion frozen by the likes of Circle, Tether",
-      "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-      "publisher": "CNBC",
-      "summary": "Binance, the world's largest crypto exchange, said it was actively investigating the matter and that funds are \"completley safe.\"",
-      "category": "财经",
-      "published_at": "2026-10-29T23:56:02+00:00",
-      "why_relevant": "币安冻结25亿，币圈重大安全",
-      "relevance_score": 9.0,
+      "article_id": "a1_6cecbcf6fb3f295464c183be",
+      "title": "Poland deploys riot police, as court chief’s ousting sparks crisis",
+      "url": "https://www.scmp.com/news/world/europe/article/3372802/poland-deploys-riot-police-court-chiefs-ousting-sparks-crisis",
+      "publisher": "SCMP",
+      "summary": "Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot police deployed around the country’s constitutional court on Friday following the suspension of its chief justice in a battle between the centrist government and the nationalist right.\nDozens of police guarded the entrance to the court as followers of the opposition right-wing Law and Justice party (PiS) protested against the ousting of constitutional court president Bogdan Swieczkowski.\nThe court’s official...",
+      "category": "国际",
+      "published_at": "2026-10-30T23:43:02+00:00",
+      "why_relevant": "波兰宪政危机升级",
+      "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Several crypto firms, including Circle Internet Group and Tether, on Thursday froze $2.54 billion of funds tied to a potential hack on cryptocurrency exchange Binance.",
+          "text": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
           "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486451+08:00",
-          "content_sha256": "eb93ce8205228c991ad36882fbef3ff5bb3afaf02fb3e89d6b7a85dd93ecdfef",
-          "excerpt": "Several crypto firms, including Circle Internet Group and Tether, on Thursday froze $2.54 billion of funds tied to a potential hack on cryptocurrency exchange Binance.",
-          "sentence_hash": "13bec48cc0e1d864f9d161b30c20863c68d2bd98e5d4896b9b647f772531f195",
+          "captured_at": "2026-10-31T08:03:30.861304+08:00",
+          "content_sha256": "93d767d86981448b601a2feb1a12b9431e5922188fdb56ac1b5b5be9c120135e",
+          "excerpt": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
+          "sentence_hash": "2a8712e1360f4c1a82cc088789345ba1a4a615f4cd1a408751856840c94e8cf3",
           "anchors": [
-            "crypto",
-            "ether",
-            "2.54 billion",
-            "$2.54 billion"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The world's largest crypto exchange by daily trading volumes didn't explicitly confirm that it has suffered an exploit.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486464+08:00",
-          "content_sha256": "eb93ce8205228c991ad36882fbef3ff5bb3afaf02fb3e89d6b7a85dd93ecdfef",
-          "excerpt": "The world's largest crypto exchange by daily trading volumes didn't explicitly confirm that it has suffered an exploit.",
-          "sentence_hash": "cb5f195b6e49fec10ba475839585499d8903a1efebea7c64e275a7017cae0791",
-          "anchors": [
-            "crypto"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "\"Rest assured that user funds are completely safe.\" Binance also said on X that Binance Alpha trading had been temporarily suspended, and that \"the current verified total frozen is $2.54 billion.\" Binance founder and former CEO Changpeng Zhao said in a post on X that user funds w",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486495+08:00",
-          "content_sha256": "eb93ce8205228c991ad36882fbef3ff5bb3afaf02fb3e89d6b7a85dd93ecdfef",
-          "excerpt": "\"Rest assured that user funds are completely safe.\" Binance also said on X that Binance Alpha trading had been temporarily suspended, and that \"the current verified total frozen is $2.54 billion.\" Binance founder and former CEO Changpeng Zhao said in a post on X that user funds w",
-          "sentence_hash": "3e1a41280fe7000d23ed8acfa9aac3c02432cae00e7623b3394d5e4b36f4fdf1",
-          "anchors": [
-            "2.54 billion",
-            "over",
-            "$2.54 billion"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Circle CEO Jeremy Allaire said Thursday evening in a social media post that the company had frozen more than 800 million in USD Coin associated with the incident.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486521+08:00",
-          "content_sha256": "eb93ce8205228c991ad36882fbef3ff5bb3afaf02fb3e89d6b7a85dd93ecdfef",
-          "excerpt": "Circle CEO Jeremy Allaire said Thursday evening in a social media post that the company had frozen more than 800 million in USD Coin associated with the incident.",
-          "sentence_hash": "c0064a5087f204e9f6e387a1b903eefd4a696b9d87369c42946f14b08181b972",
-          "anchors": [
-            "more",
-            "800 million"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "USDT stablecoin issuer Tether CEO Paolo Ardoino also said in on X that his firm had frozen more than 1.5 billion of its stablecoin that may have been related to a potential breach.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486536+08:00",
-          "content_sha256": "eb93ce8205228c991ad36882fbef3ff5bb3afaf02fb3e89d6b7a85dd93ecdfef",
-          "excerpt": "USDT stablecoin issuer Tether CEO Paolo Ardoino also said in on X that his firm had frozen more than 1.5 billion of its stablecoin that may have been related to a potential breach.",
-          "sentence_hash": "591e049033bb89f164f4f29ff5b5fb26c4efa2c74b02df9052200f31ec3a02bf",
-          "anchors": [
-            "more",
-            "ether",
-            "1.5 billion",
-            "coin"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Later, Binance co-founder Yi He said in a statement that the XRP and RLUSD-tied firm Ripple helped halt the movement of $200 million of funds linked to the possible attack.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.486552+08:00",
-          "content_sha256": "eb93ce8205228c991ad36882fbef3ff5bb3afaf02fb3e89d6b7a85dd93ecdfef",
-          "excerpt": "Later, Binance co-founder Yi He said in a statement that the XRP and RLUSD-tied firm Ripple helped halt the movement of $200 million of funds linked to the possible attack.",
-          "sentence_hash": "7cc357cb03d70f0bffd8876033ecd0fb5221e2f2dcb7b2c6fd7a587929d13f92",
-          "anchors": [
-            "$200 million",
-            "200 million"
+            "justice"
           ]
         }
       ],
       "entities": [
-        "but",
-        "yi he",
-        "rlusd",
-        "tether",
-        "crypto",
-        "usd",
-        "circle",
-        "arkham",
-        "ether",
-        "bitget",
-        "shares",
-        "ripple",
-        "binance alpha",
-        "bybit",
-        "arkham intelligence",
-        "ceo",
-        "rest",
-        "paolo ardoino",
-        "circle internet group",
-        "jeremy allaire",
-        "exploits",
-        "thursday",
-        "more",
-        "several",
-        "zhao",
-        "coin",
-        "over",
-        "usdt",
-        "binance",
-        "bitcoin",
-        "changpeng zhao",
-        "our",
-        "xrp",
-        "later"
+        "law",
+        "poland",
+        "bogdan swieczkowski",
+        "president karol nawrocki",
+        "justice",
+        "warsaw",
+        "dozens",
+        "africa",
+        "tusk",
+        "prime minister donald tusk",
+        "friday"
       ],
-      "numbers": [
-        "2.54 billion",
-        "4%",
-        "1.5 billion",
-        "$80,000",
-        "$350 million",
-        "$200 million",
-        "$1.5 billion",
-        "5%",
-        "3%",
-        "800 million",
-        "350 million",
-        "$2.54 billion",
-        "$6 billion",
-        "200 million",
-        "6 billion"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -427,292 +589,13 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 49
+        "fact_count": 1,
+        "anchor_count": 11
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-30-AM.json",
-      "source_artifact_date": "2026-10-30",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_756329dc5048fc9d4fad2896",
-      "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway.",
-      "category": "国际",
-      "published_at": "2026-10-29T10:33:00+00:00",
-      "why_relevant": "欧央行行长辞职，宏观地缘重要",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "ECB head Christine Lagarde to step down in February October 29, 2026 Christine Lagarde, who has headed the European Central Bank for seven years, has announced that she is stepping down prematurely from the position.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487043+08:00",
-          "content_sha256": "692b25da8f1d8f417ad17da994593ea1db97e2700a2fa4af462b8307e36cc049",
-          "excerpt": "ECB head Christine Lagarde to step down in February October 29, 2026 Christine Lagarde, who has headed the European Central Bank for seven years, has announced that she is stepping down prematurely from the position.",
-          "sentence_hash": "b10203945a6bc2ccbd1fadaf781a12e177e4e1e3f473a88cfa700295e2bee569",
-          "anchors": [
-            "October 29"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "\"European Central Bank President Christine Lagarde today informed the Governing Council and the president of the European Council Antonio Costa that she will step down from her position on 7 February 2027,\" the ECB said in a statement.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487060+08:00",
-          "content_sha256": "692b25da8f1d8f417ad17da994593ea1db97e2700a2fa4af462b8307e36cc049",
-          "excerpt": "\"European Central Bank President Christine Lagarde today informed the Governing Council and the president of the European Council Antonio Costa that she will step down from her position on 7 February 2027,\" the ECB said in a statement.",
-          "sentence_hash": "e213bb41c8fe720d6397c3c169c63737e9cca0f50c55d139ee6a0455befdf43f",
-          "anchors": [
-            "February 20",
-            "her"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "European Council President Antonio Costa said a process to find her successor would start immediately.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487069+08:00",
-          "content_sha256": "692b25da8f1d8f417ad17da994593ea1db97e2700a2fa4af462b8307e36cc049",
-          "excerpt": "European Council President Antonio Costa said a process to find her successor would start immediately.",
-          "sentence_hash": "9e0683ec9d3c2b3774b75f9e7bdd98361ae7dbec8e65e960c59b069718cea8f8",
-          "anchors": [
-            "her"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "No reason has so far been given for Lagarde's premature departure, but there has been speculation that she would leave early to enable EU leaders to choose her successor before French elections in the spring that could see a eurosceptic far-right victory influence the choice.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487092+08:00",
-          "content_sha256": "692b25da8f1d8f417ad17da994593ea1db97e2700a2fa4af462b8307e36cc049",
-          "excerpt": "No reason has so far been given for Lagarde's premature departure, but there has been speculation that she would leave early to enable EU leaders to choose her successor before French elections in the spring that could see a eurosceptic far-right victory influence the choice.",
-          "sentence_hash": "3d1f2b5f3f317dbca147836c5f7fabbed42408e060d7fcf827c44ac75d700077",
-          "anchors": [
-            "eu",
-            "her"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Her term, which began on November 1, 2019, would normally have ended at the end of October 2027.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487102+08:00",
-          "content_sha256": "692b25da8f1d8f417ad17da994593ea1db97e2700a2fa4af462b8307e36cc049",
-          "excerpt": "Her term, which began on November 1, 2019, would normally have ended at the end of October 2027.",
-          "sentence_hash": "ef21194076b43f446ac61dad1ee94d54f908b20257520a8cde9036fd57655532",
-          "anchors": [
-            "October 20",
-            "November 1"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Lagarde 'provided steady and determine stewardship' — Costa Costa praised Lagarde's leadership during her seven-year stint at the ECB helm, a period in which the EU and the world faced great challenges.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487122+08:00",
-          "content_sha256": "692b25da8f1d8f417ad17da994593ea1db97e2700a2fa4af462b8307e36cc049",
-          "excerpt": "Lagarde 'provided steady and determine stewardship' — Costa Costa praised Lagarde's leadership during her seven-year stint at the ECB helm, a period in which the EU and the world faced great challenges.",
-          "sentence_hash": "51eb9d39bbf375a5fb3e0d5505aeb3ee4c775cdc966d9e68f8719d3a2b6d10b3",
-          "anchors": [
-            "her"
-          ]
-        }
-      ],
-      "entities": [
-        "ecb",
-        "europe",
-        "european council antonio costa",
-        "international monetary fund",
-        "european central bank president christine lagarde",
-        "lagarde",
-        "october",
-        "thursday",
-        "france",
-        "february\noctober",
-        "french",
-        "costa\ncosta",
-        "christine lagarde",
-        "her",
-        "through",
-        "february",
-        "costa",
-        "june",
-        "however",
-        "november",
-        "governing council",
-        "european central bank",
-        "european council president antonio costa",
-        "eu",
-        "france\nthe",
-        "iran"
-      ],
-      "numbers": [
-        "2.5%"
-      ],
-      "dates": [
-        "November 1",
-        "February 20",
-        "October 29",
-        "October 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 31
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-30-AM.json",
-      "source_artifact_date": "2026-10-30",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_5d5869478973a59700b8e922",
-      "title": "Palestinians face growing bans from Al-Aqsa as Israel tightens control",
-      "url": "https://www.aljazeera.com/news/2026/10/29/palestinians-face-growing-bans-from-al-aqsa-as-israel-tightens-control?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "As Israel renews a ban on Al-Aqsa imam, Islamic Waqf officials warn of shrinking authority at Muslim holy site.",
-      "category": "国际",
-      "published_at": "2026-10-29T21:16:26+00:00",
-      "why_relevant": "阿克萨禁入令，中东局势紧张",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "And with his latest exclusion order extending the ban until April 2027, the Palestinian preacher – the head of the Higher Islamic Council in Jerusalem – is among those facing Israeli restrictions at the site – the third holiest in Islam and a Palestinian national symbol.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487618+08:00",
-          "content_sha256": "008d50b3975b84e84810e7717d88adef4e6e60d144d425731c62eacd518783ee",
-          "excerpt": "And with his latest exclusion order extending the ban until April 2027, the Palestinian preacher – the head of the Higher Islamic Council in Jerusalem – is among those facing Israeli restrictions at the site – the third holiest in Islam and a Palestinian national symbol.",
-          "sentence_hash": "ee5e9fe9361d7867fdc69e1bc215b2e64259fafedc1fb39f1d35e69e85214cea",
-          "anchors": [
-            "and",
-            "April 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Sabri has faced repeated exclusion orders since August 2024.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487629+08:00",
-          "content_sha256": "008d50b3975b84e84810e7717d88adef4e6e60d144d425731c62eacd518783ee",
-          "excerpt": "Sabri has faced repeated exclusion orders since August 2024.",
-          "sentence_hash": "4f31c2f2ad7738f0a1d6234b3a6d040e7f5b1a251d5fa642f6aa0c557d0a2c4b",
-          "anchors": [
-            "August 20"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The latest order, issued on October 20, prevents Sabri from praying or delivering sermons at Al-Aqsa until April 2027.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487640+08:00",
-          "content_sha256": "008d50b3975b84e84810e7717d88adef4e6e60d144d425731c62eacd518783ee",
-          "excerpt": "The latest order, issued on October 20, prevents Sabri from praying or delivering sermons at Al-Aqsa until April 2027.",
-          "sentence_hash": "c05687a150e9b2903df20b2c09114214cef6c49d6ece1f20cc2d1902fd766d54",
-          "anchors": [
-            "October 20",
-            "April 20"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "At the same time, far-right Jewish religious activists have increasingly been allowed to pray at the site under Israeli police protection, going against a longstanding status quo and opposition from ultra-Orthodox Jewish religious authorities.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487656+08:00",
-          "content_sha256": "008d50b3975b84e84810e7717d88adef4e6e60d144d425731c62eacd518783ee",
-          "excerpt": "At the same time, far-right Jewish religious activists have increasingly been allowed to pray at the site under Israeli police protection, going against a longstanding status quo and opposition from ultra-Orthodox Jewish religious authorities.",
-          "sentence_hash": "be0299a4c32a7fad2075ed9b3e31863ab55700ba57e7a243989c20e60a8a5477",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The restrictions began after Israeli police detained Sabri in August 2024 over a sermon in which he mourned the Hamas political leader Ismail Haniyeh, who was assassinated by Israel.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487671+08:00",
-          "content_sha256": "008d50b3975b84e84810e7717d88adef4e6e60d144d425731c62eacd518783ee",
-          "excerpt": "The restrictions began after Israeli police detained Sabri in August 2024 over a sermon in which he mourned the Hamas political leader Ismail Haniyeh, who was assassinated by Israel.",
-          "sentence_hash": "44edf0012bb2197ccdbce0debfc34a260adbb312c433c419ee7caf747eb5f82c",
-          "anchors": [
-            "August 20"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The Wadi Hilweh Information Center, a Palestinian human rights monitoring group, says Israeli authorities have issued more than 1,000 exclusion orders barring Palestinians from Al-Aqsa Mosque and the Old City since the beginning of 2026, including against religious figures and Is",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-30T08:02:59.487696+08:00",
-          "content_sha256": "008d50b3975b84e84810e7717d88adef4e6e60d144d425731c62eacd518783ee",
-          "excerpt": "The Wadi Hilweh Information Center, a Palestinian human rights monitoring group, says Israeli authorities have issued more than 1,000 exclusion orders barring Palestinians from Al-Aqsa Mosque and the Old City since the beginning of 2026, including against religious figures and Is",
-          "sentence_hash": "b6619337a4c022e58f729069fdd4d1c2ba6f639bc05e87ac620268c5759d88ac",
-          "anchors": [
-            "and",
-            "for"
-          ]
-        }
-      ],
-      "entities": [
-        "april",
-        "ibrahim",
-        "israel",
-        "palestinian",
-        "old city",
-        "higher islamic council",
-        "september",
-        "aqsa",
-        "sabri",
-        "jewish",
-        "these",
-        "sheikh ekrima sabri",
-        "as israel",
-        "prohibited",
-        "palestinians",
-        "islamic",
-        "jerusalem",
-        "aqsa mosque",
-        "muslim",
-        "east jerusalem",
-        "for",
-        "orthodox jewish",
-        "october",
-        "natsheh",
-        "the wadi hilweh information center",
-        "israeli",
-        "islamic waqf",
-        "ismail haniyeh",
-        "august",
-        "such",
-        "and",
-        "hamas",
-        "islam",
-        "al jazeera"
-      ],
-      "numbers": [],
-      "dates": [
-        "August 20",
-        "April 20",
-        "October 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 37
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-30-AM.json",
-      "source_artifact_date": "2026-10-30",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
+      "source_artifact_date": "2026-10-31",
       "freshness_label": "today"
     }
   ]
