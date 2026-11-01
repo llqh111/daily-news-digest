@@ -1,0 +1,68 @@
+{
+  "total_items": 9,
+  "items_with_unsupported_numbers": 3,
+  "items_with_missing_evidence": 0,
+  "unmatched_evidence_ids": [],
+  "validation_complete": true,
+  "unsupported_ratio": 0.3333333333333333,
+  "items": [
+    {
+      "article_id": "a1_1572524daf0304a6ad18832e",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        6300000000.0,
+        6300000000.0,
+        90.0,
+        2540000000.0,
+        90.0
+      ]
+    },
+    {
+      "article_id": "a1_8902841215f561c8c2ea801e",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_c1b93466c1ed1d580e2bb0c3",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_e9503a83c7428c9bddb43e34",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        12500.0,
+        10000000000.0
+      ]
+    },
+    {
+      "article_id": "a1_a7432bcd2721cb7ab6f864f2",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_a55502c5472148c1df140252",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_895c267649c2e08019fdaf97",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        5000.0,
+        5000.0,
+        5000.0
+      ]
+    },
+    {
+      "article_id": "a1_9a4e9e7b6f60cabfb672affe",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_db3923056a5d1de9ea4dd91c",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    }
+  ]
+}

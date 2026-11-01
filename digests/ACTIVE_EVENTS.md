@@ -1,6 +1,53 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-10-31 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-01 08:07。
+
+## Michigan feud threatens Democratic unity in key Senate race
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261101_b0fca7ab7c43`
+
+## FBI blames North Korea for stolen billions from Binance in biggest hack in history
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 最新事实：Advertisement FBI blames North Korea for stolen billions from Binance in biggest hack in history The US agency blames the attack on an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year 1-MIN READ1-MIN Listen The theft of billions of dolla
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261101_accf31881aa0`
+
+## OpenAI Teases GPT-6.1 Astra Amid Relentless Hype Around The Mysterious GPT-6.2 Betelgeuse Model, As Another Evidence Surfaces Showing Kimi K3.1 Pro And GLM-5.3 As Products Of Distillation
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 最新事实：At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 series, respectively, which suggests that both of these models are likely a product of distillation
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261101_e0fdb76e2433`
+
+## US, Canada see growing interest in limited ceasefire in Black Sea
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261101_32cab810f336`
+
+## API credits benefit for eligible ChatGPT subscriptions
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 最新事实：29th October 2026 - Link Blog API credits benefit for eligible ChatGPT subscriptions.
+- 事件 ID：`evt_20261101_f276d9f5433a`
+
+## Claude Code Game Restrictions Target Clones, But Developers Say Legitimate Projects Are Being Blocked
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 最新事实：As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_brook.
+- 事件 ID：`evt_20261101_aa89ee81bb3b`
+
+## How We Took Over ChatGPT Accounts
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 最新事实：31st October 2026 - Link Blog How We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this "Canvas" but it looks like the latest revision is called HTML previews), where i
+- 事件 ID：`evt_20261101_e6a3339b2c8a`
+
+## Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261101_03458e9d3ef6`
+
+## Serbia after Vucic: The winners are losing patience
+- 状态：更新中；首见 2026-11-01；最近更新 2026-11-01
+- 最新事实：Serbia after Vucic: The winners are losing patience October 31, 2026 Aleksandar Vucic is accustomed to the spotlight.
+- 事件 ID：`evt_20261101_95d8e7f961e2`
 
 ## thedotmack/claude-mem
 - 状态：更新中；首见 2026-10-10；最近更新 2026-10-31

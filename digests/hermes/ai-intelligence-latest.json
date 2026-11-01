@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T00:07:55.761132+00:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T00:07:25.613517+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
-      "count": "13"
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
+      "count": "9"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-31.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-01.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-30.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-31.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,77 +23,80 @@
   },
   "items": [
     {
-      "article_id": "a1_abfb15cc861e115223884332",
-      "title": "Wall Street drops to its worst day since June after tech sell-off deepens",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372800/wall-street-drops-its-worst-day-june-after-tech-sell-deepens",
+      "article_id": "a1_1572524daf0304a6ad18832e",
+      "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
       "publisher": "SCMP",
-      "summary": "A sell-off for tech stocks got even worse on Friday on worries that Wall Street’s frenzy around artificial intelligence technology sent prices too high.\nThe S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week. The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.\nThe US stock market remains only 3.1 per cent below its...",
+      "summary": "The theft of billions of dollars from Binance within a matter of minutes, the biggest cryptocurrency heist in history, was orchestrated by North Korean hackers, the FBI said on Saturday.\nThe bureau said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year.\nThe FBI asked cryptocurrency exchanges, blockchain analytics companies and others to block transactions linked to...",
       "category": "国际",
-      "published_at": "2026-10-30T22:01:13+00:00",
-      "why_relevant": "AI泡沫担忧引发美股大跌",
+      "published_at": "2026-10-31T23:49:22+00:00",
+      "why_relevant": "朝鲜盗币重大安全事件",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
+          "text": "Advertisement FBI blames North Korea for stolen billions from Binance in biggest hack in history The US agency blames the attack on an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year 1-MIN READ1-MIN Listen The theft of billions of dolla",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.855129+08:00",
-          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
-          "excerpt": "Wall Street drops to its worst day since June after tech sell-off deepens Worries are rising about whether hundreds of billions of dollars in AI investment will produce enough profit and productivity to be worth it A sell-off for tech stocks got even worse on Friday on worries th",
-          "sentence_hash": "6fb77d2519ce8314f40dfe5d293bffddf710b239d7bf8758a443cab31701e9cd",
+          "captured_at": "2026-11-01T08:03:18.878424+08:00",
+          "content_sha256": "1bb4a6a04db39bc9def26c17f81150cb5ba7ee686dc1fcb528c2082a7b136d0f",
+          "excerpt": "Advertisement FBI blames North Korea for stolen billions from Binance in biggest hack in history The US agency blames the attack on an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year 1-MIN READ1-MIN Listen The theft of billions of dolla",
+          "sentence_hash": "d6364100cd6ecd96799e9d4942578cef87af0fa81c52094452fb9f276a9747df",
           "anchors": [
-            "worries"
+            "1.5 billion",
+            "$1.5 billion",
+            "ai",
+            "min"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
+          "text": "The bureau said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.855163+08:00",
-          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
-          "excerpt": "The S&P 500 tumbled 1.8 per cent for its worst day since June, and it closed out a third straight losing week.",
-          "sentence_hash": "ba09c970aac824fb7607c42a6f64cd17c5da2b1ab15771a9c36db82dec4072af",
+          "captured_at": "2026-11-01T08:03:18.878466+08:00",
+          "content_sha256": "1bb4a6a04db39bc9def26c17f81150cb5ba7ee686dc1fcb528c2082a7b136d0f",
+          "excerpt": "The bureau said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year.",
+          "sentence_hash": "87f39a515ea56a290443948539526cc157dcc89cad97d942a91b2a2008aa6b2f",
           "anchors": [
+            "1.5 billion",
+            "$1.5 billion",
+            "us",
             "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
+          "text": "The FBI asked cryptocurrency exchanges, blockchain analytics companies and others to block transactions linked to various addresses to make sure the money is not laundered to cover up its origins.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.855195+08:00",
-          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
-          "excerpt": "The weakness for technology stocks dragged the Nasdaq composite down a market-leading 2.9 per cent, while the Dow Jones Industrial Average dropped 572 points, or 1.1 per cent.",
-          "sentence_hash": "1c40a2e55f47f3309b2b4ec1819be9151d5b353bb6bdf573ce013ad72a4e8804",
+          "captured_at": "2026-11-01T08:03:18.878498+08:00",
+          "content_sha256": "1bb4a6a04db39bc9def26c17f81150cb5ba7ee686dc1fcb528c2082a7b136d0f",
+          "excerpt": "The FBI asked cryptocurrency exchanges, blockchain analytics companies and others to block transactions linked to various addresses to make sure the money is not laundered to cover up its origins.",
+          "sentence_hash": "6484731771c883b82edaa6c044a3823650db11dca29b71511c6cc56fffc75970",
           "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.855230+08:00",
-          "content_sha256": "a0c4581516eabcd562c8255294188eb254e2fff67fe3105628b1866ee2a0b131",
-          "excerpt": "The US stock market remains only 3.1 per cent below its all-time high, which has boosted the value of workers’ 401(k) accounts, but it has become increasingly shaky as Tuesday’s midterm elections in the US approach.",
-          "sentence_hash": "9cf1cdde3f234afb90e6306c20faa56d6bc81a2e4d0902143c11e01fac135f44",
-          "anchors": [
+            "us",
             "ai"
           ]
         }
       ],
       "entities": [
-        "june",
-        "ai",
-        "tuesday",
-        "worries",
-        "wall street",
-        "nasdaq",
+        "select voice\nselect speed",
+        "fbi",
+        "binance",
+        "listen\nthe",
+        "traitor",
+        "trader",
         "us",
-        "dow jones industrial average",
-        "friday"
+        "bybit",
+        "ai",
+        "north korea",
+        "north korean",
+        "saturday",
+        "advertisement",
+        "min"
       ],
-      "numbers": [],
+      "numbers": [
+        "1.5 billion",
+        "$1.5 billion"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -101,140 +104,151 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 4,
-        "anchor_count": 9
+        "fact_count": 3,
+        "anchor_count": 16
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
-      "source_artifact_date": "2026-10-31",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
+      "source_artifact_date": "2026-11-01",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_adbd094c735021692ad1b9d7",
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-      "category": "国际",
-      "published_at": "2026-10-30T21:13:14+00:00",
-      "why_relevant": "币安遭朝鲜黑客巨额窃案",
+      "article_id": "a1_e9503a83c7428c9bddb43e34",
+      "title": "OpenAI Teases GPT-6.1 Astra Amid Relentless Hype Around The Mysterious GPT-6.2 Betelgeuse Model, As Another Evidence Surfaces Showing Kimi K3.1 Pro And GLM-5.3 As Products Of Distillation",
+      "url": "https://wccftech.com/openai-teases-gpt-6-1-astra-amid-relentless-hype-around-the-mysterious-gpt-6-2-betelgeuse-model-as-another-evidence-surfaces-showing-kimi-k3-1-pro-and-glm-5-3-as-products-of-distillation/",
+      "publisher": "Wccftech",
+      "summary": "OpenAI has done something different recently: offered banked resets that suggest it wants you to save your token splurge on a new model, likely GPT-6.1 Astra. Meanwhile, AI enthusiasts continue to speculate on the characteristics of the unreleased GPT-6.2 Betelgeuse model that has recently surfaced in online leaks. At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 se",
+      "category": "科技",
+      "published_at": "2026-10-31T17:11:35+00:00",
+      "why_relevant": "前沿LLM动态，必读",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
+          "text": "At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 series, respectively, which suggests that both of these models are likely a product of distillation",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.856857+08:00",
-          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
-          "excerpt": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea - Published Binance, the world's largest cryptocurrency exchange, says it has frozen around half of the funds stolen in a \"complex\" hack, after $6.3bn (Â£4.7bn) was accessed in what is believed",
-          "sentence_hash": "5f66b69d4df4ba08a46bd250312132b152f6bf856824ad03bda7cc30819a5164",
+          "captured_at": "2026-11-01T08:03:18.879983+08:00",
+          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
+          "excerpt": "At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 series, respectively, which suggests that both of these models are likely a product of distillation",
+          "sentence_hash": "177e4d5a3f3bea75cce97fce3d9f916cebc9d7eb9ecaa002e8a7226dd6b5d302",
           "anchors": [
-            "cryptocurrency",
-            "$6.3",
-            "crypto"
+            "personality",
+            "ai",
+            "pro",
+            "these"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
+          "text": "GPT-6.2 Betelgeuse has now been spotted within OpenAI's internal model tracker, as GPT-6.1 Astra likely lands next week We noted a few weeks back that OpenAI has apparently finished pre-training its next base model, known internally as Bel, with over 10 trillion parameters under ",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.856894+08:00",
-          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
-          "excerpt": "The firm said $3bn of its stolen digital assets had been secured - but many were still in the hands of unidentified hackers.",
-          "sentence_hash": "7a21e6cc44d9270734a551aad13edf18c7de28908d0fc6a38e0acf9b8556a3c3",
+          "captured_at": "2026-11-01T08:03:18.880031+08:00",
+          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
+          "excerpt": "GPT-6.2 Betelgeuse has now been spotted within OpenAI's internal model tracker, as GPT-6.1 Astra likely lands next week We noted a few weeks back that OpenAI has apparently finished pre-training its next base model, known internally as Bel, with over 10 trillion parameters under ",
+          "sentence_hash": "8d8d25d2e8ce3c6848298743f611f2b511eddf006e5556b042bf49c37b62441b",
           "anchors": [
-            "$3"
+            "now",
+            "bel",
+            "ai",
+            "10 trillion"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
+          "text": "Of course, while America's two leading AI labs - OpenAI and Anthropic - are currently operating within a fairly healthy micro environment, with one model release after another, their macro environment is anything but.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.856921+08:00",
-          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
-          "excerpt": "It initially thought an engineer's laptop had been compromised, allowing unauthorised withdrawals, but later said the attack was wider.",
-          "sentence_hash": "6ebcbf78a9dba33df905673cf68504e61e79f63098a28b174fe96de9b2a12c13",
+          "captured_at": "2026-11-01T08:03:18.880088+08:00",
+          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
+          "excerpt": "Of course, while America's two leading AI labs - OpenAI and Anthropic - are currently operating within a fairly healthy micro environment, with one model release after another, their macro environment is anything but.",
+          "sentence_hash": "7f55146a39291507f7c6596de176d432e3253c2badd44898d64992c3861de49e",
           "anchors": [
-            "initially"
+            "ai",
+            "another"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
+          "text": "As an illustration, consider the fact that OpenAI has so far managed to raise less than half of its targeted $30 billion haul in its most recent funding round, receiving firm commitments for just $11 billion.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.856951+08:00",
-          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
-          "excerpt": "Several analytics firms have linked the hack, which eclipses a $1.5bn (Â£1.12bn) heist on the Bybit exchange in 2025, to a North Korean hacking unit.",
-          "sentence_hash": "20d7f758ebf7360320f6781d35d37f7008e5a125922dfe8f24a41583c07f2255",
+          "captured_at": "2026-11-01T08:03:18.880122+08:00",
+          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
+          "excerpt": "As an illustration, consider the fact that OpenAI has so far managed to raise less than half of its targeted $30 billion haul in its most recent funding round, receiving firm commitments for just $11 billion.",
+          "sentence_hash": "cc3f9d2aec4addc5a8c67e79bebd5094545706b7461af928803be5f867e10bec",
           "anchors": [
-            "$1.5"
+            "11 billion",
+            "30 billion",
+            "ai",
+            "$30 billion",
+            "$11 billion"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
+          "text": "The AI lab is now reportedly seeking to raise just $20 billion at a valuation of $1.25 trillion.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.856992+08:00",
-          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
-          "excerpt": "America's lead federal agency for investigating financial crimes added that it would \"identify the cyber criminals responsible and bring them to justice\", while Binance also said it was working with the FBI.",
-          "sentence_hash": "99a3f9bd1a66b943c657fd1a45da8d9cf281c96ce633a4a0b813062118089981",
+          "captured_at": "2026-11-01T08:03:18.880146+08:00",
+          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
+          "excerpt": "The AI lab is now reportedly seeking to raise just $20 billion at a valuation of $1.25 trillion.",
+          "sentence_hash": "4bc56aba697fb6d3602de15e5694a43ae90bb3d0e22c037a803168883ecd7ec5",
           "anchors": [
-            "us"
+            "now",
+            "$1.25 trillion",
+            "$20 billion",
+            "ai",
+            "20 billion",
+            "1.25 trillion"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
+          "text": "Another evidence points to the distilled nature of Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 Meanwhile, Artificial Analysis' Personality Indexes have disclosed a fascinating insight into Kimi K3.1 Pro and GLM-5.3, showing an uncanny similarity with GPT-6 Astra in the case of th",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.857028+08:00",
-          "content_sha256": "ba3f26b7ee3015d50cc411f65c0ec490e17aa0863848c8970c5491a9fc520224",
-          "excerpt": "The hack also involved some US-linked assets, such as stablecoins Tether and Circle â cryptocurrencies pegged to the dollar.",
-          "sentence_hash": "67db53fa15797250182e29df23318715a1f36b0ff7376a6c329e616c12c361a7",
+          "captured_at": "2026-11-01T08:03:18.880200+08:00",
+          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
+          "excerpt": "Another evidence points to the distilled nature of Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 Meanwhile, Artificial Analysis' Personality Indexes have disclosed a fascinating insight into Kimi K3.1 Pro and GLM-5.3, showing an uncanny similarity with GPT-6 Astra in the case of th",
+          "sentence_hash": "c3972949fe8cfd0ef49a7c233d62ff99e82ab307864e4d6ae97610134ba4b675",
           "anchors": [
-            "crypto"
+            "ai"
           ]
         }
       ],
       "entities": [
-        "circle",
-        "new york",
-        "several",
-        "cryptocurrency",
-        "secret service",
-        "north korean",
-        "dev",
+        "astra",
+        "personality",
+        "artificial analysis",
+        "november",
+        "ai",
+        "open",
+        "betelgeuse",
+        "these",
+        "meanwhile",
         "america",
-        "coinbase",
-        "us",
-        "ops",
-        "tether",
-        "friday",
-        "our",
-        "published",
-        "robinhood",
-        "initially",
-        "while binance",
-        "binance",
-        "the binance",
-        "published\nbinance",
-        "fbi",
-        "crypto",
-        "ceo",
-        "bybit",
-        "north korea",
-        "richard teng",
-        "bitcoin",
-        "teng"
+        "glm",
+        "pro",
+        "moonshot",
+        "now",
+        "another",
+        "financial times",
+        "anthropic",
+        "claude",
+        "kimi",
+        "personality indexes",
+        "bel",
+        "bench",
+        "aa",
+        "gpt"
       ],
       "numbers": [
-        "$6.34",
-        "$6.3",
-        "$3",
-        "$76,800 ",
-        "$1.5",
-        "12%",
-        "5%"
+        "$1.25 trillion",
+        "$20 billion",
+        "11 billion",
+        "30 billion",
+        "$30 billion",
+        "10 trillion",
+        "20 billion",
+        "$11 billion",
+        "1.25 trillion"
       ],
       "dates": [],
       "unknowns": [
@@ -244,358 +258,383 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 36
+        "anchor_count": 33
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
-      "source_artifact_date": "2026-10-31",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
+      "source_artifact_date": "2026-11-01",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_ae80c127d1bf2e414cce6c9c",
-      "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
-      "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
-      "publisher": "The Guardian",
-      "summary": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency incomeNorth Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit t",
-      "category": "国际",
-      "published_at": "2026-10-30T17:37:46+00:00",
-      "why_relevant": "加密黑客资助朝鲜核武",
+      "article_id": "a1_a7432bcd2721cb7ab6f864f2",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "publisher": "Simon Willison",
+      "summary": "API credits benefit for eligible ChatGPT subscriptions\nEarlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.\nOpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.\nI mainta",
+      "category": "科技",
+      "published_at": "2026-10-29T22:48:29+00:00",
+      "why_relevant": "API额度福利，实用",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
+          "text": "29th October 2026 - Link Blog API credits benefit for eligible ChatGPT subscriptions.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.858434+08:00",
-          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
-          "excerpt": "The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.",
-          "sentence_hash": "5d8e73e924b42f88c311ee4b9fe7777befb9410731602cf1b39a06716041ca79",
+          "captured_at": "2026-11-01T08:03:18.880996+08:00",
+          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
+          "excerpt": "29th October 2026 - Link Blog API credits benefit for eligible ChatGPT subscriptions.",
+          "sentence_hash": "cbf9f2c6545aafc8cad1a7d5b7ccf8aa631fb5847f92a7a9d26ff0ad768ea906",
           "anchors": [
-            "un"
+            "October 20"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
+          "text": "Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.858476+08:00",
-          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
-          "excerpt": "Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group.",
-          "sentence_hash": "4f1345e30db1627a0040fa47fa772fa322c5d31914e2ccba593530026fa86330",
+          "captured_at": "2026-11-01T08:03:18.881033+08:00",
+          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
+          "excerpt": "Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.",
+          "sentence_hash": "307c4f1296b921d831a35ec4daa8e96dd38e620a225ceb8557f3e2cbba1d6f31",
           "anchors": [
-            "un",
-            "$6.3"
+            "$500 ",
+            "$200",
+            "$100"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
+          "text": "OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.858553+08:00",
-          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
-          "excerpt": "North Korea has a history of cryptocurrency theft dating back to 2017, focusing on the sector’s relatively lax security controls as a way of stealing money and generating revenues for its military, including its nuclear weapons programme.",
-          "sentence_hash": "89d53e210677d0282b5a89fe5764e2534b707506bb5a98019548f7d262154529",
+          "captured_at": "2026-11-01T08:03:18.881065+08:00",
+          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
+          "excerpt": "OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.",
+          "sentence_hash": "180824d5fc3a75f90d9f7479f988afef26a585fba50f7342e2c6fd3b4e42893f",
           "anchors": [
-            "one"
+            "$500 ",
+            "$200",
+            "$100"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
+          "text": "Recent articles - The October inflection point for vibe game development - 28th October 2026 - Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my bl",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.858589+08:00",
-          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
-          "excerpt": "Kim Jong-un, its dictatorial ruler, controls a stockpile of about 50 nuclear warheads, and has been supplying troops and weapons to help Russia in its war in Ukraine.",
-          "sentence_hash": "590e7e7cea2ba0741a22c5b61caf07036279cd35712573cfda53f7babdff2125",
+          "captured_at": "2026-11-01T08:03:18.881110+08:00",
+          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
+          "excerpt": "Recent articles - The October inflection point for vibe game development - 28th October 2026 - Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my bl",
+          "sentence_hash": "f555cc8a829cad5f7e6f8ff7ba5128ea9b19f0f0d5575a602acb3e42bfef27a9",
           "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.858617+08:00",
-          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
-          "excerpt": "But North Korea is also extremely poor: 40% of the population are undernourished according to the UN and nearly one in five of its children are stunted.",
-          "sentence_hash": "75643c04f3af3f5d8bb7643d7a1c09cbe5a867ff322eb454ce27e9c962ae3f7d",
-          "anchors": [
-            "un",
-            "one",
-            "40%"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.858658+08:00",
-          "content_sha256": "698ead3ca4723b013adf954d478708f6e3a45048cfaed4b7c65c63d478476ed6",
-          "excerpt": "A UN panel of experts, reporting to the security council, said in the spring of 2024 that it was reviewing “58 suspected cyber-attacks” by North Korea “on cryptocurrency-related companies between 2017 and 2023” worth $3bn.",
-          "sentence_hash": "3f13ec6243b55104928b757f7208501672baeb30b2ce3fe20f84bc23626a156f",
-          "anchors": [
-            "un",
-            "experts",
-            "$3"
+            "October 20"
           ]
         }
       ],
       "entities": [
-        "trader",
-        "un",
-        "new york",
-        "ukraine",
-        "though",
-        "north korean",
-        "ciaran martin",
-        "labs",
-        "martin",
-        "bangladesh bank",
-        "russia",
-        "national cyber security centre",
-        "federal reserve bank",
-        "traitor",
-        "phil",
-        "lazarus group",
-        "but north korea",
-        "february",
-        "binance",
-        "fbi",
-        "one",
-        "over",
-        "uk",
-        "kim jong",
-        "bybit",
-        "trm",
-        "north korea",
-        "experts"
+        "recent",
+        "team",
+        "the october",
+        "api",
+        "battle drones",
+        "rts",
+        "max",
+        "anthropic",
+        "chat",
+        "link blog",
+        "hello python",
+        "open",
+        "october",
+        "earlier"
       ],
       "numbers": [
-        "40%",
-        "$951",
-        "$6.3",
-        "$3",
-        "$750",
-        "$1.5",
+        "$500 ",
+        "$200",
         "$100"
       ],
       "dates": [
-        "February 20"
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 18
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
+      "source_artifact_date": "2026-11-01",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_a55502c5472148c1df140252",
+      "title": "Claude Code Game Restrictions Target Clones, But Developers Say Legitimate Projects Are Being Blocked",
+      "url": "https://wccftech.com/claude-code-game-restrictions-target-clones-but-developers-say-legitimate-projects-are-being-blocked/",
+      "publisher": "Wccftech",
+      "summary": "Anthropic has introduced new Claude Code game restrictions designed to prevent its AI coding assistant from recreating existing video games. However, the change is already generating controversy, with some developers reporting that the restrictions are also interfering with their own projects. As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_br",
+      "category": "科技",
+      "published_at": "2026-10-31T20:08:37+00:00",
+      "why_relevant": "Claude Code限制，影响开发",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_brook.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-01T08:03:18.882214+08:00",
+          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
+          "excerpt": "As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_brook.",
+          "sentence_hash": "3671f6e29248807b6b7550f8439d97a9d8dc7101c2941989d4c3ec756dbe1a21",
+          "anchors": [
+            "October 27",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Anthropic's Addy Osmani subsequently confirmed the change, explaining that two sentences had been added to Claude Code's prompt for Opus 5.5 to discourage intellectual property infringement, which already violates the company's usage policy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-01T08:03:18.882270+08:00",
+          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
+          "excerpt": "Anthropic's Addy Osmani subsequently confirmed the change, explaining that two sentences had been added to Claude Code's prompt for Opus 5.5 to discourage intellectual property infringement, which already violates the company's usage policy.",
+          "sentence_hash": "721cc67b19551a9012edeb201e848230cbd9fb7501c3ec67e149a0f8cfc341a5",
+          "anchors": [
+            "for",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Osmani also acknowledged the potential for unintended consequences, stating that Anthropic would continue refining the restrictions and encouraging developers whose own projects were incorrectly rejected to report their experiences.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-01T08:03:18.882304+08:00",
+          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
+          "excerpt": "Osmani also acknowledged the potential for unintended consequences, stating that Anthropic would continue refining the restrictions and encouraging developers whose own projects were incorrectly rejected to report their experiences.",
+          "sentence_hash": "521e4f7c7b8aa5517d44abe0138aa1a61be1f2b424d565bf685f36accfce3bbf",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Unfortunately, such complaints have already emerged.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-01T08:03:18.882321+08:00",
+          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
+          "excerpt": "Unfortunately, such complaints have already emerged.",
+          "sentence_hash": "e91aee8bfab6c3d77a7b4b0e0b5dffe1500cdf58a972f292602a7f84c849b599",
+          "anchors": [
+            "for",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In a GitHub issue filed on October 30, a developer operating Conflict Simulations LLC reported that Claude Code had started refusing to work on personalized digital board-wargame modules commissioned by paying customers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-01T08:03:18.882354+08:00",
+          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
+          "excerpt": "In a GitHub issue filed on October 30, a developer operating Conflict Simulations LLC reported that Claude Code had started refusing to work on personalized digital board-wargame modules commissioned by paying customers.",
+          "sentence_hash": "4cbc0cf0d444b58d76db5266feb82fe305475d39cd4bf09632789417bcc4e66b",
+          "anchors": [
+            "tom",
+            "October 30",
+            "git"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "According to the developer, these projects use original code and customer-supplied materials, with the resulting modules intended exclusively for customers who own the corresponding physical games.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-01T08:03:18.882383+08:00",
+          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
+          "excerpt": "According to the developer, these projects use original code and customer-supplied materials, with the resulting modules intended exclusively for customers who own the corresponding physical games.",
+          "sentence_hash": "5cb8bb20057acb5bb4aa66dddf7b30af84e8bbe8c22973f4f7b6bbcf1f7fa996",
+          "anchors": [
+            "for",
+            "tom",
+            "these"
+          ]
+        }
+      ],
+      "entities": [
+        "interestingly",
+        "oblivion remastered",
+        "opus",
+        "chasm",
+        "osmani",
+        "conflict simulations",
+        "however",
+        "claude code",
+        "tom",
+        "addy osmani",
+        "october",
+        "ai",
+        "meanwhile",
+        "according",
+        "these",
+        "git",
+        "claude cod",
+        "hardware",
+        "unfortunately",
+        "pc",
+        "more",
+        "anthropic",
+        "claude",
+        "llc",
+        "for",
+        "game developer",
+        "hub"
+      ],
+      "numbers": [
+        "40%"
+      ],
+      "dates": [
+        "October 27",
+        "October 30"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 36
+        "anchor_count": 30
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
-      "source_artifact_date": "2026-10-31",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
+      "source_artifact_date": "2026-11-01",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_8eac02103f27f008d98e6755",
-      "title": "Canada and EU announce new alliance open to like-minded countries",
-      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
-      "publisher": "The Guardian",
-      "summary": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, U",
-      "category": "国际",
-      "published_at": "2026-10-30T19:42:15+00:00",
-      "why_relevant": "加欧组建新联盟",
-      "relevance_score": 7.0,
+      "article_id": "a1_895c267649c2e08019fdaf97",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "publisher": "Simon Willison",
+      "summary": "How We Took Over ChatGPT Accounts\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe.\nIt's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.\nParameter found quite a complex attack chain. OpenAI",
+      "category": "科技",
+      "published_at": "2026-10-31T23:15:22+00:00",
+      "why_relevant": "ChatGPT安全漏洞，硬核",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
+          "text": "31st October 2026 - Link Blog How We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where i",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.860601+08:00",
-          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
-          "excerpt": "Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join.",
-          "sentence_hash": "fe0dc6319865fff1b8beea301015b5e5c0d3ac19e24f82bb5c6cf7ead59e68dc",
+          "captured_at": "2026-11-01T08:03:18.883508+08:00",
+          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
+          "excerpt": "31st October 2026 - Link Blog How We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where i",
+          "sentence_hash": "b5c90771cd383d68328014e111e39a1433dec94ebf20eb578f9bb84f9acdf268",
           "anchors": [
-            "our",
-            "alliance",
-            "while",
-            "ai"
+            "October 20"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
+          "text": "That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.860660+08:00",
-          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
-          "excerpt": "Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president, Ursula von der Leyen, called the new partnership the Alliance for the Future and said the “deepest possible partnership between Canada and the 27-member bloc had",
-          "sentence_hash": "b9d8932ea5244bdafbe22410e4fc5c695a2eb6ed2af297ba5c0266df0631565e",
+          "captured_at": "2026-11-01T08:03:18.883562+08:00",
+          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
+          "excerpt": "That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.",
+          "sentence_hash": "c67a43348302a2639e77494ed6b662aa1d7f4d6000c887ba7806edeb111c1727",
           "anchors": [
-            "ai"
+            "message"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
+          "text": "This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.860703+08:00",
-          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
-          "excerpt": "As they concluded their two-day summit, Canada agreed to contribute to a €90bn support loan for Ukraine.",
-          "sentence_hash": "3a2269c346828b7016d27092c2a72b421e929a9a93b75c87dca2a04c135f8f0c",
+          "captured_at": "2026-11-01T08:03:18.883593+08:00",
+          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
+          "excerpt": "This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions.",
+          "sentence_hash": "aff5b9bd023957ce0a7880ece70e6cf32a5a36d2b5cc6e31b2b95264314cfcab",
           "anchors": [
-            "ai"
+            "script"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
+          "text": "OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.860737+08:00",
-          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
-          "excerpt": "Leaders also said future discussions would lead to a more integrated market worth tens of billions of dollars, reduced trade and travel restrictions, and new educational opportunities for both sides.",
-          "sentence_hash": "f17a084d78a13901e97e4b326d221563dfd48ee7ab77033687a1c02f12a8dc0b",
+          "captured_at": "2026-11-01T08:03:18.883637+08:00",
+          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
+          "excerpt": "OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.",
+          "sentence_hash": "4e566eb1bd7ea7697fd1625d77275fce8ef81fcebcf3d3e0f2d6e0ba8cae809a",
           "anchors": [
-            "future",
-            "ai"
+            "script"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
+          "text": "The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.860784+08:00",
-          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
-          "excerpt": "Last week, Elon Musk throttled the speeds of Starlink and Starshield over Ukraine in mid-October, severely disrupting Ukrainian military and defense operations.",
-          "sentence_hash": "90b7154d0b510fa1ef34b681e3c740746641977c7fc6c438c0ba222fd5d1a105",
+          "captured_at": "2026-11-01T08:03:18.883673+08:00",
+          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
+          "excerpt": "The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.",
+          "sentence_hash": "cf14b320af12a8e490e5636b69287ef873843d43a94960ec946fe90b27937617",
           "anchors": [
-            "ai"
+            "you"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
+          "text": "OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.",
           "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.860818+08:00",
-          "content_sha256": "3199ea3dc1fcf0e1ce8eb4c9b6ddc3ab6b735f76a55bd1465743d908a5d33087",
-          "excerpt": "Carney has repeatedly raised the concern that Canada’s defense technologies could be at the whim of political actors or companies with opposing interests.",
-          "sentence_hash": "c1b76cd3b3debd2c95509a1ea2ea216da34c40f8e8417108d95b0fe613518ac2",
+          "captured_at": "2026-11-01T08:03:18.883697+08:00",
+          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
+          "excerpt": "OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.",
+          "sentence_hash": "7418ba10a082c8b69a2a92762d22304ddf1b3fdf566c4c623ea2df6682fcd0d7",
           "anchors": [
-            "ai"
+            "$5,000 "
           ]
         }
       ],
       "entities": [
-        "elon musk",
-        "cohere",
-        "united states",
-        "ukraine",
-        "speaking",
-        "ai",
-        "mark carney",
-        "germany",
-        "eu",
-        "alliance",
+        "recent",
+        "the october",
+        "parameter labs",
+        "once",
+        "csp",
+        "parameter",
+        "embed",
+        "rts",
+        "url",
+        "open",
         "october",
-        "canada",
-        "last",
-        "future",
-        "aleph alpha gmb",
-        "ottawa",
-        "starlink",
-        "leyen",
-        "american",
-        "cohere inc",
-        "thursday",
-        "carney",
-        "european commission",
-        "while",
-        "liberal",
-        "berlin",
-        "starshield",
-        "friday",
-        "our",
-        "montreal",
-        "europe",
-        "toronto",
-        "ursula",
-        "musk",
-        "canadian",
-        "european",
-        "brussels",
-        "leaders",
-        "ukrainian"
+        "math",
+        "tube",
+        "message",
+        "script",
+        "battle drones",
+        "java",
+        "you",
+        "chat",
+        "accounts",
+        "hello python",
+        "live java",
+        "html",
+        "link blog\nhow we took over chat",
+        "canvas"
       ],
       "numbers": [
-        "$1.6"
+        "$5,000 "
       ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
+      "dates": [
+        "October 20"
       ],
+      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 40
+        "anchor_count": 27
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
-      "source_artifact_date": "2026-10-31",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_6cecbcf6fb3f295464c183be",
-      "title": "Poland deploys riot police, as court chief’s ousting sparks crisis",
-      "url": "https://www.scmp.com/news/world/europe/article/3372802/poland-deploys-riot-police-court-chiefs-ousting-sparks-crisis",
-      "publisher": "SCMP",
-      "summary": "Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot police deployed around the country’s constitutional court on Friday following the suspension of its chief justice in a battle between the centrist government and the nationalist right.\nDozens of police guarded the entrance to the court as followers of the opposition right-wing Law and Justice party (PiS) protested against the ousting of constitutional court president Bogdan Swieczkowski.\nThe court’s official...",
-      "category": "国际",
-      "published_at": "2026-10-30T23:43:02+00:00",
-      "why_relevant": "波兰宪政危机升级",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
-          "source_id": "source:primary",
-          "captured_at": "2026-10-31T08:03:30.861304+08:00",
-          "content_sha256": "93d767d86981448b601a2feb1a12b9431e5922188fdb56ac1b5b5be9c120135e",
-          "excerpt": "Poland deploys riot police, as court chief’s ousting sparks crisis President Karol Nawrocki called off a visit to Africa in mid-flight, returning to Warsaw to deal with the turmoil at home Poland’s President Karol Nawrocki called off a visit to Africa in mid-flight, as riot polic",
-          "sentence_hash": "2a8712e1360f4c1a82cc088789345ba1a4a615f4cd1a408751856840c94e8cf3",
-          "anchors": [
-            "justice"
-          ]
-        }
-      ],
-      "entities": [
-        "law",
-        "poland",
-        "bogdan swieczkowski",
-        "president karol nawrocki",
-        "justice",
-        "warsaw",
-        "dozens",
-        "africa",
-        "tusk",
-        "prime minister donald tusk",
-        "friday"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 11
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-10-31-AM.json",
-      "source_artifact_date": "2026-10-31",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
+      "source_artifact_date": "2026-11-01",
       "freshness_label": "today"
     }
   ]
