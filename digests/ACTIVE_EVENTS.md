@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-01 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-02 08:08。
+
+## Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261102_d6a3dbcf3a6d`
+
+## Donchitos/Claude-Code-Game-Studios
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：49 agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_1b96f3db51c9`
+
+## FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261102_185cac088385`
+
+## Kherson braces for return of war as localised Russia-Ukraine truce ends
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.
+- 事件 ID：`evt_20261102_509cc6f03428`
+
+## lightpanda-io/browser
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：The headless browser built from scratch for AI agents and automation.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_2689e5da0761`
+
+## FirstFT: Gulf braced for renewed war between US and Iran
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261102_ee9e3dd74d2d`
+
+## Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261102_38ec383074e9`
+
+## Hong Kong summit to test Wall Street sentiment amid geopolitical strains, tech volatility
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：Hong Kong summit to test Wall Street sentiment amid geopolitical strains, tech volatility Financial heavyweights will share their thoughts on macroeconomic headwinds, including elevated interest rates and AI regulatory scrutiny When hundreds of global finance leaders converge in 
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_bb6ed61df4d8`
+
+## The US-China trade war seems to have subsided – but the sense of calm is misleading
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end US trade with countries with which it has a deficit unless the Federal Reserve cuts interest rates.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_f988e387ab75`
+
+## Trump floats 'concept' of US-Canada deal that includes pipeline after conversation with Carney
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261102_263e53b13de6`
+
+## HKUDS/DeepTutor
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：Vote on roadmap items or propose new ones at Roadmap, and see our Contributing Guide for branching strategy, coding standards, and how to get started.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_3444437c8dce`
+
+## mattpocock/skills
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：But while doing so, they take away your control and make bugs in the process hard to resolve.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_c789a46f0810`
+
+## Why governors’ races are important in the 2026 US midterms
+- 状态：更新中；首见 2026-11-02；最近更新 2026-11-02
+- 最新事实：Why governors’ races are important in the 2026 US midterms Historic turnover in this election will allow dozens of states to vote on significant changes in leadership.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261102_f1994aa9c2c1`
 
 ## Michigan feud threatens Democratic unity in key Senate race
 - 状态：更新中；首见 2026-11-01；最近更新 2026-11-01

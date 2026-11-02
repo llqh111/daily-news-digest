@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T00:08:16.854248+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-02.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-01.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_95ec76e0b67ecb2bc6de4d12",
+      "title": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "publisher": "GitHub Trending",
+      "summary": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. \nClaude Code Game Studios \n Turn a single Claude Code session into a full game development studio.  49 agents. 74 skills. One coordinated AI team.  \n \n          \n \nWhy This Exists \nBuilding a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing sp",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "49智能体仿真实游戏工作室",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "49 agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855523+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "49 agents.",
+          "sentence_hash": "8628bf787cff89891677226f06980b35f76d2be7c628ed02379d99b973c3082a",
+          "anchors": [
+            "agents"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855569+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
+          "sentence_hash": "e919f3eb6f81ba35be9c0ced0c7f22489ba4998d7646109ad75cfa65395b627b",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855607+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
+          "sentence_hash": "a01c34911bd064602f5c7a446f1aa3239cd35f1367f46c452a38d2255a3aa959",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855649+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
+          "sentence_hash": "72640ff62871b9b7a3c79a178dbd5366a4ef8123868d509daa9fd3f5f8698632",
+          "anchors": [
+            "department leads",
+            "art",
+            "one",
+            "agents",
+            "ai",
+            "specialists",
+            "directors"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855689+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
+          "sentence_hash": "ce6c1b07fa5853dec4752a62f02d1176d179a7b3861572779d1684cac8b2b9da",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855748+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
+          "sentence_hash": "3d56f047ab1d2152b379336e6fcec81b5c49ec72b604699cacd4f0c52eb18d13",
+          "anchors": [
+            "art",
+            "qa",
+            "ux",
+            "type",
+            "ai",
+            "specialists",
+            "directors",
+            "tier"
+          ]
+        }
+      ],
+      "entities": [
+        "analysi",
+        "there",
+        "ux",
+        "type",
+        "instead",
+        "treat",
+        "game design",
+        "ai",
+        "navigation",
+        "specialists",
+        "tier",
+        "department leads",
+        "reviews",
+        "claude code game studios",
+        "use",
+        "each",
+        "assets",
+        "sprints",
+        "turn",
+        "stories",
+        "interface design",
+        "architecture",
+        "agents",
+        "claude code",
+        "directors",
+        "onboarding",
+        "art",
+        "sonnet",
+        "qa",
+        "opus",
+        "building",
+        "one"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_2ee00a5e205d99ec04a9966f",
+      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-01T01:10:05+00:00",
+      "why_relevant": "FBI确认朝鲜黑客，DeFi风险高",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.856008+08:00",
+          "content_sha256": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
+          "excerpt": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+          "sentence_hash": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
+          "anchors": [
+            "6 billion",
+            "$6 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "btc",
+        "fbi",
+        "eth",
+        "binance",
+        "north korea",
+        "sol"
+      ],
+      "numbers": [
+        "6 billion",
+        "$6 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 8
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_5700772ab8c4051d80da91ef",
+      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+      "category": "国际",
+      "published_at": "2026-11-01T22:15:14+00:00",
+      "why_relevant": "俄乌局部停火结束，战事升温",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.857463+08:00",
+          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
+          "excerpt": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
+          "sentence_hash": "f3edce24ce8cd63e0b5e19c48acbe7b1e5a34d790b32f92f10022a5ba603fee4",
+          "anchors": [
+            "south",
+            "21 people"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.857570+08:00",
+          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
+          "excerpt": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
+          "sentence_hash": "0611ca1b24c6718ae628a471c8177d3362b147fd30594c0613368fe338425ca8",
+          "anchors": [
+            "February 20",
+            "south"
+          ]
+        }
+      ],
+      "entities": [
+        "united states first lady melania trump",
+        "units",
+        "donetsk",
+        "russia",
+        "ukrainian",
+        "kremlin",
+        "ukraine",
+        "xiv",
+        "afp",
+        "foreign ministry",
+        "kyiv",
+        "melania trump",
+        "february",
+        "they",
+        "nizhny novgorod",
+        "south",
+        "general staff",
+        "kherson",
+        "since russia",
+        "russian",
+        "telegram",
+        "gmt",
+        "pope leo",
+        "moscow",
+        "on sunday",
+        "dmitry peskov",
+        "let oleshky",
+        "luhansk",
+        "in russia",
+        "oleshky",
+        "sunday",
+        "ukrainian president volodymyr zelenskyy"
+      ],
+      "numbers": [
+        "21 people"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_cc7c804ad5271cd558932b28",
+      "title": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "publisher": "GitHub Trending",
+      "summary": "Lightpanda: the headless browser designed for AI and automationhttps://lightpanda.io   \nLightpanda Browser \n The headless browser built from scratch for AI agents and automation. Not a Chromium fork. Not a WebKit patch. A new browser, written in Zig. 16x lighter and 9x faster than Chromium.   \n \n     \n \n \n       \n \nBenchmarks \nRequesting 933 real web pages over the network on a AWS EC2 m5.large instance. See benchmark details. \n \n  \n   \n   Metric \n   Lightpanda \n   Headless Chrome \n   Difference",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI专用无头浏览器，非Chromium",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The headless browser built from scratch for AI agents and automation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.858905+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "The headless browser built from scratch for AI agents and automation.",
+          "sentence_hash": "5468ea3eb4d57bbaffde8c7a399d4b6ade1ab12ca6016d4494df1e580483bd21",
+          "anchors": [
+            "from"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.858945+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
+          "sentence_hash": "88cdc9c1d7b8927d6cd29e05aaa19ac86f4e67787e32bd40f36b5763fa3189cc",
+          "anchors": [
+            "web"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "See benchmark details.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.858961+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "See benchmark details.",
+          "sentence_hash": "797ff0126307dc3b524ea1910aec4a19304365345605430b10f13fa69ee2b330",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.859003+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
+          "sentence_hash": "2126da202e17db06018d9c2c1902ff1e7aa87c083242b35d19fd61baa545e47a",
+          "anchors": [
+            "download",
+            "install",
+            "lightpanda",
+            "from"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.859050+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
+          "sentence_hash": "a00405e0ab493d9b7f1be8317623c28f12f68685a978c8953bd861b29de764bc",
+          "anchors": [
+            "run",
+            "lightpanda",
+            "nix",
+            "your",
+            "download",
+            "use",
+            "from",
+            "linux",
+            "ai",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.859080+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
+          "sentence_hash": "1a6e13fd7b75c770ec664db329484024decc433437f5991bcb883d28f552a94d",
+          "anchors": [
+            "ai",
+            "use",
+            "not"
+          ]
+        }
+      ],
+      "entities": [
+        "kit",
+        "requesting",
+        "see",
+        "zig",
+        "chromium",
+        "ai",
+        "android",
+        "you",
+        "puppeteer",
+        "for mac",
+        "mac",
+        "lightpanda",
+        "not",
+        "homebrew",
+        "cdp",
+        "web",
+        "use",
+        "note",
+        "verify",
+        "latest",
+        "install",
+        "for linux",
+        "aws",
+        "windows",
+        "nix",
+        "alpine",
+        "arch linux user repository",
+        "termux",
+        "bionic",
+        "see microsoft",
+        "package managers\nlatest",
+        "for windows",
+        "run",
+        "the linux",
+        "playwright",
+        "your",
+        "docker\nlightpanda",
+        "download",
+        "docker",
+        "from",
+        "linux",
+        "wsl"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_9b17e5afaf4a4c6b0931c23b",
+      "title": "FirstFT: Gulf braced for renewed war between US and Iran",
+      "url": "https://www.ft.com/content/703dd322-e880-4bbf-80f8-8b0efda1831c?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+      "category": "财经",
+      "published_at": "2026-11-01T22:22:33+00:00",
+      "why_relevant": "美伊战争风险，Binance巨资流出",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.859351+08:00",
+          "content_sha256": "81b59a296532f8b2afb46f6c947c92f6ece0f27482a4c5cc0b972893b333da46",
+          "excerpt": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+          "sentence_hash": "9bebda08084e1254b9fae94d39bd146c581ae23e9fcce0c0a14437a31461d121",
+          "anchors": [
+            "$3.6"
+          ]
+        }
+      ],
+      "entities": [
+        "also",
+        "binance"
+      ],
+      "numbers": [
+        "$3.6"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 3
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T00:07:25.613517+00:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T00:08:16.854248+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
-      "count": "9"
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-01.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-02.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-10-31.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-01.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,618 +23,503 @@
   },
   "items": [
     {
-      "article_id": "a1_1572524daf0304a6ad18832e",
-      "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
-      "publisher": "SCMP",
-      "summary": "The theft of billions of dollars from Binance within a matter of minutes, the biggest cryptocurrency heist in history, was orchestrated by North Korean hackers, the FBI said on Saturday.\nThe bureau said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year.\nThe FBI asked cryptocurrency exchanges, blockchain analytics companies and others to block transactions linked to...",
-      "category": "国际",
-      "published_at": "2026-10-31T23:49:22+00:00",
-      "why_relevant": "朝鲜盗币重大安全事件",
+      "article_id": "a1_95ec76e0b67ecb2bc6de4d12",
+      "title": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "publisher": "GitHub Trending",
+      "summary": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. \nClaude Code Game Studios \n Turn a single Claude Code session into a full game development studio.  49 agents. 74 skills. One coordinated AI team.  \n \n          \n \nWhy This Exists \nBuilding a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing sp",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "49智能体仿真实游戏工作室",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Advertisement FBI blames North Korea for stolen billions from Binance in biggest hack in history The US agency blames the attack on an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year 1-MIN READ1-MIN Listen The theft of billions of dolla",
+          "text": "49 agents.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.878424+08:00",
-          "content_sha256": "1bb4a6a04db39bc9def26c17f81150cb5ba7ee686dc1fcb528c2082a7b136d0f",
-          "excerpt": "Advertisement FBI blames North Korea for stolen billions from Binance in biggest hack in history The US agency blames the attack on an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year 1-MIN READ1-MIN Listen The theft of billions of dolla",
-          "sentence_hash": "d6364100cd6ecd96799e9d4942578cef87af0fa81c52094452fb9f276a9747df",
+          "captured_at": "2026-11-02T08:03:35.855523+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "49 agents.",
+          "sentence_hash": "8628bf787cff89891677226f06980b35f76d2be7c628ed02379d99b973c3082a",
           "anchors": [
-            "1.5 billion",
-            "$1.5 billion",
-            "ai",
-            "min"
+            "agents"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The bureau said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year.",
+          "text": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.878466+08:00",
-          "content_sha256": "1bb4a6a04db39bc9def26c17f81150cb5ba7ee686dc1fcb528c2082a7b136d0f",
-          "excerpt": "The bureau said in a statement that this week’s attack was tied to “malicious cyber activity” by an entity known as TraderTraitor, the same actors behind a US$1.5 billion Bybit hack last year.",
-          "sentence_hash": "87f39a515ea56a290443948539526cc157dcc89cad97d942a91b2a2008aa6b2f",
+          "captured_at": "2026-11-02T08:03:35.855569+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
+          "sentence_hash": "e919f3eb6f81ba35be9c0ced0c7f22489ba4998d7646109ad75cfa65395b627b",
           "anchors": [
-            "1.5 billion",
-            "$1.5 billion",
-            "us",
-            "ai"
+            "one"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The FBI asked cryptocurrency exchanges, blockchain analytics companies and others to block transactions linked to various addresses to make sure the money is not laundered to cover up its origins.",
+          "text": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.878498+08:00",
-          "content_sha256": "1bb4a6a04db39bc9def26c17f81150cb5ba7ee686dc1fcb528c2082a7b136d0f",
-          "excerpt": "The FBI asked cryptocurrency exchanges, blockchain analytics companies and others to block transactions linked to various addresses to make sure the money is not laundered to cover up its origins.",
-          "sentence_hash": "6484731771c883b82edaa6c044a3823650db11dca29b71511c6cc56fffc75970",
+          "captured_at": "2026-11-02T08:03:35.855607+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
+          "sentence_hash": "a01c34911bd064602f5c7a446f1aa3239cd35f1367f46c452a38d2255a3aa959",
           "anchors": [
-            "us",
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "select voice\nselect speed",
-        "fbi",
-        "binance",
-        "listen\nthe",
-        "traitor",
-        "trader",
-        "us",
-        "bybit",
-        "ai",
-        "north korea",
-        "north korean",
-        "saturday",
-        "advertisement",
-        "min"
-      ],
-      "numbers": [
-        "1.5 billion",
-        "$1.5 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 3,
-        "anchor_count": 16
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
-      "source_artifact_date": "2026-11-01",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_e9503a83c7428c9bddb43e34",
-      "title": "OpenAI Teases GPT-6.1 Astra Amid Relentless Hype Around The Mysterious GPT-6.2 Betelgeuse Model, As Another Evidence Surfaces Showing Kimi K3.1 Pro And GLM-5.3 As Products Of Distillation",
-      "url": "https://wccftech.com/openai-teases-gpt-6-1-astra-amid-relentless-hype-around-the-mysterious-gpt-6-2-betelgeuse-model-as-another-evidence-surfaces-showing-kimi-k3-1-pro-and-glm-5-3-as-products-of-distillation/",
-      "publisher": "Wccftech",
-      "summary": "OpenAI has done something different recently: offered banked resets that suggest it wants you to save your token splurge on a new model, likely GPT-6.1 Astra. Meanwhile, AI enthusiasts continue to speculate on the characteristics of the unreleased GPT-6.2 Betelgeuse model that has recently surfaced in online leaks. At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 se",
-      "category": "科技",
-      "published_at": "2026-10-31T17:11:35+00:00",
-      "why_relevant": "前沿LLM动态，必读",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 series, respectively, which suggests that both of these models are likely a product of distillation",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.879983+08:00",
-          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
-          "excerpt": "At the other end of the spectrum, a personality test for Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 has revealed uncanny similarities with the GPT-6 Astra and Anthropic's Claude 5 series, respectively, which suggests that both of these models are likely a product of distillation",
-          "sentence_hash": "177e4d5a3f3bea75cce97fce3d9f916cebc9d7eb9ecaa002e8a7226dd6b5d302",
-          "anchors": [
-            "personality",
-            "ai",
-            "pro",
-            "these"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "GPT-6.2 Betelgeuse has now been spotted within OpenAI's internal model tracker, as GPT-6.1 Astra likely lands next week We noted a few weeks back that OpenAI has apparently finished pre-training its next base model, known internally as Bel, with over 10 trillion parameters under ",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.880031+08:00",
-          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
-          "excerpt": "GPT-6.2 Betelgeuse has now been spotted within OpenAI's internal model tracker, as GPT-6.1 Astra likely lands next week We noted a few weeks back that OpenAI has apparently finished pre-training its next base model, known internally as Bel, with over 10 trillion parameters under ",
-          "sentence_hash": "8d8d25d2e8ce3c6848298743f611f2b511eddf006e5556b042bf49c37b62441b",
-          "anchors": [
-            "now",
-            "bel",
-            "ai",
-            "10 trillion"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Of course, while America's two leading AI labs - OpenAI and Anthropic - are currently operating within a fairly healthy micro environment, with one model release after another, their macro environment is anything but.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.880088+08:00",
-          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
-          "excerpt": "Of course, while America's two leading AI labs - OpenAI and Anthropic - are currently operating within a fairly healthy micro environment, with one model release after another, their macro environment is anything but.",
-          "sentence_hash": "7f55146a39291507f7c6596de176d432e3253c2badd44898d64992c3861de49e",
-          "anchors": [
-            "ai",
-            "another"
+            "one"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "As an illustration, consider the fact that OpenAI has so far managed to raise less than half of its targeted $30 billion haul in its most recent funding round, receiving firm commitments for just $11 billion.",
+          "text": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.880122+08:00",
-          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
-          "excerpt": "As an illustration, consider the fact that OpenAI has so far managed to raise less than half of its targeted $30 billion haul in its most recent funding round, receiving firm commitments for just $11 billion.",
-          "sentence_hash": "cc3f9d2aec4addc5a8c67e79bebd5094545706b7461af928803be5f867e10bec",
+          "captured_at": "2026-11-02T08:03:35.855649+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
+          "sentence_hash": "72640ff62871b9b7a3c79a178dbd5366a4ef8123868d509daa9fd3f5f8698632",
           "anchors": [
-            "11 billion",
-            "30 billion",
+            "department leads",
+            "art",
+            "one",
+            "agents",
             "ai",
-            "$30 billion",
-            "$11 billion"
+            "specialists",
+            "directors"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The AI lab is now reportedly seeking to raise just $20 billion at a valuation of $1.25 trillion.",
+          "text": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.880146+08:00",
-          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
-          "excerpt": "The AI lab is now reportedly seeking to raise just $20 billion at a valuation of $1.25 trillion.",
-          "sentence_hash": "4bc56aba697fb6d3602de15e5694a43ae90bb3d0e22c037a803168883ecd7ec5",
+          "captured_at": "2026-11-02T08:03:35.855689+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
+          "sentence_hash": "ce6c1b07fa5853dec4752a62f02d1176d179a7b3861572779d1684cac8b2b9da",
           "anchors": [
-            "now",
-            "$1.25 trillion",
-            "$20 billion",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.855748+08:00",
+          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
+          "excerpt": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
+          "sentence_hash": "3d56f047ab1d2152b379336e6fcec81b5c49ec72b604699cacd4f0c52eb18d13",
+          "anchors": [
+            "art",
+            "qa",
+            "ux",
+            "type",
             "ai",
-            "20 billion",
-            "1.25 trillion"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Another evidence points to the distilled nature of Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 Meanwhile, Artificial Analysis' Personality Indexes have disclosed a fascinating insight into Kimi K3.1 Pro and GLM-5.3, showing an uncanny similarity with GPT-6 Astra in the case of th",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.880200+08:00",
-          "content_sha256": "2b1466ca91c1147ba59ffa26f7ef40f0d07e35a5c1f1457ef102ea9fac10f66d",
-          "excerpt": "Another evidence points to the distilled nature of Moonshot's Kimi K3.1 Pro and Z.ai's GLM-5.3 Meanwhile, Artificial Analysis' Personality Indexes have disclosed a fascinating insight into Kimi K3.1 Pro and GLM-5.3, showing an uncanny similarity with GPT-6 Astra in the case of th",
-          "sentence_hash": "c3972949fe8cfd0ef49a7c233d62ff99e82ab307864e4d6ae97610134ba4b675",
-          "anchors": [
-            "ai"
+            "specialists",
+            "directors",
+            "tier"
           ]
         }
       ],
       "entities": [
-        "astra",
-        "personality",
-        "artificial analysis",
-        "november",
+        "analysi",
+        "there",
+        "ux",
+        "type",
+        "instead",
+        "treat",
+        "game design",
         "ai",
-        "open",
-        "betelgeuse",
-        "these",
-        "meanwhile",
-        "america",
-        "glm",
-        "pro",
-        "moonshot",
-        "now",
-        "another",
-        "financial times",
-        "anthropic",
-        "claude",
-        "kimi",
-        "personality indexes",
-        "bel",
-        "bench",
-        "aa",
-        "gpt"
-      ],
-      "numbers": [
-        "$1.25 trillion",
-        "$20 billion",
-        "11 billion",
-        "30 billion",
-        "$30 billion",
-        "10 trillion",
-        "20 billion",
-        "$11 billion",
-        "1.25 trillion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 33
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
-      "source_artifact_date": "2026-11-01",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_a7432bcd2721cb7ab6f864f2",
-      "title": "API credits benefit for eligible ChatGPT subscriptions",
-      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
-      "publisher": "Simon Willison",
-      "summary": "API credits benefit for eligible ChatGPT subscriptions\nEarlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.\nOpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.\nI mainta",
-      "category": "科技",
-      "published_at": "2026-10-29T22:48:29+00:00",
-      "why_relevant": "API额度福利，实用",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "29th October 2026 - Link Blog API credits benefit for eligible ChatGPT subscriptions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.880996+08:00",
-          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
-          "excerpt": "29th October 2026 - Link Blog API credits benefit for eligible ChatGPT subscriptions.",
-          "sentence_hash": "cbf9f2c6545aafc8cad1a7d5b7ccf8aa631fb5847f92a7a9d26ff0ad768ea906",
-          "anchors": [
-            "October 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.881033+08:00",
-          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
-          "excerpt": "Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.",
-          "sentence_hash": "307c4f1296b921d831a35ec4daa8e96dd38e620a225ceb8557f3e2cbba1d6f31",
-          "anchors": [
-            "$500 ",
-            "$200",
-            "$100"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.881065+08:00",
-          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
-          "excerpt": "OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.",
-          "sentence_hash": "180824d5fc3a75f90d9f7479f988afef26a585fba50f7342e2c6fd3b4e42893f",
-          "anchors": [
-            "$500 ",
-            "$200",
-            "$100"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Recent articles - The October inflection point for vibe game development - 28th October 2026 - Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my bl",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.881110+08:00",
-          "content_sha256": "8c74440f53b7c8e99770509742364ea8a65b62cdc409caf99b17f81b3b8afcd3",
-          "excerpt": "Recent articles - The October inflection point for vibe game development - 28th October 2026 - Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026 - Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026 - A new feature for my bl",
-          "sentence_hash": "f555cc8a829cad5f7e6f8ff7ba5128ea9b19f0f0d5575a602acb3e42bfef27a9",
-          "anchors": [
-            "October 20"
-          ]
-        }
-      ],
-      "entities": [
-        "recent",
-        "team",
-        "the october",
-        "api",
-        "battle drones",
-        "rts",
-        "max",
-        "anthropic",
-        "chat",
-        "link blog",
-        "hello python",
-        "open",
-        "october",
-        "earlier"
-      ],
-      "numbers": [
-        "$500 ",
-        "$200",
-        "$100"
-      ],
-      "dates": [
-        "October 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 4,
-        "anchor_count": 18
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
-      "source_artifact_date": "2026-11-01",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_a55502c5472148c1df140252",
-      "title": "Claude Code Game Restrictions Target Clones, But Developers Say Legitimate Projects Are Being Blocked",
-      "url": "https://wccftech.com/claude-code-game-restrictions-target-clones-but-developers-say-legitimate-projects-are-being-blocked/",
-      "publisher": "Wccftech",
-      "summary": "Anthropic has introduced new Claude Code game restrictions designed to prevent its AI coding assistant from recreating existing video games. However, the change is already generating controversy, with some developers reporting that the restrictions are also interfering with their own projects. As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_br",
-      "category": "科技",
-      "published_at": "2026-10-31T20:08:37+00:00",
-      "why_relevant": "Claude Code限制，影响开发",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_brook.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.882214+08:00",
-          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
-          "excerpt": "As first reported by Game Developer, the new instruction was discovered by X user Chasm, who claims it was introduced around October 27 through a server-delivered configuration identified as tengu_heron_brook.",
-          "sentence_hash": "3671f6e29248807b6b7550f8439d97a9d8dc7101c2941989d4c3ec756dbe1a21",
-          "anchors": [
-            "October 27",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Anthropic's Addy Osmani subsequently confirmed the change, explaining that two sentences had been added to Claude Code's prompt for Opus 5.5 to discourage intellectual property infringement, which already violates the company's usage policy.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.882270+08:00",
-          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
-          "excerpt": "Anthropic's Addy Osmani subsequently confirmed the change, explaining that two sentences had been added to Claude Code's prompt for Opus 5.5 to discourage intellectual property infringement, which already violates the company's usage policy.",
-          "sentence_hash": "721cc67b19551a9012edeb201e848230cbd9fb7501c3ec67e149a0f8cfc341a5",
-          "anchors": [
-            "for",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Osmani also acknowledged the potential for unintended consequences, stating that Anthropic would continue refining the restrictions and encouraging developers whose own projects were incorrectly rejected to report their experiences.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.882304+08:00",
-          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
-          "excerpt": "Osmani also acknowledged the potential for unintended consequences, stating that Anthropic would continue refining the restrictions and encouraging developers whose own projects were incorrectly rejected to report their experiences.",
-          "sentence_hash": "521e4f7c7b8aa5517d44abe0138aa1a61be1f2b424d565bf685f36accfce3bbf",
-          "anchors": [
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Unfortunately, such complaints have already emerged.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.882321+08:00",
-          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
-          "excerpt": "Unfortunately, such complaints have already emerged.",
-          "sentence_hash": "e91aee8bfab6c3d77a7b4b0e0b5dffe1500cdf58a972f292602a7f84c849b599",
-          "anchors": [
-            "for",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "In a GitHub issue filed on October 30, a developer operating Conflict Simulations LLC reported that Claude Code had started refusing to work on personalized digital board-wargame modules commissioned by paying customers.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.882354+08:00",
-          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
-          "excerpt": "In a GitHub issue filed on October 30, a developer operating Conflict Simulations LLC reported that Claude Code had started refusing to work on personalized digital board-wargame modules commissioned by paying customers.",
-          "sentence_hash": "4cbc0cf0d444b58d76db5266feb82fe305475d39cd4bf09632789417bcc4e66b",
-          "anchors": [
-            "tom",
-            "October 30",
-            "git"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "According to the developer, these projects use original code and customer-supplied materials, with the resulting modules intended exclusively for customers who own the corresponding physical games.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.882383+08:00",
-          "content_sha256": "6d4b65651bdf487ac6e87e4b66cbae930bd3aec4ae96b817771b266db1368a61",
-          "excerpt": "According to the developer, these projects use original code and customer-supplied materials, with the resulting modules intended exclusively for customers who own the corresponding physical games.",
-          "sentence_hash": "5cb8bb20057acb5bb4aa66dddf7b30af84e8bbe8c22973f4f7b6bbcf1f7fa996",
-          "anchors": [
-            "for",
-            "tom",
-            "these"
-          ]
-        }
-      ],
-      "entities": [
-        "interestingly",
-        "oblivion remastered",
-        "opus",
-        "chasm",
-        "osmani",
-        "conflict simulations",
-        "however",
+        "navigation",
+        "specialists",
+        "tier",
+        "department leads",
+        "reviews",
+        "claude code game studios",
+        "use",
+        "each",
+        "assets",
+        "sprints",
+        "turn",
+        "stories",
+        "interface design",
+        "architecture",
+        "agents",
         "claude code",
-        "tom",
-        "addy osmani",
-        "october",
-        "ai",
-        "meanwhile",
-        "according",
-        "these",
-        "git",
-        "claude cod",
-        "hardware",
-        "unfortunately",
-        "pc",
-        "more",
-        "anthropic",
-        "claude",
-        "llc",
-        "for",
-        "game developer",
-        "hub"
+        "directors",
+        "onboarding",
+        "art",
+        "sonnet",
+        "qa",
+        "opus",
+        "building",
+        "one"
       ],
-      "numbers": [
-        "40%"
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "dates": [
-        "October 27",
-        "October 30"
-      ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 30
+        "anchor_count": 32
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
-      "source_artifact_date": "2026-11-01",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_895c267649c2e08019fdaf97",
-      "title": "How We Took Over ChatGPT Accounts",
-      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "publisher": "Simon Willison",
-      "summary": "How We Took Over ChatGPT Accounts\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a sandboxed iframe.\nIt's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.\nParameter found quite a complex attack chain. OpenAI",
-      "category": "科技",
-      "published_at": "2026-10-31T23:15:22+00:00",
-      "why_relevant": "ChatGPT安全漏洞，硬核",
+      "article_id": "a1_2ee00a5e205d99ec04a9966f",
+      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-01T01:10:05+00:00",
+      "why_relevant": "FBI确认朝鲜黑客，DeFi风险高",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.856008+08:00",
+          "content_sha256": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
+          "excerpt": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+          "sentence_hash": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
+          "anchors": [
+            "6 billion",
+            "$6 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "btc",
+        "fbi",
+        "eth",
+        "binance",
+        "north korea",
+        "sol"
+      ],
+      "numbers": [
+        "6 billion",
+        "$6 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 8
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_5700772ab8c4051d80da91ef",
+      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+      "category": "国际",
+      "published_at": "2026-11-01T22:15:14+00:00",
+      "why_relevant": "俄乌局部停火结束，战事升温",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "31st October 2026 - Link Blog How We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where i",
+          "text": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.883508+08:00",
-          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
-          "excerpt": "31st October 2026 - Link Blog How We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where i",
-          "sentence_hash": "b5c90771cd383d68328014e111e39a1433dec94ebf20eb578f9bb84f9acdf268",
+          "captured_at": "2026-11-02T08:03:35.857463+08:00",
+          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
+          "excerpt": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
+          "sentence_hash": "f3edce24ce8cd63e0b5e19c48acbe7b1e5a34d790b32f92f10022a5ba603fee4",
           "anchors": [
-            "October 20"
+            "south",
+            "21 people"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.",
+          "text": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.883562+08:00",
-          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
-          "excerpt": "That message receiving code uses innerHTML, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.",
-          "sentence_hash": "c67a43348302a2639e77494ed6b662aa1d7f4d6000c887ba7806edeb111c1727",
+          "captured_at": "2026-11-02T08:03:35.857570+08:00",
+          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
+          "excerpt": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
+          "sentence_hash": "0611ca1b24c6718ae628a471c8177d3362b147fd30594c0613368fe338425ca8",
           "anchors": [
-            "message"
+            "February 20",
+            "south"
+          ]
+        }
+      ],
+      "entities": [
+        "united states first lady melania trump",
+        "units",
+        "donetsk",
+        "russia",
+        "ukrainian",
+        "kremlin",
+        "ukraine",
+        "xiv",
+        "afp",
+        "foreign ministry",
+        "kyiv",
+        "melania trump",
+        "february",
+        "they",
+        "nizhny novgorod",
+        "south",
+        "general staff",
+        "kherson",
+        "since russia",
+        "russian",
+        "telegram",
+        "gmt",
+        "pope leo",
+        "moscow",
+        "on sunday",
+        "dmitry peskov",
+        "let oleshky",
+        "luhansk",
+        "in russia",
+        "oleshky",
+        "sunday",
+        "ukrainian president volodymyr zelenskyy"
+      ],
+      "numbers": [
+        "21 people"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_cc7c804ad5271cd558932b28",
+      "title": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "publisher": "GitHub Trending",
+      "summary": "Lightpanda: the headless browser designed for AI and automationhttps://lightpanda.io   \nLightpanda Browser \n The headless browser built from scratch for AI agents and automation. Not a Chromium fork. Not a WebKit patch. A new browser, written in Zig. 16x lighter and 9x faster than Chromium.   \n \n     \n \n \n       \n \nBenchmarks \nRequesting 933 real web pages over the network on a AWS EC2 m5.large instance. See benchmark details. \n \n  \n   \n   Metric \n   Lightpanda \n   Headless Chrome \n   Difference",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI专用无头浏览器，非Chromium",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The headless browser built from scratch for AI agents and automation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.858905+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "The headless browser built from scratch for AI agents and automation.",
+          "sentence_hash": "5468ea3eb4d57bbaffde8c7a399d4b6ade1ab12ca6016d4494df1e580483bd21",
+          "anchors": [
+            "from"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.858945+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
+          "sentence_hash": "88cdc9c1d7b8927d6cd29e05aaa19ac86f4e67787e32bd40f36b5763fa3189cc",
+          "anchors": [
+            "web"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions.",
+          "text": "See benchmark details.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.883593+08:00",
-          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
-          "excerpt": "This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions.",
-          "sentence_hash": "aff5b9bd023957ce0a7880ece70e6cf32a5a36d2b5cc6e31b2b95264314cfcab",
+          "captured_at": "2026-11-02T08:03:35.858961+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "See benchmark details.",
+          "sentence_hash": "797ff0126307dc3b524ea1910aec4a19304365345605430b10f13fa69ee2b330",
           "anchors": [
-            "script"
+            "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.",
+          "text": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.883637+08:00",
-          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
-          "excerpt": "OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.",
-          "sentence_hash": "4e566eb1bd7ea7697fd1625d77275fce8ef81fcebcf3d3e0f2d6e0ba8cae809a",
+          "captured_at": "2026-11-02T08:03:35.859003+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
+          "sentence_hash": "2126da202e17db06018d9c2c1902ff1e7aa87c083242b35d19fd61baa545e47a",
           "anchors": [
-            "script"
+            "download",
+            "install",
+            "lightpanda",
+            "from"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.",
+          "text": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.883673+08:00",
-          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
-          "excerpt": "The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.",
-          "sentence_hash": "cf14b320af12a8e490e5636b69287ef873843d43a94960ec946fe90b27937617",
+          "captured_at": "2026-11-02T08:03:35.859050+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
+          "sentence_hash": "a00405e0ab493d9b7f1be8317623c28f12f68685a978c8953bd861b29de764bc",
           "anchors": [
+            "run",
+            "lightpanda",
+            "nix",
+            "your",
+            "download",
+            "use",
+            "from",
+            "linux",
+            "ai",
             "you"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.",
+          "text": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-01T08:03:18.883697+08:00",
-          "content_sha256": "fa551e573f8f934ba046ba7d05a4f463a51df67d8aa899b17594775f3c10c2ae",
-          "excerpt": "OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.",
-          "sentence_hash": "7418ba10a082c8b69a2a92762d22304ddf1b3fdf566c4c623ea2df6682fcd0d7",
+          "captured_at": "2026-11-02T08:03:35.859080+08:00",
+          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
+          "excerpt": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
+          "sentence_hash": "1a6e13fd7b75c770ec664db329484024decc433437f5991bcb883d28f552a94d",
           "anchors": [
-            "$5,000 "
+            "ai",
+            "use",
+            "not"
           ]
         }
       ],
       "entities": [
-        "recent",
-        "the october",
-        "parameter labs",
-        "once",
-        "csp",
-        "parameter",
-        "embed",
-        "rts",
-        "url",
-        "open",
-        "october",
-        "math",
-        "tube",
-        "message",
-        "script",
-        "battle drones",
-        "java",
+        "kit",
+        "requesting",
+        "see",
+        "zig",
+        "chromium",
+        "ai",
+        "android",
         "you",
-        "chat",
-        "accounts",
-        "hello python",
-        "live java",
-        "html",
-        "link blog\nhow we took over chat",
-        "canvas"
+        "puppeteer",
+        "for mac",
+        "mac",
+        "lightpanda",
+        "not",
+        "homebrew",
+        "cdp",
+        "web",
+        "use",
+        "note",
+        "verify",
+        "latest",
+        "install",
+        "for linux",
+        "aws",
+        "windows",
+        "nix",
+        "alpine",
+        "arch linux user repository",
+        "termux",
+        "bionic",
+        "see microsoft",
+        "package managers\nlatest",
+        "for windows",
+        "run",
+        "the linux",
+        "playwright",
+        "your",
+        "docker\nlightpanda",
+        "download",
+        "docker",
+        "from",
+        "linux",
+        "wsl"
       ],
-      "numbers": [
-        "$5,000 "
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "dates": [
-        "October 20"
-      ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 27
+        "anchor_count": 42
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-01-AM.json",
-      "source_artifact_date": "2026-11-01",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_9b17e5afaf4a4c6b0931c23b",
+      "title": "FirstFT: Gulf braced for renewed war between US and Iran",
+      "url": "https://www.ft.com/content/703dd322-e880-4bbf-80f8-8b0efda1831c?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+      "category": "财经",
+      "published_at": "2026-11-01T22:22:33+00:00",
+      "why_relevant": "美伊战争风险，Binance巨资流出",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-02T08:03:35.859351+08:00",
+          "content_sha256": "81b59a296532f8b2afb46f6c947c92f6ece0f27482a4c5cc0b972893b333da46",
+          "excerpt": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+          "sentence_hash": "9bebda08084e1254b9fae94d39bd146c581ae23e9fcce0c0a14437a31461d121",
+          "anchors": [
+            "$3.6"
+          ]
+        }
+      ],
+      "entities": [
+        "also",
+        "binance"
+      ],
+      "numbers": [
+        "$3.6"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 3
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "source_artifact_date": "2026-11-02",
       "freshness_label": "today"
     }
   ]
