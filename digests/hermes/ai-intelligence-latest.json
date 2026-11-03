@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02T00:08:16.854248+00:00",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T00:08:22.094260+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-02.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-03.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-01.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-02.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,135 +23,54 @@
   },
   "items": [
     {
-      "article_id": "a1_95ec76e0b67ecb2bc6de4d12",
-      "title": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "publisher": "GitHub Trending",
-      "summary": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. \nClaude Code Game Studios \n Turn a single Claude Code session into a full game development studio.  49 agents. 74 skills. One coordinated AI team.  \n \n          \n \nWhy This Exists \nBuilding a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing sp",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "49智能体仿真实游戏工作室",
+      "article_id": "a1_2ad642d3e34d22465c813d09",
+      "title": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373046/netanyahu-pressing-trump-attack-iran-after-us-midterm-elections-officials-say",
+      "publisher": "SCMP",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu is pushing for another wave of strikes on Iran after Tuesday’s midterm elections in the United States, according to two regional officials and a third person familiar with the matter.\nA return to full-scale war with Iran could help Netanyahu to form an emergency government after he and his far-right allies lost their parliamentary majority in last week’s elections. US President Donald Trump has alternated between threatening major strikes while pushing..",
+      "category": "国际",
+      "published_at": "2026-11-02T22:16:52+00:00",
+      "why_relevant": "内塔尼亚胡施压袭伊朗",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "49 agents.",
+          "text": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855523+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "49 agents.",
-          "sentence_hash": "8628bf787cff89891677226f06980b35f76d2be7c628ed02379d99b973c3082a",
+          "captured_at": "2026-11-03T08:03:32.372916+08:00",
+          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
+          "excerpt": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
+          "sentence_hash": "653efb3cab2071e3a5f892af417c4ff807c9e2587a09c04004c5677bd85b2c64",
           "anchors": [
-            "agents"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
+          "text": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855569+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
-          "sentence_hash": "e919f3eb6f81ba35be9c0ced0c7f22489ba4998d7646109ad75cfa65395b627b",
+          "captured_at": "2026-11-03T08:03:32.372956+08:00",
+          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
+          "excerpt": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
+          "sentence_hash": "4fab70183f8c8c2062850425298d6445471aeb54e3b13438dd5f520788d5b4fc",
           "anchors": [
-            "one"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855607+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
-          "sentence_hash": "a01c34911bd064602f5c7a446f1aa3239cd35f1367f46c452a38d2255a3aa959",
-          "anchors": [
-            "one"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855649+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
-          "sentence_hash": "72640ff62871b9b7a3c79a178dbd5366a4ef8123868d509daa9fd3f5f8698632",
-          "anchors": [
-            "department leads",
-            "art",
-            "one",
-            "agents",
-            "ai",
-            "specialists",
-            "directors"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855689+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
-          "sentence_hash": "ce6c1b07fa5853dec4752a62f02d1176d179a7b3861572779d1684cac8b2b9da",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855748+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
-          "sentence_hash": "3d56f047ab1d2152b379336e6fcec81b5c49ec72b604699cacd4f0c52eb18d13",
-          "anchors": [
-            "art",
-            "qa",
-            "ux",
-            "type",
-            "ai",
-            "specialists",
-            "directors",
-            "tier"
+            "us"
           ]
         }
       ],
       "entities": [
-        "analysi",
-        "there",
-        "ux",
-        "type",
-        "instead",
-        "treat",
-        "game design",
-        "ai",
-        "navigation",
-        "specialists",
-        "tier",
-        "department leads",
-        "reviews",
-        "claude code game studios",
-        "use",
-        "each",
-        "assets",
-        "sprints",
-        "turn",
-        "stories",
-        "interface design",
-        "architecture",
-        "agents",
-        "claude code",
-        "directors",
-        "onboarding",
-        "art",
-        "sonnet",
-        "qa",
-        "opus",
-        "building",
-        "one"
+        "hormuz",
+        "united states",
+        "president donald trump",
+        "iranian",
+        "netanyahu",
+        "tuesday",
+        "strait",
+        "iran",
+        "qatari",
+        "us",
+        "israeli prime minister benjamin netanyahu",
+        "trump"
       ],
       "numbers": [],
       "dates": [],
@@ -160,144 +79,307 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 32
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
-      "source_artifact_date": "2026-11-02",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_2ee00a5e205d99ec04a9966f",
-      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-01T01:10:05+00:00",
-      "why_relevant": "FBI确认朝鲜黑客，DeFi风险高",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.856008+08:00",
-          "content_sha256": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
-          "excerpt": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-          "sentence_hash": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
-          "anchors": [
-            "6 billion",
-            "$6 billion"
-          ]
-        }
-      ],
-      "entities": [
-        "btc",
-        "fbi",
-        "eth",
-        "binance",
-        "north korea",
-        "sol"
-      ],
-      "numbers": [
-        "6 billion",
-        "$6 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
         "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 8
+        "fact_count": 2,
+        "anchor_count": 12
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
-      "source_artifact_date": "2026-11-02",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
+      "source_artifact_date": "2026-11-03",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_5700772ab8c4051d80da91ef",
-      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+      "article_id": "a1_9e502d4d2d88f7b75b90d8c3",
+      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
       "publisher": "Al Jazeera",
-      "summary": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+      "summary": "Hit hard by Trump&#039;s tariffs and the war on Iran, countries in the Asia-Pacific want &#039;enormous changes&#039; in US policies.",
       "category": "国际",
-      "published_at": "2026-11-01T22:15:14+00:00",
-      "why_relevant": "俄乌局部停火结束，战事升温",
+      "published_at": "2026-11-02T23:41:18+00:00",
+      "why_relevant": "美中期选举对亚太影响",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
+          "text": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.857463+08:00",
-          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
-          "excerpt": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
-          "sentence_hash": "f3edce24ce8cd63e0b5e19c48acbe7b1e5a34d790b32f92f10022a5ba603fee4",
+          "captured_at": "2026-11-03T08:03:32.374410+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
+          "sentence_hash": "012b540a3c2fb08f51ece7fd57c60eefe14998988bf3f3ca94b74825836ebb92",
           "anchors": [
-            "south",
-            "21 people"
+            "war",
+            "us",
+            "tariffs"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
+          "text": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.857570+08:00",
-          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
-          "excerpt": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
-          "sentence_hash": "0611ca1b24c6718ae628a471c8177d3362b147fd30594c0613368fe338425ca8",
+          "captured_at": "2026-11-03T08:03:32.374465+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
+          "sentence_hash": "f23993d1f8006cbab4ed95c252ab554b7c91106ba6687342e5e225c8ffa7bcfc",
           "anchors": [
-            "February 20",
-            "south"
+            "war",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374508+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "sentence_hash": "cf5747d5587ecaf0aee16e4e4563cebd9d9ba490027f09c6b27e67ab8d294c6f",
+          "anchors": [
+            "war",
+            "us",
+            "tariffs"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374583+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "sentence_hash": "16503f6f57d92172a4e5f7ca68cd50d3b068a64cf8a7b3618ba29fc77e8bfece",
+          "anchors": [
+            "public",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374636+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "sentence_hash": "55b88495da71d77a92aabaed292b949c63a6bfafe60aa8cbe6286538b323bbfe",
+          "anchors": [
+            "war"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374693+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
+          "sentence_hash": "2d48246609a3bbee02a254fe1a59d76d40356e1b15c5c3145c030bd7f924698f",
+          "anchors": [
+            "under"
           ]
         }
       ],
       "entities": [
-        "united states first lady melania trump",
-        "units",
-        "donetsk",
-        "russia",
-        "ukrainian",
-        "kremlin",
-        "ukraine",
-        "xiv",
-        "afp",
-        "foreign ministry",
+        "kuala lumpur",
+        "outside",
+        "myanmar",
+        "china",
+        "gulf",
+        "when iran",
+        "president donald trump",
+        "before",
+        "many",
+        "soaring",
+        "institute",
+        "representatives",
+        "democrat",
+        "war",
+        "east timor",
+        "across",
+        "singapore",
+        "southeast asian studies",
+        "middle east",
+        "united states",
+        "laos",
+        "indonesia",
+        "pacific\nhit",
+        "senate",
+        "steven okun",
+        "strait",
+        "apac",
+        "with iran",
+        "al jazeera",
+        "congress",
+        "advisors",
+        "us",
+        "but",
+        "yusof ishak institute",
+        "under",
+        "tariffs",
+        "okun",
+        "malaysia",
+        "house",
+        "public",
+        "iran",
+        "thailand",
+        "iseas",
+        "hormuz",
+        "asia",
+        "republican party",
+        "january",
+        "cambodia",
+        "donald trump",
+        "constitution",
+        "israel",
+        "overriding",
+        "the philippines",
+        "tuesday",
+        "vietnam",
+        "democrats",
+        "democratic",
+        "march",
+        "pacific",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 60
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
+      "source_artifact_date": "2026-11-03",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_b1a3abfa934497f858e4b9c6",
+      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+      "category": "国际",
+      "published_at": "2026-11-02T21:10:04+00:00",
+      "why_relevant": "俄军轰炸致乌援助中心死伤",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375813+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "sentence_hash": "2f04600408c83cd6de737138cfe4da73b904a171bb8a57ca22e8beb464d1de1f",
+          "anchors": [
+            "26 people",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375857+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "sentence_hash": "2ba83d8a80f6e1b30c5721773ad194cbfc086017f0c610e45cd07a39dbc529fa",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375881+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "sentence_hash": "3924bf5b09d1c6d90abaa1943cecfb8e13e4cf1ed7e503152624b66db65247eb",
+          "anchors": [
+            "teams"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Russian military has not publicly commented.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375898+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "The Russian military has not publicly commented.",
+          "sentence_hash": "ced779a0d917e116fc510dd045911021a51028c2dcf3f7c4dcb015475e70cd9a",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375930+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "sentence_hash": "5fcc52c05638673deb5ca342fb3b048a59ba49e858323137e871d7af4d373eff",
+          "anchors": [
+            "24 people"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375953+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "sentence_hash": "0e929026546520be88e234d07f082f228b59f66a93fb286c2b8d3824de495163",
+          "anchors": [
+            "26 people"
+          ]
+        }
+      ],
+      "entities": [
+        "first lady melania trump",
         "kyiv",
-        "melania trump",
-        "february",
-        "they",
-        "nizhny novgorod",
-        "south",
-        "general staff",
-        "kherson",
-        "since russia",
+        "komyshuvakha",
+        "semikin",
         "russian",
-        "telegram",
-        "gmt",
-        "pope leo",
+        "published\nat",
+        "abu dhabi",
         "moscow",
-        "on sunday",
-        "dmitry peskov",
-        "let oleshky",
-        "luhansk",
-        "in russia",
         "oleshky",
-        "sunday",
-        "ukrainian president volodymyr zelenskyy"
+        "teams",
+        "the russian",
+        "united arab emirates",
+        "ukraine",
+        "mykhailo semikin",
+        "with",
+        "russians",
+        "president volodymyr zelensky",
+        "russia",
+        "us",
+        "monday",
+        "zelensky",
+        "dsns",
+        "zaporizhzhia",
+        "february",
+        "published",
+        "russian president vladimir putin",
+        "western",
+        "tuesday",
+        "five",
+        "however",
+        "meanwhile",
+        "ukrainian"
       ],
       "numbers": [
-        "21 people"
+        "26 people",
+        "24 people"
       ],
       "dates": [
         "February 20"
@@ -305,157 +387,67 @@
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 34
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
-      "source_artifact_date": "2026-11-02",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
+      "source_artifact_date": "2026-11-03",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_cc7c804ad5271cd558932b28",
-      "title": "lightpanda-io/browser",
-      "url": "https://github.com/lightpanda-io/browser",
-      "publisher": "GitHub Trending",
-      "summary": "Lightpanda: the headless browser designed for AI and automationhttps://lightpanda.io   \nLightpanda Browser \n The headless browser built from scratch for AI agents and automation. Not a Chromium fork. Not a WebKit patch. A new browser, written in Zig. 16x lighter and 9x faster than Chromium.   \n \n     \n \n \n       \n \nBenchmarks \nRequesting 933 real web pages over the network on a AWS EC2 m5.large instance. See benchmark details. \n \n  \n   \n   Metric \n   Lightpanda \n   Headless Chrome \n   Difference",
+      "article_id": "a1_70e442b6ded99fb67e81a032",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "publisher": "The Verge",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
       "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI专用无头浏览器，非Chromium",
+      "published_at": "2026-11-02T18:56:02+00:00",
+      "why_relevant": "Anthropic限制AI游戏克隆",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "The headless browser built from scratch for AI agents and automation.",
+          "text": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.858905+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "The headless browser built from scratch for AI agents and automation.",
-          "sentence_hash": "5468ea3eb4d57bbaffde8c7a399d4b6ade1ab12ca6016d4494df1e580483bd21",
+          "captured_at": "2026-11-03T08:03:32.376775+08:00",
+          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
+          "excerpt": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "sentence_hash": "a34a2f0a9d5f4816f08150af89330b6b7738a9990abc33aa6a3414d571293647",
           "anchors": [
-            "from"
+            "original"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
+          "text": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.858945+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
-          "sentence_hash": "88cdc9c1d7b8927d6cd29e05aaa19ac86f4e67787e32bd40f36b5763fa3189cc",
-          "anchors": [
-            "web"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "See benchmark details.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.858961+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "See benchmark details.",
-          "sentence_hash": "797ff0126307dc3b524ea1910aec4a19304365345605430b10f13fa69ee2b330",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859003+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
-          "sentence_hash": "2126da202e17db06018d9c2c1902ff1e7aa87c083242b35d19fd61baa545e47a",
-          "anchors": [
-            "download",
-            "install",
-            "lightpanda",
-            "from"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859050+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
-          "sentence_hash": "a00405e0ab493d9b7f1be8317623c28f12f68685a978c8953bd861b29de764bc",
-          "anchors": [
-            "run",
-            "lightpanda",
-            "nix",
-            "your",
-            "download",
-            "use",
-            "from",
-            "linux",
-            "ai",
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859080+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
-          "sentence_hash": "1a6e13fd7b75c770ec664db329484024decc433437f5991bcb883d28f552a94d",
+          "captured_at": "2026-11-03T08:03:32.376824+08:00",
+          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
+          "excerpt": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
+          "sentence_hash": "ca7c1e1abdcd9617db0841f2537313a2c472abba7c3be9d92e847c9e424dd14d",
           "anchors": [
             "ai",
-            "use",
-            "not"
+            "original"
           ]
         }
       ],
       "entities": [
-        "kit",
-        "requesting",
-        "see",
-        "zig",
-        "chromium",
+        "don",
         "ai",
-        "android",
-        "you",
-        "puppeteer",
-        "for mac",
-        "mac",
-        "lightpanda",
-        "not",
-        "homebrew",
-        "cdp",
-        "web",
-        "use",
-        "note",
-        "verify",
-        "latest",
-        "install",
-        "for linux",
-        "aws",
-        "windows",
-        "nix",
-        "alpine",
-        "arch linux user repository",
-        "termux",
-        "bionic",
-        "see microsoft",
-        "package managers\nlatest",
-        "for windows",
-        "run",
-        "the linux",
-        "playwright",
-        "your",
-        "docker\nlightpanda",
-        "download",
-        "docker",
-        "from",
-        "linux",
-        "wsl"
+        "claude code",
+        "claude",
+        "hardware",
+        "addy osmani",
+        "opus",
+        "last",
+        "retro",
+        "ip",
+        "tom",
+        "original",
+        "anthropic"
       ],
       "numbers": [],
       "dates": [],
@@ -464,62 +456,141 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 42
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 13
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
-      "source_artifact_date": "2026-11-02",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
+      "source_artifact_date": "2026-11-03",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_9b17e5afaf4a4c6b0931c23b",
-      "title": "FirstFT: Gulf braced for renewed war between US and Iran",
-      "url": "https://www.ft.com/content/703dd322-e880-4bbf-80f8-8b0efda1831c?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
-      "category": "财经",
-      "published_at": "2026-11-01T22:22:33+00:00",
-      "why_relevant": "美伊战争风险，Binance巨资流出",
+      "article_id": "a1_c7dd4e6255ca03c27a0e0dcd",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
+      "publisher": "Tom's Hardware",
+      "summary": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections. The company is also promoting the term “AI compute campuses” for its data centers as it seeks to address concerns over electricity demand, water consumption, pollution and rising utility bills",
+      "category": "科技",
+      "published_at": "2026-11-02T19:15:31+00:00",
+      "why_relevant": "OpenAI数据中心品牌调整策略",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
+          "text": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859351+08:00",
-          "content_sha256": "81b59a296532f8b2afb46f6c947c92f6ece0f27482a4c5cc0b972893b333da46",
-          "excerpt": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
-          "sentence_hash": "9bebda08084e1254b9fae94d39bd146c581ae23e9fcce0c0a14437a31461d121",
+          "captured_at": "2026-11-03T08:03:32.378128+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "sentence_hash": "0e87cec732f89ec90d082e4994c796c23bd7ed54288727d481a08e77ac8facdf",
           "anchors": [
-            "$3.6"
+            "compute",
+            "data",
+            "ai",
+            "compute campuses"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The initiative comes ahead of the November 3 U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378152+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "The initiative comes ahead of the November 3 U.S.",
+          "sentence_hash": "4805452fb94b2c7eef6791ed7d194c79ea799357457f0db0516468e3698c0370",
+          "anchors": [
+            "November 3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378203+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "sentence_hash": "d39e9509b473b22ec78658bf7a8d68cc98b87edcb5fcb9c83a8afbaf41c44342",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378246+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "sentence_hash": "efa5b1e75ab83cdcb61fb25fee9d506d7673f3c03352b783a22b92068610082f",
+          "anchors": [
+            "data",
+            "compute",
+            "compute campuses"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378274+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "sentence_hash": "4355fc64501d519ec522b21bb0131f5ad6e5533a544e530b9663e7c007f05117",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378317+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "sentence_hash": "902d38722fb33f0b3ee47df64dce02ff20f1f9c5f56aa1686d3ef0a8e0fd6460",
+          "anchors": [
+            "data"
           ]
         }
       ],
       "entities": [
-        "also",
-        "binance"
+        "redfin",
+        "chris lehane",
+        "lehane",
+        "august",
+        "data",
+        "another",
+        "open",
+        "axios",
+        "november",
+        "michigan",
+        "ai",
+        "compute campuses",
+        "microsoft",
+        "compute",
+        "americans",
+        "however",
+        "in january"
       ],
       "numbers": [
-        "$3.6"
+        "47%"
       ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
+      "dates": [
+        "November 3"
       ],
+      "unknowns": [],
       "coverage": {
-        "has_fulltext": false,
+        "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 3
+        "fact_count": 6,
+        "anchor_count": 19
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-02-AM.json",
-      "source_artifact_date": "2026-11-02",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
+      "source_artifact_date": "2026-11-03",
       "freshness_label": "today"
     }
   ]

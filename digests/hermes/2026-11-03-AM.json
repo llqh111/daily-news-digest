@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-03-AM",
+  "date": "2026-11-03",
+  "session": "AM",
+  "delivered_at": "2026-11-03T08:08:22.074704+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-03T00:08:22.076381+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.23076923076923078
+  },
+  "items": [
+    {
+      "article_id": "a1_2ad642d3e34d22465c813d09",
+      "title": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373046/netanyahu-pressing-trump-attack-iran-after-us-midterm-elections-officials-say",
+      "publisher": "SCMP",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu is pushing for another wave of strikes on Iran after Tuesday’s midterm elections in the United States, according to two regional officials and a third person familiar with the matter.\nA return to full-scale war with Iran could help Netanyahu to form an emergency government after he and his far-right allies lost their parliamentary majority in last week’s elections. US President Donald Trump has alternated between threatening major strikes while pushing..",
+      "category": "国际",
+      "published_at": "2026-11-02T22:16:52+00:00",
+      "why_relevant": "内塔尼亚胡施压袭伊朗",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.372916+08:00",
+          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
+          "excerpt": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
+          "sentence_hash": "653efb3cab2071e3a5f892af417c4ff807c9e2587a09c04004c5677bd85b2c64",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.372956+08:00",
+          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
+          "excerpt": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
+          "sentence_hash": "4fab70183f8c8c2062850425298d6445471aeb54e3b13438dd5f520788d5b4fc",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "hormuz",
+        "united states",
+        "president donald trump",
+        "iranian",
+        "netanyahu",
+        "tuesday",
+        "strait",
+        "iran",
+        "qatari",
+        "us",
+        "israeli prime minister benjamin netanyahu",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 12
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9e502d4d2d88f7b75b90d8c3",
+      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Hit hard by Trump&#039;s tariffs and the war on Iran, countries in the Asia-Pacific want &#039;enormous changes&#039; in US policies.",
+      "category": "国际",
+      "published_at": "2026-11-02T23:41:18+00:00",
+      "why_relevant": "美中期选举对亚太影响",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374410+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
+          "sentence_hash": "012b540a3c2fb08f51ece7fd57c60eefe14998988bf3f3ca94b74825836ebb92",
+          "anchors": [
+            "war",
+            "us",
+            "tariffs"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374465+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
+          "sentence_hash": "f23993d1f8006cbab4ed95c252ab554b7c91106ba6687342e5e225c8ffa7bcfc",
+          "anchors": [
+            "war",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374508+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "sentence_hash": "cf5747d5587ecaf0aee16e4e4563cebd9d9ba490027f09c6b27e67ab8d294c6f",
+          "anchors": [
+            "war",
+            "us",
+            "tariffs"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374583+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "sentence_hash": "16503f6f57d92172a4e5f7ca68cd50d3b068a64cf8a7b3618ba29fc77e8bfece",
+          "anchors": [
+            "public",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374636+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "sentence_hash": "55b88495da71d77a92aabaed292b949c63a6bfafe60aa8cbe6286538b323bbfe",
+          "anchors": [
+            "war"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374693+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
+          "sentence_hash": "2d48246609a3bbee02a254fe1a59d76d40356e1b15c5c3145c030bd7f924698f",
+          "anchors": [
+            "under"
+          ]
+        }
+      ],
+      "entities": [
+        "kuala lumpur",
+        "outside",
+        "myanmar",
+        "china",
+        "gulf",
+        "when iran",
+        "president donald trump",
+        "before",
+        "many",
+        "soaring",
+        "institute",
+        "representatives",
+        "democrat",
+        "war",
+        "east timor",
+        "across",
+        "singapore",
+        "southeast asian studies",
+        "middle east",
+        "united states",
+        "laos",
+        "indonesia",
+        "pacific\nhit",
+        "senate",
+        "steven okun",
+        "strait",
+        "apac",
+        "with iran",
+        "al jazeera",
+        "congress",
+        "advisors",
+        "us",
+        "but",
+        "yusof ishak institute",
+        "under",
+        "tariffs",
+        "okun",
+        "malaysia",
+        "house",
+        "public",
+        "iran",
+        "thailand",
+        "iseas",
+        "hormuz",
+        "asia",
+        "republican party",
+        "january",
+        "cambodia",
+        "donald trump",
+        "constitution",
+        "israel",
+        "overriding",
+        "the philippines",
+        "tuesday",
+        "vietnam",
+        "democrats",
+        "democratic",
+        "march",
+        "pacific",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 60
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b1a3abfa934497f858e4b9c6",
+      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+      "category": "国际",
+      "published_at": "2026-11-02T21:10:04+00:00",
+      "why_relevant": "俄军轰炸致乌援助中心死伤",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375813+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "sentence_hash": "2f04600408c83cd6de737138cfe4da73b904a171bb8a57ca22e8beb464d1de1f",
+          "anchors": [
+            "26 people",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375857+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "sentence_hash": "2ba83d8a80f6e1b30c5721773ad194cbfc086017f0c610e45cd07a39dbc529fa",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375881+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "sentence_hash": "3924bf5b09d1c6d90abaa1943cecfb8e13e4cf1ed7e503152624b66db65247eb",
+          "anchors": [
+            "teams"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Russian military has not publicly commented.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375898+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "The Russian military has not publicly commented.",
+          "sentence_hash": "ced779a0d917e116fc510dd045911021a51028c2dcf3f7c4dcb015475e70cd9a",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375930+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "sentence_hash": "5fcc52c05638673deb5ca342fb3b048a59ba49e858323137e871d7af4d373eff",
+          "anchors": [
+            "24 people"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375953+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "sentence_hash": "0e929026546520be88e234d07f082f228b59f66a93fb286c2b8d3824de495163",
+          "anchors": [
+            "26 people"
+          ]
+        }
+      ],
+      "entities": [
+        "first lady melania trump",
+        "kyiv",
+        "komyshuvakha",
+        "semikin",
+        "russian",
+        "published\nat",
+        "abu dhabi",
+        "moscow",
+        "oleshky",
+        "teams",
+        "the russian",
+        "united arab emirates",
+        "ukraine",
+        "mykhailo semikin",
+        "with",
+        "russians",
+        "president volodymyr zelensky",
+        "russia",
+        "us",
+        "monday",
+        "zelensky",
+        "dsns",
+        "zaporizhzhia",
+        "february",
+        "published",
+        "russian president vladimir putin",
+        "western",
+        "tuesday",
+        "five",
+        "however",
+        "meanwhile",
+        "ukrainian"
+      ],
+      "numbers": [
+        "26 people",
+        "24 people"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_70e442b6ded99fb67e81a032",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "publisher": "The Verge",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-02T18:56:02+00:00",
+      "why_relevant": "Anthropic限制AI游戏克隆",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.376775+08:00",
+          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
+          "excerpt": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "sentence_hash": "a34a2f0a9d5f4816f08150af89330b6b7738a9990abc33aa6a3414d571293647",
+          "anchors": [
+            "original"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.376824+08:00",
+          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
+          "excerpt": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
+          "sentence_hash": "ca7c1e1abdcd9617db0841f2537313a2c472abba7c3be9d92e847c9e424dd14d",
+          "anchors": [
+            "ai",
+            "original"
+          ]
+        }
+      ],
+      "entities": [
+        "don",
+        "ai",
+        "claude code",
+        "claude",
+        "hardware",
+        "addy osmani",
+        "opus",
+        "last",
+        "retro",
+        "ip",
+        "tom",
+        "original",
+        "anthropic"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 13
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c7dd4e6255ca03c27a0e0dcd",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
+      "publisher": "Tom's Hardware",
+      "summary": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections. The company is also promoting the term “AI compute campuses” for its data centers as it seeks to address concerns over electricity demand, water consumption, pollution and rising utility bills",
+      "category": "科技",
+      "published_at": "2026-11-02T19:15:31+00:00",
+      "why_relevant": "OpenAI数据中心品牌调整策略",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378128+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "sentence_hash": "0e87cec732f89ec90d082e4994c796c23bd7ed54288727d481a08e77ac8facdf",
+          "anchors": [
+            "compute",
+            "data",
+            "ai",
+            "compute campuses"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The initiative comes ahead of the November 3 U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378152+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "The initiative comes ahead of the November 3 U.S.",
+          "sentence_hash": "4805452fb94b2c7eef6791ed7d194c79ea799357457f0db0516468e3698c0370",
+          "anchors": [
+            "November 3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378203+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "sentence_hash": "d39e9509b473b22ec78658bf7a8d68cc98b87edcb5fcb9c83a8afbaf41c44342",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378246+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "sentence_hash": "efa5b1e75ab83cdcb61fb25fee9d506d7673f3c03352b783a22b92068610082f",
+          "anchors": [
+            "data",
+            "compute",
+            "compute campuses"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378274+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "sentence_hash": "4355fc64501d519ec522b21bb0131f5ad6e5533a544e530b9663e7c007f05117",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378317+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "sentence_hash": "902d38722fb33f0b3ee47df64dce02ff20f1f9c5f56aa1686d3ef0a8e0fd6460",
+          "anchors": [
+            "data"
+          ]
+        }
+      ],
+      "entities": [
+        "redfin",
+        "chris lehane",
+        "lehane",
+        "august",
+        "data",
+        "another",
+        "open",
+        "axios",
+        "november",
+        "michigan",
+        "ai",
+        "compute campuses",
+        "microsoft",
+        "compute",
+        "americans",
+        "however",
+        "in january"
+      ],
+      "numbers": [
+        "47%"
+      ],
+      "dates": [
+        "November 3"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_0b5cd97216c7cbd5b174c9a8",
+      "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-02T18:13:57+00:00",
+      "why_relevant": "比特币供应紧缩预示反弹",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "bitcoin"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 1
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_9121b11a58870d4f02056ad7",
+      "title": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSGJTUDVwRnhqVmZaRHNFX1l5MUtGYnhoLWVVMXBkODNXTmdzR3FycktGYkdJUVBtbXc4ejZmTlBLVUdxZXZ6UXJ1WENNWE1SS2thM1lweUtvdGdNX3RHa0x6Y0FCOFJmNTAtWGRLZEZhRGdEM1VOdWJ0T2FiUDhJR29aNW14Y0NPbkVUemxfODZkS3FJLXMtQk9VQjJsTng4NVpCekI4UEJqVEp2bkNSX1czUVBIQQ?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-11-02T21:03:02+00:00",
+      "why_relevant": "纳指100进入技术性修正",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "megacap results amplify",
+        "bloomberg",
+        "fears",
+        "ai",
+        "nasdaq",
+        "enters correction"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 6
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_10c927b8e4c52df706d2a1bf",
+      "title": "Marvell to buy data centre component maker Lumentum in $115bn AI bet",
+      "url": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Silicon Valley companies say all-stock deal would create a ‘leader in AI connectivity’",
+      "category": "财经",
+      "published_at": "2026-11-02T21:19:47+00:00",
+      "why_relevant": "Marvell$115B收购Lumentum",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "ai",
+        "silicon valley"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 2
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_463e505f42ebbb49892916a2",
+      "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
+      "publisher": "The Guardian",
+      "summary": "Australia’s central bank expected to hit mortgage holders again on Tuesday, as war in Middle East combines with collapsing house pricesGet our breaking news email, free app or daily news podcastAustralia’s economy is set for a “sharper, longer slowdown”, major bank economists say, as the Reserve Bank is forced to keep interest rates higher to rid the nation of persistent inflationary pressures.The RBA is widely expected to hit mortgage holders with a fifth rate hike on Tuesday, in a move that wi",
+      "category": "国际",
+      "published_at": "2026-11-02T06:57:29+00:00",
+      "why_relevant": "澳经济放缓与加息预测",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380108+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.",
+          "sentence_hash": "d1820478777ad065871278a20d2d7d27c374941681ea13924e4f01a6c42db5ac",
+          "anchors": [
+            "1%",
+            "1.8%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Growth through 2027 would be barely stronger at an estimated 1.1%, according to the updated projections.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380136+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "Growth through 2027 would be barely stronger at an estimated 1.1%, according to the updated projections.",
+          "sentence_hash": "948a7217c9687a8cd74f5cd3ec33e997b6fcb747ac053d5ecee2cf27126da443",
+          "anchors": [
+            "1%",
+            "1.1%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The economy would grow below trend over 2027 and 2028, Spence said, echoing the forecast of just 1% growth next year.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380216+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "The economy would grow below trend over 2027 and 2028, Spence said, echoing the forecast of just 1% growth next year.",
+          "sentence_hash": "edf5ac9dbe4fd58a5ced4039a444fe698fe62da94a287575566e8a6cd5605d17",
+          "anchors": [
+            "1%",
+            "growth"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Spence forecast the key jobless measure would need to rise from 4.7% to as high as 5.4% by the end of next year, as the RBA doubles down on its battle to regain control of inflation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380247+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "Spence forecast the key jobless measure would need to rise from 4.7% to as high as 5.4% by the end of next year, as the RBA doubles down on its battle to regain control of inflation.",
+          "sentence_hash": "3e2e48997a094c63e3a3490f6d758928333f98adcaa1cb393413ea1f80cb1b31",
+          "anchors": [
+            "5.4%",
+            "4.7%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The CBA forecast was more optimistic, seeing unemployment peak at 5.1% over the same timeframe.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380269+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "The CBA forecast was more optimistic, seeing unemployment peak at 5.1% over the same timeframe.",
+          "sentence_hash": "aabcd12f881e141f5e8ee7de17f6e02132c089957049ec39844d4bb8bbff0507",
+          "anchors": [
+            "1%",
+            "5.1%"
+          ]
+        }
+      ],
+      "entities": [
+        "allen",
+        "new year",
+        "monday",
+        "cba",
+        "amp",
+        "shane oliver",
+        "instead",
+        "growth",
+        "brent",
+        "belinda allen",
+        "sydney",
+        "nab",
+        "july",
+        "december",
+        "alas",
+        "after jim chalmers",
+        "middle east",
+        "australia",
+        "spence",
+        "tuesday",
+        "gareth spence",
+        "covid",
+        "gdp",
+        "reserve bank",
+        "most",
+        "either",
+        "rba",
+        "australian"
+      ],
+      "numbers": [
+        "4.7%",
+        "1%",
+        "5.1%",
+        "1.1%",
+        "5.4%",
+        "1.8%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_684e86cbd676f2b631144df0",
+      "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
+      "category": "国际",
+      "published_at": "2026-11-02T17:33:19+00:00",
+      "why_relevant": "俄乌停火结束冲突回归",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381445+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.",
+          "sentence_hash": "822442c6d035bd5ddd602de118fb3bac6ebe1684e66b1fefb5601a118674c6ff",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381480+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.",
+          "sentence_hash": "e0c967688d6c33c0c7d9c86b6d69d5ce65f5484a4e3f18de69b3deeaa0fc5fac",
+          "anchors": [
+            "and",
+            "us",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Ukraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381505+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "Ukraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.",
+          "sentence_hash": "35e1b4213558a2417c05674551d85ac8a8d4b2e510f57c09bbe79e7fec5ef4bc",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381557+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.",
+          "sentence_hash": "ac2c675d003d3f1f0b23924187e12e56198cf8f7daef55b547b8bfae5bf51a87",
+          "anchors": [
+            "and",
+            "us",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381587+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "The Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".",
+          "sentence_hash": "309d76e8b6385acad798e8b1d926842f47aed7c9325096b5371c22a26085daeb",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"It is a completely standard practice in such situations,\" he added.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381605+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "\"It is a completely standard practice in such situations,\" he added.",
+          "sentence_hash": "4b762960a3a7deb5429b6471d50d873e6976468ac282837e0da203599fbc9a83",
+          "anchors": [
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "but",
+        "monday",
+        "ukraine russia",
+        "lubinets",
+        "first lady melania trump",
+        "and",
+        "dmytro lubinets",
+        "fighting",
+        "russian",
+        "melani",
+        "moscow",
+        "oleshky",
+        "there",
+        "yana lantratova",
+        "kremlin",
+        "on monday",
+        "published\nfighting",
+        "both lantratova",
+        "they",
+        "dmitry peskov",
+        "peskov",
+        "ukraine",
+        "the kremlin",
+        "both kyiv",
+        "general staff",
+        "russia",
+        "kherson",
+        "us",
+        "ukrainian"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b6a633d2b0e58b2f6fdef2e7",
+      "title": "Trump to remove Rwanda and South Africa from US trade deal",
+      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
+      "category": "国际",
+      "published_at": "2026-11-02T19:33:10+00:00",
+      "why_relevant": "美国将卢旺达南非移出贸易协议",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382542+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.",
+          "sentence_hash": "2bbfa12c36eb53dcf5b0c061787064d2251279e8482cabc9e69025ce4c02dcd3",
+          "anchors": [
+            "January 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The African Growth and Opportunity Act (Agoa) allows eligible African countries to export thousands of products to the US duty-free.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382572+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "The African Growth and Opportunity Act (Agoa) allows eligible African countries to export thousands of products to the US duty-free.",
+          "sentence_hash": "e7fdb6af9c3f60ce1eee4ea6155b09f7908f7233ea00438147792a88428a2df8",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The US Treasury said Rwanda's defence ministry directed thousands of troops to fight alongside M23 rebels in eastern DR Congo, providing weapons, equipment, logistics and training.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382629+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "The US Treasury said Rwanda's defence ministry directed thousands of troops to fight alongside M23 rebels in eastern DR Congo, providing weapons, equipment, logistics and training.",
+          "sentence_hash": "52ab01d111d342af65136c136c7ad9a929d59875bc9be44177f9a9f9420ef4cd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Last year, Trump accused South Africa of white genocide in a meeting with President Cyril Ramaphosa at the White House and launched a US refugee pathway for Afrikaners.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382673+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "Last year, Trump accused South Africa of white genocide in a meeting with President Cyril Ramaphosa at the White House and launched a US refugee pathway for Afrikaners.",
+          "sentence_hash": "9d87616f1dbbcffbba6d7e40459fae9f8456521b556e5bc4732aeac0f474c3df",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "the trump",
+        "rwanda",
+        "south africa leo brent bozell",
+        "washington",
+        "opportunity act",
+        "trade representative jamieson greer",
+        "president donald trump",
+        "treasury",
+        "iii",
+        "south african",
+        "afrikaners",
+        "last",
+        "president cyril ramaphosa",
+        "agoa",
+        "in rwanda",
+        "for south africa",
+        "greer",
+        "january",
+        "ambassador",
+        "published",
+        "south africa",
+        "congo",
+        "white house",
+        "african",
+        "the african growth",
+        "congress",
+        "us",
+        "dr",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [
+        "January 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 30
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_98e84c32128d775032459f80",
+      "title": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "publisher": "GitHub Trending",
+      "summary": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.https://beenuar.github.io/AiSOC/ \n  \n AiSOC \n An open-source, self-hostable AI Security Operations Center. It ingests your security telemetry, detects and correlates threats, investigates them with AI agents whose reasoning is fully audit",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源AI安全运营中心值得关注",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.383977+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.",
+          "sentence_hash": "3a5dbfeeb5d53309f736bf493de2463320ad7314730ecacc24234f3eb61f0f8a",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "AiSOC normalizes it, runs the 2538 executable rules of its 7023-rule library, groups what fires into incidents, investigates each one with an AI agent whose every prompt and tool call is recorded, and proposes an action.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.384016+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "AiSOC normalizes it, runs the 2538 executable rules of its 7023-rule library, groups what fires into incidents, investigates each one with an AI agent whose every prompt and tool call is recorded, and proposes an action.",
+          "sentence_hash": "7217e3bf27ddd4a0bb3341280f6bf30f566b18248cbe914eedd67423e671c5b8",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Watch the full three minutes — install to AI verdict on one server against the published images, terminal waits shortened and the recording saying so on screen.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.384054+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "Watch the full three minutes — install to AI verdict on one server against the published images, terminal waits shortened and the recording saying so on screen.",
+          "sentence_hash": "831dff59bfe2e121eedeb20c10d435ee76d367bbeeece72f974d315bc32775c9",
+          "anchors": [
+            "all",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "(step by step · what is real) git clone https://github.com/beenuar/AiSOC && cd AiSOC make up On Windows, or on a machine with nothing installed yet, one line does the prerequisites too: iwr -useb https://raw.githubusercontent.com/beenuar/AiSOC/main/install.ps1 | iex (curl -fsSL h",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.384100+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "(step by step · what is real) git clone https://github.com/beenuar/AiSOC && cd AiSOC make up On Windows, or on a machine with nothing installed yet, one line does the prerequisites too: iwr -useb https://raw.githubusercontent.com/beenuar/AiSOC/main/install.ps1 | iex (curl -fsSL h",
+          "sentence_hash": "bc002789567b0df7d7686399ae3fd8d9c669c71fb087bfb1cef9ccd52f711196",
+          "anchors": [
+            "all",
+            "ai",
+            "git"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Without Docker at all, pip install aisoc-sandbox && aisoc-sandbox demo walks one alert through the agent funnel offline in under 30 seconds.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.384127+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "Without Docker at all, pip install aisoc-sandbox && aisoc-sandbox demo walks one alert through the agent funnel offline in under 30 seconds.",
+          "sentence_hash": "bdf6ed48f08b93b8bf52f051b522e7246eb3c34dc177c5bab56b08eb49c6a070",
+          "anchors": [
+            "all",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "All four end at the same console; only the first three install anything.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.384150+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "All four end at the same console; only the first three install anything.",
+          "sentence_hash": "d3415351990bbe49801888b21711f847c5bf12dd3eef894963b52ec6101b0c83",
+          "anchors": [
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "vm",
+        "architecture",
+        "watch",
+        "api",
+        "linux",
+        "args",
+        "docker",
+        "docs",
+        "rest",
+        "needs docker compose",
+        "discussions\ntelemetry",
+        "mcp",
+        "without docker",
+        "pdf",
+        "the technical guide",
+        "lost",
+        "security operations center",
+        "ai",
+        "without",
+        "installation",
+        "gb",
+        "technical guide",
+        "on windows",
+        "hub codespaces",
+        "kafka",
+        "all",
+        "git",
+        "then"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_f640cbfc604521b4afff93bb",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "publisher": "Hacker News",
+      "summary": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs.Here’s a demo: https://youtu.be/BFsM-Se1Fh8We’re both software engineers that spent our careers on dev tooling and infra across companies like Robinhood, Retool, WeWork, and Qualtrics. Testing was always a pain in the ass (esp Playwright and Selenium), so we built agents to do it for us.Modern day",
+      "category": "科技",
+      "published_at": "2026-11-02T17:05:25+00:00",
+      "why_relevant": "QA智能体自动抓bug概念新颖",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.385431+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.",
+          "sentence_hash": "87678c5388b97374f390c0412b7bf1ca6265a716220bdfe78f2cb9211fe11776",
+          "anchors": [
+            "verification"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Mo is an AI QA engineer that tests your app end to end.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.385461+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Mo is an AI QA engineer that tests your app end to end.",
+          "sentence_hash": "b96d2a254cbd8f2af5b1f89ff71dd25509550f32887c00641dbc1de1190c8587",
+          "anchors": [
+            "end",
+            "test"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Trusted by leading engineering teams.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.385483+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Trusted by leading engineering teams.",
+          "sentence_hash": "09c2c3dcbb0a9670fe0bfe8cfda95c4dd730c6d483803bae614f9defd27e0f55",
+          "anchors": [
+            "engineering"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Verification has to keep up.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.385507+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Verification has to keep up.",
+          "sentence_hash": "0c3138cc479ab05f84307fb0822f8ecd195ecc9e56af576372ef9d8e8d029f7d",
+          "anchors": [
+            "keep"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Coding agents have made it dramatically faster to build software.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.385546+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Coding agents have made it dramatically faster to build software.",
+          "sentence_hash": "ebd478fac8a6ed83b5e8f6a4d9d843cb07378365bb4842872d468fa67a244a4a",
+          "anchors": [
+            "agents",
+            "ui"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Agents need evidence from the app itself to verify that their changes deliver the intended behavior.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.385578+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Agents need evidence from the app itself to verify that their changes deliver the intended behavior.",
+          "sentence_hash": "86d7d169e1cf9b0c294cf116d294061cd84e5791b4bfacad783d19403011f87e",
+          "anchors": [
+            "end",
+            "verify"
+          ]
+        }
+      ],
+      "entities": [
+        "reuse",
+        "get",
+        "describe",
+        "verify",
+        "knowledge",
+        "agents",
+        "poe",
+        "explore\nwrite",
+        "type",
+        "cli",
+        "apply",
+        "ci",
+        "service",
+        "ui",
+        "code",
+        "trusted",
+        "loved",
+        "english",
+        "maps",
+        "end",
+        "engineering",
+        "review",
+        "run",
+        "sso",
+        "trust center",
+        "qa",
+        "compliance",
+        "momentic",
+        "see",
+        "use",
+        "place order",
+        "independently",
+        "ai",
+        "give",
+        "permanent",
+        "write",
+        "coding",
+        "yaml",
+        "verification",
+        "keep",
+        "soc",
+        "test",
+        "finish"
+      ],
+      "numbers": [
+        "100%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 44
+      },
+      "evidence_complete": true
+    }
+  ]
+}

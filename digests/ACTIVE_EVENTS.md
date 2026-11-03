@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-02 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-03 08:08。
+
+## Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_e41ab9d76b24`
+
+## War, tariffs and China: What the US midterms mean for the Asia-Pacific
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_bb4ead6e5df9`
+
+## Russian bombing kills 26 people at Ukraine aid centre, Kyiv says
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called "utterly horrific".
+- 事件 ID：`evt_20261103_a5014725e91b`
+
+## Anthropic clamps down on Claude’s AI video game clones
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_31c3e8daa381`
+
+## OpenAI considers rebranding data centers to 'AI compute campuses" as data center backlash intensifies
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：OpenAI considers rebranding data centers to 'AI compute campuses" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center
+- 事件 ID：`evt_20261103_2edd2b6f76a3`
+
+## Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261103_120359d35179`
+
+## Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261103_8bdd83c46e41`
+
+## Marvell to buy data centre component maker Lumentum in $115bn AI bet
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261103_5b0db992298d`
+
+## ‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_1d156c3e8b5d`
+
+## Fighting returns to Kherson region after longest Ukraine war ceasefire
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_42d10c4a369c`
+
+## Trump to remove Rwanda and South Africa from US trade deal
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.
+- 事件 ID：`evt_20261103_76e905544142`
+
+## beenuar/AiSOC
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_9cd648b74762`
+
+## Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app
+- 状态：更新中；首见 2026-11-03；最近更新 2026-11-03
+- 最新事实：New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261103_6e56f49e24f8`
 
 ## Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz
 - 状态：更新中；首见 2026-11-02；最近更新 2026-11-02

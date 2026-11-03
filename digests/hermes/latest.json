@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-11-02-AM",
-  "date": "2026-11-02",
+  "run_key": "2026-11-03-AM",
+  "date": "2026-11-03",
   "session": "AM",
-  "delivered_at": "2026-11-02T08:08:16.836956+08:00",
+  "delivered_at": "2026-11-03T08:08:22.074704+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-11-02T00:08:16.838676+00:00",
+  "exported_at": "2026-11-03T00:08:22.076381+00:00",
   "quality": {
     "total_items": 13,
     "items_with_unsupported_numbers": 3,
@@ -14,167 +14,54 @@
   },
   "items": [
     {
-      "article_id": "a1_ad14b1e496ad64c9b87bd08f",
-      "title": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZmk2dmxjdk1sOW96UkZiaUlJVXhzc1pJMjZJUnY2WGtvaXd4aXRJY3d4UTNoUmFJdUVQQjlkb0JPSmxEc2YzS1JOZ2NSWmpTUnhzYzBiU1hfeXBvb2F2WEp2NHc5YkFfUUNKSHc2NW1PMUVKT0xqUTdOa0tfUmZpQWE2SDFtdzJ5TmZleWpLd0Zid1JWR2Z0d0dOeVMwekFzNTNTYndHMmMyV0poZ2h0UmFOVWc2M3o3Z2h6TUR2SQ?oc=5",
-      "publisher": "Reuters",
-      "summary": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz&nbsp;&nbsp;Reuters",
+      "article_id": "a1_2ad642d3e34d22465c813d09",
+      "title": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373046/netanyahu-pressing-trump-attack-iran-after-us-midterm-elections-officials-say",
+      "publisher": "SCMP",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu is pushing for another wave of strikes on Iran after Tuesday’s midterm elections in the United States, according to two regional officials and a third person familiar with the matter.\nA return to full-scale war with Iran could help Netanyahu to form an emergency government after he and his far-right allies lost their parliamentary majority in last week’s elections. US President Donald Trump has alternated between threatening major strikes while pushing..",
       "category": "国际",
-      "published_at": "2026-11-01T20:12:33+00:00",
-      "why_relevant": "霍尔木兹海峡油轮触雷爆炸",
-      "relevance_score": 9.0,
-      "confirmed_facts": [],
-      "entities": [
-        "iran",
-        "hormuz",
-        "irgc",
-        "reuters",
-        "navy"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 5
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_95ec76e0b67ecb2bc6de4d12",
-      "title": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "publisher": "GitHub Trending",
-      "summary": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. \nClaude Code Game Studios \n Turn a single Claude Code session into a full game development studio.  49 agents. 74 skills. One coordinated AI team.  \n \n          \n \nWhy This Exists \nBuilding a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing sp",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "49智能体仿真实游戏工作室",
+      "published_at": "2026-11-02T22:16:52+00:00",
+      "why_relevant": "内塔尼亚胡施压袭伊朗",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "49 agents.",
+          "text": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855523+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "49 agents.",
-          "sentence_hash": "8628bf787cff89891677226f06980b35f76d2be7c628ed02379d99b973c3082a",
+          "captured_at": "2026-11-03T08:03:32.372916+08:00",
+          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
+          "excerpt": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
+          "sentence_hash": "653efb3cab2071e3a5f892af417c4ff807c9e2587a09c04004c5677bd85b2c64",
           "anchors": [
-            "agents"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
+          "text": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855569+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code.",
-          "sentence_hash": "e919f3eb6f81ba35be9c0ced0c7f22489ba4998d7646109ad75cfa65395b627b",
+          "captured_at": "2026-11-03T08:03:32.372956+08:00",
+          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
+          "excerpt": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
+          "sentence_hash": "4fab70183f8c8c2062850425298d6445471aeb54e3b13438dd5f520788d5b4fc",
           "anchors": [
-            "one"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855607+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios solves this by giving your AI session the structure of a real studio.",
-          "sentence_hash": "a01c34911bd064602f5c7a446f1aa3239cd35f1367f46c452a38d2255a3aa959",
-          "anchors": [
-            "one"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855649+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own their domains, and specialists who do the hands-on work.",
-          "sentence_hash": "72640ff62871b9b7a3c79a178dbd5366a4ef8123868d509daa9fd3f5f8698632",
-          "anchors": [
-            "department leads",
-            "art",
-            "one",
-            "agents",
-            "ai",
-            "specialists",
-            "directors"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855689+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "The result: you still make every decision, but now you have a team that asks the right questions, catches mistakes early, and keeps your project organized from first brainstorm to launch.",
-          "sentence_hash": "ce6c1b07fa5853dec4752a62f02d1176d179a7b3861572779d1684cac8b2b9da",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.855748+08:00",
-          "content_sha256": "3334ed5cb594e375495246d58848cc072df870ddc7c3e15b1d7776b7e44388c6",
-          "excerpt": "Agents are organized into three tiers, matching how real studios operate: Tier 1 — Directors creative-director technical-director producer Tier 2 — Department Leads game-designer lead-programmer art-director audio-director narrative-director qa-lead release-manager localization-l",
-          "sentence_hash": "3d56f047ab1d2152b379336e6fcec81b5c49ec72b604699cacd4f0c52eb18d13",
-          "anchors": [
-            "art",
-            "qa",
-            "ux",
-            "type",
-            "ai",
-            "specialists",
-            "directors",
-            "tier"
+            "us"
           ]
         }
       ],
       "entities": [
-        "analysi",
-        "there",
-        "ux",
-        "type",
-        "instead",
-        "treat",
-        "game design",
-        "ai",
-        "navigation",
-        "specialists",
-        "tier",
-        "department leads",
-        "reviews",
-        "claude code game studios",
-        "use",
-        "each",
-        "assets",
-        "sprints",
-        "turn",
-        "stories",
-        "interface design",
-        "architecture",
-        "agents",
-        "claude code",
-        "directors",
-        "onboarding",
-        "art",
-        "sonnet",
-        "qa",
-        "opus",
-        "building",
-        "one"
+        "hormuz",
+        "united states",
+        "president donald trump",
+        "iranian",
+        "netanyahu",
+        "tuesday",
+        "strait",
+        "iran",
+        "qatari",
+        "us",
+        "israeli prime minister benjamin netanyahu",
+        "trump"
       ],
       "numbers": [],
       "dates": [],
@@ -183,136 +70,299 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 32
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_2ee00a5e205d99ec04a9966f",
-      "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-01T01:10:05+00:00",
-      "why_relevant": "FBI确认朝鲜黑客，DeFi风险高",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.856008+08:00",
-          "content_sha256": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
-          "excerpt": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
-          "sentence_hash": "0a8d29acfd6aa2e3d23caeea93b73cc8ce8a2d0579f06add12aa28cc9c3ba28d",
-          "anchors": [
-            "6 billion",
-            "$6 billion"
-          ]
-        }
-      ],
-      "entities": [
-        "btc",
-        "fbi",
-        "eth",
-        "binance",
-        "north korea",
-        "sol"
-      ],
-      "numbers": [
-        "6 billion",
-        "$6 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
         "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 8
+        "fact_count": 2,
+        "anchor_count": 12
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_5700772ab8c4051d80da91ef",
-      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+      "article_id": "a1_9e502d4d2d88f7b75b90d8c3",
+      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
       "publisher": "Al Jazeera",
-      "summary": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+      "summary": "Hit hard by Trump&#039;s tariffs and the war on Iran, countries in the Asia-Pacific want &#039;enormous changes&#039; in US policies.",
       "category": "国际",
-      "published_at": "2026-11-01T22:15:14+00:00",
-      "why_relevant": "俄乌局部停火结束，战事升温",
+      "published_at": "2026-11-02T23:41:18+00:00",
+      "why_relevant": "美中期选举对亚太影响",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
+          "text": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.857463+08:00",
-          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
-          "excerpt": "On Sunday, Ukraine’s military said it evacuated 167 more people from threatened areas of the southern Kherson region, including 22 children and 21 people with limited mobility requiring special assistance.",
-          "sentence_hash": "f3edce24ce8cd63e0b5e19c48acbe7b1e5a34d790b32f92f10022a5ba603fee4",
+          "captured_at": "2026-11-03T08:03:32.374410+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
+          "sentence_hash": "012b540a3c2fb08f51ece7fd57c60eefe14998988bf3f3ca94b74825836ebb92",
           "anchors": [
-            "south",
-            "21 people"
+            "war",
+            "us",
+            "tariffs"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
+          "text": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.857570+08:00",
-          "content_sha256": "0b8df77253a883eb3a9a485ac3b53087a2dcfeee24433333863b9e8b0b028a1c",
-          "excerpt": "Since Russia launched a full-scale invasion of its neighbour in February 2022, Moscow’s forces have occupied most of the eastern Ukrainian regions of Donetsk and Luhansk, as well as the majority of territory in Ukraine’s southern Kherson and Za",
-          "sentence_hash": "0611ca1b24c6718ae628a471c8177d3362b147fd30594c0613368fe338425ca8",
+          "captured_at": "2026-11-03T08:03:32.374465+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
+          "sentence_hash": "f23993d1f8006cbab4ed95c252ab554b7c91106ba6687342e5e225c8ffa7bcfc",
           "anchors": [
-            "February 20",
-            "south"
+            "war",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374508+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "sentence_hash": "cf5747d5587ecaf0aee16e4e4563cebd9d9ba490027f09c6b27e67ab8d294c6f",
+          "anchors": [
+            "war",
+            "us",
+            "tariffs"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374583+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "sentence_hash": "16503f6f57d92172a4e5f7ca68cd50d3b068a64cf8a7b3618ba29fc77e8bfece",
+          "anchors": [
+            "public",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374636+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "sentence_hash": "55b88495da71d77a92aabaed292b949c63a6bfafe60aa8cbe6286538b323bbfe",
+          "anchors": [
+            "war"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.374693+08:00",
+          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
+          "excerpt": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
+          "sentence_hash": "2d48246609a3bbee02a254fe1a59d76d40356e1b15c5c3145c030bd7f924698f",
+          "anchors": [
+            "under"
           ]
         }
       ],
       "entities": [
-        "united states first lady melania trump",
-        "units",
-        "donetsk",
-        "russia",
-        "ukrainian",
-        "kremlin",
-        "ukraine",
-        "xiv",
-        "afp",
-        "foreign ministry",
+        "kuala lumpur",
+        "outside",
+        "myanmar",
+        "china",
+        "gulf",
+        "when iran",
+        "president donald trump",
+        "before",
+        "many",
+        "soaring",
+        "institute",
+        "representatives",
+        "democrat",
+        "war",
+        "east timor",
+        "across",
+        "singapore",
+        "southeast asian studies",
+        "middle east",
+        "united states",
+        "laos",
+        "indonesia",
+        "pacific\nhit",
+        "senate",
+        "steven okun",
+        "strait",
+        "apac",
+        "with iran",
+        "al jazeera",
+        "congress",
+        "advisors",
+        "us",
+        "but",
+        "yusof ishak institute",
+        "under",
+        "tariffs",
+        "okun",
+        "malaysia",
+        "house",
+        "public",
+        "iran",
+        "thailand",
+        "iseas",
+        "hormuz",
+        "asia",
+        "republican party",
+        "january",
+        "cambodia",
+        "donald trump",
+        "constitution",
+        "israel",
+        "overriding",
+        "the philippines",
+        "tuesday",
+        "vietnam",
+        "democrats",
+        "democratic",
+        "march",
+        "pacific",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 60
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b1a3abfa934497f858e4b9c6",
+      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+      "category": "国际",
+      "published_at": "2026-11-02T21:10:04+00:00",
+      "why_relevant": "俄军轰炸致乌援助中心死伤",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375813+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "sentence_hash": "2f04600408c83cd6de737138cfe4da73b904a171bb8a57ca22e8beb464d1de1f",
+          "anchors": [
+            "26 people",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375857+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "sentence_hash": "2ba83d8a80f6e1b30c5721773ad194cbfc086017f0c610e45cd07a39dbc529fa",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375881+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "sentence_hash": "3924bf5b09d1c6d90abaa1943cecfb8e13e4cf1ed7e503152624b66db65247eb",
+          "anchors": [
+            "teams"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Russian military has not publicly commented.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375898+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "The Russian military has not publicly commented.",
+          "sentence_hash": "ced779a0d917e116fc510dd045911021a51028c2dcf3f7c4dcb015475e70cd9a",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375930+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "sentence_hash": "5fcc52c05638673deb5ca342fb3b048a59ba49e858323137e871d7af4d373eff",
+          "anchors": [
+            "24 people"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.375953+08:00",
+          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
+          "excerpt": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "sentence_hash": "0e929026546520be88e234d07f082f228b59f66a93fb286c2b8d3824de495163",
+          "anchors": [
+            "26 people"
+          ]
+        }
+      ],
+      "entities": [
+        "first lady melania trump",
         "kyiv",
-        "melania trump",
-        "february",
-        "they",
-        "nizhny novgorod",
-        "south",
-        "general staff",
-        "kherson",
-        "since russia",
+        "komyshuvakha",
+        "semikin",
         "russian",
-        "telegram",
-        "gmt",
-        "pope leo",
+        "published\nat",
+        "abu dhabi",
         "moscow",
-        "on sunday",
-        "dmitry peskov",
-        "let oleshky",
-        "luhansk",
-        "in russia",
         "oleshky",
-        "sunday",
-        "ukrainian president volodymyr zelenskyy"
+        "teams",
+        "the russian",
+        "united arab emirates",
+        "ukraine",
+        "mykhailo semikin",
+        "with",
+        "russians",
+        "president volodymyr zelensky",
+        "russia",
+        "us",
+        "monday",
+        "zelensky",
+        "dsns",
+        "zaporizhzhia",
+        "february",
+        "published",
+        "russian president vladimir putin",
+        "western",
+        "tuesday",
+        "five",
+        "however",
+        "meanwhile",
+        "ukrainian"
       ],
       "numbers": [
-        "21 people"
+        "26 people",
+        "24 people"
       ],
       "dates": [
         "February 20"
@@ -320,426 +370,537 @@
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_70e442b6ded99fb67e81a032",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "publisher": "The Verge",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-02T18:56:02+00:00",
+      "why_relevant": "Anthropic限制AI游戏克隆",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.376775+08:00",
+          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
+          "excerpt": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "sentence_hash": "a34a2f0a9d5f4816f08150af89330b6b7738a9990abc33aa6a3414d571293647",
+          "anchors": [
+            "original"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.376824+08:00",
+          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
+          "excerpt": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
+          "sentence_hash": "ca7c1e1abdcd9617db0841f2537313a2c472abba7c3be9d92e847c9e424dd14d",
+          "anchors": [
+            "ai",
+            "original"
+          ]
+        }
+      ],
+      "entities": [
+        "don",
+        "ai",
+        "claude code",
+        "claude",
+        "hardware",
+        "addy osmani",
+        "opus",
+        "last",
+        "retro",
+        "ip",
+        "tom",
+        "original",
+        "anthropic"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 2,
+        "anchor_count": 13
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c7dd4e6255ca03c27a0e0dcd",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
+      "publisher": "Tom's Hardware",
+      "summary": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections. The company is also promoting the term “AI compute campuses” for its data centers as it seeks to address concerns over electricity demand, water consumption, pollution and rising utility bills",
+      "category": "科技",
+      "published_at": "2026-11-02T19:15:31+00:00",
+      "why_relevant": "OpenAI数据中心品牌调整策略",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378128+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "sentence_hash": "0e87cec732f89ec90d082e4994c796c23bd7ed54288727d481a08e77ac8facdf",
+          "anchors": [
+            "compute",
+            "data",
+            "ai",
+            "compute campuses"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The initiative comes ahead of the November 3 U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378152+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "The initiative comes ahead of the November 3 U.S.",
+          "sentence_hash": "4805452fb94b2c7eef6791ed7d194c79ea799357457f0db0516468e3698c0370",
+          "anchors": [
+            "November 3"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378203+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "sentence_hash": "d39e9509b473b22ec78658bf7a8d68cc98b87edcb5fcb9c83a8afbaf41c44342",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378246+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "sentence_hash": "efa5b1e75ab83cdcb61fb25fee9d506d7673f3c03352b783a22b92068610082f",
+          "anchors": [
+            "data",
+            "compute",
+            "compute campuses"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378274+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "sentence_hash": "4355fc64501d519ec522b21bb0131f5ad6e5533a544e530b9663e7c007f05117",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.378317+08:00",
+          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
+          "excerpt": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "sentence_hash": "902d38722fb33f0b3ee47df64dce02ff20f1f9c5f56aa1686d3ef0a8e0fd6460",
+          "anchors": [
+            "data"
+          ]
+        }
+      ],
+      "entities": [
+        "redfin",
+        "chris lehane",
+        "lehane",
+        "august",
+        "data",
+        "another",
+        "open",
+        "axios",
+        "november",
+        "michigan",
+        "ai",
+        "compute campuses",
+        "microsoft",
+        "compute",
+        "americans",
+        "however",
+        "in january"
+      ],
+      "numbers": [
+        "47%"
+      ],
+      "dates": [
+        "November 3"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_0b5cd97216c7cbd5b174c9a8",
+      "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-02T18:13:57+00:00",
+      "why_relevant": "比特币供应紧缩预示反弹",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "bitcoin"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 1
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_9121b11a58870d4f02056ad7",
+      "title": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSGJTUDVwRnhqVmZaRHNFX1l5MUtGYnhoLWVVMXBkODNXTmdzR3FycktGYkdJUVBtbXc4ejZmTlBLVUdxZXZ6UXJ1WENNWE1SS2thM1lweUtvdGdNX3RHa0x6Y0FCOFJmNTAtWGRLZEZhRGdEM1VOdWJ0T2FiUDhJR29aNW14Y0NPbkVUemxfODZkS3FJLXMtQk9VQjJsTng4NVpCekI4UEJqVEp2bkNSX1czUVBIQQ?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-11-02T21:03:02+00:00",
+      "why_relevant": "纳指100进入技术性修正",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "megacap results amplify",
+        "bloomberg",
+        "fears",
+        "ai",
+        "nasdaq",
+        "enters correction"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 6
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_10c927b8e4c52df706d2a1bf",
+      "title": "Marvell to buy data centre component maker Lumentum in $115bn AI bet",
+      "url": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Silicon Valley companies say all-stock deal would create a ‘leader in AI connectivity’",
+      "category": "财经",
+      "published_at": "2026-11-02T21:19:47+00:00",
+      "why_relevant": "Marvell$115B收购Lumentum",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "ai",
+        "silicon valley"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 2
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_463e505f42ebbb49892916a2",
+      "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
+      "publisher": "The Guardian",
+      "summary": "Australia’s central bank expected to hit mortgage holders again on Tuesday, as war in Middle East combines with collapsing house pricesGet our breaking news email, free app or daily news podcastAustralia’s economy is set for a “sharper, longer slowdown”, major bank economists say, as the Reserve Bank is forced to keep interest rates higher to rid the nation of persistent inflationary pressures.The RBA is widely expected to hit mortgage holders with a fifth rate hike on Tuesday, in a move that wi",
+      "category": "国际",
+      "published_at": "2026-11-02T06:57:29+00:00",
+      "why_relevant": "澳经济放缓与加息预测",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380108+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.",
+          "sentence_hash": "d1820478777ad065871278a20d2d7d27c374941681ea13924e4f01a6c42db5ac",
+          "anchors": [
+            "1%",
+            "1.8%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Growth through 2027 would be barely stronger at an estimated 1.1%, according to the updated projections.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380136+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "Growth through 2027 would be barely stronger at an estimated 1.1%, according to the updated projections.",
+          "sentence_hash": "948a7217c9687a8cd74f5cd3ec33e997b6fcb747ac053d5ecee2cf27126da443",
+          "anchors": [
+            "1%",
+            "1.1%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The economy would grow below trend over 2027 and 2028, Spence said, echoing the forecast of just 1% growth next year.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380216+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "The economy would grow below trend over 2027 and 2028, Spence said, echoing the forecast of just 1% growth next year.",
+          "sentence_hash": "edf5ac9dbe4fd58a5ced4039a444fe698fe62da94a287575566e8a6cd5605d17",
+          "anchors": [
+            "1%",
+            "growth"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Spence forecast the key jobless measure would need to rise from 4.7% to as high as 5.4% by the end of next year, as the RBA doubles down on its battle to regain control of inflation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380247+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "Spence forecast the key jobless measure would need to rise from 4.7% to as high as 5.4% by the end of next year, as the RBA doubles down on its battle to regain control of inflation.",
+          "sentence_hash": "3e2e48997a094c63e3a3490f6d758928333f98adcaa1cb393413ea1f80cb1b31",
+          "anchors": [
+            "5.4%",
+            "4.7%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The CBA forecast was more optimistic, seeing unemployment peak at 5.1% over the same timeframe.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.380269+08:00",
+          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
+          "excerpt": "The CBA forecast was more optimistic, seeing unemployment peak at 5.1% over the same timeframe.",
+          "sentence_hash": "aabcd12f881e141f5e8ee7de17f6e02132c089957049ec39844d4bb8bbff0507",
+          "anchors": [
+            "1%",
+            "5.1%"
+          ]
+        }
+      ],
+      "entities": [
+        "allen",
+        "new year",
+        "monday",
+        "cba",
+        "amp",
+        "shane oliver",
+        "instead",
+        "growth",
+        "brent",
+        "belinda allen",
+        "sydney",
+        "nab",
+        "july",
+        "december",
+        "alas",
+        "after jim chalmers",
+        "middle east",
+        "australia",
+        "spence",
+        "tuesday",
+        "gareth spence",
+        "covid",
+        "gdp",
+        "reserve bank",
+        "most",
+        "either",
+        "rba",
+        "australian"
+      ],
+      "numbers": [
+        "4.7%",
+        "1%",
+        "5.1%",
+        "1.1%",
+        "5.4%",
+        "1.8%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
         "anchor_count": 34
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_cc7c804ad5271cd558932b28",
-      "title": "lightpanda-io/browser",
-      "url": "https://github.com/lightpanda-io/browser",
-      "publisher": "GitHub Trending",
-      "summary": "Lightpanda: the headless browser designed for AI and automationhttps://lightpanda.io   \nLightpanda Browser \n The headless browser built from scratch for AI agents and automation. Not a Chromium fork. Not a WebKit patch. A new browser, written in Zig. 16x lighter and 9x faster than Chromium.   \n \n     \n \n \n       \n \nBenchmarks \nRequesting 933 real web pages over the network on a AWS EC2 m5.large instance. See benchmark details. \n \n  \n   \n   Metric \n   Lightpanda \n   Headless Chrome \n   Difference",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI专用无头浏览器，非Chromium",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "The headless browser built from scratch for AI agents and automation.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.858905+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "The headless browser built from scratch for AI agents and automation.",
-          "sentence_hash": "5468ea3eb4d57bbaffde8c7a399d4b6ade1ab12ca6016d4494df1e580483bd21",
-          "anchors": [
-            "from"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.858945+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "Requesting 933 real web pages over the network on a AWS EC2 m5.large instance.",
-          "sentence_hash": "88cdc9c1d7b8927d6cd29e05aaa19ac86f4e67787e32bd40f36b5763fa3189cc",
-          "anchors": [
-            "web"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "See benchmark details.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.858961+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "See benchmark details.",
-          "sentence_hash": "797ff0126307dc3b524ea1910aec4a19304365345605430b10f13fa69ee2b330",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859003+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "Package Managers Latest nightly from Homebrew: brew install lightpanda-io/browser/lightpanda Latest nightly from Arch Linux User Repository: yay -S lightpanda-nightly-bin Download from the nightly builds You can download the last binary from the nightly builds for Linux and MacOS",
-          "sentence_hash": "2126da202e17db06018d9c2c1902ff1e7aa87c083242b35d19fd61baa545e47a",
-          "anchors": [
-            "download",
-            "install",
-            "lightpanda",
-            "from"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859050+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "For Linux curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-x86_64-linux && \\ chmod a+x ./lightpanda Verify the binary before running anything: ./lightpanda version Linux aarch64 is also available If you use Nix, you can run Light",
-          "sentence_hash": "a00405e0ab493d9b7f1be8317623c28f12f68685a978c8953bd861b29de764bc",
-          "anchors": [
-            "run",
-            "lightpanda",
-            "nix",
-            "your",
-            "download",
-            "use",
-            "from",
-            "linux",
-            "ai",
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859080+08:00",
-          "content_sha256": "9f98115801f2d992777237c882ae213873c3e7ee4105a87e0b70539d3ed04c35",
-          "excerpt": "On musl-based Linux distributions (Alpine, etc.) the binary fails with cannot execute: required file not found because the glibc dynamic linker is missing.",
-          "sentence_hash": "1a6e13fd7b75c770ec664db329484024decc433437f5991bcb883d28f552a94d",
-          "anchors": [
-            "ai",
-            "use",
-            "not"
-          ]
-        }
-      ],
-      "entities": [
-        "kit",
-        "requesting",
-        "see",
-        "zig",
-        "chromium",
-        "ai",
-        "android",
-        "you",
-        "puppeteer",
-        "for mac",
-        "mac",
-        "lightpanda",
-        "not",
-        "homebrew",
-        "cdp",
-        "web",
-        "use",
-        "note",
-        "verify",
-        "latest",
-        "install",
-        "for linux",
-        "aws",
-        "windows",
-        "nix",
-        "alpine",
-        "arch linux user repository",
-        "termux",
-        "bionic",
-        "see microsoft",
-        "package managers\nlatest",
-        "for windows",
-        "run",
-        "the linux",
-        "playwright",
-        "your",
-        "docker\nlightpanda",
-        "download",
-        "docker",
-        "from",
-        "linux",
-        "wsl"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 42
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_9b17e5afaf4a4c6b0931c23b",
-      "title": "FirstFT: Gulf braced for renewed war between US and Iran",
-      "url": "https://www.ft.com/content/703dd322-e880-4bbf-80f8-8b0efda1831c?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
-      "category": "财经",
-      "published_at": "2026-11-01T22:22:33+00:00",
-      "why_relevant": "美伊战争风险，Binance巨资流出",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.859351+08:00",
-          "content_sha256": "81b59a296532f8b2afb46f6c947c92f6ece0f27482a4c5cc0b972893b333da46",
-          "excerpt": "Also in today’s newsletter: Binance users pull $3.6bn from crypto exchange and a junk debt rout sparks ‘bloodbath’ for credit investors",
-          "sentence_hash": "9bebda08084e1254b9fae94d39bd146c581ae23e9fcce0c0a14437a31461d121",
-          "anchors": [
-            "$3.6"
-          ]
-        }
-      ],
-      "entities": [
-        "also",
-        "binance"
-      ],
-      "numbers": [
-        "$3.6"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 3
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_09383125a3e10267cc983c9b",
-      "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap&nbsp;&nbsp;Bloomberg.com",
-      "category": "财经",
-      "published_at": "2026-11-01T21:28:04+00:00",
-      "why_relevant": "亚洲股市承压，AI泡沫担忧",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "tech rout fuels",
-        "markets wrap",
-        "bloomberg",
-        "ai",
-        "fall",
-        "asian stocks",
-        "fears"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 7
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_05564c58524481e4867046d9",
-      "title": "Hong Kong summit to test Wall Street sentiment amid geopolitical strains, tech volatility",
-      "url": "https://www.scmp.com/business/banking-finance/article/3372873/hong-kong-summit-test-wall-street-sentiment-amid-geopolitical-strains-tech-volatility",
-      "publisher": "SCMP",
-      "summary": "When hundreds of global finance leaders converge in Hong Kong this week, the question on their minds will be whether traditional investment strategies remain viable against escalating geopolitical friction and the rapid ascent of artificial intelligence.\nInvestors have been keen for an answer – or at least clear clues – given that US President Donald Trump has been threatening a new round of strikes on Iran, and after Friday’s sharp sell-off in technology stocks elevated concerns about the...",
+      "article_id": "a1_684e86cbd676f2b631144df0",
+      "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
       "category": "国际",
-      "published_at": "2026-11-01T23:30:16+00:00",
-      "why_relevant": "华尔街情绪迎香港地缘考验",
+      "published_at": "2026-11-02T17:33:19+00:00",
+      "why_relevant": "俄乌停火结束冲突回归",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Hong Kong summit to test Wall Street sentiment amid geopolitical strains, tech volatility Financial heavyweights will share their thoughts on macroeconomic headwinds, including elevated interest rates and AI regulatory scrutiny When hundreds of global finance leaders converge in ",
+          "text": "The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.860029+08:00",
-          "content_sha256": "c29267442bf264f7493a095d4ac8b3a3c1110552532c1af5d4fabaf3264017f5",
-          "excerpt": "Hong Kong summit to test Wall Street sentiment amid geopolitical strains, tech volatility Financial heavyweights will share their thoughts on macroeconomic headwinds, including elevated interest rates and AI regulatory scrutiny When hundreds of global finance leaders converge in ",
-          "sentence_hash": "7030cf277e9e9e25d2203461847f2da030d5999880593f6b655a315042563738",
+          "captured_at": "2026-11-03T08:03:32.381445+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.",
+          "sentence_hash": "822442c6d035bd5ddd602de118fb3bac6ebe1684e66b1fefb5601a118674c6ff",
           "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Investors have been keen for an answer – or at least clear clues – given that US President Donald Trump has been threatening a new round of strikes on Iran, and after Friday’s sharp sell-off in technology stocks elevated concerns about the sustainability of the AI investment boom",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.860074+08:00",
-          "content_sha256": "c29267442bf264f7493a095d4ac8b3a3c1110552532c1af5d4fabaf3264017f5",
-          "excerpt": "Investors have been keen for an answer – or at least clear clues – given that US President Donald Trump has been threatening a new round of strikes on Iran, and after Friday’s sharp sell-off in technology stocks elevated concerns about the sustainability of the AI investment boom",
-          "sentence_hash": "3cfd8bdc5e65271ef549296dd44593650b362f21c2dcf950f16df624ef49eadf",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "president donald trump",
-        "iran",
-        "hong kong monetary authority",
-        "investment summit",
-        "wall street",
-        "hkma",
-        "financial",
-        "us",
-        "friday",
-        "hong kong",
-        "global financial leaders",
-        "ai",
-        "playbook",
-        "investors",
-        "rethinking"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 15
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_dda8768b52e7d6faa73eaa09",
-      "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
-      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
-      "publisher": "The Guardian",
-      "summary": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilitiesDonald Trump’s trade wars have largely fallen off the headlines. Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end US trade with countries with which it has a deficit unless the Federal Reserve cuts interest rates. But the sense that the world’s two largest economies are plowing ahead into an overt economic ",
-      "category": "国际",
-      "published_at": "2026-11-01T12:00:12+00:00",
-      "why_relevant": "中美贸易战停火假象",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end US trade with countries with which it has a deficit unless the Federal Reserve cuts interest rates.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.861357+08:00",
-          "content_sha256": "09f7d4332bb8324e72a7902f0fc3b33a1d991d6e8e59a9d9ee70ff2e224bcd4e",
-          "excerpt": "Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end US trade with countries with which it has a deficit unless the Federal Reserve cuts interest rates.",
-          "sentence_hash": "c49339a8ffd122c3cb8ac05433899a25176738580e8d25231487c57d62f622d7",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "But the sense that the world’s two largest economies are plowing ahead into an overt economic conflagration has taken a back seat to other, more salient fears, about Trump ending American democracy, AI killing us all and stuff like that.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.861405+08:00",
-          "content_sha256": "09f7d4332bb8324e72a7902f0fc3b33a1d991d6e8e59a9d9ee70ff2e224bcd4e",
-          "excerpt": "But the sense that the world’s two largest economies are plowing ahead into an overt economic conflagration has taken a back seat to other, more salient fears, about Trump ending American democracy, AI killing us all and stuff like that.",
-          "sentence_hash": "8c34504663caee8fb7e55f33e8ced3a9dd4c57d2d72f64ec79e08b635d702bfa",
-          "anchors": [
-            "fears",
             "and",
             "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381480+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.",
+          "sentence_hash": "e0c967688d6c33c0c7d9c86b6d69d5ce65f5484a4e3f18de69b3deeaa0fc5fac",
+          "anchors": [
+            "and",
+            "us",
+            "they"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The truce reached by Washington and Beijing last year in their escalating trade conflict, which has been extended until next January, lowered the heat between the two – putting an end to the escalation of tit-for-tat tariffs and opening a door to some as yet undefined future trad",
+          "text": "Ukraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.861459+08:00",
-          "content_sha256": "09f7d4332bb8324e72a7902f0fc3b33a1d991d6e8e59a9d9ee70ff2e224bcd4e",
-          "excerpt": "The truce reached by Washington and Beijing last year in their escalating trade conflict, which has been extended until next January, lowered the heat between the two – putting an end to the escalation of tit-for-tat tariffs and opening a door to some as yet undefined future trad",
-          "sentence_hash": "90ceb7b29bdb0d0c1a6d18975c35be76174ad17c5127eb70620c0bb2d7a50d89",
+          "captured_at": "2026-11-03T08:03:32.381505+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "Ukraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.",
+          "sentence_hash": "35e1b4213558a2417c05674551d85ac8a8d4b2e510f57c09bbe79e7fec5ef4bc",
           "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Rather, they are both focused on gaining the upper hand in what seems like an inevitable next round, in a standoff that both sides have defined as a national security priority, essential to ensure economic, technological and military supremacy.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.861499+08:00",
-          "content_sha256": "09f7d4332bb8324e72a7902f0fc3b33a1d991d6e8e59a9d9ee70ff2e224bcd4e",
-          "excerpt": "Rather, they are both focused on gaining the upper hand in what seems like an inevitable next round, in a standoff that both sides have defined as a national security priority, essential to ensure economic, technological and military supremacy.",
-          "sentence_hash": "412da2689260e3e0777446f0a8878544ee09d332efd15a42108ef662cea8bacd",
-          "anchors": [
-            "ai",
             "and",
             "us"
           ]
         },
         {
-          "fact_id": "f5",
-          "text": "Rather than building weapons to blow each other up, China and the US are focusing on ensuring the resilience of the international supply chains on which they rely and figuring out how to constrain – and if push comes to shove, throttle – the supply chains essential to the economi",
+          "fact_id": "f4",
+          "text": "\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.861547+08:00",
-          "content_sha256": "09f7d4332bb8324e72a7902f0fc3b33a1d991d6e8e59a9d9ee70ff2e224bcd4e",
-          "excerpt": "Rather than building weapons to blow each other up, China and the US are focusing on ensuring the resilience of the international supply chains on which they rely and figuring out how to constrain – and if push comes to shove, throttle – the supply chains essential to the economi",
-          "sentence_hash": "3217724ea0283e613ec9935c146c42f1b2f8ff81031c39520c32b5de1cc77988",
+          "captured_at": "2026-11-03T08:03:32.381557+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.",
+          "sentence_hash": "ac2c675d003d3f1f0b23924187e12e56198cf8f7daef55b547b8bfae5bf51a87",
           "anchors": [
-            "ai",
             "and",
+            "us",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.381587+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "The Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".",
+          "sentence_hash": "309d76e8b6385acad798e8b1d926842f47aed7c9325096b5371c22a26085daeb",
+          "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The paired strategies go back at least to the Covid pandemic, when China’s Xi Jinping called on the nation to “tighten international production chains’ dependence on China, forming a powerful countermeasure and deterrent capability against foreigners who would artificially cut of",
+          "text": "\"It is a completely standard practice in such situations,\" he added.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.861592+08:00",
-          "content_sha256": "09f7d4332bb8324e72a7902f0fc3b33a1d991d6e8e59a9d9ee70ff2e224bcd4e",
-          "excerpt": "The paired strategies go back at least to the Covid pandemic, when China’s Xi Jinping called on the nation to “tighten international production chains’ dependence on China, forming a powerful countermeasure and deterrent capability against foreigners who would artificially cut of",
-          "sentence_hash": "a09ed490188922eab56b4268269469fd017d07f90c05ca4a0a038d79dc799a4e",
+          "captured_at": "2026-11-03T08:03:32.381605+08:00",
+          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
+          "excerpt": "\"It is a completely standard practice in such situations,\" he added.",
+          "sentence_hash": "4b762960a3a7deb5429b6471d50d873e6976468ac282837e0da203599fbc9a83",
           "anchors": [
-            "ai",
             "and"
           ]
         }
       ],
       "entities": [
-        "rather",
-        "under",
-        "and trump",
-        "federal reserve",
-        "donald trump",
-        "fears",
         "but",
-        "ai",
-        "american",
-        "restrictions",
-        "beijing",
+        "monday",
+        "ukraine russia",
+        "lubinets",
+        "first lady melania trump",
         "and",
-        "washington",
-        "jake sullivan",
-        "trump",
-        "biden",
-        "early",
-        "covid",
-        "january",
-        "xi jinping",
+        "dmytro lubinets",
+        "fighting",
+        "russian",
+        "melani",
+        "moscow",
+        "oleshky",
+        "there",
+        "yana lantratova",
+        "kremlin",
+        "on monday",
+        "published\nfighting",
+        "both lantratova",
+        "they",
+        "dmitry peskov",
+        "peskov",
+        "ukraine",
+        "the kremlin",
+        "both kyiv",
+        "general staff",
+        "russia",
+        "kherson",
         "us",
-        "china"
+        "ukrainian"
       ],
       "numbers": [],
       "dates": [],
@@ -750,164 +911,231 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 22
+        "anchor_count": 29
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_5e9888a55f65fe12dacf1b55",
-      "title": "Trump floats 'concept' of US-Canada deal that includes pipeline after conversation with Carney",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU2ZUM3VWU2twNlU5YnJfamYzWWJtaDV3bm5WTFZMNHpWWVdwSk1BY1REWjl2cEsweU5UQ3ZjbkZkWVlkNFZKZFRDb0tNUFJ0bXVBczAwdWNsV19uMFNCUnNWRHZ0T1NNQ1ZoV2lvY0piVFgzY1lJWnN4bWE0eU16cllQUW9WSGJKSUJQY3FGeDhqN2JJdmJnZkt1MjdXc1hscE1zdGxqQ1NIeFJsUVRvLUxjTlA?oc=5",
-      "publisher": "Reuters",
-      "summary": "Trump floats 'concept' of US-Canada deal that includes pipeline after conversation with Carney&nbsp;&nbsp;Reuters",
+      "article_id": "a1_b6a633d2b0e58b2f6fdef2e7",
+      "title": "Trump to remove Rwanda and South Africa from US trade deal",
+      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
       "category": "国际",
-      "published_at": "2026-11-01T22:44:26+00:00",
-      "why_relevant": "美加管道协议构想",
+      "published_at": "2026-11-02T19:33:10+00:00",
+      "why_relevant": "美国将卢旺达南非移出贸易协议",
       "relevance_score": 7.0,
-      "confirmed_facts": [],
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382542+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.",
+          "sentence_hash": "2bbfa12c36eb53dcf5b0c061787064d2251279e8482cabc9e69025ce4c02dcd3",
+          "anchors": [
+            "January 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The African Growth and Opportunity Act (Agoa) allows eligible African countries to export thousands of products to the US duty-free.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382572+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "The African Growth and Opportunity Act (Agoa) allows eligible African countries to export thousands of products to the US duty-free.",
+          "sentence_hash": "e7fdb6af9c3f60ce1eee4ea6155b09f7908f7233ea00438147792a88428a2df8",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The US Treasury said Rwanda's defence ministry directed thousands of troops to fight alongside M23 rebels in eastern DR Congo, providing weapons, equipment, logistics and training.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382629+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "The US Treasury said Rwanda's defence ministry directed thousands of troops to fight alongside M23 rebels in eastern DR Congo, providing weapons, equipment, logistics and training.",
+          "sentence_hash": "52ab01d111d342af65136c136c7ad9a929d59875bc9be44177f9a9f9420ef4cd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Last year, Trump accused South Africa of white genocide in a meeting with President Cyril Ramaphosa at the White House and launched a US refugee pathway for Afrikaners.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-03T08:03:32.382673+08:00",
+          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
+          "excerpt": "Last year, Trump accused South Africa of white genocide in a meeting with President Cyril Ramaphosa at the White House and launched a US refugee pathway for Afrikaners.",
+          "sentence_hash": "9d87616f1dbbcffbba6d7e40459fae9f8456521b556e5bc4732aeac0f474c3df",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
       "entities": [
+        "the trump",
+        "rwanda",
+        "south africa leo brent bozell",
+        "washington",
+        "opportunity act",
+        "trade representative jamieson greer",
+        "president donald trump",
+        "treasury",
+        "iii",
+        "south african",
+        "afrikaners",
+        "last",
+        "president cyril ramaphosa",
+        "agoa",
+        "in rwanda",
+        "for south africa",
+        "greer",
+        "january",
+        "ambassador",
+        "published",
+        "south africa",
+        "congo",
+        "white house",
+        "african",
+        "the african growth",
+        "congress",
         "us",
-        "reuters",
-        "carney",
-        "canada",
+        "dr",
         "trump"
       ],
       "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
+      "dates": [
+        "January 20"
       ],
+      "unknowns": [],
       "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 5
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 30
       },
-      "evidence_complete": false
+      "evidence_complete": true
     },
     {
-      "article_id": "a1_735bfec7c5a0fca7b9fd9ef0",
-      "title": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
+      "article_id": "a1_98e84c32128d775032459f80",
+      "title": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
       "publisher": "GitHub Trending",
-      "summary": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.http://arxiv.org/abs/2604.26962 \n  \n DeepTutor: Lifelong Personalized Tutoring \n  &nbsp;   \n  \n   \n    \n    \n    \n     \n   \n    \n    \n    \n     \n  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   \n      \n    \n Features · Get Started · Explore · CLI · Ecosystem · Community \n \n \n \n 🤝 We welcome any kinds of contributing! Vote on roadmap items or propose new ones at Roadmap, and see our Contributing Gui",
+      "summary": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.https://beenuar.github.io/AiSOC/ \n  \n AiSOC \n An open-source, self-hostable AI Security Operations Center. It ingests your security telemetry, detects and correlates threats, investigates them with AI agents whose reasoning is fully audit",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "个性化辅导系统，教育AI新方向",
+      "why_relevant": "开源AI安全运营中心值得关注",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Vote on roadmap items or propose new ones at Roadmap, and see our Contributing Guide for branching strategy, coding standards, and how to get started.",
+          "text": "Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.863229+08:00",
-          "content_sha256": "1830e01d73f628a6e971f5ad2868cd59caa5a769ae5efa595e25b00c19f60e31",
-          "excerpt": "Vote on roadmap items or propose new ones at Roadmap, and see our Contributing Guide for branching strategy, coding standards, and how to get started.",
-          "sentence_hash": "3a7062e2bdb3c79d9cf3acadece0d27779e026133db358a547fb1a8e76dc133c",
+          "captured_at": "2026-11-03T08:03:32.383977+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.",
+          "sentence_hash": "3a5dbfeeb5d53309f736bf493de2463320ad7314730ecacc24234f3eb61f0f8a",
           "anchors": [
-            "ui",
-            "roadmap"
+            "all"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "[2026.10.28] v1.7.0 — Modular installation, a refreshed learning workspace, block notebooks with Dito, narrated video lessons, resumable embedding checkpoints, and more reliable tutoring.",
+          "text": "AiSOC normalizes it, runs the 2538 executable rules of its 7023-rule library, groups what fires into incidents, investigates each one with an AI agent whose every prompt and tool call is recorded, and proposes an action.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.863279+08:00",
-          "content_sha256": "1830e01d73f628a6e971f5ad2868cd59caa5a769ae5efa595e25b00c19f60e31",
-          "excerpt": "[2026.10.28] v1.7.0 — Modular installation, a refreshed learning workspace, block notebooks with Dito, narrated video lessons, resumable embedding checkpoints, and more reliable tutoring.",
-          "sentence_hash": "19b60354681ea815662918ffa591f9acc1d9a9f9b25f5acccc111eddfeb113d8",
+          "captured_at": "2026-11-03T08:03:32.384016+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "AiSOC normalizes it, runs the 2538 executable rules of its 7023-rule library, groups what fires into incidents, investigates each one with an AI agent whose every prompt and tool call is recorded, and proposes an action.",
+          "sentence_hash": "7217e3bf27ddd4a0bb3341280f6bf30f566b18248cbe914eedd67423e671c5b8",
           "anchors": [
-            "book",
-            "workspace"
+            "all"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Past releases (more than 1 week ago) [2026.10.19] v1.6.15 — Reviewed learning-path changes, grouped assessments, bounded tutoring memory, reliable chat recovery, sturdier parsing, retrieval comparisons, and native Gemini speech.",
+          "text": "Watch the full three minutes — install to AI verdict on one server against the published images, terminal waits shortened and the recording saying so on screen.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.863318+08:00",
-          "content_sha256": "1830e01d73f628a6e971f5ad2868cd59caa5a769ae5efa595e25b00c19f60e31",
-          "excerpt": "Past releases (more than 1 week ago) [2026.10.19] v1.6.15 — Reviewed learning-path changes, grouped assessments, bounded tutoring memory, reliable chat recovery, sturdier parsing, retrieval comparisons, and native Gemini speech.",
-          "sentence_hash": "8ff97a97de1b501fdc57c6c81d71fbde1aebe8535157d0ce50ee8cd3f356e140",
+          "captured_at": "2026-11-03T08:03:32.384054+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "Watch the full three minutes — install to AI verdict on one server against the published images, terminal waits shortened and the recording saying so on screen.",
+          "sentence_hash": "831dff59bfe2e121eedeb20c10d435ee76d367bbeeece72f974d315bc32775c9",
           "anchors": [
-            "chat"
+            "all",
+            "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "[2026.10.4] v1.6.13 — Reading and listening improvements, question-bank practice, resilient document parsing, configurable speech, workspace-visible attachments, Polish, and new providers.",
+          "text": "(step by step · what is real) git clone https://github.com/beenuar/AiSOC && cd AiSOC make up On Windows, or on a machine with nothing installed yet, one line does the prerequisites too: iwr -useb https://raw.githubusercontent.com/beenuar/AiSOC/main/install.ps1 | iex (curl -fsSL h",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.863364+08:00",
-          "content_sha256": "1830e01d73f628a6e971f5ad2868cd59caa5a769ae5efa595e25b00c19f60e31",
-          "excerpt": "[2026.10.4] v1.6.13 — Reading and listening improvements, question-bank practice, resilient document parsing, configurable speech, workspace-visible attachments, Polish, and new providers.",
-          "sentence_hash": "4d22b0902e7f0596c5fd7b66b380a014abe3f291b6b0d9cc3ce44eeb31b2834b",
+          "captured_at": "2026-11-03T08:03:32.384100+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "(step by step · what is real) git clone https://github.com/beenuar/AiSOC && cd AiSOC make up On Windows, or on a machine with nothing installed yet, one line does the prerequisites too: iwr -useb https://raw.githubusercontent.com/beenuar/AiSOC/main/install.ps1 | iex (curl -fsSL h",
+          "sentence_hash": "bc002789567b0df7d7686399ae3fd8d9c669c71fb087bfb1cef9ccd52f711196",
           "anchors": [
-            "workspace"
+            "all",
+            "ai",
+            "git"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "[2026.9.27] v1.6.12 — Workspace KB moves, Kiwix archives, source figures, Task Board, German UI, and chat recovery.",
+          "text": "Without Docker at all, pip install aisoc-sandbox && aisoc-sandbox demo walks one alert through the agent funnel offline in under 30 seconds.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.863390+08:00",
-          "content_sha256": "1830e01d73f628a6e971f5ad2868cd59caa5a769ae5efa595e25b00c19f60e31",
-          "excerpt": "[2026.9.27] v1.6.12 — Workspace KB moves, Kiwix archives, source figures, Task Board, German UI, and chat recovery.",
-          "sentence_hash": "5596877a4de652083325c20a7a62c61d498e056fa212d2ba35be7de1bb7a9c13",
+          "captured_at": "2026-11-03T08:03:32.384127+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "Without Docker at all, pip install aisoc-sandbox && aisoc-sandbox demo walks one alert through the agent funnel offline in under 30 seconds.",
+          "sentence_hash": "bdf6ed48f08b93b8bf52f051b522e7246eb3c34dc177c5bab56b08eb49c6a070",
           "anchors": [
-            "chat"
+            "all",
+            "ai"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "[2026.9.24] v1.6.11 — French and Ukrainian interfaces, reading folders with in-chat selection actions, figures sent to vision models, paged Office previews, and self-syncing knowledge bases.",
+          "text": "All four end at the same console; only the first three install anything.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.863423+08:00",
-          "content_sha256": "1830e01d73f628a6e971f5ad2868cd59caa5a769ae5efa595e25b00c19f60e31",
-          "excerpt": "[2026.9.24] v1.6.11 — French and Ukrainian interfaces, reading folders with in-chat selection actions, figures sent to vision models, paged Office previews, and self-syncing knowledge bases.",
-          "sentence_hash": "9b7e27fce6e89ff43e192f7467bdedb108ee6226f4443cce039365e80dc54753",
+          "captured_at": "2026-11-03T08:03:32.384150+08:00",
+          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
+          "excerpt": "All four end at the same console; only the first three install anything.",
+          "sentence_hash": "d3415351990bbe49801888b21711f847c5bf12dd3eef894963b52ec6101b0c83",
           "anchors": [
-            "chat",
-            "folder",
-            "reading"
+            "all"
           ]
         }
       ],
       "entities": [
-        "codex",
-        "faster",
-        "task board",
-        "dito",
-        "roadmap",
-        "kiwix",
-        "office",
-        "ukrainian",
-        "contributing guide",
-        "settings",
-        "reviewed",
-        "book",
-        "native light",
-        "chat",
-        "mastery",
-        "ui",
-        "vote",
-        "french",
-        "german",
-        "pdf",
-        "workspace",
-        "original",
-        "reading",
-        "desktop",
-        "anki",
-        "mastery path",
-        "kb",
-        "folder",
-        "modular",
-        "gemini",
-        "polish",
+        "vm",
+        "architecture",
+        "watch",
+        "api",
+        "linux",
+        "args",
         "docker",
-        "past"
+        "docs",
+        "rest",
+        "needs docker compose",
+        "discussions\ntelemetry",
+        "mcp",
+        "without docker",
+        "pdf",
+        "the technical guide",
+        "lost",
+        "security operations center",
+        "ai",
+        "without",
+        "installation",
+        "gb",
+        "technical guide",
+        "on windows",
+        "hub codespaces",
+        "kafka",
+        "all",
+        "git",
+        "then"
       ],
       "numbers": [],
       "dates": [],
@@ -918,262 +1146,145 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 33
+        "anchor_count": 28
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_31de4b54509fc7417476fac0",
-      "title": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "publisher": "GitHub Trending",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory.https://aihero.dev/skills  \n   \n    \n    \n    \n     \nSkills For Real Engineers \n \nMy agent skills that I use every day to do real engineering - not vibe coding. \nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. \nThese skills are designed to be small, easy to adapt, and composable",
+      "article_id": "a1_f640cbfc604521b4afff93bb",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "publisher": "Hacker News",
+      "summary": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs.Here’s a demo: https://youtu.be/BFsM-Se1Fh8We’re both software engineers that spent our careers on dev tooling and infra across companies like Robinhood, Retool, WeWork, and Qualtrics. Testing was always a pain in the ass (esp Playwright and Selenium), so we built agents to do it for us.Modern day",
       "category": "科技",
-      "published_at": "",
-      "why_relevant": "实战工程智能体技能集",
+      "published_at": "2026-11-02T17:05:25+00:00",
+      "why_relevant": "QA智能体自动抓bug概念新颖",
       "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "But while doing so, they take away your control and make bugs in the process hard to resolve.",
+          "text": "New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.864525+08:00",
-          "content_sha256": "3533c529e1da02cb2164af2f0edfc0b64e268cb0b6c1d7444b68b4c8a20b2690",
-          "excerpt": "But while doing so, they take away your control and make bugs in the process hard to resolve.",
-          "sentence_hash": "51c4cd95a0a3f05f7ef8b4e61ae7daa23127b07535ad714d3c82bdf17cf8968a",
+          "captured_at": "2026-11-03T08:03:32.385431+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.",
+          "sentence_hash": "87678c5388b97374f390c0412b7bf1ca6265a716220bdfe78f2cb9211fe11776",
           "anchors": [
-            "you",
-            "they",
-            "make"
+            "verification"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "They work with any model.",
+          "text": "Mo is an AI QA engineer that tests your app end to end.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.864549+08:00",
-          "content_sha256": "3533c529e1da02cb2164af2f0edfc0b64e268cb0b6c1d7444b68b4c8a20b2690",
-          "excerpt": "They work with any model.",
-          "sentence_hash": "95e990c447a94191a88bb445b84d86e5da7c423a040afa3062afaf36c53c09cd",
+          "captured_at": "2026-11-03T08:03:32.385461+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Mo is an AI QA engineer that tests your app end to end.",
+          "sentence_hash": "b96d2a254cbd8f2af5b1f89ff71dd25509550f32887c00641dbc1de1190c8587",
           "anchors": [
-            "any"
+            "end",
+            "test"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Make them your own.",
+          "text": "Trusted by leading engineering teams.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.864571+08:00",
-          "content_sha256": "3533c529e1da02cb2164af2f0edfc0b64e268cb0b6c1d7444b68b4c8a20b2690",
-          "excerpt": "Make them your own.",
-          "sentence_hash": "8702ca8d60e71ab5b423b3467adf1ac57291ced58480d0002efafc0efe7b6697",
+          "captured_at": "2026-11-03T08:03:32.385483+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Trusted by leading engineering teams.",
+          "sentence_hash": "09c2c3dcbb0a9670fe0bfe8cfda95c4dd730c6d483803bae614f9defd27e0f55",
           "anchors": [
-            "you"
+            "engineering"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: A plugin updates itself.",
+          "text": "Verification has to keep up.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.864606+08:00",
-          "content_sha256": "3533c529e1da02cb2164af2f0edfc0b64e268cb0b6c1d7444b68b4c8a20b2690",
-          "excerpt": "If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: A plugin updates itself.",
-          "sentence_hash": "d1980b8c16fbc077a75ada2ae356fa1a93e2809dc800c7d9dd5c7fae3bbc5052",
+          "captured_at": "2026-11-03T08:03:32.385507+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Verification has to keep up.",
+          "sentence_hash": "0c3138cc479ab05f84307fb0822f8ecd195ecc9e56af576372ef9d8e8d029f7d",
           "anchors": [
-            "vs",
-            "updates",
-            "update",
-            "these",
-            "any",
-            "you"
+            "keep"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "skills.sh copies editable files into your project, and you update them by hand.",
+          "text": "Coding agents have made it dramatically faster to build software.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.864628+08:00",
-          "content_sha256": "3533c529e1da02cb2164af2f0edfc0b64e268cb0b6c1d7444b68b4c8a20b2690",
-          "excerpt": "skills.sh copies editable files into your project, and you update them by hand.",
-          "sentence_hash": "9cc9513601e9f5f9f725d89569a7c40155a70464ba019628aadad25cb4f1cac0",
+          "captured_at": "2026-11-03T08:03:32.385546+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Coding agents have made it dramatically faster to build software.",
+          "sentence_hash": "ebd478fac8a6ed83b5e8f6a4d9d843cb07378365bb4842872d468fa67a244a4a",
           "anchors": [
-            "update",
-            "you"
+            "agents",
+            "ui"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Pick one per agent, because installing both gives you every skill twice.",
+          "text": "Agents need evidence from the app itself to verify that their changes deliver the intended behavior.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.864648+08:00",
-          "content_sha256": "3533c529e1da02cb2164af2f0edfc0b64e268cb0b6c1d7444b68b4c8a20b2690",
-          "excerpt": "Pick one per agent, because installing both gives you every skill twice.",
-          "sentence_hash": "011f9537c84744881befc7b3203ee62ebe2c2d9f337d0f6f9bdd2bcd594241fc",
+          "captured_at": "2026-11-03T08:03:32.385578+08:00",
+          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
+          "excerpt": "Agents need evidence from the app itself to verify that their changes deliver the intended behavior.",
+          "sentence_hash": "86d7d169e1cf9b0c294cf116d294061cd84e5791b4bfacad783d19403011f87e",
           "anchors": [
-            "you"
+            "end",
+            "verify"
           ]
         }
       ],
       "entities": [
-        "codex",
-        "kit",
+        "reuse",
+        "get",
+        "describe",
+        "verify",
+        "knowledge",
+        "agents",
+        "poe",
+        "explore\nwrite",
+        "type",
         "cli",
-        "updates",
+        "apply",
+        "ci",
+        "service",
+        "ui",
         "code",
-        "there",
-        "enjoy",
-        "bmad",
-        "but",
-        "gsd",
-        "hub copilot",
+        "trusted",
+        "loved",
+        "english",
+        "maps",
+        "end",
+        "engineering",
+        "review",
+        "run",
+        "sso",
+        "trust center",
+        "qa",
+        "compliance",
+        "momentic",
+        "see",
+        "use",
+        "place order",
+        "independently",
         "ai",
-        "ask",
-        "you",
-        "chat",
-        "vs",
-        "the pragmatic programmer\nthe problem",
-        "git",
-        "make",
-        "david thomas",
-        "approaches",
-        "they",
-        "then",
-        "spec",
-        "andrew hunt",
-        "update",
-        "install plugin from source",
-        "any",
-        "hack",
-        "claude code",
-        "known",
-        "pick",
-        "lab",
-        "hub",
-        "these",
-        "gemini",
-        "marketplaces",
-        "developing"
+        "give",
+        "permanent",
+        "write",
+        "coding",
+        "yaml",
+        "verification",
+        "keep",
+        "soc",
+        "test",
+        "finish"
       ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
+      "numbers": [
+        "100%"
       ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 38
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_873945f343e6515d0252ef07",
-      "title": "Why governors’ races are important in the 2026 US midterms",
-      "url": "https://www.aljazeera.com/news/2026/11/1/why-governors-races-are-important-in-the-2026-us-midterms?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Historic turnover in this election will allow dozens of states to vote on significant changes in leadership.",
-      "category": "国际",
-      "published_at": "2026-11-01T23:24:56+00:00",
-      "why_relevant": "州长选举主导中期格局",
-      "relevance_score": 6.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Why governors’ races are important in the 2026 US midterms Historic turnover in this election will allow dozens of states to vote on significant changes in leadership.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.865943+08:00",
-          "content_sha256": "918c8fa3f72e85b7a9fe8276a4cde412eb3ea239cb0f4ca3d9d3234002773eb4",
-          "excerpt": "Why governors’ races are important in the 2026 US midterms Historic turnover in this election will allow dozens of states to vote on significant changes in leadership.",
-          "sentence_hash": "46fae0af97252614dbf82e52bb57a2f10d200408ae695019a42217a68135b192",
-          "anchors": [
-            "governors"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "But key state-level races are also unfolding, with far-reaching consequences for the country’s future.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.865977+08:00",
-          "content_sha256": "918c8fa3f72e85b7a9fe8276a4cde412eb3ea239cb0f4ca3d9d3234002773eb4",
-          "excerpt": "But key state-level races are also unfolding, with far-reaching consequences for the country’s future.",
-          "sentence_hash": "efca9a69046577639116c27c326ab8fd38cd879d364fe51371da214948649917",
-          "anchors": [
-            "each"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "This year, 36 US states will vote for their next governor, the most powerful elected official in state government.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.866001+08:00",
-          "content_sha256": "918c8fa3f72e85b7a9fe8276a4cde412eb3ea239cb0f4ca3d9d3234002773eb4",
-          "excerpt": "This year, 36 US states will vote for their next governor, the most powerful elected official in state government.",
-          "sentence_hash": "4f99fba449fdd1502a6ca02d041263ee257b368866ac92e6d088ffd78a860bfc",
-          "anchors": [
-            "their"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "An unusually high proportion of those races centre on open seats, with no incumbent governor on the ballot seeking re-election.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.866026+08:00",
-          "content_sha256": "918c8fa3f72e85b7a9fe8276a4cde412eb3ea239cb0f4ca3d9d3234002773eb4",
-          "excerpt": "An unusually high proportion of those races centre on open seats, with no incumbent governor on the ballot seeking re-election.",
-          "sentence_hash": "bf3958b4473a8162b9836d4b20de1c959f863a3d3ce5f1585f4b42136413486c",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This historic turnover creates the potential for several states to take on significant changes in leadership.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.866051+08:00",
-          "content_sha256": "918c8fa3f72e85b7a9fe8276a4cde412eb3ea239cb0f4ca3d9d3234002773eb4",
-          "excerpt": "This historic turnover creates the potential for several states to take on significant changes in leadership.",
-          "sentence_hash": "c0e583ee0d77ac1fbe10e9d82d689e17a02fb8dba661a98412e3afd7857d04e8",
-          "anchors": [
-            "historic"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Here’s why these races matter: A state’s chief executive Governors serve as the chief executives of their states, overseeing government departments and agencies responsible for delivering public services.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-02T08:03:35.866084+08:00",
-          "content_sha256": "918c8fa3f72e85b7a9fe8276a4cde412eb3ea239cb0f4ca3d9d3234002773eb4",
-          "excerpt": "Here’s why these races matter: A state’s chief executive Governors serve as the chief executives of their states, overseeing government departments and agencies responsible for delivering public services.",
-          "sentence_hash": "378d67c04619d8c2c53b5c82ae8092bf5d0d040ed62087c2398d72c00a861ae2",
-          "anchors": [
-            "their"
-          ]
-        }
-      ],
-      "entities": [
-        "their",
-        "california democrat gavin newsom",
-        "but",
-        "tuesday",
-        "much",
-        "washington",
-        "challenging",
-        "united states congress",
-        "governors",
-        "supreme court",
-        "here",
-        "north carolina",
-        "guttmacher institute",
-        "one",
-        "historic",
-        "they",
-        "iowa republican kim reynolds",
-        "since",
-        "each",
-        "us"
-      ],
-      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -1182,7 +1293,7 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 20
+        "anchor_count": 44
       },
       "evidence_complete": true
     }
