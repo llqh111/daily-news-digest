@@ -1,67 +1,303 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-11-03-AM",
-  "date": "2026-11-03",
+  "run_key": "2026-11-04-AM",
+  "date": "2026-11-04",
   "session": "AM",
-  "delivered_at": "2026-11-03T08:08:22.074704+08:00",
+  "delivered_at": "2026-11-04T08:06:44.687900+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-11-03T00:08:22.076381+00:00",
+  "exported_at": "2026-11-04T00:06:44.689265+00:00",
   "quality": {
     "total_items": 13,
-    "items_with_unsupported_numbers": 3,
-    "unsupported_ratio": 0.23076923076923078
+    "items_with_unsupported_numbers": 5,
+    "unsupported_ratio": 0.38461538461538464
   },
   "items": [
     {
-      "article_id": "a1_2ad642d3e34d22465c813d09",
-      "title": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373046/netanyahu-pressing-trump-attack-iran-after-us-midterm-elections-officials-say",
+      "article_id": "a1_2ccd3978f877c3bb2e49e958",
+      "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
       "publisher": "SCMP",
-      "summary": "Israeli Prime Minister Benjamin Netanyahu is pushing for another wave of strikes on Iran after Tuesday’s midterm elections in the United States, according to two regional officials and a third person familiar with the matter.\nA return to full-scale war with Iran could help Netanyahu to form an emergency government after he and his far-right allies lost their parliamentary majority in last week’s elections. US President Donald Trump has alternated between threatening major strikes while pushing..",
+      "summary": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware. The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.\nJapan mobilised its new Type 25 missile, with a reported 1,000km range, from Kumamoto for the system’s...",
       "category": "国际",
-      "published_at": "2026-11-02T22:16:52+00:00",
-      "why_relevant": "内塔尼亚胡施压袭伊朗",
+      "published_at": "2026-11-03T21:30:06+00:00",
+      "why_relevant": "印太战略布局，中国周边地缘核心",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
+          "text": "Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.372916+08:00",
-          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
-          "excerpt": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
-          "sentence_hash": "653efb3cab2071e3a5f892af417c4ff807c9e2587a09c04004c5677bd85b2c64",
+          "captured_at": "2026-11-04T08:03:18.421885+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director",
+          "sentence_hash": "61eefaca6713e344b9f310dc459a44dc95cd709dee975d41dfc4a49a22918965",
           "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
+          "text": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.372956+08:00",
-          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
-          "excerpt": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
-          "sentence_hash": "4fab70183f8c8c2062850425298d6445471aeb54e3b13438dd5f520788d5b4fc",
+          "captured_at": "2026-11-04T08:03:18.421926+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware.",
+          "sentence_hash": "43eafb84a088be53f861242fc08511d413665a5d60dfe7ede99d2024580be595",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.421960+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.",
+          "sentence_hash": "00ead991819a9c9771db4a93704fb8a1ff9a35c2b0df5ab4e7b8424c513aa027",
+          "anchors": [
+            "just",
+            "us",
+            "October 29"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "In early August, Japanese Defence Minister Shinjiro Koizumi swung through Canberra and New Delhi, signing a hypersonic missile-testing agreement with Australia and a dedicated maritime security memorandum with India.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.422013+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "In early August, Japanese Defence Minister Shinjiro Koizumi swung through Canberra and New Delhi, signing a hypersonic missile-testing agreement with Australia and a dedicated maritime security memorandum with India.",
+          "sentence_hash": "89ed1227ed5ad6a4ca558e7006316736abd3098a5183e9e10453831fac8803ae",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They are building blocks of an autonomous Indo-Pacific network Tokyo is constructing as Washington’s attention fractures between its war with Iran, alliance disputes and domestic politics.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.422044+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "They are building blocks of an autonomous Indo-Pacific network Tokyo is constructing as Washington’s attention fractures between its war with Iran, alliance disputes and domestic politics.",
+          "sentence_hash": "9b6bcbbea8311014179fdae83fa8189efbd2a9e8bb47e570cc9c9f9db4e05370",
           "anchors": [
             "us"
           ]
         }
       ],
       "entities": [
-        "hormuz",
-        "united states",
-        "president donald trump",
-        "iranian",
-        "netanyahu",
-        "tuesday",
-        "strait",
-        "iran",
-        "qatari",
+        "joint operations command",
+        "japanese defence minister shinjiro koizumi",
+        "institute",
+        "world war",
+        "white house",
+        "kumamoto",
+        "madis",
+        "china",
+        "august",
+        "type",
+        "japan",
+        "india",
+        "alberta",
+        "diplomacy",
+        "pacific",
+        "university",
+        "just",
+        "advertisement\nopinion\nchina",
+        "listen\nwenran jiang",
+        "min",
+        "japanese",
+        "chinese president xi jinping",
+        "marine",
+        "nmesis",
+        "mactaggart research chair emeritus",
+        "canberra",
+        "washington",
+        "october",
         "us",
-        "israeli prime minister benjamin netanyahu",
-        "trump"
+        "ii",
+        "keen sword",
+        "china institute",
+        "new delhi",
+        "peace",
+        "indo",
+        "they",
+        "tokyo",
+        "yonaguni",
+        "iran",
+        "president donald trump",
+        "australia",
+        "taiwan"
+      ],
+      "numbers": [],
+      "dates": [
+        "October 29"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 43
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_dfeb2468173f13dcd28439d4",
+      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
+      "category": "国际",
+      "published_at": "2026-11-03T16:19:29+00:00",
+      "why_relevant": "币圈$6.3B攻击手法，安全逆向必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423158+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
+          "sentence_hash": "9aa4cf444e6344db01b51d54ed62c440e9b13b939bcd5d4cc205fdd1a10cd595",
+          "anchors": [
+            "$6.3",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423182+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
+          "sentence_hash": "691afc8165caa4859d2e8ce4dfc77f0f1be207ec65dcba488dc20ca5d273628c",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423204+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
+          "sentence_hash": "daabdb1ecbd9ce7c5923d0f552476d1a5c1720b1c041b9116fe7f07c6cb8060a",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423223+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
+          "sentence_hash": "398aa28adea8fda495bcc96cd960781c4301397d2e9377d9ff076fe788d512b9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In a post on X, external, Binance said hackers targeted its engineers using social engineering techniques.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423238+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "In a post on X, external, Binance said hackers targeted its engineers using social engineering techniques.",
+          "sentence_hash": "16ed3609a10776857150494d18fe7a74828990f687200bcf4542976415e262f7",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "These see hackers use approaches such as phishing to trick people into parting with sensitive or personal details, that can then be used to try and access their accounts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423258+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "These see hackers use approaches such as phishing to trick people into parting with sensitive or personal details, that can then be used to try and access their accounts.",
+          "sentence_hash": "f1cc20b054a0664af07ad63beb81ca05b053a4f3e371ce1b49c287bdb9866df7",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "north korea",
+        "customers",
+        "october",
+        "federal bureau",
+        "us",
+        "initial",
+        "saturday",
+        "ai",
+        "secret service",
+        "these",
+        "fbi",
+        "binance",
+        "sunday",
+        "published\nhackers",
+        "investigation"
+      ],
+      "numbers": [
+        "$6.3",
+        "98%",
+        "100%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 18
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_8f66a4ed7af89826d3aa766d",
+      "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
+      "url": "https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions",
+      "publisher": "The Verge",
+      "summary": "In a new post today, Valve acknowledged that it's seen \"a significant increase in submissions for store and page review in recent months\" and says it's \"running a little behind\" by taking \"up to 12 business days\" for reviews instead of the typical 3-5 days. Indie developers have recently expressed frustrations over lengthy approval times [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-03T22:15:33+00:00",
+      "why_relevant": "Steam提交审核变动，硬核玩家必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423808+08:00",
+          "content_sha256": "f160a9688e1591a0dc8aa6bcbf663305816b241127a30651ba9a2af73388059c",
+          "excerpt": "“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir",
+          "sentence_hash": "dede6197701087df259ff8c504b6b061f192a5ffb777bc0a2677721d45bb0c04",
+          "anchors": [
+            "direct"
+          ]
+        }
+      ],
+      "entities": [
+        "visual",
+        "indie",
+        "other",
+        "direct",
+        "believe",
+        "steam",
+        "valve"
       ],
       "numbers": [],
       "dates": [],
@@ -71,164 +307,664 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 12
+        "fact_count": 1,
+        "anchor_count": 7
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_9e502d4d2d88f7b75b90d8c3",
-      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
-      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Hit hard by Trump&#039;s tariffs and the war on Iran, countries in the Asia-Pacific want &#039;enormous changes&#039; in US policies.",
-      "category": "国际",
-      "published_at": "2026-11-02T23:41:18+00:00",
-      "why_relevant": "美中期选举对亚太影响",
-      "relevance_score": 8.0,
+      "article_id": "a1_66df62ef274106fb19515606",
+      "title": "China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs",
+      "url": "https://wccftech.com/china-going-for-domestic-full-stack-ai-dominance-deepseek-will-train-its-upcoming-v5-model-from-scratch-on-huaweis-ascend-950dt-based-atlas-superpods/",
+      "publisher": "Wccftech",
+      "summary": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability. To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model. If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by th",
+      "category": "科技",
+      "published_at": "2026-11-03T15:36:40+00:00",
+      "why_relevant": "DeepSeek+华为昇腾，国产AI关键动态",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
+          "text": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374410+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
-          "sentence_hash": "012b540a3c2fb08f51ece7fd57c60eefe14998988bf3f3ca94b74825836ebb92",
+          "captured_at": "2026-11-04T08:03:18.424741+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.",
+          "sentence_hash": "eed0d6a7fe63d1b05a80cacabc8241de3d24f843502f2ddc76f6c6bcfe4d2ca0",
           "anchors": [
-            "war",
-            "us",
-            "tariffs"
+            "ai",
+            "for"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
+          "text": "To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374465+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
-          "sentence_hash": "f23993d1f8006cbab4ed95c252ab554b7c91106ba6687342e5e225c8ffa7bcfc",
+          "captured_at": "2026-11-04T08:03:18.424767+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model.",
+          "sentence_hash": "8c4f84ef905feec1beb93aede1c04fb16e19c83365719a0add4b612bc0313750",
           "anchors": [
-            "war",
+            "ai",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by the CUDA-like 'TileLang' kernel compiler.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.424790+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by the CUDA-like 'TileLang' kernel compiler.",
+          "sentence_hash": "700abe8c2501eaff7ac2e31b36f89b563c0574379421ab6c0a277121603ee304",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "DeepSeek has ordered around 160,000 Huawei Ascend 950DT chips, with deliveries slated to ramp up in Q4 2026 According to reputable tipsters such as Jukan and Teortaxes on X, DeepSeek intends to train its ~8-trillion-parameter V5 model on Huawei's Ascend chips.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.424819+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "DeepSeek has ordered around 160,000 Huawei Ascend 950DT chips, with deliveries slated to ramp up in Q4 2026 According to reputable tipsters such as Jukan and Teortaxes on X, DeepSeek intends to train its ~8-trillion-parameter V5 model on Huawei's Ascend chips.",
+          "sentence_hash": "1246878b7599075d715eeceb0c77cb8f551a04c4eb7751b56ea7f0f423f1de60",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Do note that the street price of each Ascend 950DT chip currently hovers at around 111,000 Yuan or ~$16,000 (vs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.424847+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "Do note that the street price of each Ascend 950DT chip currently hovers at around 111,000 Yuan or ~$16,000 (vs.",
+          "sentence_hash": "799483142d4d3b377b4be9da3d00af8ba130b563b0dc09fa467b8b8faa44b139",
+          "anchors": [
+            "$16,000 "
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "$15,000 to $25,000 for NVIDIA's H20 GPU), and DeepSeek's total order might amount to as much as ~$2.56 billion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.424866+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "$15,000 to $25,000 for NVIDIA's H20 GPU), and DeepSeek's total order might amount to as much as ~$2.56 billion.",
+          "sentence_hash": "aeba14bd0774614d00a7b32baebeff57448d777a09feac3ba69bb1b18f9ab2e9",
+          "anchors": [
+            "$2.56 billion",
+            "$15,000 ",
+            "for",
+            "2.56 billion",
+            "$25,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "ascend",
+        "nvidia",
+        "vinci",
+        "after",
+        "huawei ascend",
+        "but",
+        "according",
+        "smic",
+        "china",
+        "high bandwidth memory",
+        "huawei",
+        "yuan",
+        "seek",
+        "gemm",
+        "hbm",
+        "supernodes",
+        "tile",
+        "lang",
+        "select",
+        "deep",
+        "gpu",
+        "mla",
+        "eflops",
+        "super",
+        "kernels",
+        "atlas",
+        "mongolia",
+        "flash",
+        "top",
+        "gb",
+        "for",
+        "teortaxes",
+        "ai",
+        "tb",
+        "jukan",
+        "cuda"
+      ],
+      "numbers": [
+        "$2.56 billion",
+        "$15,000 ",
+        "2.56 billion",
+        "$25,000 ",
+        "$16,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_28d27c5c06788b874951f240",
+      "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+      "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+      "publisher": "The Verge",
+      "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-03T22:04:02+00:00",
+      "why_relevant": "币圈最大盗窃案，安全+金融必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425806+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.",
+          "sentence_hash": "85611cff2a4dbccdb1f69c0203e3dc71a3ad065e6de589d510851534c5e8a7b5",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview ass",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425839+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview ass",
+          "sentence_hash": "3d141f072c6463e283e306415e0d869fb95227b646a5849600fc24f4aa7ddf8e",
+          "anchors": [
+            "multi"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist A North Korean hacking unit reportedly started its break-in with a search engine ad that served up a malware download.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425867+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist A North Korean hacking unit reportedly started its break-in with a search engine ad that served up a malware download.",
+          "sentence_hash": "fbf64782f4e7b172e97bc9d2e70911fb28a20cadbb58cfbc8e7edd049c3e8757",
+          "anchors": [
+            "$6.3 billion",
+            "6.3 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Binance claims that its security teams did detect the first installation of malware in June, and replaced the worker’s device, but that its security tools didn’t detect the second attack that deleted the pyenv executable and replaced it with a malicious version that gave them bac",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425906+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "Binance claims that its security teams did detect the first installation of malware in June, and replaced the worker’s device, but that its security tools didn’t detect the second attack that deleted the pyenv executable and replaced it with a malicious version that gave them bac",
+          "sentence_hash": "6ec2406730fb91fd3d650f14125cc762935f98a416b7cd43005d876c73072a63",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "By October 20th, the story goes, the attackers, whom the FBI has identified as a North Korean unit dubbed “TraderTraitor,” used Binance’s own internal AI tool to gain control over wallets for the first engineer compromised in June, as well as a third employee, before logging into",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425951+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "By October 20th, the story goes, the attackers, whom the FBI has identified as a North Korean unit dubbed “TraderTraitor,” used Binance’s own internal AI tool to gain control over wallets for the first engineer compromised in June, as well as a third employee, before logging into",
+          "sentence_hash": "e99e58f416478c4a436b57ca689e60ab3fac3077230921c678702742a1ee9985",
+          "anchors": [
+            "ai",
+            "October 20",
+            "October 29"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The postmortem also goes into why Binance wasn’t able to stop the transactions that occurred nearly two hours after the first unauthorized transfers, saying that “Because the hot wallet used Multi-Party Computation (MPC), there was no single private key that could be used to imme",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425992+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "The postmortem also goes into why Binance wasn’t able to stop the transactions that occurred nearly two hours after the first unauthorized transfers, saying that “Because the hot wallet used Multi-Party Computation (MPC), there was no single private key that could be used to imme",
+          "sentence_hash": "ac8455e85a26682bbacbd11c950cace2ff9c02e037d032ff8e321266e23382f5",
+          "anchors": [
+            "98%",
+            "2.85 billion",
+            "ai",
+            "2%",
+            "$2.85 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "north korea",
+        "october",
+        "june",
+        "north korean",
+        "traitor",
+        "trader",
+        "by october",
+        "google",
+        "fbi",
+        "binance",
+        "party computation",
+        "september",
+        "eip",
+        "mpc",
+        "withdrawals",
+        "ai",
+        "ceo",
+        "then",
+        "because",
+        "multi",
+        "richard teng"
+      ],
+      "numbers": [
+        "98%",
+        "2.85 billion",
+        "$6.3 billion",
+        "2%",
+        "6.3 billion",
+        "$2.85 billion"
+      ],
+      "dates": [
+        "October 20",
+        "October 29"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_bc7b9d19cc0a8f81a71f6aa0",
+      "title": "US midterm election results live: Polls start closing in some states",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-election-results-live-polls-to-start-closing-in-some-states?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Polls to start closing in waves across the country, with the earliest closures at 23:00 GMT in Indiana and Kentucky.",
+      "category": "国际",
+      "published_at": "2026-11-03T22:30:00+00:00",
+      "why_relevant": "美国中期选举开票，宏观市场核心",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live updatesLive updates, US midterm election results live: Polls start closing in some states Polls to start closing in waves across the country, with the earliest closures at 23:00 GMT in Indiana and Kentucky.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.426308+08:00",
+          "content_sha256": "36ba3ed1511fd54783957bfc84c6bf09ff468c84ec1767ef099349390d9eb4c8",
+          "excerpt": "Live updatesLive updates, US midterm election results live: Polls start closing in some states Polls to start closing in waves across the country, with the earliest closures at 23:00 GMT in Indiana and Kentucky.",
+          "sentence_hash": "c0b60898fc7b6fbde8814b8df6478a6e3c37ea5cf76cf4dd575b135338ed529a",
+          "anchors": [
+            "live"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 3 Nov 2026 - Polls are set to close in waves across the country, with the earliest closures at 6pm (23:00 GMT) in Indiana and Kentucky.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.426327+08:00",
+          "content_sha256": "36ba3ed1511fd54783957bfc84c6bf09ff468c84ec1767ef099349390d9eb4c8",
+          "excerpt": "Published On 3 Nov 2026 - Polls are set to close in waves across the country, with the earliest closures at 6pm (23:00 GMT) in Indiana and Kentucky.",
+          "sentence_hash": "9fe891c910e4b5a7a9b9662e581c31376c44f094b6fcb28c3976cbfd53588ee4",
+          "anchors": [
+            "Nov 20"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- The first results should be known on Tuesday and will appear on Al Jazeera’s live results page.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.426342+08:00",
+          "content_sha256": "36ba3ed1511fd54783957bfc84c6bf09ff468c84ec1767ef099349390d9eb4c8",
+          "excerpt": "- The first results should be known on Tuesday and will appear on Al Jazeera’s live results page.",
+          "sentence_hash": "672e318a2c47b05fbb10fd9adef51f3cce692f075cfa1e6fdcee2ed949f0808e",
+          "anchors": [
+            "live"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "al jazeera",
+        "published on",
+        "polls",
+        "live",
+        "gmt",
+        "indiana",
+        "tuesday",
+        "kentucky",
+        "nov"
+      ],
+      "numbers": [],
+      "dates": [
+        "Nov 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 11
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_06b48cf17a9b1d3f49aedd87",
+      "title": "Trump says US close to trade deal with Canada, Carney says work remains",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373190/trump-says-us-close-trade-deal-canada-carney-says-work-remains",
+      "publisher": "SCMP",
+      "summary": "US ⁠President Donald Trump said on ⁠Tuesday the United States was close to making a trade deal with Canada, but Canadian Prime Minister Mark Carney said work remained to be done ‌and that Washington had dropped some demands.\n“Canada is very good, we’re going to make a deal with Canada very soon. We’re going to make a great deal,” Trump said in an interview with Fox News.\nCanada and ⁠the US have slapped billions of dollars in tariffs ‌on each other in recent months.\nThe imposition of tariffs on..",
+      "category": "国际",
+      "published_at": "2026-11-03T23:42:34+00:00",
+      "why_relevant": "美加贸易谈判，北美经济联动",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "washington",
+        "us",
+        "canadian prime minister mark carney",
+        "listen",
+        "the canadian",
+        "president donald trump",
+        "min",
+        "advertisement\ntrump",
+        "canada",
+        "trump",
+        "united states",
+        "tuesday",
+        "fox news",
+        "carney"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 14
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_788aaf833fd1f586d1ab0561",
+      "title": "US midterms: what happened while Asia slept, and when to expect results",
+      "url": "https://www.scmp.com/news/us/us-elections/article/3373191/us-midterms-what-happened-while-asia-slept-and-when-expect-results",
+      "publisher": "SCMP",
+      "summary": "Polls began closing across the United States on Tuesday evening in midterm elections that will decide whether US President Donald Trump’s Republicans keep control of Congress, after a day of voting disrupted by floods and machine glitches but largely free of the problems many had feared.\nThe first polls closed at 6pm Eastern Time (7am Hong Kong time), with most states following over the next several hours. The last state to close polls will be Alaska, at 1am Eastern Time (2pm Hong Kong time)....",
+      "category": "国际",
+      "published_at": "2026-11-03T23:57:21+00:00",
+      "why_relevant": "中期选举亚洲视角，宏观结果解读",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US midterms: what happened while Asia slept, and when to expect results Apart from tech issues at some polling stations, voting went smoothly despite Trump’s claims of fraud and an ICE warning to illegal voters The first polls closed at 6pm Eastern Time (7am Hong Kong time), with",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.427078+08:00",
+          "content_sha256": "7ccff5370b42dd96a7b333df56787bf222b12a19e650fd54ec6c29aa3dc17f19",
+          "excerpt": "US midterms: what happened while Asia slept, and when to expect results Apart from tech issues at some polling stations, voting went smoothly despite Trump’s claims of fraud and an ICE warning to illegal voters The first polls closed at 6pm Eastern Time (7am Hong Kong time), with",
+          "sentence_hash": "39d2762c55f5febbb6a71c9d9e3a30db5de9de0019c0fb452b04ce22a81b41ac",
+          "anchors": [
+            "some",
+            "voting"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Democrats go in as favourites Prediction markets on Tuesday afternoon implied a 94 per cent chance that Democrats would take the House and a 74 per cent chance they would win the Senate, according to analytics firm BetInt.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.427116+08:00",
+          "content_sha256": "7ccff5370b42dd96a7b333df56787bf222b12a19e650fd54ec6c29aa3dc17f19",
+          "excerpt": "Democrats go in as favourites Prediction markets on Tuesday afternoon implied a 94 per cent chance that Democrats would take the House and a 74 per cent chance they would win the Senate, according to analytics firm BetInt.",
+          "sentence_hash": "62d9619f045ea93029489b927a7e7c15a7812ad46549be9035e5aa93e045a6bc",
+          "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "text": "Floods and glitches, but few serious problems Voting went relatively smoothly, according to the Associated Press.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374508+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
-          "sentence_hash": "cf5747d5587ecaf0aee16e4e4563cebd9d9ba490027f09c6b27e67ab8d294c6f",
+          "captured_at": "2026-11-04T08:03:18.427137+08:00",
+          "content_sha256": "7ccff5370b42dd96a7b333df56787bf222b12a19e650fd54ec6c29aa3dc17f19",
+          "excerpt": "Floods and glitches, but few serious problems Voting went relatively smoothly, according to the Associated Press.",
+          "sentence_hash": "385ec694eb427d1eadd704594d295cd8be320609d3130bb76c2e672884de1493",
           "anchors": [
-            "war",
-            "us",
-            "tariffs"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374583+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
-          "sentence_hash": "16503f6f57d92172a4e5f7ca68cd50d3b068a64cf8a7b3618ba29fc77e8bfece",
-          "anchors": [
-            "public",
             "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374636+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
-          "sentence_hash": "55b88495da71d77a92aabaed292b949c63a6bfafe60aa8cbe6286538b323bbfe",
-          "anchors": [
-            "war"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374693+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
-          "sentence_hash": "2d48246609a3bbee02a254fe1a59d76d40356e1b15c5c3145c030bd7f924698f",
-          "anchors": [
-            "under"
           ]
         }
       ],
       "entities": [
-        "kuala lumpur",
-        "outside",
-        "myanmar",
-        "china",
-        "gulf",
-        "when iran",
-        "president donald trump",
-        "before",
-        "many",
-        "soaring",
-        "institute",
-        "representatives",
-        "democrat",
-        "war",
-        "east timor",
-        "across",
-        "singapore",
-        "southeast asian studies",
-        "middle east",
-        "united states",
-        "laos",
-        "indonesia",
-        "pacific\nhit",
-        "senate",
-        "steven okun",
-        "strait",
-        "apac",
-        "with iran",
-        "al jazeera",
-        "congress",
-        "advisors",
+        "eastern time",
+        "voting",
         "us",
-        "but",
-        "yusof ishak institute",
-        "under",
-        "tariffs",
-        "okun",
-        "malaysia",
-        "house",
-        "public",
-        "iran",
-        "thailand",
-        "iseas",
-        "hormuz",
+        "prediction",
+        "here",
+        "maine",
+        "apart",
         "asia",
-        "republican party",
-        "january",
-        "cambodia",
-        "donald trump",
-        "constitution",
-        "israel",
-        "overriding",
-        "the philippines",
+        "bet",
+        "trump",
         "tuesday",
-        "vietnam",
         "democrats",
-        "democratic",
-        "march",
-        "pacific",
-        "trump"
+        "ice",
+        "north carolina",
+        "texas",
+        "georgia",
+        "house",
+        "senate",
+        "florida",
+        "floods",
+        "some",
+        "hong kong",
+        "int",
+        "flooding",
+        "michigan",
+        "iowa",
+        "associated press",
+        "alaska"
       ],
       "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 28
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_83d0cb9545cd8919f35d0bac",
+      "title": "Could the AI boom make borrowing more expensive in Europe?",
+      "url": "https://www.dw.com/en/could-the-ai-boom-make-borrowing-more-expensive-in-europe/a-79511985?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "France, Germany and Italy face a volatile bond market as war inflation bites. With US tech giants now issuing billions in AI bonds, they are competing with cash-strapped European governments.",
+      "category": "国际",
+      "published_at": "2026-11-03T10:27:00+00:00",
+      "why_relevant": "AI债券竞争，利率与科技交叉",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Could the AI boom make borrowing more expensive in Europe?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.428151+08:00",
+          "content_sha256": "c55e6aa1cd40f7613d25a36f6545ac9278fe81d9e2d2f2726917eef54452faca",
+          "excerpt": "Could the AI boom make borrowing more expensive in Europe?",
+          "sentence_hash": "649a9856db6438629d8818aa533edf8eadc7d6fb55e0d27c20fb50073b8452e9",
+          "anchors": [
+            "ing"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "November 3, 2026 With more than $1 trillion (€900 billion) pouring into the artificial intelligence (AI) buildout, US tech giants are now competing with governments and companies in Europe for the same investment capital.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.428188+08:00",
+          "content_sha256": "c55e6aa1cd40f7613d25a36f6545ac9278fe81d9e2d2f2726917eef54452faca",
+          "excerpt": "November 3, 2026 With more than $1 trillion (€900 billion) pouring into the artificial intelligence (AI) buildout, US tech giants are now competing with governments and companies in Europe for the same investment capital.",
+          "sentence_hash": "d4ff4bd47a9c3b8b588a5a417d810a83e01d8a3a530b8ea4ff16e80ba8846f19",
+          "anchors": [
+            "over",
+            "900 billion",
+            "1 trillion",
+            "$1 trillion",
+            "ing",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Four of the Big Five hyperscalers — Amazon, Google owner Alphabet, Meta and Oracle — have issued about $250 billion in bonds in dollars since the beginning of 2025, according to a tally of filings to US financial regulators by AI Industry Reviews, an independent platform that eva",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.428233+08:00",
+          "content_sha256": "c55e6aa1cd40f7613d25a36f6545ac9278fe81d9e2d2f2726917eef54452faca",
+          "excerpt": "Four of the Big Five hyperscalers — Amazon, Google owner Alphabet, Meta and Oracle — have issued about $250 billion in bonds in dollars since the beginning of 2025, according to a tally of filings to US financial regulators by AI Industry Reviews, an independent platform that eva",
+          "sentence_hash": "44a4768ab2f582e6a6a871766cf609dc67d280876260a15e4236b192cff01f0f",
+          "anchors": [
+            "about",
+            "us",
+            "bond",
+            "250 billion",
+            "$250 billion",
+            "ing"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "They have sold a further €37 billion ($41 billion) of bonds in euros.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.428254+08:00",
+          "content_sha256": "c55e6aa1cd40f7613d25a36f6545ac9278fe81d9e2d2f2726917eef54452faca",
+          "excerpt": "They have sold a further €37 billion ($41 billion) of bonds in euros.",
+          "sentence_hash": "0f1113dc95581019beee086c7df54fe9f50366397b107f5e5e58f86bb4a6c959",
+          "anchors": [
+            "37 billion",
+            "$41 billion",
+            "bond",
+            "41 billion"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Recently, Microsoft, the last of the Big Five to hold back, joined the AI borrowing spree with a $25 billion bond sale, all in dollars.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.428294+08:00",
+          "content_sha256": "c55e6aa1cd40f7613d25a36f6545ac9278fe81d9e2d2f2726917eef54452faca",
+          "excerpt": "Recently, Microsoft, the last of the Big Five to hold back, joined the AI borrowing spree with a $25 billion bond sale, all in dollars.",
+          "sentence_hash": "1ddaf2973250d84449857d4f1acecf10529cb8737e75719f318398295ed6158b",
+          "anchors": [
+            "bond",
+            "25 billion",
+            "$25 billion",
+            "ing",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Next year, Goldman Sachs projects that total new AI hyperscaler bond sales are expected to reach $420 billion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.428314+08:00",
+          "content_sha256": "c55e6aa1cd40f7613d25a36f6545ac9278fe81d9e2d2f2726917eef54452faca",
+          "excerpt": "Next year, Goldman Sachs projects that total new AI hyperscaler bond sales are expected to reach $420 billion.",
+          "sentence_hash": "d506bb2e3d96c20b4efc168b1b6431717c3b99b6a1a8c6a50bb9cbe3b2a1bd08",
+          "anchors": [
+            "bond",
+            "420 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "about",
+        "bnp",
+        "dutch",
+        "french",
+        "microsoft",
+        "gdp",
+        "based",
+        "european investment bank",
+        "over",
+        "paribas",
+        "hjort",
+        "meta",
+        "viktor hjort",
+        "dw",
+        "ing",
+        "alphabet",
+        "could",
+        "next",
+        "the french",
+        "us",
+        "italy",
+        "oracle",
+        "bond",
+        "france",
+        "recently",
+        "google",
+        "finance ministry",
+        "four",
+        "european",
+        "european union",
+        "european central bank",
+        "they",
+        "writing",
+        "amazon",
+        "industry reviews",
+        "big five",
+        "battle",
+        "ai",
+        "europe",
+        "these",
+        "november",
+        "in august",
+        "germany",
+        "with",
+        "goldman sachs"
+      ],
+      "numbers": [
+        "79 billion",
+        "900 billion",
+        "250 billion",
+        "$250 billion",
+        "37 billion",
+        "91 billion",
+        "1 trillion",
+        "420 billion",
+        "100 billion",
+        "25 billion",
+        "60 billion",
+        "$1 trillion",
+        "$25 billion",
+        "$41 billion",
+        "41 billion"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -242,191 +978,158 @@
       "evidence_complete": true
     },
     {
-      "article_id": "a1_b1a3abfa934497f858e4b9c6",
-      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
-      "category": "国际",
-      "published_at": "2026-11-02T21:10:04+00:00",
-      "why_relevant": "俄军轰炸致乌援助中心死伤",
+      "article_id": "a1_82d6252b1927d5fda8975b61",
+      "title": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "publisher": "GitHub Trending",
+      "summary": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦https://justvugg.github.io/colibri   \n    \n Website · Discord · English · 简体中文 · 繁體中文 · Italiano · 日本語 · Bahasa Indonesia · Português (Brasil)  \nTiny engine, immense model. colibri runs very large open models on the machine you already have. A mixture-of-experts model of hundreds of billions of parameters uses only a small part of itself for each token, so colibri kee",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "本地运行MoE前沿模型，契合硬核技术",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
+          "text": "Website · Discord · English · 简体中文 · 繁體中文 · Italiano · 日本語 · Bahasa Indonesia · Português (Brasil) Tiny engine, immense model.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375813+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
-          "sentence_hash": "2f04600408c83cd6de737138cfe4da73b904a171bb8a57ca22e8beb464d1de1f",
+          "captured_at": "2026-11-04T08:03:18.429286+08:00",
+          "content_sha256": "6c31286e0376ffa50381183208e62240a49c5c6c36e91d3abef0941e5de7ee79",
+          "excerpt": "Website · Discord · English · 简体中文 · 繁體中文 · Italiano · 日本語 · Bahasa Indonesia · Português (Brasil) Tiny engine, immense model.",
+          "sentence_hash": "773595d9a6ab412fa33b7b01b94ececabeadc3a8ef6d0e47ad6226ad3d73d928",
           "anchors": [
-            "26 people",
-            "us"
+            "one",
+            "繁體中文",
+            "日本語",
+            "简体中文"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
+          "text": "colibri runs very large open models on the machine you already have.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375857+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
-          "sentence_hash": "2ba83d8a80f6e1b30c5721773ad194cbfc086017f0c610e45cd07a39dbc529fa",
+          "captured_at": "2026-11-04T08:03:18.429307+08:00",
+          "content_sha256": "6c31286e0376ffa50381183208e62240a49c5c6c36e91d3abef0941e5de7ee79",
+          "excerpt": "colibri runs very large open models on the machine you already have.",
+          "sentence_hash": "7b643180ec4ffd163079a85915889199a05c7b5f720fa454d36d2913747f0349",
           "anchors": [
-            "us"
+            "large",
+            "you"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
+          "text": "A mixture-of-experts model of hundreds of billions of parameters uses only a small part of itself for each token, so colibri keeps that part in RAM and reads the rest, the experts, from the disk when the model asks for them.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375881+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
-          "sentence_hash": "3924bf5b09d1c6d90abaa1943cecfb8e13e4cf1ed7e503152624b66db65247eb",
+          "captured_at": "2026-11-04T08:03:18.429338+08:00",
+          "content_sha256": "6c31286e0376ffa50381183208e62240a49c5c6c36e91d3abef0941e5de7ee79",
+          "excerpt": "A mixture-of-experts model of hundreds of billions of parameters uses only a small part of itself for each token, so colibri keeps that part in RAM and reads the rest, the experts, from the disk when the model asks for them.",
+          "sentence_hash": "5a5a2428721090f0f72978b4f05831477e6b058ca91ac6e6a399fd63af11eaa7",
           "anchors": [
-            "teams"
+            "ram"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The Russian military has not publicly commented.",
+          "text": "Pure C, one file per model family, no GPU required.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375898+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "The Russian military has not publicly commented.",
-          "sentence_hash": "ced779a0d917e116fc510dd045911021a51028c2dcf3f7c4dcb015475e70cd9a",
+          "captured_at": "2026-11-04T08:03:18.429354+08:00",
+          "content_sha256": "6c31286e0376ffa50381183208e62240a49c5c6c36e91d3abef0941e5de7ee79",
+          "excerpt": "Pure C, one file per model family, no GPU required.",
+          "sentence_hash": "311ac441e87bd0951903b3ba06aa538da4884935e516fab21c2c4b96d24b932a",
           "anchors": [
-            "us"
+            "one"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
+          "text": "Ten are for language models: GLM-5.2/5.3 (which also runs Mistral-Large-4), GLM-5.3-Flash, Inkling, Kimi K3, DeepSeek V4 Flash, DeepSeek V4.1 Flash, MiMo-V2.6 Flash (and Pro), Qwen3.8-Flash-Next, Qwen3.6 (which also runs Qwen3-Coder, the dense Qwen3.8-27B, Flint, Muse Spark Open ",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375930+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
-          "sentence_hash": "5fcc52c05638673deb5ca342fb3b048a59ba49e858323137e871d7af4d373eff",
+          "captured_at": "2026-11-04T08:03:18.429392+08:00",
+          "content_sha256": "6c31286e0376ffa50381183208e62240a49c5c6c36e91d3abef0941e5de7ee79",
+          "excerpt": "Ten are for language models: GLM-5.2/5.3 (which also runs Mistral-Large-4), GLM-5.3-Flash, Inkling, Kimi K3, DeepSeek V4 Flash, DeepSeek V4.1 Flash, MiMo-V2.6 Flash (and Pro), Qwen3.8-Flash-Next, Qwen3.6 (which also runs Qwen3-Coder, the dense Qwen3.8-27B, Flint, Muse Spark Open ",
+          "sentence_hash": "dd99cf0ee18a4c45f530218e3152598c5a9fe88bbf3fc55d9390b049a458f1d3",
           "anchors": [
-            "24 people"
+            "which"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
+          "text": "Which one for my machine $ ./coli chat colibri v2.1.0 · GLM-5.2 · 744B MoE · int4 · streaming CPU ✓ ready in 32s · resident 9.9 GB › ciao!",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375953+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
-          "sentence_hash": "0e929026546520be88e234d07f082f228b59f66a93fb286c2b8d3824de495163",
+          "captured_at": "2026-11-04T08:03:18.429439+08:00",
+          "content_sha256": "6c31286e0376ffa50381183208e62240a49c5c6c36e91d3abef0941e5de7ee79",
+          "excerpt": "Which one for my machine $ ./coli chat colibri v2.1.0 · GLM-5.2 · 744B MoE · int4 · streaming CPU ✓ ready in 32s · resident 9.9 GB › ciao!",
+          "sentence_hash": "69a154440c8e544dccf01912d41c26d3ee60251e13768004b6095301d39ecb62",
           "anchors": [
-            "26 people"
+            "one",
+            "ciao"
           ]
         }
       ],
       "entities": [
-        "first lady melania trump",
-        "kyiv",
-        "komyshuvakha",
-        "semikin",
-        "russian",
-        "published\nat",
-        "abu dhabi",
-        "moscow",
-        "oleshky",
-        "teams",
-        "the russian",
-        "united arab emirates",
-        "ukraine",
-        "mykhailo semikin",
-        "with",
-        "russians",
-        "president volodymyr zelensky",
-        "russia",
-        "us",
-        "monday",
-        "zelensky",
-        "dsns",
-        "zaporizhzhia",
-        "february",
-        "published",
-        "russian president vladimir putin",
-        "western",
-        "tuesday",
-        "five",
-        "however",
-        "meanwhile",
-        "ukrainian"
-      ],
-      "numbers": [
-        "26 people",
-        "24 people"
-      ],
-      "dates": [
-        "February 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 35
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_70e442b6ded99fb67e81a032",
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "publisher": "The Verge",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-11-02T18:56:02+00:00",
-      "why_relevant": "Anthropic限制AI游戏克隆",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.376775+08:00",
-          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
-          "excerpt": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
-          "sentence_hash": "a34a2f0a9d5f4816f08150af89330b6b7738a9990abc33aa6a3414d571293647",
-          "anchors": [
-            "original"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.376824+08:00",
-          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
-          "excerpt": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
-          "sentence_hash": "ca7c1e1abdcd9617db0841f2537313a2c472abba7c3be9d92e847c9e424dd14d",
-          "anchors": [
-            "ai",
-            "original"
-          ]
-        }
-      ],
-      "entities": [
-        "don",
-        "ai",
-        "claude code",
-        "claude",
-        "hardware",
-        "addy osmani",
-        "opus",
-        "last",
-        "retro",
-        "ip",
-        "tom",
-        "original",
-        "anthropic"
+        "pro",
+        "if python",
+        "cpu",
+        "flint",
+        "ubuntu",
+        "nvidia",
+        "here",
+        "kimi",
+        "bahasa indonesia",
+        "qwen",
+        "you",
+        "code",
+        "download",
+        "glm",
+        "decide",
+        "简体中文",
+        "seek",
+        "italiano",
+        "gguf",
+        "english",
+        "which",
+        "inkling",
+        "just",
+        "two",
+        "vulkan",
+        "then",
+        "thirteen",
+        "deep",
+        "portugu",
+        "vugg",
+        "zip",
+        "double",
+        "next",
+        "gpu",
+        "linux",
+        "discord",
+        "brasil",
+        "vl",
+        "tiny",
+        "clef",
+        "one",
+        "flash",
+        "debian",
+        "日本語",
+        "website",
+        "windows",
+        "mistral",
+        "ram",
+        "gb",
+        "繁體中文",
+        "enter",
+        "laya",
+        "pure",
+        "coder",
+        "homebrew",
+        "ten",
+        "ciao",
+        "image",
+        "large",
+        "come",
+        "start",
+        "cuda",
+        "muse spark open"
       ],
       "numbers": [],
       "dates": [],
@@ -435,210 +1138,154 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 13
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 63
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_c7dd4e6255ca03c27a0e0dcd",
-      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
-      "publisher": "Tom's Hardware",
-      "summary": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections. The company is also promoting the term “AI compute campuses” for its data centers as it seeks to address concerns over electricity demand, water consumption, pollution and rising utility bills",
-      "category": "科技",
-      "published_at": "2026-11-02T19:15:31+00:00",
-      "why_relevant": "OpenAI数据中心品牌调整策略",
+      "article_id": "a1_df3052b219fb819e51d4e4b6",
+      "title": "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+      "url": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
+      "publisher": "CNBC",
+      "summary": "Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.",
+      "category": "财经",
+      "published_at": "2026-11-03T20:10:41+00:00",
+      "why_relevant": "苹果警告Agent风险，前沿AI治理",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "text": "Apple said in its annual financial filing on Tuesday that AI agents that can act in \"unintended or unpredictable ways\" could represent a threat to its business by opening the company up to lawsuits or hurting its reputation.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378128+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
-          "sentence_hash": "0e87cec732f89ec90d082e4994c796c23bd7ed54288727d481a08e77ac8facdf",
+          "captured_at": "2026-11-04T08:03:18.430252+08:00",
+          "content_sha256": "db7836fc6e17afb1e8b3d4a8d8ba054932be4bda83461b82638dfa463ca4cb7b",
+          "excerpt": "Apple said in its annual financial filing on Tuesday that AI agents that can act in \"unintended or unpredictable ways\" could represent a threat to its business by opening the company up to lawsuits or hurting its reputation.",
+          "sentence_hash": "a9763ceb13a2ec73657836bb11979567cbdbfd22a0c2ee1118c8225f424fb92f",
           "anchors": [
-            "compute",
-            "data",
             "ai",
-            "compute campuses"
+            "open",
+            "the company"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The initiative comes ahead of the November 3 U.S.",
+          "text": "\"In particular, artificial intelligence agents and other technologies can take actions autonomously, including interacting with internal or external systems that in some cases they may not be authorized to access, executing or altering code, sending communications, and completing",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378152+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "The initiative comes ahead of the November 3 U.S.",
-          "sentence_hash": "4805452fb94b2c7eef6791ed7d194c79ea799357457f0db0516468e3698c0370",
+          "captured_at": "2026-11-04T08:03:18.430299+08:00",
+          "content_sha256": "db7836fc6e17afb1e8b3d4a8d8ba054932be4bda83461b82638dfa463ca4cb7b",
+          "excerpt": "\"In particular, artificial intelligence agents and other technologies can take actions autonomously, including interacting with internal or external systems that in some cases they may not be authorized to access, executing or altering code, sending communications, and completing",
+          "sentence_hash": "1c112c5fcc1d866d7ecbd4717d7dd343b76b4fb4ae22462e90df2761e3678646",
           "anchors": [
-            "November 3"
+            "they"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "text": "They can even email or remind users when new messages arrive.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378203+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
-          "sentence_hash": "d39e9509b473b22ec78658bf7a8d68cc98b87edcb5fcb9c83a8afbaf41c44342",
+          "captured_at": "2026-11-04T08:03:18.430322+08:00",
+          "content_sha256": "db7836fc6e17afb1e8b3d4a8d8ba054932be4bda83461b82638dfa463ca4cb7b",
+          "excerpt": "They can even email or remind users when new messages arrive.",
+          "sentence_hash": "42c1f94541b03b8b5e0621a51d1bdc49397ea5e222cb1b46fda7e62960291ebc",
           "anchors": [
             "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "text": "But when new CEO John Ternus was asked on Monday's earnings call about AI agents, he said that the company had \"real room\" to expand Siri's capabilities.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378246+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
-          "sentence_hash": "efa5b1e75ab83cdcb61fb25fee9d506d7673f3c03352b783a22b92068610082f",
+          "captured_at": "2026-11-04T08:03:18.430365+08:00",
+          "content_sha256": "db7836fc6e17afb1e8b3d4a8d8ba054932be4bda83461b82638dfa463ca4cb7b",
+          "excerpt": "But when new CEO John Ternus was asked on Monday's earnings call about AI agents, he said that the company had \"real room\" to expand Siri's capabilities.",
+          "sentence_hash": "feb962cf55309912efc9da9e17d0e536ffe82aaedd5e944e58a533372de5ca06",
           "anchors": [
-            "data",
-            "compute",
-            "compute campuses"
+            "ai",
+            "the company"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
+          "text": "\"As far as agentic capabilities, we think these are promising tools for users,\" Ternus said.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378274+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
-          "sentence_hash": "4355fc64501d519ec522b21bb0131f5ad6e5533a544e530b9663e7c007f05117",
+          "captured_at": "2026-11-04T08:03:18.430380+08:00",
+          "content_sha256": "db7836fc6e17afb1e8b3d4a8d8ba054932be4bda83461b82638dfa463ca4cb7b",
+          "excerpt": "\"As far as agentic capabilities, we think these are promising tools for users,\" Ternus said.",
+          "sentence_hash": "0f8ac974627d1326e53df47c8f49b511bcfa6895eaf92b0b2c55398177768179",
           "anchors": [
             "ai"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "text": "\"We just want to make sure that users are aware of what they are giving access to.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378317+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
-          "sentence_hash": "902d38722fb33f0b3ee47df64dce02ff20f1f9c5f56aa1686d3ef0a8e0fd6460",
+          "captured_at": "2026-11-04T08:03:18.430394+08:00",
+          "content_sha256": "db7836fc6e17afb1e8b3d4a8d8ba054932be4bda83461b82638dfa463ca4cb7b",
+          "excerpt": "\"We just want to make sure that users are aware of what they are giving access to.",
+          "sentence_hash": "24d488c3b90c444d55c7ce675c0b52b9a50f83d4daa90bf2fb427e4e81cb63be",
           "anchors": [
-            "data"
+            "they"
           ]
         }
       ],
       "entities": [
-        "redfin",
-        "chris lehane",
-        "lehane",
-        "august",
-        "data",
-        "another",
+        "siri",
+        "john ternus",
+        "ternus",
+        "but",
+        "dots",
+        "morgan chase",
         "open",
-        "axios",
-        "november",
-        "michigan",
+        "tuesday",
+        "the company",
+        "muse",
+        "they",
+        "separately",
+        "washington",
+        "amazon",
+        "phone",
+        "silicon valley",
+        "macs",
+        "both",
+        "meta",
         "ai",
-        "compute campuses",
-        "microsoft",
-        "compute",
-        "americans",
-        "however",
-        "in january"
+        "earlier",
+        "monday",
+        "ceo",
+        "apple",
+        "last",
+        "hugging face"
       ],
-      "numbers": [
-        "47%"
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "dates": [
-        "November 3"
-      ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 19
+        "anchor_count": 26
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_0b5cd97216c7cbd5b174c9a8",
-      "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-02T18:13:57+00:00",
-      "why_relevant": "比特币供应紧缩预示反弹",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "bitcoin"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 1
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_9121b11a58870d4f02056ad7",
-      "title": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSGJTUDVwRnhqVmZaRHNFX1l5MUtGYnhoLWVVMXBkODNXTmdzR3FycktGYkdJUVBtbXc4ejZmTlBLVUdxZXZ6UXJ1WENNWE1SS2thM1lweUtvdGdNX3RHa0x6Y0FCOFJmNTAtWGRLZEZhRGdEM1VOdWJ0T2FiUDhJR29aNW14Y0NPbkVUemxfODZkS3FJLXMtQk9VQjJsTng4NVpCekI4UEJqVEp2bkNSX1czUVBIQQ?oc=5",
-      "publisher": "Bloomberg",
-      "summary": "Nasdaq 100 Enters Correction as Megacap Results Amplify AI Fears&nbsp;&nbsp;Bloomberg.com",
-      "category": "财经",
-      "published_at": "2026-11-02T21:03:02+00:00",
-      "why_relevant": "纳指100进入技术性修正",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "megacap results amplify",
-        "bloomberg",
-        "fears",
-        "ai",
-        "nasdaq",
-        "enters correction"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 6
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_10c927b8e4c52df706d2a1bf",
-      "title": "Marvell to buy data centre component maker Lumentum in $115bn AI bet",
-      "url": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b?syn-25a6b1a6=1",
+      "article_id": "a1_1d4876c717cccc39b0651d07",
+      "title": "US has no immediate plan to strike Iran, Trump tells FT",
+      "url": "https://www.ft.com/content/f3afd549-65fc-487e-922e-2748fa6a8a5f?syn-25a6b1a6=1",
       "publisher": "FT",
-      "summary": "Silicon Valley companies say all-stock deal would create a ‘leader in AI connectivity’",
+      "summary": "President says position with Tehran is ‘brilliant’ in interview just hours before midterm polls close",
       "category": "财经",
-      "published_at": "2026-11-02T21:19:47+00:00",
-      "why_relevant": "Marvell$115B收购Lumentum",
-      "relevance_score": 8.0,
+      "published_at": "2026-11-03T23:34:36+00:00",
+      "why_relevant": "特朗普伊朗表态，地缘战争关键信号",
+      "relevance_score": 7.0,
       "confirmed_facts": [],
       "entities": [
-        "ai",
-        "silicon valley"
+        "president",
+        "tehran"
       ],
       "numbers": [],
       "dates": [],
@@ -648,642 +1295,143 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": false,
+        "has_multiple_sources": true,
         "fact_count": 0,
         "anchor_count": 2
       },
       "evidence_complete": false
     },
     {
-      "article_id": "a1_463e505f42ebbb49892916a2",
-      "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
-      "publisher": "The Guardian",
-      "summary": "Australia’s central bank expected to hit mortgage holders again on Tuesday, as war in Middle East combines with collapsing house pricesGet our breaking news email, free app or daily news podcastAustralia’s economy is set for a “sharper, longer slowdown”, major bank economists say, as the Reserve Bank is forced to keep interest rates higher to rid the nation of persistent inflationary pressures.The RBA is widely expected to hit mortgage holders with a fifth rate hike on Tuesday, in a move that wi",
-      "category": "国际",
-      "published_at": "2026-11-02T06:57:29+00:00",
-      "why_relevant": "澳经济放缓与加息预测",
-      "relevance_score": 7.0,
+      "article_id": "a1_b2222d585285842d9b4c75e4",
+      "title": "S&P 500 futures gain slightly on AMD's strong earnings as traders await election results: Live updates",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Investors braced for the results of the 2026 U.S. midterm elections.",
+      "category": "财经",
+      "published_at": "2026-11-03T23:54:26+00:00",
+      "why_relevant": "选举前美股期货，短期交易信号",
+      "relevance_score": 6.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.",
+          "text": "Stock futures gained Tuesday evening as strong results from chipmaker Advanced Micro Devices boosted sentiment and traders largely anticipated Democrats to win the House of Representatives — and possibly squeak out a majority in the Senate — as results of 2026 U.S.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.380108+08:00",
-          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
-          "excerpt": "Belinda Allen, the head of Australian economics at CBA, said the extended Middle East conflict, collapsing house prices and a more aggressive central bank would drive real GDP down to just 1% by the middle of next year, nearly half the previous estimate of 1.8%.",
-          "sentence_hash": "d1820478777ad065871278a20d2d7d27c374941681ea13924e4f01a6c42db5ac",
+          "captured_at": "2026-11-04T08:03:18.431469+08:00",
+          "content_sha256": "86929bc39a7b8ee3c7cc5d8d9ad7ba0d13f5dd6f53c286151ff7c0a37fd29f6a",
+          "excerpt": "Stock futures gained Tuesday evening as strong results from chipmaker Advanced Micro Devices boosted sentiment and traders largely anticipated Democrats to win the House of Representatives — and possibly squeak out a majority in the Senate — as results of 2026 U.S.",
+          "sentence_hash": "f15583a0307471435126a51a277cc38fc9ddeee53c3f5e72ff41f46c744954cd",
           "anchors": [
-            "1%",
-            "1.8%"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Growth through 2027 would be barely stronger at an estimated 1.1%, according to the updated projections.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.380136+08:00",
-          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
-          "excerpt": "Growth through 2027 would be barely stronger at an estimated 1.1%, according to the updated projections.",
-          "sentence_hash": "948a7217c9687a8cd74f5cd3ec33e997b6fcb747ac053d5ecee2cf27126da443",
-          "anchors": [
-            "1%",
-            "1.1%"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The economy would grow below trend over 2027 and 2028, Spence said, echoing the forecast of just 1% growth next year.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.380216+08:00",
-          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
-          "excerpt": "The economy would grow below trend over 2027 and 2028, Spence said, echoing the forecast of just 1% growth next year.",
-          "sentence_hash": "edf5ac9dbe4fd58a5ced4039a444fe698fe62da94a287575566e8a6cd5605d17",
-          "anchors": [
-            "1%",
-            "growth"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Spence forecast the key jobless measure would need to rise from 4.7% to as high as 5.4% by the end of next year, as the RBA doubles down on its battle to regain control of inflation.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.380247+08:00",
-          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
-          "excerpt": "Spence forecast the key jobless measure would need to rise from 4.7% to as high as 5.4% by the end of next year, as the RBA doubles down on its battle to regain control of inflation.",
-          "sentence_hash": "3e2e48997a094c63e3a3490f6d758928333f98adcaa1cb393413ea1f80cb1b31",
-          "anchors": [
-            "5.4%",
-            "4.7%"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The CBA forecast was more optimistic, seeing unemployment peak at 5.1% over the same timeframe.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.380269+08:00",
-          "content_sha256": "c32b779a92d79fd7b9a7e6e2de9b55e6b97a4985f1b9cfbbb243cffdc4bb5f5e",
-          "excerpt": "The CBA forecast was more optimistic, seeing unemployment peak at 5.1% over the same timeframe.",
-          "sentence_hash": "aabcd12f881e141f5e8ee7de17f6e02132c089957049ec39844d4bb8bbff0507",
-          "anchors": [
-            "1%",
-            "5.1%"
-          ]
-        }
-      ],
-      "entities": [
-        "allen",
-        "new year",
-        "monday",
-        "cba",
-        "amp",
-        "shane oliver",
-        "instead",
-        "growth",
-        "brent",
-        "belinda allen",
-        "sydney",
-        "nab",
-        "july",
-        "december",
-        "alas",
-        "after jim chalmers",
-        "middle east",
-        "australia",
-        "spence",
-        "tuesday",
-        "gareth spence",
-        "covid",
-        "gdp",
-        "reserve bank",
-        "most",
-        "either",
-        "rba",
-        "australian"
-      ],
-      "numbers": [
-        "4.7%",
-        "1%",
-        "5.1%",
-        "1.1%",
-        "5.4%",
-        "1.8%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 5,
-        "anchor_count": 34
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_684e86cbd676f2b631144df0",
-      "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
-      "category": "国际",
-      "published_at": "2026-11-02T17:33:19+00:00",
-      "why_relevant": "俄乌停火结束冲突回归",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.381445+08:00",
-          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
-          "excerpt": "The ceasefire - the longest since the start of Russia's full-scale invasion in 2022 - allowed hundreds of people trapped in the Russian-occupied Ukrainian town of Oleshky and its surroundings to be evacuated.",
-          "sentence_hash": "822442c6d035bd5ddd602de118fb3bac6ebe1684e66b1fefb5601a118674c6ff",
-          "anchors": [
-            "and",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.381480+08:00",
-          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
-          "excerpt": "They also said a 62-year-old woman and a 73-year-old man were injured when a Russian drone attacked the car they were travelling in.",
-          "sentence_hash": "e0c967688d6c33c0c7d9c86b6d69d5ce65f5484a4e3f18de69b3deeaa0fc5fac",
-          "anchors": [
-            "and",
-            "us",
-            "they"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Ukraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.381505+08:00",
-          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
-          "excerpt": "Ukraine also accused Russian forces of using the humanitarian ceasefire to strengthen their military positions, rotate units and deliver ammunition.",
-          "sentence_hash": "35e1b4213558a2417c05674551d85ac8a8d4b2e510f57c09bbe79e7fec5ef4bc",
-          "anchors": [
-            "and",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.381557+08:00",
-          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
-          "excerpt": "\"The enemy used the humanitarian pause to set up their positions,\" said Ukraine's General Staff, adding they had recorded rotation of Russian units, expansion of anti-drone equipment on the roads, and delivery of ammunition.",
-          "sentence_hash": "ac2c675d003d3f1f0b23924187e12e56198cf8f7daef55b547b8bfae5bf51a87",
-          "anchors": [
-            "and",
-            "us",
-            "they"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.381587+08:00",
-          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
-          "excerpt": "The Kremlin appeared to corroborate this when spokesman Dmitry Peskov said it was \"reasonable to assume that the Ukrainian army also used this period for the necessary regrouping\".",
-          "sentence_hash": "309d76e8b6385acad798e8b1d926842f47aed7c9325096b5371c22a26085daeb",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "\"It is a completely standard practice in such situations,\" he added.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.381605+08:00",
-          "content_sha256": "2ad36ef061d74d26ac8a0ced4c9a6c71f18ce635c285d83e7a8f012649a6a700",
-          "excerpt": "\"It is a completely standard practice in such situations,\" he added.",
-          "sentence_hash": "4b762960a3a7deb5429b6471d50d873e6976468ac282837e0da203599fbc9a83",
-          "anchors": [
-            "and"
-          ]
-        }
-      ],
-      "entities": [
-        "but",
-        "monday",
-        "ukraine russia",
-        "lubinets",
-        "first lady melania trump",
-        "and",
-        "dmytro lubinets",
-        "fighting",
-        "russian",
-        "melani",
-        "moscow",
-        "oleshky",
-        "there",
-        "yana lantratova",
-        "kremlin",
-        "on monday",
-        "published\nfighting",
-        "both lantratova",
-        "they",
-        "dmitry peskov",
-        "peskov",
-        "ukraine",
-        "the kremlin",
-        "both kyiv",
-        "general staff",
-        "russia",
-        "kherson",
-        "us",
-        "ukrainian"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 29
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_b6a633d2b0e58b2f6fdef2e7",
-      "title": "Trump to remove Rwanda and South Africa from US trade deal",
-      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
-      "category": "国际",
-      "published_at": "2026-11-02T19:33:10+00:00",
-      "why_relevant": "美国将卢旺达南非移出贸易协议",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.382542+08:00",
-          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
-          "excerpt": "Trump to remove Rwanda and South Africa from US trade deal - Published US President Donald Trump has notified Congress of his intention to remove South Africa and Rwanda from a preferential trade programme, from 1 January 2027.",
-          "sentence_hash": "2bbfa12c36eb53dcf5b0c061787064d2251279e8482cabc9e69025ce4c02dcd3",
-          "anchors": [
-            "January 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The African Growth and Opportunity Act (Agoa) allows eligible African countries to export thousands of products to the US duty-free.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.382572+08:00",
-          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
-          "excerpt": "The African Growth and Opportunity Act (Agoa) allows eligible African countries to export thousands of products to the US duty-free.",
-          "sentence_hash": "e7fdb6af9c3f60ce1eee4ea6155b09f7908f7233ea00438147792a88428a2df8",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The US Treasury said Rwanda's defence ministry directed thousands of troops to fight alongside M23 rebels in eastern DR Congo, providing weapons, equipment, logistics and training.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.382629+08:00",
-          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
-          "excerpt": "The US Treasury said Rwanda's defence ministry directed thousands of troops to fight alongside M23 rebels in eastern DR Congo, providing weapons, equipment, logistics and training.",
-          "sentence_hash": "52ab01d111d342af65136c136c7ad9a929d59875bc9be44177f9a9f9420ef4cd",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Last year, Trump accused South Africa of white genocide in a meeting with President Cyril Ramaphosa at the White House and launched a US refugee pathway for Afrikaners.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.382673+08:00",
-          "content_sha256": "fc220e2ff68b1b0ebd7dd8785db3cdcf96e951612a47aca56a7961d9dc361fb9",
-          "excerpt": "Last year, Trump accused South Africa of white genocide in a meeting with President Cyril Ramaphosa at the White House and launched a US refugee pathway for Afrikaners.",
-          "sentence_hash": "9d87616f1dbbcffbba6d7e40459fae9f8456521b556e5bc4732aeac0f474c3df",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "the trump",
-        "rwanda",
-        "south africa leo brent bozell",
-        "washington",
-        "opportunity act",
-        "trade representative jamieson greer",
-        "president donald trump",
-        "treasury",
-        "iii",
-        "south african",
-        "afrikaners",
-        "last",
-        "president cyril ramaphosa",
-        "agoa",
-        "in rwanda",
-        "for south africa",
-        "greer",
-        "january",
-        "ambassador",
-        "published",
-        "south africa",
-        "congo",
-        "white house",
-        "african",
-        "the african growth",
-        "congress",
-        "us",
-        "dr",
-        "trump"
-      ],
-      "numbers": [],
-      "dates": [
-        "January 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 4,
-        "anchor_count": 30
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_98e84c32128d775032459f80",
-      "title": "beenuar/AiSOC",
-      "url": "https://github.com/beenuar/AiSOC",
-      "publisher": "GitHub Trending",
-      "summary": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.https://beenuar.github.io/AiSOC/ \n  \n AiSOC \n An open-source, self-hostable AI Security Operations Center. It ingests your security telemetry, detects and correlates threats, investigates them with AI agents whose reasoning is fully audit",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "开源AI安全运营中心值得关注",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.383977+08:00",
-          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
-          "excerpt": "Technical Guide (PDF) · Docs · Architecture · What actually works · Discussions Telemetry arrives from your security tools.",
-          "sentence_hash": "3a5dbfeeb5d53309f736bf493de2463320ad7314730ecacc24234f3eb61f0f8a",
-          "anchors": [
-            "all"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "AiSOC normalizes it, runs the 2538 executable rules of its 7023-rule library, groups what fires into incidents, investigates each one with an AI agent whose every prompt and tool call is recorded, and proposes an action.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.384016+08:00",
-          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
-          "excerpt": "AiSOC normalizes it, runs the 2538 executable rules of its 7023-rule library, groups what fires into incidents, investigates each one with an AI agent whose every prompt and tool call is recorded, and proposes an action.",
-          "sentence_hash": "7217e3bf27ddd4a0bb3341280f6bf30f566b18248cbe914eedd67423e671c5b8",
-          "anchors": [
-            "all"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Watch the full three minutes — install to AI verdict on one server against the published images, terminal waits shortened and the recording saying so on screen.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.384054+08:00",
-          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
-          "excerpt": "Watch the full three minutes — install to AI verdict on one server against the published images, terminal waits shortened and the recording saying so on screen.",
-          "sentence_hash": "831dff59bfe2e121eedeb20c10d435ee76d367bbeeece72f974d315bc32775c9",
-          "anchors": [
-            "all",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "(step by step · what is real) git clone https://github.com/beenuar/AiSOC && cd AiSOC make up On Windows, or on a machine with nothing installed yet, one line does the prerequisites too: iwr -useb https://raw.githubusercontent.com/beenuar/AiSOC/main/install.ps1 | iex (curl -fsSL h",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.384100+08:00",
-          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
-          "excerpt": "(step by step · what is real) git clone https://github.com/beenuar/AiSOC && cd AiSOC make up On Windows, or on a machine with nothing installed yet, one line does the prerequisites too: iwr -useb https://raw.githubusercontent.com/beenuar/AiSOC/main/install.ps1 | iex (curl -fsSL h",
-          "sentence_hash": "bc002789567b0df7d7686399ae3fd8d9c669c71fb087bfb1cef9ccd52f711196",
-          "anchors": [
-            "all",
             "ai",
-            "git"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Without Docker at all, pip install aisoc-sandbox && aisoc-sandbox demo walks one alert through the agent funnel offline in under 30 seconds.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.384127+08:00",
-          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
-          "excerpt": "Without Docker at all, pip install aisoc-sandbox && aisoc-sandbox demo walks one alert through the agent funnel offline in under 30 seconds.",
-          "sentence_hash": "bdf6ed48f08b93b8bf52f051b522e7246eb3c34dc177c5bab56b08eb49c6a070",
-          "anchors": [
-            "all",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "All four end at the same console; only the first three install anything.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.384150+08:00",
-          "content_sha256": "8eefb830ab082d6976113fb396b2a732d76baf4736dbf35b1867bba4c9a0555e",
-          "excerpt": "All four end at the same console; only the first three install anything.",
-          "sentence_hash": "d3415351990bbe49801888b21711f847c5bf12dd3eef894963b52ec6101b0c83",
-          "anchors": [
-            "all"
-          ]
-        }
-      ],
-      "entities": [
-        "vm",
-        "architecture",
-        "watch",
-        "api",
-        "linux",
-        "args",
-        "docker",
-        "docs",
-        "rest",
-        "needs docker compose",
-        "discussions\ntelemetry",
-        "mcp",
-        "without docker",
-        "pdf",
-        "the technical guide",
-        "lost",
-        "security operations center",
-        "ai",
-        "without",
-        "installation",
-        "gb",
-        "technical guide",
-        "on windows",
-        "hub codespaces",
-        "kafka",
-        "all",
-        "git",
-        "then"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 28
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_f640cbfc604521b4afff93bb",
-      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-      "url": "https://momentic.ai/",
-      "publisher": "Hacker News",
-      "summary": "Hey HN, we’re Wei-Wei and Jeff. We’re building Momentic, QA agents that autonomously plan, explore, and bug-bash controls and user flows in your web, iOS, Android, and (soon) desktop apps to catch bugs.Here’s a demo: https://youtu.be/BFsM-Se1Fh8We’re both software engineers that spent our careers on dev tooling and infra across companies like Robinhood, Retool, WeWork, and Qualtrics. Testing was always a pain in the ass (esp Playwright and Selenium), so we built agents to do it for us.Modern day",
-      "category": "科技",
-      "published_at": "2026-11-02T17:05:25+00:00",
-      "why_relevant": "QA智能体自动抓bug概念新颖",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.385431+08:00",
-          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
-          "excerpt": "New-device 2FA prompt skipped At a consumer fintech app, a login routing change bypassed the new-device verification step.",
-          "sentence_hash": "87678c5388b97374f390c0412b7bf1ca6265a716220bdfe78f2cb9211fe11776",
-          "anchors": [
-            "verification"
+            "traders",
+            "futures"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Mo is an AI QA engineer that tests your app end to end.",
+          "text": "S&P 500 futures traded 0.1% higher, as did Nasdaq-100 futures.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.385461+08:00",
-          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
-          "excerpt": "Mo is an AI QA engineer that tests your app end to end.",
-          "sentence_hash": "b96d2a254cbd8f2af5b1f89ff71dd25509550f32887c00641dbc1de1190c8587",
+          "captured_at": "2026-11-04T08:03:18.431494+08:00",
+          "content_sha256": "86929bc39a7b8ee3c7cc5d8d9ad7ba0d13f5dd6f53c286151ff7c0a37fd29f6a",
+          "excerpt": "S&P 500 futures traded 0.1% higher, as did Nasdaq-100 futures.",
+          "sentence_hash": "e284f06a8ca5496850e3fbbd47586c10e510394d0e38fe0021f9577ab299395c",
           "anchors": [
-            "end",
-            "test"
+            "0.1%",
+            "futures",
+            "1%"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Trusted by leading engineering teams.",
+          "text": "Futures tied to the Dow Jones Industrial Average were down 50 points, or 0.1%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.385483+08:00",
-          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
-          "excerpt": "Trusted by leading engineering teams.",
-          "sentence_hash": "09c2c3dcbb0a9670fe0bfe8cfda95c4dd730c6d483803bae614f9defd27e0f55",
+          "captured_at": "2026-11-04T08:03:18.431511+08:00",
+          "content_sha256": "86929bc39a7b8ee3c7cc5d8d9ad7ba0d13f5dd6f53c286151ff7c0a37fd29f6a",
+          "excerpt": "Futures tied to the Dow Jones Industrial Average were down 50 points, or 0.1%.",
+          "sentence_hash": "8d7914e7cc8f44693728912ebb9742b3ce908ac6c3015376525f92fd4d5a019c",
           "anchors": [
-            "engineering"
+            "0.1%",
+            "1%"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Verification has to keep up.",
+          "text": "AMD had the biggest influence over the market as futures trading began, with its shares surging double digits in post-market action.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.385507+08:00",
-          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
-          "excerpt": "Verification has to keep up.",
-          "sentence_hash": "0c3138cc479ab05f84307fb0822f8ecd195ecc9e56af576372ef9d8e8d029f7d",
+          "captured_at": "2026-11-04T08:03:18.431529+08:00",
+          "content_sha256": "86929bc39a7b8ee3c7cc5d8d9ad7ba0d13f5dd6f53c286151ff7c0a37fd29f6a",
+          "excerpt": "AMD had the biggest influence over the market as futures trading began, with its shares surging double digits in post-market action.",
+          "sentence_hash": "74598364350a99eea47180aef0db71f5ed80a01b7fd50e8dc67ac8878c8963eb",
           "anchors": [
-            "keep"
+            "futures"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Coding agents have made it dramatically faster to build software.",
+          "text": "According to polls and prediction markets, there is near certainty that Democrats will take control of the House, with traders on Kalshi and Polymarket calling for a more than 90% chance of victory in that chamber.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.385546+08:00",
-          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
-          "excerpt": "Coding agents have made it dramatically faster to build software.",
-          "sentence_hash": "ebd478fac8a6ed83b5e8f6a4d9d843cb07378365bb4842872d468fa67a244a4a",
+          "captured_at": "2026-11-04T08:03:18.431565+08:00",
+          "content_sha256": "86929bc39a7b8ee3c7cc5d8d9ad7ba0d13f5dd6f53c286151ff7c0a37fd29f6a",
+          "excerpt": "According to polls and prediction markets, there is near certainty that Democrats will take control of the House, with traders on Kalshi and Polymarket calling for a more than 90% chance of victory in that chamber.",
+          "sentence_hash": "7ac3e15f0eac8a587818a58d1e1856774a79357d433c428c7bd425c909d3db17",
           "anchors": [
-            "agents",
-            "ui"
+            "ai",
+            "traders",
+            "90%"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Agents need evidence from the app itself to verify that their changes deliver the intended behavior.",
+          "text": "Traders are less certain about Senate control, though contracts for that outcome stand at more than 70% for Democrats.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.385578+08:00",
-          "content_sha256": "2057a6085bcd73aa46e030a31cbea670aea8727b4c75b54d0435b9f48376a656",
-          "excerpt": "Agents need evidence from the app itself to verify that their changes deliver the intended behavior.",
-          "sentence_hash": "86d7d169e1cf9b0c294cf116d294061cd84e5791b4bfacad783d19403011f87e",
+          "captured_at": "2026-11-04T08:03:18.431583+08:00",
+          "content_sha256": "86929bc39a7b8ee3c7cc5d8d9ad7ba0d13f5dd6f53c286151ff7c0a37fd29f6a",
+          "excerpt": "Traders are less certain about Senate control, though contracts for that outcome stand at more than 70% for Democrats.",
+          "sentence_hash": "4af3f2469a4ff92036745ebe48d5d9896242ea46ef0d0018f2f3755aa6235859",
           "anchors": [
-            "end",
-            "verify"
+            "ai",
+            "70%"
           ]
         }
       ],
       "entities": [
-        "reuse",
-        "get",
-        "describe",
-        "verify",
-        "knowledge",
-        "agents",
-        "poe",
-        "explore\nwrite",
-        "type",
-        "cli",
-        "apply",
-        "ci",
-        "service",
-        "ui",
-        "code",
-        "trusted",
-        "loved",
-        "english",
-        "maps",
-        "end",
-        "engineering",
-        "review",
-        "run",
-        "sso",
-        "trust center",
-        "qa",
-        "compliance",
-        "momentic",
-        "see",
-        "use",
-        "place order",
-        "independently",
+        "democrat",
+        "republicans",
+        "dow jones industrial average",
+        "nvidia",
+        "advanced micro devices",
+        "nasdaq",
+        "according",
+        "stock",
+        "cnbc",
+        "osaic",
+        "amd",
+        "kalshi",
+        "democrats",
+        "polymarket",
+        "micron technology",
+        "history",
+        "futures",
+        "wednesday",
+        "conversely",
+        "nasdaq composite",
+        "tuesday",
+        "traders",
+        "philip blancato",
+        "house",
+        "senate",
+        "intel",
         "ai",
-        "give",
-        "permanent",
-        "write",
-        "coding",
-        "yaml",
-        "verification",
-        "keep",
-        "soc",
-        "test",
-        "finish"
+        "representatives",
+        "democratic",
+        "investors",
+        "blancato",
+        "wall street"
       ],
       "numbers": [
-        "100%"
+        "0.1%",
+        "1%",
+        "90%",
+        "70%"
       ],
       "dates": [],
       "unknowns": [
@@ -1293,7 +1441,7 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 44
+        "anchor_count": 36
       },
       "evidence_complete": true
     }

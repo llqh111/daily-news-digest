@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-03 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-04 08:06。
+
+## JustVugg/colibri
+- 状态：更新中；首见 2026-09-15；最近更新 2026-11-04
+- 最新事实：Website · Discord · English · 简体中文 · 繁體中文 · Italiano · 日本語 · Bahasa Indonesia · Português (Brasil) Tiny engine, immense model.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260915_65851864405e`
+
+## China’s new nightmare: a Japanese containment arc in the Indo-Pacific
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director
+- 事件 ID：`evt_20261104_77c3a54be41a`
+
+## Binance says fake job interviews used as part of $6.3bn crypto hack
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_42524afbec5c`
+
+## Valve is making changes to deal with a ‘significant increase’ in Steam game submissions
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_933b17703d22`
+
+## China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_bd775dc7969b`
+
+## Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.
+- 事件 ID：`evt_20261104_2a80d5268072`
+
+## US midterm election results live: Polls start closing in some states
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：Live updatesLive updates, US midterm election results live: Polls start closing in some states Polls to start closing in waves across the country, with the earliest closures at 23:00 GMT in Indiana and Kentucky.
+- 事件 ID：`evt_20261104_5967552cebb1`
+
+## Trump says US close to trade deal with Canada, Carney says work remains
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_c1e2dc70b2e8`
+
+## US midterms: what happened while Asia slept, and when to expect results
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：US midterms: what happened while Asia slept, and when to expect results Apart from tech issues at some polling stations, voting went smoothly despite Trump’s claims of fraud and an ICE warning to illegal voters The first polls closed at 6pm Eastern Time (7am Hong Kong time), with
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_25015d189774`
+
+## Could the AI boom make borrowing more expensive in Europe?
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：Could the AI boom make borrowing more expensive in Europe?
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_b0215fbdee39`
+
+## Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：Apple said in its annual financial filing on Tuesday that AI agents that can act in "unintended or unpredictable ways" could represent a threat to its business by opening the company up to lawsuits or hurting its reputation.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_bff0e5698f49`
+
+## US has no immediate plan to strike Iran, Trump tells FT
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261104_c7a065b1738a`
+
+## S&P 500 futures gain slightly on AMD's strong earnings as traders await election results: Live updates
+- 状态：更新中；首见 2026-11-04；最近更新 2026-11-04
+- 最新事实：Stock futures gained Tuesday evening as strong results from chipmaker Advanced Micro Devices boosted sentiment and traders largely anticipated Democrats to win the House of Representatives — and possibly squeak out a majority in the Senate — as results of 2026 U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261104_024cf529c40b`
 
 ## Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say
 - 状态：更新中；首见 2026-11-03；最近更新 2026-11-03

@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T00:08:22.094260+00:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T00:06:44.704428+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-03.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-04.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-02.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-03.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,431 +23,298 @@
   },
   "items": [
     {
-      "article_id": "a1_2ad642d3e34d22465c813d09",
-      "title": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373046/netanyahu-pressing-trump-attack-iran-after-us-midterm-elections-officials-say",
+      "article_id": "a1_2ccd3978f877c3bb2e49e958",
+      "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
       "publisher": "SCMP",
-      "summary": "Israeli Prime Minister Benjamin Netanyahu is pushing for another wave of strikes on Iran after Tuesday’s midterm elections in the United States, according to two regional officials and a third person familiar with the matter.\nA return to full-scale war with Iran could help Netanyahu to form an emergency government after he and his far-right allies lost their parliamentary majority in last week’s elections. US President Donald Trump has alternated between threatening major strikes while pushing..",
+      "summary": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware. The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.\nJapan mobilised its new Type 25 missile, with a reported 1,000km range, from Kumamoto for the system’s...",
       "category": "国际",
-      "published_at": "2026-11-02T22:16:52+00:00",
-      "why_relevant": "内塔尼亚胡施压袭伊朗",
+      "published_at": "2026-11-03T21:30:06+00:00",
+      "why_relevant": "印太战略布局，中国周边地缘核心",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
+          "text": "Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.372916+08:00",
-          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
-          "excerpt": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say Netanyahu is working with senior US figures to persuade Trump to launch a quick but extensive air campaign in Iran, an official said Israeli Prime Minister Benjamin Netanyahu is pushing for anoth",
-          "sentence_hash": "653efb3cab2071e3a5f892af417c4ff807c9e2587a09c04004c5677bd85b2c64",
+          "captured_at": "2026-11-04T08:03:18.421885+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director",
+          "sentence_hash": "61eefaca6713e344b9f310dc459a44dc95cd709dee975d41dfc4a49a22918965",
           "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
+          "text": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.372956+08:00",
-          "content_sha256": "749b105251ed8b9c01946491679fe9658efd6f3409052c2bbfede38ef10e98cc",
-          "excerpt": "US President Donald Trump has alternated between threatening major strikes while pushing for a deal with Iran.",
-          "sentence_hash": "4fab70183f8c8c2062850425298d6445471aeb54e3b13438dd5f520788d5b4fc",
+          "captured_at": "2026-11-04T08:03:18.421926+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware.",
+          "sentence_hash": "43eafb84a088be53f861242fc08511d413665a5d60dfe7ede99d2024580be595",
           "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "hormuz",
-        "united states",
-        "president donald trump",
-        "iranian",
-        "netanyahu",
-        "tuesday",
-        "strait",
-        "iran",
-        "qatari",
-        "us",
-        "israeli prime minister benjamin netanyahu",
-        "trump"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 12
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
-      "source_artifact_date": "2026-11-03",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_9e502d4d2d88f7b75b90d8c3",
-      "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
-      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Hit hard by Trump&#039;s tariffs and the war on Iran, countries in the Asia-Pacific want &#039;enormous changes&#039; in US policies.",
-      "category": "国际",
-      "published_at": "2026-11-02T23:41:18+00:00",
-      "why_relevant": "美中期选举对亚太影响",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374410+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "War, tariffs and China: What the US midterms mean for the Asia-Pacific Hit hard by Donald Trump’s tariffs and the war on Iran, countries in the Asia-Pacific region want ‘enormous changes’ in US foreign policy.",
-          "sentence_hash": "012b540a3c2fb08f51ece7fd57c60eefe14998988bf3f3ca94b74825836ebb92",
-          "anchors": [
-            "war",
-            "us",
-            "tariffs"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374465+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "Kuala Lumpur, Malaysia – Across the Asia-Pacific region, governments and businesses reeling from the energy shock of the United States and Israel’s war on Iran are watching Tuesday’s US midterm elections closely.",
-          "sentence_hash": "f23993d1f8006cbab4ed95c252ab554b7c91106ba6687342e5e225c8ffa7bcfc",
-          "anchors": [
-            "war",
             "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
+          "text": "The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374508+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "Many want to see “enormous changes” during the rest of President Donald Trump’s term, analysts say, from the war on Iran to his policies on trade and tariffs.",
-          "sentence_hash": "cf5747d5587ecaf0aee16e4e4563cebd9d9ba490027f09c6b27e67ab8d294c6f",
+          "captured_at": "2026-11-04T08:03:18.421960+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.",
+          "sentence_hash": "00ead991819a9c9771db4a93704fb8a1ff9a35c2b0df5ab4e7b8424c513aa027",
           "anchors": [
-            "war",
+            "just",
             "us",
-            "tariffs"
+            "October 29"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
+          "text": "In early August, Japanese Defence Minister Shinjiro Koizumi swung through Canberra and New Delhi, signing a hypersonic missile-testing agreement with Australia and a dedicated maritime security memorandum with India.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374583+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "But few expect that to happen, even with the Democrats poised to take the House of Representatives, and potentially the Senate, from Trump’s Republican Party.",
-          "sentence_hash": "16503f6f57d92172a4e5f7ca68cd50d3b068a64cf8a7b3618ba29fc77e8bfece",
+          "captured_at": "2026-11-04T08:03:18.422013+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "In early August, Japanese Defence Minister Shinjiro Koizumi swung through Canberra and New Delhi, signing a hypersonic missile-testing agreement with Australia and a dedicated maritime security memorandum with India.",
+          "sentence_hash": "89ed1227ed5ad6a4ca558e7006316736abd3098a5183e9e10453831fac8803ae",
           "anchors": [
-            "public",
             "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
+          "text": "They are building blocks of an autonomous Indo-Pacific network Tokyo is constructing as Washington’s attention fractures between its war with Iran, alliance disputes and domestic politics.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374636+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "“It’s great political theatre.” Outside the Middle East, no region has been hit harder by the war on Iran than the Asia-Pacific.",
-          "sentence_hash": "55b88495da71d77a92aabaed292b949c63a6bfafe60aa8cbe6286538b323bbfe",
+          "captured_at": "2026-11-04T08:03:18.422044+08:00",
+          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
+          "excerpt": "They are building blocks of an autonomous Indo-Pacific network Tokyo is constructing as Washington’s attention fractures between its war with Iran, alliance disputes and domestic politics.",
+          "sentence_hash": "9b6bcbbea8311014179fdae83fa8189efbd2a9e8bb47e570cc9c9f9db4e05370",
           "anchors": [
-            "war"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.374693+08:00",
-          "content_sha256": "0d5c428b4975e087372b2574e298f85281f131c9a175f3f3ff7494b78b20119b",
-          "excerpt": "The Philippines, which relies on the Gulf for more than 90 percent of its crude oil imports, has been under a national energy emergency since March.",
-          "sentence_hash": "2d48246609a3bbee02a254fe1a59d76d40356e1b15c5c3145c030bd7f924698f",
-          "anchors": [
-            "under"
+            "us"
           ]
         }
       ],
       "entities": [
-        "kuala lumpur",
-        "outside",
-        "myanmar",
-        "china",
-        "gulf",
-        "when iran",
-        "president donald trump",
-        "before",
-        "many",
-        "soaring",
+        "joint operations command",
+        "japanese defence minister shinjiro koizumi",
         "institute",
-        "representatives",
-        "democrat",
-        "war",
-        "east timor",
-        "across",
-        "singapore",
-        "southeast asian studies",
-        "middle east",
-        "united states",
-        "laos",
-        "indonesia",
-        "pacific\nhit",
-        "senate",
-        "steven okun",
-        "strait",
-        "apac",
-        "with iran",
-        "al jazeera",
-        "congress",
-        "advisors",
-        "us",
-        "but",
-        "yusof ishak institute",
-        "under",
-        "tariffs",
-        "okun",
-        "malaysia",
-        "house",
-        "public",
-        "iran",
-        "thailand",
-        "iseas",
-        "hormuz",
-        "asia",
-        "republican party",
-        "january",
-        "cambodia",
-        "donald trump",
-        "constitution",
-        "israel",
-        "overriding",
-        "the philippines",
-        "tuesday",
-        "vietnam",
-        "democrats",
-        "democratic",
-        "march",
+        "world war",
+        "white house",
+        "kumamoto",
+        "madis",
+        "china",
+        "august",
+        "type",
+        "japan",
+        "india",
+        "alberta",
+        "diplomacy",
         "pacific",
-        "trump"
+        "university",
+        "just",
+        "advertisement\nopinion\nchina",
+        "listen\nwenran jiang",
+        "min",
+        "japanese",
+        "chinese president xi jinping",
+        "marine",
+        "nmesis",
+        "mactaggart research chair emeritus",
+        "canberra",
+        "washington",
+        "october",
+        "us",
+        "ii",
+        "keen sword",
+        "china institute",
+        "new delhi",
+        "peace",
+        "indo",
+        "they",
+        "tokyo",
+        "yonaguni",
+        "iran",
+        "president donald trump",
+        "australia",
+        "taiwan"
       ],
       "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 60
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
-      "source_artifact_date": "2026-11-03",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_b1a3abfa934497f858e4b9c6",
-      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
-      "category": "国际",
-      "published_at": "2026-11-02T21:10:04+00:00",
-      "why_relevant": "俄军轰炸致乌援助中心死伤",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375813+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says - Published At least 26 people were killed after Russian bombs hit an aid distribution centre, in an attack that Ukraine's leader has called \"utterly horrific\".",
-          "sentence_hash": "2f04600408c83cd6de737138cfe4da73b904a171bb8a57ca22e8beb464d1de1f",
-          "anchors": [
-            "26 people",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375857+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "President Volodymyr Zelensky said that after the first strike on the local school \"used for humanitarian needs\", there was a second attack on the place where people were sheltering.",
-          "sentence_hash": "2ba83d8a80f6e1b30c5721773ad194cbfc086017f0c610e45cd07a39dbc529fa",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375881+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "He posted a video showing a huge crater left after Monday's attack, and rescuer teams searching through the rubble.",
-          "sentence_hash": "3924bf5b09d1c6d90abaa1943cecfb8e13e4cf1ed7e503152624b66db65247eb",
-          "anchors": [
-            "teams"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The Russian military has not publicly commented.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375898+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "The Russian military has not publicly commented.",
-          "sentence_hash": "ced779a0d917e116fc510dd045911021a51028c2dcf3f7c4dcb015475e70cd9a",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375930+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "Zelensky initially put the death toll at 18, but Ukraine's state emergencies service DSNS later said 24 people, including two rescuers and four police officers, were confirmed to have been killed.",
-          "sentence_hash": "5fcc52c05638673deb5ca342fb3b048a59ba49e858323137e871d7af4d373eff",
-          "anchors": [
-            "24 people"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.375953+08:00",
-          "content_sha256": "73820014b3dc8ffd014712c4751316148c0b3b6bb54ffacaeb6b8c378b489258",
-          "excerpt": "In his video address late on Monday, Zelensky said 26 people were now known to have died.",
-          "sentence_hash": "0e929026546520be88e234d07f082f228b59f66a93fb286c2b8d3824de495163",
-          "anchors": [
-            "26 people"
-          ]
-        }
-      ],
-      "entities": [
-        "first lady melania trump",
-        "kyiv",
-        "komyshuvakha",
-        "semikin",
-        "russian",
-        "published\nat",
-        "abu dhabi",
-        "moscow",
-        "oleshky",
-        "teams",
-        "the russian",
-        "united arab emirates",
-        "ukraine",
-        "mykhailo semikin",
-        "with",
-        "russians",
-        "president volodymyr zelensky",
-        "russia",
-        "us",
-        "monday",
-        "zelensky",
-        "dsns",
-        "zaporizhzhia",
-        "february",
-        "published",
-        "russian president vladimir putin",
-        "western",
-        "tuesday",
-        "five",
-        "however",
-        "meanwhile",
-        "ukrainian"
-      ],
-      "numbers": [
-        "26 people",
-        "24 people"
-      ],
       "dates": [
-        "February 20"
+        "October 29"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 35
+        "fact_count": 5,
+        "anchor_count": 43
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
-      "source_artifact_date": "2026-11-03",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
+      "source_artifact_date": "2026-11-04",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_70e442b6ded99fb67e81a032",
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "publisher": "The Verge",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-11-02T18:56:02+00:00",
-      "why_relevant": "Anthropic限制AI游戏克隆",
-      "relevance_score": 8.0,
+      "article_id": "a1_dfeb2468173f13dcd28439d4",
+      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
+      "category": "国际",
+      "published_at": "2026-11-03T16:19:29+00:00",
+      "why_relevant": "币圈$6.3B攻击手法，安全逆向必读",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
+          "text": "Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.376775+08:00",
-          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
-          "excerpt": "Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code’s system prompt: “Do build original games, games in a genre, and games from the user’s own designs and assets.",
-          "sentence_hash": "a34a2f0a9d5f4816f08150af89330b6b7738a9990abc33aa6a3414d571293647",
+          "captured_at": "2026-11-04T08:03:18.423158+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
+          "sentence_hash": "9aa4cf444e6344db01b51d54ed62c440e9b13b939bcd5d4cc205fdd1a10cd595",
           "anchors": [
-            "original"
+            "$6.3",
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
+          "text": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.376824+08:00",
-          "content_sha256": "898ba205e46fa88e61263d9816a7aaf4c40f1a4ca42f28895c2819af97126705",
-          "excerpt": "Don’t build a recreation of a specific existing game, even if it is named or called original.” Anthropic’s Addy Osmani, in a reply, didn’t confirm that specific language but did say that the company had updated the prompt in Claude Code on Opus 5.5: We added two sentences to Clau",
-          "sentence_hash": "ca7c1e1abdcd9617db0841f2537313a2c472abba7c3be9d92e847c9e424dd14d",
+          "captured_at": "2026-11-04T08:03:18.423182+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
+          "sentence_hash": "691afc8165caa4859d2e8ce4dfc77f0f1be207ec65dcba488dc20ca5d273628c",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423204+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
+          "sentence_hash": "daabdb1ecbd9ce7c5923d0f552476d1a5c1720b1c041b9116fe7f07c6cb8060a",
           "anchors": [
             "ai",
-            "original"
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423223+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
+          "sentence_hash": "398aa28adea8fda495bcc96cd960781c4301397d2e9377d9ff076fe788d512b9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In a post on X, external, Binance said hackers targeted its engineers using social engineering techniques.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423238+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "In a post on X, external, Binance said hackers targeted its engineers using social engineering techniques.",
+          "sentence_hash": "16ed3609a10776857150494d18fe7a74828990f687200bcf4542976415e262f7",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "These see hackers use approaches such as phishing to trick people into parting with sensitive or personal details, that can then be used to try and access their accounts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423258+08:00",
+          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
+          "excerpt": "These see hackers use approaches such as phishing to trick people into parting with sensitive or personal details, that can then be used to try and access their accounts.",
+          "sentence_hash": "f1cc20b054a0664af07ad63beb81ca05b053a4f3e371ce1b49c287bdb9866df7",
+          "anchors": [
+            "ai",
+            "us"
           ]
         }
       ],
       "entities": [
-        "don",
+        "north korea",
+        "customers",
+        "october",
+        "federal bureau",
+        "us",
+        "initial",
+        "saturday",
         "ai",
-        "claude code",
-        "claude",
-        "hardware",
-        "addy osmani",
-        "opus",
-        "last",
-        "retro",
-        "ip",
-        "tom",
-        "original",
-        "anthropic"
+        "secret service",
+        "these",
+        "fbi",
+        "binance",
+        "sunday",
+        "published\nhackers",
+        "investigation"
+      ],
+      "numbers": [
+        "$6.3",
+        "98%",
+        "100%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 18
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
+      "source_artifact_date": "2026-11-04",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_8f66a4ed7af89826d3aa766d",
+      "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
+      "url": "https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions",
+      "publisher": "The Verge",
+      "summary": "In a new post today, Valve acknowledged that it's seen \"a significant increase in submissions for store and page review in recent months\" and says it's \"running a little behind\" by taking \"up to 12 business days\" for reviews instead of the typical 3-5 days. Indie developers have recently expressed frustrations over lengthy approval times [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-03T22:15:33+00:00",
+      "why_relevant": "Steam提交审核变动，硬核玩家必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.423808+08:00",
+          "content_sha256": "f160a9688e1591a0dc8aa6bcbf663305816b241127a30651ba9a2af73388059c",
+          "excerpt": "“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir",
+          "sentence_hash": "dede6197701087df259ff8c504b6b061f192a5ffb777bc0a2677721d45bb0c04",
+          "anchors": [
+            "direct"
+          ]
+        }
+      ],
+      "entities": [
+        "visual",
+        "indie",
+        "other",
+        "direct",
+        "believe",
+        "steam",
+        "valve"
       ],
       "numbers": [],
       "dates": [],
@@ -457,140 +324,303 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 13
+        "fact_count": 1,
+        "anchor_count": 7
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
-      "source_artifact_date": "2026-11-03",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
+      "source_artifact_date": "2026-11-04",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_c7dd4e6255ca03c27a0e0dcd",
-      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
-      "publisher": "Tom's Hardware",
-      "summary": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections. The company is also promoting the term “AI compute campuses” for its data centers as it seeks to address concerns over electricity demand, water consumption, pollution and rising utility bills",
+      "article_id": "a1_66df62ef274106fb19515606",
+      "title": "China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs",
+      "url": "https://wccftech.com/china-going-for-domestic-full-stack-ai-dominance-deepseek-will-train-its-upcoming-v5-model-from-scratch-on-huaweis-ascend-950dt-based-atlas-superpods/",
+      "publisher": "Wccftech",
+      "summary": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability. To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model. If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by th",
       "category": "科技",
-      "published_at": "2026-11-02T19:15:31+00:00",
-      "why_relevant": "OpenAI数据中心品牌调整策略",
-      "relevance_score": 8.0,
+      "published_at": "2026-11-03T15:36:40+00:00",
+      "why_relevant": "DeepSeek+华为昇腾，国产AI关键动态",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
+          "text": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378128+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies — company reportedly sees 2028 presidential election becoming an 'AI issue' OpenAI plans community agreements and infrastructure commitments as it prepares to rebrand data center",
-          "sentence_hash": "0e87cec732f89ec90d082e4994c796c23bd7ed54288727d481a08e77ac8facdf",
+          "captured_at": "2026-11-04T08:03:18.424741+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.",
+          "sentence_hash": "eed0d6a7fe63d1b05a80cacabc8241de3d24f843502f2ddc76f6c6bcfe4d2ca0",
           "anchors": [
-            "compute",
-            "data",
             "ai",
-            "compute campuses"
+            "for"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The initiative comes ahead of the November 3 U.S.",
+          "text": "To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378152+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "The initiative comes ahead of the November 3 U.S.",
-          "sentence_hash": "4805452fb94b2c7eef6791ed7d194c79ea799357457f0db0516468e3698c0370",
+          "captured_at": "2026-11-04T08:03:18.424767+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model.",
+          "sentence_hash": "8c4f84ef905feec1beb93aede1c04fb16e19c83365719a0add4b612bc0313750",
           "anchors": [
-            "November 3"
+            "ai",
+            "for"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
+          "text": "If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by the CUDA-like 'TileLang' kernel compiler.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378203+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "Chris Lehane, OpenAI’s chief global affairs officer, noted that the midterms would be “a bit of a movie trailer for what you’re going to see in 2028.” He expects AI to be a major issue for presidential candidates as the technology raises concerns over its impact on jobs, the econ",
-          "sentence_hash": "d39e9509b473b22ec78658bf7a8d68cc98b87edcb5fcb9c83a8afbaf41c44342",
+          "captured_at": "2026-11-04T08:03:18.424790+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by the CUDA-like 'TileLang' kernel compiler.",
+          "sentence_hash": "700abe8c2501eaff7ac2e31b36f89b563c0574379421ab6c0a277121603ee304",
           "anchors": [
             "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
+          "text": "DeepSeek has ordered around 160,000 Huawei Ascend 950DT chips, with deliveries slated to ramp up in Q4 2026 According to reputable tipsters such as Jukan and Teortaxes on X, DeepSeek intends to train its ~8-trillion-parameter V5 model on Huawei's Ascend chips.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378246+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "The proposed terminology change by OpenAI has been ongoing since August as the company focuses on promoting safeguards for the powerful technology, which Lehane described as “speed limits.” The proposed AI compute campuses is particularly interesting as it comes as opposition to ",
-          "sentence_hash": "efa5b1e75ab83cdcb61fb25fee9d506d7673f3c03352b783a22b92068610082f",
-          "anchors": [
-            "data",
-            "compute",
-            "compute campuses"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378274+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "Data centers require enormous amounts of electricity and water, with nearby communities raising concerns about noise, air pollution, rising utility bills and limited public consultation.",
-          "sentence_hash": "4355fc64501d519ec522b21bb0131f5ad6e5533a544e530b9663e7c007f05117",
+          "captured_at": "2026-11-04T08:03:18.424819+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "DeepSeek has ordered around 160,000 Huawei Ascend 950DT chips, with deliveries slated to ramp up in Q4 2026 According to reputable tipsters such as Jukan and Teortaxes on X, DeepSeek intends to train its ~8-trillion-parameter V5 model on Huawei's Ascend chips.",
+          "sentence_hash": "1246878b7599075d715eeceb0c77cb8f551a04c4eb7751b56ea7f0f423f1de60",
           "anchors": [
             "ai"
           ]
         },
         {
-          "fact_id": "f6",
-          "text": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
+          "fact_id": "f5",
+          "text": "Do note that the street price of each Ascend 950DT chip currently hovers at around 111,000 Yuan or ~$16,000 (vs.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-03T08:03:32.378317+08:00",
-          "content_sha256": "461a4f92052e16b5ea2b08e4c099fb5b5e90a0dd88469b2322a67fca34e3eba7",
-          "excerpt": "In January, Microsoft announced a community-first approach, promising to cover electricity cost increases associated with its data centers, and invest in local infrastructure and jobs.",
-          "sentence_hash": "902d38722fb33f0b3ee47df64dce02ff20f1f9c5f56aa1686d3ef0a8e0fd6460",
+          "captured_at": "2026-11-04T08:03:18.424847+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "Do note that the street price of each Ascend 950DT chip currently hovers at around 111,000 Yuan or ~$16,000 (vs.",
+          "sentence_hash": "799483142d4d3b377b4be9da3d00af8ba130b563b0dc09fa467b8b8faa44b139",
           "anchors": [
-            "data"
+            "$16,000 "
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "$15,000 to $25,000 for NVIDIA's H20 GPU), and DeepSeek's total order might amount to as much as ~$2.56 billion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.424866+08:00",
+          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
+          "excerpt": "$15,000 to $25,000 for NVIDIA's H20 GPU), and DeepSeek's total order might amount to as much as ~$2.56 billion.",
+          "sentence_hash": "aeba14bd0774614d00a7b32baebeff57448d777a09feac3ba69bb1b18f9ab2e9",
+          "anchors": [
+            "$2.56 billion",
+            "$15,000 ",
+            "for",
+            "2.56 billion",
+            "$25,000 "
           ]
         }
       ],
       "entities": [
-        "redfin",
-        "chris lehane",
-        "lehane",
-        "august",
-        "data",
-        "another",
-        "open",
-        "axios",
-        "november",
-        "michigan",
+        "ascend",
+        "nvidia",
+        "vinci",
+        "after",
+        "huawei ascend",
+        "but",
+        "according",
+        "smic",
+        "china",
+        "high bandwidth memory",
+        "huawei",
+        "yuan",
+        "seek",
+        "gemm",
+        "hbm",
+        "supernodes",
+        "tile",
+        "lang",
+        "select",
+        "deep",
+        "gpu",
+        "mla",
+        "eflops",
+        "super",
+        "kernels",
+        "atlas",
+        "mongolia",
+        "flash",
+        "top",
+        "gb",
+        "for",
+        "teortaxes",
         "ai",
-        "compute campuses",
-        "microsoft",
-        "compute",
-        "americans",
-        "however",
-        "in january"
+        "tb",
+        "jukan",
+        "cuda"
       ],
       "numbers": [
-        "47%"
+        "$2.56 billion",
+        "$15,000 ",
+        "2.56 billion",
+        "$25,000 ",
+        "$16,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
+      "source_artifact_date": "2026-11-04",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_28d27c5c06788b874951f240",
+      "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+      "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+      "publisher": "The Verge",
+      "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-03T22:04:02+00:00",
+      "why_relevant": "币圈最大盗窃案，安全+金融必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425806+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.",
+          "sentence_hash": "85611cff2a4dbccdb1f69c0203e3dc71a3ad065e6de589d510851534c5e8a7b5",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview ass",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425839+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview ass",
+          "sentence_hash": "3d141f072c6463e283e306415e0d869fb95227b646a5849600fc24f4aa7ddf8e",
+          "anchors": [
+            "multi"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist A North Korean hacking unit reportedly started its break-in with a search engine ad that served up a malware download.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425867+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist A North Korean hacking unit reportedly started its break-in with a search engine ad that served up a malware download.",
+          "sentence_hash": "fbf64782f4e7b172e97bc9d2e70911fb28a20cadbb58cfbc8e7edd049c3e8757",
+          "anchors": [
+            "$6.3 billion",
+            "6.3 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Binance claims that its security teams did detect the first installation of malware in June, and replaced the worker’s device, but that its security tools didn’t detect the second attack that deleted the pyenv executable and replaced it with a malicious version that gave them bac",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425906+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "Binance claims that its security teams did detect the first installation of malware in June, and replaced the worker’s device, but that its security tools didn’t detect the second attack that deleted the pyenv executable and replaced it with a malicious version that gave them bac",
+          "sentence_hash": "6ec2406730fb91fd3d650f14125cc762935f98a416b7cd43005d876c73072a63",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "By October 20th, the story goes, the attackers, whom the FBI has identified as a North Korean unit dubbed “TraderTraitor,” used Binance’s own internal AI tool to gain control over wallets for the first engineer compromised in June, as well as a third employee, before logging into",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425951+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "By October 20th, the story goes, the attackers, whom the FBI has identified as a North Korean unit dubbed “TraderTraitor,” used Binance’s own internal AI tool to gain control over wallets for the first engineer compromised in June, as well as a third employee, before logging into",
+          "sentence_hash": "e99e58f416478c4a436b57ca689e60ab3fac3077230921c678702742a1ee9985",
+          "anchors": [
+            "ai",
+            "October 20",
+            "October 29"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The postmortem also goes into why Binance wasn’t able to stop the transactions that occurred nearly two hours after the first unauthorized transfers, saying that “Because the hot wallet used Multi-Party Computation (MPC), there was no single private key that could be used to imme",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-04T08:03:18.425992+08:00",
+          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
+          "excerpt": "The postmortem also goes into why Binance wasn’t able to stop the transactions that occurred nearly two hours after the first unauthorized transfers, saying that “Because the hot wallet used Multi-Party Computation (MPC), there was no single private key that could be used to imme",
+          "sentence_hash": "ac8455e85a26682bbacbd11c950cace2ff9c02e037d032ff8e321266e23382f5",
+          "anchors": [
+            "98%",
+            "2.85 billion",
+            "ai",
+            "2%",
+            "$2.85 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "north korea",
+        "october",
+        "june",
+        "north korean",
+        "traitor",
+        "trader",
+        "by october",
+        "google",
+        "fbi",
+        "binance",
+        "party computation",
+        "september",
+        "eip",
+        "mpc",
+        "withdrawals",
+        "ai",
+        "ceo",
+        "then",
+        "because",
+        "multi",
+        "richard teng"
+      ],
+      "numbers": [
+        "98%",
+        "2.85 billion",
+        "$6.3 billion",
+        "2%",
+        "6.3 billion",
+        "$2.85 billion"
       ],
       "dates": [
-        "November 3"
+        "October 20",
+        "October 29"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 19
+        "anchor_count": 29
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-03-AM.json",
-      "source_artifact_date": "2026-11-03",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
+      "source_artifact_date": "2026-11-04",
       "freshness_label": "today"
     }
   ]
