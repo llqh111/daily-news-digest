@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T00:06:44.704428+00:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T00:07:58.397225+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-05-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-04.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-05.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-03.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-04.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,451 +23,325 @@
   },
   "items": [
     {
-      "article_id": "a1_2ccd3978f877c3bb2e49e958",
-      "title": "China’s new nightmare: a Japanese containment arc in the Indo-Pacific",
-      "url": "https://www.scmp.com/opinion/asia-opinion/article/3372983/chinas-new-nightmare-japanese-containment-arc-indo-pacific",
-      "publisher": "SCMP",
-      "summary": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware. The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.\nJapan mobilised its new Type 25 missile, with a reported 1,000km range, from Kumamoto for the system’s...",
-      "category": "国际",
-      "published_at": "2026-11-03T21:30:06+00:00",
-      "why_relevant": "印太战略布局，中国周边地缘核心",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.421885+08:00",
-          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
-          "excerpt": "Advertisement Opinion China’s new nightmare: a Japanese containment arc in the Indo-Pacific A Japan motivated to act in its own defence by an unreliable US is creating a regional security framework that must worry China 3-MIN READ3-MIN 1 Listen Wenran Jiang, the founding director",
-          "sentence_hash": "61eefaca6713e344b9f310dc459a44dc95cd709dee975d41dfc4a49a22918965",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.421926+08:00",
-          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
-          "excerpt": "Just weeks after US President Donald Trump and Chinese President Xi Jinping invoked their countries’ World War II alliance at the White House, Keen Sword 27 turned symbolism into hardware.",
-          "sentence_hash": "43eafb84a088be53f861242fc08511d413665a5d60dfe7ede99d2024580be595",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.421960+08:00",
-          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
-          "excerpt": "The 11-day exercise, which wrapped up on October 29, deployed US Marine NMESIS anti-ship launchers and MADIS air-defence systems to Yonaguni – Japan’s westernmost island, just 110km (70 miles) from Taiwan.",
-          "sentence_hash": "00ead991819a9c9771db4a93704fb8a1ff9a35c2b0df5ab4e7b8424c513aa027",
-          "anchors": [
-            "just",
-            "us",
-            "October 29"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "In early August, Japanese Defence Minister Shinjiro Koizumi swung through Canberra and New Delhi, signing a hypersonic missile-testing agreement with Australia and a dedicated maritime security memorandum with India.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.422013+08:00",
-          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
-          "excerpt": "In early August, Japanese Defence Minister Shinjiro Koizumi swung through Canberra and New Delhi, signing a hypersonic missile-testing agreement with Australia and a dedicated maritime security memorandum with India.",
-          "sentence_hash": "89ed1227ed5ad6a4ca558e7006316736abd3098a5183e9e10453831fac8803ae",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "They are building blocks of an autonomous Indo-Pacific network Tokyo is constructing as Washington’s attention fractures between its war with Iran, alliance disputes and domestic politics.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.422044+08:00",
-          "content_sha256": "e2e47ded0bc2dfa239cdac4647cdc554b6b1d0521376e4153d0bc4e03c611190",
-          "excerpt": "They are building blocks of an autonomous Indo-Pacific network Tokyo is constructing as Washington’s attention fractures between its war with Iran, alliance disputes and domestic politics.",
-          "sentence_hash": "9b6bcbbea8311014179fdae83fa8189efbd2a9e8bb47e570cc9c9f9db4e05370",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "joint operations command",
-        "japanese defence minister shinjiro koizumi",
-        "institute",
-        "world war",
-        "white house",
-        "kumamoto",
-        "madis",
-        "china",
-        "august",
-        "type",
-        "japan",
-        "india",
-        "alberta",
-        "diplomacy",
-        "pacific",
-        "university",
-        "just",
-        "advertisement\nopinion\nchina",
-        "listen\nwenran jiang",
-        "min",
-        "japanese",
-        "chinese president xi jinping",
-        "marine",
-        "nmesis",
-        "mactaggart research chair emeritus",
-        "canberra",
-        "washington",
-        "october",
-        "us",
-        "ii",
-        "keen sword",
-        "china institute",
-        "new delhi",
-        "peace",
-        "indo",
-        "they",
-        "tokyo",
-        "yonaguni",
-        "iran",
-        "president donald trump",
-        "australia",
-        "taiwan"
-      ],
-      "numbers": [],
-      "dates": [
-        "October 29"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 5,
-        "anchor_count": 43
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
-      "source_artifact_date": "2026-11-04",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_dfeb2468173f13dcd28439d4",
-      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
-      "category": "国际",
-      "published_at": "2026-11-03T16:19:29+00:00",
-      "why_relevant": "币圈$6.3B攻击手法，安全逆向必读",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423158+08:00",
-          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
-          "excerpt": "Binance says fake job interviews used as part of $6.3bn crypto hack - Published Hackers who stole a record $6.3bn (Â£4.7bn) from Binance used fake job interviews and a compromised internal AI tool, the firm has revealed.",
-          "sentence_hash": "9aa4cf444e6344db01b51d54ed62c440e9b13b939bcd5d4cc205fdd1a10cd595",
-          "anchors": [
-            "$6.3",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423182+08:00",
-          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
-          "excerpt": "Initial findings published by the company, which operates the world's largest cryptocurrency exchange, said hackers gained access to its systems through \"sophisticated, multi-stage campaign\".",
-          "sentence_hash": "691afc8165caa4859d2e8ce4dfc77f0f1be207ec65dcba488dc20ca5d273628c",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423204+08:00",
-          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
-          "excerpt": "It said they used a range of techniques such as malicious software downloads to compromise the computers of Binance engineers and gain control over tools to drain its wallet of billions of dollars worth of crypto.",
-          "sentence_hash": "daabdb1ecbd9ce7c5923d0f552476d1a5c1720b1c041b9116fe7f07c6cb8060a",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423223+08:00",
-          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
-          "excerpt": "Binance called it a \"serious and highly sophisticated security incident\" and apologised, saying \"this should not have happened\".",
-          "sentence_hash": "398aa28adea8fda495bcc96cd960781c4301397d2e9377d9ff076fe788d512b9",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "In a post on X, external, Binance said hackers targeted its engineers using social engineering techniques.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423238+08:00",
-          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
-          "excerpt": "In a post on X, external, Binance said hackers targeted its engineers using social engineering techniques.",
-          "sentence_hash": "16ed3609a10776857150494d18fe7a74828990f687200bcf4542976415e262f7",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "These see hackers use approaches such as phishing to trick people into parting with sensitive or personal details, that can then be used to try and access their accounts.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423258+08:00",
-          "content_sha256": "f334b58be17cf3a4472427d7ad2224e911e65ce8103743900debca9279af61cc",
-          "excerpt": "These see hackers use approaches such as phishing to trick people into parting with sensitive or personal details, that can then be used to try and access their accounts.",
-          "sentence_hash": "f1cc20b054a0664af07ad63beb81ca05b053a4f3e371ce1b49c287bdb9866df7",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "north korea",
-        "customers",
-        "october",
-        "federal bureau",
-        "us",
-        "initial",
-        "saturday",
-        "ai",
-        "secret service",
-        "these",
-        "fbi",
-        "binance",
-        "sunday",
-        "published\nhackers",
-        "investigation"
-      ],
-      "numbers": [
-        "$6.3",
-        "98%",
-        "100%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 18
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
-      "source_artifact_date": "2026-11-04",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_8f66a4ed7af89826d3aa766d",
-      "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
-      "url": "https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions",
-      "publisher": "The Verge",
-      "summary": "In a new post today, Valve acknowledged that it's seen \"a significant increase in submissions for store and page review in recent months\" and says it's \"running a little behind\" by taking \"up to 12 business days\" for reviews instead of the typical 3-5 days. Indie developers have recently expressed frustrations over lengthy approval times [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-11-03T22:15:33+00:00",
-      "why_relevant": "Steam提交审核变动，硬核玩家必读",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.423808+08:00",
-          "content_sha256": "f160a9688e1591a0dc8aa6bcbf663305816b241127a30651ba9a2af73388059c",
-          "excerpt": "“This means that even if a game runs smoothly when a dev launches their executable directly, they might have missed basic steps that would impact a user installing and playing via Steam.” Other requirements include making sure that achievements are ready and confirming any requir",
-          "sentence_hash": "dede6197701087df259ff8c504b6b061f192a5ffb777bc0a2677721d45bb0c04",
-          "anchors": [
-            "direct"
-          ]
-        }
-      ],
-      "entities": [
-        "visual",
-        "indie",
-        "other",
-        "direct",
-        "believe",
-        "steam",
-        "valve"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 7
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
-      "source_artifact_date": "2026-11-04",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_66df62ef274106fb19515606",
-      "title": "China Going For Domestic Full-Stack AI Dominance: DeepSeek Will Train Its Upcoming V5 Model From Scratch On Huawei’s Ascend 950DT-Based Atlas SuperPoDs",
-      "url": "https://wccftech.com/china-going-for-domestic-full-stack-ai-dominance-deepseek-will-train-its-upcoming-v5-model-from-scratch-on-huaweis-ascend-950dt-based-atlas-superpods/",
+      "article_id": "a1_d8642d0a563953488cc1afb5",
+      "title": "NVIDIA’s New GeForce Game Ready Driver Is Optimized for World of Warcraft Forever and DLSS 5’s Hogwarts Legacy and War Thunder Patches",
+      "url": "https://wccftech.com/nvidia-game-ready-driver-wow-forever-dlss-5/",
       "publisher": "Wccftech",
-      "summary": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability. To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model. If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by th",
+      "summary": "NVIDIA has released a new GeForce Game Ready driver, version 621.14, which is optimized for the imminent launch of World of Warcraft Forever, as well as tomorrow's debut of DLSS 5 in Hogwarts Legacy and next week's DLSS 5 integration in War Thunder. World of Warcraft Forever, which opens its gates in just a few hours, does not include any DLSS technologies. However, it supports NVIDIA Reflex, which helps reduce latency in Blizzard's MMORPG, and the game is also playable on NVIDIA's new RTX Spark",
       "category": "科技",
-      "published_at": "2026-11-03T15:36:40+00:00",
-      "why_relevant": "DeepSeek+华为昇腾，国产AI关键动态",
-      "relevance_score": 9.0,
+      "published_at": "2026-11-04T20:00:00+00:00",
+      "why_relevant": "显卡驱动优化游戏/DLSS5",
+      "relevance_score": 10.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.",
+          "text": "Last but not least, this GeForce Game Ready driver is already optimized for War Thunder's upcoming Eagle's Shadow update, which will add official DLSS 5 support to the game.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.424741+08:00",
-          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
-          "excerpt": "DeepSeek is systematically culling its dependence on NVIDIA hardware, which remains a significant source of consternation for China's AI labs due to the wild gyrations in its mass availability.",
-          "sentence_hash": "eed0d6a7fe63d1b05a80cacabc8241de3d24f843502f2ddc76f6c6bcfe4d2ca0",
+          "captured_at": "2026-11-05T08:03:04.799097+08:00",
+          "content_sha256": "fcd91522bec7557c800a1851a0ca5862dae252531d2804b20ec31f6f851dd354",
+          "excerpt": "Last but not least, this GeForce Game Ready driver is already optimized for War Thunder's upcoming Eagle's Shadow update, which will add official DLSS 5 support to the game.",
+          "sentence_hash": "a3cf8d9222184e51604c3a62fd4ee4ee3bfe280375c5709ae49c24cad292dafc",
           "anchors": [
-            "ai",
-            "for"
+            "pc"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model.",
+          "text": "Here, too, the focus is not on human characters, but on how NVIDIA's Neural Rendering can improve shadows, lighting, and reflections.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.424767+08:00",
-          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
-          "excerpt": "To do so, China's premier AI lab is now reportedly turning towards Huawei and its Ascend 950DT SuperPoDs/Supernodes to conduct a full training run for the upcoming V5 model.",
-          "sentence_hash": "8c4f84ef905feec1beb93aede1c04fb16e19c83365719a0add4b612bc0313750",
+          "captured_at": "2026-11-05T08:03:04.799126+08:00",
+          "content_sha256": "fcd91522bec7557c800a1851a0ca5862dae252531d2804b20ec31f6f851dd354",
+          "excerpt": "Here, too, the focus is not on human characters, but on how NVIDIA's Neural Rendering can improve shadows, lighting, and reflections.",
+          "sentence_hash": "f3e1793e7db96cf215f41aa43ca2c699c66e33b02c9345c35cadbd1d9c65b193",
           "anchors": [
-            "ai",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by the CUDA-like 'TileLang' kernel compiler.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.424790+08:00",
-          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
-          "excerpt": "If successful, this would be China's first AI training run that is completed on a wholly domestic hardware stack, complemented by the CUDA-like 'TileLang' kernel compiler.",
-          "sentence_hash": "700abe8c2501eaff7ac2e31b36f89b563c0574379421ab6c0a277121603ee304",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "DeepSeek has ordered around 160,000 Huawei Ascend 950DT chips, with deliveries slated to ramp up in Q4 2026 According to reputable tipsters such as Jukan and Teortaxes on X, DeepSeek intends to train its ~8-trillion-parameter V5 model on Huawei's Ascend chips.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.424819+08:00",
-          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
-          "excerpt": "DeepSeek has ordered around 160,000 Huawei Ascend 950DT chips, with deliveries slated to ramp up in Q4 2026 According to reputable tipsters such as Jukan and Teortaxes on X, DeepSeek intends to train its ~8-trillion-parameter V5 model on Huawei's Ascend chips.",
-          "sentence_hash": "1246878b7599075d715eeceb0c77cb8f551a04c4eb7751b56ea7f0f423f1de60",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Do note that the street price of each Ascend 950DT chip currently hovers at around 111,000 Yuan or ~$16,000 (vs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.424847+08:00",
-          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
-          "excerpt": "Do note that the street price of each Ascend 950DT chip currently hovers at around 111,000 Yuan or ~$16,000 (vs.",
-          "sentence_hash": "799483142d4d3b377b4be9da3d00af8ba130b563b0dc09fa467b8b8faa44b139",
-          "anchors": [
-            "$16,000 "
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "$15,000 to $25,000 for NVIDIA's H20 GPU), and DeepSeek's total order might amount to as much as ~$2.56 billion.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.424866+08:00",
-          "content_sha256": "0fd0d2a669c011c7de25e56e90068885694a7fca3cea354729e916864a089635",
-          "excerpt": "$15,000 to $25,000 for NVIDIA's H20 GPU), and DeepSeek's total order might amount to as much as ~$2.56 billion.",
-          "sentence_hash": "aeba14bd0774614d00a7b32baebeff57448d777a09feac3ba69bb1b18f9ab2e9",
-          "anchors": [
-            "$2.56 billion",
-            "$15,000 ",
-            "for",
-            "2.56 billion",
-            "$25,000 "
+            "shadow"
           ]
         }
       ],
       "entities": [
-        "ascend",
+        "however",
+        "forever",
+        "force game ready",
+        "gaijin",
+        "reflex",
+        "director",
+        "hogwarts legacy",
+        "google",
+        "spark",
+        "shadow",
+        "true volumetric fog",
+        "eagle",
+        "space water reflections",
+        "war thunder",
+        "here",
+        "mmorpg",
+        "dlss",
+        "pc",
+        "follow wccftech",
+        "blizzard",
+        "warcraft forever",
+        "rtx",
+        "neural rendering",
+        "software engineering",
+        "dynamic bounce lighting",
         "nvidia",
-        "vinci",
-        "after",
-        "huawei ascend",
-        "but",
-        "according",
-        "smic",
-        "china",
-        "high bandwidth memory",
-        "huawei",
-        "yuan",
-        "seek",
-        "gemm",
-        "hbm",
-        "supernodes",
-        "tile",
-        "lang",
-        "select",
-        "deep",
-        "gpu",
-        "mla",
-        "eflops",
-        "super",
-        "kernels",
-        "atlas",
-        "mongolia",
-        "flash",
-        "top",
-        "gb",
-        "for",
-        "teortaxes",
-        "ai",
-        "tb",
-        "jukan",
-        "cuda"
+        "screen",
+        "last",
+        "jose villeta",
+        "avalanche software",
+        "global illumination"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 31
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-05-AM.json",
+      "source_artifact_date": "2026-11-05",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_5e03c72b973594eec024a780",
+      "title": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
+      "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-04T14:00:53+00:00",
+      "why_relevant": "币价破8万联动美股",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.799284+08:00",
+          "content_sha256": "eacf2719f032196bab9d10d10f09c114a625285a39acc101438d93dd6e448163",
+          "excerpt": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
+          "sentence_hash": "eacf2719f032196bab9d10d10f09c114a625285a39acc101438d93dd6e448163",
+          "anchors": [
+            "$80,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "live",
+        "blue wave",
+        "bitcoin"
       ],
       "numbers": [
-        "$2.56 billion",
-        "$15,000 ",
-        "2.56 billion",
-        "$25,000 ",
-        "$16,000 "
+        "$80,000 "
       ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 4
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-05-AM.json",
+      "source_artifact_date": "2026-11-05",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e3c0f53c8b2f549f6fac75ba",
+      "title": "US midterm election results live: Trump blames Iran war after losses",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "A Democratic romp has rocked the US political landscape, but several closely contested races remain too close to call.",
+      "category": "国际",
+      "published_at": "2026-11-04T21:00:00+00:00",
+      "why_relevant": "美中期选举与伊朗战争",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live updatesLive updates, US midterm election results live: Trump blames Iran war after losses A Democratic romp in the midterms has rocked the US political landscape, but several closely contested races remain too close to call.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.799609+08:00",
+          "content_sha256": "9bf9f6eb9fc5183f32edb924ec2e8aeccbc56d524a58ecec0031e7c7134f539f",
+          "excerpt": "Live updatesLive updates, US midterm election results live: Trump blames Iran war after losses A Democratic romp in the midterms has rocked the US political landscape, but several closely contested races remain too close to call.",
+          "sentence_hash": "54e84b654f2d1a2d247f8fea1cd4df0c71f6159e35f3908877f2fd30c8a24173",
+          "anchors": [
+            "live"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Published On 4 Nov 2026 - Democrats wrest control of the US Congress from Republicans by winning majorities in the House of Representatives and Senate in a stunning rebuke to US President Donald Trump.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.799631+08:00",
+          "content_sha256": "9bf9f6eb9fc5183f32edb924ec2e8aeccbc56d524a58ecec0031e7c7134f539f",
+          "excerpt": "Published On 4 Nov 2026 - Democrats wrest control of the US Congress from Republicans by winning majorities in the House of Representatives and Senate in a stunning rebuke to US President Donald Trump.",
+          "sentence_hash": "46d62b84e9d6a0ba63efb9eee4874d9f5e4c59ea3d0565f4153adbb88b634e6a",
+          "anchors": [
+            "us",
+            "Nov 20"
+          ]
+        }
+      ],
+      "entities": [
+        "republicans",
+        "live",
+        "representatives",
+        "nov",
+        "trump",
+        "president donald trump",
+        "republican",
+        "published on",
+        "iran",
+        "congress",
+        "senate",
+        "house",
+        "us",
+        "democratic",
+        "democrats"
+      ],
+      "numbers": [],
+      "dates": [
+        "Nov 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 16
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-05-AM.json",
+      "source_artifact_date": "2026-11-05",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_084f5b27c04ae1f288d06140",
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "publisher": "GitHub Trending",
+      "summary": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and morehttps://heretic-project.org \n  \n Heretic \n Training-free language model modification \n Remove censorship, suppress slop, reduce sycophancy, and more. All in an afternoon, on your gaming PC. \n &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  \n \n \n&nbsp; \n&nbsp;&nbsp;&nbsp;&nbsp;  \nModify any LLM that you can run on your hardware[1] \nHeretic is a unique tool that lets you do what ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "免训练去审查/降谄媚LLM",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Remove censorship, suppress slop, reduce sycophancy, and more.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.800467+08:00",
+          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
+          "excerpt": "Remove censorship, suppress slop, reduce sycophancy, and more.",
+          "sentence_hash": "7aadf1ec2c64b6876589c18a6a1c7e0c5019ba0c6704af1c0e4a5a73d3b2a6c3",
+          "anchors": [
+            "reduce",
+            "suppress"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "All in an afternoon, on your gaming PC.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.800481+08:00",
+          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
+          "excerpt": "All in an afternoon, on your gaming PC.",
+          "sentence_hash": "6041e389c59a1c18592dda5202a399f66c66a94ba789f9468f641ddcd35d8de9",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Modify any LLM that you can run on your hardware1 Heretic is a unique tool that lets you do what only corporations with access to massive computing power usually do: Modify, rather than merely run, language models.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.800506+08:00",
+          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
+          "excerpt": "Modify any LLM that you can run on your hardware1 Heretic is a unique tool that lets you do what only corporations with access to massive computing power usually do: Modify, rather than merely run, language models.",
+          "sentence_hash": "c895a4ac401d4174b6876c81275e71bcec95915f366acd897f0027584162caa8",
+          "anchors": [
+            "all",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Heretic can, depending on the configuration: - Suppress refusals/remove censorship (this is the default action) - Reduce slop (config.noslop.toml) - Reduce humor (config.nohumor.toml) - Reduce sycophancy (config.nosyco.toml) - Alter emotional alignment (config.emotions.toml) and ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.800536+08:00",
+          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
+          "excerpt": "Heretic can, depending on the configuration: - Suppress refusals/remove censorship (this is the default action) - Reduce slop (config.noslop.toml) - Reduce humor (config.nohumor.toml) - Reduce sycophancy (config.nosyco.toml) - Alter emotional alignment (config.emotions.toml) and ",
+          "sentence_hash": "624d7a4f5b993819048f18b1e4d1f707211bdbba9748a00ce0a0068a2fb66c8d",
+          "anchors": [
+            "remove"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In fact, you can go from zero to removing censorship from your first model in a matter of seconds.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.800551+08:00",
+          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
+          "excerpt": "In fact, you can go from zero to removing censorship from your first model in a matter of seconds.",
+          "sentence_hash": "ee7009573599a6d76fbb76c11fdffade5b35235594fd216648882cf2e07af0da",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Heretic models have been independently benchmarked using standard metrics like MMLU and GSM8K, and have been found to compare favorably against models produced with competing abliteration tools.23 Prepare a Python 3.10+ environment with PyTorch 2.6+ installed as appropriate for y",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-05T08:03:04.800585+08:00",
+          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
+          "excerpt": "Heretic models have been independently benchmarked using standard metrics like MMLU and GSM8K, and have been found to compare favorably against models produced with competing abliteration tools.23 Prepare a Python 3.10+ environment with PyTorch 2.6+ installed as appropriate for y",
+          "sentence_hash": "21b582ec760661bc935328b360c124970457e7da000812cde602753007880593",
+          "anchors": [
+            "all",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "heretic",
+        "see",
+        "qwen",
+        "then",
+        "prepare",
+        "modify",
+        "you",
+        "python",
+        "hugging face",
+        "mmlu",
+        "replace qwen",
+        "llm",
+        "pc",
+        "suppress",
+        "reduce",
+        "rtx",
+        "scores",
+        "all",
+        "instruct",
+        "torch",
+        "remove",
+        "important\nconfiguration",
+        "alter",
+        "after heretic"
+      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -476,151 +350,169 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 41
+        "anchor_count": 24
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
-      "source_artifact_date": "2026-11-04",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-05-AM.json",
+      "source_artifact_date": "2026-11-05",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_28d27c5c06788b874951f240",
-      "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-      "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
-      "publisher": "The Verge",
-      "summary": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers [&#8230;]",
+      "article_id": "a1_947d58c6dafedaddeef4db79",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "publisher": "Simon Willison",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with o",
       "category": "科技",
-      "published_at": "2026-11-03T22:04:02+00:00",
-      "why_relevant": "币圈最大盗窃案，安全+金融必读",
+      "published_at": "2026-11-03T16:29:48+00:00",
+      "why_relevant": "本地大模型解释模型权重",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.",
+          "text": "Qwen 3.8 27B on my laptop can interpret model weights, too 3rd November 2026 Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.425806+08:00",
-          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
-          "excerpt": "A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious Google ad, exposing details about the engineers and how they work.",
-          "sentence_hash": "85611cff2a4dbccdb1f69c0203e3dc71a3ad065e6de589d510851534c5e8a7b5",
+          "captured_at": "2026-11-05T08:03:04.801562+08:00",
+          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
+          "excerpt": "Qwen 3.8 27B on my laptop can interpret model weights, too 3rd November 2026 Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab.",
+          "sentence_hash": "f54cfbcee2ae0ac1d0b294ce53e3fe8dff38b4bdf754f90b1439a51356285f6b",
           "anchors": [
-            "ai"
+            "and",
+            "pac",
+            "weight",
+            "November 20"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview ass",
+          "text": "The paper (OK, the authors classify is as a “blog post”, but it’s paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model—literally a text description of the model containing a bunch of floatin",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.425839+08:00",
-          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
-          "excerpt": "Then, in September, another engineer was targeted by someone pretending to be interested in hiring them; that person set up a series of calls and multiple rounds of interviews, shared social media pages to build trust, and eventually prompted them to download a fake interview ass",
-          "sentence_hash": "3d141f072c6463e283e306415e0d869fb95227b646a5849600fc24f4aa7ddf8e",
+          "captured_at": "2026-11-05T08:03:04.801604+08:00",
+          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
+          "excerpt": "The paper (OK, the authors classify is as a “blog post”, but it’s paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model—literally a text description of the model containing a bunch of floatin",
+          "sentence_hash": "ad4f69def78d2f1eeb391e1696f2243766f4e1a5135f657894a916664d6b573f",
           "anchors": [
-            "multi"
+            "and",
+            "weight",
+            "all"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist A North Korean hacking unit reportedly started its break-in with a search engine ad that served up a malware download.",
+          "text": "I’ve been playing with one of the examples from the paper and I’m delighted to share that Qwen 3.8 27B running on my laptop can do this as well!",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.425867+08:00",
-          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
-          "excerpt": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist A North Korean hacking unit reportedly started its break-in with a search engine ad that served up a malware download.",
-          "sentence_hash": "fbf64782f4e7b172e97bc9d2e70911fb28a20cadbb58cfbc8e7edd049c3e8757",
+          "captured_at": "2026-11-05T08:03:04.801633+08:00",
+          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
+          "excerpt": "I’ve been playing with one of the examples from the paper and I’m delighted to share that Qwen 3.8 27B running on my laptop can do this as well!",
+          "sentence_hash": "79329cd4d1a1ac31cb9e7d7ba85c6e14ce3cc3e1c72ea2d5074b1c531d729664",
           "anchors": [
-            "$6.3 billion",
-            "6.3 billion"
+            "and",
+            "with"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Binance claims that its security teams did detect the first installation of malware in June, and replaced the worker’s device, but that its security tools didn’t detect the second attack that deleted the pyenv executable and replaced it with a malicious version that gave them bac",
+          "text": "Weight-Space Programming Here’s the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a netw",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.425906+08:00",
-          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
-          "excerpt": "Binance claims that its security teams did detect the first installation of malware in June, and replaced the worker’s device, but that its security tools didn’t detect the second attack that deleted the pyenv executable and replaced it with a malicious version that gave them bac",
-          "sentence_hash": "6ec2406730fb91fd3d650f14125cc762935f98a416b7cd43005d876c73072a63",
+          "captured_at": "2026-11-05T08:03:04.801677+08:00",
+          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
+          "excerpt": "Weight-Space Programming Here’s the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a netw",
+          "sentence_hash": "39b84cce9ec9ea86566485ea78fb9eb2356068c858792fc7e254ca35288e31af",
           "anchors": [
-            "ai"
+            "and",
+            "pac",
+            "weight",
+            "ok"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "By October 20th, the story goes, the attackers, whom the FBI has identified as a North Korean unit dubbed “TraderTraitor,” used Binance’s own internal AI tool to gain control over wallets for the first engineer compromised in June, as well as a third employee, before logging into",
+          "text": "And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.425951+08:00",
-          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
-          "excerpt": "By October 20th, the story goes, the attackers, whom the FBI has identified as a North Korean unit dubbed “TraderTraitor,” used Binance’s own internal AI tool to gain control over wallets for the first engineer compromised in June, as well as a third employee, before logging into",
-          "sentence_hash": "e99e58f416478c4a436b57ca689e60ab3fac3077230921c678702742a1ee9985",
+          "captured_at": "2026-11-05T08:03:04.801701+08:00",
+          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
+          "excerpt": "And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps.",
+          "sentence_hash": "3f26af0742fd440e45d9f005f3098734a2250881ec4c178ad93633c6adcdcd23",
           "anchors": [
-            "ai",
-            "October 20",
-            "October 29"
+            "with",
+            "all",
+            "100 million"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The postmortem also goes into why Binance wasn’t able to stop the transactions that occurred nearly two hours after the first unauthorized transfers, saying that “Because the hot wallet used Multi-Party Computation (MPC), there was no single private key that could be used to imme",
+          "text": "Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-04T08:03:18.425992+08:00",
-          "content_sha256": "d980abf1a4abede26765e5689411c6249e935ef6af27ad2a5d57d9a36df40c2e",
-          "excerpt": "The postmortem also goes into why Binance wasn’t able to stop the transactions that occurred nearly two hours after the first unauthorized transfers, saying that “Because the hot wallet used Multi-Party Computation (MPC), there was no single private key that could be used to imme",
-          "sentence_hash": "ac8455e85a26682bbacbd11c950cace2ff9c02e037d032ff8e321266e23382f5",
+          "captured_at": "2026-11-05T08:03:04.801732+08:00",
+          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
+          "excerpt": "Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights.",
+          "sentence_hash": "fd14b99a893b7db7da28239a2727c3c770295e6136f3f7ad61734764728508ec",
           "anchors": [
-            "98%",
-            "2.85 billion",
-            "ai",
-            "2%",
-            "$2.85 billion"
+            "weight",
+            "math",
+            "0.016%",
+            "with",
+            "and"
           ]
         }
       ],
       "entities": [
-        "north korea",
-        "october",
-        "june",
-        "north korean",
-        "traitor",
-        "trader",
-        "by october",
-        "google",
-        "fbi",
-        "binance",
-        "party computation",
-        "september",
-        "eip",
-        "mpc",
-        "withdrawals",
-        "ai",
-        "ceo",
+        "weight",
+        "ok",
         "then",
-        "because",
-        "multi",
-        "richard teng"
+        "with",
+        "space programming\nhere",
+        "yesterday",
+        "astra",
+        "math",
+        "pac",
+        "breakout",
+        "gpt",
+        "matthew honnibal",
+        "rikiya takehi",
+        "atari",
+        "just",
+        "ml",
+        "qwen",
+        "eval",
+        "freeway",
+        "space programming",
+        "omar khattab",
+        "november",
+        "ppo",
+        "sean goedecke",
+        "llm",
+        "pong",
+        "all",
+        "and",
+        "man",
+        "sparks",
+        "likewise",
+        "they",
+        "alex zhang",
+        "jayden teoh"
       ],
       "numbers": [
-        "98%",
-        "2.85 billion",
-        "$6.3 billion",
-        "2%",
-        "6.3 billion",
-        "$2.85 billion"
+        "0.016%",
+        "7.9%",
+        "48.1%",
+        "100 million"
       ],
       "dates": [
-        "October 20",
-        "October 29"
+        "November 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 29
+        "anchor_count": 39
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-04-AM.json",
-      "source_artifact_date": "2026-11-04",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-05-AM.json",
+      "source_artifact_date": "2026-11-05",
       "freshness_label": "today"
     }
   ]
