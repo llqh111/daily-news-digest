@@ -1,0 +1,685 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T00:09:13.078476+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-06-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-06.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-05.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_bf5c27a0bb0f1219aba93955",
+      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+      "category": "国际",
+      "published_at": "2026-11-05T23:59:31+00:00",
+      "why_relevant": "美股AI回调宏观信号",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.832972+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.",
+          "sentence_hash": "ad8dcca035510775ce65e57907791abc1a6de4b0df48397792508c668d0e3d1e",
+          "anchors": [
+            "major",
+            "election"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Shares in firms across the tech and artificial intelligence sectors plummeted following Democratic wins after election campaigns run on slowing AI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833016+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Shares in firms across the tech and artificial intelligence sectors plummeted following Democratic wins after election campaigns run on slowing AI.",
+          "sentence_hash": "b203f46279c84f06a3ccc012035ceac17c8b0ff0da0148be056b8e3bdd9ca7fa",
+          "anchors": [
+            "and",
+            "election",
+            "intel",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The tech-heavy Nasdaq composite stock index closed down by more than 5.5% to lose an estimated $2.5tn (Â£1.9tn) in market capitalisation, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833068+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "The tech-heavy Nasdaq composite stock index closed down by more than 5.5% to lose an estimated $2.5tn (Â£1.9tn) in market capitalisation, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025.",
+          "sentence_hash": "c590972594781507b138a4c1a6519c1a4e3717eb00b1931df81769b8a42fd725",
+          "anchors": [
+            "$2.5",
+            "other",
+            "than",
+            "worst days",
+            "5.5%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833145+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.",
+          "sentence_hash": "c1b03fb236e1f991b255d7aff23094a119dff3d3f5ba8cec2b60f7e668c785d9",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of US President Donald Trump's presidency.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833181+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of US President Donald Trump's presidency.",
+          "sentence_hash": "b0e6deaf0cea8f179912aa3f8a284b231b33b6ddb6eefba8de8e66c0e2a06dca",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833212+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.",
+          "sentence_hash": "4f7da4085a4c97543a93fd9ae38f548d9607b794474d3c9290376c85fee826e8",
+          "anchors": [
+            "again",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "make",
+        "gina hinojosa",
+        "major",
+        "some democrats",
+        "again",
+        "democrats",
+        "republican",
+        "texas",
+        "the stock market",
+        "intel",
+        "congress",
+        "history",
+        "us",
+        "worst days",
+        "micron",
+        "trump",
+        "bigger",
+        "house",
+        "before",
+        "republicans",
+        "great",
+        "nvidia",
+        "nasdaq",
+        "published\nhundreds",
+        "ever",
+        "remember",
+        "the philadelphia semiconductor index",
+        "san",
+        "space",
+        "dumocrats",
+        "and",
+        "ken paxton",
+        "democratic",
+        "president donald trump",
+        "tuesday",
+        "musk",
+        "amd",
+        "they",
+        "than",
+        "dow jones",
+        "representatives",
+        "shares",
+        "disk",
+        "thursday",
+        "ai",
+        "election",
+        "senate",
+        "elon musk",
+        "tesla",
+        "other"
+      ],
+      "numbers": [
+        "11%",
+        "8%",
+        "$2.5",
+        "9%",
+        "$450",
+        "$300",
+        "17%",
+        "22%",
+        "12%",
+        "$400",
+        "$45",
+        "10.3%",
+        "5.5%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 63
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-06-AM.json",
+      "source_artifact_date": "2026-11-06",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_62e4f8609ae5c127d1520666",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "publisher": "GitHub Trending",
+      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QAgstack \ngstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code全套工具链",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Reload to refresh your session.You signed out in another tab or window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834532+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "Reload to refresh your session.You signed out in another tab or window.",
+          "sentence_hash": "386c0991f678bfb53a76fe11b705f37e1e4aa6fc3eecc87534feb141d8213abf",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Reload to refresh your session.You switched accounts on another tab or window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834559+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "Reload to refresh your session.You switched accounts on another tab or window.",
+          "sentence_hash": "87bc35e52bc92f887ee39fd30ac977a0210cb52baf2d14eefb1a049aad4529ad",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Reload to refresh your session.Dismiss alert gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834607+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "Reload to refresh your session.Dismiss alert gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead ",
+          "sentence_hash": "b11446fe43a505f495c1535602d5d64694c806618566bb3cacbfd2336f5ba613",
+          "anchors": [
+            "and",
+            "you",
+            "pr",
+            "run"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "All slash commands, all Markdown, all free, MIT license.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834627+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "All slash commands, all Markdown, all free, MIT license.",
+          "sentence_hash": "89ccba2e64305b060e7ab7c2a1167976fed4fbe9628f002531f750030f53efc5",
+          "anchors": [
+            "and",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834659+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone.",
+          "sentence_hash": "8c893712d9ffd57f123b928e8cdc2a4baf28f4c300410a19f92868fe40bb2aea",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The story, the productivity numbers and how I run ten sprints at once are in Why gstack.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834681+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "The story, the productivity numbers and how I run ten sprints at once are in Why gstack.",
+          "sentence_hash": "54c5a5284ea4f8e751dfa70361c237de18965cc5eb8d690de911b9a0d7a5f509",
+          "anchors": [
+            "run",
+            "and",
+            "pr"
+          ]
+        }
+      ],
+      "entities": [
+        "make",
+        "node",
+        "markdown",
+        "step",
+        "pr",
+        "requirements",
+        "ceo",
+        "recommended",
+        "aside",
+        "install",
+        "bun",
+        "stride",
+        "ci",
+        "all",
+        "combinator",
+        "you",
+        "tech",
+        "stop",
+        "president",
+        "fork",
+        "mit",
+        "and",
+        "dismiss",
+        "founders",
+        "quick",
+        "qa",
+        "windows",
+        "owasp",
+        "garry tan",
+        "timing",
+        "cli",
+        "claude code",
+        "git",
+        "run",
+        "url",
+        "ai",
+        "reload",
+        "improve",
+        "first",
+        "open claude code",
+        "claude",
+        "api"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-06-AM.json",
+      "source_artifact_date": "2026-11-06",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6d3bd343ccf9162c0ab96671",
+      "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-05T18:48:40+00:00",
+      "why_relevant": "比特币暴跌AI拖累",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834878+08:00",
+          "content_sha256": "de20b6174bfb6fd7b8452f7db7ca03e2c0b8cc8444a4c683891ecaeaf96ed362",
+          "excerpt": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+          "sentence_hash": "de20b6174bfb6fd7b8452f7db7ca03e2c0b8cc8444a4c683891ecaeaf96ed362",
+          "anchors": [
+            "$76,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "bitcion",
+        "ai"
+      ],
+      "numbers": [
+        "$76,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 3
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-06-AM.json",
+      "source_artifact_date": "2026-11-06",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_bb689248b11cea14920199dc",
+      "title": "Americans voted against Trump's Iran war. Gulf countries hope that means an end to the conflict",
+      "url": "https://www.dw.com/en/americans-voted-against-trump-s-iran-war-gulf-countries-hope-that-means-an-end-to-the-conflict/a-79868398?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "The US midterm results showed how unpopular Donald Trump's Iran war is. Now, Gulf countries, trapped for months in the middle of the war between the US and Iran, see reason for optimism.",
+      "category": "国际",
+      "published_at": "2026-11-05T19:12:00+00:00",
+      "why_relevant": "美伊战事反弹海湾乐观",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.836234+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.",
+          "sentence_hash": "d6eeae7221989e9b400b7029e85652b74141c84c5016ec7da9da4e537b86e77b",
+          "anchors": [
+            "November 5"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"I think a part of it was Iran, but, at the same time, people understood the importance of what I've done with Iran,\" Trump told Fox News, conceding that US voters were unwilling to accept the impact of the war on gas prices.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.836275+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "\"I think a part of it was Iran, but, at the same time, people understood the importance of what I've done with Iran,\" Trump told Fox News, conceding that US voters were unwilling to accept the impact of the war on gas prices.",
+          "sentence_hash": "19a130ba4dbd16bd288728d90ccc8c31e2ef8156ea6313db2d596969c0feb8fc",
+          "anchors": [
+            "but",
+            "unwilling"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Observers say the United States and Israel had been holding off on major attacks on Iran until after both had held elections.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.836301+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "Observers say the United States and Israel had been holding off on major attacks on Iran until after both had held elections.",
+          "sentence_hash": "58fb84a2d9e43826d30c4dfa4faf36d1446d4edc9d17ee5cc717a94c8c8c3d35",
+          "anchors": [
+            "and",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "At the end of October, the Wall Street Journal reported that the Trump administration was already warning Gulf state governments to brace for a short, intense military campaign after the midterms.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.836332+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "At the end of October, the Wall Street Journal reported that the Trump administration was already warning Gulf state governments to brace for a short, intense military campaign after the midterms.",
+          "sentence_hash": "ae2cc4bbd74b3a84ddf506a6fd26a696f3fb7c4d2b3730a0b740cd317f3188e5",
+          "anchors": [
+            "after",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "While foreign policy is a US president's purview, analysts have pointed out that a Congress controlled by the Democratic party could ostensibly withhold funding for Trump's military expeditions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.836368+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "While foreign policy is a US president's purview, analysts have pointed out that a Congress controlled by the Democratic party could ostensibly withhold funding for Trump's military expeditions.",
+          "sentence_hash": "601d5d96202e6fcc95ea3e8967aed32a607007312dcc149c83cdeecbd5da4a20",
+          "anchors": [
+            "could"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "As two US professors of political science wrote for Foreign Affairs magazine this week, past American presidents, like Trump, who become \"lame ducks\" — that is, a president who loses control of Congress and can't run for another term — have often ramped up international intervent",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.836423+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "As two US professors of political science wrote for Foreign Affairs magazine this week, past American presidents, like Trump, who become \"lame ducks\" — that is, a president who loses control of Congress and can't run for another term — have often ramped up international intervent",
+          "sentence_hash": "af0e535026feb14654b0f6e421ff8a4e8116ec7e2e1dc0ae9e9ffeb5f346a4dd",
+          "anchors": [
+            "and"
+          ]
+        }
+      ],
+      "entities": [
+        "but",
+        "wall street journal",
+        "unwilling",
+        "gulf",
+        "after",
+        "if iran",
+        "congress",
+        "iranian",
+        "us",
+        "middle east institute",
+        "trump",
+        "washington",
+        "could",
+        "iran",
+        "iranians",
+        "all",
+        "now",
+        "mei",
+        "american",
+        "foreign affairs",
+        "opinions",
+        "and",
+        "observers",
+        "united states",
+        "democratic",
+        "president donald trump",
+        "november",
+        "ross harrison",
+        "october",
+        "while",
+        "however",
+        "fox news",
+        "the iranians",
+        "israel"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 5"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-06-AM.json",
+      "source_artifact_date": "2026-11-06",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_bd2207ba2773251521fba245",
+      "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire.",
+      "category": "国际",
+      "published_at": "2026-11-05T19:08:08+00:00",
+      "why_relevant": "乌克兰停火谈判",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a \"more enduring\" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837735+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a \"more enduring\" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in",
+          "sentence_hash": "f0a82dcb0fb56d1ce736a7c13b19165f9d7901f13c3b66ff92de047e1e6b5472",
+          "anchors": [
+            "she",
+            "last",
+            "mp",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Hundreds of residents of the Russian-occupied Ukrainian town of Oleshky facing starvation and constant bombardment were able to evacuate during a six-day ceasefire, which both Moscow and Kyiv credited Trump with brokering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837772+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "Hundreds of residents of the Russian-occupied Ukrainian town of Oleshky facing starvation and constant bombardment were able to evacuate during a six-day ceasefire, which both Moscow and Kyiv credited Trump with brokering.",
+          "sentence_hash": "70012ed2088a327bd6a49f8fd6f8016112f2c4d3aea515eea0f46b2a6d4ca454",
+          "anchors": [
+            "us",
+            "mp"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"The lives of innocent people must transcend the division of war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837795+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "\"The lives of innocent people must transcend the division of war.",
+          "sentence_hash": "cfd11a345b1d1f25e4fe2ebd4aa689485bff36302ec7429041a7b080cb6982c1",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "I hope Oleshky inspires greater peace,\" she said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837813+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "I hope Oleshky inspires greater peace,\" she said.",
+          "sentence_hash": "0f0bb8941a2b861c8f952df0962c32aef72bf366027f0f03ff20dca14cc1a9e9",
+          "anchors": [
+            "she"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The unusual White House event saw senior Ukrainian and Russian officials meet away from the setting of official US-brokered peace talks they have been holding without success since last year.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837842+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "The unusual White House event saw senior Ukrainian and Russian officials meet away from the setting of official US-brokered peace talks they have been holding without success since last year.",
+          "sentence_hash": "cab9a1f4b674f0441795081ad233b9cd4968fe05b486c74419ae36178f9d7294",
+          "anchors": [
+            "us",
+            "last",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The delegations were made up of Ukraine's human rights ombudsman Dmytro Lubinets and his Russian counterpart Yana Lantratova, as well as Ukrainian MP Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837873+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "The delegations were made up of Ukraine's human rights ombudsman Dmytro Lubinets and his Russian counterpart Yana Lantratova, as well as Ukrainian MP Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
+          "sentence_hash": "55820dce31e03fcbec811e4176b123945ce9b2e389bb339dbb61f3f9e917280a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "these",
+        "she",
+        "volodymyr zelensky",
+        "us",
+        "trump",
+        "dmitriev",
+        "mp",
+        "first lady melania trump",
+        "white house",
+        "arakhamia",
+        "davyd arakhamia",
+        "russian",
+        "kremlin",
+        "zelensky",
+        "kherson",
+        "february",
+        "oleshky",
+        "kyiv",
+        "ukrainian",
+        "yana lantratova",
+        "moscow",
+        "let",
+        "hundreds",
+        "they",
+        "published",
+        "dmytro lubinets",
+        "last",
+        "russia",
+        "melania trump",
+        "kirill dmitriev",
+        "vladimir putin",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-06-AM.json",
+      "source_artifact_date": "2026-11-06",
+      "freshness_label": "today"
+    }
+  ]
+}

@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-05 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-06 08:09。
+
+## Major tech stocks plunge as US midterms add to fears of AI slowdown
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261106_c673809ee6f7`
+
+## garrytan/gstack
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Reload to refresh your session.You signed out in another tab or window.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261106_cb7f745426d9`
+
+## Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261106_4a6b1ec669ed`
+
+## Americans voted against Trump's Iran war. Gulf countries hope that means an end to the conflict
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.
+- 事件 ID：`evt_20261106_4755fee4e15d`
+
+## Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261106_c9afa41ed9df`
+
+## Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a "more enduring" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in
+- 事件 ID：`evt_20261106_4424610864a9`
+
+## Google plans $17 billion Wyoming data center amid rising threats of curbs
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261106_c39cc5d4071d`
+
+## Trump says he met Putin envoy Dmitriev
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261106_557605203e7b`
+
+## NVIDIA/auto-ontology
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261106_a2897aba5b31`
+
+## vercel-labs/agent-desktop
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261106_129489b9c156`
+
+## OpenAI president Greg Brockman says company could be IPO ready in 2027
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：OpenAI co-founder and president Greg Brockman said the company would be ready for an IPO in 2027, noting that its enterprise revenue has been growing.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261106_0304620259d6`
+
+## Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261106_45dcf12c47d6`
+
+## Stock futures fall after Nasdaq slips into correction; traders await big payrolls report: Live updates
+- 状态：更新中；首见 2026-11-06；最近更新 2026-11-06
+- 最新事实：Stock futures fell Thursday evening after a punishing sell-off in artificial intelligence stocks that sent the Nasdaq into correction territory.
+- 事件 ID：`evt_20261106_8258566ec525`
 
 ## NVIDIA’s New GeForce Game Ready Driver Is Optimized for World of Warcraft Forever and DLSS 5’s Hogwarts Legacy and War Thunder Patches
 - 状态：更新中；首见 2026-11-05；最近更新 2026-11-05
@@ -1589,78 +1662,4 @@
 - 最新事实：Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms Bitcoin recovered to around $82,500 after Trump ruled out an Iran strike, but remains about 4% lower on the week, while ether has lost 9%.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261010_b8402d192b0a`
-
-## Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：The ship's captain was killed in the strike involving two drones, Zelensky said, and another sailor was unaccounted for.
-- 事件 ID：`evt_20261006_8124017df58b`
-
-## OpenAI is adding text watermarking in ChatGPT and Codex
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_846772314129`
-
-## MCP for agent-to-agent comms may be the riskiest protocol you've never heard of
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：The adoption of AI agents in millions of organizations is creating new opportunities for attackers to make them take malicious actions, such as exfiltrating database contents and sensitive business and personal information.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_bf75542586dc`
-
-## Flávio Bolsonaro poised to win Brazilian presidency after shock first-round victory
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：The 45-year-old rightwing candidate received 56.1m votes to Lula’s 53.8m – 47.03% to 45.16% – meaning the 80-year-old leftwinger has a mountain to climb if he is to bounce back in the second round on 25 October.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_20ed316d642c`
-
-## Whistleblower warns that humans don’t control AI
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：Published On 5 Oct 2026
-- 事件 ID：`evt_20261006_56a2207aec2e`
-
-## Oil from South Korea being shipped to Russia as Ukraine war grinds on
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：“This undermines the sanctions regime and South Korea’s support for Ukraine.” Seoul has sent Ukraine humanitarian aid and non-lethal military supplies such as helmets, body armour and demining vehicles, and in 2023 pledged $2.3bn in support, most of it in loans.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_044f8d4214fd`
-
-## Brazil election: Bolsonaro and Lula head to runoff
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：Brazil election: Bolsonaro and Lula head to runoff Published October 4, 2026last updated October 5, 2026 With votes being counted in Brazil following the presidential election on Sunday, populist Senator Flavio Bolsonaro was leading the race ahead of leftist President Luiz Inacio
-- 事件 ID：`evt_20261006_1a3c9fefb949`
-
-## Pentagon stops using Anthropic AI tools after blacklisting company, BBC told
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：Pentagon stops using Anthropic AI tools after blacklisting company, BBC told - Published The US Department of Defence is no longer using Anthropic's AI tools, an official has told the BBC, months after it designated the company a supply chain risk on national security grounds.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_ad2fdfb29386`
-
-## coreyhaines31/marketingskills
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：A collection of AI agent skills focused on marketing tasks.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_b1778982ede9`
-
-## Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：Nvidia RTX 5060 Ti gaming PC hits $999 with 8-core Ryzen CPU, 16GB RAM, and 1TB PCIe 4.0 SSD — $600 instant savings on a complete 1080p powerhouse Soaring computer hardware prices have taken the joy out of PC building.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_91568b6e45c6`
-
-## Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：Wall Street banks launch record $60bn chip deal for Broadcom and Anthropic Save over 40% on Standard Digital was undefined now undefined for your first year.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_2459d08c310e`
-
-## Stock futures are little changed after Nasdaq hits new record: Live updates
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 最新事实：Stock futures were near the flatline on Monday evening after the Nasdaq Composite climbed to a fresh record.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261006_7b6170c74360`
-
-## India seen kicking off rate hike cycle as inflation broadens, peers turn hawkish
-- 状态：更新中；首见 2026-10-06；最近更新 2026-10-06
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261006_ecb3adb449f3`
 

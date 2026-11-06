@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-11-05-AM",
-  "date": "2026-11-05",
+  "run_key": "2026-11-06-AM",
+  "date": "2026-11-06",
   "session": "AM",
-  "delivered_at": "2026-11-05T08:07:58.380921+08:00",
+  "delivered_at": "2026-11-06T08:09:13.058599+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-11-05T00:07:58.383533+00:00",
+  "exported_at": "2026-11-06T00:09:13.061520+00:00",
   "quality": {
     "total_items": 13,
     "items_with_unsupported_numbers": 2,
@@ -14,73 +14,313 @@
   },
   "items": [
     {
-      "article_id": "a1_d8642d0a563953488cc1afb5",
-      "title": "NVIDIA’s New GeForce Game Ready Driver Is Optimized for World of Warcraft Forever and DLSS 5’s Hogwarts Legacy and War Thunder Patches",
-      "url": "https://wccftech.com/nvidia-game-ready-driver-wow-forever-dlss-5/",
-      "publisher": "Wccftech",
-      "summary": "NVIDIA has released a new GeForce Game Ready driver, version 621.14, which is optimized for the imminent launch of World of Warcraft Forever, as well as tomorrow's debut of DLSS 5 in Hogwarts Legacy and next week's DLSS 5 integration in War Thunder. World of Warcraft Forever, which opens its gates in just a few hours, does not include any DLSS technologies. However, it supports NVIDIA Reflex, which helps reduce latency in Blizzard's MMORPG, and the game is also playable on NVIDIA's new RTX Spark",
-      "category": "科技",
-      "published_at": "2026-11-04T20:00:00+00:00",
-      "why_relevant": "显卡驱动优化游戏/DLSS5",
-      "relevance_score": 10.0,
+      "article_id": "a1_bf5c27a0bb0f1219aba93955",
+      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+      "category": "国际",
+      "published_at": "2026-11-05T23:59:31+00:00",
+      "why_relevant": "美股AI回调宏观信号",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Last but not least, this GeForce Game Ready driver is already optimized for War Thunder's upcoming Eagle's Shadow update, which will add official DLSS 5 support to the game.",
+          "text": "Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.799097+08:00",
-          "content_sha256": "fcd91522bec7557c800a1851a0ca5862dae252531d2804b20ec31f6f851dd354",
-          "excerpt": "Last but not least, this GeForce Game Ready driver is already optimized for War Thunder's upcoming Eagle's Shadow update, which will add official DLSS 5 support to the game.",
-          "sentence_hash": "a3cf8d9222184e51604c3a62fd4ee4ee3bfe280375c5709ae49c24cad292dafc",
+          "captured_at": "2026-11-06T08:03:35.832972+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.",
+          "sentence_hash": "ad8dcca035510775ce65e57907791abc1a6de4b0df48397792508c668d0e3d1e",
           "anchors": [
-            "pc"
+            "major",
+            "election"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Here, too, the focus is not on human characters, but on how NVIDIA's Neural Rendering can improve shadows, lighting, and reflections.",
+          "text": "Shares in firms across the tech and artificial intelligence sectors plummeted following Democratic wins after election campaigns run on slowing AI.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.799126+08:00",
-          "content_sha256": "fcd91522bec7557c800a1851a0ca5862dae252531d2804b20ec31f6f851dd354",
-          "excerpt": "Here, too, the focus is not on human characters, but on how NVIDIA's Neural Rendering can improve shadows, lighting, and reflections.",
-          "sentence_hash": "f3e1793e7db96cf215f41aa43ca2c699c66e33b02c9345c35cadbd1d9c65b193",
+          "captured_at": "2026-11-06T08:03:35.833016+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Shares in firms across the tech and artificial intelligence sectors plummeted following Democratic wins after election campaigns run on slowing AI.",
+          "sentence_hash": "b203f46279c84f06a3ccc012035ceac17c8b0ff0da0148be056b8e3bdd9ca7fa",
           "anchors": [
-            "shadow"
+            "and",
+            "election",
+            "intel",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The tech-heavy Nasdaq composite stock index closed down by more than 5.5% to lose an estimated $2.5tn (Â£1.9tn) in market capitalisation, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833068+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "The tech-heavy Nasdaq composite stock index closed down by more than 5.5% to lose an estimated $2.5tn (Â£1.9tn) in market capitalisation, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025.",
+          "sentence_hash": "c590972594781507b138a4c1a6519c1a4e3717eb00b1931df81769b8a42fd725",
+          "anchors": [
+            "$2.5",
+            "other",
+            "than",
+            "worst days",
+            "5.5%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833145+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.",
+          "sentence_hash": "c1b03fb236e1f991b255d7aff23094a119dff3d3f5ba8cec2b60f7e668c785d9",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of US President Donald Trump's presidency.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833181+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of US President Donald Trump's presidency.",
+          "sentence_hash": "b0e6deaf0cea8f179912aa3f8a284b231b33b6ddb6eefba8de8e66c0e2a06dca",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.833212+08:00",
+          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
+          "excerpt": "Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.",
+          "sentence_hash": "4f7da4085a4c97543a93fd9ae38f548d9607b794474d3c9290376c85fee826e8",
+          "anchors": [
+            "again",
+            "ai"
           ]
         }
       ],
       "entities": [
-        "however",
-        "forever",
-        "force game ready",
-        "gaijin",
-        "reflex",
-        "director",
-        "hogwarts legacy",
-        "google",
-        "spark",
-        "shadow",
-        "true volumetric fog",
-        "eagle",
-        "space water reflections",
-        "war thunder",
-        "here",
-        "mmorpg",
-        "dlss",
-        "pc",
-        "follow wccftech",
-        "blizzard",
-        "warcraft forever",
-        "rtx",
-        "neural rendering",
-        "software engineering",
-        "dynamic bounce lighting",
+        "make",
+        "gina hinojosa",
+        "major",
+        "some democrats",
+        "again",
+        "democrats",
+        "republican",
+        "texas",
+        "the stock market",
+        "intel",
+        "congress",
+        "history",
+        "us",
+        "worst days",
+        "micron",
+        "trump",
+        "bigger",
+        "house",
+        "before",
+        "republicans",
+        "great",
         "nvidia",
-        "screen",
-        "last",
-        "jose villeta",
-        "avalanche software",
-        "global illumination"
+        "nasdaq",
+        "published\nhundreds",
+        "ever",
+        "remember",
+        "the philadelphia semiconductor index",
+        "san",
+        "space",
+        "dumocrats",
+        "and",
+        "ken paxton",
+        "democratic",
+        "president donald trump",
+        "tuesday",
+        "musk",
+        "amd",
+        "they",
+        "than",
+        "dow jones",
+        "representatives",
+        "shares",
+        "disk",
+        "thursday",
+        "ai",
+        "election",
+        "senate",
+        "elon musk",
+        "tesla",
+        "other"
+      ],
+      "numbers": [
+        "11%",
+        "8%",
+        "$2.5",
+        "9%",
+        "$450",
+        "$300",
+        "17%",
+        "22%",
+        "12%",
+        "$400",
+        "$45",
+        "10.3%",
+        "5.5%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 63
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_62e4f8609ae5c127d1520666",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "publisher": "GitHub Trending",
+      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QAgstack \ngstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code全套工具链",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Reload to refresh your session.You signed out in another tab or window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834532+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "Reload to refresh your session.You signed out in another tab or window.",
+          "sentence_hash": "386c0991f678bfb53a76fe11b705f37e1e4aa6fc3eecc87534feb141d8213abf",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Reload to refresh your session.You switched accounts on another tab or window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834559+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "Reload to refresh your session.You switched accounts on another tab or window.",
+          "sentence_hash": "87bc35e52bc92f887ee39fd30ac977a0210cb52baf2d14eefb1a049aad4529ad",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Reload to refresh your session.Dismiss alert gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834607+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "Reload to refresh your session.Dismiss alert gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead ",
+          "sentence_hash": "b11446fe43a505f495c1535602d5d64694c806618566bb3cacbfd2336f5ba613",
+          "anchors": [
+            "and",
+            "you",
+            "pr",
+            "run"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "All slash commands, all Markdown, all free, MIT license.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834627+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "All slash commands, all Markdown, all free, MIT license.",
+          "sentence_hash": "89ccba2e64305b060e7ab7c2a1167976fed4fbe9628f002531f750030f53efc5",
+          "anchors": [
+            "and",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834659+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone.",
+          "sentence_hash": "8c893712d9ffd57f123b928e8cdc2a4baf28f4c300410a19f92868fe40bb2aea",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The story, the productivity numbers and how I run ten sprints at once are in Why gstack.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.834681+08:00",
+          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
+          "excerpt": "The story, the productivity numbers and how I run ten sprints at once are in Why gstack.",
+          "sentence_hash": "54c5a5284ea4f8e751dfa70361c237de18965cc5eb8d690de911b9a0d7a5f509",
+          "anchors": [
+            "run",
+            "and",
+            "pr"
+          ]
+        }
+      ],
+      "entities": [
+        "make",
+        "node",
+        "markdown",
+        "step",
+        "pr",
+        "requirements",
+        "ceo",
+        "recommended",
+        "aside",
+        "install",
+        "bun",
+        "stride",
+        "ci",
+        "all",
+        "combinator",
+        "you",
+        "tech",
+        "stop",
+        "president",
+        "fork",
+        "mit",
+        "and",
+        "dismiss",
+        "founders",
+        "quick",
+        "qa",
+        "windows",
+        "owasp",
+        "garry tan",
+        "timing",
+        "cli",
+        "claude code",
+        "git",
+        "run",
+        "url",
+        "ai",
+        "reload",
+        "improve",
+        "first",
+        "open claude code",
+        "claude",
+        "api"
       ],
       "numbers": [],
       "dates": [],
@@ -90,42 +330,41 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 2,
-        "anchor_count": 31
+        "fact_count": 6,
+        "anchor_count": 42
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_5e03c72b973594eec024a780",
-      "title": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
-      "url": "https://www.coindesk.com/tech/2026/11/04/live-updates-bitcoin-and-stocks-reverse-overnight-plunge-following-blue-wave-landslide",
+      "article_id": "a1_6d3bd343ccf9162c0ab96671",
+      "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
       "publisher": "CoinDesk",
       "summary": "",
       "category": "财经",
-      "published_at": "2026-11-04T14:00:53+00:00",
-      "why_relevant": "币价破8万联动美股",
-      "relevance_score": 10.0,
+      "published_at": "2026-11-05T18:48:40+00:00",
+      "why_relevant": "比特币暴跌AI拖累",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
+          "text": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.799284+08:00",
-          "content_sha256": "eacf2719f032196bab9d10d10f09c114a625285a39acc101438d93dd6e448163",
-          "excerpt": "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave",
-          "sentence_hash": "eacf2719f032196bab9d10d10f09c114a625285a39acc101438d93dd6e448163",
+          "captured_at": "2026-11-06T08:03:35.834878+08:00",
+          "content_sha256": "de20b6174bfb6fd7b8452f7db7ca03e2c0b8cc8444a4c683891ecaeaf96ed362",
+          "excerpt": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+          "sentence_hash": "de20b6174bfb6fd7b8452f7db7ca03e2c0b8cc8444a4c683891ecaeaf96ed362",
           "anchors": [
-            "$80,000 "
+            "$76,000 "
           ]
         }
       ],
       "entities": [
-        "live",
-        "blue wave",
-        "bitcoin"
+        "bitcion",
+        "ai"
       ],
       "numbers": [
-        "$80,000 "
+        "$76,000 "
       ],
       "dates": [],
       "unknowns": [
@@ -134,553 +373,305 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 4
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_e3c0f53c8b2f549f6fac75ba",
-      "title": "US midterm election results live: Trump blames Iran war after losses",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "A Democratic romp has rocked the US political landscape, but several closely contested races remain too close to call.",
-      "category": "国际",
-      "published_at": "2026-11-04T21:00:00+00:00",
-      "why_relevant": "美中期选举与伊朗战争",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Live updatesLive updates, US midterm election results live: Trump blames Iran war after losses A Democratic romp in the midterms has rocked the US political landscape, but several closely contested races remain too close to call.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.799609+08:00",
-          "content_sha256": "9bf9f6eb9fc5183f32edb924ec2e8aeccbc56d524a58ecec0031e7c7134f539f",
-          "excerpt": "Live updatesLive updates, US midterm election results live: Trump blames Iran war after losses A Democratic romp in the midterms has rocked the US political landscape, but several closely contested races remain too close to call.",
-          "sentence_hash": "54e84b654f2d1a2d247f8fea1cd4df0c71f6159e35f3908877f2fd30c8a24173",
-          "anchors": [
-            "live"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Published On 4 Nov 2026 - Democrats wrest control of the US Congress from Republicans by winning majorities in the House of Representatives and Senate in a stunning rebuke to US President Donald Trump.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.799631+08:00",
-          "content_sha256": "9bf9f6eb9fc5183f32edb924ec2e8aeccbc56d524a58ecec0031e7c7134f539f",
-          "excerpt": "Published On 4 Nov 2026 - Democrats wrest control of the US Congress from Republicans by winning majorities in the House of Representatives and Senate in a stunning rebuke to US President Donald Trump.",
-          "sentence_hash": "46d62b84e9d6a0ba63efb9eee4874d9f5e4c59ea3d0565f4153adbb88b634e6a",
-          "anchors": [
-            "us",
-            "Nov 20"
-          ]
-        }
-      ],
-      "entities": [
-        "republicans",
-        "live",
-        "representatives",
-        "nov",
-        "trump",
-        "president donald trump",
-        "republican",
-        "published on",
-        "iran",
-        "congress",
-        "senate",
-        "house",
-        "us",
-        "democratic",
-        "democrats"
-      ],
-      "numbers": [],
-      "dates": [
-        "Nov 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 16
+        "fact_count": 1,
+        "anchor_count": 3
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_084f5b27c04ae1f288d06140",
-      "title": "p-e-w/heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "publisher": "GitHub Trending",
-      "summary": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and morehttps://heretic-project.org \n  \n Heretic \n Training-free language model modification \n Remove censorship, suppress slop, reduce sycophancy, and more. All in an afternoon, on your gaming PC. \n &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  \n \n \n&nbsp; \n&nbsp;&nbsp;&nbsp;&nbsp;  \nModify any LLM that you can run on your hardware[1] \nHeretic is a unique tool that lets you do what ",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "免训练去审查/降谄媚LLM",
-      "relevance_score": 9.0,
+      "article_id": "a1_bb689248b11cea14920199dc",
+      "title": "Americans voted against Trump's Iran war. Gulf countries hope that means an end to the conflict",
+      "url": "https://www.dw.com/en/americans-voted-against-trump-s-iran-war-gulf-countries-hope-that-means-an-end-to-the-conflict/a-79868398?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "The US midterm results showed how unpopular Donald Trump's Iran war is. Now, Gulf countries, trapped for months in the middle of the war between the US and Iran, see reason for optimism.",
+      "category": "国际",
+      "published_at": "2026-11-05T19:12:00+00:00",
+      "why_relevant": "美伊战事反弹海湾乐观",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Remove censorship, suppress slop, reduce sycophancy, and more.",
+          "text": "November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.800467+08:00",
-          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
-          "excerpt": "Remove censorship, suppress slop, reduce sycophancy, and more.",
-          "sentence_hash": "7aadf1ec2c64b6876589c18a6a1c7e0c5019ba0c6704af1c0e4a5a73d3b2a6c3",
+          "captured_at": "2026-11-06T08:03:35.836234+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.",
+          "sentence_hash": "d6eeae7221989e9b400b7029e85652b74141c84c5016ec7da9da4e537b86e77b",
           "anchors": [
-            "reduce",
-            "suppress"
+            "November 5"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "All in an afternoon, on your gaming PC.",
+          "text": "\"I think a part of it was Iran, but, at the same time, people understood the importance of what I've done with Iran,\" Trump told Fox News, conceding that US voters were unwilling to accept the impact of the war on gas prices.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.800481+08:00",
-          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
-          "excerpt": "All in an afternoon, on your gaming PC.",
-          "sentence_hash": "6041e389c59a1c18592dda5202a399f66c66a94ba789f9468f641ddcd35d8de9",
+          "captured_at": "2026-11-06T08:03:35.836275+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "\"I think a part of it was Iran, but, at the same time, people understood the importance of what I've done with Iran,\" Trump told Fox News, conceding that US voters were unwilling to accept the impact of the war on gas prices.",
+          "sentence_hash": "19a130ba4dbd16bd288728d90ccc8c31e2ef8156ea6313db2d596969c0feb8fc",
           "anchors": [
-            "you"
+            "but",
+            "unwilling"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Modify any LLM that you can run on your hardware1 Heretic is a unique tool that lets you do what only corporations with access to massive computing power usually do: Modify, rather than merely run, language models.",
+          "text": "Observers say the United States and Israel had been holding off on major attacks on Iran until after both had held elections.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.800506+08:00",
-          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
-          "excerpt": "Modify any LLM that you can run on your hardware1 Heretic is a unique tool that lets you do what only corporations with access to massive computing power usually do: Modify, rather than merely run, language models.",
-          "sentence_hash": "c895a4ac401d4174b6876c81275e71bcec95915f366acd897f0027584162caa8",
+          "captured_at": "2026-11-06T08:03:35.836301+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "Observers say the United States and Israel had been holding off on major attacks on Iran until after both had held elections.",
+          "sentence_hash": "58fb84a2d9e43826d30c4dfa4faf36d1446d4edc9d17ee5cc717a94c8c8c3d35",
           "anchors": [
-            "all",
-            "you"
+            "and",
+            "after"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Heretic can, depending on the configuration: - Suppress refusals/remove censorship (this is the default action) - Reduce slop (config.noslop.toml) - Reduce humor (config.nohumor.toml) - Reduce sycophancy (config.nosyco.toml) - Alter emotional alignment (config.emotions.toml) and ",
+          "text": "At the end of October, the Wall Street Journal reported that the Trump administration was already warning Gulf state governments to brace for a short, intense military campaign after the midterms.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.800536+08:00",
-          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
-          "excerpt": "Heretic can, depending on the configuration: - Suppress refusals/remove censorship (this is the default action) - Reduce slop (config.noslop.toml) - Reduce humor (config.nohumor.toml) - Reduce sycophancy (config.nosyco.toml) - Alter emotional alignment (config.emotions.toml) and ",
-          "sentence_hash": "624d7a4f5b993819048f18b1e4d1f707211bdbba9748a00ce0a0068a2fb66c8d",
+          "captured_at": "2026-11-06T08:03:35.836332+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "At the end of October, the Wall Street Journal reported that the Trump administration was already warning Gulf state governments to brace for a short, intense military campaign after the midterms.",
+          "sentence_hash": "ae2cc4bbd74b3a84ddf506a6fd26a696f3fb7c4d2b3730a0b740cd317f3188e5",
           "anchors": [
-            "remove"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "In fact, you can go from zero to removing censorship from your first model in a matter of seconds.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.800551+08:00",
-          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
-          "excerpt": "In fact, you can go from zero to removing censorship from your first model in a matter of seconds.",
-          "sentence_hash": "ee7009573599a6d76fbb76c11fdffade5b35235594fd216648882cf2e07af0da",
-          "anchors": [
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Heretic models have been independently benchmarked using standard metrics like MMLU and GSM8K, and have been found to compare favorably against models produced with competing abliteration tools.23 Prepare a Python 3.10+ environment with PyTorch 2.6+ installed as appropriate for y",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.800585+08:00",
-          "content_sha256": "8ed7bcda87d70bac1a3a612deb4257e8e6043aba65b211f935ce7af0794d5e1e",
-          "excerpt": "Heretic models have been independently benchmarked using standard metrics like MMLU and GSM8K, and have been found to compare favorably against models produced with competing abliteration tools.23 Prepare a Python 3.10+ environment with PyTorch 2.6+ installed as appropriate for y",
-          "sentence_hash": "21b582ec760661bc935328b360c124970457e7da000812cde602753007880593",
-          "anchors": [
-            "all",
-            "you"
-          ]
-        }
-      ],
-      "entities": [
-        "heretic",
-        "see",
-        "qwen",
-        "then",
-        "prepare",
-        "modify",
-        "you",
-        "python",
-        "hugging face",
-        "mmlu",
-        "replace qwen",
-        "llm",
-        "pc",
-        "suppress",
-        "reduce",
-        "rtx",
-        "scores",
-        "all",
-        "instruct",
-        "torch",
-        "remove",
-        "important\nconfiguration",
-        "alter",
-        "after heretic"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 24
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_947d58c6dafedaddeef4db79",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "publisher": "Simon Willison",
-      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with o",
-      "category": "科技",
-      "published_at": "2026-11-03T16:29:48+00:00",
-      "why_relevant": "本地大模型解释模型权重",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Qwen 3.8 27B on my laptop can interpret model weights, too 3rd November 2026 Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.801562+08:00",
-          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
-          "excerpt": "Qwen 3.8 27B on my laptop can interpret model weights, too 3rd November 2026 Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab.",
-          "sentence_hash": "f54cfbcee2ae0ac1d0b294ce53e3fe8dff38b4bdf754f90b1439a51356285f6b",
-          "anchors": [
-            "and",
-            "pac",
-            "weight",
-            "November 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The paper (OK, the authors classify is as a “blog post”, but it’s paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model—literally a text description of the model containing a bunch of floatin",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.801604+08:00",
-          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
-          "excerpt": "The paper (OK, the authors classify is as a “blog post”, but it’s paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model—literally a text description of the model containing a bunch of floatin",
-          "sentence_hash": "ad4f69def78d2f1eeb391e1696f2243766f4e1a5135f657894a916664d6b573f",
-          "anchors": [
-            "and",
-            "weight",
+            "after",
             "all"
           ]
         },
         {
-          "fact_id": "f3",
-          "text": "I’ve been playing with one of the examples from the paper and I’m delighted to share that Qwen 3.8 27B running on my laptop can do this as well!",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.801633+08:00",
-          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
-          "excerpt": "I’ve been playing with one of the examples from the paper and I’m delighted to share that Qwen 3.8 27B running on my laptop can do this as well!",
-          "sentence_hash": "79329cd4d1a1ac31cb9e7d7ba85c6e14ce3cc3e1c72ea2d5074b1c531d729664",
-          "anchors": [
-            "and",
-            "with"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Weight-Space Programming Here’s the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a netw",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.801677+08:00",
-          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
-          "excerpt": "Weight-Space Programming Here’s the highlight from their abstract, describing impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a netw",
-          "sentence_hash": "39b84cce9ec9ea86566485ea78fb9eb2356068c858792fc7e254ca35288e31af",
-          "anchors": [
-            "and",
-            "pac",
-            "weight",
-            "ok"
-          ]
-        },
-        {
           "fact_id": "f5",
-          "text": "And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps.",
+          "text": "While foreign policy is a US president's purview, analysts have pointed out that a Congress controlled by the Democratic party could ostensibly withhold funding for Trump's military expeditions.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.801701+08:00",
-          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
-          "excerpt": "And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps.",
-          "sentence_hash": "3f26af0742fd440e45d9f005f3098734a2250881ec4c178ad93633c6adcdcd23",
+          "captured_at": "2026-11-06T08:03:35.836368+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "While foreign policy is a US president's purview, analysts have pointed out that a Congress controlled by the Democratic party could ostensibly withhold funding for Trump's military expeditions.",
+          "sentence_hash": "601d5d96202e6fcc95ea3e8967aed32a607007312dcc149c83cdeecbd5da4a20",
           "anchors": [
-            "with",
-            "all",
-            "100 million"
+            "could"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights.",
+          "text": "As two US professors of political science wrote for Foreign Affairs magazine this week, past American presidents, like Trump, who become \"lame ducks\" — that is, a president who loses control of Congress and can't run for another term — have often ramped up international intervent",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.801732+08:00",
-          "content_sha256": "85e0fb88b76f245e5f9ed10632238fda31dc5d7db401352150527065153f4781",
-          "excerpt": "Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights.",
-          "sentence_hash": "fd14b99a893b7db7da28239a2727c3c770295e6136f3f7ad61734764728508ec",
+          "captured_at": "2026-11-06T08:03:35.836423+08:00",
+          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
+          "excerpt": "As two US professors of political science wrote for Foreign Affairs magazine this week, past American presidents, like Trump, who become \"lame ducks\" — that is, a president who loses control of Congress and can't run for another term — have often ramped up international intervent",
+          "sentence_hash": "af0e535026feb14654b0f6e421ff8a4e8116ec7e2e1dc0ae9e9ffeb5f346a4dd",
           "anchors": [
-            "weight",
-            "math",
-            "0.016%",
-            "with",
             "and"
           ]
         }
       ],
       "entities": [
-        "weight",
-        "ok",
-        "then",
-        "with",
-        "space programming\nhere",
-        "yesterday",
-        "astra",
-        "math",
-        "pac",
-        "breakout",
-        "gpt",
-        "matthew honnibal",
-        "rikiya takehi",
-        "atari",
-        "just",
-        "ml",
-        "qwen",
-        "eval",
-        "freeway",
-        "space programming",
-        "omar khattab",
-        "november",
-        "ppo",
-        "sean goedecke",
-        "llm",
-        "pong",
+        "but",
+        "wall street journal",
+        "unwilling",
+        "gulf",
+        "after",
+        "if iran",
+        "congress",
+        "iranian",
+        "us",
+        "middle east institute",
+        "trump",
+        "washington",
+        "could",
+        "iran",
+        "iranians",
         "all",
+        "now",
+        "mei",
+        "american",
+        "foreign affairs",
+        "opinions",
         "and",
-        "man",
-        "sparks",
-        "likewise",
-        "they",
-        "alex zhang",
-        "jayden teoh"
+        "observers",
+        "united states",
+        "democratic",
+        "president donald trump",
+        "november",
+        "ross harrison",
+        "october",
+        "while",
+        "however",
+        "fox news",
+        "the iranians",
+        "israel"
       ],
-      "numbers": [
-        "0.016%",
-        "7.9%",
-        "48.1%",
-        "100 million"
-      ],
+      "numbers": [],
       "dates": [
-        "November 20"
+        "November 5"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
+        "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 39
+        "anchor_count": 35
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_e48642bfc8cdf3c9751c07b7",
-      "title": "China, US defence officials agree to improve ‘communication’ to reduce risks",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3373321/china-us-defence-officials-agree-improve-communication-reduce-risks",
-      "publisher": "SCMP",
-      "summary": "US and Chinese defence officials met in Washington for the first meeting of a Crisis Communications and Prevention Working Group established under an agreement announced in September when leaders of the two nations met.\nThe two sides agreed on the importance of “advancing practical communication measures” to reduce risks between the US and China, according to a Pentagon readout of the meeting released Tuesday. Delegates also discussed “additional channels” to promote “effective” crisis...",
+      "article_id": "a1_6a4e6dfcb7cf31335219f9b4",
+      "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
+      "publisher": "Reuters",
+      "summary": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters&nbsp;&nbsp;Reuters",
       "category": "国际",
-      "published_at": "2026-11-04T22:08:06+00:00",
-      "why_relevant": "中美军事危机沟通",
+      "published_at": "2026-11-05T21:23:10+00:00",
+      "why_relevant": "伊朗核提议地缘关键",
       "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Delegates also discussed “additional channels” to promote “effective” crisis management and ways to communicate “expediently and effectively”.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.802132+08:00",
-          "content_sha256": "ca2db1e1f6f2ed55295376adc53477efaa4b7e4519aa1ae123fa86119408bc6e",
-          "excerpt": "Delegates also discussed “additional channels” to promote “effective” crisis management and ways to communicate “expediently and effectively”.",
-          "sentence_hash": "e72928d737de38c526f00035a90c394a60a0502980ef63d65b1478d75618de16",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "“The Department of War will continue to advance discussions with the PLA on key defence issues in the coming months,” the Pentagon release said, without providing specific details.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.802154+08:00",
-          "content_sha256": "ca2db1e1f6f2ed55295376adc53477efaa4b7e4519aa1ae123fa86119408bc6e",
-          "excerpt": "“The Department of War will continue to advance discussions with the PLA on key defence issues in the coming months,” the Pentagon release said, without providing specific details.",
-          "sentence_hash": "e949c9fd96ea6f55623f4b395cc35a53f440e81c742ad78f8bd933b6a5af1fa2",
-          "anchors": [
-            "min",
-            "us"
-          ]
-        }
-      ],
+      "confirmed_facts": [],
       "entities": [
-        "military",
-        "advertisement\nchina",
-        "crisis communications",
-        "china",
-        "the department",
-        "september",
-        "chinese",
-        "delegates",
+        "iran",
+        "reuters",
         "us",
-        "pla",
-        "war",
-        "washington",
-        "pentagon",
-        "min",
-        "listen\nseong hyeon choiin washington",
-        "prevention working group",
-        "tuesday"
+        "iranian",
+        "qatar"
       ],
       "numbers": [],
       "dates": [],
       "unknowns": [
+        "正文未抓到",
         "缺少明确时间"
       ],
       "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 17
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 5
       },
-      "evidence_complete": true
+      "evidence_complete": false
     },
     {
-      "article_id": "a1_fbc58139736af586356d2e66",
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_bd2207ba2773251521fba245",
+      "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
+      "summary": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire.",
       "category": "国际",
-      "published_at": "2026-11-04T22:48:43+00:00",
-      "why_relevant": "俄军双连击致平民伤亡",
+      "published_at": "2026-11-05T19:08:08+00:00",
+      "why_relevant": "乌克兰停火谈判",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Ukraine says bodycam video shows deadly Russian double-tap bombing - Published A bodycam video has been released by Ukraine police which they say shows the moments between two powerful Russian bomb strikes that killed at least 40 people at an aid centre and a shelter.",
+          "text": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a \"more enduring\" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.803002+08:00",
-          "content_sha256": "0e157e99c0c05b8f22549c4f1a155b8e4e94b475d765e9ea9eb14851f3dbcafa",
-          "excerpt": "Ukraine says bodycam video shows deadly Russian double-tap bombing - Published A bodycam video has been released by Ukraine police which they say shows the moments between two powerful Russian bomb strikes that killed at least 40 people at an aid centre and a shelter.",
-          "sentence_hash": "aa42110470831480ab6789dab9f26ba43ebed9164b078833609facc0e4a3ebd1",
+          "captured_at": "2026-11-06T08:03:35.837735+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a \"more enduring\" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in",
+          "sentence_hash": "f0a82dcb0fb56d1ce736a7c13b19165f9d7901f13c3b66ff92de047e1e6b5472",
           "anchors": [
-            "us",
-            "40 people"
+            "she",
+            "last",
+            "mp",
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The footage, from a camera on one of the killed police officers, shows residents of the southern village of Kamyshuvakha going to an underground shelter after the first attack on Monday.",
+          "text": "Hundreds of residents of the Russian-occupied Ukrainian town of Oleshky facing starvation and constant bombardment were able to evacuate during a six-day ceasefire, which both Moscow and Kyiv credited Trump with brokering.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.803027+08:00",
-          "content_sha256": "0e157e99c0c05b8f22549c4f1a155b8e4e94b475d765e9ea9eb14851f3dbcafa",
-          "excerpt": "The footage, from a camera on one of the killed police officers, shows residents of the southern village of Kamyshuvakha going to an underground shelter after the first attack on Monday.",
-          "sentence_hash": "b9ee253157a44b74521d74a98cb67c1f7b6ca116076d2db11c9290a5079af9d0",
+          "captured_at": "2026-11-06T08:03:35.837772+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "Hundreds of residents of the Russian-occupied Ukrainian town of Oleshky facing starvation and constant bombardment were able to evacuate during a six-day ceasefire, which both Moscow and Kyiv credited Trump with brokering.",
+          "sentence_hash": "70012ed2088a327bd6a49f8fd6f8016112f2c4d3aea515eea0f46b2a6d4ca454",
           "anchors": [
-            "first"
+            "us",
+            "mp"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "President Volodymyr Zelensky said more than 30 people may still be under the rubble, as a search operation continued for the third day.",
+          "text": "\"The lives of innocent people must transcend the division of war.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.803050+08:00",
-          "content_sha256": "0e157e99c0c05b8f22549c4f1a155b8e4e94b475d765e9ea9eb14851f3dbcafa",
-          "excerpt": "President Volodymyr Zelensky said more than 30 people may still be under the rubble, as a search operation continued for the third day.",
-          "sentence_hash": "70b3fd72b85ea49fe65b471d060c485571ad6310fe98331b9520e5e63b4fe7f5",
-          "anchors": [
-            "30 people"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "It shows huge devastation after the first bomb strike on the village in Ukraine's Zaporizhzhia region, as shocked local residents stare at the rubble.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.803081+08:00",
-          "content_sha256": "0e157e99c0c05b8f22549c4f1a155b8e4e94b475d765e9ea9eb14851f3dbcafa",
-          "excerpt": "It shows huge devastation after the first bomb strike on the village in Ukraine's Zaporizhzhia region, as shocked local residents stare at the rubble.",
-          "sentence_hash": "b4fb455c95673ff719ed950a1ecabeaec284c59d3fc09be76a189db9a2112f2a",
-          "anchors": [
-            "first"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Ukraine said the shelter was near a local school, which was being used to distribute humanitarian aid.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.803115+08:00",
-          "content_sha256": "0e157e99c0c05b8f22549c4f1a155b8e4e94b475d765e9ea9eb14851f3dbcafa",
-          "excerpt": "Ukraine said the shelter was near a local school, which was being used to distribute humanitarian aid.",
-          "sentence_hash": "0099227c63de598f71203bd6fce9d6d9f867f4ec479ca46fb7a7cde4f568b992",
+          "captured_at": "2026-11-06T08:03:35.837795+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "\"The lives of innocent people must transcend the division of war.",
+          "sentence_hash": "cfd11a345b1d1f25e4fe2ebd4aa689485bff36302ec7429041a7b080cb6982c1",
           "anchors": [
             "us"
           ]
         },
         {
-          "fact_id": "f6",
-          "text": "In a post on social media on Wednesday, Zelensky said that \"nine aerial bombs were dropped by the Russians.",
+          "fact_id": "f4",
+          "text": "I hope Oleshky inspires greater peace,\" she said.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.803140+08:00",
-          "content_sha256": "0e157e99c0c05b8f22549c4f1a155b8e4e94b475d765e9ea9eb14851f3dbcafa",
-          "excerpt": "In a post on social media on Wednesday, Zelensky said that \"nine aerial bombs were dropped by the Russians.",
-          "sentence_hash": "8e587b42a0612ca78d4205c1126f1c51e56a5a3b7428189610df6432263526ce",
+          "captured_at": "2026-11-06T08:03:35.837813+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "I hope Oleshky inspires greater peace,\" she said.",
+          "sentence_hash": "0f0bb8941a2b861c8f952df0962c32aef72bf366027f0f03ff20dca14cc1a9e9",
+          "anchors": [
+            "she"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The unusual White House event saw senior Ukrainian and Russian officials meet away from the setting of official US-brokered peace talks they have been holding without success since last year.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837842+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "The unusual White House event saw senior Ukrainian and Russian officials meet away from the setting of official US-brokered peace talks they have been holding without success since last year.",
+          "sentence_hash": "cab9a1f4b674f0441795081ad233b9cd4968fe05b486c74419ae36178f9d7294",
           "anchors": [
             "us",
-            "nine"
+            "last",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The delegations were made up of Ukraine's human rights ombudsman Dmytro Lubinets and his Russian counterpart Yana Lantratova, as well as Ukrainian MP Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.837873+08:00",
+          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
+          "excerpt": "The delegations were made up of Ukraine's human rights ombudsman Dmytro Lubinets and his Russian counterpart Yana Lantratova, as well as Ukrainian MP Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
+          "sentence_hash": "55820dce31e03fcbec811e4176b123945ce9b2e389bb339dbb61f3f9e917280a",
+          "anchors": [
+            "us"
           ]
         }
       ],
       "entities": [
-        "komyshuvakha",
-        "february",
-        "jared kushner",
-        "quickly",
-        "the russian",
-        "bbc",
-        "russian president vladimir putin",
-        "nine",
-        "the ukrainian",
-        "dsns",
-        "russia",
-        "russian",
-        "monday",
-        "russians",
-        "severely",
-        "kamyshuvakha",
-        "published",
-        "president volodymyr zelensky",
-        "zaporizhzhia",
-        "steve witkoff",
-        "president donald trump",
-        "seconds",
-        "dhabi",
-        "spain",
-        "wednesday",
-        "ukraine",
-        "ukrainian",
-        "november",
-        "soon",
+        "these",
+        "she",
+        "volodymyr zelensky",
         "us",
-        "abu",
-        "verify",
+        "trump",
+        "dmitriev",
+        "mp",
+        "first lady melania trump",
+        "white house",
+        "arakhamia",
+        "davyd arakhamia",
+        "russian",
+        "kremlin",
         "zelensky",
-        "first"
+        "kherson",
+        "february",
+        "oleshky",
+        "kyiv",
+        "ukrainian",
+        "yana lantratova",
+        "moscow",
+        "let",
+        "hundreds",
+        "they",
+        "published",
+        "dmytro lubinets",
+        "last",
+        "russia",
+        "melania trump",
+        "kirill dmitriev",
+        "vladimir putin",
+        "ukraine"
       ],
-      "numbers": [
-        "40 people",
-        "30 people"
-      ],
+      "numbers": [],
       "dates": [
         "February 20"
       ],
@@ -689,27 +680,44 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 37
+        "anchor_count": 33
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_1090b0de723c1385f4173e05",
-      "title": "Arm forecasts third-quarter revenue above estimates on AI spending boom",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMGV2UGo5V1FRUGxkUzdPWVo1NGhFM2lvM2N5NVUycUUya2VIX3N2aHM5am8tNUhCQ21oMng4LVQ2UllCWnRpdlNqUDd4MTM2ZVhpUTBlR3NQTTdBZFNMVlRDVV9LQ2d4Vjc1M0ZBcldwZmVEaGpDTENnVHR2bmp3Sm9ENnF6YWU1TDRjcmxiSWQwTjY5clQwb2V2a1JMdUhxLXRfLUZwUlNwR0Rob1E?oc=5",
+      "article_id": "a1_6c34ec27e5931f1ad1379c32",
+      "title": "Google plans $17 billion Wyoming data center amid rising threats of curbs",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXNTLVJtQV9yc3AzLTh3VGlkVkl5M1ZmMmhjOHkzSGtCWTctUHhwMkhaaHZvLTVhUXNMdmgyNGFYVldhN2RrM0FtUVRRcnBFYnV4Zkxwa0NaRjNOSlJha1RoZ0tWeHVZaTlFb0tQdjUtMTAwNm5XdERkSDVWSjhQc1pYSjV4azVJZVYteF9zb0VCbFA5OEtUZXhnbGhLQTBZUXlkNlJpUGR1RTY4TGRzQVFWLXQ?oc=5",
       "publisher": "Reuters",
-      "summary": "Arm forecasts third-quarter revenue above estimates on AI spending boom&nbsp;&nbsp;Reuters",
+      "summary": "Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters",
       "category": "国际",
-      "published_at": "2026-11-04T22:19:58+00:00",
-      "why_relevant": "Arm营收超预期AI支出",
+      "published_at": "2026-11-05T20:47:44+00:00",
+      "why_relevant": "谷歌巨资扩建AI基建",
       "relevance_score": 8.0,
-      "confirmed_facts": [],
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.838049+08:00",
+          "content_sha256": "5b8388bb5a99a25b07e19b6405c3637edffbf6791aa1d4c6db4d49473ea5526d",
+          "excerpt": "Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters",
+          "sentence_hash": "afa593e4f68ffcc7101ec8473fa152488cf31beefc45a61bb17b9bbc0dc392e7",
+          "anchors": [
+            "17 billion",
+            "$17 billion"
+          ]
+        }
+      ],
       "entities": [
         "reuters",
-        "ai",
-        "arm"
+        "wyoming",
+        "google"
       ],
-      "numbers": [],
+      "numbers": [
+        "17 billion",
+        "$17 billion"
+      ],
       "dates": [],
       "unknowns": [
         "正文未抓到",
@@ -718,181 +726,27 @@
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 3
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_89eeaee1de67272cfe6cbaa0",
-      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
-      "url": "https://arxiv.org/abs/2611.03662",
-      "publisher": "arXiv cs.AI",
-      "summary": "arXiv:2611.03662v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted by these SDKs may propagate to downstream applications, highlighting the importance of SDK-level conformance testing. Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce spe",
-      "category": "科技",
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "why_relevant": "MCP SDK合规性前沿研究",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Computer Science > Artificial Intelligence [Submitted on 12 Aug 2026] Title:MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication View PDF HTML (experimental) Abstract:The Model Context Protocol (MCP) connects large language model agents ",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804036+08:00",
-          "content_sha256": "8e4d45821928f5ea0908b06b0483f981c01ed4d74fbaedaccc087b3e88ef5ee8",
-          "excerpt": "Computer Science > Artificial Intelligence [Submitted on 12 Aug 2026] Title:MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication View PDF HTML (experimental) Abstract:The Model Context Protocol (MCP) connects large language model agents ",
-          "sentence_hash": "a4bbb8333edd39ca557c04363b59a210af43f782c15bf63a1291548fd8b19d50",
-          "anchors": [
-            "Aug 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce specification requirements.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804073+08:00",
-          "content_sha256": "8e4d45821928f5ea0908b06b0483f981c01ed4d74fbaedaccc087b3e88ef5ee8",
-          "excerpt": "Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce specification requirements.",
-          "sentence_hash": "a5cf3b62e0e8d8a0c2c3c97554c0885260435e35ce963d28bc88dd0ba0dbd999",
-          "anchors": [
-            "specification"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "We present MCPGuard, an automated LLM-based framework for detecting specification-to-SDK conformance gaps.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804091+08:00",
-          "content_sha256": "8e4d45821928f5ea0908b06b0483f981c01ed4d74fbaedaccc087b3e88ef5ee8",
-          "excerpt": "We present MCPGuard, an automated LLM-based framework for detecting specification-to-SDK conformance gaps.",
-          "sentence_hash": "607d50cecd8ecdd5c5f7a5ca80236382cc195e32d31188be32888ddbf778eae6",
-          "anchors": [
-            "specification"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Its behavioral track extracts normative prose rules, retrieves bounded function-level slices, and audits them with LLMs for candidate omissions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804120+08:00",
-          "content_sha256": "8e4d45821928f5ea0908b06b0483f981c01ed4d74fbaedaccc087b3e88ef5ee8",
-          "excerpt": "Its behavioral track extracts normative prose rules, retrieves bounded function-level slices, and audits them with LLMs for candidate omissions.",
-          "sentence_hash": "ad56d2cac76f337769e470dee21d024657b0f3837a8bfc9c18cb73cf94d97dd3",
-          "anchors": [
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "By making SDK conformance of specification constraints directly testable, MCPGuard complements conventional endpoint-oriented conformance suites.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804168+08:00",
-          "content_sha256": "8e4d45821928f5ea0908b06b0483f981c01ed4d74fbaedaccc087b3e88ef5ee8",
-          "excerpt": "By making SDK conformance of specification constraints directly testable, MCPGuard complements conventional endpoint-oriented conformance suites.",
-          "sentence_hash": "facdbaa7ff3434b4824e91723ea179b775088044f506f29a78532ad9c57cf3a1",
-          "anchors": [
-            "specification"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804223+08:00",
-          "content_sha256": "8e4d45821928f5ea0908b06b0483f981c01ed4d74fbaedaccc087b3e88ef5ee8",
-          "excerpt": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
-          "sentence_hash": "880fbee3ce822fd1dcd8ee353dedc49863baf6974296c7bcf04cc753faaa573d",
-          "anchors": [
-            "pub"
-          ]
-        }
-      ],
-      "entities": [
-        "code finder",
-        "citation tools\n            bibliographic explorer",
-        "data",
-        "script",
-        "yet",
-        "additional features\nreferences",
-        "title",
-        "both",
-        "sdk",
-        "explorer",
-        "smart citations",
-        "litmaps",
-        "submitted",
-        "finding conformance gaps",
-        "track analysis",
-        "artificial intelligence",
-        "code",
-        "hub",
-        "science",
-        "core",
-        "html",
-        "huggingface",
-        "bibliographic",
-        "specification",
-        "guard",
-        "abstract",
-        "pdf",
-        "influence flowers",
-        "dual",
-        "dynamic adjudication\nview",
-        "recommender",
-        "cast",
-        "article",
-        "papers",
-        "tests",
-        "labs",
-        "json",
-        "python",
-        "xiv",
-        "catalyze",
-        "hugging face",
-        "the model context protocol",
-        "type",
-        "citations\n    \n    loading",
-        "media associated",
-        "llm",
-        "mcp",
-        "connected papers",
-        "schema",
-        "its",
-        "aug",
-        "search tools\n              influence flower",
-        "pub",
-        "dags",
-        "gotit",
-        "computer science",
-        "demos\nrecommenders"
-      ],
-      "numbers": [],
-      "dates": [
-        "Aug 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 58
+        "fact_count": 1,
+        "anchor_count": 5
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_8707f1ea5fc20840eab9f490",
-      "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
-      "url": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-04T22:55:00+00:00",
-      "why_relevant": "稳定币监管与加密机会",
+      "article_id": "a1_19229803acc3869c376a4230",
+      "title": "Trump says he met Putin envoy Dmitriev",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkIyajduM2t4eXl5eGs0V1hHU0Y2amcxWjM1dmthWmtDekkwV3V5MElyZlpjZFlfOUVENC1fSXJ2S0llMDloc2VJZmktZG5jUWFvMVUwbTJ6VkNuSF9EX0dEdzliNnlzN0J6RlIydnVMVE9sdVNpV3J1VzR0MTdfRk51WVE0dVk?oc=5",
+      "publisher": "Reuters",
+      "summary": "Trump says he met Putin envoy Dmitriev&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-11-05T21:49:31+00:00",
+      "why_relevant": "美俄特使会晤",
       "relevance_score": 8.0,
       "confirmed_facts": [],
       "entities": [
-        "tokenization",
-        "democrats"
+        "trump",
+        "reuters",
+        "putin",
+        "dmitriev"
       ],
       "numbers": [],
       "dates": [],
@@ -904,40 +758,454 @@
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 0,
-        "anchor_count": 2
+        "anchor_count": 4
       },
       "evidence_complete": false
     },
     {
-      "article_id": "a1_f0f26150d44297ffb5ee2f5e",
-      "title": "Wall Street rethinks AI data center boom as Texas election raises new risks",
-      "url": "https://www.coindesk.com/markets/2026/11/04/wall-street-cuts-bitcoin-miner-price-targets-after-democrats-texas-win-threatens-ai-data-center-boom",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-04T16:08:14+00:00",
-      "why_relevant": "AI数据中心投资风险",
+      "article_id": "a1_fd682e8cb84df211e5a95ef5",
+      "title": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "publisher": "GitHub Trending",
+      "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.Auto Ontology \nAgents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "语义图推理层助LLM检索",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+          "text": "NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.804440+08:00",
-          "content_sha256": "92e8adf8eab1b1c70694582f0f9083cb13a1e687295f774043b1836574240c0d",
-          "excerpt": "Wall Street rethinks AI data center boom as Texas election raises new risks",
-          "sentence_hash": "92e8adf8eab1b1c70694582f0f9083cb13a1e687295f774043b1836574240c0d",
+          "captured_at": "2026-11-06T08:03:35.839443+08:00",
+          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
+          "excerpt": "NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API.",
+          "sentence_hash": "825383887e26983e803c9c17b1afaf70cee6425d74c0aa302dc1afb4120bd9c1",
+          "anchors": [
+            "expose",
+            "ui"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It complements the semantic models customers already own.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.839466+08:00",
+          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
+          "excerpt": "It complements the semantic models customers already own.",
+          "sentence_hash": "664f49f34b5695c0b405880b7405eab410762fc0b3a5e9edfb8a8bed120471c2",
+          "anchors": [
+            "semantic"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It enables developers to: - Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.839493+08:00",
+          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
+          "excerpt": "It enables developers to: - Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
+          "sentence_hash": "7a96f53909c2ce64a70e0b478aebed80253aaf257671a490dfb1212f95d57170",
+          "anchors": [
+            "semantic",
+            "ui"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.839517+08:00",
+          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
+          "excerpt": "- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.",
+          "sentence_hash": "c5356e3a3ac905b7aec16c5ff650b30d1c007db2570699f111497e60a4479c8a",
+          "anchors": [
+            "agents"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.839540+08:00",
+          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
+          "excerpt": "- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.",
+          "sentence_hash": "6b35c8ff2d763a41f9d763deb89f23b4b9a80f79523a94d23b9a7e1120688b8a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Natural-language querying of structured data — questions are translated to SQL and executed against connected databases, powered by NVIDIA NIM.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.839602+08:00",
+          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
+          "excerpt": "- Natural-language querying of structured data — questions are translated to SQL and executed against connected databases, powered by NVIDIA NIM.",
+          "sentence_hash": "b90e73109b4364ae46b6474a7f79fdfdb78625c3a323e447acaf13a0b96100c0",
           "anchors": [
             "ai"
           ]
         }
       ],
       "entities": [
-        "texas",
-        "wall street",
-        "ai"
+        "nim",
+        "docker compose",
+        "better auth",
+        "bird",
+        "expose",
+        "apache license",
+        "rbac",
+        "prefix",
+        "ui",
+        "web",
+        "discover",
+        "kubernetes",
+        "reranking",
+        "semantic",
+        "learn",
+        "natural",
+        "mcp",
+        "nvidia",
+        "flexible",
+        "you",
+        "authentication",
+        "field",
+        "postgres",
+        "agents",
+        "validate",
+        "licensing",
+        "auto ontology",
+        "each",
+        "ground",
+        "cli",
+        "llm",
+        "url",
+        "third",
+        "ai",
+        "sql",
+        "api",
+        "embeddings",
+        "helm"
       ],
       "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_6636cac42a86af0dedfab466",
+      "title": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "publisher": "GitHub Trending",
+      "summary": "Computer use CLI for AI agentshttps://agent-browser.dev/desktopagent-desktop \nComputer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. \n      \nagent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repea",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "LLM操作桌面，前沿实用",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.840668+08:00",
+          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
+          "excerpt": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.",
+          "sentence_hash": "04e263199e77b304bd65c71d79d423be62d9a03f8d8b07079640be52cb95f1c6",
+          "anchors": [
+            "accessibility",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "agent-desktop gives an AI agent computer use without screenshots or pixel matching.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.840694+08:00",
+          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
+          "excerpt": "agent-desktop gives an AI agent computer use without screenshots or pixel matching.",
+          "sentence_hash": "4134b8e291310dc7365f7d1a7407f43aa5a5bdf198f7bcb944f1dc741ad50aa6",
+          "anchors": [
+            "computer"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.840720+08:00",
+          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
+          "excerpt": "It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on.",
+          "sentence_hash": "7834831f690300f4788db3cd6efa1352b8169d7512fd38f962497cc085ae8fea",
+          "anchors": [
+            "ref",
+            "accessibility",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The agent clicks or types on a ref, reads the UI again to check the result, and repeats.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.840742+08:00",
+          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
+          "excerpt": "The agent clicks or types on a ref, reads the UI again to check the result, and repeats.",
+          "sentence_hash": "ff97297d3a9d6ccd325c04acb684d7412304b03859f0324daddbabe20dfc865d",
+          "anchors": [
+            "cli",
+            "ref",
+            "click",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.840771+08:00",
+          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
+          "excerpt": "Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content.",
+          "sentence_hash": "ef052c912f3dfac94d8e3570fe5395e4d75b44ce0f88ccf2f8053f51d08923f7",
+          "anchors": [
+            "cli",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "npm install -g agent-desktop agent-desktop status # platform, permissions, supported surfaces agent-desktop permissions --guide # macOS: walks you through the Accessibility grant Bun, Yarn and pnpm can install the same package.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.840811+08:00",
+          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
+          "excerpt": "npm install -g agent-desktop agent-desktop status # platform, permissions, supported surfaces agent-desktop permissions --guide # macOS: walks you through the Accessibility grant Bun, Yarn and pnpm can install the same package.",
+          "sentence_hash": "41b794334462ffd30400a69fe3725887dfeda1a01f5b23e0a1806df6728400cc",
+          "anchors": [
+            "ui",
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "release",
+        "dense",
+        "post",
+        "documents",
+        "downloads",
+        "headless",
+        "computer",
+        "ui",
+        "hub releases",
+        "click",
+        "snapshots",
+        "yarn",
+        "json",
+        "bun",
+        "there",
+        "installation",
+        "finder",
+        "linux",
+        "java",
+        "scoop",
+        "refs",
+        "accessibility",
+        "homebrew",
+        "windows",
+        "script",
+        "window",
+        "pass",
+        "ref",
+        "each",
+        "slack",
+        "cli",
+        "git",
+        "ai",
+        "api",
+        "keep",
+        "several",
+        "os",
+        "for"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_edc05ced526f584e417d3546",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "publisher": "TechCrunch",
+      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "category": "科技",
+      "published_at": "2026-11-05T18:02:27+00:00",
+      "why_relevant": "OpenAI上市信号行业焦点",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenAI co-founder and president Greg Brockman said the company would be ready for an IPO in 2027, noting that its enterprise revenue has been growing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842027+08:00",
+          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
+          "excerpt": "OpenAI co-founder and president Greg Brockman said the company would be ready for an IPO in 2027, noting that its enterprise revenue has been growing.",
+          "sentence_hash": "31a295f3bff35ce539281e29c72d556ca240e861ccaa54fede6e10f7972a543b",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842059+08:00",
+          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
+          "excerpt": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+          "sentence_hash": "13087c03e8205e76cd4716db60030acee41a396506edcfc169dbf9a0a5082f6a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Yes.” “We’ve been very clear this year that we want to go public when we feel is the right time for us, and I feel extremely good about the business.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842094+08:00",
+          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
+          "excerpt": "Yes.” “We’ve been very clear this year that we want to go public when we feel is the right time for us, and I feel extremely good about the business.",
+          "sentence_hash": "48679e5fde8025d922a5f16b8e2629e001c417403d11742e7e5bce1d8d148a1c",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "I feel like we’ve made so much progress this year, and I’ve honestly never felt more confident in what we’re doing,” Brockman said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842140+08:00",
+          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
+          "excerpt": "I feel like we’ve made so much progress this year, and I’ve honestly never felt more confident in what we’re doing,” Brockman said.",
+          "sentence_hash": "1d764602f2692db2c04d388732e1ca1e9f685e47914974c33a3fd4d09986fe3c",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "He detailed how OpenAI’s trajectory as an enterprise had changed over the course of 2026, noting that the first and second quarters were “pretty rough.” He also admitted that OpenAI “wasn’t even in the conversation” when it came to agentic coding — an area where Anthropic’s Claud",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842183+08:00",
+          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
+          "excerpt": "He detailed how OpenAI’s trajectory as an enterprise had changed over the course of 2026, noting that the first and second quarters were “pretty rough.” He also admitted that OpenAI “wasn’t even in the conversation” when it came to agentic coding — an area where Anthropic’s Claud",
+          "sentence_hash": "e3b179360ead2369dcc156d7451ca8cf6d17f74401ca4583a7934de2476e8955",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "“We had Codex, but no one was talking about it,” Brockman continued, “and I think that we just kept our heads down and executed.” By the third quarter, activity picked up, as OpenAI saw 70% quarterly growth in its annualized revenue — something Brockman attributed to the enterpri",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842224+08:00",
+          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
+          "excerpt": "“We had Codex, but no one was talking about it,” Brockman continued, “and I think that we just kept our heads down and executed.” By the third quarter, activity picked up, as OpenAI saw 70% quarterly growth in its annualized revenue — something Brockman attributed to the enterpri",
+          "sentence_hash": "f8f41baf220d9e8bb0b34fce5afa66d368c7154152cb3e206f418e157ef68e54",
+          "anchors": [
+            "and",
+            "but",
+            "70%"
+          ]
+        }
+      ],
+      "entities": [
+        "but",
+        "speaking",
+        "wall street journal",
+        "is open",
+        "and",
+        "greg brockman",
+        "wednesday",
+        "brockman",
+        "ipo",
+        "morgan chase",
+        "claude code",
+        "anthropic",
+        "open",
+        "ai",
+        "yes",
+        "now",
+        "codex"
+      ],
+      "numbers": [
+        "30%",
+        "70%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_f016d081332776ce33573635",
+      "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-05T13:29:40+00:00",
+      "why_relevant": "谷歌或投矿企AI币链交叉",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-06T08:03:35.842429+08:00",
+          "content_sha256": "e9d98e470edda66bb2119e965bc6555e52677386723842ab110622cdf8cfa7ab",
+          "excerpt": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+          "sentence_hash": "e9d98e470edda66bb2119e965bc6555e52677386723842ab110622cdf8cfa7ab",
+          "anchors": [
+            "$19 billion",
+            "19 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "google",
+        "tera",
+        "wulf",
+        "anthropic",
+        "ai"
+      ],
+      "numbers": [
+        "$19 billion",
+        "19 billion"
+      ],
       "dates": [],
       "unknowns": [
         "正文未抓到",
@@ -947,171 +1215,163 @@
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 1,
-        "anchor_count": 3
+        "anchor_count": 7
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_11ac237083fedabb1bf3fee2",
-      "title": "Zelenskiy hopes US election outcome will generate more help for Ukraine",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjFLdFdwNUNSQ1l4UnhlT3A0TTNua2ttWWJvNWtNQlpUVlZncVRzTnVZRUkydktKS1IwaHBQU243ajRzUC04N3lEZXhlV3hKczc3V1VvUjFCcy1ESXBUU09YVlBoVlNUaHVrTHR2SWFhMEIxNmlPazBWbTZZdEN2bWRmYmtrYzRqMy15ckpiWDdYNTJHYUUzdmZwZU05MnRiaTBVVTVmUnZtLXJyOEE?oc=5",
-      "publisher": "Reuters",
-      "summary": "Zelenskiy hopes US election outcome will generate more help for Ukraine&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-11-04T22:20:02+00:00",
-      "why_relevant": "美选结果影响对乌援助",
-      "relevance_score": 7.0,
-      "confirmed_facts": [],
-      "entities": [
-        "reuters",
-        "us",
-        "ukraine",
-        "zelenskiy"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 4
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_3daf5e0dc34f774e507719ff",
-      "title": "Israel's president begins consultations with parties after election deadlock",
-      "url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Herzog warns politicians that \"not every commitment and promise can be fulfilled\" if they want to avoid another election.",
-      "category": "国际",
-      "published_at": "2026-11-04T16:18:21+00:00",
-      "why_relevant": "以色列选举后组阁僵局",
-      "relevance_score": 7.0,
+      "article_id": "a1_b587e3d06042134093e8ebd8",
+      "title": "Stock futures fall after Nasdaq slips into correction; traders await big payrolls report: Live updates",
+      "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "A bout of hard selling took hold of the market on Thursday, dragging the three major averages down to their worst session since April 2025.",
+      "category": "财经",
+      "published_at": "2026-11-05T23:58:23+00:00",
+      "why_relevant": "纳指回调聚焦非农",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Herzog told party leaders that \"not every commitment and promise can be fulfilled\" if they want to avoid a new election.",
+          "text": "Stock futures fell Thursday evening after a punishing sell-off in artificial intelligence stocks that sent the Nasdaq into correction territory.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.805348+08:00",
-          "content_sha256": "c9de72c6f3f3a78ed9c09458cf43059946adbd1c426487962acf40018856919b",
-          "excerpt": "Herzog told party leaders that \"not every commitment and promise can be fulfilled\" if they want to avoid a new election.",
-          "sentence_hash": "837690d9d839e7d3b68b24c253f5b090e0db922848b380ced97c4a8556dcb2f5",
+          "captured_at": "2026-11-06T08:03:35.843462+08:00",
+          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
+          "excerpt": "Stock futures fell Thursday evening after a punishing sell-off in artificial intelligence stocks that sent the Nasdaq into correction territory.",
+          "sentence_hash": "e0fc1ef1a666d5549829c80884d510d6554a6f58bebfe19433c74d4d142122f3",
           "anchors": [
-            "they"
+            "even",
+            "correction",
+            "futures",
+            "stock"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Earlier, electoral officials said there was no evidence of irregularities and that unsubstantiated claims by Netanyahu's camp of Arab-led parties \"stealing\" the election did not justify delaying the results' certification.",
+          "text": "Traders also awaited a key payrolls report.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.805378+08:00",
-          "content_sha256": "c9de72c6f3f3a78ed9c09458cf43059946adbd1c426487962acf40018856919b",
-          "excerpt": "Earlier, electoral officials said there was no evidence of irregularities and that unsubstantiated claims by Netanyahu's camp of Arab-led parties \"stealing\" the election did not justify delaying the results' certification.",
-          "sentence_hash": "b6daa3595958c8762623b29312f44702b2c3e76f1fd4b0e55c7989bf5df893cb",
+          "captured_at": "2026-11-06T08:03:35.843484+08:00",
+          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
+          "excerpt": "Traders also awaited a key payrolls report.",
+          "sentence_hash": "fe9565a5609fd7d013ee308816a4c8cf77c7160995d94726df857081ba5c8ca3",
           "anchors": [
-            "here"
+            "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The Shin Bet security service is investigating allegations of foreign interference in the election, but the head of the Central Elections Committee stressed that they would not fundamentally change the outcome.",
+          "text": "S&P 500 futures lost 0.6%, while Nasdaq-100 futures slid 0.8%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.805402+08:00",
-          "content_sha256": "c9de72c6f3f3a78ed9c09458cf43059946adbd1c426487962acf40018856919b",
-          "excerpt": "The Shin Bet security service is investigating allegations of foreign interference in the election, but the head of the Central Elections Committee stressed that they would not fundamentally change the outcome.",
-          "sentence_hash": "94fd1f6d75a37dcf736be6b99f37797415a9107153647de9ef07bdc5c894d5bf",
+          "captured_at": "2026-11-06T08:03:35.843504+08:00",
+          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
+          "excerpt": "S&P 500 futures lost 0.6%, while Nasdaq-100 futures slid 0.8%.",
+          "sentence_hash": "7c4c7a11a08f39d245cde46d1d79d78807a5a0a6908c680ebfa2f61acb9a42d9",
           "anchors": [
-            "they"
+            "0.8%",
+            "0.6%",
+            "futures",
+            "while"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "However, all but one of the Jewish parties pledged before the polls not to work with them to form a government.",
+          "text": "Futures tied to the Dow Jones Industrial Average shed 291 points, or 0.6%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.805447+08:00",
-          "content_sha256": "c9de72c6f3f3a78ed9c09458cf43059946adbd1c426487962acf40018856919b",
-          "excerpt": "However, all but one of the Jewish parties pledged before the polls not to work with them to form a government.",
-          "sentence_hash": "1b0f54a48b180a0c3c32ac9071c4e75cfdb7bdd2d8d717381bce7f0906fe65e8",
+          "captured_at": "2026-11-06T08:03:35.843525+08:00",
+          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
+          "excerpt": "Futures tied to the Dow Jones Industrial Average shed 291 points, or 0.6%.",
+          "sentence_hash": "aec84167b0815e35f76f600affb785f953389afa832b958c57f28b409ee35e56",
           "anchors": [
-            "one"
+            "she",
+            "0.6%"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The role of Israel's president is largely ceremonial, but after an election they have the role of inviting a Knesset member to form a government.",
+          "text": "The moves follow a bout of heavy selling during Thursday's regular session that saw the three major averages post their worst one-day performances since April 2025.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.805466+08:00",
-          "content_sha256": "c9de72c6f3f3a78ed9c09458cf43059946adbd1c426487962acf40018856919b",
-          "excerpt": "The role of Israel's president is largely ceremonial, but after an election they have the role of inviting a Knesset member to form a government.",
-          "sentence_hash": "4d655e08918ac390ffbfc3cda5a54095965f40f8f675d29d2e8cc96fbd8c5203",
+          "captured_at": "2026-11-06T08:03:35.843555+08:00",
+          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
+          "excerpt": "The moves follow a bout of heavy selling during Thursday's regular session that saw the three major averages post their worst one-day performances since April 2025.",
+          "sentence_hash": "c0be1fb3579637bd09da9bff18c87e042b2bc4c203ab707cf7e7dee6c657c51d",
           "anchors": [
-            "they"
+            "April 20"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The president has wide discretion to pick someone they believe has the best chance of building a coalition.",
+          "text": "The Nasdaq Composite tanked 5.5%, closing more than 10% below its most recent high and landing in correction territory.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-05T08:03:04.805486+08:00",
-          "content_sha256": "c9de72c6f3f3a78ed9c09458cf43059946adbd1c426487962acf40018856919b",
-          "excerpt": "The president has wide discretion to pick someone they believe has the best chance of building a coalition.",
-          "sentence_hash": "c17dffa8e4af7b1ddb100d7357d75686031ddc6ac4261faa1969907607784d89",
+          "captured_at": "2026-11-06T08:03:35.843583+08:00",
+          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
+          "excerpt": "The Nasdaq Composite tanked 5.5%, closing more than 10% below its most recent high and landing in correction territory.",
+          "sentence_hash": "322429cc23956c21493349f7a6a792adec6a41538e820d8fdc24e93851a609d2",
           "anchors": [
-            "one",
-            "they"
+            "correction",
+            "5.5%",
+            "10%"
           ]
         }
       ],
       "entities": [
-        "however",
-        "central elections committee",
-        "eisenkot",
-        "on wednesday",
-        "october\nin",
-        "herzog",
-        "neither",
-        "israeli",
-        "orthodox jewish",
-        "israel",
-        "gadi eisenkot",
-        "here",
-        "justice noam sohlberg",
-        "published",
-        "two arab",
-        "prime minister benjamin netanyahu",
-        "arab",
-        "sohlberg",
-        "netanyahu",
-        "united arab list",
-        "yashar",
-        "jerusalem",
-        "earlier",
-        "one",
-        "knesset",
-        "jewish",
+        "cio",
+        "the dow jones",
+        "the nasdaq composite",
+        "democrats",
+        "she",
+        "texas",
+        "squared private wealth",
+        "advanced micro devices",
+        "dow jones industrial average",
+        "april",
+        "house",
+        "magnificent seven",
+        "futures",
+        "micron technology",
+        "correction",
+        "nvidia",
+        "nasdaq",
+        "stock",
+        "dow",
+        "weave",
+        "victoria greene",
+        "traders",
+        "friday",
+        "cnbc",
+        "even",
+        "another",
+        "while",
+        "core",
         "october",
-        "joint list",
-        "president isaac herzog",
-        "the shin bet",
-        "likud",
-        "they",
-        "published\nisrael"
+        "buying",
+        "thursday",
+        "ai",
+        "senate"
       ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
+      "numbers": [
+        "4.4%",
+        "1 trillion",
+        "$1 trillion",
+        "10%",
+        "9%",
+        "59,000 jobs",
+        "17%",
+        "0.5%",
+        "0.6%",
+        "3%",
+        "4.2%",
+        "3.4%",
+        "0.8%",
+        "5.5%"
       ],
+      "dates": [
+        "April 20"
+      ],
+      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 33
+        "anchor_count": 48
       },
       "evidence_complete": true
     }
