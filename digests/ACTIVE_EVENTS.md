@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-06 08:09。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-07 08:07。
+
+## OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261107_057867298f47`
+
+## scenario-labs/skills
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261107_3b4019e804ec`
+
+## vercel-labs/agent-browser
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261107_b001d7108a5e`
+
+## Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261107_251e5e8b72e9`
+
+## Anthropic to press ahead with IPO targeting $1.5tn valuation
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261107_074e7c2ae3da`
+
+## Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261107_4b75f2013fed`
+
+## Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261107_fe52b5f7190c`
+
+## AI stocks climb after trillions wiped from market values
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：AI stocks climb after trillions wiped from market values - Published Shares in artificial intelligence and technology firms have recovered slightly from an enormous sell-off that wiped trillions of dollars off stock values.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261107_41ec3fc84a40`
+
+## Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261107_6734184ea490`
+
+## How Trump’s unconvincing narrative on Iran lost him the US midterms
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：It was the most expensive election in American history: nearly $12bn spent, much of it on advertisements, with the majority of that money going to Republican candidates.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261107_d66e0f0d317f`
+
+## For people in Iran, a constant threat of war and dearth of information
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：For people in Iran, a constant threat of war and dearth of information November 6, 2026 "There is a constant sense of fear in the air," a 37-year-old mother in Tehran told DW.
+- 事件 ID：`evt_20261107_94950a6fd374`
+
+## Ueno Bank scandal plunges Paraguay into political crisis
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：Ueno Bank scandal plunges Paraguay into political crisis November 6, 2026 The Ueno Bank collapse is turning into one of the biggest financial and political scandals in the history of Paraguay.
+- 事件 ID：`evt_20261107_e41e9af52c2b`
+
+## ANC faces bruising defeat in South African local elections with 80% of ballots counted
+- 状态：更新中；首见 2026-11-07；最近更新 2026-11-07
+- 最新事实：The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261107_4637f7e62211`
 
 ## Major tech stocks plunge as US midterms add to fears of AI slowdown
 - 状态：更新中；首见 2026-11-06；最近更新 2026-11-06

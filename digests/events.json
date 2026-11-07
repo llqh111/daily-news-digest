@@ -20314,7 +20314,516 @@
       "sources": [
         "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
       ]
+    },
+    {
+      "id": "evt_20261107_057867298f47",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_542e790a2e3ebb4bdeed0205",
+          "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+          "raw_title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+          "why_relevant": "OpenAI估值1.25万亿，AI资本风向标",
+          "facts": [
+            "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
+            "That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
+            "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "latest_raw_title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "status": "更新中",
+      "key_facts": [
+        "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
+        "That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
+        "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+      ]
+    },
+    {
+      "id": "evt_20261107_3b4019e804ec",
+      "title": "scenario-labs/skills",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_27358f6bb8be3692d23128c6",
+          "title": "scenario-labs/skills",
+          "raw_title": "scenario-labs/skills",
+          "why_relevant": "AI Agent生产图像工具，契合读者",
+          "facts": [
+            "Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai",
+            "The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, confere",
+            "# Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-"
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/scenario-labs/skills"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "scenario-labs/skills",
+      "latest_raw_title": "scenario-labs/skills",
+      "status": "更新中",
+      "key_facts": [
+        "Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai",
+        "The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, confere",
+        "# Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-"
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/scenario-labs/skills"
+      ]
+    },
+    {
+      "id": "evt_20261107_b001d7108a5e",
+      "title": "vercel-labs/agent-browser",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_c729e856e0c79827c858175e",
+          "title": "vercel-labs/agent-browser",
+          "raw_title": "vercel-labs/agent-browser",
+          "why_relevant": "浏览器自动化CLI，Agent实用工具",
+          "facts": [
+            "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
+            "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time.",
+            "snapshot returns the page as compact text with a ref such as @e1 for each element."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/vercel-labs/agent-browser"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "vercel-labs/agent-browser",
+      "latest_raw_title": "vercel-labs/agent-browser",
+      "status": "更新中",
+      "key_facts": [
+        "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
+        "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time.",
+        "snapshot returns the page as compact text with a ref such as @e1 for each element."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/vercel-labs/agent-browser"
+      ]
+    },
+    {
+      "id": "evt_20261107_251e5e8b72e9",
+      "title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_f95e5b66fafcd6453b4752d6",
+          "title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+          "raw_title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+          "why_relevant": "45B MoE全双工语音模型，前沿架构",
+          "facts": [
+            "Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.",
+            "Most voice models are still turn-based: listen, wait for end of turn, think, speak.",
+            "Duplex runs all streams at once and keeps working in the background while it talks."
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+      "latest_raw_title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+      "status": "更新中",
+      "key_facts": [
+        "Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.",
+        "Most voice models are still turn-based: listen, wait for end of turn, think, speak.",
+        "Duplex runs all streams at once and keeps working in the background while it talks."
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/"
+      ]
+    },
+    {
+      "id": "evt_20261107_074e7c2ae3da",
+      "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_2e5e3ff840a334c63b5f622c",
+          "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+          "raw_title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+          "why_relevant": "Anthropic冲刺IPO，Claude母公司动态",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+      "latest_raw_title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261107_4b75f2013fed",
+      "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_d41cb1ffac707a8d51680754",
+          "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+          "raw_title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+          "why_relevant": "比特币7.6万下方横盘，币圈关键位",
+          "facts": [
+            "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+      "latest_raw_title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+      "status": "更新中",
+      "key_facts": [
+        "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite"
+      ]
+    },
+    {
+      "id": "evt_20261107_fe52b5f7190c",
+      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_a8217f67a1de2d6c5c0181f3",
+          "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+          "raw_title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+          "why_relevant": "10亿看多爆仓，衍生品市场危险信号",
+          "facts": [
+            "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "latest_raw_title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "status": "更新中",
+      "key_facts": [
+        "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+      ]
+    },
+    {
+      "id": "evt_20261107_41ec3fc84a40",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_b02b88101a6545f8ac1be613",
+          "title": "AI stocks climb after trillions wiped from market values",
+          "raw_title": "AI stocks climb after trillions wiped from market values",
+          "why_relevant": "AI股反弹，科技股与政治关联",
+          "facts": [
+            "AI stocks climb after trillions wiped from market values - Published Shares in artificial intelligence and technology firms have recovered slightly from an enormous sell-off that wiped trillions of dollars off stock values.",
+            "The tech-heavy Nasdaq stock index closed in positive territory following a market rout that began in the US on Thursday before spilling over to Asian and European markets into Friday.",
+            "However the latest US employment figures added to a mixed picture for American markets on Friday morning, with an unexpectedly strong 165,000 jobs added to the economy in September."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "AI stocks climb after trillions wiped from market values",
+      "latest_raw_title": "AI stocks climb after trillions wiped from market values",
+      "status": "更新中",
+      "key_facts": [
+        "AI stocks climb after trillions wiped from market values - Published Shares in artificial intelligence and technology firms have recovered slightly from an enormous sell-off that wiped trillions of dollars off stock values.",
+        "The tech-heavy Nasdaq stock index closed in positive territory following a market rout that began in the US on Thursday before spilling over to Asian and European markets into Friday.",
+        "However the latest US employment figures added to a mixed picture for American markets on Friday morning, with an unexpectedly strong 165,000 jobs added to the economy in September."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261107_6734184ea490",
+      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_cf875b31dffca0059e3aa8de",
+          "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+          "raw_title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+          "why_relevant": "微软缩减甲骨文AI云，算力格局变化",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0g4UzRRaV9OckNuUjZYeVcybWl4SnhZUHVRR3pXVTFUdVMtWENOSWRKdjhUQThNTWlRWXd3YVJFTUVaM1hOaFI2UWJ6cDlWZjM4Q3NXTWZDVlJFSTdnS3RqNExHcG93anIxTDhpNXJTRGduSEgxcWNaYnNRYTdOdWF4SzBoZzBLV3o1Wi1ZaEVPWkFXZVJSSWhYZWFSdE9BRFlINGtWWjhhM2FLUEdaYjJQOTBLQ0VCLVIyXw?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+      "latest_raw_title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0g4UzRRaV9OckNuUjZYeVcybWl4SnhZUHVRR3pXVTFUdVMtWENOSWRKdjhUQThNTWlRWXd3YVJFTUVaM1hOaFI2UWJ6cDlWZjM4Q3NXTWZDVlJFSTdnS3RqNExHcG93anIxTDhpNXJTRGduSEgxcWNaYnNRYTdOdWF4SzBoZzBLV3o1Wi1ZaEVPWkFXZVJSSWhYZWFSdE9BRFlINGtWWjhhM2FLUEdaYjJQOTBLQ0VCLVIyXw?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261107_d66e0f0d317f",
+      "title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_8b39775d96153e033adecb2a",
+          "title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+          "raw_title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+          "why_relevant": "特朗普伊朗叙事失败，中期选举归因",
+          "facts": [
+            "It was the most expensive election in American history: nearly $12bn spent, much of it on advertisements, with the majority of that money going to Republican candidates.",
+            "Contributors: Alex Shephard – Senior editor, The New Republic Rob Arlett – former Trump state campaign chair & Republican strategist Maya Berry – Executive director, Arab American Institute On our radar Serbia’s new political leadership has yet to form a government, but the count"
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+      "latest_raw_title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+      "status": "更新中",
+      "key_facts": [
+        "It was the most expensive election in American history: nearly $12bn spent, much of it on advertisements, with the majority of that money going to Republican candidates.",
+        "Contributors: Alex Shephard – Senior editor, The New Republic Rob Arlett – former Trump state campaign chair & Republican strategist Maya Berry – Executive director, Arab American Institute On our radar Serbia’s new political leadership has yet to form a government, but the count"
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "evt_20261107_94950a6fd374",
+      "title": "For people in Iran, a constant threat of war and dearth of information",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_e1d47e9fb1be6d15011a0637",
+          "title": "For people in Iran, a constant threat of war and dearth of information",
+          "raw_title": "For people in Iran, a constant threat of war and dearth of information",
+          "why_relevant": "伊朗信息封锁，地缘软性视角",
+          "facts": [
+            "For people in Iran, a constant threat of war and dearth of information November 6, 2026 \"There is a constant sense of fear in the air,\" a 37-year-old mother in Tehran told DW.",
+            "\"I don't work, but keeping the children at home out of fear is not a solution,\" she said.",
+            "However, some parents whose children attend private schools have received messages from those schools explaining what to do in the event of a renewed war or other emergency."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/for-people-in-iran-a-constant-threat-of-war-and-dearth-of-information/a-79875438?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "For people in Iran, a constant threat of war and dearth of information",
+      "latest_raw_title": "For people in Iran, a constant threat of war and dearth of information",
+      "status": "更新中",
+      "key_facts": [
+        "For people in Iran, a constant threat of war and dearth of information November 6, 2026 \"There is a constant sense of fear in the air,\" a 37-year-old mother in Tehran told DW.",
+        "\"I don't work, but keeping the children at home out of fear is not a solution,\" she said.",
+        "However, some parents whose children attend private schools have received messages from those schools explaining what to do in the event of a renewed war or other emergency."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/for-people-in-iran-a-constant-threat-of-war-and-dearth-of-information/a-79875438?maca=en-rss-en-world-4025-xml-mrss"
+      ]
+    },
+    {
+      "id": "evt_20261107_e41e9af52c2b",
+      "title": "Ueno Bank scandal plunges Paraguay into political crisis",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_941aa5f912fba35e2d59fa99",
+          "title": "Ueno Bank scandal plunges Paraguay into political crisis",
+          "raw_title": "Ueno Bank scandal plunges Paraguay into political crisis",
+          "why_relevant": "巴拉圭银行危机，新兴市场金融风险",
+          "facts": [
+            "Ueno Bank scandal plunges Paraguay into political crisis November 6, 2026 The Ueno Bank collapse is turning into one of the biggest financial and political scandals in the history of Paraguay.",
+            "At issue are suspected banking irregularities, hundreds of millions of dollars in public funds, and business ties between the bank and the country's president, Santiago Pena.",
+            "The crisis was triggered on November 3, when the Paraguayan central bank (BCP) initiated resolution procedures against Ueno after determining that it had breached minimum solvency requirements."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "Ueno Bank scandal plunges Paraguay into political crisis",
+      "latest_raw_title": "Ueno Bank scandal plunges Paraguay into political crisis",
+      "status": "更新中",
+      "key_facts": [
+        "Ueno Bank scandal plunges Paraguay into political crisis November 6, 2026 The Ueno Bank collapse is turning into one of the biggest financial and political scandals in the history of Paraguay.",
+        "At issue are suspected banking irregularities, hundreds of millions of dollars in public funds, and business ties between the bank and the country's president, Santiago Pena.",
+        "The crisis was triggered on November 3, when the Paraguayan central bank (BCP) initiated resolution procedures against Ueno after determining that it had breached minimum solvency requirements."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-world-4025-xml-mrss"
+      ]
+    },
+    {
+      "id": "evt_20261107_4637f7e62211",
+      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "first_seen": "2026-11-07",
+      "updates": [
+        {
+          "date": "2026-11-07",
+          "article_id": "a1_fff29a33b10d2bf039220752",
+          "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+          "raw_title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+          "why_relevant": "南非非国大地方选举惨败，政治转向",
+          "facts": [
+            "The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted.",
+            "Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994.",
+            "The final results are expected to be announced on Sunday."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+          ],
+          "evidence_path": "digests/meta/2026-11-07-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-07",
+      "latest_title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "latest_raw_title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "status": "更新中",
+      "key_facts": [
+        "The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted.",
+        "Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994.",
+        "The final results are expected to be announced on Sunday."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+      ]
     }
   ],
-  "updated_at": "2026-11-06T08:03:35.843620+08:00"
+  "updated_at": "2026-11-07T08:03:50.378065+08:00"
 }

@@ -1,179 +1,148 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-11-06-AM",
-  "date": "2026-11-06",
+  "run_key": "2026-11-07-AM",
+  "date": "2026-11-07",
   "session": "AM",
-  "delivered_at": "2026-11-06T08:09:13.058599+08:00",
+  "delivered_at": "2026-11-07T08:07:57.673053+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-11-06T00:09:13.061520+00:00",
+  "exported_at": "2026-11-07T00:07:57.675926+00:00",
   "quality": {
     "total_items": 13,
-    "items_with_unsupported_numbers": 2,
-    "unsupported_ratio": 0.15384615384615385
+    "items_with_unsupported_numbers": 5,
+    "unsupported_ratio": 0.38461538461538464
   },
   "items": [
     {
-      "article_id": "a1_bf5c27a0bb0f1219aba93955",
-      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
-      "category": "国际",
-      "published_at": "2026-11-05T23:59:31+00:00",
-      "why_relevant": "美股AI回调宏观信号",
+      "article_id": "a1_542e790a2e3ebb4bdeed0205",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "publisher": "The Verge",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-06T23:46:18+00:00",
+      "why_relevant": "OpenAI估值1.25万亿，AI资本风向标",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.",
+          "text": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.832972+08:00",
-          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
-          "excerpt": "Major tech stocks plunge as US midterms add to fears of AI slowdown - Published Hundreds of billions of dollars in market value has been wiped from major tech firms in a stock market rout after the US midterm elections sparked concerns of a slowdown in AI development.",
-          "sentence_hash": "ad8dcca035510775ce65e57907791abc1a6de4b0df48397792508c668d0e3d1e",
+          "captured_at": "2026-11-07T08:03:50.367641+08:00",
+          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
+          "excerpt": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
+          "sentence_hash": "1dd1e11503b0041808874cb8371aacc7c448dbc60bff8cc01970cd8ed0288371",
           "anchors": [
-            "major",
-            "election"
+            "1.25 trillion",
+            "$1.25 trillion",
+            "$11 billion",
+            "ai",
+            "11 billion"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Shares in firms across the tech and artificial intelligence sectors plummeted following Democratic wins after election campaigns run on slowing AI.",
+          "text": "That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.833016+08:00",
-          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
-          "excerpt": "Shares in firms across the tech and artificial intelligence sectors plummeted following Democratic wins after election campaigns run on slowing AI.",
-          "sentence_hash": "b203f46279c84f06a3ccc012035ceac17c8b0ff0da0148be056b8e3bdd9ca7fa",
+          "captured_at": "2026-11-07T08:03:50.367687+08:00",
+          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
+          "excerpt": "That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
+          "sentence_hash": "1b66546766da0a51c86144af1a1e380e790dac4588f6f680b43dc15d5acf128a",
           "anchors": [
-            "and",
-            "election",
-            "intel",
-            "ai"
+            "ft",
+            "852 billion",
+            "$852 billion",
+            "$122 billion",
+            "ai",
+            "122 billion"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The tech-heavy Nasdaq composite stock index closed down by more than 5.5% to lose an estimated $2.5tn (Â£1.9tn) in market capitalisation, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025.",
+          "text": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.833068+08:00",
-          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
-          "excerpt": "The tech-heavy Nasdaq composite stock index closed down by more than 5.5% to lose an estimated $2.5tn (Â£1.9tn) in market capitalisation, according to Dow Jones data, while other key US stock indexes also saw big losses in their worst days since 2025.",
-          "sentence_hash": "c590972594781507b138a4c1a6519c1a4e3717eb00b1931df81769b8a42fd725",
+          "captured_at": "2026-11-07T08:03:50.367724+08:00",
+          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
+          "excerpt": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.",
+          "sentence_hash": "9b77dd1de3eb6cf44ed6ec80da47f84d036a715c8d95068a5ab8f8b641bf5983",
           "anchors": [
-            "$2.5",
-            "other",
-            "than",
-            "worst days",
-            "5.5%"
+            "1.25 trillion",
+            "ai",
+            "$1.25 trillion"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.",
+          "text": "Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.833145+08:00",
-          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
-          "excerpt": "Democrats in races across the US campaigned to slow the onslaught of data centres and AI, and there were dozens of measures on ballots around the country aimed at restricting the development of the hubs crucial for powering the technology.",
-          "sentence_hash": "c1b03fb236e1f991b255d7aff23094a119dff3d3f5ba8cec2b60f7e668c785d9",
+          "captured_at": "2026-11-07T08:03:50.367765+08:00",
+          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
+          "excerpt": "Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion.",
+          "sentence_hash": "68e9917f5789e624852c67185f0aa455521918022fd9227251b4a5a083b4ca4b",
           "anchors": [
-            "and",
+            "$1.4 trillion",
+            "$30 billion",
+            "1.4 trillion",
+            "20 billion",
+            "$20 billion",
+            "30 billion",
             "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of US President Donald Trump's presidency.",
+          "text": "That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.833181+08:00",
-          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
-          "excerpt": "They won both the US Senate and House of Representatives in Tuesday's midterms, taking control of Congress for the rest of US President Donald Trump's presidency.",
-          "sentence_hash": "b0e6deaf0cea8f179912aa3f8a284b231b33b6ddb6eefba8de8e66c0e2a06dca",
+          "captured_at": "2026-11-07T08:03:50.367792+08:00",
+          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
+          "excerpt": "That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects.",
+          "sentence_hash": "ba65be31d4136977d1dc1835a1fbc59b4ce2fa6e4813dc1e498d8a827db814c2",
           "anchors": [
-            "and",
-            "us"
+            "ai"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.",
+          "text": "Earlier this year, OpenAI CEO Sam Altman said it’s holding off on its own IPO until it can make more confident claims about its models’ safety.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.833212+08:00",
-          "content_sha256": "45779df917cfb7da09d2e45f0d00da8bfc1eb4a238fbd2626f056ecffac06a2c",
-          "excerpt": "Texas' Democratic governor-elect Gina Hinojosa campaigned heavily against data centres, pledging a moratorium on new construction in the sector.",
-          "sentence_hash": "4f7da4085a4c97543a93fd9ae38f548d9607b794474d3c9290376c85fee826e8",
+          "captured_at": "2026-11-07T08:03:50.367827+08:00",
+          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
+          "excerpt": "Earlier this year, OpenAI CEO Sam Altman said it’s holding off on its own IPO until it can make more confident claims about its models’ safety.",
+          "sentence_hash": "0571009ff195f8f44a2e5a71517d345986f3917e9b8f10eb89df72b0f62c57e1",
           "anchors": [
-            "again",
             "ai"
           ]
         }
       ],
       "entities": [
-        "make",
-        "gina hinojosa",
-        "major",
-        "some democrats",
-        "again",
-        "democrats",
-        "republican",
-        "texas",
-        "the stock market",
-        "intel",
-        "congress",
-        "history",
-        "us",
-        "worst days",
-        "micron",
-        "trump",
-        "bigger",
-        "house",
-        "before",
-        "republicans",
-        "great",
-        "nvidia",
-        "nasdaq",
-        "published\nhundreds",
-        "ever",
-        "remember",
-        "the philadelphia semiconductor index",
-        "san",
-        "space",
-        "dumocrats",
-        "and",
-        "ken paxton",
-        "democratic",
-        "president donald trump",
-        "tuesday",
-        "musk",
-        "amd",
-        "they",
-        "than",
-        "dow jones",
-        "representatives",
-        "shares",
-        "disk",
-        "thursday",
+        "march",
+        "ceo",
+        "wall street journal",
+        "bloomberg",
+        "earlier",
+        "ft",
+        "echoing",
+        "ipo",
+        "sam altman",
+        "open",
         "ai",
-        "election",
-        "senate",
-        "elon musk",
-        "tesla",
-        "other"
+        "anthropic"
       ],
       "numbers": [
-        "11%",
-        "8%",
-        "$2.5",
-        "9%",
-        "$450",
-        "$300",
-        "17%",
-        "22%",
-        "12%",
-        "$400",
-        "$45",
-        "10.3%",
-        "5.5%"
+        "$1.4 trillion",
+        "1.25 trillion",
+        "$30 billion",
+        "852 billion",
+        "1.4 trillion",
+        "20 billion",
+        "$20 billion",
+        "30 billion",
+        "$852 billion",
+        "$1.25 trillion",
+        "$11 billion",
+        "$122 billion",
+        "122 billion",
+        "11 billion"
       ],
       "dates": [],
       "unknowns": [
@@ -183,144 +152,232 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 63
+        "anchor_count": 26
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_62e4f8609ae5c127d1520666",
-      "title": "garrytan/gstack",
-      "url": "https://github.com/garrytan/gstack",
+      "article_id": "a1_27358f6bb8be3692d23128c6",
+      "title": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
       "publisher": "GitHub Trending",
-      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QAgstack \ngstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR",
+      "summary": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.https://www.skills.sh/scenario-labs/skills      \n \n  Scenario Agent Skills  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n \nAgent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to crea",
       "category": "科技",
       "published_at": "",
-      "why_relevant": "Claude Code全套工具链",
-      "relevance_score": 9.0,
+      "why_relevant": "AI Agent生产图像工具，契合读者",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Reload to refresh your session.You signed out in another tab or window.",
+          "text": "Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834532+08:00",
-          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
-          "excerpt": "Reload to refresh your session.You signed out in another tab or window.",
-          "sentence_hash": "386c0991f678bfb53a76fe11b705f37e1e4aa6fc3eecc87534feb141d8213abf",
+          "captured_at": "2026-11-07T08:03:50.368810+08:00",
+          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
+          "excerpt": "Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai",
+          "sentence_hash": "5cf6bbcf2c7c2cec66df35f506b31acdc5b7a4fd35d50a6eacd9627d8ef86457",
           "anchors": [
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Reload to refresh your session.You switched accounts on another tab or window.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834559+08:00",
-          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
-          "excerpt": "Reload to refresh your session.You switched accounts on another tab or window.",
-          "sentence_hash": "87bc35e52bc92f887ee39fd30ac977a0210cb52baf2d14eefb1a049aad4529ad",
-          "anchors": [
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Reload to refresh your session.Dismiss alert gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead ",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834607+08:00",
-          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
-          "excerpt": "Reload to refresh your session.Dismiss alert gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead ",
-          "sentence_hash": "b11446fe43a505f495c1535602d5d64694c806618566bb3cacbfd2336f5ba613",
-          "anchors": [
-            "and",
-            "you",
-            "pr",
-            "run"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "All slash commands, all Markdown, all free, MIT license.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834627+08:00",
-          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
-          "excerpt": "All slash commands, all Markdown, all free, MIT license.",
-          "sentence_hash": "89ccba2e64305b060e7ab7c2a1167976fed4fbe9628f002531f750030f53efc5",
-          "anchors": [
-            "and",
-            "all"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834659+08:00",
-          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
-          "excerpt": "This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone.",
-          "sentence_hash": "8c893712d9ffd57f123b928e8cdc2a4baf28f4c300410a19f92868fe40bb2aea",
-          "anchors": [
-            "and",
             "ai"
           ]
         },
         {
-          "fact_id": "f6",
-          "text": "The story, the productivity numbers and how I run ten sprints at once are in Why gstack.",
+          "fact_id": "f2",
+          "text": "The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, confere",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834681+08:00",
-          "content_sha256": "b4d5b24949d21b21c51fff8bcfeffcd0c8d586cfcac08d7918e253ad2f4dad91",
-          "excerpt": "The story, the productivity numbers and how I run ten sprints at once are in Why gstack.",
-          "sentence_hash": "54c5a5284ea4f8e751dfa70361c237de18965cc5eb8d690de911b9a0d7a5f509",
+          "captured_at": "2026-11-07T08:03:50.368853+08:00",
+          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
+          "excerpt": "The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, confere",
+          "sentence_hash": "7447ce2bcc65caf74d879f9afb1f688d47c70e0ee924c9c94adbe977db6cb935",
           "anchors": [
-            "run",
-            "and",
-            "pr"
+            "skills"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "# Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.368918+08:00",
+          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
+          "excerpt": "# Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-",
+          "sentence_hash": "09eb8b970848837ed743c3f067c7a8025357f75f1bdda57a16208d5e52c6f912",
+          "anchors": [
+            "blender",
+            "ai",
+            "skills",
+            "scenario"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "INSTALL.md groups the skills by job, from 2D artist to producer, an",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.368937+08:00",
+          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
+          "excerpt": "INSTALL.md groups the skills by job, from 2D artist to producer, an",
+          "sentence_hash": "3317877998d72639e69f80ea9e3cea04850d91253750ac2a9747a16d91795802",
+          "anchors": [
+            "skills"
           ]
         }
       ],
       "entities": [
-        "make",
-        "node",
-        "markdown",
-        "step",
-        "pr",
-        "requirements",
-        "ceo",
-        "recommended",
-        "aside",
-        "install",
-        "bun",
-        "stride",
-        "ci",
-        "all",
-        "combinator",
-        "you",
-        "tech",
-        "stop",
-        "president",
-        "fork",
-        "mit",
-        "and",
-        "dismiss",
-        "founders",
-        "quick",
-        "qa",
-        "windows",
-        "owasp",
-        "garry tan",
-        "timing",
-        "cli",
+        "everything",
+        "roblox studio",
+        "agent skills",
         "claude code",
-        "git",
-        "run",
-        "url",
+        "copilot",
+        "readme",
+        "maya",
+        "unity",
+        "cursor",
         "ai",
-        "reload",
-        "improve",
-        "first",
-        "open claude code",
-        "claude",
-        "api"
+        "unreal\nengine",
+        "they",
+        "every scenario",
+        "blender",
+        "mcp",
+        "brush",
+        "codex",
+        "dcc",
+        "godot",
+        "skills",
+        "scenario"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 21
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c729e856e0c79827c858175e",
+      "title": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "publisher": "GitHub Trending",
+      "summary": "Browser automation CLI for AI agentshttps://agent-browser.devagent-browser \nBrowser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. \n       \nagent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "浏览器自动化CLI，Agent实用工具",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370001+08:00",
+          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
+          "excerpt": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
+          "sentence_hash": "37cd498fe65d3f010a5e5bd459c6906746c01d66e1f6362be1764ecb9fb6d015",
+          "anchors": [
+            "agent"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370029+08:00",
+          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
+          "excerpt": "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time.",
+          "sentence_hash": "4baf90d4ba63ae6970552c04e491f2e15bb5ce86e5095ff733beefdb0c375826",
+          "anchors": [
+            "agent",
+            "browser"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "snapshot returns the page as compact text with a ref such as @e1 for each element.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370053+08:00",
+          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
+          "excerpt": "snapshot returns the page as compact text with a ref such as @e1 for each element.",
+          "sentence_hash": "b556f5d2993d6e3d969290a1cb6c2f057baedc7238352ccdaf3f94f6a10d499e",
+          "anchors": [
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The agent acts on a ref, reads the page again to check the result, and repeats.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370074+08:00",
+          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
+          "excerpt": "The agent acts on a ref, reads the page again to check the result, and repeats.",
+          "sentence_hash": "fb75885e1756e5e1584526a123da11d726f5b3f7bd8fd719df3f3788326b0f55",
+          "anchors": [
+            "ai",
+            "agent"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The browser stays open between commands, so each step is one short shell call.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370093+08:00",
+          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
+          "excerpt": "The browser stays open between commands, so each step is one short shell call.",
+          "sentence_hash": "fd23dd6264a900fde44510beb74568003cfab26bd6dca419ea006c485016c141",
+          "anchors": [
+            "each",
+            "browser"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) - Homebrew: brew install agent-browser, then agent-browser install.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370120+08:00",
+          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
+          "excerpt": "npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) - Homebrew: brew install agent-browser, then agent-browser install.",
+          "sentence_hash": "563b059ccef92c15e0b72d679cebf2322e836f304eb3025ba688e5f7789233e9",
+          "anchors": [
+            "agent",
+            "browser"
+          ]
+        }
+      ],
+      "entities": [
+        "rust",
+        "simulator",
+        "lightpanda",
+        "path",
+        "agent",
+        "chrome dev",
+        "browserless",
+        "obscura",
+        "linux",
+        "chrome",
+        "browser",
+        "submit",
+        "dom",
+        "installation",
+        "cli",
+        "core",
+        "browser use",
+        "each",
+        "you",
+        "refs",
+        "mobile safari",
+        "css",
+        "dismiss",
+        "ai",
+        "learn",
+        "cdp",
+        "kernel",
+        "after",
+        "testing",
+        "tools protocol",
+        "project",
+        "homebrew",
+        "see selectors",
+        "browserbase"
       ],
       "numbers": [],
       "dates": [],
@@ -331,37 +388,142 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 42
+        "anchor_count": 34
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_6d3bd343ccf9162c0ab96671",
-      "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
-      "url": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-05T18:48:40+00:00",
-      "why_relevant": "比特币暴跌AI拖累",
-      "relevance_score": 9.0,
+      "article_id": "a1_f95e5b66fafcd6453b4752d6",
+      "title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+      "publisher": "r/MachineLearning",
+      "summary": "Disclosure: I'm at Boson AI and this is our release. Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now. Most voice models are still turn-based: listen, wait for end of turn, think, speak. Duplex runs all streams at once and keeps working in the background while it talks. Streams. Everything is cut into 160 ms chunks:  Audio in: 1 token per chunk (6.25 tokens/s) Audio out: 2 tokens per chunk (12.5 tokens/s) Video in: one ~12-token camera ",
+      "category": "科技",
+      "published_at": "2026-11-06T20:23:53+00:00",
+      "why_relevant": "45B MoE全双工语音模型，前沿架构",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+          "text": "Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.834878+08:00",
-          "content_sha256": "de20b6174bfb6fd7b8452f7db7ca03e2c0b8cc8444a4c683891ecaeaf96ed362",
-          "excerpt": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
-          "sentence_hash": "de20b6174bfb6fd7b8452f7db7ca03e2c0b8cc8444a4c683891ecaeaf96ed362",
+          "captured_at": "2026-11-07T08:03:50.370483+08:00",
+          "content_sha256": "57f5a04fdae2627f46e0fcec9d9ae9e0934c483d2a2d69bded2ea5f6d2c62e40",
+          "excerpt": "Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.",
+          "sentence_hash": "be904de25f8fb265acada0597e2c310ba7bf627793c8576559176e9219d43293",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Most voice models are still turn-based: listen, wait for end of turn, think, speak.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370505+08:00",
+          "content_sha256": "57f5a04fdae2627f46e0fcec9d9ae9e0934c483d2a2d69bded2ea5f6d2c62e40",
+          "excerpt": "Most voice models are still turn-based: listen, wait for end of turn, think, speak.",
+          "sentence_hash": "d53283522dc83ec0bc4c9d4a843c24da0cc6e1ca38c36afdec909ba1f61e7763",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Duplex runs all streams at once and keeps working in the background while it talks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370523+08:00",
+          "content_sha256": "57f5a04fdae2627f46e0fcec9d9ae9e0934c483d2a2d69bded2ea5f6d2c62e40",
+          "excerpt": "Duplex runs all streams at once and keeps working in the background while it talks.",
+          "sentence_hash": "8d5417c95a27117daa18cabadc5577d6fdfa15db9a047ce2a0b6f1741a63b857",
+          "anchors": [
+            "streams"
+          ]
+        }
+      ],
+      "entities": [
+        "disclosure",
+        "video",
+        "streams",
+        "duplex",
+        "audio",
+        "everything",
+        "not",
+        "higgs realtime",
+        "boson",
+        "api",
+        "most",
+        "ai"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 12
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2e5e3ff840a334c63b5f622c",
+      "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+      "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Claude maker intends to list before Thanksgiving despite brutal tech rout",
+      "category": "财经",
+      "published_at": "2026-11-06T21:00:09+00:00",
+      "why_relevant": "Anthropic冲刺IPO，Claude母公司动态",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "thanksgiving",
+        "claude"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 2
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_d41cb1ffac707a8d51680754",
+      "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+      "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-06T11:58:40+00:00",
+      "why_relevant": "比特币7.6万下方横盘，币圈关键位",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.370855+08:00",
+          "content_sha256": "ba66c5ef9cfd44ce3d57b1d78b61e1ce14b79108ec3dcde79ef9d68cb0c24137",
+          "excerpt": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+          "sentence_hash": "ba66c5ef9cfd44ce3d57b1d78b61e1ce14b79108ec3dcde79ef9d68cb0c24137",
           "anchors": [
             "$76,000 "
           ]
         }
       ],
       "entities": [
-        "bitcion",
-        "ai"
+        "live",
+        "bitcoin"
       ],
       "numbers": [
         "$76,000 "
@@ -373,838 +535,44 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 1,
         "anchor_count": 3
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_bb689248b11cea14920199dc",
-      "title": "Americans voted against Trump's Iran war. Gulf countries hope that means an end to the conflict",
-      "url": "https://www.dw.com/en/americans-voted-against-trump-s-iran-war-gulf-countries-hope-that-means-an-end-to-the-conflict/a-79868398?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "The US midterm results showed how unpopular Donald Trump's Iran war is. Now, Gulf countries, trapped for months in the middle of the war between the US and Iran, see reason for optimism.",
-      "category": "国际",
-      "published_at": "2026-11-05T19:12:00+00:00",
-      "why_relevant": "美伊战事反弹海湾乐观",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.836234+08:00",
-          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
-          "excerpt": "November 5, 2026 After his party's resounding defeat in the US midterm elections this week, President Donald Trump conceded that the war with Iran had likely played a part.",
-          "sentence_hash": "d6eeae7221989e9b400b7029e85652b74141c84c5016ec7da9da4e537b86e77b",
-          "anchors": [
-            "November 5"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "\"I think a part of it was Iran, but, at the same time, people understood the importance of what I've done with Iran,\" Trump told Fox News, conceding that US voters were unwilling to accept the impact of the war on gas prices.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.836275+08:00",
-          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
-          "excerpt": "\"I think a part of it was Iran, but, at the same time, people understood the importance of what I've done with Iran,\" Trump told Fox News, conceding that US voters were unwilling to accept the impact of the war on gas prices.",
-          "sentence_hash": "19a130ba4dbd16bd288728d90ccc8c31e2ef8156ea6313db2d596969c0feb8fc",
-          "anchors": [
-            "but",
-            "unwilling"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Observers say the United States and Israel had been holding off on major attacks on Iran until after both had held elections.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.836301+08:00",
-          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
-          "excerpt": "Observers say the United States and Israel had been holding off on major attacks on Iran until after both had held elections.",
-          "sentence_hash": "58fb84a2d9e43826d30c4dfa4faf36d1446d4edc9d17ee5cc717a94c8c8c3d35",
-          "anchors": [
-            "and",
-            "after"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "At the end of October, the Wall Street Journal reported that the Trump administration was already warning Gulf state governments to brace for a short, intense military campaign after the midterms.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.836332+08:00",
-          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
-          "excerpt": "At the end of October, the Wall Street Journal reported that the Trump administration was already warning Gulf state governments to brace for a short, intense military campaign after the midterms.",
-          "sentence_hash": "ae2cc4bbd74b3a84ddf506a6fd26a696f3fb7c4d2b3730a0b740cd317f3188e5",
-          "anchors": [
-            "after",
-            "all"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "While foreign policy is a US president's purview, analysts have pointed out that a Congress controlled by the Democratic party could ostensibly withhold funding for Trump's military expeditions.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.836368+08:00",
-          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
-          "excerpt": "While foreign policy is a US president's purview, analysts have pointed out that a Congress controlled by the Democratic party could ostensibly withhold funding for Trump's military expeditions.",
-          "sentence_hash": "601d5d96202e6fcc95ea3e8967aed32a607007312dcc149c83cdeecbd5da4a20",
-          "anchors": [
-            "could"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "As two US professors of political science wrote for Foreign Affairs magazine this week, past American presidents, like Trump, who become \"lame ducks\" — that is, a president who loses control of Congress and can't run for another term — have often ramped up international intervent",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.836423+08:00",
-          "content_sha256": "e6299471bcb97705c214f1a8ba81b64c01686baef54bff936f332d9e83203397",
-          "excerpt": "As two US professors of political science wrote for Foreign Affairs magazine this week, past American presidents, like Trump, who become \"lame ducks\" — that is, a president who loses control of Congress and can't run for another term — have often ramped up international intervent",
-          "sentence_hash": "af0e535026feb14654b0f6e421ff8a4e8116ec7e2e1dc0ae9e9ffeb5f346a4dd",
-          "anchors": [
-            "and"
-          ]
-        }
-      ],
-      "entities": [
-        "but",
-        "wall street journal",
-        "unwilling",
-        "gulf",
-        "after",
-        "if iran",
-        "congress",
-        "iranian",
-        "us",
-        "middle east institute",
-        "trump",
-        "washington",
-        "could",
-        "iran",
-        "iranians",
-        "all",
-        "now",
-        "mei",
-        "american",
-        "foreign affairs",
-        "opinions",
-        "and",
-        "observers",
-        "united states",
-        "democratic",
-        "president donald trump",
-        "november",
-        "ross harrison",
-        "october",
-        "while",
-        "however",
-        "fox news",
-        "the iranians",
-        "israel"
-      ],
-      "numbers": [],
-      "dates": [
-        "November 5"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 35
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_6a4e6dfcb7cf31335219f9b4",
-      "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
-      "publisher": "Reuters",
-      "summary": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-11-05T21:23:10+00:00",
-      "why_relevant": "伊朗核提议地缘关键",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "iran",
-        "reuters",
-        "us",
-        "iranian",
-        "qatar"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 0,
-        "anchor_count": 5
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_bd2207ba2773251521fba245",
-      "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire.",
-      "category": "国际",
-      "published_at": "2026-11-05T19:08:08+00:00",
-      "why_relevant": "乌克兰停火谈判",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a \"more enduring\" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.837735+08:00",
-          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
-          "excerpt": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - Published US First Lady Melania Trump called for a \"more enduring\" ceasefire in Ukraine as she welcomed Russian and Ukrainian delegations at the White House following last week's truce in",
-          "sentence_hash": "f0a82dcb0fb56d1ce736a7c13b19165f9d7901f13c3b66ff92de047e1e6b5472",
-          "anchors": [
-            "she",
-            "last",
-            "mp",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Hundreds of residents of the Russian-occupied Ukrainian town of Oleshky facing starvation and constant bombardment were able to evacuate during a six-day ceasefire, which both Moscow and Kyiv credited Trump with brokering.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.837772+08:00",
-          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
-          "excerpt": "Hundreds of residents of the Russian-occupied Ukrainian town of Oleshky facing starvation and constant bombardment were able to evacuate during a six-day ceasefire, which both Moscow and Kyiv credited Trump with brokering.",
-          "sentence_hash": "70012ed2088a327bd6a49f8fd6f8016112f2c4d3aea515eea0f46b2a6d4ca454",
-          "anchors": [
-            "us",
-            "mp"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "\"The lives of innocent people must transcend the division of war.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.837795+08:00",
-          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
-          "excerpt": "\"The lives of innocent people must transcend the division of war.",
-          "sentence_hash": "cfd11a345b1d1f25e4fe2ebd4aa689485bff36302ec7429041a7b080cb6982c1",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "I hope Oleshky inspires greater peace,\" she said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.837813+08:00",
-          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
-          "excerpt": "I hope Oleshky inspires greater peace,\" she said.",
-          "sentence_hash": "0f0bb8941a2b861c8f952df0962c32aef72bf366027f0f03ff20dca14cc1a9e9",
-          "anchors": [
-            "she"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The unusual White House event saw senior Ukrainian and Russian officials meet away from the setting of official US-brokered peace talks they have been holding without success since last year.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.837842+08:00",
-          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
-          "excerpt": "The unusual White House event saw senior Ukrainian and Russian officials meet away from the setting of official US-brokered peace talks they have been holding without success since last year.",
-          "sentence_hash": "cab9a1f4b674f0441795081ad233b9cd4968fe05b486c74419ae36178f9d7294",
-          "anchors": [
-            "us",
-            "last",
-            "they"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The delegations were made up of Ukraine's human rights ombudsman Dmytro Lubinets and his Russian counterpart Yana Lantratova, as well as Ukrainian MP Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.837873+08:00",
-          "content_sha256": "dbe55a44e2ae0722ebe952b0a21905b51af4a2c1514d1a7ab55b972eb5fadb25",
-          "excerpt": "The delegations were made up of Ukraine's human rights ombudsman Dmytro Lubinets and his Russian counterpart Yana Lantratova, as well as Ukrainian MP Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
-          "sentence_hash": "55820dce31e03fcbec811e4176b123945ce9b2e389bb339dbb61f3f9e917280a",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "these",
-        "she",
-        "volodymyr zelensky",
-        "us",
-        "trump",
-        "dmitriev",
-        "mp",
-        "first lady melania trump",
-        "white house",
-        "arakhamia",
-        "davyd arakhamia",
-        "russian",
-        "kremlin",
-        "zelensky",
-        "kherson",
-        "february",
-        "oleshky",
-        "kyiv",
-        "ukrainian",
-        "yana lantratova",
-        "moscow",
-        "let",
-        "hundreds",
-        "they",
-        "published",
-        "dmytro lubinets",
-        "last",
-        "russia",
-        "melania trump",
-        "kirill dmitriev",
-        "vladimir putin",
-        "ukraine"
-      ],
-      "numbers": [],
-      "dates": [
-        "February 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 33
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_6c34ec27e5931f1ad1379c32",
-      "title": "Google plans $17 billion Wyoming data center amid rising threats of curbs",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXNTLVJtQV9yc3AzLTh3VGlkVkl5M1ZmMmhjOHkzSGtCWTctUHhwMkhaaHZvLTVhUXNMdmgyNGFYVldhN2RrM0FtUVRRcnBFYnV4Zkxwa0NaRjNOSlJha1RoZ0tWeHVZaTlFb0tQdjUtMTAwNm5XdERkSDVWSjhQc1pYSjV4azVJZVYteF9zb0VCbFA5OEtUZXhnbGhLQTBZUXlkNlJpUGR1RTY4TGRzQVFWLXQ?oc=5",
-      "publisher": "Reuters",
-      "summary": "Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-11-05T20:47:44+00:00",
-      "why_relevant": "谷歌巨资扩建AI基建",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.838049+08:00",
-          "content_sha256": "5b8388bb5a99a25b07e19b6405c3637edffbf6791aa1d4c6db4d49473ea5526d",
-          "excerpt": "Google plans $17 billion Wyoming data center amid rising threats of curbs&nbsp;&nbsp;Reuters",
-          "sentence_hash": "afa593e4f68ffcc7101ec8473fa152488cf31beefc45a61bb17b9bbc0dc392e7",
-          "anchors": [
-            "17 billion",
-            "$17 billion"
-          ]
-        }
-      ],
-      "entities": [
-        "reuters",
-        "wyoming",
-        "google"
-      ],
-      "numbers": [
-        "17 billion",
-        "$17 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 5
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_19229803acc3869c376a4230",
-      "title": "Trump says he met Putin envoy Dmitriev",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkIyajduM2t4eXl5eGs0V1hHU0Y2amcxWjM1dmthWmtDekkwV3V5MElyZlpjZFlfOUVENC1fSXJ2S0llMDloc2VJZmktZG5jUWFvMVUwbTJ6VkNuSF9EX0dEdzliNnlzN0J6RlIydnVMVE9sdVNpV3J1VzR0MTdfRk51WVE0dVk?oc=5",
-      "publisher": "Reuters",
-      "summary": "Trump says he met Putin envoy Dmitriev&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-11-05T21:49:31+00:00",
-      "why_relevant": "美俄特使会晤",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
-      "entities": [
-        "trump",
-        "reuters",
-        "putin",
-        "dmitriev"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 0,
-        "anchor_count": 4
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_fd682e8cb84df211e5a95ef5",
-      "title": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "publisher": "GitHub Trending",
-      "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.Auto Ontology \nAgents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "语义图推理层助LLM检索",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.839443+08:00",
-          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
-          "excerpt": "NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API.",
-          "sentence_hash": "825383887e26983e803c9c17b1afaf70cee6425d74c0aa302dc1afb4120bd9c1",
-          "anchors": [
-            "expose",
-            "ui"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "It complements the semantic models customers already own.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.839466+08:00",
-          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
-          "excerpt": "It complements the semantic models customers already own.",
-          "sentence_hash": "664f49f34b5695c0b405880b7405eab410762fc0b3a5e9edfb8a8bed120471c2",
-          "anchors": [
-            "semantic"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It enables developers to: - Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.839493+08:00",
-          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
-          "excerpt": "It enables developers to: - Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
-          "sentence_hash": "7a96f53909c2ce64a70e0b478aebed80253aaf257671a490dfb1212f95d57170",
-          "anchors": [
-            "semantic",
-            "ui"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.839517+08:00",
-          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
-          "excerpt": "- Ground: give agents trusted business meaning for metrics, entities, and relationships; reconcile inconsistent definitions across systems.",
-          "sentence_hash": "c5356e3a3ac905b7aec16c5ff650b30d1c007db2570699f111497e60a4479c8a",
-          "anchors": [
-            "agents"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.839540+08:00",
-          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
-          "excerpt": "- Validate: check generated queries against certified definitions and lineage; return provenance with every answer.",
-          "sentence_hash": "6b35c8ff2d763a41f9d763deb89f23b4b9a80f79523a94d23b9a7e1120688b8a",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "- Natural-language querying of structured data — questions are translated to SQL and executed against connected databases, powered by NVIDIA NIM.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.839602+08:00",
-          "content_sha256": "637bcad63ecf87cd4c992f62eaf0810d5302a00117ae03dc6f8fdac04866dbb5",
-          "excerpt": "- Natural-language querying of structured data — questions are translated to SQL and executed against connected databases, powered by NVIDIA NIM.",
-          "sentence_hash": "b90e73109b4364ae46b6474a7f79fdfdb78625c3a323e447acaf13a0b96100c0",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "nim",
-        "docker compose",
-        "better auth",
-        "bird",
-        "expose",
-        "apache license",
-        "rbac",
-        "prefix",
-        "ui",
-        "web",
-        "discover",
-        "kubernetes",
-        "reranking",
-        "semantic",
-        "learn",
-        "natural",
-        "mcp",
-        "nvidia",
-        "flexible",
-        "you",
-        "authentication",
-        "field",
-        "postgres",
-        "agents",
-        "validate",
-        "licensing",
-        "auto ontology",
-        "each",
-        "ground",
-        "cli",
-        "llm",
-        "url",
-        "third",
-        "ai",
-        "sql",
-        "api",
-        "embeddings",
-        "helm"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 38
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_6636cac42a86af0dedfab466",
-      "title": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "publisher": "GitHub Trending",
-      "summary": "Computer use CLI for AI agentshttps://agent-browser.dev/desktopagent-desktop \nComputer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. \n      \nagent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repea",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "LLM操作桌面，前沿实用",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.840668+08:00",
-          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
-          "excerpt": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.",
-          "sentence_hash": "04e263199e77b304bd65c71d79d423be62d9a03f8d8b07079640be52cb95f1c6",
-          "anchors": [
-            "accessibility",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "agent-desktop gives an AI agent computer use without screenshots or pixel matching.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.840694+08:00",
-          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
-          "excerpt": "agent-desktop gives an AI agent computer use without screenshots or pixel matching.",
-          "sentence_hash": "4134b8e291310dc7365f7d1a7407f43aa5a5bdf198f7bcb944f1dc741ad50aa6",
-          "anchors": [
-            "computer"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.840720+08:00",
-          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
-          "excerpt": "It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on.",
-          "sentence_hash": "7834831f690300f4788db3cd6efa1352b8169d7512fd38f962497cc085ae8fea",
-          "anchors": [
-            "ref",
-            "accessibility",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The agent clicks or types on a ref, reads the UI again to check the result, and repeats.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.840742+08:00",
-          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
-          "excerpt": "The agent clicks or types on a ref, reads the UI again to check the result, and repeats.",
-          "sentence_hash": "ff97297d3a9d6ccd325c04acb684d7412304b03859f0324daddbabe20dfc865d",
-          "anchors": [
-            "cli",
-            "ref",
-            "click",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.840771+08:00",
-          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
-          "excerpt": "Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content.",
-          "sentence_hash": "ef052c912f3dfac94d8e3570fe5395e4d75b44ce0f88ccf2f8053f51d08923f7",
-          "anchors": [
-            "cli",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "npm install -g agent-desktop agent-desktop status # platform, permissions, supported surfaces agent-desktop permissions --guide # macOS: walks you through the Accessibility grant Bun, Yarn and pnpm can install the same package.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.840811+08:00",
-          "content_sha256": "230bb52dfd5b087ec765e8e81e36cb4bc1d59b02d8efa333e18034e8efb3a94f",
-          "excerpt": "npm install -g agent-desktop agent-desktop status # platform, permissions, supported surfaces agent-desktop permissions --guide # macOS: walks you through the Accessibility grant Bun, Yarn and pnpm can install the same package.",
-          "sentence_hash": "41b794334462ffd30400a69fe3725887dfeda1a01f5b23e0a1806df6728400cc",
-          "anchors": [
-            "ui",
-            "for"
-          ]
-        }
-      ],
-      "entities": [
-        "release",
-        "dense",
-        "post",
-        "documents",
-        "downloads",
-        "headless",
-        "computer",
-        "ui",
-        "hub releases",
-        "click",
-        "snapshots",
-        "yarn",
-        "json",
-        "bun",
-        "there",
-        "installation",
-        "finder",
-        "linux",
-        "java",
-        "scoop",
-        "refs",
-        "accessibility",
-        "homebrew",
-        "windows",
-        "script",
-        "window",
-        "pass",
-        "ref",
-        "each",
-        "slack",
-        "cli",
-        "git",
-        "ai",
-        "api",
-        "keep",
-        "several",
-        "os",
-        "for"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 38
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_edc05ced526f584e417d3546",
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "publisher": "TechCrunch",
-      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-      "category": "科技",
-      "published_at": "2026-11-05T18:02:27+00:00",
-      "why_relevant": "OpenAI上市信号行业焦点",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "OpenAI co-founder and president Greg Brockman said the company would be ready for an IPO in 2027, noting that its enterprise revenue has been growing.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842027+08:00",
-          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
-          "excerpt": "OpenAI co-founder and president Greg Brockman said the company would be ready for an IPO in 2027, noting that its enterprise revenue has been growing.",
-          "sentence_hash": "31a295f3bff35ce539281e29c72d556ca240e861ccaa54fede6e10f7972a543b",
-          "anchors": [
-            "and",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842059+08:00",
-          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
-          "excerpt": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-          "sentence_hash": "13087c03e8205e76cd4716db60030acee41a396506edcfc169dbf9a0a5082f6a",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Yes.” “We’ve been very clear this year that we want to go public when we feel is the right time for us, and I feel extremely good about the business.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842094+08:00",
-          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
-          "excerpt": "Yes.” “We’ve been very clear this year that we want to go public when we feel is the right time for us, and I feel extremely good about the business.",
-          "sentence_hash": "48679e5fde8025d922a5f16b8e2629e001c417403d11742e7e5bce1d8d148a1c",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "I feel like we’ve made so much progress this year, and I’ve honestly never felt more confident in what we’re doing,” Brockman said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842140+08:00",
-          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
-          "excerpt": "I feel like we’ve made so much progress this year, and I’ve honestly never felt more confident in what we’re doing,” Brockman said.",
-          "sentence_hash": "1d764602f2692db2c04d388732e1ca1e9f685e47914974c33a3fd4d09986fe3c",
-          "anchors": [
-            "and",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "He detailed how OpenAI’s trajectory as an enterprise had changed over the course of 2026, noting that the first and second quarters were “pretty rough.” He also admitted that OpenAI “wasn’t even in the conversation” when it came to agentic coding — an area where Anthropic’s Claud",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842183+08:00",
-          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
-          "excerpt": "He detailed how OpenAI’s trajectory as an enterprise had changed over the course of 2026, noting that the first and second quarters were “pretty rough.” He also admitted that OpenAI “wasn’t even in the conversation” when it came to agentic coding — an area where Anthropic’s Claud",
-          "sentence_hash": "e3b179360ead2369dcc156d7451ca8cf6d17f74401ca4583a7934de2476e8955",
-          "anchors": [
-            "and",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "“We had Codex, but no one was talking about it,” Brockman continued, “and I think that we just kept our heads down and executed.” By the third quarter, activity picked up, as OpenAI saw 70% quarterly growth in its annualized revenue — something Brockman attributed to the enterpri",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842224+08:00",
-          "content_sha256": "c3768657d130e5385c2527918cf2a66544e7e7819e669bcc0e4bacb3b64b059d",
-          "excerpt": "“We had Codex, but no one was talking about it,” Brockman continued, “and I think that we just kept our heads down and executed.” By the third quarter, activity picked up, as OpenAI saw 70% quarterly growth in its annualized revenue — something Brockman attributed to the enterpri",
-          "sentence_hash": "f8f41baf220d9e8bb0b34fce5afa66d368c7154152cb3e206f418e157ef68e54",
-          "anchors": [
-            "and",
-            "but",
-            "70%"
-          ]
-        }
-      ],
-      "entities": [
-        "but",
-        "speaking",
-        "wall street journal",
-        "is open",
-        "and",
-        "greg brockman",
-        "wednesday",
-        "brockman",
-        "ipo",
-        "morgan chase",
-        "claude code",
-        "anthropic",
-        "open",
-        "ai",
-        "yes",
-        "now",
-        "codex"
-      ],
-      "numbers": [
-        "30%",
-        "70%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 19
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_f016d081332776ce33573635",
-      "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-      "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
+      "article_id": "a1_a8217f67a1de2d6c5c0181f3",
+      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
       "publisher": "CoinDesk",
       "summary": "",
       "category": "财经",
-      "published_at": "2026-11-05T13:29:40+00:00",
-      "why_relevant": "谷歌或投矿企AI币链交叉",
+      "published_at": "2026-11-06T12:30:00+00:00",
+      "why_relevant": "10亿看多爆仓，衍生品市场危险信号",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+          "text": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.842429+08:00",
-          "content_sha256": "e9d98e470edda66bb2119e965bc6555e52677386723842ab110622cdf8cfa7ab",
-          "excerpt": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-          "sentence_hash": "e9d98e470edda66bb2119e965bc6555e52677386723842ab110622cdf8cfa7ab",
+          "captured_at": "2026-11-07T08:03:50.371001+08:00",
+          "content_sha256": "8793aa59f3975fa13b4fcaed209278c0a0239f56a0dd45673f7cdca87a34ef10",
+          "excerpt": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+          "sentence_hash": "8793aa59f3975fa13b4fcaed209278c0a0239f56a0dd45673f7cdca87a34ef10",
           "anchors": [
-            "$19 billion",
-            "19 billion"
+            "1 billion",
+            "$1 billion"
           ]
         }
       ],
       "entities": [
-        "google",
-        "tera",
-        "wulf",
-        "anthropic",
-        "ai"
+        "over",
+        "etf"
       ],
       "numbers": [
-        "$19 billion",
-        "19 billion"
+        "1 billion",
+        "$1 billion"
       ],
       "dates": [],
       "unknowns": [
@@ -1213,165 +581,713 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 1,
-        "anchor_count": 7
+        "anchor_count": 4
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_b587e3d06042134093e8ebd8",
-      "title": "Stock futures fall after Nasdaq slips into correction; traders await big payrolls report: Live updates",
-      "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
-      "publisher": "CNBC",
-      "summary": "A bout of hard selling took hold of the market on Thursday, dragging the three major averages down to their worst session since April 2025.",
-      "category": "财经",
-      "published_at": "2026-11-05T23:58:23+00:00",
-      "why_relevant": "纳指回调聚焦非农",
-      "relevance_score": 8.0,
+      "article_id": "a1_b02b88101a6545f8ac1be613",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "category": "国际",
+      "published_at": "2026-11-06T21:06:25+00:00",
+      "why_relevant": "AI股反弹，科技股与政治关联",
+      "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Stock futures fell Thursday evening after a punishing sell-off in artificial intelligence stocks that sent the Nasdaq into correction territory.",
+          "text": "AI stocks climb after trillions wiped from market values - Published Shares in artificial intelligence and technology firms have recovered slightly from an enormous sell-off that wiped trillions of dollars off stock values.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.843462+08:00",
-          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
-          "excerpt": "Stock futures fell Thursday evening after a punishing sell-off in artificial intelligence stocks that sent the Nasdaq into correction territory.",
-          "sentence_hash": "e0fc1ef1a666d5549829c80884d510d6554a6f58bebfe19433c74d4d142122f3",
+          "captured_at": "2026-11-07T08:03:50.372230+08:00",
+          "content_sha256": "048ed34a0fc41e6a0d6dcd3d9937c0d76a0383aa82ceaddd11de0b2641157039",
+          "excerpt": "AI stocks climb after trillions wiped from market values - Published Shares in artificial intelligence and technology firms have recovered slightly from an enormous sell-off that wiped trillions of dollars off stock values.",
+          "sentence_hash": "030841ded0082174975d1a49e70a30bdc9ef4ad568b4940f54a61ee2c548ce75",
           "anchors": [
-            "even",
-            "correction",
-            "futures",
-            "stock"
+            "us",
+            "market"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Traders also awaited a key payrolls report.",
+          "text": "The tech-heavy Nasdaq stock index closed in positive territory following a market rout that began in the US on Thursday before spilling over to Asian and European markets into Friday.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.843484+08:00",
-          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
-          "excerpt": "Traders also awaited a key payrolls report.",
-          "sentence_hash": "fe9565a5609fd7d013ee308816a4c8cf77c7160995d94726df857081ba5c8ca3",
+          "captured_at": "2026-11-07T08:03:50.372268+08:00",
+          "content_sha256": "048ed34a0fc41e6a0d6dcd3d9937c0d76a0383aa82ceaddd11de0b2641157039",
+          "excerpt": "The tech-heavy Nasdaq stock index closed in positive territory following a market rout that began in the US on Thursday before spilling over to Asian and European markets into Friday.",
+          "sentence_hash": "2d62a8880df814d483a5d9ff9bb3acda26b9df5bd50148cced3a3a42ef8e17a6",
           "anchors": [
-            "ai"
+            "market"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "S&P 500 futures lost 0.6%, while Nasdaq-100 futures slid 0.8%.",
+          "text": "However the latest US employment figures added to a mixed picture for American markets on Friday morning, with an unexpectedly strong 165,000 jobs added to the economy in September.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.843504+08:00",
-          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
-          "excerpt": "S&P 500 futures lost 0.6%, while Nasdaq-100 futures slid 0.8%.",
-          "sentence_hash": "7c4c7a11a08f39d245cde46d1d79d78807a5a0a6908c680ebfa2f61acb9a42d9",
+          "captured_at": "2026-11-07T08:03:50.372311+08:00",
+          "content_sha256": "048ed34a0fc41e6a0d6dcd3d9937c0d76a0383aa82ceaddd11de0b2641157039",
+          "excerpt": "However the latest US employment figures added to a mixed picture for American markets on Friday morning, with an unexpectedly strong 165,000 jobs added to the economy in September.",
+          "sentence_hash": "39c42902b0ed4981cc315c9fc1600e66e3411fc715fc9ffbaf3e966ccba3ee02",
           "anchors": [
-            "0.8%",
-            "0.6%",
-            "futures",
-            "while"
+            "165,000 jobs",
+            "market"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Futures tied to the Dow Jones Industrial Average shed 291 points, or 0.6%.",
+          "text": "On Thursday, businesses closely linked to artificial intelligence development took a hammering on stock markets, particularly chip and semiconductor makers.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.843525+08:00",
-          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
-          "excerpt": "Futures tied to the Dow Jones Industrial Average shed 291 points, or 0.6%.",
-          "sentence_hash": "aec84167b0815e35f76f600affb785f953389afa832b958c57f28b409ee35e56",
+          "captured_at": "2026-11-07T08:03:50.372340+08:00",
+          "content_sha256": "048ed34a0fc41e6a0d6dcd3d9937c0d76a0383aa82ceaddd11de0b2641157039",
+          "excerpt": "On Thursday, businesses closely linked to artificial intelligence development took a hammering on stock markets, particularly chip and semiconductor makers.",
+          "sentence_hash": "685a0cda9c510b4275789db0f635eccaace4d430a665e407cc858ecd4310deb4",
           "anchors": [
-            "she",
-            "0.6%"
+            "us",
+            "market"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The moves follow a bout of heavy selling during Thursday's regular session that saw the three major averages post their worst one-day performances since April 2025.",
+          "text": "But the Nasdaq Composite bounced back slightly on Friday, ending the day up 1.1%, partly reversing some of its 5.5% fall.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.843555+08:00",
-          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
-          "excerpt": "The moves follow a bout of heavy selling during Thursday's regular session that saw the three major averages post their worst one-day performances since April 2025.",
-          "sentence_hash": "c0be1fb3579637bd09da9bff18c87e042b2bc4c203ab707cf7e7dee6c657c51d",
+          "captured_at": "2026-11-07T08:03:50.372366+08:00",
+          "content_sha256": "048ed34a0fc41e6a0d6dcd3d9937c0d76a0383aa82ceaddd11de0b2641157039",
+          "excerpt": "But the Nasdaq Composite bounced back slightly on Friday, ending the day up 1.1%, partly reversing some of its 5.5% fall.",
+          "sentence_hash": "a70dc2f5aea0652156aba85f1bb72b3ef406498ccccc3a74e0e1971418fb09bb",
           "anchors": [
-            "April 20"
+            "5.5%",
+            "1.1%"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The Nasdaq Composite tanked 5.5%, closing more than 10% below its most recent high and landing in correction territory.",
+          "text": "The S&P 500, which tracks the share prices of the largest publicly-traded US companies, closed up 0.3%, while the Dow Jones Industrial Average was flat through the day before ending slightly down 0.4%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-06T08:03:35.843583+08:00",
-          "content_sha256": "c50a21e2d3a19ee3eefc8e2e8eb631757112e8cf69591c7f5381d513d3fcf106",
-          "excerpt": "The Nasdaq Composite tanked 5.5%, closing more than 10% below its most recent high and landing in correction territory.",
-          "sentence_hash": "322429cc23956c21493349f7a6a792adec6a41538e820d8fdc24e93851a609d2",
+          "captured_at": "2026-11-07T08:03:50.372402+08:00",
+          "content_sha256": "048ed34a0fc41e6a0d6dcd3d9937c0d76a0383aa82ceaddd11de0b2641157039",
+          "excerpt": "The S&P 500, which tracks the share prices of the largest publicly-traded US companies, closed up 0.3%, while the Dow Jones Industrial Average was flat through the day before ending slightly down 0.4%.",
+          "sentence_hash": "fe42c65d0cc5fe768ee9c67ea23d3438e644afc487c616f4acd3461b53026573",
           "anchors": [
-            "correction",
-            "5.5%",
-            "10%"
+            "companies",
+            "us",
+            "0.4%",
+            "0.3%"
           ]
         }
       ],
       "entities": [
-        "cio",
-        "the dow jones",
-        "the nasdaq composite",
+        "sk",
+        "europe",
         "democrats",
-        "she",
-        "texas",
-        "squared private wealth",
-        "advanced micro devices",
-        "dow jones industrial average",
-        "april",
-        "house",
-        "magnificent seven",
-        "futures",
-        "micron technology",
-        "correction",
-        "nvidia",
+        "european",
+        "democrat",
+        "however",
+        "tech london advocates",
+        "september",
+        "russ shaw",
         "nasdaq",
-        "stock",
-        "dow",
-        "weave",
-        "victoria greene",
-        "traders",
+        "american",
+        "london stock exchange",
         "friday",
-        "cnbc",
-        "even",
-        "another",
-        "while",
-        "core",
-        "october",
-        "buying",
+        "england",
+        "on thursday",
+        "south korea",
         "thursday",
+        "investors",
+        "dow jones industrial average",
+        "bank",
+        "congress",
+        "nasdaq composite",
+        "published\nshares",
+        "spain",
+        "hynix",
         "ai",
-        "senate"
+        "companies",
+        "nvidia",
+        "france",
+        "germany",
+        "ftse",
+        "the kospi",
+        "space",
+        "market",
+        "but",
+        "asian",
+        "president donald trump",
+        "tesla",
+        "uk",
+        "us",
+        "asia"
       ],
       "numbers": [
-        "4.4%",
-        "1 trillion",
-        "$1 trillion",
-        "10%",
-        "9%",
-        "59,000 jobs",
-        "17%",
-        "0.5%",
-        "0.6%",
-        "3%",
-        "4.2%",
-        "3.4%",
-        "0.8%",
-        "5.5%"
+        "1.01%",
+        "1.1%",
+        "6%",
+        "0.3%",
+        "0.4%",
+        "5.5%",
+        "165,000 jobs",
+        "10%"
       ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 49
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_cf875b31dffca0059e3aa8de",
+      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0g4UzRRaV9OckNuUjZYeVcybWl4SnhZUHVRR3pXVTFUdVMtWENOSWRKdjhUQThNTWlRWXd3YVJFTUVaM1hOaFI2UWJ6cDlWZjM4Q3NXTWZDVlJFSTdnS3RqNExHcG93anIxTDhpNXJTRGduSEgxcWNaYnNRYTdOdWF4SzBoZzBLV3o1Wi1ZaEVPWkFXZVJSSWhYZWFSdE9BRFlINGtWWjhhM2FLUEdaYjJQOTBLQ0VCLVIyXw?oc=5",
+      "publisher": "Reuters",
+      "summary": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-11-06T19:16:09+00:00",
+      "why_relevant": "微软缩减甲骨文AI云，算力格局变化",
+      "relevance_score": 7.0,
+      "confirmed_facts": [],
+      "entities": [
+        "reuters",
+        "oracle",
+        "bloomberg news",
+        "microsoft",
+        "ai"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 5
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_8b39775d96153e033adecb2a",
+      "title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
+      "url": "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Donald Trump and the Republicans struggle to spin a historic defeat in the US midterms.",
+      "category": "国际",
+      "published_at": "2026-11-06T23:07:22+00:00",
+      "why_relevant": "特朗普伊朗叙事失败，中期选举归因",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "It was the most expensive election in American history: nearly $12bn spent, much of it on advertisements, with the majority of that money going to Republican candidates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.373572+08:00",
+          "content_sha256": "80dc0088d161d4ff457f645ad32073a058a088d4c3300b2d7c85b8fe404bff57",
+          "excerpt": "It was the most expensive election in American history: nearly $12bn spent, much of it on advertisements, with the majority of that money going to Republican candidates.",
+          "sentence_hash": "993772341d9d0d3049d6739b917e32899f8b359015c4f17ba6f52ec629eccdfc",
+          "anchors": [
+            "$12",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Contributors: Alex Shephard – Senior editor, The New Republic Rob Arlett – former Trump state campaign chair & Republican strategist Maya Berry – Executive director, Arab American Institute On our radar Serbia’s new political leadership has yet to form a government, but the count",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.373664+08:00",
+          "content_sha256": "80dc0088d161d4ff457f645ad32073a058a088d4c3300b2d7c85b8fe404bff57",
+          "excerpt": "Contributors: Alex Shephard – Senior editor, The New Republic Rob Arlett – former Trump state campaign chair & Republican strategist Maya Berry – Executive director, Arab American Institute On our radar Serbia’s new political leadership has yet to form a government, but the count",
+          "sentence_hash": "9f499ca4b08996a35ffd25a612dad6c62240563dc8d7d18410e76d9ec57fedb7",
+          "anchors": [
+            "but"
+          ]
+        }
+      ],
+      "entities": [
+        "contributors",
+        "iran",
+        "gaza",
+        "featuring",
+        "tariq nafi",
+        "republican",
+        "alex shephard",
+        "richard gizbert",
+        "arab american institute\non",
+        "aleksandar vucic",
+        "jonathan shainin",
+        "serbia",
+        "meenakshi ravi",
+        "democratic",
+        "republicans",
+        "maya berry",
+        "donald trump",
+        "executive",
+        "guardian",
+        "american",
+        "trump",
+        "the listening post\nhow trump",
+        "senior",
+        "united states president donald trump",
+        "the new republic\nrob arlett",
+        "one",
+        "but",
+        "israel",
+        "founding editor",
+        "us",
+        "equator"
+      ],
+      "numbers": [
+        "$12"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 32
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e1d47e9fb1be6d15011a0637",
+      "title": "For people in Iran, a constant threat of war and dearth of information",
+      "url": "https://www.dw.com/en/for-people-in-iran-a-constant-threat-of-war-and-dearth-of-information/a-79875438?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Most people in Iran have little idea of the course of the US-led war and peace talks on the global stage. With few sources of information, the population must navigate conflicting rumors and fears of a nuclear attack.",
+      "category": "国际",
+      "published_at": "2026-11-06T12:56:00+00:00",
+      "why_relevant": "伊朗信息封锁，地缘软性视角",
+      "relevance_score": 6.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "For people in Iran, a constant threat of war and dearth of information November 6, 2026 \"There is a constant sense of fear in the air,\" a 37-year-old mother in Tehran told DW.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.375016+08:00",
+          "content_sha256": "54f5dccd10c9a5f2f41529ce4161afff052e804978bd1adcfb602a2c417f3011",
+          "excerpt": "For people in Iran, a constant threat of war and dearth of information November 6, 2026 \"There is a constant sense of fear in the air,\" a 37-year-old mother in Tehran told DW.",
+          "sentence_hash": "272952fef39731175dc958749293ed09302260ff0748d8c0fb05e5db4ed062f4",
+          "anchors": [
+            "November 6",
+            "people",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"I don't work, but keeping the children at home out of fear is not a solution,\" she said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.375060+08:00",
+          "content_sha256": "54f5dccd10c9a5f2f41529ce4161afff052e804978bd1adcfb602a2c417f3011",
+          "excerpt": "\"I don't work, but keeping the children at home out of fear is not a solution,\" she said.",
+          "sentence_hash": "f4adebe9ae0f996daa73299e32a7e119f220b95a46fd2a0ece9d83c13a1a92e2",
+          "anchors": [
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "However, some parents whose children attend private schools have received messages from those schools explaining what to do in the event of a renewed war or other emergency.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.375097+08:00",
+          "content_sha256": "54f5dccd10c9a5f2f41529ce4161afff052e804978bd1adcfb602a2c417f3011",
+          "excerpt": "However, some parents whose children attend private schools have received messages from those schools explaining what to do in the event of a renewed war or other emergency.",
+          "sentence_hash": "c96c5fe0fb666d7a2da67413a664d1a5470cec70bb141a6c6ce507fac7b5b317",
+          "anchors": [
+            "schools",
+            "even"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Numerous parents have shared such messages on social media.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.375116+08:00",
+          "content_sha256": "54f5dccd10c9a5f2f41529ce4161afff052e804978bd1adcfb602a2c417f3011",
+          "excerpt": "Numerous parents have shared such messages on social media.",
+          "sentence_hash": "fc4faa245b317c79328f60f1598acd4bbebe979d11c0cf0dc77fea182ad7f286",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "\"People should not pay attention to rumors spread with the aim of sowing fear and forcing schools to close,\" Ali Farhadi, a ministry spokesperson, said in a recent media interview.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.375149+08:00",
+          "content_sha256": "54f5dccd10c9a5f2f41529ce4161afff052e804978bd1adcfb602a2c417f3011",
+          "excerpt": "\"People should not pay attention to rumors spread with the aim of sowing fear and forcing schools to close,\" Ali Farhadi, a ministry spokesperson, said in a recent media interview.",
+          "sentence_hash": "e8f5cb5c4fc3f45f162bd5de16be1a555af9b7bb5b213b806a07883d6585f65e",
+          "anchors": [
+            "schools",
+            "for",
+            "should"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Farhadi said the ministry would decide whether the schools stay open or close, and would do so in coordination with the security authorities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.375195+08:00",
+          "content_sha256": "54f5dccd10c9a5f2f41529ce4161afff052e804978bd1adcfb602a2c417f3011",
+          "excerpt": "Farhadi said the ministry would decide whether the schools stay open or close, and would do so in coordination with the security authorities.",
+          "sentence_hash": "91b20474c7270d49684d06cde1260f27a20d018805a4c1abc164776a13993af8",
+          "anchors": [
+            "schools"
+          ]
+        }
+      ],
+      "entities": [
+        "now",
+        "people",
+        "even",
+        "democrat",
+        "however",
+        "irans education ministry",
+        "dw",
+        "november",
+        "trump",
+        "parallel",
+        "us",
+        "natanz",
+        "pickaxe mountain",
+        "axios",
+        "israel",
+        "iranian",
+        "ali farhadi",
+        "farhadi",
+        "on november",
+        "iran",
+        "congress",
+        "there",
+        "should",
+        "tehran",
+        "they",
+        "every",
+        "numerous",
+        "for",
+        "united states",
+        "president donald trump",
+        "but",
+        "many",
+        "schools"
+      ],
+      "numbers": [],
       "dates": [
-        "April 20"
+        "November 5",
+        "November 6",
+        "November 2"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 48
+        "anchor_count": 36
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_941aa5f912fba35e2d59fa99",
+      "title": "Ueno Bank scandal plunges Paraguay into political crisis",
+      "url": "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Suspected financial fraud, public money at risk and millions of customers affected: Paraguay is in serious crisis following the sudden collapse of Ueno Bank. President Santiago Pena is facing impeachment.",
+      "category": "国际",
+      "published_at": "2026-11-06T20:23:00+00:00",
+      "why_relevant": "巴拉圭银行危机，新兴市场金融风险",
+      "relevance_score": 6.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ueno Bank scandal plunges Paraguay into political crisis November 6, 2026 The Ueno Bank collapse is turning into one of the biggest financial and political scandals in the history of Paraguay.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.376351+08:00",
+          "content_sha256": "0eb06b83070f01b0e791959d45c8d837e18c48d7f5adc023e7b9dc389f61e08d",
+          "excerpt": "Ueno Bank scandal plunges Paraguay into political crisis November 6, 2026 The Ueno Bank collapse is turning into one of the biggest financial and political scandals in the history of Paraguay.",
+          "sentence_hash": "ce376a38800d9a2bfa135791b4fad4a8a685e806f62ab2585b80721f5def05f0",
+          "anchors": [
+            "November 6"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "At issue are suspected banking irregularities, hundreds of millions of dollars in public funds, and business ties between the bank and the country's president, Santiago Pena.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.376388+08:00",
+          "content_sha256": "0eb06b83070f01b0e791959d45c8d837e18c48d7f5adc023e7b9dc389f61e08d",
+          "excerpt": "At issue are suspected banking irregularities, hundreds of millions of dollars in public funds, and business ties between the bank and the country's president, Santiago Pena.",
+          "sentence_hash": "025db6bb169eaa2424f5fd0d3bc82704a69f510123fc48a3a61a9af15a6fad98",
+          "anchors": [
+            "business",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The crisis was triggered on November 3, when the Paraguayan central bank (BCP) initiated resolution procedures against Ueno after determining that it had breached minimum solvency requirements.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.376423+08:00",
+          "content_sha256": "0eb06b83070f01b0e791959d45c8d837e18c48d7f5adc023e7b9dc389f61e08d",
+          "excerpt": "The crisis was triggered on November 3, when the Paraguayan central bank (BCP) initiated resolution procedures against Ueno after determining that it had breached minimum solvency requirements.",
+          "sentence_hash": "527315f0233d62163044d6c72a5ba765f2ce9840be6b8918c977ac533d405b22",
+          "anchors": [
+            "November 3",
+            "central bank"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The public prosecutor has since announced three investigations into suspected financial crimes.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.376445+08:00",
+          "content_sha256": "0eb06b83070f01b0e791959d45c8d837e18c48d7f5adc023e7b9dc389f61e08d",
+          "excerpt": "The public prosecutor has since announced three investigations into suspected financial crimes.",
+          "sentence_hash": "80614748fe8198074f834568bba1ae88a48239e47c7f39ab9c5dcb673f810b14",
+          "anchors": [
+            "investigations",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "On November 5, he tendered his resignation, but the Paraguayan Congress did not accept it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.376474+08:00",
+          "content_sha256": "0eb06b83070f01b0e791959d45c8d837e18c48d7f5adc023e7b9dc389f61e08d",
+          "excerpt": "On November 5, he tendered his resignation, but the Paraguayan Congress did not accept it.",
+          "sentence_hash": "13a6cf8dd8cc6b87de37abaa288a6971b628215f13991d2f4fc743a9974bdca2",
+          "anchors": [
+            "November 5",
+            "not"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Instead, the Chamber of Deputies voted unanimously to impeach him.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.376493+08:00",
+          "content_sha256": "0eb06b83070f01b0e791959d45c8d837e18c48d7f5adc023e7b9dc389f61e08d",
+          "excerpt": "Instead, the Chamber of Deputies voted unanimously to impeach him.",
+          "sentence_hash": "a6a85a88ff75efde5e509dadd176e6a6f4058bcf4b4c57c049bc98e1900f4cc3",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "ueno",
+        "santiago pena",
+        "paraguay",
+        "some",
+        "ueno bank",
+        "november",
+        "paraguayan congress",
+        "senate",
+        "launched",
+        "ips",
+        "not",
+        "paraguayan central bank",
+        "prevision social",
+        "pena",
+        "business",
+        "according",
+        "on november",
+        "paraguayan",
+        "bcp",
+        "pressure",
+        "chamber",
+        "deputies",
+        "instead",
+        "there",
+        "the ueno bank",
+        "president pena",
+        "first",
+        "central bank",
+        "grupo vazquez",
+        "its",
+        "instituto",
+        "investigations",
+        "us"
+      ],
+      "numbers": [
+        "850 million"
+      ],
+      "dates": [
+        "November 5",
+        "November 3",
+        "November 6"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_fff29a33b10d2bf039220752",
+      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+      "publisher": "The Guardian",
+      "summary": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 resultThe African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted.Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994",
+      "category": "国际",
+      "published_at": "2026-11-06T12:48:37+00:00",
+      "why_relevant": "南非非国大地方选举惨败，政治转向",
+      "relevance_score": 6.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.377867+08:00",
+          "content_sha256": "2fb96d575a694b64b52a241b908dc6ad3005e8ff77dae982d588380504b35718",
+          "excerpt": "The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted.",
+          "sentence_hash": "ca8cf4ed367cd499330bf59f3c886d432e2e852111386938ed06cd148e4943b0",
+          "anchors": [
+            "with",
+            "80%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.377909+08:00",
+          "content_sha256": "2fb96d575a694b64b52a241b908dc6ad3005e8ff77dae982d588380504b35718",
+          "excerpt": "Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994.",
+          "sentence_hash": "4fcc4d65724c6b4d4472bd31691c2dd1d138a88068ec9fdef47c11b9a972bed3",
+          "anchors": [
+            "da"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The final results are expected to be announced on Sunday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.377950+08:00",
+          "content_sha256": "2fb96d575a694b64b52a241b908dc6ad3005e8ff77dae982d588380504b35718",
+          "excerpt": "The final results are expected to be announced on Sunday.",
+          "sentence_hash": "f2aa1c18b3b607aef00ad786050426f5bb3dba2d172aab91b5b3a43a5e82fd4b",
+          "anchors": [
+            "da"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The ANC was on 31.8% of the vote nationally, almost 14 percentage points below its 2021 local election result.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.377975+08:00",
+          "content_sha256": "2fb96d575a694b64b52a241b908dc6ad3005e8ff77dae982d588380504b35718",
+          "excerpt": "The ANC was on 31.8% of the vote nationally, almost 14 percentage points below its 2021 local election result.",
+          "sentence_hash": "0368e267186364b9399c96b25f5961baad184196a86f24d745dd70f14c507b2d",
+          "anchors": [
+            "31.8%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The centre-right, white-led Democratic Alliance (DA) had 24.1% of the vote, while the uMkhonto weSizwe (MK) party of the former ANC president Jacob Zuma was on 9.3%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.378005+08:00",
+          "content_sha256": "2fb96d575a694b64b52a241b908dc6ad3005e8ff77dae982d588380504b35718",
+          "excerpt": "The centre-right, white-led Democratic Alliance (DA) had 24.1% of the vote, while the uMkhonto weSizwe (MK) party of the former ANC president Jacob Zuma was on 9.3%.",
+          "sentence_hash": "e461d2b5f8b356191cb11bd81ecad249c1ff98ee13744be3cb969fce124cf228",
+          "anchors": [
+            "anc",
+            "9.3%",
+            "24.1%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Turnout also rose in Wednesday’s poll.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-07T08:03:50.378026+08:00",
+          "content_sha256": "2fb96d575a694b64b52a241b908dc6ad3005e8ff77dae982d588380504b35718",
+          "excerpt": "Turnout also rose in Wednesday’s poll.",
+          "sentence_hash": "1355cfa898f5e2a88c73a5ea017bd4dd1c70d72b2ec28fe048d8d9ac9b793fc2",
+          "anchors": [
+            "da"
+          ]
+        }
+      ],
+      "entities": [
+        "nelson mandela",
+        "helen zille",
+        "mashaba",
+        "industrial research",
+        "mkhonto",
+        "sunday",
+        "sizwe",
+        "with",
+        "mk",
+        "zulu",
+        "gauteng",
+        "coalitions",
+        "cape town",
+        "the council",
+        "high",
+        "senior",
+        "kwa",
+        "action",
+        "south africa",
+        "natal",
+        "johannesburg",
+        "wednesday",
+        "scientific",
+        "many",
+        "anc",
+        "herman mashaba",
+        "zuma",
+        "democratic alliance",
+        "jacob zuma",
+        "turnout",
+        "zille",
+        "founded",
+        "in johannesburg",
+        "csir",
+        "da",
+        "the african national congress"
+      ],
+      "numbers": [
+        "15.5%",
+        "40%",
+        "17.5%",
+        "16.8%",
+        "34%",
+        "54.5%",
+        "80%",
+        "4.8 million",
+        "31.8%",
+        "46%",
+        "20%",
+        "9.3%",
+        "24.1%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 49
       },
       "evidence_complete": true
     }
