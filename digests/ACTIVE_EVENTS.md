@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-07 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-08 08:07。
+
+## 2026 U.S. Senate Election Results
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261108_0360be8ff031`
+
+## Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261108_9a297b4ca9a5`
+
+## The end of Microsoft Research's AI Frontiers group
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：In AI Frontiers, we actively tried to organize coherent research efforts.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261108_39ae1bde55c0`
+
+## The US let Nvidia sell chips to an empty office in China
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company’s H200 AI chips.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261108_b00a7c943df3`
+
+## US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261108_d092f9119dd5`
+
+## Israel's president tasks opposition leader Eisenkot with forming government
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：Isaac Herzog has been holding talks with political parties after neither Eisenkot's bloc nor that of Prime Minister Benjamin Netanyahu secured a majority in Israel's parliament, known as the Knesset, following last week's election.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261108_364ed5f8c792`
+
+## US offers $20m reward for information about Iran's nuclear programme
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：US offers $20m reward for information about Iran's nuclear programme - Published The US has announced a reward of up to $20 million for information about Iran's nuclear programme.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261108_0699b31a7138`
+
+## Ukraine’s Zaporizhzhia faces threat as Russian drones close in
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：Published On 7 Nov 2026
+- 事件 ID：`evt_20261108_5a45dea14dea`
+
+## After victory in the midterms, what next for US Democrats?
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：After victory in the midterms, what next for US Democrats?
+- 事件 ID：`evt_20261108_c70e776c83d3`
+
+## Ant Ling introduces Ling-3.2-flash: 560B/25B native multimodal MoE with 1M context [N]
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：The official documentation specifies text, image and video inputs.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261108_da210124df54`
+
+## U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261108_8325764b5cd2`
+
+## Houthis say at least 25 killed in Saudi air strike
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 最新事实：Houthis say at least 25 killed in Saudi air strike - Published Media linked to the Houthi movement in Yemen say that at least 25 people, including women and children, have been killed in airstrikes by Saudi Arabia.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261108_c3b878f0dd6b`
+
+## Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end
+- 状态：更新中；首见 2026-11-08；最近更新 2026-11-08
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261108_b592baa5a247`
 
 ## OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO
 - 状态：更新中；首见 2026-11-07；最近更新 2026-11-07

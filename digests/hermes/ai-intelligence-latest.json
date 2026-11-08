@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T00:07:57.693793+00:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T00:07:36.319028+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-07-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-07.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-08.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-06.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-07.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,136 +23,377 @@
   },
   "items": [
     {
-      "article_id": "a1_542e790a2e3ebb4bdeed0205",
-      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-      "publisher": "The Verge",
-      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal [&#8230;]",
+      "article_id": "a1_9d79a6d2702a0391ebd8932a",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "publisher": "Hacker News",
+      "summary": "https://archive.is/AaY5Ohttps://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\nPoints: 327\n# Comments: 188",
       "category": "科技",
-      "published_at": "2026-11-06T23:46:18+00:00",
-      "why_relevant": "OpenAI估值1.25万亿，AI资本风向标",
+      "published_at": "2026-11-07T18:02:17+00:00",
+      "why_relevant": "微软AI前沿团队解散，行业信号",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
+          "text": "In AI Frontiers, we actively tried to organize coherent research efforts.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.367641+08:00",
-          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
-          "excerpt": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg.",
-          "sentence_hash": "1dd1e11503b0041808874cb8371aacc7c448dbc60bff8cc01970cd8ed0288371",
+          "captured_at": "2026-11-08T08:03:48.325752+08:00",
+          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
+          "excerpt": "In AI Frontiers, we actively tried to organize coherent research efforts.",
+          "sentence_hash": "a1f978567d8f590ee620058a37322f09c803dbd117061be99fe59c533ca3fee5",
           "anchors": [
-            "1.25 trillion",
-            "$1.25 trillion",
-            "$11 billion",
-            "ai",
-            "11 billion"
+            "for"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
+          "text": "This was not precisely “top down” or “bottom up”, but rather mostly somewhere in the messy middle.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.367687+08:00",
-          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
-          "excerpt": "That would make it one of the world’s most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
-          "sentence_hash": "1b66546766da0a51c86144af1a1e380e790dac4588f6f680b43dc15d5acf128a",
+          "captured_at": "2026-11-08T08:03:48.325788+08:00",
+          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
+          "excerpt": "This was not precisely “top down” or “bottom up”, but rather mostly somewhere in the messy middle.",
+          "sentence_hash": "3e909cd61d1e49b0a03cab19ed276da751fd2abd36912d3061a39e1cef851540",
           "anchors": [
-            "ft",
-            "852 billion",
-            "$852 billion",
-            "$122 billion",
-            "ai",
-            "122 billion"
+            "but"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.",
+          "text": "Compute availability was also an often-severe bottleneck.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.367724+08:00",
-          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
-          "excerpt": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO CEO Sam Altman said recently that OpenAI is prioritizing safety instead of going ‘guns blazing’ toward an IPO.",
-          "sentence_hash": "9b77dd1de3eb6cf44ed6ec80da47f84d036a715c8d95068a5ab8f8b641bf5983",
+          "captured_at": "2026-11-08T08:03:48.325813+08:00",
+          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
+          "excerpt": "Compute availability was also an often-severe bottleneck.",
+          "sentence_hash": "5253f6c9b68952155c1a93643a9baad722882f0e9bb6923802f66883a4e38839",
           "anchors": [
-            "1.25 trillion",
-            "ai",
-            "$1.25 trillion"
+            "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion.",
+          "text": "But at a high level I was under the general impression that the organization was succeeding in doing pioneering things, particularly given the small size of AIF (~50 people) and relative to what we could do previously.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.367765+08:00",
-          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
-          "excerpt": "Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion.",
-          "sentence_hash": "68e9917f5789e624852c67185f0aa455521918022fd9227251b4a5a083b4ca4b",
+          "captured_at": "2026-11-08T08:03:48.325846+08:00",
+          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
+          "excerpt": "But at a high level I was under the general impression that the organization was succeeding in doing pioneering things, particularly given the small size of AIF (~50 people) and relative to what we could do previously.",
+          "sentence_hash": "1f8f46136be99c176d5f9743f617d6a4e20516eb6fd04e367c275fe0a28f2068",
           "anchors": [
-            "$1.4 trillion",
-            "$30 billion",
-            "1.4 trillion",
-            "20 billion",
-            "$20 billion",
-            "30 billion",
-            "ai"
+            "50 people"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects.",
+          "text": "Much of the work of AIF was figuring out how to make agents work, for example the Autogen orchestration framework and the Fara computer use agent.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.367792+08:00",
-          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
-          "excerpt": "That was before tech stocks dropped, and the results of the midterms showed how much public opinion has turned against AI companies and data center projects.",
-          "sentence_hash": "ba65be31d4136977d1dc1835a1fbc59b4ce2fa6e4813dc1e498d8a827db814c2",
+          "captured_at": "2026-11-08T08:03:48.325871+08:00",
+          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
+          "excerpt": "Much of the work of AIF was figuring out how to make agents work, for example the Autogen orchestration framework and the Fara computer use agent.",
+          "sentence_hash": "5fd07e00791b6d71cd53fc5072221f412f4ea27b0078898327d5e726044f8af6",
           "anchors": [
-            "ai"
+            "compute",
+            "for"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Earlier this year, OpenAI CEO Sam Altman said it’s holding off on its own IPO until it can make more confident claims about its models’ safety.",
+          "text": "In NYC however, several of us were interested in developing new fundamental capabilities such as the Next Latent objective which enables extrapolation, Dion3 which creates an optimized/improved Muon, or the Full Bandwidth Transformer which efficiently makes models function substa",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.367827+08:00",
-          "content_sha256": "05df08e9e785b4f7a02906cc324dce46ffd9a3ec28a82f5f355315f08455e4e2",
-          "excerpt": "Earlier this year, OpenAI CEO Sam Altman said it’s holding off on its own IPO until it can make more confident claims about its models’ safety.",
-          "sentence_hash": "0571009ff195f8f44a2e5a71517d345986f3917e9b8f10eb89df72b0f62c57e1",
+          "captured_at": "2026-11-08T08:03:48.325908+08:00",
+          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
+          "excerpt": "In NYC however, several of us were interested in developing new fundamental capabilities such as the Next Latent objective which enables extrapolation, Dion3 which creates an optimized/improved Muon, or the Full Bandwidth Transformer which efficiently makes models function substa",
+          "sentence_hash": "e3e4612798be0cb64292068ec9231b559653f91d85308ecf882dd2256e70f039",
           "anchors": [
-            "ai"
+            "for",
+            "several"
           ]
         }
       ],
       "entities": [
-        "march",
-        "ceo",
-        "wall street journal",
-        "bloomberg",
-        "earlier",
-        "ft",
-        "echoing",
-        "ipo",
-        "sam altman",
-        "open",
+        "compute",
+        "microsoft",
+        "chat",
+        "there",
+        "autogen",
+        "nyc",
+        "full bandwidth transformer",
+        "but",
+        "msr",
+        "microsoft research",
+        "mai",
+        "inflection",
+        "frontiers",
+        "fara",
+        "aif",
+        "next latent",
+        "several",
+        "september",
+        "much",
         "ai",
-        "anthropic"
+        "colm",
+        "dion",
+        "for",
+        "muon"
       ],
       "numbers": [
-        "$1.4 trillion",
-        "1.25 trillion",
-        "$30 billion",
-        "852 billion",
-        "1.4 trillion",
-        "20 billion",
-        "$20 billion",
-        "30 billion",
-        "$852 billion",
-        "$1.25 trillion",
-        "$11 billion",
-        "$122 billion",
-        "122 billion",
-        "11 billion"
+        "50 people"
       ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 25
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
+      "source_artifact_date": "2026-11-08",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_9e82462ad332f2e0694003d3",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "publisher": "The Verge",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-07T15:43:45+00:00",
+      "why_relevant": "英伟达对华出口漏洞，监管风险",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company’s H200 AI chips.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.326785+08:00",
+          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
+          "excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company’s H200 AI chips.",
+          "sentence_hash": "64b1a39728f5ec698b8ee598b8f9a44735d532ecb4fed333a7c5cce2459c3b98",
+          "anchors": [
+            "and",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, “a hollow gray shell with wires dangling from the ceiling where lights should be.” In fact, the paper could find little evidence that the company exists in any meaningful way:",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.326840+08:00",
+          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
+          "excerpt": "According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, “a hollow gray shell with wires dangling from the ceiling where lights should be.” In fact, the paper could find little evidence that the company exists in any meaningful way:",
+          "sentence_hash": "b6668b11cb66ce3ea6cb40950c174681b2258a42bd8c5c71b1ebde9009b0e6b1",
+          "anchors": [
+            "its"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "At the building that New Matrix lists as its address, a company directory does not include the firm.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.326870+08:00",
+          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
+          "excerpt": "At the building that New Matrix lists as its address, a company directory does not include the firm.",
+          "sentence_hash": "2394f99c5749c3cf7210c69420507fae0dde55d59c21bb60a2a39f116044f165",
+          "anchors": [
+            "its"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "At the nearby property management agency for the industrial park, a receptionist and a manager both said they had no record of the company.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.326894+08:00",
+          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
+          "excerpt": "At the nearby property management agency for the industrial park, a receptionist and a manager both said they had no record of the company.",
+          "sentence_hash": "5c9e637c5e44fd8e1a75c84ac8247036a0ceb3fb3edbd9eefb046a0313f20a53",
+          "anchors": [
+            "and",
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "And according to the Times, this is not a rare lapse in oversight, but a troubling pattern of companies connected to entities with national-security-related trade restrictions being approved to purchase Nvidia chips.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.326934+08:00",
+          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
+          "excerpt": "And according to the Times, this is not a rare lapse in oversight, but a troubling pattern of companies connected to entities with national-security-related trade restrictions being approved to purchase Nvidia chips.",
+          "sentence_hash": "29446156db1a7448739300c392b24c0954aa379241afdfd0db80d57413b349a2",
+          "anchors": [
+            "according",
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But the Trump administration relaxed those limits after Nvidia agreed to give the government a 15-percent cut of all sales.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.326959+08:00",
+          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
+          "excerpt": "But the Trump administration relaxed those limits after Nvidia agreed to give the government a 15-percent cut of all sales.",
+          "sentence_hash": "0c68177219abf191a09a655f7175f2f03c24013315fff3c6567547b840fc4357",
+          "anchors": [
+            "its"
+          ]
+        }
+      ],
+      "entities": [
+        "and",
+        "china\nthe",
+        "only",
+        "the new york times",
+        "according",
+        "times",
+        "new matrix",
+        "but",
+        "its",
+        "chinese",
+        "jensen huang",
+        "us",
+        "ceo",
+        "commerce department",
+        "trump",
+        "ai",
+        "state security",
+        "china",
+        "concerns",
+        "biden",
+        "nvidia",
+        "ministry"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 22
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
+      "source_artifact_date": "2026-11-08",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_a595506efeec08267e3245ec",
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
+      "category": "国际",
+      "published_at": "2026-11-07T22:19:59+00:00",
+      "why_relevant": "以色列政府更迭，中东局势关键",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Isaac Herzog has been holding talks with political parties after neither Eisenkot's bloc nor that of Prime Minister Benjamin Netanyahu secured a majority in Israel's parliament, known as the Knesset, following last week's election.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.330017+08:00",
+          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
+          "excerpt": "Isaac Herzog has been holding talks with political parties after neither Eisenkot's bloc nor that of Prime Minister Benjamin Netanyahu secured a majority in Israel's parliament, known as the Knesset, following last week's election.",
+          "sentence_hash": "2b6b85264eb940c72303eaac23dc5c45db66c1ee53c58b074e84f25b51c7f58e",
+          "anchors": [
+            "now",
+            "following"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Eisenkot will now have 28 days to try to form a new administration, with a potential 14-day extension.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.330045+08:00",
+          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
+          "excerpt": "Eisenkot will now have 28 days to try to form a new administration, with a potential 14-day extension.",
+          "sentence_hash": "879454d4605f32002df132037d4faeea533152788651615d1216266cbe7fe32b",
+          "anchors": [
+            "now"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Two Arab-led alliances, the United Arab List and the Joint List, together won an unprecedented 19 seats following a surge in turnout among Arab voters.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.330086+08:00",
+          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
+          "excerpt": "Two Arab-led alliances, the United Arab List and the Joint List, together won an unprecedented 19 seats following a surge in turnout among Arab voters.",
+          "sentence_hash": "2dae3b861b61fdc7f1fc76c93b1f5dc301452222fc3407a036004103af322d22",
+          "anchors": [
+            "following"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Herzog said that, after consulting all parties during the week, he would give Eisenkot the first chance to form a government.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.330115+08:00",
+          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
+          "excerpt": "Herzog said that, after consulting all parties during the week, he would give Eisenkot the first chance to form a government.",
+          "sentence_hash": "cb4b142fbc2bdcab782c27a8b0284da08ddf01742a268df27690daaa40ce22fe",
+          "anchors": [
+            "during"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Eisenkot and every member of his bloc bar one has previously refused to enter government with Arab parties, but there has been speculation that an agreement could be reached.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.330166+08:00",
+          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
+          "excerpt": "Eisenkot and every member of his bloc bar one has previously refused to enter government with Arab parties, but there has been speculation that an agreement could be reached.",
+          "sentence_hash": "786d961c230e001324bd6e156e8befcde6ad638f5579c7dc1263c41c8f1af372",
+          "anchors": [
+            "there"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In 2020, following three deadlocked elections, Netanyahu and his centrist rival Benny Gantz agreed a power-sharing deal in which the leadership rotated between the two.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-08T08:03:48.330198+08:00",
+          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
+          "excerpt": "In 2020, following three deadlocked elections, Netanyahu and his centrist rival Benny Gantz agreed a power-sharing deal in which the leadership rotated between the two.",
+          "sentence_hash": "1445e647d181c12fe492ba2f13f843583d84ba4b4f994cf340f47ab4a2864cbf",
+          "anchors": [
+            "following"
+          ]
+        }
+      ],
+      "entities": [
+        "benny gantz",
+        "yashar",
+        "orthodox jewish",
+        "during",
+        "two arab",
+        "there",
+        "joint list",
+        "eisenkot",
+        "herzog",
+        "netanyahu",
+        "following",
+        "arab",
+        "gadi eisenkot",
+        "isaac herzog",
+        "now",
+        "jewish",
+        "israel",
+        "likud",
+        "published\nisrael",
+        "however",
+        "prime minister benjamin netanyahu",
+        "orthodox",
+        "knesset",
+        "united arab list"
+      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -161,242 +402,144 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 26
+        "anchor_count": 24
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-07-AM.json",
-      "source_artifact_date": "2026-11-07",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
+      "source_artifact_date": "2026-11-08",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_27358f6bb8be3692d23128c6",
-      "title": "scenario-labs/skills",
-      "url": "https://github.com/scenario-labs/skills",
-      "publisher": "GitHub Trending",
-      "summary": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.https://www.skills.sh/scenario-labs/skills      \n \n  Scenario Agent Skills  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n \nAgent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to crea",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI Agent生产图像工具，契合读者",
+      "article_id": "a1_8c55ad5e1fed77a54de3f52c",
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+      "category": "国际",
+      "published_at": "2026-11-07T18:14:38+00:00",
+      "why_relevant": "美伊核对峙升级，地缘风险高",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai",
+          "text": "US offers $20m reward for information about Iran's nuclear programme - Published The US has announced a reward of up to $20 million for information about Iran's nuclear programme.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.368810+08:00",
-          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
-          "excerpt": "Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertai",
-          "sentence_hash": "5cf6bbcf2c7c2cec66df35f506b31acdc5b7a4fd35d50a6eacd9627d8ef86457",
+          "captured_at": "2026-11-08T08:03:48.331357+08:00",
+          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
+          "excerpt": "US offers $20m reward for information about Iran's nuclear programme - Published The US has announced a reward of up to $20 million for information about Iran's nuclear programme.",
+          "sentence_hash": "4b7adec2212622060ffd0d5aac46d8a3b4ca0780253e4f5d5566bbd6e59a3fea",
           "anchors": [
-            "ai"
+            "$20 million",
+            "20 million",
+            "$20"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, confere",
+          "text": "The State Department's Rewards for Justice is also offering to potentially relocate the person who provides such details.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.368853+08:00",
-          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
-          "excerpt": "The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, confere",
-          "sentence_hash": "7447ce2bcc65caf74d879f9afb1f688d47c70e0ee924c9c94adbe977db6cb935",
+          "captured_at": "2026-11-08T08:03:48.331388+08:00",
+          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
+          "excerpt": "The State Department's Rewards for Justice is also offering to potentially relocate the person who provides such details.",
+          "sentence_hash": "e1c040422492d6b8b813dff9bb30a25b4ad316ef67cf854eacf55c6080c781a1",
           "anchors": [
-            "skills"
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "# Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-",
+          "text": "As well as the movement of weapons, it will also focus on dual-use and illegal revenue streams.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.368918+08:00",
-          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
-          "excerpt": "# Every Scenario skill, without the expert tools npx skills add scenario-labs/skills --skill scenario scenario-inspiration scenario-image scenario-multi-reference scenario-product-shots scenario-brand-kit scenario-image-editing scenario-text-overlay scenario-storyboards scenario-",
-          "sentence_hash": "09eb8b970848837ed743c3f067c7a8025357f75f1bdda57a16208d5e52c6f912",
+          "captured_at": "2026-11-08T08:03:48.331441+08:00",
+          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
+          "excerpt": "As well as the movement of weapons, it will also focus on dual-use and illegal revenue streams.",
+          "sentence_hash": "f8eb040f889400b9999aaeec6ecde3e60e402f7ed944d3774d0cf8e246519b60",
           "anchors": [
-            "blender",
-            "ai",
-            "skills",
-            "scenario"
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "INSTALL.md groups the skills by job, from 2D artist to producer, an",
+          "text": "Centcom estimates that its naval blockade of Iran's ports has prevented the country from exporting more than $25bn in crude oil.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.368937+08:00",
-          "content_sha256": "fd6046604d666a6a5c75c578e2f16b3aaf968074e9ea33cfb036871f6effdd99",
-          "excerpt": "INSTALL.md groups the skills by job, from 2D artist to producer, an",
-          "sentence_hash": "3317877998d72639e69f80ea9e3cea04850d91253750ac2a9747a16d91795802",
+          "captured_at": "2026-11-08T08:03:48.331498+08:00",
+          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
+          "excerpt": "Centcom estimates that its naval blockade of Iran's ports has prevented the country from exporting more than $25bn in crude oil.",
+          "sentence_hash": "0f5a27b6a05147690e3b48cf9fe5846894cdfabd0b850ac3a6b067eec3970309",
           "anchors": [
-            "skills"
-          ]
-        }
-      ],
-      "entities": [
-        "everything",
-        "roblox studio",
-        "agent skills",
-        "claude code",
-        "copilot",
-        "readme",
-        "maya",
-        "unity",
-        "cursor",
-        "ai",
-        "unreal\nengine",
-        "they",
-        "every scenario",
-        "blender",
-        "mcp",
-        "brush",
-        "codex",
-        "dcc",
-        "godot",
-        "skills",
-        "scenario"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 4,
-        "anchor_count": 21
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-07-AM.json",
-      "source_artifact_date": "2026-11-07",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_c729e856e0c79827c858175e",
-      "title": "vercel-labs/agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "publisher": "GitHub Trending",
-      "summary": "Browser automation CLI for AI agentshttps://agent-browser.devagent-browser \nBrowser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. \n       \nagent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. snapshot returns the page as compact text with a ref such as @e1 for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "浏览器自动化CLI，Agent实用工具",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370001+08:00",
-          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
-          "excerpt": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
-          "sentence_hash": "37cd498fe65d3f010a5e5bd459c6906746c01d66e1f6362be1764ecb9fb6d015",
-          "anchors": [
-            "agent"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370029+08:00",
-          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
-          "excerpt": "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time.",
-          "sentence_hash": "4baf90d4ba63ae6970552c04e491f2e15bb5ce86e5095ff733beefdb0c375826",
-          "anchors": [
-            "agent",
-            "browser"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "snapshot returns the page as compact text with a ref such as @e1 for each element.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370053+08:00",
-          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
-          "excerpt": "snapshot returns the page as compact text with a ref such as @e1 for each element.",
-          "sentence_hash": "b556f5d2993d6e3d969290a1cb6c2f057baedc7238352ccdaf3f94f6a10d499e",
-          "anchors": [
-            "each"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The agent acts on a ref, reads the page again to check the result, and repeats.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370074+08:00",
-          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
-          "excerpt": "The agent acts on a ref, reads the page again to check the result, and repeats.",
-          "sentence_hash": "fb75885e1756e5e1584526a123da11d726f5b3f7bd8fd719df3f3788326b0f55",
-          "anchors": [
-            "ai",
-            "agent"
+            "$25"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The browser stays open between commands, so each step is one short shell call.",
+          "text": "It said Iran's \"lack of compliance with the IAEA [the International Atomic Energy Agency] on safeguards obligations has led to the agency's loss of 'continuity of knowledge' regarding Iran's production and inventory of key components like [nuclear] centrifuges\".",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370093+08:00",
-          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
-          "excerpt": "The browser stays open between commands, so each step is one short shell call.",
-          "sentence_hash": "fd23dd6264a900fde44510beb74568003cfab26bd6dca419ea006c485016c141",
+          "captured_at": "2026-11-08T08:03:48.331547+08:00",
+          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
+          "excerpt": "It said Iran's \"lack of compliance with the IAEA [the International Atomic Energy Agency] on safeguards obligations has led to the agency's loss of 'continuity of knowledge' regarding Iran's production and inventory of key components like [nuclear] centrifuges\".",
+          "sentence_hash": "9789dcef9e8409529a3283f2bb67e3d28d997c4d1545318ed68b0af8a61928e0",
           "anchors": [
-            "each",
-            "browser"
+            "centrifuges"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) - Homebrew: brew install agent-browser, then agent-browser install.",
+          "text": "Centrifuges are needed to produce enriched uranium, which can be used to make reactor fuel for civilian use but also for nuclear weapons if enriched to around 90% purity or higher.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370120+08:00",
-          "content_sha256": "49500140a7f8a5bc596e331baf55acffdaa120deeff7449c00439f5f5d345ec6",
-          "excerpt": "npm install -g agent-browser agent-browser install # download Chrome for Testing (first time only) - Homebrew: brew install agent-browser, then agent-browser install.",
-          "sentence_hash": "563b059ccef92c15e0b72d679cebf2322e836f304eb3025ba688e5f7789233e9",
+          "captured_at": "2026-11-08T08:03:48.331579+08:00",
+          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
+          "excerpt": "Centrifuges are needed to produce enriched uranium, which can be used to make reactor fuel for civilian use but also for nuclear weapons if enriched to around 90% purity or higher.",
+          "sentence_hash": "75385e236fa5e857ee852391e2136879a2d55b3915c4a0ab004ba9ac6c16be4b",
           "anchors": [
-            "agent",
-            "browser"
+            "90%",
+            "us"
           ]
         }
       ],
       "entities": [
-        "rust",
-        "simulator",
-        "lightpanda",
-        "path",
-        "agent",
-        "chrome dev",
-        "browserless",
-        "obscura",
-        "linux",
-        "chrome",
-        "browser",
-        "submit",
-        "dom",
-        "installation",
-        "cli",
-        "core",
-        "browser use",
-        "each",
-        "you",
-        "refs",
-        "mobile safari",
-        "css",
-        "dismiss",
-        "ai",
-        "learn",
-        "cdp",
-        "kernel",
-        "after",
-        "testing",
-        "tools protocol",
-        "project",
-        "homebrew",
-        "see selectors",
-        "browserbase"
+        "tehran",
+        "florida",
+        "white house",
+        "meanwhile",
+        "centrifuges",
+        "iaea",
+        "president",
+        "pickaxe",
+        "iranian",
+        "the state department",
+        "washington",
+        "iran",
+        "international atomic energy agency",
+        "published\nthe",
+        "however",
+        "fox news",
+        "central command",
+        "there",
+        "vice",
+        "justice",
+        "tampa",
+        "rewards",
+        "republican party",
+        "task force iron gate",
+        "vance",
+        "president donald trump",
+        "us",
+        "on friday",
+        "trump",
+        "mountain",
+        "israel",
+        "jd",
+        "centcom",
+        "state department"
       ],
-      "numbers": [],
+      "numbers": [
+        "$20 million",
+        "$25",
+        "20 million",
+        "90%",
+        "$20"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -405,140 +548,65 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 34
+        "anchor_count": 39
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-07-AM.json",
-      "source_artifact_date": "2026-11-07",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
+      "source_artifact_date": "2026-11-08",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_f95e5b66fafcd6453b4752d6",
-      "title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
-      "publisher": "r/MachineLearning",
-      "summary": "Disclosure: I'm at Boson AI and this is our release. Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now. Most voice models are still turn-based: listen, wait for end of turn, think, speak. Duplex runs all streams at once and keeps working in the background while it talks. Streams. Everything is cut into 160 ms chunks:  Audio in: 1 token per chunk (6.25 tokens/s) Audio out: 2 tokens per chunk (12.5 tokens/s) Video in: one ~12-token camera ",
-      "category": "科技",
-      "published_at": "2026-11-06T20:23:53+00:00",
-      "why_relevant": "45B MoE全双工语音模型，前沿架构",
+      "article_id": "a1_c5eb8422e89fe1619b44c7a2",
+      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Ukraine’s Zaporizhzhia, once a refuge for those fleeing the war, is now facing growing danger.",
+      "category": "国际",
+      "published_at": "2026-11-07T20:10:38+00:00",
+      "why_relevant": "俄军逼近扎波罗热，战事升级",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.",
+          "text": "Published On 7 Nov 2026",
           "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370483+08:00",
-          "content_sha256": "57f5a04fdae2627f46e0fcec9d9ae9e0934c483d2a2d69bded2ea5f6d2c62e40",
-          "excerpt": "Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now.",
-          "sentence_hash": "be904de25f8fb265acada0597e2c310ba7bf627793c8576559176e9219d43293",
+          "captured_at": "2026-11-08T08:03:48.331907+08:00",
+          "content_sha256": "0ac9e2894b34d70c8a4ca0349a2dda40881a3c8742b1768fe26c216bc9c6a60c",
+          "excerpt": "Published On 7 Nov 2026",
+          "sentence_hash": "eaa9d950f5c79162c1be91ece38474033dec3e1c557be5368c694bfa64cb30d5",
           "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Most voice models are still turn-based: listen, wait for end of turn, think, speak.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370505+08:00",
-          "content_sha256": "57f5a04fdae2627f46e0fcec9d9ae9e0934c483d2a2d69bded2ea5f6d2c62e40",
-          "excerpt": "Most voice models are still turn-based: listen, wait for end of turn, think, speak.",
-          "sentence_hash": "d53283522dc83ec0bc4c9d4a843c24da0cc6e1ca38c36afdec909ba1f61e7763",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Duplex runs all streams at once and keeps working in the background while it talks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370523+08:00",
-          "content_sha256": "57f5a04fdae2627f46e0fcec9d9ae9e0934c483d2a2d69bded2ea5f6d2c62e40",
-          "excerpt": "Duplex runs all streams at once and keeps working in the background while it talks.",
-          "sentence_hash": "8d5417c95a27117daa18cabadc5577d6fdfa15db9a047ce2a0b6f1741a63b857",
-          "anchors": [
-            "streams"
+            "Nov 20"
           ]
         }
       ],
       "entities": [
-        "disclosure",
-        "video",
-        "streams",
-        "duplex",
-        "audio",
-        "everything",
-        "not",
-        "higgs realtime",
-        "boson",
-        "api",
-        "most",
-        "ai"
+        "russian",
+        "alpine",
+        "feed\nukraine",
+        "published on",
+        "zaporizhzhia",
+        "with",
+        "nov",
+        "al jazeera",
+        "ukraine",
+        "audrey mac"
       ],
       "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
+      "dates": [
+        "Nov 20"
       ],
+      "unknowns": [],
       "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 3,
-        "anchor_count": 12
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-07-AM.json",
-      "source_artifact_date": "2026-11-07",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_d41cb1ffac707a8d51680754",
-      "title": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
-      "url": "https://www.coindesk.com/tech/2026/11/06/live-updates-nasdaq-100-futures-rally-points-to-stock-market-respite",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-06T11:58:40+00:00",
-      "why_relevant": "比特币7.6万下方横盘，币圈关键位",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-07T08:03:50.370855+08:00",
-          "content_sha256": "ba66c5ef9cfd44ce3d57b1d78b61e1ce14b79108ec3dcde79ef9d68cb0c24137",
-          "excerpt": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
-          "sentence_hash": "ba66c5ef9cfd44ce3d57b1d78b61e1ce14b79108ec3dcde79ef9d68cb0c24137",
-          "anchors": [
-            "$76,000 "
-          ]
-        }
-      ],
-      "entities": [
-        "live",
-        "bitcoin"
-      ],
-      "numbers": [
-        "$76,000 "
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
+        "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 1,
-        "anchor_count": 3
+        "anchor_count": 11
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-07-AM.json",
-      "source_artifact_date": "2026-11-07",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
+      "source_artifact_date": "2026-11-08",
       "freshness_label": "today"
     }
   ]
