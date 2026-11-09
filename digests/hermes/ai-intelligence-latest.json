@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T00:07:36.319028+00:00",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T00:09:40.820186+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-09-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-08.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-09.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-07.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-08.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,119 +23,91 @@
   },
   "items": [
     {
-      "article_id": "a1_9d79a6d2702a0391ebd8932a",
-      "title": "The end of Microsoft Research's AI Frontiers group",
-      "url": "https://hunch.net/?p=13764006",
-      "publisher": "Hacker News",
-      "summary": "https://archive.is/AaY5Ohttps://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\nPoints: 327\n# Comments: 188",
-      "category": "科技",
-      "published_at": "2026-11-07T18:02:17+00:00",
-      "why_relevant": "微软AI前沿团队解散，行业信号",
+      "article_id": "a1_8b3f77448029bef0db06fcfa",
+      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
+      "category": "国际",
+      "published_at": "2026-11-08T21:37:36+00:00",
+      "why_relevant": "沙特阿美大楼被袭，油价风险",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "In AI Frontiers, we actively tried to organize coherent research efforts.",
+          "text": "It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.325752+08:00",
-          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
-          "excerpt": "In AI Frontiers, we actively tried to organize coherent research efforts.",
-          "sentence_hash": "a1f978567d8f590ee620058a37322f09c803dbd117061be99fe59c533ca3fee5",
+          "captured_at": "2026-11-09T08:04:00.774154+08:00",
+          "content_sha256": "5eaba4221c6d23578460ca43ab6c2ddc5f5e19793085a71bf0a43bcd1739a5ce",
+          "excerpt": "It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.",
+          "sentence_hash": "f7338a7f15f746f4838ffe89960138982027a4a8fa122c161083e5f543a8fa5d",
           "anchors": [
-            "for"
+            "33 people"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "This was not precisely “top down” or “bottom up”, but rather mostly somewhere in the messy middle.",
+          "text": "Saba said 39 people had been injured in the strike.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.325788+08:00",
-          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
-          "excerpt": "This was not precisely “top down” or “bottom up”, but rather mostly somewhere in the messy middle.",
-          "sentence_hash": "3e909cd61d1e49b0a03cab19ed276da751fd2abd36912d3061a39e1cef851540",
+          "captured_at": "2026-11-09T08:04:00.774195+08:00",
+          "content_sha256": "5eaba4221c6d23578460ca43ab6c2ddc5f5e19793085a71bf0a43bcd1739a5ce",
+          "excerpt": "Saba said 39 people had been injured in the strike.",
+          "sentence_hash": "b88e83369ab7a8333d77d9cf8ecd9b353021302924e16a2a193593cc8a60a988",
           "anchors": [
-            "but"
+            "39 people"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Compute availability was also an often-severe bottleneck.",
+          "text": "The United Nations says more than 1,600 people have been killed and more than 300,000 displaced since fighting resumed.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.325813+08:00",
-          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
-          "excerpt": "Compute availability was also an often-severe bottleneck.",
-          "sentence_hash": "5253f6c9b68952155c1a93643a9baad722882f0e9bb6923802f66883a4e38839",
+          "captured_at": "2026-11-09T08:04:00.774262+08:00",
+          "content_sha256": "5eaba4221c6d23578460ca43ab6c2ddc5f5e19793085a71bf0a43bcd1739a5ce",
+          "excerpt": "The United Nations says more than 1,600 people have been killed and more than 300,000 displaced since fighting resumed.",
+          "sentence_hash": "67701172f691e28ebc90d254a7e3f8cba7fbddcf91011da94689a93322ea9a99",
           "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "But at a high level I was under the general impression that the organization was succeeding in doing pioneering things, particularly given the small size of AIF (~50 people) and relative to what we could do previously.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.325846+08:00",
-          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
-          "excerpt": "But at a high level I was under the general impression that the organization was succeeding in doing pioneering things, particularly given the small size of AIF (~50 people) and relative to what we could do previously.",
-          "sentence_hash": "1f8f46136be99c176d5f9743f617d6a4e20516eb6fd04e367c275fe0a28f2068",
-          "anchors": [
-            "50 people"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Much of the work of AIF was figuring out how to make agents work, for example the Autogen orchestration framework and the Fara computer use agent.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.325871+08:00",
-          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
-          "excerpt": "Much of the work of AIF was figuring out how to make agents work, for example the Autogen orchestration framework and the Fara computer use agent.",
-          "sentence_hash": "5fd07e00791b6d71cd53fc5072221f412f4ea27b0078898327d5e726044f8af6",
-          "anchors": [
-            "compute",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In NYC however, several of us were interested in developing new fundamental capabilities such as the Next Latent objective which enables extrapolation, Dion3 which creates an optimized/improved Muon, or the Full Bandwidth Transformer which efficiently makes models function substa",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.325908+08:00",
-          "content_sha256": "937edc8159c8d33c18d4baee355766b9d2a483da41eeb802432b2560dd7aba3f",
-          "excerpt": "In NYC however, several of us were interested in developing new fundamental capabilities such as the Next Latent objective which enables extrapolation, Dion3 which creates an optimized/improved Muon, or the Full Bandwidth Transformer which efficiently makes models function substa",
-          "sentence_hash": "e3e4612798be0cb64292068ec9231b559653f91d85308ecf882dd2256e70f039",
-          "anchors": [
-            "for",
-            "several"
+            "1,600 people"
           ]
         }
       ],
       "entities": [
-        "compute",
-        "microsoft",
-        "chat",
-        "there",
-        "autogen",
-        "nyc",
-        "full bandwidth transformer",
-        "but",
-        "msr",
-        "microsoft research",
-        "mai",
-        "inflection",
-        "frontiers",
-        "fara",
-        "aif",
-        "next latent",
-        "several",
-        "september",
-        "much",
-        "ai",
-        "colm",
-        "dion",
-        "for",
-        "muon"
+        "saudi arabia",
+        "saturday",
+        "al masirah",
+        "the houthis",
+        "although",
+        "major",
+        "aramco",
+        "sanaa",
+        "houthi",
+        "saudi",
+        "yemen",
+        "aramco tower",
+        "october",
+        "the saudi",
+        "gulf",
+        "published\nthe aramco tower",
+        "bbc",
+        "the united nations",
+        "riyadh",
+        "tehran",
+        "red sea",
+        "published",
+        "shariyah",
+        "iranian",
+        "houthis",
+        "iran",
+        "footage",
+        "windows",
+        "july",
+        "saudi arabian",
+        "verify",
+        "saba"
       ],
       "numbers": [
-        "50 people"
+        "39 people",
+        "1,600 people",
+        "33 people"
       ],
       "dates": [],
       "unknowns": [
@@ -144,126 +116,318 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 25
+        "fact_count": 3,
+        "anchor_count": 35
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
-      "source_artifact_date": "2026-11-08",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-09-AM.json",
+      "source_artifact_date": "2026-11-09",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_9e82462ad332f2e0694003d3",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "publisher": "The Verge",
-      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [&#8230;]",
+      "article_id": "a1_b81cf74143a3895153c917f7",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://github.com/synchopate/llama-modchip\nComments URL: https://news.ycombinator.com/item?id=50411961\nPoints: 343\n# Comments: 141",
       "category": "科技",
-      "published_at": "2026-11-07T15:43:45+00:00",
-      "why_relevant": "英伟达对华出口漏洞，监管风险",
+      "published_at": "2026-11-08T10:22:04+00:00",
+      "why_relevant": "本地跑284B模型，硬核技术突破",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company’s H200 AI chips.",
+          "text": "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.326785+08:00",
-          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
-          "excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company’s H200 AI chips.",
-          "sentence_hash": "64b1a39728f5ec698b8ee598b8f9a44735d532ecb4fed333a7c5cce2459c3b98",
+          "captured_at": "2026-11-09T08:04:00.775885+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS",
+          "sentence_hash": "dbda34121e007a928dfd4d0dcdae464ca7b227e484f0fb4faeb0a279f2b6daf2",
           "anchors": [
-            "and",
-            "ai"
+            "cache",
+            "kernel patches",
+            "experts",
+            "quantization"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, “a hollow gray shell with wires dangling from the ceiling where lights should be.” In fact, the paper could find little evidence that the company exists in any meaningful way:",
+          "text": "llama-modchip reduces the checkpoint to 56.56 GiB (60.73 GB) so the entire model plus a 256K KV cache (57.61–58.9 GiB VmRSS) locks into RAM with zero swap.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.326840+08:00",
-          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
-          "excerpt": "According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, “a hollow gray shell with wires dangling from the ceiling where lights should be.” In fact, the paper could find little evidence that the company exists in any meaningful way:",
-          "sentence_hash": "b6668b11cb66ce3ea6cb40950c174681b2258a42bd8c5c71b1ebde9009b0e6b1",
+          "captured_at": "2026-11-09T08:04:00.775935+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "llama-modchip reduces the checkpoint to 56.56 GiB (60.73 GB) so the entire model plus a 256K KV cache (57.61–58.9 GiB VmRSS) locks into RAM with zero swap.",
+          "sentence_hash": "1f18c318537d5202f8f900b7ce3f65ee2a2ed90f217f5e0f42456aa66f820a4e",
           "anchors": [
-            "its"
+            "cache"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "At the building that New Matrix lists as its address, a company directory does not include the firm.",
+          "text": "By default, all 6 routed experts per layer (Top-6) are evaluated without pruning.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.326870+08:00",
-          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
-          "excerpt": "At the building that New Matrix lists as its address, a company directory does not include the firm.",
-          "sentence_hash": "2394f99c5749c3cf7210c69420507fae0dde55d59c21bb60a2a39f116044f165",
+          "captured_at": "2026-11-09T08:04:00.775964+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "By default, all 6 routed experts per layer (Top-6) are evaluated without pruning.",
+          "sentence_hash": "0179f25d8d14438c0986f7c754b6015734953c93e4aa16cf7010d9371a66c455",
           "anchors": [
-            "its"
+            "experts"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "At the nearby property management agency for the industrial park, a receptionist and a manager both said they had no record of the company.",
+          "text": "- CPU Cache & SIMD Kernel Patches (+77% prefill, +53% decode): Replaces single-column quantized matrix-vector loops during prompt prefill with a 4-level register (ZMM AVX-512BW) + L1D (32 KB) + L2 (1 MB) + L3 (64 MB) multi-column ({8,4,3,2}) tiling schedule (25.0 -> 44.36 tok/s o",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.326894+08:00",
-          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
-          "excerpt": "At the nearby property management agency for the industrial park, a receptionist and a manager both said they had no record of the company.",
-          "sentence_hash": "5c9e637c5e44fd8e1a75c84ac8247036a0ceb3fb3edbd9eefb046a0313f20a53",
+          "captured_at": "2026-11-09T08:04:00.776017+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "- CPU Cache & SIMD Kernel Patches (+77% prefill, +53% decode): Replaces single-column quantized matrix-vector loops during prompt prefill with a 4-level register (ZMM AVX-512BW) + L1D (32 KB) + L2 (1 MB) + L3 (64 MB) multi-column ({8,4,3,2}) tiling schedule (25.0 -> 44.36 tok/s o",
+          "sentence_hash": "55a66f703de2c0038fdb61319e9d6f7b4b2e2c68016b69c45dcace21b93941ca",
           "anchors": [
-            "and",
-            "ai",
-            "us"
+            "77%",
+            "cache",
+            "pre",
+            "53%"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "And according to the Times, this is not a rare lapse in oversight, but a troubling pattern of companies connected to entities with national-security-related trade restrictions being approved to purchase Nvidia chips.",
+          "text": "- Self-Speculative Drafting & Instant Agent Context Restore: Pairs a 1.64 MB L2/L3 Zobrist n-gram drafter (Stockfish-PVS v2) with /dev/shm KV slot snapshots (13.1–32.6 ms restore time for 40-tool Claude Code prompts) and an $O(1)$ speculative rollback fix for deepseek4 recurrent/",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.326934+08:00",
-          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
-          "excerpt": "And according to the Times, this is not a rare lapse in oversight, but a troubling pattern of companies connected to entities with national-security-related trade restrictions being approved to purchase Nvidia chips.",
-          "sentence_hash": "29446156db1a7448739300c392b24c0954aa379241afdfd0db80d57413b349a2",
+          "captured_at": "2026-11-09T08:04:00.776073+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "- Self-Speculative Drafting & Instant Agent Context Restore: Pairs a 1.64 MB L2/L3 Zobrist n-gram drafter (Stockfish-PVS v2) with /dev/shm KV slot snapshots (13.1–32.6 ms restore time for 40-tool Claude Code prompts) and an $O(1)$ speculative rollback fix for deepseek4 recurrent/",
+          "sentence_hash": "2a9f38a533e65569bdecdcfa9b97622af41ad60652e3c83b3106955bc01110df",
           "anchors": [
-            "according",
-            "but"
+            "deep",
+            "ud",
+            "seek",
+            "ram"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "But the Trump administration relaxed those limits after Nvidia agreed to give the government a 15-percent cut of all sales.",
+          "text": "Quantization & Memory Breakdown To answer the most common technical question upfront—exact bit-widths (bpw), base checkpoints, and what is compressed in each GGUF: Note on MoE Expert Routing (Top-K): By default (v2.4.0 Lossless), DeepSeek-V4-Flash evaluates all 6 routed experts +",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.326959+08:00",
-          "content_sha256": "dd2bfbfa1a0eecd2613652dfe61b52be64f62b8980ae3eccabcf9fd66ecafb29",
-          "excerpt": "But the Trump administration relaxed those limits after Nvidia agreed to give the government a 15-percent cut of all sales.",
-          "sentence_hash": "0c68177219abf191a09a655f7175f2f03c24013315fff3c6567547b840fc4357",
+          "captured_at": "2026-11-09T08:04:00.776135+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "Quantization & Memory Breakdown To answer the most common technical question upfront—exact bit-widths (bpw), base checkpoints, and what is compressed in each GGUF: Note on MoE Expert Routing (Top-K): By default (v2.4.0 Lossless), DeepSeek-V4-Flash evaluates all 6 routed experts +",
+          "sentence_hash": "bc360258cf1b06d7f7090dc5dd09e14efd83f7b8129d914303fcb9fc171828ce",
           "anchors": [
-            "its"
+            "experts",
+            "git",
+            "pre",
+            "id",
+            "unpatched"
           ]
         }
       ],
       "entities": [
-        "and",
-        "china\nthe",
-        "only",
-        "the new york times",
-        "according",
-        "times",
-        "new matrix",
-        "but",
-        "its",
-        "chinese",
-        "jensen huang",
-        "us",
-        "ceo",
-        "commerce department",
-        "trump",
+        "quantization",
+        "expert routing",
+        "avx",
+        "kv",
+        "seek",
+        "attention",
+        "zobrist",
+        "ollama",
+        "flash",
+        "compiled linux",
+        "lm",
+        "claude code",
+        "ram",
+        "self",
+        "use",
+        "zen",
+        "studio",
+        "compatibility note",
+        "git",
+        "fractal",
+        "physical",
+        "pre",
+        "pvs",
+        "linux",
+        "hub release",
+        "chat",
+        "neon",
+        "automated setup",
+        "mb",
+        "cpu",
+        "experts",
+        "replaces",
+        "setting",
+        "hugging face",
+        "deep",
+        "unpatched",
+        "mixture",
+        "zmm",
+        "note",
+        "cache",
+        "speculative drafting",
+        "apple metal",
+        "lossless",
+        "fitting",
+        "mla",
+        "gb",
+        "stockfish",
+        "sve",
+        "instant agent context restore",
+        "oom",
+        "simd",
+        "kernel patches",
+        "top",
+        "pairs",
+        "memory breakdown\nto",
+        "binary",
+        "direct run",
+        "id",
+        "gguf",
+        "kb",
+        "ud",
+        "standard"
+      ],
+      "numbers": [
+        "77%",
+        "53%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 64
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-09-AM.json",
+      "source_artifact_date": "2026-11-09",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6e28f62a40a2083d17b2ae47",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\nComments URL: https://news.ycombinator.com/item?id=50415628\nPoints: 534\n# Comments: 326",
+      "category": "科技",
+      "published_at": "2026-11-08T18:16:07+00:00",
+      "why_relevant": "高盛禁用Claude，金融AI合规",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777283+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.",
+          "sentence_hash": "20d729117842487e2a41c6f0b791e00f227bdf6e5293225f88d778ac800cc444",
+          "anchors": [
+            "ant"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777326+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm.",
+          "sentence_hash": "7eb362c888e540aa75b23dda3107b4edd9fd05307413c02a8dc878b46c47ef20",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Argenti was praising trader-built tools in July As recently as July, chief information officer Marco Argenti was talking up \"vibe coding\" by Goldman's non-technical employees.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777355+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "Argenti was praising trader-built tools in July As recently as July, chief information officer Marco Argenti was talking up \"vibe coding\" by Goldman's non-technical employees.",
+          "sentence_hash": "c1980ca00beadd7cc410905ddc303245479670a6be2305c1f591e86b5f1a820e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "That arrangement let the people closest to a problem build a first version without waiting for engineering time.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777386+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "That arrangement let the people closest to a problem build a first version without waiting for engineering time.",
+          "sentence_hash": "4db2936ff91d76301cd4a66ab9e3bd4c8e0d4727ea1da7deb0ddd370f6095fa9",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It also meant thousands of employees without engineering training were running software that writes and executes code, on the same machines they use to handle client information.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777419+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "It also meant thousands of employees without engineering training were running software that writes and executes code, on the same machines they use to handle client information.",
+          "sentence_hash": "7bc02a350c8aeb304d48a2fbc326cea4bdf437028c85f1a12840525a2fa327ef",
+          "anchors": [
+            "ai",
+            "ant",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "At a conference in Turin last month, Argenti described Goldman's AI adoption in waves and said developers, more than 12,000 of the bank's roughly 47,000 staff, had made up the first.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777449+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "At a conference in Turin last month, Argenti described Goldman's AI adoption in waves and said developers, more than 12,000 of the bank's roughly 47,000 staff, had made up the first.",
+          "sentence_hash": "8d7b176ef62c887d151d69ac2d2720bcded3e227bca5e24c47eb43e461b5f6c4",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "hong kong",
+        "july\nas",
+        "argenti",
+        "nick carcaterra",
+        "claude",
+        "marco argenti",
+        "hub",
+        "april\nin april",
+        "bloomberg",
+        "the october",
+        "they",
+        "git",
+        "chat",
+        "anthropic",
+        "internal",
+        "october",
+        "anthropic\nearlier",
         "ai",
-        "state security",
-        "china",
-        "concerns",
-        "biden",
-        "nvidia",
-        "ministry"
+        "gemini",
+        "goldman",
+        "the financial times",
+        "goldman sachs",
+        "microsoft",
+        "the hong kong",
+        "most",
+        "morgan",
+        "turin",
+        "ipo",
+        "bloomberg news",
+        "ant",
+        "strats",
+        "july",
+        "claude code",
+        "april",
+        "june"
       ],
       "numbers": [],
       "dates": [],
@@ -274,124 +438,112 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 22
+        "anchor_count": 35
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
-      "source_artifact_date": "2026-11-08",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-09-AM.json",
+      "source_artifact_date": "2026-11-09",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_a595506efeec08267e3245ec",
-      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
-      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
-      "category": "国际",
-      "published_at": "2026-11-07T22:19:59+00:00",
-      "why_relevant": "以色列政府更迭，中东局势关键",
-      "relevance_score": 8.0,
+      "article_id": "a1_902bb3e0fa6ff1156cee3469",
+      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+      "publisher": "CNBC",
+      "summary": "Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz.",
+      "category": "财经",
+      "published_at": "2026-11-08T21:53:02+00:00",
+      "why_relevant": "伊朗核谈判与油价地缘风险",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Isaac Herzog has been holding talks with political parties after neither Eisenkot's bloc nor that of Prime Minister Benjamin Netanyahu secured a majority in Israel's parliament, known as the Knesset, following last week's election.",
+          "text": "\"It depends on whether or not they sign a very strong agreement,\" Trump said.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.330017+08:00",
-          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
-          "excerpt": "Isaac Herzog has been holding talks with political parties after neither Eisenkot's bloc nor that of Prime Minister Benjamin Netanyahu secured a majority in Israel's parliament, known as the Knesset, following last week's election.",
-          "sentence_hash": "2b6b85264eb940c72303eaac23dc5c45db66c1ee53c58b074e84f25b51c7f58e",
+          "captured_at": "2026-11-09T08:04:00.778519+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "\"It depends on whether or not they sign a very strong agreement,\" Trump said.",
+          "sentence_hash": "9c47f75e1161d4bebf2844226ef556143ce9ef24ff1ccf9e7bf5124ef1e9a148",
           "anchors": [
-            "now",
-            "following"
+            "they"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Eisenkot will now have 28 days to try to form a new administration, with a potential 14-day extension.",
+          "text": "\"We have 38 bridges in our site that we can knock down in literally one hour.\" An end to the war and reopening of the Strait of Hormuz would likely ease oil prices, though finding a truce has proven difficult.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.330045+08:00",
-          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
-          "excerpt": "Eisenkot will now have 28 days to try to form a new administration, with a potential 14-day extension.",
-          "sentence_hash": "879454d4605f32002df132037d4faeea533152788651615d1216266cbe7fe32b",
+          "captured_at": "2026-11-09T08:04:00.778576+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "\"We have 38 bridges in our site that we can knock down in literally one hour.\" An end to the war and reopening of the Strait of Hormuz would likely ease oil prices, though finding a truce has proven difficult.",
+          "sentence_hash": "b86e4839b67b9047091e29bcde1f10909b9adcaa063e9eea9c7d3a723ba4d9df",
           "anchors": [
-            "now"
+            "all"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Two Arab-led alliances, the United Arab List and the Joint List, together won an unprecedented 19 seats following a surge in turnout among Arab voters.",
+          "text": "All previous attempts to end the war and reopen the strait have been met with disappointment.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.330086+08:00",
-          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
-          "excerpt": "Two Arab-led alliances, the United Arab List and the Joint List, together won an unprecedented 19 seats following a surge in turnout among Arab voters.",
-          "sentence_hash": "2dae3b861b61fdc7f1fc76c93b1f5dc301452222fc3407a036004103af322d22",
+          "captured_at": "2026-11-09T08:04:00.778597+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "All previous attempts to end the war and reopen the strait have been met with disappointment.",
+          "sentence_hash": "bae2e9ee3a2e0a0f03d10616940ca1902436117776d58654f965e6ae32bcea9f",
           "anchors": [
-            "following"
+            "strait"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Herzog said that, after consulting all parties during the week, he would give Eisenkot the first chance to form a government.",
+          "text": "Some Republicans are also likely to be eager for an end to the war, given the role high gas prices played in their drubbing at the ballot box.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.330115+08:00",
-          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
-          "excerpt": "Herzog said that, after consulting all parties during the week, he would give Eisenkot the first chance to form a government.",
-          "sentence_hash": "cb4b142fbc2bdcab782c27a8b0284da08ddf01742a268df27690daaa40ce22fe",
+          "captured_at": "2026-11-09T08:04:00.778630+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "Some Republicans are also likely to be eager for an end to the war, given the role high gas prices played in their drubbing at the ballot box.",
+          "sentence_hash": "e8cd118232609c60a0f0230b95a42519cea996d9d69df4f5e83115f61557e27d",
           "anchors": [
-            "during"
+            "all"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Eisenkot and every member of his bloc bar one has previously refused to enter government with Arab parties, but there has been speculation that an agreement could be reached.",
+          "text": "has maintained a naval blockade of Iranian ports for months.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.330166+08:00",
-          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
-          "excerpt": "Eisenkot and every member of his bloc bar one has previously refused to enter government with Arab parties, but there has been speculation that an agreement could be reached.",
-          "sentence_hash": "786d961c230e001324bd6e156e8befcde6ad638f5579c7dc1263c41c8f1af372",
+          "captured_at": "2026-11-09T08:04:00.778667+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "has maintained a naval blockade of Iranian ports for months.",
+          "sentence_hash": "b6ef2c6ad67d64348fb8477d520f4f4e19d924057d691a859c5d8dd3e6de3260",
           "anchors": [
-            "there"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In 2020, following three deadlocked elections, Netanyahu and his centrist rival Benny Gantz agreed a power-sharing deal in which the leadership rotated between the two.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.330198+08:00",
-          "content_sha256": "852e647ab71bee2f63f920375756aa839aad9737d5f6dc8f73a375a503bc1682",
-          "excerpt": "In 2020, following three deadlocked elections, Netanyahu and his centrist rival Benny Gantz agreed a power-sharing deal in which the leadership rotated between the two.",
-          "sentence_hash": "1445e647d181c12fe492ba2f13f843583d84ba4b4f994cf340f47ab4a2864cbf",
-          "anchors": [
-            "following"
+            "naval blockade"
           ]
         }
       ],
       "entities": [
-        "benny gantz",
-        "yashar",
-        "orthodox jewish",
-        "during",
-        "two arab",
-        "there",
-        "joint list",
-        "eisenkot",
-        "herzog",
-        "netanyahu",
-        "following",
-        "arab",
-        "gadi eisenkot",
-        "isaac herzog",
-        "now",
-        "jewish",
-        "israel",
-        "likud",
-        "published\nisrael",
-        "however",
-        "prime minister benjamin netanyahu",
-        "orthodox",
-        "knesset",
-        "united arab list"
+        "cnn",
+        "naval blockade",
+        "coupled",
+        "saturday",
+        "republican party",
+        "islamic republic",
+        "washington",
+        "house",
+        "central command",
+        "caspian sea",
+        "all",
+        "tehran",
+        "task force iron gate",
+        "democrats",
+        "president donald trump",
+        "iranian",
+        "trump",
+        "they",
+        "truth social",
+        "iran",
+        "senate",
+        "later",
+        "hormuz",
+        "strait",
+        "some republicans"
       ],
       "numbers": [],
       "dates": [],
@@ -401,144 +553,166 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 24
+        "fact_count": 5,
+        "anchor_count": 25
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
-      "source_artifact_date": "2026-11-08",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-09-AM.json",
+      "source_artifact_date": "2026-11-09",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_8c55ad5e1fed77a54de3f52c",
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
-      "category": "国际",
-      "published_at": "2026-11-07T18:14:38+00:00",
-      "why_relevant": "美伊核对峙升级，地缘风险高",
-      "relevance_score": 8.0,
+      "article_id": "a1_47016a4e5b12d167c8ce7e5e",
+      "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Key inflation data and AI earnings could set the tone for markets this week.",
+      "category": "财经",
+      "published_at": "2026-11-08T23:44:41+00:00",
+      "why_relevant": "通胀数据与AI财报，本周主线",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "US offers $20m reward for information about Iran's nuclear programme - Published The US has announced a reward of up to $20 million for information about Iran's nuclear programme.",
+          "text": "Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331357+08:00",
-          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
-          "excerpt": "US offers $20m reward for information about Iran's nuclear programme - Published The US has announced a reward of up to $20 million for information about Iran's nuclear programme.",
-          "sentence_hash": "4b7adec2212622060ffd0d5aac46d8a3b4ca0780253e4f5d5566bbd6e59a3fea",
+          "captured_at": "2026-11-09T08:04:00.780333+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.",
+          "sentence_hash": "0c793d63439ec307f77e1e27c6e231ba4afd6859e167304c0485ca80cb8d8106",
           "anchors": [
-            "$20 million",
-            "20 million",
-            "$20"
+            "futures",
+            "over",
+            "ai"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The State Department's Rewards for Justice is also offering to potentially relocate the person who provides such details.",
+          "text": "S&P 500 futures gained 0.1%, while the Nasdaq 100's added 0.3%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331388+08:00",
-          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
-          "excerpt": "The State Department's Rewards for Justice is also offering to potentially relocate the person who provides such details.",
-          "sentence_hash": "e1c040422492d6b8b813dff9bb30a25b4ad316ef67cf854eacf55c6080c781a1",
+          "captured_at": "2026-11-09T08:04:00.780360+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "S&P 500 futures gained 0.1%, while the Nasdaq 100's added 0.3%.",
+          "sentence_hash": "27d192cad09352ae9da262abc8b31e367b613791e094f0ac35e112aa815efc8d",
           "anchors": [
-            "us"
+            "0.1%",
+            "futures",
+            "ai",
+            "0.3%"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "As well as the movement of weapons, it will also focus on dual-use and illegal revenue streams.",
+          "text": "Futures tied to the Dow Jones Industrial Average added 101 points, or 0.2%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331441+08:00",
-          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
-          "excerpt": "As well as the movement of weapons, it will also focus on dual-use and illegal revenue streams.",
-          "sentence_hash": "f8eb040f889400b9999aaeec6ecde3e60e402f7ed944d3774d0cf8e246519b60",
+          "captured_at": "2026-11-09T08:04:00.780383+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Futures tied to the Dow Jones Industrial Average added 101 points, or 0.2%.",
+          "sentence_hash": "2037fa20521bbda487848942dfb80bcd7d6b9ece934b250e082190df3706b6e0",
           "anchors": [
-            "us"
+            "2%",
+            "0.2%"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Centcom estimates that its naval blockade of Iran's ports has prevented the country from exporting more than $25bn in crude oil.",
+          "text": "Over in Asia, markets look stronger to start the week, with futures for Japan's Nikkei 225 in Chicago at 58,520.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331498+08:00",
-          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
-          "excerpt": "Centcom estimates that its naval blockade of Iran's ports has prevented the country from exporting more than $25bn in crude oil.",
-          "sentence_hash": "0f5a27b6a05147690e3b48cf9fe5846894cdfabd0b850ac3a6b067eec3970309",
+          "captured_at": "2026-11-09T08:04:00.780411+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Over in Asia, markets look stronger to start the week, with futures for Japan's Nikkei 225 in Chicago at 58,520.",
+          "sentence_hash": "c189b14faf794b4afcd0e12f7cc7e5fa9ac7c18173aa2804ea5fc6e60f56ac5f",
           "anchors": [
-            "$25"
+            "futures"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "It said Iran's \"lack of compliance with the IAEA [the International Atomic Energy Agency] on safeguards obligations has led to the agency's loss of 'continuity of knowledge' regarding Iran's production and inventory of key components like [nuclear] centrifuges\".",
+          "text": "Australia's S&P/ASX 200 was up 0.2% in early trading.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331547+08:00",
-          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
-          "excerpt": "It said Iran's \"lack of compliance with the IAEA [the International Atomic Energy Agency] on safeguards obligations has led to the agency's loss of 'continuity of knowledge' regarding Iran's production and inventory of key components like [nuclear] centrifuges\".",
-          "sentence_hash": "9789dcef9e8409529a3283f2bb67e3d28d997c4d1545318ed68b0af8a61928e0",
+          "captured_at": "2026-11-09T08:04:00.780445+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Australia's S&P/ASX 200 was up 0.2% in early trading.",
+          "sentence_hash": "a581292753c979d5c43288ee725dfa286d9e9e37f54996ffe3aebe65581b058d",
           "anchors": [
-            "centrifuges"
+            "2%",
+            "0.2%"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Centrifuges are needed to produce enriched uranium, which can be used to make reactor fuel for civilian use but also for nuclear weapons if enriched to around 90% purity or higher.",
+          "text": "Later Monday, investors will also look to inflation data out of China, with economists polled by Reuters expecting a reading of 0.8%, down slightly from September's 0.9%.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331579+08:00",
-          "content_sha256": "f62d6badc8094a04529578482a34d23c28780fffeb44518361ca168a1fdde246",
-          "excerpt": "Centrifuges are needed to produce enriched uranium, which can be used to make reactor fuel for civilian use but also for nuclear weapons if enriched to around 90% purity or higher.",
-          "sentence_hash": "75385e236fa5e857ee852391e2136879a2d55b3915c4a0ab004ba9ac6c16be4b",
+          "captured_at": "2026-11-09T08:04:00.780476+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Later Monday, investors will also look to inflation data out of China, with economists polled by Reuters expecting a reading of 0.8%, down slightly from September's 0.9%.",
+          "sentence_hash": "4bbc57d1fdf92aecf723934c2f31b27633667d28ecf8739372ff2a94a5cbebb8",
           "anchors": [
-            "90%",
-            "us"
+            "0.9%",
+            "dow",
+            "0.8%"
           ]
         }
       ],
       "entities": [
-        "tehran",
-        "florida",
-        "white house",
-        "meanwhile",
-        "centrifuges",
-        "iaea",
-        "president",
-        "pickaxe",
-        "iranian",
-        "the state department",
-        "washington",
-        "iran",
-        "international atomic energy agency",
-        "published\nthe",
-        "however",
-        "fox news",
-        "central command",
-        "there",
-        "vice",
-        "justice",
-        "tampa",
-        "rewards",
-        "republican party",
-        "task force iron gate",
-        "vance",
-        "president donald trump",
-        "us",
-        "on friday",
-        "trump",
-        "mountain",
-        "israel",
-        "jd",
-        "centcom",
-        "state department"
+        "covid",
+        "nasdaq",
+        "sunday",
+        "hong kong",
+        "chicago",
+        "sonders",
+        "vanda research",
+        "japan",
+        "australia",
+        "china",
+        "additionally",
+        "cnbc",
+        "fast money",
+        "thursday",
+        "liz ann sonders",
+        "later monday",
+        "schwab center",
+        "futures",
+        "hang seng",
+        "friday",
+        "over",
+        "core",
+        "asx",
+        "you",
+        "dow jones industrial average",
+        "jensen huang",
+        "nikkei",
+        "reuters",
+        "dow",
+        "ai",
+        "asia",
+        "ceo",
+        "stock",
+        "in osaka",
+        "financial research",
+        "september",
+        "democrats",
+        "nvidia",
+        "hyperliquid",
+        "nasdaq composite",
+        "weave",
+        "cisco",
+        "applied materials",
+        "chinese",
+        "retail",
+        "broader"
       ],
       "numbers": [
-        "$20 million",
-        "$25",
-        "20 million",
-        "90%",
-        "$20"
+        "0.1%",
+        "2%",
+        "0.3%",
+        "0.9%",
+        "1.09%",
+        "0.46%",
+        "0.31%",
+        "0.2%",
+        "0.8%"
       ],
       "dates": [],
       "unknowns": [
@@ -548,65 +722,12 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 39
+        "anchor_count": 55
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
-      "source_artifact_date": "2026-11-08",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_c5eb8422e89fe1619b44c7a2",
-      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Ukraine’s Zaporizhzhia, once a refuge for those fleeing the war, is now facing growing danger.",
-      "category": "国际",
-      "published_at": "2026-11-07T20:10:38+00:00",
-      "why_relevant": "俄军逼近扎波罗热，战事升级",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Published On 7 Nov 2026",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-08T08:03:48.331907+08:00",
-          "content_sha256": "0ac9e2894b34d70c8a4ca0349a2dda40881a3c8742b1768fe26c216bc9c6a60c",
-          "excerpt": "Published On 7 Nov 2026",
-          "sentence_hash": "eaa9d950f5c79162c1be91ece38474033dec3e1c557be5368c694bfa64cb30d5",
-          "anchors": [
-            "Nov 20"
-          ]
-        }
-      ],
-      "entities": [
-        "russian",
-        "alpine",
-        "feed\nukraine",
-        "published on",
-        "zaporizhzhia",
-        "with",
-        "nov",
-        "al jazeera",
-        "ukraine",
-        "audrey mac"
-      ],
-      "numbers": [],
-      "dates": [
-        "Nov 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 11
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-08-AM.json",
-      "source_artifact_date": "2026-11-08",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-09-AM.json",
+      "source_artifact_date": "2026-11-09",
       "freshness_label": "today"
     }
   ]

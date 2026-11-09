@@ -1,6 +1,77 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-08 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-09 08:09。
+
+## Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 最新事实：It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_fbce18582322`
+
+## Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 最新事实：llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_1fa9d0375073`
+
+## Goldman Sachs is pulling Claude Code from its bankers and traders
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 最新事实：Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_4bdb73619742`
+
+## Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 最新事实："It depends on whether or not they sign a very strong agreement," Trump said.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_87e8dca21e03`
+
+## Attempts to find resolution for Israel’s new government and Ukraine’s war
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261109_6f3a84540d15`
+
+## Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 最新事实：Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_67165187744a`
+
+## Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_f0222f93f91a`
+
+## Iraq has reached understandings with US to allow oil exports through Hormuz, minister says
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261109_3ae32d7c3b50`
+
+## Cryptocurrencies slide to two-month lows after US midterms
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261109_a5a4f7cd8912`
+
+## Saudi Arabia turns to Syria for help as fighting with Houthis escalates
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261109_b8ed7ecdfb68`
+
+## Apple is racing to make Siri more agentic
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 最新事实：Bloomberg’s Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI’s Dots or Meta’s Muse.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_e0f7adbaf7c0`
+
+## Nvidia Board of Directors Is Investigating Jensen Huang
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_9a9529a3534f`
+
+## Binance hack clouds Singapore crypto push for tokenized stocks
+- 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261109_0924fbbc9cb4`
 
 ## 2026 U.S. Senate Election Results
 - 状态：更新中；首见 2026-11-08；最近更新 2026-11-08

@@ -1,0 +1,1022 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-09-AM",
+  "date": "2026-11-09",
+  "session": "AM",
+  "delivered_at": "2026-11-09T08:09:40.800782+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-09T00:09:40.802482+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.23076923076923078
+  },
+  "items": [
+    {
+      "article_id": "a1_8b3f77448029bef0db06fcfa",
+      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
+      "category": "国际",
+      "published_at": "2026-11-08T21:37:36+00:00",
+      "why_relevant": "沙特阿美大楼被袭，油价风险",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.774154+08:00",
+          "content_sha256": "5eaba4221c6d23578460ca43ab6c2ddc5f5e19793085a71bf0a43bcd1739a5ce",
+          "excerpt": "It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.",
+          "sentence_hash": "f7338a7f15f746f4838ffe89960138982027a4a8fa122c161083e5f543a8fa5d",
+          "anchors": [
+            "33 people"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Saba said 39 people had been injured in the strike.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.774195+08:00",
+          "content_sha256": "5eaba4221c6d23578460ca43ab6c2ddc5f5e19793085a71bf0a43bcd1739a5ce",
+          "excerpt": "Saba said 39 people had been injured in the strike.",
+          "sentence_hash": "b88e83369ab7a8333d77d9cf8ecd9b353021302924e16a2a193593cc8a60a988",
+          "anchors": [
+            "39 people"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The United Nations says more than 1,600 people have been killed and more than 300,000 displaced since fighting resumed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.774262+08:00",
+          "content_sha256": "5eaba4221c6d23578460ca43ab6c2ddc5f5e19793085a71bf0a43bcd1739a5ce",
+          "excerpt": "The United Nations says more than 1,600 people have been killed and more than 300,000 displaced since fighting resumed.",
+          "sentence_hash": "67701172f691e28ebc90d254a7e3f8cba7fbddcf91011da94689a93322ea9a99",
+          "anchors": [
+            "1,600 people"
+          ]
+        }
+      ],
+      "entities": [
+        "saudi arabia",
+        "saturday",
+        "al masirah",
+        "the houthis",
+        "although",
+        "major",
+        "aramco",
+        "sanaa",
+        "houthi",
+        "saudi",
+        "yemen",
+        "aramco tower",
+        "october",
+        "the saudi",
+        "gulf",
+        "published\nthe aramco tower",
+        "bbc",
+        "the united nations",
+        "riyadh",
+        "tehran",
+        "red sea",
+        "published",
+        "shariyah",
+        "iranian",
+        "houthis",
+        "iran",
+        "footage",
+        "windows",
+        "july",
+        "saudi arabian",
+        "verify",
+        "saba"
+      ],
+      "numbers": [
+        "39 people",
+        "1,600 people",
+        "33 people"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b81cf74143a3895153c917f7",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://github.com/synchopate/llama-modchip\nComments URL: https://news.ycombinator.com/item?id=50411961\nPoints: 343\n# Comments: 141",
+      "category": "科技",
+      "published_at": "2026-11-08T10:22:04+00:00",
+      "why_relevant": "本地跑284B模型，硬核技术突破",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.775885+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS",
+          "sentence_hash": "dbda34121e007a928dfd4d0dcdae464ca7b227e484f0fb4faeb0a279f2b6daf2",
+          "anchors": [
+            "cache",
+            "kernel patches",
+            "experts",
+            "quantization"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "llama-modchip reduces the checkpoint to 56.56 GiB (60.73 GB) so the entire model plus a 256K KV cache (57.61–58.9 GiB VmRSS) locks into RAM with zero swap.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.775935+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "llama-modchip reduces the checkpoint to 56.56 GiB (60.73 GB) so the entire model plus a 256K KV cache (57.61–58.9 GiB VmRSS) locks into RAM with zero swap.",
+          "sentence_hash": "1f18c318537d5202f8f900b7ce3f65ee2a2ed90f217f5e0f42456aa66f820a4e",
+          "anchors": [
+            "cache"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "By default, all 6 routed experts per layer (Top-6) are evaluated without pruning.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.775964+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "By default, all 6 routed experts per layer (Top-6) are evaluated without pruning.",
+          "sentence_hash": "0179f25d8d14438c0986f7c754b6015734953c93e4aa16cf7010d9371a66c455",
+          "anchors": [
+            "experts"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- CPU Cache & SIMD Kernel Patches (+77% prefill, +53% decode): Replaces single-column quantized matrix-vector loops during prompt prefill with a 4-level register (ZMM AVX-512BW) + L1D (32 KB) + L2 (1 MB) + L3 (64 MB) multi-column ({8,4,3,2}) tiling schedule (25.0 -> 44.36 tok/s o",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.776017+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "- CPU Cache & SIMD Kernel Patches (+77% prefill, +53% decode): Replaces single-column quantized matrix-vector loops during prompt prefill with a 4-level register (ZMM AVX-512BW) + L1D (32 KB) + L2 (1 MB) + L3 (64 MB) multi-column ({8,4,3,2}) tiling schedule (25.0 -> 44.36 tok/s o",
+          "sentence_hash": "55a66f703de2c0038fdb61319e9d6f7b4b2e2c68016b69c45dcace21b93941ca",
+          "anchors": [
+            "77%",
+            "cache",
+            "pre",
+            "53%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Self-Speculative Drafting & Instant Agent Context Restore: Pairs a 1.64 MB L2/L3 Zobrist n-gram drafter (Stockfish-PVS v2) with /dev/shm KV slot snapshots (13.1–32.6 ms restore time for 40-tool Claude Code prompts) and an $O(1)$ speculative rollback fix for deepseek4 recurrent/",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.776073+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "- Self-Speculative Drafting & Instant Agent Context Restore: Pairs a 1.64 MB L2/L3 Zobrist n-gram drafter (Stockfish-PVS v2) with /dev/shm KV slot snapshots (13.1–32.6 ms restore time for 40-tool Claude Code prompts) and an $O(1)$ speculative rollback fix for deepseek4 recurrent/",
+          "sentence_hash": "2a9f38a533e65569bdecdcfa9b97622af41ad60652e3c83b3106955bc01110df",
+          "anchors": [
+            "deep",
+            "ud",
+            "seek",
+            "ram"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Quantization & Memory Breakdown To answer the most common technical question upfront—exact bit-widths (bpw), base checkpoints, and what is compressed in each GGUF: Note on MoE Expert Routing (Top-K): By default (v2.4.0 Lossless), DeepSeek-V4-Flash evaluates all 6 routed experts +",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.776135+08:00",
+          "content_sha256": "7c36933f7d52fd1b2e35fa7b9f53e08de4fe2e87362694a2af3cd5babf4c379c",
+          "excerpt": "Quantization & Memory Breakdown To answer the most common technical question upfront—exact bit-widths (bpw), base checkpoints, and what is compressed in each GGUF: Note on MoE Expert Routing (Top-K): By default (v2.4.0 Lossless), DeepSeek-V4-Flash evaluates all 6 routed experts +",
+          "sentence_hash": "bc360258cf1b06d7f7090dc5dd09e14efd83f7b8129d914303fcb9fc171828ce",
+          "anchors": [
+            "experts",
+            "git",
+            "pre",
+            "id",
+            "unpatched"
+          ]
+        }
+      ],
+      "entities": [
+        "quantization",
+        "expert routing",
+        "avx",
+        "kv",
+        "seek",
+        "attention",
+        "zobrist",
+        "ollama",
+        "flash",
+        "compiled linux",
+        "lm",
+        "claude code",
+        "ram",
+        "self",
+        "use",
+        "zen",
+        "studio",
+        "compatibility note",
+        "git",
+        "fractal",
+        "physical",
+        "pre",
+        "pvs",
+        "linux",
+        "hub release",
+        "chat",
+        "neon",
+        "automated setup",
+        "mb",
+        "cpu",
+        "experts",
+        "replaces",
+        "setting",
+        "hugging face",
+        "deep",
+        "unpatched",
+        "mixture",
+        "zmm",
+        "note",
+        "cache",
+        "speculative drafting",
+        "apple metal",
+        "lossless",
+        "fitting",
+        "mla",
+        "gb",
+        "stockfish",
+        "sve",
+        "instant agent context restore",
+        "oom",
+        "simd",
+        "kernel patches",
+        "top",
+        "pairs",
+        "memory breakdown\nto",
+        "binary",
+        "direct run",
+        "id",
+        "gguf",
+        "kb",
+        "ud",
+        "standard"
+      ],
+      "numbers": [
+        "77%",
+        "53%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 64
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_6e28f62a40a2083d17b2ae47",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\nComments URL: https://news.ycombinator.com/item?id=50415628\nPoints: 534\n# Comments: 326",
+      "category": "科技",
+      "published_at": "2026-11-08T18:16:07+00:00",
+      "why_relevant": "高盛禁用Claude，金融AI合规",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777283+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.",
+          "sentence_hash": "20d729117842487e2a41c6f0b791e00f227bdf6e5293225f88d778ac800cc444",
+          "anchors": [
+            "ant"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777326+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm.",
+          "sentence_hash": "7eb362c888e540aa75b23dda3107b4edd9fd05307413c02a8dc878b46c47ef20",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Argenti was praising trader-built tools in July As recently as July, chief information officer Marco Argenti was talking up \"vibe coding\" by Goldman's non-technical employees.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777355+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "Argenti was praising trader-built tools in July As recently as July, chief information officer Marco Argenti was talking up \"vibe coding\" by Goldman's non-technical employees.",
+          "sentence_hash": "c1980ca00beadd7cc410905ddc303245479670a6be2305c1f591e86b5f1a820e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "That arrangement let the people closest to a problem build a first version without waiting for engineering time.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777386+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "That arrangement let the people closest to a problem build a first version without waiting for engineering time.",
+          "sentence_hash": "4db2936ff91d76301cd4a66ab9e3bd4c8e0d4727ea1da7deb0ddd370f6095fa9",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It also meant thousands of employees without engineering training were running software that writes and executes code, on the same machines they use to handle client information.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777419+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "It also meant thousands of employees without engineering training were running software that writes and executes code, on the same machines they use to handle client information.",
+          "sentence_hash": "7bc02a350c8aeb304d48a2fbc326cea4bdf437028c85f1a12840525a2fa327ef",
+          "anchors": [
+            "ai",
+            "ant",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "At a conference in Turin last month, Argenti described Goldman's AI adoption in waves and said developers, more than 12,000 of the bank's roughly 47,000 staff, had made up the first.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.777449+08:00",
+          "content_sha256": "05ea07dbeaf0027dff834d6569883efbdb38eb0feddd45f7f6061ef06871a0c7",
+          "excerpt": "At a conference in Turin last month, Argenti described Goldman's AI adoption in waves and said developers, more than 12,000 of the bank's roughly 47,000 staff, had made up the first.",
+          "sentence_hash": "8d7b176ef62c887d151d69ac2d2720bcded3e227bca5e24c47eb43e461b5f6c4",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "hong kong",
+        "july\nas",
+        "argenti",
+        "nick carcaterra",
+        "claude",
+        "marco argenti",
+        "hub",
+        "april\nin april",
+        "bloomberg",
+        "the october",
+        "they",
+        "git",
+        "chat",
+        "anthropic",
+        "internal",
+        "october",
+        "anthropic\nearlier",
+        "ai",
+        "gemini",
+        "goldman",
+        "the financial times",
+        "goldman sachs",
+        "microsoft",
+        "the hong kong",
+        "most",
+        "morgan",
+        "turin",
+        "ipo",
+        "bloomberg news",
+        "ant",
+        "strats",
+        "july",
+        "claude code",
+        "april",
+        "june"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_902bb3e0fa6ff1156cee3469",
+      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+      "publisher": "CNBC",
+      "summary": "Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz.",
+      "category": "财经",
+      "published_at": "2026-11-08T21:53:02+00:00",
+      "why_relevant": "伊朗核谈判与油价地缘风险",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "\"It depends on whether or not they sign a very strong agreement,\" Trump said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.778519+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "\"It depends on whether or not they sign a very strong agreement,\" Trump said.",
+          "sentence_hash": "9c47f75e1161d4bebf2844226ef556143ce9ef24ff1ccf9e7bf5124ef1e9a148",
+          "anchors": [
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"We have 38 bridges in our site that we can knock down in literally one hour.\" An end to the war and reopening of the Strait of Hormuz would likely ease oil prices, though finding a truce has proven difficult.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.778576+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "\"We have 38 bridges in our site that we can knock down in literally one hour.\" An end to the war and reopening of the Strait of Hormuz would likely ease oil prices, though finding a truce has proven difficult.",
+          "sentence_hash": "b86e4839b67b9047091e29bcde1f10909b9adcaa063e9eea9c7d3a723ba4d9df",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "All previous attempts to end the war and reopen the strait have been met with disappointment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.778597+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "All previous attempts to end the war and reopen the strait have been met with disappointment.",
+          "sentence_hash": "bae2e9ee3a2e0a0f03d10616940ca1902436117776d58654f965e6ae32bcea9f",
+          "anchors": [
+            "strait"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Some Republicans are also likely to be eager for an end to the war, given the role high gas prices played in their drubbing at the ballot box.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.778630+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "Some Republicans are also likely to be eager for an end to the war, given the role high gas prices played in their drubbing at the ballot box.",
+          "sentence_hash": "e8cd118232609c60a0f0230b95a42519cea996d9d69df4f5e83115f61557e27d",
+          "anchors": [
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "has maintained a naval blockade of Iranian ports for months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.778667+08:00",
+          "content_sha256": "b5f69b45d9798055bc76dbbe2dfba77def8b3cd03045359e7a93f7e1db0603c9",
+          "excerpt": "has maintained a naval blockade of Iranian ports for months.",
+          "sentence_hash": "b6ef2c6ad67d64348fb8477d520f4f4e19d924057d691a859c5d8dd3e6de3260",
+          "anchors": [
+            "naval blockade"
+          ]
+        }
+      ],
+      "entities": [
+        "cnn",
+        "naval blockade",
+        "coupled",
+        "saturday",
+        "republican party",
+        "islamic republic",
+        "washington",
+        "house",
+        "central command",
+        "caspian sea",
+        "all",
+        "tehran",
+        "task force iron gate",
+        "democrats",
+        "president donald trump",
+        "iranian",
+        "trump",
+        "they",
+        "truth social",
+        "iran",
+        "senate",
+        "later",
+        "hormuz",
+        "strait",
+        "some republicans"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 25
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_0544195551ced94dbf7278a1",
+      "title": "Attempts to find resolution for Israel’s new government and Ukraine’s war",
+      "url": "https://www.ft.com/content/4e97fc54-3886-4300-a824-0a592beca5f6?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Trilateral peace talks in Abu Dhabi, new Knesset in Jerusalem, COP31 opens in Turkey",
+      "category": "财经",
+      "published_at": "2026-11-08T18:15:02+00:00",
+      "why_relevant": "以色列政府与乌克兰和平谈判",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "turkey",
+        "jerusalem",
+        "knesset",
+        "trilateral",
+        "abu dhabi"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 5
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_47016a4e5b12d167c8ce7e5e",
+      "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Key inflation data and AI earnings could set the tone for markets this week.",
+      "category": "财经",
+      "published_at": "2026-11-08T23:44:41+00:00",
+      "why_relevant": "通胀数据与AI财报，本周主线",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.780333+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.",
+          "sentence_hash": "0c793d63439ec307f77e1e27c6e231ba4afd6859e167304c0485ca80cb8d8106",
+          "anchors": [
+            "futures",
+            "over",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "S&P 500 futures gained 0.1%, while the Nasdaq 100's added 0.3%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.780360+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "S&P 500 futures gained 0.1%, while the Nasdaq 100's added 0.3%.",
+          "sentence_hash": "27d192cad09352ae9da262abc8b31e367b613791e094f0ac35e112aa815efc8d",
+          "anchors": [
+            "0.1%",
+            "futures",
+            "ai",
+            "0.3%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Futures tied to the Dow Jones Industrial Average added 101 points, or 0.2%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.780383+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Futures tied to the Dow Jones Industrial Average added 101 points, or 0.2%.",
+          "sentence_hash": "2037fa20521bbda487848942dfb80bcd7d6b9ece934b250e082190df3706b6e0",
+          "anchors": [
+            "2%",
+            "0.2%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Over in Asia, markets look stronger to start the week, with futures for Japan's Nikkei 225 in Chicago at 58,520.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.780411+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Over in Asia, markets look stronger to start the week, with futures for Japan's Nikkei 225 in Chicago at 58,520.",
+          "sentence_hash": "c189b14faf794b4afcd0e12f7cc7e5fa9ac7c18173aa2804ea5fc6e60f56ac5f",
+          "anchors": [
+            "futures"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Australia's S&P/ASX 200 was up 0.2% in early trading.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.780445+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Australia's S&P/ASX 200 was up 0.2% in early trading.",
+          "sentence_hash": "a581292753c979d5c43288ee725dfa286d9e9e37f54996ffe3aebe65581b058d",
+          "anchors": [
+            "2%",
+            "0.2%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Later Monday, investors will also look to inflation data out of China, with economists polled by Reuters expecting a reading of 0.8%, down slightly from September's 0.9%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.780476+08:00",
+          "content_sha256": "90d147502d9ba71c98f88119a6bafb063f0ec27926e5a31912d8d1e3482e2a78",
+          "excerpt": "Later Monday, investors will also look to inflation data out of China, with economists polled by Reuters expecting a reading of 0.8%, down slightly from September's 0.9%.",
+          "sentence_hash": "4bbc57d1fdf92aecf723934c2f31b27633667d28ecf8739372ff2a94a5cbebb8",
+          "anchors": [
+            "0.9%",
+            "dow",
+            "0.8%"
+          ]
+        }
+      ],
+      "entities": [
+        "covid",
+        "nasdaq",
+        "sunday",
+        "hong kong",
+        "chicago",
+        "sonders",
+        "vanda research",
+        "japan",
+        "australia",
+        "china",
+        "additionally",
+        "cnbc",
+        "fast money",
+        "thursday",
+        "liz ann sonders",
+        "later monday",
+        "schwab center",
+        "futures",
+        "hang seng",
+        "friday",
+        "over",
+        "core",
+        "asx",
+        "you",
+        "dow jones industrial average",
+        "jensen huang",
+        "nikkei",
+        "reuters",
+        "dow",
+        "ai",
+        "asia",
+        "ceo",
+        "stock",
+        "in osaka",
+        "financial research",
+        "september",
+        "democrats",
+        "nvidia",
+        "hyperliquid",
+        "nasdaq composite",
+        "weave",
+        "cisco",
+        "applied materials",
+        "chinese",
+        "retail",
+        "broader"
+      ],
+      "numbers": [
+        "0.1%",
+        "2%",
+        "0.3%",
+        "0.9%",
+        "1.09%",
+        "0.46%",
+        "0.31%",
+        "0.2%",
+        "0.8%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 55
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_dd498e3a70c730469e28d03d",
+      "title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say",
+      "publisher": "SCMP",
+      "summary": "An Emirati-owned gas complex in Iraq’s autonomous Kurdistan region was attacked on Sunday, disrupting the gas supply to the region’s power plants, local Kurdish authorities said.\n“At 11pm, the Khor Mor gas field came under a terrorist attack,” the regional natural resources and electricity authorities said in a statement, without elaborating.\nA Kurdish security source told Agence France-Presse that an “explosive-laden drone” hit the field.\nThe Khor Mor complex, which supplies most of Kurdistan’s",
+      "category": "国际",
+      "published_at": "2026-11-08T22:09:47+00:00",
+      "why_relevant": "伊拉克油气设施遇袭，能源安全",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "agence france",
+        "sunday",
+        "kurdish",
+        "kurdistan",
+        "advertisement\nattack",
+        "presse",
+        "min",
+        "the emirati",
+        "khor mor",
+        "there",
+        "iraq",
+        "listen\nan emirati"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 12
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_d2e0784d238a6efa352baa57",
+      "title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?oc=5",
+      "publisher": "Reuters",
+      "summary": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-11-08T19:26:09+00:00",
+      "why_relevant": "伊拉克石油出口，霍尔木兹",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "iraq",
+        "us",
+        "reuters",
+        "hormuz"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_ef7aa964acd889c17e3a85e7",
+      "title": "Cryptocurrencies slide to two-month lows after US midterms",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ19jb0ZtdjRvY1E4V0ltOHBXdkI0UXpfY3lNeFVhM0pxRUlUUmVhWVdRSW1Ec25SMnVvSXVxQ0hQcjJfamxSWWpRSVNoYnh4QUxaSHlHRExaWVBiNklkRUpvM1dMZENjS1RNRzJJUFNydjN2RVFpQkxfcGpSaGNUREEyX29scVBNTkoycjdRckk1ZFBIaTgybHh1NjU4eUxVUEE?oc=5",
+      "publisher": "Reuters",
+      "summary": "Cryptocurrencies slide to two-month lows after US midterms&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-11-08T22:27:00+00:00",
+      "why_relevant": "加密跌至两月低点，中期影响",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "us",
+        "reuters",
+        "cryptocurrencies"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_cc9154a67407fca2f3c3cdef",
+      "title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFNfMGFpaEpaOGRfS0RYa3FEOFh5OWFNaWxxbUlkcEFjNF84YWhEdHRKV283Q3loNmdQVnhUQTl6SXRzSjlIQ3pyVWhwV2JhejFpaEUyc2gtVjN1QU12NGdFNVVfU3BJektraHNJc0ZOTURqTVJyTFFpZzBKSDlwUlVWY2UwSmJ1eEFtNXJOQkpzVUl6eTdyVTFB?oc=5",
+      "publisher": "AP",
+      "summary": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates&nbsp;&nbsp;AP News",
+      "category": "国际",
+      "published_at": "2026-11-08T18:57:00+00:00",
+      "why_relevant": "沙特求助叙利亚，中东混战",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "syria",
+        "saudi arabia",
+        "houthis",
+        "ap"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_553270dd6c620a183e43a473",
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "publisher": "The Verge",
+      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-08T19:18:19+00:00",
+      "why_relevant": "Siri agentic加速，苹果AI动态",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bloomberg’s Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI’s Dots or Meta’s Muse.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.782134+08:00",
+          "content_sha256": "100038e2f85370df3d9c55635871663e1df38d756c99c665dd1385dac716c3ad",
+          "excerpt": "Bloomberg’s Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI’s Dots or Meta’s Muse.",
+          "sentence_hash": "114e0a3094d77afa56ac20a9af48b4cc0bcb6d3a966ebe824ce4539b754ffd7e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "One will give the assistant fine-grained control over Apple’s first-party apps, allowing it to do things like rotate and crop images in Photos and organize Safari tabs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.782190+08:00",
+          "content_sha256": "100038e2f85370df3d9c55635871663e1df38d756c99c665dd1385dac716c3ad",
+          "excerpt": "One will give the assistant fine-grained control over Apple’s first-party apps, allowing it to do things like rotate and crop images in Photos and organize Safari tabs.",
+          "sentence_hash": "0a0bb64c1cf1d535c9e24f7083b4cdabe33222fe3416f12ebaf86314f0973fbd",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Apple is expected to push Siri to become more agentic and enable features that will allow it to perform ongoing tasks, not just one-offs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-09T08:04:00.782232+08:00",
+          "content_sha256": "100038e2f85370df3d9c55635871663e1df38d756c99c665dd1385dac716c3ad",
+          "excerpt": "Apple is expected to push Siri to become more agentic and enable features that will allow it to perform ongoing tasks, not just one-offs.",
+          "sentence_hash": "7c6a8fd3b6a3eda9bc793133f00bf28ffb5ca7a3e99ef031625c8d85a57ab83f",
+          "anchors": [
+            "one"
+          ]
+        }
+      ],
+      "entities": [
+        "open",
+        "ai",
+        "apple",
+        "but",
+        "two",
+        "table",
+        "ceo",
+        "grok",
+        "future",
+        "meta",
+        "photos",
+        "muse",
+        "gurman",
+        "craig federighi",
+        "bloomberg",
+        "mark gurman",
+        "dots",
+        "while federighi",
+        "john ternus",
+        "one",
+        "siri",
+        "grubhub",
+        "those",
+        "safari",
+        "spring"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 25
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2dd07aeef93e91d7838193f2",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors\nComments URL: https://news.ycombinator.com/item?id=50416801\nPoints: 329\n# Comments: 259",
+      "category": "科技",
+      "published_at": "2026-11-08T20:26:43+00:00",
+      "why_relevant": "英伟达董事会调查，公司治理",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "board",
+        "jensen",
+        "ceo",
+        "while",
+        "jensen huang",
+        "nvidia",
+        "the board"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 7
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_28d77ec63d0be1e80275e194",
+      "title": "Binance hack clouds Singapore crypto push for tokenized stocks",
+      "url": "https://asia.nikkei.com/business/markets/trading-asia/binance-hack-clouds-singapore-crypto-push-for-tokenized-stocks",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "币安黑客影响代币化股票",
+      "relevance_score": 7.0,
+      "confirmed_facts": [],
+      "entities": [
+        "reuters\ndigital",
+        "srinivas jagannath",
+        "champagne",
+        "marina bay sands",
+        "singapore",
+        "billed",
+        "october",
+        "met"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 8
+      },
+      "evidence_complete": false
+    }
+  ]
+}

@@ -21314,7 +21314,492 @@
       "sources": [
         "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
       ]
+    },
+    {
+      "id": "evt_20261109_fbce18582322",
+      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_8b3f77448029bef0db06fcfa",
+          "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+          "raw_title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+          "why_relevant": "沙特阿美大楼被袭，油价风险",
+          "facts": [
+            "It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.",
+            "Saba said 39 people had been injured in the strike.",
+            "The United Nations says more than 1,600 people have been killed and more than 300,000 displaced since fighting resumed."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "latest_raw_title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "status": "更新中",
+      "key_facts": [
+        "It came a day after the Houthis accused a Saudi-led coalition of killing at least 33 people, including women and children, in an air strike on Yemen.",
+        "Saba said 39 people had been injured in the strike.",
+        "The United Nations says more than 1,600 people have been killed and more than 300,000 displaced since fighting resumed."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261109_1fa9d0375073",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_b81cf74143a3895153c917f7",
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "raw_title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "why_relevant": "本地跑284B模型，硬核技术突破",
+          "facts": [
+            "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS",
+            "llama-modchip reduces the checkpoint to 56.56 GiB (60.73 GB) so the entire model plus a 256K KV cache (57.61–58.9 GiB VmRSS) locks into RAM with zero swap.",
+            "By default, all 6 routed experts per layer (Top-6) are evaluated without pruning."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/synchopate/llama-modchip"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "latest_raw_title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "status": "更新中",
+      "key_facts": [
+        "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools designed to run sparse Mixture-of-Experts (MoE) checkpoints entirely in system RAM on x86_64 (AVX-512 / AVX2) and ARM64 (NEON / SVE / Apple Metal) processors: - Fitting 284B DeepS",
+        "llama-modchip reduces the checkpoint to 56.56 GiB (60.73 GB) so the entire model plus a 256K KV cache (57.61–58.9 GiB VmRSS) locks into RAM with zero swap.",
+        "By default, all 6 routed experts per layer (Top-6) are evaluated without pruning."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/synchopate/llama-modchip"
+      ]
+    },
+    {
+      "id": "evt_20261109_4bdb73619742",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_6e28f62a40a2083d17b2ae47",
+          "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+          "raw_title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+          "why_relevant": "高盛禁用Claude，金融AI合规",
+          "facts": [
+            "Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.",
+            "Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm.",
+            "Argenti was praising trader-built tools in July As recently as July, chief information officer Marco Argenti was talking up \"vibe coding\" by Goldman's non-technical employees."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "latest_raw_title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "status": "更新中",
+      "key_facts": [
+        "Strats, who work across trading, quantitative research and software engineering, still have access, according to a second person familiar with the matter.",
+        "Goldman spokesperson Nick Carcaterra said the bank makes certain AI tools available to staff \"to determine the best use cases\" across the firm.",
+        "Argenti was praising trader-built tools in July As recently as July, chief information officer Marco Argenti was talking up \"vibe coding\" by Goldman's non-technical employees."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+      ]
+    },
+    {
+      "id": "evt_20261109_87e8dca21e03",
+      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_902bb3e0fa6ff1156cee3469",
+          "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+          "raw_title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+          "why_relevant": "伊朗核谈判与油价地缘风险",
+          "facts": [
+            "\"It depends on whether or not they sign a very strong agreement,\" Trump said.",
+            "\"We have 38 bridges in our site that we can knock down in literally one hour.\" An end to the war and reopening of the Strait of Hormuz would likely ease oil prices, though finding a truce has proven difficult.",
+            "All previous attempts to end the war and reopen the strait have been met with disappointment."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "latest_raw_title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+      "status": "更新中",
+      "key_facts": [
+        "\"It depends on whether or not they sign a very strong agreement,\" Trump said.",
+        "\"We have 38 bridges in our site that we can knock down in literally one hour.\" An end to the war and reopening of the Strait of Hormuz would likely ease oil prices, though finding a truce has proven difficult.",
+        "All previous attempts to end the war and reopen the strait have been met with disappointment."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
+      ]
+    },
+    {
+      "id": "evt_20261109_6f3a84540d15",
+      "title": "Attempts to find resolution for Israel’s new government and Ukraine’s war",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_0544195551ced94dbf7278a1",
+          "title": "Attempts to find resolution for Israel’s new government and Ukraine’s war",
+          "raw_title": "Attempts to find resolution for Israel’s new government and Ukraine’s war",
+          "why_relevant": "以色列政府与乌克兰和平谈判",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/4e97fc54-3886-4300-a824-0a592beca5f6?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Attempts to find resolution for Israel’s new government and Ukraine’s war",
+      "latest_raw_title": "Attempts to find resolution for Israel’s new government and Ukraine’s war",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/4e97fc54-3886-4300-a824-0a592beca5f6?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261109_67165187744a",
+      "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_47016a4e5b12d167c8ce7e5e",
+          "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+          "raw_title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+          "why_relevant": "通胀数据与AI财报，本周主线",
+          "facts": [
+            "Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.",
+            "S&P 500 futures gained 0.1%, while the Nasdaq 100's added 0.3%.",
+            "Futures tied to the Dow Jones Industrial Average added 101 points, or 0.2%."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+      "latest_raw_title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
+      "status": "更新中",
+      "key_facts": [
+        "Stock futures were slightly higher Sunday evening with traders eyeing whether technology shares can continue to recover, while they are awaiting the release of key inflation data and earnings from major AI companies this week.",
+        "S&P 500 futures gained 0.1%, while the Nasdaq 100's added 0.3%.",
+        "Futures tied to the Dow Jones Industrial Average added 101 points, or 0.2%."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+      ]
+    },
+    {
+      "id": "evt_20261109_f0222f93f91a",
+      "title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_dd498e3a70c730469e28d03d",
+          "title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+          "raw_title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+          "why_relevant": "伊拉克油气设施遇袭，能源安全",
+          "facts": [],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+      "latest_raw_title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say"
+      ]
+    },
+    {
+      "id": "evt_20261109_3ae32d7c3b50",
+      "title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_d2e0784d238a6efa352baa57",
+          "title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+          "raw_title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+          "why_relevant": "伊拉克石油出口，霍尔木兹",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+      "latest_raw_title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261109_a5a4f7cd8912",
+      "title": "Cryptocurrencies slide to two-month lows after US midterms",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_ef7aa964acd889c17e3a85e7",
+          "title": "Cryptocurrencies slide to two-month lows after US midterms",
+          "raw_title": "Cryptocurrencies slide to two-month lows after US midterms",
+          "why_relevant": "加密跌至两月低点，中期影响",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ19jb0ZtdjRvY1E4V0ltOHBXdkI0UXpfY3lNeFVhM0pxRUlUUmVhWVdRSW1Ec25SMnVvSXVxQ0hQcjJfamxSWWpRSVNoYnh4QUxaSHlHRExaWVBiNklkRUpvM1dMZENjS1RNRzJJUFNydjN2RVFpQkxfcGpSaGNUREEyX29scVBNTkoycjdRckk1ZFBIaTgybHh1NjU4eUxVUEE?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Cryptocurrencies slide to two-month lows after US midterms",
+      "latest_raw_title": "Cryptocurrencies slide to two-month lows after US midterms",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ19jb0ZtdjRvY1E4V0ltOHBXdkI0UXpfY3lNeFVhM0pxRUlUUmVhWVdRSW1Ec25SMnVvSXVxQ0hQcjJfamxSWWpRSVNoYnh4QUxaSHlHRExaWVBiNklkRUpvM1dMZENjS1RNRzJJUFNydjN2RVFpQkxfcGpSaGNUREEyX29scVBNTkoycjdRckk1ZFBIaTgybHh1NjU4eUxVUEE?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261109_b8ed7ecdfb68",
+      "title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_cc9154a67407fca2f3c3cdef",
+          "title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+          "raw_title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+          "why_relevant": "沙特求助叙利亚，中东混战",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFNfMGFpaEpaOGRfS0RYa3FEOFh5OWFNaWxxbUlkcEFjNF84YWhEdHRKV283Q3loNmdQVnhUQTl6SXRzSjlIQ3pyVWhwV2JhejFpaEUyc2gtVjN1QU12NGdFNVVfU3BJektraHNJc0ZOTURqTVJyTFFpZzBKSDlwUlVWY2UwSmJ1eEFtNXJOQkpzVUl6eTdyVTFB?oc=5"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+      "latest_raw_title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFNfMGFpaEpaOGRfS0RYa3FEOFh5OWFNaWxxbUlkcEFjNF84YWhEdHRKV283Q3loNmdQVnhUQTl6SXRzSjlIQ3pyVWhwV2JhejFpaEUyc2gtVjN1QU12NGdFNVVfU3BJektraHNJc0ZOTURqTVJyTFFpZzBKSDlwUlVWY2UwSmJ1eEFtNXJOQkpzVUl6eTdyVTFB?oc=5"
+      ]
+    },
+    {
+      "id": "evt_20261109_e0f7adbaf7c0",
+      "title": "Apple is racing to make Siri more agentic",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_553270dd6c620a183e43a473",
+          "title": "Apple is racing to make Siri more agentic",
+          "raw_title": "Apple is racing to make Siri more agentic",
+          "why_relevant": "Siri agentic加速，苹果AI动态",
+          "facts": [
+            "Bloomberg’s Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI’s Dots or Meta’s Muse.",
+            "One will give the assistant fine-grained control over Apple’s first-party apps, allowing it to do things like rotate and crop images in Photos and organize Safari tabs.",
+            "Apple is expected to push Siri to become more agentic and enable features that will allow it to perform ongoing tasks, not just one-offs."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Apple is racing to make Siri more agentic",
+      "latest_raw_title": "Apple is racing to make Siri more agentic",
+      "status": "更新中",
+      "key_facts": [
+        "Bloomberg’s Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI’s Dots or Meta’s Muse.",
+        "One will give the assistant fine-grained control over Apple’s first-party apps, allowing it to do things like rotate and crop images in Photos and organize Safari tabs.",
+        "Apple is expected to push Siri to become more agentic and enable features that will allow it to perform ongoing tasks, not just one-offs."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+      ]
+    },
+    {
+      "id": "evt_20261109_9a9529a3534f",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_2dd07aeef93e91d7838193f2",
+          "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+          "raw_title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+          "why_relevant": "英伟达董事会调查，公司治理",
+          "facts": [],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "latest_raw_title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+      ]
+    },
+    {
+      "id": "evt_20261109_0924fbbc9cb4",
+      "title": "Binance hack clouds Singapore crypto push for tokenized stocks",
+      "first_seen": "2026-11-09",
+      "updates": [
+        {
+          "date": "2026-11-09",
+          "article_id": "a1_28d77ec63d0be1e80275e194",
+          "title": "Binance hack clouds Singapore crypto push for tokenized stocks",
+          "raw_title": "Binance hack clouds Singapore crypto push for tokenized stocks",
+          "why_relevant": "币安黑客影响代币化股票",
+          "facts": [],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://asia.nikkei.com/business/markets/trading-asia/binance-hack-clouds-singapore-crypto-push-for-tokenized-stocks"
+          ],
+          "evidence_path": "digests/meta/2026-11-09-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-09",
+      "latest_title": "Binance hack clouds Singapore crypto push for tokenized stocks",
+      "latest_raw_title": "Binance hack clouds Singapore crypto push for tokenized stocks",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://asia.nikkei.com/business/markets/trading-asia/binance-hack-clouds-singapore-crypto-push-for-tokenized-stocks"
+      ]
     }
   ],
-  "updated_at": "2026-11-08T08:03:48.335478+08:00"
+  "updated_at": "2026-11-09T08:04:00.783002+08:00"
 }
