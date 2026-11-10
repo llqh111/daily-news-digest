@@ -1,6 +1,55 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-09 08:09。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-10 08:07。
+
+## COP31 opens amid energy crisis as activists demand climate action
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 最新事实：Published On 9 Nov 2026
+- 事件 ID：`evt_20261110_6071f4dc71cd`
+
+## Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 最新事实：Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy - Published Donald Trump has said the FBI is investigating the affair between the boss of Nvidia and an alleged Chinese spy.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261110_2a1fa8ce90a3`
+
+## OpenAI Squeezed At The Frontier-End By Anthropic’s Claude Fable 5.2, While Meta’s Muse Ember Gives Its Bargain-Class GPT-6 Luna A Bruise
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 最新事实：Today is not a good day for OpenAI, especially as it is getting hammered from two sides, with Anthropic's Claude Fable 5.2 leaving GPT-6 Astra in the proverbial dust, and Meta's Muse Ember squeezing GPT-6 Luna hard in the bargain category of AI models.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261110_47e4acb98fc2`
+
+## anthropics/skills
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 最新事实：Note: This repository contains Anthropic's implementation of skills for Claude.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261110_fbb05d1f56ab`
+
+## Anthropic launches new Claude Fable and Mythos 5.2 models
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261110_e8dbe18ee9a1`
+
+## NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261110_afe1f2227e5b`
+
+## High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 最新事实：A global fossil fuel price crisis is “spreading inflation like a cancer” around the planet, the UN’s climate chief, Simon Stiell, told the opening plenary of critical UN climate talks in Turkey.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261110_122445a05aa7`
+
+## Hide your slop PR descriptions behind <details><summary>
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 最新事实：Hide your slop PR descriptions behind <details><summary> 9th November 2026 Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex.
+- 事件 ID：`evt_20261110_268805fdeba1`
+
+## Wall St jumps as oil slide cools inflation worries; Nvidia slumps
+- 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261110_dd3db03dec7b`
 
 ## Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes
 - 状态：更新中；首见 2026-11-09；最近更新 2026-11-09
@@ -1816,67 +1865,4 @@
 - 最新事实：Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom The investment underscores the growing importance of advanced packaging materials in the semiconductor supply chain The Tokyo-based company said on Friday that it would add production lines for m
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261011_001e1005e90b`
-
-## morluto/rea
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی See a feature you like.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_1ecb8dd5dbd8`
-
-## Zelenskiy says letting Russia sell diesel to US is 'investment in war'
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Zelenskiy says letting Russia sell diesel to US is 'investment in war'&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261010_4d0d34cd968b`
-
-## US unveils sanctions on ICC in move court condemns as 'assault on rule of law'
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：US unveils sanctions on ICC in move court condemns as 'assault on rule of law' - Published The Trump administration has unveiled sweeping sanctions on the International Criminal Court (ICC) in a significant acceleration of its attempt to "dismantle" what it sees as a "rogue" inst
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_88f7b1106c58`
-
-## Eritrean troops in Ethiopia raise fears of a regional war
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Eritrean troops in Ethiopia raise fears of a regional war October 9, 2026 Various sources have confirmed the presence of Eritrean armed forces in Ethiopia.
-- 事件 ID：`evt_20261010_d7facddddbd5`
-
-## Claude Haiku 5.5
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Claude Haiku 5.5 7th October 2026 As previously promised, here’s Anthropic’s new fast, low cost model: Introducing Claude Haiku 5.5.
-- 事件 ID：`evt_20261010_d5ff752165f6`
-
-## EpicGames/raddebugger
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：NOTE: This README does not document usage instructions and tips for the debugger itself, and is intended as a technical overview of the project.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_b25ab2a70a9a`
-
-## Powerful magnitude 7.7 earthquake hits Panama, damaging buildings
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Powerful magnitude 7.7 earthquake hits Panama, damaging buildings - Published A massive magnitude 7.7 earthquake has hit Panama, damaging buildings and causing widespread shaking.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_5bde2c5c88f3`
-
-## UN envoy warns Yemen has returned to ‘full-scale war’, urges dialogue
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：UN envoy warns Yemen has returned to ‘full-scale war’, urges dialogue Saudi Arabia and Yemen’s internationally recognised gov’t urge UN Security Council action amid escalating conflict with the Houthis.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_36bd07e52384`
-
-## The hazy OpenAI growth metric driving Wall Street
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Revelations that the AI giant’s annualised revenues were $20bn less than previously reported triggered volatility in US stocks
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261010_3ce0ec1651b2`
-
-## Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261010_a2d7c4406934`
-
-## Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-10
-- 最新事实：Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms Bitcoin recovered to around $82,500 after Trump ruled out an Iran strike, but remains about 4% lower on the week, while ether has lost 9%.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_b8402d192b0a`
 

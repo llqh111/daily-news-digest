@@ -1,0 +1,746 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T00:07:35.195901+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-10-AM.json",
+      "count": "9"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-10.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-09.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_36f1bcdfcf75af3caaf89046",
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+      "category": "国际",
+      "published_at": "2026-11-09T23:59:50+00:00",
+      "why_relevant": "Nvidia黄仁勋地缘风险",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy - Published Donald Trump has said the FBI is investigating the affair between the boss of Nvidia and an alleged Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.019151+08:00",
+          "content_sha256": "dcdd0d475816f6e5336ddfa3f8ca66aae9408b99af7c277d4c6cb7c2076957d6",
+          "excerpt": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy - Published Donald Trump has said the FBI is investigating the affair between the boss of Nvidia and an alleged Chinese spy.",
+          "sentence_hash": "b3c4cbd271d876e6738ef180a5d17794f2cab1815a1cd049174562e6044f6c19",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The US President said he spoke with chief executive Jensen Huang on Monday following reports that the US believed he had been targeted in a Chinese espionage campaign.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.019175+08:00",
+          "content_sha256": "dcdd0d475816f6e5336ddfa3f8ca66aae9408b99af7c277d4c6cb7c2076957d6",
+          "excerpt": "The US President said he spoke with chief executive Jensen Huang on Monday following reports that the US believed he had been targeted in a Chinese espionage campaign.",
+          "sentence_hash": "9c2fb4147d55acfe463c0667f3d2d92467feaed6b5056c8a6e8e9e2b490db0c0",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"I asked him that question, 'Did you have any idea she was a spy?' He said 'I had no idea she was a spy' and I really believe him,\" Trump told reporters.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.019195+08:00",
+          "content_sha256": "dcdd0d475816f6e5336ddfa3f8ca66aae9408b99af7c277d4c6cb7c2076957d6",
+          "excerpt": "\"I asked him that question, 'Did you have any idea she was a spy?' He said 'I had no idea she was a spy' and I really believe him,\" Trump told reporters.",
+          "sentence_hash": "750a2183705b231683121177bbd6d584418ffc850f4f8697acccb03e6d630810",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "China has rejected claims that Huang was targeted, with its foreign ministry saying the allegations were \"entirely groundless, speculative and intended to smear and malign China\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.019214+08:00",
+          "content_sha256": "dcdd0d475816f6e5336ddfa3f8ca66aae9408b99af7c277d4c6cb7c2076957d6",
+          "excerpt": "China has rejected claims that Huang was targeted, with its foreign ministry saying the allegations were \"entirely groundless, speculative and intended to smear and malign China\".",
+          "sentence_hash": "2c7a922924b8618956b788111f4fef49a095f70372ff0a1ab5c23e3efcf09c91",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Nvidia, who has commissioned an independent investigation into the affair involving Alice Huang, alleged to be a Chinese spy, said it had no reason to believe the company's secrets or national security were compromised.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.019235+08:00",
+          "content_sha256": "dcdd0d475816f6e5336ddfa3f8ca66aae9408b99af7c277d4c6cb7c2076957d6",
+          "excerpt": "Nvidia, who has commissioned an independent investigation into the affair involving Alice Huang, alleged to be a Chinese spy, said it had no reason to believe the company's secrets or national security were compromised.",
+          "sentence_hash": "10acab469f41c10bd75e1354ddb51cd3ec1fd8ad1e63a1ee2095672ce763c876",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The revelations knocked about $250bn (Â£190bn) off the value of Nvidia during trading on Monday as the firm's share price fell by about 4%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.019254+08:00",
+          "content_sha256": "dcdd0d475816f6e5336ddfa3f8ca66aae9408b99af7c277d4c6cb7c2076957d6",
+          "excerpt": "The revelations knocked about $250bn (Â£190bn) off the value of Nvidia during trading on Monday as the firm's share price fell by about 4%.",
+          "sentence_hash": "6df1364ce7f7c4b65b087cb050e693d54dcd03519002bbd0e391aa50c8b85a6e",
+          "anchors": [
+            "$250",
+            "4%"
+          ]
+        }
+      ],
+      "entities": [
+        "secretary",
+        "trump",
+        "china",
+        "xi jinping",
+        "ai",
+        "the american",
+        "monday",
+        "president",
+        "new york times",
+        "nvidia",
+        "huang",
+        "alice huang",
+        "huang le",
+        "bbc",
+        "chinese",
+        "us",
+        "beijing",
+        "white house",
+        "singaporean",
+        "published\ndonald trump",
+        "fbi",
+        "megaspeed",
+        "washington",
+        "state marco rubio",
+        "did",
+        "jensen huang"
+      ],
+      "numbers": [
+        "$250",
+        "4%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-10-AM.json",
+      "source_artifact_date": "2026-11-10",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_a57d72a1eab89dce136104d5",
+      "title": "OpenAI Squeezed At The Frontier-End By Anthropic’s Claude Fable 5.2, While Meta’s Muse Ember Gives Its Bargain-Class GPT-6 Luna A Bruise",
+      "url": "https://wccftech.com/openai-squeezed-at-the-frontier-end-by-anthropics-claude-fable-5-2-while-metas-muse-ember-gives-its-bargain-class-gpt-6-luna-a-bruise/",
+      "publisher": "Wccftech",
+      "summary": "Today is not a good day for OpenAI, especially as it is getting hammered from two sides, with Anthropic's Claude Fable 5.2 leaving GPT-6 Astra in the proverbial dust, and Meta's Muse Ember squeezing GPT-6 Luna hard in the bargain category of AI models. Anthropic's Claude Fable 5.2 outcompetes Fable 5.1, Opus 5.5, OpenAI's GPT-6 Astra, and Google's Gemini 4 Carbon in nearly every benchmark We noted towards the middle of October that Anthropic's Fable 5.5 AI model had been spotted in the wild. Wel",
+      "category": "科技",
+      "published_at": "2026-11-09T19:55:34+00:00",
+      "why_relevant": "头部模型竞争与市场格局",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Today is not a good day for OpenAI, especially as it is getting hammered from two sides, with Anthropic's Claude Fable 5.2 leaving GPT-6 Astra in the proverbial dust, and Meta's Muse Ember squeezing GPT-6 Luna hard in the bargain category of AI models.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020072+08:00",
+          "content_sha256": "4f3cbf38f46e12d3c9092aa4237cf7d685cd39c9c5e8564fffcd8fe92cb152da",
+          "excerpt": "Today is not a good day for OpenAI, especially as it is getting hammered from two sides, with Anthropic's Claude Fable 5.2 leaving GPT-6 Astra in the proverbial dust, and Meta's Muse Ember squeezing GPT-6 Luna hard in the bargain category of AI models.",
+          "sentence_hash": "24611c1db6ccacff255dd02ab5282cd0f3f6a79903b53d178e5f24f144401564",
+          "anchors": [
+            "ai",
+            "pro",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Well, the high-flying AI lab has just chosen to launch a different model, the Claude Fable 5.2.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020103+08:00",
+          "content_sha256": "4f3cbf38f46e12d3c9092aa4237cf7d685cd39c9c5e8564fffcd8fe92cb152da",
+          "excerpt": "Well, the high-flying AI lab has just chosen to launch a different model, the Claude Fable 5.2.",
+          "sentence_hash": "ec584a65ebffa0045ec17d8f6ee88faa79655fd2f43ad0f5478e7fef71a04031",
+          "anchors": [
+            "high"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "According to Anthropic, \"in early testing on FrontierCode 2.0, Fable 5.2 at High effort scored about level with Opus 5.5 at Max effort, for roughly half the cost per task.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020125+08:00",
+          "content_sha256": "4f3cbf38f46e12d3c9092aa4237cf7d685cd39c9c5e8564fffcd8fe92cb152da",
+          "excerpt": "According to Anthropic, \"in early testing on FrontierCode 2.0, Fable 5.2 at High effort scored about level with Opus 5.5 at Max effort, for roughly half the cost per task.",
+          "sentence_hash": "ed705c47d0fdf30f70402dcdc147868789616a6ff426036407e8f4d1f65e1c0e",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "At Xhigh effort, it scored the highest of any released model tested.\" What's more, according to Vals AI, at the \"High\" reasoning level, Claude Fable 5.2 costs only $17.94 per test, which is cheaper than both Opus 5.5 and GPT-6 Astra at a comparable reasoning effort.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020153+08:00",
+          "content_sha256": "4f3cbf38f46e12d3c9092aa4237cf7d685cd39c9c5e8564fffcd8fe92cb152da",
+          "excerpt": "At Xhigh effort, it scored the highest of any released model tested.\" What's more, according to Vals AI, at the \"High\" reasoning level, Claude Fable 5.2 costs only $17.94 per test, which is cheaper than both Opus 5.5 and GPT-6 Astra at a comparable reasoning effort.",
+          "sentence_hash": "8d8ce772de4bc4444a84b4634af76d906ed91e3b08f8ef3e4f5a0bea42a57691",
+          "anchors": [
+            "high",
+            "according",
+            "$17.94 "
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Anthropic also highlighted that Fable 5.2 agents were able to solve Fermat's Last Theorem in around 30 hours: \"A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step.\" \"With the ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020208+08:00",
+          "content_sha256": "4f3cbf38f46e12d3c9092aa4237cf7d685cd39c9c5e8564fffcd8fe92cb152da",
+          "excerpt": "Anthropic also highlighted that Fable 5.2 agents were able to solve Fermat's Last Theorem in around 30 hours: \"A team of 1,000 Fable 5.2 agents fully formalized Fermat’s Last Theorem in 30 hours, translating the proof into a language a computer can check step by step.\" \"With the ",
+          "sentence_hash": "0901d3b102e0278d945eabf552fcad75cc6c9623ba6bd5cec0f4770a96fbc255",
+          "anchors": [
+            "high",
+            "$10 ",
+            "pro",
+            "1 million",
+            "also",
+            "$8 ",
+            "$40 ",
+            "$50",
+            "26%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Do note that Fable 5.2 is also around 30 percent faster than Fable 5.1.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020224+08:00",
+          "content_sha256": "4f3cbf38f46e12d3c9092aa4237cf7d685cd39c9c5e8564fffcd8fe92cb152da",
+          "excerpt": "Do note that Fable 5.2 is also around 30 percent faster than Fable 5.1.",
+          "sentence_hash": "1143b00331a1e6477e2e9e41effa401ccaaf33b0dda6c1e1aef45f2700976c13",
+          "anchors": [
+            "also"
+          ]
+        }
+      ],
+      "entities": [
+        "carbon",
+        "artificial analysis intelligence index",
+        "open",
+        "finally",
+        "well",
+        "claude haiku",
+        "api",
+        "with",
+        "gemini",
+        "october",
+        "astra",
+        "vals",
+        "high",
+        "last theorem",
+        "anthropic",
+        "fermat",
+        "today",
+        "code",
+        "moreover",
+        "fable",
+        "pro",
+        "according",
+        "ai",
+        "meta",
+        "frontier",
+        "claude fable",
+        "at xhigh",
+        "gpt",
+        "google",
+        "luna\nat",
+        "critically",
+        "luna",
+        "opus",
+        "follow wccftech",
+        "max",
+        "also",
+        "muse ember"
+      ],
+      "numbers": [
+        "$0.13",
+        "26%",
+        "$10 ",
+        "1 million",
+        "$17.94 ",
+        "$40 ",
+        "$50",
+        "$0.10 ",
+        "$8 ",
+        "$0.50 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-10-AM.json",
+      "source_artifact_date": "2026-11-10",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_c531f9e0f38a8e3e1ba5cb80",
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "publisher": "GitHub Trending",
+      "summary": "Public repository for Agent Skills \n Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. \n \n \nSkills \nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using yo",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Agent Skills标准实现，核心",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Note: This repository contains Anthropic's implementation of skills for Claude.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020813+08:00",
+          "content_sha256": "7333261a454b1f6352a0b6b3329a61b122c3a9ebe4496b5cffbe7b344287bc6e",
+          "excerpt": "Note: This repository contains Anthropic's implementation of skills for Claude.",
+          "sentence_hash": "7348c0fac952b2f24b83252acab6eb1c7243102b9754430b64e53660b9364304",
+          "anchors": [
+            "skills",
+            "for",
+            "ai",
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "For information about the Agent Skills standard, see agentskills.io.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020828+08:00",
+          "content_sha256": "7333261a454b1f6352a0b6b3329a61b122c3a9ebe4496b5cffbe7b344287bc6e",
+          "excerpt": "For information about the Agent Skills standard, see agentskills.io.",
+          "sentence_hash": "395e00b6b68f626fb3ef6540ab518fcd68714ec0b14f028c205cfd138a507988",
+          "anchors": [
+            "skills",
+            "for",
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020854+08:00",
+          "content_sha256": "7333261a454b1f6352a0b6b3329a61b122c3a9ebe4496b5cffbe7b344287bc6e",
+          "excerpt": "Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks.",
+          "sentence_hash": "dd931a80e0664f11f80c9265e842384816200541fd7d3035469f351f532ec360",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020877+08:00",
+          "content_sha256": "7333261a454b1f6352a0b6b3329a61b122c3a9ebe4496b5cffbe7b344287bc6e",
+          "excerpt": "Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.",
+          "sentence_hash": "e5cc5d1ed7f303919efd6d68a01119f5f946cc89bf3afa282e824fcc6881fbca",
+          "anchors": [
+            "using",
+            "you",
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "For more information, check out: - What are skills?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020889+08:00",
+          "content_sha256": "7333261a454b1f6352a0b6b3329a61b122c3a9ebe4496b5cffbe7b344287bc6e",
+          "excerpt": "For more information, check out: - What are skills?",
+          "sentence_hash": "124b94aefa24cdb6b797b922fafb2428a59776b292ed0b88094a956222d33ff7",
+          "anchors": [
+            "skills",
+            "for",
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Using skills in Claude - How to create custom skills - Equipping agents for the real world with Agent Skills This repository contains skills that demonstrate what's possible with Claude's skills system.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.020911+08:00",
+          "content_sha256": "7333261a454b1f6352a0b6b3329a61b122c3a9ebe4496b5cffbe7b344287bc6e",
+          "excerpt": "- Using skills in Claude - How to create custom skills - Equipping agents for the real world with Agent Skills This repository contains skills that demonstrate what's possible with Claude's skills system.",
+          "sentence_hash": "f5b8ce49be31455b704e2859fd9bae778bbfed3b9e31fbb5cba0416eea9eb57f",
+          "anchors": [
+            "skills",
+            "for",
+            "ai",
+            "skill"
+          ]
+        }
+      ],
+      "entities": [
+        "apache",
+        "mcp",
+        "claude",
+        "for",
+        "browse",
+        "claude code plugin",
+        "agent skills\nthis",
+        "select",
+        "each",
+        "then",
+        "anthropic",
+        "you",
+        "development",
+        "plugin",
+        "after",
+        "alternatively",
+        "claude code",
+        "skills",
+        "agent skills",
+        "design",
+        "ai",
+        "enterprise",
+        "skill",
+        "document skills",
+        "equipping",
+        "technical",
+        "note",
+        "the agent skills",
+        "select install",
+        "always",
+        "using",
+        "communication",
+        "many",
+        "creative",
+        "these",
+        "select browse",
+        "while"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-10-AM.json",
+      "source_artifact_date": "2026-11-10",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e6ccf5cb5a7a34ea9d8100b3",
+      "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
+      "url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
+      "publisher": "The Guardian",
+      "summary": "Simon Stiell makes opening address at summit in Turkey, where talks are under way about speeding up shift to electrificationA global fossil fuel price crisis is “spreading inflation like a cancer” around the planet, the UN’s climate chief, Simon Stiell, told the opening plenary of critical UN climate talks in Turkey.Stiell joined Cop31 hosts Turkey and Australia, which is leading the negotiations, in promoting renewable energy and a new electrification goal as an optimistic alternative to a plan",
+      "category": "国际",
+      "published_at": "2026-11-09T17:47:04+00:00",
+      "why_relevant": "能源通胀宏观信号",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A global fossil fuel price crisis is “spreading inflation like a cancer” around the planet, the UN’s climate chief, Simon Stiell, told the opening plenary of critical UN climate talks in Turkey.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022146+08:00",
+          "content_sha256": "2653b16b426b4e971089ee9fe009e9e795c004d211cea91a7daa4294af005cba",
+          "excerpt": "A global fossil fuel price crisis is “spreading inflation like a cancer” around the planet, the UN’s climate chief, Simon Stiell, told the opening plenary of critical UN climate talks in Turkey.",
+          "sentence_hash": "9e48c06473c1a98d454b61ff39a40c5e02e17afc67ac705763c21c152c71f05b",
+          "anchors": [
+            "global",
+            "climate",
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Stiell joined Cop31 hosts Turkey and Australia, which is leading the negotiations, in promoting renewable energy and a new electrification goal as an optimistic alternative to a planet still tied to oil, coal and gas.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022176+08:00",
+          "content_sha256": "2653b16b426b4e971089ee9fe009e9e795c004d211cea91a7daa4294af005cba",
+          "excerpt": "Stiell joined Cop31 hosts Turkey and Australia, which is leading the negotiations, in promoting renewable energy and a new electrification goal as an optimistic alternative to a planet still tied to oil, coal and gas.",
+          "sentence_hash": "bec7a9ef7646b49ec0da35d8cd41bfc03b6572842c86eaa57bd966d1a744754e",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Inside the tight security of the opening plenary on Monday, delegates from almost 200 countries watched a stirring short film with scenes of fire, flood and storms that proclaimed: “It’s time to reconnect with the planet we have grown apart from.” Turkey said it expected 100,000 ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022212+08:00",
+          "content_sha256": "2653b16b426b4e971089ee9fe009e9e795c004d211cea91a7daa4294af005cba",
+          "excerpt": "Inside the tight security of the opening plenary on Monday, delegates from almost 200 countries watched a stirring short film with scenes of fire, flood and storms that proclaimed: “It’s time to reconnect with the planet we have grown apart from.” Turkey said it expected 100,000 ",
+          "sentence_hash": "eb740776e0e49a18817cbff4bc1a7662416b208b1617247d7e7e3ccd33faf445",
+          "anchors": [
+            "and",
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "A global leaders summit is scheduled for Wednesday and Thursday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022226+08:00",
+          "content_sha256": "2653b16b426b4e971089ee9fe009e9e795c004d211cea91a7daa4294af005cba",
+          "excerpt": "A global leaders summit is scheduled for Wednesday and Thursday.",
+          "sentence_hash": "ba5730c21c8817406ce0934b9f0a42cb0f653a098642e26e0e2f86110ce91bfd",
+          "anchors": [
+            "global",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But the talks are under increased pressure to deliver, after growing dissatisfaction with the snail’s pace of results.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022244+08:00",
+          "content_sha256": "2653b16b426b4e971089ee9fe009e9e795c004d211cea91a7daa4294af005cba",
+          "excerpt": "But the talks are under increased pressure to deliver, after growing dissatisfaction with the snail’s pace of results.",
+          "sentence_hash": "dc8d034ae17b6a10f502453a4305ee9dc8ff9565b3b32114e210fb9a434bd9f4",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The talks are opening as a historic El Niño builds in the tropical Pacific and months after a glacier collapse set off catastrophic flooding in Nepal and Tibet, wiping away villages and killing at least 1,459 people, with thousands more still missing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022272+08:00",
+          "content_sha256": "2653b16b426b4e971089ee9fe009e9e795c004d211cea91a7daa4294af005cba",
+          "excerpt": "The talks are opening as a historic El Niño builds in the tropical Pacific and months after a glacier collapse set off catastrophic flooding in Nepal and Tibet, wiping away villages and killing at least 1,459 people, with thousands more still missing.",
+          "sentence_hash": "afba72e3268c667538238bde7847d60aeabc6b60c5a410106f2f25fdea1d5431",
+          "anchors": [
+            "and",
+            "1,459 people",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "global",
+        "simon stiell",
+        "johan rockstr",
+        "iran",
+        "potsdam institute",
+        "turkey",
+        "un",
+        "australia",
+        "us",
+        "chris bowen",
+        "last",
+        "and",
+        "hormuz",
+        "el ni",
+        "earth",
+        "guterres",
+        "paris",
+        "ant",
+        "donald trump",
+        "guardian",
+        "thursday",
+        "nepal",
+        "cop",
+        "climate impact research",
+        "monday",
+        "inside",
+        "pacific",
+        "stiell",
+        "tibet",
+        "climate",
+        "but",
+        "wednesday"
+      ],
+      "numbers": [
+        "50%",
+        "1,459 people"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-10-AM.json",
+      "source_artifact_date": "2026-11-10",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_0dbf7891f963707ee7668993",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "publisher": "Simon Willison",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.\nThey're too good at describing the work\nThe problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes ",
+      "category": "科技",
+      "published_at": "2026-11-09T04:25:05+00:00",
+      "why_relevant": "Claude Code实用技巧与AI编程",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Hide your slop PR descriptions behind <details><summary> 9th November 2026 Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.022988+08:00",
+          "content_sha256": "96f917fb878548aa933500b06e1a355224e12b48112be05be47dcfc5733136e8",
+          "excerpt": "Hide your slop PR descriptions behind <details><summary> 9th November 2026 Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex.",
+          "sentence_hash": "efcf9624aabc36323e2b2989ad8ed7f9544126d154430c23f7e7349dd5e63b9f",
+          "anchors": [
+            "ai",
+            "pr",
+            "you",
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They’re too good at describing the work The problem is that they are too good.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.023013+08:00",
+          "content_sha256": "96f917fb878548aa933500b06e1a355224e12b48112be05be47dcfc5733136e8",
+          "excerpt": "They’re too good at describing the work The problem is that they are too good.",
+          "sentence_hash": "199a68ef5b118e0a7a5a3b6667682bc0e512caedd3356861deedaa047564cafb",
+          "anchors": [
+            "pr",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "An agent-written PR description is accurate and comprehensive.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.023025+08:00",
+          "content_sha256": "96f917fb878548aa933500b06e1a355224e12b48112be05be47dcfc5733136e8",
+          "excerpt": "An agent-written PR description is accurate and comprehensive.",
+          "sentence_hash": "f35f74a50275e4ed3661f55d5cf70452edb433c6d8cb5ef758cb5ed1fdf01c29",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It describes the problem, the detailed solution, and the steps taken to verify it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.023037+08:00",
+          "content_sha256": "96f917fb878548aa933500b06e1a355224e12b48112be05be47dcfc5733136e8",
+          "excerpt": "It describes the problem, the detailed solution, and the steps taken to verify it.",
+          "sentence_hash": "39ac7fbab423a0fc876ed3519aac2537b63d716d9f5bdae9753e95cb4d7621a2",
+          "anchors": [
+            "ai",
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.023073+08:00",
+          "content_sha256": "96f917fb878548aa933500b06e1a355224e12b48112be05be47dcfc5733136e8",
+          "excerpt": "I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.",
+          "sentence_hash": "bfaf0072522ba97b4fb6b7d3b88b5d3c8e3867aea0c42747b0d90c01ff8afa1d",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Hide most of it in a details/summary The HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-10T08:03:21.023093+08:00",
+          "content_sha256": "96f917fb878548aa933500b06e1a355224e12b48112be05be47dcfc5733136e8",
+          "excerpt": "Hide most of it in a details/summary The HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text.",
+          "sentence_hash": "c0a8bb402d07b4ee259bda0af047d4cd23c670edf2b226242a7aae1aa2bc4222",
+          "anchors": [
+            "ai",
+            "most"
+          ]
+        }
+      ],
+      "entities": [
+        "git",
+        "claude opus",
+        "hub",
+        "pr",
+        "hide",
+        "codex",
+        "ai",
+        "most",
+        "crucially",
+        "you",
+        "today",
+        "they",
+        "hub markdown",
+        "medium",
+        "november",
+        "plugins",
+        "html",
+        "claude code"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 19
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-10-AM.json",
+      "source_artifact_date": "2026-11-10",
+      "freshness_label": "today"
+    }
+  ]
+}
