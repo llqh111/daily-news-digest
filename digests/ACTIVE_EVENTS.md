@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-10 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-11 08:06。
+
+## ZhuLinsen/daily_stock_analysis
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障；单笔充值 US$20 解锁 GPT 0.015x，US$50 解锁 Claud
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261111_33ed0fbd061d`
+
+## Anthropic Investors Shop IPO Shares Early, and at a Big Premium
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：19 for an initial public offering that could value the AI giant on a fully diluted basis at over $1.4 trillion.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261111_e5bb97f7b36a`
+
+## Fed’s Bowman Warns of Stock Correction If AI Bets Don’t Pan Out
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261111_d39630e0bfc8`
+
+## Nvidia selloff deepens, adding to AI jitters
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261111_0d188e45a5a0`
+
+## Why the Cyberpocalypse Might Hit China Harder
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world’s websites, including Wikipedia and WordPress.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261111_042813924f21`
+
+## CoreWeave raises revenue forecast as AI demand defies growing doubts
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：CoreWeave raises revenue forecast as AI demand defies growing doubts&nbsp;&nbsp;Reuters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261111_40ade84cbce5`
+
+## anthropics/claude-quickstarts
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：If you don't have one yet, you can sign up for free at console.anthropic.com.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261111_553663066fe5`
+
+## llm-gemini 0.36
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：10th November 2026 Gemini 4 Carbon was announced two weeks ago for "a subset of cyber defenders", but today it's available to everyone else.
+- 事件 ID：`evt_20261111_139d2aff3de3`
+
+## US yields climb, stocks fall as inflation data boosts chances for larger Fed rate hike
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261111_de6c1633abd9`
+
+## Japan watches for signs of change in Trump's foreign policy priorities
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：Japan watches for signs of change in Trump's foreign policy priorities November 10, 2026 With just a week to go before the leaders of the United States, China and Russia are expected to meet on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit, Japan is closely
+- 事件 ID：`evt_20261111_8b5ffe287e1d`
+
+## garrytan/gbrain
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：Give the agent you already use a memory you control.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261111_1369677cd714`
+
+## US House Republicans reject effort to impeach Pentagon chief Pete Hegseth
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：US House Republicans reject effort to impeach Pentagon chief Pete Hegseth Defence Secretary has been accused of spearheading war on Iran without required congressional approval.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261111_ac442590f19c`
+
+## Russia expels Moldovan diplomat in tit-for-tat move
+- 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
+- 最新事实：Russia expels Moldovan diplomat in tit-for-tat move Relations between Moscow and Chisinau have worsened since the 2022 Ukraine war.
+- 事件 ID：`evt_20261111_8ceb588449f7`
 
 ## COP31 opens amid energy crisis as activists demand climate action
 - 状态：更新中；首见 2026-11-10；最近更新 2026-11-10
@@ -1793,76 +1865,4 @@
 - 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
 - 最新事实：Deadly air strike kills dozens at Sudan gold mine near Egypt border NewsFeed Deadly air strike kills dozens at Sudan gold mine near Egypt border An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50, according to rights
 - 事件 ID：`evt_20261012_16e6feaf3fcb`
-
-## addyosmani/agent-skills
-- 状态：更新中；首见 2026-09-19；最近更新 2026-10-11
-- 最新事实：Production-grade engineering skills for AI coding agents.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_d7c30b227e7e`
-
-## Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'
-- 状态：更新中；首见 2026-10-10；最近更新 2026-10-11
-- 最新事实：Donald Trump is on a fresh collision course with Volodymyr Zelenskyy and European allies after his stunning agreement to buy Russian diesel upended years of US and western pressure on the Kremlin to end its war against Ukraine.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261010_a2f8bc7fb841`
-
-## Twelve killed in attack on airport in Saudi capital Riyadh
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：Twelve killed in attack on airport in Saudi capital Riyadh - Published At least 12 people have been killed and 309 injured in an attack on an airport in the Saudi capital Riyadh, local authorities say.
-- 事件 ID：`evt_20261011_5cfb3acb3fff`
-
-## Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：Live updatesLive updates, Iran war live: 12 killed in Riyadh, Trump to speak with Saudi Arabia’s MBS As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran.
-- 事件 ID：`evt_20261011_2c2b5ce96594`
-
-## Russian glide bomb attack on Zaporizhzhia kills at least 20 people
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：Russian glide bomb attack on Zaporizhzhia kills at least 20 people - Published Russia has attacked the Ukrainian city of Zaporizhzhia with five glide bombs, killing at least 20 people including four children, local officials said.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261011_0a8034073478`
-
-## BerriAI/litellm
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261011_0491934768cd`
-
-## Talorys – A self-hosted personal AI agent on Cloudflare's free tier
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：Your personal AI agent.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261011_2fbc521fea5c`
-
-## Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through Amazon, creating a more seamless path from device setup to gameplay.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261011_ccf95237be4b`
-
-## Nvidia in talks to acquire US ‘open’ model start-up Reflection AI
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261011_9ce477b12577`
-
-## Saudi Arabia Suspends Operations at Riyadh Airport After Attack
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261011_21de42a0de6d`
-
-## US warns Kyiv that strikes on Russia jeopardise intelligence-sharing
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261011_bf858b13c2dc`
-
-## Anthropic’s Claude AI submits a false tip on a Philadelphia unsolved homicide case
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：Philadelphia police have revealed that Anthropic’s artificial intelligence model submitted a false homicide tip to authorities, an incident disclosed separately by the tech company.
-- 事件 ID：`evt_20261011_e9f2712a1be2`
-
-## Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom
-- 状态：更新中；首见 2026-10-11；最近更新 2026-10-11
-- 最新事实：Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom The investment underscores the growing importance of advanced packaging materials in the semiconductor supply chain The Tokyo-based company said on Friday that it would add production lines for m
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261011_001e1005e90b`
 
