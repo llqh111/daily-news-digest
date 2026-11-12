@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-11 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-12 08:07。
+
+## addyosmani/agent-skills
+- 状态：更新中；首见 2026-09-19；最近更新 2026-11-12
+- 最新事实：Production-grade engineering skills for AI coding agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260919_d7c30b227e7e`
+
+## Nvidia prepares to fire CEO Jensen Huang, WSJ reports
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：10:31 PM · Nov 11, 2026· 1M Views 804 1.8K 20K 1.2K Watcher.Guru @WatcherGuru JUST IN: Nvidia $NVDA prepares to fire CEO Jensen Huang, WSJ reports.
+- 事件 ID：`evt_20261112_9a2bbaf751e1`
+
+## Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Members of Congress are calling on Nvidia CEO Jensen Huang to resign, and momentum is building to subpoena the executive, whose company is a leader in advanced artificial intelligence chips.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_1db9e40a521b`
+
+## Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says Iran’s parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions for ending war.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_f73782b5b0e8`
+
+## Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：The Asia-Pacific Economic Cooperation summit is set to take place in Shenzhen on November 18 and 19.
+- 事件 ID：`evt_20261112_a12de4128179`
+
+## ranxianglei/billion-context
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Context-compression plugin — billion-context is all you need.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_1f8c6267f0f7`
+
+## Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Top chip manufacturer TSMC is ready to invest $1 billion in Anthropic and OpenAI.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_d18fc1890c29`
+
+## US tech stocks rally as AI trade revives
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261112_7c359ad49196`
+
+## Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 and $78 per share, according to an updated filing on Tuesday, bringing the 5-year-old artificial intelligence lab a step closer to a potentially historic Nasdaq debut.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_9a9a0baf18e8`
+
+## Russia-Ukraine talks turn to post-war security but end without breakthrough
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Russia-Ukraine talks turn to post-war security but end without breakthrough - Published Trilateral talks in Abu Dhabi between Russia, Ukraine and the US aimed at ending the war in Ukraine have concluded after a second day.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_4131c2625185`
+
+## Democrat Scott Colom wins closely watched US Senate race in Mississippi
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Democrat Scott Colom wins closely watched US Senate race in Mississippi The historic victory flips an eighth US Senate seat for Democrats after last week’s pivotal midterm election.
+- 事件 ID：`evt_20261112_5df9c0a457f4`
+
+## Just how deep do Alice Huang’s Hong Kong business links run amid the Nvidia affair?
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Just how deep do Alice Huang’s Hong Kong business links run amid the Nvidia affair?
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261112_bb8da6a10780`
+
+## Judge rules Trump’s $10bn BBC defamation suit can proceed
+- 状态：更新中；首见 2026-11-12；最近更新 2026-11-12
+- 最新事实：Judge rules Trump’s $10bn BBC defamation suit can proceed The BBC denies defamation charge as Trump celebrates “huge victory” in court decision.
+- 事件 ID：`evt_20261112_103f0aeca150`
 
 ## ZhuLinsen/daily_stock_analysis
 - 状态：更新中；首见 2026-11-11；最近更新 2026-11-11
@@ -1792,77 +1865,4 @@
 - 最新事实：Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns Investors are positioning ahead of today's bank earnings reports and Wednesday’s U.S.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261014_1fe0eb02ef5d`
-
-## mksglu/context-mode
-- 状态：更新中；首见 2026-09-09；最近更新 2026-10-12
-- 最新事实：After 30 minutes, 40% of your context is gone.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260909_3cf43d79c681`
-
-## Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent - Published Donald Trump has claimed that Russia and Ukraine have agreed to an "energy ceasefire", with Kyiv saying it would support such a move but Moscow yet to comment.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261012_586ea67fd85a`
-
-## Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Cyberleek threatens full GTA 6 build leak unless Take-Two apologizes and his $30 million crypto memecoin goal is met — leaker demands physical release while pumping Solana memecoin to $30M The leak group's ultimatum is a bare-faced attempt to push the value of its associated meme
-- 事件 ID：`evt_20261012_18adaa068855`
-
-## Russia's Yandex bot traffic nearly eliminated overnight after Ukraine drone strikes cripple multiple of 'Russia's Google' data centers
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Cloudflare reports that bot traffic from the Yandex network has dropped to just 0.4% of the maximum number of HTTP requests recorded in the past two weeks.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261012_17b6461f37f3`
-
-## The gap in shared understanding of LLM capability is widening
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261012_c45a1b59d197`
-
-## One killed, 11 injured in second Houthi strike on Riyadh airport in two days
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：One killed, 11 injured in second Houthi strike on Riyadh airport in two days - Published One person has been killed and 11 injured in a second strike on the international airport in the Saudi capital Riyadh, officials have said.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261012_e5cc7b76b20a`
-
-## Footage shows moment Russian strike hits Ukrainian grocery store
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Footage shows moment Russian strike hits Ukrainian grocery store NewsFeed Footage shows moment Russian strike hits Ukrainian grocery store CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine, followed by fires and debris.
-- 事件 ID：`evt_20261012_3d7978b88783`
-
-## Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Amazon in talks to buy AI startup Decart for around $7 billion, WSJ reports&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261012_c0312a08fff0`
-
-## Kurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：ExclusiveKurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships Kurt Campbell is a veteran US diplomat and strategist who has played a lea
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261012_8c70bf187c91`
-
-## Trump faces Republican opposition to his diesel deal with Russia’s Putin
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261012_8aac2469cf6a`
-
-## S&P 500 futures are little changed with big banks set to kick off earnings season: Live updates
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：S&P 500 futures were little changed on Sunday night after the major averages posted a winning week, as investors looked ahead to a busy week of earnings results and inflation data.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261012_58d47ca7cb3c`
-
-## US hits commercial tanker in Gulf of Oman as tensions flare
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261012_dbdfe497b8b0`
-
-## Deadly air strike kills dozens at Sudan gold mine near Egypt border
-- 状态：更新中；首见 2026-10-12；最近更新 2026-10-12
-- 最新事实：Deadly air strike kills dozens at Sudan gold mine near Egypt border NewsFeed Deadly air strike kills dozens at Sudan gold mine near Egypt border An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50, according to rights
-- 事件 ID：`evt_20261012_16e6feaf3fcb`
 

@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T00:07:25.513604+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-12-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-12.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-11.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_df3f03fc99aef955c3efdd61",
+      "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+      "url": "https://twitter.com/watcherguru/status/2120645607866188008",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://twitter.com/watcherguru/status/2120645607866188008\nComments URL: https://news.ycombinator.com/item?id=50459776\nPoints: 101\n# Comments: 30",
+      "category": "科技",
+      "published_at": "2026-11-11T22:36:35+00:00",
+      "why_relevant": "英伟达CEO变动传闻",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "10:31 PM · Nov 11, 2026· 1M Views 804 1.8K 20K 1.2K Watcher.Guru @WatcherGuru JUST IN: Nvidia $NVDA prepares to fire CEO Jensen Huang, WSJ reports.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.224770+08:00",
+          "content_sha256": "a2f650dded62526313a862a702b43c3be30f73d21058d7be4ee009692c0aa18f",
+          "excerpt": "10:31 PM · Nov 11, 2026· 1M Views 804 1.8K 20K 1.2K Watcher.Guru @WatcherGuru JUST IN: Nvidia $NVDA prepares to fire CEO Jensen Huang, WSJ reports.",
+          "sentence_hash": "5868b02d3d8d615e1905fc6bc069cf94e7552f12ebfc5ff05078d1925c8eb3ed",
+          "anchors": [
+            "Nov 11"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "10:31 PM · Nov 11, 2026· 1M Views 804 1.8K 20K 1.2K samuwl @samuwl_ 1h cheated on his wife with a chinese spy, then cheated on the spy with an executive cinema GIF 3 33 1.9K 84K",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.224812+08:00",
+          "content_sha256": "a2f650dded62526313a862a702b43c3be30f73d21058d7be4ee009692c0aa18f",
+          "excerpt": "10:31 PM · Nov 11, 2026· 1M Views 804 1.8K 20K 1.2K samuwl @samuwl_ 1h cheated on his wife with a chinese spy, then cheated on the spy with an executive cinema GIF 3 33 1.9K 84K",
+          "sentence_hash": "18ad000ff08df23a19857b83ee85971de922c7c04e1915de184eb46144709ad8",
+          "anchors": [
+            "Nov 11",
+            "in"
+          ]
+        }
+      ],
+      "entities": [
+        "gif",
+        "watcher",
+        "nvidia",
+        "views",
+        "nov",
+        "in",
+        "ceo",
+        "guru",
+        "just",
+        "wsj",
+        "pm",
+        "nvda",
+        "jensen huang"
+      ],
+      "numbers": [],
+      "dates": [
+        "Nov 11"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 14
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-12-AM.json",
+      "source_artifact_date": "2026-11-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e2ad899c452e561d317ccb02",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "publisher": "CNBC",
+      "summary": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
+      "category": "财经",
+      "published_at": "2026-11-11T22:46:29+00:00",
+      "why_relevant": "黄仁勋涉华出口博弈",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Members of Congress are calling on Nvidia CEO Jensen Huang to resign, and momentum is building to subpoena the executive, whose company is a leader in advanced artificial intelligence chips.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.226077+08:00",
+          "content_sha256": "ee439b3d307f7f7d4142ab6b12a55252d4140a8943f35912d8aad090d1baad23",
+          "excerpt": "Members of Congress are calling on Nvidia CEO Jensen Huang to resign, and momentum is building to subpoena the executive, whose company is a leader in advanced artificial intelligence chips.",
+          "sentence_hash": "85a9b5755165463c6fcc06b68e956b400cb87531b9def8a86bb0719615068fbf",
+          "anchors": [
+            "subpoena",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Senate banking committee member Kevin Cramer, R-N.D., doubled down Wednesday on his call for Huang to resign, and a key Democratic House oversight panel member and House Republican piled on.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.226115+08:00",
+          "content_sha256": "ee439b3d307f7f7d4142ab6b12a55252d4140a8943f35912d8aad090d1baad23",
+          "excerpt": "Senate banking committee member Kevin Cramer, R-N.D., doubled down Wednesday on his call for Huang to resign, and a key Democratic House oversight panel member and House Republican piled on.",
+          "sentence_hash": "9d8cf4eab233c9f6d85695f3a85bcf3c76f9fe17e9d432032b61a4a90cf26711",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"As a matter of his own conscience, he should resign,\" Cramer told CNBC, in response to revelations that Huang had an affair with an alleged Chinese spy as the chipmaker he co-founded was given permission from the U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.226153+08:00",
+          "content_sha256": "ee439b3d307f7f7d4142ab6b12a55252d4140a8943f35912d8aad090d1baad23",
+          "excerpt": "\"As a matter of his own conscience, he should resign,\" Cramer told CNBC, in response to revelations that Huang had an affair with an alleged Chinese spy as the chipmaker he co-founded was given permission from the U.S.",
+          "sentence_hash": "5f36fb9aae7e2b31425f6aa6fb86e8022566f96e1ceeb9efffa00e0f31bb739e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Huang, who leads a company that's been a chief beneficiary of the artificial intelligence boom, on Sunday admitted to having an affair with a woman whom news outlets have reported U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.226190+08:00",
+          "content_sha256": "ee439b3d307f7f7d4142ab6b12a55252d4140a8943f35912d8aad090d1baad23",
+          "excerpt": "Huang, who leads a company that's been a chief beneficiary of the artificial intelligence boom, on Sunday admitted to having an affair with a woman whom news outlets have reported U.S.",
+          "sentence_hash": "af64e8861c02ae8ba7afd00c92979760b1b54e99186a2c0b36f948ab2751966d",
+          "anchors": [
+            "rep",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "\"What bothers me at the end of it is what we don't know is what she knows about him that can be utilized,\" Cramer said, referring to Alice Huang and Jensen Huang, who are not related.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.226235+08:00",
+          "content_sha256": "ee439b3d307f7f7d4142ab6b12a55252d4140a8943f35912d8aad090d1baad23",
+          "excerpt": "\"What bothers me at the end of it is what we don't know is what she knows about him that can be utilized,\" Cramer said, referring to Alice Huang and Jensen Huang, who are not related.",
+          "sentence_hash": "991be210e8b57471f98e9a09ae75fb8fd74b0eda798be70c6a15d7b80e1cf508",
+          "anchors": [
+            "ai",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"This is a guy that's right now so vulnerable to extortion, blackmail.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.226255+08:00",
+          "content_sha256": "ee439b3d307f7f7d4142ab6b12a55252d4140a8943f35912d8aad090d1baad23",
+          "excerpt": "\"This is a guy that's right now so vulnerable to extortion, blackmail.",
+          "sentence_hash": "76912c13bdaaf50638286849564afc5fe5b09654403a970b5726ab89d87cdb51",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "kevin cramer",
+        "john moolenaar",
+        "cnbc",
+        "democrats",
+        "house",
+        "huang",
+        "suhas subramanyam",
+        "wednesday",
+        "house foreign affairs committee",
+        "rick crawford",
+        "mast",
+        "ceo",
+        "members",
+        "cramer",
+        "chinese",
+        "jensen huang",
+        "congress",
+        "reps",
+        "nvidia",
+        "alice huang",
+        "moolenaar",
+        "and",
+        "january",
+        "house republican",
+        "democratic house",
+        "china",
+        "nov",
+        "rep",
+        "washington",
+        "permanent select committee",
+        "air force one",
+        "brian mast",
+        "ai",
+        "sunday",
+        "senate",
+        "asked",
+        "subpoena",
+        "gop",
+        "president donald trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-12-AM.json",
+      "source_artifact_date": "2026-11-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_ea6248816b594307e7597d19",
+      "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+      "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Iran&#039;s parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions.",
+      "category": "国际",
+      "published_at": "2026-11-11T21:03:40+00:00",
+      "why_relevant": "霍尔木兹海峡地缘风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says Iran’s parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions for ending war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.227587+08:00",
+          "content_sha256": "57d98eb0938aa67b9bd6395fb23ae6869475b52f41cddc32ed26c61637f52e3c",
+          "excerpt": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says Iran’s parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions for ending war.",
+          "sentence_hash": "a95166d1098030d1b5b71806c4716b0a1b3c7e654792ab69d33a67b3bb262090",
+          "anchors": [
+            "seven",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Mohammad Bagher Ghalibaf, Iran’s parliament speaker and top negotiator, has told Al Jazeera that the Strait of Hormuz will “never return” to its status prior to the US-Israel war on Iran.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.227632+08:00",
+          "content_sha256": "57d98eb0938aa67b9bd6395fb23ae6869475b52f41cddc32ed26c61637f52e3c",
+          "excerpt": "Mohammad Bagher Ghalibaf, Iran’s parliament speaker and top negotiator, has told Al Jazeera that the Strait of Hormuz will “never return” to its status prior to the US-Israel war on Iran.",
+          "sentence_hash": "adc39da866f3aa6fb4fe3e1634f9416c1143f11f068d2a5e01482f1e618f0980",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "In an exclusive interview published on Wednesday, Ghalibaf said Iran and Oman reached an understanding to oversee the critical waterway as part of Tehran’s seven-point proposal to end the eight-month conflict.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.227673+08:00",
+          "content_sha256": "57d98eb0938aa67b9bd6395fb23ae6869475b52f41cddc32ed26c61637f52e3c",
+          "excerpt": "In an exclusive interview published on Wednesday, Ghalibaf said Iran and Oman reached an understanding to oversee the critical waterway as part of Tehran’s seven-point proposal to end the eight-month conflict.",
+          "sentence_hash": "6a0280600f4a98e2b64bdabd3d39013635aab3203d98705b19b9d21c5f5a9a73",
+          "anchors": [
+            "seven",
+            "us",
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“There are no ‘free waters’ [international waters] there, and the 1982 [UN Convention on the Law of the Sea] does not apply to the strait … The regulations within the Strait of Hormuz are governed by the laws of the two littoral states that border it,” he said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.227723+08:00",
+          "content_sha256": "57d98eb0938aa67b9bd6395fb23ae6869475b52f41cddc32ed26c61637f52e3c",
+          "excerpt": "“There are no ‘free waters’ [international waters] there, and the 1982 [UN Convention on the Law of the Sea] does not apply to the strait … The regulations within the Strait of Hormuz are governed by the laws of the two littoral states that border it,” he said.",
+          "sentence_hash": "5d8eaa7d0e241a061df237af17a80cc2a2780d17894c9c1300ee4bb318a6a040",
+          "anchors": [
+            "there",
+            "law",
+            "strait"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Seven conditions Ghalibaf said Tehran provided a clear response to the US through a Qatari mediator that included its seven conditions for peace talks, adding that Iran is waiting for an official response.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.227761+08:00",
+          "content_sha256": "57d98eb0938aa67b9bd6395fb23ae6869475b52f41cddc32ed26c61637f52e3c",
+          "excerpt": "Seven conditions Ghalibaf said Tehran provided a clear response to the US through a Qatari mediator that included its seven conditions for peace talks, adding that Iran is waiting for an official response.",
+          "sentence_hash": "8f85caff5773647d61b518ff4ec75dfad3024b4d491aa3269441338819c663bb",
+          "anchors": [
+            "seven"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Iran’s conditions, as outlined by the chief negotiator, include lifting the US-imposed naval blockade and sanctions, the release of Iranian frozen funds, ending fighting on all fronts, and an explicit announcement of an end to the war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.227810+08:00",
+          "content_sha256": "57d98eb0938aa67b9bd6395fb23ae6869475b52f41cddc32ed26c61637f52e3c",
+          "excerpt": "Iran’s conditions, as outlined by the chief negotiator, include lifting the US-imposed naval blockade and sanctions, the release of Iranian frozen funds, ending fighting on all fronts, and an explicit announcement of an end to the war.",
+          "sentence_hash": "489d321a5af3fadf87cf1d96833f5174566b044a57fce6439ffe76baa8fa5413",
+          "anchors": [
+            "un"
+          ]
+        }
+      ],
+      "entities": [
+        "seven",
+        "saudi",
+        "wednesday",
+        "renewed",
+        "if america",
+        "ghalibaf",
+        "hormuz strait",
+        "congress",
+        "arabic",
+        "mohammad bagher ghalibaf",
+        "qatari",
+        "iranian",
+        "god",
+        "hormuz",
+        "ansar allah",
+        "american",
+        "oman",
+        "yemen",
+        "june",
+        "january",
+        "supporters",
+        "houthis",
+        "there",
+        "russian president vladimir putin",
+        "sea",
+        "united states",
+        "un",
+        "al jazeera",
+        "us",
+        "israel",
+        "moscow",
+        "saudi arabia",
+        "islamabad",
+        "tehran",
+        "convention",
+        "iran",
+        "law",
+        "strait",
+        "president donald trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-12-AM.json",
+      "source_artifact_date": "2026-11-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_67df5f58e42a3637eb0fc946",
+      "title": "Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit",
+      "publisher": "SCMP",
+      "summary": "The Asia-Pacific Economic Cooperation summit is set to take place in Shenzhen on November 18 and 19. Shenzhen will also be playing host to the first of two further meetings between Chinese President Xi Jinping and US President Donald Trump this year.\nWhen the two leaders met in May and September, they called for “constructive strategic stability” as a prescription for US-China relations. Both sides are keen to maintain the fragile detente, in part due to domestic considerations.\nBeijing wants to",
+      "category": "国际",
+      "published_at": "2026-11-11T21:30:05+00:00",
+      "why_relevant": "APEC峰会中美互动",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The Asia-Pacific Economic Cooperation summit is set to take place in Shenzhen on November 18 and 19.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.228456+08:00",
+          "content_sha256": "dd82959b8f6746dbc755f06ec1ba247b905f17af1fe33667bb5c0e9cc57b2d89",
+          "excerpt": "The Asia-Pacific Economic Cooperation summit is set to take place in Shenzhen on November 18 and 19.",
+          "sentence_hash": "1481e559c6eb635dd94dda68ee8b9500ef57653163218633393774a660406371",
+          "anchors": [
+            "November 18"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Beijing wants to minimise flux and uncertainty in foreign relations ahead of the 21st national congress, due to be held in the fourth quarter of next year, where key leadership reshuffles are expected to be announced.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.228525+08:00",
+          "content_sha256": "dd82959b8f6746dbc755f06ec1ba247b905f17af1fe33667bb5c0e9cc57b2d89",
+          "excerpt": "Beijing wants to minimise flux and uncertainty in foreign relations ahead of the 21st national congress, due to be held in the fourth quarter of next year, where key leadership reshuffles are expected to be announced.",
+          "sentence_hash": "7d79ccab2082f4c46cf10e7c21367ae10a0cac4747798e2d3058fac49c8b5a36",
+          "anchors": [
+            "min"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Trump, on the other hand, is eager to secure quick, visible “wins” on trade and investment, especially after the Republican Party’s disastrous election performance in the US midterms.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.228558+08:00",
+          "content_sha256": "dd82959b8f6746dbc755f06ec1ba247b905f17af1fe33667bb5c0e9cc57b2d89",
+          "excerpt": "Trump, on the other hand, is eager to secure quick, visible “wins” on trade and investment, especially after the Republican Party’s disastrous election performance in the US midterms.",
+          "sentence_hash": "17ed048f48f022509861ea3919390a6df7d6508cf0b311c7936bfce32aa468d8",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "trump",
+        "september",
+        "november",
+        "china",
+        "hong kong",
+        "advertisement\nopinion\nlow",
+        "both",
+        "hku",
+        "pacific economic cooperation",
+        "university",
+        "us",
+        "shenzhen apec",
+        "listen\nbrian wong",
+        "chinese president xi jinping",
+        "the asia",
+        "republican party",
+        "president donald trump",
+        "min",
+        "beijing",
+        "shenzhen"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 18"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 21
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-12-AM.json",
+      "source_artifact_date": "2026-11-12",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_446b227151a2cb31642337ad",
+      "title": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "publisher": "GitHub Trending",
+      "summary": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you needbillion-context \nEnglish | 中文 | 日本語 \nContext-compression plugin — billion-context is all you need. \nsmall context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality \n     \n npm ins",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "千万级上下文压缩方案",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Context-compression plugin — billion-context is all you need.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.230013+08:00",
+          "content_sha256": "d9128ff9a06ef410ba495e60143718cf82d726953f13ac3138cd411290c727ba",
+          "excerpt": "Context-compression plugin — billion-context is all you need.",
+          "sentence_hash": "3ac15284375348da6afd43c3d3541570107fc7612f0d4eeb2a989d652d522cfc",
+          "anchors": [
+            "context"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality npm install -g billion-context --prefix=~/.local Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression it",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.230072+08:00",
+          "content_sha256": "d9128ff9a06ef410ba495e60143718cf82d726953f13ac3138cd411290c727ba",
+          "excerpt": "small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality npm install -g billion-context --prefix=~/.local Cache health at a glance: a healthy session keeps a 95–97% prefix-cache hit rate — compression it",
+          "sentence_hash": "cd28f20e9e664aceb7ae106661a20a6cf2c6c258a1013a57faa1cb0cc924ac48",
+          "anchors": [
+            "cache",
+            "long",
+            "2%",
+            "97%",
+            "context"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Check attribution with /acp or /acp-cache (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug (please report) · other/unknown.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.230112+08:00",
+          "content_sha256": "d9128ff9a06ef410ba495e60143718cf82d726953f13ac3138cd411290c727ba",
+          "excerpt": "Check attribution with /acp or /acp-cache (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug (please report) · other/unknown.",
+          "sentence_hash": "3074f12ab6747ebb0863c839ca91b5649302768a30fe35c6675f7f554e29e5f3",
+          "anchors": [
+            "cache",
+            "model"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "QQ Group: 1056132097 (full) 1108730198 (full) 1129868472 (open) - Model-Driven Incremental Hierarchical Compression: Training-Free Multi-Generational Context Management for Long-Lived Coding Agents (English, v0.2) 📝 The paper itself is open-sourced under the MIT License as part o",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.230167+08:00",
+          "content_sha256": "d9128ff9a06ef410ba495e60143718cf82d726953f13ac3138cd411290c727ba",
+          "excerpt": "QQ Group: 1056132097 (full) 1108730198 (full) 1129868472 (open) - Model-Driven Incremental Hierarchical Compression: Training-Free Multi-Generational Context Management for Long-Lived Coding Agents (English, v0.2) 📝 The paper itself is open-sourced under the MIT License as part o",
+          "sentence_hash": "18786ff2c499d9810d61d2981b554a47d62aa323dc49de8a239b8a1b36eeb98d",
+          "anchors": [
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "A production-scale longitudinal study: 4.5 months, three hosts, 174,327 model calls, 18.76B cumulative input tokens (~24.7B across all hosts), zero window violations on 204,800-token models, marathon sessions of 8,584–12,049 calls.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.230220+08:00",
+          "content_sha256": "d9128ff9a06ef410ba495e60143718cf82d726953f13ac3138cd411290c727ba",
+          "excerpt": "A production-scale longitudinal study: 4.5 months, three hosts, 174,327 model calls, 18.76B cumulative input tokens (~24.7B across all hosts), zero window violations on 204,800-token models, marathon sessions of 8,584–12,049 calls.",
+          "sentence_hash": "d72243defa3c52b5a2e3f371ae9ca571d3c16c6a049a0bd127930801cc1bde0b",
+          "anchors": [
+            "model",
+            "long"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- 1,500-Item Cross-Benchmark Evaluation (LongMemEval-S · ContextBench · MemoryAgentBench) (中文版) — head-to-head comparison of billion-context (v0.1.202) against full context and 3 RAG arms (bm25, embedding, embedding-rerank) with DeepSeek V4.1 Flash, Qwen3-Embedding-8B, Qwen3-Rera",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-12T08:03:26.230276+08:00",
+          "content_sha256": "d9128ff9a06ef410ba495e60143718cf82d726953f13ac3138cd411290c727ba",
+          "excerpt": "- 1,500-Item Cross-Benchmark Evaluation (LongMemEval-S · ContextBench · MemoryAgentBench) (中文版) — head-to-head comparison of billion-context (v0.1.202) against full context and 3 RAG arms (bm25, embedding, embedding-rerank) with DeepSeek V4.1 Flash, Qwen3-Embedding-8B, Qwen3-Rera",
+          "sentence_hash": "41d5e460a7e8d3ff505ee849fc1ea6d4e7d07029759f6e62f41bfa51cf20b542",
+          "anchors": [
+            "79.20%",
+            "71.1%",
+            "58.3%",
+            "中文版",
+            "100%",
+            "16.6%",
+            "62.60%",
+            "embedding",
+            "context"
+          ]
+        }
+      ],
+      "entities": [
+        "cache",
+        "group",
+        "license",
+        "long",
+        "中文版",
+        "memory",
+        "model",
+        "context",
+        "benchmark evaluation",
+        "faq",
+        "lived coding agents",
+        "qq",
+        "seek",
+        "english",
+        "eval",
+        "agent",
+        "rag",
+        "item cross",
+        "api",
+        "pi agent",
+        "free multi",
+        "anthropic",
+        "deep",
+        "sustained",
+        "open",
+        "flash",
+        "generational context management",
+        "check",
+        "embedding",
+        "utilized",
+        "reranker",
+        "qwen",
+        "mem",
+        "unlike",
+        "mit",
+        "each",
+        "bench",
+        "driven incremental hierarchical compression",
+        "ttl",
+        "training"
+      ],
+      "numbers": [
+        "79.20%",
+        "71.1%",
+        "2%",
+        "100%",
+        "16.6%",
+        "62.60%",
+        "97%",
+        "58.3%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-12-AM.json",
+      "source_artifact_date": "2026-11-12",
+      "freshness_label": "today"
+    }
+  ]
+}
