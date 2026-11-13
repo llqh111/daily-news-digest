@@ -1,0 +1,624 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T00:07:27.595162+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-13.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-12.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_c184015b63fcda1591a449ad",
+      "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "publisher": "The Guardian",
+      "summary": "In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close ties to Nvidia chief Jensen HuangGood morning. Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible. That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America",
+      "category": "国际",
+      "published_at": "2026-11-12T06:43:31+00:00",
+      "why_relevant": "英伟达事件涉华与AI安全",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.215346+08:00",
+          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
+          "excerpt": "Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible.",
+          "sentence_hash": "3ecb34d0b90e1bde37bdf4d86a93674a4e0a5add3bc56e590e76bba40c101528",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America’s most powerful tech companies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.215402+08:00",
+          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
+          "excerpt": "That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America’s most powerful tech companies.",
+          "sentence_hash": "7926d57877f9d4ced53470f46a5d016e5beb448eaac4b8d3c05319bb5a967daa",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "This morning’s newsletter explains what we know about the story, and what it tells us about the effectiveness of Chinese espionage.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.215450+08:00",
+          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
+          "excerpt": "This morning’s newsletter explains what we know about the story, and what it tells us about the effectiveness of Chinese espionage.",
+          "sentence_hash": "a497525d49b9dfaece83f06767b5b0d3629d202498ba40f9c098b1f73fd8d5c7",
+          "anchors": [
+            "us",
+            "espionage",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Five big stories - UK | Ministers are considering changing the law to force the entertainment industry to better protect women and children in the wake of the revelations over David Walliams and the conviction of Russell Brand.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.215493+08:00",
+          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
+          "excerpt": "Five big stories - UK | Ministers are considering changing the law to force the entertainment industry to better protect women and children in the wake of the revelations over David Walliams and the conviction of Russell Brand.",
+          "sentence_hash": "93efd4cddfcd6c1ad52a36afcbfddfab2b735b3d05e3748831289e27fbb6e003",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Climate | The UK government has appointed the world’s first special representative for climate security, in the strongest sign yet of fears that climate breakdown will bring chaos to the country.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.215530+08:00",
+          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
+          "excerpt": "- Climate | The UK government has appointed the world’s first special representative for climate security, in the strongest sign yet of fears that climate breakdown will bring chaos to the country.",
+          "sentence_hash": "86c8473e1ffc10264e7d9ec2813b95294cdd92fa7fd14a7cd86cffecf7e36aa2",
+          "anchors": [
+            "climate"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Europe | Millions of people across Spain have joined the country’s first general strike in 14 years, setting up picket lines to protest against soaring housing prices before an election in which the far right could be catapulted into power.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.215587+08:00",
+          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
+          "excerpt": "- Europe | Millions of people across Spain have joined the country’s first general strike in 14 years, setting up picket lines to protest against soaring housing prices before an election in which the far right could be catapulted into power.",
+          "sentence_hash": "884d6b78de61e423003027a2d00f50d5d51d078777ee871c01cc041d792c7ede",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "jensen",
+        "uk",
+        "us",
+        "megaspeed",
+        "jensen huang",
+        "millions",
+        "police",
+        "spain",
+        "europe",
+        "ministers",
+        "espionage",
+        "ai",
+        "black",
+        "alice huang",
+        "good",
+        "technology",
+        "nvidia",
+        "reconstruction",
+        "everything",
+        "many",
+        "russell brand",
+        "chinese",
+        "china",
+        "last",
+        "climate",
+        "huang",
+        "mississippi",
+        "five",
+        "shanghai",
+        "beijing",
+        "david walliams",
+        "singapore",
+        "democrat scott colom",
+        "america",
+        "new york times"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "source_artifact_date": "2026-11-13",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_5e326091f12d46923a7428e8",
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "US lawmakers now want to question Huang over whether one of his alleged relationships was with a Chinese spy.",
+      "category": "国际",
+      "published_at": "2026-11-12T23:34:05+00:00",
+      "why_relevant": "黄仁勋辞职引发行业震荡",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil - Published Jensen Huang has abruptly quit as chief executive of AI chipmaking giant Nvidia after revelations of alleged extramarital affairs, sending shockwaves from Silicon Valley to Capitol Hi",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.216814+08:00",
+          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
+          "excerpt": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil - Published Jensen Huang has abruptly quit as chief executive of AI chipmaking giant Nvidia after revelations of alleged extramarital affairs, sending shockwaves from Silicon Valley to Capitol Hi",
+          "sentence_hash": "1dbe685ff227d72f3843199e8296956f18d9f84d01ac95ad9ff4a82b1587991d",
+          "anchors": [
+            "ai",
+            "she",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Nvidia is now under scrutiny from US lawmakers in Washington DC demanding Huang answer questions over whether one of his alleged relationships was with a Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.216850+08:00",
+          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
+          "excerpt": "Nvidia is now under scrutiny from US lawmakers in Washington DC demanding Huang answer questions over whether one of his alleged relationships was with a Chinese spy.",
+          "sentence_hash": "8cdf6093c25719ffad3b1d5161c97ed94454470a178627ac6ecb9e888f572f60",
+          "anchors": [
+            "one",
+            "his",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "One of the world's most valuable companies as a result of the AI boom, Nvidia has lost $550bn (Â£415bn) in stock market value in just five days as the scandal dominated headlines.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.216885+08:00",
+          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
+          "excerpt": "One of the world's most valuable companies as a result of the AI boom, Nvidia has lost $550bn (Â£415bn) in stock market value in just five days as the scandal dominated headlines.",
+          "sentence_hash": "830ac0474f68017be0769be6c774ebdebb9638a49d0a3f33b32e76b059317729",
+          "anchors": [
+            "scandal",
+            "us",
+            "$550",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Nvidia's interim CEO, Colette Kress, called an emergency meeting of her executive team to discuss the company's future.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.216911+08:00",
+          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
+          "excerpt": "Nvidia's interim CEO, Colette Kress, called an emergency meeting of her executive team to discuss the company's future.",
+          "sentence_hash": "d7f50f6d02af6195614c8218e9cd77cf65703a95cb689426367810bcd8776746",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Huang, who has been Nvidia's public face since 1993, admitted on Sunday to having been \"unfaithful\" to his wife after reports he had an extramarital affair with a suspected Chinese spy, Alice Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.216954+08:00",
+          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
+          "excerpt": "Huang, who has been Nvidia's public face since 1993, admitted on Sunday to having been \"unfaithful\" to his wife after reports he had an extramarital affair with a suspected Chinese spy, Alice Huang.",
+          "sentence_hash": "688ee3e0eabbff168735b21879dfcfce483d6dfab0b3015d6f761c27837c5164",
+          "anchors": [
+            "his",
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "On Wednesday, he was reported to have had a second relationship, this time with an Nvidia executive.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.216978+08:00",
+          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
+          "excerpt": "On Wednesday, he was reported to have had a second relationship, this time with an Nvidia executive.",
+          "sentence_hash": "95ac0bfefbfa2b52a52388f8a88d82f15b2eeb11e4501298f691daa36893c7ee",
+          "anchors": [
+            "his"
+          ]
+        }
+      ],
+      "entities": [
+        "singaporean",
+        "us",
+        "capitol hill",
+        "megaspeed",
+        "jensen huang",
+        "house foreign affairs committee",
+        "ceo",
+        "thursday",
+        "washington",
+        "justice",
+        "sources",
+        "ai",
+        "kimberly powell",
+        "and",
+        "alice huang",
+        "nvidia",
+        "she",
+        "colette kress",
+        "senate",
+        "sunday",
+        "representatives",
+        "chinese",
+        "scandal",
+        "china",
+        "attorney general todd blanche",
+        "on wednesday",
+        "department",
+        "huang",
+        "silicon valley",
+        "according",
+        "senators elizabeth warren",
+        "published\njensen huang",
+        "bbc",
+        "dc",
+        "wednesday",
+        "beijing",
+        "congress",
+        "democrats",
+        "his",
+        "chris coons",
+        "one",
+        "new york times"
+      ],
+      "numbers": [
+        "$550"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 43
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "source_artifact_date": "2026-11-13",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_71892ecee89c0497926cc05d",
+      "title": "Jensen Huang’s departure may signal tighter US controls on AI chip exports to China",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374270/jensen-huangs-departure-may-signal-tighter-us-controls-ai-chip-exports-china",
+      "publisher": "SCMP",
+      "summary": "Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.\nThe timing is particularly sensitive, with US lawmakers debating an annual defence authorisation bill amid growing calls to tighten restrictions on China’s access to advanced AI chips.\nLing Chen, an associate professor of political economy at Johns Hopkins University,",
+      "category": "国际",
+      "published_at": "2026-11-12T22:35:06+00:00",
+      "why_relevant": "黄仁勋离职或影响芯片出口管制",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.217506+08:00",
+          "content_sha256": "5d5489170462e6149c7515dcf68124ed82fd5dca8e4d5cdf11a1f1a42d963ca8",
+          "excerpt": "Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.",
+          "sentence_hash": "baafe07e1d144290eb529f379efd7a18c7d5639c352ed18a984a71370707e183",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "johns hopkins university",
+        "washington",
+        "ai",
+        "ling chen",
+        "us",
+        "china",
+        "jensen huang",
+        "nvidia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 8
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "source_artifact_date": "2026-11-13",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_c395610f83f05f4601b35ce1",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "publisher": "Simon Willison",
+      "summary": "aws-emulator\nFinally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.\nIt's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog.\nIt currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great ",
+      "category": "科技",
+      "published_at": "2026-11-11T21:18:30+00:00",
+      "why_relevant": "AWS官方本地模拟器用Rust",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "11th November 2026 - Link Blog aws-emulator.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.218445+08:00",
+          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
+          "excerpt": "11th November 2026 - Link Blog aws-emulator.",
+          "sentence_hash": "c3152df966b54b3a0ac68c5fc5ce6299f41977cb7ac996222f62d2b45165962e",
+          "anchors": [
+            "November 20",
+            "aws"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.218476+08:00",
+          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
+          "excerpt": "Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.",
+          "sentence_hash": "7f3294c1310e2226dfc2cf645abc3a449bc18afb3966a67efeec48d18bb1c86c",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.218498+08:00",
+          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
+          "excerpt": "It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project.",
+          "sentence_hash": "bc93f5bc55a9b0dad7bc2158c035f66f8d172c67f09fe40a1d6bbd5869f7be70",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Recent articles - Locating the source of a mysterious beep with Claude - 9th November 2026 - Hide your slop PR descriptions behind <details><summary> - 9th November 2026 - Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026 - The U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.218544+08:00",
+          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
+          "excerpt": "Recent articles - Locating the source of a mysterious beep with Claude - 9th November 2026 - Hide your slop PR descriptions behind <details><summary> - 9th November 2026 - Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026 - The U.S.",
+          "sentence_hash": "f1ce9a5121d8fb5b73b9c44b69fdc5e78953163494b14c98b938096460db330f",
+          "anchors": [
+            "November 20",
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Census Bureau and “Super Intelligence” - 2nd November 2026",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.218565+08:00",
+          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
+          "excerpt": "Census Bureau and “Super Intelligence” - 2nd November 2026",
+          "sentence_hash": "f4b75401c00dbdb5dc56498780cf58f06ca9bcde9bc83d743a54ace4f719e321",
+          "anchors": [
+            "November 20"
+          ]
+        }
+      ],
+      "entities": [
+        "aws",
+        "finally",
+        "link blog",
+        "rust",
+        "sivasubramanian",
+        "locating",
+        "super intelligence",
+        "hide",
+        "windows",
+        "swami",
+        "docker",
+        "pr",
+        "api",
+        "qwen",
+        "werner vogels",
+        "claude",
+        "census bureau",
+        "recent",
+        "november",
+        "swaminathan"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 21
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "source_artifact_date": "2026-11-13",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_09f35b905c8b319428fcdc73",
+      "title": "Red Dead Redemption 2’s Modded Ray Tracing Cuts RTX 5080 Performance From 110 FPS to 50 FPS at 4K With NVIDIA DLSS",
+      "url": "https://wccftech.com/red-dead-redemption-2-ray-tracing-cuts-rtx-5080-performance-4k/",
+      "publisher": "Wccftech",
+      "summary": "Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series by Rockstar Games with the Reality Redemption 2 graphics overhaul. Sadly, the subtle yet welcome improvements the mod brings come at a high cost, as one of the most powerful GPUs on the market, an RTX 5080 GPU, struggles",
+      "category": "科技",
+      "published_at": "2026-11-12T16:31:04+00:00",
+      "why_relevant": "MOD光追对RTX5080性能影响",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.219476+08:00",
+          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
+          "excerpt": "Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series ",
+          "sentence_hash": "72aa71f6e74a8a9ffdc1f426612e92af806b8b67da7fc93c3c60c96288971210",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Sadly, the subtle yet welcome improvements the mod brings come at a high cost, as one of the most powerful GPUs on the market, an RTX 5080 GPU, struggles to push past 60 FPS in most scenarios at 4K resolution and with NVIDIA DLSS 4.5.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.219516+08:00",
+          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
+          "excerpt": "Sadly, the subtle yet welcome improvements the mod brings come at a high cost, as one of the most powerful GPUs on the market, an RTX 5080 GPU, struggles to push past 60 FPS in most scenarios at 4K resolution and with NVIDIA DLSS 4.5.",
+          "sentence_hash": "0339141000b9334bf3dc42704c15d9f1d6bbdb1f12073694fb5757c4faebb472",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "A new comparison video shared by MxBenchmarkPC provides a good overview of what Reality Redemption 2's ray tracing features bring to the game.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.219541+08:00",
+          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
+          "excerpt": "A new comparison video shared by MxBenchmarkPC provides a good overview of what Reality Redemption 2's ray tracing features bring to the game.",
+          "sentence_hash": "85800a25ff7b701e5ee4ec0512dde30a3be1e13413b32682b9d084c1b09a9f5a",
+          "anchors": [
+            "vi"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "At 4K resolution with NVIDIA DLSS 4.5 in Quality Mode, the game drops from the 110 FPS range to the 50 FPS range, with an over 50% performance drop, making the subtle improvements the mod introduces not worth the performance cost, stressing again how demanding the tech can be on ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.219588+08:00",
+          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
+          "excerpt": "At 4K resolution with NVIDIA DLSS 4.5 in Quality Mode, the game drops from the 110 FPS range to the 50 FPS range, with an over 50% performance drop, making the subtle improvements the mod introduces not worth the performance cost, stressing again how demanding the tech can be on ",
+          "sentence_hash": "3feb68dcf20f45263f0872d82bbd571057d263fef38f989e4f9715f919043d8d",
+          "anchors": [
+            "with",
+            "50%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "With NVIDIA DLSS 4.5 in Performance Mode or at 1440p resolution, the game easily exceeds 60 FPS, reaching up to 120 FPS at 1440p with NVIDIA DLSS 4.5 in Quality Mode, so good performance is still possible by lowering some settings accordingly.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.219622+08:00",
+          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
+          "excerpt": "With NVIDIA DLSS 4.5 in Performance Mode or at 1440p resolution, the game easily exceeds 60 FPS, reaching up to 120 FPS at 1440p with NVIDIA DLSS 4.5 in Quality Mode, so good performance is still possible by lowering some settings accordingly.",
+          "sentence_hash": "de1944cc08f193ae3cf492049f530e1ca9df8b762a06d312566aaea95917edc9",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Considering that Red Dead Redemption 2 is still stuck at 30 FPS on consoles, since it never received the long-rumored PlayStation 5 and Xbox Series X|S update, playing the game with modded ray tracing at 50 FPS would still be an improvement for those who only played the game on a",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-13T08:03:44.219661+08:00",
+          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
+          "excerpt": "Considering that Red Dead Redemption 2 is still stuck at 30 FPS on consoles, since it never received the long-rumored PlayStation 5 and Xbox Series X|S update, playing the game with modded ray tracing at 50 FPS would still be an improvement for those who only played the game on a",
+          "sentence_hash": "c65686dc1915b0a250dc7aa596588a3fbe2aeb95229c245853ab5fd792bb8125",
+          "anchors": [
+            "with",
+            "play"
+          ]
+        }
+      ],
+      "entities": [
+        "rockstar games",
+        "gpu",
+        "quality mode",
+        "badass",
+        "reality redemption",
+        "follow wccftech",
+        "rtgi",
+        "rtx",
+        "sadly",
+        "play",
+        "pc",
+        "while",
+        "red dead redemption",
+        "considering",
+        "vi",
+        "baboon",
+        "nvidia",
+        "grand theft auto",
+        "dlss",
+        "with",
+        "google",
+        "station",
+        "benchmark",
+        "xbox series",
+        "performance mode",
+        "november",
+        "fps"
+      ],
+      "numbers": [
+        "50%"
+      ],
+      "dates": [
+        "November 19"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "source_artifact_date": "2026-11-13",
+      "freshness_label": "today"
+    }
+  ]
+}

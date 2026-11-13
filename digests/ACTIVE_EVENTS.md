@@ -1,6 +1,75 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-12 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-13 08:07。
+
+## Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261113_65a075134997`
+
+## Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil - Published Jensen Huang has abruptly quit as chief executive of AI chipmaking giant Nvidia after revelations of alleged extramarital affairs, sending shockwaves from Silicon Valley to Capitol Hi
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261113_075344ac004d`
+
+## EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_5459618e5620`
+
+## Jensen Huang’s departure may signal tighter US controls on AI chip exports to China
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_45acc6ca7368`
+
+## Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_b9e85e383474`
+
+## aws-emulator
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：11th November 2026 - Link Blog aws-emulator.
+- 事件 ID：`evt_20261113_8beb7e9ae922`
+
+## Red Dead Redemption 2’s Modded Ray Tracing Cuts RTX 5080 Performance From 110 FPS to 50 FPS at 4K With NVIDIA DLSS
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series 
+- 事件 ID：`evt_20261113_e0751192c2eb`
+
+## Anthropic's IPO roadshow video
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：11th November 2026 - Link Blog Anthropic's IPO roadshow video.
+- 事件 ID：`evt_20261113_cafe5999bfda`
+
+## North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：crackdown as DOJ targets $1.2 billion in stolen crypto
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_9d7e3a1ca5e8`
+
+## Anthropic’s IPO Is About Six Times Oversubscribed
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_40bcd1591314`
+
+## SpaceX, Tesla merger talks progress, Bloomberg News reports
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_bec677779c69`
+
+## Gemini Decisions API
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 最新事实：11th November 2026 - Link Blog Gemini Decisions API (via) Google join Jev and OpenAI in the decision model category with "Gemini Decision 1".
+- 事件 ID：`evt_20261113_673ffdf37e64`
+
+## AI boom will lift Nvidia even after Huang’s exit, investors say
+- 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261113_0cf27e873acc`
 
 ## addyosmani/agent-skills
 - 状态：更新中；首见 2026-09-19；最近更新 2026-11-12
