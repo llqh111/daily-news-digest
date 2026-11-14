@@ -1,0 +1,720 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T00:07:05.948393+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-14.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-13.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_fd7a1393ae58fbba2eef26ca",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+      "category": "国际",
+      "published_at": "2026-11-13T19:53:57+00:00",
+      "why_relevant": "英伟达丑闻发酵",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536713+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca",
+          "sentence_hash": "70c837b8321912f8de6638a6a977d07c37662cf6287f5300ff727fd31a50e468",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Pressure is building on Lutnick from across the political spectrum to explain his department's actions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536740+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Pressure is building on Lutnick from across the political spectrum to explain his department's actions.",
+          "sentence_hash": "b05bb156240df5a49bb1b9bfa3ff2b74670d3db60f0c2bd6a33f66e783982273",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Jensen Huang was ousted as Nvidia CEO after revelations he had an affair with a businesswoman who was also allegedly a Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536762+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Jensen Huang was ousted as Nvidia CEO after revelations he had an affair with a businesswoman who was also allegedly a Chinese spy.",
+          "sentence_hash": "58c7dcb899c29dbcc13519a580e0dfc7e2dec2b53d6fe757db64e1ea152974bc",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Megaspeed, the firm she worked for, had been probed by US government agencies over suspicions it was smuggling Nvidia chips into China, reports said, but it is not on a list of firms US companies are prevented from working with.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536789+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Megaspeed, the firm she worked for, had been probed by US government agencies over suspicions it was smuggling Nvidia chips into China, reports said, but it is not on a list of firms US companies are prevented from working with.",
+          "sentence_hash": "473efd8664a15d90e0f706f01eeebb215dbdd28fa39b2b84829cf543d653c6bb",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536822+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Huang.",
+          "sentence_hash": "81dacd4295bd8e39523c1ee43ff12ba689b74b9cebb14abd406151ca608170d3",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Bessent said he was \"frustrated\" by delays in putting the company on the export control list and reports of leakage of AI chips into China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536844+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Bessent said he was \"frustrated\" by delays in putting the company on the export control list and reports of leakage of AI chips into China.",
+          "sentence_hash": "da25af50e7b698f861de67ad85ad2d1c498cfcb58efc584dde354d46074e5b85",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "pressure",
+        "treasury secretary scott bessent",
+        "lutnick",
+        "nvidia",
+        "other",
+        "jensen huang",
+        "ceo",
+        "senate banking committee",
+        "there",
+        "but commerce",
+        "us",
+        "president trump",
+        "commerce secretary lutnick",
+        "cnbc",
+        "howard lutnick",
+        "did nvidia",
+        "megaspeed",
+        "squawk box",
+        "trump",
+        "bessent",
+        "commerce department",
+        "chinese",
+        "huang",
+        "president donald trump",
+        "published",
+        "however",
+        "financial times",
+        "ai",
+        "new york times",
+        "china",
+        "last"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_4ae04b8d90ffcdc0488c1b53",
+      "title": "US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials",
+      "publisher": "SCMP",
+      "summary": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for Chinese intelligence.\nThree Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.\n“As reports continue to come to light...",
+      "category": "国际",
+      "published_at": "2026-11-13T22:16:27+00:00",
+      "why_relevant": "国会扩大英伟达调查",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.537112+08:00",
+          "content_sha256": "52234e63f320afd4f7d270519d42f735505c8a7309cbd51a2a9764bacc9e6d08",
+          "excerpt": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C",
+          "sentence_hash": "5b731427097442b3cbd656f56e65828e8ff5ac1e9b4952645d4783b0a13450b9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.537129+08:00",
+          "content_sha256": "52234e63f320afd4f7d270519d42f735505c8a7309cbd51a2a9764bacc9e6d08",
+          "excerpt": "Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.",
+          "sentence_hash": "a825894f89eb61c1de8dd588acc2f9d516c6dcca98e3462c9f004a8d2ce316b3",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "tim scott",
+        "chinese",
+        "thursday",
+        "nvidia",
+        "huang",
+        "jensen huang",
+        "white house",
+        "senate banking committee",
+        "china",
+        "three republican house",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 11
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_dcaaa7b3dcf5a4797ac830a8",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "publisher": "GitHub Trending",
+      "summary": "An open-source AI coding agent that lives in your terminal.https://qwenlm.github.io/qwen-code-docs/en/users/overview \n     \n  \n The open-source AI coding agent for your terminal, editor, desktop, browser, and chat. \n 中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 \n \n \n \n  \n   \n   Qwen Code 1.0 Preview \n   \n  \n  \n   \n   Qwen Code 1.0 Preview brings together the agent harness capabilities of Qoder and Qwen Code in an open-source release.Try Qwen Code 1.0 Preview · Documentation",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源终端AI编码代理",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538049+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.",
+          "sentence_hash": "82caabda6fcdb758f84f364f7d53173ca7e612c8082fd1151615154607b535de",
+          "anchors": [
+            "for",
+            "chat",
+            "desktop",
+            "ding",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 - Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538086+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 - Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP.",
+          "sentence_hash": "2c36855b2f1cfc7a5964f3338879dec08bb4bf70a3fd985329f5e0221fd31a58",
+          "anchors": [
+            "ai",
+            "日本語",
+            "中文"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Dynamic workflows, zero setup.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538101+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "Dynamic workflows, zero setup.",
+          "sentence_hash": "31860996c8f2b8fd4cfbc6878d09eb2433975f43a1fa61be8e00dfd345f465c5",
+          "anchors": [
+            "set"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Open-source, inside and out — The framework and the Qwen models are open-source.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538128+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "- Open-source, inside and out — The framework and the Qwen models are open-source.",
+          "sentence_hash": "f0405687e09a009eab15f4f858650babb59258fb694a787088217244d2fe4ae7",
+          "anchors": [
+            "open",
+            "inside",
+            "ide"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They evolve together.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538141+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "They evolve together.",
+          "sentence_hash": "5bcdaa20de83ede62f9cd4eff0bd3a86cc43b69962ed235757c465fd8638d3a0",
+          "anchors": [
+            "get"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Multi-protocol — Supports OpenAI, Anthropic, Gemini, and Qwen APIs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538168+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "- Multi-protocol — Supports OpenAI, Anthropic, Gemini, and Qwen APIs.",
+          "sentence_hash": "c3355927a35d88ad9b35b2d99dd2854df261e35ca6c3e920aa8594a1c762e96a",
+          "anchors": [
+            "pro"
+          ]
+        }
+      ],
+      "entities": [
+        "switch",
+        "homebrew",
+        "powered",
+        "choose",
+        "telegram",
+        "中文",
+        "beyond",
+        "none",
+        "dynamic",
+        "plus",
+        "portugu",
+        "java",
+        "sub",
+        "restart",
+        "pro",
+        "acp",
+        "desktop",
+        "linux",
+        "subscription",
+        "build",
+        "see",
+        "http",
+        "npm",
+        "agent teams",
+        "日本語",
+        "tip\nqwen code",
+        "mcp",
+        "sse",
+        "agentic",
+        "script",
+        "node",
+        "claude code",
+        "chat",
+        "codex",
+        "auto",
+        "any",
+        "brasil",
+        "ding",
+        "anthropic",
+        "ide",
+        "windows",
+        "summarize",
+        "gemini",
+        "headless",
+        "ollama",
+        "set",
+        "python",
+        "get",
+        "open",
+        "ui",
+        "for",
+        "daemon",
+        "authentication guide",
+        "settings reference",
+        "run qwen code",
+        "they",
+        "memory",
+        "computer use",
+        "multi",
+        "looking",
+        "deutsch",
+        "type",
+        "talk",
+        "inside",
+        "repl",
+        "web",
+        "ci",
+        "supports open",
+        "skills",
+        "sdk",
+        "agents",
+        "feishu",
+        "api",
+        "qwen account",
+        "explain",
+        "qwen",
+        "then",
+        "run",
+        "preview",
+        "ai",
+        "qwen code",
+        "cd"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 82
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_23804e1f760157ed0ae2028a",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "publisher": "TechCrunch",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "category": "科技",
+      "published_at": "2026-11-13T19:37:57+00:00",
+      "why_relevant": "LangChain估值30亿",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538802+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
+          "sentence_hash": "71ce9e637fa87575b4a1d8a2dcc9b0f190b38a32f4ffcfb55b5d076af2de6cfd",
+          "anchors": [
+            "300 million",
+            "3 billion",
+            "$300 million",
+            "ai",
+            "with",
+            "$3 billion"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538825+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+          "sentence_hash": "a4a7bedc0daec53ab6d305a71510f8afcee1ea1dd3345b71902aa469bce7fb19",
+          "anchors": [
+            "1.25 billion",
+            "$125 million",
+            "$1.25 billion",
+            "125 million",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538851+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+          "sentence_hash": "0f5d3ee069d8d293447eee62e499b9da69e305b43b659607620b574325972282",
+          "anchors": [
+            "ai",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538872+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
+          "sentence_hash": "0141618121306314046801d05cb7e24067b1568aa25d0663b27117124c62f7bc",
+          "anchors": [
+            "ai",
+            "agent"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538891+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
+          "sentence_hash": "721a0e71e6739826bde0826f3b69b209642e31039d4abe854e5bf16d10259cb2",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538915+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.",
+          "sentence_hash": "f9e71327ad81eed4361061b013bed2e70d1ba3a1b0bfd9701d79dec55a06264c",
+          "anchors": [
+            "agent"
+          ]
+        }
+      ],
+      "entities": [
+        "clay",
+        "toyota",
+        "true",
+        "nvidia",
+        "agent",
+        "friday",
+        "gic",
+        "capital",
+        "harvey",
+        "with",
+        "dfj",
+        "mintive",
+        "smith",
+        "series",
+        "growth",
+        "rippling",
+        "chain",
+        "sapphire ventures",
+        "however",
+        "salesforce",
+        "lang",
+        "ai",
+        "singapore",
+        "ivp"
+      ],
+      "numbers": [
+        "1.25 billion",
+        "300 million",
+        "3 billion",
+        "$1.25 billion",
+        "$125 million",
+        "125 million",
+        "$300 million",
+        "$3 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_64d929f3f53a7981bd1c06cf",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas\nComments URL: https://news.ycombinator.com/item?id=50487864\nPoints: 264\n# Comments: 144",
+      "category": "科技",
+      "published_at": "2026-11-13T18:40:44+00:00",
+      "why_relevant": "英伟达硬件运输失踪",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539882+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.",
+          "sentence_hash": "29c6d2f6afe7a7ce2c417833eaceb461de8f04142c5efd95461029eafa1419ed",
+          "anchors": [
+            "11.4 million",
+            "during",
+            "$11.4 million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The disappearance comes amid reports of nearly $111 million in stolen data center freight involving other high-value technology shipments.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539923+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "The disappearance comes amid reports of nearly $111 million in stolen data center freight involving other high-value technology shipments.",
+          "sentence_hash": "b74c77e01904f6936405d3605bd3ceaad7d1080c9836985bfc2ef24d51bf2b75",
+          "anchors": [
+            "freight",
+            "111 million",
+            "$111 million"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "According to The Mercury News, the vehicle displayed a food transportation company’s logo during the scheduled pickup.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539946+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "According to The Mercury News, the vehicle displayed a food transportation company’s logo during the scheduled pickup.",
+          "sentence_hash": "83987d0b83783197b86f30fcd0e340cff1262bce54ae7006d7d92400a6b0cd91",
+          "anchors": [
+            "during"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "A separate $12 million cargo theft investigation involved suspects who allegedly exploited established trucking identities to obtain freight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539974+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "A separate $12 million cargo theft investigation involved suspects who allegedly exploited established trucking identities to obtain freight.",
+          "sentence_hash": "731df1d3bb8ceb6cc62f9c036dc1b5cba808a3f6927b39a859203b8d0580e2c2",
+          "anchors": [
+            "freight",
+            "12 million",
+            "$12 million"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Oakland police confirm investigation The Oakland Police Department provided FreightWaves with the following statement: “The Oakland Police Department (OPD) is investigating a grand theft that occurred in East Oakland.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540006+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "Oakland police confirm investigation The Oakland Police Department provided FreightWaves with the following statement: “The Oakland Police Department (OPD) is investigating a grand theft that occurred in East Oakland.",
+          "sentence_hash": "d8cd5e2185ce41895ac568045c0e3f0454e6b18256c87fe7c90ae1bfa3c0ae9a",
+          "anchors": [
+            "police"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The victim reported the crime to OPD on September 13, 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540022+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "The victim reported the crime to OPD on September 13, 2026.",
+          "sentence_hash": "454c7d8c984c839fb339eafd1b414f3836dd4af20443f818df39558f91412728",
+          "anchors": [
+            "September 13"
+          ]
+        }
+      ],
+      "entities": [
+        "the mercury news",
+        "california",
+        "authorities",
+        "san bernardino county",
+        "nvidia",
+        "sept",
+        "fremont",
+        "plus",
+        "fort worth",
+        "the oakland",
+        "opd",
+        "previous",
+        "police",
+        "september",
+        "the oakland police department",
+        "east oakland",
+        "northern california",
+        "the sept",
+        "waves",
+        "oakland",
+        "six",
+        "according",
+        "union city",
+        "southern california",
+        "those",
+        "freight",
+        "during",
+        "investigators",
+        "general crimes unit",
+        "aug",
+        "newark",
+        "texas"
+      ],
+      "numbers": [
+        "111 million",
+        "11.4 million",
+        "12 million",
+        "$11.4 million",
+        "$111 million",
+        "$12 million",
+        "7.5 million",
+        "$7.5 million"
+      ],
+      "dates": [
+        "September 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
+      "freshness_label": "today"
+    }
+  ]
+}

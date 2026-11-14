@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-13 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-14 08:07。
+
+## Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261114_9ac42bfe68f0`
+
+## US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261114_a57e5220925e`
+
+## QwenLM/qwen-code
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261114_323509638ed7`
+
+## AI agent startup LangChain hits $3B valuation
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261114_444382312fbe`
+
+## $11.4M in Nvidia hardware vanishes during shipment from CA to TX
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.
+- 事件 ID：`evt_20261114_3bc1bd1e151b`
+
+## Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：But the selling on Wall Street accelerated in the past few days, sending the stock to its sixth straight weekly drop, the longest losing streak since 2012.
+- 事件 ID：`evt_20261114_64ed06cd2ab1`
+
+## Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit November 13, 2026 An unprecedented meeting between the leaders of China, Russia and the United States could be happening on the sidelines of Asia-Pacific Economic Cooperation (APEC) summit in China's tech hub of 
+- 事件 ID：`evt_20261114_3fab257ab1b6`
+
+## Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261114_6764db3b0e64`
+
+## FAA grounds US flights nationwide after ‘communication issue’
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：FAA grounds US flights nationwide after ‘communication issue’ US Transportation Secretary Sean Duffy says federal aviation agency is ‘investigating the issue’.
+- 事件 ID：`evt_20261114_b86222afd167`
+
+## ashhart/TensorFold
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261114_cc85feefb6dc`
+
+## Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261114_d2f9edbfd711`
+
+## Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：The tech-heavy Nasdaq dropped 0.91% to 25,136.27, while the S&P 500 slid 0.4% to 7,561.67.
+- 事件 ID：`evt_20261114_d52c7f54c0cd`
+
+## Is the AI bubble bursting just as Anthropic goes public?
+- 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
+- 最新事实：Is the AI bubble bursting just as Anthropic goes public?
+- 事件 ID：`evt_20261114_23cce2fc8caf`
 
 ## Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair
 - 状态：更新中；首见 2026-11-13；最近更新 2026-11-13
@@ -1869,69 +1941,4 @@
 - 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
 - 最新事实：Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.
 - 事件 ID：`evt_20261015_cc20514845c1`
-
-## Saudi OpenAI engineer arrested by FBI for planting covert recording device, US DOJ says
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261014_44d5177f69e5`
-
-## Ukraine allies in Poland after Starlink sabotage, Trump diesel deal
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：Ukraine allies in Poland after Starlink sabotage, Trump diesel deal October 13, 2026 The foreign ministers of Germany, Norway, Poland and the UK spoke at the Warsaw Security Forum on Tuesday.
-- 事件 ID：`evt_20261014_3cb332a7e59f`
-
-## Fed Governor Cook's lawyer denounces Trump's latest attempt to remove her
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261014_fa970121aeaa`
-
-## MI5 chief warns of threats to UK from Russia, Iran and AI
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：MI5 chief warns of threats to UK from Russia, Iran and AI - Published MI5 is devoting more resource to countering state threats than during the Cold War, the head of the intelligence service has said.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261014_fd6873d2b3bf`
-
-## Loud booms heard near Saudi Aramco headquarters in Dhahran, sources say
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261014_d47f3988da70`
-
-## Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines - Published Four years after one of the most dramatic acts of sabotage in modern European history, a Ukrainian man goes on trial in Hamburg on Wednesday accused of blowing up Russia's Nord Stream gas pipe
-- 事件 ID：`evt_20261014_9385bce53cda`
-
-## lyogavin/airllm
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261014_97d284d111b5`
-
-## microsoft/BitNet
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261014_3a957f9f9f71`
-
-## IMF flags risks to global economy from AI market correction, war and debt
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261014_ea3508cc899c`
-
-## open-webui/open-webui
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：Open WebUI is a home for AI, a self-hosted AI platform that's extensible, feature-rich, user-friendly, and built to run entirely offline.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261014_20c3bf7d1c82`
-
-## bilawalsidhu/gods-eye-view
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
-- 事件 ID：`evt_20261014_3ea1a870cbe0`
-
-## Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-14
-- 最新事实：Bitcoin, ether slip and rebound as South Korean stocks slide on AI-related concerns Investors are positioning ahead of today's bank earnings reports and Wednesday’s U.S.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261014_1fe0eb02ef5d`
 

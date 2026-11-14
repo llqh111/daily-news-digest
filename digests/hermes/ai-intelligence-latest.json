@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T00:07:27.595162+00:00",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T00:07:05.948393+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-13.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-14.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-12.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-13.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,130 +23,124 @@
   },
   "items": [
     {
-      "article_id": "a1_c184015b63fcda1591a449ad",
-      "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
-      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
-      "publisher": "The Guardian",
-      "summary": "In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close ties to Nvidia chief Jensen HuangGood morning. Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible. That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America",
+      "article_id": "a1_fd7a1393ae58fbba2eef26ca",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
       "category": "国际",
-      "published_at": "2026-11-12T06:43:31+00:00",
-      "why_relevant": "英伟达事件涉华与AI安全",
+      "published_at": "2026-11-13T19:53:57+00:00",
+      "why_relevant": "英伟达丑闻发酵",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible.",
+          "text": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.215346+08:00",
-          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
-          "excerpt": "Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible.",
-          "sentence_hash": "3ecb34d0b90e1bde37bdf4d86a93674a4e0a5add3bc56e590e76bba40c101528",
+          "captured_at": "2026-11-14T08:03:07.536713+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca",
+          "sentence_hash": "70c837b8321912f8de6638a6a977d07c37662cf6287f5300ff727fd31a50e468",
           "anchors": [
-            "us"
+            "ai"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America’s most powerful tech companies.",
+          "text": "Pressure is building on Lutnick from across the political spectrum to explain his department's actions.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.215402+08:00",
-          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
-          "excerpt": "That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America’s most powerful tech companies.",
-          "sentence_hash": "7926d57877f9d4ced53470f46a5d016e5beb448eaac4b8d3c05319bb5a967daa",
+          "captured_at": "2026-11-14T08:03:07.536740+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Pressure is building on Lutnick from across the political spectrum to explain his department's actions.",
+          "sentence_hash": "b05bb156240df5a49bb1b9bfa3ff2b74670d3db60f0c2bd6a33f66e783982273",
           "anchors": [
-            "us",
             "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "This morning’s newsletter explains what we know about the story, and what it tells us about the effectiveness of Chinese espionage.",
+          "text": "Jensen Huang was ousted as Nvidia CEO after revelations he had an affair with a businesswoman who was also allegedly a Chinese spy.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.215450+08:00",
-          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
-          "excerpt": "This morning’s newsletter explains what we know about the story, and what it tells us about the effectiveness of Chinese espionage.",
-          "sentence_hash": "a497525d49b9dfaece83f06767b5b0d3629d202498ba40f9c098b1f73fd8d5c7",
+          "captured_at": "2026-11-14T08:03:07.536762+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Jensen Huang was ousted as Nvidia CEO after revelations he had an affair with a businesswoman who was also allegedly a Chinese spy.",
+          "sentence_hash": "58c7dcb899c29dbcc13519a580e0dfc7e2dec2b53d6fe757db64e1ea152974bc",
           "anchors": [
-            "us",
-            "espionage",
-            "ai"
+            "ai",
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Five big stories - UK | Ministers are considering changing the law to force the entertainment industry to better protect women and children in the wake of the revelations over David Walliams and the conviction of Russell Brand.",
+          "text": "Megaspeed, the firm she worked for, had been probed by US government agencies over suspicions it was smuggling Nvidia chips into China, reports said, but it is not on a list of firms US companies are prevented from working with.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.215493+08:00",
-          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
-          "excerpt": "Five big stories - UK | Ministers are considering changing the law to force the entertainment industry to better protect women and children in the wake of the revelations over David Walliams and the conviction of Russell Brand.",
-          "sentence_hash": "93efd4cddfcd6c1ad52a36afcbfddfab2b735b3d05e3748831289e27fbb6e003",
+          "captured_at": "2026-11-14T08:03:07.536789+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Megaspeed, the firm she worked for, had been probed by US government agencies over suspicions it was smuggling Nvidia chips into China, reports said, but it is not on a list of firms US companies are prevented from working with.",
+          "sentence_hash": "473efd8664a15d90e0f706f01eeebb215dbdd28fa39b2b84829cf543d653c6bb",
           "anchors": [
-            "us",
-            "ai"
+            "ai",
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "- Climate | The UK government has appointed the world’s first special representative for climate security, in the strongest sign yet of fears that climate breakdown will bring chaos to the country.",
+          "text": "Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Huang.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.215530+08:00",
-          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
-          "excerpt": "- Climate | The UK government has appointed the world’s first special representative for climate security, in the strongest sign yet of fears that climate breakdown will bring chaos to the country.",
-          "sentence_hash": "86c8473e1ffc10264e7d9ec2813b95294cdd92fa7fd14a7cd86cffecf7e36aa2",
+          "captured_at": "2026-11-14T08:03:07.536822+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Huang.",
+          "sentence_hash": "81dacd4295bd8e39523c1ee43ff12ba689b74b9cebb14abd406151ca608170d3",
           "anchors": [
-            "climate"
+            "ai"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "- Europe | Millions of people across Spain have joined the country’s first general strike in 14 years, setting up picket lines to protest against soaring housing prices before an election in which the far right could be catapulted into power.",
+          "text": "Bessent said he was \"frustrated\" by delays in putting the company on the export control list and reports of leakage of AI chips into China.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.215587+08:00",
-          "content_sha256": "999db910d5a77612acd8c53d2b647c6568411aa27cda739b02386fed28c8c873",
-          "excerpt": "- Europe | Millions of people across Spain have joined the country’s first general strike in 14 years, setting up picket lines to protest against soaring housing prices before an election in which the far right could be catapulted into power.",
-          "sentence_hash": "884d6b78de61e423003027a2d00f50d5d51d078777ee871c01cc041d792c7ede",
+          "captured_at": "2026-11-14T08:03:07.536844+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Bessent said he was \"frustrated\" by delays in putting the company on the export control list and reports of leakage of AI chips into China.",
+          "sentence_hash": "da25af50e7b698f861de67ad85ad2d1c498cfcb58efc584dde354d46074e5b85",
           "anchors": [
-            "us",
-            "ai"
+            "ai",
+            "us"
           ]
         }
       ],
       "entities": [
-        "jensen",
-        "uk",
-        "us",
-        "megaspeed",
-        "jensen huang",
-        "millions",
-        "police",
-        "spain",
-        "europe",
-        "ministers",
-        "espionage",
-        "ai",
-        "black",
-        "alice huang",
-        "good",
-        "technology",
+        "pressure",
+        "treasury secretary scott bessent",
+        "lutnick",
         "nvidia",
-        "reconstruction",
-        "everything",
-        "many",
-        "russell brand",
+        "other",
+        "jensen huang",
+        "ceo",
+        "senate banking committee",
+        "there",
+        "but commerce",
+        "us",
+        "president trump",
+        "commerce secretary lutnick",
+        "cnbc",
+        "howard lutnick",
+        "did nvidia",
+        "megaspeed",
+        "squawk box",
+        "trump",
+        "bessent",
+        "commerce department",
         "chinese",
-        "china",
-        "last",
-        "climate",
         "huang",
-        "mississippi",
-        "five",
-        "shanghai",
-        "beijing",
-        "david walliams",
-        "singapore",
-        "democrat scott colom",
-        "america",
-        "new york times"
+        "president donald trump",
+        "published",
+        "however",
+        "financial times",
+        "ai",
+        "new york times",
+        "china",
+        "last"
       ],
       "numbers": [],
       "dates": [],
@@ -157,203 +151,62 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 35
+        "anchor_count": 31
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
-      "source_artifact_date": "2026-11-13",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_5e326091f12d46923a7428e8",
-      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "US lawmakers now want to question Huang over whether one of his alleged relationships was with a Chinese spy.",
+      "article_id": "a1_4ae04b8d90ffcdc0488c1b53",
+      "title": "US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials",
+      "publisher": "SCMP",
+      "summary": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for Chinese intelligence.\nThree Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.\n“As reports continue to come to light...",
       "category": "国际",
-      "published_at": "2026-11-12T23:34:05+00:00",
-      "why_relevant": "黄仁勋辞职引发行业震荡",
+      "published_at": "2026-11-13T22:16:27+00:00",
+      "why_relevant": "国会扩大英伟达调查",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil - Published Jensen Huang has abruptly quit as chief executive of AI chipmaking giant Nvidia after revelations of alleged extramarital affairs, sending shockwaves from Silicon Valley to Capitol Hi",
+          "text": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.216814+08:00",
-          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
-          "excerpt": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil - Published Jensen Huang has abruptly quit as chief executive of AI chipmaking giant Nvidia after revelations of alleged extramarital affairs, sending shockwaves from Silicon Valley to Capitol Hi",
-          "sentence_hash": "1dbe685ff227d72f3843199e8296956f18d9f84d01ac95ad9ff4a82b1587991d",
-          "anchors": [
-            "ai",
-            "she",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Nvidia is now under scrutiny from US lawmakers in Washington DC demanding Huang answer questions over whether one of his alleged relationships was with a Chinese spy.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.216850+08:00",
-          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
-          "excerpt": "Nvidia is now under scrutiny from US lawmakers in Washington DC demanding Huang answer questions over whether one of his alleged relationships was with a Chinese spy.",
-          "sentence_hash": "8cdf6093c25719ffad3b1d5161c97ed94454470a178627ac6ecb9e888f572f60",
-          "anchors": [
-            "one",
-            "his",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "One of the world's most valuable companies as a result of the AI boom, Nvidia has lost $550bn (Â£415bn) in stock market value in just five days as the scandal dominated headlines.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.216885+08:00",
-          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
-          "excerpt": "One of the world's most valuable companies as a result of the AI boom, Nvidia has lost $550bn (Â£415bn) in stock market value in just five days as the scandal dominated headlines.",
-          "sentence_hash": "830ac0474f68017be0769be6c774ebdebb9638a49d0a3f33b32e76b059317729",
-          "anchors": [
-            "scandal",
-            "us",
-            "$550",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Nvidia's interim CEO, Colette Kress, called an emergency meeting of her executive team to discuss the company's future.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.216911+08:00",
-          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
-          "excerpt": "Nvidia's interim CEO, Colette Kress, called an emergency meeting of her executive team to discuss the company's future.",
-          "sentence_hash": "d7f50f6d02af6195614c8218e9cd77cf65703a95cb689426367810bcd8776746",
+          "captured_at": "2026-11-14T08:03:07.537112+08:00",
+          "content_sha256": "52234e63f320afd4f7d270519d42f735505c8a7309cbd51a2a9764bacc9e6d08",
+          "excerpt": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C",
+          "sentence_hash": "5b731427097442b3cbd656f56e65828e8ff5ac1e9b4952645d4783b0a13450b9",
           "anchors": [
             "us"
           ]
         },
         {
-          "fact_id": "f5",
-          "text": "Huang, who has been Nvidia's public face since 1993, admitted on Sunday to having been \"unfaithful\" to his wife after reports he had an extramarital affair with a suspected Chinese spy, Alice Huang.",
+          "fact_id": "f2",
+          "text": "Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.216954+08:00",
-          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
-          "excerpt": "Huang, who has been Nvidia's public face since 1993, admitted on Sunday to having been \"unfaithful\" to his wife after reports he had an extramarital affair with a suspected Chinese spy, Alice Huang.",
-          "sentence_hash": "688ee3e0eabbff168735b21879dfcfce483d6dfab0b3015d6f761c27837c5164",
+          "captured_at": "2026-11-14T08:03:07.537129+08:00",
+          "content_sha256": "52234e63f320afd4f7d270519d42f735505c8a7309cbd51a2a9764bacc9e6d08",
+          "excerpt": "Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.",
+          "sentence_hash": "a825894f89eb61c1de8dd588acc2f9d516c6dcca98e3462c9f004a8d2ce316b3",
           "anchors": [
-            "his",
-            "us",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "On Wednesday, he was reported to have had a second relationship, this time with an Nvidia executive.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.216978+08:00",
-          "content_sha256": "3b53e2ed8a7f3df486f042fc3190b82402b2f92f50f7639c20df0653ba42b553",
-          "excerpt": "On Wednesday, he was reported to have had a second relationship, this time with an Nvidia executive.",
-          "sentence_hash": "95ac0bfefbfa2b52a52388f8a88d82f15b2eeb11e4501298f691daa36893c7ee",
-          "anchors": [
-            "his"
+            "us"
           ]
         }
       ],
       "entities": [
-        "singaporean",
-        "us",
-        "capitol hill",
-        "megaspeed",
-        "jensen huang",
-        "house foreign affairs committee",
-        "ceo",
-        "thursday",
-        "washington",
-        "justice",
-        "sources",
-        "ai",
-        "kimberly powell",
-        "and",
-        "alice huang",
-        "nvidia",
-        "she",
-        "colette kress",
-        "senate",
-        "sunday",
-        "representatives",
+        "tim scott",
         "chinese",
-        "scandal",
-        "china",
-        "attorney general todd blanche",
-        "on wednesday",
-        "department",
+        "thursday",
+        "nvidia",
         "huang",
-        "silicon valley",
-        "according",
-        "senators elizabeth warren",
-        "published\njensen huang",
-        "bbc",
-        "dc",
-        "wednesday",
-        "beijing",
-        "congress",
-        "democrats",
-        "his",
-        "chris coons",
-        "one",
-        "new york times"
-      ],
-      "numbers": [
-        "$550"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 43
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
-      "source_artifact_date": "2026-11-13",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_71892ecee89c0497926cc05d",
-      "title": "Jensen Huang’s departure may signal tighter US controls on AI chip exports to China",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374270/jensen-huangs-departure-may-signal-tighter-us-controls-ai-chip-exports-china",
-      "publisher": "SCMP",
-      "summary": "Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.\nThe timing is particularly sensitive, with US lawmakers debating an annual defence authorisation bill amid growing calls to tighten restrictions on China’s access to advanced AI chips.\nLing Chen, an associate professor of political economy at Johns Hopkins University,",
-      "category": "国际",
-      "published_at": "2026-11-12T22:35:06+00:00",
-      "why_relevant": "黄仁勋离职或影响芯片出口管制",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.217506+08:00",
-          "content_sha256": "5d5489170462e6149c7515dcf68124ed82fd5dca8e4d5cdf11a1f1a42d963ca8",
-          "excerpt": "Nvidia chief executive Jensen Huang’s abrupt departure has raised fresh questions about the future of US-China technology ties, as observers weigh the potential fallout from Washington’s policy on advanced AI chip exports to China.",
-          "sentence_hash": "baafe07e1d144290eb529f379efd7a18c7d5639c352ed18a984a71370707e183",
-          "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "johns hopkins university",
-        "washington",
-        "ai",
-        "ling chen",
-        "us",
-        "china",
         "jensen huang",
-        "nvidia"
+        "white house",
+        "senate banking committee",
+        "china",
+        "three republican house",
+        "us"
       ],
       "numbers": [],
       "dates": [],
@@ -364,260 +217,503 @@
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 8
+        "fact_count": 2,
+        "anchor_count": 11
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
-      "source_artifact_date": "2026-11-13",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_c395610f83f05f4601b35ce1",
-      "title": "aws-emulator",
-      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-      "publisher": "Simon Willison",
-      "summary": "aws-emulator\nFinally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.\nIt's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog.\nIt currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great ",
+      "article_id": "a1_dcaaa7b3dcf5a4797ac830a8",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "publisher": "GitHub Trending",
+      "summary": "An open-source AI coding agent that lives in your terminal.https://qwenlm.github.io/qwen-code-docs/en/users/overview \n     \n  \n The open-source AI coding agent for your terminal, editor, desktop, browser, and chat. \n 中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 \n \n \n \n  \n   \n   Qwen Code 1.0 Preview \n   \n  \n  \n   \n   Qwen Code 1.0 Preview brings together the agent harness capabilities of Qoder and Qwen Code in an open-source release.Try Qwen Code 1.0 Preview · Documentation",
       "category": "科技",
-      "published_at": "2026-11-11T21:18:30+00:00",
-      "why_relevant": "AWS官方本地模拟器用Rust",
-      "relevance_score": 8.0,
+      "published_at": "",
+      "why_relevant": "开源终端AI编码代理",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "11th November 2026 - Link Blog aws-emulator.",
+          "text": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.218445+08:00",
-          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
-          "excerpt": "11th November 2026 - Link Blog aws-emulator.",
-          "sentence_hash": "c3152df966b54b3a0ac68c5fc5ce6299f41977cb7ac996222f62d2b45165962e",
+          "captured_at": "2026-11-14T08:03:07.538049+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.",
+          "sentence_hash": "82caabda6fcdb758f84f364f7d53173ca7e612c8082fd1151615154607b535de",
           "anchors": [
-            "November 20",
-            "aws"
+            "for",
+            "chat",
+            "desktop",
+            "ding",
+            "open"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.",
+          "text": "中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 - Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.218476+08:00",
-          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
-          "excerpt": "Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.",
-          "sentence_hash": "7f3294c1310e2226dfc2cf645abc3a449bc18afb3966a67efeec48d18bb1c86c",
+          "captured_at": "2026-11-14T08:03:07.538086+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 - Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP.",
+          "sentence_hash": "2c36855b2f1cfc7a5964f3338879dec08bb4bf70a3fd985329f5e0221fd31a58",
           "anchors": [
-            "pr"
+            "ai",
+            "日本語",
+            "中文"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project.",
+          "text": "Dynamic workflows, zero setup.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.218498+08:00",
-          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
-          "excerpt": "It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project.",
-          "sentence_hash": "bc93f5bc55a9b0dad7bc2158c035f66f8d172c67f09fe40a1d6bbd5869f7be70",
+          "captured_at": "2026-11-14T08:03:07.538101+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "Dynamic workflows, zero setup.",
+          "sentence_hash": "31860996c8f2b8fd4cfbc6878d09eb2433975f43a1fa61be8e00dfd345f465c5",
           "anchors": [
-            "pr"
+            "set"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Recent articles - Locating the source of a mysterious beep with Claude - 9th November 2026 - Hide your slop PR descriptions behind <details><summary> - 9th November 2026 - Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026 - The U.S.",
+          "text": "- Open-source, inside and out — The framework and the Qwen models are open-source.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.218544+08:00",
-          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
-          "excerpt": "Recent articles - Locating the source of a mysterious beep with Claude - 9th November 2026 - Hide your slop PR descriptions behind <details><summary> - 9th November 2026 - Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026 - The U.S.",
-          "sentence_hash": "f1ce9a5121d8fb5b73b9c44b69fdc5e78953163494b14c98b938096460db330f",
+          "captured_at": "2026-11-14T08:03:07.538128+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "- Open-source, inside and out — The framework and the Qwen models are open-source.",
+          "sentence_hash": "f0405687e09a009eab15f4f858650babb59258fb694a787088217244d2fe4ae7",
           "anchors": [
-            "November 20",
-            "pr"
+            "open",
+            "inside",
+            "ide"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Census Bureau and “Super Intelligence” - 2nd November 2026",
+          "text": "They evolve together.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.218565+08:00",
-          "content_sha256": "422772c87879d35f05f609e859cdd775f75068c7466ad9d2f034c5de2916af09",
-          "excerpt": "Census Bureau and “Super Intelligence” - 2nd November 2026",
-          "sentence_hash": "f4b75401c00dbdb5dc56498780cf58f06ca9bcde9bc83d743a54ace4f719e321",
+          "captured_at": "2026-11-14T08:03:07.538141+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "They evolve together.",
+          "sentence_hash": "5bcdaa20de83ede62f9cd4eff0bd3a86cc43b69962ed235757c465fd8638d3a0",
           "anchors": [
-            "November 20"
+            "get"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Multi-protocol — Supports OpenAI, Anthropic, Gemini, and Qwen APIs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538168+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "- Multi-protocol — Supports OpenAI, Anthropic, Gemini, and Qwen APIs.",
+          "sentence_hash": "c3355927a35d88ad9b35b2d99dd2854df261e35ca6c3e920aa8594a1c762e96a",
+          "anchors": [
+            "pro"
           ]
         }
       ],
       "entities": [
-        "aws",
-        "finally",
-        "link blog",
-        "rust",
-        "sivasubramanian",
-        "locating",
-        "super intelligence",
-        "hide",
+        "switch",
+        "homebrew",
+        "powered",
+        "choose",
+        "telegram",
+        "中文",
+        "beyond",
+        "none",
+        "dynamic",
+        "plus",
+        "portugu",
+        "java",
+        "sub",
+        "restart",
+        "pro",
+        "acp",
+        "desktop",
+        "linux",
+        "subscription",
+        "build",
+        "see",
+        "http",
+        "npm",
+        "agent teams",
+        "日本語",
+        "tip\nqwen code",
+        "mcp",
+        "sse",
+        "agentic",
+        "script",
+        "node",
+        "claude code",
+        "chat",
+        "codex",
+        "auto",
+        "any",
+        "brasil",
+        "ding",
+        "anthropic",
+        "ide",
         "windows",
-        "swami",
-        "docker",
-        "pr",
+        "summarize",
+        "gemini",
+        "headless",
+        "ollama",
+        "set",
+        "python",
+        "get",
+        "open",
+        "ui",
+        "for",
+        "daemon",
+        "authentication guide",
+        "settings reference",
+        "run qwen code",
+        "they",
+        "memory",
+        "computer use",
+        "multi",
+        "looking",
+        "deutsch",
+        "type",
+        "talk",
+        "inside",
+        "repl",
+        "web",
+        "ci",
+        "supports open",
+        "skills",
+        "sdk",
+        "agents",
+        "feishu",
         "api",
+        "qwen account",
+        "explain",
         "qwen",
-        "werner vogels",
-        "claude",
-        "census bureau",
-        "recent",
-        "november",
-        "swaminathan"
+        "then",
+        "run",
+        "preview",
+        "ai",
+        "qwen code",
+        "cd"
       ],
       "numbers": [],
-      "dates": [
-        "November 20"
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 5,
-        "anchor_count": 21
+        "fact_count": 6,
+        "anchor_count": 82
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
-      "source_artifact_date": "2026-11-13",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_09f35b905c8b319428fcdc73",
-      "title": "Red Dead Redemption 2’s Modded Ray Tracing Cuts RTX 5080 Performance From 110 FPS to 50 FPS at 4K With NVIDIA DLSS",
-      "url": "https://wccftech.com/red-dead-redemption-2-ray-tracing-cuts-rtx-5080-performance-4k/",
-      "publisher": "Wccftech",
-      "summary": "Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series by Rockstar Games with the Reality Redemption 2 graphics overhaul. Sadly, the subtle yet welcome improvements the mod brings come at a high cost, as one of the most powerful GPUs on the market, an RTX 5080 GPU, struggles",
+      "article_id": "a1_23804e1f760157ed0ae2028a",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "publisher": "TechCrunch",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
       "category": "科技",
-      "published_at": "2026-11-12T16:31:04+00:00",
-      "why_relevant": "MOD光追对RTX5080性能影响",
-      "relevance_score": 8.0,
+      "published_at": "2026-11-13T19:37:57+00:00",
+      "why_relevant": "LangChain估值30亿",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series ",
+          "text": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.219476+08:00",
-          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
-          "excerpt": "Red Dead Redemption 2 never received official ray tracing support on PC, yet known Grand Theft Auto modder BadassBaboon introduced hardware-accelerated ray tracing, including ray-traced global illumination (RTGI), ambient occlusion, and shadows, to the second entry in the series ",
-          "sentence_hash": "72aa71f6e74a8a9ffdc1f426612e92af806b8b67da7fc93c3c60c96288971210",
+          "captured_at": "2026-11-14T08:03:07.538802+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
+          "sentence_hash": "71ce9e637fa87575b4a1d8a2dcc9b0f190b38a32f4ffcfb55b5d076af2de6cfd",
           "anchors": [
-            "with"
+            "300 million",
+            "3 billion",
+            "$300 million",
+            "ai",
+            "with",
+            "$3 billion"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Sadly, the subtle yet welcome improvements the mod brings come at a high cost, as one of the most powerful GPUs on the market, an RTX 5080 GPU, struggles to push past 60 FPS in most scenarios at 4K resolution and with NVIDIA DLSS 4.5.",
+          "text": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.219516+08:00",
-          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
-          "excerpt": "Sadly, the subtle yet welcome improvements the mod brings come at a high cost, as one of the most powerful GPUs on the market, an RTX 5080 GPU, struggles to push past 60 FPS in most scenarios at 4K resolution and with NVIDIA DLSS 4.5.",
-          "sentence_hash": "0339141000b9334bf3dc42704c15d9f1d6bbdb1f12073694fb5757c4faebb472",
+          "captured_at": "2026-11-14T08:03:07.538825+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+          "sentence_hash": "a4a7bedc0daec53ab6d305a71510f8afcee1ea1dd3345b71902aa469bce7fb19",
           "anchors": [
-            "with"
+            "1.25 billion",
+            "$125 million",
+            "$1.25 billion",
+            "125 million",
+            "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "A new comparison video shared by MxBenchmarkPC provides a good overview of what Reality Redemption 2's ray tracing features bring to the game.",
+          "text": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.219541+08:00",
-          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
-          "excerpt": "A new comparison video shared by MxBenchmarkPC provides a good overview of what Reality Redemption 2's ray tracing features bring to the game.",
-          "sentence_hash": "85800a25ff7b701e5ee4ec0512dde30a3be1e13413b32682b9d084c1b09a9f5a",
+          "captured_at": "2026-11-14T08:03:07.538851+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+          "sentence_hash": "0f5d3ee069d8d293447eee62e499b9da69e305b43b659607620b574325972282",
           "anchors": [
-            "vi"
+            "ai",
+            "with"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "At 4K resolution with NVIDIA DLSS 4.5 in Quality Mode, the game drops from the 110 FPS range to the 50 FPS range, with an over 50% performance drop, making the subtle improvements the mod introduces not worth the performance cost, stressing again how demanding the tech can be on ",
+          "text": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.219588+08:00",
-          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
-          "excerpt": "At 4K resolution with NVIDIA DLSS 4.5 in Quality Mode, the game drops from the 110 FPS range to the 50 FPS range, with an over 50% performance drop, making the subtle improvements the mod introduces not worth the performance cost, stressing again how demanding the tech can be on ",
-          "sentence_hash": "3feb68dcf20f45263f0872d82bbd571057d263fef38f989e4f9715f919043d8d",
+          "captured_at": "2026-11-14T08:03:07.538872+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
+          "sentence_hash": "0141618121306314046801d05cb7e24067b1568aa25d0663b27117124c62f7bc",
           "anchors": [
-            "with",
-            "50%"
+            "ai",
+            "agent"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "With NVIDIA DLSS 4.5 in Performance Mode or at 1440p resolution, the game easily exceeds 60 FPS, reaching up to 120 FPS at 1440p with NVIDIA DLSS 4.5 in Quality Mode, so good performance is still possible by lowering some settings accordingly.",
+          "text": "It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.219622+08:00",
-          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
-          "excerpt": "With NVIDIA DLSS 4.5 in Performance Mode or at 1440p resolution, the game easily exceeds 60 FPS, reaching up to 120 FPS at 1440p with NVIDIA DLSS 4.5 in Quality Mode, so good performance is still possible by lowering some settings accordingly.",
-          "sentence_hash": "de1944cc08f193ae3cf492049f530e1ca9df8b762a06d312566aaea95917edc9",
+          "captured_at": "2026-11-14T08:03:07.538891+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
+          "sentence_hash": "721a0e71e6739826bde0826f3b69b209642e31039d4abe854e5bf16d10259cb2",
           "anchors": [
             "with"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Considering that Red Dead Redemption 2 is still stuck at 30 FPS on consoles, since it never received the long-rumored PlayStation 5 and Xbox Series X|S update, playing the game with modded ray tracing at 50 FPS would still be an improvement for those who only played the game on a",
+          "text": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-13T08:03:44.219661+08:00",
-          "content_sha256": "5abe174672c9874088c969d2d2b57c4250ae0d47bce5010ae7d3870a4a0ff6a4",
-          "excerpt": "Considering that Red Dead Redemption 2 is still stuck at 30 FPS on consoles, since it never received the long-rumored PlayStation 5 and Xbox Series X|S update, playing the game with modded ray tracing at 50 FPS would still be an improvement for those who only played the game on a",
-          "sentence_hash": "c65686dc1915b0a250dc7aa596588a3fbe2aeb95229c245853ab5fd792bb8125",
+          "captured_at": "2026-11-14T08:03:07.538915+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.",
+          "sentence_hash": "f9e71327ad81eed4361061b013bed2e70d1ba3a1b0bfd9701d79dec55a06264c",
           "anchors": [
-            "with",
-            "play"
+            "agent"
           ]
         }
       ],
       "entities": [
-        "rockstar games",
-        "gpu",
-        "quality mode",
-        "badass",
-        "reality redemption",
-        "follow wccftech",
-        "rtgi",
-        "rtx",
-        "sadly",
-        "play",
-        "pc",
-        "while",
-        "red dead redemption",
-        "considering",
-        "vi",
-        "baboon",
+        "clay",
+        "toyota",
+        "true",
         "nvidia",
-        "grand theft auto",
-        "dlss",
+        "agent",
+        "friday",
+        "gic",
+        "capital",
+        "harvey",
         "with",
-        "google",
-        "station",
-        "benchmark",
-        "xbox series",
-        "performance mode",
-        "november",
-        "fps"
+        "dfj",
+        "mintive",
+        "smith",
+        "series",
+        "growth",
+        "rippling",
+        "chain",
+        "sapphire ventures",
+        "however",
+        "salesforce",
+        "lang",
+        "ai",
+        "singapore",
+        "ivp"
       ],
       "numbers": [
-        "50%"
+        "1.25 billion",
+        "300 million",
+        "3 billion",
+        "$1.25 billion",
+        "$125 million",
+        "125 million",
+        "$300 million",
+        "$3 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_64d929f3f53a7981bd1c06cf",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas\nComments URL: https://news.ycombinator.com/item?id=50487864\nPoints: 264\n# Comments: 144",
+      "category": "科技",
+      "published_at": "2026-11-13T18:40:44+00:00",
+      "why_relevant": "英伟达硬件运输失踪",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539882+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.",
+          "sentence_hash": "29c6d2f6afe7a7ce2c417833eaceb461de8f04142c5efd95461029eafa1419ed",
+          "anchors": [
+            "11.4 million",
+            "during",
+            "$11.4 million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The disappearance comes amid reports of nearly $111 million in stolen data center freight involving other high-value technology shipments.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539923+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "The disappearance comes amid reports of nearly $111 million in stolen data center freight involving other high-value technology shipments.",
+          "sentence_hash": "b74c77e01904f6936405d3605bd3ceaad7d1080c9836985bfc2ef24d51bf2b75",
+          "anchors": [
+            "freight",
+            "111 million",
+            "$111 million"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "According to The Mercury News, the vehicle displayed a food transportation company’s logo during the scheduled pickup.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539946+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "According to The Mercury News, the vehicle displayed a food transportation company’s logo during the scheduled pickup.",
+          "sentence_hash": "83987d0b83783197b86f30fcd0e340cff1262bce54ae7006d7d92400a6b0cd91",
+          "anchors": [
+            "during"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "A separate $12 million cargo theft investigation involved suspects who allegedly exploited established trucking identities to obtain freight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539974+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "A separate $12 million cargo theft investigation involved suspects who allegedly exploited established trucking identities to obtain freight.",
+          "sentence_hash": "731df1d3bb8ceb6cc62f9c036dc1b5cba808a3f6927b39a859203b8d0580e2c2",
+          "anchors": [
+            "freight",
+            "12 million",
+            "$12 million"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Oakland police confirm investigation The Oakland Police Department provided FreightWaves with the following statement: “The Oakland Police Department (OPD) is investigating a grand theft that occurred in East Oakland.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540006+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "Oakland police confirm investigation The Oakland Police Department provided FreightWaves with the following statement: “The Oakland Police Department (OPD) is investigating a grand theft that occurred in East Oakland.",
+          "sentence_hash": "d8cd5e2185ce41895ac568045c0e3f0454e6b18256c87fe7c90ae1bfa3c0ae9a",
+          "anchors": [
+            "police"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The victim reported the crime to OPD on September 13, 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540022+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "The victim reported the crime to OPD on September 13, 2026.",
+          "sentence_hash": "454c7d8c984c839fb339eafd1b414f3836dd4af20443f818df39558f91412728",
+          "anchors": [
+            "September 13"
+          ]
+        }
+      ],
+      "entities": [
+        "the mercury news",
+        "california",
+        "authorities",
+        "san bernardino county",
+        "nvidia",
+        "sept",
+        "fremont",
+        "plus",
+        "fort worth",
+        "the oakland",
+        "opd",
+        "previous",
+        "police",
+        "september",
+        "the oakland police department",
+        "east oakland",
+        "northern california",
+        "the sept",
+        "waves",
+        "oakland",
+        "six",
+        "according",
+        "union city",
+        "southern california",
+        "those",
+        "freight",
+        "during",
+        "investigators",
+        "general crimes unit",
+        "aug",
+        "newark",
+        "texas"
+      ],
+      "numbers": [
+        "111 million",
+        "11.4 million",
+        "12 million",
+        "$11.4 million",
+        "$111 million",
+        "$12 million",
+        "7.5 million",
+        "$7.5 million"
       ],
       "dates": [
-        "November 19"
+        "September 13"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
+        "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 29
+        "anchor_count": 41
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-13-AM.json",
-      "source_artifact_date": "2026-11-13",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-14-AM.json",
+      "source_artifact_date": "2026-11-14",
       "freshness_label": "today"
     }
   ]

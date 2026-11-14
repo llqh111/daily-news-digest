@@ -1,0 +1,1749 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-14-AM",
+  "date": "2026-11-14",
+  "session": "AM",
+  "delivered_at": "2026-11-14T08:07:05.933120+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-14T00:07:05.934829+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
+  },
+  "items": [
+    {
+      "article_id": "a1_fd7a1393ae58fbba2eef26ca",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+      "category": "国际",
+      "published_at": "2026-11-13T19:53:57+00:00",
+      "why_relevant": "英伟达丑闻发酵",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536713+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal - Published US Treasury Secretary Scott Bessent has blamed Howard Lutnick's Commerce Department for failing to properly oversee the export of high-spec AI chips, as the fallout from the Nvidia sca",
+          "sentence_hash": "70c837b8321912f8de6638a6a977d07c37662cf6287f5300ff727fd31a50e468",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Pressure is building on Lutnick from across the political spectrum to explain his department's actions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536740+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Pressure is building on Lutnick from across the political spectrum to explain his department's actions.",
+          "sentence_hash": "b05bb156240df5a49bb1b9bfa3ff2b74670d3db60f0c2bd6a33f66e783982273",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Jensen Huang was ousted as Nvidia CEO after revelations he had an affair with a businesswoman who was also allegedly a Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536762+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Jensen Huang was ousted as Nvidia CEO after revelations he had an affair with a businesswoman who was also allegedly a Chinese spy.",
+          "sentence_hash": "58c7dcb899c29dbcc13519a580e0dfc7e2dec2b53d6fe757db64e1ea152974bc",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Megaspeed, the firm she worked for, had been probed by US government agencies over suspicions it was smuggling Nvidia chips into China, reports said, but it is not on a list of firms US companies are prevented from working with.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536789+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Megaspeed, the firm she worked for, had been probed by US government agencies over suspicions it was smuggling Nvidia chips into China, reports said, but it is not on a list of firms US companies are prevented from working with.",
+          "sentence_hash": "473efd8664a15d90e0f706f01eeebb215dbdd28fa39b2b84829cf543d653c6bb",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536822+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Other congressional committees have asked both Lutnick and his department to retain all records relating to Nvidia and Huang.",
+          "sentence_hash": "81dacd4295bd8e39523c1ee43ff12ba689b74b9cebb14abd406151ca608170d3",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Bessent said he was \"frustrated\" by delays in putting the company on the export control list and reports of leakage of AI chips into China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.536844+08:00",
+          "content_sha256": "a63bb47bf213ba091682943f7cd0de053654851aa6ee94748d5effdb2c2441c6",
+          "excerpt": "Bessent said he was \"frustrated\" by delays in putting the company on the export control list and reports of leakage of AI chips into China.",
+          "sentence_hash": "da25af50e7b698f861de67ad85ad2d1c498cfcb58efc584dde354d46074e5b85",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "pressure",
+        "treasury secretary scott bessent",
+        "lutnick",
+        "nvidia",
+        "other",
+        "jensen huang",
+        "ceo",
+        "senate banking committee",
+        "there",
+        "but commerce",
+        "us",
+        "president trump",
+        "commerce secretary lutnick",
+        "cnbc",
+        "howard lutnick",
+        "did nvidia",
+        "megaspeed",
+        "squawk box",
+        "trump",
+        "bessent",
+        "commerce department",
+        "chinese",
+        "huang",
+        "president donald trump",
+        "published",
+        "however",
+        "financial times",
+        "ai",
+        "new york times",
+        "china",
+        "last"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_4ae04b8d90ffcdc0488c1b53",
+      "title": "US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials",
+      "publisher": "SCMP",
+      "summary": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for Chinese intelligence.\nThree Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.\n“As reports continue to come to light...",
+      "category": "国际",
+      "published_at": "2026-11-13T22:16:27+00:00",
+      "why_relevant": "国会扩大英伟达调查",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.537112+08:00",
+          "content_sha256": "52234e63f320afd4f7d270519d42f735505c8a7309cbd51a2a9764bacc9e6d08",
+          "excerpt": "US lawmakers have been demanding answers about potential national security risks and White House oversight of advanced chip exports to China following revelations that former Nvidia chief executive Jensen Huang was in a relationship with a businesswoman suspected of working for C",
+          "sentence_hash": "5b731427097442b3cbd656f56e65828e8ff5ac1e9b4952645d4783b0a13450b9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.537129+08:00",
+          "content_sha256": "52234e63f320afd4f7d270519d42f735505c8a7309cbd51a2a9764bacc9e6d08",
+          "excerpt": "Three Republican House committee chairmen and Senate Banking Committee chairman Tim Scott separately sent letters Thursday seeking testimony from Huang.",
+          "sentence_hash": "a825894f89eb61c1de8dd588acc2f9d516c6dcca98e3462c9f004a8d2ce316b3",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "tim scott",
+        "chinese",
+        "thursday",
+        "nvidia",
+        "huang",
+        "jensen huang",
+        "white house",
+        "senate banking committee",
+        "china",
+        "three republican house",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 11
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_dcaaa7b3dcf5a4797ac830a8",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "publisher": "GitHub Trending",
+      "summary": "An open-source AI coding agent that lives in your terminal.https://qwenlm.github.io/qwen-code-docs/en/users/overview \n     \n  \n The open-source AI coding agent for your terminal, editor, desktop, browser, and chat. \n 中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 \n \n \n \n  \n   \n   Qwen Code 1.0 Preview \n   \n  \n  \n   \n   Qwen Code 1.0 Preview brings together the agent harness capabilities of Qoder and Qwen Code in an open-source release.Try Qwen Code 1.0 Preview · Documentation",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源终端AI编码代理",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538049+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.",
+          "sentence_hash": "82caabda6fcdb758f84f364f7d53173ca7e612c8082fd1151615154607b535de",
+          "anchors": [
+            "for",
+            "chat",
+            "desktop",
+            "ding",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 - Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538086+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 - Agentic out of the box — Auto-Memory, Auto-Skills, SubAgents, Agent Teams, and MCP.",
+          "sentence_hash": "2c36855b2f1cfc7a5964f3338879dec08bb4bf70a3fd985329f5e0221fd31a58",
+          "anchors": [
+            "ai",
+            "日本語",
+            "中文"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Dynamic workflows, zero setup.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538101+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "Dynamic workflows, zero setup.",
+          "sentence_hash": "31860996c8f2b8fd4cfbc6878d09eb2433975f43a1fa61be8e00dfd345f465c5",
+          "anchors": [
+            "set"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Open-source, inside and out — The framework and the Qwen models are open-source.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538128+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "- Open-source, inside and out — The framework and the Qwen models are open-source.",
+          "sentence_hash": "f0405687e09a009eab15f4f858650babb59258fb694a787088217244d2fe4ae7",
+          "anchors": [
+            "open",
+            "inside",
+            "ide"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "They evolve together.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538141+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "They evolve together.",
+          "sentence_hash": "5bcdaa20de83ede62f9cd4eff0bd3a86cc43b69962ed235757c465fd8638d3a0",
+          "anchors": [
+            "get"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Multi-protocol — Supports OpenAI, Anthropic, Gemini, and Qwen APIs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538168+08:00",
+          "content_sha256": "f5438a60bc41f1fbe0a5a5c9fdeb4384f6e48c08b742ba9331b19bfd1b1e4c8e",
+          "excerpt": "- Multi-protocol — Supports OpenAI, Anthropic, Gemini, and Qwen APIs.",
+          "sentence_hash": "c3355927a35d88ad9b35b2d99dd2854df261e35ca6c3e920aa8594a1c762e96a",
+          "anchors": [
+            "pro"
+          ]
+        }
+      ],
+      "entities": [
+        "switch",
+        "homebrew",
+        "powered",
+        "choose",
+        "telegram",
+        "中文",
+        "beyond",
+        "none",
+        "dynamic",
+        "plus",
+        "portugu",
+        "java",
+        "sub",
+        "restart",
+        "pro",
+        "acp",
+        "desktop",
+        "linux",
+        "subscription",
+        "build",
+        "see",
+        "http",
+        "npm",
+        "agent teams",
+        "日本語",
+        "tip\nqwen code",
+        "mcp",
+        "sse",
+        "agentic",
+        "script",
+        "node",
+        "claude code",
+        "chat",
+        "codex",
+        "auto",
+        "any",
+        "brasil",
+        "ding",
+        "anthropic",
+        "ide",
+        "windows",
+        "summarize",
+        "gemini",
+        "headless",
+        "ollama",
+        "set",
+        "python",
+        "get",
+        "open",
+        "ui",
+        "for",
+        "daemon",
+        "authentication guide",
+        "settings reference",
+        "run qwen code",
+        "they",
+        "memory",
+        "computer use",
+        "multi",
+        "looking",
+        "deutsch",
+        "type",
+        "talk",
+        "inside",
+        "repl",
+        "web",
+        "ci",
+        "supports open",
+        "skills",
+        "sdk",
+        "agents",
+        "feishu",
+        "api",
+        "qwen account",
+        "explain",
+        "qwen",
+        "then",
+        "run",
+        "preview",
+        "ai",
+        "qwen code",
+        "cd"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 82
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_23804e1f760157ed0ae2028a",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "publisher": "TechCrunch",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "category": "科技",
+      "published_at": "2026-11-13T19:37:57+00:00",
+      "why_relevant": "LangChain估值30亿",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538802+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday.",
+          "sentence_hash": "71ce9e637fa87575b4a1d8a2dcc9b0f190b38a32f4ffcfb55b5d076af2de6cfd",
+          "anchors": [
+            "300 million",
+            "3 billion",
+            "$300 million",
+            "ai",
+            "with",
+            "$3 billion"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538825+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+          "sentence_hash": "a4a7bedc0daec53ab6d305a71510f8afcee1ea1dd3345b71902aa469bce7fb19",
+          "anchors": [
+            "1.25 billion",
+            "$125 million",
+            "$1.25 billion",
+            "125 million",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538851+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+          "sentence_hash": "0f5d3ee069d8d293447eee62e499b9da69e305b43b659607620b574325972282",
+          "anchors": [
+            "ai",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538872+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
+          "sentence_hash": "0141618121306314046801d05cb7e24067b1568aa25d0663b27117124c62f7bc",
+          "anchors": [
+            "ai",
+            "agent"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538891+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "It has apparently found its stride in this highly competitive area with a simple message: letting businesses own their own intelligence.",
+          "sentence_hash": "721a0e71e6739826bde0826f3b69b209642e31039d4abe854e5bf16d10259cb2",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.538915+08:00",
+          "content_sha256": "4cb5f6717ae5cafd77f6a5327a5e6395cfe5ab551577f45a972b694a981fd576",
+          "excerpt": "With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.",
+          "sentence_hash": "f9e71327ad81eed4361061b013bed2e70d1ba3a1b0bfd9701d79dec55a06264c",
+          "anchors": [
+            "agent"
+          ]
+        }
+      ],
+      "entities": [
+        "clay",
+        "toyota",
+        "true",
+        "nvidia",
+        "agent",
+        "friday",
+        "gic",
+        "capital",
+        "harvey",
+        "with",
+        "dfj",
+        "mintive",
+        "smith",
+        "series",
+        "growth",
+        "rippling",
+        "chain",
+        "sapphire ventures",
+        "however",
+        "salesforce",
+        "lang",
+        "ai",
+        "singapore",
+        "ivp"
+      ],
+      "numbers": [
+        "1.25 billion",
+        "300 million",
+        "3 billion",
+        "$1.25 billion",
+        "$125 million",
+        "125 million",
+        "$300 million",
+        "$3 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_64d929f3f53a7981bd1c06cf",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "publisher": "Hacker News",
+      "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas\nComments URL: https://news.ycombinator.com/item?id=50487864\nPoints: 264\n# Comments: 144",
+      "category": "科技",
+      "published_at": "2026-11-13T18:40:44+00:00",
+      "why_relevant": "英伟达硬件运输失踪",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539882+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas.",
+          "sentence_hash": "29c6d2f6afe7a7ce2c417833eaceb461de8f04142c5efd95461029eafa1419ed",
+          "anchors": [
+            "11.4 million",
+            "during",
+            "$11.4 million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The disappearance comes amid reports of nearly $111 million in stolen data center freight involving other high-value technology shipments.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539923+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "The disappearance comes amid reports of nearly $111 million in stolen data center freight involving other high-value technology shipments.",
+          "sentence_hash": "b74c77e01904f6936405d3605bd3ceaad7d1080c9836985bfc2ef24d51bf2b75",
+          "anchors": [
+            "freight",
+            "111 million",
+            "$111 million"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "According to The Mercury News, the vehicle displayed a food transportation company’s logo during the scheduled pickup.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539946+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "According to The Mercury News, the vehicle displayed a food transportation company’s logo during the scheduled pickup.",
+          "sentence_hash": "83987d0b83783197b86f30fcd0e340cff1262bce54ae7006d7d92400a6b0cd91",
+          "anchors": [
+            "during"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "A separate $12 million cargo theft investigation involved suspects who allegedly exploited established trucking identities to obtain freight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.539974+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "A separate $12 million cargo theft investigation involved suspects who allegedly exploited established trucking identities to obtain freight.",
+          "sentence_hash": "731df1d3bb8ceb6cc62f9c036dc1b5cba808a3f6927b39a859203b8d0580e2c2",
+          "anchors": [
+            "freight",
+            "12 million",
+            "$12 million"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Oakland police confirm investigation The Oakland Police Department provided FreightWaves with the following statement: “The Oakland Police Department (OPD) is investigating a grand theft that occurred in East Oakland.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540006+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "Oakland police confirm investigation The Oakland Police Department provided FreightWaves with the following statement: “The Oakland Police Department (OPD) is investigating a grand theft that occurred in East Oakland.",
+          "sentence_hash": "d8cd5e2185ce41895ac568045c0e3f0454e6b18256c87fe7c90ae1bfa3c0ae9a",
+          "anchors": [
+            "police"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The victim reported the crime to OPD on September 13, 2026.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540022+08:00",
+          "content_sha256": "4784e96beb06c392df4fa87c5b6ae10563cadd54a120314d3ac15b9317550bf5",
+          "excerpt": "The victim reported the crime to OPD on September 13, 2026.",
+          "sentence_hash": "454c7d8c984c839fb339eafd1b414f3836dd4af20443f818df39558f91412728",
+          "anchors": [
+            "September 13"
+          ]
+        }
+      ],
+      "entities": [
+        "the mercury news",
+        "california",
+        "authorities",
+        "san bernardino county",
+        "nvidia",
+        "sept",
+        "fremont",
+        "plus",
+        "fort worth",
+        "the oakland",
+        "opd",
+        "previous",
+        "police",
+        "september",
+        "the oakland police department",
+        "east oakland",
+        "northern california",
+        "the sept",
+        "waves",
+        "oakland",
+        "six",
+        "according",
+        "union city",
+        "southern california",
+        "those",
+        "freight",
+        "during",
+        "investigators",
+        "general crimes unit",
+        "aug",
+        "newark",
+        "texas"
+      ],
+      "numbers": [
+        "111 million",
+        "11.4 million",
+        "12 million",
+        "$11.4 million",
+        "$111 million",
+        "$12 million",
+        "7.5 million",
+        "$7.5 million"
+      ],
+      "dates": [
+        "September 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_fc08c6567c37179847f5c300",
+      "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "publisher": "CNBC",
+      "summary": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "category": "财经",
+      "published_at": "2026-11-13T22:18:43+00:00",
+      "why_relevant": "英伟达史上最长连跌",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "But the selling on Wall Street accelerated in the past few days, sending the stock to its sixth straight weekly drop, the longest losing streak since 2012.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.540989+08:00",
+          "content_sha256": "fa4d287c8b065bb0812abf5c0fcf9d680a21e6492b587c60dbd5f3c1093586a9",
+          "excerpt": "But the selling on Wall Street accelerated in the past few days, sending the stock to its sixth straight weekly drop, the longest losing streak since 2012.",
+          "sentence_hash": "0b4f5c64b1fe5bde904b8a467609e7749afcab77555bc5648e3226b203a350bb",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The chip giant, which spent most of the year as the world's most valuable company, has lost 30% of its value during the losing streak.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.541012+08:00",
+          "content_sha256": "fa4d287c8b065bb0812abf5c0fcf9d680a21e6492b587c60dbd5f3c1093586a9",
+          "excerpt": "The chip giant, which spent most of the year as the world's most valuable company, has lost 30% of its value during the losing streak.",
+          "sentence_hash": "0bf2eeaa72a61e0c2ea36dd35aacf74ed83fb1fd769d2704a07ff79c00a21e94",
+          "anchors": [
+            "30%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "That's a drop of roughly $1.7 trillion in market cap and it pushed the company below Apple.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.541029+08:00",
+          "content_sha256": "fa4d287c8b065bb0812abf5c0fcf9d680a21e6492b587c60dbd5f3c1093586a9",
+          "excerpt": "That's a drop of roughly $1.7 trillion in market cap and it pushed the company below Apple.",
+          "sentence_hash": "0c7ce51c62fd684aa99b571354ec8cf107b1c851b0d23ada8449a83a35ac0072",
+          "anchors": [
+            "$1.7 trillion",
+            "1.7 trillion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Huang, who co-founded Nvidia and led it for 33 years, resigned on Thursday after two separate extramarital affairs — one with an alleged Chinese spy and the other with an employee — were made public.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.541061+08:00",
+          "content_sha256": "fa4d287c8b065bb0812abf5c0fcf9d680a21e6492b587c60dbd5f3c1093586a9",
+          "excerpt": "Huang, who co-founded Nvidia and led it for 33 years, resigned on Thursday after two separate extramarital affairs — one with an alleged Chinese spy and the other with an employee — were made public.",
+          "sentence_hash": "f24171406236282c91f10f70be934ad4b565eb828c7e9125b95469be27ce9b01",
+          "anchors": [
+            "ai",
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Nvidia shares fell 13% this week, the most since April 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.541081+08:00",
+          "content_sha256": "fa4d287c8b065bb0812abf5c0fcf9d680a21e6492b587c60dbd5f3c1093586a9",
+          "excerpt": "Nvidia shares fell 13% this week, the most since April 2025.",
+          "sentence_hash": "7fec28e5b743a00d2f2b6c21e62f71b4f28b011bf3d63b38f4f038214f5e1dd5",
+          "anchors": [
+            "13%",
+            "April 20"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "News of the first reported affair hit the front pages over the weekend, when Huang sent a letter to employees apologizing for being \"unfaithful to my wife.\" The board convened late Wednesday after The New York Times reported on the other affair, this one with the company's vice p",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.541115+08:00",
+          "content_sha256": "fa4d287c8b065bb0812abf5c0fcf9d680a21e6492b587c60dbd5f3c1093586a9",
+          "excerpt": "News of the first reported affair hit the front pages over the weekend, when Huang sent a letter to employees apologizing for being \"unfaithful to my wife.\" The board convened late Wednesday after The New York Times reported on the other affair, this one with the company's vice p",
+          "sentence_hash": "06b16353438a61d0059f8b097ac53f8ec7a82e1545acde0c5ade3bb9f29abf00",
+          "anchors": [
+            "ai",
+            "with"
+          ]
+        }
+      ],
+      "entities": [
+        "luria",
+        "heading",
+        "analysts",
+        "wall street",
+        "apple",
+        "gil luria",
+        "nvidia",
+        "the new york times",
+        "colette kress",
+        "ceo",
+        "jensen huang",
+        "oppenheimer",
+        "davidson",
+        "lseg",
+        "with",
+        "while nvidia",
+        "open",
+        "but",
+        "tuesday",
+        "kress",
+        "april",
+        "chinese",
+        "thursday",
+        "chat",
+        "huang",
+        "president donald trump",
+        "wednesday",
+        "democrats",
+        "much",
+        "ai",
+        "last"
+      ],
+      "numbers": [
+        "$200 ",
+        "$300",
+        "91%",
+        "30%",
+        "9%",
+        "1.7 trillion",
+        "108.9 billion",
+        "13%",
+        "$108.9 billion",
+        "$1.7 trillion"
+      ],
+      "dates": [
+        "April 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2658b44faee43b881b8e7f1f",
+      "title": "Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit",
+      "url": "https://www.dw.com/en/beijing-faces-its-russia-dilemma-amid-talk-of-xi-trump-putin-summit/a-79942427?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "China is forced to tread carefully as it considers hosting a meeting between Xi Jinping, Vladimir Putin, and Donald Trump. While the optics are sure to favor Moscow, Beijing is risking its image at the global stage.",
+      "category": "国际",
+      "published_at": "2026-11-13T15:28:00+00:00",
+      "why_relevant": "北京俄乌困境",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit November 13, 2026 An unprecedented meeting between the leaders of China, Russia and the United States could be happening on the sidelines of Asia-Pacific Economic Cooperation (APEC) summit in China's tech hub of ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.542013+08:00",
+          "content_sha256": "bddf79280947f2d164807832f9bc4bb80daa7ffcc6ca31418fbbf4e27ae83f8a",
+          "excerpt": "Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit November 13, 2026 An unprecedented meeting between the leaders of China, Russia and the United States could be happening on the sidelines of Asia-Pacific Economic Cooperation (APEC) summit in China's tech hub of ",
+          "sentence_hash": "44f5f87c949bd058a9befed47818bbb5ddaa0cc689782367582ed3f134d2a87d",
+          "anchors": [
+            "us",
+            "November 13"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The clearest indication about the potential summit came from US President Donald Trump last weekend.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.542050+08:00",
+          "content_sha256": "bddf79280947f2d164807832f9bc4bb80daa7ffcc6ca31418fbbf4e27ae83f8a",
+          "excerpt": "The clearest indication about the potential summit came from US President Donald Trump last weekend.",
+          "sentence_hash": "c28c008e42fbb41ec63a5635034fe3bc0c2b1d9b4449b74465dd55f49d9d8a2b",
+          "anchors": [
+            "end"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Talking to reporters at a Florida airport, Trump said he \"thinks\" one of the meetings planned for APEC will be with Russian President Vladimir Putin and Chinese President Xi Jinping.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.542075+08:00",
+          "content_sha256": "bddf79280947f2d164807832f9bc4bb80daa7ffcc6ca31418fbbf4e27ae83f8a",
+          "excerpt": "Talking to reporters at a Florida airport, Trump said he \"thinks\" one of the meetings planned for APEC will be with Russian President Vladimir Putin and Chinese President Xi Jinping.",
+          "sentence_hash": "b406d880287c65cbf0002048c96eb3fe8912e2dd0564e0fce347b97b51bc5368",
+          "anchors": [
+            "for",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Is the world set for a 'new Yalta'?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.542087+08:00",
+          "content_sha256": "bddf79280947f2d164807832f9bc4bb80daa7ffcc6ca31418fbbf4e27ae83f8a",
+          "excerpt": "Is the world set for a 'new Yalta'?",
+          "sentence_hash": "9d0941d6b1dd753af7482354ebf8aa565d377325acc2017d4677a61ba86d7409",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Despite the lack of official confirmation from either Beijing, Moscow, or Washington, the media has already dubbed the potential trilateral summit a \"new Yalta,\" invoking the optics of the US, UK, and Soviet Union convening at the end of World War II and deciding on the new geopo",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.542121+08:00",
+          "content_sha256": "bddf79280947f2d164807832f9bc4bb80daa7ffcc6ca31418fbbf4e27ae83f8a",
+          "excerpt": "Despite the lack of official confirmation from either Beijing, Moscow, or Washington, the media has already dubbed the potential trilateral summit a \"new Yalta,\" invoking the optics of the US, UK, and Soviet Union convening at the end of World War II and deciding on the new geopo",
+          "sentence_hash": "4612436f84cfce0208caee8574493e64b55c49ae7fcd086bdee0db467dd5dc20",
+          "anchors": [
+            "end"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In his brief remarks to reporters on Sunday, Trump avoided mentioning Russia's war in Ukraine when asked about the possibility of the meeting, bringing up only \"Iran\" and \"denuclearization\" as possible talking points.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.542155+08:00",
+          "content_sha256": "bddf79280947f2d164807832f9bc4bb80daa7ffcc6ca31418fbbf4e27ae83f8a",
+          "excerpt": "In his brief remarks to reporters on Sunday, Trump avoided mentioning Russia's war in Ukraine when asked about the possibility of the meeting, bringing up only \"Iran\" and \"denuclearization\" as possible talking points.",
+          "sentence_hash": "7ed05dffd3bc7212a61901750e0174aac36699525a1c3bacf58da61453593e87",
+          "anchors": [
+            "talking",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "russia",
+        "soviet union",
+        "talking",
+        "shenzhen",
+        "the chinese foreign ministry",
+        "end",
+        "since",
+        "apec",
+        "washington",
+        "beijing",
+        "kyiv",
+        "the wall street journal",
+        "moscow",
+        "november",
+        "for",
+        "trump",
+        "putin",
+        "chinese president xi jinping",
+        "iran",
+        "however",
+        "ukraine",
+        "pacific economic cooperation",
+        "china",
+        "kremlin",
+        "yalta",
+        "despite",
+        "crimean",
+        "uk",
+        "president putin",
+        "russian president vladimir putin",
+        "eu",
+        "chinese foreign ministry",
+        "us",
+        "ii",
+        "florida",
+        "while russia",
+        "america",
+        "asia",
+        "president donald trump",
+        "world war",
+        "joe biden",
+        "united states",
+        "in moscow",
+        "february",
+        "sunday"
+      ],
+      "numbers": [],
+      "dates": [
+        "February 20",
+        "November 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ce40fec9cbc21c1df60548d7",
+      "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+      "publisher": "The Guardian",
+      "summary": "Tech firm says it is ‘deeply sorry’ for disruption that took services down and has now addressed the underlying issueWhat caused the outage and when will it be fixed?Microsoft outage hits UK hospitals, GPs, schools and policeTell us: have you been affected by the outage?Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”.The company said the ou",
+      "category": "国际",
+      "published_at": "2026-11-13T17:41:15+00:00",
+      "why_relevant": "微软全球服务中断",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.543124+08:00",
+          "content_sha256": "c430d9aaa176c9d76af14d93d1bcb85234d531ad4e08a107f8963828fe793379",
+          "excerpt": "Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”.",
+          "sentence_hash": "2b354dea0c63f723869d14484e5e0832476be2a5f426c9276567755b97fb237b",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The company said the outage was a “technical issue” not related to cyber-attacks or AI agents, and that it continued to gradually restore services.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.543151+08:00",
+          "content_sha256": "c430d9aaa176c9d76af14d93d1bcb85234d531ad4e08a107f8963828fe793379",
+          "excerpt": "The company said the outage was a “technical issue” not related to cyber-attacks or AI agents, and that it continued to gradually restore services.",
+          "sentence_hash": "a29cda704225c65e03cefc4f1d610510e64653af21342f433676d889cf542f10",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The outage of Microsoft’s services, which began Thursday evening, lasted roughly 18 hours before services started to recover just before midday GMT on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.543175+08:00",
+          "content_sha256": "c430d9aaa176c9d76af14d93d1bcb85234d531ad4e08a107f8963828fe793379",
+          "excerpt": "The outage of Microsoft’s services, which began Thursday evening, lasted roughly 18 hours before services started to recover just before midday GMT on Friday.",
+          "sentence_hash": "245fe4135844e65bff8293c685a86479e2dcc8d048db8ecd165ea4339bd54a6e",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Microsoft said it was bringing back services gradually to ensure a stable restoration.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.543191+08:00",
+          "content_sha256": "c430d9aaa176c9d76af14d93d1bcb85234d531ad4e08a107f8963828fe793379",
+          "excerpt": "Microsoft said it was bringing back services gradually to ensure a stable restoration.",
+          "sentence_hash": "534f6beba230bb1c6f335d31e8c10c292a19bda728d08f064352c4127acfdfee",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Earlier on Friday, it said email queues were “significantly reduced and approaching normal levels” as it brought back services.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.543212+08:00",
+          "content_sha256": "c430d9aaa176c9d76af14d93d1bcb85234d531ad4e08a107f8963828fe793379",
+          "excerpt": "Earlier on Friday, it said email queues were “significantly reduced and approaching normal levels” as it brought back services.",
+          "sentence_hash": "fbc32a7716564a839d7ce7cf5f323d855cc1914187714a8a5c5fa62b4cdfcb77",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.543238+08:00",
+          "content_sha256": "c430d9aaa176c9d76af14d93d1bcb85234d531ad4e08a107f8963828fe793379",
+          "excerpt": "More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company.",
+          "sentence_hash": "dd3f943f357170a57636b7565fcb1d63cef002a95cc5601f4ced495b9ffd95bb",
+          "anchors": [
+            "430 million",
+            "us",
+            "90%",
+            "more"
+          ]
+        }
+      ],
+      "entities": [
+        "fortune",
+        "british",
+        "copilot",
+        "friday",
+        "on friday",
+        "teams",
+        "open",
+        "power",
+        "france",
+        "charles lamanna",
+        "representatives",
+        "excel",
+        "earlier",
+        "outlook",
+        "microsoft teams",
+        "word",
+        "down detector",
+        "house",
+        "share",
+        "the microsoft",
+        "uk",
+        "microsoft",
+        "some",
+        "one",
+        "national rail",
+        "us",
+        "drive",
+        "point",
+        "gmt",
+        "thursday",
+        "ai",
+        "anthropic",
+        "more"
+      ],
+      "numbers": [
+        "430 million",
+        "90%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_cd53b0bb3af733ef8b61b75d",
+      "title": "FAA grounds US flights nationwide after ‘communication issue’",
+      "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "US Transportation Secretary Sean Duffy says federal aviation agency is ‘investigating the issue’.",
+      "category": "国际",
+      "published_at": "2026-11-13T21:32:08+00:00",
+      "why_relevant": "FAA全美航班停飞",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "FAA grounds US flights nationwide after ‘communication issue’ US Transportation Secretary Sean Duffy says federal aviation agency is ‘investigating the issue’.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.544137+08:00",
+          "content_sha256": "6d7a611eec609a28c1940983306d3a7a23b6758ae0afa6c79f182400ca52f9e8",
+          "excerpt": "FAA grounds US flights nationwide after ‘communication issue’ US Transportation Secretary Sean Duffy says federal aviation agency is ‘investigating the issue’.",
+          "sentence_hash": "7bd9c37bfef36424bdb423b3f1cbc6b7274f8d14baa4d37f5be5597c31960f51",
+          "anchors": [
+            "flight"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The United States has grounded flights across the country after a “communication issue” impacted traffic control centres, US Transportation Secretary Sean Duffy said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.544163+08:00",
+          "content_sha256": "6d7a611eec609a28c1940983306d3a7a23b6758ae0afa6c79f182400ca52f9e8",
+          "excerpt": "The United States has grounded flights across the country after a “communication issue” impacted traffic control centres, US Transportation Secretary Sean Duffy said.",
+          "sentence_hash": "5d2c226d35d5970d3831f8e903c5a42c83f3eb85563c1946ddbec90a97884ab2",
+          "anchors": [
+            "ai",
+            "flight"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The FAA said in a post on X that there had been a “temporary telecommunications outage” and that, as a precaution, all flights were being halted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.544197+08:00",
+          "content_sha256": "6d7a611eec609a28c1940983306d3a7a23b6758ae0afa6c79f182400ca52f9e8",
+          "excerpt": "The FAA said in a post on X that there had been a “temporary telecommunications outage” and that, as a precaution, all flights were being halted.",
+          "sentence_hash": "67bcb53b7b0642c091353a4128324ae814fa4b2ca04717fddf82fe06e9cce400",
+          "anchors": [
+            "ai",
+            "flight"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "International flights would be handled case by case, it added.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.544211+08:00",
+          "content_sha256": "6d7a611eec609a28c1940983306d3a7a23b6758ae0afa6c79f182400ca52f9e8",
+          "excerpt": "International flights would be handled case by case, it added.",
+          "sentence_hash": "5a7b68ec36c6634c6bde037cea111b5cfbce694540fa9f04a3b94117f5916aa6",
+          "anchors": [
+            "flight"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "About 7,000 flights have been either delayed or cancelled due to the stop, according to FlightAware.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.544229+08:00",
+          "content_sha256": "6d7a611eec609a28c1940983306d3a7a23b6758ae0afa6c79f182400ca52f9e8",
+          "excerpt": "About 7,000 flights have been either delayed or cancelled due to the stop, according to FlightAware.",
+          "sentence_hash": "80c00fabc9deaea75913d5fbfc3d4ce90ead5f0f6b7eb9275a684468792faf34",
+          "anchors": [
+            "flight"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Some 4,042 flights were in the air, heading to US airports, when the ground stop was ordered, according to the tracking site Flightradar24.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.544248+08:00",
+          "content_sha256": "6d7a611eec609a28c1940983306d3a7a23b6758ae0afa6c79f182400ca52f9e8",
+          "excerpt": "Some 4,042 flights were in the air, heading to US airports, when the ground stop was ordered, according to the tracking site Flightradar24.",
+          "sentence_hash": "aa8b0e00da531000a4eda7b525fadd59f5919660e167448ea65879c684436f6b",
+          "anchors": [
+            "ai",
+            "flight"
+          ]
+        }
+      ],
+      "entities": [
+        "mullin",
+        "fbi",
+        "aware",
+        "january",
+        "friday",
+        "white house",
+        "some",
+        "flightradar",
+        "faa",
+        "department",
+        "bloomberg",
+        "you",
+        "us",
+        "transportation",
+        "transportation secretary sean duffy",
+        "september",
+        "congress",
+        "the united states",
+        "international",
+        "everybody",
+        "president donald trump",
+        "before",
+        "about",
+        "homeland security secretary markwayne mullin",
+        "asked",
+        "ai",
+        "flight",
+        "duffy",
+        "federal aviation administration"
+      ],
+      "numbers": [
+        "$12.5",
+        "$30.1"
+      ],
+      "dates": [
+        "January 20",
+        "September 11"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_39629b6c30e26c7242f918ff",
+      "title": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "publisher": "GitHub Trending",
+      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.https://tensorfold.devTensorFold \nTensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation. \nBuilding with a coding agent? Have it load the contributor skill before it writes any code. \nContributing with agents \nPlease use Agent Traffic Control before editing TensorFold so contributors an",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "跨平台LLM推理引擎",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545092+08:00",
+          "content_sha256": "05fb59e8e1272961397ce83dedc87ea5f930e47ba6db40a406ca5305fb898a2f",
+          "excerpt": "TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs.",
+          "sentence_hash": "a126f275732ab25f4123512657b388e35228558d7caa0a3c1f15c325fcda84f7",
+          "anchors": [
+            "model"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545110+08:00",
+          "content_sha256": "05fb59e8e1272961397ce83dedc87ea5f930e47ba6db40a406ca5305fb898a2f",
+          "excerpt": "The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly.",
+          "sentence_hash": "691f937aabca2a5c925837084c5aa3d7fef3ddcd6d00a735ef08978898bcab47",
+          "anchors": [
+            "check"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Serving needs no Python or MLX installation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545122+08:00",
+          "content_sha256": "05fb59e8e1272961397ce83dedc87ea5f930e47ba6db40a406ca5305fb898a2f",
+          "excerpt": "Serving needs no Python or MLX installation.",
+          "sentence_hash": "273b64bce0c2520b71873eb64acff052f4dec8465117db04c3ba3a58c67e0fb3",
+          "anchors": [
+            "install"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Have it load the contributor skill before it writes any code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545138+08:00",
+          "content_sha256": "05fb59e8e1272961397ce83dedc87ea5f930e47ba6db40a406ca5305fb898a2f",
+          "excerpt": "Have it load the contributor skill before it writes any code.",
+          "sentence_hash": "55f4de4979744a6feda2294518eedfe936e28ba8dd2b2579abcbc9f1a9659d8d",
+          "anchors": [
+            "before",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Please use Agent Traffic Control before editing TensorFold so contributors and agents can avoid duplicate work and conflicting changes.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545156+08:00",
+          "content_sha256": "05fb59e8e1272961397ce83dedc87ea5f930e47ba6db40a406ca5305fb898a2f",
+          "excerpt": "Please use Agent Traffic Control before editing TensorFold so contributors and agents can avoid duplicate work and conflicting changes.",
+          "sentence_hash": "db148815b289d47cc33d8d9d3bcf1b037cb6ad442cc7f77e8892767c4999923f",
+          "anchors": [
+            "before",
+            "for",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Check the live agent radar before choosing an issue and follow CONTRIBUTING.md and the ATC contributor instructions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545173+08:00",
+          "content_sha256": "05fb59e8e1272961397ce83dedc87ea5f930e47ba6db40a406ca5305fb898a2f",
+          "excerpt": "Check the live agent radar before choosing an issue and follow CONTRIBUTING.md and the ATC contributor instructions.",
+          "sentence_hash": "61f4558e08fc5cfd6f6294d3f1b74bb3e204f6b8b7143f2899926b3f8c1b049d",
+          "anchors": [
+            "issue",
+            "before",
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "homebrew",
+        "tensor",
+        "nvidia",
+        "please",
+        "apple silicon",
+        "have",
+        "model",
+        "replace",
+        "python",
+        "install",
+        "for",
+        "pulse",
+        "fold",
+        "keep",
+        "start",
+        "metal",
+        "use",
+        "building",
+        "add",
+        "cpu",
+        "agent traffic control",
+        "serving",
+        "atc",
+        "cuda",
+        "evaluating tensor",
+        "zig",
+        "gpu",
+        "hub",
+        "git",
+        "reviewing",
+        "mlx",
+        "check",
+        "qwen",
+        "issue",
+        "before"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_d29e3310a8a553cb7e5d9271",
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-13T18:39:58+00:00",
+      "why_relevant": "比特币暴跌至6.8万",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.545302+08:00",
+          "content_sha256": "70b3bec9505bfec126bde2a25c6a585cb13b91db3d1fde2e2af967892dec713e",
+          "excerpt": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+          "sentence_hash": "70b3bec9505bfec126bde2a25c6a585cb13b91db3d1fde2e2af967892dec713e",
+          "anchors": [
+            "$68,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "bitcoin",
+        "ipo",
+        "anthropic"
+      ],
+      "numbers": [
+        "$68,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 4
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_591e00ff4e15902d2518c483",
+      "title": "Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates",
+      "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Nvidia shares rebounded from its recent pressure and the latest inflation data came in slightly lighter than expected.",
+      "category": "财经",
+      "published_at": "2026-11-13T21:34:28+00:00",
+      "why_relevant": "纳指跌但周线涨",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The tech-heavy Nasdaq dropped 0.91% to 25,136.27, while the S&P 500 slid 0.4% to 7,561.67.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.546302+08:00",
+          "content_sha256": "d64e9076c46864f45409e6737ed4446d698f5c0dc0475102bc285864b80e97e7",
+          "excerpt": "The tech-heavy Nasdaq dropped 0.91% to 25,136.27, while the S&P 500 slid 0.4% to 7,561.67.",
+          "sentence_hash": "05b12f9c243e52b5ad8545ece14ec54a623b4783e738c08966e8043165a15893",
+          "anchors": [
+            "4%",
+            "0.4%",
+            "0.91%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The Dow Jones Industrial Average eked out a gain of 50.46 points, or 0.1%, to end at 52,347.55.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.546323+08:00",
+          "content_sha256": "d64e9076c46864f45409e6737ed4446d698f5c0dc0475102bc285864b80e97e7",
+          "excerpt": "The Dow Jones Industrial Average eked out a gain of 50.46 points, or 0.1%, to end at 52,347.55.",
+          "sentence_hash": "672e3d96203ef4f9819868a4ddfca15581c76c3a629591680369aefe7bc6c21b",
+          "anchors": [
+            "ai",
+            "0.1%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Equities initially popped after October's producer price index reading — a measure of wholesale inflation — showed an increase of 0.3% on the month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.546350+08:00",
+          "content_sha256": "d64e9076c46864f45409e6737ed4446d698f5c0dc0475102bc285864b80e97e7",
+          "excerpt": "Equities initially popped after October's producer price index reading — a measure of wholesale inflation — showed an increase of 0.3% on the month.",
+          "sentence_hash": "daa4d098d262cc3e32a2bd2ee4b2a17dba5e56e91c1f10398ae9321a0e651898",
+          "anchors": [
+            "0.3%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Economists polled by Dow Jones had seen headline PPI rising 0.4%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.546365+08:00",
+          "content_sha256": "d64e9076c46864f45409e6737ed4446d698f5c0dc0475102bc285864b80e97e7",
+          "excerpt": "Economists polled by Dow Jones had seen headline PPI rising 0.4%.",
+          "sentence_hash": "738b2e8e3729203f028ab14adebba9db7725801a8b636ed2d5ae8a8da2456bc3",
+          "anchors": [
+            "4%",
+            "0.4%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "However, the report also showed producer prices gaining 6.5% from 12 months earlier — the biggest annual advance since November 2022.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.546389+08:00",
+          "content_sha256": "d64e9076c46864f45409e6737ed4446d698f5c0dc0475102bc285864b80e97e7",
+          "excerpt": "However, the report also showed producer prices gaining 6.5% from 12 months earlier — the biggest annual advance since November 2022.",
+          "sentence_hash": "9febd01efdf1b6177080354cb53f5e14a3ae50a1de9754c9da0b368f43eaf606",
+          "anchors": [
+            "ai",
+            "6.5%",
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The stock fell 2% Friday, extending the more than 4% drop it saw in the previous session.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.546410+08:00",
+          "content_sha256": "d64e9076c46864f45409e6737ed4446d698f5c0dc0475102bc285864b80e97e7",
+          "excerpt": "The stock fell 2% Friday, extending the more than 4% drop it saw in the previous session.",
+          "sentence_hash": "64167506cd3e16f863dbe5207a6c67223d38d98427542845b6c0ef706ea640bb",
+          "anchors": [
+            "4%",
+            "2%",
+            "more"
+          ]
+        }
+      ],
+      "entities": [
+        "nasdaq",
+        "baird",
+        "the nasdaq composite",
+        "analysts",
+        "nvidia",
+        "thomas martin",
+        "friday",
+        "ceo",
+        "nyse",
+        "nov",
+        "the dow jones industrial average",
+        "november",
+        "cnbc",
+        "democratic",
+        "huang",
+        "however",
+        "hsbc",
+        "new york stock exchange",
+        "ppi",
+        "even",
+        "economists",
+        "dow jones",
+        "colette kress",
+        "jensen huang",
+        "there",
+        "globalt investments",
+        "ross mayfield",
+        "chinese",
+        "october",
+        "thursday",
+        "traders",
+        "the dow",
+        "equities",
+        "ai",
+        "more"
+      ],
+      "numbers": [
+        "20%",
+        "4%",
+        "0.3%",
+        "0.1%",
+        "0.91%",
+        "0.4%",
+        "6.5%",
+        "2%"
+      ],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 44
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_1853860b31455472ed146c67",
+      "title": "Is the AI bubble bursting just as Anthropic goes public?",
+      "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "The sharp sell-off in tech stocks after the US midterms has cast doubt on Anthropic's looming IPO. Yet with hundreds of billions still being invested, some think the AI party is still in full swing.",
+      "category": "国际",
+      "published_at": "2026-11-13T12:27:00+00:00",
+      "why_relevant": "AI泡沫IPO争议",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Is the AI bubble bursting just as Anthropic goes public?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.547358+08:00",
+          "content_sha256": "2d85da8b4b80e8eefd9ad229c1986615eb9c3ce693cdacca06f5797b8878cc98",
+          "excerpt": "Is the AI bubble bursting just as Anthropic goes public?",
+          "sentence_hash": "5392a658167095d81a6aff530005fcb4eb06775d8ade1cdb8a6a21b83f2e935f",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "November 13, 2026 2026 was meant to be the year Wall Street’s trillion-dollar artificial intelligence (AI) bet started paying off.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.547386+08:00",
+          "content_sha256": "2d85da8b4b80e8eefd9ad229c1986615eb9c3ce693cdacca06f5797b8878cc98",
+          "excerpt": "November 13, 2026 2026 was meant to be the year Wall Street’s trillion-dollar artificial intelligence (AI) bet started paying off.",
+          "sentence_hash": "9f20660e34741030932d1863e30ac119a8ab33e83788f102cd7d7021a6a64b88",
+          "anchors": [
+            "November 13"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Two of the largest AI players — Anthropic and OpenAI — announced plans for public listings, following SpaceX's much-hyped IPO in June, which briefly made Elon Musk the world's first trillionaire.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.547435+08:00",
+          "content_sha256": "2d85da8b4b80e8eefd9ad229c1986615eb9c3ce693cdacca06f5797b8878cc98",
+          "excerpt": "Two of the largest AI players — Anthropic and OpenAI — announced plans for public listings, following SpaceX's much-hyped IPO in June, which briefly made Elon Musk the world's first trillionaire.",
+          "sentence_hash": "8a8d002d9388b37f038b8eb03c5907cba14add5c8c2a3c746ef3ae6d6903d8c7",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "AI models, meanwhile, got noticeably better at difficult tasks in the race to beat human intelligence.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.547457+08:00",
+          "content_sha256": "2d85da8b4b80e8eefd9ad229c1986615eb9c3ce693cdacca06f5797b8878cc98",
+          "excerpt": "AI models, meanwhile, got noticeably better at difficult tasks in the race to beat human intelligence.",
+          "sentence_hash": "0f111e772260540a494bc6e34b24850722d092493ae6810fd141800e59db58d9",
+          "anchors": [
+            "while"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "AI doubts trigger market turbulence The second half of 2026, however, has brought a lot more uncertainty.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.547478+08:00",
+          "content_sha256": "2d85da8b4b80e8eefd9ad229c1986615eb9c3ce693cdacca06f5797b8878cc98",
+          "excerpt": "AI doubts trigger market turbulence The second half of 2026, however, has brought a lot more uncertainty.",
+          "sentence_hash": "2412bb4a2a0f38003f2033619f022e2fa22f1d79147a4c4d7bdc03401ae93ef7",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "While the stock of Nvidia, a chipmaker, pushed even higher last month, many hyperscalers and chip or memory firms have seen their stock prices gyrate wildly.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-14T08:03:07.547501+08:00",
+          "content_sha256": "2d85da8b4b80e8eefd9ad229c1986615eb9c3ce693cdacca06f5797b8878cc98",
+          "excerpt": "While the stock of Nvidia, a chipmaker, pushed even higher last month, many hyperscalers and chip or memory firms have seen their stock prices gyrate wildly.",
+          "sentence_hash": "76f53a3dc6f123772472672d1aeb806a1f70170d6c60ce1c1ac621f190404339",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "goldman sachs",
+        "two",
+        "meta",
+        "alphabet",
+        "instead",
+        "space",
+        "magnificent seven",
+        "quilter",
+        "fbi",
+        "elon musk",
+        "nvidia",
+        "rees",
+        "ceo",
+        "show",
+        "google",
+        "open",
+        "november",
+        "while",
+        "huang",
+        "stock trader network",
+        "democrats",
+        "june",
+        "kit rees",
+        "dennis dick",
+        "wall street",
+        "canada",
+        "apple",
+        "tesla",
+        "other",
+        "microsoft",
+        "jensen huang",
+        "there",
+        "now",
+        "dw",
+        "amid",
+        "united states congress",
+        "us",
+        "chinese",
+        "on thursday",
+        "growing",
+        "amazon",
+        "in september",
+        "kansas",
+        "then",
+        "london",
+        "ai",
+        "ipo",
+        "anthropic"
+      ],
+      "numbers": [
+        "1 trillion",
+        "10%",
+        "230 billion",
+        "$1 trillion",
+        "$230 billion",
+        "$300 billion",
+        "300 billion"
+      ],
+      "dates": [
+        "November 13"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 56
+      },
+      "evidence_complete": true
+    }
+  ]
+}
