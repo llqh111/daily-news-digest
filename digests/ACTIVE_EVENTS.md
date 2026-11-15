@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-14 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-15 08:07。
+
+## alibaba/open-code-review
+- 状态：更新中；首见 2026-09-16；最近更新 2026-11-15
+- 最新事实：English | 简体中文 | 日本語 | 한국어 | Русский Open Code Review is an AI-powered code review CLI tool.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260916_ab70979c65ef`
+
+## Trump, Putin and Xi plan historic joint meeting in China next week, White House says
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Trump, Putin and Xi plan historic joint meeting in China next week, White House says - Published Donald Trump, Vladimir Putin and Xi Jinping are planning to meet on the sidelines of a summit in China next week, the White House has said.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261115_1cd4c803cdaa`
+
+## tradermonty/claude-trading-skills
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Reload to refresh your session.You signed out in another tab or window.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261115_55eb327c9047`
+
+## Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs — Researchers use new GPU 'fingerprinting' technique to identify the GPUs used to train open models A clever yet simple way to establish correlation.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261115_7899b9372f29`
+
+## SpaceX catches returning Starship rocket in breakthrough for Musk
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261115_20d15fc58ed4`
+
+## Copper wire upgrade caused nationwide flight suspension, US transport secretary says
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Copper wire upgrade caused nationwide flight suspension, US transport secretary says - Published A nationwide US ground stop that caused thousands of flight cancellations was caused by an issue following a copper wire upgrade, Transport Secretary Sean Duffy said.
+- 事件 ID：`evt_20261115_fa996247bc7f`
+
+## Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：The Microsoft outage could be a disaster for the Australian economy that forces some small businesses to close, with costs expected to run into the billions of dollars, experts have warned.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261115_d79c9f3cdf17`
+
+## GoogleChrome/modern-web-guidance-src
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261115_7a310c81ed1a`
+
+## How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实："We may have been put in an environment, as much as investors have sort of been looking for areas outside of Big Tech, where net-net Big Tech ends up as the winner once again," said Roundhill Investments CEO Dave Mazza, whose firm manages the Magnificent Seven ETF (MAGS).
+- 事件 ID：`evt_20261115_317c4a567d05`
+
+## Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261115_3d4eb25a9bb8`
+
+## Italy fines Meta €805m over accessing users' photos
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Italy fines Meta â¬805m over accessing users' photos - Published Italian regulators have fined social media giant Meta â¬805m (Â£670m; $887m) for accessing Android users' photos without their specific consent.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261115_60cfa118ab3c`
+
+## Nigeria's upcoming election marred by rising AI disinformation
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 最新事实：Nigeria's upcoming election marred by rising AI disinformation November 14, 2026 Nigeria has just over two months to go until its general election, with incumbent Bola Tinubu running on a ticket focused on combating raging insecurity and resolving the nation's economic crisis.
+- 事件 ID：`evt_20261115_ecd3a22bc425`
+
+## Fed's Collins says gradual rate hikes best to manage economic risks
+- 状态：更新中；首见 2026-11-15；最近更新 2026-11-15
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261115_3329c6eb4f31`
 
 ## Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague
 - 状态：更新中；首见 2026-11-14；最近更新 2026-11-14
@@ -1869,76 +1942,4 @@
 - 最新事实：VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261017_d6f23b420111`
-
-## Saudi Aramco HQ attacked in suspected Houthi strike
-- 状态：更新中；首见 2026-10-14；最近更新 2026-10-15
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261014_2af6756996e0`
-
-## vercel-labs/skills
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：npx skills add vercel-labs/agent-skills Generate a prompt for one skill, or start a supported coding agent interactively: npx skills use vercel-labs/agent-skills@web-design-guidelines | claude npx skills use vercel-labs/agent-skills --skill web-design-guidelines --agent claude-co
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_6147e6841325`
-
-## Meta’s Muse AI Agent Just Designed A Crypto-Specific SoC On The RISC-V Architecture For $2,000 To Transform The Thru Blockchain Into “The Fastest On Earth”
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Chip design is a patently laborious process, one that involves hefty use of a specialized suite of EDA tools.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_19492675d19a`
-
-## Redesigning source control at Anthropic
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：13th October 2026 - Link Blog Redesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.
-- 事件 ID：`evt_20261015_17fb7da79015`
-
-## Amp puts AI agents to work beyond code with OpenAI models
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_1d7d330373d9`
-
-## Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Advertisement Open QuestionsSusan Thornton on US-China ties, post-midterms and averting a new balloon crisis AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says 15-MIN READ15-MIN Listen Susan
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_1a325c4dbf63`
-
-## AI-armed hackers tear through corporate Japan’s neglected defences
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Advertisement AI-armed hackers tear through corporate Japan’s neglected defences For years, the Japanese language was a defence against hacking in and of itself, observers say.
-- 事件 ID：`evt_20261015_ee3cf18099e5`
-
-## Musk says US government may be behind slowdown of Ukraine drone speeds
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Musk says US government may be behind slowdown of Ukraine drone speeds - Published Elon Musk has suggested that the US government may be behind restrictions on the speed at which some of Ukraine's weapons can travel and stay connected to SpaceX's Starlink internet network.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_6e5b76e62f5f`
-
-## Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China Pentagon chief warns US risks falling behind China in drones, robotics and AI without major investment in military capabilities US Defence Secretary Pete Hegseth has called a nearly US$1.5 trillion defence b
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_7a69144aaa53`
-
-## Anthropic Revenue Jumps to $16.8 Billion in Quarter Before IPO
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：San Francisco-based Anthropic will release the numbers to a group of institutional investors, according to two people familiar with the matter, who asked not to be named because the details were confidential.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261015_b83ab40f32bb`
-
-## Fed rate hike call seen tight as inflation heats up
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261015_19482926cddf`
-
-## Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261015_dcb8e7440d1d`
-
-## Iran: Political infighting deepens as economic woes mount during war
-- 状态：更新中；首见 2026-10-15；最近更新 2026-10-15
-- 最新事实：Political infighting in Iran deepens as economic woes mount October 14, 2026 Hardliners are piling the pressure on Iran’s government and calling for the removal of Foreign Minister Abbas Araghchi.
-- 事件 ID：`evt_20261015_cc20514845c1`
 
