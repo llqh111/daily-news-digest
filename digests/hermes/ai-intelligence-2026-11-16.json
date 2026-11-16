@@ -1,0 +1,772 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T00:06:41.548735+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-16-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-16.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-15.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_08f4b44db48af4f007dc8618",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+      "category": "国际",
+      "published_at": "2026-11-15T22:24:20+00:00",
+      "why_relevant": "AI芯片泄露，国安与供应链",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says - Published Alice Huang, a suspected China spy who has been linked to Nvidia's former boss Jensen Huang, left her executive role at Megaspeed in August last year, the company says.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834060+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says - Published Alice Huang, a suspected China spy who has been linked to Nvidia's former boss Jensen Huang, left her executive role at Megaspeed in August last year, the company says.",
+          "sentence_hash": "76a97918ce8c2d30a6a0166f0085ac31329e2a42850aa466fbcbc2bcb0ae15f0",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Jensen Huang resigned as chief executive of the AI chip-making giant Nvidia after it emerged he had allegedly had affairs with Alice Huang as well as with one of his employees.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834080+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Jensen Huang resigned as chief executive of the AI chip-making giant Nvidia after it emerged he had allegedly had affairs with Alice Huang as well as with one of his employees.",
+          "sentence_hash": "c269f873d80c5f17905302b37e056b31f0aee9332f156b64f81ddce1bbaa900b",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Megaspeed is the biggest buyer of Nvidia chips in South East Asia and the scandal at Nvidia has raised questions about the possibility that high-end AI chips may have ended up in China despite US export restrictions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834107+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Megaspeed is the biggest buyer of Nvidia chips in South East Asia and the scandal at Nvidia has raised questions about the possibility that high-end AI chips may have ended up in China despite US export restrictions.",
+          "sentence_hash": "0cdaca1fc131784d2045d88cb0f4270c15dfedd15d91eb55df51fd3e49369ce3",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Singapore-based company said on Sunday it had launched an internal investigation into its business.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834118+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "The Singapore-based company said on Sunday it had launched an internal investigation into its business.",
+          "sentence_hash": "3ffd5346d325234818c2e254525cd59f1780824e1f097e020ece6be01600423a",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Megaspeed said it was aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834131+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Megaspeed said it was aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "sentence_hash": "2672c7e5733d487930996ce303a92dd8af90492aff0dbd70f58041562ea1b16b",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "It added that it \"conducts legitimate and lawful business\" and has \"retained external legal counsel to conduct a thorough internal investigation\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834143+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "It added that it \"conducts legitimate and lawful business\" and has \"retained external legal counsel to conduct a thorough internal investigation\".",
+          "sentence_hash": "06365fb21366304ac4f46453baafa0d7bccbd68484f133a6d58ce5eea8f12da8",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "august",
+        "published\nalice huang",
+        "house foreign affairs",
+        "suspected china",
+        "bbc",
+        "ceo",
+        "congressman john moolenaar",
+        "house permanent select committee",
+        "howard lutnick",
+        "sunday",
+        "commerce",
+        "separately",
+        "china",
+        "huang",
+        "also",
+        "south east asia",
+        "face the nation",
+        "trump",
+        "elon musk",
+        "alice huang",
+        "senate banking committee",
+        "ai",
+        "cbs",
+        "bessent",
+        "chinese",
+        "jensen huang",
+        "intelligence",
+        "financial times sunday",
+        "on friday",
+        "treasury secretary scott bessent",
+        "lutnick",
+        "cnbc",
+        "nvidia",
+        "select committee",
+        "megaspeed",
+        "the singapore",
+        "moolenaar",
+        "space",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-16-AM.json",
+      "source_artifact_date": "2026-11-16",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_2ea50e04ba6628c60b6e6c48",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "publisher": "GitHub Trending",
+      "summary": "Chrome DevTools for coding agentshttps://developer.chrome.com/docs/devtools/agentsChrome DevTools for agents \n \nChrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It is available as a Model-Context-Protocol (MCP) server and as a CLI. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. \nTo",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "DevTools MCP，代理开发利器",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834536+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Chrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser.",
+          "sentence_hash": "28cdd40e5495a79eca80b9084c355ac7dfeabfc53195c66e487d229b0d58016f",
+          "anchors": [
+            "you",
+            "tool",
+            "tools",
+            "dev",
+            "chrome",
+            "mcp"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It is available as a Model-Context-Protocol (MCP) server and as a CLI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834547+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "It is available as a Model-Context-Protocol (MCP) server and as a CLI.",
+          "sentence_hash": "18bb240c33fac30271e053b6f984689beb55e275107439865c699ae3c934ab64",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834560+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.",
+          "sentence_hash": "34f10c096beb065e966044101476b65cd8f2d149838e4e0feab6aac366e41d50",
+          "anchors": [
+            "performance",
+            "reliable",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Tool reference | CLI | Skills | Changelog | Contributing | Troubleshooting | Design Principles - Get performance insights: Uses Chrome DevTools to record traces and extract actionable performance insights.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834575+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Tool reference | CLI | Skills | Changelog | Contributing | Troubleshooting | Design Principles - Get performance insights: Uses Chrome DevTools to record traces and extract actionable performance insights.",
+          "sentence_hash": "e9018c02596830a93ba9f8d1223a1bfb7ef42f8d14f82c62c5525557e4d330e6",
+          "anchors": [
+            "performance",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Uses puppeteer to automate actions in Chrome and automatically wait for action results.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834593+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Uses puppeteer to automate actions in Chrome and automatically wait for action results.",
+          "sentence_hash": "dd3f72809ce92686c891b59da4a4e41c6ba3b96988b92e7f0462db3c043a2a0d",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "chrome-devtools-mcp exposes content of the browser instance to the MCP clients allowing them to inspect, debug, and modify any data in the browser or DevTools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834607+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "chrome-devtools-mcp exposes content of the browser instance to the MCP clients allowing them to inspect, debug, and modify any data in the browser or DevTools.",
+          "sentence_hash": "4efaf84a4f8743b9f1f9d69b4559e256ad6feba7ebe4d6e5170d2bee436590f4",
+          "anchors": [
+            "tool",
+            "tools",
+            "data",
+            "cli",
+            "dev",
+            "chrome",
+            "mcp"
+          ]
+        }
+      ],
+      "entities": [
+        "model",
+        "analyze",
+        "chrome dev",
+        "cursor",
+        "contributing",
+        "uses",
+        "performance",
+        "add",
+        "copilot",
+        "google cr",
+        "google privacy policy",
+        "cli",
+        "ci",
+        "changelog",
+        "mcp",
+        "advanced",
+        "collection",
+        "tools",
+        "tool",
+        "other chromium",
+        "dev",
+        "protocol",
+        "troubleshooting",
+        "context",
+        "extended stable chrome",
+        "ai",
+        "testing",
+        "data",
+        "google chrome",
+        "antigravity",
+        "skills",
+        "both",
+        "claude",
+        "use",
+        "chrome",
+        "reliable",
+        "you",
+        "design principles",
+        "avoid",
+        "uses chrome dev",
+        "servers",
+        "get",
+        "chrome\nuser experience report",
+        "opting",
+        "google",
+        "api"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 46
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-16-AM.json",
+      "source_artifact_date": "2026-11-16",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_b3caf2ff8bb97eb1f0e57ea9",
+      "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+      "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+      "publisher": "The Guardian",
+      "summary": "Authorities say Russian intelligence service ordered attack which Estonian PM links to Tallinn’s support for Ukraine Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.On Saturday morning, eight people were detained during an attempted attack on Threod Systems, a defence company that manufactures long-range ",
+      "category": "国际",
+      "published_at": "2026-11-15T22:17:09+00:00",
+      "why_relevant": "俄欧边境升级，地缘风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835375+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.",
+          "sentence_hash": "0bb54348c186025a6350572bcce9bb77ebf31fe74504381e52f4e2815e18d810",
+          "anchors": [
+            "authorities"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The authorities did not specify how long the closure would be.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835433+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "The authorities did not specify how long the closure would be.",
+          "sentence_hash": "fc83667c64142e2bc30de94820937cec434c4f848014fc62427dfc6896f722fb",
+          "anchors": [
+            "authorities"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It is the second attempted attack on an Estonian defence company that authorities have attributed to Russia, after an arson attack at Milrem Robotics in August.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835446+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "It is the second attempted attack on an Estonian defence company that authorities have attributed to Russia, after an arson attack at Milrem Robotics in August.",
+          "sentence_hash": "7527a93ef80ac439f69723e040add1eba025e4e8dc1fee6727db25592a4ff78f",
+          "anchors": [
+            "authorities"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Several European intelligence services have repeatedly warned of potential attacks on defence companies and growing Russian attempts to recruit citizens in EU and Nato countries – on online messaging platforms – to carry out acts of sabotage.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835478+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "Several European intelligence services have repeatedly warned of potential attacks on defence companies and growing Russian attempts to recruit citizens in EU and Nato countries – on online messaging platforms – to carry out acts of sabotage.",
+          "sentence_hash": "248887a02fb9c3724047c962c7742461a81ffa21a4b3994084328ecf33697fef",
+          "anchors": [
+            "attempts"
+          ]
+        }
+      ],
+      "entities": [
+        "ukraine",
+        "august",
+        "err",
+        "the estonian",
+        "in september",
+        "koidula",
+        "nato",
+        "several european",
+        "baltic",
+        "estonian",
+        "kremlin",
+        "december",
+        "narva",
+        "russian",
+        "michal",
+        "russia",
+        "sunday",
+        "milrem robotics",
+        "luhamaa",
+        "threod systems",
+        "margus tsahkna",
+        "authorities",
+        "estonia",
+        "kristen michal",
+        "attempts",
+        "gru",
+        "on saturday",
+        "eu",
+        "kapo"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-16-AM.json",
+      "source_artifact_date": "2026-11-16",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_88efe1e6256237ad6c8d313e",
+      "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+      "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Scott Bessent gives Nvidia&#039;s board 10 days to show the company&#039;s compliance with US export controls.",
+      "category": "国际",
+      "published_at": "2026-11-15T21:47:47+00:00",
+      "why_relevant": "英伟达合规压力，高层动荡",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia Scott Bessent gives Nvidia’s board 10 days to show the company’s compliance with US export controls.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835927+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia Scott Bessent gives Nvidia’s board 10 days to show the company’s compliance with US export controls.",
+          "sentence_hash": "d4c92054d48c52ea16bcae103dfb7e86451f49b92fb6e0b1850fef1f81e77118",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "United States Treasury Secretary Scott Bessent has called for an outsider to take the helm at Nvidia, the California-based technology giant that has faced scandal over its former chief executive, Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835943+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "United States Treasury Secretary Scott Bessent has called for an outsider to take the helm at Nvidia, the California-based technology giant that has faced scandal over its former chief executive, Jensen Huang.",
+          "sentence_hash": "64ca9c60f54d2624f3207df6d01fc6de7eb3df95cc1cb14b419dd5a2f41a6c71",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Speaking on Fox News’s Sunday Morning Futures programme, Bessent said the company should look beyond its own ranks for Huang’s successor.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835957+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "Speaking on Fox News’s Sunday Morning Futures programme, Bessent said the company should look beyond its own ranks for Huang’s successor.",
+          "sentence_hash": "ba1f4cefcab8d0a3bdd44802cdab4f4ef4537115318028e4d53f04cbaa1fb0c6",
+          "anchors": [
+            "for",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“This makes me think that, as the board conducts a search for a new leader, that they need to go outside the company,” Bessent told Fox News.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835971+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "“This makes me think that, as the board conducts a search for a new leader, that they need to go outside the company,” Bessent told Fox News.",
+          "sentence_hash": "7e54459d86d378ad594fd12046194e0517b7fdac364026acd35544b9ae7dd5e1",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“Just [with] what was going on inside the company, they need a dramatic shake-up.” Bessent’s comments come three days after Huang stepped down on Thursday, following revelations of extramarital affairs, including one involving a woman US officials suspect of working for Chinese i",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835992+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "“Just [with] what was going on inside the company, they need a dramatic shake-up.” Bessent’s comments come three days after Huang stepped down on Thursday, following revelations of extramarital affairs, including one involving a woman US officials suspect of working for Chinese i",
+          "sentence_hash": "389e1aa86dc22933b742543eb60799e5e52876ce0dd4fc59a12ab5120015e232",
+          "anchors": [
+            "for",
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Nvidia plays a leading role in producing chips and other computing components for artificial intelligence (AI).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836004+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "Nvidia plays a leading role in producing chips and other computing components for artificial intelligence (AI).",
+          "sentence_hash": "298c1be857e7a140aa698831de373ddd61333674051d4ce4452ed4b2030516a4",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "thursday",
+        "since",
+        "october",
+        "speaking",
+        "ministry",
+        "but",
+        "in sunday",
+        "fox news",
+        "she",
+        "china",
+        "huang",
+        "the new york times",
+        "trump",
+        "alice huang",
+        "sunday morning futures",
+        "ai",
+        "tightening",
+        "just",
+        "bessent",
+        "chinese",
+        "nvidia\nscott bessent",
+        "jensen huang",
+        "president donald trump",
+        "in august",
+        "treasury",
+        "united states treasury secretary scott bessent",
+        "state security",
+        "foreign affairs",
+        "the ministry",
+        "for",
+        "washington",
+        "nvidia",
+        "california",
+        "megaspeed",
+        "us",
+        "beijing"
+      ],
+      "numbers": [],
+      "dates": [
+        "August 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-16-AM.json",
+      "source_artifact_date": "2026-11-16",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_90b21938440fb5079375e6cd",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "publisher": "GitHub Trending",
+      "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.https://docs.caveman.so/caveman \n New: Caveman Code. Free. \n The most efficient coding agent. Same model, same work, smaller bill. \n  \n  \n    \n    21% cheaperthan CodexTerminal-Bench 4, per solved task \n    14% cheaperthan Claude CodeTerminal-Bench 4, 97 vs 83 solved \n    76% cheaperthan Claude Codefull workday, 4 connected apps \n    \n  \n  \n Same model on both sid",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Token优化巧思，适合本地模型",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Same model, same work, smaller bill.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836469+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Same model, same work, smaller bill.",
+          "sentence_hash": "9fb3a937b7bd9dc47d2ca451ca3c610ab2b6af540fcf6f8e75f22f2fa9fd9f2f",
+          "anchors": [
+            "all",
+            "same"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Same model on both sides: GPT-6.1 Sol against Codex, Opus 5.5 against Claude Code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836481+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Same model on both sides: GPT-6.1 Sol against Codex, Opus 5.5 against Claude Code.",
+          "sentence_hash": "96abe327ec1221ad21e24d1d1f344c42e257e3adf53e8067d584c637e7b8853f",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Our own runs, November 2026, at list prices.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836491+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Our own runs, November 2026, at list prices.",
+          "sentence_hash": "f975b83d3658e0bb50632fa9456a75489030052906b68dc2df1b641e551b35e2",
+          "anchors": [
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "How we measured Every coding agent in one window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836500+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "How we measured Every coding agent in one window.",
+          "sentence_hash": "ca4075b8f157513be663b93944724c27ea3c8261646547a42746a20fdca65ccd",
+          "anchors": [
+            "measured",
+            "one",
+            "red"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Free on the subscriptions and keys you already have.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836510+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Free on the subscriptions and keys you already have.",
+          "sentence_hash": "6d95717cc5769a7408e41812a8827b8376e6f9c41b692ebd8aaab319a677a913",
+          "anchors": [
+            "read",
+            "already"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Download Caveman Code for Mac · Read the launch post Caveman make your AI agent say less and read less.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836526+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Download Caveman Code for Mac · Read the launch post Caveman make your AI agent say less and read less.",
+          "sentence_hash": "e3f345b76ee192ee5884470af196dbfae6c461f2e5e0c474d752647084907eea",
+          "anchors": [
+            "say",
+            "our",
+            "read"
+          ]
+        }
+      ],
+      "entities": [
+        "add",
+        "cli",
+        "claude pro",
+        "one",
+        "other",
+        "brussee",
+        "git",
+        "hub trending",
+        "open",
+        "free",
+        "proof",
+        "all",
+        "julius",
+        "had",
+        "elasticsearch",
+        "nothing",
+        "opus",
+        "cowork",
+        "cited",
+        "red",
+        "blocks",
+        "hub copilot",
+        "pick",
+        "commands",
+        "windows",
+        "each",
+        "adobe",
+        "remade",
+        "codex",
+        "hacker news",
+        "six",
+        "only auto",
+        "every",
+        "get",
+        "done",
+        "not",
+        "token",
+        "customize",
+        "type",
+        "november",
+        "brain",
+        "adobe research",
+        "harness",
+        "gemini",
+        "press enter",
+        "already",
+        "code",
+        "only",
+        "two",
+        "ten",
+        "max",
+        "sol",
+        "gpt",
+        "linux",
+        "ai",
+        "mac",
+        "after",
+        "outside",
+        "measured",
+        "jet",
+        "claude",
+        "needs node",
+        "same",
+        "brains",
+        "download caveman code",
+        "say",
+        "auto",
+        "claude code",
+        "caveman cloud\nsame",
+        "our",
+        "caveman",
+        "elasticsearch labs",
+        "primeagen\ninstall",
+        "ours",
+        "read",
+        "plugins"
+      ],
+      "numbers": [
+        "3%",
+        "35%"
+      ],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 79
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-16-AM.json",
+      "source_artifact_date": "2026-11-16",
+      "freshness_label": "today"
+    }
+  ]
+}

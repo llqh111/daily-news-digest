@@ -1,0 +1,1629 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-16-AM",
+  "date": "2026-11-16",
+  "session": "AM",
+  "delivered_at": "2026-11-16T08:06:41.537734+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-16T00:06:41.538793+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.23076923076923078
+  },
+  "items": [
+    {
+      "article_id": "a1_08f4b44db48af4f007dc8618",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+      "category": "国际",
+      "published_at": "2026-11-15T22:24:20+00:00",
+      "why_relevant": "AI芯片泄露，国安与供应链",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says - Published Alice Huang, a suspected China spy who has been linked to Nvidia's former boss Jensen Huang, left her executive role at Megaspeed in August last year, the company says.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834060+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says - Published Alice Huang, a suspected China spy who has been linked to Nvidia's former boss Jensen Huang, left her executive role at Megaspeed in August last year, the company says.",
+          "sentence_hash": "76a97918ce8c2d30a6a0166f0085ac31329e2a42850aa466fbcbc2bcb0ae15f0",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Jensen Huang resigned as chief executive of the AI chip-making giant Nvidia after it emerged he had allegedly had affairs with Alice Huang as well as with one of his employees.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834080+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Jensen Huang resigned as chief executive of the AI chip-making giant Nvidia after it emerged he had allegedly had affairs with Alice Huang as well as with one of his employees.",
+          "sentence_hash": "c269f873d80c5f17905302b37e056b31f0aee9332f156b64f81ddce1bbaa900b",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Megaspeed is the biggest buyer of Nvidia chips in South East Asia and the scandal at Nvidia has raised questions about the possibility that high-end AI chips may have ended up in China despite US export restrictions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834107+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Megaspeed is the biggest buyer of Nvidia chips in South East Asia and the scandal at Nvidia has raised questions about the possibility that high-end AI chips may have ended up in China despite US export restrictions.",
+          "sentence_hash": "0cdaca1fc131784d2045d88cb0f4270c15dfedd15d91eb55df51fd3e49369ce3",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The Singapore-based company said on Sunday it had launched an internal investigation into its business.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834118+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "The Singapore-based company said on Sunday it had launched an internal investigation into its business.",
+          "sentence_hash": "3ffd5346d325234818c2e254525cd59f1780824e1f097e020ece6be01600423a",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Megaspeed said it was aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834131+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "Megaspeed said it was aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "sentence_hash": "2672c7e5733d487930996ce303a92dd8af90492aff0dbd70f58041562ea1b16b",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "It added that it \"conducts legitimate and lawful business\" and has \"retained external legal counsel to conduct a thorough internal investigation\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834143+08:00",
+          "content_sha256": "19b642dd28355d51f6798eb170e5743dae8b99a0bb0d27f47f1190670f04f541",
+          "excerpt": "It added that it \"conducts legitimate and lawful business\" and has \"retained external legal counsel to conduct a thorough internal investigation\".",
+          "sentence_hash": "06365fb21366304ac4f46453baafa0d7bccbd68484f133a6d58ce5eea8f12da8",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "august",
+        "published\nalice huang",
+        "house foreign affairs",
+        "suspected china",
+        "bbc",
+        "ceo",
+        "congressman john moolenaar",
+        "house permanent select committee",
+        "howard lutnick",
+        "sunday",
+        "commerce",
+        "separately",
+        "china",
+        "huang",
+        "also",
+        "south east asia",
+        "face the nation",
+        "trump",
+        "elon musk",
+        "alice huang",
+        "senate banking committee",
+        "ai",
+        "cbs",
+        "bessent",
+        "chinese",
+        "jensen huang",
+        "intelligence",
+        "financial times sunday",
+        "on friday",
+        "treasury secretary scott bessent",
+        "lutnick",
+        "cnbc",
+        "nvidia",
+        "select committee",
+        "megaspeed",
+        "the singapore",
+        "moolenaar",
+        "space",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2ea50e04ba6628c60b6e6c48",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "publisher": "GitHub Trending",
+      "summary": "Chrome DevTools for coding agentshttps://developer.chrome.com/docs/devtools/agentsChrome DevTools for agents \n \nChrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It is available as a Model-Context-Protocol (MCP) server and as a CLI. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. \nTo",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "DevTools MCP，代理开发利器",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834536+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Chrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser.",
+          "sentence_hash": "28cdd40e5495a79eca80b9084c355ac7dfeabfc53195c66e487d229b0d58016f",
+          "anchors": [
+            "you",
+            "tool",
+            "tools",
+            "dev",
+            "chrome",
+            "mcp"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It is available as a Model-Context-Protocol (MCP) server and as a CLI.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834547+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "It is available as a Model-Context-Protocol (MCP) server and as a CLI.",
+          "sentence_hash": "18bb240c33fac30271e053b6f984689beb55e275107439865c699ae3c934ab64",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834560+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis.",
+          "sentence_hash": "34f10c096beb065e966044101476b65cd8f2d149838e4e0feab6aac366e41d50",
+          "anchors": [
+            "performance",
+            "reliable",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Tool reference | CLI | Skills | Changelog | Contributing | Troubleshooting | Design Principles - Get performance insights: Uses Chrome DevTools to record traces and extract actionable performance insights.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834575+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Tool reference | CLI | Skills | Changelog | Contributing | Troubleshooting | Design Principles - Get performance insights: Uses Chrome DevTools to record traces and extract actionable performance insights.",
+          "sentence_hash": "e9018c02596830a93ba9f8d1223a1bfb7ef42f8d14f82c62c5525557e4d330e6",
+          "anchors": [
+            "performance",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Uses puppeteer to automate actions in Chrome and automatically wait for action results.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834593+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "Uses puppeteer to automate actions in Chrome and automatically wait for action results.",
+          "sentence_hash": "dd3f72809ce92686c891b59da4a4e41c6ba3b96988b92e7f0462db3c043a2a0d",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "chrome-devtools-mcp exposes content of the browser instance to the MCP clients allowing them to inspect, debug, and modify any data in the browser or DevTools.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.834607+08:00",
+          "content_sha256": "6b847f3a0545178aba547f7b7e34136ff549d8989258486c8a7fcc6bc78dbc92",
+          "excerpt": "chrome-devtools-mcp exposes content of the browser instance to the MCP clients allowing them to inspect, debug, and modify any data in the browser or DevTools.",
+          "sentence_hash": "4efaf84a4f8743b9f1f9d69b4559e256ad6feba7ebe4d6e5170d2bee436590f4",
+          "anchors": [
+            "tool",
+            "tools",
+            "data",
+            "cli",
+            "dev",
+            "chrome",
+            "mcp"
+          ]
+        }
+      ],
+      "entities": [
+        "model",
+        "analyze",
+        "chrome dev",
+        "cursor",
+        "contributing",
+        "uses",
+        "performance",
+        "add",
+        "copilot",
+        "google cr",
+        "google privacy policy",
+        "cli",
+        "ci",
+        "changelog",
+        "mcp",
+        "advanced",
+        "collection",
+        "tools",
+        "tool",
+        "other chromium",
+        "dev",
+        "protocol",
+        "troubleshooting",
+        "context",
+        "extended stable chrome",
+        "ai",
+        "testing",
+        "data",
+        "google chrome",
+        "antigravity",
+        "skills",
+        "both",
+        "claude",
+        "use",
+        "chrome",
+        "reliable",
+        "you",
+        "design principles",
+        "avoid",
+        "uses chrome dev",
+        "servers",
+        "get",
+        "chrome\nuser experience report",
+        "opting",
+        "google",
+        "api"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 46
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_db7617a0e1f4fa7e54559a1b",
+      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+      "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "publisher": "The Verge",
+      "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the necessary satellites to challenge Starlink [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-15T21:05:02+00:00",
+      "why_relevant": "火箭失败，商业航天挫折",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "launch director",
+        "today",
+        "vulcan",
+        "starlink",
+        "leo",
+        "there",
+        "space",
+        "amazon leo",
+        "based",
+        "amazon",
+        "space launch complex",
+        "lv",
+        "ula",
+        "united launch alliance"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 14
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_9efb6b9f2117461ee3898536",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Tech supporters lobby chipmaker’s board to reinstate former CEO after he resigned following affair with alleged Chinese spy",
+      "category": "财经",
+      "published_at": "2026-11-15T19:03:41+00:00",
+      "why_relevant": "黄仁勋回归传闻，芯片巨头变局",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "chinese",
+        "ceo",
+        "tech"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_b3caf2ff8bb97eb1f0e57ea9",
+      "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+      "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+      "publisher": "The Guardian",
+      "summary": "Authorities say Russian intelligence service ordered attack which Estonian PM links to Tallinn’s support for Ukraine Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.On Saturday morning, eight people were detained during an attempted attack on Threod Systems, a defence company that manufactures long-range ",
+      "category": "国际",
+      "published_at": "2026-11-15T22:17:09+00:00",
+      "why_relevant": "俄欧边境升级，地缘风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835375+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.",
+          "sentence_hash": "0bb54348c186025a6350572bcce9bb77ebf31fe74504381e52f4e2815e18d810",
+          "anchors": [
+            "authorities"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The authorities did not specify how long the closure would be.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835433+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "The authorities did not specify how long the closure would be.",
+          "sentence_hash": "fc83667c64142e2bc30de94820937cec434c4f848014fc62427dfc6896f722fb",
+          "anchors": [
+            "authorities"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It is the second attempted attack on an Estonian defence company that authorities have attributed to Russia, after an arson attack at Milrem Robotics in August.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835446+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "It is the second attempted attack on an Estonian defence company that authorities have attributed to Russia, after an arson attack at Milrem Robotics in August.",
+          "sentence_hash": "7527a93ef80ac439f69723e040add1eba025e4e8dc1fee6727db25592a4ff78f",
+          "anchors": [
+            "authorities"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Several European intelligence services have repeatedly warned of potential attacks on defence companies and growing Russian attempts to recruit citizens in EU and Nato countries – on online messaging platforms – to carry out acts of sabotage.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835478+08:00",
+          "content_sha256": "4e650a5baf70ebe776fe2cd79d8104e3cd27e63d9b16604c27cbb623c9d9db46",
+          "excerpt": "Several European intelligence services have repeatedly warned of potential attacks on defence companies and growing Russian attempts to recruit citizens in EU and Nato countries – on online messaging platforms – to carry out acts of sabotage.",
+          "sentence_hash": "248887a02fb9c3724047c962c7742461a81ffa21a4b3994084328ecf33697fef",
+          "anchors": [
+            "attempts"
+          ]
+        }
+      ],
+      "entities": [
+        "ukraine",
+        "august",
+        "err",
+        "the estonian",
+        "in september",
+        "koidula",
+        "nato",
+        "several european",
+        "baltic",
+        "estonian",
+        "kremlin",
+        "december",
+        "narva",
+        "russian",
+        "michal",
+        "russia",
+        "sunday",
+        "milrem robotics",
+        "luhamaa",
+        "threod systems",
+        "margus tsahkna",
+        "authorities",
+        "estonia",
+        "kristen michal",
+        "attempts",
+        "gru",
+        "on saturday",
+        "eu",
+        "kapo"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_88efe1e6256237ad6c8d313e",
+      "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+      "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Scott Bessent gives Nvidia&#039;s board 10 days to show the company&#039;s compliance with US export controls.",
+      "category": "国际",
+      "published_at": "2026-11-15T21:47:47+00:00",
+      "why_relevant": "英伟达合规压力，高层动荡",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia Scott Bessent gives Nvidia’s board 10 days to show the company’s compliance with US export controls.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835927+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia Scott Bessent gives Nvidia’s board 10 days to show the company’s compliance with US export controls.",
+          "sentence_hash": "d4c92054d48c52ea16bcae103dfb7e86451f49b92fb6e0b1850fef1f81e77118",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "United States Treasury Secretary Scott Bessent has called for an outsider to take the helm at Nvidia, the California-based technology giant that has faced scandal over its former chief executive, Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835943+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "United States Treasury Secretary Scott Bessent has called for an outsider to take the helm at Nvidia, the California-based technology giant that has faced scandal over its former chief executive, Jensen Huang.",
+          "sentence_hash": "64ca9c60f54d2624f3207df6d01fc6de7eb3df95cc1cb14b419dd5a2f41a6c71",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Speaking on Fox News’s Sunday Morning Futures programme, Bessent said the company should look beyond its own ranks for Huang’s successor.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835957+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "Speaking on Fox News’s Sunday Morning Futures programme, Bessent said the company should look beyond its own ranks for Huang’s successor.",
+          "sentence_hash": "ba1f4cefcab8d0a3bdd44802cdab4f4ef4537115318028e4d53f04cbaa1fb0c6",
+          "anchors": [
+            "for",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“This makes me think that, as the board conducts a search for a new leader, that they need to go outside the company,” Bessent told Fox News.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835971+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "“This makes me think that, as the board conducts a search for a new leader, that they need to go outside the company,” Bessent told Fox News.",
+          "sentence_hash": "7e54459d86d378ad594fd12046194e0517b7fdac364026acd35544b9ae7dd5e1",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“Just [with] what was going on inside the company, they need a dramatic shake-up.” Bessent’s comments come three days after Huang stepped down on Thursday, following revelations of extramarital affairs, including one involving a woman US officials suspect of working for Chinese i",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.835992+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "“Just [with] what was going on inside the company, they need a dramatic shake-up.” Bessent’s comments come three days after Huang stepped down on Thursday, following revelations of extramarital affairs, including one involving a woman US officials suspect of working for Chinese i",
+          "sentence_hash": "389e1aa86dc22933b742543eb60799e5e52876ce0dd4fc59a12ab5120015e232",
+          "anchors": [
+            "for",
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Nvidia plays a leading role in producing chips and other computing components for artificial intelligence (AI).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836004+08:00",
+          "content_sha256": "aa693a733db6fb215adc160048801f8e9ac4c6350752c20d413901d905b16464",
+          "excerpt": "Nvidia plays a leading role in producing chips and other computing components for artificial intelligence (AI).",
+          "sentence_hash": "298c1be857e7a140aa698831de373ddd61333674051d4ce4452ed4b2030516a4",
+          "anchors": [
+            "for"
+          ]
+        }
+      ],
+      "entities": [
+        "thursday",
+        "since",
+        "october",
+        "speaking",
+        "ministry",
+        "but",
+        "in sunday",
+        "fox news",
+        "she",
+        "china",
+        "huang",
+        "the new york times",
+        "trump",
+        "alice huang",
+        "sunday morning futures",
+        "ai",
+        "tightening",
+        "just",
+        "bessent",
+        "chinese",
+        "nvidia\nscott bessent",
+        "jensen huang",
+        "president donald trump",
+        "in august",
+        "treasury",
+        "united states treasury secretary scott bessent",
+        "state security",
+        "foreign affairs",
+        "the ministry",
+        "for",
+        "washington",
+        "nvidia",
+        "california",
+        "megaspeed",
+        "us",
+        "beijing"
+      ],
+      "numbers": [],
+      "dates": [
+        "August 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_90b21938440fb5079375e6cd",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "publisher": "GitHub Trending",
+      "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.https://docs.caveman.so/caveman \n New: Caveman Code. Free. \n The most efficient coding agent. Same model, same work, smaller bill. \n  \n  \n    \n    21% cheaperthan CodexTerminal-Bench 4, per solved task \n    14% cheaperthan Claude CodeTerminal-Bench 4, 97 vs 83 solved \n    76% cheaperthan Claude Codefull workday, 4 connected apps \n    \n  \n  \n Same model on both sid",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Token优化巧思，适合本地模型",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Same model, same work, smaller bill.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836469+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Same model, same work, smaller bill.",
+          "sentence_hash": "9fb3a937b7bd9dc47d2ca451ca3c610ab2b6af540fcf6f8e75f22f2fa9fd9f2f",
+          "anchors": [
+            "all",
+            "same"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Same model on both sides: GPT-6.1 Sol against Codex, Opus 5.5 against Claude Code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836481+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Same model on both sides: GPT-6.1 Sol against Codex, Opus 5.5 against Claude Code.",
+          "sentence_hash": "96abe327ec1221ad21e24d1d1f344c42e257e3adf53e8067d584c637e7b8853f",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Our own runs, November 2026, at list prices.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836491+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Our own runs, November 2026, at list prices.",
+          "sentence_hash": "f975b83d3658e0bb50632fa9456a75489030052906b68dc2df1b641e551b35e2",
+          "anchors": [
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "How we measured Every coding agent in one window.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836500+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "How we measured Every coding agent in one window.",
+          "sentence_hash": "ca4075b8f157513be663b93944724c27ea3c8261646547a42746a20fdca65ccd",
+          "anchors": [
+            "measured",
+            "one",
+            "red"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Free on the subscriptions and keys you already have.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836510+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Free on the subscriptions and keys you already have.",
+          "sentence_hash": "6d95717cc5769a7408e41812a8827b8376e6f9c41b692ebd8aaab319a677a913",
+          "anchors": [
+            "read",
+            "already"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Download Caveman Code for Mac · Read the launch post Caveman make your AI agent say less and read less.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836526+08:00",
+          "content_sha256": "0aa350f40aa935e544cb3444276d6d327a08ab54ac2b316dab4ef11c4d834e66",
+          "excerpt": "Download Caveman Code for Mac · Read the launch post Caveman make your AI agent say less and read less.",
+          "sentence_hash": "e3f345b76ee192ee5884470af196dbfae6c461f2e5e0c474d752647084907eea",
+          "anchors": [
+            "say",
+            "our",
+            "read"
+          ]
+        }
+      ],
+      "entities": [
+        "add",
+        "cli",
+        "claude pro",
+        "one",
+        "other",
+        "brussee",
+        "git",
+        "hub trending",
+        "open",
+        "free",
+        "proof",
+        "all",
+        "julius",
+        "had",
+        "elasticsearch",
+        "nothing",
+        "opus",
+        "cowork",
+        "cited",
+        "red",
+        "blocks",
+        "hub copilot",
+        "pick",
+        "commands",
+        "windows",
+        "each",
+        "adobe",
+        "remade",
+        "codex",
+        "hacker news",
+        "six",
+        "only auto",
+        "every",
+        "get",
+        "done",
+        "not",
+        "token",
+        "customize",
+        "type",
+        "november",
+        "brain",
+        "adobe research",
+        "harness",
+        "gemini",
+        "press enter",
+        "already",
+        "code",
+        "only",
+        "two",
+        "ten",
+        "max",
+        "sol",
+        "gpt",
+        "linux",
+        "ai",
+        "mac",
+        "after",
+        "outside",
+        "measured",
+        "jet",
+        "claude",
+        "needs node",
+        "same",
+        "brains",
+        "download caveman code",
+        "say",
+        "auto",
+        "claude code",
+        "caveman cloud\nsame",
+        "our",
+        "caveman",
+        "elasticsearch labs",
+        "primeagen\ninstall",
+        "ours",
+        "read",
+        "plugins"
+      ],
+      "numbers": [
+        "3%",
+        "35%"
+      ],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 79
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_884fa1332bc24ceb02f446ad",
+      "title": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "publisher": "GitHub Trending",
+      "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.https://ag-ui.com AG-UI: The Agent-User Interaction Protocol \nAG-UI is an open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications. Built for simplicity and flexibility, it enables seamless integration between AI agents, real time user context, and user interfaces. \n \n \n  \n  \n \n \n   \n Join our Discord →  &nbsp;&nbsp;&nbsp;  Read the Docs →  &nbsp;&nbsp;&nbsp;  Go",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Agent前端交互协议，值得关注",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "AG-UI is an open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836908+08:00",
+          "content_sha256": "c2698c6b66a7a22a34804e256da99bc372b45263100508cbd901b4a391593b65",
+          "excerpt": "AG-UI is an open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications.",
+          "sentence_hash": "ae0bea6c28e2923c5d6e304fce6fa31e70fb83f267d2f8bea915430199919018",
+          "anchors": [
+            "ag",
+            "agent"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Built for simplicity and flexibility, it enables seamless integration between AI agents, real time user context, and user interfaces.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836920+08:00",
+          "content_sha256": "c2698c6b66a7a22a34804e256da99bc372b45263100508cbd901b4a391593b65",
+          "excerpt": "Built for simplicity and flexibility, it enables seamless integration between AI agents, real time user context, and user interfaces.",
+          "sentence_hash": "d9a9566019936141fc6fe0907c341a8412e274ce2a88756f3355159bb07f8d89",
+          "anchors": [
+            "ag",
+            "ui",
+            "agent",
+            "real"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Join our Discord → Read the Docs → Go to the AG-UI Dojo → Follow us → Create a new AG-UI application in seconds: npx create-ag-ui-app my-agent-app AG-UI is an open, lightweight, event-based protocol for agent-human interaction, designed for simplicity & flexibility: - During agen",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836951+08:00",
+          "content_sha256": "c2698c6b66a7a22a34804e256da99bc372b45263100508cbd901b4a391593b65",
+          "excerpt": "Join our Discord → Read the Docs → Go to the AG-UI Dojo → Follow us → Create a new AG-UI application in seconds: npx create-ag-ui-app my-agent-app AG-UI is an open, lightweight, event-based protocol for agent-human interaction, designed for simplicity & flexibility: - During agen",
+          "sentence_hash": "b8e275ed2cf8f08a0887c26bda25c53bb74dc19fe72fc8b9b6bace42c5cc9e45",
+          "anchors": [
+            "agent",
+            "ui",
+            "mit",
+            "ag",
+            "web",
+            "human",
+            "create"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "AG-UI was developed based on real-world requirements and practical experience building in-app agent interactions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836962+08:00",
+          "content_sha256": "c2698c6b66a7a22a34804e256da99bc372b45263100508cbd901b4a391593b65",
+          "excerpt": "AG-UI was developed based on real-world requirements and practical experience building in-app agent interactions.",
+          "sentence_hash": "c2b73479d6125d4ccfe2d1eb350409c4d3a18a319ef480a649fefd558c1227ac",
+          "anchors": [
+            "ag",
+            "ui",
+            "agent",
+            "real"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "AG-UI is complementary to the other 2 top agentic protocols - MCP gives agents tools - A2A allows agents to communicate with other agents - AG-UI brings agents into user-facing applications - 💬 Real-time agentic chat with streaming - 🔄 Bi-directional state synchronization - 🧩 Gen",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.836992+08:00",
+          "content_sha256": "c2698c6b66a7a22a34804e256da99bc372b45263100508cbd901b4a391593b65",
+          "excerpt": "AG-UI is complementary to the other 2 top agentic protocols - MCP gives agents tools - A2A allows agents to communicate with other agents - AG-UI brings agents into user-facing applications - 💬 Real-time agentic chat with streaming - 🔄 Bi-directional state synchronization - 🧩 Gen",
+          "sentence_hash": "691e8ddb19fb0cc5d47855e6de27ffb9767119f4c3a08a8ed4b1eb7c66083d0b",
+          "anchors": [
+            "ag",
+            "allows",
+            "ai",
+            "agent"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "1st party = the platforms that have AG‑UI built in and provide documentation for guidance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837005+08:00",
+          "content_sha256": "c2698c6b66a7a22a34804e256da99bc372b45263100508cbd901b4a391593b65",
+          "excerpt": "1st party = the platforms that have AG‑UI built in and provide documentation for guidance.",
+          "sentence_hash": "2fcef150617663ada3c5a092a7691d84dce535c23bdda66374238ebbcce131ba",
+          "anchors": [
+            "ui",
+            "built"
+          ]
+        }
+      ],
+      "entities": [
+        "biweekly",
+        "dojo",
+        "contributing",
+        "real",
+        "discord",
+        "copilot",
+        "sse",
+        "mcp",
+        "frontend",
+        "video",
+        "built",
+        "create",
+        "allows",
+        "lang",
+        "working group",
+        "ai",
+        "agent",
+        "roadmap",
+        "mit",
+        "ag",
+        "human",
+        "kit luma events calendar\ncheck",
+        "during",
+        "http",
+        "crew",
+        "follow",
+        "docs",
+        "sockets",
+        "ui",
+        "join",
+        "check",
+        "web",
+        "generative",
+        "view",
+        "read",
+        "works",
+        "chain",
+        "kit"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_24c022cdb4d5bf21bfccb809",
+      "title": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
+      "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "The Dow, S&P 500 and Nasdaq posted their biggest weekly gains since August, rising more than 2% each.",
+      "category": "财经",
+      "published_at": "2026-11-15T23:31:30+00:00",
+      "why_relevant": "英伟达财报与AI IPO双重催化",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Stock futures ticked higher on Sunday night following a volatile week on Wall Street, as traders await a highly anticipated earnings report from Nvidia and a potentially record-setting public market debut.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837372+08:00",
+          "content_sha256": "91ad202347626a0c4b215d454e42393b0df935c457c922995e2590270a09001e",
+          "excerpt": "Stock futures ticked higher on Sunday night following a volatile week on Wall Street, as traders await a highly anticipated earnings report from Nvidia and a potentially record-setting public market debut.",
+          "sentence_hash": "d2251bfec739de2f9b47910aee5f3864ef040658977b70bedb97254af10dee26",
+          "anchors": [
+            "ai",
+            "futures"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Nasdaq-100 futures gained 0.6%, while S&P 500 futures advanced 0.3%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837381+08:00",
+          "content_sha256": "91ad202347626a0c4b215d454e42393b0df935c457c922995e2590270a09001e",
+          "excerpt": "Nasdaq-100 futures gained 0.6%, while S&P 500 futures advanced 0.3%.",
+          "sentence_hash": "acd0972022b959d082a3e2b4d2dd03d478e117527d87d9c13e3a66be260fe839",
+          "anchors": [
+            "ai",
+            "while",
+            "futures",
+            "0.3%",
+            "0.6%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Dow Jones Industrial Average futures traded 71 points higher, or 0.1%.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837392+08:00",
+          "content_sha256": "91ad202347626a0c4b215d454e42393b0df935c457c922995e2590270a09001e",
+          "excerpt": "Dow Jones Industrial Average futures traded 71 points higher, or 0.1%.",
+          "sentence_hash": "e80ddb81bb416faea764cdfad29ae579aeca9e447d49d38e809ac13758603eb1",
+          "anchors": [
+            "futures",
+            "0.1%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Japan's Nikkei 225 futures contract in Chicago were at 61,320, compared with the index's previous close of 61,142.35.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837406+08:00",
+          "content_sha256": "91ad202347626a0c4b215d454e42393b0df935c457c922995e2590270a09001e",
+          "excerpt": "Japan's Nikkei 225 futures contract in Chicago were at 61,320, compared with the index's previous close of 61,142.35.",
+          "sentence_hash": "c3d05246d3ba0c12099d6581f5ed2f7ac7f575795c9494df99eed363aa905367",
+          "anchors": [
+            "futures"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "While analysts expect the chipmaker to post nearly 100% year-over-year earnings and revenue growth, investors will be more focused on how the company will move forward after Jensen Huang's exit as CEO.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837431+08:00",
+          "content_sha256": "91ad202347626a0c4b215d454e42393b0df935c457c922995e2590270a09001e",
+          "excerpt": "While analysts expect the chipmaker to post nearly 100% year-over-year earnings and revenue growth, investors will be more focused on how the company will move forward after Jensen Huang's exit as CEO.",
+          "sentence_hash": "d1dfff16815418c24d7d869509a3f5037c00d06cfcdaf288b8bb6616dd564e37",
+          "anchors": [
+            "100%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Huang last week resigned from his post after reports of multiple extramarital affairs, including one with an alleged Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837443+08:00",
+          "content_sha256": "91ad202347626a0c4b215d454e42393b0df935c457c922995e2590270a09001e",
+          "excerpt": "Huang last week resigned from his post after reports of multiple extramarital affairs, including one with an alleged Chinese spy.",
+          "sentence_hash": "66985e1038d96a222c2febf01433a06d6909fe7d5f34e3a99e8f5cc00650f42b",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "august",
+        "china monday",
+        "asx",
+        "street",
+        "ceo",
+        "dan ives",
+        "dow jones industrial average",
+        "japan",
+        "sunday",
+        "nikkei",
+        "australia",
+        "futures",
+        "nasdaq",
+        "huang",
+        "anthropic",
+        "hong kong",
+        "april",
+        "hang seng",
+        "ai",
+        "stock",
+        "tuesday",
+        "while",
+        "the dow",
+        "chinese",
+        "wall street",
+        "jensen huang",
+        "another",
+        "chicago",
+        "in asia",
+        "nvidia",
+        "yorkville ives",
+        "colette kress"
+      ],
+      "numbers": [
+        "13%",
+        "100%",
+        "0.1%",
+        "$78",
+        "$70 ",
+        "0.3%",
+        "$1.4 trillion",
+        "2%",
+        "0.6%",
+        "1.4 trillion"
+      ],
+      "dates": [
+        "April 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 43
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c2b3b73b8b7027825ce72f0b",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "publisher": "CNBC",
+      "summary": "Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
+      "category": "财经",
+      "published_at": "2026-11-15T12:00:01+00:00",
+      "why_relevant": "Anthropic IPO，AI投资风向标",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Between rising interest rates, a nationwide AI backlash, a major political shift in Washington, D.C., and the sudden ouster of Nvidia CEO Jensen Huang, the tech industry is under mounting strain.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837874+08:00",
+          "content_sha256": "2f55a6d1c878c5c58a4342a6d62187b72b986014e6fda8ed608db9c66292e4b4",
+          "excerpt": "Between rising interest rates, a nationwide AI backlash, a major political shift in Washington, D.C., and the sudden ouster of Nvidia CEO Jensen Huang, the tech industry is under mounting strain.",
+          "sentence_hash": "159257921b5787e2c1388ef3b376e5f7b7cc70953b0c1da466c116d825fb731e",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price, which is currently expected at $70 to $78 a share.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837900+08:00",
+          "content_sha256": "2f55a6d1c878c5c58a4342a6d62187b72b986014e6fda8ed608db9c66292e4b4",
+          "excerpt": "Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price, which is currently expected at $70 to $78 a share.",
+          "sentence_hash": "754e46283d924903e4a14f780849ed18fe47c0e8be4408550dd1b049cf959001",
+          "anchors": [
+            "ai",
+            "$26 billion",
+            "$70 ",
+            "26 billion",
+            "$78 "
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Anthropic has outstanding spending commitments of over $900 billion, according to its latest prospectus.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837926+08:00",
+          "content_sha256": "2f55a6d1c878c5c58a4342a6d62187b72b986014e6fda8ed608db9c66292e4b4",
+          "excerpt": "Anthropic has outstanding spending commitments of over $900 billion, according to its latest prospectus.",
+          "sentence_hash": "cc21d25b6142023dc2419be4643a4af9562fb411c96336bb0ddabc6af25a6c67",
+          "anchors": [
+            "900 billion",
+            "$900 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It's on the hook to spend at least $110 billion with Amazon over the course of a decade, and another $400 billion with other companies for cloud capacity, according to filings and partner disclosures.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837941+08:00",
+          "content_sha256": "2f55a6d1c878c5c58a4342a6d62187b72b986014e6fda8ed608db9c66292e4b4",
+          "excerpt": "It's on the hook to spend at least $110 billion with Amazon over the course of a decade, and another $400 billion with other companies for cloud capacity, according to filings and partner disclosures.",
+          "sentence_hash": "afcab02feaa93aa532a5ead05b508c9b95b369a03d0997933f3b4b21e43ce41b",
+          "anchors": [
+            "$110 billion",
+            "400 billion",
+            "110 billion",
+            "cloud"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The lab also made $300 billion in commitments with data center and chip partners.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837951+08:00",
+          "content_sha256": "2f55a6d1c878c5c58a4342a6d62187b72b986014e6fda8ed608db9c66292e4b4",
+          "excerpt": "The lab also made $300 billion in commitments with data center and chip partners.",
+          "sentence_hash": "58b6619d8246377d1cf1c2e644cf13ed9fd1bc51ce0f65396d85cb22702de04e",
+          "anchors": [
+            "300 billion"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Anthropic intends to lay out $125 billion to $150 billion for AI chips from Google, though delivery won't start until 2028.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.837963+08:00",
+          "content_sha256": "2f55a6d1c878c5c58a4342a6d62187b72b986014e6fda8ed608db9c66292e4b4",
+          "excerpt": "Anthropic intends to lay out $125 billion to $150 billion for AI chips from Google, though delivery won't start until 2028.",
+          "sentence_hash": "04d6a25b58bf10630e94dd0a14b44527416cc6b8927dda60da90fe5d6c1b21fa",
+          "anchors": [
+            "150 billion",
+            "125 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "thursday",
+        "some",
+        "cloud",
+        "taiwan semiconductor manufacturing company",
+        "ceo",
+        "microsoft",
+        "micron",
+        "now",
+        "open",
+        "amazon",
+        "between",
+        "nasdaq",
+        "broadcom",
+        "last",
+        "anthropic",
+        "duckbill",
+        "typically",
+        "ai",
+        "with anthropic",
+        "jensen huang",
+        "rowe price",
+        "eclipse",
+        "the claude",
+        "advanced micro devices",
+        "ipo",
+        "washington",
+        "realistically",
+        "nvidia",
+        "joe fath",
+        "google",
+        "corey quinn",
+        "indiana"
+      ],
+      "numbers": [
+        "$110 billion",
+        "$26 billion",
+        "$900 billion",
+        "125 billion",
+        "132 billion",
+        "$70 ",
+        "26 billion",
+        "$78 ",
+        "900 billion",
+        "150 billion",
+        "300 billion",
+        "110 billion",
+        "400 billion",
+        "104 billion",
+        "90 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_6d04ec61808a36d42dda1926",
+      "title": "Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations",
+      "publisher": "The Guardian",
+      "summary": "‘We think dialogue is a good thing,’ Australian PM says after German chancellor urges the US to work with Europe for peace in UkraineAustralia has endorsed this week’s historic summit between Donald Trump, Xi Jinping and Vladimir Putin in China, even as European leaders warn that the US president must not make major concessions over the war in Ukraine.The three-way summit is planned to take place in Shenzhen, where the leaders will gather for the Asia-Pacific Economic Cooperation (Apec) meeting.",
+      "category": "国际",
+      "published_at": "2026-11-15T06:22:32+00:00",
+      "why_relevant": "地缘峰会，多方态度分化",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Australia has endorsed this week’s historic summit between Donald Trump, Xi Jinping and Vladimir Putin in China, even as European leaders warn that the US president must not make major concessions over the war in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838404+08:00",
+          "content_sha256": "5449b6a7b7914733e84a4e2026922d480d847ee00055e9a104f09c76243c6df0",
+          "excerpt": "Australia has endorsed this week’s historic summit between Donald Trump, Xi Jinping and Vladimir Putin in China, even as European leaders warn that the US president must not make major concessions over the war in Ukraine.",
+          "sentence_hash": "f159a6f371b3d16b28cb0e02946443a428b50e54766c5c54c463a77928cd4e4b",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The Ukrainian president, Volodymyr Zelenskyy, has warned the talks must not lead to a redistribution of influence among world powers or the abandonment of his country, more than four years into the war sparked by Putin’s full-scale invasion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838434+08:00",
+          "content_sha256": "5449b6a7b7914733e84a4e2026922d480d847ee00055e9a104f09c76243c6df0",
+          "excerpt": "The Ukrainian president, Volodymyr Zelenskyy, has warned the talks must not lead to a redistribution of influence among world powers or the abandonment of his country, more than four years into the war sparked by Putin’s full-scale invasion.",
+          "sentence_hash": "b70fe281ab7f351a71db1954f79383aba35edbe8b75f471b7865a74a57c94198",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Speaking in Manila on Sunday, the Australian prime minister, Anthony Albanese, welcomed the talks taking place but insisted the clear message to Putin was that the war should end.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838450+08:00",
+          "content_sha256": "5449b6a7b7914733e84a4e2026922d480d847ee00055e9a104f09c76243c6df0",
+          "excerpt": "Speaking in Manila on Sunday, the Australian prime minister, Anthony Albanese, welcomed the talks taking place but insisted the clear message to Putin was that the war should end.",
+          "sentence_hash": "c576c0f89f6f9022de832e84943d2c95b82447fd7ea24e6cc83f76c9c9f39bf6",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“It’s obviously quite significant, the fact that President Trump will be at Asean as well as at Apec, and that we’ll have a Quad leaders meeting as well.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838481+08:00",
+          "content_sha256": "5449b6a7b7914733e84a4e2026922d480d847ee00055e9a104f09c76243c6df0",
+          "excerpt": "“It’s obviously quite significant, the fact that President Trump will be at Asean as well as at Apec, and that we’ll have a Quad leaders meeting as well.",
+          "sentence_hash": "fa9fd8fabb525b8f23af1c5fbb06b8b5c857dc4fba276c5a535f7efcd25dbc58",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“Stay on Team Europe and Team Ukraine, and let us work together for a genuine peace in Ukraine.” France’s president, Emmanuel Macron, warned against forcing “an unjust peace” on Ukraine and, by extension, all of Europe.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838518+08:00",
+          "content_sha256": "5449b6a7b7914733e84a4e2026922d480d847ee00055e9a104f09c76243c6df0",
+          "excerpt": "“Stay on Team Europe and Team Ukraine, and let us work together for a genuine peace in Ukraine.” France’s president, Emmanuel Macron, warned against forcing “an unjust peace” on Ukraine and, by extension, all of Europe.",
+          "sentence_hash": "8b1715485d23f80c984f76c3643d136f04c4b3642c5e94ade5f7c0f7050db8bd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Zelenskyy has warned that the meeting must not turn into “Yalta 2, 3, 4”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838545+08:00",
+          "content_sha256": "5449b6a7b7914733e84a4e2026922d480d847ee00055e9a104f09c76243c6df0",
+          "excerpt": "Zelenskyy has warned that the meeting must not turn into “Yalta 2, 3, 4”.",
+          "sentence_hash": "1518b596bc0b5cc88ef0438dcc35dae5f09e8c62da883601c970d8e186352a2d",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "ukraine",
+        "team ukraine",
+        "franklin",
+        "speaking",
+        "team europe",
+        "joseph stalin",
+        "quad",
+        "france",
+        "volodymyr zelenskyy",
+        "putin",
+        "shenzhen",
+        "zelenskyy",
+        "yalta",
+        "albanese",
+        "australia",
+        "sunday",
+        "friday",
+        "manila",
+        "australian",
+        "president trump",
+        "europe",
+        "anthony albanese",
+        "crimea",
+        "china",
+        "taiwan",
+        "stay",
+        "friedrich merz",
+        "britain",
+        "german",
+        "asean",
+        "emmanuel macron",
+        "philippines",
+        "timothy garton ash",
+        "vladimir putin",
+        "canada",
+        "soviet",
+        "donald trump",
+        "european",
+        "apec",
+        "the ukrainian",
+        "asian",
+        "roosevelt",
+        "winston churchill",
+        "macron",
+        "pacific economic cooperation",
+        "there",
+        "eu",
+        "us",
+        "xi jinping",
+        "asia"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 50
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e8bbd33ad94e31ca1cf4ad15",
+      "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+      "url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
+      "category": "国际",
+      "published_at": "2026-11-15T22:06:38+00:00",
+      "why_relevant": "加沙人道危机，国际施压",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza The countries accuse Israel of preventing tents and other vital supplies from entering Gaza, despite the humanitarian crisis.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.838994+08:00",
+          "content_sha256": "a9c6ba53bf22cbff368cda4a492dbbc583cdd16c13ab934595aeed1ebdc9b687",
+          "excerpt": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza The countries accuse Israel of preventing tents and other vital supplies from entering Gaza, despite the humanitarian crisis.",
+          "sentence_hash": "53555094594fb5caf4512766881492c148864e80bde261326f817afef816609d",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Australia, Canada, Italy and the United Kingdom have urged Israel to allow immediate and unimpeded humanitarian access throughout Gaza, highlighting that recent floods have “brought further suffering” for Palestinians living there.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839013+08:00",
+          "content_sha256": "a9c6ba53bf22cbff368cda4a492dbbc583cdd16c13ab934595aeed1ebdc9b687",
+          "excerpt": "Australia, Canada, Italy and the United Kingdom have urged Israel to allow immediate and unimpeded humanitarian access throughout Gaza, highlighting that recent floods have “brought further suffering” for Palestinians living there.",
+          "sentence_hash": "f4b38761e2836c483ac71d149928fb0d73347bfffbcfc142c86061bdafeb9b10",
+          "anchors": [
+            "for",
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The countries’ foreign ministers co-signed Sunday’s joint statement, the latest international warning about the dire humanitarian situation in the besieged territory.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839028+08:00",
+          "content_sha256": "a9c6ba53bf22cbff368cda4a492dbbc583cdd16c13ab934595aeed1ebdc9b687",
+          "excerpt": "The countries’ foreign ministers co-signed Sunday’s joint statement, the latest international warning about the dire humanitarian situation in the besieged territory.",
+          "sentence_hash": "42030bc3a2cc5c56a8a65f2dad321af7b26a8422f5667b255a3234bfe3e4d6bc",
+          "anchors": [
+            "for",
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“People in Gaza desperately need shelter and humanitarian assistance,” the statement said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839039+08:00",
+          "content_sha256": "a9c6ba53bf22cbff368cda4a492dbbc583cdd16c13ab934595aeed1ebdc9b687",
+          "excerpt": "“People in Gaza desperately need shelter and humanitarian assistance,” the statement said.",
+          "sentence_hash": "0e7d5e1a60b82ed64c5dfbb7ece0547240ead713fdcfb9ade675bf263f073f77",
+          "anchors": [
+            "shelter"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“Yet 150,000 tents and other vital supplies are being held at the border and prevented from entering Gaza.” For years, Israel has restricted entry and exports into Gaza, home to more than 2 million people.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839057+08:00",
+          "content_sha256": "a9c6ba53bf22cbff368cda4a492dbbc583cdd16c13ab934595aeed1ebdc9b687",
+          "excerpt": "“Yet 150,000 tents and other vital supplies are being held at the border and prevented from entering Gaza.” For years, Israel has restricted entry and exports into Gaza, home to more than 2 million people.",
+          "sentence_hash": "640eefba812cdaad4abb831353f9971ff6a3d2040d2374bdd23758ad024702da",
+          "anchors": [
+            "more",
+            "people",
+            "2 million"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But since the start of its genocidal war on Gaza in October 2023, Israel has placed the Palestinian territory under a full-scale blockade, limiting access to even essential supplies like food and water.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839073+08:00",
+          "content_sha256": "a9c6ba53bf22cbff368cda4a492dbbc583cdd16c13ab934595aeed1ebdc9b687",
+          "excerpt": "But since the start of its genocidal war on Gaza in October 2023, Israel has placed the Palestinian territory under a full-scale blockade, limiting access to even essential supplies like food and water.",
+          "sentence_hash": "96978b2292f35dc11ec8c00eb70e5c977f42a6b0a6b520b6d10e16082bb17551",
+          "anchors": [
+            "under",
+            "October 20",
+            "un"
+          ]
+        }
+      ],
+      "entities": [
+        "some",
+        "october",
+        "november",
+        "people",
+        "in september",
+        "but",
+        "geneva convention",
+        "heavy",
+        "israel",
+        "shelter",
+        "hundreds",
+        "palestinian",
+        "australia",
+        "sunday",
+        "occupied palestinian territory",
+        "friday",
+        "under",
+        "uk",
+        "gaza\nthe",
+        "united kingdom",
+        "more",
+        "canada",
+        "red cross",
+        "government",
+        "palestinians",
+        "united nations",
+        "global shelter cluster",
+        "for",
+        "gaza",
+        "un",
+        "yet",
+        "children",
+        "italy",
+        "during israel",
+        "humanitarian country team"
+      ],
+      "numbers": [
+        "1.9 million",
+        "1.7 million",
+        "20 people",
+        "2 million"
+      ],
+      "dates": [
+        "November 1",
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_30631b1b9b0a3b6a7e59dbbc",
+      "title": "5 steps China, US and Russia could take at Apec to defuse nuclear risk",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3374204/5-steps-china-us-and-russia-could-take-apec-defuse-nuclear-risk",
+      "publisher": "SCMP",
+      "summary": "Is a trilateral summit between China, Russia and the United States possible during the Asia-Pacific Economic Cooperation forum in Shenzhen? If so, it is striking that US President Donald Trump sees such a meeting focusing less on Ukraine, saying: “we would have it to talk about nuclear weapons and denuclearisation.”\nHow might this start? The US says China is the fastest-growing nuclear power in recent years. But even if Beijing’s warhead stockpile reached 600 by the end of 2025, as estimated by.",
+      "category": "国际",
+      "published_at": "2026-11-15T21:30:06+00:00",
+      "why_relevant": "核风险管控，大国博弈议题",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Is a trilateral summit between China, Russia and the United States possible during the Asia-Pacific Economic Cooperation forum in Shenzhen?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839198+08:00",
+          "content_sha256": "0dc00655df3619fa7113e2aac1d427f7e8dd7b52e1579fc57dc410cae4b0c518",
+          "excerpt": "Is a trilateral summit between China, Russia and the United States possible during the Asia-Pacific Economic Cooperation forum in Shenzhen?",
+          "sentence_hash": "b458edfd8b45056939b45cee46b01eb2214fa18613a1e22eb72910b458da130c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "If so, it is striking that US President Donald Trump sees such a meeting focusing less on Ukraine, saying: “we would have it to talk about nuclear weapons and denuclearisation.” How might this start?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-16T08:02:56.839210+08:00",
+          "content_sha256": "0dc00655df3619fa7113e2aac1d427f7e8dd7b52e1579fc57dc410cae4b0c518",
+          "excerpt": "If so, it is striking that US President Donald Trump sees such a meeting focusing less on Ukraine, saying: “we would have it to talk about nuclear weapons and denuclearisation.” How might this start?",
+          "sentence_hash": "49643d1d61c05884bbc3a71ad7223403255b760c202dcf038ef3bb5ea6fbd5e2",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "ukraine",
+        "russia",
+        "president donald trump",
+        "pacific economic cooperation",
+        "but",
+        "china",
+        "us",
+        "united states",
+        "asia",
+        "shenzhen",
+        "beijing"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 11
+      },
+      "evidence_complete": true
+    }
+  ]
+}

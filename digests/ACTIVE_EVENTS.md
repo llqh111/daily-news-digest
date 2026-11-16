@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-15 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-16 08:06。
+
+## Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says - Published Alice Huang, a suspected China spy who has been linked to Nvidia's former boss Jensen Huang, left her executive role at Megaspeed in August last year, the company says.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_b3d26554d210`
+
+## ChromeDevTools/chrome-devtools-mcp
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Chrome DevTools for agents (chrome-devtools-mcp) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_0527a641bf3b`
+
+## Vulcan rocket fails, destroying 40 Amazon Leo satellites
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_6f309b4fd19d`
+
+## Jensen Huang discusses comeback as Nvidia CEO with allies
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261116_f18c8694c61c`
+
+## Estonia to close all border crossings with Russia after attack on drone maker
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_0baf1113324f`
+
+## US Treasury chief calls for outsider to lead embattled tech firm Nvidia
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：US Treasury chief calls for outsider to lead embattled tech firm Nvidia Scott Bessent gives Nvidia’s board 10 days to show the company’s compliance with US export controls.
+- 事件 ID：`evt_20261116_d4d4af17065e`
+
+## JuliusBrussee/caveman
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Same model, same work, smaller bill.
+- 事件 ID：`evt_20261116_48c41de3e2fe`
+
+## ag-ui-protocol/ag-ui
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：AG-UI is an open, lightweight, event-based protocol that standardizes how AI agents connect to user-facing applications.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_e265597209c7`
+
+## Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Stock futures ticked higher on Sunday night following a volatile week on Wall Street, as traders await a highly anticipated earnings report from Nvidia and a potentially record-setting public market debut.
+- 事件 ID：`evt_20261116_722faa99d7a1`
+
+## Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Between rising interest rates, a nationwide AI backlash, a major political shift in Washington, D.C., and the sudden ouster of Nvidia CEO Jensen Huang, the tech industry is under mounting strain.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_0c1d2ea60239`
+
+## Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Australia has endorsed this week’s historic summit between Donald Trump, Xi Jinping and Vladimir Putin in China, even as European leaders warn that the US president must not make major concessions over the war in Ukraine.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261116_0c12652ba6ff`
+
+## Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza The countries accuse Israel of preventing tents and other vital supplies from entering Gaza, despite the humanitarian crisis.
+- 事件 ID：`evt_20261116_df4340c03f33`
+
+## 5 steps China, US and Russia could take at Apec to defuse nuclear risk
+- 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
+- 最新事实：Is a trilateral summit between China, Russia and the United States possible during the Asia-Pacific Economic Cooperation forum in Shenzhen?
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261116_03fbea0ce394`
 
 ## alibaba/open-code-review
 - 状态：更新中；首见 2026-09-16；最近更新 2026-11-15

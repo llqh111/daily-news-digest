@@ -1,0 +1,82 @@
+{
+  "total_items": 13,
+  "items_with_unsupported_numbers": 3,
+  "items_with_missing_evidence": 0,
+  "unmatched_evidence_ids": [],
+  "validation_complete": true,
+  "unsupported_ratio": 0.23076923076923078,
+  "items": [
+    {
+      "article_id": "a1_08f4b44db48af4f007dc8618",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_b3caf2ff8bb97eb1f0e57ea9",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_88efe1e6256237ad6c8d313e",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_6d04ec61808a36d42dda1926",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_e8bbd33ad94e31ca1cf4ad15",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        150000.0
+      ]
+    },
+    {
+      "article_id": "a1_30631b1b9b0a3b6a7e59dbbc",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_2ea50e04ba6628c60b6e6c48",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_db7617a0e1f4fa7e54559a1b",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_90b21938440fb5079375e6cd",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_884fa1332bc24ceb02f446ad",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_9efb6b9f2117461ee3898536",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_24c022cdb4d5bf21bfccb809",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        78.0
+      ]
+    },
+    {
+      "article_id": "a1_c2b3b73b8b7027825ce72f0b",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        78.0,
+        800000000000.0
+      ]
+    }
+  ]
+}
