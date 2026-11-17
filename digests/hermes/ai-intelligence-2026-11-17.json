@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T00:07:35.869061+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-17-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-17.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-16.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_e3fdbad6ca655a11350d2150",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "publisher": "英伟达博客",
+      "summary": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.  NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-16T16:00:25+00:00",
+      "why_relevant": "Vera Rubin 首秀，必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230725+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+          "sentence_hash": "0d536f9c373cd7113841aea78a595c50cfc82491424229099af0e592005d30d5",
+          "anchors": [
+            "results",
+            "it",
+            "ai",
+            "perf"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230815+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power.",
+          "sentence_hash": "93998a8b90a911cc05da710cf03a79faf634f43b5be93483729a1185562ba461",
+          "anchors": [
+            "it",
+            "each",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "These results are just the beginning.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230841+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "These results are just the beginning.",
+          "sentence_hash": "52e894b7e89a6f174fd872c712421a0b256d5648ab6ce369dcd68bedf6c79c59",
+          "anchors": [
+            "results"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Vera Rubin performance will keep climbing through continuous optimization of NVIDIA’s CUDA-powered software stack, so the infrastructure that customers invest in today delivers more value over time.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230877+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "Vera Rubin performance will keep climbing through continuous optimization of NVIDIA’s CUDA-powered software stack, so the infrastructure that customers invest in today delivers more value over time.",
+          "sentence_hash": "cb779134aea7fffe6a5687b6c333b3407eefd22e62836cabcdd5d4517e3e24b7",
+          "anchors": [
+            "perf"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "NVIDIA Sweeps MLPerf Training v6.1 AI agents are now everywhere, writing code, running business workflows, answering customer questions and, as this week’s SC26 conference highlights, advancing scientific research.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230913+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "NVIDIA Sweeps MLPerf Training v6.1 AI agents are now everywhere, writing code, running business workflows, answering customer questions and, as this week’s SC26 conference highlights, advancing scientific research.",
+          "sentence_hash": "14c8651da9a97e6031d076b161baac2746eae634804616649f944c087c70a1de",
+          "anchors": [
+            "it",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Faster training means smarter agents can reach users sooner, drug discovery models can keep pace with new lab data and fraud-detection models can adapt to new threats faster.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230944+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "Faster training means smarter agents can reach users sooner, drug discovery models can keep pace with new lab data and fraud-detection models can adapt to new threats faster.",
+          "sentence_hash": "25fb78491171f06c15ec98dfda050e95091ef481314b6b8d1098102b8fd757d2",
+          "anchors": [
+            "it",
+            "each",
+            "faster",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "microsoft azure",
+        "quantum",
+        "combined",
+        "ethernet",
+        "perf",
+        "results",
+        "gpu",
+        "cuda",
+        "perf endpoints\nan",
+        "nvidia",
+        "perf training",
+        "vera rubin",
+        "infini",
+        "because",
+        "deep",
+        "band",
+        "it",
+        "spectrum",
+        "faster",
+        "link",
+        "seek",
+        "sweeps",
+        "perf endpoints",
+        "vera rubin leads agentic inference",
+        "ai",
+        "each",
+        "these"
+      ],
+      "numbers": [
+        "97%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-17-AM.json",
+      "source_artifact_date": "2026-11-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_beb52a4ee373feafaccb4daa",
+      "title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+      "url": "https://wccftech.com/war-thunder-dlss-5-controversy-fan-mods/",
+      "publisher": "Wccftech",
+      "summary": "NVIDIA DLSS 5 was perhaps the most polarizing new technology of 2026 when it comes to its reception from the gaming community. Some absolutely love its visual uplift ever since its reveal by now-ousted (though maybe not for long) NVIDIA CEO Jensen Huang at March's GTC 2026 in San Jose, California. Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in. But there's still a substantial portion that just calls it AI slop in every Reddit or soc",
+      "category": "科技",
+      "published_at": "2026-11-16T18:00:00+00:00",
+      "why_relevant": "DLSS 画质争议有硬核价值",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232310+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.",
+          "sentence_hash": "41af5b870c2fa7166c83cb21c0d9c477a2a2922f3635f40b88ad89a30ef3dde0",
+          "anchors": [
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "But there's still a substantial portion that just calls it AI slop in every Reddit or social media thread that discusses it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232340+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "But there's still a substantial portion that just calls it AI slop in every Reddit or social media thread that discusses it.",
+          "sentence_hash": "6ffb52f277637691effeb9512dbf8350ef1403914f73618503e2c0a458744e54",
+          "anchors": [
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "With DLSS 5's official in-game integration rapidly expanding over the last month (Metro 2033 and Metro Last Light Redux, Hogwarts Legacy, and Where Winds Meet later this month), I asked War Thunder Art Director Kirill Stupin, who said there was no reason not to implement NVIDIA's",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232384+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "With DLSS 5's official in-game integration rapidly expanding over the last month (Metro 2033 and Metro Last Light Redux, Hogwarts Legacy, and Where Winds Meet later this month), I asked War Thunder Art Director Kirill Stupin, who said there was no reason not to implement NVIDIA's",
+          "sentence_hash": "b4a87c6affd72ed02c1e2eb942a19fe09b6625dc2309cd1929f4514d38cadafc",
+          "anchors": [
+            "here",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Add to that the first demo, where the changes looked radical indeed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232423+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "Add to that the first demo, where the changes looked radical indeed.",
+          "sentence_hash": "2c1015aa9aef59853ebebdaa6e3c28cedca3a4b5d70001e1b6724947b5e2573e",
+          "anchors": [
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "People protested that the artist’s vision was being lost, replaced by something entirely new that nobody had actually painted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232452+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "People protested that the artist’s vision was being lost, replaced by something entirely new that nobody had actually painted.",
+          "sentence_hash": "7e63515c9e1e40a4026ae1ccb57c634222b5bc468bfd5b123d12772aca4f8d99",
+          "anchors": [
+            "some",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Obviously, some users noticed that beauty comes at a price, but that is not unexpected.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232485+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "Obviously, some users noticed that beauty comes at a price, but that is not unexpected.",
+          "sentence_hash": "47652d3a8141a90a0c9a84a1f0e7a80114ab3edf34dd022e613fc91c0a8ac594",
+          "anchors": [
+            "some",
+            "but"
+          ]
+        }
+      ],
+      "entities": [
+        "gtc",
+        "war thunder",
+        "reddit",
+        "some",
+        "series",
+        "adrian chmielarz",
+        "metro",
+        "war thunder art director kirill stupin",
+        "but",
+        "others",
+        "add",
+        "neural rendering",
+        "stupin",
+        "nvidia",
+        "hogwarts legacy",
+        "rtx",
+        "many",
+        "people",
+        "metro last light redux",
+        "obviously",
+        "california",
+        "jensen huang",
+        "here",
+        "those",
+        "where winds meet",
+        "march",
+        "ai",
+        "with",
+        "ceo",
+        "san jose",
+        "dlss"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-17-AM.json",
+      "source_artifact_date": "2026-11-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e5f38aa3c7b49ffc2b962bb4",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "publisher": "arXiv cs.AI",
+      "summary": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings. This paper treats adapter routing as a",
+      "category": "科技",
+      "published_at": "2026-11-16T05:00:00+00:00",
+      "why_relevant": "LoRA 路由新方法，技术硬",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233629+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.",
+          "sentence_hash": "aef8bf2db9c5c7954b3c00f8c855812cc8832a7e991dac8b3bb55e9e08eb7caf",
+          "anchors": [
+            "Sep 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233684+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings.",
+          "sentence_hash": "95396cfc796c71aee70eae9b07ae4a97af4832efb222b78c4ae5801fa87eea2c",
+          "anchors": [
+            "code"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233745+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router.",
+          "sentence_hash": "2d6e437b8d5f3bcc6827881cc31fc07bf8863bbe91d058db32df20bca74a4197",
+          "anchors": [
+            "learn",
+            "code"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Submission history From: Inish Melroy D Souza [view email] [v1] Tue, 1 Sep 2026 01:33:50 UTC (492 KB) Additional Features References & Citations Loading...",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233800+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Submission history From: Inish Melroy D Souza [view email] [v1] Tue, 1 Sep 2026 01:33:50 UTC (492 KB) Additional Features References & Citations Loading...",
+          "sentence_hash": "76af6588ff24bcc5f6564d8407f00b29b6bc23b26798baf4069c76da7ebd8020",
+          "anchors": [
+            "Sep 20"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233866+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
+          "sentence_hash": "880fbee3ce822fd1dcd8ee353dedc49863baf6974296c7bcf04cc753faaa573d",
+          "anchors": [
+            "pub"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233896+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.",
+          "sentence_hash": "472a1cb978bef0bc0a652f6292004b28843bf891997d98fd90e7d4a4bd5418f1",
+          "anchors": [
+            "have",
+            "data"
+          ]
+        }
+      ],
+      "entities": [
+        "computer science",
+        "xiv",
+        "pdf",
+        "abstract",
+        "representation space\nview",
+        "additional features\nreferences",
+        "media associated",
+        "directional adapter routing",
+        "hub",
+        "huggingface",
+        "submitted",
+        "article",
+        "code",
+        "recommender",
+        "large",
+        "citation tools\n            bibliographic explorer",
+        "pub",
+        "existing",
+        "search tools\n              influence flower",
+        "inish melroy",
+        "both",
+        "sep",
+        "souza",
+        "dags",
+        "parameter",
+        "bibliographic",
+        "tue",
+        "connected papers",
+        "catalyze",
+        "hugging face",
+        "demos\nrecommenders",
+        "core",
+        "weaver",
+        "have",
+        "experiments",
+        "citations\n    \n    loading",
+        "html",
+        "data",
+        "labs",
+        "kb",
+        "utc",
+        "from",
+        "title",
+        "code finder",
+        "submission",
+        "litmaps",
+        "science",
+        "influence flowers",
+        "artificial intelligence",
+        "cast",
+        "papers",
+        "explorer",
+        "learn",
+        "smart citations",
+        "gotit",
+        "flan"
+      ],
+      "numbers": [],
+      "dates": [
+        "Sep 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 57
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-17-AM.json",
+      "source_artifact_date": "2026-11-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_e6152d911b10625e7a380590",
+      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-16T20:35:21+00:00",
+      "why_relevant": "BTC 关键支撑位信号",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.234094+08:00",
+          "content_sha256": "c461629f79b732390a2220d8f106f5bde158ecbeaa01c596c1d31d419f8db9ca",
+          "excerpt": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+          "sentence_hash": "c461629f79b732390a2220d8f106f5bde158ecbeaa01c596c1d31d419f8db9ca",
+          "anchors": [
+            "$60,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "bitcoin",
+        "nvidia"
+      ],
+      "numbers": [
+        "$60,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 3
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-17-AM.json",
+      "source_artifact_date": "2026-11-17",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_5c9c96738ca51578f835017d",
+      "title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlNRWmc0N3Uyc21OQ3RMb2x2U3VDbkxlLWk0SGdyd0xncEpzYTk4SDZKZzEzWWlNcHU2Snl6UXpiYXV4MzJ0aWl6SmdrVzVyb1B3XzVIYko0UGhGTVFtUml3SlpxTnE5MWZZVzl4VTN1WjQ4bDBUYmJvdVFTYkhISnNneENiNG1VMllvNGJqMDR2cHZNS0xWanY4VVV3aVlwLWRlU2ZRUUJvRDVxbEptcmNoazdZUQ?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-11-16T21:31:41+00:00",
+      "why_relevant": "英伟达管理层风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.235758+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und",
+          "sentence_hash": "11bab4dca7a33ac4ed0bd7521a0f116e680b1a2b146525593b5844362b62e29f",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236025+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor.",
+          "sentence_hash": "65d8d2b7ededa5e3e75f20884196de7bf046af45f4763273a256d52516c1c77d",
+          "anchors": [
+            "while"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236248+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share.",
+          "sentence_hash": "84e8c740752a7bc7497990736b16a50361df5ed855dcfad62207adc0d25af685",
+          "anchors": [
+            "91%",
+            "$109.1 billion",
+            "$2.47 ",
+            "109.1 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "They said revenue expansion in fiscal 2028 would be roughly 70% in what Kress, on the last earnings call, described as a \"supply constrained outlook.\" \"What would be good for them to do is reiterate that and confirm that is still intact, if they have the ability,\" said Bloomberg ",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236493+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "They said revenue expansion in fiscal 2028 would be roughly 70% in what Kress, on the last earnings call, described as a \"supply constrained outlook.\" \"What would be good for them to do is reiterate that and confirm that is still intact, if they have the ability,\" said Bloomberg ",
+          "sentence_hash": "f30daf2496a01b12d9c4abdfd8209db56392b0578d5e51ae527fffb7c8653d75",
+          "anchors": [
+            "ai",
+            "70%",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stock has dropped for six straight weeks, the longest losing streak since 2012, pushing the company's market cap down by $1.7 trillion.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236719+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "The stock has dropped for six straight weeks, the longest losing streak since 2012, pushing the company's market cap down by $1.7 trillion.",
+          "sentence_hash": "bc97431467f7c8b5771f644636177f0b2676cbecc6719bda1daf286d7a2ce267",
+          "anchors": [
+            "1.7 trillion",
+            "$1.7 trillion",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But Jensen Huang's romantic ties to Alice Huang, a Megaspeed International executive, raised concerns about Nvidia's actual business in China.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236992+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "But Jensen Huang's romantic ties to Alice Huang, a Megaspeed International executive, raised concerns about Nvidia's actual business in China.",
+          "sentence_hash": "2dbf5fb4279abcf482497bb466641a6bf29a64c4e426b11c6a953fc3721ecb78",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "october",
+        "alice huang",
+        "southeast asia",
+        "colette kress",
+        "bloomberg intelligence",
+        "megaspeed international",
+        "exchange commission",
+        "kress",
+        "nvidia",
+        "days",
+        "securities",
+        "analysts",
+        "but jensen huang",
+        "they",
+        "an nvidia",
+        "the new york times",
+        "tuesday",
+        "ai",
+        "cfo",
+        "huang",
+        "but kress",
+        "china",
+        "kunjan sobhani",
+        "here",
+        "american",
+        "while",
+        "chinese",
+        "lseg",
+        "jensen huang",
+        "ceo",
+        "thursday"
+      ],
+      "numbers": [
+        "109.1 billion",
+        "91%",
+        "$109.1 billion",
+        "$2.47 ",
+        "1.7 trillion",
+        "70%",
+        "$1.7 trillion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-17-AM.json",
+      "source_artifact_date": "2026-11-17",
+      "freshness_label": "today"
+    }
+  ]
+}

@@ -25068,7 +25068,518 @@
       "sources": [
         "https://www.scmp.com/opinion/china-opinion/article/3374204/5-steps-china-us-and-russia-could-take-apec-defuse-nuclear-risk"
       ]
+    },
+    {
+      "id": "evt_20261117_95edb9eb8be8",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_e3fdbad6ca655a11350d2150",
+          "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+          "raw_title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+          "why_relevant": "Vera Rubin 首秀，必读",
+          "facts": [
+            "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+            "NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power.",
+            "These results are just the beginning."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "latest_raw_title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "status": "更新中",
+      "key_facts": [
+        "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+        "NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power.",
+        "These results are just the beginning."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+      ]
+    },
+    {
+      "id": "evt_20261117_fadb19a87c85",
+      "title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_beb52a4ee373feafaccb4daa",
+          "title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+          "raw_title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+          "why_relevant": "DLSS 画质争议有硬核价值",
+          "facts": [
+            "Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.",
+            "But there's still a substantial portion that just calls it AI slop in every Reddit or social media thread that discusses it.",
+            "With DLSS 5's official in-game integration rapidly expanding over the last month (Metro 2033 and Metro Last Light Redux, Hogwarts Legacy, and Where Winds Meet later this month), I asked War Thunder Art Director Kirill Stupin, who said there was no reason not to implement NVIDIA's"
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://wccftech.com/war-thunder-dlss-5-controversy-fan-mods/"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+      "latest_raw_title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+      "status": "更新中",
+      "key_facts": [
+        "Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.",
+        "But there's still a substantial portion that just calls it AI slop in every Reddit or social media thread that discusses it.",
+        "With DLSS 5's official in-game integration rapidly expanding over the last month (Metro 2033 and Metro Last Light Redux, Hogwarts Legacy, and Where Winds Meet later this month), I asked War Thunder Art Director Kirill Stupin, who said there was no reason not to implement NVIDIA's"
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://wccftech.com/war-thunder-dlss-5-controversy-fan-mods/"
+      ]
+    },
+    {
+      "id": "evt_20261117_77062efc588d",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_e5f38aa3c7b49ffc2b962bb4",
+          "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+          "raw_title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+          "why_relevant": "LoRA 路由新方法，技术硬",
+          "facts": [
+            "Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.",
+            "Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings.",
+            "Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://arxiv.org/abs/2611.17340"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "latest_raw_title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "status": "更新中",
+      "key_facts": [
+        "Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.",
+        "Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings.",
+        "Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://arxiv.org/abs/2611.17340"
+      ]
+    },
+    {
+      "id": "evt_20261117_a1ca34da8708",
+      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_e6152d911b10625e7a380590",
+          "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+          "raw_title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+          "why_relevant": "BTC 关键支撑位信号",
+          "facts": [
+            "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "latest_raw_title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "status": "更新中",
+      "key_facts": [
+        "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+      ]
+    },
+    {
+      "id": "evt_20261117_9331d80e659a",
+      "title": "The delicate balance in America’s AI chip war with China",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_58878246de466dbb073e8d58",
+          "title": "The delicate balance in America’s AI chip war with China",
+          "raw_title": "The delicate balance in America’s AI chip war with China",
+          "why_relevant": "中美芯片博弈关键分析",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/6b475027-f28a-4d1f-9331-c19a0e4d5a68?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "The delicate balance in America’s AI chip war with China",
+      "latest_raw_title": "The delicate balance in America’s AI chip war with China",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/6b475027-f28a-4d1f-9331-c19a0e4d5a68?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261117_55682d189258",
+      "title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_5c9c96738ca51578f835017d",
+          "title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+          "raw_title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+          "why_relevant": "英伟达管理层风险",
+          "facts": [
+            "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und",
+            "Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor.",
+            "Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlNRWmc0N3Uyc21OQ3RMb2x2U3VDbkxlLWk0SGdyd0xncEpzYTk4SDZKZzEzWWlNcHU2Snl6UXpiYXV4MzJ0aWl6SmdrVzVyb1B3XzVIYko0UGhGTVFtUml3SlpxTnE5MWZZVzl4VTN1WjQ4bDBUYmJvdVFTYkhISnNneENiNG1VMllvNGJqMDR2cHZNS0xWanY4VVV3aVlwLWRlU2ZRUUJvRDVxbEptcmNoazdZUQ?oc=5",
+            "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+      "latest_raw_title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+      "status": "更新中",
+      "key_facts": [
+        "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und",
+        "Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor.",
+        "Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlNRWmc0N3Uyc21OQ3RMb2x2U3VDbkxlLWk0SGdyd0xncEpzYTk4SDZKZzEzWWlNcHU2Snl6UXpiYXV4MzJ0aWl6SmdrVzVyb1B3XzVIYko0UGhGTVFtUml3SlpxTnE5MWZZVzl4VTN1WjQ4bDBUYmJvdVFTYkhISnNneENiNG1VMllvNGJqMDR2cHZNS0xWanY4VVV3aVlwLWRlU2ZRUUJvRDVxbEptcmNoazdZUQ?oc=5",
+        "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
+      ]
+    },
+    {
+      "id": "evt_20261117_7b96383a226e",
+      "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_3e5c82cb591a8409387b4dc5",
+          "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+          "raw_title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+          "why_relevant": "AI 监管与安全风险",
+          "facts": [
+            "California files lawsuit against OpenAI alleging lack of proper safeguards Attorney General Rob Bonta says Hugging Face attack was ‘entirely predictable’ result of emphasis on rapid growth.",
+            "California has filed a lawsuit against the technology firm OpenAI, alleging that the company endangered the public by developing an artificial intelligence model without the appropriate safeguards.",
+            "The lawsuit, announced by Attorney General Rob Bonta on Monday, centres on an incident that unfolded in July, when one of OpenAI’s experimental models gained access to the internet."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+      "latest_raw_title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+      "status": "更新中",
+      "key_facts": [
+        "California files lawsuit against OpenAI alleging lack of proper safeguards Attorney General Rob Bonta says Hugging Face attack was ‘entirely predictable’ result of emphasis on rapid growth.",
+        "California has filed a lawsuit against the technology firm OpenAI, alleging that the company endangered the public by developing an artificial intelligence model without the appropriate safeguards.",
+        "The lawsuit, announced by Attorney General Rob Bonta on Monday, centres on an incident that unfolded in July, when one of OpenAI’s experimental models gained access to the internet."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "evt_20261117_ea3ff0c4bed6",
+      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_b9933e147405d79354ed41b5",
+          "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "raw_title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+          "why_relevant": "俄乌冲突重要升级",
+          "facts": [
+            "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - Published Russia says it has recorded the biggest Ukrainian drone attack since the war began, in which a landmark bridge linking Russia to occupied Crimea sustained minor damage and several oil r",
+            "The Russian military intercepted and destroyed 2,049 drones and four Flamingo long-distance missiles over 24 hours, officials said.",
+            "At least seven people were killed by Russian strikes and attacks on energy infrastructure caused blackouts for 50,000 people."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "latest_raw_title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "status": "更新中",
+      "key_facts": [
+        "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - Published Russia says it has recorded the biggest Ukrainian drone attack since the war began, in which a landmark bridge linking Russia to occupied Crimea sustained minor damage and several oil r",
+        "The Russian military intercepted and destroyed 2,049 drones and four Flamingo long-distance missiles over 24 hours, officials said.",
+        "At least seven people were killed by Russian strikes and attacks on energy infrastructure caused blackouts for 50,000 people."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261117_8b3c60a4db66",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_280c54dd4a2099964a93e7cf",
+          "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "raw_title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "why_relevant": "英伟达高层角力",
+          "facts": [
+            "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO - Published Nvidia has dismissed a campaign calling for Jensen Huang to be handed back his job as allies, including US President Donald Trump, backed the effort.",
+            "Trump said on Monday that he \"would certainly not mind\" if Huang was reinstated, adding to a list of supporters who are backing a \"Bring Jensen Back\" campaign.",
+            "Fellow tech bosses, including SpaceX's Elon Musk and Tim Sweeney, chief executive of Fortnite-maker Epic Games, have also supported Huang's return."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "latest_raw_title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "status": "更新中",
+      "key_facts": [
+        "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO - Published Nvidia has dismissed a campaign calling for Jensen Huang to be handed back his job as allies, including US President Donald Trump, backed the effort.",
+        "Trump said on Monday that he \"would certainly not mind\" if Huang was reinstated, adding to a list of supporters who are backing a \"Bring Jensen Back\" campaign.",
+        "Fellow tech bosses, including SpaceX's Elon Musk and Tim Sweeney, chief executive of Fortnite-maker Epic Games, have also supported Huang's return."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261117_eea053dd7280",
+      "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_e21d26df42f235be7b330c53",
+          "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+          "raw_title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+          "why_relevant": "加拿大对华汽车信号",
+          "facts": [
+            "The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to preserve an integrated North American auto industry.",
+            "Carney’s comments in Cambodia on Monday came ahead of a planned meeting with Chinese leader Xi Jinping this week in Shenzhen, China, where auto manufacturing is expected to be discussed.",
+            "The two leaders reached an agreement in January allowing tens of thousands of Chinese electric vehicles into Canada at reduced tariffs."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+      "latest_raw_title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+      "status": "更新中",
+      "key_facts": [
+        "The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to preserve an integrated North American auto industry.",
+        "Carney’s comments in Cambodia on Monday came ahead of a planned meeting with Chinese leader Xi Jinping this week in Shenzhen, China, where auto manufacturing is expected to be discussed.",
+        "The two leaders reached an agreement in January allowing tens of thousands of Chinese electric vehicles into Canada at reduced tariffs."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
+      ]
+    },
+    {
+      "id": "evt_20261117_b779858d0c47",
+      "title": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_9bfc2235fe3ab9f29b0e3585",
+          "title": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+          "raw_title": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+          "why_relevant": "APEC 主场外交分析",
+          "facts": [
+            "In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders’ meeting in Shanghai."
+          ],
+          "open_questions": [
+            "正文未抓到"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/china/diplomacy/article/3374575/why-china-betting-home-court-diplomacy-shenzhen-apec-gathering"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+      "latest_raw_title": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+      "status": "更新中",
+      "key_facts": [
+        "In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders’ meeting in Shanghai."
+      ],
+      "open_questions": [
+        "正文未抓到"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/china/diplomacy/article/3374575/why-china-betting-home-court-diplomacy-shenzhen-apec-gathering"
+      ]
+    },
+    {
+      "id": "evt_20261117_f43956a3ce57",
+      "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_b90cfeb74f3853f052914b01",
+          "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+          "raw_title": "Houthi rebel advance in Yemen may further destabilise global economy",
+          "why_relevant": "红海航运风险提示",
+          "facts": [
+            "Houthi rebel advance in Yemen may further destabilise global economy - Published The Iran-backed Houthi rebels who seized much of Yemen in 2014 have now forced the army of the internationally recognised government to withdraw from the Red Sea coast in order to defend their interi",
+            "Yemen, a mountainous, heavily armed, intensely tribal and largely impoverished nation, sits at the far south-west corner of the Arabian Peninsula.",
+            "The country has two coasts: One faces the Indian Ocean on which sits the once-prosperous trading port of Aden, the other faces the Red Sea and, most importantly, the narrow chokepoint at the southern exit of that waterway - the so-called Bab al-Mandab Strait or, in English, The G"
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "latest_raw_title": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "status": "更新中",
+      "key_facts": [
+        "Houthi rebel advance in Yemen may further destabilise global economy - Published The Iran-backed Houthi rebels who seized much of Yemen in 2014 have now forced the army of the internationally recognised government to withdraw from the Red Sea coast in order to defend their interi",
+        "Yemen, a mountainous, heavily armed, intensely tribal and largely impoverished nation, sits at the far south-west corner of the Arabian Peninsula.",
+        "The country has two coasts: One faces the Indian Ocean on which sits the once-prosperous trading port of Aden, the other faces the Red Sea and, most importantly, the narrow chokepoint at the southern exit of that waterway - the so-called Bab al-Mandab Strait or, in English, The G"
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261117_2f6de56d2658",
+      "title": "elementalsouls/Claude-BugHunter",
+      "first_seen": "2026-11-17",
+      "updates": [
+        {
+          "date": "2026-11-17",
+          "article_id": "a1_758d502666f1d89f2fd76e3f",
+          "title": "elementalsouls/Claude-BugHunter",
+          "raw_title": "elementalsouls/Claude-BugHunter",
+          "why_relevant": "红队技能库，值得留意",
+          "facts": [
+            "A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+            "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+            "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/elementalsouls/Claude-BugHunter"
+          ],
+          "evidence_path": "digests/meta/2026-11-17-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-17",
+      "latest_title": "elementalsouls/Claude-BugHunter",
+      "latest_raw_title": "elementalsouls/Claude-BugHunter",
+      "status": "更新中",
+      "key_facts": [
+        "A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+        "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+        "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/elementalsouls/Claude-BugHunter"
+      ]
     }
   ],
-  "updated_at": "2026-11-16T08:02:56.839229+08:00"
+  "updated_at": "2026-11-17T08:03:48.247116+08:00"
 }

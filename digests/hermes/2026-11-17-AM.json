@@ -1,0 +1,1555 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-17-AM",
+  "date": "2026-11-17",
+  "session": "AM",
+  "delivered_at": "2026-11-17T08:07:35.847074+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-17T00:07:35.848808+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.23076923076923078
+  },
+  "items": [
+    {
+      "article_id": "a1_e3fdbad6ca655a11350d2150",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "publisher": "英伟达博客",
+      "summary": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.  NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-16T16:00:25+00:00",
+      "why_relevant": "Vera Rubin 首秀，必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230725+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
+          "sentence_hash": "0d536f9c373cd7113841aea78a595c50cfc82491424229099af0e592005d30d5",
+          "anchors": [
+            "results",
+            "it",
+            "ai",
+            "perf"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230815+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power.",
+          "sentence_hash": "93998a8b90a911cc05da710cf03a79faf634f43b5be93483729a1185562ba461",
+          "anchors": [
+            "it",
+            "each",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "These results are just the beginning.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230841+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "These results are just the beginning.",
+          "sentence_hash": "52e894b7e89a6f174fd872c712421a0b256d5648ab6ce369dcd68bedf6c79c59",
+          "anchors": [
+            "results"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Vera Rubin performance will keep climbing through continuous optimization of NVIDIA’s CUDA-powered software stack, so the infrastructure that customers invest in today delivers more value over time.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230877+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "Vera Rubin performance will keep climbing through continuous optimization of NVIDIA’s CUDA-powered software stack, so the infrastructure that customers invest in today delivers more value over time.",
+          "sentence_hash": "cb779134aea7fffe6a5687b6c333b3407eefd22e62836cabcdd5d4517e3e24b7",
+          "anchors": [
+            "perf"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "NVIDIA Sweeps MLPerf Training v6.1 AI agents are now everywhere, writing code, running business workflows, answering customer questions and, as this week’s SC26 conference highlights, advancing scientific research.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230913+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "NVIDIA Sweeps MLPerf Training v6.1 AI agents are now everywhere, writing code, running business workflows, answering customer questions and, as this week’s SC26 conference highlights, advancing scientific research.",
+          "sentence_hash": "14c8651da9a97e6031d076b161baac2746eae634804616649f944c087c70a1de",
+          "anchors": [
+            "it",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Faster training means smarter agents can reach users sooner, drug discovery models can keep pace with new lab data and fraud-detection models can adapt to new threats faster.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.230944+08:00",
+          "content_sha256": "09a4054391d6c849eb433a3304a7a8bb9fb12db72079737bf95c86ee3e5d5ded",
+          "excerpt": "Faster training means smarter agents can reach users sooner, drug discovery models can keep pace with new lab data and fraud-detection models can adapt to new threats faster.",
+          "sentence_hash": "25fb78491171f06c15ec98dfda050e95091ef481314b6b8d1098102b8fd757d2",
+          "anchors": [
+            "it",
+            "each",
+            "faster",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "microsoft azure",
+        "quantum",
+        "combined",
+        "ethernet",
+        "perf",
+        "results",
+        "gpu",
+        "cuda",
+        "perf endpoints\nan",
+        "nvidia",
+        "perf training",
+        "vera rubin",
+        "infini",
+        "because",
+        "deep",
+        "band",
+        "it",
+        "spectrum",
+        "faster",
+        "link",
+        "seek",
+        "sweeps",
+        "perf endpoints",
+        "vera rubin leads agentic inference",
+        "ai",
+        "each",
+        "these"
+      ],
+      "numbers": [
+        "97%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_beb52a4ee373feafaccb4daa",
+      "title": "War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views",
+      "url": "https://wccftech.com/war-thunder-dlss-5-controversy-fan-mods/",
+      "publisher": "Wccftech",
+      "summary": "NVIDIA DLSS 5 was perhaps the most polarizing new technology of 2026 when it comes to its reception from the gaming community. Some absolutely love its visual uplift ever since its reveal by now-ousted (though maybe not for long) NVIDIA CEO Jensen Huang at March's GTC 2026 in San Jose, California. Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in. But there's still a substantial portion that just calls it AI slop in every Reddit or soc",
+      "category": "科技",
+      "published_at": "2026-11-16T18:00:00+00:00",
+      "why_relevant": "DLSS 画质争议有硬核价值",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232310+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.",
+          "sentence_hash": "41af5b870c2fa7166c83cb21c0d9c477a2a2922f3635f40b88ad89a30ef3dde0",
+          "anchors": [
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "But there's still a substantial portion that just calls it AI slop in every Reddit or social media thread that discusses it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232340+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "But there's still a substantial portion that just calls it AI slop in every Reddit or social media thread that discusses it.",
+          "sentence_hash": "6ffb52f277637691effeb9512dbf8350ef1403914f73618503e2c0a458744e54",
+          "anchors": [
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "With DLSS 5's official in-game integration rapidly expanding over the last month (Metro 2033 and Metro Last Light Redux, Hogwarts Legacy, and Where Winds Meet later this month), I asked War Thunder Art Director Kirill Stupin, who said there was no reason not to implement NVIDIA's",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232384+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "With DLSS 5's official in-game integration rapidly expanding over the last month (Metro 2033 and Metro Last Light Redux, Hogwarts Legacy, and Where Winds Meet later this month), I asked War Thunder Art Director Kirill Stupin, who said there was no reason not to implement NVIDIA's",
+          "sentence_hash": "b4a87c6affd72ed02c1e2eb942a19fe09b6625dc2309cd1929f4514d38cadafc",
+          "anchors": [
+            "here",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Add to that the first demo, where the changes looked radical indeed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232423+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "Add to that the first demo, where the changes looked radical indeed.",
+          "sentence_hash": "2c1015aa9aef59853ebebdaa6e3c28cedca3a4b5d70001e1b6724947b5e2573e",
+          "anchors": [
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "People protested that the artist’s vision was being lost, replaced by something entirely new that nobody had actually painted.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232452+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "People protested that the artist’s vision was being lost, replaced by something entirely new that nobody had actually painted.",
+          "sentence_hash": "7e63515c9e1e40a4026ae1ccb57c634222b5bc468bfd5b123d12772aca4f8d99",
+          "anchors": [
+            "some",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Obviously, some users noticed that beauty comes at a price, but that is not unexpected.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.232485+08:00",
+          "content_sha256": "701a3a9561dbc41c3f6358567182576a27f1527e7c4e82b961d260e689bc6ed4",
+          "excerpt": "Obviously, some users noticed that beauty comes at a price, but that is not unexpected.",
+          "sentence_hash": "47652d3a8141a90a0c9a84a1f0e7a80114ab3edf34dd022e613fc91c0a8ac594",
+          "anchors": [
+            "some",
+            "but"
+          ]
+        }
+      ],
+      "entities": [
+        "gtc",
+        "war thunder",
+        "reddit",
+        "some",
+        "series",
+        "adrian chmielarz",
+        "metro",
+        "war thunder art director kirill stupin",
+        "but",
+        "others",
+        "add",
+        "neural rendering",
+        "stupin",
+        "nvidia",
+        "hogwarts legacy",
+        "rtx",
+        "many",
+        "people",
+        "metro last light redux",
+        "obviously",
+        "california",
+        "jensen huang",
+        "here",
+        "those",
+        "where winds meet",
+        "march",
+        "ai",
+        "with",
+        "ceo",
+        "san jose",
+        "dlss"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e5f38aa3c7b49ffc2b962bb4",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "publisher": "arXiv cs.AI",
+      "summary": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings. This paper treats adapter routing as a",
+      "category": "科技",
+      "published_at": "2026-11-16T05:00:00+00:00",
+      "why_relevant": "LoRA 路由新方法，技术硬",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233629+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.",
+          "sentence_hash": "aef8bf2db9c5c7954b3c00f8c855812cc8832a7e991dac8b3bb55e9e08eb7caf",
+          "anchors": [
+            "Sep 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233684+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings.",
+          "sentence_hash": "95396cfc796c71aee70eae9b07ae4a97af4832efb222b78c4ae5801fa87eea2c",
+          "anchors": [
+            "code"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233745+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task setting and approaches a trained retrieval encoder without learning a router.",
+          "sentence_hash": "2d6e437b8d5f3bcc6827881cc31fc07bf8863bbe91d058db32df20bca74a4197",
+          "anchors": [
+            "learn",
+            "code"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Submission history From: Inish Melroy D Souza [view email] [v1] Tue, 1 Sep 2026 01:33:50 UTC (492 KB) Additional Features References & Citations Loading...",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233800+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Submission history From: Inish Melroy D Souza [view email] [v1] Tue, 1 Sep 2026 01:33:50 UTC (492 KB) Additional Features References & Citations Loading...",
+          "sentence_hash": "76af6588ff24bcc5f6564d8407f00b29b6bc23b26798baf4069c76da7ebd8020",
+          "anchors": [
+            "Sep 20"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233866+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
+          "sentence_hash": "880fbee3ce822fd1dcd8ee353dedc49863baf6974296c7bcf04cc753faaa573d",
+          "anchors": [
+            "pub"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.233896+08:00",
+          "content_sha256": "3bc51eb5177e3f0be71743396d355d57513eba81725b4cbbb641cc99b571cd56",
+          "excerpt": "Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.",
+          "sentence_hash": "472a1cb978bef0bc0a652f6292004b28843bf891997d98fd90e7d4a4bd5418f1",
+          "anchors": [
+            "have",
+            "data"
+          ]
+        }
+      ],
+      "entities": [
+        "computer science",
+        "xiv",
+        "pdf",
+        "abstract",
+        "representation space\nview",
+        "additional features\nreferences",
+        "media associated",
+        "directional adapter routing",
+        "hub",
+        "huggingface",
+        "submitted",
+        "article",
+        "code",
+        "recommender",
+        "large",
+        "citation tools\n            bibliographic explorer",
+        "pub",
+        "existing",
+        "search tools\n              influence flower",
+        "inish melroy",
+        "both",
+        "sep",
+        "souza",
+        "dags",
+        "parameter",
+        "bibliographic",
+        "tue",
+        "connected papers",
+        "catalyze",
+        "hugging face",
+        "demos\nrecommenders",
+        "core",
+        "weaver",
+        "have",
+        "experiments",
+        "citations\n    \n    loading",
+        "html",
+        "data",
+        "labs",
+        "kb",
+        "utc",
+        "from",
+        "title",
+        "code finder",
+        "submission",
+        "litmaps",
+        "science",
+        "influence flowers",
+        "artificial intelligence",
+        "cast",
+        "papers",
+        "explorer",
+        "learn",
+        "smart citations",
+        "gotit",
+        "flan"
+      ],
+      "numbers": [],
+      "dates": [
+        "Sep 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 57
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e6152d911b10625e7a380590",
+      "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+      "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-16T20:35:21+00:00",
+      "why_relevant": "BTC 关键支撑位信号",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.234094+08:00",
+          "content_sha256": "c461629f79b732390a2220d8f106f5bde158ecbeaa01c596c1d31d419f8db9ca",
+          "excerpt": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
+          "sentence_hash": "c461629f79b732390a2220d8f106f5bde158ecbeaa01c596c1d31d419f8db9ca",
+          "anchors": [
+            "$60,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "bitcoin",
+        "nvidia"
+      ],
+      "numbers": [
+        "$60,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 3
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_58878246de466dbb073e8d58",
+      "title": "The delicate balance in America’s AI chip war with China",
+      "url": "https://www.ft.com/content/6b475027-f28a-4d1f-9331-c19a0e4d5a68?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "US export controls need to be better enforced, not turned into a wider blockade",
+      "category": "财经",
+      "published_at": "2026-11-16T18:35:45+00:00",
+      "why_relevant": "中美芯片博弈关键分析",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 1
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_5c9c96738ca51578f835017d",
+      "title": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlNRWmc0N3Uyc21OQ3RMb2x2U3VDbkxlLWk0SGdyd0xncEpzYTk4SDZKZzEzWWlNcHU2Snl6UXpiYXV4MzJ0aWl6SmdrVzVyb1B3XzVIYko0UGhGTVFtUml3SlpxTnE5MWZZVzl4VTN1WjQ4bDBUYmJvdVFTYkhISnNneENiNG1VMllvNGJqMDR2cHZNS0xWanY4VVV3aVlwLWRlU2ZRUUJvRDVxbEptcmNoazdZUQ?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-11-16T21:31:41+00:00",
+      "why_relevant": "英伟达管理层风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.235758+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und",
+          "sentence_hash": "11bab4dca7a33ac4ed0bd7521a0f116e680b1a2b146525593b5844362b62e29f",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236025+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor.",
+          "sentence_hash": "65d8d2b7ededa5e3e75f20884196de7bf046af45f4763273a256d52516c1c77d",
+          "anchors": [
+            "while"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236248+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share.",
+          "sentence_hash": "84e8c740752a7bc7497990736b16a50361df5ed855dcfad62207adc0d25af685",
+          "anchors": [
+            "91%",
+            "$109.1 billion",
+            "$2.47 ",
+            "109.1 billion"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "They said revenue expansion in fiscal 2028 would be roughly 70% in what Kress, on the last earnings call, described as a \"supply constrained outlook.\" \"What would be good for them to do is reiterate that and confirm that is still intact, if they have the ability,\" said Bloomberg ",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236493+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "They said revenue expansion in fiscal 2028 would be roughly 70% in what Kress, on the last earnings call, described as a \"supply constrained outlook.\" \"What would be good for them to do is reiterate that and confirm that is still intact, if they have the ability,\" said Bloomberg ",
+          "sentence_hash": "f30daf2496a01b12d9c4abdfd8209db56392b0578d5e51ae527fffb7c8653d75",
+          "anchors": [
+            "ai",
+            "70%",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stock has dropped for six straight weeks, the longest losing streak since 2012, pushing the company's market cap down by $1.7 trillion.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236719+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "The stock has dropped for six straight weeks, the longest losing streak since 2012, pushing the company's market cap down by $1.7 trillion.",
+          "sentence_hash": "bc97431467f7c8b5771f644636177f0b2676cbecc6719bda1daf286d7a2ce267",
+          "anchors": [
+            "1.7 trillion",
+            "$1.7 trillion",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "But Jensen Huang's romantic ties to Alice Huang, a Megaspeed International executive, raised concerns about Nvidia's actual business in China.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-17T08:03:48.236992+08:00",
+          "content_sha256": "070cebb4affe8c0f53478dbe9e2c76a18779b05e11c917f97dff97cefc837b55",
+          "excerpt": "But Jensen Huang's romantic ties to Alice Huang, a Megaspeed International executive, raised concerns about Nvidia's actual business in China.",
+          "sentence_hash": "2dbf5fb4279abcf482497bb466641a6bf29a64c4e426b11c6a953fc3721ecb78",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "october",
+        "alice huang",
+        "southeast asia",
+        "colette kress",
+        "bloomberg intelligence",
+        "megaspeed international",
+        "exchange commission",
+        "kress",
+        "nvidia",
+        "days",
+        "securities",
+        "analysts",
+        "but jensen huang",
+        "they",
+        "an nvidia",
+        "the new york times",
+        "tuesday",
+        "ai",
+        "cfo",
+        "huang",
+        "but kress",
+        "china",
+        "kunjan sobhani",
+        "here",
+        "american",
+        "while",
+        "chinese",
+        "lseg",
+        "jensen huang",
+        "ceo",
+        "thursday"
+      ],
+      "numbers": [
+        "109.1 billion",
+        "91%",
+        "$109.1 billion",
+        "$2.47 ",
+        "1.7 trillion",
+        "70%",
+        "$1.7 trillion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_3e5c82cb591a8409387b4dc5",
+      "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+      "url": "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Attorney General Rob Bonta says Hugging Face attack was &#039;entirely predictable&#039; result of emphasis on rapid growth.",
+      "category": "国际",
+      "published_at": "2026-11-16T21:35:51+00:00",
+      "why_relevant": "AI 监管与安全风险",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "California files lawsuit against OpenAI alleging lack of proper safeguards Attorney General Rob Bonta says Hugging Face attack was ‘entirely predictable’ result of emphasis on rapid growth.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.238400+08:00",
+          "content_sha256": "141f05058064ba694cb7f4a2148c4fff4ed2540460aabb96838493129467c668",
+          "excerpt": "California files lawsuit against OpenAI alleging lack of proper safeguards Attorney General Rob Bonta says Hugging Face attack was ‘entirely predictable’ result of emphasis on rapid growth.",
+          "sentence_hash": "6247878ac47bc7baa12cef710ca185b8d1e6fa931aafe3f99ebb2eb9e6d6286f",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "California has filed a lawsuit against the technology firm OpenAI, alleging that the company endangered the public by developing an artificial intelligence model without the appropriate safeguards.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.238438+08:00",
+          "content_sha256": "141f05058064ba694cb7f4a2148c4fff4ed2540460aabb96838493129467c668",
+          "excerpt": "California has filed a lawsuit against the technology firm OpenAI, alleging that the company endangered the public by developing an artificial intelligence model without the appropriate safeguards.",
+          "sentence_hash": "5e6154967c76d78b6ebf2f77bb6d2bc5aeac7f05674b0175930362b6876203e0",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The lawsuit, announced by Attorney General Rob Bonta on Monday, centres on an incident that unfolded in July, when one of OpenAI’s experimental models gained access to the internet.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.238475+08:00",
+          "content_sha256": "141f05058064ba694cb7f4a2148c4fff4ed2540460aabb96838493129467c668",
+          "excerpt": "The lawsuit, announced by Attorney General Rob Bonta on Monday, centres on an incident that unfolded in July, when one of OpenAI’s experimental models gained access to the internet.",
+          "sentence_hash": "554a32f57b98a375a93fd78364c48ffec2752e2715beea30c4e8688fc59b564c",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "In the California complaint, Bonta argues that the incident indicates that OpenAI pursues growth over guardrails, leading to potentially dangerous errors.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.238506+08:00",
+          "content_sha256": "141f05058064ba694cb7f4a2148c4fff4ed2540460aabb96838493129467c668",
+          "excerpt": "In the California complaint, Bonta argues that the incident indicates that OpenAI pursues growth over guardrails, leading to potentially dangerous errors.",
+          "sentence_hash": "577ef1e4d6c751e3f1356cab5355c1c25245a43cf71ee091b34316206dd1c3fa",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“The Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritises growth and rapid model development over safety and accountability — and this was only one of 80 known incidents,” Bonta said in a statement.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.238547+08:00",
+          "content_sha256": "141f05058064ba694cb7f4a2148c4fff4ed2540460aabb96838493129467c668",
+          "excerpt": "“The Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritises growth and rapid model development over safety and accountability — and this was only one of 80 known incidents,” Bonta said in a statement.",
+          "sentence_hash": "9efe0860ead2a9a29445a09ac9c20efb46065a17780992fb7402e409e9dbf975",
+          "anchors": [
+            "state",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The lawsuit is the first brought by a state in response to the July incident.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.238568+08:00",
+          "content_sha256": "141f05058064ba694cb7f4a2148c4fff4ed2540460aabb96838493129467c668",
+          "excerpt": "The lawsuit is the first brought by a state in response to the July incident.",
+          "sentence_hash": "340e0279e6af5b443b8afb9fdffe21edc1d0086a8f818694644aa012f6515ce6",
+          "anchors": [
+            "state"
+          ]
+        }
+      ],
+      "entities": [
+        "the associated press",
+        "october",
+        "trump",
+        "my administration",
+        "bonta",
+        "us",
+        "united states",
+        "open",
+        "norc",
+        "americans",
+        "state",
+        "monday",
+        "the hugging face",
+        "congress",
+        "center",
+        "california",
+        "july",
+        "public affairs research",
+        "san francisco",
+        "hugging face",
+        "president donald trump",
+        "polls",
+        "ai",
+        "but",
+        "in december",
+        "attorney general rob bonta"
+      ],
+      "numbers": [],
+      "dates": [
+        "December 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 27
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b9933e147405d79354ed41b5",
+      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+      "category": "国际",
+      "published_at": "2026-11-16T14:58:12+00:00",
+      "why_relevant": "俄乌冲突重要升级",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - Published Russia says it has recorded the biggest Ukrainian drone attack since the war began, in which a landmark bridge linking Russia to occupied Crimea sustained minor damage and several oil r",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.239759+08:00",
+          "content_sha256": "4c17bc7e33479751ac257804eaabea8d87d8e52f64629d71bce02d0b0b7bc423",
+          "excerpt": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - Published Russia says it has recorded the biggest Ukrainian drone attack since the war began, in which a landmark bridge linking Russia to occupied Crimea sustained minor damage and several oil r",
+          "sentence_hash": "8316b823f7ffcd264fcbfbfb0a1729961dbd6a66ceb05d58d7f338a7f36c65fd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The Russian military intercepted and destroyed 2,049 drones and four Flamingo long-distance missiles over 24 hours, officials said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.239806+08:00",
+          "content_sha256": "4c17bc7e33479751ac257804eaabea8d87d8e52f64629d71bce02d0b0b7bc423",
+          "excerpt": "The Russian military intercepted and destroyed 2,049 drones and four Flamingo long-distance missiles over 24 hours, officials said.",
+          "sentence_hash": "630c61ec531c280300188513be615c787d6ae66e1ed52e0e80b8dd5bc8788b1d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "At least seven people were killed by Russian strikes and attacks on energy infrastructure caused blackouts for 50,000 people.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.239843+08:00",
+          "content_sha256": "4c17bc7e33479751ac257804eaabea8d87d8e52f64629d71bce02d0b0b7bc423",
+          "excerpt": "At least seven people were killed by Russian strikes and attacks on energy infrastructure caused blackouts for 50,000 people.",
+          "sentence_hash": "8ddf3996013c6af9f6e02e5d61a0732c80d8b8e63ea5813030dc1cf9e46b88ad",
+          "anchors": [
+            "50,000 people",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The intense strikes come days after US, Ukrainian and Russian envoys held talks aimed at ending the war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.239867+08:00",
+          "content_sha256": "4c17bc7e33479751ac257804eaabea8d87d8e52f64629d71bce02d0b0b7bc423",
+          "excerpt": "The intense strikes come days after US, Ukrainian and Russian envoys held talks aimed at ending the war.",
+          "sentence_hash": "3ca081b608976af633b8554e51b775e61d7f5dd2840cbe91dd0072c99cf5a0bd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The war in Ukraine began with Russia's full-scale invasion in February 2022.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.239887+08:00",
+          "content_sha256": "4c17bc7e33479751ac257804eaabea8d87d8e52f64629d71bce02d0b0b7bc423",
+          "excerpt": "The war in Ukraine began with Russia's full-scale invasion in February 2022.",
+          "sentence_hash": "f066d29ff22fbff43862d30b4276c61a50537ec8770dff3c8cec067def3a9f92",
+          "anchors": [
+            "February 20",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The Moscow-installed head of Crimea, Sergei Aksyonov, confirmed that drones had struck the Crimean Bridge connecting Russia with the annexed peninsula, leading to traffic restrictions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.239916+08:00",
+          "content_sha256": "4c17bc7e33479751ac257804eaabea8d87d8e52f64629d71bce02d0b0b7bc423",
+          "excerpt": "The Moscow-installed head of Crimea, Sergei Aksyonov, confirmed that drones had struck the Crimean Bridge connecting Russia with the annexed peninsula, leading to traffic restrictions.",
+          "sentence_hash": "d2fc8ad12666b3a90809dc98f09f6ea69d4396fd8c6ec32b358449089d94869f",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "last",
+        "february",
+        "atesh",
+        "putin",
+        "around",
+        "russia",
+        "published\nrussia",
+        "ilsky",
+        "russian president vladimir putin",
+        "zelensky",
+        "europe",
+        "landmark crimea",
+        "ukraine",
+        "kerch bridge",
+        "the kremlin",
+        "despite",
+        "the russian",
+        "crimean bridge",
+        "krasnodar",
+        "us",
+        "nato",
+        "moscow mayor sergey sobyanin",
+        "moscow",
+        "crimea",
+        "jared kushner",
+        "the moscow",
+        "dnipro river",
+        "bbc",
+        "sergei aksyonov",
+        "neither ukraine",
+        "flamingo",
+        "kyiv",
+        "ukrainian",
+        "president volodymyr zelensky",
+        "steve witkoff",
+        "telegram",
+        "russian"
+      ],
+      "numbers": [
+        "50,000 people"
+      ],
+      "dates": [
+        "February 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_280c54dd4a2099964a93e7cf",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+      "category": "国际",
+      "published_at": "2026-11-16T22:21:27+00:00",
+      "why_relevant": "英伟达高层角力",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO - Published Nvidia has dismissed a campaign calling for Jensen Huang to be handed back his job as allies, including US President Donald Trump, backed the effort.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.241110+08:00",
+          "content_sha256": "e0eed215f7fd994eda4f37354b870e6efba65e51b15abb43f9f75910f7d81b27",
+          "excerpt": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO - Published Nvidia has dismissed a campaign calling for Jensen Huang to be handed back his job as allies, including US President Donald Trump, backed the effort.",
+          "sentence_hash": "c2344efe06a83d1495941632e2b373284f2f5a97b828d29a650d07a61d5468e7",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Trump said on Monday that he \"would certainly not mind\" if Huang was reinstated, adding to a list of supporters who are backing a \"Bring Jensen Back\" campaign.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.241145+08:00",
+          "content_sha256": "e0eed215f7fd994eda4f37354b870e6efba65e51b15abb43f9f75910f7d81b27",
+          "excerpt": "Trump said on Monday that he \"would certainly not mind\" if Huang was reinstated, adding to a list of supporters who are backing a \"Bring Jensen Back\" campaign.",
+          "sentence_hash": "666c391732cd8676c621ff1c0a04cb5b946aeb5b7d6855f9cfd3f8f828814a56",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Fellow tech bosses, including SpaceX's Elon Musk and Tim Sweeney, chief executive of Fortnite-maker Epic Games, have also supported Huang's return.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.241171+08:00",
+          "content_sha256": "e0eed215f7fd994eda4f37354b870e6efba65e51b15abb43f9f75910f7d81b27",
+          "excerpt": "Fellow tech bosses, including SpaceX's Elon Musk and Tim Sweeney, chief executive of Fortnite-maker Epic Games, have also supported Huang's return.",
+          "sentence_hash": "c7780a19c3bdca67a781fb54a242adf3f165f1380869d9c35ea2721d343b4f4f",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "But the BBC has been told the board of the AI chip giant is not interested in bringing him back after he resigned last week following revelations he had two affairs, including one that involved a suspected Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.241207+08:00",
+          "content_sha256": "e0eed215f7fd994eda4f37354b870e6efba65e51b15abb43f9f75910f7d81b27",
+          "excerpt": "But the BBC has been told the board of the AI chip giant is not interested in bringing him back after he resigned last week following revelations he had two affairs, including one that involved a suspected Chinese spy.",
+          "sentence_hash": "ada5b5e27df9d63d98b0ebe8fbf9b50de38400767e8730e45c7df351cfd9ec40",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Meanwhile on Monday, the Trump administration said it will further restrict China's âaccess to AI chips from companies like Nvidia.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.241233+08:00",
+          "content_sha256": "e0eed215f7fd994eda4f37354b870e6efba65e51b15abb43f9f75910f7d81b27",
+          "excerpt": "Meanwhile on Monday, the Trump administration said it will further restrict China's âaccess to AI chips from companies like Nvidia.",
+          "sentence_hash": "021a04bb226874bc2b4195490b3d9b408c08cc828dc087ac8ff157303810fff0",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The reported affairs created a crisis for one of the world's most valuable firms - a central company in AI and the US battle against China for dominance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.241265+08:00",
+          "content_sha256": "e0eed215f7fd994eda4f37354b870e6efba65e51b15abb43f9f75910f7d81b27",
+          "excerpt": "The reported affairs created a crisis for one of the world's most valuable firms - a central company in AI and the US battle against China for dominance.",
+          "sentence_hash": "5aadb9c8b45be06ebfe0e24954a950ee4e2e15e90e425e5aa1777e998bda45ad",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "fortnite",
+        "sweeny",
+        "singapore",
+        "published\nnvidia",
+        "musk",
+        "financial times",
+        "epic games",
+        "malaysia",
+        "nvidia",
+        "meanwhile",
+        "bring jensen back",
+        "thailand",
+        "jensen",
+        "huang",
+        "space",
+        "china",
+        "brazil",
+        "however",
+        "president trump",
+        "chinese",
+        "ai",
+        "stand",
+        "but",
+        "chinese president xi jingping",
+        "ceo",
+        "trump",
+        "alice huang",
+        "us",
+        "white house",
+        "indonesia",
+        "bbc",
+        "since",
+        "they",
+        "monday",
+        "tim sweeney",
+        "the trump",
+        "president donald trump",
+        "elon musk",
+        "jensen huang",
+        "thursday",
+        "fellow"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e21d26df42f235be7b330c53",
+      "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+      "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks",
+      "publisher": "The Guardian",
+      "summary": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiationsThe prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to preserve an integrated North American auto industry.Carney’s comments in Cambodia on Monday came ahead of a planned meeting with Chinese leader Xi Jinping this week in Shenzhen, China, where auto man",
+      "category": "国际",
+      "published_at": "2026-11-16T04:39:20+00:00",
+      "why_relevant": "加拿大对华汽车信号",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to preserve an integrated North American auto industry.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.242555+08:00",
+          "content_sha256": "c5a12d8585f316c0c0279768d8116cbe104490a876e7e386a468936c628f7192",
+          "excerpt": "The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to preserve an integrated North American auto industry.",
+          "sentence_hash": "47637b5540d6ccd0ab78a798d08d65290cc8b10874a18d48102170d2efa506cb",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Carney’s comments in Cambodia on Monday came ahead of a planned meeting with Chinese leader Xi Jinping this week in Shenzhen, China, where auto manufacturing is expected to be discussed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.242596+08:00",
+          "content_sha256": "c5a12d8585f316c0c0279768d8116cbe104490a876e7e386a468936c628f7192",
+          "excerpt": "Carney’s comments in Cambodia on Monday came ahead of a planned meeting with Chinese leader Xi Jinping this week in Shenzhen, China, where auto manufacturing is expected to be discussed.",
+          "sentence_hash": "0d45f38d24a2ed05e69a70281a9f0af952227364529e2cbd348f095bdf441e76",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The two leaders reached an agreement in January allowing tens of thousands of Chinese electric vehicles into Canada at reduced tariffs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.242624+08:00",
+          "content_sha256": "c5a12d8585f316c0c0279768d8116cbe104490a876e7e386a468936c628f7192",
+          "excerpt": "The two leaders reached an agreement in January allowing tens of thousands of Chinese electric vehicles into Canada at reduced tariffs.",
+          "sentence_hash": "af8adffdf198b7d4c8724c1a88778f4e27d65f49a29b885fcff55dd61f955968",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“That market has become less integrated because of US trade actions.” He said on Monday that negotiations with the US remained his priority, but their outcome could determine whether Canada pursues alternatives involving European, Chinese or Japanese automakers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.242678+08:00",
+          "content_sha256": "c5a12d8585f316c0c0279768d8116cbe104490a876e7e386a468936c628f7192",
+          "excerpt": "“That market has become less integrated because of US trade actions.” He said on Monday that negotiations with the US remained his priority, but their outcome could determine whether Canada pursues alternatives involving European, Chinese or Japanese automakers.",
+          "sentence_hash": "91ec2ed87a27c95745b9e4248979e08059cd6bc0a6ac14b7f2b7adc403d0c928",
+          "anchors": [
+            "but",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "A day earlier in Manila, in the Philippines, Carney said any trade agreement with Washington must leave Canada with a viable auto industry.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.242705+08:00",
+          "content_sha256": "c5a12d8585f316c0c0279768d8116cbe104490a876e7e386a468936c628f7192",
+          "excerpt": "A day earlier in Manila, in the Philippines, Carney said any trade agreement with Washington must leave Canada with a viable auto industry.",
+          "sentence_hash": "9370cdd56707127205a48e91799ca6a4c93185f57cbf84b4fe7493774a642420",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Trump has repeatedly pushed automakers to move production to the US from Canada.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.242755+08:00",
+          "content_sha256": "c5a12d8585f316c0c0279768d8116cbe104490a876e7e386a468936c628f7192",
+          "excerpt": "Trump has repeatedly pushed automakers to move production to the US from Canada.",
+          "sentence_hash": "acda1458e41381be1090df84270276e68e071fe6082177c3e8e3b1aaba7770c3",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "trump",
+        "donald trump",
+        "us",
+        "mexico",
+        "january",
+        "cambodia",
+        "stellantis",
+        "under",
+        "ford",
+        "philippines",
+        "japanese",
+        "there",
+        "mark carney",
+        "manila",
+        "carney",
+        "european",
+        "monday",
+        "xi jinping",
+        "china",
+        "the detroit three",
+        "washington",
+        "general motors",
+        "north american",
+        "ontario",
+        "chinese",
+        "shenzhen",
+        "doug ford",
+        "asked",
+        "but",
+        "canadian",
+        "canada"
+      ],
+      "numbers": [
+        "6.1%",
+        "100%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9bfc2235fe3ab9f29b0e3585",
+      "title": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374575/why-china-betting-home-court-diplomacy-shenzhen-apec-gathering",
+      "publisher": "SCMP",
+      "summary": "In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders’ meeting in Shanghai. The world, he said, was at “a crucial moment, a moment of great hope as well as imposing challenges”.\nThe summit was both a diplomatic debut and a strategic warm-up for China, marking its first major multilateral gathering of this scale.\nThe...",
+      "category": "国际",
+      "published_at": "2026-11-16T22:00:06+00:00",
+      "why_relevant": "APEC 主场外交分析",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders’ meeting in Shanghai.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.243144+08:00",
+          "content_sha256": "3be182e58516874e737f552e14502a7d5bcab25c15fe58f2bfef9a92e5f3e911",
+          "excerpt": "In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders’ meeting in Shanghai.",
+          "sentence_hash": "07ee27edb2b822e107386a5038bdb22e666bb8389ac062d94728164cd0626d95",
+          "anchors": [
+            "October 20",
+            "September 11"
+          ]
+        }
+      ],
+      "entities": [
+        "apec",
+        "jiang zemin",
+        "world trade organization",
+        "shanghai",
+        "in october",
+        "china",
+        "asia",
+        "september",
+        "chinese",
+        "pacific economic cooperation"
+      ],
+      "numbers": [],
+      "dates": [
+        "September 11",
+        "October 20"
+      ],
+      "unknowns": [
+        "正文未抓到"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 12
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b90cfeb74f3853f052914b01",
+      "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Iran-backed Houthis are gaining ground and their advance could have dangerous consequences, writes the BBC's security correspondent.",
+      "category": "国际",
+      "published_at": "2026-11-16T21:40:07+00:00",
+      "why_relevant": "红海航运风险提示",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Houthi rebel advance in Yemen may further destabilise global economy - Published The Iran-backed Houthi rebels who seized much of Yemen in 2014 have now forced the army of the internationally recognised government to withdraw from the Red Sea coast in order to defend their interi",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.245353+08:00",
+          "content_sha256": "cadc2c581d4db59393781d5702d481ecb43593728863069f83b46a67312eb272",
+          "excerpt": "Houthi rebel advance in Yemen may further destabilise global economy - Published The Iran-backed Houthi rebels who seized much of Yemen in 2014 have now forced the army of the internationally recognised government to withdraw from the Red Sea coast in order to defend their interi",
+          "sentence_hash": "7cfa22b3a7fc8b18dec444276ec46b96bd2b8b0c10593003873110c475d9e77e",
+          "anchors": [
+            "their"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Yemen, a mountainous, heavily armed, intensely tribal and largely impoverished nation, sits at the far south-west corner of the Arabian Peninsula.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.245397+08:00",
+          "content_sha256": "cadc2c581d4db59393781d5702d481ecb43593728863069f83b46a67312eb272",
+          "excerpt": "Yemen, a mountainous, heavily armed, intensely tribal and largely impoverished nation, sits at the far south-west corner of the Arabian Peninsula.",
+          "sentence_hash": "3c0d0b8323d0dc08c94ae190bdb1930cd32e6c7df11f0138076384a3c581cf8b",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The country has two coasts: One faces the Indian Ocean on which sits the once-prosperous trading port of Aden, the other faces the Red Sea and, most importantly, the narrow chokepoint at the southern exit of that waterway - the so-called Bab al-Mandab Strait or, in English, The G",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.245442+08:00",
+          "content_sha256": "cadc2c581d4db59393781d5702d481ecb43593728863069f83b46a67312eb272",
+          "excerpt": "The country has two coasts: One faces the Indian Ocean on which sits the once-prosperous trading port of Aden, the other faces the Red Sea and, most importantly, the narrow chokepoint at the southern exit of that waterway - the so-called Bab al-Mandab Strait or, in English, The G",
+          "sentence_hash": "e52dcfb596d710d240d0c51beb845caa2fb8ac729694d8ec3a1717557ee1bda1",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Whoever controls that strait can threaten any or all maritime traffic passing through from both the Mediterranean and the Red Sea to the Indian Ocean.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.245474+08:00",
+          "content_sha256": "cadc2c581d4db59393781d5702d481ecb43593728863069f83b46a67312eb272",
+          "excerpt": "Whoever controls that strait can threaten any or all maritime traffic passing through from both the Mediterranean and the Red Sea to the Indian Ocean.",
+          "sentence_hash": "ff4a7de7374e78fba797f6377b1f0a2f0eabf8f2f746f4b5627fd7fcba043a2c",
+          "anchors": [
+            "strait"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In normal times, it accounts for around 12% of global trade, with anywhere between 70 to 150 ships a day making the transit.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.245499+08:00",
+          "content_sha256": "cadc2c581d4db59393781d5702d481ecb43593728863069f83b46a67312eb272",
+          "excerpt": "In normal times, it accounts for around 12% of global trade, with anywhere between 70 to 150 ships a day making the transit.",
+          "sentence_hash": "03ba7b0a224bcff6eb374209af0c4bfa8dbd1580cd939e0b0f269a56b08e4b2a",
+          "anchors": [
+            "12%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Although the Houthis say they are no threat to maritime traffic, they are currently at war with Saudi Arabia, making it extremely hazardous for the Saudis to send their oil tankers past the now rebel-controlled coast.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.245538+08:00",
+          "content_sha256": "cadc2c581d4db59393781d5702d481ecb43593728863069f83b46a67312eb272",
+          "excerpt": "Although the Houthis say they are no threat to maritime traffic, they are currently at war with Saudi Arabia, making it extremely hazardous for the Saudis to send their oil tankers past the now rebel-controlled coast.",
+          "sentence_hash": "b48f577e71347679d8747dc4687a195098aeb2e413d5035d9c756b2fe5411d4c",
+          "anchors": [
+            "their",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "houthis",
+        "mediterranean",
+        "february",
+        "red sea",
+        "one",
+        "yemen",
+        "east",
+        "tears",
+        "plan",
+        "july",
+        "british ambassador",
+        "published\nthe iran",
+        "saudi arabia",
+        "arabian peninsula",
+        "yanbu",
+        "but",
+        "middle east association",
+        "hormuz",
+        "saudi",
+        "israel",
+        "tehran",
+        "us",
+        "english",
+        "aden",
+        "west pipeline",
+        "indian ocean",
+        "bab",
+        "instead",
+        "although",
+        "the gate",
+        "houthi",
+        "yemeni",
+        "their",
+        "iran",
+        "uk",
+        "the saudis",
+        "mandab strait",
+        "strait",
+        "islamic revolutionary guards corps",
+        "saudis",
+        "gulf",
+        "nicholas hopton",
+        "whoever"
+      ],
+      "numbers": [
+        "12%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 44
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_758d502666f1d89f2fd76e3f",
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "publisher": "GitHub Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.https://elementalsouls.github.io/Claude-BugHunter \nclaude-bughunter \n \n A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "红队技能库，值得留意",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.246861+08:00",
+          "content_sha256": "3d1e2bfc40f9bff111f1cc81b65e07bd8ea72a0dcd5e757ff39ab6f6ff8c3aa9",
+          "excerpt": "A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "sentence_hash": "d719928e5b4507cf970fe716ba8603eeb34e05add454897d0b5ddf8a615fe136",
+          "anchors": [
+            "bug",
+            "all",
+            "hunt",
+            "bug hunting"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.246897+08:00",
+          "content_sha256": "3d1e2bfc40f9bff111f1cc81b65e07bd8ea72a0dcd5e757ff39ab6f6ff8c3aa9",
+          "excerpt": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "sentence_hash": "31f52881b40ecfd7e5f516f3f7b80432516528e1ac67ceddffbb130192db3f08",
+          "anchors": [
+            "claude",
+            "hunter",
+            "bug",
+            "hunt"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.246948+08:00",
+          "content_sha256": "3d1e2bfc40f9bff111f1cc81b65e07bd8ea72a0dcd5e757ff39ab6f6ff8c3aa9",
+          "excerpt": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "sentence_hash": "b8cd10dd3498544fc5aa40e9e5dd8a0aa752b0d3275d8d48ed3bcd9583526ef7",
+          "anchors": [
+            "bug",
+            "all",
+            "hunt"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.246982+08:00",
+          "content_sha256": "3d1e2bfc40f9bff111f1cc81b65e07bd8ea72a0dcd5e757ff39ab6f6ff8c3aa9",
+          "excerpt": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "sentence_hash": "df83e2ae22720b5470bae27f0a7f5267d4387e69c0e1ce166bed80d209b582eb",
+          "anchors": [
+            "think"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.247015+08:00",
+          "content_sha256": "3d1e2bfc40f9bff111f1cc81b65e07bd8ea72a0dcd5e757ff39ab6f6ff8c3aa9",
+          "excerpt": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "sentence_hash": "7d1e0db437a9006a6ae1e7ea20413b4111f12ab7b8d01464e8621b24d2b8b2c1",
+          "anchors": [
+            "hunt",
+            "from"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-17T08:03:48.247072+08:00",
+          "content_sha256": "3d1e2bfc40f9bff111f1cc81b65e07bd8ea72a0dcd5e757ff39ab6f6ff8c3aa9",
+          "excerpt": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "sentence_hash": "eef2254a4df1d8bcdeaf56505a271c8aed475c5f39298fb328936350d29e277d",
+          "anchors": [
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "claude",
+        "hunt",
+        "hacker",
+        "hunter",
+        "open claude code",
+        "okta",
+        "vpn",
+        "one",
+        "hit",
+        "entra",
+        "oos",
+        "share",
+        "claude code",
+        "cve",
+        "four",
+        "point",
+        "both",
+        "sachin sharma",
+        "think",
+        "vrt",
+        "windows",
+        "gen",
+        "all",
+        "question gate",
+        "option",
+        "cli",
+        "ship",
+        "owasp",
+        "english",
+        "shell",
+        "juice shop",
+        "bug hunting",
+        "mcp",
+        "security research",
+        "from",
+        "built",
+        "power",
+        "iam",
+        "install",
+        "center",
+        "pii",
+        "burp",
+        "bug",
+        "ssl",
+        "linux",
+        "dvwa"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 46
+      },
+      "evidence_complete": true
+    }
+  ]
+}

@@ -1,6 +1,80 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-16 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-17 08:07。
+
+## NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_95edb9eb8be8`
+
+## War Thunder Art Director Says The DLSS 5 Controversy Comes From Fan Mods Using “Ridiculous” Settings That Deliberately Mess With The Game’s Art Style For Views
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：Others, like industry veteran developer Adrian Chmielarz, hated it at first but came around and are now all-in.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_fadb19a87c85`
+
+## LoRAWeaver: Directional Adapter Routing in LoRA Representation Space
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：Computer Science > Artificial Intelligence [Submitted on 1 Sep 2026] Title:LoRAWeaver: Directional Adapter Routing in LoRA Representation Space View PDF HTML (experimental) Abstract:Large language models are expensive to update through full retraining.
+- 事件 ID：`evt_20261117_77062efc588d`
+
+## Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261117_a1ca34da8708`
+
+## The delicate balance in America’s AI chip war with China
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261117_9331d80e659a`
+
+## Nvidia Earnings Are Sideshow as Huang’s Ouster Looms Over Market
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next und
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_55682d189258`
+
+## California files lawsuit against OpenAI alleging lack of proper safeguards
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：California files lawsuit against OpenAI alleging lack of proper safeguards Attorney General Rob Bonta says Hugging Face attack was ‘entirely predictable’ result of emphasis on rapid growth.
+- 事件 ID：`evt_20261117_7b96383a226e`
+
+## Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - Published Russia says it has recorded the biggest Ukrainian drone attack since the war began, in which a landmark bridge linking Russia to occupied Crimea sustained minor damage and several oil r
+- 事件 ID：`evt_20261117_ea3ff0c4bed6`
+
+## Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO - Published Nvidia has dismissed a campaign calling for Jensen Huang to be handed back his job as allies, including US President Donald Trump, backed the effort.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_8b3c60a4db66`
+
+## Canada could work with Chinese automakers if US trade talks fail, says Carney
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to preserve an integrated North American auto industry.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_eea053dd7280`
+
+## Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders’ meeting in Shanghai.
+- 仍待观察：正文未抓到
+- 事件 ID：`evt_20261117_b779858d0c47`
+
+## Houthi rebel advance in Yemen may further destabilise global economy
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：Houthi rebel advance in Yemen may further destabilise global economy - Published The Iran-backed Houthi rebels who seized much of Yemen in 2014 have now forced the army of the internationally recognised government to withdraw from the Red Sea coast in order to defend their interi
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_f43956a3ce57`
+
+## elementalsouls/Claude-BugHunter
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
+- 最新事实：A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_2f6de56d2658`
 
 ## Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says
 - 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
@@ -1952,66 +2026,4 @@
 - 最新事实：Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261019_4af6502804a0`
-
-## Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：16th October 2026 We think "did a human read the code?" is an imprecise proxy for "what could go wrong with this change, and which check—automated or human—is the right one to catch it?" Asking that question also changed when review happens.
-- 事件 ID：`evt_20261017_d81557c979da`
-
-## NVIDIA’s Tesla V100 Picks Up In Popularity And Price Thanks To AI Boom, PCIe & SXM2 Versions With 32GB VRAM Available To Purchase, But At A $200 Premium
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：The RTX 5090 has pretty much disappeared from NVIDIA’s marketplace, and with the RTX 6000 PRO too pricey to be found in every LLM rig, the situation has presented an excellent opportunity for the Tesla V100 to stage a solid comeback.
-- 事件 ID：`evt_20261017_0acf8b0dfe12`
-
-## Big Tech stocks suffer biggest weekly drop since ‘liberation day’
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261017_44df2dd92b56`
-
-## Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：The Nasdaq extended losses from earlier in the week, hammered by concerns that debt-laden AI infrastructure companies may not turn profits in time to repay debts, particularly with borrowing costs expected to rise.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_19ebefee27ce`
-
-## Meta employees say Lula’s accounts restricted in Brazil election: Report
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：Meta employees say Lula’s accounts restricted in Brazil election: Report The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro’s profile and his WhatsApp channel.
-- 事件 ID：`evt_20261017_702f13478402`
-
-## China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：Advertisement China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’ Latest flare-up suggests danger of trade war between two of the world’s three biggest economies has far from de-escalated 3-MIN READ3-MIN 3 Listen Finbarr Berminghamin Brussel
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_a1637d92caf7`
-
-## Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC - Published Italy's defence minister has said it is a "complete mistake, a major mistake" for the US to limit access to satellite systems and intelligence used by Ukraine to defend itself against
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_503aa93bef47`
-
-## Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：Ukraine's Zelenskiy blasts US-Russian diesel deal, welcomes bigger European role in peace process&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261017_9ab8cdb3bfcc`
-
-## Trump denies limiting Ukraine access to Starlink network
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：Trump denies limiting Ukraine access to Starlink network - Published US President Donald Trump has denied limiting Ukraine's access to Starlink's sister internet network Starshield after it restricted drone speed, hampering Kyiv's ability to protect itself from Russian attacks.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_0606567eedd3`
-
-## K-Dense-AI/scientific-agent-skills
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：New: K-Dense BYOK — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_b8621738d1b8`
-
-## Live updates: Bitcoin dips to $81,000 as stocks slide, VIX soars ahead of Black Monday anniversary
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-17
-- 最新事实：VIX soars, Nasdaq sheds 2% ahead of 39-year anniversary of 1987's Black Monday market crash Surely just a coincidence, but this coming Monday marks the 39-year anniversary of the Black Monday, October 19, 1987, stock market crash, when the S&P 500 plunged more than 20%.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_d6f23b420111`
 
