@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T00:07:35.505407+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-18.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-17.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_057e8e9cd109fa4e28c6b2bd",
+      "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+      "category": "国际",
+      "published_at": "2026-11-17T23:03:39+00:00",
+      "why_relevant": "英伟达财报与黄仁勋离职",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Nvidia reports bumper results as firm says it's not reinstating Huang - Published Nvidia's quarterly sales doubled to top $100bn for the first time as the company insisted it is not reinstating ousted founder Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.558940+08:00",
+          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
+          "excerpt": "Nvidia reports bumper results as firm says it's not reinstating Huang - Published Nvidia's quarterly sales doubled to top $100bn for the first time as the company insisted it is not reinstating ousted founder Jensen Huang.",
+          "sentence_hash": "50672e087c546097b8e18860723c28ece816aeed83a667b8a05945ebd7a6a7ba",
+          "anchors": [
+            "$100",
+            "she",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In the company's first results since Huang's dramatic exit, interim chief executive Collette Kress said it is \"business as usual\" and told investors: \"We've got this.\" The company's quarterly sales doubled from a year earlier, reaching $115.8bn (Â£86.9bn), with shares in the comp",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.558967+08:00",
+          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
+          "excerpt": "In the company's first results since Huang's dramatic exit, interim chief executive Collette Kress said it is \"business as usual\" and told investors: \"We've got this.\" The company's quarterly sales doubled from a year earlier, reaching $115.8bn (Â£86.9bn), with shares in the comp",
+          "sentence_hash": "8980d5f539a6c7ad248c66db79bb40673edf9b32b47ea62332d1ec20954ee420",
+          "anchors": [
+            "our",
+            "earlier",
+            "ai",
+            "his",
+            "5%",
+            "$115.8"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Earlier on Tuesday, Huang said he would be \"honoured\" to return and lead Nvidia, having quit following two alleged extramarital affairs, including one with a possible spy for China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.558984+08:00",
+          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
+          "excerpt": "Earlier on Tuesday, Huang said he would be \"honoured\" to return and lead Nvidia, having quit following two alleged extramarital affairs, including one with a possible spy for China.",
+          "sentence_hash": "429fde250dc56cc6d1689a16049643670fc39ab0879cf7b40ec8a25dace8fb6d",
+          "anchors": [
+            "ai",
+            "our",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "\"The board does not intend to reinstate him,\" Nvidia chair Harvey Jones said during a Tuesday call with financial analysts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.558996+08:00",
+          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
+          "excerpt": "\"The board does not intend to reinstate him,\" Nvidia chair Harvey Jones said during a Tuesday call with financial analysts.",
+          "sentence_hash": "491824c82927e4e6f513e155e69dff9b192c7bdf94a5dcd311abf2cb3942c5b4",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The company's profits also doubled from a year ago.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559003+08:00",
+          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
+          "excerpt": "The company's profits also doubled from a year ago.",
+          "sentence_hash": "06999713301c72c1bda6f9d0db462b4d42e724020fb08132eb41b0eccb38ffca",
+          "anchors": [
+            "its"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "For the quarter, which covered the three months to October 25, profit hit $65bn.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559012+08:00",
+          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
+          "excerpt": "For the quarter, which covered the three months to October 25, profit hit $65bn.",
+          "sentence_hash": "28d2fb0e80d6ac35485fc9dfaa2bddeb1cdb4e2b80c49f4560679407d7a76429",
+          "anchors": [
+            "$65",
+            "October 25"
+          ]
+        }
+      ],
+      "entities": [
+        "jensen huang",
+        "collette kress",
+        "our",
+        "capital",
+        "given",
+        "hathorn",
+        "jones",
+        "going",
+        "its",
+        "daniela hathorn",
+        "published\nnvidia",
+        "for",
+        "tuesday",
+        "huang",
+        "despite",
+        "earlier",
+        "kress",
+        "she",
+        "ai",
+        "china",
+        "his",
+        "october",
+        "harvey jones",
+        "nvidia"
+      ],
+      "numbers": [
+        "13%",
+        "100%",
+        "$100",
+        "$65",
+        "5%",
+        "$115.8",
+        "$107"
+      ],
+      "dates": [
+        "October 25"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 32
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "source_artifact_date": "2026-11-18",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_ee0ac9d656f0392e5fc3dfab",
+      "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
+      "publisher": "The Guardian",
+      "summary": "High-stakes hearing comes in wake of resignation from Nvidia after alleged affair with suspected Chinese spyNvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.Tim Teter, Nvidia’s general counsel, has also agreed to appear for a closed-door transcribed interview the following day, 2 December. Continue reading...",
+      "category": "国际",
+      "published_at": "2026-11-17T17:58:05+00:00",
+      "why_relevant": "黄仁勋国会作证，重大事件",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559473+08:00",
+          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
+          "excerpt": "Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.",
+          "sentence_hash": "a98629a8d512deab9fa7ae0ae0d4eb18efbc8aeb8dc535c083979642a0932782",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "“We look forward to hearing from Jensen Huang and Tim Teter on their roles in a potential breach of our national security,” Congressmen Brian Mast, John Moolenaar and Rick Crawford, who chair the committees, said in a press release.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559502+08:00",
+          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
+          "excerpt": "“We look forward to hearing from Jensen Huang and Tim Teter on their roles in a potential breach of our national security,” Congressmen Brian Mast, John Moolenaar and Rick Crawford, who chair the committees, said in a press release.",
+          "sentence_hash": "329ba00fc6c185ceb8ed5130a27e0492bfa83e5af44cf7d084836fdda4835084",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "“The American people need answers on Mr Huang and Nvidia’s role in allowing dangerous [People’s Republic of China] actors to access our most advanced chips, as well as the role of a potential Chinese intelligence asset in this scandal.” The three congressmen chair the foreign aff",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559528+08:00",
+          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
+          "excerpt": "“The American people need answers on Mr Huang and Nvidia’s role in allowing dangerous [People’s Republic of China] actors to access our most advanced chips, as well as the role of a potential Chinese intelligence asset in this scandal.” The three congressmen chair the foreign aff",
+          "sentence_hash": "6b23387fe047e5ad9f003f3af71a7a601ff1484592bd26917f85b2ad1f6d51d7",
+          "anchors": [
+            "people",
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Huang stepped down as Nvidia’s CEO after allegations of extramarital relationships with the suspected Chinese spy Alice Huang and two Nvidia employees surfaced.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559557+08:00",
+          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
+          "excerpt": "Huang stepped down as Nvidia’s CEO after allegations of extramarital relationships with the suspected Chinese spy Alice Huang and two Nvidia employees surfaced.",
+          "sentence_hash": "132964de8eba5a0c5f10fff3bf411bda5507d8b0786f19e0cb2201a02e3ff000",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Singapore-based cloud computing company has bought nearly $5bn in AI chips and advanced hardware.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559573+08:00",
+          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
+          "excerpt": "The Singapore-based cloud computing company has bought nearly $5bn in AI chips and advanced hardware.",
+          "sentence_hash": "363f9bf2ae485bd3712823972ff6d486f013f58750329eed92621371c9f2098a",
+          "anchors": [
+            "$5"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The company said Alice Huang stepped down in 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559581+08:00",
+          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
+          "excerpt": "The company said Alice Huang stepped down in 2025.",
+          "sentence_hash": "188205ccfdf73c7aa5050433b4900d9fc0698e2b609b399f446328bddfce75b8",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "tim teter",
+        "jensen huang",
+        "department",
+        "commerce",
+        "chinese",
+        "thursday",
+        "house",
+        "todd blanche",
+        "mr huang",
+        "alice huang",
+        "huang le",
+        "john moolenaar",
+        "silicon valley",
+        "ai",
+        "november",
+        "the trump",
+        "megaspeed international",
+        "nvidia",
+        "chinese communist",
+        "representatives",
+        "the american",
+        "on friday",
+        "howard lutnick",
+        "justice",
+        "congressmen brian mast",
+        "december",
+        "huang",
+        "ceo",
+        "the singapore",
+        "us",
+        "rick crawford",
+        "republic",
+        "trump",
+        "people",
+        "china",
+        "elon musk",
+        "megaspeed",
+        "malaysia"
+      ],
+      "numbers": [
+        "$5",
+        "$12"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "source_artifact_date": "2026-11-18",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_4cbc1f75e414e3946cddd675",
+      "title": "Nvidia results beat expectations, as ousted CEO Huang told no way back",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374805/nvidia-results-beat-expectations-ousted-ceo-huang-told-no-way-back",
+      "publisher": "SCMP",
+      "summary": "US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.\nThe results, which beat expectations, came hours after Huang said he wanted his job back in the latest twist for the company at the centre of an AI boom that has propelled markets to record highs and boosted global economic growth.\nHuang, a leading promoter of AI, stepped down last week...",
+      "category": "国际",
+      "published_at": "2026-11-17T22:47:11+00:00",
+      "why_relevant": "英伟达财报超预期",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559765+08:00",
+          "content_sha256": "e7097c20d0f567986f22cf960f44140a55def070a64e8b5b0aa50732a771e4a1",
+          "excerpt": "US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.",
+          "sentence_hash": "0dfcbd3bf64e7067123bbea91bf92cb1bcf6e235290aaead81d339f2a7a46aac",
+          "anchors": [
+            "$115 billion",
+            "us",
+            "115 billion"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The results, which beat expectations, came hours after Huang said he wanted his job back in the latest twist for the company at the centre of an AI boom that has propelled markets to record highs and boosted global economic growth.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.559777+08:00",
+          "content_sha256": "e7097c20d0f567986f22cf960f44140a55def070a64e8b5b0aa50732a771e4a1",
+          "excerpt": "The results, which beat expectations, came hours after Huang said he wanted his job back in the latest twist for the company at the centre of an AI boom that has propelled markets to record highs and boosted global economic growth.",
+          "sentence_hash": "c12e29cad7ac4e05f8bbb693d67d773e6f4f905106f606364af926d75d5d7980",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "tuesday",
+        "jensen huang",
+        "huang",
+        "ceo",
+        "us",
+        "chinese",
+        "ai",
+        "nvidia"
+      ],
+      "numbers": [
+        "$115 billion",
+        "115 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 2,
+        "anchor_count": 10
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "source_artifact_date": "2026-11-18",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_d7ab905dae1777df53e0eb23",
+      "title": "Nvidia forms national security committee after Huang affair",
+      "url": "https://www.dw.com/en/nvidia-forms-national-security-committee-after-huang-affair/a-79970447?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Nvidia has created a board-level committee for national security and export control. This follows the resignation of CEO Jensen Huang over extramarital affairs, allegedly including one with a Chinese intelligence asset.",
+      "category": "国际",
+      "published_at": "2026-11-17T14:53:00+00:00",
+      "why_relevant": "英伟达成立国安委员会",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Nvidia forms national security committee after Huang affair November 17, 2026 Nvidia on Tuesday said it had created a board-level national security and export-control committee.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560214+08:00",
+          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
+          "excerpt": "Nvidia forms national security committee after Huang affair November 17, 2026 Nvidia on Tuesday said it had created a board-level national security and export-control committee.",
+          "sentence_hash": "4c67472d69716f52e7a208a87bd6b2aed16bb09ee2b6a77d9ffc1cea80fbb7b6",
+          "anchors": [
+            "ai",
+            "November 17",
+            "national security"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This follows the scandal surrounding former CEO Jensen Huang, who resigned last week over extramarital affairs, including one with a woman suspected of spying for China and working to help ensure higher quality chips crucial to AI development made it to the Chinese market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560231+08:00",
+          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
+          "excerpt": "This follows the scandal surrounding former CEO Jensen Huang, who resigned last week over extramarital affairs, including one with a woman suspected of spying for China and working to help ensure higher quality chips crucial to AI development made it to the Chinese market.",
+          "sentence_hash": "f37fa1221c97138e73cd478d726e3cac67a5e96a125c6152973e3f8e5512d604",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The events have heightened oversight of the US tech giant and its importance to national security, as well as wiping several hundred billion dollars off the stock market valuation of what investors treat as the world's most valuable company in the space of a month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560248+08:00",
+          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
+          "excerpt": "The events have heightened oversight of the US tech giant and its importance to national security, as well as wiping several hundred billion dollars off the stock market valuation of what investors treat as the world's most valuable company in the space of a month.",
+          "sentence_hash": "fc85528e0facb61ed7540ddb0e93153123906e3b0adfe29138e903b175006d70",
+          "anchors": [
+            "national security"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Since Huang's resignation, some investors — including Elon Musk and Donald Trump — have voiced concern that his departure could leave Nvidia and America's AI sector in peril and are now calling for his return.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560264+08:00",
+          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
+          "excerpt": "Since Huang's resignation, some investors — including Elon Musk and Donald Trump — have voiced concern that his departure could leave Nvidia and America's AI sector in peril and are now calling for his return.",
+          "sentence_hash": "dbee984479913d81fc3fcc190c00b59e88ab0f4b7c97e1bb1024ca4a6e386f0d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Huang on Tuesday, expressed regret for \"serious mistakes\" in his personal life before declaring he would be \"honored\" to return if the company's board of directors thought that was \"in the best interest of our shareholders, our employees, the company, and America.\" What are Nvidi",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560282+08:00",
+          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
+          "excerpt": "Huang on Tuesday, expressed regret for \"serious mistakes\" in his personal life before declaring he would be \"honored\" to return if the company's board of directors thought that was \"in the best interest of our shareholders, our employees, the company, and America.\" What are Nvidi",
+          "sentence_hash": "eba0185ea2918c92f5183b927eff4afa592c08ef8a9415f6dd3ed23611c18dd2",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Suzanne Nora Johnson, a former vice chair at Goldman Sachs, will chair the committee, joined by fellow directors Stephen Neal, a former CEO of a law firm, John Dabiri, a professor of aeronautics and mechanical engineering at the California Institute of Technology (Caltech).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560308+08:00",
+          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
+          "excerpt": "Suzanne Nora Johnson, a former vice chair at Goldman Sachs, will chair the committee, joined by fellow directors Stephen Neal, a former CEO of a law firm, John Dabiri, a professor of aeronautics and mechanical engineering at the California Institute of Technology (Caltech).",
+          "sentence_hash": "bfef1819b6a90bac32e5bf2102d26b5665217ab458c9ece0dc61a351661136f2",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "jensen huang",
+        "suzanne nora johnson",
+        "national security team",
+        "technology",
+        "president donald trump",
+        "chinese",
+        "california institute",
+        "export control oversight committee",
+        "national security",
+        "caltech",
+        "tuesday",
+        "donald trump",
+        "john dabiri",
+        "global trade compliance team",
+        "huang",
+        "ceo",
+        "stephen neal",
+        "board chair harvey jones",
+        "us",
+        "america",
+        "goldman sachs",
+        "november",
+        "ai",
+        "china",
+        "elon musk",
+        "since huang",
+        "nvidia"
+      ],
+      "numbers": [
+        "28%"
+      ],
+      "dates": [
+        "November 17"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "source_artifact_date": "2026-11-18",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_43bd36feb47d9d7080c4a23f",
+      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+      "category": "国际",
+      "published_at": "2026-11-17T21:24:35+00:00",
+      "why_relevant": "克里米亚大桥遇袭，地缘重要",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - Published Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560835+08:00",
+          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
+          "excerpt": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - Published Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making",
+          "sentence_hash": "55caee86505c173fa66305c84de9266b01b6d9790fb74885a33f43a4149c2783",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Meanwhile in Kyiv, Mayor Vitaliy Klitschko said traffic had partially resumed on the Pivnichnyi (Northern) and Pivdennyi (Southern) bridges - key crossings over the Dnipro River - after they had been closed following Russian strikes overnight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560859+08:00",
+          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
+          "excerpt": "Meanwhile in Kyiv, Mayor Vitaliy Klitschko said traffic had partially resumed on the Pivnichnyi (Northern) and Pivdennyi (Southern) bridges - key crossings over the Dnipro River - after they had been closed following Russian strikes overnight.",
+          "sentence_hash": "12bdcdae0079521ac62d475d836bcef4226bd519756722baab273b8bffbe9bb4",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560872+08:00",
+          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
+          "excerpt": "Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
+          "sentence_hash": "60f0a5c4b900c6ed315b8cb920957e2313b260ed2dce8039cc7c488aa7dd569c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "While Kyiv has been trying to increase the cost to Russia of waging war economically, by hitting oil refineries and depots, striking the bridge is an attempt to increase the political cost on Russian President Vladimir Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560888+08:00",
+          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
+          "excerpt": "While Kyiv has been trying to increase the cost to Russia of waging war economically, by hitting oil refineries and depots, striking the bridge is an attempt to increase the political cost on Russian President Vladimir Putin.",
+          "sentence_hash": "906f0cf2def6ba3d2399fc73158efca9bc2ffd38dd151ad7026c8ed872df1942",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "This could cloud his moment back in the spotlight.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560899+08:00",
+          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
+          "excerpt": "This could cloud his moment back in the spotlight.",
+          "sentence_hash": "67c215c642e2793504da8b37e87c8a12b54a4e480170babc23316aa9c1dd7bc8",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The Crimean Bridge was built by Russia after it invaded and illegally annexed Ukraine's southern peninsula in 2014.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-18T08:03:29.560908+08:00",
+          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
+          "excerpt": "The Crimean Bridge was built by Russia after it invaded and illegally annexed Ukraine's southern peninsula in 2014.",
+          "sentence_hash": "5a6422d55c7dfc99ad73f8e381062680a4631c00de0bac34dc5f60a1481f9522",
+          "anchors": [
+            "us",
+            "southern"
+          ]
+        }
+      ],
+      "entities": [
+        "zelensky",
+        "putin",
+        "pivdennyi",
+        "southern",
+        "andrii",
+        "russian president vladimir putin",
+        "video",
+        "images",
+        "russians",
+        "moscow",
+        "ukraine",
+        "dnipro river",
+        "northern",
+        "meanwhile",
+        "president volodymyr zelensky",
+        "the crimean bridge",
+        "in ukraine",
+        "pivnichnyi",
+        "russian",
+        "bbc",
+        "kyiv",
+        "the kremlin",
+        "crimea",
+        "ukrainian",
+        "crimean bridge",
+        "russia",
+        "while kyiv",
+        "us",
+        "mayor vitaliy klitschko",
+        "some ukrainians",
+        "china",
+        "his",
+        "published\nukraine",
+        "arkady rotenberg"
+      ],
+      "numbers": [
+        "$3.6"
+      ],
+      "dates": [
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "source_artifact_date": "2026-11-18",
+      "freshness_label": "today"
+    }
+  ]
+}

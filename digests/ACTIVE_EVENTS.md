@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-17 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-18 08:07。
+
+## Nvidia reports bumper results as firm says it's not reinstating Huang
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：Nvidia reports bumper results as firm says it's not reinstating Huang - Published Nvidia's quarterly sales doubled to top $100bn for the first time as the company insisted it is not reinstating ousted founder Jensen Huang.
+- 事件 ID：`evt_20261118_94b23c45e7cb`
+
+## Jensen Huang to testify before Congress on ‘potential breach of national security’
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261118_4425f00e8197`
+
+## Nvidia facing SEC probe after Huang's resignation, WSJ reports
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261118_3dccbc34f826`
+
+## Nvidia results beat expectations, as ousted CEO Huang told no way back
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261118_cba0102e0a1e`
+
+## Nvidia forms national security committee after Huang affair
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：Nvidia forms national security committee after Huang affair November 17, 2026 Nvidia on Tuesday said it had created a board-level national security and export-control committee.
+- 事件 ID：`evt_20261118_9ce71b5c9c4b`
+
+## US strikes Qeshm Island after Iran targets American base in Bahrain
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261118_ad7fcace77d3`
+
+## Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261118_4a1b18933d16`
+
+## Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - Published Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an "unprecedented operation" weeks in the making
+- 事件 ID：`evt_20261118_efd667f19a11`
+
+## mvanhorn/last30days-skill
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：English | Français | Deutsch | Español | Português (Brasil) | 日本語 | 简体中文 | العربية | فارسی | Türkçe An AI agent-led search engine scored by upvotes, likes, and real money - not editors.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261118_76c4821203e5`
+
+## NVIDIA/SkillEvaluator
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：📺 Livestream: Ask the Experts: Evaluating Agent Skills SkillEvaluator checks AI agent skills and plugins, and measures a skill's effect on task results: start with quality checks, then compare runs with and without a skill.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261118_cf12a83f67fe`
+
+## google-research/paper-orchestra
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：PaperOrchestra is a multi-agent framework for automated AI research paper writing.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261118_98ae6c297658`
+
+## Wall Street's fear gauge is surging again and this time it's not just about AI jitters
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：Faced with a barrage of headlines from nationwide tech outages to Nvidia earnings and Anthropic's initial public offering, traders on Tuesday piled into protective put options on the S&P 500 Index at a rate that suggests fear beyond just an AI-specific correction.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261118_644c8bbb6f89`
+
+## DeanChensj/jiangshan-map
+- 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
+- 最新事实：English · 简体中文 (Chinese) · 繁體中文 (Traditional Chinese) · 日本語 (Japanese) An Interactive Historical Atlas of China from the Warring States (403 BCE) to the Present — Scrub Through Time, Trace Ancient Cities, and Walk in the Footsteps of History Play Live Demo (English UI) → https://
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261118_2db8e0b26a31`
 
 ## NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance
 - 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
