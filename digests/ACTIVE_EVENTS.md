@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-18 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-19 08:07。
+
+## Claude-maker Anthropic poised for $1.4tn stock market debut
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Claude-maker Anthropic poised for $1.4tn stock market debut - Published Anthropic is poised to hit a value of at least $1.4 trillion (Â£1.1 trillion) when it debuts on the public stock market.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_652921947ad0`
+
+## Trump shakes hands with Putin and Xi ahead of historic talks in China
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：The US president was greeted off his plane by the Chinese leader as he arrived in Shenzhen for a summit of Asia-Pacific leaders, which will culminate in a closely-watched meeting between the pair and the Russian president.
+- 事件 ID：`evt_20261119_40e958c6a4a1`
+
+## Anthropic reportedly prices IPO at $83 a share, above projected range
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_77116b64fea1`
+
+## Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Anthropic priced its IPO at $83 per share on Wednesday, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_73faa9868ff2`
+
+## Xi-Trump ties tested as calls grow in Washington for tougher China policy
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261119_776027f9896f`
+
+## Israeli military launches rare ground operation in Gaza beyond Yellow Line
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：The Israeli military said the "targeted" operation aimed to dismantle a "terror tunnel" west of the so-called Yellow Line, which marks the more than 60% of Gaza's territory occupied by Israel.
+- 事件 ID：`evt_20261119_7971a6d03b7e`
+
+## Myanmar faces historic genocide verdict at UN court over Rohingya massacres
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Myanmar faces historic genocide verdict at UN court over Rohingya massacres - Published When the judges of the International Court of Justice read out their verdict in the seven-year-old genocide case filed by The Gambia against Myanmar on Thursday, they could make history.
+- 事件 ID：`evt_20261119_0aa624fe9da3`
+
+## google-labs-code/stitch-skills
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_ef7ade4a0548`
+
+## Running the full server-side Datasette Python app in the browser with service workers and Pyodide
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Running the full server-side Datasette Python app in the browser with service workers and Pyodide 17th November 2026 Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide.
+- 事件 ID：`evt_20261119_d70018b02f19`
+
+## NVIDIA RTX Spark Compact Desktops Out Now
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_148b10b249e5`
+
+## Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Most investors don't think as much about "shorting" debt, but there will be a way through exchange-traded funds to profit from widening credit default swap spreads of top AI companies.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_5456054cb7b5`
+
+## Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Federal Reserve officials expressed confidence in October that further interest rate increases will be needed to stem inflation, though they decided to hold off while gathering more information, according to meeting minutes released Wednesday.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_a201db0746a6`
+
+## Anthony Albanese defies critics for Apec summit photo with Vladimir Putin
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
+- 最新事实：Anthony Albanese has appeared in a leaders’ photo with Vladimir Putin at the Apec summit in China, despite Australia’s Ukrainian community urging the prime minister to protest against Russia’s war.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_e61cc7b24ea8`
 
 ## Nvidia reports bumper results as firm says it's not reinstating Huang
 - 状态：更新中；首见 2026-11-18；最近更新 2026-11-18
@@ -2041,61 +2114,4 @@
 - 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
 - 最新事实：CFTC sets agenda for AI forum, exploring trading and agentic finance A Commodity Futures Trading Commission task force is scheduled for October 28 to talk about how the latest "super intelligence" technology may impact markets.
 - 事件 ID：`evt_20261021_c279f8b08e5c`
-
-## anthropics/claude-code
-- 状态：更新中；首见 2026-09-19；最近更新 2026-10-19
-- 最新事实：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260919_4a1060c7ac39`
-
-## Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump
-- 状态：更新中；首见 2026-10-17；最近更新 2026-10-19
-- 最新事实：Zelensky speaks to US envoys amid Trump spat after warning US not to side with Russia The Ukrainian president said ‘a lot depends on America’ and Ukraine was ready to work ‘constructively’ and ‘honestly’ with the US Ukraine’s Volodymyr Zelensky spoke to US envoys Steve Witkoff an
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261017_53267b6317e9`
-
-## Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs — plans to match native Nvidia GPU performance Radeon users finally get to enjoy more DLSS features.
-- 事件 ID：`evt_20261019_d617d8f99cf9`
-
-## RTX Spark Ignites Global Celebration as New Windows PCs Arrive
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261019_6b876c6bcea4`
-
-## Oil facilities hit in deadly overnight attack on St Petersburg
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：Oil facilities hit in deadly overnight attack on St Petersburg - Published At least one person has been killed in an overnight attack on St Petersburg that successfully targeted two of the city's oil facilities.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261019_02624e7bfb32`
-
-## Trump says suspension of Russia sanctions is to keep peace negotiations going
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：Trump says suspension of Russia sanctions is to keep peace negotiations going - Published US President Donald Trump has said his decision to suspend several Russian sanctions is an effort to keep Moscow at the negotiating table.
-- 事件 ID：`evt_20261019_b8502025bcdf`
-
-## anthropics/claude-plugins-official
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：A curated directory of high-quality plugins for Claude Code.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261019_f4c63011ebdb`
-
-## Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261019_0fa06e68c5ba`
-
-## Macron condemns violence after riots lead to looting and mass arrests
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：Published On 18 Oct 2026
-- 事件 ID：`evt_20261019_930d4d87baff`
-
-## Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash
-- 状态：更新中；首见 2026-10-19；最近更新 2026-10-19
-- 最新事实：Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261019_4af6502804a0`
 

@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T00:07:35.505407+00:00",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T00:07:03.523961+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-19-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-18.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-19.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-17.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-18.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,280 +23,139 @@
   },
   "items": [
     {
-      "article_id": "a1_057e8e9cd109fa4e28c6b2bd",
-      "title": "Nvidia reports bumper results as firm says it's not reinstating Huang",
-      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_89ca3794bfcac767807470ed",
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+      "summary": "Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.",
       "category": "国际",
-      "published_at": "2026-11-17T23:03:39+00:00",
-      "why_relevant": "英伟达财报与黄仁勋离职",
+      "published_at": "2026-11-18T23:44:27+00:00",
+      "why_relevant": "1.4万亿估值 IPO，国际+AI 焦点",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Nvidia reports bumper results as firm says it's not reinstating Huang - Published Nvidia's quarterly sales doubled to top $100bn for the first time as the company insisted it is not reinstating ousted founder Jensen Huang.",
+          "text": "Claude-maker Anthropic poised for $1.4tn stock market debut - Published Anthropic is poised to hit a value of at least $1.4 trillion (Â£1.1 trillion) when it debuts on the public stock market.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.558940+08:00",
-          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
-          "excerpt": "Nvidia reports bumper results as firm says it's not reinstating Huang - Published Nvidia's quarterly sales doubled to top $100bn for the first time as the company insisted it is not reinstating ousted founder Jensen Huang.",
-          "sentence_hash": "50672e087c546097b8e18860723c28ece816aeed83a667b8a05945ebd7a6a7ba",
+          "captured_at": "2026-11-19T08:03:51.967911+08:00",
+          "content_sha256": "5bd79479bd3230a638cd2b925c0e3437ae7a323ff5353e7084910d5805e8348b",
+          "excerpt": "Claude-maker Anthropic poised for $1.4tn stock market debut - Published Anthropic is poised to hit a value of at least $1.4 trillion (Â£1.1 trillion) when it debuts on the public stock market.",
+          "sentence_hash": "e85a4680d5646e043625fc4733ca66a310eacc6d93fc5c1b60f7c641084b1332",
           "anchors": [
-            "$100",
-            "she",
-            "for"
+            "but",
+            "1.1 trillion",
+            "$1.4 trillion",
+            "1.4 trillion",
+            "$1.4"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "In the company's first results since Huang's dramatic exit, interim chief executive Collette Kress said it is \"business as usual\" and told investors: \"We've got this.\" The company's quarterly sales doubled from a year earlier, reaching $115.8bn (Â£86.9bn), with shares in the comp",
+          "text": "The artificial intelligence (AI) company behind the popular chatbot Claude said it will price shares at $83 each when it lists on Thursday on the Nasdaq, a tech-focused stock exchange based in New York.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.558967+08:00",
-          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
-          "excerpt": "In the company's first results since Huang's dramatic exit, interim chief executive Collette Kress said it is \"business as usual\" and told investors: \"We've got this.\" The company's quarterly sales doubled from a year earlier, reaching $115.8bn (Â£86.9bn), with shares in the comp",
-          "sentence_hash": "8980d5f539a6c7ad248c66db79bb40673edf9b32b47ea62332d1ec20954ee420",
+          "captured_at": "2026-11-19T08:03:51.967952+08:00",
+          "content_sha256": "5bd79479bd3230a638cd2b925c0e3437ae7a323ff5353e7084910d5805e8348b",
+          "excerpt": "The artificial intelligence (AI) company behind the popular chatbot Claude said it will price shares at $83 each when it lists on Thursday on the Nasdaq, a tech-focused stock exchange based in New York.",
+          "sentence_hash": "c3599c3a23a7f89957ee4295b460e4019549b759af4be019a805ac54159446f0",
           "anchors": [
-            "our",
-            "earlier",
+            "us",
+            "chat",
             "ai",
-            "his",
-            "5%",
-            "$115.8"
+            "$83 "
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Earlier on Tuesday, Huang said he would be \"honoured\" to return and lead Nvidia, having quit following two alleged extramarital affairs, including one with a possible spy for China.",
+          "text": "It will be the first US company focused exclusively on AI to go public, marking a crucial test for the fast-growing industry.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.558984+08:00",
-          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
-          "excerpt": "Earlier on Tuesday, Huang said he would be \"honoured\" to return and lead Nvidia, having quit following two alleged extramarital affairs, including one with a possible spy for China.",
-          "sentence_hash": "429fde250dc56cc6d1689a16049643670fc39ab0879cf7b40ec8a25dace8fb6d",
+          "captured_at": "2026-11-19T08:03:51.967983+08:00",
+          "content_sha256": "5bd79479bd3230a638cd2b925c0e3437ae7a323ff5353e7084910d5805e8348b",
+          "excerpt": "It will be the first US company focused exclusively on AI to go public, marking a crucial test for the fast-growing industry.",
+          "sentence_hash": "fd5d1421c01da035e5d864377abf91220818baf3eaabdb990482c4a9d04b76a7",
           "anchors": [
-            "ai",
-            "our",
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "\"The board does not intend to reinstate him,\" Nvidia chair Harvey Jones said during a Tuesday call with financial analysts.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.558996+08:00",
-          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
-          "excerpt": "\"The board does not intend to reinstate him,\" Nvidia chair Harvey Jones said during a Tuesday call with financial analysts.",
-          "sentence_hash": "491824c82927e4e6f513e155e69dff9b192c7bdf94a5dcd311abf2cb3942c5b4",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The company's profits also doubled from a year ago.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559003+08:00",
-          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
-          "excerpt": "The company's profits also doubled from a year ago.",
-          "sentence_hash": "06999713301c72c1bda6f9d0db462b4d42e724020fb08132eb41b0eccb38ffca",
-          "anchors": [
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "For the quarter, which covered the three months to October 25, profit hit $65bn.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559012+08:00",
-          "content_sha256": "21ce27c1631b46a0010f0758152be3e456af86e79798fe1ce189378bce0e3321",
-          "excerpt": "For the quarter, which covered the three months to October 25, profit hit $65bn.",
-          "sentence_hash": "28d2fb0e80d6ac35485fc9dfaa2bddeb1cdb4e2b80c49f4560679407d7a76429",
-          "anchors": [
-            "$65",
-            "October 25"
-          ]
-        }
-      ],
-      "entities": [
-        "jensen huang",
-        "collette kress",
-        "our",
-        "capital",
-        "given",
-        "hathorn",
-        "jones",
-        "going",
-        "its",
-        "daniela hathorn",
-        "published\nnvidia",
-        "for",
-        "tuesday",
-        "huang",
-        "despite",
-        "earlier",
-        "kress",
-        "she",
-        "ai",
-        "china",
-        "his",
-        "october",
-        "harvey jones",
-        "nvidia"
-      ],
-      "numbers": [
-        "13%",
-        "100%",
-        "$100",
-        "$65",
-        "5%",
-        "$115.8",
-        "$107"
-      ],
-      "dates": [
-        "October 25"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 32
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
-      "source_artifact_date": "2026-11-18",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_ee0ac9d656f0392e5fc3dfab",
-      "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
-      "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
-      "publisher": "The Guardian",
-      "summary": "High-stakes hearing comes in wake of resignation from Nvidia after alleged affair with suspected Chinese spyNvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.Tim Teter, Nvidia’s general counsel, has also agreed to appear for a closed-door transcribed interview the following day, 2 December. Continue reading...",
-      "category": "国际",
-      "published_at": "2026-11-17T17:58:05+00:00",
-      "why_relevant": "黄仁勋国会作证，重大事件",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559473+08:00",
-          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
-          "excerpt": "Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy.",
-          "sentence_hash": "a98629a8d512deab9fa7ae0ae0d4eb18efbc8aeb8dc535c083979642a0932782",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "“We look forward to hearing from Jensen Huang and Tim Teter on their roles in a potential breach of our national security,” Congressmen Brian Mast, John Moolenaar and Rick Crawford, who chair the committees, said in a press release.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559502+08:00",
-          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
-          "excerpt": "“We look forward to hearing from Jensen Huang and Tim Teter on their roles in a potential breach of our national security,” Congressmen Brian Mast, John Moolenaar and Rick Crawford, who chair the committees, said in a press release.",
-          "sentence_hash": "329ba00fc6c185ceb8ed5130a27e0492bfa83e5af44cf7d084836fdda4835084",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "“The American people need answers on Mr Huang and Nvidia’s role in allowing dangerous [People’s Republic of China] actors to access our most advanced chips, as well as the role of a potential Chinese intelligence asset in this scandal.” The three congressmen chair the foreign aff",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559528+08:00",
-          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
-          "excerpt": "“The American people need answers on Mr Huang and Nvidia’s role in allowing dangerous [People’s Republic of China] actors to access our most advanced chips, as well as the role of a potential Chinese intelligence asset in this scandal.” The three congressmen chair the foreign aff",
-          "sentence_hash": "6b23387fe047e5ad9f003f3af71a7a601ff1484592bd26917f85b2ad1f6d51d7",
-          "anchors": [
-            "people",
-            "ai",
             "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Huang stepped down as Nvidia’s CEO after allegations of extramarital relationships with the suspected Chinese spy Alice Huang and two Nvidia employees surfaced.",
+          "text": "The AI firm said earlier this month it would likely offer its shares for between $70 and $78 each, which valued the company at up to $1.3tn.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559557+08:00",
-          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
-          "excerpt": "Huang stepped down as Nvidia’s CEO after allegations of extramarital relationships with the suspected Chinese spy Alice Huang and two Nvidia employees surfaced.",
-          "sentence_hash": "132964de8eba5a0c5f10fff3bf411bda5507d8b0786f19e0cb2201a02e3ff000",
+          "captured_at": "2026-11-19T08:03:51.968009+08:00",
+          "content_sha256": "5bd79479bd3230a638cd2b925c0e3437ae7a323ff5353e7084910d5805e8348b",
+          "excerpt": "The AI firm said earlier this month it would likely offer its shares for between $70 and $78 each, which valued the company at up to $1.3tn.",
+          "sentence_hash": "07a0380b0defb207b0ae96586fb11c73e037437071be7599a6a96cbd0f992f18",
           "anchors": [
-            "us"
+            "$1.3",
+            "$70 ",
+            "$78 ",
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The Singapore-based cloud computing company has bought nearly $5bn in AI chips and advanced hardware.",
+          "text": "But demand for Anthropic's stock debut - commonly referred to as its initial public offering, or IPO - is very high, according to one early investor in the company who spoke with the BBC on condition of anonymity.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559573+08:00",
-          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
-          "excerpt": "The Singapore-based cloud computing company has bought nearly $5bn in AI chips and advanced hardware.",
-          "sentence_hash": "363f9bf2ae485bd3712823972ff6d486f013f58750329eed92621371c9f2098a",
+          "captured_at": "2026-11-19T08:03:51.968039+08:00",
+          "content_sha256": "5bd79479bd3230a638cd2b925c0e3437ae7a323ff5353e7084910d5805e8348b",
+          "excerpt": "But demand for Anthropic's stock debut - commonly referred to as its initial public offering, or IPO - is very high, according to one early investor in the company who spoke with the BBC on condition of anonymity.",
+          "sentence_hash": "fd9726b7a4d337f9e4958d6d1ada7f0485f9ed86394db95f368d3895ab64c01f",
           "anchors": [
-            "$5"
+            "but"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The company said Alice Huang stepped down in 2025.",
+          "text": "The person said shares were more than 10 times oversubscribed ahead of the public listing, meaning demand for Anthropic shares exceeded the number of shares available.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559581+08:00",
-          "content_sha256": "4b2e9ae8a1f57897718be31a714028ea63c41dcd323055a58c907dfd91e2c411",
-          "excerpt": "The company said Alice Huang stepped down in 2025.",
-          "sentence_hash": "188205ccfdf73c7aa5050433b4900d9fc0698e2b609b399f446328bddfce75b8",
+          "captured_at": "2026-11-19T08:03:51.968064+08:00",
+          "content_sha256": "5bd79479bd3230a638cd2b925c0e3437ae7a323ff5353e7084910d5805e8348b",
+          "excerpt": "The person said shares were more than 10 times oversubscribed ahead of the public listing, meaning demand for Anthropic shares exceeded the number of shares available.",
+          "sentence_hash": "cfbafc4d9b03d711c4122058512647790d3787eeb44d0e8a8a035049bd57dc61",
           "anchors": [
             "ai"
           ]
         }
       ],
       "entities": [
-        "tim teter",
-        "jensen huang",
-        "department",
-        "commerce",
-        "chinese",
+        "while",
+        "but",
+        "depending",
+        "wang",
+        "space",
+        "there",
         "thursday",
-        "house",
-        "todd blanche",
-        "mr huang",
-        "alice huang",
-        "huang le",
-        "john moolenaar",
-        "silicon valley",
-        "ai",
-        "november",
-        "the trump",
-        "megaspeed international",
-        "nvidia",
-        "chinese communist",
-        "representatives",
-        "the american",
-        "on friday",
-        "howard lutnick",
-        "justice",
-        "congressmen brian mast",
-        "december",
-        "huang",
-        "ceo",
-        "the singapore",
+        "nevertheless",
+        "ipo",
+        "nasdaq",
         "us",
-        "rick crawford",
-        "republic",
-        "trump",
-        "people",
-        "china",
+        "anthropic",
         "elon musk",
-        "megaspeed",
-        "malaysia"
+        "new york",
+        "ai",
+        "june",
+        "claude",
+        "open",
+        "bbc",
+        "chat",
+        "until",
+        "yang wang",
+        "however",
+        "counterpoint research",
+        "published\nanthropic"
       ],
       "numbers": [
-        "$5",
-        "$12"
+        "1.1 trillion",
+        "$26",
+        "$1.4 trillion",
+        "$83 ",
+        "1.4 trillion",
+        "$78 ",
+        "$1.4",
+        "$1.3",
+        "$2.2",
+        "$94",
+        "$70 ",
+        "$68"
       ],
       "dates": [],
       "unknowns": [
@@ -306,356 +165,582 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 40
+        "anchor_count": 37
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
-      "source_artifact_date": "2026-11-18",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-19-AM.json",
+      "source_artifact_date": "2026-11-19",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_4cbc1f75e414e3946cddd675",
-      "title": "Nvidia results beat expectations, as ousted CEO Huang told no way back",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374805/nvidia-results-beat-expectations-ousted-ceo-huang-told-no-way-back",
-      "publisher": "SCMP",
-      "summary": "US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.\nThe results, which beat expectations, came hours after Huang said he wanted his job back in the latest twist for the company at the centre of an AI boom that has propelled markets to record highs and boosted global economic growth.\nHuang, a leading promoter of AI, stepped down last week...",
+      "article_id": "a1_acf75e67fc21c46fe4fe5ebb",
+      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
       "category": "国际",
-      "published_at": "2026-11-17T22:47:11+00:00",
-      "why_relevant": "英伟达财报超预期",
+      "published_at": "2026-11-18T16:10:44+00:00",
+      "why_relevant": "中美俄三方会谈，最高级别地缘",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.",
+          "text": "The US president was greeted off his plane by the Chinese leader as he arrived in Shenzhen for a summit of Asia-Pacific leaders, which will culminate in a closely-watched meeting between the pair and the Russian president.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559765+08:00",
-          "content_sha256": "e7097c20d0f567986f22cf960f44140a55def070a64e8b5b0aa50732a771e4a1",
-          "excerpt": "US chip giant Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang after a Chinese spy scandal.",
-          "sentence_hash": "0dfcbd3bf64e7067123bbea91bf92cb1bcf6e235290aaead81d339f2a7a46aac",
+          "captured_at": "2026-11-19T08:03:51.968976+08:00",
+          "content_sha256": "d1056ddc91b3193fd87d4018b2499d032ace4581cb12cfce3e315448eadf02a7",
+          "excerpt": "The US president was greeted off his plane by the Chinese leader as he arrived in Shenzhen for a summit of Asia-Pacific leaders, which will culminate in a closely-watched meeting between the pair and the Russian president.",
+          "sentence_hash": "a728561faec4822abd60da736c5928ed2aa805042f922cc887b725a3256230d3",
           "anchors": [
-            "$115 billion",
-            "us",
-            "115 billion"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The results, which beat expectations, came hours after Huang said he wanted his job back in the latest twist for the company at the centre of an AI boom that has propelled markets to record highs and boosted global economic growth.",
+          "text": "Trump and Putin are expected to hold one-on-one talks on the sidelines of the summit on Thursday, in which the war in Ukraine could be discussed.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.559777+08:00",
-          "content_sha256": "e7097c20d0f567986f22cf960f44140a55def070a64e8b5b0aa50732a771e4a1",
-          "excerpt": "The results, which beat expectations, came hours after Huang said he wanted his job back in the latest twist for the company at the centre of an AI boom that has propelled markets to record highs and boosted global economic growth.",
-          "sentence_hash": "c12e29cad7ac4e05f8bbb693d67d773e6f4f905106f606364af926d75d5d7980",
+          "captured_at": "2026-11-19T08:03:51.969011+08:00",
+          "content_sha256": "d1056ddc91b3193fd87d4018b2499d032ace4581cb12cfce3e315448eadf02a7",
+          "excerpt": "Trump and Putin are expected to hold one-on-one talks on the sidelines of the summit on Thursday, in which the war in Ukraine could be discussed.",
+          "sentence_hash": "b8edb48e2f5dc2a055d9a60a13a540583ec47e6afc75149fc3ec828ec6752b78",
           "anchors": [
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "tuesday",
-        "jensen huang",
-        "huang",
-        "ceo",
-        "us",
-        "chinese",
-        "ai",
-        "nvidia"
-      ],
-      "numbers": [
-        "$115 billion",
-        "115 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 2,
-        "anchor_count": 10
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
-      "source_artifact_date": "2026-11-18",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_d7ab905dae1777df53e0eb23",
-      "title": "Nvidia forms national security committee after Huang affair",
-      "url": "https://www.dw.com/en/nvidia-forms-national-security-committee-after-huang-affair/a-79970447?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "Nvidia has created a board-level committee for national security and export control. This follows the resignation of CEO Jensen Huang over extramarital affairs, allegedly including one with a Chinese intelligence asset.",
-      "category": "国际",
-      "published_at": "2026-11-17T14:53:00+00:00",
-      "why_relevant": "英伟达成立国安委员会",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Nvidia forms national security committee after Huang affair November 17, 2026 Nvidia on Tuesday said it had created a board-level national security and export-control committee.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560214+08:00",
-          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
-          "excerpt": "Nvidia forms national security committee after Huang affair November 17, 2026 Nvidia on Tuesday said it had created a board-level national security and export-control committee.",
-          "sentence_hash": "4c67472d69716f52e7a208a87bd6b2aed16bb09ee2b6a77d9ffc1cea80fbb7b6",
-          "anchors": [
-            "ai",
-            "November 17",
-            "national security"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "This follows the scandal surrounding former CEO Jensen Huang, who resigned last week over extramarital affairs, including one with a woman suspected of spying for China and working to help ensure higher quality chips crucial to AI development made it to the Chinese market.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560231+08:00",
-          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
-          "excerpt": "This follows the scandal surrounding former CEO Jensen Huang, who resigned last week over extramarital affairs, including one with a woman suspected of spying for China and working to help ensure higher quality chips crucial to AI development made it to the Chinese market.",
-          "sentence_hash": "f37fa1221c97138e73cd478d726e3cac67a5e96a125c6152973e3f8e5512d604",
-          "anchors": [
-            "us",
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The events have heightened oversight of the US tech giant and its importance to national security, as well as wiping several hundred billion dollars off the stock market valuation of what investors treat as the world's most valuable company in the space of a month.",
+          "text": "However the main focus during the Asia-Pacific Economic Cooperation forum (Apec) will be on the US-China-Russia talks on Thursday - the first time the trio of leaders have met together in person.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560248+08:00",
-          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
-          "excerpt": "The events have heightened oversight of the US tech giant and its importance to national security, as well as wiping several hundred billion dollars off the stock market valuation of what investors treat as the world's most valuable company in the space of a month.",
-          "sentence_hash": "fc85528e0facb61ed7540ddb0e93153123906e3b0adfe29138e903b175006d70",
+          "captured_at": "2026-11-19T08:03:51.969040+08:00",
+          "content_sha256": "d1056ddc91b3193fd87d4018b2499d032ace4581cb12cfce3e315448eadf02a7",
+          "excerpt": "However the main focus during the Asia-Pacific Economic Cooperation forum (Apec) will be on the US-China-Russia talks on Thursday - the first time the trio of leaders have met together in person.",
+          "sentence_hash": "00f8c17970cccadcfe358a9ae09e82fb8f61989d0ca302c342d17f90f1304cba",
           "anchors": [
-            "national security"
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Since Huang's resignation, some investors — including Elon Musk and Donald Trump — have voiced concern that his departure could leave Nvidia and America's AI sector in peril and are now calling for his return.",
+          "text": "A full agenda has not been made public but there have been various hints about what could be discussed, including the wars in Ukraine and Iran, nuclear proliferation, trade tensions and developments in artificial intelligence.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560264+08:00",
-          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
-          "excerpt": "Since Huang's resignation, some investors — including Elon Musk and Donald Trump — have voiced concern that his departure could leave Nvidia and America's AI sector in peril and are now calling for his return.",
-          "sentence_hash": "dbee984479913d81fc3fcc190c00b59e88ab0f4b7c97e1bb1024ca4a6e386f0d",
+          "captured_at": "2026-11-19T08:03:51.969069+08:00",
+          "content_sha256": "d1056ddc91b3193fd87d4018b2499d032ace4581cb12cfce3e315448eadf02a7",
+          "excerpt": "A full agenda has not been made public but there have been various hints about what could be discussed, including the wars in Ukraine and Iran, nuclear proliferation, trade tensions and developments in artificial intelligence.",
+          "sentence_hash": "1a8690f0bc2ec6e719b8a8d3c828146144cfb41ef29bfb6102d84be50752e6b6",
           "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Huang on Tuesday, expressed regret for \"serious mistakes\" in his personal life before declaring he would be \"honored\" to return if the company's board of directors thought that was \"in the best interest of our shareholders, our employees, the company, and America.\" What are Nvidi",
+          "text": "Ukrainian President Volodymyr Zelensky has raised fears of a plan to end the war being discussed in the absence of representatives from Kyiv or Europe.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560282+08:00",
-          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
-          "excerpt": "Huang on Tuesday, expressed regret for \"serious mistakes\" in his personal life before declaring he would be \"honored\" to return if the company's board of directors thought that was \"in the best interest of our shareholders, our employees, the company, and America.\" What are Nvidi",
-          "sentence_hash": "eba0185ea2918c92f5183b927eff4afa592c08ef8a9415f6dd3ed23611c18dd2",
+          "captured_at": "2026-11-19T08:03:51.969106+08:00",
+          "content_sha256": "d1056ddc91b3193fd87d4018b2499d032ace4581cb12cfce3e315448eadf02a7",
+          "excerpt": "Ukrainian President Volodymyr Zelensky has raised fears of a plan to end the war being discussed in the absence of representatives from Kyiv or Europe.",
+          "sentence_hash": "caab69bcdf579e5b14faf42bfdf2a7b2454b64a7b3753526ff0f5e564715d207",
           "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Suzanne Nora Johnson, a former vice chair at Goldman Sachs, will chair the committee, joined by fellow directors Stephen Neal, a former CEO of a law firm, John Dabiri, a professor of aeronautics and mechanical engineering at the California Institute of Technology (Caltech).",
+          "text": "It is unclear whether China would want this issue to be on the agenda in Shenzhen, with Beijing talking more generally about the need to discuss \"safeguarding world peace and promoting strategic stability\".",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560308+08:00",
-          "content_sha256": "b294578dafcb38c9d2c08818eaac97b6484e9c31b6683d5a622fd916e5ef4f2d",
-          "excerpt": "Suzanne Nora Johnson, a former vice chair at Goldman Sachs, will chair the committee, joined by fellow directors Stephen Neal, a former CEO of a law firm, John Dabiri, a professor of aeronautics and mechanical engineering at the California Institute of Technology (Caltech).",
-          "sentence_hash": "bfef1819b6a90bac32e5bf2102d26b5665217ab458c9ece0dc61a351661136f2",
+          "captured_at": "2026-11-19T08:03:51.969134+08:00",
+          "content_sha256": "d1056ddc91b3193fd87d4018b2499d032ace4581cb12cfce3e315448eadf02a7",
+          "excerpt": "It is unclear whether China would want this issue to be on the agenda in Shenzhen, with Beijing talking more generally about the need to discuss \"safeguarding world peace and promoting strategic stability\".",
+          "sentence_hash": "c71b68209ea1b66d318e78f2c073782b53ea641b8a2519b32eba0d79ac3a2bbe",
           "anchors": [
-            "ai"
+            "us"
           ]
         }
       ],
       "entities": [
-        "jensen huang",
-        "suzanne nora johnson",
-        "national security team",
-        "technology",
-        "president donald trump",
-        "chinese",
-        "california institute",
-        "export control oversight committee",
-        "national security",
-        "caltech",
-        "tuesday",
-        "donald trump",
-        "john dabiri",
-        "global trade compliance team",
-        "huang",
-        "ceo",
-        "stephen neal",
-        "board chair harvey jones",
-        "us",
-        "america",
-        "goldman sachs",
-        "november",
-        "ai",
+        "europe",
+        "air force one",
+        "august",
+        "apec",
+        "thursday",
         "china",
-        "elon musk",
-        "since huang",
-        "nvidia"
+        "russian",
+        "ukraine",
+        "dmitry peskov",
+        "vladimir putin",
+        "september",
+        "peskov",
+        "xi jinping",
+        "however",
+        "kremlin",
+        "moscow",
+        "asia",
+        "trump",
+        "in shenzhen",
+        "wednesday",
+        "shenzhen",
+        "us",
+        "washington",
+        "iran",
+        "after",
+        "pacific economic cooperation",
+        "pacific",
+        "russia",
+        "beijing",
+        "published\ndonald trump",
+        "ukrainian president volodymyr zelensky",
+        "xinhua",
+        "chinese",
+        "putin",
+        "kyiv",
+        "alaska"
       ],
-      "numbers": [
-        "28%"
-      ],
+      "numbers": [],
       "dates": [
-        "November 17"
+        "August 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 29
+        "anchor_count": 37
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
-      "source_artifact_date": "2026-11-18",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-19-AM.json",
+      "source_artifact_date": "2026-11-19",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_43bd36feb47d9d7080c4a23f",
-      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_99b10083f95164f4d4eb70e9",
+      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "publisher": "TechCrunch",
+      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+      "category": "科技",
+      "published_at": "2026-11-18T22:11:15+00:00",
+      "why_relevant": "IPO 定价超预期，估值 1.5 万亿",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.970132+08:00",
+          "content_sha256": "76f73bdb141083260807a0c1735034b7a4498cabf6816767a51d9918a648da1f",
+          "excerpt": "Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which",
+          "sentence_hash": "530e93126e223f86122e379f39188bf6cc75007e3976966f66fa42ddd703f1f1",
+          "anchors": [
+            "$83 ",
+            "$78",
+            "$70 ",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "At the IPO price, Anthropic is reportedly valued at $1.5 trillion on a fully diluted basis, a significant increase from the $965 billion the company reached in May when it raised $65 billion in its last private market round, but below the $2 trillion it was reportedly aiming for ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.970178+08:00",
+          "content_sha256": "76f73bdb141083260807a0c1735034b7a4498cabf6816767a51d9918a648da1f",
+          "excerpt": "At the IPO price, Anthropic is reportedly valued at $1.5 trillion on a fully diluted basis, a significant increase from the $965 billion the company reached in May when it raised $65 billion in its last private market round, but below the $2 trillion it was reportedly aiming for ",
+          "sentence_hash": "761a165a0aca2bd37e5d90d056acf0f1ed8d3274d383ffc6253a9da7c8cd62d9",
+          "anchors": [
+            "ant",
+            "$2 trillion",
+            "2 trillion",
+            "$65 billion",
+            "1.5 trillion",
+            "65 billion",
+            "$965 billion",
+            "$1.5 trillion",
+            "ai",
+            "965 billion"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Anthropic will begin its life as a public company on Thursday, trading on Nasdaq under the ticker symbol “ANT.” A strong first day of trading would signal that investors remain optimistic about AI adoption, despite recent volatility in AI-driven stocks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.970226+08:00",
+          "content_sha256": "76f73bdb141083260807a0c1735034b7a4498cabf6816767a51d9918a648da1f",
+          "excerpt": "Anthropic will begin its life as a public company on Thursday, trading on Nasdaq under the ticker symbol “ANT.” A strong first day of trading would signal that investors remain optimistic about AI adoption, despite recent volatility in AI-driven stocks.",
+          "sentence_hash": "0e639082516e61f0d344c2342fc0fb17906837288ba59e4d81abc3e3b00b1a32",
+          "anchors": [
+            "investors",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The company’s performance is expected to set expectations for private AI companies, including Anthropic’s main rival OpenAI, which was last reportedly valued at $1.25 billion but has yet to announce plans for an IPO.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.970267+08:00",
+          "content_sha256": "76f73bdb141083260807a0c1735034b7a4498cabf6816767a51d9918a648da1f",
+          "excerpt": "The company’s performance is expected to set expectations for private AI companies, including Anthropic’s main rival OpenAI, which was last reportedly valued at $1.25 billion but has yet to announce plans for an IPO.",
+          "sentence_hash": "0b699285ecd894ba65e7524536235388c8e5ead6939d4d9942a22ad12dc25dd5",
+          "anchors": [
+            "1.25 billion",
+            "ai",
+            "yet"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Although none of Anthropic’s venture capital investors holds more than a 5% stake in the company, the IPO is a massive windfall for its numerous backers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.970299+08:00",
+          "content_sha256": "76f73bdb141083260807a0c1735034b7a4498cabf6816767a51d9918a648da1f",
+          "excerpt": "Although none of Anthropic’s venture capital investors holds more than a 5% stake in the company, the IPO is a massive windfall for its numerous backers.",
+          "sentence_hash": "600f9abf4fca776a9c9dd06f67c86bf2c2b189bf492f749f176abbc90fcadbb6",
+          "anchors": [
+            "investors"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Some of the company’s existing investors, namely Sequoia, Iconiq, Lightspeed, Accel, and Altimeter Capital Management, are so enthusiastic about Anthropic’s future that they were reportedly planning to buy billions of dollars’ worth of the company’s shares in the IPO.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.970375+08:00",
+          "content_sha256": "76f73bdb141083260807a0c1735034b7a4498cabf6816767a51d9918a648da1f",
+          "excerpt": "Some of the company’s existing investors, namely Sequoia, Iconiq, Lightspeed, Accel, and Altimeter Capital Management, are so enthusiastic about Anthropic’s future that they were reportedly planning to buy billions of dollars’ worth of the company’s shares in the IPO.",
+          "sentence_hash": "74466427b2d9e5f6448429abe78067cb63b31d695a3fc6cdaeaba363ec956a9b",
+          "anchors": [
+            "investors"
+          ]
+        }
+      ],
+      "entities": [
+        "menlo ventures",
+        "ant",
+        "dario amodei",
+        "jensen huang",
+        "nvidia",
+        "iconiq",
+        "thursday",
+        "vc",
+        "ipo",
+        "amd",
+        "spark ventures",
+        "anthropic",
+        "sequoia",
+        "amazon",
+        "ai",
+        "although",
+        "open",
+        "claude",
+        "lightspeed",
+        "tsmc",
+        "partners",
+        "gic",
+        "yet",
+        "ashton kutcher",
+        "singaporean",
+        "eric schmidt",
+        "sound ventures",
+        "nasdaq",
+        "google",
+        "guy oseary",
+        "other",
+        "coatue",
+        "investors",
+        "microsoft",
+        "micron",
+        "broadcom",
+        "ceo",
+        "some",
+        "altimeter capital management",
+        "accel"
+      ],
+      "numbers": [
+        "282 million",
+        "$78",
+        "$2 trillion",
+        "2 trillion",
+        "$65 billion",
+        "$83 ",
+        "1.5 trillion",
+        "26 billion",
+        "65 billion",
+        "3.4 million",
+        "1.25 billion",
+        "$70 ",
+        "$1.5 trillion",
+        "$965 billion",
+        "965 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 55
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-19-AM.json",
+      "source_artifact_date": "2026-11-19",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6c3756de516c81e4f8bbe37c",
+      "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "publisher": "CNBC",
+      "summary": "Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.",
+      "category": "财经",
+      "published_at": "2026-11-18T23:44:11+00:00",
+      "why_relevant": "Anthropic IPO 核心财经事件，必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic priced its IPO at $83 per share on Wednesday, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.971308+08:00",
+          "content_sha256": "30597e4fb5a8b5ef4e4fc42490c81f0b3cc1b765e74fce4a4634f7e127630639",
+          "excerpt": "Anthropic priced its IPO at $83 per share on Wednesday, above the expected range, setting the stage for the Claude creator's eagerly awaited Nasdaq listing and a historic moment for the artificial intelligence industry.",
+          "sentence_hash": "4e34a6febfab51142af85e3f6ceb233eefae804cbb5225ab15ac89d5ab39a1ed",
+          "anchors": [
+            "$83 ",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.971333+08:00",
+          "content_sha256": "30597e4fb5a8b5ef4e4fc42490c81f0b3cc1b765e74fce4a4634f7e127630639",
+          "excerpt": "The company, along with its seven co-founders, upsized the offering, selling about 980 million shares, according to a press release.",
+          "sentence_hash": "dec2df6ac8d0a2419ee3bf94ceceb67f3b00eb34a83dd96b00bd97a44298d2e2",
+          "anchors": [
+            "980 million",
+            "according"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.971353+08:00",
+          "content_sha256": "30597e4fb5a8b5ef4e4fc42490c81f0b3cc1b765e74fce4a4634f7e127630639",
+          "excerpt": "That brings the amount raised to $81.3 billion, surpassing SpaceX, which held a record IPO in June.",
+          "sentence_hash": "54fe19b9131817fa9d09ddb0f2b085bd669ed39d0ebf80b1f68b46874f5d2654",
+          "anchors": [
+            "$81.3 billion",
+            "81.3 billion",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Elon Musk's company raised $75 billion initially and a total of $85.7 billion after underwriters exercised their overallotment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.971374+08:00",
+          "content_sha256": "30597e4fb5a8b5ef4e4fc42490c81f0b3cc1b765e74fce4a4634f7e127630639",
+          "excerpt": "Elon Musk's company raised $75 billion initially and a total of $85.7 billion after underwriters exercised their overallotment.",
+          "sentence_hash": "b7081128ad4c5ba6b3f7babe2a28c9c9788e8df9837bd7ae5c6fe01f0e99c952",
+          "anchors": [
+            "$75 billion",
+            "85.7 billion",
+            "$85.7 billion",
+            "after",
+            "75 billion",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Anthropic's market cap will depend on total shares outstanding, but the share price would put the valuation above the $1.4 trillion that Anthropic was previously targeting.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.971400+08:00",
+          "content_sha256": "30597e4fb5a8b5ef4e4fc42490c81f0b3cc1b765e74fce4a4634f7e127630639",
+          "excerpt": "Anthropic's market cap will depend on total shares outstanding, but the share price would put the valuation above the $1.4 trillion that Anthropic was previously targeting.",
+          "sentence_hash": "96690356886a47ce677ad7d3452d80940321ad507cf1c6edd043a1e25aec6d8a",
+          "anchors": [
+            "$1.4 trillion",
+            "1.4 trillion"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The company had been planning to sell 825 million shares.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-19T08:03:51.971445+08:00",
+          "content_sha256": "30597e4fb5a8b5ef4e4fc42490c81f0b3cc1b765e74fce4a4634f7e127630639",
+          "excerpt": "The company had been planning to sell 825 million shares.",
+          "sentence_hash": "6c12f5ea05f421097ecec90fd8c02af88e916d228e05df56905d39a3e8d16660",
+          "anchors": [
+            "825 million"
+          ]
+        }
+      ],
+      "entities": [
+        "ant",
+        "dario amodei",
+        "amodei",
+        "jensen huang",
+        "nvidia",
+        "space",
+        "thursday",
+        "ipo",
+        "wednesday",
+        "amd",
+        "nasdaq",
+        "google",
+        "after",
+        "anthropic",
+        "elon musk",
+        "amazon",
+        "ai",
+        "june",
+        "microsoft",
+        "claude",
+        "open",
+        "ceo",
+        "tech",
+        "advanced micro devices",
+        "october",
+        "according"
+      ],
+      "numbers": [
+        "$75 billion",
+        "100 billion",
+        "1.96 billion",
+        "$1.4 trillion",
+        "$83 ",
+        "1.4 trillion",
+        "26 billion",
+        "85.7 billion",
+        "825 million",
+        "3.38 million",
+        "$85.7 billion",
+        "980 million",
+        "$81.3 billion",
+        "81.3 billion",
+        "75 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-19-AM.json",
+      "source_artifact_date": "2026-11-19",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_518181aeb68714ebb18a194b",
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+      "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
       "category": "国际",
-      "published_at": "2026-11-17T21:24:35+00:00",
-      "why_relevant": "克里米亚大桥遇袭，地缘重要",
+      "published_at": "2026-11-18T22:34:56+00:00",
+      "why_relevant": "以军加沙罕见地面行动，冲突升级",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - Published Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making",
+          "text": "The Israeli military said the \"targeted\" operation aimed to dismantle a \"terror tunnel\" west of the so-called Yellow Line, which marks the more than 60% of Gaza's territory occupied by Israel.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560835+08:00",
-          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
-          "excerpt": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine - Published Ukraine has severely damaged a critical bridge linking Russia to occupied Crimea, in what President Volodymyr Zelensky says was an \"unprecedented operation\" weeks in the making",
-          "sentence_hash": "55caee86505c173fa66305c84de9266b01b6d9790fb74885a33f43a4149c2783",
+          "captured_at": "2026-11-19T08:03:51.972637+08:00",
+          "content_sha256": "dc051e55b84a4468274c72e68e30ef4ab9662fd3eaf5baecf04feb68732082d6",
+          "excerpt": "The Israeli military said the \"targeted\" operation aimed to dismantle a \"terror tunnel\" west of the so-called Yellow Line, which marks the more than 60% of Gaza's territory occupied by Israel.",
+          "sentence_hash": "429dae317c0eb60dcbb47524270114abe73208737ffe4c36cecced6922ad43f9",
           "anchors": [
-            "us"
+            "60%"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Meanwhile in Kyiv, Mayor Vitaliy Klitschko said traffic had partially resumed on the Pivnichnyi (Northern) and Pivdennyi (Southern) bridges - key crossings over the Dnipro River - after they had been closed following Russian strikes overnight.",
+          "text": "The Palestinian armed group Hamas, which controls the rest of Gaza, accused Israel of a \"flagrant violation\" of the October 2025 ceasefire agreement.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560859+08:00",
-          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
-          "excerpt": "Meanwhile in Kyiv, Mayor Vitaliy Klitschko said traffic had partially resumed on the Pivnichnyi (Northern) and Pivdennyi (Southern) bridges - key crossings over the Dnipro River - after they had been closed following Russian strikes overnight.",
-          "sentence_hash": "12bdcdae0079521ac62d475d836bcef4226bd519756722baab273b8bffbe9bb4",
+          "captured_at": "2026-11-19T08:03:51.972662+08:00",
+          "content_sha256": "dc051e55b84a4468274c72e68e30ef4ab9662fd3eaf5baecf04feb68732082d6",
+          "excerpt": "The Palestinian armed group Hamas, which controls the rest of Gaza, accused Israel of a \"flagrant violation\" of the October 2025 ceasefire agreement.",
+          "sentence_hash": "a4621751b3c209273c04a2e264473e69cc4bbe4f2d4c1c06772a3660535af163",
           "anchors": [
-            "us"
+            "October 20"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
+          "text": "Violence has continued in Gaza over the past 13 months, with near-daily Israeli strikes, and living conditions for the 2.1 million people there remain dire.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560872+08:00",
-          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
-          "excerpt": "Ukraine has long targeted the Crimean Bridge, which provides a road and rail route for Russian soldiers heading towards the front line, but has struggled to close it for good.",
-          "sentence_hash": "60f0a5c4b900c6ed315b8cb920957e2313b260ed2dce8039cc7c488aa7dd569c",
+          "captured_at": "2026-11-19T08:03:51.972685+08:00",
+          "content_sha256": "dc051e55b84a4468274c72e68e30ef4ab9662fd3eaf5baecf04feb68732082d6",
+          "excerpt": "Violence has continued in Gaza over the past 13 months, with near-daily Israeli strikes, and living conditions for the 2.1 million people there remain dire.",
+          "sentence_hash": "c5b0caa06d216cb5bc3953e7b14cab30d63d8ba2e55ad85dbc8d6439b41a852b",
           "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "While Kyiv has been trying to increase the cost to Russia of waging war economically, by hitting oil refineries and depots, striking the bridge is an attempt to increase the political cost on Russian President Vladimir Putin.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560888+08:00",
-          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
-          "excerpt": "While Kyiv has been trying to increase the cost to Russia of waging war economically, by hitting oil refineries and depots, striking the bridge is an attempt to increase the political cost on Russian President Vladimir Putin.",
-          "sentence_hash": "906f0cf2def6ba3d2399fc73158efca9bc2ffd38dd151ad7026c8ed872df1942",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "This could cloud his moment back in the spotlight.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560899+08:00",
-          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
-          "excerpt": "This could cloud his moment back in the spotlight.",
-          "sentence_hash": "67c215c642e2793504da8b37e87c8a12b54a4e480170babc23316aa9c1dd7bc8",
-          "anchors": [
-            "his"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The Crimean Bridge was built by Russia after it invaded and illegally annexed Ukraine's southern peninsula in 2014.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-18T08:03:29.560908+08:00",
-          "content_sha256": "f2df553cbd9cd8257102b2b76755641870da18cde3162b2a984d3f9278a89505",
-          "excerpt": "The Crimean Bridge was built by Russia after it invaded and illegally annexed Ukraine's southern peninsula in 2014.",
-          "sentence_hash": "5a6422d55c7dfc99ad73f8e381062680a4631c00de0bac34dc5f60a1481f9522",
-          "anchors": [
-            "us",
-            "southern"
+            "2.1 million"
           ]
         }
       ],
       "entities": [
-        "zelensky",
-        "putin",
-        "pivdennyi",
-        "southern",
-        "andrii",
-        "russian president vladimir putin",
-        "video",
-        "images",
-        "russians",
-        "moscow",
-        "ukraine",
-        "dnipro river",
-        "northern",
-        "meanwhile",
-        "president volodymyr zelensky",
-        "the crimean bridge",
-        "in ukraine",
-        "pivnichnyi",
-        "russian",
+        "bureij",
+        "automatic",
+        "israel defense forces",
+        "violence",
+        "shin bet",
+        "nuseirat",
+        "israeli",
+        "the palestinian",
+        "early",
+        "yellow line",
+        "gaza strip",
+        "salah",
+        "palestinian",
+        "footage",
+        "middle east daily",
+        "later",
+        "october",
+        "southern command",
+        "published\nisraeli",
+        "gaza",
+        "palestinians",
+        "verify",
+        "wednesday",
+        "witnesses",
+        "arabic",
+        "din",
         "bbc",
-        "kyiv",
-        "the kremlin",
-        "crimea",
-        "ukrainian",
-        "crimean bridge",
-        "russia",
-        "while kyiv",
-        "us",
-        "mayor vitaliy klitschko",
-        "some ukrainians",
-        "china",
-        "his",
-        "published\nukraine",
-        "arkady rotenberg"
+        "israel",
+        "idf",
+        "the israeli",
+        "hamas",
+        "cogat"
       ],
       "numbers": [
-        "$3.6"
+        "2.1 million",
+        "60%"
       ],
       "dates": [
-        "May 20"
+        "October 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 36
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 35
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-18-AM.json",
-      "source_artifact_date": "2026-11-18",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-19-AM.json",
+      "source_artifact_date": "2026-11-19",
       "freshness_label": "today"
     }
   ]
