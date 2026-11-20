@@ -1,0 +1,1621 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-20-AM",
+  "date": "2026-11-20",
+  "session": "AM",
+  "delivered_at": "2026-11-20T08:07:28.151602+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-20T00:07:28.154833+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 3,
+    "unsupported_ratio": 0.23076923076923078
+  },
+  "items": [
+    {
+      "article_id": "a1_141a7a7811f371cfb4427305",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "publisher": "Simon Willison",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol\nOpenAI:\n\nWe’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\n\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models.\n6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. Th",
+      "category": "科技",
+      "published_at": "2026-11-17T22:38:52+00:00",
+      "why_relevant": "OpenAI新旗舰必读前沿",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523345+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
+          "sentence_hash": "100fdbb052de99f4ef9e2285166e043180a063cef8589c558d60d55f42712db1",
+          "anchors": [
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523388+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
+          "sentence_hash": "0faeaef30942f2fb567668aa2ccfa57e24ce4e3a5fc4a776d86325848c0810a0",
+          "anchors": [
+            "gpt",
+            "sol",
+            "astra"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523424+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
+          "sentence_hash": "c03fdbd43dc1c6e11932ca5d6a1261068ebdab8d2d8e1bf760f2cf0646bdf85d",
+          "anchors": [
+            "80%",
+            "ok",
+            "$8",
+            "$4",
+            "$40"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "6 Astra and Fable 5 were both $10/$50.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523442+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "6 Astra and Fable 5 were both $10/$50.",
+          "sentence_hash": "9789af5bc4f507431e0a2e69db3e11eda3e71cbe8a64166b2b1d930c468027e5",
+          "anchors": [
+            "$1",
+            "$50",
+            "$10"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523465+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
+          "sentence_hash": "30e66fb56a773dba083705cad2f33c7dc58fb58a09eaaf74828ed157ac5b848b",
+          "anchors": [
+            "$0.40",
+            "$1"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523495+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
+          "sentence_hash": "4788f87fd950f2b5874c06171b7ef411b69becb466bff1ffb4dbab0bcf51ab33",
+          "anchors": [
+            "$1",
+            "$20",
+            "$4",
+            "$2",
+            "$10",
+            "$10 "
+          ]
+        }
+      ],
+      "entities": [
+        "neither",
+        "ok",
+        "tok",
+        "fable",
+        "sol",
+        "llm",
+        "november",
+        "codex",
+        "carbon",
+        "they",
+        "brooklyn",
+        "claude fable",
+        "gemini",
+        "ultra",
+        "link blog",
+        "gpt",
+        "then",
+        "make",
+        "cli",
+        "these",
+        "yonkers",
+        "here",
+        "theo browne",
+        "api",
+        "open",
+        "astra"
+      ],
+      "numbers": [
+        "80%",
+        "$1",
+        "$50",
+        "$8",
+        "$20",
+        "$0.40",
+        "$4",
+        "$10",
+        "$2",
+        "$10 ",
+        "$40"
+      ],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_04073a4fb27d337917e5d7fe",
+      "title": "California targets Nvidia in China AI chip probe",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "category": "国际",
+      "published_at": "2026-11-19T23:04:30+00:00",
+      "why_relevant": "英伟达涉华调查芯片地缘",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524455+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+          "sentence_hash": "23f943a1f1244d28f6d47618daf504fe7ae6ade1ad6a0ae3e93c0e59744101f1",
+          "anchors": [
+            "sign"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524503+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
+          "sentence_hash": "9138a244910f3f3881a4e375cd2c4dce815b27387802c99fccee1d7553208a73",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524537+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+          "sentence_hash": "fb24917b4d8e04ca4a3bbface54e8a73026c5f3cb475a4840b0fa697ded18ba0",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524570+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+          "sentence_hash": "bb2bed0b2270777cb8cb6b6628a8167a924556c7e756810ba9b77b3a99dcfddb",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524596+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+          "sentence_hash": "365e2367e94d3f3694adbc51642d8d4d62e652005acc7b282ea6debaa8e8a96e",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524624+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "sentence_hash": "a16ff24fd563610013aff3d84f20911dd54fc7fcf95d5732adbf9a1e76b093ee",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "published\ncalifornia",
+        "elon musk",
+        "bbc",
+        "us",
+        "department",
+        "ai",
+        "sign",
+        "ceo",
+        "california",
+        "bonta",
+        "china",
+        "earlier",
+        "companies",
+        "santa clara",
+        "tech decoded",
+        "november",
+        "chinese",
+        "nvidia",
+        "jensen huang",
+        "megaspeed",
+        "alice huang",
+        "congress",
+        "rob bonta",
+        "harvey jones",
+        "uk",
+        "singapore",
+        "some",
+        "thursday",
+        "commerce",
+        "huang",
+        "new york times",
+        "outside"
+      ],
+      "numbers": [
+        "22%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_3d312b28ac5cc86a6093b648",
+      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "publisher": "The Guardian",
+      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic imm",
+      "category": "国际",
+      "published_at": "2026-11-19T17:13:23+00:00",
+      "why_relevant": "中美俄联合声明地缘核心",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525886+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
+          "sentence_hash": "98998353c4918dfe3c381429da8b8841bd3d1ec51d55a4931c6d8736b93af72a",
+          "anchors": [
+            "un",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525923+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
+          "sentence_hash": "f9249a4f90334addbc3b09896a1d3d3fe405f034791e4b30ced04d107729c35a",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525959+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
+          "sentence_hash": "a077146dc36f65e9fc506853b7973af93bfc4cd68ee10da75e774d1d7941a4cd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525997+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
+          "sentence_hash": "8f2cb2bffd2f71c93307fa6b78e45214ad0f46226dbf5c9b66bb09e3937ecfd2",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.526063+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
+          "sentence_hash": "15d257966f3d1dba1b15f1ad2d9e26ada12361dda5e60442d1946da056ab8499",
+          "anchors": [
+            "un",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.526100+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
+          "sentence_hash": "8fd2220e441398be893aa981030868921da425d3d26de193e5dbcb85757ceb4a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "patricia kim",
+        "she",
+        "even",
+        "france",
+        "asia",
+        "first",
+        "us",
+        "analysts",
+        "donald trump",
+        "putin",
+        "yun sun",
+        "china",
+        "iran",
+        "centre",
+        "pacific economic cooperation",
+        "chinese",
+        "university",
+        "vladimir putin",
+        "russia",
+        "overall",
+        "uk",
+        "beijing",
+        "trump",
+        "apec",
+        "some",
+        "russian",
+        "stimson center",
+        "thursday",
+        "on thursday",
+        "brookings institution",
+        "xi jinping",
+        "prof william hurst",
+        "un",
+        "sun",
+        "geopolitics",
+        "cambridge",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_85c65bbbdc285431c10fe42c",
+      "title": "You can now buy a Steam Machine without getting on a waitlist",
+      "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+      "publisher": "The Verge",
+      "summary": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-19T19:33:22+00:00",
+      "why_relevant": "Steam硬件玩家必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.526984+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
+          "sentence_hash": "228babdd4cf4652e27485a44b905303bbc63d5d59ed0c0e564f06f2d8c0aa1b8",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.527056+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
+          "sentence_hash": "6c3511f789d618bdb0ce1f8dabca9d672616288afeed30a2c21082f2e0a80fc3",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.527101+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
+          "sentence_hash": "b128e01f5b9caf4dc9ca8b1840885ae0323223521f88d5e026ca45b91abaed83",
+          "anchors": [
+            "$1,049 "
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "A 2TB model without a controller costs $1,349.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.527117+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "A 2TB model without a controller costs $1,349.",
+          "sentence_hash": "0bfdf70292648cd2f91e95048b855c9a84e7200f964c8b15224c62439d4f9da1",
+          "anchors": [
+            "$1,349"
+          ]
+        }
+      ],
+      "entities": [
+        "after",
+        "if valve",
+        "initially",
+        "june",
+        "valve",
+        "maggedon",
+        "steam machine",
+        "january",
+        "steam",
+        "you",
+        "pc"
+      ],
+      "numbers": [
+        "$1,049 ",
+        "$1,349"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 13
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_730fd78af105d174daa5c18d",
+      "title": "Anthropic closes debut with $1.8 trillion market cap in landmark moment for AI: Live IPO updates",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Anthropic IPO live updates: Follow ANT stock's Nasdaq debut, opening share price, valuation and investor reaction to the Claude AI maker.",
+      "category": "财经",
+      "published_at": "2026-11-19T23:17:45+00:00",
+      "why_relevant": "AI巨头IPO里程碑投资热点",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528616+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
+          "sentence_hash": "35ef513d14699d3c9b3120bc9644494a5da07cb9aa7ba10387637ba7dc2c4498",
+          "anchors": [
+            "17%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The stock closed at $97.17 per share.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528640+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "The stock closed at $97.17 per share.",
+          "sentence_hash": "ce476b7d48bf67ac1455e57fcc5a7c2dc81d632186bfcd40713bdbc4e356506e",
+          "anchors": [
+            "$97.17 "
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528669+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
+          "sentence_hash": "d0e999efe24696f2a2b600a887c0afd61e183aaa14b763d3acb5f954c5636d6b",
+          "anchors": [
+            "81.3 billion",
+            "$111.50",
+            "ai",
+            "$81.3 billion",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528700+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
+          "sentence_hash": "a83151916277dfa965594146817a0183fddc638012707238106cdfdae8d148b7",
+          "anchors": [
+            "980 million",
+            "$83 "
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528724+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
+          "sentence_hash": "8f470a48d714985bdf37f4d08643fcb4cb481a2c8fb9b5f5d78192f17df05a7d",
+          "anchors": [
+            "1.8 trillion",
+            "$1.8 trillion",
+            "market"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528752+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
+          "sentence_hash": "d3ff511d84bb7c4cb3bfbc8f1ee9ebcd755da9d844fe447af575ad0dd6dae681",
+          "anchors": [
+            "846 million",
+            "522 million",
+            "open"
+          ]
+        }
+      ],
+      "entities": [
+        "anthropic dario amodei",
+        "the claude",
+        "at thursday",
+        "hours ago\nanthropic",
+        "hours ago\ndemonstrators",
+        "amazon",
+        "dario amodei",
+        "site",
+        "pbc",
+        "sept",
+        "us",
+        "ipo",
+        "alphabet",
+        "ai",
+        "president donald trump",
+        "ceo",
+        "englewood cliffs",
+        "silicon valley",
+        "california",
+        "kate rooney",
+        "nov",
+        "wednesday",
+        "cnbc",
+        "open",
+        "nasdaq",
+        "anthropic",
+        "claude",
+        "brendan mcdermid",
+        "ashley capoot",
+        "november",
+        "conference",
+        "san francisco",
+        "dario",
+        "microsoft",
+        "apple",
+        "nvidia",
+        "more",
+        "anthropic daniela amodei",
+        "amazon andy jassy",
+        "watch",
+        "google",
+        "daniela amodei",
+        "june",
+        "new jersey",
+        "reuters\nanthropic",
+        "new york city",
+        "thursday",
+        "semafor",
+        "hours ago\namazon",
+        "manuel orbegozo",
+        "president",
+        "ant",
+        "market",
+        "the world",
+        "space",
+        "nasdaq adena friedman"
+      ],
+      "numbers": [
+        "$1.8 trillion",
+        "17%",
+        "$83 ",
+        "81.3 billion",
+        "33.24 billion",
+        "$33.24 billion",
+        "$111.50",
+        "980 million",
+        "$81.3 billion",
+        "522 million",
+        "30%",
+        "1.8 trillion",
+        "$97.17 ",
+        "200%",
+        "846 million"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 71
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ae201158180e3dc6d8e5726f",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "category": "国际",
+      "published_at": "2026-11-19T21:21:43+00:00",
+      "why_relevant": "俄乌和谈地缘关键",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Europe ready for talks with Russia on ending war in Ukraine, leaders say - Published European leaders have said they are ready for negotiations with Russia on ending the war in Ukraine, in a strong show of support for Kyiv.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.529969+08:00",
+          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
+          "excerpt": "Europe ready for talks with Russia on ending war in Ukraine, leaders say - Published European leaders have said they are ready for negotiations with Russia on ending the war in Ukraine, in a strong show of support for Kyiv.",
+          "sentence_hash": "e2c088fbeaf521762fed3bfa66e2d6b57530f02a76062aa469f129738be8a658",
+          "anchors": [
+            "us",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"Europe has a clear and consistent and united negotiating position,\" UK Prime Minister Andy Burnham said, while German Chancellor Friedrich Merz stressed that Moscow's \"maximalist demands are not realistic\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.530004+08:00",
+          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
+          "excerpt": "\"Europe has a clear and consistent and united negotiating position,\" UK Prime Minister Andy Burnham said, while German Chancellor Friedrich Merz stressed that Moscow's \"maximalist demands are not realistic\".",
+          "sentence_hash": "48d596d1573c10fd434597726c63385751bfd16cefab5a7844d74ab699c0bd94",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Donald Trump's son-in-law Jared Kushner, one of the two US envoys who were in Berlin, said the US president wanted to make a deal with Moscow \"with Europe by his side\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.530059+08:00",
+          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
+          "excerpt": "Donald Trump's son-in-law Jared Kushner, one of the two US envoys who were in Berlin, said the US president wanted to make a deal with Moscow \"with Europe by his side\".",
+          "sentence_hash": "7587b0f80a3ebb61407bd45e922df5818a127516f9d9cc8989ed0d41c2063eaf",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Russia's Vladimir Putin has so far rejected any European role in the US-led peace talks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.530082+08:00",
+          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
+          "excerpt": "Russia's Vladimir Putin has so far rejected any European role in the US-led peace talks.",
+          "sentence_hash": "1829c694f37da8c282d0e2a7d50569a54cab0aba1244d0b8eb9e3c5523d554db",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Trump had earlier held historic trilateral talks in Shenzhen, south-eastern China, with Putin and Chinese President Xi Jinping and later dialled into the Berlin summit from Air Force One.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.530112+08:00",
+          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
+          "excerpt": "Trump had earlier held historic trilateral talks in Shenzhen, south-eastern China, with Putin and Chinese President Xi Jinping and later dialled into the Berlin summit from Air Force One.",
+          "sentence_hash": "64e94b5c2d5b0aafb29514d82ead15e56ef09f9319c1a99aa159f6052af66379",
+          "anchors": [
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In a lengthy press conference following his talks with Trump and Xi, Putin addressed the question of multilateral peace talks, saying the Americans were \"insistently\" asking Russia to allow the Europeans to take part.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.530144+08:00",
+          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
+          "excerpt": "In a lengthy press conference following his talks with Trump and Xi, Putin addressed the question of multilateral peace talks, saying the Americans were \"insistently\" asking Russia to allow the Europeans to take part.",
+          "sentence_hash": "f1bc3ed049260d318b6c553dad9a4e098d414bd068c1697e045d4b3f6f5c55df",
+          "anchors": [
+            "and",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "moscow",
+        "germany",
+        "shenzhen",
+        "coalition",
+        "ukrainian president volodymyr zelensky",
+        "still",
+        "and",
+        "kyiv",
+        "europe",
+        "prime minister andy burnham",
+        "us",
+        "americans",
+        "but putin",
+        "nato",
+        "donald trump",
+        "europeans",
+        "putin",
+        "china",
+        "kushner",
+        "chinese president xi jinping",
+        "published\neuropean",
+        "german chancellor friedrich merz",
+        "berlin",
+        "air force one",
+        "but",
+        "they",
+        "vladimir putin",
+        "russia",
+        "jared kushner",
+        "ukrainian",
+        "russians",
+        "article five",
+        "european",
+        "striking",
+        "uk",
+        "trump",
+        "kyiv article five",
+        "western",
+        "willing",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_80c36a5bc239f5ac60b4e560",
+      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+      "category": "国际",
+      "published_at": "2026-11-19T20:07:02+00:00",
+      "why_relevant": "国际法院裁决人道法重大",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Myanmar committed genocide against Rohingya minority, top UN court rules - Published Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.531314+08:00",
+          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
+          "excerpt": "Myanmar committed genocide against Rohingya minority, top UN court rules - Published Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).",
+          "sentence_hash": "40611661127d7d4c14f32e854d5650c71c6416837a4479bc8b0ccfc70c03c481",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.531340+08:00",
+          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
+          "excerpt": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
+          "sentence_hash": "0dba63c732ed5d4d3a4db799e33fa3e71921219b2ad802280148900404d3e314",
+          "anchors": [
+            "un",
+            "international court"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "A military crackdown in 2017 killed thousands of Rohingya and forced more than 700,000 to flee Buddhist-majority Myanmar, formerly known as Burma.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.531368+08:00",
+          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
+          "excerpt": "A military crackdown in 2017 killed thousands of Rohingya and forced more than 700,000 to flee Buddhist-majority Myanmar, formerly known as Burma.",
+          "sentence_hash": "c41688a8a50bf84210a3e822a09aeff017d67a0615081749df5417c3e061b963",
+          "anchors": [
+            "017 killed"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The court found on Thursday that \"genocidal intent is the only reasonable inference that can be drawn from the evidence\" it had seen.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.531395+08:00",
+          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
+          "excerpt": "The court found on Thursday that \"genocidal intent is the only reasonable inference that can be drawn from the evidence\" it had seen.",
+          "sentence_hash": "8af6fac615c5e27d85addb09bff5fb6ed5c6d7a0c7be5e23e2cd6b40aad8274a",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The verdict was reached by a majority of nine votes to six among a panel of judges from around the world.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.531415+08:00",
+          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
+          "excerpt": "The verdict was reached by a majority of nine votes to six among a panel of judges from around the world.",
+          "sentence_hash": "37f0be1aab8d6f76459fba4007285d23bb2369b600bed25590e7fcc88ee5bdbf",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The ICJ also found in favour by majority that Myanmar had violated several other parts of the 1948 Genocide Convention.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.531436+08:00",
+          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
+          "excerpt": "The ICJ also found in favour by majority that Myanmar had violated several other parts of the 1948 Genocide Convention.",
+          "sentence_hash": "6a55d6f9fa537d5809c69a7d9c313c093cffe5049f40eb0c47ee995d26ef3e92",
+          "anchors": [
+            "un"
+          ]
+        }
+      ],
+      "entities": [
+        "after",
+        "published\nmyanmar",
+        "icj",
+        "yuji iwasawa",
+        "bangladesh",
+        "iwasawa",
+        "arakan rohingya salvation army",
+        "arsa",
+        "refugees",
+        "rohingya",
+        "thursday",
+        "buddhist",
+        "rohingya muslim",
+        "the gambia",
+        "rakhine state",
+        "myanmar",
+        "genocide convention",
+        "burma",
+        "un",
+        "international court",
+        "while",
+        "justice"
+      ],
+      "numbers": [
+        "017 killed"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 23
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9138abbf7a748031816c9b53",
+      "title": "Hunterbrook Says It’s Not Just NVIDIA, ‘AMD Has A China Problem Of Its Own,’ With AMD Firmware Now Traced To Blacklisted IEIT Servers [Update: AMD Responds]",
+      "url": "https://wccftech.com/hunterbrook-says-its-not-just-nvidia-amd-has-a-china-problem-of-its-own-with-amd-firmware-now-traced-to-blacklisted-ieit-servers/",
+      "publisher": "Wccftech",
+      "summary": "In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVIDIA-specific problem. Hunterbrook: AMD firmware has appeared in products linked to a U.S.-blacklisted Chinese server maker Here is a summary of Hunterbrook's report on AMD. Do note that the firm has also disclosed a shor",
+      "category": "科技",
+      "published_at": "2026-11-19T16:36:21+00:00",
+      "why_relevant": "AMD供应链涉华GPU风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVI",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.532821+08:00",
+          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
+          "excerpt": "In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVI",
+          "sentence_hash": "2dacb2ab507d0650e0448e56d3ed3ad71643b936923c3e1a8869da0b8033df4b",
+          "anchors": [
+            "pi",
+            "corporate"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "So, readers should note that Hunterbrook has a vested interest in painting AMD in the worst possible light.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.532865+08:00",
+          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
+          "excerpt": "So, readers should note that Hunterbrook has a vested interest in painting AMD in the worst possible light.",
+          "sentence_hash": "ed6e9d576262d25ca51131d157854471bcabbb8e72f61d6a0060d93da2db1767",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "IEIT Systems and Post-Blacklisting Firmware In March 2025, the U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.532885+08:00",
+          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
+          "excerpt": "IEIT Systems and Post-Blacklisting Firmware In March 2025, the U.S.",
+          "sentence_hash": "9734d25c82af2e06a80bca8c4811b09ebb5d9551e7b6d9b97f67e9bc6ef1be4d",
+          "anchors": [
+            "March 20"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "More than 15 months later, on October 19, 2026, IEIT posted a BIOS (startup software) update for one of its servers, which referenced an upgrade of the \"codebase PI version to 100B.\" Hunterbrook downloaded the file and identified AMD’s Platform Initialization (PI) startup firmwar",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.532954+08:00",
+          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
+          "excerpt": "More than 15 months later, on October 19, 2026, IEIT posted a BIOS (startup software) update for one of its servers, which referenced an upgrade of the \"codebase PI version to 100B.\" Hunterbrook downloaded the file and identified AMD’s Platform Initialization (PI) startup firmwar",
+          "sentence_hash": "6ce5333831276924b35da78905adfe4161f199f28ef2dc60ea614cf5535bd63d",
+          "anchors": [
+            "July 20",
+            "October 19",
+            "post"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Since its blacklisting, IEIT has incorporated at least six newer versions of AMD’s firmware into its server software updates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.532988+08:00",
+          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
+          "excerpt": "Since its blacklisting, IEIT has incorporated at least six newer versions of AMD’s firmware into its server software updates.",
+          "sentence_hash": "1e405699fc49e7fe60dba48512c2835754cd8eb3333ac3eed98edd268deaa34a",
+          "anchors": [
+            "corporate"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Where AMD release dates are publicly available, IEIT’s builds appeared around 25 to 61 days later.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.533016+08:00",
+          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
+          "excerpt": "Where AMD release dates are publicly available, IEIT’s builds appeared around 25 to 61 days later.",
+          "sentence_hash": "61627d151d8cfeeb6fe903a99c3e0e86d899ebc628f9959fc4771e58f0ae893f",
+          "anchors": [
+            "here",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "wall street journal",
+        "bios",
+        "shipping activity\nwhat",
+        "kaytus",
+        "post",
+        "jinan",
+        "pi",
+        "interestingly",
+        "aivres",
+        "since",
+        "amd",
+        "entity list",
+        "ipo",
+        "ieit",
+        "kaytus group ltd",
+        "turin",
+        "ai",
+        "blacklisting firmware\nin march",
+        "july",
+        "here",
+        "china",
+        "aivres partnership",
+        "maginfra",
+        "platform initialization",
+        "anthropic",
+        "british virgin islands",
+        "chinese",
+        "nvidia",
+        "more",
+        "february",
+        "kaytus systems",
+        "commerce department",
+        "aivres systems",
+        "singapore",
+        "october",
+        "systems",
+        "hunterbrook",
+        "inspur systems",
+        "corporate",
+        "instinct",
+        "new york times"
+      ],
+      "numbers": [
+        "164 million",
+        "$1.57 billion",
+        "$164 million",
+        "1.57 billion"
+      ],
+      "dates": [
+        "March 20",
+        "February 20",
+        "May 20",
+        "July 20",
+        "October 19"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 50
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ebede77ba13b9ffc25873b42",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "publisher": "Simon Willison",
+      "summary": "External sandboxes for coding agents\nI've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.\nI worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.\nMy post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs in",
+      "category": "科技",
+      "published_at": "2026-11-17T22:52:29+00:00",
+      "why_relevant": "AI编程沙箱实用技术",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "17th November 2026 - Link Blog External sandboxes for coding agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.533940+08:00",
+          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
+          "excerpt": "17th November 2026 - Link Blog External sandboxes for coding agents.",
+          "sentence_hash": "51bb4c1efe8a0461a45c1d24ea8b1232f717b43266a84eaa3c9d7ad4a589d37e",
+          "anchors": [
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.533978+08:00",
+          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
+          "excerpt": "I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
+          "sentence_hash": "6d0d3eefa4881badbc2596d750241d35339559e9f0b7a00b7831c1762c0b2d3c",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.534000+08:00",
+          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
+          "excerpt": "I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.",
+          "sentence_hash": "08992c7f74713420e21bd77c3dc51eb7d279cfd6136e9e30a635620b0eebea37",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.534049+08:00",
+          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
+          "excerpt": "My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.",
+          "sentence_hash": "997a33e04072906e11d2089e66381c05aa1af0e63dca6b9669dc1f420cc603d5",
+          "anchors": [
+            "here"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.534081+08:00",
+          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
+          "excerpt": "- external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.",
+          "sentence_hash": "839d86388dcbd0268a2d97c3de1d4e78c8bceb102edbc81be6af1db5c0decd45",
+          "anchors": [
+            "ai",
+            "web"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package!",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.534107+08:00",
+          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
+          "excerpt": "- external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package!",
+          "sentence_hash": "24638ce0fc4acf9c9c5ca86e0e48afa0599914f400369dda4be703375a721293",
+          "anchors": [
+            "quicksand",
+            "ui",
+            "web"
+          ]
+        }
+      ],
+      "entities": [
+        "apple containers",
+        "https",
+        "web",
+        "prime radiant",
+        "recent",
+        "http",
+        "you",
+        "hide",
+        "ui",
+        "alpine linux",
+        "pr",
+        "ai",
+        "quicksand",
+        "here",
+        "api",
+        "each",
+        "claude code",
+        "claude",
+        "november",
+        "codex",
+        "microsoft",
+        "locating",
+        "qemu",
+        "superpowers",
+        "python",
+        "datasette python",
+        "assembly",
+        "link blog\nexternal",
+        "node",
+        "pyodide",
+        "qwen",
+        "running"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_0182f4d4f14521a1442ccd79",
+      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+      "publisher": "SEC 新闻稿",
+      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
+      "category": "财经",
+      "published_at": "2026-11-19T14:39:02+00:00",
+      "why_relevant": "SEC加密诈骗防风险",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.535399+08:00",
+          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
+          "excerpt": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S.",
+          "sentence_hash": "7ac047e032a8dfab432d27a151d68d1defd7dfe6998fa04d5d17305e3c244b4b",
+          "anchors": [
+            "37 Million",
+            "$37 Million"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The defendants allegedly lured investors to believe they were working with a real investment adviser and crypto asset trading platform, when in fact the adviser and platform were entirely fake, simply fronts to steal investor money.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.535463+08:00",
+          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
+          "excerpt": "The defendants allegedly lured investors to believe they were working with a real investment adviser and crypto asset trading platform, when in fact the adviser and platform were entirely fake, simply fronts to steal investor money.",
+          "sentence_hash": "a8addf9126215f4181d5faa0c114afeb7f95413d28b3a93e42bc88a7198ac2cc",
+          "anchors": [
+            "real"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "markets before luring their victims to send as much money as possible to a supposed crypto asset trading platform, leading victims to believe they were buying real crypto assets on the platform.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.535551+08:00",
+          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
+          "excerpt": "markets before luring their victims to send as much money as possible to a supposed crypto asset trading platform, leading victims to believe they were buying real crypto assets on the platform.",
+          "sentence_hash": "2c18876f77a3bf2054be430dc26af3a4184aeee0ebe8a84d3c71d7801eecc892",
+          "anchors": [
+            "real"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The scheme operated in four adviser-platform pairs from August 2024 through May 2026, with the perpetrators abandoning one pair for the next after operating for a few months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.535592+08:00",
+          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
+          "excerpt": "The scheme operated in four adviser-platform pairs from August 2024 through May 2026, with the perpetrators abandoning one pair for the next after operating for a few months.",
+          "sentence_hash": "16b6c26be42e40e7c18ad123d640dda397468271e2b5449264ddaa0c7d0dd930",
+          "anchors": [
+            "August 20",
+            "May 20"
+          ]
+        }
+      ],
+      "entities": [
+        "chat capital",
+        "laura",
+        "office",
+        "august",
+        "steal more than",
+        "united states district court",
+        "investors\nwashington",
+        "associated wealth advisors ltd",
+        "hb",
+        "wealth advisors",
+        "district",
+        "tech brokerage asset alliance ltd",
+        "llc",
+        "real",
+        "crypto exchange",
+        "allaird",
+        "simple crypto exchange inc",
+        "advisor we",
+        "securities exchange act",
+        "emerging technologies unit",
+        "nov",
+        "colorado",
+        "assistance",
+        "cyber",
+        "million from",
+        "chief",
+        "enforcement division",
+        "eight entities used fake crypto asset trading platforms",
+        "finra",
+        "essential crypto exchange",
+        "idea",
+        "rule",
+        "advisers act",
+        "sec",
+        "exchange commission",
+        "according",
+        "the securities",
+        "convergent wealth advisors inc",
+        "section",
+        "investor education",
+        "sections",
+        "fin",
+        "investment advisers act"
+      ],
+      "numbers": [
+        "37 Million",
+        "$37 Million"
+      ],
+      "dates": [
+        "August 20",
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 47
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ca3e8ada238320bfaf410380",
+      "title": "AMD shares fall after short seller report on China links",
+      "url": "https://www.ft.com/content/69fd7870-a2cf-4e75-88bc-a1c4036efded?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
+      "category": "财经",
+      "published_at": "2026-11-19T18:40:23+00:00",
+      "why_relevant": "AMD做空冲击半导体信号",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.535844+08:00",
+          "content_sha256": "b84c64f4fd1e94145d684fc6db04121d9f62db9be2369a3131f80c16c824613e",
+          "excerpt": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
+          "sentence_hash": "65d40e7091cb72fc32b49b548352a8874d27d96acffa0282f93b3ff0995b8571",
+          "anchors": [
+            "11%"
+          ]
+        }
+      ],
+      "entities": [
+        "nvidia",
+        "hunterbrook",
+        "chipmaker"
+      ],
+      "numbers": [
+        "11%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 4
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_99ab170beebdd0ed1c6e2f25",
+      "title": "US crackdown on scam networks connected to Chinese-born tycoon Chen Zhi ramps up",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375133/us-crackdown-scam-networks-connected-chinese-born-tycoon-chen-zhi-ramps",
+      "publisher": "SCMP",
+      "summary": "The United States sanctioned three individuals and two companies on Thursday over their alleged links to scam centre compounds in Southeast Asia, in the latest US crackdown on networks connected to Chinese-born tycoon Chen Zhi.\n“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott. “These criminal enterprises steal billions of dollars from victims around..",
+      "category": "国际",
+      "published_at": "2026-11-19T22:07:55+00:00",
+      "why_relevant": "美国打击诈骗网络涉华",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.536212+08:00",
+          "content_sha256": "5e78f51b6749fcb410e4a232f9cc124514eac9a799abcddae008358f482a6701",
+          "excerpt": "“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott.",
+          "sentence_hash": "cc007e1baba55ec2869e4f3500c684ec686eaf274dbbaf367a00d0316425afd9",
+          "anchors": [
+            "$18.2 billion",
+            "18.2 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "americans",
+        "chinese",
+        "thursday",
+        "these",
+        "state department",
+        "southeast asia",
+        "tommy pigott",
+        "the united states",
+        "chen zhi"
+      ],
+      "numbers": [
+        "$18.2 billion",
+        "18.2 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 12
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_879ad611643c223921bc6e0d",
+      "title": "Iraq's risky standoff: The state vs. Iran-allied militias",
+      "url": "https://www.dw.com/en/iraq-s-risky-standoff-the-state-vs-iran-allied-militias/a-79995757?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "This week, Iraqi security forces surrounded an area run by the Kataib Hezbollah militia. Onlookers describe it as the most dangerous confrontation between the Iraqi state and Iran-allied militias in decades.",
+      "category": "国际",
+      "published_at": "2026-11-19T18:59:00+00:00",
+      "why_relevant": "伊拉克伊朗民兵中东风险",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Iraq's risky standoff: Government vs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.537494+08:00",
+          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
+          "excerpt": "Iraq's risky standoff: Government vs.",
+          "sentence_hash": "9d76ec805d566de1c1c314715ea9f608cac54f8aed41404a742b91734ab6f546",
+          "anchors": [
+            "is"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Iran-allied militias November 19, 2026 For years, there have all kinds of rumors about Jurf al-Sakhar, an area around 50 kilometers (31 miles) south of the Iraqi capital Baghdad.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.537531+08:00",
+          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
+          "excerpt": "Iran-allied militias November 19, 2026 For years, there have all kinds of rumors about Jurf al-Sakhar, an area around 50 kilometers (31 miles) south of the Iraqi capital Baghdad.",
+          "sentence_hash": "f2192011f3dbb1c00d655be83d490c3d70cb9d1f5cb773e1112059213bd2b664",
+          "anchors": [
+            "November 19",
+            "rumors"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It is controlled by an Iraqi militia called Kataib Hezbollah, that's closely allied with Iran, and no Iraqi government troops or news media outlets have been allowed inside for around 12 years.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.537561+08:00",
+          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
+          "excerpt": "It is controlled by an Iraqi militia called Kataib Hezbollah, that's closely allied with Iran, and no Iraqi government troops or news media outlets have been allowed inside for around 12 years.",
+          "sentence_hash": "0bd0622486a7cdeb0c93b9473359ab53b5428513335df923ed460e8274bcb4e0",
+          "anchors": [
+            "government",
+            "for",
+            "is"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Rumors about what's happening in the area include allegations about secret prisons, mass graves, drone and weapons manufacturing and storage, as well as criminal activity such as oil smuggling.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.537590+08:00",
+          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
+          "excerpt": "Rumors about what's happening in the area include allegations about secret prisons, mass graves, drone and weapons manufacturing and storage, as well as criminal activity such as oil smuggling.",
+          "sentence_hash": "0f36133ddc9d174b3a1816ef40b24b3f539a9bdd10657f6eb2af176bb40e75af",
+          "anchors": [
+            "is"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Jurf al-Sakhar is also allegedly a base for foreign, Hezbollah-supporting nationals from Iran, Yemen, Bahrain and Lebanon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.537612+08:00",
+          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
+          "excerpt": "Jurf al-Sakhar is also allegedly a base for foreign, Hezbollah-supporting nationals from Iran, Yemen, Bahrain and Lebanon.",
+          "sentence_hash": "94160fba69886feb71cec838ce83ba4c8c8137e6e2a5c8087954a9bdb6fb277c",
+          "anchors": [
+            "for",
+            "is"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Recently two people — an Israeli researcherand a US journalist — who were kidnapped by an Iraqi militia are thought to have been held captive in this area.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.537645+08:00",
+          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
+          "excerpt": "Recently two people — an Israeli researcherand a US journalist — who were kidnapped by an Iraqi militia are thought to have been held captive in this area.",
+          "sentence_hash": "52c92f3686cdc029ae38d7f3285a890fc22381f040f2c57b39ba69b77d801403",
+          "anchors": [
+            "is"
+          ]
+        }
+      ],
+      "entities": [
+        "iranian",
+        "jurf",
+        "shiite muslim",
+        "popular mobilization forces",
+        "pmf",
+        "prime minister ali",
+        "for",
+        "us",
+        "observers",
+        "israeli",
+        "bahrain",
+        "government",
+        "nov",
+        "its",
+        "iran",
+        "kataib hezbollah",
+        "november",
+        "sakhar",
+        "hezbollah",
+        "nasr",
+        "iraqi",
+        "but",
+        "not",
+        "iraq",
+        "islamic state",
+        "sunni muslims",
+        "zaidi",
+        "rumors",
+        "lebanon",
+        "friday",
+        "baghdad",
+        "yemen",
+        "recently",
+        "is"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 19"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    }
+  ]
+}

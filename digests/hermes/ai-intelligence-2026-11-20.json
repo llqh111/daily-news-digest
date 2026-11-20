@@ -1,0 +1,738 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T00:07:28.173835+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-20.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-19.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_141a7a7811f371cfb4427305",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "publisher": "Simon Willison",
+      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol\nOpenAI:\n\nWe’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\n\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models.\n6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. Th",
+      "category": "科技",
+      "published_at": "2026-11-17T22:38:52+00:00",
+      "why_relevant": "OpenAI新旗舰必读前沿",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523345+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
+          "sentence_hash": "100fdbb052de99f4ef9e2285166e043180a063cef8589c558d60d55f42712db1",
+          "anchors": [
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523388+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
+          "sentence_hash": "0faeaef30942f2fb567668aa2ccfa57e24ce4e3a5fc4a776d86325848c0810a0",
+          "anchors": [
+            "gpt",
+            "sol",
+            "astra"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523424+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
+          "sentence_hash": "c03fdbd43dc1c6e11932ca5d6a1261068ebdab8d2d8e1bf760f2cf0646bdf85d",
+          "anchors": [
+            "80%",
+            "ok",
+            "$8",
+            "$4",
+            "$40"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "6 Astra and Fable 5 were both $10/$50.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523442+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "6 Astra and Fable 5 were both $10/$50.",
+          "sentence_hash": "9789af5bc4f507431e0a2e69db3e11eda3e71cbe8a64166b2b1d930c468027e5",
+          "anchors": [
+            "$1",
+            "$50",
+            "$10"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523465+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
+          "sentence_hash": "30e66fb56a773dba083705cad2f33c7dc58fb58a09eaaf74828ed157ac5b848b",
+          "anchors": [
+            "$0.40",
+            "$1"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.523495+08:00",
+          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
+          "excerpt": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
+          "sentence_hash": "4788f87fd950f2b5874c06171b7ef411b69becb466bff1ffb4dbab0bcf51ab33",
+          "anchors": [
+            "$1",
+            "$20",
+            "$4",
+            "$2",
+            "$10",
+            "$10 "
+          ]
+        }
+      ],
+      "entities": [
+        "neither",
+        "ok",
+        "tok",
+        "fable",
+        "sol",
+        "llm",
+        "november",
+        "codex",
+        "carbon",
+        "they",
+        "brooklyn",
+        "claude fable",
+        "gemini",
+        "ultra",
+        "link blog",
+        "gpt",
+        "then",
+        "make",
+        "cli",
+        "these",
+        "yonkers",
+        "here",
+        "theo browne",
+        "api",
+        "open",
+        "astra"
+      ],
+      "numbers": [
+        "80%",
+        "$1",
+        "$50",
+        "$8",
+        "$20",
+        "$0.40",
+        "$4",
+        "$10",
+        "$2",
+        "$10 ",
+        "$40"
+      ],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 38
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "source_artifact_date": "2026-11-20",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_04073a4fb27d337917e5d7fe",
+      "title": "California targets Nvidia in China AI chip probe",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "category": "国际",
+      "published_at": "2026-11-19T23:04:30+00:00",
+      "why_relevant": "英伟达涉华调查芯片地缘",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524455+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+          "sentence_hash": "23f943a1f1244d28f6d47618daf504fe7ae6ade1ad6a0ae3e93c0e59744101f1",
+          "anchors": [
+            "sign"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524503+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
+          "sentence_hash": "9138a244910f3f3881a4e375cd2c4dce815b27387802c99fccee1d7553208a73",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524537+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+          "sentence_hash": "fb24917b4d8e04ca4a3bbface54e8a73026c5f3cb475a4840b0fa697ded18ba0",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524570+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+          "sentence_hash": "bb2bed0b2270777cb8cb6b6628a8167a924556c7e756810ba9b77b3a99dcfddb",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524596+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+          "sentence_hash": "365e2367e94d3f3694adbc51642d8d4d62e652005acc7b282ea6debaa8e8a96e",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.524624+08:00",
+          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
+          "excerpt": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "sentence_hash": "a16ff24fd563610013aff3d84f20911dd54fc7fcf95d5732adbf9a1e76b093ee",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "published\ncalifornia",
+        "elon musk",
+        "bbc",
+        "us",
+        "department",
+        "ai",
+        "sign",
+        "ceo",
+        "california",
+        "bonta",
+        "china",
+        "earlier",
+        "companies",
+        "santa clara",
+        "tech decoded",
+        "november",
+        "chinese",
+        "nvidia",
+        "jensen huang",
+        "megaspeed",
+        "alice huang",
+        "congress",
+        "rob bonta",
+        "harvey jones",
+        "uk",
+        "singapore",
+        "some",
+        "thursday",
+        "commerce",
+        "huang",
+        "new york times",
+        "outside"
+      ],
+      "numbers": [
+        "22%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 33
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "source_artifact_date": "2026-11-20",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_3d312b28ac5cc86a6093b648",
+      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "publisher": "The Guardian",
+      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic imm",
+      "category": "国际",
+      "published_at": "2026-11-19T17:13:23+00:00",
+      "why_relevant": "中美俄联合声明地缘核心",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525886+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
+          "sentence_hash": "98998353c4918dfe3c381429da8b8841bd3d1ec51d55a4931c6d8736b93af72a",
+          "anchors": [
+            "un",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525923+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
+          "sentence_hash": "f9249a4f90334addbc3b09896a1d3d3fe405f034791e4b30ced04d107729c35a",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525959+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
+          "sentence_hash": "a077146dc36f65e9fc506853b7973af93bfc4cd68ee10da75e774d1d7941a4cd",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.525997+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
+          "sentence_hash": "8f2cb2bffd2f71c93307fa6b78e45214ad0f46226dbf5c9b66bb09e3937ecfd2",
+          "anchors": [
+            "un"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.526063+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
+          "sentence_hash": "15d257966f3d1dba1b15f1ad2d9e26ada12361dda5e60442d1946da056ab8499",
+          "anchors": [
+            "un",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.526100+08:00",
+          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
+          "excerpt": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
+          "sentence_hash": "8fd2220e441398be893aa981030868921da425d3d26de193e5dbcb85757ceb4a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "patricia kim",
+        "she",
+        "even",
+        "france",
+        "asia",
+        "first",
+        "us",
+        "analysts",
+        "donald trump",
+        "putin",
+        "yun sun",
+        "china",
+        "iran",
+        "centre",
+        "pacific economic cooperation",
+        "chinese",
+        "university",
+        "vladimir putin",
+        "russia",
+        "overall",
+        "uk",
+        "beijing",
+        "trump",
+        "apec",
+        "some",
+        "russian",
+        "stimson center",
+        "thursday",
+        "on thursday",
+        "brookings institution",
+        "xi jinping",
+        "prof william hurst",
+        "un",
+        "sun",
+        "geopolitics",
+        "cambridge",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "source_artifact_date": "2026-11-20",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_85c65bbbdc285431c10fe42c",
+      "title": "You can now buy a Steam Machine without getting on a waitlist",
+      "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+      "publisher": "The Verge",
+      "summary": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist [&#8230;]",
+      "category": "科技",
+      "published_at": "2026-11-19T19:33:22+00:00",
+      "why_relevant": "Steam硬件玩家必读",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.526984+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
+          "sentence_hash": "228babdd4cf4652e27485a44b905303bbc63d5d59ed0c0e564f06f2d8c0aa1b8",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.527056+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
+          "sentence_hash": "6c3511f789d618bdb0ce1f8dabca9d672616288afeed30a2c21082f2e0a80fc3",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.527101+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
+          "sentence_hash": "b128e01f5b9caf4dc9ca8b1840885ae0323223521f88d5e026ca45b91abaed83",
+          "anchors": [
+            "$1,049 "
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "A 2TB model without a controller costs $1,349.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.527117+08:00",
+          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
+          "excerpt": "A 2TB model without a controller costs $1,349.",
+          "sentence_hash": "0bfdf70292648cd2f91e95048b855c9a84e7200f964c8b15224c62439d4f9da1",
+          "anchors": [
+            "$1,349"
+          ]
+        }
+      ],
+      "entities": [
+        "after",
+        "if valve",
+        "initially",
+        "june",
+        "valve",
+        "maggedon",
+        "steam machine",
+        "january",
+        "steam",
+        "you",
+        "pc"
+      ],
+      "numbers": [
+        "$1,049 ",
+        "$1,349"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 4,
+        "anchor_count": 13
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "source_artifact_date": "2026-11-20",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_730fd78af105d174daa5c18d",
+      "title": "Anthropic closes debut with $1.8 trillion market cap in landmark moment for AI: Live IPO updates",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "Anthropic IPO live updates: Follow ANT stock's Nasdaq debut, opening share price, valuation and investor reaction to the Claude AI maker.",
+      "category": "财经",
+      "published_at": "2026-11-19T23:17:45+00:00",
+      "why_relevant": "AI巨头IPO里程碑投资热点",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528616+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
+          "sentence_hash": "35ef513d14699d3c9b3120bc9644494a5da07cb9aa7ba10387637ba7dc2c4498",
+          "anchors": [
+            "17%"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The stock closed at $97.17 per share.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528640+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "The stock closed at $97.17 per share.",
+          "sentence_hash": "ce476b7d48bf67ac1455e57fcc5a7c2dc81d632186bfcd40713bdbc4e356506e",
+          "anchors": [
+            "$97.17 "
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528669+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
+          "sentence_hash": "d0e999efe24696f2a2b600a887c0afd61e183aaa14b763d3acb5f954c5636d6b",
+          "anchors": [
+            "81.3 billion",
+            "$111.50",
+            "ai",
+            "$81.3 billion",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528700+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
+          "sentence_hash": "a83151916277dfa965594146817a0183fddc638012707238106cdfdae8d148b7",
+          "anchors": [
+            "980 million",
+            "$83 "
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528724+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
+          "sentence_hash": "8f470a48d714985bdf37f4d08643fcb4cb481a2c8fb9b5f5d78192f17df05a7d",
+          "anchors": [
+            "1.8 trillion",
+            "$1.8 trillion",
+            "market"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-20T08:03:38.528752+08:00",
+          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
+          "excerpt": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
+          "sentence_hash": "d3ff511d84bb7c4cb3bfbc8f1ee9ebcd755da9d844fe447af575ad0dd6dae681",
+          "anchors": [
+            "846 million",
+            "522 million",
+            "open"
+          ]
+        }
+      ],
+      "entities": [
+        "anthropic dario amodei",
+        "the claude",
+        "at thursday",
+        "hours ago\nanthropic",
+        "hours ago\ndemonstrators",
+        "amazon",
+        "dario amodei",
+        "site",
+        "pbc",
+        "sept",
+        "us",
+        "ipo",
+        "alphabet",
+        "ai",
+        "president donald trump",
+        "ceo",
+        "englewood cliffs",
+        "silicon valley",
+        "california",
+        "kate rooney",
+        "nov",
+        "wednesday",
+        "cnbc",
+        "open",
+        "nasdaq",
+        "anthropic",
+        "claude",
+        "brendan mcdermid",
+        "ashley capoot",
+        "november",
+        "conference",
+        "san francisco",
+        "dario",
+        "microsoft",
+        "apple",
+        "nvidia",
+        "more",
+        "anthropic daniela amodei",
+        "amazon andy jassy",
+        "watch",
+        "google",
+        "daniela amodei",
+        "june",
+        "new jersey",
+        "reuters\nanthropic",
+        "new york city",
+        "thursday",
+        "semafor",
+        "hours ago\namazon",
+        "manuel orbegozo",
+        "president",
+        "ant",
+        "market",
+        "the world",
+        "space",
+        "nasdaq adena friedman"
+      ],
+      "numbers": [
+        "$1.8 trillion",
+        "17%",
+        "$83 ",
+        "81.3 billion",
+        "33.24 billion",
+        "$33.24 billion",
+        "$111.50",
+        "980 million",
+        "$81.3 billion",
+        "522 million",
+        "30%",
+        "1.8 trillion",
+        "$97.17 ",
+        "200%",
+        "846 million"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 71
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "source_artifact_date": "2026-11-20",
+      "freshness_label": "today"
+    }
+  ]
+}

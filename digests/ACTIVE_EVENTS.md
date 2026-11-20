@@ -1,6 +1,79 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-19 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-20 08:07。
+
+## Myanmar faces historic genocide verdict at UN court over Rohingya massacres
+- 状态：更新中；首见 2026-11-19；最近更新 2026-11-20
+- 最新事实：Myanmar committed genocide against Rohingya minority, top UN court rules - Published Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261119_0aa624fe9da3`
+
+## GPT‑6.2 Astra and GPT‑6.2 Sol
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.
+- 事件 ID：`evt_20261120_413757c89d76`
+
+## California targets Nvidia in China AI chip probe
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261120_d453d533da16`
+
+## China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261120_05e94cc8ab41`
+
+## You can now buy a Steam Machine without getting on a waitlist
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261120_5c8da7439469`
+
+## Anthropic closes debut with $1.8 trillion market cap in landmark moment for AI: Live IPO updates
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261120_36f7b416dd3d`
+
+## Europe ready for talks with Russia on ending war in Ukraine, leaders say
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：Europe ready for talks with Russia on ending war in Ukraine, leaders say - Published European leaders have said they are ready for negotiations with Russia on ending the war in Ukraine, in a strong show of support for Kyiv.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261120_961cc63f1950`
+
+## Hunterbrook Says It’s Not Just NVIDIA, ‘AMD Has A China Problem Of Its Own,’ With AMD Firmware Now Traced To Blacklisted IEIT Servers [Update: AMD Responds]
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVI
+- 事件 ID：`evt_20261120_1e9503eab36c`
+
+## External sandboxes for coding agents
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：17th November 2026 - Link Blog External sandboxes for coding agents.
+- 事件 ID：`evt_20261120_69d72e4dbfdd`
+
+## SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S.
+- 事件 ID：`evt_20261120_d79031ebd33d`
+
+## AMD shares fall after short seller report on China links
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261120_efc590bf639b`
+
+## US crackdown on scam networks connected to Chinese-born tycoon Chen Zhi ramps up
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261120_ac5c15833957`
+
+## Iraq's risky standoff: The state vs. Iran-allied militias
+- 状态：更新中；首见 2026-11-20；最近更新 2026-11-20
+- 最新事实：Iraq's risky standoff: Government vs.
+- 事件 ID：`evt_20261120_1c9208010780`
 
 ## Claude-maker Anthropic poised for $1.4tn stock market debut
 - 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
@@ -34,11 +107,6 @@
 - 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
 - 最新事实：The Israeli military said the "targeted" operation aimed to dismantle a "terror tunnel" west of the so-called Yellow Line, which marks the more than 60% of Gaza's territory occupied by Israel.
 - 事件 ID：`evt_20261119_7971a6d03b7e`
-
-## Myanmar faces historic genocide verdict at UN court over Rohingya massacres
-- 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
-- 最新事实：Myanmar faces historic genocide verdict at UN court over Rohingya massacres - Published When the judges of the International Court of Justice read out their verdict in the seven-year-old genocide case filed by The Gambia against Myanmar on Thursday, they could make history.
-- 事件 ID：`evt_20261119_0aa624fe9da3`
 
 ## google-labs-code/stitch-skills
 - 状态：更新中；首见 2026-11-19；最近更新 2026-11-19
