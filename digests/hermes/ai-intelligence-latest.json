@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T00:07:28.173835+00:00",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T00:08:41.374490+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-20.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-21.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-19.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-20.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,281 +23,160 @@
   },
   "items": [
     {
-      "article_id": "a1_141a7a7811f371cfb4427305",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "publisher": "Simon Willison",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol\nOpenAI:\n\nWe’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\n\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models.\n6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. Th",
-      "category": "科技",
-      "published_at": "2026-11-17T22:38:52+00:00",
-      "why_relevant": "OpenAI新旗舰必读前沿",
-      "relevance_score": 10.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523345+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
-          "sentence_hash": "100fdbb052de99f4ef9e2285166e043180a063cef8589c558d60d55f42712db1",
-          "anchors": [
-            "November 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523388+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
-          "sentence_hash": "0faeaef30942f2fb567668aa2ccfa57e24ce4e3a5fc4a776d86325848c0810a0",
-          "anchors": [
-            "gpt",
-            "sol",
-            "astra"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523424+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
-          "sentence_hash": "c03fdbd43dc1c6e11932ca5d6a1261068ebdab8d2d8e1bf760f2cf0646bdf85d",
-          "anchors": [
-            "80%",
-            "ok",
-            "$8",
-            "$4",
-            "$40"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "6 Astra and Fable 5 were both $10/$50.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523442+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "6 Astra and Fable 5 were both $10/$50.",
-          "sentence_hash": "9789af5bc4f507431e0a2e69db3e11eda3e71cbe8a64166b2b1d930c468027e5",
-          "anchors": [
-            "$1",
-            "$50",
-            "$10"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523465+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
-          "sentence_hash": "30e66fb56a773dba083705cad2f33c7dc58fb58a09eaaf74828ed157ac5b848b",
-          "anchors": [
-            "$0.40",
-            "$1"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523495+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
-          "sentence_hash": "4788f87fd950f2b5874c06171b7ef411b69becb466bff1ffb4dbab0bcf51ab33",
-          "anchors": [
-            "$1",
-            "$20",
-            "$4",
-            "$2",
-            "$10",
-            "$10 "
-          ]
-        }
-      ],
-      "entities": [
-        "neither",
-        "ok",
-        "tok",
-        "fable",
-        "sol",
-        "llm",
-        "november",
-        "codex",
-        "carbon",
-        "they",
-        "brooklyn",
-        "claude fable",
-        "gemini",
-        "ultra",
-        "link blog",
-        "gpt",
-        "then",
-        "make",
-        "cli",
-        "these",
-        "yonkers",
-        "here",
-        "theo browne",
-        "api",
-        "open",
-        "astra"
-      ],
-      "numbers": [
-        "80%",
-        "$1",
-        "$50",
-        "$8",
-        "$20",
-        "$0.40",
-        "$4",
-        "$10",
-        "$2",
-        "$10 ",
-        "$40"
-      ],
-      "dates": [
-        "November 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 38
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
-      "source_artifact_date": "2026-11-20",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_04073a4fb27d337917e5d7fe",
-      "title": "California targets Nvidia in China AI chip probe",
-      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "article_id": "a1_4abe5c1e02b0dcf88ce981ee",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "publisher": "The Guardian",
+      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildoutWho are Anthropic’s seven co-founders, now worth $180bn?As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it. On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January. The Dow Jones Industrial Average and S&P 500 closed in correction territory.Anthropic’s re",
       "category": "国际",
-      "published_at": "2026-11-19T23:04:30+00:00",
-      "why_relevant": "英伟达涉华调查芯片地缘",
+      "published_at": "2026-11-20T21:38:17+00:00",
+      "why_relevant": "AI股暴跌，宏观市场信号",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+          "text": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524455+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
-          "sentence_hash": "23f943a1f1244d28f6d47618daf504fe7ae6ade1ad6a0ae3e93c0e59744101f1",
+          "captured_at": "2026-11-21T08:03:21.690318+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
+          "sentence_hash": "04d0a67124e352706ff90cc09794b80115e9646cf2fca37a9dec837ad03b2bfb",
           "anchors": [
-            "sign"
+            "its"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
+          "text": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524503+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
-          "sentence_hash": "9138a244910f3f3881a4e375cd2c4dce815b27387802c99fccee1d7553208a73",
+          "captured_at": "2026-11-21T08:03:21.690353+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
+          "sentence_hash": "865ca7b563d0726f2d13ffdfdb8bdb24f7061d3dbfc39d5227c86b6d9500a72b",
           "anchors": [
-            "ai"
+            "ai",
+            "its",
+            "5%"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+          "text": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524537+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
-          "sentence_hash": "fb24917b4d8e04ca4a3bbface54e8a73026c5f3cb475a4840b0fa697ded18ba0",
+          "captured_at": "2026-11-21T08:03:21.690372+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
+          "sentence_hash": "3b83ec7b0e84f21c1f99edbb7cdb13696d90196ad23e951e1b608bb8688e1816",
           "anchors": [
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+          "text": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524570+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
-          "sentence_hash": "bb2bed0b2270777cb8cb6b6628a8167a924556c7e756810ba9b77b3a99dcfddb",
+          "captured_at": "2026-11-21T08:03:21.690406+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
+          "sentence_hash": "bbc1d2267d2d8e162aeadbb7527efcbf4b2d40c9287ed681265ec4e1c484d804",
           "anchors": [
-            "us"
+            "global",
+            "$4",
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+          "text": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524596+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
-          "sentence_hash": "365e2367e94d3f3694adbc51642d8d4d62e652005acc7b282ea6debaa8e8a96e",
+          "captured_at": "2026-11-21T08:03:21.690437+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
+          "sentence_hash": "54ae686daa555a26c9450778614d3d6994559ba62b30d098adad59cd148e56e3",
           "anchors": [
-            "us"
+            "ai",
+            "9%",
+            "ig"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "text": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524624+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
-          "sentence_hash": "a16ff24fd563610013aff3d84f20911dd54fc7fcf95d5732adbf9a1e76b093ee",
+          "captured_at": "2026-11-21T08:03:21.690458+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
+          "sentence_hash": "718b32bf6172c655f2fda73ffa008a2369fc2f704191aa25b14af4c49ffcb2fe",
           "anchors": [
-            "us",
-            "ai"
+            "its",
+            "$83 ",
+            "$88.30"
           ]
         }
       ],
       "entities": [
-        "published\ncalifornia",
-        "elon musk",
-        "bbc",
-        "us",
-        "department",
-        "ai",
-        "sign",
-        "ceo",
-        "california",
-        "bonta",
-        "china",
-        "earlier",
-        "companies",
-        "santa clara",
-        "tech decoded",
-        "november",
-        "chinese",
-        "nvidia",
-        "jensen huang",
-        "megaspeed",
-        "alice huang",
-        "congress",
-        "rob bonta",
-        "harvey jones",
+        "as anthropic",
+        "ipo",
+        "in japan",
+        "asian",
+        "tsmc",
+        "global",
+        "nikkei",
+        "micron",
+        "wall street journal",
+        "anthropic",
+        "neil wilson",
+        "shares",
+        "disk",
+        "in taiwan",
+        "chris beauchamp",
+        "european",
+        "soft",
         "uk",
-        "singapore",
-        "some",
+        "san",
+        "ig",
+        "january",
+        "bank",
+        "nasdaq composite",
+        "taiwanese",
+        "south korea",
+        "european stoxx",
+        "its",
+        "april",
+        "the dow jones industrial average",
+        "saxo",
+        "march",
+        "tokyo",
+        "taiwan",
+        "on friday",
+        "nasdaq",
+        "claude",
+        "they",
         "thursday",
-        "commerce",
-        "huang",
-        "new york times",
-        "outside"
+        "london",
+        "friday",
+        "ai",
+        "nvidia",
+        "kospi",
+        "wall street",
+        "us"
       ],
       "numbers": [
-        "22%"
+        "1.9%",
+        "9%",
+        "17%",
+        "5.5%",
+        "$83 ",
+        "$4",
+        "12%",
+        "40%",
+        "6%",
+        "14%",
+        "14.5%",
+        "6.7%",
+        "5%",
+        "$85 ",
+        "$88.30"
       ],
       "dates": [],
       "unknowns": [
@@ -307,138 +186,424 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 33
+        "anchor_count": 60
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
-      "source_artifact_date": "2026-11-20",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
+      "source_artifact_date": "2026-11-21",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_3d312b28ac5cc86a6093b648",
-      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
-      "publisher": "The Guardian",
-      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic imm",
+      "article_id": "a1_7fa8d63759af65a45fb3e486",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
       "category": "国际",
-      "published_at": "2026-11-19T17:13:23+00:00",
-      "why_relevant": "中美俄联合声明地缘核心",
+      "published_at": "2026-11-20T16:54:29+00:00",
+      "why_relevant": "导弹误击波兰，战争外溢",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
+          "text": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525886+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
-          "sentence_hash": "98998353c4918dfe3c381429da8b8841bd3d1ec51d55a4931c6d8736b93af72a",
+          "captured_at": "2026-11-21T08:03:21.691466+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
+          "sentence_hash": "e038eab890fb797e5519ec494b3396bbe4ee6e1447d787ddc302a4f71a5b915c",
           "anchors": [
-            "un",
+            "west"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691522+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
+          "sentence_hash": "4b7ceb468c575176ee91b51943cbbaa9982142e127e406fee63bb81e4c1c19b3",
+          "anchors": [
+            "willing",
+            "coalition"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691546+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
+          "sentence_hash": "c0e9463ba62a2ca7d8648b553345e962f70d29a22075b0bf777f2841ec7025d1",
+          "anchors": [
+            "coalition"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691574+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
+          "sentence_hash": "14be837f5b1f09fd55f471887d60de5acef3a88f1875f0f1d9034d3895963430",
+          "anchors": [
+            "another"
+          ]
+        }
+      ],
+      "entities": [
+        "western",
+        "west",
+        "published\npoland",
+        "ukraine",
+        "polish",
+        "moscow",
+        "lithuania",
+        "warsaw",
+        "willing",
+        "sanem",
+        "kosiniak",
+        "poland",
+        "prime minister donald tusk",
+        "kamysz",
+        "prime minister andy burnham",
+        "nowy lipowiec",
+        "rutte",
+        "uk",
+        "in brussels",
+        "nato",
+        "natalie szponar",
+        "rudnik",
+        "nato secretary general mark rutte",
+        "estonia",
+        "ukrainian",
+        "hours",
+        "saturday",
+        "defence secretary wes streeting",
+        "costa",
+        "defence minister wladyslaw kosiniak",
+        "nobody",
+        "european council president ant",
+        "russia",
+        "another",
+        "tusk",
+        "coalition",
+        "russian",
+        "europe",
+        "france",
+        "koalicja",
+        "friday",
+        "nowa"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 42
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
+      "source_artifact_date": "2026-11-21",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_6d2e0b6e310e0ff7be4f5d2b",
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "publisher": "CNBC",
+      "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+      "category": "财经",
+      "published_at": "2026-11-20T22:59:33+00:00",
+      "why_relevant": "NVIDIA暴跌，芯片板块危机",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692779+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
+          "sentence_hash": "0da399ba70355379910ad7ba4f817bde538eba42214d783cfa705ffa3c83c074",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692805+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+          "sentence_hash": "f0ed94e5f03001297c1589f64904f3f58e8087e00dd0b07358bc4f380811d15d",
+          "anchors": [
+            "shares",
+            "even",
+            "14%",
+            "once",
+            "ai",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692823+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+          "sentence_hash": "f67c356b02516a514c2d063c3178bd32fd05814a5d57045c862bcfd2c88a0c01",
+          "anchors": [
+            "even",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692842+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
+          "sentence_hash": "a98e64038abdcda648a321fe3e53aa3ff49c05b2f75e71fc3ca20d0f0607139b",
+          "anchors": [
+            "2.6 trillion",
+            "46%",
+            "$2.6 trillion"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692864+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "sentence_hash": "d728ae6aa32db4b71b1462bd90db7575e85396cf9fbe691706269a9c78aaaec0",
+          "anchors": [
+            "for",
+            "now"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692896+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "sentence_hash": "4b38bf8c8ef0bc1f995982475394c2dae656e6b91d8cf75139b0d97a6472db6e",
+          "anchors": [
+            "$3 trillion",
+            "3 trillion",
+            "now"
+          ]
+        }
+      ],
+      "entities": [
+        "ceo",
+        "huang",
+        "securities",
+        "google",
+        "once",
+        "before",
+        "nov",
+        "almost",
+        "shares",
+        "exchange commission",
+        "apple",
+        "chinese",
+        "but",
+        "colette kress",
+        "alphabet",
+        "force",
+        "jensen huang",
+        "kress",
+        "amd",
+        "on tuesday",
+        "pc",
+        "open",
+        "chat",
+        "cfo",
+        "even",
+        "wall street",
+        "march",
+        "interim",
+        "on friday",
+        "now",
+        "reuters",
+        "microsoft",
+        "december",
+        "harvey jones",
+        "advanced micro devices",
+        "friday",
+        "ai",
+        "nvidia",
+        "for"
+      ],
+      "numbers": [
+        "1 billion",
+        "46%",
+        "3 trillion",
+        "2.6 trillion",
+        "75%",
+        "14%",
+        "$3 trillion",
+        "$2.6 trillion",
+        "$1 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
+      "source_artifact_date": "2026-11-21",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_292f8a5c01dae029411c21f4",
+      "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+      "category": "国际",
+      "published_at": "2026-11-20T21:05:07+00:00",
+      "why_relevant": "特朗普涉AI与外交，地缘核心",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.693898+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+          "sentence_hash": "0e63a196ec21905ab89a3146a73c208e7c37ff5b8a9f9ac5f297bc67f7ad4777",
+          "anchors": [
+            "ai",
+            "and",
+            "during",
             "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
+          "text": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525923+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
-          "sentence_hash": "f9249a4f90334addbc3b09896a1d3d3fe405f034791e4b30ced04d107729c35a",
+          "captured_at": "2026-11-21T08:03:21.693929+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
+          "sentence_hash": "474f53ee927db2d5398b61df09434197a40e552d893445f7ac45bca3e81ae713",
           "anchors": [
-            "un"
+            "ai",
+            "and",
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
+          "text": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525959+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
-          "sentence_hash": "a077146dc36f65e9fc506853b7973af93bfc4cd68ee10da75e774d1d7941a4cd",
+          "captured_at": "2026-11-21T08:03:21.693963+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
+          "sentence_hash": "fee73a850fdd9b786889f54135dc8a11b94e6aff26decfff4e066a0e4c1bc291",
           "anchors": [
+            "and",
+            "during",
             "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
+          "text": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525997+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
-          "sentence_hash": "8f2cb2bffd2f71c93307fa6b78e45214ad0f46226dbf5c9b66bb09e3937ecfd2",
+          "captured_at": "2026-11-21T08:03:21.693990+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
+          "sentence_hash": "ebacaf4615e8c0931d94a071dfae1cafcd60d24bae532b00f7d703e5886e8541",
           "anchors": [
-            "un"
+            "ai",
+            "during",
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
+          "text": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.526063+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
-          "sentence_hash": "15d257966f3d1dba1b15f1ad2d9e26ada12361dda5e60442d1946da056ab8499",
+          "captured_at": "2026-11-21T08:03:21.694015+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
+          "sentence_hash": "2fec3e672802b802b8a7aed0687d5be549668d473a7fdba4c76fda1466504124",
           "anchors": [
-            "un",
             "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
+          "text": "“I think it gives us a lot of additional strength,” he said.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.526100+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
-          "sentence_hash": "8fd2220e441398be893aa981030868921da425d3d26de193e5dbcb85757ceb4a",
+          "captured_at": "2026-11-21T08:03:21.694031+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "“I think it gives us a lot of additional strength,” he said.",
+          "sentence_hash": "c9bd193bdadf37c60f5f2af74146976c11710f848f5fcdfa9ddd7977391bc2e5",
           "anchors": [
+            "ai",
             "us"
           ]
         }
       ],
       "entities": [
-        "patricia kim",
-        "she",
-        "even",
-        "france",
-        "asia",
-        "first",
-        "us",
-        "analysts",
-        "donald trump",
-        "putin",
-        "yun sun",
-        "china",
+        "defence secretary hegseth",
         "iran",
-        "centre",
-        "pacific economic cooperation",
-        "chinese",
-        "university",
+        "china",
+        "putin",
         "vladimir putin",
+        "america",
+        "treasury secretary scott bessent",
+        "republicans",
+        "but trump",
+        "ai",
+        "jd",
+        "white house",
+        "on friday",
+        "vice president",
+        "state marco rubio",
+        "stephen miller",
         "russia",
-        "overall",
-        "uk",
-        "beijing",
-        "trump",
-        "apec",
-        "some",
+        "united states",
+        "they",
+        "secretary",
         "russian",
-        "stimson center",
-        "thursday",
-        "on thursday",
-        "brookings institution",
-        "xi jinping",
-        "prof william hurst",
-        "un",
-        "sun",
-        "geopolitics",
-        "cambridge",
-        "ukraine"
+        "united states president donald trump",
+        "and",
+        "trump",
+        "vance",
+        "during",
+        "friday",
+        "chinese president xi jinping",
+        "people",
+        "us"
       ],
       "numbers": [],
       "dates": [],
@@ -449,275 +614,128 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 37
+        "anchor_count": 30
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
-      "source_artifact_date": "2026-11-20",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
+      "source_artifact_date": "2026-11-21",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_85c65bbbdc285431c10fe42c",
-      "title": "You can now buy a Steam Machine without getting on a waitlist",
-      "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
-      "publisher": "The Verge",
-      "summary": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-11-19T19:33:22+00:00",
-      "why_relevant": "Steam硬件玩家必读",
-      "relevance_score": 9.0,
+      "article_id": "a1_ea17b993fc723c9422b3ef8e",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+      "category": "国际",
+      "published_at": "2026-11-20T23:08:57+00:00",
+      "why_relevant": "AI证明黎曼猜想，学术突破",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
+          "text": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.526984+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
-          "sentence_hash": "228babdd4cf4652e27485a44b905303bbc63d5d59ed0c0e564f06f2d8c0aa1b8",
+          "captured_at": "2026-11-21T08:03:21.694940+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
+          "sentence_hash": "300f3ce636a4ba0eb11f74ace6122fa4711b0b622879e87de0045178a3ea8fad",
           "anchors": [
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.527056+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
-          "sentence_hash": "6c3511f789d618bdb0ce1f8dabca9d672616288afeed30a2c21082f2e0a80fc3",
-          "anchors": [
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.527101+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
-          "sentence_hash": "b128e01f5b9caf4dc9ca8b1840885ae0323223521f88d5e026ca45b91abaed83",
-          "anchors": [
-            "$1,049 "
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "A 2TB model without a controller costs $1,349.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.527117+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "A 2TB model without a controller costs $1,349.",
-          "sentence_hash": "0bfdf70292648cd2f91e95048b855c9a84e7200f964c8b15224c62439d4f9da1",
-          "anchors": [
-            "$1,349"
-          ]
-        }
-      ],
-      "entities": [
-        "after",
-        "if valve",
-        "initially",
-        "june",
-        "valve",
-        "maggedon",
-        "steam machine",
-        "january",
-        "steam",
-        "you",
-        "pc"
-      ],
-      "numbers": [
-        "$1,049 ",
-        "$1,349"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 4,
-        "anchor_count": 13
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
-      "source_artifact_date": "2026-11-20",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_730fd78af105d174daa5c18d",
-      "title": "Anthropic closes debut with $1.8 trillion market cap in landmark moment for AI: Live IPO updates",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
-      "publisher": "CNBC",
-      "summary": "Anthropic IPO live updates: Follow ANT stock's Nasdaq debut, opening share price, valuation and investor reaction to the Claude AI maker.",
-      "category": "财经",
-      "published_at": "2026-11-19T23:17:45+00:00",
-      "why_relevant": "AI巨头IPO里程碑投资热点",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528616+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
-          "sentence_hash": "35ef513d14699d3c9b3120bc9644494a5da07cb9aa7ba10387637ba7dc2c4498",
-          "anchors": [
-            "17%"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The stock closed at $97.17 per share.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528640+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "The stock closed at $97.17 per share.",
-          "sentence_hash": "ce476b7d48bf67ac1455e57fcc5a7c2dc81d632186bfcd40713bdbc4e356506e",
-          "anchors": [
-            "$97.17 "
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528669+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
-          "sentence_hash": "d0e999efe24696f2a2b600a887c0afd61e183aaa14b763d3acb5f954c5636d6b",
-          "anchors": [
-            "81.3 billion",
-            "$111.50",
             "ai",
-            "$81.3 billion",
-            "open"
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694968+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
+          "sentence_hash": "a402abeb9ddf2f6c02c41340363ce782e2cb9bbd219bc3f83432cebeff981b0e",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694994+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
+          "sentence_hash": "c263cf7e03dff071dd31acb758822188081ed177ce11cb4ae7f0900f5116779d",
+          "anchors": [
+            "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
+          "text": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528700+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
-          "sentence_hash": "a83151916277dfa965594146817a0183fddc638012707238106cdfdae8d148b7",
+          "captured_at": "2026-11-21T08:03:21.695011+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
+          "sentence_hash": "f65f7eb95e497333e3ec1eef3f6eef89582798fadb5cb2d00edc1a8a93390085",
           "anchors": [
-            "980 million",
-            "$83 "
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
+          "text": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528724+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
-          "sentence_hash": "8f470a48d714985bdf37f4d08643fcb4cb481a2c8fb9b5f5d78192f17df05a7d",
+          "captured_at": "2026-11-21T08:03:21.695033+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+          "sentence_hash": "dd71c8b2456156fdde3d2c5af638f960147804bc6feb18f0a46e7c09e7fad171",
           "anchors": [
-            "1.8 trillion",
-            "$1.8 trillion",
-            "market"
+            "prime",
+            "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
+          "text": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528752+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
-          "sentence_hash": "d3ff511d84bb7c4cb3bfbc8f1ee9ebcd755da9d844fe447af575ad0dd6dae681",
+          "captured_at": "2026-11-21T08:03:21.695051+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
+          "sentence_hash": "2379558e5273adf7fb8683321ecc6bd0b30260e4e6c29b03dabdaebb461a5a42",
           "anchors": [
-            "846 million",
-            "522 million",
-            "open"
+            "prime"
           ]
         }
       ],
       "entities": [
-        "anthropic dario amodei",
-        "the claude",
-        "at thursday",
-        "hours ago\nanthropic",
-        "hours ago\ndemonstrators",
-        "amazon",
-        "dario amodei",
-        "site",
-        "pbc",
-        "sept",
-        "us",
-        "ipo",
-        "alphabet",
-        "ai",
-        "president donald trump",
+        "september",
         "ceo",
-        "englewood cliffs",
-        "silicon valley",
-        "california",
-        "kate rooney",
-        "nov",
-        "wednesday",
-        "cnbc",
-        "open",
-        "nasdaq",
+        "tao",
+        "published\nan anthropic",
+        "sunday",
+        "levent alp",
+        "navier",
+        "terrance tao",
+        "there",
+        "riemann",
+        "alp",
         "anthropic",
-        "claude",
-        "brendan mcdermid",
-        "ashley capoot",
-        "november",
-        "conference",
-        "san francisco",
-        "dario",
-        "microsoft",
-        "apple",
-        "nvidia",
+        "named",
+        "stokes",
+        "prime",
         "more",
-        "anthropic daniela amodei",
-        "amazon andy jassy",
-        "watch",
-        "google",
-        "daniela amodei",
-        "june",
-        "new jersey",
-        "reuters\nanthropic",
-        "new york city",
-        "thursday",
-        "semafor",
-        "hours ago\namazon",
-        "manuel orbegozo",
-        "president",
-        "ant",
-        "market",
-        "the world",
-        "space",
-        "nasdaq adena friedman"
+        "lean",
+        "dario amodei",
+        "claude",
+        "friday",
+        "ai",
+        "open",
+        "bernhard riemann",
+        "us"
       ],
-      "numbers": [
-        "$1.8 trillion",
-        "17%",
-        "$83 ",
-        "81.3 billion",
-        "33.24 billion",
-        "$33.24 billion",
-        "$111.50",
-        "980 million",
-        "$81.3 billion",
-        "522 million",
-        "30%",
-        "1.8 trillion",
-        "$97.17 ",
-        "200%",
-        "846 million"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -726,12 +744,12 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 71
+        "anchor_count": 24
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-20-AM.json",
-      "source_artifact_date": "2026-11-20",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
+      "source_artifact_date": "2026-11-21",
       "freshness_label": "today"
     }
   ]

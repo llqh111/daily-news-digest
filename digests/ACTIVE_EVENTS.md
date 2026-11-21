@@ -1,6 +1,82 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-20 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-21 08:08。
+
+## obra/superpowers
+- 状态：更新中；首见 2026-09-10；最近更新 2026-11-21
+- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260910_4b107807fac9`
+
+## Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_cfb188597ccf`
+
+## Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_27fd3f9279fc`
+
+## Trump cites good talks with Putin on Ukraine, holds back on security guarantees
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261121_8eb43ec99612`
+
+## US tech stocks plunge into bear market in worst week since Covid-19 crisis
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261121_e9de909e9288`
+
+## Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_ff6a76b15c07`
+
+## Trump defends Putin relationship, warns AI data centres must stay in US
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_0ad5e08353f3`
+
+## In a year of AI solving maths problems, Anthropic may have just solved the biggest
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_8b2adc26e1e3`
+
+## US lawmakers push for tougher AI chip rules amid China export crackdown
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：US lawmakers push for tougher AI chip rules amid China export crackdown Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_ac2aa26d8230`
+
+## jingyaogong/minimind
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：中文 | English - 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_b458ef72c195`
+
+## NVIDIA Fuels Accelerated Computing at Microsoft With Vera Rubin Deployments at Azure, RTX Blackwell & Open Models For Windows PCs
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_a2680457894d`
+
+## Nvidia Earnings; Office Convergence; OS Wars, AI Edition
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：Subscribe to Stratechery Plus for full access.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261121_71ac0d2c21c6`
+
+## Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut
+- 状态：更新中；首见 2026-11-21；最近更新 2026-11-21
+- 最新事实：Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261121_bf56314e3f56`
 
 ## Myanmar faces historic genocide verdict at UN court over Rohingya massacres
 - 状态：更新中；首见 2026-11-19；最近更新 2026-11-20
@@ -1468,12 +1544,6 @@
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261031_7155f1ae17ec`
 
-## obra/superpowers
-- 状态：更新中；首见 2026-09-10；最近更新 2026-10-30
-- 最新事实：Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260910_4b107807fac9`
-
 ## Ukraine's Zelenskiy: We have intelligence of new Russian ballistic missile strikes
 - 状态：更新中；首见 2026-10-30；最近更新 2026-10-30
 - 仍待观察：正文未抓到；缺少明确时间
@@ -2107,79 +2177,4 @@
 - 最新事实：Stocks rise with upbeat earnings; France's 10-year bond yield hits 5% mark&nbsp;&nbsp;Reuters
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20261022_1e1038fbeedf`
-
-## akitaonrails/ai-memory
-- 状态：更新中；首见 2026-09-23；最近更新 2026-10-21
-- 最新事实：Long-term memory for AI coding agents.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260923_f7e739cf661f`
-
-## China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports — ByteDance, Alibaba and Tencent order 3 million cards despite warnings that only 10% of orders are fulfillable Surging demand for Nvidi
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_f50e7d4dc6b7`
-
-## Why Anthropic has a major China problem ahead of its blockbuster IPO
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Advertisement Why Anthropic has a major China problem ahead of its blockbuster IPO Surging demand for low-cost Chinese AI models is sparking investor jitters, with some fearing ‘massive capital destruction’ in Silicon Valley 3-MIN READ3-MIN The growing popularity of Chinese artif
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_d5677eac0fed`
-
-## Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261021_128803330332`
-
-## headroomlabs-ai/headroom
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Quickstart · Headroom for Teams · Install · Proof · Agents · Docs · Discord · llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index · full docs blob.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_e79f13d3bcf0`
-
-## Universal MFG Unlocker 1.6.1 Brings Real-Time DLSS Preset Switching To All RTX GPUs
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Universal MFG Unlocker, the increasingly popular community-developed utility from modder dashdogy, has received another substantial update.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_c3e650231c15`
-
-## Anthropic May Spend $750 Billion on Computing Costs, Report Says
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Anthropic May Spend $750 Billion on Computing Costs, Report Says&nbsp;&nbsp;Bloomberg.com
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261021_24fcc088dcd7`
-
-## Odds of fifth interest rate hike this year likely to shorten as RBA deputy warns inflation outlook ‘worsening’
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Hauser, speaking at an investment bank conference in Sydney on Wednesday morning, said the RBA monetary policy board members were juggling a slowing economy with fears that Australians were starting to lose faith in the central bank’s ability to bring inflation back to the 2.5% t
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_8283ba002449`
-
-## Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote October 20, 2026 There are only a few days left until Brazil's runoff election on October 25, with neither left-wing incumbent Luiz Inacio Lula da Silva nor right-wing populist Flavio Bolsonaro a clear favorite.
-- 事件 ID：`evt_20261021_4c20414a2501`
-
-## Zelenskyy says early warning system for Russian missile attacks resumes following call with Rubio
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：The US has resumed sharing intelligence with Kyiv about Russian missile strikes, Volodymyr Zelenskyy said on Tuesday after a meeting with the US envoy Steve Witkoff in Norway.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_f9b142fbe901`
-
-## Trump commits more than $400m ahead of high-stakes midterm elections
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：Trump commits more than $400m ahead of high-stakes midterm elections The president’s Republican Party seeks to maintain its hold over both chambers of Congress, despite declining poll numbers.
-- 事件 ID：`evt_20261021_0ee612b03a13`
-
-## Musk says Tesla and SpaceX formed special committees to discuss merger: Live updates
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：SpaceX shares climbed about 5% in extended trading on Tuesday after the company reported 161% revenue growth for the third quarter, beating Wall Street estimates, with its artificial intelligence business growing ninefold.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261021_81b6be640eba`
-
-## U.S. CFTC sets agenda for AI forum, exploring trading and agentic finance
-- 状态：更新中；首见 2026-10-21；最近更新 2026-10-21
-- 最新事实：CFTC sets agenda for AI forum, exploring trading and agentic finance A Commodity Futures Trading Commission task force is scheduled for October 28 to talk about how the latest "super intelligence" technology may impact markets.
-- 事件 ID：`evt_20261021_c279f8b08e5c`
 

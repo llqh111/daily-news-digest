@@ -1,290 +1,173 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-11-20-AM",
-  "date": "2026-11-20",
+  "run_key": "2026-11-21-AM",
+  "date": "2026-11-21",
   "session": "AM",
-  "delivered_at": "2026-11-20T08:07:28.151602+08:00",
+  "delivered_at": "2026-11-21T08:08:41.356844+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-11-20T00:07:28.154833+00:00",
+  "exported_at": "2026-11-21T00:08:41.358494+00:00",
   "quality": {
     "total_items": 13,
-    "items_with_unsupported_numbers": 3,
-    "unsupported_ratio": 0.23076923076923078
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
   },
   "items": [
     {
-      "article_id": "a1_141a7a7811f371cfb4427305",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
-      "publisher": "Simon Willison",
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol\nOpenAI:\n\nWe’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\n\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models.\n6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. Th",
-      "category": "科技",
-      "published_at": "2026-11-17T22:38:52+00:00",
-      "why_relevant": "OpenAI新旗舰必读前沿",
-      "relevance_score": 10.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523345+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "17th November 2026 - Link Blog GPT‑6.2 Astra and GPT‑6.2 Sol.",
-          "sentence_hash": "100fdbb052de99f4ef9e2285166e043180a063cef8589c558d60d55f42712db1",
-          "anchors": [
-            "November 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523388+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "They're available in the API as gpt-6.2-astra and gpt-6.2-sol.",
-          "sentence_hash": "0faeaef30942f2fb567668aa2ccfa57e24ce4e3a5fc4a776d86325848c0810a0",
-          "anchors": [
-            "gpt",
-            "sol",
-            "astra"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523424+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor).",
-          "sentence_hash": "c03fdbd43dc1c6e11932ca5d6a1261068ebdab8d2d8e1bf760f2cf0646bdf85d",
-          "anchors": [
-            "80%",
-            "ok",
-            "$8",
-            "$4",
-            "$40"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "6 Astra and Fable 5 were both $10/$50.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523442+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "6 Astra and Fable 5 were both $10/$50.",
-          "sentence_hash": "9789af5bc4f507431e0a2e69db3e11eda3e71cbe8a64166b2b1d930c468027e5",
-          "anchors": [
-            "$1",
-            "$50",
-            "$10"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523465+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model.",
-          "sentence_hash": "30e66fb56a773dba083705cad2f33c7dc58fb58a09eaaf74828ed157ac5b848b",
-          "anchors": [
-            "$0.40",
-            "$1"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.523495+08:00",
-          "content_sha256": "3dcd571a9e6afbb7d85e76c54cadceaf34657ed725c2c31b39f246de5a2ca834",
-          "excerpt": "GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20).",
-          "sentence_hash": "4788f87fd950f2b5874c06171b7ef411b69becb466bff1ffb4dbab0bcf51ab33",
-          "anchors": [
-            "$1",
-            "$20",
-            "$4",
-            "$2",
-            "$10",
-            "$10 "
-          ]
-        }
-      ],
-      "entities": [
-        "neither",
-        "ok",
-        "tok",
-        "fable",
-        "sol",
-        "llm",
-        "november",
-        "codex",
-        "carbon",
-        "they",
-        "brooklyn",
-        "claude fable",
-        "gemini",
-        "ultra",
-        "link blog",
-        "gpt",
-        "then",
-        "make",
-        "cli",
-        "these",
-        "yonkers",
-        "here",
-        "theo browne",
-        "api",
-        "open",
-        "astra"
-      ],
-      "numbers": [
-        "80%",
-        "$1",
-        "$50",
-        "$8",
-        "$20",
-        "$0.40",
-        "$4",
-        "$10",
-        "$2",
-        "$10 ",
-        "$40"
-      ],
-      "dates": [
-        "November 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 38
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_04073a4fb27d337917e5d7fe",
-      "title": "California targets Nvidia in China AI chip probe",
-      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "article_id": "a1_4abe5c1e02b0dcf88ce981ee",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "publisher": "The Guardian",
+      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildoutWho are Anthropic’s seven co-founders, now worth $180bn?As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it. On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January. The Dow Jones Industrial Average and S&P 500 closed in correction territory.Anthropic’s re",
       "category": "国际",
-      "published_at": "2026-11-19T23:04:30+00:00",
-      "why_relevant": "英伟达涉华调查芯片地缘",
+      "published_at": "2026-11-20T21:38:17+00:00",
+      "why_relevant": "AI股暴跌，宏观市场信号",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
+          "text": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524455+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "California targets Nvidia in China AI chip probe - Published California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtime CEO Jensen Huang.",
-          "sentence_hash": "23f943a1f1244d28f6d47618daf504fe7ae6ade1ad6a0ae3e93c0e59744101f1",
+          "captured_at": "2026-11-21T08:03:21.690318+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
+          "sentence_hash": "04d0a67124e352706ff90cc09794b80115e9646cf2fca37a9dec837ad03b2bfb",
           "anchors": [
-            "sign"
+            "its"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
+          "text": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524503+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "The state's top law enforcement officer, attorney general Rob Bonta, said he is probing whether Nvidia or Huang's actions resulted in China obtaining advanced chips or confidential information, adding that such actions could violate California law if the company is found to have ",
-          "sentence_hash": "9138a244910f3f3881a4e375cd2c4dce815b27387802c99fccee1d7553208a73",
+          "captured_at": "2026-11-21T08:03:21.690353+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
+          "sentence_hash": "865ca7b563d0726f2d13ffdfdb8bdb24f7061d3dbfc39d5227c86b6d9500a72b",
           "anchors": [
-            "ai"
+            "ai",
+            "its",
+            "5%"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
+          "text": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524537+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "\"Nvidia is in a messy, transnational situation but the underlying principle of our corporate securities law is clear: Companies cannot mislead their investors,\" Bonta said on Thursday.",
-          "sentence_hash": "fb24917b4d8e04ca4a3bbface54e8a73026c5f3cb475a4840b0fa697ded18ba0",
+          "captured_at": "2026-11-21T08:03:21.690372+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
+          "sentence_hash": "3b83ec7b0e84f21c1f99edbb7cdb13696d90196ad23e951e1b608bb8688e1816",
           "anchors": [
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
+          "text": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524570+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "Earlier this month, it emerged that Huang had an extramarital relationship with a suspected Chinese spy, Alice Huang, who was an executive at the Singapore-based data centre company Megaspeed.",
-          "sentence_hash": "bb2bed0b2270777cb8cb6b6628a8167a924556c7e756810ba9b77b3a99dcfddb",
+          "captured_at": "2026-11-21T08:03:21.690406+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
+          "sentence_hash": "bbc1d2267d2d8e162aeadbb7527efcbf4b2d40c9287ed681265ec4e1c484d804",
           "anchors": [
-            "us"
+            "global",
+            "$4",
+            "ai"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
+          "text": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524596+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "Some members of the US Congress have urged the Department of Commerce to investigate whether Megaspeed, a major Nvidia customer, diverted Nvidia chips to China.",
-          "sentence_hash": "365e2367e94d3f3694adbc51642d8d4d62e652005acc7b282ea6debaa8e8a96e",
+          "captured_at": "2026-11-21T08:03:21.690437+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
+          "sentence_hash": "54ae686daa555a26c9450778614d3d6994559ba62b30d098adad59cd148e56e3",
           "anchors": [
-            "us"
+            "ai",
+            "9%",
+            "ig"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+          "text": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.524624+08:00",
-          "content_sha256": "fb8bbd618c443a0a1c780921f67b26ca5640d07ad89839804b3312e14b4aa266",
-          "excerpt": "Megaspeed has previously said it is aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
-          "sentence_hash": "a16ff24fd563610013aff3d84f20911dd54fc7fcf95d5732adbf9a1e76b093ee",
+          "captured_at": "2026-11-21T08:03:21.690458+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
+          "sentence_hash": "718b32bf6172c655f2fda73ffa008a2369fc2f704191aa25b14af4c49ffcb2fe",
           "anchors": [
-            "us",
-            "ai"
+            "its",
+            "$83 ",
+            "$88.30"
           ]
         }
       ],
       "entities": [
-        "published\ncalifornia",
-        "elon musk",
-        "bbc",
-        "us",
-        "department",
-        "ai",
-        "sign",
-        "ceo",
-        "california",
-        "bonta",
-        "china",
-        "earlier",
-        "companies",
-        "santa clara",
-        "tech decoded",
-        "november",
-        "chinese",
-        "nvidia",
-        "jensen huang",
-        "megaspeed",
-        "alice huang",
-        "congress",
-        "rob bonta",
-        "harvey jones",
+        "as anthropic",
+        "ipo",
+        "in japan",
+        "asian",
+        "tsmc",
+        "global",
+        "nikkei",
+        "micron",
+        "wall street journal",
+        "anthropic",
+        "neil wilson",
+        "shares",
+        "disk",
+        "in taiwan",
+        "chris beauchamp",
+        "european",
+        "soft",
         "uk",
-        "singapore",
-        "some",
+        "san",
+        "ig",
+        "january",
+        "bank",
+        "nasdaq composite",
+        "taiwanese",
+        "south korea",
+        "european stoxx",
+        "its",
+        "april",
+        "the dow jones industrial average",
+        "saxo",
+        "march",
+        "tokyo",
+        "taiwan",
+        "on friday",
+        "nasdaq",
+        "claude",
+        "they",
         "thursday",
-        "commerce",
-        "huang",
-        "new york times",
-        "outside"
+        "london",
+        "friday",
+        "ai",
+        "nvidia",
+        "kospi",
+        "wall street",
+        "us"
       ],
       "numbers": [
-        "22%"
+        "1.9%",
+        "9%",
+        "17%",
+        "5.5%",
+        "$83 ",
+        "$4",
+        "12%",
+        "40%",
+        "6%",
+        "14%",
+        "14.5%",
+        "6.7%",
+        "5%",
+        "$85 ",
+        "$88.30"
       ],
       "dates": [],
       "unknowns": [
@@ -294,134 +177,114 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 33
+        "anchor_count": 60
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_3d312b28ac5cc86a6093b648",
-      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
-      "publisher": "The Guardian",
-      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic imm",
+      "article_id": "a1_7fa8d63759af65a45fb3e486",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
       "category": "国际",
-      "published_at": "2026-11-19T17:13:23+00:00",
-      "why_relevant": "中美俄联合声明地缘核心",
+      "published_at": "2026-11-20T16:54:29+00:00",
+      "why_relevant": "导弹误击波兰，战争外溢",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
+          "text": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525886+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants.",
-          "sentence_hash": "98998353c4918dfe3c381429da8b8841bd3d1ec51d55a4931c6d8736b93af72a",
+          "captured_at": "2026-11-21T08:03:21.691466+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
+          "sentence_hash": "e038eab890fb797e5519ec494b3396bbe4ee6e1447d787ddc302a4f71a5b915c",
           "anchors": [
-            "un",
-            "us"
+            "west"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
+          "text": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525923+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "The declaration on Thursday also outlined a set of priorities that included changing the UN, boosting oil supplies and what it said was the protection of diplomatic immunity.",
-          "sentence_hash": "f9249a4f90334addbc3b09896a1d3d3fe405f034791e4b30ced04d107729c35a",
+          "captured_at": "2026-11-21T08:03:21.691522+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
+          "sentence_hash": "4b7ceb468c575176ee91b51943cbbaa9982142e127e406fee63bb81e4c1c19b3",
           "anchors": [
-            "un"
+            "willing",
+            "coalition"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
+          "text": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525959+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "The statement affirmed that “a nuclear war cannot be won and must not be fought”, but stopped short of suggesting the beginnings of a framework for denuclearisation.",
-          "sentence_hash": "a077146dc36f65e9fc506853b7973af93bfc4cd68ee10da75e774d1d7941a4cd",
+          "captured_at": "2026-11-21T08:03:21.691546+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
+          "sentence_hash": "c0e9463ba62a2ca7d8648b553345e962f70d29a22075b0bf777f2841ec7025d1",
           "anchors": [
-            "us"
+            "coalition"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
+          "text": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.525997+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "The meeting between Xi Jinping, Vladimir Putin and Donald Trump has dominated the Asia-Pacific Economic Cooperation (Apec) summit this week, with China, the host, promising it would be “groundbreaking”.",
-          "sentence_hash": "8f2cb2bffd2f71c93307fa6b78e45214ad0f46226dbf5c9b66bb09e3937ecfd2",
+          "captured_at": "2026-11-21T08:03:21.691574+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
+          "sentence_hash": "14be837f5b1f09fd55f471887d60de5acef3a88f1875f0f1d9034d3895963430",
           "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.526063+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "“No peace was ever forged by declining opportunities for engagement.” Putin told a press conference later that the three men had had a “free discussion” and now had a “mutual understanding”.",
-          "sentence_hash": "15d257966f3d1dba1b15f1ad2d9e26ada12361dda5e60442d1946da056ab8499",
-          "anchors": [
-            "un",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.526100+08:00",
-          "content_sha256": "e90c910b19cb537ab901aae3da651b09b08904db5a3c7773894260092bd43ab9",
-          "excerpt": "Some had hopes that the talks, which lasted about one hour and 20 minutes, could be used to discuss reductions in arms between the world’s three largest nuclear powers.",
-          "sentence_hash": "8fd2220e441398be893aa981030868921da425d3d26de193e5dbcb85757ceb4a",
-          "anchors": [
-            "us"
+            "another"
           ]
         }
       ],
       "entities": [
-        "patricia kim",
-        "she",
-        "even",
-        "france",
-        "asia",
-        "first",
-        "us",
-        "analysts",
-        "donald trump",
-        "putin",
-        "yun sun",
-        "china",
-        "iran",
-        "centre",
-        "pacific economic cooperation",
-        "chinese",
-        "university",
-        "vladimir putin",
-        "russia",
-        "overall",
+        "western",
+        "west",
+        "published\npoland",
+        "ukraine",
+        "polish",
+        "moscow",
+        "lithuania",
+        "warsaw",
+        "willing",
+        "sanem",
+        "kosiniak",
+        "poland",
+        "prime minister donald tusk",
+        "kamysz",
+        "prime minister andy burnham",
+        "nowy lipowiec",
+        "rutte",
         "uk",
-        "beijing",
-        "trump",
-        "apec",
-        "some",
+        "in brussels",
+        "nato",
+        "natalie szponar",
+        "rudnik",
+        "nato secretary general mark rutte",
+        "estonia",
+        "ukrainian",
+        "hours",
+        "saturday",
+        "defence secretary wes streeting",
+        "costa",
+        "defence minister wladyslaw kosiniak",
+        "nobody",
+        "european council president ant",
+        "russia",
+        "another",
+        "tusk",
+        "coalition",
         "russian",
-        "stimson center",
-        "thursday",
-        "on thursday",
-        "brookings institution",
-        "xi jinping",
-        "prof william hurst",
-        "un",
-        "sun",
-        "geopolitics",
-        "cambridge",
-        "ukraine"
+        "europe",
+        "france",
+        "koalicja",
+        "friday",
+        "nowa"
       ],
       "numbers": [],
       "dates": [],
@@ -431,87 +294,220 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 37
+        "fact_count": 4,
+        "anchor_count": 42
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_85c65bbbdc285431c10fe42c",
-      "title": "You can now buy a Steam Machine without getting on a waitlist",
-      "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
-      "publisher": "The Verge",
-      "summary": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist [&#8230;]",
-      "category": "科技",
-      "published_at": "2026-11-19T19:33:22+00:00",
-      "why_relevant": "Steam硬件玩家必读",
+      "article_id": "a1_5e2019f69155a6d0b097e7c2",
+      "title": "Trump cites good talks with Putin on Ukraine, holds back on security guarantees",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3JPLTZVMmozZDY5c0piSTJBajFkeXRoMVc0UWVRRVVtZTdHb3BNcU8temVfeW1TNWRzZzBGVVVTUEs4TGl3eFpuSGNCNFpsLUpPRE1PSjdQYzZDbl9LM2NkMlo3TmpFVEV5QkNhODJyZy1qTUc3U0VNSFhUZHhqWWowLUxSamJlUlIxYjgyVV81ZjFOYmM0ZjdDUQ?oc=5",
+      "publisher": "Reuters",
+      "summary": "Trump cites good talks with Putin on Ukraine, holds back on security guarantees&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-11-20T21:04:31+00:00",
+      "why_relevant": "特朗普与普京通话，乌克兰格局",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "reuters",
+        "trump",
+        "putin",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_12d85eb1f97b8d3a6959fdc2",
+      "title": "US tech stocks plunge into bear market in worst week since Covid-19 crisis",
+      "url": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Shares in Anthropic and Nvidia tumble as fears over the AI spending boom grip Wall Street",
+      "category": "财经",
+      "published_at": "2026-11-20T21:52:25+00:00",
+      "why_relevant": "科技股熊市，周内跌幅堪比危机",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "shares",
+        "anthropic",
+        "ai",
+        "nvidia",
+        "wall street"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 5
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_6d2e0b6e310e0ff7be4f5d2b",
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "publisher": "CNBC",
+      "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+      "category": "财经",
+      "published_at": "2026-11-20T22:59:33+00:00",
+      "why_relevant": "NVIDIA暴跌，芯片板块危机",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
+          "text": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.526984+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon.",
-          "sentence_hash": "228babdd4cf4652e27485a44b905303bbc63d5d59ed0c0e564f06f2d8c0aa1b8",
+          "captured_at": "2026-11-21T08:03:21.692779+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
+          "sentence_hash": "0da399ba70355379910ad7ba4f817bde538eba42214d783cfa705ffa3c83c074",
           "anchors": [
-            "you"
+            "for"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
+          "text": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.527056+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "The bad news: If you’re on the waitlist for a 2TB model, you might not get a chance to buy one at all, as Valve says there are more people on the waitlist than there are units available.",
-          "sentence_hash": "6c3511f789d618bdb0ce1f8dabca9d672616288afeed30a2c21082f2e0a80fc3",
+          "captured_at": "2026-11-21T08:03:21.692805+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+          "sentence_hash": "f0ed94e5f03001297c1589f64904f3f58e8087e00dd0b07358bc4f380811d15d",
           "anchors": [
-            "you"
+            "shares",
+            "even",
+            "14%",
+            "once",
+            "ai",
+            "for"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
+          "text": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.527101+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "After delaying the Steam Machine’s expected early 2026 launch due to the memory and storage crisis, Valve launched the product in June with a price starting at $1,049 for the 512GB model without a bundled controller.",
-          "sentence_hash": "b128e01f5b9caf4dc9ca8b1840885ae0323223521f88d5e026ca45b91abaed83",
+          "captured_at": "2026-11-21T08:03:21.692823+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+          "sentence_hash": "f67c356b02516a514c2d063c3178bd32fd05814a5d57045c862bcfd2c88a0c01",
           "anchors": [
-            "$1,049 "
+            "even",
+            "for"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "A 2TB model without a controller costs $1,349.",
+          "text": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.527117+08:00",
-          "content_sha256": "14fa2c9f4395b7f8fdae24d136e15bdf3f425e524dab2cb3dbd2e6167bc3edd4",
-          "excerpt": "A 2TB model without a controller costs $1,349.",
-          "sentence_hash": "0bfdf70292648cd2f91e95048b855c9a84e7200f964c8b15224c62439d4f9da1",
+          "captured_at": "2026-11-21T08:03:21.692842+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
+          "sentence_hash": "a98e64038abdcda648a321fe3e53aa3ff49c05b2f75e71fc3ca20d0f0607139b",
           "anchors": [
-            "$1,349"
+            "2.6 trillion",
+            "46%",
+            "$2.6 trillion"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692864+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "sentence_hash": "d728ae6aa32db4b71b1462bd90db7575e85396cf9fbe691706269a9c78aaaec0",
+          "anchors": [
+            "for",
+            "now"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692896+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "sentence_hash": "4b38bf8c8ef0bc1f995982475394c2dae656e6b91d8cf75139b0d97a6472db6e",
+          "anchors": [
+            "$3 trillion",
+            "3 trillion",
+            "now"
           ]
         }
       ],
       "entities": [
-        "after",
-        "if valve",
-        "initially",
-        "june",
-        "valve",
-        "maggedon",
-        "steam machine",
-        "january",
-        "steam",
-        "you",
-        "pc"
+        "ceo",
+        "huang",
+        "securities",
+        "google",
+        "once",
+        "before",
+        "nov",
+        "almost",
+        "shares",
+        "exchange commission",
+        "apple",
+        "chinese",
+        "but",
+        "colette kress",
+        "alphabet",
+        "force",
+        "jensen huang",
+        "kress",
+        "amd",
+        "on tuesday",
+        "pc",
+        "open",
+        "chat",
+        "cfo",
+        "even",
+        "wall street",
+        "march",
+        "interim",
+        "on friday",
+        "now",
+        "reuters",
+        "microsoft",
+        "december",
+        "harvey jones",
+        "advanced micro devices",
+        "friday",
+        "ai",
+        "nvidia",
+        "for"
       ],
       "numbers": [
-        "$1,049 ",
-        "$1,349"
+        "1 billion",
+        "46%",
+        "3 trillion",
+        "2.6 trillion",
+        "75%",
+        "14%",
+        "$3 trillion",
+        "$2.6 trillion",
+        "$1 billion"
       ],
       "dates": [],
       "unknowns": [
@@ -520,898 +516,1341 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 4,
-        "anchor_count": 13
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_730fd78af105d174daa5c18d",
-      "title": "Anthropic closes debut with $1.8 trillion market cap in landmark moment for AI: Live IPO updates",
-      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
-      "publisher": "CNBC",
-      "summary": "Anthropic IPO live updates: Follow ANT stock's Nasdaq debut, opening share price, valuation and investor reaction to the Claude AI maker.",
-      "category": "财经",
-      "published_at": "2026-11-19T23:17:45+00:00",
-      "why_relevant": "AI巨头IPO里程碑投资热点",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528616+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "Anthropic jumped 17% in its Nasdaq debut on Thursday in a seminal moment for artificial intelligence, after the company completed the biggest initial public offering on record, topping SpaceX's historic debut in June.",
-          "sentence_hash": "35ef513d14699d3c9b3120bc9644494a5da07cb9aa7ba10387637ba7dc2c4498",
-          "anchors": [
-            "17%"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The stock closed at $97.17 per share.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528640+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "The stock closed at $97.17 per share.",
-          "sentence_hash": "ce476b7d48bf67ac1455e57fcc5a7c2dc81d632186bfcd40713bdbc4e356506e",
-          "anchors": [
-            "$97.17 "
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528669+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "The Claude creator, trading under the ticker \"ANT,\" opened at $111.50, after the company raised $81.3 billion in the IPO.",
-          "sentence_hash": "d0e999efe24696f2a2b600a887c0afd61e183aaa14b763d3acb5f954c5636d6b",
-          "anchors": [
-            "81.3 billion",
-            "$111.50",
-            "ai",
-            "$81.3 billion",
-            "open"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528700+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "Anthropic sold 980 million shares at $83 a piece on Wednesday, lifting the size and price of its offering.",
-          "sentence_hash": "a83151916277dfa965594146817a0183fddc638012707238106cdfdae8d148b7",
-          "anchors": [
-            "980 million",
-            "$83 "
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528724+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "At Thursday's close, Anthropic had a fully diluted market cap of roughly $1.8 trillion.",
-          "sentence_hash": "8f470a48d714985bdf37f4d08643fcb4cb481a2c8fb9b5f5d78192f17df05a7d",
-          "anchors": [
-            "1.8 trillion",
-            "$1.8 trillion",
-            "market"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.528752+08:00",
-          "content_sha256": "28d7f5ea1a55ff67a7ff05973454d38070c8ccdd5d86d4faf6a5e5f585b30d2f",
-          "excerpt": "More than 846 million shares changed hands, surpassing the 522 million shares that were traded on SpaceX's opening day.",
-          "sentence_hash": "d3ff511d84bb7c4cb3bfbc8f1ee9ebcd755da9d844fe447af575ad0dd6dae681",
-          "anchors": [
-            "846 million",
-            "522 million",
-            "open"
-          ]
-        }
-      ],
-      "entities": [
-        "anthropic dario amodei",
-        "the claude",
-        "at thursday",
-        "hours ago\nanthropic",
-        "hours ago\ndemonstrators",
-        "amazon",
-        "dario amodei",
-        "site",
-        "pbc",
-        "sept",
-        "us",
-        "ipo",
-        "alphabet",
-        "ai",
-        "president donald trump",
-        "ceo",
-        "englewood cliffs",
-        "silicon valley",
-        "california",
-        "kate rooney",
-        "nov",
-        "wednesday",
-        "cnbc",
-        "open",
-        "nasdaq",
-        "anthropic",
-        "claude",
-        "brendan mcdermid",
-        "ashley capoot",
-        "november",
-        "conference",
-        "san francisco",
-        "dario",
-        "microsoft",
-        "apple",
-        "nvidia",
-        "more",
-        "anthropic daniela amodei",
-        "amazon andy jassy",
-        "watch",
-        "google",
-        "daniela amodei",
-        "june",
-        "new jersey",
-        "reuters\nanthropic",
-        "new york city",
-        "thursday",
-        "semafor",
-        "hours ago\namazon",
-        "manuel orbegozo",
-        "president",
-        "ant",
-        "market",
-        "the world",
-        "space",
-        "nasdaq adena friedman"
-      ],
-      "numbers": [
-        "$1.8 trillion",
-        "17%",
-        "$83 ",
-        "81.3 billion",
-        "33.24 billion",
-        "$33.24 billion",
-        "$111.50",
-        "980 million",
-        "$81.3 billion",
-        "522 million",
-        "30%",
-        "1.8 trillion",
-        "$97.17 ",
-        "200%",
-        "846 million"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 71
+        "anchor_count": 48
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_ae201158180e3dc6d8e5726f",
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "article_id": "a1_292f8a5c01dae029411c21f4",
+      "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
       "category": "国际",
-      "published_at": "2026-11-19T21:21:43+00:00",
-      "why_relevant": "俄乌和谈地缘关键",
+      "published_at": "2026-11-20T21:05:07+00:00",
+      "why_relevant": "特朗普涉AI与外交，地缘核心",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Europe ready for talks with Russia on ending war in Ukraine, leaders say - Published European leaders have said they are ready for negotiations with Russia on ending the war in Ukraine, in a strong show of support for Kyiv.",
+          "text": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.529969+08:00",
-          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
-          "excerpt": "Europe ready for talks with Russia on ending war in Ukraine, leaders say - Published European leaders have said they are ready for negotiations with Russia on ending the war in Ukraine, in a strong show of support for Kyiv.",
-          "sentence_hash": "e2c088fbeaf521762fed3bfa66e2d6b57530f02a76062aa469f129738be8a658",
+          "captured_at": "2026-11-21T08:03:21.693898+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+          "sentence_hash": "0e63a196ec21905ab89a3146a73c208e7c37ff5b8a9f9ac5f297bc67f7ad4777",
           "anchors": [
-            "us",
-            "they"
+            "ai",
+            "and",
+            "during",
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "\"Europe has a clear and consistent and united negotiating position,\" UK Prime Minister Andy Burnham said, while German Chancellor Friedrich Merz stressed that Moscow's \"maximalist demands are not realistic\".",
+          "text": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.530004+08:00",
-          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
-          "excerpt": "\"Europe has a clear and consistent and united negotiating position,\" UK Prime Minister Andy Burnham said, while German Chancellor Friedrich Merz stressed that Moscow's \"maximalist demands are not realistic\".",
-          "sentence_hash": "48d596d1573c10fd434597726c63385751bfd16cefab5a7844d74ab699c0bd94",
+          "captured_at": "2026-11-21T08:03:21.693929+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
+          "sentence_hash": "474f53ee927db2d5398b61df09434197a40e552d893445f7ac45bca3e81ae713",
           "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Donald Trump's son-in-law Jared Kushner, one of the two US envoys who were in Berlin, said the US president wanted to make a deal with Moscow \"with Europe by his side\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.530059+08:00",
-          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
-          "excerpt": "Donald Trump's son-in-law Jared Kushner, one of the two US envoys who were in Berlin, said the US president wanted to make a deal with Moscow \"with Europe by his side\".",
-          "sentence_hash": "7587b0f80a3ebb61407bd45e922df5818a127516f9d9cc8989ed0d41c2063eaf",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Russia's Vladimir Putin has so far rejected any European role in the US-led peace talks.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.530082+08:00",
-          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
-          "excerpt": "Russia's Vladimir Putin has so far rejected any European role in the US-led peace talks.",
-          "sentence_hash": "1829c694f37da8c282d0e2a7d50569a54cab0aba1244d0b8eb9e3c5523d554db",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Trump had earlier held historic trilateral talks in Shenzhen, south-eastern China, with Putin and Chinese President Xi Jinping and later dialled into the Berlin summit from Air Force One.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.530112+08:00",
-          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
-          "excerpt": "Trump had earlier held historic trilateral talks in Shenzhen, south-eastern China, with Putin and Chinese President Xi Jinping and later dialled into the Berlin summit from Air Force One.",
-          "sentence_hash": "64e94b5c2d5b0aafb29514d82ead15e56ef09f9319c1a99aa159f6052af66379",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "In a lengthy press conference following his talks with Trump and Xi, Putin addressed the question of multilateral peace talks, saying the Americans were \"insistently\" asking Russia to allow the Europeans to take part.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.530144+08:00",
-          "content_sha256": "32168875a5d8efccdf5af62f804c1e66e9bb4013902a536b4d25c7adbf5ed1d2",
-          "excerpt": "In a lengthy press conference following his talks with Trump and Xi, Putin addressed the question of multilateral peace talks, saying the Americans were \"insistently\" asking Russia to allow the Europeans to take part.",
-          "sentence_hash": "f1bc3ed049260d318b6c553dad9a4e098d414bd068c1697e045d4b3f6f5c55df",
-          "anchors": [
+            "ai",
             "and",
             "us"
           ]
-        }
-      ],
-      "entities": [
-        "moscow",
-        "germany",
-        "shenzhen",
-        "coalition",
-        "ukrainian president volodymyr zelensky",
-        "still",
-        "and",
-        "kyiv",
-        "europe",
-        "prime minister andy burnham",
-        "us",
-        "americans",
-        "but putin",
-        "nato",
-        "donald trump",
-        "europeans",
-        "putin",
-        "china",
-        "kushner",
-        "chinese president xi jinping",
-        "published\neuropean",
-        "german chancellor friedrich merz",
-        "berlin",
-        "air force one",
-        "but",
-        "they",
-        "vladimir putin",
-        "russia",
-        "jared kushner",
-        "ukrainian",
-        "russians",
-        "article five",
-        "european",
-        "striking",
-        "uk",
-        "trump",
-        "kyiv article five",
-        "western",
-        "willing",
-        "ukraine"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 40
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_80c36a5bc239f5ac60b4e560",
-      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
-      "category": "国际",
-      "published_at": "2026-11-19T20:07:02+00:00",
-      "why_relevant": "国际法院裁决人道法重大",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Myanmar committed genocide against Rohingya minority, top UN court rules - Published Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.531314+08:00",
-          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
-          "excerpt": "Myanmar committed genocide against Rohingya minority, top UN court rules - Published Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).",
-          "sentence_hash": "40611661127d7d4c14f32e854d5650c71c6416837a4479bc8b0ccfc70c03c481",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.531340+08:00",
-          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
-          "excerpt": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
-          "sentence_hash": "0dba63c732ed5d4d3a4db799e33fa3e71921219b2ad802280148900404d3e314",
-          "anchors": [
-            "un",
-            "international court"
-          ]
         },
         {
           "fact_id": "f3",
-          "text": "A military crackdown in 2017 killed thousands of Rohingya and forced more than 700,000 to flee Buddhist-majority Myanmar, formerly known as Burma.",
+          "text": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.531368+08:00",
-          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
-          "excerpt": "A military crackdown in 2017 killed thousands of Rohingya and forced more than 700,000 to flee Buddhist-majority Myanmar, formerly known as Burma.",
-          "sentence_hash": "c41688a8a50bf84210a3e822a09aeff017d67a0615081749df5417c3e061b963",
+          "captured_at": "2026-11-21T08:03:21.693963+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
+          "sentence_hash": "fee73a850fdd9b786889f54135dc8a11b94e6aff26decfff4e066a0e4c1bc291",
           "anchors": [
-            "017 killed"
+            "and",
+            "during",
+            "us"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The court found on Thursday that \"genocidal intent is the only reasonable inference that can be drawn from the evidence\" it had seen.",
+          "text": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.531395+08:00",
-          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
-          "excerpt": "The court found on Thursday that \"genocidal intent is the only reasonable inference that can be drawn from the evidence\" it had seen.",
-          "sentence_hash": "8af6fac615c5e27d85addb09bff5fb6ed5c6d7a0c7be5e23e2cd6b40aad8274a",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The verdict was reached by a majority of nine votes to six among a panel of judges from around the world.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.531415+08:00",
-          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
-          "excerpt": "The verdict was reached by a majority of nine votes to six among a panel of judges from around the world.",
-          "sentence_hash": "37f0be1aab8d6f76459fba4007285d23bb2369b600bed25590e7fcc88ee5bdbf",
-          "anchors": [
-            "un"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The ICJ also found in favour by majority that Myanmar had violated several other parts of the 1948 Genocide Convention.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.531436+08:00",
-          "content_sha256": "162a0e7c69f51e3d2a39584b759269fbc7f20b2017599bb3442004de29e1082a",
-          "excerpt": "The ICJ also found in favour by majority that Myanmar had violated several other parts of the 1948 Genocide Convention.",
-          "sentence_hash": "6a55d6f9fa537d5809c69a7d9c313c093cffe5049f40eb0c47ee995d26ef3e92",
-          "anchors": [
-            "un"
-          ]
-        }
-      ],
-      "entities": [
-        "after",
-        "published\nmyanmar",
-        "icj",
-        "yuji iwasawa",
-        "bangladesh",
-        "iwasawa",
-        "arakan rohingya salvation army",
-        "arsa",
-        "refugees",
-        "rohingya",
-        "thursday",
-        "buddhist",
-        "rohingya muslim",
-        "the gambia",
-        "rakhine state",
-        "myanmar",
-        "genocide convention",
-        "burma",
-        "un",
-        "international court",
-        "while",
-        "justice"
-      ],
-      "numbers": [
-        "017 killed"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 23
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_9138abbf7a748031816c9b53",
-      "title": "Hunterbrook Says It’s Not Just NVIDIA, ‘AMD Has A China Problem Of Its Own,’ With AMD Firmware Now Traced To Blacklisted IEIT Servers [Update: AMD Responds]",
-      "url": "https://wccftech.com/hunterbrook-says-its-not-just-nvidia-amd-has-a-china-problem-of-its-own-with-amd-firmware-now-traced-to-blacklisted-ieit-servers/",
-      "publisher": "Wccftech",
-      "summary": "In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVIDIA-specific problem. Hunterbrook: AMD firmware has appeared in products linked to a U.S.-blacklisted Chinese server maker Here is a summary of Hunterbrook's report on AMD. Do note that the firm has also disclosed a shor",
-      "category": "科技",
-      "published_at": "2026-11-19T16:36:21+00:00",
-      "why_relevant": "AMD供应链涉华GPU风险",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVI",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.532821+08:00",
-          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
-          "excerpt": "In what could rapidly cascade into an industry-wide corporate governance issue, the activist hedge fund and media outlet Hunterbrook has just rocked Anthropic's IPO party by declaring that AMD has a China problem of its own, signaling that alleged chip smuggling isn't just an NVI",
-          "sentence_hash": "2dacb2ab507d0650e0448e56d3ed3ad71643b936923c3e1a8869da0b8033df4b",
-          "anchors": [
-            "pi",
-            "corporate"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "So, readers should note that Hunterbrook has a vested interest in painting AMD in the worst possible light.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.532865+08:00",
-          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
-          "excerpt": "So, readers should note that Hunterbrook has a vested interest in painting AMD in the worst possible light.",
-          "sentence_hash": "ed6e9d576262d25ca51131d157854471bcabbb8e72f61d6a0060d93da2db1767",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "IEIT Systems and Post-Blacklisting Firmware In March 2025, the U.S.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.532885+08:00",
-          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
-          "excerpt": "IEIT Systems and Post-Blacklisting Firmware In March 2025, the U.S.",
-          "sentence_hash": "9734d25c82af2e06a80bca8c4811b09ebb5d9551e7b6d9b97f67e9bc6ef1be4d",
-          "anchors": [
-            "March 20"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "More than 15 months later, on October 19, 2026, IEIT posted a BIOS (startup software) update for one of its servers, which referenced an upgrade of the \"codebase PI version to 100B.\" Hunterbrook downloaded the file and identified AMD’s Platform Initialization (PI) startup firmwar",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.532954+08:00",
-          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
-          "excerpt": "More than 15 months later, on October 19, 2026, IEIT posted a BIOS (startup software) update for one of its servers, which referenced an upgrade of the \"codebase PI version to 100B.\" Hunterbrook downloaded the file and identified AMD’s Platform Initialization (PI) startup firmwar",
-          "sentence_hash": "6ce5333831276924b35da78905adfe4161f199f28ef2dc60ea614cf5535bd63d",
-          "anchors": [
-            "July 20",
-            "October 19",
-            "post"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Since its blacklisting, IEIT has incorporated at least six newer versions of AMD’s firmware into its server software updates.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.532988+08:00",
-          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
-          "excerpt": "Since its blacklisting, IEIT has incorporated at least six newer versions of AMD’s firmware into its server software updates.",
-          "sentence_hash": "1e405699fc49e7fe60dba48512c2835754cd8eb3333ac3eed98edd268deaa34a",
-          "anchors": [
-            "corporate"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Where AMD release dates are publicly available, IEIT’s builds appeared around 25 to 61 days later.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.533016+08:00",
-          "content_sha256": "522b21bbe1989d70aae150ee498a9afbb924df66b359acb9c51da5c448aa301c",
-          "excerpt": "Where AMD release dates are publicly available, IEIT’s builds appeared around 25 to 61 days later.",
-          "sentence_hash": "61627d151d8cfeeb6fe903a99c3e0e86d899ebc628f9959fc4771e58f0ae893f",
-          "anchors": [
-            "here",
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "wall street journal",
-        "bios",
-        "shipping activity\nwhat",
-        "kaytus",
-        "post",
-        "jinan",
-        "pi",
-        "interestingly",
-        "aivres",
-        "since",
-        "amd",
-        "entity list",
-        "ipo",
-        "ieit",
-        "kaytus group ltd",
-        "turin",
-        "ai",
-        "blacklisting firmware\nin march",
-        "july",
-        "here",
-        "china",
-        "aivres partnership",
-        "maginfra",
-        "platform initialization",
-        "anthropic",
-        "british virgin islands",
-        "chinese",
-        "nvidia",
-        "more",
-        "february",
-        "kaytus systems",
-        "commerce department",
-        "aivres systems",
-        "singapore",
-        "october",
-        "systems",
-        "hunterbrook",
-        "inspur systems",
-        "corporate",
-        "instinct",
-        "new york times"
-      ],
-      "numbers": [
-        "164 million",
-        "$1.57 billion",
-        "$164 million",
-        "1.57 billion"
-      ],
-      "dates": [
-        "March 20",
-        "February 20",
-        "May 20",
-        "July 20",
-        "October 19"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 50
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_ebede77ba13b9ffc25873b42",
-      "title": "External sandboxes for coding agents",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
-      "publisher": "Simon Willison",
-      "summary": "External sandboxes for coding agents\nI've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.\nI worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.\nMy post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs in",
-      "category": "科技",
-      "published_at": "2026-11-17T22:52:29+00:00",
-      "why_relevant": "AI编程沙箱实用技术",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "17th November 2026 - Link Blog External sandboxes for coding agents.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.533940+08:00",
-          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
-          "excerpt": "17th November 2026 - Link Blog External sandboxes for coding agents.",
-          "sentence_hash": "51bb4c1efe8a0461a45c1d24ea8b1232f717b43266a84eaa3c9d7ad4a589d37e",
-          "anchors": [
-            "November 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.533978+08:00",
-          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
-          "excerpt": "I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine.",
-          "sentence_hash": "6d0d3eefa4881badbc2596d750241d35339559e9f0b7a00b7831c1762c0b2d3c",
-          "anchors": [
-            "pr"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.534000+08:00",
-          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
-          "excerpt": "I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects.",
-          "sentence_hash": "08992c7f74713420e21bd77c3dc51eb7d279cfd6136e9e30a635620b0eebea37",
-          "anchors": [
-            "pr"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.534049+08:00",
-          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
-          "excerpt": "My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox.",
-          "sentence_hash": "997a33e04072906e11d2089e66381c05aa1af0e63dca6b9669dc1f420cc603d5",
-          "anchors": [
-            "here"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "- external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.534081+08:00",
-          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
-          "excerpt": "- external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance.",
-          "sentence_hash": "839d86388dcbd0268a2d97c3de1d4e78c8bceb102edbc81be6af1db5c0decd45",
+          "captured_at": "2026-11-21T08:03:21.693990+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
+          "sentence_hash": "ebacaf4615e8c0931d94a071dfae1cafcd60d24bae532b00f7d703e5886e8541",
           "anchors": [
             "ai",
-            "web"
+            "during",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694015+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
+          "sentence_hash": "2fec3e672802b802b8a7aed0687d5be549668d473a7fdba4c76fda1466504124",
+          "anchors": [
+            "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "- external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package!",
+          "text": "“I think it gives us a lot of additional strength,” he said.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.534107+08:00",
-          "content_sha256": "8cb0f347664e482d75739fc02858a3cd6ce2d2cfdc6936500a31038af53d2556",
-          "excerpt": "- external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package!",
-          "sentence_hash": "24638ce0fc4acf9c9c5ca86e0e48afa0599914f400369dda4be703375a721293",
+          "captured_at": "2026-11-21T08:03:21.694031+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "“I think it gives us a lot of additional strength,” he said.",
+          "sentence_hash": "c9bd193bdadf37c60f5f2af74146976c11710f848f5fcdfa9ddd7977391bc2e5",
           "anchors": [
-            "quicksand",
-            "ui",
-            "web"
+            "ai",
+            "us"
           ]
         }
       ],
       "entities": [
-        "apple containers",
-        "https",
-        "web",
-        "prime radiant",
-        "recent",
-        "http",
-        "you",
-        "hide",
-        "ui",
-        "alpine linux",
-        "pr",
+        "defence secretary hegseth",
+        "iran",
+        "china",
+        "putin",
+        "vladimir putin",
+        "america",
+        "treasury secretary scott bessent",
+        "republicans",
+        "but trump",
         "ai",
-        "quicksand",
-        "here",
-        "api",
-        "each",
-        "claude code",
-        "claude",
-        "november",
-        "codex",
-        "microsoft",
-        "locating",
-        "qemu",
-        "superpowers",
-        "python",
-        "datasette python",
-        "assembly",
-        "link blog\nexternal",
-        "node",
-        "pyodide",
-        "qwen",
-        "running"
+        "jd",
+        "white house",
+        "on friday",
+        "vice president",
+        "state marco rubio",
+        "stephen miller",
+        "russia",
+        "united states",
+        "they",
+        "secretary",
+        "russian",
+        "united states president donald trump",
+        "and",
+        "trump",
+        "vance",
+        "during",
+        "friday",
+        "chinese president xi jinping",
+        "people",
+        "us"
       ],
       "numbers": [],
-      "dates": [
-        "November 20"
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
+        "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 33
+        "anchor_count": 30
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_0182f4d4f14521a1442ccd79",
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-      "publisher": "SEC 新闻稿",
-      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
-      "category": "财经",
-      "published_at": "2026-11-19T14:39:02+00:00",
-      "why_relevant": "SEC加密诈骗防风险",
+      "article_id": "a1_ea17b993fc723c9422b3ef8e",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+      "category": "国际",
+      "published_at": "2026-11-20T23:08:57+00:00",
+      "why_relevant": "AI证明黎曼猜想，学术突破",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S.",
+          "text": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.535399+08:00",
-          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
-          "excerpt": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S.",
-          "sentence_hash": "7ac047e032a8dfab432d27a151d68d1defd7dfe6998fa04d5d17305e3c244b4b",
+          "captured_at": "2026-11-21T08:03:21.694940+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
+          "sentence_hash": "300f3ce636a4ba0eb11f74ace6122fa4711b0b622879e87de0045178a3ea8fad",
           "anchors": [
-            "37 Million",
-            "$37 Million"
+            "ai",
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The defendants allegedly lured investors to believe they were working with a real investment adviser and crypto asset trading platform, when in fact the adviser and platform were entirely fake, simply fronts to steal investor money.",
+          "text": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.535463+08:00",
-          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
-          "excerpt": "The defendants allegedly lured investors to believe they were working with a real investment adviser and crypto asset trading platform, when in fact the adviser and platform were entirely fake, simply fronts to steal investor money.",
-          "sentence_hash": "a8addf9126215f4181d5faa0c114afeb7f95413d28b3a93e42bc88a7198ac2cc",
+          "captured_at": "2026-11-21T08:03:21.694968+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
+          "sentence_hash": "a402abeb9ddf2f6c02c41340363ce782e2cb9bbd219bc3f83432cebeff981b0e",
           "anchors": [
-            "real"
+            "ai",
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "markets before luring their victims to send as much money as possible to a supposed crypto asset trading platform, leading victims to believe they were buying real crypto assets on the platform.",
+          "text": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.535551+08:00",
-          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
-          "excerpt": "markets before luring their victims to send as much money as possible to a supposed crypto asset trading platform, leading victims to believe they were buying real crypto assets on the platform.",
-          "sentence_hash": "2c18876f77a3bf2054be430dc26af3a4184aeee0ebe8a84d3c71d7801eecc892",
+          "captured_at": "2026-11-21T08:03:21.694994+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
+          "sentence_hash": "c263cf7e03dff071dd31acb758822188081ed177ce11cb4ae7f0900f5116779d",
           "anchors": [
-            "real"
+            "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The scheme operated in four adviser-platform pairs from August 2024 through May 2026, with the perpetrators abandoning one pair for the next after operating for a few months.",
+          "text": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.535592+08:00",
-          "content_sha256": "21b0ef0bb68ff174ebbd29ff9d1abb252cfefc5b5fed0ca5e36701b6e7595354",
-          "excerpt": "The scheme operated in four adviser-platform pairs from August 2024 through May 2026, with the perpetrators abandoning one pair for the next after operating for a few months.",
-          "sentence_hash": "16b6c26be42e40e7c18ad123d640dda397468271e2b5449264ddaa0c7d0dd930",
+          "captured_at": "2026-11-21T08:03:21.695011+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
+          "sentence_hash": "f65f7eb95e497333e3ec1eef3f6eef89582798fadb5cb2d00edc1a8a93390085",
           "anchors": [
-            "August 20",
-            "May 20"
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.695033+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+          "sentence_hash": "dd71c8b2456156fdde3d2c5af638f960147804bc6feb18f0a46e7c09e7fad171",
+          "anchors": [
+            "prime",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.695051+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
+          "sentence_hash": "2379558e5273adf7fb8683321ecc6bd0b30260e4e6c29b03dabdaebb461a5a42",
+          "anchors": [
+            "prime"
           ]
         }
       ],
       "entities": [
-        "chat capital",
-        "laura",
-        "office",
-        "august",
-        "steal more than",
-        "united states district court",
-        "investors\nwashington",
-        "associated wealth advisors ltd",
-        "hb",
-        "wealth advisors",
-        "district",
-        "tech brokerage asset alliance ltd",
-        "llc",
-        "real",
-        "crypto exchange",
-        "allaird",
-        "simple crypto exchange inc",
-        "advisor we",
-        "securities exchange act",
-        "emerging technologies unit",
-        "nov",
-        "colorado",
-        "assistance",
-        "cyber",
-        "million from",
-        "chief",
-        "enforcement division",
-        "eight entities used fake crypto asset trading platforms",
-        "finra",
-        "essential crypto exchange",
-        "idea",
-        "rule",
-        "advisers act",
-        "sec",
-        "exchange commission",
-        "according",
-        "the securities",
-        "convergent wealth advisors inc",
-        "section",
-        "investor education",
-        "sections",
-        "fin",
-        "investment advisers act"
+        "september",
+        "ceo",
+        "tao",
+        "published\nan anthropic",
+        "sunday",
+        "levent alp",
+        "navier",
+        "terrance tao",
+        "there",
+        "riemann",
+        "alp",
+        "anthropic",
+        "named",
+        "stokes",
+        "prime",
+        "more",
+        "lean",
+        "dario amodei",
+        "claude",
+        "friday",
+        "ai",
+        "open",
+        "bernhard riemann",
+        "us"
       ],
-      "numbers": [
-        "37 Million",
-        "$37 Million"
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
       ],
-      "dates": [
-        "August 20",
-        "May 20"
-      ],
-      "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 4,
-        "anchor_count": 47
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 24
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_ca3e8ada238320bfaf410380",
-      "title": "AMD shares fall after short seller report on China links",
-      "url": "https://www.ft.com/content/69fd7870-a2cf-4e75-88bc-a1c4036efded?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
-      "category": "财经",
-      "published_at": "2026-11-19T18:40:23+00:00",
-      "why_relevant": "AMD做空冲击半导体信号",
+      "article_id": "a1_7b7d083f873ba0718b4fef65",
+      "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+      "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
+      "category": "国际",
+      "published_at": "2026-11-20T22:15:07+00:00",
+      "why_relevant": "对华芯片管制，科技地缘",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
+          "text": "US lawmakers push for tougher AI chip rules amid China export crackdown Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.535844+08:00",
-          "content_sha256": "b84c64f4fd1e94145d684fc6db04121d9f62db9be2369a3131f80c16c824613e",
-          "excerpt": "Chipmaker down by as much as 11% following warnings by Hunterbrook in the aftermath of Nvidia scandal",
-          "sentence_hash": "65d40e7091cb72fc32b49b548352a8874d27d96acffa0282f93b3ff0995b8571",
+          "captured_at": "2026-11-21T08:03:21.695985+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "US lawmakers push for tougher AI chip rules amid China export crackdown Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
+          "sentence_hash": "71ec5c6fa38124b0f4a811a876ee21615e0c89bccb73d0623704c0499dc81d6b",
           "anchors": [
-            "11%"
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This week, the US Department of Commerce announced a new rule to restrict how advanced US AI chips can be accessed remotely in the wake of the previous Nvidia CEO’s affair with a suspected spy for Beijing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696025+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "This week, the US Department of Commerce announced a new rule to restrict how advanced US AI chips can be accessed remotely in the wake of the previous Nvidia CEO’s affair with a suspected spy for Beijing.",
+          "sentence_hash": "81ba3731ed1801abbce865c00b195c357214d48005e534492ea31ca18b2cfbfc",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Bureau of Industry and Security (BIS), which sits under the Commerce Department, said the rule would require data centre customers in Thailand, Indonesia, Malaysia, Singapore and Brazil to apply for a special licence to buy advanced chips from US companies, including Nvidia, ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696067+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "The Bureau of Industry and Security (BIS), which sits under the Commerce Department, said the rule would require data centre customers in Thailand, Indonesia, Malaysia, Singapore and Brazil to apply for a special licence to buy advanced chips from US companies, including Nvidia, ",
+          "sentence_hash": "5e492b9b17cc8114632458cf94a9577493b4c63bed8c0120924163dc52c64644",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“The export controls should have been in place, certainly,” Democratic Representative Pramila Jayapal told Al Jazeera.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696089+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "“The export controls should have been in place, certainly,” Democratic Representative Pramila Jayapal told Al Jazeera.",
+          "sentence_hash": "73d1fe739e810be39e154027618153ad0617826adfca100f59bc14dab2eec90a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We should not have this consolidation of all the AI knowledge in a couple of companies because that poses an enormous threat on multiple levels, including national security.” In October, Jayapal introduced a policy framework that would require every AI company operating in the US",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696132+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "We should not have this consolidation of all the AI knowledge in a couple of companies because that poses an enormous threat on multiple levels, including national security.” In October, Jayapal introduced a policy framework that would require every AI company operating in the US",
+          "sentence_hash": "c3280f017ed1738314f01873577d2b7e1c70b42ffeae32517fd773600882bf03",
+          "anchors": [
+            "ai",
+            "security",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The AI charter, the framework says, is modelled after existing regulatory frameworks, combining the round-the-clock federal oversight, strict safety mandates, and structural separation built into national bank charters with the rigorous pre-release federal testing required for nu",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696163+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "The AI charter, the framework says, is modelled after existing regulatory frameworks, combining the round-the-clock federal oversight, strict safety mandates, and structural separation built into national bank charters with the rigorous pre-release federal testing required for nu",
+          "sentence_hash": "eb5fad4837aad8455d9bacce360ace05df082a6763cc348b17d149c66027fb9a",
+          "anchors": [
+            "us"
           ]
         }
       ],
       "entities": [
+        "commerce",
+        "lutnick",
+        "ceo",
+        "commerce secretary howard lutnick",
+        "malaysia",
+        "the house foreign affairs committee",
+        "al jazeera",
+        "beijing",
+        "thailand",
+        "chinese",
+        "united states",
+        "the bureau",
+        "amd",
+        "in october",
+        "washington",
+        "indonesia",
+        "commerce department",
+        "china",
+        "megaspeed",
+        "house",
+        "security",
+        "singapore",
+        "representatives judiciary committee",
+        "democratic representative pramila jayapal",
+        "brazil",
+        "department",
+        "industry",
+        "jayapal",
+        "trump",
+        "bis",
+        "president donald trump",
+        "ai",
         "nvidia",
-        "hunterbrook",
-        "chipmaker"
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9d5f4691fdf57bba4cfb262f",
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "publisher": "GitHub Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.https://jingyaogong.github.io/minimind \n  \n \n \n       \n \n \n  \n \n \n \"大道至简\" \n \n \n 中文 | English \n \n \n 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 \n MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 \n 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 \n MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "低资源训练LLM，硬核技术可操作",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "中文 | English - 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697255+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "中文 | English - 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。",
+          "sentence_hash": "ef573f3ac621c985eb493839f92326a2256976aa81d98bd86acddd4bd0f3ea1a",
+          "anchors": [
+            "中文",
+            "小时",
+            "仅用",
+            "开始",
+            "在完全从",
+            "块钱",
+            "模约为",
+            "的超小语言模",
+            "成本",
+            "言模型",
+            "模型",
+            "小时训练时间",
+            "此开源项目旨",
+            "即可训练出规",
+            "训练",
+            "项目",
+            "块钱成本与"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$ ，力求让普通个人 GPU 也能快速完成训练与复现。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697296+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$ ，力求让普通个人 GPU 也能快速完成训练与复现。",
+          "sentence_hash": "946ce366f48139d43fe6ca6a261777d7956c6c637a49bd506fed3895860d6e60",
+          "anchors": [
+            "训练与复现",
+            "也能快速完成",
+            "体积约为",
+            "主线最小版本",
+            "系列极其轻量",
+            "力求让普通个",
+            "训练"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697341+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。",
+          "sentence_hash": "98c46d3fd7f29c6df937c02eb26d624e9b7ce11e48af3497aacc4d11a4fc0d3d",
+          "anchors": [
+            "预训练",
+            "训练链路",
+            "覆盖",
+            "简结构与完整",
+            "代码",
+            "自适应思考与",
+            "结构",
+            "微调",
+            "了大模型的极",
+            "数据清洗",
+            "模型蒸馏等全",
+            "蒸馏",
+            "监督微调",
+            "模型",
+            "项目同时开源",
+            "过程代码",
+            "训练",
+            "ai",
+            "项目"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697383+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。",
+          "sentence_hash": "c246ba358157b932224360a0a5710c18492a46785e9a6abf99ce39a303ad0059",
+          "anchors": [
+            "详见",
+            "ar",
+            "同时拓展了视",
+            "多模态",
+            "言模型",
+            "扩散语言模型",
+            "模型",
+            "线性模型",
+            "觉模态模型"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697413+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。",
+          "sentence_hash": "3a76cdc5f229d312ea9749cbc843180de4d71c23ee5dce975287b352252c3e88",
+          "anchors": [
+            "原生实现",
+            "库提供的高层",
+            "使用",
+            "算法代码均从",
+            "代码",
+            "实现",
+            "项目所有核心",
+            "抽象接口",
+            "提供",
+            "不依赖第三方",
+            "项目"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697443+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。",
+          "sentence_hash": "67b25122beb3ef8a046f11e37ddb033292a29796134ade924da73c6b3537b2fd",
+          "anchors": [
+            "这不仅是一个",
+            "也是一套面向",
+            "阶段开源复现",
+            "言模型",
+            "大语言模型",
+            "教程",
+            "模型",
+            "入门与实践的",
+            "项目",
+            "大语言模型全"
+          ]
+        }
+      ],
+      "entities": [
+        "torch",
+        "的全流程训练",
+        "核心代码的机",
+        "默认",
+        "预训练",
+        "整训练流程",
+        "为更多人提供",
+        "均可基于主线",
+        "大语言模型全",
+        "行代码",
+        "在完全从",
+        "开始",
+        "这种高效封装",
+        "从零开始训练",
+        "自适应思考与",
+        "扩散语言模型",
+        "数据清洗",
+        "上跑完",
+        "与核心模块均",
+        "结构主线对齐",
+        "框架封装",
+        "这不仅是一个",
+        "等第三方测评",
+        "体积约为",
+        "认配置全面更",
+        "远比坐在头等",
+        "监督微调",
+        "即可训练出规",
+        "可扩展的起点",
+        "dense",
+        "主线数据",
+        "问题是",
+        "一知半解的讲",
+        "算法代码均从",
+        "的乐趣吧",
+        "受到这场技术",
+        "推理",
+        "与线性注意力",
+        "是的",
+        "关键训练算法",
+        "原生实现",
+        "还是",
+        "覆盖",
+        "阶段在单张",
+        "加载数据集",
+        "新增",
+        "tokenizer",
+        "并推动更广泛",
+        "也是一套面向",
+        "一个可复现",
+        "新增原生",
+        "协议的极简服",
+        "程和营销内容",
+        "发布",
+        "open",
+        "固然便利",
+        "源数据",
+        "长文本外推",
+        "支持更灵活地",
+        "遗憾的是",
+        "omni",
+        "蒸馏",
+        "出一架飞机",
+        "rlaif",
+        "清洗与去重后",
+        "cispo",
+        "deep",
+        "并支持",
+        "解包装所谓的",
+        "无论是",
+        "切换为",
+        "训练",
+        "削弱了深入理",
+        "对齐",
+        "即具备基础",
+        "绝大多数探索",
+        "book",
+        "模约为",
+        "ddp",
+        "人兴奋",
+        "等常用推理引",
+        "觉模态模型",
+        "fast",
+        "离开来",
+        "人设备而言不",
+        "结构",
+        "启停训练",
+        "引发了全球范",
+        "agentic",
+        "社区的进步",
+        "浪潮的冲击力",
+        "mini",
+        "度上把开发者",
+        "dpo",
+        "主线最小版本",
+        "与此同时",
+        "用漏洞百出",
+        "apache",
+        "移除独立",
+        "块钱",
+        "多模态",
+        "使用",
+        "库提供的高层",
+        "内部运作机制",
+        "往往只暴露出",
+        "世纪的智能手",
+        "项目",
+        "自适应开关控",
+        "设计",
+        "强化学习",
+        "集上进行评测",
+        "gpu",
+        "api",
+        "覆盖收集",
+        "都以惊艳的效",
+        "阶段开源复现",
+        "的实测耗时",
+        "只需短短十几",
+        "提供兼容",
+        "微调",
+        "chat",
+        "提供全阶段开",
+        "english",
+        "llm",
+        "的空前关注",
+        "支持",
+        "web",
+        "小时训练时间",
+        "使得它们对个",
+        "训练脚本",
+        "训练与复现",
+        "线性模型",
+        "入门与实践的",
+        "甚至连部署都",
+        "中文",
+        "ar",
+        "的超小语言模",
+        "默认训练数据",
+        "也能快速完成",
+        "等推理示例",
+        "系列极其轻量",
+        "这更像是在教",
+        "仅难以训练",
+        "详见",
+        "本项目基于",
+        "我认为",
+        "切换生成后端",
+        "llama",
+        "就能亲身体验",
+        "代码开始",
+        "ui",
+        "此开源项目旨",
+        "教程",
+        "提供",
+        "物理本质的初",
+        "第三方的大模",
+        "同时新增",
+        "了大模型的极",
+        "模型蒸馏等完",
+        "与单机多卡",
+        "最低只需不到",
+        "ppo",
+        "的乐趣",
+        "果让人真切感",
+        "tool use",
+        "言模型",
+        "就可以完成",
+        "互联网上充斥",
+        "牛顿如何使用",
+        "训练链路",
+        "大模型做少量",
+        "等主流框架",
+        "discussion",
+        "与分词器训练",
+        "务端",
+        "mind",
+        "sft",
+        "仅用",
+        "包含实验性拓",
+        "加载模型",
+        "eval",
+        "本项目的初衷",
+        "令或特定任务",
+        "seek",
+        "高度抽象的接",
+        "一起感受创造",
+        "的学习门槛",
+        "虽然有趣",
+        "use",
+        "模型蒸馏等全",
+        "租用成本",
+        "支持多轮",
+        "抽象接口",
+        "型框架与工具",
+        "qwen",
+        "等训练框架",
+        "块钱成本与",
+        "围内对",
+        "项目同时开源",
+        "等模板标记",
+        "的高质量数据",
+        "提供完整的",
+        "gpt",
+        "不依赖第三方",
+        "等第三方",
+        "数的模型规模",
+        "tool",
+        "人心潮澎湃的",
+        "完全免费",
+        "factory",
+        "最终都止步于",
+        "结构代码",
+        "动辄数百亿参",
+        "打开大模型的",
+        "rlhf",
+        "场景下的",
+        "开始亲手训练",
+        "speed",
+        "简结构与完整",
+        "支持在",
+        "提供基于",
+        "支持思考展示",
+        "用乐高自己拼",
+        "可理解",
+        "可视化与动态",
+        "代码",
+        "实现",
+        "真正去理解其",
+        "模型进行续训",
+        "的出现",
+        "兼容",
+        "却偏离了理解",
+        "让每个人都能",
+        "构建一个语言",
+        "streamlit",
+        "与底层实现隔",
+        "项目所有核心",
+        "模型",
+        "能力",
+        "生态",
+        "以及",
+        "推理接口与默",
+        "从理解每一行",
+        "解耦",
+        "擎与",
+        "工具选择与多",
+        "过程代码",
+        "并支持通过",
+        "块钱的服务器",
+        "然而更现实的",
+        "tool call",
+        "nvidia",
+        "舱里飞行更让",
+        "mmlu",
+        "训练流程完成",
+        "正因如此",
+        "同时拓展了视",
+        "而不是仅仅停",
+        "rl",
+        "linear",
+        "指对应时段的",
+        "协议开源",
+        "学习一些新指",
+        "grpo",
+        "pretrain",
+        "的极简聊天",
+        "linear attention",
+        "小时",
+        "留在推理层面",
+        "一个极小的语",
+        "思考能力统一",
+        "大语言模型",
+        "力求让普通个",
+        "当前主线结构",
+        "能力已混入",
+        "便于接入",
+        "却也在一定程",
+        "支持单机单卡",
+        "并移除了",
+        "离散扩散语言",
+        "显得遥不可及",
+        "然而",
+        "着大量付费课",
+        "等技术对现有",
+        "就是尽可能降",
+        "成本",
+        "黑盒子",
+        "large language model",
+        "ai",
+        "本应是一件令",
+        "模型的全过程",
+        "希望此项目能"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 292
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_97a419b64ccb8955fd6c9ec8",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "publisher": "GitHub Trending",
+      "summary": "An agentic skills framework & software development methodology that works.Superpowers \nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. \nTable of Contents \n \n How it works \n Commercial Services \n Getting Started \n   \n   Claude Code \n   Antigravity \n   Codex App \n   Codex CLI \n   Cursor \n   Devin CLI \n   Factory Droid \n   Gemini CLI \n   GitHub Copilot CLI",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Agentic开发方法论，实战框架",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698238+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+          "sentence_hash": "28c584dc0957d7fa8726d28ad2336e7b9da8bec5673afb8116ed825512bd2d07",
+          "anchors": [
+            "and",
+            "your",
+            "you",
+            "coding"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It starts from the moment you fire up your coding agent.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698254+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "It starts from the moment you fire up your coding agent.",
+          "sentence_hash": "c09f8f395849e829274a19eac578ac228cb762cb0807ece41ddaf1e0bb733989",
+          "anchors": [
+            "your",
+            "you",
+            "coding"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698270+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+          "sentence_hash": "b58b6d7f967bf57d7c8e7ba67687bda671b5f4fe0ba670f6a542ac19b270ddb8",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Instead, it steps back and asks you what you're really trying to do.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698286+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "Instead, it steps back and asks you what you're really trying to do.",
+          "sentence_hash": "039392975b0949d127b4a9b04ed82e25c480a6ad25b28d4425bdd2274ae2f9bc",
+          "anchors": [
+            "and",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698303+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest.",
+          "sentence_hash": "5b46363c117ab46d8393e4f2ebf453da8442a36ea29d8e47bd890db3c132a821",
+          "anchors": [
+            "and",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698329+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow.",
+          "sentence_hash": "fc82cb59cc2d49008e90fd3cc6f70a51803cf94fbadd4009ffafd5e89f46ada4",
+          "anchors": [
+            "and",
+            "your",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "next",
+        "superpow",
+        "click",
+        "search",
+        "register",
+        "installation",
+        "there",
+        "the superpowers",
+        "gonna need it",
+        "plugins",
+        "codex",
+        "dry",
+        "instead",
+        "once",
+        "reinstall",
+        "anthropic",
+        "antigravity",
+        "superpowers",
+        "install",
+        "your",
+        "claude code",
+        "claude",
+        "install superpowers",
+        "yagni",
+        "tdd",
+        "you",
+        "after",
+        "you aren",
+        "and",
+        "coding",
+        "open"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_44f69beb25ca25751f8073c1",
+      "title": "NVIDIA Fuels Accelerated Computing at Microsoft With Vera Rubin Deployments at Azure, RTX Blackwell & Open Models For Windows PCs",
+      "url": "https://wccftech.com/nvidia-fuels-accelerated-computing-at-microsoft-across-azure-windows-pcs/",
+      "publisher": "Wccftech",
+      "summary": "NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure. NVIDIA Vera Rubin NVL72 Now Available at Azure, While Nemotron Open AI Models &#38; RTX Blackwell Power On-Premises Windows PCs As accelerated compute and AI demand continue to grow, Microsoft is expanding its full-stack collaboration with NVIDIA, through which it will deploy next-gen Vera Rubin infrastructure on the Azure cloud. NVIDIA Vera Rubin NVL72 Running in Azure  NVID",
+      "category": "科技",
+      "published_at": "2026-11-20T18:15:32+00:00",
+      "why_relevant": "NVIDIA新硬件与Windows PC布局",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699267+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure.",
+          "sentence_hash": "fdb957cdaffac78e02c04eea54ab944191bacb604d36ee1d9fc84ccd7f669c14",
+          "anchors": [
+            "bringing"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "NVIDIA Vera Rubin NVL72 Now Available at Azure, While Nemotron Open AI Models & RTX Blackwell Power On-Premises Windows PCs As accelerated compute and AI demand continue to grow, Microsoft is expanding its full-stack collaboration with NVIDIA, through which it will deploy next-ge",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699301+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "NVIDIA Vera Rubin NVL72 Now Available at Azure, While Nemotron Open AI Models & RTX Blackwell Power On-Premises Windows PCs As accelerated compute and AI demand continue to grow, Microsoft is expanding its full-stack collaboration with NVIDIA, through which it will deploy next-ge",
+          "sentence_hash": "df909b1aa37cc8559a448e30f52c8069584fd802859e5daecb4a62ea94899a15",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "NVIDIA Vera Rubin NVL72 Running in Azure NVIDIA Vera Rubin NVL72 systems are running in Azure data centers, providing infrastructure designed for demanding reasoning, agentic applications, and large-scale model training and inference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699327+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "NVIDIA Vera Rubin NVL72 Running in Azure NVIDIA Vera Rubin NVL72 systems are running in Azure data centers, providing infrastructure designed for demanding reasoning, agentic applications, and large-scale model training and inference.",
+          "sentence_hash": "53b3b6e8c7bab3f31f7fc52770c07457dadc21f8921a22854b9dc5d500279330",
+          "anchors": [
+            "running",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The work will help protect sensitive models and data while they are being processed, supporting organizations that need to work with proprietary or regulated information.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699352+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "The work will help protect sensitive models and data while they are being processed, supporting organizations that need to work with proprietary or regulated information.",
+          "sentence_hash": "43cf48761d7443a632366d815ab4b145b1d4e4cba16d8e4dd29a929d4c0f7cd3",
+          "anchors": [
+            "models",
+            "ey"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "To help data centers get more performance from available power, NVIDIA and Microsoft are also collaborating on power efficiency using NVIDIA MaxLPS.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699371+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "To help data centers get more performance from available power, NVIDIA and Microsoft are also collaborating on power efficiency using NVIDIA MaxLPS.",
+          "sentence_hash": "c55dcf2a672bbd1b085abf2d642f6aad4ca2c8cac02f714fdeccbeb46f4a51d2",
+          "anchors": [
+            "ai",
+            "perf"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Azure’s Vera Rubin preview builds on NVIDIA and Microsoft’s codesign and performance optimization, underscored in the latest NVIDIA Blackwell-based MLPerf results.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699396+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "Azure’s Vera Rubin preview builds on NVIDIA and Microsoft’s codesign and performance optimization, underscored in the latest NVIDIA Blackwell-based MLPerf results.",
+          "sentence_hash": "547e7cce660577e5bc000a4fc149e4947b4f4e14c7b8835d7bc4d23b68c5139d",
+          "anchors": [
+            "perf"
+          ]
+        }
+      ],
+      "entities": [
+        "lightning",
+        "rtx",
+        "super",
+        "bringing",
+        "max",
+        "helping enterprises customize",
+        "blackwell",
+        "azure",
+        "cs\nas",
+        "while nemotron open",
+        "perf",
+        "perf inference",
+        "now available",
+        "seek",
+        "vera rubin",
+        "deploy open models\nenterprise",
+        "microsoft foundry",
+        "foundry managed compute",
+        "premises windows",
+        "windows",
+        "closer",
+        "ey",
+        "enterprise data",
+        "running",
+        "programmed training",
+        "nemotron",
+        "perf training",
+        "deep",
+        "signal",
+        "microsoft",
+        "models",
+        "ai",
+        "nvidia",
+        "blackwell power on"
       ],
       "numbers": [
-        "11%"
+        "55%",
+        "10%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9bd4104619bd86e15d2975b0",
+      "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+      "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+      "publisher": "Stratechery",
+      "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+      "category": "科技",
+      "published_at": "2026-11-18T11:00:00+00:00",
+      "why_relevant": "NVIDIA财报与OS竞争分析",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Subscribe to Stratechery Plus for full access.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700317+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Subscribe to Stratechery Plus for full access.",
+          "sentence_hash": "0bed0e8983759fc6bbf8bb21947753b94bfaa8942891d0cb0d4468b4ec0aaf13",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Already subscribed?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700331+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Already subscribed?",
+          "sentence_hash": "e7b63a7c826f721f28d76defdeb3d442d7c376c67f5ba8f960a74a96ee4ace36",
+          "anchors": [
+            "subscribe"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "$15 / month or $150 / year With Stratechery Plus you get access to the subscriber-only Stratechery Update and Stratechery Interviews, and the Sharp Tech, Sharp China, Dithering, Greatest of All Talk, and Asianometry podcasts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700361+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "$15 / month or $150 / year With Stratechery Plus you get access to the subscriber-only Stratechery Update and Stratechery Interviews, and the Sharp Tech, Sharp China, Dithering, Greatest of All Talk, and Asianometry podcasts.",
+          "sentence_hash": "67f0c4a997851f81fc82ea034a23fd52187da5cbb9e173696dfd74b69f7e3ceb",
+          "anchors": [
+            "$150 ",
+            "subscribe",
+            "$15 ",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Stratechery Interviews Interviews with leading public CEOs, private company founders, and discussions with fellow analysts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700388+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Stratechery Interviews Interviews with leading public CEOs, private company founders, and discussions with fellow analysts.",
+          "sentence_hash": "03986bfa279fc06f05051ebe5f49947c6885978c1effa2a06cedc1e8787a1da6",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Sharp Tech Andrew Sharp and myself discuss how technology works and the ways it impacts our lives.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700415+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Sharp Tech Andrew Sharp and myself discuss how technology works and the ways it impacts our lives.",
+          "sentence_hash": "de83fee59535bd31af2d1303b416bef6a059b4674f6a8d37ae45fc67709e205d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "If you are interested in ordering and managing multiple subscriptions for your team or company, please fill in the form here.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700494+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "If you are interested in ordering and managing multiple subscriptions for your team or company, please fill in the form here.",
+          "sentence_hash": "b16b722619081eae178772cfc1080cd836c4e93725c407090eecb50f458faf71",
+          "anchors": [
+            "please"
+          ]
+        }
+      ],
+      "entities": [
+        "subscribe",
+        "nba",
+        "asianometry\naudio",
+        "greatest of all talk",
+        "free",
+        "greatest",
+        "rss",
+        "stratechery update schedule",
+        "stratechery podcasts",
+        "once",
+        "stratechery interviews\ninterviews",
+        "sharp text\nsharp text",
+        "anthropic",
+        "daily update",
+        "nvidia",
+        "stratechery update\nsubstantial",
+        "asked questions\nhow",
+        "dithering",
+        "sharing",
+        "us",
+        "all talk",
+        "already",
+        "jensen huang",
+        "sms",
+        "sinocism",
+        "with stratechery plus",
+        "ben golliver",
+        "stratechery plus",
+        "andrew",
+        "stratechery",
+        "stratechery update",
+        "sharp china",
+        "goat",
+        "please",
+        "china",
+        "tube",
+        "sharp tech",
+        "stratechery updates",
+        "weekly articles",
+        "asianometry you",
+        "terms",
+        "bill bishop",
+        "yes",
+        "microsoft",
+        "stratechery interviews",
+        "andrew sharp",
+        "asianometry",
+        "stratechery passport",
+        "sharp tech\nandrew sharp",
+        "frequently",
+        "service",
+        "create",
+        "delivery preferences",
+        "john gruber",
+        "stratechery podcast"
+      ],
+      "numbers": [
+        "$150 ",
+        "$15 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 57
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_bbfa133fd9531b772a0aab10",
+      "title": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-20T13:35:33+00:00",
+      "why_relevant": "比特币新低，结合AI股下挫",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700624+08:00",
+          "content_sha256": "58ee6cd503b81289e2b9f9b05544829cb5161240e29287d29b81ef9013998b3a",
+          "excerpt": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+          "sentence_hash": "58ee6cd503b81289e2b9f9b05544829cb5161240e29287d29b81ef9013998b3a",
+          "anchors": [
+            "$59,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "nasdaq",
+        "live",
+        "anthropic",
+        "bitcoin"
+      ],
+      "numbers": [
+        "$59,000 "
       ],
       "dates": [],
       "unknowns": [
@@ -1422,198 +1861,7 @@
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 1,
-        "anchor_count": 4
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_99ab170beebdd0ed1c6e2f25",
-      "title": "US crackdown on scam networks connected to Chinese-born tycoon Chen Zhi ramps up",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375133/us-crackdown-scam-networks-connected-chinese-born-tycoon-chen-zhi-ramps",
-      "publisher": "SCMP",
-      "summary": "The United States sanctioned three individuals and two companies on Thursday over their alleged links to scam centre compounds in Southeast Asia, in the latest US crackdown on networks connected to Chinese-born tycoon Chen Zhi.\n“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott. “These criminal enterprises steal billions of dollars from victims around..",
-      "category": "国际",
-      "published_at": "2026-11-19T22:07:55+00:00",
-      "why_relevant": "美国打击诈骗网络涉华",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.536212+08:00",
-          "content_sha256": "5e78f51b6749fcb410e4a232f9cc124514eac9a799abcddae008358f482a6701",
-          "excerpt": "“Southeast Asia-based scam centres, most of them run by Chinese organised crime groups, stole an estimated US$18.2 billion from Americans in 2025,” said US State Department spokesman Tommy Pigott.",
-          "sentence_hash": "cc007e1baba55ec2869e4f3500c684ec686eaf274dbbaf367a00d0316425afd9",
-          "anchors": [
-            "$18.2 billion",
-            "18.2 billion"
-          ]
-        }
-      ],
-      "entities": [
-        "us",
-        "americans",
-        "chinese",
-        "thursday",
-        "these",
-        "state department",
-        "southeast asia",
-        "tommy pigott",
-        "the united states",
-        "chen zhi"
-      ],
-      "numbers": [
-        "$18.2 billion",
-        "18.2 billion"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": false,
-        "fact_count": 1,
-        "anchor_count": 12
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_879ad611643c223921bc6e0d",
-      "title": "Iraq's risky standoff: The state vs. Iran-allied militias",
-      "url": "https://www.dw.com/en/iraq-s-risky-standoff-the-state-vs-iran-allied-militias/a-79995757?maca=en-rss-en-world-4025-xml-mrss",
-      "publisher": "DW",
-      "summary": "This week, Iraqi security forces surrounded an area run by the Kataib Hezbollah militia. Onlookers describe it as the most dangerous confrontation between the Iraqi state and Iran-allied militias in decades.",
-      "category": "国际",
-      "published_at": "2026-11-19T18:59:00+00:00",
-      "why_relevant": "伊拉克伊朗民兵中东风险",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Iraq's risky standoff: Government vs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.537494+08:00",
-          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
-          "excerpt": "Iraq's risky standoff: Government vs.",
-          "sentence_hash": "9d76ec805d566de1c1c314715ea9f608cac54f8aed41404a742b91734ab6f546",
-          "anchors": [
-            "is"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Iran-allied militias November 19, 2026 For years, there have all kinds of rumors about Jurf al-Sakhar, an area around 50 kilometers (31 miles) south of the Iraqi capital Baghdad.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.537531+08:00",
-          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
-          "excerpt": "Iran-allied militias November 19, 2026 For years, there have all kinds of rumors about Jurf al-Sakhar, an area around 50 kilometers (31 miles) south of the Iraqi capital Baghdad.",
-          "sentence_hash": "f2192011f3dbb1c00d655be83d490c3d70cb9d1f5cb773e1112059213bd2b664",
-          "anchors": [
-            "November 19",
-            "rumors"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It is controlled by an Iraqi militia called Kataib Hezbollah, that's closely allied with Iran, and no Iraqi government troops or news media outlets have been allowed inside for around 12 years.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.537561+08:00",
-          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
-          "excerpt": "It is controlled by an Iraqi militia called Kataib Hezbollah, that's closely allied with Iran, and no Iraqi government troops or news media outlets have been allowed inside for around 12 years.",
-          "sentence_hash": "0bd0622486a7cdeb0c93b9473359ab53b5428513335df923ed460e8274bcb4e0",
-          "anchors": [
-            "government",
-            "for",
-            "is"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Rumors about what's happening in the area include allegations about secret prisons, mass graves, drone and weapons manufacturing and storage, as well as criminal activity such as oil smuggling.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.537590+08:00",
-          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
-          "excerpt": "Rumors about what's happening in the area include allegations about secret prisons, mass graves, drone and weapons manufacturing and storage, as well as criminal activity such as oil smuggling.",
-          "sentence_hash": "0f36133ddc9d174b3a1816ef40b24b3f539a9bdd10657f6eb2af176bb40e75af",
-          "anchors": [
-            "is"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Jurf al-Sakhar is also allegedly a base for foreign, Hezbollah-supporting nationals from Iran, Yemen, Bahrain and Lebanon.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.537612+08:00",
-          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
-          "excerpt": "Jurf al-Sakhar is also allegedly a base for foreign, Hezbollah-supporting nationals from Iran, Yemen, Bahrain and Lebanon.",
-          "sentence_hash": "94160fba69886feb71cec838ce83ba4c8c8137e6e2a5c8087954a9bdb6fb277c",
-          "anchors": [
-            "for",
-            "is"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Recently two people — an Israeli researcherand a US journalist — who were kidnapped by an Iraqi militia are thought to have been held captive in this area.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-20T08:03:38.537645+08:00",
-          "content_sha256": "ba69d7bc619cf5e81d210dfc3e9af2672a1eb3622bf0d8e7240f0ffc1f37c9c3",
-          "excerpt": "Recently two people — an Israeli researcherand a US journalist — who were kidnapped by an Iraqi militia are thought to have been held captive in this area.",
-          "sentence_hash": "52c92f3686cdc029ae38d7f3285a890fc22381f040f2c57b39ba69b77d801403",
-          "anchors": [
-            "is"
-          ]
-        }
-      ],
-      "entities": [
-        "iranian",
-        "jurf",
-        "shiite muslim",
-        "popular mobilization forces",
-        "pmf",
-        "prime minister ali",
-        "for",
-        "us",
-        "observers",
-        "israeli",
-        "bahrain",
-        "government",
-        "nov",
-        "its",
-        "iran",
-        "kataib hezbollah",
-        "november",
-        "sakhar",
-        "hezbollah",
-        "nasr",
-        "iraqi",
-        "but",
-        "not",
-        "iraq",
-        "islamic state",
-        "sunni muslims",
-        "zaidi",
-        "rumors",
-        "lebanon",
-        "friday",
-        "baghdad",
-        "yemen",
-        "recently",
-        "is"
-      ],
-      "numbers": [],
-      "dates": [
-        "November 19"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 35
+        "anchor_count": 5
       },
       "evidence_complete": true
     }

@@ -1,0 +1,1869 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-21-AM",
+  "date": "2026-11-21",
+  "session": "AM",
+  "delivered_at": "2026-11-21T08:08:41.356844+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-21T00:08:41.358494+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
+  },
+  "items": [
+    {
+      "article_id": "a1_4abe5c1e02b0dcf88ce981ee",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "publisher": "The Guardian",
+      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildoutWho are Anthropic’s seven co-founders, now worth $180bn?As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it. On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January. The Dow Jones Industrial Average and S&P 500 closed in correction territory.Anthropic’s re",
+      "category": "国际",
+      "published_at": "2026-11-20T21:38:17+00:00",
+      "why_relevant": "AI股暴跌，宏观市场信号",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.690318+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
+          "sentence_hash": "04d0a67124e352706ff90cc09794b80115e9646cf2fca37a9dec837ad03b2bfb",
+          "anchors": [
+            "its"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.690353+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
+          "sentence_hash": "865ca7b563d0726f2d13ffdfdb8bdb24f7061d3dbfc39d5227c86b6d9500a72b",
+          "anchors": [
+            "ai",
+            "its",
+            "5%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.690372+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
+          "sentence_hash": "3b83ec7b0e84f21c1f99edbb7cdb13696d90196ad23e951e1b608bb8688e1816",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.690406+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
+          "sentence_hash": "bbc1d2267d2d8e162aeadbb7527efcbf4b2d40c9287ed681265ec4e1c484d804",
+          "anchors": [
+            "global",
+            "$4",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.690437+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
+          "sentence_hash": "54ae686daa555a26c9450778614d3d6994559ba62b30d098adad59cd148e56e3",
+          "anchors": [
+            "ai",
+            "9%",
+            "ig"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.690458+08:00",
+          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
+          "excerpt": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
+          "sentence_hash": "718b32bf6172c655f2fda73ffa008a2369fc2f704191aa25b14af4c49ffcb2fe",
+          "anchors": [
+            "its",
+            "$83 ",
+            "$88.30"
+          ]
+        }
+      ],
+      "entities": [
+        "as anthropic",
+        "ipo",
+        "in japan",
+        "asian",
+        "tsmc",
+        "global",
+        "nikkei",
+        "micron",
+        "wall street journal",
+        "anthropic",
+        "neil wilson",
+        "shares",
+        "disk",
+        "in taiwan",
+        "chris beauchamp",
+        "european",
+        "soft",
+        "uk",
+        "san",
+        "ig",
+        "january",
+        "bank",
+        "nasdaq composite",
+        "taiwanese",
+        "south korea",
+        "european stoxx",
+        "its",
+        "april",
+        "the dow jones industrial average",
+        "saxo",
+        "march",
+        "tokyo",
+        "taiwan",
+        "on friday",
+        "nasdaq",
+        "claude",
+        "they",
+        "thursday",
+        "london",
+        "friday",
+        "ai",
+        "nvidia",
+        "kospi",
+        "wall street",
+        "us"
+      ],
+      "numbers": [
+        "1.9%",
+        "9%",
+        "17%",
+        "5.5%",
+        "$83 ",
+        "$4",
+        "12%",
+        "40%",
+        "6%",
+        "14%",
+        "14.5%",
+        "6.7%",
+        "5%",
+        "$85 ",
+        "$88.30"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 60
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7fa8d63759af65a45fb3e486",
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+      "category": "国际",
+      "published_at": "2026-11-20T16:54:29+00:00",
+      "why_relevant": "导弹误击波兰，战争外溢",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691466+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
+          "sentence_hash": "e038eab890fb797e5519ec494b3396bbe4ee6e1447d787ddc302a4f71a5b915c",
+          "anchors": [
+            "west"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691522+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
+          "sentence_hash": "4b7ceb468c575176ee91b51943cbbaa9982142e127e406fee63bb81e4c1c19b3",
+          "anchors": [
+            "willing",
+            "coalition"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691546+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
+          "sentence_hash": "c0e9463ba62a2ca7d8648b553345e962f70d29a22075b0bf777f2841ec7025d1",
+          "anchors": [
+            "coalition"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.691574+08:00",
+          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
+          "excerpt": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
+          "sentence_hash": "14be837f5b1f09fd55f471887d60de5acef3a88f1875f0f1d9034d3895963430",
+          "anchors": [
+            "another"
+          ]
+        }
+      ],
+      "entities": [
+        "western",
+        "west",
+        "published\npoland",
+        "ukraine",
+        "polish",
+        "moscow",
+        "lithuania",
+        "warsaw",
+        "willing",
+        "sanem",
+        "kosiniak",
+        "poland",
+        "prime minister donald tusk",
+        "kamysz",
+        "prime minister andy burnham",
+        "nowy lipowiec",
+        "rutte",
+        "uk",
+        "in brussels",
+        "nato",
+        "natalie szponar",
+        "rudnik",
+        "nato secretary general mark rutte",
+        "estonia",
+        "ukrainian",
+        "hours",
+        "saturday",
+        "defence secretary wes streeting",
+        "costa",
+        "defence minister wladyslaw kosiniak",
+        "nobody",
+        "european council president ant",
+        "russia",
+        "another",
+        "tusk",
+        "coalition",
+        "russian",
+        "europe",
+        "france",
+        "koalicja",
+        "friday",
+        "nowa"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 4,
+        "anchor_count": 42
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_5e2019f69155a6d0b097e7c2",
+      "title": "Trump cites good talks with Putin on Ukraine, holds back on security guarantees",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3JPLTZVMmozZDY5c0piSTJBajFkeXRoMVc0UWVRRVVtZTdHb3BNcU8temVfeW1TNWRzZzBGVVVTUEs4TGl3eFpuSGNCNFpsLUpPRE1PSjdQYzZDbl9LM2NkMlo3TmpFVEV5QkNhODJyZy1qTUc3U0VNSFhUZHhqWWowLUxSamJlUlIxYjgyVV81ZjFOYmM0ZjdDUQ?oc=5",
+      "publisher": "Reuters",
+      "summary": "Trump cites good talks with Putin on Ukraine, holds back on security guarantees&nbsp;&nbsp;Reuters",
+      "category": "国际",
+      "published_at": "2026-11-20T21:04:31+00:00",
+      "why_relevant": "特朗普与普京通话，乌克兰格局",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "reuters",
+        "trump",
+        "putin",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_12d85eb1f97b8d3a6959fdc2",
+      "title": "US tech stocks plunge into bear market in worst week since Covid-19 crisis",
+      "url": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Shares in Anthropic and Nvidia tumble as fears over the AI spending boom grip Wall Street",
+      "category": "财经",
+      "published_at": "2026-11-20T21:52:25+00:00",
+      "why_relevant": "科技股熊市，周内跌幅堪比危机",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "shares",
+        "anthropic",
+        "ai",
+        "nvidia",
+        "wall street"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 5
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_6d2e0b6e310e0ff7be4f5d2b",
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "publisher": "CNBC",
+      "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+      "category": "财经",
+      "published_at": "2026-11-20T22:59:33+00:00",
+      "why_relevant": "NVIDIA暴跌，芯片板块危机",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692779+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
+          "sentence_hash": "0da399ba70355379910ad7ba4f817bde538eba42214d783cfa705ffa3c83c074",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692805+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+          "sentence_hash": "f0ed94e5f03001297c1589f64904f3f58e8087e00dd0b07358bc4f380811d15d",
+          "anchors": [
+            "shares",
+            "even",
+            "14%",
+            "once",
+            "ai",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692823+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+          "sentence_hash": "f67c356b02516a514c2d063c3178bd32fd05814a5d57045c862bcfd2c88a0c01",
+          "anchors": [
+            "even",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692842+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
+          "sentence_hash": "a98e64038abdcda648a321fe3e53aa3ff49c05b2f75e71fc3ca20d0f0607139b",
+          "anchors": [
+            "2.6 trillion",
+            "46%",
+            "$2.6 trillion"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692864+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "sentence_hash": "d728ae6aa32db4b71b1462bd90db7575e85396cf9fbe691706269a9c78aaaec0",
+          "anchors": [
+            "for",
+            "now"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.692896+08:00",
+          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
+          "excerpt": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "sentence_hash": "4b38bf8c8ef0bc1f995982475394c2dae656e6b91d8cf75139b0d97a6472db6e",
+          "anchors": [
+            "$3 trillion",
+            "3 trillion",
+            "now"
+          ]
+        }
+      ],
+      "entities": [
+        "ceo",
+        "huang",
+        "securities",
+        "google",
+        "once",
+        "before",
+        "nov",
+        "almost",
+        "shares",
+        "exchange commission",
+        "apple",
+        "chinese",
+        "but",
+        "colette kress",
+        "alphabet",
+        "force",
+        "jensen huang",
+        "kress",
+        "amd",
+        "on tuesday",
+        "pc",
+        "open",
+        "chat",
+        "cfo",
+        "even",
+        "wall street",
+        "march",
+        "interim",
+        "on friday",
+        "now",
+        "reuters",
+        "microsoft",
+        "december",
+        "harvey jones",
+        "advanced micro devices",
+        "friday",
+        "ai",
+        "nvidia",
+        "for"
+      ],
+      "numbers": [
+        "1 billion",
+        "46%",
+        "3 trillion",
+        "2.6 trillion",
+        "75%",
+        "14%",
+        "$3 trillion",
+        "$2.6 trillion",
+        "$1 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 48
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_292f8a5c01dae029411c21f4",
+      "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+      "category": "国际",
+      "published_at": "2026-11-20T21:05:07+00:00",
+      "why_relevant": "特朗普涉AI与外交，地缘核心",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.693898+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+          "sentence_hash": "0e63a196ec21905ab89a3146a73c208e7c37ff5b8a9f9ac5f297bc67f7ad4777",
+          "anchors": [
+            "ai",
+            "and",
+            "during",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.693929+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
+          "sentence_hash": "474f53ee927db2d5398b61df09434197a40e552d893445f7ac45bca3e81ae713",
+          "anchors": [
+            "ai",
+            "and",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.693963+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
+          "sentence_hash": "fee73a850fdd9b786889f54135dc8a11b94e6aff26decfff4e066a0e4c1bc291",
+          "anchors": [
+            "and",
+            "during",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.693990+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
+          "sentence_hash": "ebacaf4615e8c0931d94a071dfae1cafcd60d24bae532b00f7d703e5886e8541",
+          "anchors": [
+            "ai",
+            "during",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694015+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
+          "sentence_hash": "2fec3e672802b802b8a7aed0687d5be549668d473a7fdba4c76fda1466504124",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "“I think it gives us a lot of additional strength,” he said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694031+08:00",
+          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
+          "excerpt": "“I think it gives us a lot of additional strength,” he said.",
+          "sentence_hash": "c9bd193bdadf37c60f5f2af74146976c11710f848f5fcdfa9ddd7977391bc2e5",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "defence secretary hegseth",
+        "iran",
+        "china",
+        "putin",
+        "vladimir putin",
+        "america",
+        "treasury secretary scott bessent",
+        "republicans",
+        "but trump",
+        "ai",
+        "jd",
+        "white house",
+        "on friday",
+        "vice president",
+        "state marco rubio",
+        "stephen miller",
+        "russia",
+        "united states",
+        "they",
+        "secretary",
+        "russian",
+        "united states president donald trump",
+        "and",
+        "trump",
+        "vance",
+        "during",
+        "friday",
+        "chinese president xi jinping",
+        "people",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 30
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ea17b993fc723c9422b3ef8e",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+      "category": "国际",
+      "published_at": "2026-11-20T23:08:57+00:00",
+      "why_relevant": "AI证明黎曼猜想，学术突破",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694940+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
+          "sentence_hash": "300f3ce636a4ba0eb11f74ace6122fa4711b0b622879e87de0045178a3ea8fad",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694968+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
+          "sentence_hash": "a402abeb9ddf2f6c02c41340363ce782e2cb9bbd219bc3f83432cebeff981b0e",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.694994+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
+          "sentence_hash": "c263cf7e03dff071dd31acb758822188081ed177ce11cb4ae7f0900f5116779d",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.695011+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
+          "sentence_hash": "f65f7eb95e497333e3ec1eef3f6eef89582798fadb5cb2d00edc1a8a93390085",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.695033+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+          "sentence_hash": "dd71c8b2456156fdde3d2c5af638f960147804bc6feb18f0a46e7c09e7fad171",
+          "anchors": [
+            "prime",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.695051+08:00",
+          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
+          "excerpt": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
+          "sentence_hash": "2379558e5273adf7fb8683321ecc6bd0b30260e4e6c29b03dabdaebb461a5a42",
+          "anchors": [
+            "prime"
+          ]
+        }
+      ],
+      "entities": [
+        "september",
+        "ceo",
+        "tao",
+        "published\nan anthropic",
+        "sunday",
+        "levent alp",
+        "navier",
+        "terrance tao",
+        "there",
+        "riemann",
+        "alp",
+        "anthropic",
+        "named",
+        "stokes",
+        "prime",
+        "more",
+        "lean",
+        "dario amodei",
+        "claude",
+        "friday",
+        "ai",
+        "open",
+        "bernhard riemann",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 24
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7b7d083f873ba0718b4fef65",
+      "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+      "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
+      "category": "国际",
+      "published_at": "2026-11-20T22:15:07+00:00",
+      "why_relevant": "对华芯片管制，科技地缘",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US lawmakers push for tougher AI chip rules amid China export crackdown Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.695985+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "US lawmakers push for tougher AI chip rules amid China export crackdown Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
+          "sentence_hash": "71ec5c6fa38124b0f4a811a876ee21615e0c89bccb73d0623704c0499dc81d6b",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This week, the US Department of Commerce announced a new rule to restrict how advanced US AI chips can be accessed remotely in the wake of the previous Nvidia CEO’s affair with a suspected spy for Beijing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696025+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "This week, the US Department of Commerce announced a new rule to restrict how advanced US AI chips can be accessed remotely in the wake of the previous Nvidia CEO’s affair with a suspected spy for Beijing.",
+          "sentence_hash": "81ba3731ed1801abbce865c00b195c357214d48005e534492ea31ca18b2cfbfc",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Bureau of Industry and Security (BIS), which sits under the Commerce Department, said the rule would require data centre customers in Thailand, Indonesia, Malaysia, Singapore and Brazil to apply for a special licence to buy advanced chips from US companies, including Nvidia, ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696067+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "The Bureau of Industry and Security (BIS), which sits under the Commerce Department, said the rule would require data centre customers in Thailand, Indonesia, Malaysia, Singapore and Brazil to apply for a special licence to buy advanced chips from US companies, including Nvidia, ",
+          "sentence_hash": "5e492b9b17cc8114632458cf94a9577493b4c63bed8c0120924163dc52c64644",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“The export controls should have been in place, certainly,” Democratic Representative Pramila Jayapal told Al Jazeera.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696089+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "“The export controls should have been in place, certainly,” Democratic Representative Pramila Jayapal told Al Jazeera.",
+          "sentence_hash": "73d1fe739e810be39e154027618153ad0617826adfca100f59bc14dab2eec90a",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "We should not have this consolidation of all the AI knowledge in a couple of companies because that poses an enormous threat on multiple levels, including national security.” In October, Jayapal introduced a policy framework that would require every AI company operating in the US",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696132+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "We should not have this consolidation of all the AI knowledge in a couple of companies because that poses an enormous threat on multiple levels, including national security.” In October, Jayapal introduced a policy framework that would require every AI company operating in the US",
+          "sentence_hash": "c3280f017ed1738314f01873577d2b7e1c70b42ffeae32517fd773600882bf03",
+          "anchors": [
+            "ai",
+            "security",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The AI charter, the framework says, is modelled after existing regulatory frameworks, combining the round-the-clock federal oversight, strict safety mandates, and structural separation built into national bank charters with the rigorous pre-release federal testing required for nu",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.696163+08:00",
+          "content_sha256": "565a5315f7bcab82129b1fc6f120b180d868c2244b8616670ee6e29d069eca73",
+          "excerpt": "The AI charter, the framework says, is modelled after existing regulatory frameworks, combining the round-the-clock federal oversight, strict safety mandates, and structural separation built into national bank charters with the rigorous pre-release federal testing required for nu",
+          "sentence_hash": "eb5fad4837aad8455d9bacce360ace05df082a6763cc348b17d149c66027fb9a",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "commerce",
+        "lutnick",
+        "ceo",
+        "commerce secretary howard lutnick",
+        "malaysia",
+        "the house foreign affairs committee",
+        "al jazeera",
+        "beijing",
+        "thailand",
+        "chinese",
+        "united states",
+        "the bureau",
+        "amd",
+        "in october",
+        "washington",
+        "indonesia",
+        "commerce department",
+        "china",
+        "megaspeed",
+        "house",
+        "security",
+        "singapore",
+        "representatives judiciary committee",
+        "democratic representative pramila jayapal",
+        "brazil",
+        "department",
+        "industry",
+        "jayapal",
+        "trump",
+        "bis",
+        "president donald trump",
+        "ai",
+        "nvidia",
+        "us"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9d5f4691fdf57bba4cfb262f",
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "publisher": "GitHub Trending",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.https://jingyaogong.github.io/minimind \n  \n \n \n       \n \n \n  \n \n \n \"大道至简\" \n \n \n 中文 | English \n \n \n 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 \n MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 \n 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 \n MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "低资源训练LLM，硬核技术可操作",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "中文 | English - 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697255+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "中文 | English - 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。",
+          "sentence_hash": "ef573f3ac621c985eb493839f92326a2256976aa81d98bd86acddd4bd0f3ea1a",
+          "anchors": [
+            "中文",
+            "小时",
+            "仅用",
+            "开始",
+            "在完全从",
+            "块钱",
+            "模约为",
+            "的超小语言模",
+            "成本",
+            "言模型",
+            "模型",
+            "小时训练时间",
+            "此开源项目旨",
+            "即可训练出规",
+            "训练",
+            "项目",
+            "块钱成本与"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$ ，力求让普通个人 GPU 也能快速完成训练与复现。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697296+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$ ，力求让普通个人 GPU 也能快速完成训练与复现。",
+          "sentence_hash": "946ce366f48139d43fe6ca6a261777d7956c6c637a49bd506fed3895860d6e60",
+          "anchors": [
+            "训练与复现",
+            "也能快速完成",
+            "体积约为",
+            "主线最小版本",
+            "系列极其轻量",
+            "力求让普通个",
+            "训练"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "- 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697341+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。",
+          "sentence_hash": "98c46d3fd7f29c6df937c02eb26d624e9b7ce11e48af3497aacc4d11a4fc0d3d",
+          "anchors": [
+            "预训练",
+            "训练链路",
+            "覆盖",
+            "简结构与完整",
+            "代码",
+            "自适应思考与",
+            "结构",
+            "微调",
+            "了大模型的极",
+            "数据清洗",
+            "模型蒸馏等全",
+            "蒸馏",
+            "监督微调",
+            "模型",
+            "项目同时开源",
+            "过程代码",
+            "训练",
+            "ai",
+            "项目"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697383+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。",
+          "sentence_hash": "c246ba358157b932224360a0a5710c18492a46785e9a6abf99ce39a303ad0059",
+          "anchors": [
+            "详见",
+            "ar",
+            "同时拓展了视",
+            "多模态",
+            "言模型",
+            "扩散语言模型",
+            "模型",
+            "线性模型",
+            "觉模态模型"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697413+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。",
+          "sentence_hash": "3a76cdc5f229d312ea9749cbc843180de4d71c23ee5dce975287b352252c3e88",
+          "anchors": [
+            "原生实现",
+            "库提供的高层",
+            "使用",
+            "算法代码均从",
+            "代码",
+            "实现",
+            "项目所有核心",
+            "抽象接口",
+            "提供",
+            "不依赖第三方",
+            "项目"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.697443+08:00",
+          "content_sha256": "c02fa9d7fe41ea64c3a09165fa0b9ba631092d98fb5171e52423ba9163bf97ae",
+          "excerpt": "- 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。",
+          "sentence_hash": "67b25122beb3ef8a046f11e37ddb033292a29796134ade924da73c6b3537b2fd",
+          "anchors": [
+            "这不仅是一个",
+            "也是一套面向",
+            "阶段开源复现",
+            "言模型",
+            "大语言模型",
+            "教程",
+            "模型",
+            "入门与实践的",
+            "项目",
+            "大语言模型全"
+          ]
+        }
+      ],
+      "entities": [
+        "torch",
+        "的全流程训练",
+        "核心代码的机",
+        "默认",
+        "预训练",
+        "整训练流程",
+        "为更多人提供",
+        "均可基于主线",
+        "大语言模型全",
+        "行代码",
+        "在完全从",
+        "开始",
+        "这种高效封装",
+        "从零开始训练",
+        "自适应思考与",
+        "扩散语言模型",
+        "数据清洗",
+        "上跑完",
+        "与核心模块均",
+        "结构主线对齐",
+        "框架封装",
+        "这不仅是一个",
+        "等第三方测评",
+        "体积约为",
+        "认配置全面更",
+        "远比坐在头等",
+        "监督微调",
+        "即可训练出规",
+        "可扩展的起点",
+        "dense",
+        "主线数据",
+        "问题是",
+        "一知半解的讲",
+        "算法代码均从",
+        "的乐趣吧",
+        "受到这场技术",
+        "推理",
+        "与线性注意力",
+        "是的",
+        "关键训练算法",
+        "原生实现",
+        "还是",
+        "覆盖",
+        "阶段在单张",
+        "加载数据集",
+        "新增",
+        "tokenizer",
+        "并推动更广泛",
+        "也是一套面向",
+        "一个可复现",
+        "新增原生",
+        "协议的极简服",
+        "程和营销内容",
+        "发布",
+        "open",
+        "固然便利",
+        "源数据",
+        "长文本外推",
+        "支持更灵活地",
+        "遗憾的是",
+        "omni",
+        "蒸馏",
+        "出一架飞机",
+        "rlaif",
+        "清洗与去重后",
+        "cispo",
+        "deep",
+        "并支持",
+        "解包装所谓的",
+        "无论是",
+        "切换为",
+        "训练",
+        "削弱了深入理",
+        "对齐",
+        "即具备基础",
+        "绝大多数探索",
+        "book",
+        "模约为",
+        "ddp",
+        "人兴奋",
+        "等常用推理引",
+        "觉模态模型",
+        "fast",
+        "离开来",
+        "人设备而言不",
+        "结构",
+        "启停训练",
+        "引发了全球范",
+        "agentic",
+        "社区的进步",
+        "浪潮的冲击力",
+        "mini",
+        "度上把开发者",
+        "dpo",
+        "主线最小版本",
+        "与此同时",
+        "用漏洞百出",
+        "apache",
+        "移除独立",
+        "块钱",
+        "多模态",
+        "使用",
+        "库提供的高层",
+        "内部运作机制",
+        "往往只暴露出",
+        "世纪的智能手",
+        "项目",
+        "自适应开关控",
+        "设计",
+        "强化学习",
+        "集上进行评测",
+        "gpu",
+        "api",
+        "覆盖收集",
+        "都以惊艳的效",
+        "阶段开源复现",
+        "的实测耗时",
+        "只需短短十几",
+        "提供兼容",
+        "微调",
+        "chat",
+        "提供全阶段开",
+        "english",
+        "llm",
+        "的空前关注",
+        "支持",
+        "web",
+        "小时训练时间",
+        "使得它们对个",
+        "训练脚本",
+        "训练与复现",
+        "线性模型",
+        "入门与实践的",
+        "甚至连部署都",
+        "中文",
+        "ar",
+        "的超小语言模",
+        "默认训练数据",
+        "也能快速完成",
+        "等推理示例",
+        "系列极其轻量",
+        "这更像是在教",
+        "仅难以训练",
+        "详见",
+        "本项目基于",
+        "我认为",
+        "切换生成后端",
+        "llama",
+        "就能亲身体验",
+        "代码开始",
+        "ui",
+        "此开源项目旨",
+        "教程",
+        "提供",
+        "物理本质的初",
+        "第三方的大模",
+        "同时新增",
+        "了大模型的极",
+        "模型蒸馏等完",
+        "与单机多卡",
+        "最低只需不到",
+        "ppo",
+        "的乐趣",
+        "果让人真切感",
+        "tool use",
+        "言模型",
+        "就可以完成",
+        "互联网上充斥",
+        "牛顿如何使用",
+        "训练链路",
+        "大模型做少量",
+        "等主流框架",
+        "discussion",
+        "与分词器训练",
+        "务端",
+        "mind",
+        "sft",
+        "仅用",
+        "包含实验性拓",
+        "加载模型",
+        "eval",
+        "本项目的初衷",
+        "令或特定任务",
+        "seek",
+        "高度抽象的接",
+        "一起感受创造",
+        "的学习门槛",
+        "虽然有趣",
+        "use",
+        "模型蒸馏等全",
+        "租用成本",
+        "支持多轮",
+        "抽象接口",
+        "型框架与工具",
+        "qwen",
+        "等训练框架",
+        "块钱成本与",
+        "围内对",
+        "项目同时开源",
+        "等模板标记",
+        "的高质量数据",
+        "提供完整的",
+        "gpt",
+        "不依赖第三方",
+        "等第三方",
+        "数的模型规模",
+        "tool",
+        "人心潮澎湃的",
+        "完全免费",
+        "factory",
+        "最终都止步于",
+        "结构代码",
+        "动辄数百亿参",
+        "打开大模型的",
+        "rlhf",
+        "场景下的",
+        "开始亲手训练",
+        "speed",
+        "简结构与完整",
+        "支持在",
+        "提供基于",
+        "支持思考展示",
+        "用乐高自己拼",
+        "可理解",
+        "可视化与动态",
+        "代码",
+        "实现",
+        "真正去理解其",
+        "模型进行续训",
+        "的出现",
+        "兼容",
+        "却偏离了理解",
+        "让每个人都能",
+        "构建一个语言",
+        "streamlit",
+        "与底层实现隔",
+        "项目所有核心",
+        "模型",
+        "能力",
+        "生态",
+        "以及",
+        "推理接口与默",
+        "从理解每一行",
+        "解耦",
+        "擎与",
+        "工具选择与多",
+        "过程代码",
+        "并支持通过",
+        "块钱的服务器",
+        "然而更现实的",
+        "tool call",
+        "nvidia",
+        "舱里飞行更让",
+        "mmlu",
+        "训练流程完成",
+        "正因如此",
+        "同时拓展了视",
+        "而不是仅仅停",
+        "rl",
+        "linear",
+        "指对应时段的",
+        "协议开源",
+        "学习一些新指",
+        "grpo",
+        "pretrain",
+        "的极简聊天",
+        "linear attention",
+        "小时",
+        "留在推理层面",
+        "一个极小的语",
+        "思考能力统一",
+        "大语言模型",
+        "力求让普通个",
+        "当前主线结构",
+        "能力已混入",
+        "便于接入",
+        "却也在一定程",
+        "支持单机单卡",
+        "并移除了",
+        "离散扩散语言",
+        "显得遥不可及",
+        "然而",
+        "着大量付费课",
+        "等技术对现有",
+        "就是尽可能降",
+        "成本",
+        "黑盒子",
+        "large language model",
+        "ai",
+        "本应是一件令",
+        "模型的全过程",
+        "希望此项目能"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 292
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_97a419b64ccb8955fd6c9ec8",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "publisher": "GitHub Trending",
+      "summary": "An agentic skills framework & software development methodology that works.Superpowers \nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. \nTable of Contents \n \n How it works \n Commercial Services \n Getting Started \n   \n   Claude Code \n   Antigravity \n   Codex App \n   Codex CLI \n   Cursor \n   Devin CLI \n   Factory Droid \n   Gemini CLI \n   GitHub Copilot CLI",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Agentic开发方法论，实战框架",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698238+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+          "sentence_hash": "28c584dc0957d7fa8726d28ad2336e7b9da8bec5673afb8116ed825512bd2d07",
+          "anchors": [
+            "and",
+            "your",
+            "you",
+            "coding"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It starts from the moment you fire up your coding agent.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698254+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "It starts from the moment you fire up your coding agent.",
+          "sentence_hash": "c09f8f395849e829274a19eac578ac228cb762cb0807ece41ddaf1e0bb733989",
+          "anchors": [
+            "your",
+            "you",
+            "coding"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698270+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "As soon as it sees that you're building something, it doesn't just jump into trying to write code.",
+          "sentence_hash": "b58b6d7f967bf57d7c8e7ba67687bda671b5f4fe0ba670f6a542ac19b270ddb8",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Instead, it steps back and asks you what you're really trying to do.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698286+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "Instead, it steps back and asks you what you're really trying to do.",
+          "sentence_hash": "039392975b0949d127b4a9b04ed82e25c480a6ad25b28d4425bdd2274ae2f9bc",
+          "anchors": [
+            "and",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698303+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest.",
+          "sentence_hash": "5b46363c117ab46d8393e4f2ebf453da8442a36ea29d8e47bd890db3c132a821",
+          "anchors": [
+            "and",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.698329+08:00",
+          "content_sha256": "2795024b14178a80105fd1c50cef1a3457c6c4038369ed65e6722f8c5e64ceec",
+          "excerpt": "After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow.",
+          "sentence_hash": "fc82cb59cc2d49008e90fd3cc6f70a51803cf94fbadd4009ffafd5e89f46ada4",
+          "anchors": [
+            "and",
+            "your",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "next",
+        "superpow",
+        "click",
+        "search",
+        "register",
+        "installation",
+        "there",
+        "the superpowers",
+        "gonna need it",
+        "plugins",
+        "codex",
+        "dry",
+        "instead",
+        "once",
+        "reinstall",
+        "anthropic",
+        "antigravity",
+        "superpowers",
+        "install",
+        "your",
+        "claude code",
+        "claude",
+        "install superpowers",
+        "yagni",
+        "tdd",
+        "you",
+        "after",
+        "you aren",
+        "and",
+        "coding",
+        "open"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 31
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_44f69beb25ca25751f8073c1",
+      "title": "NVIDIA Fuels Accelerated Computing at Microsoft With Vera Rubin Deployments at Azure, RTX Blackwell & Open Models For Windows PCs",
+      "url": "https://wccftech.com/nvidia-fuels-accelerated-computing-at-microsoft-across-azure-windows-pcs/",
+      "publisher": "Wccftech",
+      "summary": "NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure. NVIDIA Vera Rubin NVL72 Now Available at Azure, While Nemotron Open AI Models &#38; RTX Blackwell Power On-Premises Windows PCs As accelerated compute and AI demand continue to grow, Microsoft is expanding its full-stack collaboration with NVIDIA, through which it will deploy next-gen Vera Rubin infrastructure on the Azure cloud. NVIDIA Vera Rubin NVL72 Running in Azure  NVID",
+      "category": "科技",
+      "published_at": "2026-11-20T18:15:32+00:00",
+      "why_relevant": "NVIDIA新硬件与Windows PC布局",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699267+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "NVIDIA and Microsoft are bringing accelerated computing across Azure and Windows PCs, powered by next-gen infrastructure.",
+          "sentence_hash": "fdb957cdaffac78e02c04eea54ab944191bacb604d36ee1d9fc84ccd7f669c14",
+          "anchors": [
+            "bringing"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "NVIDIA Vera Rubin NVL72 Now Available at Azure, While Nemotron Open AI Models & RTX Blackwell Power On-Premises Windows PCs As accelerated compute and AI demand continue to grow, Microsoft is expanding its full-stack collaboration with NVIDIA, through which it will deploy next-ge",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699301+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "NVIDIA Vera Rubin NVL72 Now Available at Azure, While Nemotron Open AI Models & RTX Blackwell Power On-Premises Windows PCs As accelerated compute and AI demand continue to grow, Microsoft is expanding its full-stack collaboration with NVIDIA, through which it will deploy next-ge",
+          "sentence_hash": "df909b1aa37cc8559a448e30f52c8069584fd802859e5daecb4a62ea94899a15",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "NVIDIA Vera Rubin NVL72 Running in Azure NVIDIA Vera Rubin NVL72 systems are running in Azure data centers, providing infrastructure designed for demanding reasoning, agentic applications, and large-scale model training and inference.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699327+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "NVIDIA Vera Rubin NVL72 Running in Azure NVIDIA Vera Rubin NVL72 systems are running in Azure data centers, providing infrastructure designed for demanding reasoning, agentic applications, and large-scale model training and inference.",
+          "sentence_hash": "53b3b6e8c7bab3f31f7fc52770c07457dadc21f8921a22854b9dc5d500279330",
+          "anchors": [
+            "running",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The work will help protect sensitive models and data while they are being processed, supporting organizations that need to work with proprietary or regulated information.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699352+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "The work will help protect sensitive models and data while they are being processed, supporting organizations that need to work with proprietary or regulated information.",
+          "sentence_hash": "43cf48761d7443a632366d815ab4b145b1d4e4cba16d8e4dd29a929d4c0f7cd3",
+          "anchors": [
+            "models",
+            "ey"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "To help data centers get more performance from available power, NVIDIA and Microsoft are also collaborating on power efficiency using NVIDIA MaxLPS.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699371+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "To help data centers get more performance from available power, NVIDIA and Microsoft are also collaborating on power efficiency using NVIDIA MaxLPS.",
+          "sentence_hash": "c55dcf2a672bbd1b085abf2d642f6aad4ca2c8cac02f714fdeccbeb46f4a51d2",
+          "anchors": [
+            "ai",
+            "perf"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Azure’s Vera Rubin preview builds on NVIDIA and Microsoft’s codesign and performance optimization, underscored in the latest NVIDIA Blackwell-based MLPerf results.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.699396+08:00",
+          "content_sha256": "3318d553b15a77369793c3660f83bf64162a39f0eeeeaac3483adddff01a8148",
+          "excerpt": "Azure’s Vera Rubin preview builds on NVIDIA and Microsoft’s codesign and performance optimization, underscored in the latest NVIDIA Blackwell-based MLPerf results.",
+          "sentence_hash": "547e7cce660577e5bc000a4fc149e4947b4f4e14c7b8835d7bc4d23b68c5139d",
+          "anchors": [
+            "perf"
+          ]
+        }
+      ],
+      "entities": [
+        "lightning",
+        "rtx",
+        "super",
+        "bringing",
+        "max",
+        "helping enterprises customize",
+        "blackwell",
+        "azure",
+        "cs\nas",
+        "while nemotron open",
+        "perf",
+        "perf inference",
+        "now available",
+        "seek",
+        "vera rubin",
+        "deploy open models\nenterprise",
+        "microsoft foundry",
+        "foundry managed compute",
+        "premises windows",
+        "windows",
+        "closer",
+        "ey",
+        "enterprise data",
+        "running",
+        "programmed training",
+        "nemotron",
+        "perf training",
+        "deep",
+        "signal",
+        "microsoft",
+        "models",
+        "ai",
+        "nvidia",
+        "blackwell power on"
+      ],
+      "numbers": [
+        "55%",
+        "10%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_9bd4104619bd86e15d2975b0",
+      "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+      "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+      "publisher": "Stratechery",
+      "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+      "category": "科技",
+      "published_at": "2026-11-18T11:00:00+00:00",
+      "why_relevant": "NVIDIA财报与OS竞争分析",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Subscribe to Stratechery Plus for full access.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700317+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Subscribe to Stratechery Plus for full access.",
+          "sentence_hash": "0bed0e8983759fc6bbf8bb21947753b94bfaa8942891d0cb0d4468b4ec0aaf13",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Already subscribed?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700331+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Already subscribed?",
+          "sentence_hash": "e7b63a7c826f721f28d76defdeb3d442d7c376c67f5ba8f960a74a96ee4ace36",
+          "anchors": [
+            "subscribe"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "$15 / month or $150 / year With Stratechery Plus you get access to the subscriber-only Stratechery Update and Stratechery Interviews, and the Sharp Tech, Sharp China, Dithering, Greatest of All Talk, and Asianometry podcasts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700361+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "$15 / month or $150 / year With Stratechery Plus you get access to the subscriber-only Stratechery Update and Stratechery Interviews, and the Sharp Tech, Sharp China, Dithering, Greatest of All Talk, and Asianometry podcasts.",
+          "sentence_hash": "67f0c4a997851f81fc82ea034a23fd52187da5cbb9e173696dfd74b69f7e3ceb",
+          "anchors": [
+            "$150 ",
+            "subscribe",
+            "$15 ",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Stratechery Interviews Interviews with leading public CEOs, private company founders, and discussions with fellow analysts.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700388+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Stratechery Interviews Interviews with leading public CEOs, private company founders, and discussions with fellow analysts.",
+          "sentence_hash": "03986bfa279fc06f05051ebe5f49947c6885978c1effa2a06cedc1e8787a1da6",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Sharp Tech Andrew Sharp and myself discuss how technology works and the ways it impacts our lives.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700415+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "Sharp Tech Andrew Sharp and myself discuss how technology works and the ways it impacts our lives.",
+          "sentence_hash": "de83fee59535bd31af2d1303b416bef6a059b4674f6a8d37ae45fc67709e205d",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "If you are interested in ordering and managing multiple subscriptions for your team or company, please fill in the form here.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700494+08:00",
+          "content_sha256": "c590602365fbb9d91f8e02c3b912ad5601ef1bf3f2562fbefc109b08681b56ab",
+          "excerpt": "If you are interested in ordering and managing multiple subscriptions for your team or company, please fill in the form here.",
+          "sentence_hash": "b16b722619081eae178772cfc1080cd836c4e93725c407090eecb50f458faf71",
+          "anchors": [
+            "please"
+          ]
+        }
+      ],
+      "entities": [
+        "subscribe",
+        "nba",
+        "asianometry\naudio",
+        "greatest of all talk",
+        "free",
+        "greatest",
+        "rss",
+        "stratechery update schedule",
+        "stratechery podcasts",
+        "once",
+        "stratechery interviews\ninterviews",
+        "sharp text\nsharp text",
+        "anthropic",
+        "daily update",
+        "nvidia",
+        "stratechery update\nsubstantial",
+        "asked questions\nhow",
+        "dithering",
+        "sharing",
+        "us",
+        "all talk",
+        "already",
+        "jensen huang",
+        "sms",
+        "sinocism",
+        "with stratechery plus",
+        "ben golliver",
+        "stratechery plus",
+        "andrew",
+        "stratechery",
+        "stratechery update",
+        "sharp china",
+        "goat",
+        "please",
+        "china",
+        "tube",
+        "sharp tech",
+        "stratechery updates",
+        "weekly articles",
+        "asianometry you",
+        "terms",
+        "bill bishop",
+        "yes",
+        "microsoft",
+        "stratechery interviews",
+        "andrew sharp",
+        "asianometry",
+        "stratechery passport",
+        "sharp tech\nandrew sharp",
+        "frequently",
+        "service",
+        "create",
+        "delivery preferences",
+        "john gruber",
+        "stratechery podcast"
+      ],
+      "numbers": [
+        "$150 ",
+        "$15 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 57
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_bbfa133fd9531b772a0aab10",
+      "title": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+      "url": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-20T13:35:33+00:00",
+      "why_relevant": "比特币新低，结合AI股下挫",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-21T08:03:21.700624+08:00",
+          "content_sha256": "58ee6cd503b81289e2b9f9b05544829cb5161240e29287d29b81ef9013998b3a",
+          "excerpt": "Live news: Bitcoin slips to fresh lows below $59,000 as Anthropic slides after Nasdaq debut",
+          "sentence_hash": "58ee6cd503b81289e2b9f9b05544829cb5161240e29287d29b81ef9013998b3a",
+          "anchors": [
+            "$59,000 "
+          ]
+        }
+      ],
+      "entities": [
+        "nasdaq",
+        "live",
+        "anthropic",
+        "bitcoin"
+      ],
+      "numbers": [
+        "$59,000 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 5
+      },
+      "evidence_complete": true
+    }
+  ]
+}
