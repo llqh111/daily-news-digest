@@ -1,6 +1,77 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-21 08:08。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-23 08:07。
+
+## US seeks answers on Nvidia’s sale of chips to China, Bessent says
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_5e1a3fcbd0d2`
+
+## Suspected Ukrainian sea drones hit Russian warship at a Libyan naval base, officials say
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_cd019a3b490d`
+
+## firecrawl/firecrawl
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：Knowledge infrastructure to make your agents smarter.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261123_b20e6ee671cc`
+
+## Unreal Engine 5.9 Preview 2 Brings Browser-Based Gaming To Blueprint-Only Projects, Enables AI Workflows By Default And Improves Rendering
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261123_19bd2fd0dd73`
+
+## Russia-bound ship towed away after it was attacked in Gulf of Finland
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261123_f68f2d28139c`
+
+## Crypto exchange's collapse hits Chinese investors hunting for yield
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：HONG KONG -- For two weeks, Venus thought he had made a smart investment.
+- 事件 ID：`evt_20261123_73cdb5a818b9`
+
+## cursor/plugins
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261123_35d9d5ceecf8`
+
+## Token fraud is here and it’s BAD (YouTube)
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：20th November 2026 - Link Blog Token fraud is here and it’s BAD (YouTube).
+- 事件 ID：`evt_20261123_6c2bda97abe5`
+
+## Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_d7567f86096e`
+
+## Bessent refuses to rule out Huang’s return to Nvidia
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_dedc78a8359c`
+
+## Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_d64639060018`
+
+## US Democrats clinch a historic House majority of at least 258 seats, the largest since 1992
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 最新事实：House Democrats have secured their best general election result in decades, winning at least 258 seats in an election sweep unseen since 1992 that creates not only vast opportunities to govern but also intense pressure to deliver on campaign promises and priorities.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_605c6f81778a`
+
+## Yemen's Houthis say they attacked Saudi Rabigh oil refinery
+- 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261123_75964ce1edc7`
 
 ## obra/superpowers
 - 状态：更新中；首见 2026-09-10；最近更新 2026-11-21
@@ -2111,70 +2182,4 @@
 - 最新事实：Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261024_608cab956449`
-
-## Trump, Putin and Xi at one table, without Ukraine. What Moscow wants from the proposal and why Beijing might agree.
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：What China wants from a Trump-Putin summit on Ukraine October 21, 2026 The administration of US President Donald Trump has stepped up diplomatic efforts this autumn to revive stalled negotiations aimed at ending Russia's war in Ukraine.
-- 事件 ID：`evt_20261022_3071ac99ca78`
-
-## Anthropic unveils Claude Duet AI agent app
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Claude Duet is designed for small businesses and professionals, Anthropic said.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261022_3b6927f20e00`
-
-## Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261022_407d7fb98af8`
-
-## Russia frees jailed American Stephen Hubbard during Witkoff talks
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Russia frees jailed American Stephen Hubbard Published October 21, 2026last updated October 21, 2026 Russian President Vladimir Putin announced the release of US captive Stephen Hubbard during talks with US special envoy Steve Witkoff in St.
-- 事件 ID：`evt_20261022_17d146022ab6`
-
-## Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace - Published After two days of diplomacy â in Norway's capital and Russia's St Petersburg â is the war in Ukraine any closer to ending?
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261022_9d374d9ac8a2`
-
-## MOFCOM's New Rules and the Future of Chinese AI
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：As fast followers to the frontier, Chinese AI companies have gained trust by publicizing their weights and architectures.
-- 事件 ID：`evt_20261022_8332884beb9c`
-
-## OpenAI's latest AI models are coming to Google Cloud and Antigravity
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Google would certainly prefer that everyone used its Gemini models with Google Cloud services, but soon, you’ll have more options.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261022_3e406666db00`
-
-## US orders some personnel to leave Saudi Arabia after Houthi attacks
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261022_b68fa815575f`
-
-## North Korea's Kim Yo Jong warns South Korea, says border loudspeakers to be ready within days
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261022_f73b2e8081b1`
-
-## Graphify-Labs/graphify
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Read this in other languages English | 简体中文 | 日本語 | 한국어 | Deutsch | Français | Español | हिन्दी | Português | Русский | العربية | فارسی | Italiano | Polski | Nederlands | Türkçe | Українська | Tiếng Việt | Bahasa Indonesia | Svenska | Ελληνικά | Română | Čeština | Suomi | Dansk |
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261022_362deafd25b5`
-
-## Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Private equity giant Blackstone is putting itself at the center of the AI boom, firm veteran Jas Khaira discussed last week on stage at TechCrunch Disrupt.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261022_12afeccdf4da`
-
-## Stocks rise with upbeat earnings; France's 10-year bond yield hits 5% mark
-- 状态：更新中；首见 2026-10-22；最近更新 2026-10-22
-- 最新事实：Stocks rise with upbeat earnings; France's 10-year bond yield hits 5% mark&nbsp;&nbsp;Reuters
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261022_1e1038fbeedf`
 

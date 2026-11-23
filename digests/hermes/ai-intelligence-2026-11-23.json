@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T00:07:02.778391+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-23.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-22.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_bfe62d3c1fb6846e2d4a3fe4",
+      "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+      "publisher": "SCMP",
+      "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.\n“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
+      "category": "国际",
+      "published_at": "2026-11-22T20:03:17+00:00",
+      "why_relevant": "英伟达对华芯片，直接影响",
+      "relevance_score": 10.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.085447+08:00",
+          "content_sha256": "14bfc2703b5e7fa934ad5b31cf4a4cf4a1139f9bb11205b324b6a8c665b89925",
+          "excerpt": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.",
+          "sentence_hash": "d1a9810dc22b20646858b94cd1553789d867a932bf30dc9ab44fdfabdde994c4",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.085498+08:00",
+          "content_sha256": "14bfc2703b5e7fa934ad5b31cf4a4cf4a1139f9bb11205b324b6a8c665b89925",
+          "excerpt": "“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
+          "sentence_hash": "4173c8fc152e09539420d4141463e9658d31823bdb764fa29600b3f3b2156b26",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "jensen huang",
+        "bessent",
+        "nvidia",
+        "sunday",
+        "chinese",
+        "treasury secretary",
+        "china",
+        "scott bessent"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 9
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_baa469038fd1487865d9bffe",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "publisher": "GitHub Trending",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.https://firecrawl.dev    \n \n    \n    \n    \n    \n \n \n            \n \n \n🔥 Firecrawl \nKnowledge infrastructure to make your agents smarter. 🔥 You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three. \n \n Firecrawl Local. Run Firecrawl on your own machine as one binary that turns websites into cle",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI agent数据接入核心工具",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Knowledge infrastructure to make your agents smarter.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.087323+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "Knowledge infrastructure to make your agents smarter.",
+          "sentence_hash": "0dd96a9e1b6c75d5c193062fbf42e93d01defa1620f4da49ae8bed57f043b484",
+          "anchors": [
+            "agent",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "🔥 You can use Firecrawl three ways.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.087354+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "🔥 You can use Firecrawl three ways.",
+          "sentence_hash": "261ff8fb61994b599135ef0b3ec2fc67b2b54a4090435594e752f5ecf608f220",
+          "anchors": [
+            "use",
+            "crawl"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.087384+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.",
+          "sentence_hash": "397dcd136d325569b69f41496dcc8a1ec4f5b262a921c50fe798b6c2fc613625",
+          "anchors": [
+            "crawl",
+            "self"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Firecrawl Local.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.087400+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "- Firecrawl Local.",
+          "sentence_hash": "b89ef8ed81e30281ad69f066ae22682b8ee9c5fe4ab559b2e0d4e7572e8d917f",
+          "anchors": [
+            "crawl"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.087435+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
+          "sentence_hash": "4b232c11453cbc7aac1e8c965742efc1e1fcb3afbb00cccfb774c1c96e5ee0d2",
+          "anchors": [
+            "agent",
+            "you",
+            "crawl",
+            "local"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- Firecrawl Cloud.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.087450+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "- Firecrawl Cloud.",
+          "sentence_hash": "88a2a6d1f714fc0e0bc26e7adb365f69ed0febd20f903c461e8a0da56d3753e0",
+          "anchors": [
+            "crawl"
+          ]
+        }
+      ],
+      "entities": [
+        "gemini",
+        "restart",
+        "alexandria",
+        "self",
+        "script",
+        "node",
+        "use",
+        "cli",
+        "mcp",
+        "hey",
+        "pages",
+        "move",
+        "run firecrawl",
+        "docker",
+        "deploy",
+        "debian",
+        "codex",
+        "cursor",
+        "scrape",
+        "the firecrawl local",
+        "windsurf",
+        "interact",
+        "claude desktop",
+        "api",
+        "json",
+        "pst",
+        "java",
+        "office",
+        "ai",
+        "local",
+        "firecrawl",
+        "url",
+        "firecrawl local",
+        "its",
+        "sdk",
+        "readme",
+        "crawl",
+        "knowledge",
+        "you",
+        "firecrawl alexandria",
+        "agent",
+        "rust",
+        "point",
+        "chromium",
+        "without",
+        "chrome",
+        "firecrawl cloud",
+        "ubuntu",
+        "claude code",
+        "list"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 50
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_3db2f0d4bcb15543bff501c8",
+      "title": "Unreal Engine 5.9 Preview 2 Brings Browser-Based Gaming To Blueprint-Only Projects, Enables AI Workflows By Default And Improves Rendering",
+      "url": "https://wccftech.com/unreal-engine-5-9-preview-2-brings-browser-based-gaming-to-blueprint-only-projects-enables-ai-workflows-by-default-and-improves-rendering/",
+      "publisher": "Wccftech",
+      "summary": "Epic Games has released Unreal Engine 5.9 Preview 2, introducing significant improvements to browser-based gaming, AI-assisted development workflows, rendering, animation, and cinematic production. The latest update expands upon the initial Unreal Engine 5.9 Preview, which introduced experimental WebAssembly and WebGPU support alongside several AI-powered development tools. According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-on",
+      "category": "科技",
+      "published_at": "2026-11-22T16:16:43+00:00",
+      "why_relevant": "UE5.9预览，浏览器游戏与AI",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088806+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.",
+          "sentence_hash": "cc2d7346ae0ce275ca7ce64e02abdec361ae317ca30e321e9450c4b178aad7ce",
+          "anchors": [
+            "web"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Meanwhile, Unreal Engine 5's AI agent toolsets are now enabled by default, making AI-assisted development more accessible directly from the editor.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088862+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "Meanwhile, Unreal Engine 5's AI agent toolsets are now enabled by default, making AI-assisted development more accessible directly from the editor.",
+          "sentence_hash": "543b89222afff1bd838dbe24d41ada1251cdb0dc42fe75acc0ea183282c8f9a3",
+          "anchors": [
+            "toolsets"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Interestingly, the update also includes some substantial improvements to cinematic rendering workflows, with Epic claiming an approximately 30-fold speedup in a particular Movie Render Graph operation.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088893+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "Interestingly, the update also includes some substantial improvements to cinematic rendering workflows, with Epic claiming an approximately 30-fold speedup in a particular Movie Render Graph operation.",
+          "sentence_hash": "a3c7119fcb43b2975a1c1beebe91c9ec77e7792483e4b3d06276d79dc61346f6",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Unreal Engine 5.9 Preview 2 Makes Browser-Based Game Development Easier With Blueprint Support And WebGPU Improvements Arguably, the most noteworthy addition to Unreal Engine 5.9 Preview 2 is the expanded support for deploying games directly to web browsers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088929+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "Unreal Engine 5.9 Preview 2 Makes Browser-Based Game Development Easier With Blueprint Support And WebGPU Improvements Arguably, the most noteworthy addition to Unreal Engine 5.9 Preview 2 is the expanded support for deploying games directly to web browsers.",
+          "sentence_hash": "77007dcb828a1b42b07ffd1a76714f0c9e29b2bba670517c538f7f876ad6df74",
+          "anchors": [
+            "web"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The initial preview introduced an experimental browser platform powered by WebAssembly and WebGPU, allowing Unreal Engine 5 projects to run without requiring players to download and install a conventional game executable.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088961+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "The initial preview introduced an experimental browser platform powered by WebAssembly and WebGPU, allowing Unreal Engine 5 projects to run without requiring players to download and install a conventional game executable.",
+          "sentence_hash": "c34fb0d68e16469830298cfaf9078ef58d1e0df8b3d380120ef23cbce0833a6b",
+          "anchors": [
+            "preview",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "However, developers previously needed to include at least one C++ class in their projects to package them for the web.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088985+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "However, developers previously needed to include at least one C++ class in their projects to package them for the web.",
+          "sentence_hash": "22ca8caf2499c9df368183b23564fb8588cf5a7397f2cba46b4b56ee3d5fadd9",
+          "anchors": [
+            "web"
+          ]
+        }
+      ],
+      "entities": [
+        "epic",
+        "ai",
+        "toolsets",
+        "progressive web apps",
+        "fxaa",
+        "improvements\narguably",
+        "assembly",
+        "meanwhile",
+        "makes browser",
+        "while cinematic tools receive major improvements\nanother",
+        "nevertheless",
+        "epic games",
+        "according",
+        "however",
+        "all",
+        "gb",
+        "preview",
+        "movie render graph",
+        "blueprint",
+        "unreal engine",
+        "based game development easier with blueprint support and web",
+        "assisted development workflows are now enabled by default",
+        "returning",
+        "these",
+        "interestingly",
+        "furthermore",
+        "taa",
+        "web"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_7f96c1479251b7f76a6c6f75",
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+      "category": "国际",
+      "published_at": "2026-11-22T17:18:26+00:00",
+      "why_relevant": "俄乌无人机袭船，地缘",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090302+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.",
+          "sentence_hash": "e241be80cb67b30c0bbae4bfa610f529eb138f0f09f40391182f473375788307",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The Sparta II had been bound for Russia's Baltic exclave Kaliningrad when it was hit on Saturday morning, sparking a fire aboard.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090334+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "The Sparta II had been bound for Russia's Baltic exclave Kaliningrad when it was hit on Saturday morning, sparking a fire aboard.",
+          "sentence_hash": "f336e29bee908737d32936ff3070df110c32a978149e980a9e06397725e22fb5",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It then drifted into Finnish waters and its crew were evacuated to Russia.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090355+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "It then drifted into Finnish waters and its crew were evacuated to Russia.",
+          "sentence_hash": "b89ba67fda72b4fa9d7d3a17bcd68ad81b18e98c4a333e5db0e62ed0b73466b9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Finland's Border Guard said on Sunday afternoon that fire was no longer visible from the outside but thermal cameras showed that some containers on the ship were still warm.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090392+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "Finland's Border Guard said on Sunday afternoon that fire was no longer visible from the outside but thermal cameras showed that some containers on the ship were still warm.",
+          "sentence_hash": "df7e1a8da398cd0e6edbe47116cb7d4963d63133a492c8be9b86315bac7d7562",
+          "anchors": [
+            "war"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Sparta II was \"slightly listing\", Finnish authorities added, but the \"situation is stable\" and no fuel or other \"hazardous substance leaks\" had been detected.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090421+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "The Sparta II was \"slightly listing\", Finnish authorities added, but the \"situation is stable\" and no fuel or other \"hazardous substance leaks\" had been detected.",
+          "sentence_hash": "e1b669d186dd6b6610b2591d44669fa40669908d03b8159544ced2bb3bbec492",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Kaliningrad Governor Alexei Besprozvannykh said two drones appeared to have been used in the strike and that there was \"no threat\" to his territory's supplies.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090449+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "Kaliningrad Governor Alexei Besprozvannykh said two drones appeared to have been used in the strike and that there was \"no threat\" to his territory's supplies.",
+          "sentence_hash": "0f10077cbf875475950c0cbda56b12dde5168a07672dfdc9cca363daa8997d63",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "gulf",
+        "jukka",
+        "kyiv",
+        "finland",
+        "shortly",
+        "published",
+        "sunday",
+        "sparta",
+        "ii",
+        "pekka lumilahti",
+        "kaliningrad governor alexei besprozvannykh",
+        "the russian",
+        "murman",
+        "finnish border guard",
+        "the sparta",
+        "russian",
+        "finnish defence minister antti",
+        "gmt",
+        "ukrainian",
+        "while besprozvannykh",
+        "russia",
+        "war",
+        "suursaari",
+        "finnish prime minister petteri orpo",
+        "poland",
+        "us",
+        "estonian",
+        "kaliningrad",
+        "saturday",
+        "finnish",
+        "ukraine",
+        "lithuania",
+        "baltic",
+        "border guard"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 34
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_604fecd81fa918e0a653041e",
+      "title": "Crypto exchange's collapse hits Chinese investors hunting for yield",
+      "url": "https://asia.nikkei.com/business/markets/trading-asia/crypto-exchange-s-collapse-hits-chinese-investors-hunting-for-yield",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "中国投资者爆雷，重要警示",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "HONG KONG -- For two weeks, Venus thought he had made a smart investment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090769+08:00",
+          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
+          "excerpt": "HONG KONG -- For two weeks, Venus thought he had made a smart investment.",
+          "sentence_hash": "4bcd9a0365e0f3d984df6d7a3b847bf23faee9715ac43c5a5fbc2233c3ad4637",
+          "anchors": [
+            "mart"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "On July 11, the 26-year-old from Hangzhou placed 100,000 USDG -- a stablecoin pegged 1-to-1 to the dollar -- into a high-yield savings product on BitMart, an offshore crypto exchange.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090798+08:00",
+          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
+          "excerpt": "On July 11, the 26-year-old from Hangzhou placed 100,000 USDG -- a stablecoin pegged 1-to-1 to the dollar -- into a high-yield savings product on BitMart, an offshore crypto exchange.",
+          "sentence_hash": "56026b669b89f5a6a64f5cf087c7a6c09addb9c86ce16a80f680674ad27a47a1",
+          "anchors": [
+            "July 11"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It promised an annualized return of 18.8% over 14 days, far better than any deposit in China's sluggish, low-interest market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090850+08:00",
+          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
+          "excerpt": "It promised an annualized return of 18.8% over 14 days, far better than any deposit in China's sluggish, low-interest market.",
+          "sentence_hash": "2176d87c413dea45730b40ec8800ffe22c14cf08cd441538d28fc0762ec72232",
+          "anchors": [
+            "18.8%"
+          ]
+        }
+      ],
+      "entities": [
+        "on july",
+        "hong",
+        "usdg",
+        "bit",
+        "for",
+        "venus",
+        "kong",
+        "hangzhou",
+        "china",
+        "mart"
+      ],
+      "numbers": [
+        "18.8%"
+      ],
+      "dates": [
+        "July 11"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 12
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    }
+  ]
+}

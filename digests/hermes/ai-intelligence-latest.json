@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T00:08:41.374490+00:00",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T00:07:02.778391+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
       "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-21.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-23.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-20.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-22.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,446 +23,213 @@
   },
   "items": [
     {
-      "article_id": "a1_4abe5c1e02b0dcf88ce981ee",
-      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "publisher": "The Guardian",
-      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildoutWho are Anthropic’s seven co-founders, now worth $180bn?As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it. On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January. The Dow Jones Industrial Average and S&P 500 closed in correction territory.Anthropic’s re",
+      "article_id": "a1_bfe62d3c1fb6846e2d4a3fe4",
+      "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+      "publisher": "SCMP",
+      "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.\n“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
       "category": "国际",
-      "published_at": "2026-11-20T21:38:17+00:00",
-      "why_relevant": "AI股暴跌，宏观市场信号",
-      "relevance_score": 9.0,
+      "published_at": "2026-11-22T20:03:17+00:00",
+      "why_relevant": "英伟达对华芯片，直接影响",
+      "relevance_score": 10.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
+          "text": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.690318+08:00",
-          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
-          "excerpt": "As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it.",
-          "sentence_hash": "04d0a67124e352706ff90cc09794b80115e9646cf2fca37a9dec837ad03b2bfb",
-          "anchors": [
-            "its"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.690353+08:00",
-          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
-          "excerpt": "On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January.",
-          "sentence_hash": "865ca7b563d0726f2d13ffdfdb8bdb24f7061d3dbfc39d5227c86b6d9500a72b",
-          "anchors": [
-            "ai",
-            "its",
-            "5%"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.690372+08:00",
-          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
-          "excerpt": "The Dow Jones Industrial Average and S&P 500 closed in correction territory.",
-          "sentence_hash": "3b83ec7b0e84f21c1f99edbb7cdb13696d90196ad23e951e1b608bb8688e1816",
+          "captured_at": "2026-11-23T08:03:05.085447+08:00",
+          "content_sha256": "14bfc2703b5e7fa934ad5b31cf4a4cf4a1139f9bb11205b324b6a8c665b89925",
+          "excerpt": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.",
+          "sentence_hash": "d1a9810dc22b20646858b94cd1553789d867a932bf30dc9ab44fdfabdde994c4",
           "anchors": [
             "us"
           ]
         },
         {
-          "fact_id": "f4",
-          "text": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.690406+08:00",
-          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
-          "excerpt": "Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal.",
-          "sentence_hash": "bbc1d2267d2d8e162aeadbb7527efcbf4b2d40c9287ed681265ec4e1c484d804",
-          "anchors": [
-            "global",
-            "$4",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.690437+08:00",
-          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
-          "excerpt": "Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on Friday, ceding most of the gains from the biggest initial public offering in history.",
-          "sentence_hash": "54ae686daa555a26c9450778614d3d6994559ba62b30d098adad59cd148e56e3",
-          "anchors": [
-            "ai",
-            "9%",
-            "ig"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.690458+08:00",
-          "content_sha256": "4d2cccf7598e19c21b86ee7f85217bbbf05b5f2b4cf64b7d54e82e7685b88fdb",
-          "excerpt": "They dropped to $88.30, towards the $83 level at which Anthropic priced its stock market debut.",
-          "sentence_hash": "718b32bf6172c655f2fda73ffa008a2369fc2f704191aa25b14af4c49ffcb2fe",
-          "anchors": [
-            "its",
-            "$83 ",
-            "$88.30"
-          ]
-        }
-      ],
-      "entities": [
-        "as anthropic",
-        "ipo",
-        "in japan",
-        "asian",
-        "tsmc",
-        "global",
-        "nikkei",
-        "micron",
-        "wall street journal",
-        "anthropic",
-        "neil wilson",
-        "shares",
-        "disk",
-        "in taiwan",
-        "chris beauchamp",
-        "european",
-        "soft",
-        "uk",
-        "san",
-        "ig",
-        "january",
-        "bank",
-        "nasdaq composite",
-        "taiwanese",
-        "south korea",
-        "european stoxx",
-        "its",
-        "april",
-        "the dow jones industrial average",
-        "saxo",
-        "march",
-        "tokyo",
-        "taiwan",
-        "on friday",
-        "nasdaq",
-        "claude",
-        "they",
-        "thursday",
-        "london",
-        "friday",
-        "ai",
-        "nvidia",
-        "kospi",
-        "wall street",
-        "us"
-      ],
-      "numbers": [
-        "1.9%",
-        "9%",
-        "17%",
-        "5.5%",
-        "$83 ",
-        "$4",
-        "12%",
-        "40%",
-        "6%",
-        "14%",
-        "14.5%",
-        "6.7%",
-        "5%",
-        "$85 ",
-        "$88.30"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 60
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
-      "source_artifact_date": "2026-11-21",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_7fa8d63759af65a45fb3e486",
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-      "category": "国际",
-      "published_at": "2026-11-20T16:54:29+00:00",
-      "why_relevant": "导弹误击波兰，战争外溢",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.691466+08:00",
-          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
-          "excerpt": "Another suspected missile went down near Rudnik nad Sanem to the west of Nowy Lipowiec, and a jet-powered drone crashed to the south near MoÅodycz, said Kosiniak-Kamysz.",
-          "sentence_hash": "e038eab890fb797e5519ec494b3396bbe4ee6e1447d787ddc302a4f71a5b915c",
-          "anchors": [
-            "west"
-          ]
-        },
-        {
           "fact_id": "f2",
-          "text": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
+          "text": "“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.691522+08:00",
-          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
-          "excerpt": "\"It is no coincidence that these objects landed near the site where military manoeuvres by a 'coalition of the willing' supported by Polish troops are taking place in Nowa DÄba,\" Tusk told reporters on Friday.",
-          "sentence_hash": "4b7ceb468c575176ee91b51943cbbaa9982142e127e406fee63bb81e4c1c19b3",
+          "captured_at": "2026-11-23T08:03:05.085498+08:00",
+          "content_sha256": "14bfc2703b5e7fa934ad5b31cf4a4cf4a1139f9bb11205b324b6a8c665b89925",
+          "excerpt": "“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
+          "sentence_hash": "4173c8fc152e09539420d4141463e9658d31823bdb764fa29600b3f3b2156b26",
           "anchors": [
-            "willing",
-            "coalition"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.691546+08:00",
-          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
-          "excerpt": "Hours later, five coalition defence ministers - from the UK, France, Poland, Estonia and Lithuania - visited the military training ground where the drill was taking place.",
-          "sentence_hash": "c0e9463ba62a2ca7d8648b553345e962f70d29a22075b0bf777f2841ec7025d1",
-          "anchors": [
-            "coalition"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.691574+08:00",
-          "content_sha256": "73f1cf1308ab4cecbc3c9f4c58aa82525d5b41e1325bfa0a8de68b5680bd2684",
-          "excerpt": "UK Defence Secretary Wes Streeting told reporters that what had happened earlier was \"yet another example of Russian provocation that is designed to divide Europe and to deter Ukraine's allies from supporting their fight for freedom and democracy\".",
-          "sentence_hash": "14be837f5b1f09fd55f471887d60de5acef3a88f1875f0f1d9034d3895963430",
-          "anchors": [
-            "another"
+            "us"
           ]
         }
       ],
       "entities": [
-        "western",
-        "west",
-        "published\npoland",
-        "ukraine",
-        "polish",
-        "moscow",
-        "lithuania",
-        "warsaw",
-        "willing",
-        "sanem",
-        "kosiniak",
-        "poland",
-        "prime minister donald tusk",
-        "kamysz",
-        "prime minister andy burnham",
-        "nowy lipowiec",
-        "rutte",
-        "uk",
-        "in brussels",
-        "nato",
-        "natalie szponar",
-        "rudnik",
-        "nato secretary general mark rutte",
-        "estonia",
-        "ukrainian",
-        "hours",
-        "saturday",
-        "defence secretary wes streeting",
-        "costa",
-        "defence minister wladyslaw kosiniak",
-        "nobody",
-        "european council president ant",
-        "russia",
-        "another",
-        "tusk",
-        "coalition",
-        "russian",
-        "europe",
-        "france",
-        "koalicja",
-        "friday",
-        "nowa"
+        "us",
+        "jensen huang",
+        "bessent",
+        "nvidia",
+        "sunday",
+        "chinese",
+        "treasury secretary",
+        "china",
+        "scott bessent"
       ],
       "numbers": [],
       "dates": [],
       "unknowns": [
+        "正文未抓到",
         "缺少明确时间"
       ],
       "coverage": {
-        "has_fulltext": true,
+        "has_fulltext": false,
         "has_multiple_sources": true,
-        "fact_count": 4,
-        "anchor_count": 42
+        "fact_count": 2,
+        "anchor_count": 9
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
-      "source_artifact_date": "2026-11-21",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_6d2e0b6e310e0ff7be4f5d2b",
-      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-      "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-      "publisher": "CNBC",
-      "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
-      "category": "财经",
-      "published_at": "2026-11-20T22:59:33+00:00",
-      "why_relevant": "NVIDIA暴跌，芯片板块危机",
+      "article_id": "a1_baa469038fd1487865d9bffe",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "publisher": "GitHub Trending",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.https://firecrawl.dev    \n \n    \n    \n    \n    \n \n \n            \n \n \n🔥 Firecrawl \nKnowledge infrastructure to make your agents smarter. 🔥 You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three. \n \n Firecrawl Local. Run Firecrawl on your own machine as one binary that turns websites into cle",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "AI agent数据接入核心工具",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
+          "text": "Knowledge infrastructure to make your agents smarter.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.692779+08:00",
-          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
-          "excerpt": "The last time Wall Street was this down on Nvidia the chipmaker's flagship product was the GeForce graphics processor for high-end PC video games, and markets were reeling from the global financial crisis.",
-          "sentence_hash": "0da399ba70355379910ad7ba4f817bde538eba42214d783cfa705ffa3c83c074",
+          "captured_at": "2026-11-23T08:03:05.087323+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "Knowledge infrastructure to make your agents smarter.",
+          "sentence_hash": "0dd96a9e1b6c75d5c193062fbf42e93d01defa1620f4da49ae8bed57f043b484",
           "anchors": [
-            "for"
+            "agent",
+            "you"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
+          "text": "🔥 You can use Firecrawl three ways.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.692805+08:00",
-          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
-          "excerpt": "Nvidia shares tumbled 14% on Friday, sliding for a seventh straight day as investors grew increasingly concerned about life after co-founder Jensen Huang.",
-          "sentence_hash": "f0ed94e5f03001297c1589f64904f3f58e8087e00dd0b07358bc4f380811d15d",
+          "captured_at": "2026-11-23T08:03:05.087354+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "🔥 You can use Firecrawl three ways.",
+          "sentence_hash": "261ff8fb61994b599135ef0b3ec2fc67b2b54a4090435594e752f5ecf608f220",
           "anchors": [
-            "shares",
-            "even",
-            "14%",
-            "once",
-            "ai",
-            "for"
+            "use",
+            "crawl"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
+          "text": "This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.692823+08:00",
-          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
-          "excerpt": "The stock closed lower for a seventh consecutive week, the longest such stretch since 2008.",
-          "sentence_hash": "f67c356b02516a514c2d063c3178bd32fd05814a5d57045c862bcfd2c88a0c01",
+          "captured_at": "2026-11-23T08:03:05.087384+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.",
+          "sentence_hash": "397dcd136d325569b69f41496dcc8a1ec4f5b262a921c50fe798b6c2fc613625",
           "anchors": [
-            "even",
-            "for"
+            "crawl",
+            "self"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
+          "text": "- Firecrawl Local.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.692842+08:00",
-          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
-          "excerpt": "Shares of Nvidia are down 46% over the period, pushing the company's market cap down by about $2.6 trillion.",
-          "sentence_hash": "a98e64038abdcda648a321fe3e53aa3ff49c05b2f75e71fc3ca20d0f0607139b",
+          "captured_at": "2026-11-23T08:03:05.087400+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "- Firecrawl Local.",
+          "sentence_hash": "b89ef8ed81e30281ad69f066ae22682b8ee9c5fe4ab559b2e0d4e7572e8d917f",
           "anchors": [
-            "2.6 trillion",
-            "46%",
-            "$2.6 trillion"
+            "crawl"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
+          "text": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.692864+08:00",
-          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
-          "excerpt": "The stock is now trading at roughly 8.4 times forward earnings, while Advanced Micro Devices is valued at 29 times profit for the next 12 months.",
-          "sentence_hash": "d728ae6aa32db4b71b1462bd90db7575e85396cf9fbe691706269a9c78aaaec0",
+          "captured_at": "2026-11-23T08:03:05.087435+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
+          "sentence_hash": "4b232c11453cbc7aac1e8c965742efc1e1fcb3afbb00cccfb774c1c96e5ee0d2",
           "anchors": [
-            "for",
-            "now"
+            "agent",
+            "you",
+            "crawl",
+            "local"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
+          "text": "- Firecrawl Cloud.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.692896+08:00",
-          "content_sha256": "5f04170605a96bc87cef33ec33203df81886ccc1e0495e1c8d71592eb29d8cce",
-          "excerpt": "Once the most valuable company in the world, Nvidia now has a market cap of $3 trillion, putting it fourth behind Apple, Microsoft and Alphabet.",
-          "sentence_hash": "4b38bf8c8ef0bc1f995982475394c2dae656e6b91d8cf75139b0d97a6472db6e",
+          "captured_at": "2026-11-23T08:03:05.087450+08:00",
+          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
+          "excerpt": "- Firecrawl Cloud.",
+          "sentence_hash": "88a2a6d1f714fc0e0bc26e7adb365f69ed0febd20f903c461e8a0da56d3753e0",
           "anchors": [
-            "$3 trillion",
-            "3 trillion",
-            "now"
+            "crawl"
           ]
         }
       ],
       "entities": [
-        "ceo",
-        "huang",
-        "securities",
-        "google",
-        "once",
-        "before",
-        "nov",
-        "almost",
-        "shares",
-        "exchange commission",
-        "apple",
-        "chinese",
-        "but",
-        "colette kress",
-        "alphabet",
-        "force",
-        "jensen huang",
-        "kress",
-        "amd",
-        "on tuesday",
-        "pc",
-        "open",
-        "chat",
-        "cfo",
-        "even",
-        "wall street",
-        "march",
-        "interim",
-        "on friday",
-        "now",
-        "reuters",
-        "microsoft",
-        "december",
-        "harvey jones",
-        "advanced micro devices",
-        "friday",
+        "gemini",
+        "restart",
+        "alexandria",
+        "self",
+        "script",
+        "node",
+        "use",
+        "cli",
+        "mcp",
+        "hey",
+        "pages",
+        "move",
+        "run firecrawl",
+        "docker",
+        "deploy",
+        "debian",
+        "codex",
+        "cursor",
+        "scrape",
+        "the firecrawl local",
+        "windsurf",
+        "interact",
+        "claude desktop",
+        "api",
+        "json",
+        "pst",
+        "java",
+        "office",
         "ai",
-        "nvidia",
-        "for"
+        "local",
+        "firecrawl",
+        "url",
+        "firecrawl local",
+        "its",
+        "sdk",
+        "readme",
+        "crawl",
+        "knowledge",
+        "you",
+        "firecrawl alexandria",
+        "agent",
+        "rust",
+        "point",
+        "chromium",
+        "without",
+        "chrome",
+        "firecrawl cloud",
+        "ubuntu",
+        "claude code",
+        "list"
       ],
-      "numbers": [
-        "1 billion",
-        "46%",
-        "3 trillion",
-        "2.6 trillion",
-        "75%",
-        "14%",
-        "$3 trillion",
-        "$2.6 trillion",
-        "$1 billion"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -471,269 +238,265 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 48
+        "anchor_count": 50
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
-      "source_artifact_date": "2026-11-21",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_292f8a5c01dae029411c21f4",
-      "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
-      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
-      "category": "国际",
-      "published_at": "2026-11-20T21:05:07+00:00",
-      "why_relevant": "特朗普涉AI与外交，地缘核心",
-      "relevance_score": 8.0,
+      "article_id": "a1_3db2f0d4bcb15543bff501c8",
+      "title": "Unreal Engine 5.9 Preview 2 Brings Browser-Based Gaming To Blueprint-Only Projects, Enables AI Workflows By Default And Improves Rendering",
+      "url": "https://wccftech.com/unreal-engine-5-9-preview-2-brings-browser-based-gaming-to-blueprint-only-projects-enables-ai-workflows-by-default-and-improves-rendering/",
+      "publisher": "Wccftech",
+      "summary": "Epic Games has released Unreal Engine 5.9 Preview 2, introducing significant improvements to browser-based gaming, AI-assisted development workflows, rendering, animation, and cinematic production. The latest update expands upon the initial Unreal Engine 5.9 Preview, which introduced experimental WebAssembly and WebGPU support alongside several AI-powered development tools. According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-on",
+      "category": "科技",
+      "published_at": "2026-11-22T16:16:43+00:00",
+      "why_relevant": "UE5.9预览，浏览器游戏与AI",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+          "text": "According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.693898+08:00",
-          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
-          "excerpt": "Trump defends Putin relationship, warns AI data centres must stay in US The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
-          "sentence_hash": "0e63a196ec21905ab89a3146a73c208e7c37ff5b8a9f9ac5f297bc67f7ad4777",
+          "captured_at": "2026-11-23T08:03:05.088806+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.",
+          "sentence_hash": "cc2d7346ae0ce275ca7ce64e02abdec361ae317ca30e321e9450c4b178aad7ce",
           "anchors": [
-            "ai",
-            "and",
-            "during",
-            "us"
+            "web"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
+          "text": "Meanwhile, Unreal Engine 5's AI agent toolsets are now enabled by default, making AI-assisted development more accessible directly from the editor.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.693929+08:00",
-          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
-          "excerpt": "United States President Donald Trump has praised his recent trip to China and defended the relationship with his “friend” Vladimir Putin, but questioned whether the Russian president was a friend to the US.",
-          "sentence_hash": "474f53ee927db2d5398b61df09434197a40e552d893445f7ac45bca3e81ae713",
+          "captured_at": "2026-11-23T08:03:05.088862+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "Meanwhile, Unreal Engine 5's AI agent toolsets are now enabled by default, making AI-assisted development more accessible directly from the editor.",
+          "sentence_hash": "543b89222afff1bd838dbe24d41ada1251cdb0dc42fe75acc0ea183282c8f9a3",
           "anchors": [
-            "ai",
-            "and",
-            "us"
+            "toolsets"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
+          "text": "Interestingly, the update also includes some substantial improvements to cinematic rendering workflows, with Epic claiming an approximately 30-fold speedup in a particular Movie Render Graph operation.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.693963+08:00",
-          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
-          "excerpt": "On Friday, during a White House news briefing, Trump was asked about the “friend” remark — made during his historic summit with Putin and Chinese President Xi Jinping earlier this week — and whether the Russian leader was a friend to the US.",
-          "sentence_hash": "fee73a850fdd9b786889f54135dc8a11b94e6aff26decfff4e066a0e4c1bc291",
-          "anchors": [
-            "and",
-            "during",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.693990+08:00",
-          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
-          "excerpt": "“I can’t speak to America,” Trump told reporters before saying Putin had been “very nice” during what he described as the “Russia hoax” investigation after his 2016 presidential campaign.",
-          "sentence_hash": "ebacaf4615e8c0931d94a071dfae1cafcd60d24bae532b00f7d703e5886e8541",
-          "anchors": [
-            "ai",
-            "during",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.694015+08:00",
-          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
-          "excerpt": "And it’s actually very good,” Trump added as he talked about Russia’s nuclear weapons capabilities.",
-          "sentence_hash": "2fec3e672802b802b8a7aed0687d5be549668d473a7fdba4c76fda1466504124",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "“I think it gives us a lot of additional strength,” he said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.694031+08:00",
-          "content_sha256": "2368592c879dd1726778d1b105a81866b5998aff2236c7e1e701e0f4f8696ea5",
-          "excerpt": "“I think it gives us a lot of additional strength,” he said.",
-          "sentence_hash": "c9bd193bdadf37c60f5f2af74146976c11710f848f5fcdfa9ddd7977391bc2e5",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "defence secretary hegseth",
-        "iran",
-        "china",
-        "putin",
-        "vladimir putin",
-        "america",
-        "treasury secretary scott bessent",
-        "republicans",
-        "but trump",
-        "ai",
-        "jd",
-        "white house",
-        "on friday",
-        "vice president",
-        "state marco rubio",
-        "stephen miller",
-        "russia",
-        "united states",
-        "they",
-        "secretary",
-        "russian",
-        "united states president donald trump",
-        "and",
-        "trump",
-        "vance",
-        "during",
-        "friday",
-        "chinese president xi jinping",
-        "people",
-        "us"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 30
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
-      "source_artifact_date": "2026-11-21",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_ea17b993fc723c9422b3ef8e",
-      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
-      "category": "国际",
-      "published_at": "2026-11-20T23:08:57+00:00",
-      "why_relevant": "AI证明黎曼猜想，学术突破",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.694940+08:00",
-          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
-          "excerpt": "In a year of AI solving maths problems, Anthropic may have just solved the biggest - Published An Anthropic employee and mathematician claims to have used the company's artificial intelligence (AI) chatbot to prove the famed Riemann hypothesis.",
-          "sentence_hash": "300f3ce636a4ba0eb11f74ace6122fa4711b0b622879e87de0045178a3ea8fad",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.694968+08:00",
-          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
-          "excerpt": "Levent AlpÃ¶ge said, external on Friday, a day after Anthropic made its US stock market debut, that over the course of about six weeks, he used the Claude chatbot to create a detailed proof of the maths problem.",
-          "sentence_hash": "a402abeb9ddf2f6c02c41340363ce782e2cb9bbd219bc3f83432cebeff981b0e",
-          "anchors": [
-            "ai",
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.694994+08:00",
-          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
-          "excerpt": "The claim comes as AI firms like OpenAI have in recent months announced scores of solutions to major higher maths problems that have eluded scholars for decades.",
-          "sentence_hash": "c263cf7e03dff071dd31acb758822188081ed177ce11cb4ae7f0900f5116779d",
+          "captured_at": "2026-11-23T08:03:05.088893+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "Interestingly, the update also includes some substantial improvements to cinematic rendering workflows, with Epic claiming an approximately 30-fold speedup in a particular Movie Render Graph operation.",
+          "sentence_hash": "a3c7119fcb43b2975a1c1beebe91c9ec77e7792483e4b3d06276d79dc61346f6",
           "anchors": [
             "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
+          "text": "Unreal Engine 5.9 Preview 2 Makes Browser-Based Game Development Easier With Blueprint Support And WebGPU Improvements Arguably, the most noteworthy addition to Unreal Engine 5.9 Preview 2 is the expanded support for deploying games directly to web browsers.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.695011+08:00",
-          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
-          "excerpt": "As for the Riemann hypothesis proof put forward on Friday, it was found using a non-public version of Anthropic's Claude.",
-          "sentence_hash": "f65f7eb95e497333e3ec1eef3f6eef89582798fadb5cb2d00edc1a8a93390085",
+          "captured_at": "2026-11-23T08:03:05.088929+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "Unreal Engine 5.9 Preview 2 Makes Browser-Based Game Development Easier With Blueprint Support And WebGPU Improvements Arguably, the most noteworthy addition to Unreal Engine 5.9 Preview 2 is the expanded support for deploying games directly to web browsers.",
+          "sentence_hash": "77007dcb828a1b42b07ffd1a76714f0c9e29b2bba670517c538f7f876ad6df74",
+          "anchors": [
+            "web"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The initial preview introduced an experimental browser platform powered by WebAssembly and WebGPU, allowing Unreal Engine 5 projects to run without requiring players to download and install a conventional game executable.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088961+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "The initial preview introduced an experimental browser platform powered by WebAssembly and WebGPU, allowing Unreal Engine 5 projects to run without requiring players to download and install a conventional game executable.",
+          "sentence_hash": "c34fb0d68e16469830298cfaf9078ef58d1e0df8b3d380120ef23cbce0833a6b",
+          "anchors": [
+            "preview",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "However, developers previously needed to include at least one C++ class in their projects to package them for the web.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.088985+08:00",
+          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
+          "excerpt": "However, developers previously needed to include at least one C++ class in their projects to package them for the web.",
+          "sentence_hash": "22ca8caf2499c9df368183b23564fb8588cf5a7397f2cba46b4b56ee3d5fadd9",
+          "anchors": [
+            "web"
+          ]
+        }
+      ],
+      "entities": [
+        "epic",
+        "ai",
+        "toolsets",
+        "progressive web apps",
+        "fxaa",
+        "improvements\narguably",
+        "assembly",
+        "meanwhile",
+        "makes browser",
+        "while cinematic tools receive major improvements\nanother",
+        "nevertheless",
+        "epic games",
+        "according",
+        "however",
+        "all",
+        "gb",
+        "preview",
+        "movie render graph",
+        "blueprint",
+        "unreal engine",
+        "based game development easier with blueprint support and web",
+        "assisted development workflows are now enabled by default",
+        "returning",
+        "these",
+        "interestingly",
+        "furthermore",
+        "taa",
+        "web"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 28
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_7f96c1479251b7f76a6c6f75",
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+      "category": "国际",
+      "published_at": "2026-11-22T17:18:26+00:00",
+      "why_relevant": "俄乌无人机袭船，地缘",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090302+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.",
+          "sentence_hash": "e241be80cb67b30c0bbae4bfa610f529eb138f0f09f40391182f473375788307",
           "anchors": [
             "us"
           ]
         },
         {
-          "fact_id": "f5",
-          "text": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+          "fact_id": "f2",
+          "text": "The Sparta II had been bound for Russia's Baltic exclave Kaliningrad when it was hit on Saturday morning, sparking a fire aboard.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.695033+08:00",
-          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
-          "excerpt": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
-          "sentence_hash": "dd71c8b2456156fdde3d2c5af638f960147804bc6feb18f0a46e7c09e7fad171",
+          "captured_at": "2026-11-23T08:03:05.090334+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "The Sparta II had been bound for Russia's Baltic exclave Kaliningrad when it was hit on Saturday morning, sparking a fire aboard.",
+          "sentence_hash": "f336e29bee908737d32936ff3070df110c32a978149e980a9e06397725e22fb5",
           "anchors": [
-            "prime",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It then drifted into Finnish waters and its crew were evacuated to Russia.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090355+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "It then drifted into Finnish waters and its crew were evacuated to Russia.",
+          "sentence_hash": "b89ba67fda72b4fa9d7d3a17bcd68ad81b18e98c4a333e5db0e62ed0b73466b9",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Finland's Border Guard said on Sunday afternoon that fire was no longer visible from the outside but thermal cameras showed that some containers on the ship were still warm.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090392+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "Finland's Border Guard said on Sunday afternoon that fire was no longer visible from the outside but thermal cameras showed that some containers on the ship were still warm.",
+          "sentence_hash": "df7e1a8da398cd0e6edbe47116cb7d4963d63133a492c8be9b86315bac7d7562",
+          "anchors": [
+            "war"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Sparta II was \"slightly listing\", Finnish authorities added, but the \"situation is stable\" and no fuel or other \"hazardous substance leaks\" had been detected.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090421+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "The Sparta II was \"slightly listing\", Finnish authorities added, but the \"situation is stable\" and no fuel or other \"hazardous substance leaks\" had been detected.",
+          "sentence_hash": "e1b669d186dd6b6610b2591d44669fa40669908d03b8159544ced2bb3bbec492",
+          "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
+          "text": "Kaliningrad Governor Alexei Besprozvannykh said two drones appeared to have been used in the strike and that there was \"no threat\" to his territory's supplies.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-21T08:03:21.695051+08:00",
-          "content_sha256": "1b06b6ae87dd0d7364746699f9593465df1e175fbd9e8023e8267d51074e8b1e",
-          "excerpt": "Named for the mathematician Bernhard Riemann, the hypothesis puts forward that prime numbers have a determined order along the number line.",
-          "sentence_hash": "2379558e5273adf7fb8683321ecc6bd0b30260e4e6c29b03dabdaebb461a5a42",
+          "captured_at": "2026-11-23T08:03:05.090449+08:00",
+          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
+          "excerpt": "Kaliningrad Governor Alexei Besprozvannykh said two drones appeared to have been used in the strike and that there was \"no threat\" to his territory's supplies.",
+          "sentence_hash": "0f10077cbf875475950c0cbda56b12dde5168a07672dfdc9cca363daa8997d63",
           "anchors": [
-            "prime"
+            "us"
           ]
         }
       ],
       "entities": [
-        "september",
-        "ceo",
-        "tao",
-        "published\nan anthropic",
+        "gulf",
+        "jukka",
+        "kyiv",
+        "finland",
+        "shortly",
+        "published",
         "sunday",
-        "levent alp",
-        "navier",
-        "terrance tao",
-        "there",
-        "riemann",
-        "alp",
-        "anthropic",
-        "named",
-        "stokes",
-        "prime",
-        "more",
-        "lean",
-        "dario amodei",
-        "claude",
-        "friday",
-        "ai",
-        "open",
-        "bernhard riemann",
-        "us"
+        "sparta",
+        "ii",
+        "pekka lumilahti",
+        "kaliningrad governor alexei besprozvannykh",
+        "the russian",
+        "murman",
+        "finnish border guard",
+        "the sparta",
+        "russian",
+        "finnish defence minister antti",
+        "gmt",
+        "ukrainian",
+        "while besprozvannykh",
+        "russia",
+        "war",
+        "suursaari",
+        "finnish prime minister petteri orpo",
+        "poland",
+        "us",
+        "estonian",
+        "kaliningrad",
+        "saturday",
+        "finnish",
+        "ukraine",
+        "lithuania",
+        "baltic",
+        "border guard"
       ],
       "numbers": [],
       "dates": [],
@@ -744,12 +507,91 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 24
+        "anchor_count": 34
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-21-AM.json",
-      "source_artifact_date": "2026-11-21",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_604fecd81fa918e0a653041e",
+      "title": "Crypto exchange's collapse hits Chinese investors hunting for yield",
+      "url": "https://asia.nikkei.com/business/markets/trading-asia/crypto-exchange-s-collapse-hits-chinese-investors-hunting-for-yield",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "中国投资者爆雷，重要警示",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "HONG KONG -- For two weeks, Venus thought he had made a smart investment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090769+08:00",
+          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
+          "excerpt": "HONG KONG -- For two weeks, Venus thought he had made a smart investment.",
+          "sentence_hash": "4bcd9a0365e0f3d984df6d7a3b847bf23faee9715ac43c5a5fbc2233c3ad4637",
+          "anchors": [
+            "mart"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "On July 11, the 26-year-old from Hangzhou placed 100,000 USDG -- a stablecoin pegged 1-to-1 to the dollar -- into a high-yield savings product on BitMart, an offshore crypto exchange.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090798+08:00",
+          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
+          "excerpt": "On July 11, the 26-year-old from Hangzhou placed 100,000 USDG -- a stablecoin pegged 1-to-1 to the dollar -- into a high-yield savings product on BitMart, an offshore crypto exchange.",
+          "sentence_hash": "56026b669b89f5a6a64f5cf087c7a6c09addb9c86ce16a80f680674ad27a47a1",
+          "anchors": [
+            "July 11"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It promised an annualized return of 18.8% over 14 days, far better than any deposit in China's sluggish, low-interest market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-23T08:03:05.090850+08:00",
+          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
+          "excerpt": "It promised an annualized return of 18.8% over 14 days, far better than any deposit in China's sluggish, low-interest market.",
+          "sentence_hash": "2176d87c413dea45730b40ec8800ffe22c14cf08cd441538d28fc0762ec72232",
+          "anchors": [
+            "18.8%"
+          ]
+        }
+      ],
+      "entities": [
+        "on july",
+        "hong",
+        "usdg",
+        "bit",
+        "for",
+        "venus",
+        "kong",
+        "hangzhou",
+        "china",
+        "mart"
+      ],
+      "numbers": [
+        "18.8%"
+      ],
+      "dates": [
+        "July 11"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 3,
+        "anchor_count": 12
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
+      "source_artifact_date": "2026-11-23",
       "freshness_label": "today"
     }
   ]

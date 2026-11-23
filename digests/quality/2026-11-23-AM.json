@@ -1,0 +1,84 @@
+{
+  "total_items": 13,
+  "items_with_unsupported_numbers": 4,
+  "items_with_missing_evidence": 0,
+  "unmatched_evidence_ids": [],
+  "validation_complete": true,
+  "unsupported_ratio": 0.3076923076923077,
+  "items": [
+    {
+      "article_id": "a1_bfe62d3c1fb6846e2d4a3fe4",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_3e14082f63c4d61cc570f73f",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_7f96c1479251b7f76a6c6f75",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_604fecd81fa918e0a653041e",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        100000.0,
+        2.0
+      ]
+    },
+    {
+      "article_id": "a1_01f1ede75203fdbefd26f06a",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_31998e6ccfc488c62c6becfb",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_baa469038fd1487865d9bffe",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_3db2f0d4bcb15543bff501c8",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_ee3cc023dc51f57ed6a04461",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_f12f18d98222b5576f5d716f",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_94251c8e2bf2986c79d9d415",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        14.0
+      ]
+    },
+    {
+      "article_id": "a1_033e04b68bb1c5f564944725",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        14.0
+      ]
+    },
+    {
+      "article_id": "a1_bbf526fc1f2070d3df8f6420",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        59000.0
+      ]
+    }
+  ]
+}
