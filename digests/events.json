@@ -28055,7 +28055,479 @@
       "sources": [
         "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5"
       ]
+    },
+    {
+      "id": "evt_20261124_065daf94636e",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_3edc3b6f859ebceeab7066a6",
+          "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+          "raw_title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+          "why_relevant": "10GB量化Qwen3.8，本地必读",
+          "facts": [
+            "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
+            "Run them on our llama.cpp fork (required).",
+            "The 2-bit file scores lower."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "latest_raw_title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "status": "更新中",
+      "key_facts": [
+        "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
+        "Run them on our llama.cpp fork (required).",
+        "The 2-bit file scores lower."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+      ]
+    },
+    {
+      "id": "evt_20261124_357e545875ef",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_f8079add9f94ab7aa06845be",
+          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "raw_title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "why_relevant": "美黑名单AI芯片公司",
+          "facts": [
+            "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
+            "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
+            "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "latest_raw_title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "status": "更新中",
+      "key_facts": [
+        "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
+        "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
+        "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261124_62178e19309c",
+      "title": "Ladybird's first alpha release",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_0a7de6debc21c4c1143610d7",
+          "title": "Ladybird's first alpha release",
+          "raw_title": "Ladybird's first alpha release",
+          "why_relevant": "自研引擎浏览器，前沿硬核",
+          "facts": [
+            "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
+            "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
+            "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://simonwillison.net/2026/Nov/23/ladybird/"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Ladybird's first alpha release",
+      "latest_raw_title": "Ladybird's first alpha release",
+      "status": "更新中",
+      "key_facts": [
+        "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
+        "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
+        "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://simonwillison.net/2026/Nov/23/ladybird/"
+      ]
+    },
+    {
+      "id": "evt_20261124_58d11aad03b6",
+      "title": "Nasdaq jumps 7% as Nvidia shares soar",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_f526c1fe6be8c5cd683bdcc6",
+          "title": "Nasdaq jumps 7% as Nvidia shares soar",
+          "raw_title": "Nasdaq jumps 7% as Nvidia shares soar",
+          "why_relevant": "纳指暴涨，英伟达飙升",
+          "facts": [
+            "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Nasdaq jumps 7% as Nvidia shares soar",
+      "latest_raw_title": "Nasdaq jumps 7% as Nvidia shares soar",
+      "status": "更新中",
+      "key_facts": [
+        "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261124_b9459883ab74",
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_2e289e1d1a1b1091300678aa",
+          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "raw_title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "why_relevant": "乌战扩散至利比亚",
+          "facts": [
+            "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "latest_raw_title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "status": "更新中",
+      "key_facts": [
+        "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261124_42461e489368",
+      "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_991f1b82d398689ef7f415e5",
+          "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+          "raw_title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+          "why_relevant": "特朗普视黄为开源AI保护者",
+          "facts": [
+            "Several other factors also set the stage for Huang's return and accelerated discussions with him over the weekend, said the people, who spoke on condition of anonymity to discuss internal deliberations close to Nvidia's board.",
+            "A sharp stock price drop after his resignation and questions about the leadership of interim CEO Colette Kress also spurred the board's decision, the people said.",
+            "\"I convinced them,\" Trump told CNBC's Eamon Javers in a phone interview Monday morning, shortly after Nvidia announced Huang's return."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMisgFBVV95cUxPam9EWkNKUkVWckNXeXJpWmh0OEhTcy1reWhiOWRkUHllZWZtc1V0N0l1UWJLMEtjSUR5V3F6YXlJdXRYaTZyQ0Z6ZGp2UjJnc1FfSExfaUNtblB5eUg4WG9QQm9XdUxPTmdMb3diZGl5LU53c2l4aXdXaTkyaUJnNVprM1Y3UWdjMjd6M0dLc2RmbXY5ZUFPaWwwRXR2SXZreTdZMmM2M2MtVFJqelI2MmxB?oc=5",
+            "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+      "latest_raw_title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
+      "status": "更新中",
+      "key_facts": [
+        "Several other factors also set the stage for Huang's return and accelerated discussions with him over the weekend, said the people, who spoke on condition of anonymity to discuss internal deliberations close to Nvidia's board.",
+        "A sharp stock price drop after his resignation and questions about the leadership of interim CEO Colette Kress also spurred the board's decision, the people said.",
+        "\"I convinced them,\" Trump told CNBC's Eamon Javers in a phone interview Monday morning, shortly after Nvidia announced Huang's return."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPam9EWkNKUkVWckNXeXJpWmh0OEhTcy1reWhiOWRkUHllZWZtc1V0N0l1UWJLMEtjSUR5V3F6YXlJdXRYaTZyQ0Z6ZGp2UjJnc1FfSExfaUNtblB5eUg4WG9QQm9XdUxPTmdMb3diZGl5LU53c2l4aXdXaTkyaUJnNVprM1Y3UWdjMjd6M0dLc2RmbXY5ZUFPaWwwRXR2SXZreTdZMmM2M2MtVFJqelI2MmxB?oc=5",
+        "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html"
+      ]
+    },
+    {
+      "id": "evt_20261124_37a2fa01db5d",
+      "title": "Jensen Huang’s stunning return in 11 days – 5 key takeaways",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_3e0ede45fe17a4f46f8d1f2b",
+          "title": "Jensen Huang’s stunning return in 11 days – 5 key takeaways",
+          "raw_title": "Jensen Huang’s stunning return in 11 days – 5 key takeaways",
+          "why_relevant": "黄仁勋11天回归要点",
+          "facts": [
+            "What began with US media reports of his alleged affair with Alice Huang, a former executive at Singapore-based Megaspeed, quickly morphed into a wider saga involving spying allegations, suspected AI chip smuggling to China, tighter export controls..."
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/us/economy-trade-business/article/3375531/jensen-huangs-stunning-return-11-days-5-key-takeaways"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Jensen Huang’s stunning return in 11 days – 5 key takeaways",
+      "latest_raw_title": "Jensen Huang’s stunning return in 11 days – 5 key takeaways",
+      "status": "更新中",
+      "key_facts": [
+        "What began with US media reports of his alleged affair with Alice Huang, a former executive at Singapore-based Megaspeed, quickly morphed into a wider saga involving spying allegations, suspected AI chip smuggling to China, tighter export controls..."
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/us/economy-trade-business/article/3375531/jensen-huangs-stunning-return-11-days-5-key-takeaways"
+      ]
+    },
+    {
+      "id": "evt_20261124_4d4056f270c2",
+      "title": "HKUDS/CLI-Anything",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_362bf56f2494852f944e8670",
+          "title": "HKUDS/CLI-Anything",
+          "raw_title": "HKUDS/CLI-Anything",
+          "why_relevant": "Agent原生CLI，工具调用相关",
+          "facts": [
+            "CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install <name> — browse, install, and manage all community-built CLIs.",
+            "Open a PR — the hub updates instantly.",
+            "🎬 See Demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/HKUDS/CLI-Anything"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "HKUDS/CLI-Anything",
+      "latest_raw_title": "HKUDS/CLI-Anything",
+      "status": "更新中",
+      "key_facts": [
+        "CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install <name> — browse, install, and manage all community-built CLIs.",
+        "Open a PR — the hub updates instantly.",
+        "🎬 See Demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/HKUDS/CLI-Anything"
+      ]
+    },
+    {
+      "id": "evt_20261124_f5f17291dc22",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_092eb177e2f39397367b584e",
+          "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+          "raw_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+          "why_relevant": "AI代理做股票组合",
+          "facts": [
+            "Now, the company has raised $20 million in seed funding to grow its business.",
+            "Numerous angel investors also joined, including Nat Friedman, who’s currently head of product at Meta Superintelligence Labs; Vercel CEO Guillermo Rauch; renowned product manager Nikita Bier; investor Scott Belsky; and Nemil Dalal, a former Coinbase exec who is now a visiting par",
+            "He is the co-founder and former CEO of the podcasting platform Anchor, which Spotify acquired in 2019 for over $150 million."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "latest_raw_title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "status": "更新中",
+      "key_facts": [
+        "Now, the company has raised $20 million in seed funding to grow its business.",
+        "Numerous angel investors also joined, including Nat Friedman, who’s currently head of product at Meta Superintelligence Labs; Vercel CEO Guillermo Rauch; renowned product manager Nikita Bier; investor Scott Belsky; and Nemil Dalal, a former Coinbase exec who is now a visiting par",
+        "He is the co-founder and former CEO of the podcasting platform Anchor, which Spotify acquired in 2019 for over $150 million."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+      ]
+    },
+    {
+      "id": "evt_20261124_44211bc42ff5",
+      "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_626c8a30594adf964b175dcb",
+          "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+          "raw_title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+          "why_relevant": "币圈退潮，AI交易回暖",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "latest_raw_title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank"
+      ]
+    },
+    {
+      "id": "evt_20261124_0f293b77199a",
+      "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_220961bb15523e2ba4615240",
+          "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+          "raw_title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+          "why_relevant": "欧盟制裁俄加密融资",
+          "facts": [
+            "EU plans sports ban in sweeping new Russia sanctions proposal Proposed sanctions aim to curb Russian crypto financing and ‘propaganda’ in sports.",
+            "The European Commission has proposed new sanctions against Russia targeting its banks, crypto platforms, and participation in sporting events.",
+            "Commission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+      "latest_raw_title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+      "status": "更新中",
+      "key_facts": [
+        "EU plans sports ban in sweeping new Russia sanctions proposal Proposed sanctions aim to curb Russian crypto financing and ‘propaganda’ in sports.",
+        "The European Commission has proposed new sanctions against Russia targeting its banks, crypto platforms, and participation in sporting events.",
+        "Commission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "evt_20261124_8e357a793565",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "first_seen": "2026-11-24",
+      "updates": [
+        {
+          "date": "2026-11-24",
+          "article_id": "a1_8d054ecbfd2f64477f00ce9a",
+          "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+          "raw_title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+          "why_relevant": "美联储暗示未来加息",
+          "facts": [
+            "New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow.",
+            "In remarks consistent with previous statements, the influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027 before hitting the goal the following year.",
+            "He also said that while artificial intelligence is pressuring prices, there's \"little evidence\" it will be the source of more persistent inflation."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+          ],
+          "evidence_path": "digests/meta/2026-11-24-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-24",
+      "latest_title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "latest_raw_title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "status": "更新中",
+      "key_facts": [
+        "New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow.",
+        "In remarks consistent with previous statements, the influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027 before hitting the goal the following year.",
+        "He also said that while artificial intelligence is pressuring prices, there's \"little evidence\" it will be the source of more persistent inflation."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+      ]
     }
   ],
-  "updated_at": "2026-11-23T08:03:05.094220+08:00"
+  "updated_at": "2026-11-24T08:03:19.164255+08:00"
 }

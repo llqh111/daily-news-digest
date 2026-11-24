@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T00:07:02.778391+00:00",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T00:06:42.673042+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
-      "count": "13"
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
+      "count": "12"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-23.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-24.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-22.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-23.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,53 +23,473 @@
   },
   "items": [
     {
-      "article_id": "a1_bfe62d3c1fb6846e2d4a3fe4",
-      "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
-      "publisher": "SCMP",
-      "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.\n“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
-      "category": "国际",
-      "published_at": "2026-11-22T20:03:17+00:00",
-      "why_relevant": "英伟达对华芯片，直接影响",
+      "article_id": "a1_3edc3b6f859ebceeab7066a6",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "publisher": "Hacker News",
+      "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding.To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks.Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit):- DeepSWE: 39.8 / 41.0 / 41.9 / 28.6- Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4- AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0- MSGM: 94.0 / 93.1 / 91.8 / 90.6- RealW",
+      "category": "科技",
+      "published_at": "2026-11-23T13:42:38+00:00",
+      "why_relevant": "10GB量化Qwen3.8，本地必读",
       "relevance_score": 10.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.",
+          "text": "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.085447+08:00",
-          "content_sha256": "14bfc2703b5e7fa934ad5b31cf4a4cf4a1139f9bb11205b324b6a8c665b89925",
-          "excerpt": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday.",
-          "sentence_hash": "d1a9810dc22b20646858b94cd1553789d867a932bf30dc9ab44fdfabdde994c4",
+          "captured_at": "2026-11-24T08:03:19.150372+08:00",
+          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
+          "excerpt": "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
+          "sentence_hash": "862482b60ca6ef3309b0f8efa977935c869d606949e485c21d5a74043f20b890",
+          "anchors": [
+            "Nov 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Run them on our llama.cpp fork (required).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.150401+08:00",
+          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
+          "excerpt": "Run them on our llama.cpp fork (required).",
+          "sentence_hash": "cf06db939dbf2c295173c774809b080c7e794c5902be917c37a540958a3cf4ce",
+          "anchors": [
+            "our"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The 2-bit file scores lower.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.150449+08:00",
+          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
+          "excerpt": "The 2-bit file scores lower.",
+          "sentence_hash": "3480bd063a40a262403ab3f7108d6215797757b6008ff8680d0ad150f1066dd9",
+          "anchors": [
+            "lower"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- NariQ is a trellis-coded post-training quantization (PTQ), calibrated on real coding-agent traces and stored in a layout that runs on a single GPU.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.150478+08:00",
+          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
+          "excerpt": "- NariQ is a trellis-coded post-training quantization (PTQ), calibrated on real coding-agent traces and stored in a layout that runs on a single GPU.",
+          "sentence_hash": "5f1e8ecf3471893d607a5d66bbb90a347e9ef0e6b5762037ca0f9181545f13fc",
+          "anchors": [
+            "run"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.150520+08:00",
+          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
+          "excerpt": "Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit).",
+          "sentence_hash": "e19fa394a9c08bf62a93a2c62cc234012156a7c3fdac48be26bc5547474f2dde",
+          "anchors": [
+            "each",
+            "83.2%",
+            "82.9%",
+            "77.2%",
+            "83.1%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "The agent runs use the Claude Code CLI (2.1.309, thinking on, effort max) driving the local model, with a 262,144-token context and the model's thinking-mode sampling (temperature 1.0, top-p 0.95, top-k 20).",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.150567+08:00",
+          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
+          "excerpt": "The agent runs use the Claude Code CLI (2.1.309, thinking on, effort max) driving the local model, with a 262,144-token context and the model's thinking-mode sampling (temperature 1.0, top-p 0.95, top-k 20).",
+          "sentence_hash": "1598305c98b24f6d8f007394dbeb57c19e5931b6dce240677403b5c552dfa170",
+          "anchors": [
+            "run"
+          ]
+        }
+      ],
+      "entities": [
+        "nari",
+        "dynamic",
+        "rco",
+        "linux",
+        "ptq",
+        "bench",
+        "unsloth",
+        "lower",
+        "every",
+        "terminal",
+        "quickstart\none",
+        "claude code",
+        "gsq",
+        "across",
+        "gguf",
+        "higher",
+        "each",
+        "gpu",
+        "filled",
+        "our nari",
+        "run",
+        "each nari",
+        "nvidia",
+        "nov",
+        "our",
+        "kl",
+        "more",
+        "compare",
+        "deep",
+        "cli",
+        "gb",
+        "for deep",
+        "qwen",
+        "one"
+      ],
+      "numbers": [
+        "77.2%",
+        "83.1%",
+        "83.2%",
+        "82.9%"
+      ],
+      "dates": [
+        "Nov 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 39
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
+      "source_artifact_date": "2026-11-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_f8079add9f94ab7aa06845be",
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+      "category": "国际",
+      "published_at": "2026-11-23T23:16:08+00:00",
+      "why_relevant": "美黑名单AI芯片公司",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.151855+08:00",
+          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
+          "excerpt": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
+          "sentence_hash": "7b8c3b4b669bb05466c3ea85920bb9a93c476283b06646e205b1669d8a949a71",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.151901+08:00",
+          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
+          "excerpt": "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
+          "sentence_hash": "bdac2c85844f07b8c0f8e9b324412566b5814458a7f94a6bbcd3f10028808dbe",
+          "anchors": [
+            "us",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.151931+08:00",
+          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
+          "excerpt": "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement.",
+          "sentence_hash": "75145d17682918a4427883d45d0a64183474540e8c322755302902dd32f4d875",
+          "anchors": [
+            "ai",
+            "commerce"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The BBC has asked the agency for comment, along with the White House and Megaspeed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.151952+08:00",
+          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
+          "excerpt": "The BBC has asked the agency for comment, along with the White House and Megaspeed.",
+          "sentence_hash": "2c32ce31089a62db9ca6755ef468dce1c786041040c2bcdd23bca587a17cf610",
           "anchors": [
             "us"
           ]
         },
         {
-          "fact_id": "f2",
-          "text": "“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
+          "fact_id": "f5",
+          "text": "Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.085498+08:00",
-          "content_sha256": "14bfc2703b5e7fa934ad5b31cf4a4cf4a1139f9bb11205b324b6a8c665b89925",
-          "excerpt": "“We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...",
-          "sentence_hash": "4173c8fc152e09539420d4141463e9658d31823bdb764fa29600b3f3b2156b26",
+          "captured_at": "2026-11-24T08:03:19.151979+08:00",
+          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
+          "excerpt": "Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.",
+          "sentence_hash": "d1cec915b1c57399a8b2bb1f737a46ced0c7dce41d707ec5c4e75f367b9c9aa6",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.152012+08:00",
+          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
+          "excerpt": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology.",
+          "sentence_hash": "5dc9f5aed6bb562372a0ae379a69371d4579da4a47beed95dd7794e4167e4a85",
           "anchors": [
             "us"
           ]
         }
       ],
       "entities": [
-        "us",
-        "jensen huang",
-        "bessent",
+        "singaporean",
+        "although",
         "nvidia",
-        "sunday",
+        "beijing",
+        "on monday",
+        "bbc",
+        "published\nthe",
+        "singapore",
+        "president donald trump",
         "chinese",
-        "treasury secretary",
+        "without",
+        "us",
+        "white house",
+        "speedmatrix",
+        "asian",
+        "america",
+        "commerce",
+        "the department",
+        "alice huang",
         "china",
-        "scott bessent"
+        "november",
+        "alibaba",
+        "megaspeed",
+        "ai",
+        "megaspeed ltd",
+        "jensen huang"
       ],
       "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 26
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
+      "source_artifact_date": "2026-11-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_0a7de6debc21c4c1143610d7",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "publisher": "Simon Willison",
+      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS.\nThis morning ",
+      "category": "科技",
+      "published_at": "2026-11-23T21:46:35+00:00",
+      "why_relevant": "自研引擎浏览器，前沿硬核",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.153569+08:00",
+          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
+          "excerpt": "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
+          "sentence_hash": "74a6685a41af04aa9b9de0281d3f2bd4ae1bb661a41bffdfdcdb72a290249e39",
+          "anchors": [
+            "mb",
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.153613+08:00",
+          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
+          "excerpt": "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
+          "sentence_hash": "7cdaf53d9c5233d111a369751fa2e0b757f082b1867cff206cfeb734826ea9d1",
+          "anchors": [
+            "video"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.153648+08:00",
+          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
+          "excerpt": "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS.",
+          "sentence_hash": "ce00415c01723f70ba8d436092b08e48d6a2ad0933fc96bc7f66f6b9df993d36",
+          "anchors": [
+            "mb"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.153700+08:00",
+          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
+          "excerpt": "It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should.",
+          "sentence_hash": "7512a1ffb7f7b5e8f51e5c6a31b6417b7b38f873144388ae5a6a1b72ef35ce39",
+          "anchors": [
+            "ui",
+            "web"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It looks like this (showing my video-compressor tool): Here’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.153770+08:00",
+          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
+          "excerpt": "It looks like this (showing my video-compressor tool): Here’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├",
+          "sentence_hash": "926cda7831a2cb384cacc818bc5821a5c2f6bd1f8394b4e23bda44e4c6e60aac",
+          "anchors": [
+            "video",
+            "script",
+            "process"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "I tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.153806+08:00",
+          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
+          "excerpt": "I tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly.",
+          "sentence_hash": "46e1630c5662a56e148f4a846385efc624e3a0b08a347229f99184d754a93950",
+          "anchors": [
+            "video",
+            "mb",
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "skia",
+        "media",
+        "rust",
+        "linux",
+        "content",
+        "python",
+        "serenity",
+        "repl",
+        "harf",
+        "web",
+        "java",
+        "attempting",
+        "here",
+        "andreas kling",
+        "ui",
+        "ladybird",
+        "datasette lite",
+        "claude code",
+        "request",
+        "everything",
+        "hub",
+        "process",
+        "ai",
+        "server",
+        "claude",
+        "reaper",
+        "assembly",
+        "codex",
+        "messages",
+        "the october",
+        "on february",
+        "buzz",
+        "css",
+        "chrome",
+        "fixme",
+        "worker",
+        "november",
+        "compositor",
+        "pyodide",
+        "html",
+        "lite",
+        "mb",
+        "lib",
+        "decoder",
+        "video",
+        "script",
+        "git"
+      ],
+      "numbers": [],
+      "dates": [
+        "February 23",
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 49
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
+      "source_artifact_date": "2026-11-24",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_f526c1fe6be8c5cd683bdcc6",
+      "title": "Nasdaq jumps 7% as Nvidia shares soar",
+      "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
+      "category": "财经",
+      "published_at": "2026-11-23T22:01:02+00:00",
+      "why_relevant": "纳指暴涨，英伟达飙升",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-24T08:03:19.154015+08:00",
+          "content_sha256": "9258150132f94642cc23b5ff5e456f277aa783f950cb05671dd03b5a287dbdbb",
+          "excerpt": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
+          "sentence_hash": "22492dd1b6989ea67b4bb7b8bb35948d51057e21cfc8156b5f4847414966d2f8",
+          "anchors": [
+            "31.5%",
+            "4.7%"
+          ]
+        }
+      ],
+      "entities": [
+        "huang",
+        "chip"
+      ],
+      "numbers": [
+        "31.5%",
+        "4.7%"
+      ],
       "dates": [],
       "unknowns": [
         "正文未抓到",
@@ -78,425 +498,82 @@
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 9
+        "fact_count": 1,
+        "anchor_count": 4
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
-      "source_artifact_date": "2026-11-23",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
+      "source_artifact_date": "2026-11-24",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_baa469038fd1487865d9bffe",
-      "title": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "publisher": "GitHub Trending",
-      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.https://firecrawl.dev    \n \n    \n    \n    \n    \n \n \n            \n \n \n🔥 Firecrawl \nKnowledge infrastructure to make your agents smarter. 🔥 You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three. \n \n Firecrawl Local. Run Firecrawl on your own machine as one binary that turns websites into cle",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "AI agent数据接入核心工具",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Knowledge infrastructure to make your agents smarter.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.087323+08:00",
-          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
-          "excerpt": "Knowledge infrastructure to make your agents smarter.",
-          "sentence_hash": "0dd96a9e1b6c75d5c193062fbf42e93d01defa1620f4da49ae8bed57f043b484",
-          "anchors": [
-            "agent",
-            "you"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "🔥 You can use Firecrawl three ways.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.087354+08:00",
-          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
-          "excerpt": "🔥 You can use Firecrawl three ways.",
-          "sentence_hash": "261ff8fb61994b599135ef0b3ec2fc67b2b54a4090435594e752f5ecf608f220",
-          "anchors": [
-            "use",
-            "crawl"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.087384+08:00",
-          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
-          "excerpt": "This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three.",
-          "sentence_hash": "397dcd136d325569b69f41496dcc8a1ec4f5b262a921c50fe798b6c2fc613625",
-          "anchors": [
-            "crawl",
-            "self"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "- Firecrawl Local.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.087400+08:00",
-          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
-          "excerpt": "- Firecrawl Local.",
-          "sentence_hash": "b89ef8ed81e30281ad69f066ae22682b8ee9c5fe4ab559b2e0d4e7572e8d917f",
-          "anchors": [
-            "crawl"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.087435+08:00",
-          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
-          "excerpt": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
-          "sentence_hash": "4b232c11453cbc7aac1e8c965742efc1e1fcb3afbb00cccfb774c1c96e5ee0d2",
-          "anchors": [
-            "agent",
-            "you",
-            "crawl",
-            "local"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "- Firecrawl Cloud.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.087450+08:00",
-          "content_sha256": "9a779a43104d78a8f27fff478c58d6295c312bcaafac9868b5e44208dc3df67a",
-          "excerpt": "- Firecrawl Cloud.",
-          "sentence_hash": "88a2a6d1f714fc0e0bc26e7adb365f69ed0febd20f903c461e8a0da56d3753e0",
-          "anchors": [
-            "crawl"
-          ]
-        }
-      ],
-      "entities": [
-        "gemini",
-        "restart",
-        "alexandria",
-        "self",
-        "script",
-        "node",
-        "use",
-        "cli",
-        "mcp",
-        "hey",
-        "pages",
-        "move",
-        "run firecrawl",
-        "docker",
-        "deploy",
-        "debian",
-        "codex",
-        "cursor",
-        "scrape",
-        "the firecrawl local",
-        "windsurf",
-        "interact",
-        "claude desktop",
-        "api",
-        "json",
-        "pst",
-        "java",
-        "office",
-        "ai",
-        "local",
-        "firecrawl",
-        "url",
-        "firecrawl local",
-        "its",
-        "sdk",
-        "readme",
-        "crawl",
-        "knowledge",
-        "you",
-        "firecrawl alexandria",
-        "agent",
-        "rust",
-        "point",
-        "chromium",
-        "without",
-        "chrome",
-        "firecrawl cloud",
-        "ubuntu",
-        "claude code",
-        "list"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 50
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
-      "source_artifact_date": "2026-11-23",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_3db2f0d4bcb15543bff501c8",
-      "title": "Unreal Engine 5.9 Preview 2 Brings Browser-Based Gaming To Blueprint-Only Projects, Enables AI Workflows By Default And Improves Rendering",
-      "url": "https://wccftech.com/unreal-engine-5-9-preview-2-brings-browser-based-gaming-to-blueprint-only-projects-enables-ai-workflows-by-default-and-improves-rendering/",
-      "publisher": "Wccftech",
-      "summary": "Epic Games has released Unreal Engine 5.9 Preview 2, introducing significant improvements to browser-based gaming, AI-assisted development workflows, rendering, animation, and cinematic production. The latest update expands upon the initial Unreal Engine 5.9 Preview, which introduced experimental WebAssembly and WebGPU support alongside several AI-powered development tools. According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-on",
-      "category": "科技",
-      "published_at": "2026-11-22T16:16:43+00:00",
-      "why_relevant": "UE5.9预览，浏览器游戏与AI",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.088806+08:00",
-          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
-          "excerpt": "According to Epic Games' official release notes, one of the biggest changes is that developers can now package Blueprint-only projects for web browsers without adding C++ classes.",
-          "sentence_hash": "cc2d7346ae0ce275ca7ce64e02abdec361ae317ca30e321e9450c4b178aad7ce",
-          "anchors": [
-            "web"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Meanwhile, Unreal Engine 5's AI agent toolsets are now enabled by default, making AI-assisted development more accessible directly from the editor.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.088862+08:00",
-          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
-          "excerpt": "Meanwhile, Unreal Engine 5's AI agent toolsets are now enabled by default, making AI-assisted development more accessible directly from the editor.",
-          "sentence_hash": "543b89222afff1bd838dbe24d41ada1251cdb0dc42fe75acc0ea183282c8f9a3",
-          "anchors": [
-            "toolsets"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Interestingly, the update also includes some substantial improvements to cinematic rendering workflows, with Epic claiming an approximately 30-fold speedup in a particular Movie Render Graph operation.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.088893+08:00",
-          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
-          "excerpt": "Interestingly, the update also includes some substantial improvements to cinematic rendering workflows, with Epic claiming an approximately 30-fold speedup in a particular Movie Render Graph operation.",
-          "sentence_hash": "a3c7119fcb43b2975a1c1beebe91c9ec77e7792483e4b3d06276d79dc61346f6",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Unreal Engine 5.9 Preview 2 Makes Browser-Based Game Development Easier With Blueprint Support And WebGPU Improvements Arguably, the most noteworthy addition to Unreal Engine 5.9 Preview 2 is the expanded support for deploying games directly to web browsers.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.088929+08:00",
-          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
-          "excerpt": "Unreal Engine 5.9 Preview 2 Makes Browser-Based Game Development Easier With Blueprint Support And WebGPU Improvements Arguably, the most noteworthy addition to Unreal Engine 5.9 Preview 2 is the expanded support for deploying games directly to web browsers.",
-          "sentence_hash": "77007dcb828a1b42b07ffd1a76714f0c9e29b2bba670517c538f7f876ad6df74",
-          "anchors": [
-            "web"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The initial preview introduced an experimental browser platform powered by WebAssembly and WebGPU, allowing Unreal Engine 5 projects to run without requiring players to download and install a conventional game executable.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.088961+08:00",
-          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
-          "excerpt": "The initial preview introduced an experimental browser platform powered by WebAssembly and WebGPU, allowing Unreal Engine 5 projects to run without requiring players to download and install a conventional game executable.",
-          "sentence_hash": "c34fb0d68e16469830298cfaf9078ef58d1e0df8b3d380120ef23cbce0833a6b",
-          "anchors": [
-            "preview",
-            "all"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "However, developers previously needed to include at least one C++ class in their projects to package them for the web.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.088985+08:00",
-          "content_sha256": "08390bca46b309313d45ad14e7099f5c87b5593102017d35b0c8b00478254928",
-          "excerpt": "However, developers previously needed to include at least one C++ class in their projects to package them for the web.",
-          "sentence_hash": "22ca8caf2499c9df368183b23564fb8588cf5a7397f2cba46b4b56ee3d5fadd9",
-          "anchors": [
-            "web"
-          ]
-        }
-      ],
-      "entities": [
-        "epic",
-        "ai",
-        "toolsets",
-        "progressive web apps",
-        "fxaa",
-        "improvements\narguably",
-        "assembly",
-        "meanwhile",
-        "makes browser",
-        "while cinematic tools receive major improvements\nanother",
-        "nevertheless",
-        "epic games",
-        "according",
-        "however",
-        "all",
-        "gb",
-        "preview",
-        "movie render graph",
-        "blueprint",
-        "unreal engine",
-        "based game development easier with blueprint support and web",
-        "assisted development workflows are now enabled by default",
-        "returning",
-        "these",
-        "interestingly",
-        "furthermore",
-        "taa",
-        "web"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 28
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
-      "source_artifact_date": "2026-11-23",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_7f96c1479251b7f76a6c6f75",
-      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_2e289e1d1a1b1091300678aa",
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
       "category": "国际",
-      "published_at": "2026-11-22T17:18:26+00:00",
-      "why_relevant": "俄乌无人机袭船，地缘",
+      "published_at": "2026-11-23T20:48:35+00:00",
+      "why_relevant": "乌战扩散至利比亚",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.",
+          "text": "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090302+08:00",
-          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
-          "excerpt": "Russia-bound ship towed away after it was attacked in Gulf of Finland - Published A Russian cargo vessel that was hit by a drone attack in the eastern Gulf of Finland is being towed away, authorities have said.",
-          "sentence_hash": "e241be80cb67b30c0bbae4bfa610f529eb138f0f09f40391182f473375788307",
+          "captured_at": "2026-11-24T08:03:19.155298+08:00",
+          "content_sha256": "74b008711df82c5bd5b34e8dd4a3ac90e00663610eb7656a25876d58e6e5e3c9",
+          "excerpt": "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.",
+          "sentence_hash": "cef56a79bdf7f4bd7261e01225979534e6a10f7f78c0808746d776d1b6248c31",
           "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The Sparta II had been bound for Russia's Baltic exclave Kaliningrad when it was hit on Saturday morning, sparking a fire aboard.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090334+08:00",
-          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
-          "excerpt": "The Sparta II had been bound for Russia's Baltic exclave Kaliningrad when it was hit on Saturday morning, sparking a fire aboard.",
-          "sentence_hash": "f336e29bee908737d32936ff3070df110c32a978149e980a9e06397725e22fb5",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It then drifted into Finnish waters and its crew were evacuated to Russia.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090355+08:00",
-          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
-          "excerpt": "It then drifted into Finnish waters and its crew were evacuated to Russia.",
-          "sentence_hash": "b89ba67fda72b4fa9d7d3a17bcd68ad81b18e98c4a333e5db0e62ed0b73466b9",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Finland's Border Guard said on Sunday afternoon that fire was no longer visible from the outside but thermal cameras showed that some containers on the ship were still warm.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090392+08:00",
-          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
-          "excerpt": "Finland's Border Guard said on Sunday afternoon that fire was no longer visible from the outside but thermal cameras showed that some containers on the ship were still warm.",
-          "sentence_hash": "df7e1a8da398cd0e6edbe47116cb7d4963d63133a492c8be9b86315bac7d7562",
-          "anchors": [
-            "war"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "The Sparta II was \"slightly listing\", Finnish authorities added, but the \"situation is stable\" and no fuel or other \"hazardous substance leaks\" had been detected.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090421+08:00",
-          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
-          "excerpt": "The Sparta II was \"slightly listing\", Finnish authorities added, but the \"situation is stable\" and no fuel or other \"hazardous substance leaks\" had been detected.",
-          "sentence_hash": "e1b669d186dd6b6610b2591d44669fa40669908d03b8159544ced2bb3bbec492",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Kaliningrad Governor Alexei Besprozvannykh said two drones appeared to have been used in the strike and that there was \"no threat\" to his territory's supplies.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090449+08:00",
-          "content_sha256": "2a6f49f9d8a9c246a39825c512fa8f96472e9c78770a453ae82f2c117909f863",
-          "excerpt": "Kaliningrad Governor Alexei Besprozvannykh said two drones appeared to have been used in the strike and that there was \"no threat\" to his territory's supplies.",
-          "sentence_hash": "0f10077cbf875475950c0cbda56b12dde5168a07672dfdc9cca363daa8997d63",
-          "anchors": [
-            "us"
+            "ust"
           ]
         }
       ],
       "entities": [
-        "gulf",
-        "jukka",
-        "kyiv",
-        "finland",
-        "shortly",
-        "published",
-        "sunday",
-        "sparta",
-        "ii",
-        "pekka lumilahti",
-        "kaliningrad governor alexei besprozvannykh",
-        "the russian",
-        "murman",
-        "finnish border guard",
-        "the sparta",
-        "russian",
-        "finnish defence minister antti",
-        "gmt",
-        "ukrainian",
-        "while besprozvannykh",
+        "libyan",
+        "sbu",
+        "strait",
         "russia",
-        "war",
-        "suursaari",
-        "finnish prime minister petteri orpo",
-        "poland",
-        "us",
-        "estonian",
-        "kaliningrad",
-        "saturday",
-        "finnish",
-        "ukraine",
-        "lithuania",
+        "zelensky",
+        "president volodymyr zelensky",
+        "web",
+        "imo",
+        "captain",
+        "if ukraine",
+        "europe\nas",
+        "merkury",
+        "kremlin",
+        "throughout",
+        "ukrainian",
+        "some",
+        "gulf",
+        "the united nations",
+        "published\nanchored",
+        "mediterranean",
+        "benghazi",
+        "moscow",
+        "libya",
+        "siberia",
         "baltic",
-        "border guard"
+        "africa corps",
+        "international maritime organisation",
+        "ukr",
+        "russian",
+        "impact",
+        "finland",
+        "luga",
+        "and ukraine",
+        "africa",
+        "khalifa haftar",
+        "wagner group",
+        "ust",
+        "ukraine",
+        "but",
+        "operation spider",
+        "hormuz",
+        "field marshal"
       ],
       "numbers": [],
       "dates": [],
@@ -506,92 +583,13 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 34
+        "fact_count": 1,
+        "anchor_count": 42
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
-      "source_artifact_date": "2026-11-23",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_604fecd81fa918e0a653041e",
-      "title": "Crypto exchange's collapse hits Chinese investors hunting for yield",
-      "url": "https://asia.nikkei.com/business/markets/trading-asia/crypto-exchange-s-collapse-hits-chinese-investors-hunting-for-yield",
-      "publisher": "Nikkei Asia",
-      "summary": "",
-      "category": "国际",
-      "published_at": "",
-      "why_relevant": "中国投资者爆雷，重要警示",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "HONG KONG -- For two weeks, Venus thought he had made a smart investment.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090769+08:00",
-          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
-          "excerpt": "HONG KONG -- For two weeks, Venus thought he had made a smart investment.",
-          "sentence_hash": "4bcd9a0365e0f3d984df6d7a3b847bf23faee9715ac43c5a5fbc2233c3ad4637",
-          "anchors": [
-            "mart"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "On July 11, the 26-year-old from Hangzhou placed 100,000 USDG -- a stablecoin pegged 1-to-1 to the dollar -- into a high-yield savings product on BitMart, an offshore crypto exchange.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090798+08:00",
-          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
-          "excerpt": "On July 11, the 26-year-old from Hangzhou placed 100,000 USDG -- a stablecoin pegged 1-to-1 to the dollar -- into a high-yield savings product on BitMart, an offshore crypto exchange.",
-          "sentence_hash": "56026b669b89f5a6a64f5cf087c7a6c09addb9c86ce16a80f680674ad27a47a1",
-          "anchors": [
-            "July 11"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "It promised an annualized return of 18.8% over 14 days, far better than any deposit in China's sluggish, low-interest market.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-23T08:03:05.090850+08:00",
-          "content_sha256": "2b33bb72b8103b38c7edbe9175077ab96f842ca15764bca64ad90bbe31d68d10",
-          "excerpt": "It promised an annualized return of 18.8% over 14 days, far better than any deposit in China's sluggish, low-interest market.",
-          "sentence_hash": "2176d87c413dea45730b40ec8800ffe22c14cf08cd441538d28fc0762ec72232",
-          "anchors": [
-            "18.8%"
-          ]
-        }
-      ],
-      "entities": [
-        "on july",
-        "hong",
-        "usdg",
-        "bit",
-        "for",
-        "venus",
-        "kong",
-        "hangzhou",
-        "china",
-        "mart"
-      ],
-      "numbers": [
-        "18.8%"
-      ],
-      "dates": [
-        "July 11"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 3,
-        "anchor_count": 12
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-23-AM.json",
-      "source_artifact_date": "2026-11-23",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
+      "source_artifact_date": "2026-11-24",
       "freshness_label": "today"
     }
   ]

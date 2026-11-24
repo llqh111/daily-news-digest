@@ -1,6 +1,75 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-23 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-24 08:06。
+
+## NariQ: BF16-level Qwen3.8-27B in a 10 GB file
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.
+- 事件 ID：`evt_20261124_065daf94636e`
+
+## US to blacklist Asian AI firm Megaspeed after Nvidia scandal
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_357e545875ef`
+
+## Ladybird's first alpha release
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.
+- 事件 ID：`evt_20261124_62178e19309c`
+
+## Nasdaq jumps 7% as Nvidia shares soar
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261124_58d11aad03b6`
+
+## What strike on Russian ship in Libya says about spread of Ukraine war
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_b9459883ab74`
+
+## Trump saw Nvidia's Huang as protector of open-weight AI models, sources say
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：Several other factors also set the stage for Huang's return and accelerated discussions with him over the weekend, said the people, who spoke on condition of anonymity to discuss internal deliberations close to Nvidia's board.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_42461e489368`
+
+## Jensen Huang’s stunning return in 11 days – 5 key takeaways
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：What began with US media reports of his alleged affair with Alice Huang, a former executive at Singapore-based Megaspeed, quickly morphed into a wider saga involving spying allegations, suspected AI chip smuggling to China, tighter export controls...
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261124_37a2fa01db5d`
+
+## HKUDS/CLI-Anything
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install <name> — browse, install, and manage all community-built CLIs.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_4d4056f270c2`
+
+## Supertake raises $20M to let AI agents turn your market predictions into stock portfolios
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：Now, the company has raised $20 million in seed funding to grow its business.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_f5f17291dc22`
+
+## Bitcoin rebound already losing steam as AI trade returns with a bang
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261124_44211bc42ff5`
+
+## EU plans sports ban in sweeping new Russia sanctions proposal
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：EU plans sports ban in sweeping new Russia sanctions proposal Proposed sanctions aim to curb Russian crypto financing and ‘propaganda’ in sports.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_0f293b77199a`
+
+## Fed's John Williams indicates higher interest rates likely 'over time' to address inflation
+- 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
+- 最新事实：New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261124_8e357a793565`
 
 ## US seeks answers on Nvidia’s sale of chips to China, Bessent says
 - 状态：更新中；首见 2026-11-23；最近更新 2026-11-23
@@ -2113,73 +2182,4 @@
 - 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20261025_8ecaae199e51`
-
-## NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：NVIDIA has released a major new update for its RTX Remix modding platform, bringing several substantial improvements to rendering quality, performance, and modding capabilities.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_947ae59a998f`
-
-## Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy Developers merged a policy change that ends the months-long embargo for flaws a chatbot could rediscover, after a summer in which AI found hundreds of bitcoin bugs before the humans did.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_0db96b070f5f`
-
-## DietrichGebert/ponytail
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Ponytail 5: rebuilt from the ground up.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_e11f7e5b835b`
-
-## Introducing Kimi K3.1 Pro
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：23rd October 2026 - Link Blog Introducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise "Full model weights will be released by Nov 4, 2026".
-- 事件 ID：`evt_20261024_5bd3f0f34dd2`
-
-## Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Both versions are still in context, but the agent keeps using 30.
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261024_4984729159f3`
-
-## Oil hits $117 for first time since April on fears of flare-up in Iran hostilities
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Rise in energy prices pushes US inflation expectations higher
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261024_a78d43ddb951`
-
-## Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Advertisement Zelensky hopes Beijing can use ‘influence’ over Moscow to help stop Ukraine war Proposed summit meeting of US, Chinese and Russian leaders must not lead to division of his war-torn country, Ukrainian president says 3-MIN READ3-MIN 5 Listen Seong Hyeon Choiin Washing
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_6b82527387dd`
-
-## Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：With repeat attacks, Russia has put Kyiv on war's front line October 23, 2026 Until a few months ago, life was relatively peaceful in Kyiv when compared with the situation near the war's front lines elsewhere in Ukraine.
-- 事件 ID：`evt_20261024_a3c6eee552a3`
-
-## Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：The Nasdaq followed Thursday's beating with an additional drop on Friday to end the week down 0.7%.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_caf29af21f77`
-
-## Japan banks prepared to weather AI crash, global rate spike: BOJ stress test
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Finance Japan banks prepared to weather AI crash, global rate spike: BOJ stress test Central bank report finds institutions would keep sufficient capital ratios Japan's financial system would "maintain overall stability" the BOJ said in its report released on Oct.
-- 事件 ID：`evt_20261024_02d14adf44e1`
-
-## Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Trump to cut some Canada tariffs to help Maine lawmaker’s re-election bid Susan Collins one of the most endangered incumbent Senate Republicans in the coming midterms The Trump administration is expanding tariff exemptions to more Canadian products, a move that may help boost Rep
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_03da6acaa71f`
-
-## Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-24
-- 最新事实：Time ‘running out’ to reach Yemen’s Taiz amid deepening crisis, UN says More than 800,000 people have been cut off from aid since the Houthis encircled Taiz city in early October.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261024_608cab956449`
 
