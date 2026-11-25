@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-24",
-  "generated_at": "2026-11-24T00:06:42.673042+00:00",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T00:07:34.573117+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
-      "count": "12"
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-25-AM.json",
+      "count": "13"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-24.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-25.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-23.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-24.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,473 +23,335 @@
   },
   "items": [
     {
-      "article_id": "a1_3edc3b6f859ebceeab7066a6",
-      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
-      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-      "publisher": "Hacker News",
-      "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding.To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks.Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit):- DeepSWE: 39.8 / 41.0 / 41.9 / 28.6- Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4- AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0- MSGM: 94.0 / 93.1 / 91.8 / 90.6- RealW",
+      "article_id": "a1_0c85776a107841a09ac527fe",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "publisher": "Simon Willison",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.\nHere's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.\n \n\nCoding agents in November 2025\nToday, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5. With hindsight, this",
       "category": "科技",
-      "published_at": "2026-11-23T13:42:38+00:00",
-      "why_relevant": "10GB量化Qwen3.8，本地必读",
-      "relevance_score": 10.0,
+      "published_at": "2026-11-24T23:02:07+00:00",
+      "why_relevant": "LLM编程三拐点深度解读",
+      "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
+          "text": "Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150372+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
-          "sentence_hash": "862482b60ca6ef3309b0f8efa977935c869d606949e485c21d5a74043f20b890",
+          "captured_at": "2026-11-25T08:03:36.303401+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv",
+          "sentence_hash": "08e250ac3626b02d2e42183a5f4e1e4a8d54d1fd652dfd80f0c2b84807475b51",
           "anchors": [
-            "Nov 20"
+            "here",
+            "November 20",
+            "three",
+            "coding"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Run them on our llama.cpp fork (required).",
+          "text": "Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150401+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "Run them on our llama.cpp fork (required).",
-          "sentence_hash": "cf06db939dbf2c295173c774809b080c7e794c5902be917c37a540958a3cf4ce",
+          "captured_at": "2026-11-25T08:03:36.303450+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5.",
+          "sentence_hash": "33ab191dfda03bf574555ca79373daa93e8e6f3d2964a2c98b07291b3e817e98",
           "anchors": [
-            "our"
+            "November 20",
+            "us",
+            "November 24"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "The 2-bit file scores lower.",
+          "text": "In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150449+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "The 2-bit file scores lower.",
-          "sentence_hash": "3480bd063a40a262403ab3f7108d6215797757b6008ff8680d0ad150f1066dd9",
+          "captured_at": "2026-11-25T08:03:36.303478+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding.",
+          "sentence_hash": "58de4273a5c4a4f8bca17c18e36b4593e15f6e259e358202997b9551378cb37e",
           "anchors": [
-            "lower"
+            "ai",
+            "us",
+            "with"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "- NariQ is a trellis-coded post-training quantization (PTQ), calibrated on real coding-agent traces and stored in a layout that runs on a single GPU.",
+          "text": "They told us that, when pointed at a complex, multi-system bug, Opus 4.5 figures out the fix.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150478+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "- NariQ is a trellis-coded post-training quantization (PTQ), calibrated on real coding-agent traces and stored in a layout that runs on a single GPU.",
-          "sentence_hash": "5f1e8ecf3471893d607a5d66bbb90a347e9ef0e6b5762037ca0f9181545f13fc",
+          "captured_at": "2026-11-25T08:03:36.303497+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "They told us that, when pointed at a complex, multi-system bug, Opus 4.5 figures out the fix.",
+          "sentence_hash": "7147d6b0ebe6151d1d019c2ecea35cf46fe3729ccdfc2cf445c0729cc9ec0891",
           "anchors": [
-            "run"
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit).",
+          "text": "They said that tasks that were near-impossible for Sonnet 4.5 just a few weeks ago are now within reach.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150520+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit).",
-          "sentence_hash": "e19fa394a9c08bf62a93a2c62cc234012156a7c3fdac48be26bc5547474f2dde",
+          "captured_at": "2026-11-25T08:03:36.303515+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "They said that tasks that were near-impossible for Sonnet 4.5 just a few weeks ago are now within reach.",
+          "sentence_hash": "9fee715882447518a2f3648247c58964467e596233cb47f62195137304f8c0b0",
           "anchors": [
-            "each",
-            "83.2%",
-            "82.9%",
-            "77.2%",
-            "83.1%"
+            "ai",
+            "us",
+            "for",
+            "with"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "The agent runs use the Claude Code CLI (2.1.309, thinking on, effort max) driving the local model, with a 262,144-token context and the model's thinking-mode sampling (temperature 1.0, top-p 0.95, top-k 20).",
+          "text": "Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150567+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "The agent runs use the Claude Code CLI (2.1.309, thinking on, effort max) driving the local model, with a 262,144-token context and the model's thinking-mode sampling (temperature 1.0, top-p 0.95, top-k 20).",
-          "sentence_hash": "1598305c98b24f6d8f007394dbeb57c19e5931b6dce240677403b5c552dfa170",
+          "captured_at": "2026-11-25T08:03:36.303536+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025.",
+          "sentence_hash": "8f880c1ebec19e05a64e32752ac3614f9b63e729f0bd53b8b5becdfb0a9de983",
           "anchors": [
-            "run"
+            "February 24"
           ]
         }
       ],
       "entities": [
-        "nari",
-        "dynamic",
-        "rco",
-        "linux",
-        "ptq",
-        "bench",
-        "unsloth",
-        "lower",
-        "every",
-        "terminal",
-        "quickstart\none",
+        "thinking",
+        "us",
+        "instant",
+        "february",
+        "by january",
+        "gpt",
+        "sonnet",
+        "mythos",
+        "december",
+        "claude",
+        "codex",
+        "engineer code summit",
+        "anthropic",
+        "open",
+        "today",
+        "here",
+        "ai",
+        "claude opus",
+        "they",
+        "llm",
+        "april",
         "claude code",
-        "gsq",
-        "across",
-        "gguf",
-        "higher",
-        "each",
-        "gpu",
-        "filled",
-        "our nari",
-        "run",
-        "each nari",
-        "nvidia",
-        "nov",
-        "our",
-        "kl",
-        "more",
-        "compare",
-        "deep",
-        "cli",
-        "gb",
-        "for deep",
-        "qwen",
-        "one"
+        "july\nwe",
+        "coding",
+        "these",
+        "opus",
+        "after",
+        "in june",
+        "june",
+        "testers",
+        "three",
+        "july",
+        "for",
+        "with",
+        "max",
+        "claude mythos",
+        "november",
+        "fable",
+        "also",
+        "claude fable"
       ],
-      "numbers": [
-        "77.2%",
-        "83.1%",
-        "83.2%",
-        "82.9%"
-      ],
+      "numbers": [],
       "dates": [
-        "Nov 20"
+        "November 20",
+        "July 1",
+        "February 24",
+        "November 24"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 39
+        "anchor_count": 44
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
-      "source_artifact_date": "2026-11-24",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-25-AM.json",
+      "source_artifact_date": "2026-11-25",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_f8079add9f94ab7aa06845be",
-      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
-      "category": "国际",
-      "published_at": "2026-11-23T23:16:08+00:00",
-      "why_relevant": "美黑名单AI芯片公司",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151855+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
-          "sentence_hash": "7b8c3b4b669bb05466c3ea85920bb9a93c476283b06646e205b1669d8a949a71",
-          "anchors": [
-            "us",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151901+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
-          "sentence_hash": "bdac2c85844f07b8c0f8e9b324412566b5814458a7f94a6bbcd3f10028808dbe",
-          "anchors": [
-            "us",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151931+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement.",
-          "sentence_hash": "75145d17682918a4427883d45d0a64183474540e8c322755302902dd32f4d875",
-          "anchors": [
-            "ai",
-            "commerce"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "The BBC has asked the agency for comment, along with the White House and Megaspeed.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151952+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "The BBC has asked the agency for comment, along with the White House and Megaspeed.",
-          "sentence_hash": "2c32ce31089a62db9ca6755ef468dce1c786041040c2bcdd23bca587a17cf610",
-          "anchors": [
-            "us"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151979+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.",
-          "sentence_hash": "d1cec915b1c57399a8b2bb1f737a46ced0c7dce41d707ec5c4e75f367b9c9aa6",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.152012+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology.",
-          "sentence_hash": "5dc9f5aed6bb562372a0ae379a69371d4579da4a47beed95dd7794e4167e4a85",
-          "anchors": [
-            "us"
-          ]
-        }
-      ],
-      "entities": [
-        "singaporean",
-        "although",
-        "nvidia",
-        "beijing",
-        "on monday",
-        "bbc",
-        "published\nthe",
-        "singapore",
-        "president donald trump",
-        "chinese",
-        "without",
-        "us",
-        "white house",
-        "speedmatrix",
-        "asian",
-        "america",
-        "commerce",
-        "the department",
-        "alice huang",
-        "china",
-        "november",
-        "alibaba",
-        "megaspeed",
-        "ai",
-        "megaspeed ltd",
-        "jensen huang"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 26
-      },
-      "evidence_complete": true,
-      "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
-      "source_artifact_date": "2026-11-24",
-      "freshness_label": "today"
-    },
-    {
-      "article_id": "a1_0a7de6debc21c4c1143610d7",
-      "title": "Ladybird's first alpha release",
-      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "article_id": "a1_2403728ae823719fd51320de",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
       "publisher": "Simon Willison",
-      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS.\nThis morning ",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer\nGLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:\n\nIn a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.\n\nThis is the",
       "category": "科技",
-      "published_at": "2026-11-23T21:46:35+00:00",
-      "why_relevant": "自研引擎浏览器，前沿硬核",
+      "published_at": "2026-11-23T23:40:49+00:00",
+      "why_relevant": "GLM-5.4循环Transformer架构",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
+          "text": "23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153569+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
-          "sentence_hash": "74a6685a41af04aa9b9de0281d3f2bd4ae1bb661a41bffdfdcdb72a290249e39",
+          "captured_at": "2026-11-25T08:03:36.304414+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.",
+          "sentence_hash": "2046c2c1858d6062be81b244e16f7c645a414ac2ddf2c72de7e989d4e0717a68",
           "anchors": [
-            "mb",
             "November 20"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
+          "text": "GLM 5.4 is now available from Chinese AI lab Z.ai.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153613+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
-          "sentence_hash": "7cdaf53d9c5233d111a369751fa2e0b757f082b1867cff206cfeb734826ea9d1",
+          "captured_at": "2026-11-25T08:03:36.304430+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "GLM 5.4 is now available from Chinese AI lab Z.ai.",
+          "sentence_hash": "8515459c7ea1dd671c6eb2c4c35867f07452883569a34ce09f7c7025496b6324",
           "anchors": [
-            "video"
+            "ai"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS.",
+          "text": "It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153648+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS.",
-          "sentence_hash": "ce00415c01723f70ba8d436092b08e48d6a2ad0933fc96bc7f66f6b9df993d36",
+          "captured_at": "2026-11-25T08:03:36.304451+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass.",
+          "sentence_hash": "2b033a4ccdbb1411157ea780274c00f7e50164c8a9a752836e09c88564afbea0",
           "anchors": [
-            "mb"
+            "transformer",
+            "they"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should.",
+          "text": "This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153700+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should.",
-          "sentence_hash": "7512a1ffb7f7b5e8f51e5c6a31b6417b7b38f873144388ae5a6a1b72ef35ce39",
+          "captured_at": "2026-11-25T08:03:36.304491+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token.",
+          "sentence_hash": "b5bc7a2d7cb6b9a8dfee4f24f697c7903bc01b4a2c32f9b05dcaa900533c6ed0",
           "anchors": [
-            "ui",
-            "web"
+            "running",
+            "ai",
+            "November 20",
+            "transformer",
+            "three"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "It looks like this (showing my video-compressor tool): Here’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├",
+          "text": "GLM 5.4 is not yet available as open weights: We plan to open-source the model weights responsibly after completing necessary safety hardening.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153770+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "It looks like this (showing my video-compressor tool): Here’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├",
-          "sentence_hash": "926cda7831a2cb384cacc818bc5821a5c2f6bd1f8394b4e23bda44e4c6e60aac",
+          "captured_at": "2026-11-25T08:03:36.304516+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "GLM 5.4 is not yet available as open weights: We plan to open-source the model weights responsibly after completing necessary safety hardening.",
+          "sentence_hash": "d9152831f6dc34c3206a063582d52f52f8b7243a68e71c847627f6a3ed33eec4",
           "anchors": [
-            "video",
-            "script",
-            "process"
+            "ai",
+            "open"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "I tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly.",
+          "text": "I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153806+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "I tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly.",
-          "sentence_hash": "46e1630c5662a56e148f4a846385efc624e3a0b08a347229f99184d754a93950",
+          "captured_at": "2026-11-25T08:03:36.304538+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API.",
+          "sentence_hash": "3a346e06194630248a782227d15de2c37f5c24615f26f44c28ccfd656936fccb",
           "anchors": [
-            "video",
-            "mb",
             "ai"
           ]
         }
       ],
       "entities": [
-        "skia",
-        "media",
-        "rust",
-        "linux",
-        "content",
-        "python",
-        "serenity",
-        "repl",
-        "harf",
-        "web",
-        "java",
-        "attempting",
-        "here",
-        "andreas kling",
-        "ui",
-        "ladybird",
-        "datasette lite",
-        "claude code",
-        "request",
-        "everything",
-        "hub",
-        "process",
-        "ai",
-        "server",
-        "claude",
-        "reaper",
-        "assembly",
-        "codex",
-        "messages",
-        "the october",
-        "on february",
-        "buzz",
-        "css",
-        "chrome",
-        "fixme",
-        "worker",
-        "november",
-        "compositor",
         "pyodide",
-        "html",
-        "lite",
-        "mb",
-        "lib",
-        "decoder",
-        "video",
-        "script",
-        "git"
+        "responses",
+        "tommy hughes",
+        "thinking machines lab",
+        "ladybird",
+        "glm",
+        "our first loop transformer",
+        "llm",
+        "api",
+        "locating",
+        "link blog",
+        "transformer",
+        "running",
+        "coding plan",
+        "recent",
+        "datasette python",
+        "claude",
+        "inkling",
+        "three",
+        "mini",
+        "anthropic",
+        "open",
+        "loop transformer",
+        "november",
+        "here",
+        "ai",
+        "toward generalized coding",
+        "they",
+        "chinese"
       ],
       "numbers": [],
       "dates": [
-        "February 23",
         "November 20"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 49
+        "anchor_count": 30
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
-      "source_artifact_date": "2026-11-24",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-25-AM.json",
+      "source_artifact_date": "2026-11-25",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_f526c1fe6be8c5cd683bdcc6",
-      "title": "Nasdaq jumps 7% as Nvidia shares soar",
-      "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
-      "category": "财经",
-      "published_at": "2026-11-23T22:01:02+00:00",
-      "why_relevant": "纳指暴涨，英伟达飙升",
-      "relevance_score": 9.0,
+      "article_id": "a1_594b817d0392e40237e4f593",
+      "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy",
+      "publisher": "SCMP",
+      "summary": "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.\n“I made some terrible mistakes,” Huang told an hour-long all-hands meeting at the company’s Santa Clara, California, headquarters, The New York Times reported after reviewing a live stream of the event.\nHe told staff it was “not acceptable” that he had broken a code of.",
+      "category": "国际",
+      "published_at": "2026-11-24T22:03:22+00:00",
+      "why_relevant": "黄仁勋道歉与反弹减弱",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
+          "text": "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.154015+08:00",
-          "content_sha256": "9258150132f94642cc23b5ff5e456f277aa783f950cb05671dd03b5a287dbdbb",
-          "excerpt": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
-          "sentence_hash": "22492dd1b6989ea67b4bb7b8bb35948d51057e21cfc8156b5f4847414966d2f8",
+          "captured_at": "2026-11-25T08:03:36.304925+08:00",
+          "content_sha256": "884f58ddd2a0ad052db2fd00161c15178d31cc5bc44ade7369c9db678c44abec",
+          "excerpt": "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.",
+          "sentence_hash": "d32217feac46c1578c11473b3f10909c8eb1fb1416e1e1dcd747e819530711d9",
           "anchors": [
-            "31.5%",
-            "4.7%"
+            "ai"
           ]
         }
       ],
       "entities": [
         "huang",
-        "chip"
+        "the new york times",
+        "california",
+        "ceo",
+        "santa clara",
+        "jensen huang",
+        "tuesday",
+        "nvidia",
+        "ai"
       ],
-      "numbers": [
-        "31.5%",
-        "4.7%"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "正文未抓到",
@@ -499,81 +361,297 @@
         "has_fulltext": false,
         "has_multiple_sources": true,
         "fact_count": 1,
-        "anchor_count": 4
+        "anchor_count": 9
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
-      "source_artifact_date": "2026-11-24",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-25-AM.json",
+      "source_artifact_date": "2026-11-25",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_2e289e1d1a1b1091300678aa",
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "article_id": "a1_ee289a1cded9842d90f54da1",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
       "publisher": "BBC World",
-      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
       "category": "国际",
-      "published_at": "2026-11-23T20:48:35+00:00",
-      "why_relevant": "乌战扩散至利比亚",
+      "published_at": "2026-11-24T21:19:42+00:00",
+      "why_relevant": "美司法部长回避英伟达调查",
       "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.",
+          "text": "US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a \"good corporate citizen\" while refusing to comment on whether the AI chipmaker was under federal investigation.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.155298+08:00",
-          "content_sha256": "74b008711df82c5bd5b34e8dd4a3ac90e00663610eb7656a25876d58e6e5e3c9",
-          "excerpt": "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.",
-          "sentence_hash": "cef56a79bdf7f4bd7261e01225979534e6a10f7f78c0808746d776d1b6248c31",
+          "captured_at": "2026-11-25T08:03:36.305818+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a \"good corporate citizen\" while refusing to comment on whether the AI chipmaker was under federal investigation.",
+          "sentence_hash": "4db6db6925e0f9c74b22a4c2b4cf8800e9651f3b0e1c4a4d23bce66d8967d003",
           "anchors": [
-            "ust"
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Blanche said he had no information about newly reinstated CEO Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's comeback.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.305843+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "Blanche said he had no information about newly reinstated CEO Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's comeback.",
+          "sentence_hash": "b07421d18772dd598e4c7f7ffab6a8390674a1d3ce6dfacce5ccc22163ce1801",
+          "anchors": [
+            "ai",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.305864+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy.",
+          "sentence_hash": "1fca35f75236d5fad8da9aa5828811ddc93de85511d0b46b91b69d3ae8b4738d",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Asked several times on Tuesday if the justice department or FBI had investigated Huang, Blanche responded: \"I don't know what you're talking about.\" Huang is still set to appear before Congress next week, where he will be questioned about national security concerns over his relat",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.305897+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "Asked several times on Tuesday if the justice department or FBI had investigated Huang, Blanche responded: \"I don't know what you're talking about.\" Huang is still set to appear before Congress next week, where he will be questioned about national security concerns over his relat",
+          "sentence_hash": "681953b2f8f3bcba6c32f824abd4822312a40b29a94e299b136615e8559d8865",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The US commerce department has also announced it was preparing to blacklist the tech company Megaspeed, which has been suspected of helping to divert advanced chips to China.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.305917+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "The US commerce department has also announced it was preparing to blacklist the tech company Megaspeed, which has been suspected of helping to divert advanced chips to China.",
+          "sentence_hash": "9b5b6128ea2448fe553645830915d86c5e4101a8053ced5cab7d3717ec9bc93c",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "In a joint statement last week, the commerce and justice departments said they began investigating Megaspeed in 2024 \"for potential export control violations\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.305937+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "In a joint statement last week, the commerce and justice departments said they began investigating Megaspeed in 2024 \"for potential export control violations\".",
+          "sentence_hash": "2689871e0d51e9e6116e51bec9c82f359353fc1d7af3339cef71a1ecb4ccbfe1",
+          "anchors": [
+            "ai",
+            "us"
           ]
         }
       ],
       "entities": [
-        "libyan",
-        "sbu",
-        "strait",
-        "russia",
-        "zelensky",
-        "president volodymyr zelensky",
-        "web",
-        "imo",
-        "captain",
-        "if ukraine",
-        "europe\nas",
-        "merkury",
-        "kremlin",
-        "throughout",
-        "ukrainian",
-        "some",
-        "gulf",
-        "the united nations",
-        "published\nanchored",
-        "mediterranean",
-        "benghazi",
-        "moscow",
-        "libya",
-        "siberia",
-        "baltic",
-        "africa corps",
-        "international maritime organisation",
-        "ukr",
-        "russian",
-        "impact",
-        "finland",
-        "luga",
-        "and ukraine",
-        "africa",
-        "khalifa haftar",
-        "wagner group",
-        "ust",
-        "ukraine",
+        "faisal islam",
+        "us",
+        "huang",
+        "on monday",
+        "ceo",
+        "china",
+        "jensen huang",
+        "president donald trump",
+        "nvidia",
+        "monday",
+        "fears",
+        "megaspeed",
+        "american",
+        "obviously",
+        "blanche",
         "but",
-        "operation spider",
-        "hormuz",
-        "field marshal"
+        "fbi",
+        "singapore",
+        "while nvidia",
+        "tuesday",
+        "attorney general todd blanche",
+        "asked",
+        "harvey jones",
+        "ai",
+        "congress",
+        "chinese",
+        "published"
+      ],
+      "numbers": [
+        "31%",
+        "6%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 29
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-25-AM.json",
+      "source_artifact_date": "2026-11-25",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_36ea3521015c5bc56fb8473a",
+      "title": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "publisher": "GitHub Trending",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.https://diagramdesign.dev \n  \n   \n    \n    \n    \n An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.52 diagram types. No shadows. No Mermaid slop. \n      \n  \n Website · Gallery · Changelog \n Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing \n npx ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "主流AI编程工具图解设计",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307040+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.",
+          "sentence_hash": "68b8454c33a372f7b1c66ba70b727ecb46231bcf6af3df053d7a3175fc23872f",
+          "anchors": [
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: - \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" - \"I need a quadrant showin",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307101+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: - \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" - \"I need a quadrant showin",
+          "sentence_hash": "108e25b387c6628786ce91d4259e7e270fa91929195fb04ddb77baaff71f5226",
+          "anchors": [
+            "skill",
+            "skills",
+            "html",
+            "cli",
+            "make",
+            "match",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: npx skills add cathrynlavery/diagram-design In Claude Code, the plugin marketplace gets you updates and the slash commands: /plugin marke",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307141+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: npx skills add cathrynlavery/diagram-design In Claude Code, the plugin marketplace gets you updates and the slash commands: /plugin marke",
+          "sentence_hash": "4f515e87037dae46b1eb4e591a879aa95bcd84a9b3297196bd01bb71c9b0e0f0",
+          "anchors": [
+            "skill",
+            "install",
+            "from",
+            "skills",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "LittleMight, Cathryn Lavery's company, publishes the plugin directory listings; a listing under any other name is an unofficial copy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307162+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "LittleMight, Cathryn Lavery's company, publishes the plugin directory listings; a listing under any other name is an unofficial copy.",
+          "sentence_hash": "d46e890b34df81169132ab1873eb66e8fd2969c0103861475204d4c403dac2f4",
+          "anchors": [
+            "official",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "PRIVACY.md lists what the skill sends over the network.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307175+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "PRIVACY.md lists what the skill sends over the network.",
+          "sentence_hash": "cb6f3b851710fe0996f69273fbfd2bc55203b58eeadd367f30aae74ea8cd75c0",
+          "anchors": [
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Claude Code: turn on auto-update After installing, run /plugin, open Marketplaces, select diagram-design, and choose Enable auto-update.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307195+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "Claude Code: turn on auto-update After installing, run /plugin, open Marketplaces, select diagram-design, and choose Enable auto-update.",
+          "sentence_hash": "f18639b31a0c9a34ad0eaf61379da1247c7cbf46c691cf325a1dc6d81b422f85",
+          "anchors": [
+            "run",
+            "install"
+          ]
+        }
+      ],
+      "entities": [
+        "kilo",
+        "works",
+        "contributing",
+        "marketplaces",
+        "skills",
+        "customize",
+        "from",
+        "git",
+        "svg",
+        "onboard",
+        "codex",
+        "install",
+        "might",
+        "upload",
+        "warp",
+        "in claude desktop",
+        "redis",
+        "agent skills",
+        "ask",
+        "qoder",
+        "cline",
+        "official",
+        "claude desktop\nclaude desktop",
+        "zed",
+        "windsurf",
+        "roo",
+        "cursor",
+        "claude code",
+        "gemini",
+        "hub copilot",
+        "cathryn lavery",
+        "quickstart",
+        "after",
+        "skill",
+        "import",
+        "little",
+        "zip",
+        "export",
+        "give",
+        "amp",
+        "enable",
+        "run",
+        "html",
+        "cli",
+        "no mermaid",
+        "make",
+        "hub",
+        "ci",
+        "match",
+        "in claude code",
+        "rebuild"
       ],
       "numbers": [],
       "dates": [],
@@ -582,14 +660,14 @@
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 42
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 51
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-24-AM.json",
-      "source_artifact_date": "2026-11-24",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-25-AM.json",
+      "source_artifact_date": "2026-11-25",
       "freshness_label": "today"
     }
   ]

@@ -1,1088 +1,337 @@
 {
   "schema_version": 1,
   "source": "daily-news-digest",
-  "run_key": "2026-11-24-AM",
-  "date": "2026-11-24",
+  "run_key": "2026-11-25-AM",
+  "date": "2026-11-25",
   "session": "AM",
-  "delivered_at": "2026-11-24T08:06:42.655018+08:00",
+  "delivered_at": "2026-11-25T08:07:34.559180+08:00",
   "delivery_successful": true,
-  "exported_at": "2026-11-24T00:06:42.658699+00:00",
+  "exported_at": "2026-11-25T00:07:34.560556+00:00",
   "quality": {
-    "total_items": 12,
-    "items_with_unsupported_numbers": 2,
-    "unsupported_ratio": 0.16666666666666666
+    "total_items": 13,
+    "items_with_unsupported_numbers": 4,
+    "unsupported_ratio": 0.3076923076923077
   },
   "items": [
     {
-      "article_id": "a1_3edc3b6f859ebceeab7066a6",
-      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
-      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-      "publisher": "Hacker News",
-      "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding.To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks.Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit):- DeepSWE: 39.8 / 41.0 / 41.9 / 28.6- Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4- AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0- MSGM: 94.0 / 93.1 / 91.8 / 90.6- RealW",
+      "article_id": "a1_0c85776a107841a09ac527fe",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "publisher": "Simon Willison",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.\nHere's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.\n \n\nCoding agents in November 2025\nToday, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5. With hindsight, this",
       "category": "科技",
-      "published_at": "2026-11-23T13:42:38+00:00",
-      "why_relevant": "10GB量化Qwen3.8，本地必读",
-      "relevance_score": 10.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150372+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "NariQ: Qwen3.8-27B in a 10 GB file, BF16-level on long-horizon agentic tasks (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight.",
-          "sentence_hash": "862482b60ca6ef3309b0f8efa977935c869d606949e485c21d5a74043f20b890",
-          "anchors": [
-            "Nov 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Run them on our llama.cpp fork (required).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150401+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "Run them on our llama.cpp fork (required).",
-          "sentence_hash": "cf06db939dbf2c295173c774809b080c7e794c5902be917c37a540958a3cf4ce",
-          "anchors": [
-            "our"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "The 2-bit file scores lower.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150449+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "The 2-bit file scores lower.",
-          "sentence_hash": "3480bd063a40a262403ab3f7108d6215797757b6008ff8680d0ad150f1066dd9",
-          "anchors": [
-            "lower"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "- NariQ is a trellis-coded post-training quantization (PTQ), calibrated on real coding-agent traces and stored in a layout that runs on a single GPU.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150478+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "- NariQ is a trellis-coded post-training quantization (PTQ), calibrated on real coding-agent traces and stored in a layout that runs on a single GPU.",
-          "sentence_hash": "5f1e8ecf3471893d607a5d66bbb90a347e9ef0e6b5762037ca0f9181545f13fc",
-          "anchors": [
-            "run"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150520+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit).",
-          "sentence_hash": "e19fa394a9c08bf62a93a2c62cc234012156a7c3fdac48be26bc5547474f2dde",
-          "anchors": [
-            "each",
-            "83.2%",
-            "82.9%",
-            "77.2%",
-            "83.1%"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The agent runs use the Claude Code CLI (2.1.309, thinking on, effort max) driving the local model, with a 262,144-token context and the model's thinking-mode sampling (temperature 1.0, top-p 0.95, top-k 20).",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.150567+08:00",
-          "content_sha256": "70dff8824108467b3b83fd926c0ee970adb3fa503cf30af47c24fc1458abf2d2",
-          "excerpt": "The agent runs use the Claude Code CLI (2.1.309, thinking on, effort max) driving the local model, with a 262,144-token context and the model's thinking-mode sampling (temperature 1.0, top-p 0.95, top-k 20).",
-          "sentence_hash": "1598305c98b24f6d8f007394dbeb57c19e5931b6dce240677403b5c552dfa170",
-          "anchors": [
-            "run"
-          ]
-        }
-      ],
-      "entities": [
-        "nari",
-        "dynamic",
-        "rco",
-        "linux",
-        "ptq",
-        "bench",
-        "unsloth",
-        "lower",
-        "every",
-        "terminal",
-        "quickstart\none",
-        "claude code",
-        "gsq",
-        "across",
-        "gguf",
-        "higher",
-        "each",
-        "gpu",
-        "filled",
-        "our nari",
-        "run",
-        "each nari",
-        "nvidia",
-        "nov",
-        "our",
-        "kl",
-        "more",
-        "compare",
-        "deep",
-        "cli",
-        "gb",
-        "for deep",
-        "qwen",
-        "one"
-      ],
-      "numbers": [
-        "77.2%",
-        "83.1%",
-        "83.2%",
-        "82.9%"
-      ],
-      "dates": [
-        "Nov 20"
-      ],
-      "unknowns": [],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 39
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_f8079add9f94ab7aa06845be",
-      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
-      "category": "国际",
-      "published_at": "2026-11-23T23:16:08+00:00",
-      "why_relevant": "美黑名单AI芯片公司",
+      "published_at": "2026-11-24T23:02:07+00:00",
+      "why_relevant": "LLM编程三拐点深度解读",
       "relevance_score": 9.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
+          "text": "Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151855+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal - Published The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.",
-          "sentence_hash": "7b8c3b4b669bb05466c3ea85920bb9a93c476283b06646e205b1669d8a949a71",
+          "captured_at": "2026-11-25T08:03:36.303401+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv",
+          "sentence_hash": "08e250ac3626b02d2e42183a5f4e1e4a8d54d1fd652dfd80f0c2b84807475b51",
           "anchors": [
-            "us",
-            "ai"
+            "here",
+            "November 20",
+            "three",
+            "coding"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
+          "text": "Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151901+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "The company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.",
-          "sentence_hash": "bdac2c85844f07b8c0f8e9b324412566b5814458a7f94a6bbcd3f10028808dbe",
+          "captured_at": "2026-11-25T08:03:36.303450+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5.",
+          "sentence_hash": "33ab191dfda03bf574555ca79373daa93e8e6f3d2964a2c98b07291b3e817e98",
           "anchors": [
+            "November 20",
             "us",
-            "ai"
+            "November 24"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement.",
+          "text": "In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151931+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "When exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement.",
-          "sentence_hash": "75145d17682918a4427883d45d0a64183474540e8c322755302902dd32f4d875",
+          "captured_at": "2026-11-25T08:03:36.303478+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding.",
+          "sentence_hash": "58de4273a5c4a4f8bca17c18e36b4593e15f6e259e358202997b9551378cb37e",
           "anchors": [
             "ai",
-            "commerce"
+            "us",
+            "with"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "The BBC has asked the agency for comment, along with the White House and Megaspeed.",
+          "text": "They told us that, when pointed at a complex, multi-system bug, Opus 4.5 figures out the fix.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151952+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "The BBC has asked the agency for comment, along with the White House and Megaspeed.",
-          "sentence_hash": "2c32ce31089a62db9ca6755ef468dce1c786041040c2bcdd23bca587a17cf610",
+          "captured_at": "2026-11-25T08:03:36.303497+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "They told us that, when pointed at a complex, multi-system bug, Opus 4.5 figures out the fix.",
+          "sentence_hash": "7147d6b0ebe6151d1d019c2ecea35cf46fe3729ccdfc2cf445c0729cc9ec0891",
           "anchors": [
             "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.",
+          "text": "They said that tasks that were near-impossible for Sonnet 4.5 just a few weeks ago are now within reach.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.151979+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "Megaspeed was not well known within the US until last month when media reports emerged that a former Megaspeed executive, Alice Huang, had an affair with Jensen Huang.",
-          "sentence_hash": "d1cec915b1c57399a8b2bb1f737a46ced0c7dce41d707ec5c4e75f367b9c9aa6",
+          "captured_at": "2026-11-25T08:03:36.303515+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "They said that tasks that were near-impossible for Sonnet 4.5 just a few weeks ago are now within reach.",
+          "sentence_hash": "9fee715882447518a2f3648247c58964467e596233cb47f62195137304f8c0b0",
           "anchors": [
-            "ai"
+            "ai",
+            "us",
+            "for",
+            "with"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology.",
+          "text": "Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.152012+08:00",
-          "content_sha256": "2280b68e258180c5cb27bfec752edbfd75c2378d6ea4b166bf709c0694351414",
-          "excerpt": "China has denied that she is a spy and warned the US not to use the scandal as a \"pretext for imposing a technological blockade\" on AI technology.",
-          "sentence_hash": "5dc9f5aed6bb562372a0ae379a69371d4579da4a47beed95dd7794e4167e4a85",
+          "captured_at": "2026-11-25T08:03:36.303536+08:00",
+          "content_sha256": "dbc7d85020725001103701aa4f7a0a6bac31965d25e678a58e27cc23df42454a",
+          "excerpt": "Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025.",
+          "sentence_hash": "8f880c1ebec19e05a64e32752ac3614f9b63e729f0bd53b8b5becdfb0a9de983",
           "anchors": [
-            "us"
+            "February 24"
           ]
         }
       ],
       "entities": [
-        "singaporean",
-        "although",
-        "nvidia",
-        "beijing",
-        "on monday",
-        "bbc",
-        "published\nthe",
-        "singapore",
-        "president donald trump",
-        "chinese",
-        "without",
+        "thinking",
         "us",
-        "white house",
-        "speedmatrix",
-        "asian",
-        "america",
-        "commerce",
-        "the department",
-        "alice huang",
-        "china",
-        "november",
-        "alibaba",
-        "megaspeed",
-        "ai",
-        "megaspeed ltd",
-        "jensen huang"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 26
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_0a7de6debc21c4c1143610d7",
-      "title": "Ladybird's first alpha release",
-      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
-      "publisher": "Simon Willison",
-      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS.\nThis morning ",
-      "category": "科技",
-      "published_at": "2026-11-23T21:46:35+00:00",
-      "why_relevant": "自研引擎浏览器，前沿硬核",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153569+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "Ladybird’s first alpha release 23rd November 2026 Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly.",
-          "sentence_hash": "74a6685a41af04aa9b9de0281d3f2bd4ae1bb661a41bffdfdcdb72a290249e39",
-          "anchors": [
-            "mb",
-            "November 20"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153613+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "It still uses a few external components—things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
-          "sentence_hash": "7cdaf53d9c5233d111a369751fa2e0b757f082b1867cff206cfeb734826ea9d1",
-          "anchors": [
-            "video"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153648+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "Everything else is part of Ladybird, or code brought in from Ladybird’s even more ambitious predecessor project SerenityOS.",
-          "sentence_hash": "ce00415c01723f70ba8d436092b08e48d6a2ad0933fc96bc7f66f6b9df993d36",
-          "anchors": [
-            "mb"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153700+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "It feels fast, the UI is lightweight and intuitive, and most of the websites I’ve tried to load in it have worked as they should.",
-          "sentence_hash": "7512a1ffb7f7b5e8f51e5c6a31b6417b7b38f873144388ae5a6a1b72ef35ce39",
-          "anchors": [
-            "ui",
-            "web"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "It looks like this (showing my video-compressor tool): Here’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153770+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "It looks like this (showing my video-compressor tool): Here’s the process tree after I opened six tabs in one window and another tab in a second window (generated by this script, thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├",
-          "sentence_hash": "926cda7831a2cb384cacc818bc5821a5c2f6bd1f8394b4e23bda44e4c6e60aac",
-          "anchors": [
-            "video",
-            "script",
-            "process"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "I tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.153806+08:00",
-          "content_sha256": "aca65a8f4e9025ab254c74c52479da987d76b701f715358481acd28e375b0b94",
-          "excerpt": "I tried Ladybird against several of my more advanced tool examples—like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly.",
-          "sentence_hash": "46e1630c5662a56e148f4a846385efc624e3a0b08a347229f99184d754a93950",
-          "anchors": [
-            "video",
-            "mb",
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "skia",
-        "media",
-        "rust",
-        "linux",
-        "content",
-        "python",
-        "serenity",
-        "repl",
-        "harf",
-        "web",
-        "java",
-        "attempting",
-        "here",
-        "andreas kling",
-        "ui",
-        "ladybird",
-        "datasette lite",
-        "claude code",
-        "request",
-        "everything",
-        "hub",
-        "process",
-        "ai",
-        "server",
+        "instant",
+        "february",
+        "by january",
+        "gpt",
+        "sonnet",
+        "mythos",
+        "december",
         "claude",
-        "reaper",
-        "assembly",
         "codex",
-        "messages",
-        "the october",
-        "on february",
-        "buzz",
-        "css",
-        "chrome",
-        "fixme",
-        "worker",
+        "engineer code summit",
+        "anthropic",
+        "open",
+        "today",
+        "here",
+        "ai",
+        "claude opus",
+        "they",
+        "llm",
+        "april",
+        "claude code",
+        "july\nwe",
+        "coding",
+        "these",
+        "opus",
+        "after",
+        "in june",
+        "june",
+        "testers",
+        "three",
+        "july",
+        "for",
+        "with",
+        "max",
+        "claude mythos",
         "november",
-        "compositor",
-        "pyodide",
-        "html",
-        "lite",
-        "mb",
-        "lib",
-        "decoder",
-        "video",
-        "script",
-        "git"
+        "fable",
+        "also",
+        "claude fable"
       ],
       "numbers": [],
       "dates": [
-        "February 23",
-        "November 20"
+        "November 20",
+        "July 1",
+        "February 24",
+        "November 24"
       ],
       "unknowns": [],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 49
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_f526c1fe6be8c5cd683bdcc6",
-      "title": "Nasdaq jumps 7% as Nvidia shares soar",
-      "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-      "publisher": "FT",
-      "summary": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
-      "category": "财经",
-      "published_at": "2026-11-23T22:01:02+00:00",
-      "why_relevant": "纳指暴涨，英伟达飙升",
-      "relevance_score": 9.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.154015+08:00",
-          "content_sha256": "9258150132f94642cc23b5ff5e456f277aa783f950cb05671dd03b5a287dbdbb",
-          "excerpt": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
-          "sentence_hash": "22492dd1b6989ea67b4bb7b8bb35948d51057e21cfc8156b5f4847414966d2f8",
-          "anchors": [
-            "31.5%",
-            "4.7%"
-          ]
-        }
-      ],
-      "entities": [
-        "huang",
-        "chip"
-      ],
-      "numbers": [
-        "31.5%",
-        "4.7%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 4
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_2e289e1d1a1b1091300678aa",
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "publisher": "BBC World",
-      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "category": "国际",
-      "published_at": "2026-11-23T20:48:35+00:00",
-      "why_relevant": "乌战扩散至利比亚",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.155298+08:00",
-          "content_sha256": "74b008711df82c5bd5b34e8dd4a3ac90e00663610eb7656a25876d58e6e5e3c9",
-          "excerpt": "It's not just Russia that will be alarmed by this latest Ukrainian operation in Benghazi harbour.",
-          "sentence_hash": "cef56a79bdf7f4bd7261e01225979534e6a10f7f78c0808746d776d1b6248c31",
-          "anchors": [
-            "ust"
-          ]
-        }
-      ],
-      "entities": [
-        "libyan",
-        "sbu",
-        "strait",
-        "russia",
-        "zelensky",
-        "president volodymyr zelensky",
-        "web",
-        "imo",
-        "captain",
-        "if ukraine",
-        "europe\nas",
-        "merkury",
-        "kremlin",
-        "throughout",
-        "ukrainian",
-        "some",
-        "gulf",
-        "the united nations",
-        "published\nanchored",
-        "mediterranean",
-        "benghazi",
-        "moscow",
-        "libya",
-        "siberia",
-        "baltic",
-        "africa corps",
-        "international maritime organisation",
-        "ukr",
-        "russian",
-        "impact",
-        "finland",
-        "luga",
-        "and ukraine",
-        "africa",
-        "khalifa haftar",
-        "wagner group",
-        "ust",
-        "ukraine",
-        "but",
-        "operation spider",
-        "hormuz",
-        "field marshal"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 42
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_991f1b82d398689ef7f415e5",
-      "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPam9EWkNKUkVWckNXeXJpWmh0OEhTcy1reWhiOWRkUHllZWZtc1V0N0l1UWJLMEtjSUR5V3F6YXlJdXRYaTZyQ0Z6ZGp2UjJnc1FfSExfaUNtblB5eUg4WG9QQm9XdUxPTmdMb3diZGl5LU53c2l4aXdXaTkyaUJnNVprM1Y3UWdjMjd6M0dLc2RmbXY5ZUFPaWwwRXR2SXZreTdZMmM2M2MtVFJqelI2MmxB?oc=5",
-      "publisher": "Reuters",
-      "summary": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say&nbsp;&nbsp;Reuters",
-      "category": "国际",
-      "published_at": "2026-11-23T19:23:26+00:00",
-      "why_relevant": "特朗普视黄为开源AI保护者",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Several other factors also set the stage for Huang's return and accelerated discussions with him over the weekend, said the people, who spoke on condition of anonymity to discuss internal deliberations close to Nvidia's board.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-11-24T08:03:19.156749+08:00",
-          "content_sha256": "3817afe8936120a75af0ad6b04e83be3a128b428ae29f5d5379848eeae035e90",
-          "excerpt": "Several other factors also set the stage for Huang's return and accelerated discussions with him over the weekend, said the people, who spoke on condition of anonymity to discuss internal deliberations close to Nvidia's board.",
-          "sentence_hash": "a37f09e9840490a3dfcf4c493b3436c621658012ba21c93cb3425a512dbcea8c",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "A sharp stock price drop after his resignation and questions about the leadership of interim CEO Colette Kress also spurred the board's decision, the people said.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-11-24T08:03:19.156978+08:00",
-          "content_sha256": "3817afe8936120a75af0ad6b04e83be3a128b428ae29f5d5379848eeae035e90",
-          "excerpt": "A sharp stock price drop after his resignation and questions about the leadership of interim CEO Colette Kress also spurred the board's decision, the people said.",
-          "sentence_hash": "11f14d53f4b91cf5168211c2f0331edf41938b20f58e71edd843574bd270bf59",
-          "anchors": [
-            "after",
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "\"I convinced them,\" Trump told CNBC's Eamon Javers in a phone interview Monday morning, shortly after Nvidia announced Huang's return.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-11-24T08:03:19.157200+08:00",
-          "content_sha256": "3817afe8936120a75af0ad6b04e83be3a128b428ae29f5d5379848eeae035e90",
-          "excerpt": "\"I convinced them,\" Trump told CNBC's Eamon Javers in a phone interview Monday morning, shortly after Nvidia announced Huang's return.",
-          "sentence_hash": "6bae502225872f3e49fbaa6eacf9b111c8509763145dabe70126b56b462dd877",
-          "anchors": [
-            "after"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "\"It was a lot easier to convince them yesterday than it was a week and a half ago.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-11-24T08:03:19.157444+08:00",
-          "content_sha256": "3817afe8936120a75af0ad6b04e83be3a128b428ae29f5d5379848eeae035e90",
-          "excerpt": "\"It was a lot easier to convince them yesterday than it was a week and a half ago.",
-          "sentence_hash": "20d02c6bab4bec02c98e4fc07124518aa8d3d8380db60d34483501a48817dc04",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "After the White House outreach, the board contacted Huang, who joined meetings on Saturday and Sunday to discuss his potential return, the people said.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-11-24T08:03:19.157693+08:00",
-          "content_sha256": "3817afe8936120a75af0ad6b04e83be3a128b428ae29f5d5379848eeae035e90",
-          "excerpt": "After the White House outreach, the board contacted Huang, who joined meetings on Saturday and Sunday to discuss his potential return, the people said.",
-          "sentence_hash": "8d087060da3a9ef41b1338b3cac2341b933d8540f193ba1d75f7effe1c247e3a",
-          "anchors": [
-            "and"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Huang's spokesman did not respond to a request for comment when asked about his contact with the board and other events leading up to his return.",
-          "source_id": "source:backfill",
-          "captured_at": "2026-11-24T08:03:19.157914+08:00",
-          "content_sha256": "3817afe8936120a75af0ad6b04e83be3a128b428ae29f5d5379848eeae035e90",
-          "excerpt": "Huang's spokesman did not respond to a request for comment when asked about his contact with the board and other events leading up to his return.",
-          "sentence_hash": "27b06b72de62af67bbecb829edb4a210fdd70d15c6f5a66588551091a70d7637",
-          "anchors": [
-            "and"
-          ]
-        }
-      ],
-      "entities": [
-        "friday",
-        "elon musk",
-        "after",
-        "huang",
-        "the nvidia",
-        "president donald trump",
-        "singapore",
-        "sunday",
-        "kress",
-        "spac",
-        "eamon javers",
-        "senior trump",
-        "china",
-        "open",
-        "megaspeed",
-        "colette kress",
-        "sam altman",
-        "jensen huang",
-        "monday",
-        "trump",
-        "nvidia",
-        "saturday",
-        "nov",
-        "cnbc",
-        "several",
-        "white house",
-        "wednesday",
-        "alice huang",
-        "president greg brockman",
-        "and",
-        "ceo",
-        "but"
-      ],
-      "numbers": [
-        "25%"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
-        "fact_count": 6,
-        "anchor_count": 33
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_3e0ede45fe17a4f46f8d1f2b",
-      "title": "Jensen Huang’s stunning return in 11 days – 5 key takeaways",
-      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375531/jensen-huangs-stunning-return-11-days-5-key-takeaways",
-      "publisher": "SCMP",
-      "summary": "Jensen Huang’s dramatic return as Nvidia’s CEO on Monday, engineered through US President Donald Trump’s personal intervention, carries major implications for Washington’s AI policy, priorities within the administration and its rivalry with Beijing.\nWhat began with US media reports of his alleged affair with Alice Huang, a former executive at Singapore-based Megaspeed, quickly morphed into a wider saga involving spying allegations, suspected AI chip smuggling to China, tighter export controls...",
-      "category": "国际",
-      "published_at": "2026-11-23T22:06:52+00:00",
-      "why_relevant": "黄仁勋11天回归要点",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "What began with US media reports of his alleged affair with Alice Huang, a former executive at Singapore-based Megaspeed, quickly morphed into a wider saga involving spying allegations, suspected AI chip smuggling to China, tighter export controls...",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.158279+08:00",
-          "content_sha256": "a7ff4afc1f12142144b3facb6a13f488c4f3acb342ad2ef20528110518851b69",
-          "excerpt": "What began with US media reports of his alleged affair with Alice Huang, a former executive at Singapore-based Megaspeed, quickly morphed into a wider saga involving spying allegations, suspected AI chip smuggling to China, tighter export controls...",
-          "sentence_hash": "5459be11a08b557f72a44504618fe365b521613cdeacf33566856b7be17ee626",
-          "anchors": [
-            "us",
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "monday",
-        "washington",
-        "alice huang",
-        "nvidia",
-        "beijing",
-        "china",
-        "ceo",
-        "megaspeed",
-        "president donald trump",
-        "singapore",
-        "ai",
-        "us",
-        "jensen huang"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "正文未抓到",
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": false,
-        "has_multiple_sources": true,
-        "fact_count": 1,
-        "anchor_count": 13
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_362bf56f2494852f944e8670",
-      "title": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "publisher": "GitHub Trending",
-      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/https://clianything.cc/&nbsp; CLI-Anything: Making ALL Software Agent-Native \n \n \n  \n   \n   \n   \n   \n  \n \n  \n   \n   \n   \n   \n \n Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software  \n🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install <name> — browse, install, and manage all community-built CLIs. Want to add your ow",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Agent原生CLI，工具调用相关",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install <name> — browse, install, and manage all community-built CLIs.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.159753+08:00",
-          "content_sha256": "46ccaac68caed88b33ca4945b2b00962ca8b731f44698b9a72182242d7fe4b1c",
-          "excerpt": "CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub: pip install cli-anything-hub then cli-hub install <name> — browse, install, and manage all community-built CLIs.",
-          "sentence_hash": "7fac94c501d205de1343f15d4cccbe488c3056d99e6f66272b0c5b1eb058b570",
-          "anchors": [
-            "anything",
-            "cli",
-            "hub"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Open a PR — the hub updates instantly.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.159790+08:00",
-          "content_sha256": "46ccaac68caed88b33ca4945b2b00962ca8b731f44698b9a72182242d7fe4b1c",
-          "excerpt": "Open a PR — the hub updates instantly.",
-          "sentence_hash": "e012d0056b7eb240c77007e040898c6cd7dbf859319cdde5ed7de4f1a22ab872",
-          "anchors": [
-            "hub"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "🎬 See Demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.159834+08:00",
-          "content_sha256": "46ccaac68caed88b33ca4945b2b00962ca8b731f44698b9a72182242d7fe4b1c",
-          "excerpt": "🎬 See Demos: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.",
-          "sentence_hash": "6a56f98c4e00d9ebb57f3d7bda20d10d28448730c565a57528aafc228c2d69f3",
-          "anchors": [
-            "more",
-            "pr",
-            "agents",
-            "pro"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "Sign up to build a new CLI harness — once reviewed and merged, you'll gain access as one of our community contributors!",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.159885+08:00",
-          "content_sha256": "46ccaac68caed88b33ca4945b2b00962ca8b731f44698b9a72182242d7fe4b1c",
-          "excerpt": "Sign up to build a new CLI harness — once reviewed and merged, you'll gain access as one of our community contributors!",
-          "sentence_hash": "68a62dff59b27b9f8f9070de4e58553434e1c6a3aeb35cfed1699b198cff14e7",
-          "anchors": [
-            "contributor",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Wish CLI-Anything supported a specific software or service?",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.159907+08:00",
-          "content_sha256": "46ccaac68caed88b33ca4945b2b00962ca8b731f44698b9a72182242d7fe4b1c",
-          "excerpt": "Wish CLI-Anything supported a specific software or service?",
-          "sentence_hash": "9cfad33e6a9a525290c542a7009eb9066492e82a7936ecbbb4075cca8639e887",
-          "anchors": [
-            "software"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "Submit a wishlist request!",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.159924+08:00",
-          "content_sha256": "46ccaac68caed88b33ca4945b2b00962ca8b731f44698b9a72182242d7fe4b1c",
-          "excerpt": "Submit a wishlist request!",
-          "sentence_hash": "b6198e9c0b8b96adea33692b46dc2c46b68e96c2f06c91e408b22a60985d1bba",
-          "anchors": [
-            "request",
-            "wish"
-          ]
-        }
-      ],
-      "entities": [
-        "cad",
-        "want",
-        "json",
-        "max",
-        "python",
-        "sketch",
-        "software serves humans",
-        "repl",
-        "api",
-        "today",
-        "pr",
-        "agents",
-        "mini",
-        "joplin",
-        "become",
-        "zoom",
-        "windows",
-        "claw",
-        "local",
-        "contributor",
-        "claude code",
-        "request",
-        "open",
-        "mcp",
-        "hub",
-        "see demos",
-        "arc",
-        "hermes",
-        "ai",
-        "tts",
-        "software",
-        "sign",
-        "atelier",
-        "tomorrow",
-        "calibre",
-        "anything",
-        "gap between",
-        "cursor",
-        "pro",
-        "日本語",
-        "more",
-        "join",
-        "existing",
-        "one command line",
-        "obsidian",
-        "bridging",
-        "submit",
-        "rest",
-        "make",
-        "wish",
-        "unreal editor",
-        "users",
-        "obsidian agent",
-        "rekordbox",
-        "cli",
-        "deutsch\nthanks",
-        "watch",
-        "中文文档",
-        "cipher"
-      ],
-      "numbers": [],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
         "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 59
-      },
-      "evidence_complete": true
-    },
-    {
-      "article_id": "a1_092eb177e2f39397367b584e",
-      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-      "publisher": "TechCrunch",
-      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-      "category": "科技",
-      "published_at": "2026-11-23T22:02:05+00:00",
-      "why_relevant": "AI代理做股票组合",
-      "relevance_score": 8.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "Now, the company has raised $20 million in seed funding to grow its business.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.161261+08:00",
-          "content_sha256": "725f7bcdbb29a5dbf74c74571d116c95206d5f82394877227e675ac9fd931568",
-          "excerpt": "Now, the company has raised $20 million in seed funding to grow its business.",
-          "sentence_hash": "d0d3b8e2ae4e0c9d9aed413655299ca6d6a2c91ad79d4c25e62d89313f47afef",
-          "anchors": [
-            "$20 million",
-            "20 million",
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "Numerous angel investors also joined, including Nat Friedman, who’s currently head of product at Meta Superintelligence Labs; Vercel CEO Guillermo Rauch; renowned product manager Nikita Bier; investor Scott Belsky; and Nemil Dalal, a former Coinbase exec who is now a visiting par",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.161327+08:00",
-          "content_sha256": "725f7bcdbb29a5dbf74c74571d116c95206d5f82394877227e675ac9fd931568",
-          "excerpt": "Numerous angel investors also joined, including Nat Friedman, who’s currently head of product at Meta Superintelligence Labs; Vercel CEO Guillermo Rauch; renowned product manager Nikita Bier; investor Scott Belsky; and Nemil Dalal, a former Coinbase exec who is now a visiting par",
-          "sentence_hash": "897b0353a11b4ed9ca063b15956e470b3e6cddf33bf873d48e5d8f86456053f8",
-          "anchors": [
-            "now",
-            "currently",
-            "for",
-            "head"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "He is the co-founder and former CEO of the podcasting platform Anchor, which Spotify acquired in 2019 for over $150 million.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.161361+08:00",
-          "content_sha256": "725f7bcdbb29a5dbf74c74571d116c95206d5f82394877227e675ac9fd931568",
-          "excerpt": "He is the co-founder and former CEO of the podcasting platform Anchor, which Spotify acquired in 2019 for over $150 million.",
-          "sentence_hash": "727165125aa339dcddc0ded3601f049ef5fc24e7e72bfe1a8539195b6cf665e4",
-          "anchors": [
-            "150 million",
-            "for",
-            "under",
-            "$150 million"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "After leading Spotify’s podcasting business as “Head of Talk” for a few years, he joined the team at Lightspeed as a venture partner, betting on AI companies like Suno and Granola.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.161400+08:00",
-          "content_sha256": "725f7bcdbb29a5dbf74c74571d116c95206d5f82394877227e675ac9fd931568",
-          "excerpt": "After leading Spotify’s podcasting business as “Head of Talk” for a few years, he joined the team at Lightspeed as a venture partner, betting on AI companies like Suno and Granola.",
-          "sentence_hash": "ea6f0a555692d4357aba1b5db1b84da7b422e5b6bb541cd7a5ab18a042795e88",
-          "anchors": [
-            "for"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "“We really believed there was an opportunity to make investing more democratized…and give everyone and anyone the ability to invest in their own insights and beliefs and ideas,” Mignano said.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.161468+08:00",
-          "content_sha256": "725f7bcdbb29a5dbf74c74571d116c95206d5f82394877227e675ac9fd931568",
-          "excerpt": "“We really believed there was an opportunity to make investing more democratized…and give everyone and anyone the ability to invest in their own insights and beliefs and ideas,” Mignano said.",
-          "sentence_hash": "179216e69ebd29b007872a4beb56891ff2c3b0c075e6333fa82363d66bbcef20",
-          "anchors": [
-            "ai"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "While he will continue in his role as founder and executive chairman, he’s now brought in a team to run the company day to day.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.161504+08:00",
-          "content_sha256": "725f7bcdbb29a5dbf74c74571d116c95206d5f82394877227e675ac9fd931568",
-          "excerpt": "While he will continue in his role as founder and executive chairman, he’s now brought in a team to run the company day to day.",
-          "sentence_hash": "5b05c295ceeff413c14749a15001f7f51435f0fa0083d03a7a798967e612043f",
-          "anchors": [
-            "now",
-            "under",
-            "ai"
-          ]
-        }
-      ],
-      "entities": [
-        "coinbase",
-        "april",
-        "adjacent",
-        "guillermo rauch",
-        "head",
-        "cto",
-        "after",
-        "both",
-        "robinhood",
-        "lincoln murr",
-        "john peterson",
-        "nat friedman",
-        "lightspeed",
-        "nikita bier",
-        "scott belsky",
-        "coinbase ventures",
-        "michael mignano",
-        "while",
-        "numerous",
-        "ai",
-        "spotify",
-        "for",
-        "supertake",
-        "nemil dalal",
-        "vercel",
-        "anchor",
-        "suno",
-        "nico wittenborn",
-        "granola",
-        "mignano",
-        "union square ventures",
-        "combinator",
-        "talk",
-        "usv",
-        "ceo",
-        "meta superintelligence labs",
-        "currently",
-        "now",
-        "under",
-        "oboe"
-      ],
-      "numbers": [
-        "150 million",
-        "$20 million",
-        "$150 million",
-        "20 million"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": true,
         "fact_count": 6,
         "anchor_count": 44
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_626c8a30594adf964b175dcb",
-      "title": "Bitcoin rebound already losing steam as AI trade returns with a bang",
-      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebound-already-losing-steam-as-ai-trade-returns-with-a-bank",
-      "publisher": "CoinDesk",
-      "summary": "",
-      "category": "财经",
-      "published_at": "2026-11-23T17:31:27+00:00",
-      "why_relevant": "币圈退潮，AI交易回暖",
-      "relevance_score": 8.0,
-      "confirmed_facts": [],
+      "article_id": "a1_2403728ae823719fd51320de",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "publisher": "Simon Willison",
+      "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer\nGLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:\n\nIn a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count.\n\nThis is the",
+      "category": "科技",
+      "published_at": "2026-11-23T23:40:49+00:00",
+      "why_relevant": "GLM-5.4循环Transformer架构",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304414+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.",
+          "sentence_hash": "2046c2c1858d6062be81b244e16f7c645a414ac2ddf2c72de7e989d4e0717a68",
+          "anchors": [
+            "November 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "GLM 5.4 is now available from Chinese AI lab Z.ai.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304430+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "GLM 5.4 is now available from Chinese AI lab Z.ai.",
+          "sentence_hash": "8515459c7ea1dd671c6eb2c4c35867f07452883569a34ce09f7c7025496b6324",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304451+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass.",
+          "sentence_hash": "2b033a4ccdbb1411157ea780274c00f7e50164c8a9a752836e09c88564afbea0",
+          "anchors": [
+            "transformer",
+            "they"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304491+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token.",
+          "sentence_hash": "b5bc7a2d7cb6b9a8dfee4f24f697c7903bc01b4a2c32f9b05dcaa900533c6ed0",
+          "anchors": [
+            "running",
+            "ai",
+            "November 20",
+            "transformer",
+            "three"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "GLM 5.4 is not yet available as open weights: We plan to open-source the model weights responsibly after completing necessary safety hardening.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304516+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "GLM 5.4 is not yet available as open weights: We plan to open-source the model weights responsibly after completing necessary safety hardening.",
+          "sentence_hash": "d9152831f6dc34c3206a063582d52f52f8b7243a68e71c847627f6a3ed33eec4",
+          "anchors": [
+            "ai",
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304538+08:00",
+          "content_sha256": "5bbcdb7c385104d8c5993880498e034af21e2c5ce2484b07b04a36bae8f1cdb0",
+          "excerpt": "I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API.",
+          "sentence_hash": "3a346e06194630248a782227d15de2c37f5c24615f26f44c28ccfd656936fccb",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
       "entities": [
-        "bitcoin",
+        "pyodide",
+        "responses",
+        "tommy hughes",
+        "thinking machines lab",
+        "ladybird",
+        "glm",
+        "our first loop transformer",
+        "llm",
+        "api",
+        "locating",
+        "link blog",
+        "transformer",
+        "running",
+        "coding plan",
+        "recent",
+        "datasette python",
+        "claude",
+        "inkling",
+        "three",
+        "mini",
+        "anthropic",
+        "open",
+        "loop transformer",
+        "november",
+        "here",
+        "ai",
+        "toward generalized coding",
+        "they",
+        "chinese"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 30
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_594b817d0392e40237e4f593",
+      "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy",
+      "publisher": "SCMP",
+      "summary": "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.\n“I made some terrible mistakes,” Huang told an hour-long all-hands meeting at the company’s Santa Clara, California, headquarters, The New York Times reported after reviewing a live stream of the event.\nHe told staff it was “not acceptable” that he had broken a code of.",
+      "category": "国际",
+      "published_at": "2026-11-24T22:03:22+00:00",
+      "why_relevant": "黄仁勋道歉与反弹减弱",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.304925+08:00",
+          "content_sha256": "884f58ddd2a0ad052db2fd00161c15178d31cc5bc44ade7369c9db678c44abec",
+          "excerpt": "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.",
+          "sentence_hash": "d32217feac46c1578c11473b3f10909c8eb1fb1416e1e1dcd747e819530711d9",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "huang",
+        "the new york times",
+        "california",
+        "ceo",
+        "santa clara",
+        "jensen huang",
+        "tuesday",
+        "nvidia",
         "ai"
       ],
       "numbers": [],
@@ -1094,252 +343,129 @@
       "coverage": {
         "has_fulltext": false,
         "has_multiple_sources": true,
-        "fact_count": 0,
-        "anchor_count": 2
-      },
-      "evidence_complete": false
-    },
-    {
-      "article_id": "a1_220961bb15523e2ba4615240",
-      "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
-      "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
-      "publisher": "Al Jazeera",
-      "summary": "Proposed sanctions aim to curb Russian crypto financing and &#039;propaganda&#039; in sports.",
-      "category": "国际",
-      "published_at": "2026-11-23T23:26:16+00:00",
-      "why_relevant": "欧盟制裁俄加密融资",
-      "relevance_score": 7.0,
-      "confirmed_facts": [
-        {
-          "fact_id": "f1",
-          "text": "EU plans sports ban in sweeping new Russia sanctions proposal Proposed sanctions aim to curb Russian crypto financing and ‘propaganda’ in sports.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.162702+08:00",
-          "content_sha256": "0e4b01f2a712ab02a34876c9b5558f119a85b97ba6b15ab8ed5c1202d75b19a0",
-          "excerpt": "EU plans sports ban in sweeping new Russia sanctions proposal Proposed sanctions aim to curb Russian crypto financing and ‘propaganda’ in sports.",
-          "sentence_hash": "779182db0e830bcb1146c07462188a1ac0ab58353bbe3322c77035ef7625fa25",
-          "anchors": [
-            "sports",
-            "propaganda"
-          ]
-        },
-        {
-          "fact_id": "f2",
-          "text": "The European Commission has proposed new sanctions against Russia targeting its banks, crypto platforms, and participation in sporting events.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.162732+08:00",
-          "content_sha256": "0e4b01f2a712ab02a34876c9b5558f119a85b97ba6b15ab8ed5c1202d75b19a0",
-          "excerpt": "The European Commission has proposed new sanctions against Russia targeting its banks, crypto platforms, and participation in sporting events.",
-          "sentence_hash": "391e51ba320537ed902179b58c6e3171d27bb15f3bb34bde7df27b5b20d0147a",
-          "anchors": [
-            "proposed"
-          ]
-        },
-        {
-          "fact_id": "f3",
-          "text": "Commission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.162769+08:00",
-          "content_sha256": "0e4b01f2a712ab02a34876c9b5558f119a85b97ba6b15ab8ed5c1202d75b19a0",
-          "excerpt": "Commission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union.",
-          "sentence_hash": "6c540ce5529b16fe1b7e4ee9e097c284268c56c88b0799ce174546c2d8e6bb48",
-          "anchors": [
-            "von"
-          ]
-        },
-        {
-          "fact_id": "f4",
-          "text": "“We are striking harder at Russia’s ways to finance its war, by targeting its banks and crypto platforms,” von der Leyen wrote in a post on X, adding that the EU will be “shutting the door to its participation in European sports and cultural events”.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.162811+08:00",
-          "content_sha256": "0e4b01f2a712ab02a34876c9b5558f119a85b97ba6b15ab8ed5c1202d75b19a0",
-          "excerpt": "“We are striking harder at Russia’s ways to finance its war, by targeting its banks and crypto platforms,” von der Leyen wrote in a post on X, adding that the EU will be “shutting the door to its participation in European sports and cultural events”.",
-          "sentence_hash": "c31c0d026187a906b47d2a7d03318a51705f0dc7d567a5e56a38fa74b443ac4b",
-          "anchors": [
-            "von",
-            "sports"
-          ]
-        },
-        {
-          "fact_id": "f5",
-          "text": "Economic pressure Von der Leyen said 60 banks will be removed from the Society for Worldwide Interbank Financial Telecommunication (SWIFT) messaging system used for international payments under the new proposals, which are intended to maintain economic pressure on Russia, almost ",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.162852+08:00",
-          "content_sha256": "0e4b01f2a712ab02a34876c9b5558f119a85b97ba6b15ab8ed5c1202d75b19a0",
-          "excerpt": "Economic pressure Von der Leyen said 60 banks will be removed from the Society for Worldwide Interbank Financial Telecommunication (SWIFT) messaging system used for international payments under the new proposals, which are intended to maintain economic pressure on Russia, almost ",
-          "sentence_hash": "1e558d0a651457f053b96f86e7f753c28cf53b3a892ce728e912901d77c1d559",
-          "anchors": [
-            "economic"
-          ]
-        },
-        {
-          "fact_id": "f6",
-          "text": "The commission also proposed a ban on visas for Russians who had fought in the war in Ukraine.",
-          "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.162880+08:00",
-          "content_sha256": "0e4b01f2a712ab02a34876c9b5558f119a85b97ba6b15ab8ed5c1202d75b19a0",
-          "excerpt": "The commission also proposed a ban on visas for Russians who had fought in the war in Ukraine.",
-          "sentence_hash": "40cbc6e1b9f6a534eccc7804193943ed15054dfac728c1020031c8adafe8f0cd",
-          "anchors": [
-            "proposed",
-            "commission"
-          ]
-        }
-      ],
-      "entities": [
-        "monday",
-        "russians",
-        "ursula",
-        "worldwide interbank financial telecommunication",
-        "russia",
-        "the european commission",
-        "she",
-        "they",
-        "von",
-        "russian",
-        "eu",
-        "european union",
-        "society",
-        "commission",
-        "swift",
-        "leyen",
-        "propaganda",
-        "europe",
-        "ukraine",
-        "economic",
-        "sports",
-        "proposed",
-        "european",
-        "russian president vladimir putin"
-      ],
-      "numbers": [
-        "4,200 people"
-      ],
-      "dates": [],
-      "unknowns": [
-        "缺少明确时间"
-      ],
-      "coverage": {
-        "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 6,
-        "anchor_count": 25
+        "fact_count": 1,
+        "anchor_count": 9
       },
       "evidence_complete": true
     },
     {
-      "article_id": "a1_8d054ecbfd2f64477f00ce9a",
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "publisher": "CNBC",
-      "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
-      "category": "财经",
-      "published_at": "2026-11-23T21:02:17+00:00",
-      "why_relevant": "美联储暗示未来加息",
-      "relevance_score": 7.0,
+      "article_id": "a1_ee289a1cded9842d90f54da1",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+      "category": "国际",
+      "published_at": "2026-11-24T21:19:42+00:00",
+      "why_relevant": "美司法部长回避英伟达调查",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow.",
+          "text": "US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a \"good corporate citizen\" while refusing to comment on whether the AI chipmaker was under federal investigation.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.164085+08:00",
-          "content_sha256": "9abf5b7c42adfe156f54c0d6e45ddcc6748a4cbe89316cc3d1d6b41e4f0c555b",
-          "excerpt": "New York Federal Reserve President John Williams said Monday that policymakers have more work to do to bring inflation under control, though he indicated that further action can unfold over time as the economy continues to grow.",
-          "sentence_hash": "b9d743cc09b34303897c6dacd91e2f3ec04475d91f1262a4f3aee50daf327095",
+          "captured_at": "2026-11-25T08:03:36.305818+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a \"good corporate citizen\" while refusing to comment on whether the AI chipmaker was under federal investigation.",
+          "sentence_hash": "4db6db6925e0f9c74b22a4c2b4cf8800e9651f3b0e1c4a4d23bce66d8967d003",
           "anchors": [
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "In remarks consistent with previous statements, the influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027 before hitting the goal the following year.",
+          "text": "Blanche said he had no information about newly reinstated CEO Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's comeback.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.164118+08:00",
-          "content_sha256": "9abf5b7c42adfe156f54c0d6e45ddcc6748a4cbe89316cc3d1d6b41e4f0c555b",
-          "excerpt": "In remarks consistent with previous statements, the influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027 before hitting the goal the following year.",
-          "sentence_hash": "c4e701b98e823518f4859c00f5735e802e8e0d3d6f6ad003d4ea06221fe246b5",
+          "captured_at": "2026-11-25T08:03:36.305843+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "Blanche said he had no information about newly reinstated CEO Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's comeback.",
+          "sentence_hash": "b07421d18772dd598e4c7f7ffab6a8390674a1d3ce6dfacce5ccc22163ce1801",
           "anchors": [
-            "2%"
+            "ai",
+            "us"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "He also said that while artificial intelligence is pressuring prices, there's \"little evidence\" it will be the source of more persistent inflation.",
+          "text": "Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.164142+08:00",
-          "content_sha256": "9abf5b7c42adfe156f54c0d6e45ddcc6748a4cbe89316cc3d1d6b41e4f0c555b",
-          "excerpt": "He also said that while artificial intelligence is pressuring prices, there's \"little evidence\" it will be the source of more persistent inflation.",
-          "sentence_hash": "4be38f15e2a95b1f1ebd27a0432ede691e19b0c1cef4b77f60e59074457efaa3",
+          "captured_at": "2026-11-25T08:03:36.305864+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy.",
+          "sentence_hash": "1fca35f75236d5fad8da9aa5828811ddc93de85511d0b46b91b69d3ae8b4738d",
           "anchors": [
-            "there",
             "ai"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "\"But getting inflation back to 2% is 100% essential,\" he said in remarks at the University of Mount Saint Vincent in New York.",
+          "text": "Asked several times on Tuesday if the justice department or FBI had investigated Huang, Blanche responded: \"I don't know what you're talking about.\" Huang is still set to appear before Congress next week, where he will be questioned about national security concerns over his relat",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.164166+08:00",
-          "content_sha256": "9abf5b7c42adfe156f54c0d6e45ddcc6748a4cbe89316cc3d1d6b41e4f0c555b",
-          "excerpt": "\"But getting inflation back to 2% is 100% essential,\" he said in remarks at the University of Mount Saint Vincent in New York.",
-          "sentence_hash": "d0184c25abf1944d804815e77415a9751136baaa7a5ed1cc474f832cc770d4a9",
+          "captured_at": "2026-11-25T08:03:36.305897+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "Asked several times on Tuesday if the justice department or FBI had investigated Huang, Blanche responded: \"I don't know what you're talking about.\" Huang is still set to appear before Congress next week, where he will be questioned about national security concerns over his relat",
+          "sentence_hash": "681953b2f8f3bcba6c32f824abd4822312a40b29a94e299b136615e8559d8865",
           "anchors": [
-            "100%",
-            "2%",
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "\"We must take actions over time that will ensure that we get inflation back to our 2% goal in a timely manner and on a sustained basis.",
+          "text": "The US commerce department has also announced it was preparing to blacklist the tech company Megaspeed, which has been suspected of helping to divert advanced chips to China.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.164190+08:00",
-          "content_sha256": "9abf5b7c42adfe156f54c0d6e45ddcc6748a4cbe89316cc3d1d6b41e4f0c555b",
-          "excerpt": "\"We must take actions over time that will ensure that we get inflation back to our 2% goal in a timely manner and on a sustained basis.",
-          "sentence_hash": "600edd8a03368bf3f886071a154108e21a0438ab2ddedf4bd679e642ffd619b6",
+          "captured_at": "2026-11-25T08:03:36.305917+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "The US commerce department has also announced it was preparing to blacklist the tech company Megaspeed, which has been suspected of helping to divert advanced chips to China.",
+          "sentence_hash": "9b5b6128ea2448fe553645830915d86c5e4101a8053ced5cab7d3717ec9bc93c",
           "anchors": [
-            "2%",
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "There is still work to do to get that done.\" The comments come at a delicate moment for monetary policy, as the economy continues to grow and inflation stays well above the Fed's goal.",
+          "text": "In a joint statement last week, the commerce and justice departments said they began investigating Megaspeed in 2024 \"for potential export control violations\".",
           "source_id": "source:primary",
-          "captured_at": "2026-11-24T08:03:19.164219+08:00",
-          "content_sha256": "9abf5b7c42adfe156f54c0d6e45ddcc6748a4cbe89316cc3d1d6b41e4f0c555b",
-          "excerpt": "There is still work to do to get that done.\" The comments come at a delicate moment for monetary policy, as the economy continues to grow and inflation stays well above the Fed's goal.",
-          "sentence_hash": "787833e062c88c008594dd5011473893069249a69fc891b1223720b01b104921",
+          "captured_at": "2026-11-25T08:03:36.305937+08:00",
+          "content_sha256": "4cd49c773d6eb309808a6faf708ea3353676bf5a7065232f8e416ed6da35f704",
+          "excerpt": "In a joint statement last week, the commerce and justice departments said they began investigating Megaspeed in 2024 \"for potential export control violations\".",
+          "sentence_hash": "2689871e0d51e9e6116e51bec9c82f359353fc1d7af3339cef71a1ecb4ccbfe1",
           "anchors": [
-            "monetary"
+            "ai",
+            "us"
           ]
         }
       ],
       "entities": [
-        "december",
+        "faisal islam",
+        "us",
+        "huang",
+        "on monday",
+        "ceo",
+        "china",
+        "jensen huang",
+        "president donald trump",
+        "nvidia",
         "monday",
-        "university",
-        "mount saint vincent",
-        "new york federal reserve president john williams",
-        "the federal open market committee",
-        "october",
-        "dec",
-        "fed",
-        "iran",
-        "williams",
-        "nevertheless",
-        "monetary",
-        "fomc",
-        "new york",
-        "there",
+        "fears",
+        "megaspeed",
+        "american",
+        "obviously",
+        "blanche",
+        "but",
+        "fbi",
+        "singapore",
+        "while nvidia",
+        "tuesday",
+        "attorney general todd blanche",
+        "asked",
+        "harvey jones",
         "ai",
-        "but"
+        "congress",
+        "chinese",
+        "published"
       ],
       "numbers": [
-        "4%",
-        "100%",
-        "3.75%",
-        "2%"
+        "31%",
+        "6%"
       ],
       "dates": [],
       "unknowns": [
@@ -1349,7 +475,831 @@
         "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 6,
-        "anchor_count": 22
+        "anchor_count": 29
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b238f8b9bd145518747306cb",
+      "title": "US soldier Jian Zhao admits selling military information to Chinese buyers",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375676/us-soldier-jian-zhao-admits-selling-military-information-chinese-buyers",
+      "publisher": "SCMP",
+      "summary": "An American soldier who sold what he claimed was top secret know-how to Chinese-linked buyers faces up to a decade in prison after admitting passing on sensitive military information.\nArmy sergeant Jian Zhao, 37, took advantage of his security clearance to get his hands on restricted documents.\nHe snapped pictures of military information on his mobile phone and offered to sell military computers and government hard drives, as well as details about communications networks, rocket and missile...",
+      "category": "国际",
+      "published_at": "2026-11-24T23:36:46+00:00",
+      "why_relevant": "美军士兵向中国出售情报",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "army",
+        "an american",
+        "chinese",
+        "jian zhao"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_36ea3521015c5bc56fb8473a",
+      "title": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "publisher": "GitHub Trending",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.https://diagramdesign.dev \n  \n   \n    \n    \n    \n An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.52 diagram types. No shadows. No Mermaid slop. \n      \n  \n Website · Gallery · Changelog \n Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing \n npx ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "主流AI编程工具图解设计",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307040+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.",
+          "sentence_hash": "68b8454c33a372f7b1c66ba70b727ecb46231bcf6af3df053d7a3175fc23872f",
+          "anchors": [
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: - \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" - \"I need a quadrant showin",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307101+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: - \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" - \"I need a quadrant showin",
+          "sentence_hash": "108e25b387c6628786ce91d4259e7e270fa91929195fb04ddb77baaff71f5226",
+          "anchors": [
+            "skill",
+            "skills",
+            "html",
+            "cli",
+            "make",
+            "match",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: npx skills add cathrynlavery/diagram-design In Claude Code, the plugin marketplace gets you updates and the slash commands: /plugin marke",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307141+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: npx skills add cathrynlavery/diagram-design In Claude Code, the plugin marketplace gets you updates and the slash commands: /plugin marke",
+          "sentence_hash": "4f515e87037dae46b1eb4e591a879aa95bcd84a9b3297196bd01bb71c9b0e0f0",
+          "anchors": [
+            "skill",
+            "install",
+            "from",
+            "skills",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "LittleMight, Cathryn Lavery's company, publishes the plugin directory listings; a listing under any other name is an unofficial copy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307162+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "LittleMight, Cathryn Lavery's company, publishes the plugin directory listings; a listing under any other name is an unofficial copy.",
+          "sentence_hash": "d46e890b34df81169132ab1873eb66e8fd2969c0103861475204d4c403dac2f4",
+          "anchors": [
+            "official",
+            "ci"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "PRIVACY.md lists what the skill sends over the network.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307175+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "PRIVACY.md lists what the skill sends over the network.",
+          "sentence_hash": "cb6f3b851710fe0996f69273fbfd2bc55203b58eeadd367f30aae74ea8cd75c0",
+          "anchors": [
+            "skill"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Claude Code: turn on auto-update After installing, run /plugin, open Marketplaces, select diagram-design, and choose Enable auto-update.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.307195+08:00",
+          "content_sha256": "ff842400774f5ae7f2076bf0052066e68a3c1c6b2de70c184602de4575a39a57",
+          "excerpt": "Claude Code: turn on auto-update After installing, run /plugin, open Marketplaces, select diagram-design, and choose Enable auto-update.",
+          "sentence_hash": "f18639b31a0c9a34ad0eaf61379da1247c7cbf46c691cf325a1dc6d81b422f85",
+          "anchors": [
+            "run",
+            "install"
+          ]
+        }
+      ],
+      "entities": [
+        "kilo",
+        "works",
+        "contributing",
+        "marketplaces",
+        "skills",
+        "customize",
+        "from",
+        "git",
+        "svg",
+        "onboard",
+        "codex",
+        "install",
+        "might",
+        "upload",
+        "warp",
+        "in claude desktop",
+        "redis",
+        "agent skills",
+        "ask",
+        "qoder",
+        "cline",
+        "official",
+        "claude desktop\nclaude desktop",
+        "zed",
+        "windsurf",
+        "roo",
+        "cursor",
+        "claude code",
+        "gemini",
+        "hub copilot",
+        "cathryn lavery",
+        "quickstart",
+        "after",
+        "skill",
+        "import",
+        "little",
+        "zip",
+        "export",
+        "give",
+        "amp",
+        "enable",
+        "run",
+        "html",
+        "cli",
+        "no mermaid",
+        "make",
+        "hub",
+        "ci",
+        "match",
+        "in claude code",
+        "rebuild"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 51
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2705dc5a686dc8d936b4be8e",
+      "title": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "publisher": "GitHub Trending",
+      "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inferencehttps://docs.openvino.ai \n  \n  Open-source software toolkit for optimizing and deploying deep learning models.  \n  Documentation • Blog • Key Features • Tutorials • Integrations • Benchmarks • Generative AI  \n     \n    \n \n \n Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many ot",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "OpenVINO推理优化工具",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "- Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.308125+08:00",
+          "content_sha256": "4c8a28948e339094ee6071e09962da3cbe522e467ee4a7db98a9c7234f2038fb",
+          "excerpt": "- Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks.",
+          "sentence_hash": "032d5aacfe3c7c5bf0accc480005353f2fa38de27a70774263c3d143ea4390fb",
+          "anchors": [
+            "learn"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- Flexible Model Support: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.308147+08:00",
+          "content_sha256": "4c8a28948e339094ee6071e09962da3cbe522e467ee4a7db98a9c7234f2038fb",
+          "excerpt": "- Flexible Model Support: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax.",
+          "sentence_hash": "4969c9d81f2dad4f39630781f9a9eb271a8edf651d46857ee8d626687a320433",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.308165+08:00",
+          "content_sha256": "4c8a28948e339094ee6071e09962da3cbe522e467ee4a7db98a9c7234f2038fb",
+          "excerpt": "Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel.",
+          "sentence_hash": "015f47022eb2be06ef2f2da74a0b67465c2a347fc334f651721973e92597dc9a",
+          "anchors": [
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "- Community and Ecosystem: Join an active community contributing to the enhancement of deep learning performance across various domains.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.308204+08:00",
+          "content_sha256": "4c8a28948e339094ee6071e09962da3cbe522e467ee4a7db98a9c7234f2038fb",
+          "excerpt": "- Community and Ecosystem: Join an active community contributing to the enhancement of deep learning performance across various domains.",
+          "sentence_hash": "a597b0feac1e308637024711ed58e4037a5b55eaf1f3f0a301ecfd58c1399936",
+          "anchors": [
+            "community",
+            "learn",
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Get your preferred distribution of OpenVINO or use this command for quick installation: pip install -U openvino After installation, you can verify OpenVINO is installed correctly by running: import openvino as ov print(ov.__version__) Check system requirements and supported devic",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.308241+08:00",
+          "content_sha256": "4c8a28948e339094ee6071e09962da3cbe522e467ee4a7db98a9c7234f2038fb",
+          "excerpt": "Get your preferred distribution of OpenVINO or use this command for quick installation: pip install -U openvino After installation, you can verify OpenVINO is installed correctly by running: import openvino as ov print(ov.__version__) Check system requirements and supported devic",
+          "sentence_hash": "7be5714e41d852ff1becd7d07adeea7e94ae6a1000bfcd607829871983693c34",
+          "anchors": [
+            "ai",
+            "open",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Here are easy-to-follow code examples demonstrating how to run PyTorch and TensorFlow model inference using OpenVINO: PyTorch Model import openvino as ov import torch import torchvision # load PyTorch model into memory model = torch.hub.load(\"pytorch/vision\", \"shufflenet_v2_x1_0\"",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.308314+08:00",
+          "content_sha256": "4c8a28948e339094ee6071e09962da3cbe522e467ee4a7db98a9c7234f2038fb",
+          "excerpt": "Here are easy-to-follow code examples demonstrating how to run PyTorch and TensorFlow model inference using OpenVINO: PyTorch Model import openvino as ov import torch import torchvision # load PyTorch model into memory model = torch.hub.load(\"pytorch/vision\", \"shufflenet_v2_x1_0\"",
+          "sentence_hash": "7f1f5be96fe7006a247dca0fe7463db1c1a97b710dea41af5de5643be7ace320",
+          "anchors": [
+            "tensor",
+            "keras",
+            "net",
+            "open",
+            "core",
+            "torch",
+            "npu",
+            "convert",
+            "flow"
+          ]
+        }
+      ],
+      "entities": [
+        "tensor",
+        "flax",
+        "cheat sheet",
+        "mobile",
+        "samples",
+        "net",
+        "check",
+        "notebooks",
+        "broad platform compatibility",
+        "torch",
+        "flow model",
+        "key features",
+        "boost",
+        "get",
+        "discover",
+        "open",
+        "join",
+        "cpu",
+        "here",
+        "community",
+        "ai",
+        "inference optimization",
+        "directly",
+        "python",
+        "flow lite",
+        "jax",
+        "reduce",
+        "gpu",
+        "optimum intel",
+        "paddle",
+        "after",
+        "quickstart",
+        "core",
+        "npu",
+        "flow",
+        "keras",
+        "learn",
+        "onnx",
+        "arm",
+        "intel",
+        "ecosystem",
+        "flexible model support",
+        "hugging face hub",
+        "torch model",
+        "convert",
+        "use"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 46
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_e266ef22947cc396517768e9",
+      "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
+      "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
+      "publisher": "CNBC",
+      "summary": "U.S. stocks fell on Tuesday, giving back some of the sharp gains from the previous session that were sparked by Jensen Huang's return as Nvidia CEO.",
+      "category": "财经",
+      "published_at": "2026-11-24T21:16:50+00:00",
+      "why_relevant": "纳指下跌与英伟达反弹受挫",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The Nasdaq Composite fell on Tuesday, giving back some of the sharp gains from the previous session that were sparked by Jensen Huang's return as Nvidia CEO.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309270+08:00",
+          "content_sha256": "63cab1f5c295ada618df86a6414401873179171b44eaa5a0f52aa5e31947b28d",
+          "excerpt": "The Nasdaq Composite fell on Tuesday, giving back some of the sharp gains from the previous session that were sparked by Jensen Huang's return as Nvidia CEO.",
+          "sentence_hash": "475939c40b94f54fa4f481fe32dfa447a99d655a07b6b88c2564b74930061621",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The tech-heavy index was 1.48% lower, closing at 23,733.54, while the S&P 500 fell 0.5% to 7,201.09.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309290+08:00",
+          "content_sha256": "63cab1f5c295ada618df86a6414401873179171b44eaa5a0f52aa5e31947b28d",
+          "excerpt": "The tech-heavy index was 1.48% lower, closing at 23,733.54, while the S&P 500 fell 0.5% to 7,201.09.",
+          "sentence_hash": "12d2ecb0827f17fd2d2164be2bfa1e5244527961fbf610578321662accfdc0d2",
+          "anchors": [
+            "1.48%",
+            "0.5%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Dow Jones Industrial Average climbed 423.39 points, or 0.85%, to 50,018.70, bolstered by gains in stocks such as Amgen, Nike and Salesforce.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309312+08:00",
+          "content_sha256": "63cab1f5c295ada618df86a6414401873179171b44eaa5a0f52aa5e31947b28d",
+          "excerpt": "The Dow Jones Industrial Average climbed 423.39 points, or 0.85%, to 50,018.70, bolstered by gains in stocks such as Amgen, Nike and Salesforce.",
+          "sentence_hash": "66431d0d0fddec6814e003996700e41b3a0be0838ce9cdf3f7e9e797f6b529ba",
+          "anchors": [
+            "ai",
+            "0.85%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Nvidia shares reversed course following their 31% surge on Monday, a move that led a rally in chip stocks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309332+08:00",
+          "content_sha256": "63cab1f5c295ada618df86a6414401873179171b44eaa5a0f52aa5e31947b28d",
+          "excerpt": "Nvidia shares reversed course following their 31% surge on Monday, a move that led a rally in chip stocks.",
+          "sentence_hash": "1982013290fa4081e4d972a59a02090e71a90313bdbc5d5cceb011f82dfba84f",
+          "anchors": [
+            "31%",
+            "1%"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The stock was down nearly 6% on Tuesday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309345+08:00",
+          "content_sha256": "63cab1f5c295ada618df86a6414401873179171b44eaa5a0f52aa5e31947b28d",
+          "excerpt": "The stock was down nearly 6% on Tuesday.",
+          "sentence_hash": "227f1b6c8e73dd8fc714799a74eeed5f9e04da5eeddfee3301e10c57226c1f34",
+          "anchors": [
+            "dow",
+            "6%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Strategy Asset Managers CEO Tom Hulick told CNBC's \"Squawk Box Europe\" on Tuesday that Huang was probably the right person to lead Nvidia \"for now.\" But the company still has \"a lot of things to worry about\" regarding corporate governance, he said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309378+08:00",
+          "content_sha256": "63cab1f5c295ada618df86a6414401873179171b44eaa5a0f52aa5e31947b28d",
+          "excerpt": "Strategy Asset Managers CEO Tom Hulick told CNBC's \"Squawk Box Europe\" on Tuesday that Huang was probably the right person to lead Nvidia \"for now.\" But the company still has \"a lot of things to worry about\" regarding corporate governance, he said.",
+          "sentence_hash": "4f709f88784f467115683ebeb36a38aa629ddf678db86d2a1d97a84e719dc4b3",
+          "anchors": [
+            "ai",
+            "still",
+            "corp"
+          ]
+        }
+      ],
+      "entities": [
+        "nike",
+        "ubs",
+        "dow",
+        "ceo",
+        "contributing",
+        "china",
+        "wedbush securities",
+        "mark haefele",
+        "nvidia",
+        "broadcom",
+        "cnbc",
+        "but",
+        "days",
+        "wall street journal",
+        "salesforce",
+        "ipo",
+        "the dow jones industrial average",
+        "advanced micro devices",
+        "anthropic",
+        "sim",
+        "nasdaq",
+        "federal reserve",
+        "oracle",
+        "chipmaker micron technology",
+        "tom hulick",
+        "the nasdaq composite",
+        "diana baechle",
+        "additionally",
+        "ai",
+        "huang",
+        "still",
+        "other",
+        "april",
+        "jensen huang",
+        "corp",
+        "monday",
+        "president donald trump",
+        "squawk box europe",
+        "strategy asset managers",
+        "global wealth management",
+        "washington",
+        "with nvidia",
+        "tuesday",
+        "there",
+        "friday",
+        "alphabet",
+        "amgen"
+      ],
+      "numbers": [
+        "9%",
+        "1%",
+        "$83 ",
+        "0.85%",
+        "0.5%",
+        "4%",
+        "1.48%",
+        "31%",
+        "6%",
+        "11%"
+      ],
+      "dates": [
+        "April 9"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 58
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ef7b4290416f0f5eab5ff569",
+      "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-24T12:36:28+00:00",
+      "why_relevant": "比特币ETF创纪录流出",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.309490+08:00",
+          "content_sha256": "a4e130120d7036b6e4340ca1fa72e23ecff2ebec5097645c0833f28373335499",
+          "excerpt": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+          "sentence_hash": "a4e130120d7036b6e4340ca1fa72e23ecff2ebec5097645c0833f28373335499",
+          "anchors": [
+            "4.71 billion",
+            "$4.71 billion"
+          ]
+        }
+      ],
+      "entities": [
+        "bitcoin",
+        "etf",
+        "november"
+      ],
+      "numbers": [
+        "4.71 billion",
+        "$4.71 billion"
+      ],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 1,
+        "anchor_count": 5
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_fd1b9b8a9a2ed903bb3bace5",
+      "title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+      "url": "https://www.ft.com/content/ecdf59b6-c78b-4703-bc26-8d085d7b9d24?syn-25a6b1a6=1",
+      "publisher": "FT",
+      "summary": "Strike on Saudi sovereign wealth fund HQ came as kingdom unveiled first budget since conflict with Iran-backed rebels restarted",
+      "category": "财经",
+      "published_at": "2026-11-24T20:39:50+00:00",
+      "why_relevant": "胡塞袭击沙特主权基金大楼",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "strike",
+        "saudi",
+        "hq",
+        "iran"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_15f3d012c2a6532dc2934b0d",
+      "title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+      "url": "https://www.scmp.com/business/markets/article/3375601/why-asias-ai-rally-faces-tougher-road-even-after-jensen-huangs-comeback",
+      "publisher": "SCMP",
+      "summary": "While Jensen Huang’s return to Nvidia has soothed market sentiment, analysts have warned that the artificial intelligence boom that propelled Asian chip stocks this year is unlikely to regain its first-half momentum – and that US regulatory scrutiny of the sector remains far from over.\n“The market is certainly, at least for a day, soothed by the fact that Jensen is back,” said Brian Levitt, chief global market strategist at investment management firm Invesco, at a media briefing on...",
+      "category": "国际",
+      "published_at": "2026-11-24T22:00:15+00:00",
+      "why_relevant": "亚洲AI反弹难续分析",
+      "relevance_score": 7.0,
+      "confirmed_facts": [],
+      "entities": [
+        "jensen",
+        "us",
+        "asian",
+        "invesco",
+        "nvidia",
+        "while jensen huang",
+        "brian levitt"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 7
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_023470d14fa02af3ea3dffa4",
+      "title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnR2aXdGN1dOTnJ1QmhWQWhjWnEwOHQ3QzJ2VExKcHRVZEE3TlloVi11NnJRajdKaThMRGIxeElNM2ZvWWJ5c2dmT2xLbzA1ZHRra0JHTGdteC03dXA5RWFXWTMxejFtSC1odHJiem9QOTY1eWN6OXVEQjV4eUtXX1duQTFLellMcjBCb0NzLUIwT0c1S1FFZEU5N2ZLc3M?oc=5",
+      "publisher": "AP",
+      "summary": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya&nbsp;&nbsp;AP News",
+      "category": "国际",
+      "published_at": "2026-11-24T16:25:00+00:00",
+      "why_relevant": "俄空袭乌克兰伤亡",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Published On 24 Nov 2026 This live page is now closed.",
+          "source_id": "source:backfill",
+          "captured_at": "2026-11-25T08:03:36.310067+08:00",
+          "content_sha256": "27d5bf742b99354deb6515a346b047954d9d8090a0f51e0cf2b7c2d865cc192a",
+          "excerpt": "Published On 24 Nov 2026 This live page is now closed.",
+          "sentence_hash": "5983ea68cd655e5d85c2c053260a80f01e61fcff892aae59b3ad3379238b564f",
+          "anchors": [
+            "Nov 20"
+          ]
+        }
+      ],
+      "entities": [
+        "ukrainian",
+        "nov",
+        "russian",
+        "russia",
+        "moscow",
+        "october",
+        "published on",
+        "ukraine"
+      ],
+      "numbers": [],
+      "dates": [
+        "Nov 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 9
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c35cfa4bf1c78863d35936e1",
+      "title": "How cautious investors are struggling to avoid the AI bubble",
+      "url": "https://www.dw.com/en/how-cautious-investors-are-struggling-to-avoid-the-ai-bubble/a-80016412?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "From Nvidia to Coreweave, AI and tech stocks have swung sharply in recent months. Some investors still see plenty of room to run, while others are trying to diversify — and finding it harder than expected.",
+      "category": "国际",
+      "published_at": "2026-11-24T10:59:00+00:00",
+      "why_relevant": "投资者艰难规避AI泡沫",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "How cautious investors are struggling to avoid the AI bubble November 24, 2026 The tech-heavy Nasdaq stock index roared back to life this week after a worrying sell-off recently that saw huge falls in technology and artificial intelligence (AI)-related stocks.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.311060+08:00",
+          "content_sha256": "b8115adf243bc90d6510bc5f0b45b30f5f4f644924c6d460b633e83954c92c57",
+          "excerpt": "How cautious investors are struggling to avoid the AI bubble November 24, 2026 The tech-heavy Nasdaq stock index roared back to life this week after a worrying sell-off recently that saw huge falls in technology and artificial intelligence (AI)-related stocks.",
+          "sentence_hash": "b7381ebab17c109220ba6b0c3d6b704c6d1189e00910214527bd199529befe8d",
+          "anchors": [
+            "after",
+            "us",
+            "November 24"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "After suffering its worst week since the pandemic crash of March 2020, the Nasdaq opened Monday (November 23) nearly 1,700 points, or 7%, higher.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.311085+08:00",
+          "content_sha256": "b8115adf243bc90d6510bc5f0b45b30f5f4f644924c6d460b633e83954c92c57",
+          "excerpt": "After suffering its worst week since the pandemic crash of March 2020, the Nasdaq opened Monday (November 23) nearly 1,700 points, or 7%, higher.",
+          "sentence_hash": "9fbf79b04c214a1f75736eabbd3c6931bc2016549b6f90d92ec6da0dcbc515fe",
+          "anchors": [
+            "November 23",
+            "7%",
+            "March 20"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The AI trade received a further boost after Nvidia reinstated CEO Jensen Huang on Monday, just 11 days after he was forced to resign amid a scandal involving extramarital affairs, including one with an alleged Chinese spy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.311113+08:00",
+          "content_sha256": "b8115adf243bc90d6510bc5f0b45b30f5f4f644924c6d460b633e83954c92c57",
+          "excerpt": "The AI trade received a further boost after Nvidia reinstated CEO Jensen Huang on Monday, just 11 days after he was forced to resign amid a scandal involving extramarital affairs, including one with an alleged Chinese spy.",
+          "sentence_hash": "8296af3844889ea7ce16289ffeca44a5d22c5fa2dcb451651714f7bc9f7663f9",
+          "anchors": [
+            "ai",
+            "us",
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The chipmaker's stock rose more than 30% on the news, opening at nearly $170 (€155.5) per share and recovering most of the losses since last month, when the affair was first reported.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.311143+08:00",
+          "content_sha256": "b8115adf243bc90d6510bc5f0b45b30f5f4f644924c6d460b633e83954c92c57",
+          "excerpt": "The chipmaker's stock rose more than 30% on the news, opening at nearly $170 (€155.5) per share and recovering most of the losses since last month, when the affair was first reported.",
+          "sentence_hash": "d7913d3dc487089d888eb3b10fcbaf4423163d383809cb0751a9e6f481bf76d7",
+          "anchors": [
+            "30%",
+            "ai",
+            "$170 ",
+            "most"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "But in premarket trading on Tuesday, Nvidia fell about 5%, underscoring the volatility of the market and the risks facing the AI sector and the broader tech industry.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.311172+08:00",
+          "content_sha256": "b8115adf243bc90d6510bc5f0b45b30f5f4f644924c6d460b633e83954c92c57",
+          "excerpt": "But in premarket trading on Tuesday, Nvidia fell about 5%, underscoring the volatility of the market and the risks facing the AI sector and the broader tech industry.",
+          "sentence_hash": "955800ba2f4e69df6d0c6b9e307dcbab93a19313e58e59796ff0c3c673c7fc89",
+          "anchors": [
+            "5%",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "How passive investing is fueling the AI trade The recent volatility around AI, memory chips and other technology stocks has unnerved even the most experienced and bullish investors.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-25T08:03:36.311195+08:00",
+          "content_sha256": "b8115adf243bc90d6510bc5f0b45b30f5f4f644924c6d460b633e83954c92c57",
+          "excerpt": "How passive investing is fueling the AI trade The recent volatility around AI, memory chips and other technology stocks has unnerved even the most experienced and bullish investors.",
+          "sentence_hash": "9e889a71a69f6784095c6bb05b7cb1b11ca2549050d491b1e64d018f842bd392",
+          "anchors": [
+            "most"
+          ]
+        }
+      ],
+      "entities": [
+        "us",
+        "microsoft",
+        "ceo",
+        "south korea",
+        "although",
+        "nvidia",
+        "economists",
+        "tsmc",
+        "but",
+        "march",
+        "nasdaq",
+        "acwi",
+        "ai",
+        "chinese",
+        "riding",
+        "united states",
+        "most",
+        "chat",
+        "together",
+        "jensen huang",
+        "yet",
+        "big tech",
+        "monday",
+        "don",
+        "msci",
+        "these",
+        "after",
+        "apple",
+        "all country world index",
+        "nine",
+        "taiwan",
+        "tuesday",
+        "november",
+        "taiwanese",
+        "alphabet"
+      ],
+      "numbers": [
+        "90%",
+        "$170 ",
+        "30%",
+        "7%",
+        "5%"
+      ],
+      "dates": [
+        "November 23",
+        "March 20",
+        "November 24"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 43
       },
       "evidence_complete": true
     }

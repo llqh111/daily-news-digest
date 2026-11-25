@@ -1920,14 +1920,14 @@
           "evidence_path": "digests/meta/2026-09-12-AM-evidence.json"
         }
       ],
-      "latest_seen": "2026-09-12",
+      "latest_seen": "2026-11-25",
       "latest_title": "cathrynlavery/diagram-design",
       "latest_raw_title": "cathrynlavery/diagram-design",
       "status": "更新中",
       "key_facts": [
-        "New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.",
-        "39 editorial diagram types for Claude Code, Codex, Factory Droid, Pi, and Agent Skills-compatible hosts.",
-        "I write at littlemight.com (and run BestSelf.co on the side)."
+        "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.",
+        "Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: - \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\" - \"I need a quadrant showin",
+        "Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, Qoder, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: npx skills add cathrynlavery/diagram-design In Claude Code, the plugin marketplace gets you updates and the slash commands: /plugin marke"
       ],
       "open_questions": [
         "缺少明确时间"
@@ -28527,7 +28527,455 @@
       "sources": [
         "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
       ]
+    },
+    {
+      "id": "evt_20261125_2443e54aa0b3",
+      "title": "Three LLM inflection points in twelve months",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_0c85776a107841a09ac527fe",
+          "title": "Three LLM inflection points in twelve months",
+          "raw_title": "Three LLM inflection points in twelve months",
+          "why_relevant": "LLM编程三拐点深度解读",
+          "facts": [
+            "Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv",
+            "Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5.",
+            "In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "Three LLM inflection points in twelve months",
+      "latest_raw_title": "Three LLM inflection points in twelve months",
+      "status": "更新中",
+      "key_facts": [
+        "Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv",
+        "Coding agents in November 2025 Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5.",
+        "In the Opus 4.5 announcement, Anthropic said: Testers noted that Claude Opus 4.5 handles ambiguity and reasons about tradeoffs without hand-holding."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+      ]
+    },
+    {
+      "id": "evt_20261125_1cd0ca6d3935",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_2403728ae823719fd51320de",
+          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "raw_title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "why_relevant": "GLM-5.4循环Transformer架构",
+          "facts": [
+            "23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.",
+            "GLM 5.4 is now available from Chinese AI lab Z.ai.",
+            "It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://simonwillison.net/2026/Nov/23/glm-54/"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "latest_raw_title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "status": "更新中",
+      "key_facts": [
+        "23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.",
+        "GLM 5.4 is now available from Chinese AI lab Z.ai.",
+        "It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://simonwillison.net/2026/Nov/23/glm-54/"
+      ]
+    },
+    {
+      "id": "evt_20261125_993439d1f4fc",
+      "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_594b817d0392e40237e4f593",
+          "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+          "raw_title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+          "why_relevant": "黄仁勋道歉与反弹减弱",
+          "facts": [
+            "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom."
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+      "latest_raw_title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+      "status": "更新中",
+      "key_facts": [
+        "Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom."
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy"
+      ]
+    },
+    {
+      "id": "evt_20261125_3bc50bb970e2",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_ee289a1cded9842d90f54da1",
+          "title": "US attorney general dodges questions about Nvidia investigation",
+          "raw_title": "US attorney general dodges questions about Nvidia investigation",
+          "why_relevant": "美司法部长回避英伟达调查",
+          "facts": [
+            "US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a \"good corporate citizen\" while refusing to comment on whether the AI chipmaker was under federal investigation.",
+            "Blanche said he had no information about newly reinstated CEO Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's comeback.",
+            "Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "US attorney general dodges questions about Nvidia investigation",
+      "latest_raw_title": "US attorney general dodges questions about Nvidia investigation",
+      "status": "更新中",
+      "key_facts": [
+        "US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a \"good corporate citizen\" while refusing to comment on whether the AI chipmaker was under federal investigation.",
+        "Blanche said he had no information about newly reinstated CEO Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's comeback.",
+        "Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "evt_20261125_44ef2c3414c6",
+      "title": "US soldier Jian Zhao admits selling military information to Chinese buyers",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_b238f8b9bd145518747306cb",
+          "title": "US soldier Jian Zhao admits selling military information to Chinese buyers",
+          "raw_title": "US soldier Jian Zhao admits selling military information to Chinese buyers",
+          "why_relevant": "美军士兵向中国出售情报",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/news/world/united-states-canada/article/3375676/us-soldier-jian-zhao-admits-selling-military-information-chinese-buyers"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "US soldier Jian Zhao admits selling military information to Chinese buyers",
+      "latest_raw_title": "US soldier Jian Zhao admits selling military information to Chinese buyers",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/news/world/united-states-canada/article/3375676/us-soldier-jian-zhao-admits-selling-military-information-chinese-buyers"
+      ]
+    },
+    {
+      "id": "evt_20261125_d4167de1c396",
+      "title": "openvinotoolkit/openvino",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_2705dc5a686dc8d936b4be8e",
+          "title": "openvinotoolkit/openvino",
+          "raw_title": "openvinotoolkit/openvino",
+          "why_relevant": "OpenVINO推理优化工具",
+          "facts": [
+            "- Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks.",
+            "- Flexible Model Support: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax.",
+            "Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel."
+          ],
+          "open_questions": [
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://github.com/openvinotoolkit/openvino"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "openvinotoolkit/openvino",
+      "latest_raw_title": "openvinotoolkit/openvino",
+      "status": "更新中",
+      "key_facts": [
+        "- Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks.",
+        "- Flexible Model Support: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax.",
+        "Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel."
+      ],
+      "open_questions": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://github.com/openvinotoolkit/openvino"
+      ]
+    },
+    {
+      "id": "evt_20261125_d88cdcd50283",
+      "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_e266ef22947cc396517768e9",
+          "title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
+          "raw_title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
+          "why_relevant": "纳指下跌与英伟达反弹受挫",
+          "facts": [
+            "The Nasdaq Composite fell on Tuesday, giving back some of the sharp gains from the previous session that were sparked by Jensen Huang's return as Nvidia CEO.",
+            "The tech-heavy index was 1.48% lower, closing at 23,733.54, while the S&P 500 fell 0.5% to 7,201.09.",
+            "The Dow Jones Industrial Average climbed 423.39 points, or 0.85%, to 50,018.70, bolstered by gains in stocks such as Amgen, Nike and Salesforce."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
+      "latest_raw_title": "Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates",
+      "status": "更新中",
+      "key_facts": [
+        "The Nasdaq Composite fell on Tuesday, giving back some of the sharp gains from the previous session that were sparked by Jensen Huang's return as Nvidia CEO.",
+        "The tech-heavy index was 1.48% lower, closing at 23,733.54, while the S&P 500 fell 0.5% to 7,201.09.",
+        "The Dow Jones Industrial Average climbed 423.39 points, or 0.85%, to 50,018.70, bolstered by gains in stocks such as Amgen, Nike and Salesforce."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+      ]
+    },
+    {
+      "id": "evt_20261125_911e8b7bbdb8",
+      "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_ef7b4290416f0f5eab5ff569",
+          "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+          "raw_title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+          "why_relevant": "比特币ETF创纪录流出",
+          "facts": [
+            "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion"
+          ],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+      "latest_raw_title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+      "status": "更新中",
+      "key_facts": [
+        "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion"
+      ],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion"
+      ]
+    },
+    {
+      "id": "evt_20261125_8f134afbcb91",
+      "title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_fd1b9b8a9a2ed903bb3bace5",
+          "title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+          "raw_title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+          "why_relevant": "胡塞袭击沙特主权基金大楼",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.ft.com/content/ecdf59b6-c78b-4703-bc26-8d085d7b9d24?syn-25a6b1a6=1"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+      "latest_raw_title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.ft.com/content/ecdf59b6-c78b-4703-bc26-8d085d7b9d24?syn-25a6b1a6=1"
+      ]
+    },
+    {
+      "id": "evt_20261125_bd9e54dcc8bd",
+      "title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_15f3d012c2a6532dc2934b0d",
+          "title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+          "raw_title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+          "why_relevant": "亚洲AI反弹难续分析",
+          "facts": [],
+          "open_questions": [
+            "正文未抓到",
+            "缺少明确时间"
+          ],
+          "sources": [
+            "https://www.scmp.com/business/markets/article/3375601/why-asias-ai-rally-faces-tougher-road-even-after-jensen-huangs-comeback"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+      "latest_raw_title": "Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback",
+      "status": "更新中",
+      "key_facts": [],
+      "open_questions": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "sources": [
+        "https://www.scmp.com/business/markets/article/3375601/why-asias-ai-rally-faces-tougher-road-even-after-jensen-huangs-comeback"
+      ]
+    },
+    {
+      "id": "evt_20261125_9ff934ae7c35",
+      "title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_023470d14fa02af3ea3dffa4",
+          "title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+          "raw_title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+          "why_relevant": "俄空袭乌克兰伤亡",
+          "facts": [
+            "Published On 24 Nov 2026 This live page is now closed."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnR2aXdGN1dOTnJ1QmhWQWhjWnEwOHQ3QzJ2VExKcHRVZEE3TlloVi11NnJRajdKaThMRGIxeElNM2ZvWWJ5c2dmT2xLbzA1ZHRra0JHTGdteC03dXA5RWFXWTMxejFtSC1odHJiem9QOTY1eWN6OXVEQjV4eUtXX1duQTFLellMcjBCb0NzLUIwT0c1S1FFZEU5N2ZLc3M?oc=5",
+            "https://www.aljazeera.com/news/liveblog/2026/11/24/russia-ukraine-war-live-kyiv-says-attack-on-ships-off-libya-self-delfence"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+      "latest_raw_title": "A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya",
+      "status": "更新中",
+      "key_facts": [
+        "Published On 24 Nov 2026 This live page is now closed."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnR2aXdGN1dOTnJ1QmhWQWhjWnEwOHQ3QzJ2VExKcHRVZEE3TlloVi11NnJRajdKaThMRGIxeElNM2ZvWWJ5c2dmT2xLbzA1ZHRra0JHTGdteC03dXA5RWFXWTMxejFtSC1odHJiem9QOTY1eWN6OXVEQjV4eUtXX1duQTFLellMcjBCb0NzLUIwT0c1S1FFZEU5N2ZLc3M?oc=5",
+        "https://www.aljazeera.com/news/liveblog/2026/11/24/russia-ukraine-war-live-kyiv-says-attack-on-ships-off-libya-self-delfence"
+      ]
+    },
+    {
+      "id": "evt_20261125_6eae578c6d6c",
+      "title": "How cautious investors are struggling to avoid the AI bubble",
+      "first_seen": "2026-11-25",
+      "updates": [
+        {
+          "date": "2026-11-25",
+          "article_id": "a1_c35cfa4bf1c78863d35936e1",
+          "title": "How cautious investors are struggling to avoid the AI bubble",
+          "raw_title": "How cautious investors are struggling to avoid the AI bubble",
+          "why_relevant": "投资者艰难规避AI泡沫",
+          "facts": [
+            "How cautious investors are struggling to avoid the AI bubble November 24, 2026 The tech-heavy Nasdaq stock index roared back to life this week after a worrying sell-off recently that saw huge falls in technology and artificial intelligence (AI)-related stocks.",
+            "After suffering its worst week since the pandemic crash of March 2020, the Nasdaq opened Monday (November 23) nearly 1,700 points, or 7%, higher.",
+            "The AI trade received a further boost after Nvidia reinstated CEO Jensen Huang on Monday, just 11 days after he was forced to resign amid a scandal involving extramarital affairs, including one with an alleged Chinese spy."
+          ],
+          "open_questions": [],
+          "sources": [
+            "https://www.dw.com/en/how-cautious-investors-are-struggling-to-avoid-the-ai-bubble/a-80016412?maca=en-rss-en-world-4025-xml-mrss"
+          ],
+          "evidence_path": "digests/meta/2026-11-25-AM-evidence.json"
+        }
+      ],
+      "latest_seen": "2026-11-25",
+      "latest_title": "How cautious investors are struggling to avoid the AI bubble",
+      "latest_raw_title": "How cautious investors are struggling to avoid the AI bubble",
+      "status": "更新中",
+      "key_facts": [
+        "How cautious investors are struggling to avoid the AI bubble November 24, 2026 The tech-heavy Nasdaq stock index roared back to life this week after a worrying sell-off recently that saw huge falls in technology and artificial intelligence (AI)-related stocks.",
+        "After suffering its worst week since the pandemic crash of March 2020, the Nasdaq opened Monday (November 23) nearly 1,700 points, or 7%, higher.",
+        "The AI trade received a further boost after Nvidia reinstated CEO Jensen Huang on Monday, just 11 days after he was forced to resign amid a scandal involving extramarital affairs, including one with an alleged Chinese spy."
+      ],
+      "open_questions": [],
+      "sources": [
+        "https://www.dw.com/en/how-cautious-investors-are-struggling-to-avoid-the-ai-bubble/a-80016412?maca=en-rss-en-world-4025-xml-mrss"
+      ]
     }
   ],
-  "updated_at": "2026-11-24T08:03:19.164255+08:00"
+  "updated_at": "2026-11-25T08:03:36.311224+08:00"
 }

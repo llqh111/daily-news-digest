@@ -1,6 +1,76 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-24 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-25 08:07。
+
+## cathrynlavery/diagram-design
+- 状态：更新中；首见 2026-09-12；最近更新 2026-11-25
+- 最新事实：An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20260912_c62448e8cea7`
+
+## Three LLM inflection points in twelve months
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：Three LLM inflection points in twelve months 24th November 2026 I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelv
+- 事件 ID：`evt_20261125_2443e54aa0b3`
+
+## GLM-5.4: Toward Generalized Coding with Our First Loop Transformer
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：23rd November 2026 - Link Blog GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.
+- 事件 ID：`evt_20261125_1cd0ca6d3935`
+
+## Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：Jensen Huang apologised to Nvidia staff and said he was in therapy on Tuesday, as a stock rally triggered by his shock return as CEO faltered amid persistent doubts over the probes he faces and the fate of the AI investment boom.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261125_993439d1f4fc`
+
+## US attorney general dodges questions about Nvidia investigation
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：US attorney general dodges questions about Nvidia investigation - Published US Attorney General Todd Blanche has backed Nvidia as a "good corporate citizen" while refusing to comment on whether the AI chipmaker was under federal investigation.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261125_3bc50bb970e2`
+
+## US soldier Jian Zhao admits selling military information to Chinese buyers
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261125_44ef2c3414c6`
+
+## openvinotoolkit/openvino
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：- Inference Optimization: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261125_d4167de1c396`
+
+## Nasdaq slumps about 1.5% as Nvidia comeback reverses course and Anthropic breaks IPO price: Live updates
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：The Nasdaq Composite fell on Tuesday, giving back some of the sharp gains from the previous session that were sparked by Jensen Huang's return as Nvidia CEO.
+- 事件 ID：`evt_20261125_d88cdcd50283`
+
+## Bitcoin drops as November spot ETF outflows increase to record $4.71 billion
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：Bitcoin drops as November spot ETF outflows increase to record $4.71 billion
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261125_911e8b7bbdb8`
+
+## Houthi attack on Riyadh’s PIF Tower injures 11
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261125_8f134afbcb91`
+
+## Why Asia’s AI rally faces a tougher road even after Jensen Huang’s comeback
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261125_bd9e54dcc8bd`
+
+## A Russian strike on Ukraine kills 2 and wounds 48 as Kyiv explains its attack in Libya
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：Published On 24 Nov 2026 This live page is now closed.
+- 事件 ID：`evt_20261125_9ff934ae7c35`
+
+## How cautious investors are struggling to avoid the AI bubble
+- 状态：更新中；首见 2026-11-25；最近更新 2026-11-25
+- 最新事实：How cautious investors are struggling to avoid the AI bubble November 24, 2026 The tech-heavy Nasdaq stock index roared back to life this week after a worrying sell-off recently that saw huge falls in technology and artificial intelligence (AI)-related stocks.
+- 事件 ID：`evt_20261125_6eae578c6d6c`
 
 ## NariQ: BF16-level Qwen3.8-27B in a 10 GB file
 - 状态：更新中；首见 2026-11-24；最近更新 2026-11-24
@@ -2039,147 +2109,4 @@
 - 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
 - 仍待观察：正文未抓到；缺少明确时间
 - 事件 ID：`evt_20261026_8d6bd4b993a1`
-
-## Argentina drops investigation into President Milei over crypto fraud
-- 状态：更新中；首见 2026-10-24；最近更新 2026-10-25
-- 最新事实：Argentina drops criminal probe into President Milei over crashed memecoin LIBRA The judge found that Milei's promotion of LIBRA did not constitute fraud, despite the attention his support drew to the token.
-- 事件 ID：`evt_20261024_c74cfdcb21a8`
-
-## NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：A new GPU unlock tool has unlocked the full potential of NVIDIA's RTX 30 & RTX 40 GPUs, achieving faster AI LLM performance and compute capabilities.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_6b5cd0936819`
-
-## OpenBMB/VoxCPM
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support!
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_257e1ca585b3`
-
-## Donating Agent Skills to the Agentic AI Foundation
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：22nd October 2026 - Link Blog Donating Agent Skills to the Agentic AI Foundation.
-- 事件 ID：`evt_20261025_af39ea823203`
-
-## NVIDIA/OpenShell
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：OpenShell is the safe, private runtime for fleets of autonomous AI agents.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_30dbe84a1058`
-
-## Nvidia's role as AI financier faces first big test as neoclouds take market hit
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Nvidia's emergence as financier for the global AI buildout is facing its first major stress test as credit markets tighten for key partners.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_969e1b0d2177`
-
-## Singapore embraces AI for cyber defence, with one caveat: breach transparency
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Advertisement Singapore embraces AI for cyber defence, with one caveat: breach transparency The city state will take a ‘pragmatic’ approach to AI adoption as it seeks to bolster protection for its critical infrastructure 4-MIN READ4-MIN Kolette Limin Singapore Singapore is turnin
-- 事件 ID：`evt_20261025_623c80c7affd`
-
-## Trump lauds Melania over Russia-Ukraine localised ceasefire deal
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Trump lauds Melania over Russia-Ukraine localised ceasefire deal NewsFeed Trump lauds Melania over Russia-Ukraine localised ceasefire deal US President Donald Trump praised First Lady Melania Trump, saying she was ‘better than our professionals’ following her diplomatic efforts t
-- 事件 ID：`evt_20261025_0b5eb42b695a`
-
-## Iran blames US for deal failure, urges new try amid fear of new attacks
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：In comments broadcast by Iranian Press TV on Saturday, But Pezeshkian also said that both sides should return to the deal and “conclude it”.
-- 事件 ID：`evt_20261025_15756a917f48`
-
-## Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Another 527 people were injured during heavy wind and torrential rain.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_dda6c1de5341`
-
-## Kim Jong-un crosses newly opened bridge into China
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：The pair toured a car factory, and promised to strengthen the bilateral relationship.
-- 事件 ID：`evt_20261025_e041bb1ab7ec`
-
-## Israeli central bank rejects Netanyahu’s plan to use crypto to evade sanctions
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261025_2ab21e9790d5`
-
-## Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Crypto under weekend pressure, bitcoin slides below $80,000 on U.S.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_7b041b9c71bf`
-
-## More than one million Lula supporters rally on eve of Brazilian election runoff
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_faa14867a937`
-
-## Iran war live: Trump hints at possible Sunday Iran attack or deal reached
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Live updatesLive updates, Iran war live: Trump hints at possible Sunday Iran attack or deal reached Trump says the US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.
-- 事件 ID：`evt_20261025_c0d87310dacf`
-
-## NVIDIA DLSS 5 Neural Rendering Now Available In Portal With RTX And Half-Life 2 RTX Demo, Alongside 6X Multi Frame Generation
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：NVIDIA has officially brought DLSS 5 with 3D-Guided Neural Rendering to Portal with RTX and the Half-Life 2 RTX demo, allowing players to experience its latest AI-powered graphics technology in two classic Valve titles enhanced with full path tracing.
-- 事件 ID：`evt_20261025_fce949a4ca2a`
-
-## NVIDIA GeForce RTX 3090 Ti Gets Nearly 80% FP16/BF16 Compute Boost With Linux-Based Unlocking Trick
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：The new tool reportedly helps the RTX 3090 Ti's BF16 compute performance jump from 87.5 FLOPS to 157 TFLOPS while also improving the vLLM inference speeds by up to 36%.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_9bdbfd45177a`
-
-## Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping block If you are wondering why th
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_aa12ccbf7e51`
-
-## Palestinian families displaced as Israeli forces demolish Hebron homes
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：He added that he believed the military planned to displace a total of 2,500 people from about 0.35 sq km of urban land.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_2d00b2c26483`
-
-## Mass rally against Netanyahu ahead of pivotal Israeli election
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Mass rally against Netanyahu ahead of pivotal Israeli election NewsFeed Mass rally against Netanyahu ahead of pivotal Israeli election Thousands of Israelis rallied against PM Benjamin Netanyahu, demanding a change of government and an independent inquiry into the security failur
-- 事件 ID：`evt_20261025_f0f7068ae68a`
-
-## NVIDIA GPUs Are Becoming Appreciating Assets In The Rental Space, With Models As Old As The A100 Reaching Up To A 143% Price Premium Due To AI Token Consumption
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：The Tesla V100 has found itself a new purpose during the AI boom, meaning that NVIDIA's older GPUs are also being treated with the same value as token consumption from running LLMs continues to rise.
-- 事件 ID：`evt_20261025_46f75ca88820`
-
-## Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO Borrowing against bitcoin and earning income to build their BTC holdings are becoming priorities for long-term investors, Xapo Bank CEO Seamus Rocca told CoinDesk.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_858cecefa913`
-
-## Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Obama urged Ohioans to vote against the Republican administration, saying: “After two years of chaos and cruelty and corruption and incompetence, the likes of which we have not seen in the modern era, you get a chance to say, ‘Enough is enough’.” Heated Ohio races The former pres
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_bc0cda6d988e`
-
-## Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Advertisement Fandom vs flag: why young Chinese embrace Japanese pop culture but reject war-era symbols For many on the mainland, the recent rising sun flag incident and controversies like it show a fondness for anime and manga only goes so far 4-MIN READ4-MIN 2 Listen Young Chin
-- 事件 ID：`evt_20261025_cf6ac550ec4b`
-
-## Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 最新事实：Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat - Published Police in the southern German state of Bavaria have detained a 33-year-old German man during a fire at Adolf Hitler's Alpine mountain retreat, the Kehlsteinhaus, also known as the Eagle's Nest.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261025_d91b9467c085`
-
-## Hundreds of thousands protest in France in second weekend of mass demonstrations
-- 状态：更新中；首见 2026-10-25；最近更新 2026-10-25
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261025_8ecaae199e51`
 
