@@ -1,6 +1,74 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-26 08:06。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-27 07:34。
+
+## Zelenskiy says Russia preparing new mass strike in coming days
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261127_04cafe2d5253`
+
+## Nvidia hits pause on chip shipments to Southeast Asia
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_9f5ff84d82c0`
+
+## Two Italians killed in strike in Kuwait, as Iran denies responsibility
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：Iran has denied responsibility for the attack, with Foreign Minister Abbas Araghchi saying the incident looked "suspicious" and that Tehran would work with Kuwait and Italy to "determine the cause".
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_39c5bedcfeb9`
+
+## Spain’s Pablo Hernandez de Cos to succeed Lagarde as European Central Bank chief
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：The ECB is the central bank...
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261127_8a921e3fe60f`
+
+## Attack on Saudi’s Jazan refinery kills one person, disrupts operations
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：Attack on Saudi’s Jazan refinery kills one person, disrupts operations The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_ccfd730a1228`
+
+## Laila Khawaja on how the Jensen Huang saga resets the US-China tech rivalry
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261127_b61abf0af521`
+
+## Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon The llama.cpp × AMD Benchmark dashboard is available on Hugging Face.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_57686fdfda4a`
+
+## Analyst Jeff Pu Says DRAM Prices Could Halve in 2028 as the AI Memory Boom Cools, but Cheaper RAM Isn’t Coming Next Year
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：Jeff Pu has cut every quarter of his 2027 DRAM price forecast, and the note's first-ever 2028 scenario has prices halving in the base case, though he isn't calling the supercycle off.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_c507525ad02c`
+
+## NVIDIA’s Top-End B300 Servers Are Allegedly So Easy To Buy In China, It’s Only A “Matter Of Asking The Right Person” And Having $3 Million Available
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：That’s right, for the extremely affluent, the Blackwell Ultra hardware is within their grasp, with the latest report stating that these AI GPUs are reaching between $3 million and $3.4 million per eight-GPU system, resulting in a 5x to 6x markup over U.S.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_b88a45de1e12`
+
+## Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 最新事实：economy exhibited much stronger growth for the third quarter than initially estimated, showing that real GDP grew at a 4.3% annualized rate.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261127_efe479a4d26c`
+
+## Italy’s PM rebukes Ukraine for attacks on Russian ships in Mediterranean
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261127_c28fe9b860ea`
+
+## Bitcoin ETFs are bleeding cash and the Fed is unlikely to help
+- 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261127_1ca0ade20f67`
 
 ## elementalsouls/Claude-BugHunter
 - 状态：更新中；首见 2026-11-17；最近更新 2026-11-26
@@ -2028,78 +2096,4 @@
 - 最新事实：The Federal Reserve's October rate decision has been a focus for investors and economists as Chairman Kevin Warsh has rejected traditional forward guidance.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261028_e4fd0ea63201`
-
-## TauricResearch/TradingAgents
-- 状态：更新中；首见 2026-09-11；最近更新 2026-10-27
-- 最新事实：- [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20260911_76b5716067e1`
-
-## Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Advertisement Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran Tuesday’s election is Israel’s first since the October 7 attacks.
-- 事件 ID：`evt_20261027_f1a00e016829`
-
-## What message is China sending with latest footage of ‘no-notice’ DF rocket drill?
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：State media broadcasts footage of exercise days after showing launch of DF-26 that can strike US island of Guam 2-MIN READ2-MIN Amber Wangin Beijing China has released footage of its troops carrying out a “no-notice” rocket launch as part of an ongoing effort by state media to sh
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_217b722b4a5c`
-
-## Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Anthropic is building the same kind of cross-product ecosystem that helped make tech companies like Amazon and Uber enormously sticky, and its S-1 suggests the strategy is working.
-- 事件 ID：`evt_20261027_6b30b1d7488a`
-
-## Will the real Anthropic please stand up
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Will the real Anthropic please stand up The company has been masterful at storytelling for years.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_ace770137461`
-
-## AI giant Anthropic files for blockbuster IPO
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：AI giant Anthropic files for blockbuster IPO The maker of Claude reported $16.3 billion in first-half revenue and an $80.7 billion net loss as it aims to price its offering in mid-November.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_7110158e7664`
-
-## FirstFT: Anthropic unveils long-awaited IPO prospectus
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261027_4bc9148a54f0`
-
-## From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Investors are already measuring the 5-year-old company's potential market cap in the trillions, putting it in a category with the world's most valuable companies.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_153ccea77397`
-
-## Lula wins fourth term in dramatic Brazil election comeback
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Lula wins fourth term in dramatic Brazil election comeback - Published Brazil's President Luiz InÃ¡cio Lula da Silva has won a fourth term in office in a dramatic comeback over his right-wing challenger FlÃ¡vio Bolsonaro.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_09a03f784b71`
-
-## How Lula beat far-right Bolsonaro in Brazil – The Latest
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：How Lula beat far-right Bolsonaro in Brazil – The Latest Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_c38f91796e11`
-
-## EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261027_be70604b2c0c`
-
-## China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Advertisement China grants permits to VW joint venture, Xpeng as autonomous driving race intensifies The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040 2-MIN READ2-MIN China has granted new autonomous-driving permission to elec
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_684193803f2a`
-
-## debpalash/VoiceStudio
-- 状态：更新中；首见 2026-10-27；最近更新 2026-10-27
-- 最新事实：Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261027_5e74a8519164`
 
