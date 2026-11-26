@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T00:06:10.417801+00:00",
+  "sources": {
+    "daily_news_digest": {
+      "status": "present",
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
+      "count": "13"
+    },
+    "youtube_digest": {
+      "status": "missing",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-26.json",
+      "previous_night_status": "missing",
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-25.json"
+    },
+    "llm_wiki": {
+      "status": "missing",
+      "path": "D:\\Documents\\llm-wiki/03_review/candidates",
+      "candidate_count": "0",
+      "raw_context_count": "0"
+    }
+  },
+  "items": [
+    {
+      "article_id": "a1_e2b069b06ecaacbdce38954f",
+      "title": "US trading partners’ patience wears thin as Trump slaps on new tariffs",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375819/us-trading-partners-patience-wears-thin-trump-slaps-new-tariffs",
+      "publisher": "SCMP",
+      "summary": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.\nThis followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.\nThe new levies, subject to a public comment period, would",
+      "category": "国际",
+      "published_at": "2026-11-25T23:30:23+00:00",
+      "why_relevant": "贸易伙伴耐心耗尽",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.625808+08:00",
+          "content_sha256": "4a047ea87a3e3c9cf4c26975f841cc35d27455794bb5386b700be447bd7a5b17",
+          "excerpt": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.",
+          "sentence_hash": "ee17a66f197f7e38a4e1bc6b60819b7d37c2faf3ec2628101678437433e8e810",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.625831+08:00",
+          "content_sha256": "4a047ea87a3e3c9cf4c26975f841cc35d27455794bb5386b700be447bd7a5b17",
+          "excerpt": "This followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.",
+          "sentence_hash": "deb0c4cf51c9c3268cd5b287f6534653e1cb15bc9ad17edafd09a36b4d4a5ef7",
+          "anchors": [
+            "major",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "china",
+        "president donald trump",
+        "major",
+        "wednesday",
+        "chinese president xi jinping",
+        "white house",
+        "us",
+        "shenzhen",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 9
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
+      "source_artifact_date": "2026-11-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_7dbca3fa7c84ed3508328503",
+      "title": "Nvidia turmoil casts pall over high-flying global AI chip industry",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-turmoil-casts-pall-over-high-flying-global-ai-chip-industry",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "英伟达动荡影响AI芯片",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626000+08:00",
+          "content_sha256": "fc16a94d0d811b0c3b8d84336bb26ca27bdf1410f26e7c5d27bdbe255d244c9f",
+          "excerpt": "TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.",
+          "sentence_hash": "9d478912a5319b8d2607793f8d288e652341d13961f4d57fe3c70cf4f52bc387",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Demand remains strong for chipmakers and equipment manufacturers Nvidia CEO Jensen Huang has been a leader for global AI investment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626012+08:00",
+          "content_sha256": "fc16a94d0d811b0c3b8d84336bb26ca27bdf1410f26e7c5d27bdbe255d244c9f",
+          "excerpt": "Demand remains strong for chipmakers and equipment manufacturers Nvidia CEO Jensen Huang has been a leader for global AI investment.",
+          "sentence_hash": "e8bbbc91c379ff7c00fef59af3224fe3f5cf230086e7e16c7d07997840d44dcd",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "demand",
+        "ai",
+        "reuters",
+        "ceo",
+        "tokyo",
+        "uncertainty",
+        "democrats",
+        "nvidia",
+        "jensen huang"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 9
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
+      "source_artifact_date": "2026-11-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_082d487c895db0836ff0b825",
+      "title": "US federal court blocks new Trump birthright citizenship executive order",
+      "url": "https://www.scmp.com/news/us/politics/article/3375818/us-federal-court-blocks-new-trump-birthright-citizenship-executive-order",
+      "publisher": "SCMP",
+      "summary": "A federal judge on Wednesday blocked US President Donald Trump’s latest executive order aimed at restricting birthright citizenship, dealing another setback to his ongoing effort to redefine what it means to be born an American.\n“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project. “The Supreme Court has twice rejected efforts to gut birthright citizenship, in 1898 and again earlier this year.\n“Third time is not the charm, and...",
+      "category": "国际",
+      "published_at": "2026-11-25T23:25:35+00:00",
+      "why_relevant": "法院再阻出生公民权令",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626224+08:00",
+          "content_sha256": "712722e254d0757fc975d6fd8d6e6a093784f98ac2a06412937b4200e0bca40d",
+          "excerpt": "“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.",
+          "sentence_hash": "2f7edc7f9ddfdc29a5c0f64a62e5f1fd6e4e4e913b9856332a484915443fec1e",
+          "anchors": [
+            "enough"
+          ]
+        }
+      ],
+      "entities": [
+        "president donald trump",
+        "american civil liberties union",
+        "the supreme court",
+        "wednesday",
+        "american",
+        "cody wofsy",
+        "rights project",
+        "immigrants",
+        "enough",
+        "us",
+        "third"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 11
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
+      "source_artifact_date": "2026-11-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_758d502666f1d89f2fd76e3f",
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "publisher": "GitHub Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.https://elementalsouls.github.io/Claude-BugHunter \nclaude-bughunter \n \n A self-contained Claude skill bundle for bug hunting and external red-team work · 84 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code漏洞狩猎技能包",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626827+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "sentence_hash": "05dd044333599b7bd13d218196d7d8009447d1ce3b44ef53dbc399bba6fd5c74",
+          "anchors": [
+            "hunt",
+            "bug hunting",
+            "bug",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626846+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "sentence_hash": "31f52881b40ecfd7e5f516f3f7b80432516528e1ac67ceddffbb130192db3f08",
+          "anchors": [
+            "hunt",
+            "hunter",
+            "bug",
+            "claude"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626874+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "sentence_hash": "b8cd10dd3498544fc5aa40e9e5dd8a0aa752b0d3275d8d48ed3bcd9583526ef7",
+          "anchors": [
+            "hunt",
+            "bug",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626893+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "sentence_hash": "df83e2ae22720b5470bae27f0a7f5267d4387e69c0e1ce166bed80d209b582eb",
+          "anchors": [
+            "think"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626911+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "sentence_hash": "7d1e0db437a9006a6ae1e7ea20413b4111f12ab7b8d01464e8621b24d2b8b2c1",
+          "anchors": [
+            "hunt",
+            "from"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626942+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "sentence_hash": "eef2254a4df1d8bcdeaf56505a271c8aed475c5f39298fb328936350d29e277d",
+          "anchors": [
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "owasp",
+        "share",
+        "api",
+        "question gate",
+        "ship",
+        "cve",
+        "dvwa",
+        "option",
+        "built",
+        "pii",
+        "point",
+        "sachin sharma",
+        "hunter",
+        "think",
+        "hit",
+        "bug hunting",
+        "one",
+        "every",
+        "claude",
+        "mcp",
+        "iam",
+        "ssl",
+        "gen",
+        "center",
+        "power",
+        "bug",
+        "all",
+        "shell",
+        "linux",
+        "windows",
+        "okta",
+        "vpn",
+        "from",
+        "vrt",
+        "hacker",
+        "entra",
+        "claude code",
+        "juice shop",
+        "security research",
+        "four",
+        "english",
+        "they",
+        "both",
+        "burp",
+        "install",
+        "hunt",
+        "oos"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
+      "source_artifact_date": "2026-11-26",
+      "freshness_label": "today"
+    },
+    {
+      "article_id": "a1_d14014978c7e5f43cb5d79b8",
+      "title": "Apex Neural Rendering Gives NVIDIA DLSS A Run For Its Money In Digital Foundry’s Testing, Introduces Game-Changing Comparison Tool",
+      "url": "https://wccftech.com/apex-neural-rendering-gives-nvidia-dlss-a-run-for-its-money-in-digital-foundrys-testing-introduces-game-changing-comparison-tool/",
+      "publisher": "Wccftech",
+      "summary": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs. We subsequently put the technology through its paces in three PC games, uncovering promising results alongside several shortcomings. Now, Digital Foundry has conducted its own independent analysis, with similarly encouraging, albeit mixed, fin",
+      "category": "科技",
+      "published_at": "2026-11-25T16:45:06+00:00",
+      "why_relevant": "开源方案挑战DLSS",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627554+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.",
+          "sentence_hash": "c33c45799aed65a814fa7de54cb3ea4bc770b6869b7dd9fae245855bbe479ff8",
+          "anchors": [
+            "image",
+            "frame generation"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "However, the tables turned at higher frame generation multipliers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627594+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "However, the tables turned at higher frame generation multipliers.",
+          "sentence_hash": "7583bcaadc1000190723b3fd86096334709b39fdb67cd07eae5900c960af0a52",
+          "anchors": [
+            "frame generation"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "NVIDIA DLSS MFG was approximately 10% faster in Cyberpunk 2077 at 3X with path tracing enabled, while Crimson Desert at 4X saw ANR trail NVIDIA's solution by just 3.6%, with virtually identical PC latency.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627614+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "NVIDIA DLSS MFG was approximately 10% faster in Cyberpunk 2077 at 3X with path tracing enabled, while Crimson Desert at 4X saw ANR trail NVIDIA's solution by just 3.6%, with virtually identical PC latency.",
+          "sentence_hash": "168b2531a038f6db33e30d356a739bc81fe702c63e5e7c71c222976c97c70662",
+          "anchors": [
+            "10%",
+            "3.6%",
+            "while"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Apex Neural Rendering Brings Multi Frame Generation To Older AMD And Intel GPUs Perhaps more compelling is ANR's ability to run through conventional compute shaders rather than relying on dedicated machine learning acceleration.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627654+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "Apex Neural Rendering Brings Multi Frame Generation To Older AMD And Intel GPUs Perhaps more compelling is ANR's ability to run through conventional compute shaders rather than relying on dedicated machine learning acceleration.",
+          "sentence_hash": "dd423e1e1d5a58008342454ae7c92bc890f1543b52a7fab77eb3bf73d1b58912",
+          "anchors": [
+            "rather"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Rather than recording conventional gameplay footage, the tool captures the raw inputs supplied to frame generation and upscaling algorithms, allowing different implementations to process identical frames",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627700+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "Rather than recording conventional gameplay footage, the tool captures the raw inputs supplied to frame generation and upscaling algorithms, allowing different implementations to process identical frames",
+          "sentence_hash": "f968fdb36b932e9614a2e3351d3e6f5f28b8bd2d62ced1873d19f97bad0ad4d8",
+          "anchors": [
+            "frame generation"
+          ]
+        }
+      ],
+      "entities": [
+        "arc",
+        "force",
+        "mfg",
+        "apex neural rendering trades blows with",
+        "however",
+        "new tool could revolutionize image quality comparisons\narguably",
+        "apex neural rendering brings multi frame generation to older",
+        "the last",
+        "in marvel",
+        "these",
+        "digital foundry",
+        "apex neural rendering",
+        "while",
+        "rather",
+        "vram",
+        "now",
+        "nevertheless",
+        "ui",
+        "fg",
+        "crimson desert",
+        "but still needs more polish\ndigital foundry",
+        "rtx",
+        "rx",
+        "us\nperhaps",
+        "pc",
+        "ii",
+        "radeon",
+        "spider",
+        "ryzen",
+        "almost",
+        "man remastered",
+        "frame generation",
+        "and intel",
+        "gpu",
+        "anr",
+        "cyberpunk",
+        "fps",
+        "dlss",
+        "amd",
+        "apex compute",
+        "multi frame generation",
+        "us part",
+        "intel",
+        "gb",
+        "dlaa",
+        "nvidia",
+        "image"
+      ],
+      "numbers": [
+        "10%",
+        "3.6%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 49
+      },
+      "evidence_complete": true,
+      "source_system": "daily-news-digest",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
+      "source_artifact_date": "2026-11-26",
+      "freshness_label": "today"
+    }
+  ]
+}

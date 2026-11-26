@@ -1,6 +1,78 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-25 08:07。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-26 08:06。
+
+## elementalsouls/Claude-BugHunter
+- 状态：更新中；首见 2026-11-17；最近更新 2026-11-26
+- 最新事实：A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261117_2f6de56d2658`
+
+## US trading partners’ patience wears thin as Trump slaps on new tariffs
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261126_531166001e44`
+
+## Nvidia turmoil casts pall over high-flying global AI chip industry
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261126_0dbf5343a99c`
+
+## US federal court blocks new Trump birthright citizenship executive order
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261126_9178761a1254`
+
+## Apex Neural Rendering Gives NVIDIA DLSS A Run For Its Money In Digital Foundry’s Testing, Introduces Game-Changing Comparison Tool
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261126_89c7f8b4e639`
+
+## Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261126_e17c6aa3d69c`
+
+## 'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261126_434458cf9b41`
+
+## US economy roars ahead in third quarter, inflation remains high in October
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261126_425f80ad4aa0`
+
+## Why Indian nationals are still ending up in Russia's war on Ukraine
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：Why Indian nationals are still ending up in Russia's war on Ukraine November 25, 2026 Gurpreet Singh Randhawa, a 40-year-old from Jalandhar in India's northern Punjab state, said he traveled to Russia for work after responding to a Facebook advertisement for a driving job at a ga
+- 事件 ID：`evt_20261126_0102564a992e`
+
+## China widens graft crackdown, putting ex-officials, crypto in crosshairs
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261126_855901d2998a`
+
+## Israeli judges recommend dropping most serious charges against Netanyahu
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：Israeli judges recommend dropping most serious charges against Netanyahu - Published Judges in Israel have suggested prosecutors drop bribery charges against Benjamin Netanyahu, potentially handing the caretaker prime minister a boost as he fights for his political survival.
+- 事件 ID：`evt_20261126_4d31695c8ab1`
+
+## mjmirza/app-store-compliance
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261126_404a8c9519c7`
+
+## How Anthropic builds software in 2026 with Katelyn Lesse
+- 状态：更新中；首见 2026-11-26；最近更新 2026-11-26
+- 最新事实：Programming note: there will be no The Pulse tomorrow.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261126_6b1971e91c39`
 
 ## cathrynlavery/diagram-design
 - 状态：更新中；首见 2026-09-12；最近更新 2026-11-25
@@ -568,12 +640,6 @@
 - 最新事实：Houthi rebel advance in Yemen may further destabilise global economy - Published The Iran-backed Houthi rebels who seized much of Yemen in 2014 have now forced the army of the internationally recognised government to withdraw from the Red Sea coast in order to defend their interi
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261117_f43956a3ce57`
-
-## elementalsouls/Claude-BugHunter
-- 状态：更新中；首见 2026-11-17；最近更新 2026-11-17
-- 最新事实：A self-contained Claude skill bundle for bug hunting and external red-team work · 83 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261117_2f6de56d2658`
 
 ## Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says
 - 状态：更新中；首见 2026-11-16；最近更新 2026-11-16
@@ -2036,77 +2102,4 @@
 - 最新事实：Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261027_5e74a8519164`
-
-## luongnv89/claude-howto
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：🌐 Language / Ngôn ngữ / 语言 / Мова: English | Tiếng Việt | 中文 | Українська | 日本語 Go from typing claude to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path.
-- 事件 ID：`evt_20261026_c0adafb9e3a8`
-
-## google-gemini/gemini-cli
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026.
-- 事件 ID：`evt_20261026_48af2d4e7ebd`
-
-## Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_cd26483cd959`
-
-## Serbia's veteran ruler Vučić concedes election to student-led protest movement
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Preliminary figures provided by Serbia's election commission suggested a record high turnout, with 64.9% having cast their vote by 18:00 local time (17:00 GMT), two hours before polls were set to close.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_0c1ac9cc8f0b`
-
-## Musk says SpaceX restricted Ukraine's Starlink connection as service restored
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Musk says SpaceX restricted Ukraine's Starlink connection as service restored - Published Elon Musk has said his company SpaceX restricted Ukraine's Starlink internet service, after Ukrainian officials said connectivity issues appeared to have been resolved.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_8a9e8c3ab303`
-
-## Venezuelan opposition leader María Machado returns after months in exile
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Venezuelan opposition leader MarÃa Machado returns after months in exile - Published Venezuelan opposition leader MarÃa Corina Machado has returned home to a fraught political landscape after more than 10 months in exile.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_e36318aa31cd`
-
-## aws/agent-toolkit-for-aws
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Help AI coding agents build, deploy, and manage applications on AWS.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_01b8f391c5f8`
-
-## Stock futures climb as traders try to recover from the S&P 500's losing week: Live updates
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Stock futures rose on Sunday evening as traders look toward a slew of central bank decisions this week.
-- 事件 ID：`evt_20261026_04b77ea9270e`
-
-## UK banks face 10,000 complaints in 3 months over crypto restrictions
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：UK banks face 10,000 complaints in 3 months over crypto restrictions The U.K.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_08b6e1ad67fe`
-
-## Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：Advertisement Standard Chartered-led Anchorpoint plans retail stablecoin as HSBC RedCoin launches But the venture has yet to commit to a launch date, saying it will not rush the product to market 2-MIN READ2-MIN Listen After HSBC RedCoin launched on Friday, Anchorpoint – the stab
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_3e73294073ee`
-
-## Deeply divided Israel braces for pivotal election
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 最新事实：The general election on Tuesday hangs over a country that's deeply divided and ready for a fight.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261026_0fc019a5efd1`
-
-## Algeria to send troops to Niger in first foreign deployment since 1973
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261026_15773be4ff17`
-
-## France’s Le Pen vows national ‘renewal’ in campaign launch
-- 状态：更新中；首见 2026-10-26；最近更新 2026-10-26
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261026_8d6bd4b993a1`
 

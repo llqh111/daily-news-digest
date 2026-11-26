@@ -1,0 +1,1156 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-26-AM",
+  "date": "2026-11-26",
+  "session": "AM",
+  "delivered_at": "2026-11-26T08:06:10.403824+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-26T00:06:10.405312+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 1,
+    "unsupported_ratio": 0.07692307692307693
+  },
+  "items": [
+    {
+      "article_id": "a1_e2b069b06ecaacbdce38954f",
+      "title": "US trading partners’ patience wears thin as Trump slaps on new tariffs",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375819/us-trading-partners-patience-wears-thin-trump-slaps-new-tariffs",
+      "publisher": "SCMP",
+      "summary": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.\nThis followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.\nThe new levies, subject to a public comment period, would",
+      "category": "国际",
+      "published_at": "2026-11-25T23:30:23+00:00",
+      "why_relevant": "贸易伙伴耐心耗尽",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.625808+08:00",
+          "content_sha256": "4a047ea87a3e3c9cf4c26975f841cc35d27455794bb5386b700be447bd7a5b17",
+          "excerpt": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.",
+          "sentence_hash": "ee17a66f197f7e38a4e1bc6b60819b7d37c2faf3ec2628101678437433e8e810",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.625831+08:00",
+          "content_sha256": "4a047ea87a3e3c9cf4c26975f841cc35d27455794bb5386b700be447bd7a5b17",
+          "excerpt": "This followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.",
+          "sentence_hash": "deb0c4cf51c9c3268cd5b287f6534653e1cb15bc9ad17edafd09a36b4d4a5ef7",
+          "anchors": [
+            "major",
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "china",
+        "president donald trump",
+        "major",
+        "wednesday",
+        "chinese president xi jinping",
+        "white house",
+        "us",
+        "shenzhen",
+        "trump"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 9
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7dbca3fa7c84ed3508328503",
+      "title": "Nvidia turmoil casts pall over high-flying global AI chip industry",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-turmoil-casts-pall-over-high-flying-global-ai-chip-industry",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "英伟达动荡影响AI芯片",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626000+08:00",
+          "content_sha256": "fc16a94d0d811b0c3b8d84336bb26ca27bdf1410f26e7c5d27bdbe255d244c9f",
+          "excerpt": "TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.",
+          "sentence_hash": "9d478912a5319b8d2607793f8d288e652341d13961f4d57fe3c70cf4f52bc387",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Demand remains strong for chipmakers and equipment manufacturers Nvidia CEO Jensen Huang has been a leader for global AI investment.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626012+08:00",
+          "content_sha256": "fc16a94d0d811b0c3b8d84336bb26ca27bdf1410f26e7c5d27bdbe255d244c9f",
+          "excerpt": "Demand remains strong for chipmakers and equipment manufacturers Nvidia CEO Jensen Huang has been a leader for global AI investment.",
+          "sentence_hash": "e8bbbc91c379ff7c00fef59af3224fe3f5cf230086e7e16c7d07997840d44dcd",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "demand",
+        "ai",
+        "reuters",
+        "ceo",
+        "tokyo",
+        "uncertainty",
+        "democrats",
+        "nvidia",
+        "jensen huang"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 2,
+        "anchor_count": 9
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_082d487c895db0836ff0b825",
+      "title": "US federal court blocks new Trump birthright citizenship executive order",
+      "url": "https://www.scmp.com/news/us/politics/article/3375818/us-federal-court-blocks-new-trump-birthright-citizenship-executive-order",
+      "publisher": "SCMP",
+      "summary": "A federal judge on Wednesday blocked US President Donald Trump’s latest executive order aimed at restricting birthright citizenship, dealing another setback to his ongoing effort to redefine what it means to be born an American.\n“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project. “The Supreme Court has twice rejected efforts to gut birthright citizenship, in 1898 and again earlier this year.\n“Third time is not the charm, and...",
+      "category": "国际",
+      "published_at": "2026-11-25T23:25:35+00:00",
+      "why_relevant": "法院再阻出生公民权令",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626224+08:00",
+          "content_sha256": "712722e254d0757fc975d6fd8d6e6a093784f98ac2a06412937b4200e0bca40d",
+          "excerpt": "“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.",
+          "sentence_hash": "2f7edc7f9ddfdc29a5c0f64a62e5f1fd6e4e4e913b9856332a484915443fec1e",
+          "anchors": [
+            "enough"
+          ]
+        }
+      ],
+      "entities": [
+        "president donald trump",
+        "american civil liberties union",
+        "the supreme court",
+        "wednesday",
+        "american",
+        "cody wofsy",
+        "rights project",
+        "immigrants",
+        "enough",
+        "us",
+        "third"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 1,
+        "anchor_count": 11
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_758d502666f1d89f2fd76e3f",
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "publisher": "GitHub Trending",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.https://elementalsouls.github.io/Claude-BugHunter \nclaude-bughunter \n \n A self-contained Claude skill bundle for bug hunting and external red-team work · 84 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "Claude Code漏洞狩猎技能包",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626827+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "sentence_hash": "05dd044333599b7bd13d218196d7d8009447d1ce3b44ef53dbc399bba6fd5c74",
+          "anchors": [
+            "hunt",
+            "bug hunting",
+            "bug",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626846+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "sentence_hash": "31f52881b40ecfd7e5f516f3f7b80432516528e1ac67ceddffbb130192db3f08",
+          "anchors": [
+            "hunt",
+            "hunter",
+            "bug",
+            "claude"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626874+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "sentence_hash": "b8cd10dd3498544fc5aa40e9e5dd8a0aa752b0d3275d8d48ed3bcd9583526ef7",
+          "anchors": [
+            "hunt",
+            "bug",
+            "all"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626893+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "sentence_hash": "df83e2ae22720b5470bae27f0a7f5267d4387e69c0e1ce166bed80d209b582eb",
+          "anchors": [
+            "think"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626911+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "sentence_hash": "7d1e0db437a9006a6ae1e7ea20413b4111f12ab7b8d01464e8621b24d2b8b2c1",
+          "anchors": [
+            "hunt",
+            "from"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.626942+08:00",
+          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
+          "excerpt": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "sentence_hash": "eef2254a4df1d8bcdeaf56505a271c8aed475c5f39298fb328936350d29e277d",
+          "anchors": [
+            "all"
+          ]
+        }
+      ],
+      "entities": [
+        "owasp",
+        "share",
+        "api",
+        "question gate",
+        "ship",
+        "cve",
+        "dvwa",
+        "option",
+        "built",
+        "pii",
+        "point",
+        "sachin sharma",
+        "hunter",
+        "think",
+        "hit",
+        "bug hunting",
+        "one",
+        "every",
+        "claude",
+        "mcp",
+        "iam",
+        "ssl",
+        "gen",
+        "center",
+        "power",
+        "bug",
+        "all",
+        "shell",
+        "linux",
+        "windows",
+        "okta",
+        "vpn",
+        "from",
+        "vrt",
+        "hacker",
+        "entra",
+        "claude code",
+        "juice shop",
+        "security research",
+        "four",
+        "english",
+        "they",
+        "both",
+        "burp",
+        "install",
+        "hunt",
+        "oos"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 47
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_d14014978c7e5f43cb5d79b8",
+      "title": "Apex Neural Rendering Gives NVIDIA DLSS A Run For Its Money In Digital Foundry’s Testing, Introduces Game-Changing Comparison Tool",
+      "url": "https://wccftech.com/apex-neural-rendering-gives-nvidia-dlss-a-run-for-its-money-in-digital-foundrys-testing-introduces-game-changing-comparison-tool/",
+      "publisher": "Wccftech",
+      "summary": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs. We subsequently put the technology through its paces in three PC games, uncovering promising results alongside several shortcomings. Now, Digital Foundry has conducted its own independent analysis, with similarly encouraging, albeit mixed, fin",
+      "category": "科技",
+      "published_at": "2026-11-25T16:45:06+00:00",
+      "why_relevant": "开源方案挑战DLSS",
+      "relevance_score": 9.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627554+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.",
+          "sentence_hash": "c33c45799aed65a814fa7de54cb3ea4bc770b6869b7dd9fae245855bbe479ff8",
+          "anchors": [
+            "image",
+            "frame generation"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "However, the tables turned at higher frame generation multipliers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627594+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "However, the tables turned at higher frame generation multipliers.",
+          "sentence_hash": "7583bcaadc1000190723b3fd86096334709b39fdb67cd07eae5900c960af0a52",
+          "anchors": [
+            "frame generation"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "NVIDIA DLSS MFG was approximately 10% faster in Cyberpunk 2077 at 3X with path tracing enabled, while Crimson Desert at 4X saw ANR trail NVIDIA's solution by just 3.6%, with virtually identical PC latency.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627614+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "NVIDIA DLSS MFG was approximately 10% faster in Cyberpunk 2077 at 3X with path tracing enabled, while Crimson Desert at 4X saw ANR trail NVIDIA's solution by just 3.6%, with virtually identical PC latency.",
+          "sentence_hash": "168b2531a038f6db33e30d356a739bc81fe702c63e5e7c71c222976c97c70662",
+          "anchors": [
+            "10%",
+            "3.6%",
+            "while"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Apex Neural Rendering Brings Multi Frame Generation To Older AMD And Intel GPUs Perhaps more compelling is ANR's ability to run through conventional compute shaders rather than relying on dedicated machine learning acceleration.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627654+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "Apex Neural Rendering Brings Multi Frame Generation To Older AMD And Intel GPUs Perhaps more compelling is ANR's ability to run through conventional compute shaders rather than relying on dedicated machine learning acceleration.",
+          "sentence_hash": "dd423e1e1d5a58008342454ae7c92bc890f1543b52a7fab77eb3bf73d1b58912",
+          "anchors": [
+            "rather"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Rather than recording conventional gameplay footage, the tool captures the raw inputs supplied to frame generation and upscaling algorithms, allowing different implementations to process identical frames",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.627700+08:00",
+          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
+          "excerpt": "Rather than recording conventional gameplay footage, the tool captures the raw inputs supplied to frame generation and upscaling algorithms, allowing different implementations to process identical frames",
+          "sentence_hash": "f968fdb36b932e9614a2e3351d3e6f5f28b8bd2d62ced1873d19f97bad0ad4d8",
+          "anchors": [
+            "frame generation"
+          ]
+        }
+      ],
+      "entities": [
+        "arc",
+        "force",
+        "mfg",
+        "apex neural rendering trades blows with",
+        "however",
+        "new tool could revolutionize image quality comparisons\narguably",
+        "apex neural rendering brings multi frame generation to older",
+        "the last",
+        "in marvel",
+        "these",
+        "digital foundry",
+        "apex neural rendering",
+        "while",
+        "rather",
+        "vram",
+        "now",
+        "nevertheless",
+        "ui",
+        "fg",
+        "crimson desert",
+        "but still needs more polish\ndigital foundry",
+        "rtx",
+        "rx",
+        "us\nperhaps",
+        "pc",
+        "ii",
+        "radeon",
+        "spider",
+        "ryzen",
+        "almost",
+        "man remastered",
+        "frame generation",
+        "and intel",
+        "gpu",
+        "anr",
+        "cyberpunk",
+        "fps",
+        "dlss",
+        "amd",
+        "apex compute",
+        "multi frame generation",
+        "us part",
+        "intel",
+        "gb",
+        "dlaa",
+        "nvidia",
+        "image"
+      ],
+      "numbers": [
+        "10%",
+        "3.6%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 49
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7c9e152164fe1a543c8d9cee",
+      "title": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-25T15:59:44+00:00",
+      "why_relevant": "日本风险影响比特币",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "short",
+        "bitcoin",
+        "japan",
+        "crypto long"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 4
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_9c6ce54f6008d6c55d6c21d5",
+      "title": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
+      "url": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+      "publisher": "CoinDesk",
+      "summary": "",
+      "category": "财经",
+      "published_at": "2026-11-25T17:38:33+00:00",
+      "why_relevant": "加密老兵预警更深跌势",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "crypto"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 1
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_c5844e659cd6d3930ebd4f24",
+      "title": "US economy roars ahead in third quarter, inflation remains high in October",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNalBrRjhRWHdhRDduMzduLU1kN1lGVFpzNFllX0RzdjJXMjdtajRZS1l1dms2MFJFbkhJQmx3Qzgydi1nTTJnQ1JPLUtoa1R5LWZjWjItUXJhXzhoZG51NU9ENzVBQjVSZWFpdHlqbV9PSkVncWtjUlptdXhjd0ZKRXZ6d2Y1dw?oc=5",
+      "publisher": "Reuters Business",
+      "summary": "US economy roars ahead in third quarter, inflation remains high in October&nbsp;&nbsp;Reuters",
+      "category": "财经",
+      "published_at": "2026-11-25T22:06:55+00:00",
+      "why_relevant": "美经济强劲通胀仍高",
+      "relevance_score": 9.0,
+      "confirmed_facts": [],
+      "entities": [
+        "us",
+        "reuters",
+        "october"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": true,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_4bb791ca93e66ab7ba520c7e",
+      "title": "Why Indian nationals are still ending up in Russia's war on Ukraine",
+      "url": "https://www.dw.com/en/why-indian-nationals-are-still-ending-up-in-russia-s-war-on-ukraine/a-80048537?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "Whether through deception or desperation, Indians continue to be drawn into Russia's war in Ukraine. What can New Delhi do to protect its citizens from ending up fighting in Ukraine?",
+      "category": "国际",
+      "published_at": "2026-11-25T13:17:00+00:00",
+      "why_relevant": "印度人卷入俄乌战争",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Why Indian nationals are still ending up in Russia's war on Ukraine November 25, 2026 Gurpreet Singh Randhawa, a 40-year-old from Jalandhar in India's northern Punjab state, said he traveled to Russia for work after responding to a Facebook advertisement for a driving job at a ga",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.628475+08:00",
+          "content_sha256": "a2d75ff79793417dab2889aae30c4941e42b7234f93840dc0af0cbcd1f3b647f",
+          "excerpt": "Why Indian nationals are still ending up in Russia's war on Ukraine November 25, 2026 Gurpreet Singh Randhawa, a 40-year-old from Jalandhar in India's northern Punjab state, said he traveled to Russia for work after responding to a Facebook advertisement for a driving job at a ga",
+          "sentence_hash": "5eca747f3aab58e0a280a4d8a85ef8f41b6736d2bd79804dc05fbeaeda30fc6b",
+          "anchors": [
+            "after",
+            "November 25"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "After escaping from his unit, he surrendered to Ukrainian forces in November.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.628493+08:00",
+          "content_sha256": "a2d75ff79793417dab2889aae30c4941e42b7234f93840dc0af0cbcd1f3b647f",
+          "excerpt": "After escaping from his unit, he surrendered to Ukrainian forces in November.",
+          "sentence_hash": "7e993c6880452db033ed6f2e6463c9dd55789c61121ad382f56cef6c515f0d1d",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "In an interview with Ukrainian YouTuber Volodymyr Zolkin, Randhawa described how, after arriving in Russia, he was taken to a military facility, made to sign a contract and sent for training.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.628513+08:00",
+          "content_sha256": "a2d75ff79793417dab2889aae30c4941e42b7234f93840dc0af0cbcd1f3b647f",
+          "excerpt": "In an interview with Ukrainian YouTuber Volodymyr Zolkin, Randhawa described how, after arriving in Russia, he was taken to a military facility, made to sign a contract and sent for training.",
+          "sentence_hash": "81806bb9955a9edaa8ae0d18407b26c6996f2c69e4fc6d2ff3abe87faa438bbe",
+          "anchors": [
+            "after"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "He said they confiscated his passport and phone.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.628522+08:00",
+          "content_sha256": "a2d75ff79793417dab2889aae30c4941e42b7234f93840dc0af0cbcd1f3b647f",
+          "excerpt": "He said they confiscated his passport and phone.",
+          "sentence_hash": "c91b9bb8e5afd0f1b5d0d475088cbcaab144abbe1f77b822c99dd57f632f7e62",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Sahil Majothi, a 23-year-old from Gujarat, surrendered to Ukrainian forces in October 2025.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.628542+08:00",
+          "content_sha256": "a2d75ff79793417dab2889aae30c4941e42b7234f93840dc0af0cbcd1f3b647f",
+          "excerpt": "Sahil Majothi, a 23-year-old from Gujarat, surrendered to Ukrainian forces in October 2025.",
+          "sentence_hash": "0d3e8c49c3ebc069fb3e848abd8c99e81dc3ab5186ad87c0420b9e2a9337b082",
+          "anchors": [
+            "October 20"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "He had joined the Russian military while serving a prison sentence in Russia, reportedly believing that military service would help him secure his release.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.628557+08:00",
+          "content_sha256": "a2d75ff79793417dab2889aae30c4941e42b7234f93840dc0af0cbcd1f3b647f",
+          "excerpt": "He had joined the Russian military while serving a prison sentence in Russia, reportedly believing that military service would help him secure his release.",
+          "sentence_hash": "107d5069b2293e84e2d73b02bf7e69d8203a5c908699e0e5017104b8b5b14902",
+          "anchors": [
+            "his"
+          ]
+        }
+      ],
+      "entities": [
+        "facebook",
+        "duped",
+        "mea",
+        "indian",
+        "ministry",
+        "inadequate",
+        "moscow",
+        "why indian",
+        "jalandhar",
+        "some",
+        "russia",
+        "ukrainian",
+        "october",
+        "russian president vladimir putin",
+        "russian",
+        "randhawa",
+        "ukraine",
+        "gurpreet singh randhawa",
+        "november",
+        "indians",
+        "external affairs",
+        "tuber volodymyr zolkin",
+        "ukrainian you",
+        "after",
+        "ukraine\nnovember",
+        "former",
+        "putin",
+        "july",
+        "sahil majothi",
+        "anil trigunayat",
+        "india",
+        "his",
+        "but",
+        "supreme court",
+        "gujarat",
+        "prime minister narendra modi",
+        "punjab"
+      ],
+      "numbers": [],
+      "dates": [
+        "July 20",
+        "October 20",
+        "November 25"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_90dbb74cd02f38027baaf1d2",
+      "title": "China widens graft crackdown, putting ex-officials, crypto in crosshairs",
+      "url": "https://asia.nikkei.com/politics/china-widens-graft-crackdown-putting-ex-officials-crypto-in-crosshairs",
+      "publisher": "Nikkei Asia",
+      "summary": "",
+      "category": "国际",
+      "published_at": "",
+      "why_relevant": "反腐瞄准前高官与加密",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "october",
+        "discipline",
+        "central committee",
+        "sinopec",
+        "kyodo",
+        "chinese communist party",
+        "retired chongqing",
+        "the chinese communist party",
+        "xinhua"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 9
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_acb173a42003ed688f7f153b",
+      "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases.",
+      "category": "国际",
+      "published_at": "2026-11-25T19:47:39+00:00",
+      "why_relevant": "内塔尼亚胡案现转机",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Israeli judges recommend dropping most serious charges against Netanyahu - Published Judges in Israel have suggested prosecutors drop bribery charges against Benjamin Netanyahu, potentially handing the caretaker prime minister a boost as he fights for his political survival.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629241+08:00",
+          "content_sha256": "43feaa6aed2cba4a89cda16f475a0d31432f4d014e8aca6c64177d469a8cc376",
+          "excerpt": "Israeli judges recommend dropping most serious charges against Netanyahu - Published Judges in Israel have suggested prosecutors drop bribery charges against Benjamin Netanyahu, potentially handing the caretaker prime minister a boost as he fights for his political survival.",
+          "sentence_hash": "0fe4a6bc9db2325e6dbcda685f303a0395d226339e7d39ae9905d5d03ab30cc2",
+          "anchors": [
+            "ten"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The judges told the attorney general that there was little chance of conviction in the first of three cases he is facing, in which he is accused of granting government favours in exchange for positive media coverage.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629259+08:00",
+          "content_sha256": "43feaa6aed2cba4a89cda16f475a0d31432f4d014e8aca6c64177d469a8cc376",
+          "excerpt": "The judges told the attorney general that there was little chance of conviction in the first of three cases he is facing, in which he is accused of granting government favours in exchange for positive media coverage.",
+          "sentence_hash": "075d9853ac328844c2add1f7f67da46d81f51a1aa4cb687256376b2517a02b81",
+          "anchors": [
+            "case"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "They also questioned whether his actions amounted to criminal conduct in a second corruption case, and suggested prosecutors seek a plea deal in a third.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629272+08:00",
+          "content_sha256": "43feaa6aed2cba4a89cda16f475a0d31432f4d014e8aca6c64177d469a8cc376",
+          "excerpt": "They also questioned whether his actions amounted to criminal conduct in a second corruption case, and suggested prosecutors seek a plea deal in a third.",
+          "sentence_hash": "1761ea622b0497921cc3af88f769f85486273df7438f8f8d409a06ece7db0596",
+          "anchors": [
+            "case"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Netanyahu has consistently denied the allegations against him and called on Wednesday for the trial to be ended \"immediately\".",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629282+08:00",
+          "content_sha256": "43feaa6aed2cba4a89cda16f475a0d31432f4d014e8aca6c64177d469a8cc376",
+          "excerpt": "Netanyahu has consistently denied the allegations against him and called on Wednesday for the trial to be ended \"immediately\".",
+          "sentence_hash": "f8f0649e1d54d30383eb898094b20fbbe761b04ab13f819d62648d6fbb79ccdd",
+          "anchors": [
+            "ten"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The case now under serious doubt, known as Case 4,000, concerns an alleged \"reciprocal arrangement\" between Netanyahu and the controlling shareholder in Israel's biggest telecoms company.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629301+08:00",
+          "content_sha256": "43feaa6aed2cba4a89cda16f475a0d31432f4d014e8aca6c64177d469a8cc376",
+          "excerpt": "The case now under serious doubt, known as Case 4,000, concerns an alleged \"reciprocal arrangement\" between Netanyahu and the controlling shareholder in Israel's biggest telecoms company.",
+          "sentence_hash": "306c06fca6033e94f45b4430b0f2901491403b78eef23370ab4b6fc8178aeb21",
+          "anchors": [
+            "case"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "\"The chances of conviction are low â to an extent that warrants reconsidering the matter,\" Judge Rivka Friedman-Feldman told her, Israeli media reported.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629319+08:00",
+          "content_sha256": "43feaa6aed2cba4a89cda16f475a0d31432f4d014e8aca6c64177d469a8cc376",
+          "excerpt": "\"The chances of conviction are low â to an extent that warrants reconsidering the matter,\" Judge Rivka Friedman-Feldman told her, Israeli media reported.",
+          "sentence_hash": "df13b72ab6d314c1a9baeef4a6efe6bae4877f12560205601b921033f8af2758",
+          "anchors": [
+            "ten"
+          ]
+        }
+      ],
+      "entities": [
+        "australian",
+        "however",
+        "israeli",
+        "wednesday",
+        "published\njudges",
+        "judge rivka friedman",
+        "miara",
+        "jerusalem district court",
+        "case",
+        "netanyahu",
+        "published",
+        "ten",
+        "while",
+        "israel",
+        "they",
+        "baharav",
+        "both",
+        "feldman",
+        "gaza",
+        "israeli attorney general gali baharav",
+        "benjamin netanyahu"
+      ],
+      "numbers": [],
+      "dates": [
+        "May 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 22
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_10770f40d4f1f8a55c9b6725",
+      "title": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "publisher": "GitHub Trending",
+      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.https://mjmirza.github.io/app-store-compliance/ \n &nbsp;&nbsp;&nbsp; \n App Store Compliance Playbook \n Catch App Store and Google Play rejection causes before the reviewer does. A reference and a pre-submission guard for iOS and ",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "上架合规避坑指南",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629818+08:00",
+          "content_sha256": "5ae8b7a705946f1ae62b731006c6bf69c0395ebeec6a6940265de313e9f2e039",
+          "excerpt": "A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person.",
+          "sentence_hash": "1e2f79731a96d2c61d9db6a61af0faa0e4b259d6e6cdcbd43fd31c94d4f4cd13",
+          "anchors": [
+            "needs"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Read it as a website at mjmirza.github.io/app-store-compliance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629829+08:00",
+          "content_sha256": "5ae8b7a705946f1ae62b731006c6bf69c0395ebeec6a6940265de313e9f2e039",
+          "excerpt": "Read it as a website at mjmirza.github.io/app-store-compliance.",
+          "sentence_hash": "42f23ebe185bc3a641427a1d915f868cacda4e37a7f3efda9b8fcbcce67db23a",
+          "anchors": [
+            "hub",
+            "git"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "If this saves you even one rejection, leave a star, fork it, and follow along.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629839+08:00",
+          "content_sha256": "5ae8b7a705946f1ae62b731006c6bf69c0395ebeec6a6940265de313e9f2e039",
+          "excerpt": "If this saves you even one rejection, leave a star, fork it, and follow along.",
+          "sentence_hash": "94c19ebacb6f9ccba8c3b26fa3d42d3ed2b9bbcea8915e2c932ca9a76cafde8f",
+          "anchors": [
+            "follow",
+            "star",
+            "you",
+            "fork"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Needs git and bash.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629851+08:00",
+          "content_sha256": "5ae8b7a705946f1ae62b731006c6bf69c0395ebeec6a6940265de313e9f2e039",
+          "excerpt": "Needs git and bash.",
+          "sentence_hash": "f5a3802d763f8b6a97c9be6b2ee84c71229f6336d1498dba87daf26db835b514",
+          "anchors": [
+            "git"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The second scans your app.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629859+08:00",
+          "content_sha256": "5ae8b7a705946f1ae62b731006c6bf69c0395ebeec6a6940265de313e9f2e039",
+          "excerpt": "The second scans your app.",
+          "sentence_hash": "a7445b3cd561145b22a471f7271dbab7103e578efe662cb7218edffd3ce9c4eb",
+          "anchors": [
+            "your",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Nothing is installed and nothing in your app is changed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.629868+08:00",
+          "content_sha256": "5ae8b7a705946f1ae62b731006c6bf69c0395ebeec6a6940265de313e9f2e039",
+          "excerpt": "Nothing is installed and nothing in your app is changed.",
+          "sentence_hash": "0d8239dc69d51cf38e93867975fc296a15fb02afc51cef2bc381b5e5cbf0ea1c",
+          "anchors": [
+            "your",
+            "nothing",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "android",
+        "you",
+        "keep",
+        "apple",
+        "follow",
+        "needs",
+        "google",
+        "these",
+        "replace",
+        "english",
+        "fork",
+        "git",
+        "every",
+        "nothing",
+        "read",
+        "guideline",
+        "hub",
+        "google play",
+        "your",
+        "xcode",
+        "findings",
+        "pick",
+        "catch app store",
+        "star",
+        "sdk",
+        "finder"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 26
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_c913cdf49cc6ff12ff88c63b",
+      "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+      "publisher": "Pragmatic Engineer",
+      "summary": "Katelyn Lesse explains how Anthropic rewrote Claude&#8217;s API in Rust and how AI agents are changing engineering at the company.",
+      "category": "科技",
+      "published_at": "2026-11-25T17:31:32+00:00",
+      "why_relevant": "Anthropic用Rust重写API",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Programming note: there will be no The Pulse tomorrow.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.630429+08:00",
+          "content_sha256": "c61ab7b034e66d3e4ac7b54b2638fcafac1ae14ee83561aab9d92ff8b4fe577f",
+          "excerpt": "Programming note: there will be no The Pulse tomorrow.",
+          "sentence_hash": "b52ff5aee2145b3f57679916286e6509aa63b9491f256e46f0c980677d62996e",
+          "anchors": [
+            "there",
+            "her"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "For those of you who celebrate, Happy Thanksgiving!",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.630442+08:00",
+          "content_sha256": "c61ab7b034e66d3e4ac7b54b2638fcafac1ae14ee83561aab9d92ff8b4fe577f",
+          "excerpt": "For those of you who celebrate, Happy Thanksgiving!",
+          "sentence_hash": "d87e4e1a1abf12e5b1df8d253882bab3fb448e45d492b5795a432da0db02ff9a",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "See the episode transcript at the top of this page, and timestamps for the episode at the bottom.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.630462+08:00",
+          "content_sha256": "c61ab7b034e66d3e4ac7b54b2638fcafac1ae14ee83561aab9d92ff8b4fe577f",
+          "excerpt": "See the episode transcript at the top of this page, and timestamps for the episode at the bottom.",
+          "sentence_hash": "855e9997b8db11f8202c71dbf9f093b4141e9ee9011e528b1b8046d8f196b044",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Brought to You by • turbopuffer – companies like Anthropic, Cognition, and Notion build their search infrastructure on turbopuffer because it is insanely reliable and performant at the frontier of AI scale.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.630487+08:00",
+          "content_sha256": "c61ab7b034e66d3e4ac7b54b2638fcafac1ae14ee83561aab9d92ff8b4fe577f",
+          "excerpt": "Brought to You by • turbopuffer – companies like Anthropic, Cognition, and Notion build their search infrastructure on turbopuffer because it is insanely reliable and performant at the frontier of AI scale.",
+          "sentence_hash": "c34f0db24506f30e9bf5a96aa4d23ed4798d3d1b17d0c667774d8c4f18c2e1b4",
+          "anchors": [
+            "for",
+            "us",
+            "use"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Sign up today and start building.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.630501+08:00",
+          "content_sha256": "c61ab7b034e66d3e4ac7b54b2638fcafac1ae14ee83561aab9d92ff8b4fe577f",
+          "excerpt": "Sign up today and start building.",
+          "sentence_hash": "84370ea1e2cc3ef941f47467fb96256ce5eb8f128cd4e5a6bf11e79f8315b2fe",
+          "anchors": [
+            "today"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "• Antithesis – Verify your system’s correctness without human review or traditional integration tests, and avoid bugs and outages.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-26T08:03:22.630519+08:00",
+          "content_sha256": "c61ab7b034e66d3e4ac7b54b2638fcafac1ae14ee83561aab9d92ff8b4fe577f",
+          "excerpt": "• Antithesis – Verify your system’s correctness without human review or traditional integration tests, and avoid bugs and outages.",
+          "sentence_hash": "b1ddaff87d7fb2133661eb3a6c3ea7b8143bc3d49e0d0b47f30c3eb3bb346bb6",
+          "anchors": [
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "tube",
+        "python",
+        "api",
+        "takeaways",
+        "use",
+        "there",
+        "you",
+        "europe",
+        "apple",
+        "learning",
+        "katelyn",
+        "australia",
+        "programming",
+        "spotify",
+        "git",
+        "claude",
+        "cognition",
+        "today",
+        "ai",
+        "anthropic",
+        "katelyn lesse",
+        "us",
+        "entire",
+        "brought",
+        "singapore",
+        "just",
+        "happy thanksgiving",
+        "katelyn\nhere",
+        "the pragmatic engineer",
+        "the pulse",
+        "for",
+        "her",
+        "check",
+        "rust",
+        "antithesis",
+        "claude code",
+        "see",
+        "they",
+        "notion",
+        "trails",
+        "listen",
+        "brazil",
+        "verify",
+        "team",
+        "india",
+        "stripe",
+        "claude desktop",
+        "cpu",
+        "learn",
+        "sign"
+      ],
+      "numbers": [
+        "$1",
+        "50%",
+        "$2,999"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 53
+      },
+      "evidence_complete": true
+    }
+  ]
+}
