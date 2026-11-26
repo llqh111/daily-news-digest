@@ -1,6 +1,8 @@
 """全面诊断 —— 逐项检测每个环节"""
 import os, sys
 
+from digest.config import DEEPSEEK_MODEL
+
 print("=" * 55)
 print("  每日新闻推送 - 诊断工具")
 print("=" * 55)
@@ -26,7 +28,9 @@ try:
     r = requests.post(
         "https://api.deepseek.com/v1/chat/completions",
         headers={"Authorization": f"Bearer {dk}", "Content-Type": "application/json"},
-        json={"model": "deepseek-reasoner", "messages": [{"role": "user", "content": "说一句你好"}], "max_tokens": 20},
+        json={"model": DEEPSEEK_MODEL,
+              "messages": [{"role": "user", "content": "说一句你好"}],
+              "thinking": {"type": "disabled"}, "max_tokens": 20},
         timeout=30,
     )
     if r.status_code == 200:

@@ -17,7 +17,7 @@ from datetime import datetime
 
 import requests
 
-from .config import TZ, BATCH_SIZE, _PERSONAL_RE
+from .config import TZ, BATCH_SIZE, DEEPSEEK_MODEL, _PERSONAL_RE
 from .factcheck import build_factcheck_notes, sanity_check_output
 from .storage import load_recent_digests
 from .quality import DigestLayoutError, parse_main_items, validate_digest_layout
@@ -213,7 +213,7 @@ def _articles_to_text(articles: list[dict]) -> str:
 
 def _call_deepseek_once(system_prompt: str, user_prompt: str,
                         max_tokens: int = 8000,
-                        model: str = "deepseek-v4-pro",
+                        model: str = DEEPSEEK_MODEL,
                         thinking_enabled: bool = True) -> dict:
     """单次调用 DeepSeek（流式 + 自动重试）。
 

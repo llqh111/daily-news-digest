@@ -62,8 +62,9 @@ SLOW_WINDOW_HOURS = 72
 FINAL_PICK = 13                          # triage 精选后最终保留条数
 MIN_MAIN_NEWS = 8                        # 低于此数不发送半成品晨报
 REQUIRED_MAIN_CATEGORIES = ("国际", "科技", "财经")
-TRIAGE_MODEL = "deepseek-v4-pro"         # 决策环节用 V4-Pro 思考模式（吃判断力）
-SCOUT_MODEL = "deepseek-v4-flash"        # 侦察兵 ReAct 循环用 V4-Flash 思考模式（多轮）
+DEEPSEEK_MODEL = "deepseek-flash"
+TRIAGE_MODEL = DEEPSEEK_MODEL
+SCOUT_MODEL = DEEPSEEK_MODEL
 SCOUT_ENABLED = True                     # 侦察兵总开关，想省钱临时关掉改 False
 SCOUT_MAX_ROUNDS = 6                     # ReAct 最多循环轮数
 SCOUT_MAX_TOOL_CALLS = 10               # 工具调用总次数上限
@@ -76,7 +77,7 @@ TOPIC_PLATFORM = "短视频/公众号通用"      # 自媒体选题平台口吻
 #  生物前沿单槽参数（独立板块，每期精确 1 条，不参与主新闻打分竞争）
 # ═══════════════════════════════════════════════════
 BIO_ENABLED = True                       # 生物板块总开关
-BIO_MODEL = "deepseek-v4-flash"          # 生物一句话概括用 V4-Flash 思考模式
+BIO_MODEL = DEEPSEEK_MODEL
 BIO_TIME_WINDOW_HOURS = 72               # 科研报道更新慢，时间窗放宽到 72h
 BIO_MAX_PER_FEED = 6                      # 每个生物源最多取几条进候选
 
@@ -447,7 +448,7 @@ TITLE_STOPWORDS = {
 #  GitHub 热榜板块（独立板块，每期 5 条，不参与主新闻打分竞争）
 # ═══════════════════════════════════════════════════
 GITHUB_ENABLED = True                          # 板块总开关
-GITHUB_MODEL = "deepseek-v4-flash"             # 中文一句话用 V4-Flash 思考模式
+GITHUB_MODEL = DEEPSEEK_MODEL
 GITHUB_QUOTA = {"rising": 3, "veteran": 2}     # 黑马/老牌配比，和 = 5
 GITHUB_RISING_DAYS = 7                          # 黑马：created 近 N 天
 GITHUB_VETERAN_DAYS = 30                        # 老牌：pushed 近 N 天
@@ -482,7 +483,7 @@ SEMANTIC_SUMMARY_CHARS = 120
 # 成稿后让 DeepSeek 打分，低于阈值带着问题清单重写一次。
 # 重写后做「来源数不降 + 长度不暴跌」硬校验，破格式就弃用——质量增强绝不阻断推送。
 SELF_CRITIQUE_ENABLED = True
-CRITIQUE_MODEL = "deepseek-v4-pro"   # 裁判吃判断力，用 V4-Pro 思考模式
+CRITIQUE_MODEL = DEEPSEEK_MODEL
 REWRITE_THRESHOLD = 6.0              # overall < 此分触发重写（保守起步，少重写省 token）
 REWRITE_MAX = 1                      # 最多重写次数（防烧钱/死循环）
 

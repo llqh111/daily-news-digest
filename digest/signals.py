@@ -19,7 +19,7 @@ import feedparser
 
 from .ai import _call_deepseek_once
 from .fetch import _fetch_feed_content, clean_html
-from .config import TZ, FEED_FETCH_WORKERS
+from .config import TZ, DEEPSEEK_MODEL, FEED_FETCH_WORKERS
 
 log = logging.getLogger(__name__)
 
@@ -32,7 +32,7 @@ SIGNALS_FILE = os.path.join(
     "signals.txt",
 )
 SIGNALS_ENABLED = True
-SIGNALS_MODEL = "deepseek-v4-flash"
+SIGNALS_MODEL = DEEPSEEK_MODEL
 SIGNALS_MAX_PER_FEED = 3
 SIGNALS_TOP_N = 3              # 每期推送几条
 SIGNALS_TIME_WINDOW_HOURS = 72  # newsletter 更新慢，放长窗口

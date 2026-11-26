@@ -1,4 +1,4 @@
-"""triage.py — DeepSeek R1 决策环节：精选 + 排序候选新闻。
+"""triage.py — DeepSeek Flash 决策环节：精选 + 排序候选新闻。
 
 从粗筛候选（~25 条）中让 R1 精选并打分，返回排好序的子集（≤ FINAL_PICK 条）。
 输入：只用轻量字段（title/summary/source/category/cluster_size），不带正文——正文在下一步才抓。

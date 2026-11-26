@@ -1,6 +1,6 @@
 # 📰 Daily News Digest
 
-Twice a day, automatically pull news from 20 global outlets → DeepSeek AI writes a deep-dive digest in Chinese → delivered to your WeChat and Telegram. Runs entirely on GitHub Actions for free — set it up once, then just read.
+Every morning, automatically pull news from 20 global outlets → DeepSeek AI writes a deep-dive digest in Chinese → delivered to your WeChat and Telegram. Runs entirely on GitHub Actions for free — set it up once, then just read.
 
 ## What it does
 
@@ -72,7 +72,7 @@ If everything is set up correctly, you should receive a digest on WeChat / Teleg
    - `SERVERCHAN_SENDKEY`
    - `TELEGRAM_BOT_TOKEN` *(optional)*
    - `TELEGRAM_CHAT_ID` *(optional)*
-3. Actions is enabled by default — digests run at **08:00 and 20:00 Beijing time** every day
+3. Configure cron-job.org to call the workflow with `workflow_dispatch` at **07:30 Beijing time** every day
 4. You can also trigger a run manually via `Actions → Run workflow`
 
 ### Weekly review
@@ -81,7 +81,7 @@ If everything is set up correctly, you should receive a digest on WeChat / Teleg
 
 每周复盘通过 `python main.py --weekly` 生成，只读取已送达且证据卡、质量报告均完整的最近 7 天档案；不会重新抓取 RSS。它包含“本周真正变化”“本周值得回看”“尚未兑现或仍有分歧”和“下周观察点”。
 
-现有调度由 cron-job.org 调用 `workflow_dispatch`。请新增一条**周日 09:00（北京时间）**任务，调用相同工作流并传入 `mode=weekly`；日常两条任务继续传 `mode=daily`（或不传，默认日报）。手动运行时在 GitHub Actions 的 `mode` 下拉框选择 `weekly`。
+现有调度由 cron-job.org 调用 `workflow_dispatch`。请新增一条**周日 09:00（北京时间）**任务，调用相同工作流并传入 `mode=weekly`；每天 07:30 的晨报任务传 `mode=daily`（或不传，默认日报）。手动运行时在 GitHub Actions 的 `mode` 下拉框选择 `weekly`。
 
 > ⚠️ **Note**: The workflow requires `contents: write` permission because it commits `sent_articles.json` after each run to track delivered articles and prevent duplicates.
 
@@ -165,7 +165,7 @@ daily-news-digest/
 ├── sent_articles.json       # Delivery log (auto-generated, prevents duplicates)
 ├── digests/                 # Sample digest archive
 ├── .github/workflows/
-│   └── daily-digest.yml     # GitHub Actions scheduled workflow
+│   └── daily-digest.yml     # GitHub Actions workflow triggered by cron-job.org
 └── 运行.bat / 诊断.bat       # Windows double-click launchers
 ```
 

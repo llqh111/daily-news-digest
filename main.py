@@ -549,7 +549,7 @@ def main() -> None:
         # 推断失败阶段
         stage_map = {
             "fetch_all_feeds": "RSS抓取",
-            "triage_with_deepseek": "R1决策精选",
+            "triage_with_deepseek": "Flash决策精选",
             "ensure_main_news_coverage": "主新闻覆盖质检",
             "scout_for_gaps": "信息差侦察",
             "pick_bio_breakthrough": "生物前沿挑选",
