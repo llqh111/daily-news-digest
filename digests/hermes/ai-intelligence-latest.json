@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T23:34:25.019041+00:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T23:34:49.544303+00:00",
   "sources": {
     "daily_news_digest": {
       "status": "present",
-      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
-      "count": "13"
+      "path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-27-AM.json",
+      "count": "12"
     },
     "youtube_digest": {
       "status": "missing",
-      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-26.json",
+      "path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-27.json",
       "previous_night_status": "missing",
-      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-25.json"
+      "previous_night_path": "D:\\Documents\\youtube-digest/digests/hermes/2026-11-26.json"
     },
     "llm_wiki": {
       "status": "missing",
@@ -23,117 +23,199 @@
   },
   "items": [
     {
-      "article_id": "a1_e2b069b06ecaacbdce38954f",
-      "title": "US trading partners’ patience wears thin as Trump slaps on new tariffs",
-      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375819/us-trading-partners-patience-wears-thin-trump-slaps-new-tariffs",
-      "publisher": "SCMP",
-      "summary": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.\nThis followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.\nThe new levies, subject to a public comment period, would",
-      "category": "国际",
-      "published_at": "2026-11-25T23:30:23+00:00",
-      "why_relevant": "贸易伙伴耐心耗尽",
-      "relevance_score": 9.0,
+      "article_id": "a1_7be1ede1384420b2740452ef",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "publisher": "TechCrunch",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "category": "科技",
+      "published_at": "2026-11-26T20:03:54+00:00",
+      "why_relevant": "英伟达暂停对东南亚出货",
+      "relevance_score": 8.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.",
+          "text": "According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.625808+08:00",
-          "content_sha256": "4a047ea87a3e3c9cf4c26975f841cc35d27455794bb5386b700be447bd7a5b17",
-          "excerpt": "Major US trading partners and companies on the economic front lines decried US President Donald Trump’s latest tariff salvo on Wednesday, even as they expressed resignation, as his playbook has become more predictable and better telegraphed with repeated use.",
-          "sentence_hash": "ee17a66f197f7e38a4e1bc6b60819b7d37c2faf3ec2628101678437433e8e810",
+          "captured_at": "2026-11-27T07:32:05.785945+08:00",
+          "content_sha256": "b8e22dd7b8dbe04bffd34b2817efca82593ef89bdfaed2dae30314e56fb26a35",
+          "excerpt": "According to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified period as it assesses whether its regional partners are meeting U.S.",
+          "sentence_hash": "b586d48b2a113c491040d0fa88b003ed09b03b36a2b4563b8eec3d0ecb4dee91",
           "anchors": [
+            "ai",
             "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "This followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.",
+          "text": "The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.625831+08:00",
-          "content_sha256": "4a047ea87a3e3c9cf4c26975f841cc35d27455794bb5386b700be447bd7a5b17",
-          "excerpt": "This followed the White House’s proposal of fresh tariffs a few hours earlier on 14 major economies, including China, a week after Trump met Chinese President Xi Jinping in Shenzhen.",
-          "sentence_hash": "deb0c4cf51c9c3268cd5b287f6534653e1cb15bc9ad17edafd09a36b4d4a5ef7",
+          "captured_at": "2026-11-27T07:32:05.785975+08:00",
+          "content_sha256": "b8e22dd7b8dbe04bffd34b2817efca82593ef89bdfaed2dae30314e56fb26a35",
+          "excerpt": "The Journal notes that the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
+          "sentence_hash": "b3b4fe7e984d607639f0f7013f178d5580837282ce2edda58739d528f028ab22",
           "anchors": [
-            "major",
-            "us"
+            "24%"
           ]
         }
       ],
       "entities": [
+        "journal",
+        "super micro",
+        "thailand",
+        "the journal",
+        "commerce department",
+        "progress",
+        "nvidia",
+        "according",
+        "singapore",
+        "ai",
+        "indonesia",
         "china",
-        "president donald trump",
-        "major",
-        "wednesday",
-        "chinese president xi jinping",
-        "white house",
+        "wsj",
+        "malaysia",
+        "chinese",
+        "dell",
         "us",
-        "shenzhen",
-        "trump"
+        "institute"
       ],
-      "numbers": [],
+      "numbers": [
+        "24%"
+      ],
       "dates": [],
       "unknowns": [
-        "正文未抓到",
         "缺少明确时间"
       ],
       "coverage": {
-        "has_fulltext": false,
+        "has_fulltext": true,
         "has_multiple_sources": true,
         "fact_count": 2,
-        "anchor_count": 9
+        "anchor_count": 19
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
-      "source_artifact_date": "2026-11-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-27-AM.json",
+      "source_artifact_date": "2026-11-27",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_7dbca3fa7c84ed3508328503",
-      "title": "Nvidia turmoil casts pall over high-flying global AI chip industry",
-      "url": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-turmoil-casts-pall-over-high-flying-global-ai-chip-industry",
-      "publisher": "Nikkei Asia",
-      "summary": "",
+      "article_id": "a1_31c6b560910b41c2f9cf55af",
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
       "category": "国际",
-      "published_at": "",
-      "why_relevant": "英伟达动荡影响AI芯片",
-      "relevance_score": 9.0,
+      "published_at": "2026-11-26T21:17:53+00:00",
+      "why_relevant": "科威特遇袭，伊朗否认",
+      "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.",
+          "text": "Iran has denied responsibility for the attack, with Foreign Minister Abbas Araghchi saying the incident looked \"suspicious\" and that Tehran would work with Kuwait and Italy to \"determine the cause\".",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626000+08:00",
-          "content_sha256": "fc16a94d0d811b0c3b8d84336bb26ca27bdf1410f26e7c5d27bdbe255d244c9f",
-          "excerpt": "TOKYO -- Uncertainty has entered the booming global chip market following the scandal surrounding Nvidia CEO Jensen Huang and the Democrats' big gains in the midterm elections that could slow data center expansion.",
-          "sentence_hash": "9d478912a5319b8d2607793f8d288e652341d13961f4d57fe3c70cf4f52bc387",
+          "captured_at": "2026-11-27T07:32:05.786731+08:00",
+          "content_sha256": "ca6394eb89be0a22ee85bcd1af4a3377ae8be5b5b6f218fecc658d5dcdff3f84",
+          "excerpt": "Iran has denied responsibility for the attack, with Foreign Minister Abbas Araghchi saying the incident looked \"suspicious\" and that Tehran would work with Kuwait and Italy to \"determine the cause\".",
+          "sentence_hash": "db296246e8bbcf76d3a2bf1532ad8b5262ae9b45644ec919c34281a50a9bcff7",
           "anchors": [
-            "ai"
+            "us"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "Demand remains strong for chipmakers and equipment manufacturers Nvidia CEO Jensen Huang has been a leader for global AI investment.",
+          "text": "Kuwait's defence ministry said earlier that four people - the two Italians, a Kuwaiti national and Pakistani national - had been injured from falling shrapnel after a number of drones from Iran were detected and intercepted.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626012+08:00",
-          "content_sha256": "fc16a94d0d811b0c3b8d84336bb26ca27bdf1410f26e7c5d27bdbe255d244c9f",
-          "excerpt": "Demand remains strong for chipmakers and equipment manufacturers Nvidia CEO Jensen Huang has been a leader for global AI investment.",
-          "sentence_hash": "e8bbbc91c379ff7c00fef59af3224fe3f5cf230086e7e16c7d07997840d44dcd",
+          "captured_at": "2026-11-27T07:32:05.786759+08:00",
+          "content_sha256": "ca6394eb89be0a22ee85bcd1af4a3377ae8be5b5b6f218fecc658d5dcdff3f84",
+          "excerpt": "Kuwait's defence ministry said earlier that four people - the two Italians, a Kuwaiti national and Pakistani national - had been injured from falling shrapnel after a number of drones from Iran were detected and intercepted.",
+          "sentence_hash": "92274f741bc0e7e9ed888e28ebd62fb33649abf75ede8aa9311ab6db2e2da230",
           "anchors": [
-            "ai"
+            "earlier",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "It comes just over a week after Kuwait said it had repelled overnight Iranian drone attacks on an airbase which hosts US forces - the first strikes in more than two months on the country.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-27T07:32:05.786781+08:00",
+          "content_sha256": "ca6394eb89be0a22ee85bcd1af4a3377ae8be5b5b6f218fecc658d5dcdff3f84",
+          "excerpt": "It comes just over a week after Kuwait said it had repelled overnight Iranian drone attacks on an airbase which hosts US forces - the first strikes in more than two months on the country.",
+          "sentence_hash": "6e7a6ebc734853ac0687513582ca94ddad8250d847cc7443d3ce15255bda172d",
+          "anchors": [
+            "one",
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The conflict began when US and Israel attacked Iran in late February, with Iran retaliating by launching missiles and drones at Israel and Gulf Arab states hosting US military assets and personnel.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-27T07:32:05.786807+08:00",
+          "content_sha256": "ca6394eb89be0a22ee85bcd1af4a3377ae8be5b5b6f218fecc658d5dcdff3f84",
+          "excerpt": "The conflict began when US and Israel attacked Iran in late February, with Iran retaliating by launching missiles and drones at Israel and Gulf Arab states hosting US military assets and personnel.",
+          "sentence_hash": "6d39e8ec81efaf6dd039c865ceceb37c0b15db26dc611be76f42b4136a971824",
+          "anchors": [
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Kuwait's Army said the latest attack was on a \"vital site in the country\" and was the result of \"heinous Iranian aggression\", while confirming the deaths of the two Italian nationals.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-27T07:32:05.786839+08:00",
+          "content_sha256": "ca6394eb89be0a22ee85bcd1af4a3377ae8be5b5b6f218fecc658d5dcdff3f84",
+          "excerpt": "Kuwait's Army said the latest attack was on a \"vital site in the country\" and was the result of \"heinous Iranian aggression\", while confirming the deaths of the two Italian nationals.",
+          "sentence_hash": "0a6a8e9860b3da9aa76a5e4f316aadb72aa8126c39f71c5684a65500a81cbde2",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Italy's foreign minister was quoted by Italian media as saying that investigations showed that the drone used in the attack was manufactured in Iran and that Iranian proxies were known to carry out attacks in the region.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-27T07:32:05.786863+08:00",
+          "content_sha256": "ca6394eb89be0a22ee85bcd1af4a3377ae8be5b5b6f218fecc658d5dcdff3f84",
+          "excerpt": "Italy's foreign minister was quoted by Italian media as saying that investigations showed that the drone used in the attack was manufactured in Iran and that Iranian proxies were known to carry out attacks in the region.",
+          "sentence_hash": "1ffa16d82ff854d25b074dc03ac87df63f8b202447230e2ce2a2beee59a81cf4",
+          "anchors": [
+            "one",
+            "us"
           ]
         }
       ],
       "entities": [
-        "demand",
-        "ai",
-        "reuters",
-        "ceo",
-        "tokyo",
-        "uncertainty",
-        "democrats",
-        "nvidia",
-        "jensen huang"
+        "european commission president ursula",
+        "israel",
+        "tehran",
+        "abolfazl shekarchi",
+        "gulf arab",
+        "iran",
+        "leyen",
+        "italians",
+        "ansa",
+        "army",
+        "italian prime minister giorgia meloni",
+        "one",
+        "rheinmetall",
+        "foreign minister abbas araghchi",
+        "italy",
+        "february",
+        "published\ntwo italian",
+        "two italians",
+        "kuwaiti",
+        "us",
+        "pakistani",
+        "german",
+        "kuwaiti armed forces",
+        "araghchi",
+        "earlier",
+        "italian",
+        "kuwait",
+        "iranian",
+        "recent",
+        "on thursday"
       ],
       "numbers": [],
       "dates": [],
@@ -143,51 +225,56 @@
       "coverage": {
         "has_fulltext": true,
         "has_multiple_sources": true,
-        "fact_count": 2,
-        "anchor_count": 9
+        "fact_count": 6,
+        "anchor_count": 30
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
-      "source_artifact_date": "2026-11-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-27-AM.json",
+      "source_artifact_date": "2026-11-27",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_082d487c895db0836ff0b825",
-      "title": "US federal court blocks new Trump birthright citizenship executive order",
-      "url": "https://www.scmp.com/news/us/politics/article/3375818/us-federal-court-blocks-new-trump-birthright-citizenship-executive-order",
+      "article_id": "a1_a9e3e1f8333b5ff8b6a1f9bb",
+      "title": "Spain’s Pablo Hernandez de Cos to succeed Lagarde as European Central Bank chief",
+      "url": "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief",
       "publisher": "SCMP",
-      "summary": "A federal judge on Wednesday blocked US President Donald Trump’s latest executive order aimed at restricting birthright citizenship, dealing another setback to his ongoing effort to redefine what it means to be born an American.\n“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project. “The Supreme Court has twice rejected efforts to gut birthright citizenship, in 1898 and again earlier this year.\n“Third time is not the charm, and...",
+      "summary": "Spain’s Pablo Hernandez de Cos will be the next head of the European Central Bank, taking over from Christine Lagarde, diplomats said on Thursday.\nHis nomination comes at a time of tension on European bond markets and before a series of high-stakes elections in Europe next year, including in France.\nHernandez de Cos, 55, has been head of the Swiss-based Bank for International Settlements (BIS) since last year, and previously led the Bank of Spain from 2018 to 2024.\nThe ECB is the central bank...",
       "category": "国际",
-      "published_at": "2026-11-25T23:25:35+00:00",
-      "why_relevant": "法院再阻出生公民权令",
-      "relevance_score": 9.0,
+      "published_at": "2026-11-26T17:26:17+00:00",
+      "why_relevant": "ECB新掌门，宏观大事",
+      "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.",
+          "text": "The ECB is the central bank...",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626224+08:00",
-          "content_sha256": "712722e254d0757fc975d6fd8d6e6a093784f98ac2a06412937b4200e0bca40d",
-          "excerpt": "“Enough is enough,” said Cody Wofsy, deputy director of the American Civil Liberties Union’s Immigrants’ Rights Project.",
-          "sentence_hash": "2f7edc7f9ddfdc29a5c0f64a62e5f1fd6e4e4e913b9856332a484915443fec1e",
+          "captured_at": "2026-11-27T07:32:05.787090+08:00",
+          "content_sha256": "26a88d10e298e7396d415e7f5cf5ecb0b4089100598c7b4bc4e75785f782a1ca",
+          "excerpt": "The ECB is the central bank...",
+          "sentence_hash": "ae8879a31553b3642c96769f37175ee9f0c6f90a14dddfb989dc7ef8dc039cbb",
           "anchors": [
-            "enough"
+            "bank"
           ]
         }
       ],
       "entities": [
-        "president donald trump",
-        "american civil liberties union",
-        "the supreme court",
-        "wednesday",
-        "american",
-        "cody wofsy",
-        "rights project",
-        "immigrants",
-        "enough",
-        "us",
-        "third"
+        "cos",
+        "europe",
+        "france",
+        "hernandez",
+        "swiss",
+        "european",
+        "thursday",
+        "his",
+        "bis",
+        "bank",
+        "european central bank",
+        "international settlements",
+        "ecb",
+        "christine lagarde",
+        "spain",
+        "pablo hernandez"
       ],
       "numbers": [],
       "dates": [],
@@ -197,159 +284,146 @@
       ],
       "coverage": {
         "has_fulltext": false,
-        "has_multiple_sources": true,
+        "has_multiple_sources": false,
         "fact_count": 1,
-        "anchor_count": 11
+        "anchor_count": 16
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
-      "source_artifact_date": "2026-11-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-27-AM.json",
+      "source_artifact_date": "2026-11-27",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_758d502666f1d89f2fd76e3f",
-      "title": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "publisher": "GitHub Trending",
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.https://elementalsouls.github.io/Claude-BugHunter \nclaude-bughunter \n \n A self-contained Claude skill bundle for bug hunting and external red-team work · 84 skills · 15 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across ",
-      "category": "科技",
-      "published_at": "",
-      "why_relevant": "Claude Code漏洞狩猎技能包",
-      "relevance_score": 9.0,
+      "article_id": "a1_f2411258b56294c949408212",
+      "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+      "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
+      "category": "国际",
+      "published_at": "2026-11-26T20:34:34+00:00",
+      "why_relevant": "沙特炼油厂遇袭，油市风险",
+      "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
+          "text": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626827+08:00",
-          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
-          "excerpt": "A self-contained Claude skill bundle for bug hunting and external red-team work · 85 skills · 16 slash commands · 681 disclosed-report patterns (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · e",
-          "sentence_hash": "05dd044333599b7bd13d218196d7d8009447d1ce3b44ef53dbc399bba6fd5c74",
+          "captured_at": "2026-11-27T07:32:05.787795+08:00",
+          "content_sha256": "945d935cc299a0735cab2bef552f248ff9b3dc3edc835b580277bbf60a0c9942",
+          "excerpt": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
+          "sentence_hash": "17121cdfbffb1cd3bf61ad621be1f338d50492b1ac8fcfce1f58bb45f9f6c9dc",
           "anchors": [
-            "hunt",
-            "bug hunting",
-            "bug",
-            "all"
+            "attack"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
+          "text": "Thursday’s attack on the facility on the kingdom’s Red Sea coast caused a fire and temporarily halted some operations, the ministry said.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626846+08:00",
-          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
-          "excerpt": "claude-bughunter is a drop-in skill bundle for the Claude Code skills system.",
-          "sentence_hash": "31f52881b40ecfd7e5f516f3f7b80432516528e1ac67ceddffbb130192db3f08",
+          "captured_at": "2026-11-27T07:32:05.787830+08:00",
+          "content_sha256": "945d935cc299a0735cab2bef552f248ff9b3dc3edc835b580277bbf60a0c9942",
+          "excerpt": "Thursday’s attack on the facility on the kingdom’s Red Sea coast caused a fire and temporarily halted some operations, the ministry said.",
+          "sentence_hash": "299098307fbf3e6e20425151230bd2eb1431b1b864de37b1d7e958d2570a0ec3",
           "anchors": [
-            "hunt",
-            "hunter",
-            "bug",
-            "claude"
+            "attack",
+            "ministry"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
+          "text": "The statement did not identify who carried out the strike, but earlier the Saudi-led military coalition fighting Yemen’s Houthis said that the Iranian-backed group had attacked the refinery.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626874+08:00",
-          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
-          "excerpt": "Install once and Claude Code stops being a chatbot and starts behaving like a senior bug-hunting researcher or red-team operator: it knows the techniques, the chain templates, the VRT mappings, the platform CVE chains, and the hygiene — and it stays in scope.",
-          "sentence_hash": "b8cd10dd3498544fc5aa40e9e5dd8a0aa752b0d3275d8d48ed3bcd9583526ef7",
+          "captured_at": "2026-11-27T07:32:05.787856+08:00",
+          "content_sha256": "945d935cc299a0735cab2bef552f248ff9b3dc3edc835b580277bbf60a0c9942",
+          "excerpt": "The statement did not identify who carried out the strike, but earlier the Saudi-led military coalition fighting Yemen’s Houthis said that the Iranian-backed group had attacked the refinery.",
+          "sentence_hash": "831780f928530d8591cf4e688790f23e6921c4396ac740868ef393eceed57d03",
           "anchors": [
-            "hunt",
-            "bug",
-            "all"
+            "attack",
+            "earlier",
+            "fighting"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
+          "text": "The strike was the Houthis‘ latest blow against key Saudi facilities, a day after the group claimed attacks on Ras Tanura, the kingdom’s largest refinery and a major crude export hub, and the Red Sea ports of Jeddah and Jazan, amid escalating hostilities between the two sides.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626893+08:00",
-          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
-          "excerpt": "Four layers stack: - Think — bb-methodology + redteam-mindset: the 5-phase non-linear workflow, critical-thinking framework, and red-team operator discipline.",
-          "sentence_hash": "df83e2ae22720b5470bae27f0a7f5267d4387e69c0e1ce166bed80d209b582eb",
+          "captured_at": "2026-11-27T07:32:05.787896+08:00",
+          "content_sha256": "945d935cc299a0735cab2bef552f248ff9b3dc3edc835b580277bbf60a0c9942",
+          "excerpt": "The strike was the Houthis‘ latest blow against key Saudi facilities, a day after the group claimed attacks on Ras Tanura, the kingdom’s largest refinery and a major crude export hub, and the Red Sea ports of Jeddah and Jazan, amid escalating hostilities between the two sides.",
+          "sentence_hash": "01c662096ad86913c7727107b2db59fb1339b881a38183bb5125e488f70f2ef6",
           "anchors": [
-            "think"
+            "attack"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
+          "text": "The injured received medical care, while emergency personnel and specialised technical teams arrived at the site to assess the damage and verify the safety of the facilities following the attack, the ministry added.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626911+08:00",
-          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
-          "excerpt": "- Hunt webapps — 58 hunt-* skills curated from 681 disclosed HackerOne reports: per-class detection patterns, payloads, bypass tables, and chain templates.",
-          "sentence_hash": "7d1e0db437a9006a6ae1e7ea20413b4111f12ab7b8d01464e8621b24d2b8b2c1",
+          "captured_at": "2026-11-27T07:32:05.787927+08:00",
+          "content_sha256": "945d935cc299a0735cab2bef552f248ff9b3dc3edc835b580277bbf60a0c9942",
+          "excerpt": "The injured received medical care, while emergency personnel and specialised technical teams arrived at the site to assess the damage and verify the safety of the facilities following the attack, the ministry added.",
+          "sentence_hash": "40a86c9df1cc74647d2fe6bf9f0b984ec1e2dc1c84cf5cdd3829adedf7023d9b",
           "anchors": [
-            "hunt",
-            "from"
+            "attack",
+            "ministry"
           ]
         },
         {
           "fact_id": "f6",
-          "text": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
+          "text": "The refinery in southwestern Saudi Arabia, near the Yemeni border, is designed to process up to 400,000 barrels of crude oil per day.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.626942+08:00",
-          "content_sha256": "0ad9354d43f102a2ec34a58b61f97decd6f0bfb02299a5879b1e1d92bccef945",
-          "excerpt": "All triggered automatically by topic — describe what you're testing in plain English and the relevant skill loads.",
-          "sentence_hash": "eef2254a4df1d8bcdeaf56505a271c8aed475c5f39298fb328936350d29e277d",
+          "captured_at": "2026-11-27T07:32:05.787945+08:00",
+          "content_sha256": "945d935cc299a0735cab2bef552f248ff9b3dc3edc835b580277bbf60a0c9942",
+          "excerpt": "The refinery in southwestern Saudi Arabia, near the Yemeni border, is designed to process up to 400,000 barrels of crude oil per day.",
+          "sentence_hash": "c6fc130073c87b0a211f55eb8de9ef6e3c6dc445339585cac6894b6bd544fd01",
           "anchors": [
-            "all"
+            "400,000 barrels"
           ]
         }
       ],
       "entities": [
-        "owasp",
-        "share",
-        "api",
-        "question gate",
-        "ship",
-        "cve",
-        "dvwa",
-        "option",
-        "built",
-        "pii",
-        "point",
-        "sachin sharma",
-        "hunter",
-        "think",
-        "hit",
-        "bug hunting",
-        "one",
-        "every",
-        "claude",
-        "mcp",
-        "iam",
-        "ssl",
-        "gen",
-        "center",
-        "power",
-        "bug",
-        "all",
-        "shell",
-        "linux",
-        "windows",
-        "okta",
-        "vpn",
-        "from",
-        "vrt",
-        "hacker",
-        "entra",
-        "claude code",
-        "juice shop",
-        "security research",
-        "four",
-        "english",
-        "they",
-        "both",
-        "burp",
-        "install",
-        "hunt",
-        "oos"
+        "majed abdullah",
+        "turki",
+        "saudi energy ministry",
+        "thursday",
+        "saudi",
+        "the saudi ministry",
+        "later",
+        "yemen\non",
+        "jazan",
+        "sanaa",
+        "yemen",
+        "saudi arabia",
+        "targeting",
+        "jawf",
+        "energy",
+        "yemeni",
+        "shabwah",
+        "ministry",
+        "nuzaili",
+        "taiz",
+        "attack",
+        "red sea",
+        "houthi",
+        "nepali",
+        "hajjah",
+        "fighting",
+        "the saudi",
+        "ras tanura",
+        "there",
+        "maliki",
+        "hodeidah",
+        "earlier",
+        "jeddah",
+        "marib",
+        "iranian",
+        "lahj",
+        "houthis"
       ],
-      "numbers": [],
+      "numbers": [
+        "400,000 barrels"
+      ],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
@@ -358,156 +432,160 @@
         "has_fulltext": true,
         "has_multiple_sources": false,
         "fact_count": 6,
-        "anchor_count": 47
+        "anchor_count": 38
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
-      "source_artifact_date": "2026-11-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-27-AM.json",
+      "source_artifact_date": "2026-11-27",
       "freshness_label": "today"
     },
     {
-      "article_id": "a1_d14014978c7e5f43cb5d79b8",
-      "title": "Apex Neural Rendering Gives NVIDIA DLSS A Run For Its Money In Digital Foundry’s Testing, Introduces Game-Changing Comparison Tool",
-      "url": "https://wccftech.com/apex-neural-rendering-gives-nvidia-dlss-a-run-for-its-money-in-digital-foundrys-testing-introduces-game-changing-comparison-tool/",
-      "publisher": "Wccftech",
-      "summary": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs. We subsequently put the technology through its paces in three PC games, uncovering promising results alongside several shortcomings. Now, Digital Foundry has conducted its own independent analysis, with similarly encouraging, albeit mixed, fin",
+      "article_id": "a1_54521caae6e5553c3754f72c",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "publisher": "HuggingFace 博客",
+      "summary": "",
       "category": "科技",
-      "published_at": "2026-11-25T16:45:06+00:00",
-      "why_relevant": "开源方案挑战DLSS",
-      "relevance_score": 9.0,
+      "published_at": "2026-11-26T11:37:17+00:00",
+      "why_relevant": "AMD本地大模型基准，实用",
+      "relevance_score": 7.0,
       "confirmed_facts": [
         {
           "fact_id": "f1",
-          "text": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.",
+          "text": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon The llama.cpp × AMD Benchmark dashboard is available on Hugging Face.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.627554+08:00",
-          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
-          "excerpt": "Almost two weeks ago, we reported on Apex Neural Rendering (ANR), an ambitious open-source alternative to NVIDIA DLSS promising superior image quality, faster frame generation processing, and considerably lower VRAM consumption across a wide range of GPUs.",
-          "sentence_hash": "c33c45799aed65a814fa7de54cb3ea4bc770b6869b7dd9fae245855bbe479ff8",
+          "captured_at": "2026-11-27T07:32:05.788876+08:00",
+          "content_sha256": "74ed0ee0e4a43651a3c6325a195ca0200c9123859c5fe937c737e11ec854641e",
+          "excerpt": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon The llama.cpp × AMD Benchmark dashboard is available on Hugging Face.",
+          "sentence_hash": "dd32fa293ae73ae2b5785fbff2f6cbbcacde1c059dfe10ae46c14d8e73a25e8f",
           "anchors": [
-            "image",
-            "frame generation"
+            "available",
+            "ai",
+            "benchmark"
           ]
         },
         {
           "fact_id": "f2",
-          "text": "However, the tables turned at higher frame generation multipliers.",
+          "text": "It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.627594+08:00",
-          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
-          "excerpt": "However, the tables turned at higher frame generation multipliers.",
-          "sentence_hash": "7583bcaadc1000190723b3fd86096334709b39fdb67cd07eae5900c960af0a52",
+          "captured_at": "2026-11-27T07:32:05.788899+08:00",
+          "content_sha256": "74ed0ee0e4a43651a3c6325a195ca0200c9123859c5fe937c737e11ec854641e",
+          "excerpt": "It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware.",
+          "sentence_hash": "1ff9d0506f293f267bede67c5193438826989dbaa38c6c26b7b7c516e66c0b7f",
           "anchors": [
-            "frame generation"
+            "model",
+            "pro",
+            "build",
+            "you",
+            "hardware",
+            "local"
           ]
         },
         {
           "fact_id": "f3",
-          "text": "NVIDIA DLSS MFG was approximately 10% faster in Cyberpunk 2077 at 3X with path tracing enabled, while Crimson Desert at 4X saw ANR trail NVIDIA's solution by just 3.6%, with virtually identical PC latency.",
+          "text": "Local inference performance changes as models, kernels, and builds evolve.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.627614+08:00",
-          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
-          "excerpt": "NVIDIA DLSS MFG was approximately 10% faster in Cyberpunk 2077 at 3X with path tracing enabled, while Crimson Desert at 4X saw ANR trail NVIDIA's solution by just 3.6%, with virtually identical PC latency.",
-          "sentence_hash": "168b2531a038f6db33e30d356a739bc81fe702c63e5e7c71c222976c97c70662",
+          "captured_at": "2026-11-27T07:32:05.788912+08:00",
+          "content_sha256": "74ed0ee0e4a43651a3c6325a195ca0200c9123859c5fe937c737e11ec854641e",
+          "excerpt": "Local inference performance changes as models, kernels, and builds evolve.",
+          "sentence_hash": "abbb80584722dcf08c9276feeaa26d107a0772804daf465cdda40aab366eef8c",
           "anchors": [
-            "10%",
-            "3.6%",
-            "while"
+            "model",
+            "build"
           ]
         },
         {
           "fact_id": "f4",
-          "text": "Apex Neural Rendering Brings Multi Frame Generation To Older AMD And Intel GPUs Perhaps more compelling is ANR's ability to run through conventional compute shaders rather than relying on dedicated machine learning acceleration.",
+          "text": "We want those changes to be easy to inspect for any AMD developer: pick a hardware, a model and a build, compare quantizations, and follow performance over time.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.627654+08:00",
-          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
-          "excerpt": "Apex Neural Rendering Brings Multi Frame Generation To Older AMD And Intel GPUs Perhaps more compelling is ANR's ability to run through conventional compute shaders rather than relying on dedicated machine learning acceleration.",
-          "sentence_hash": "dd423e1e1d5a58008342454ae7c92bc890f1543b52a7fab77eb3bf73d1b58912",
+          "captured_at": "2026-11-27T07:32:05.788930+08:00",
+          "content_sha256": "74ed0ee0e4a43651a3c6325a195ca0200c9123859c5fe937c737e11ec854641e",
+          "excerpt": "We want those changes to be easy to inspect for any AMD developer: pick a hardware, a model and a build, compare quantizations, and follow performance over time.",
+          "sentence_hash": "3a6b2322385777fa7fe06326b3e5496bd138baaea7f7b80f4a15263f81926cb9",
           "anchors": [
-            "rather"
+            "build",
+            "model",
+            "hardware",
+            "inspect"
           ]
         },
         {
           "fact_id": "f5",
-          "text": "Rather than recording conventional gameplay footage, the tool captures the raw inputs supplied to frame generation and upscaling algorithms, allowing different implementations to process identical frames",
+          "text": "The benchmark workflow and underlying results are public, so you can also inspect how we benchmark inference performance.",
           "source_id": "source:primary",
-          "captured_at": "2026-11-26T08:03:22.627700+08:00",
-          "content_sha256": "7b49afe1d89bbf7450b91fa355b1616dadc3f9d7a1d3837695e50c6f02900672",
-          "excerpt": "Rather than recording conventional gameplay footage, the tool captures the raw inputs supplied to frame generation and upscaling algorithms, allowing different implementations to process identical frames",
-          "sentence_hash": "f968fdb36b932e9614a2e3351d3e6f5f28b8bd2d62ced1873d19f97bad0ad4d8",
+          "captured_at": "2026-11-27T07:32:05.788944+08:00",
+          "content_sha256": "74ed0ee0e4a43651a3c6325a195ca0200c9123859c5fe937c737e11ec854641e",
+          "excerpt": "The benchmark workflow and underlying results are public, so you can also inspect how we benchmark inference performance.",
+          "sentence_hash": "9bcf102a5ab2e9edb0749b2168535b0cba69b2fabcb9f5b1ca28434cb74a8d9c",
           "anchors": [
-            "frame generation"
+            "you",
+            "inspect",
+            "benchmark"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Quick start You can choose Hardware, Model, and llama.cpp build in the Configuration sidebar.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-27T07:32:05.788957+08:00",
+          "content_sha256": "74ed0ee0e4a43651a3c6325a195ca0200c9123859c5fe937c737e11ec854641e",
+          "excerpt": "Quick start You can choose Hardware, Model, and llama.cpp build in the Configuration sidebar.",
+          "sentence_hash": "871cbcf0697cebe8d7f0d873ff5f83ff0bc566838b5d38cc8b9b27c4c8dae08f",
+          "anchors": [
+            "build"
           ]
         }
       ],
       "entities": [
-        "arc",
-        "force",
-        "mfg",
-        "apex neural rendering trades blows with",
-        "however",
-        "new tool could revolutionize image quality comparisons\narguably",
-        "apex neural rendering brings multi frame generation to older",
-        "the last",
-        "in marvel",
-        "these",
-        "digital foundry",
-        "apex neural rendering",
-        "while",
-        "rather",
-        "vram",
-        "now",
-        "nevertheless",
-        "ui",
-        "fg",
-        "crimson desert",
-        "but still needs more polish\ndigital foundry",
-        "rtx",
-        "rx",
-        "us\nperhaps",
-        "pc",
-        "ii",
-        "radeon",
-        "spider",
-        "ryzen",
-        "almost",
-        "man remastered",
-        "frame generation",
-        "and intel",
-        "gpu",
-        "anr",
-        "cyberpunk",
-        "fps",
-        "dlss",
+        "model",
+        "storage bucket",
+        "context",
+        "qwen",
         "amd",
-        "apex compute",
-        "multi frame generation",
-        "us part",
-        "intel",
-        "gb",
-        "dlaa",
-        "nvidia",
-        "image"
+        "you",
+        "hardware",
+        "configuration",
+        "available",
+        "lfm",
+        "ryzen",
+        "mini",
+        "inspect",
+        "workload",
+        "pro",
+        "radeon\nthe",
+        "standard",
+        "benchmark",
+        "radeon",
+        "both",
+        "these",
+        "local",
+        "ai",
+        "flash attention",
+        "inkling",
+        "quick",
+        "overview",
+        "build",
+        "hugging face",
+        "gemma",
+        "introducing",
+        "gguf"
       ],
-      "numbers": [
-        "10%",
-        "3.6%"
-      ],
+      "numbers": [],
       "dates": [],
       "unknowns": [
         "缺少明确时间"
       ],
       "coverage": {
         "has_fulltext": true,
-        "has_multiple_sources": false,
-        "fact_count": 5,
-        "anchor_count": 49
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 32
       },
       "evidence_complete": true,
       "source_system": "daily-news-digest",
-      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-26-AM.json",
-      "source_artifact_date": "2026-11-26",
+      "evidence_path": "/home/runner/work/daily-news-digest/daily-news-digest/digests/hermes/2026-11-27-AM.json",
+      "source_artifact_date": "2026-11-27",
       "freshness_label": "today"
     }
   ]

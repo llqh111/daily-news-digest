@@ -1,6 +1,76 @@
 # 活跃事件总览
 
-> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-27 07:34。
+> 最近 30 天仍有新进展的新闻主线。更新于 2026-11-28 07:34。
+
+## US military says it disabled merchant ship trying to breach Iran blockade
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：US military says it disabled merchant ship trying to breach Iran blockade The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.
+- 事件 ID：`evt_20261128_43308a7ce7d5`
+
+## EXODUS Runs on an RTX 2060 at 1080p 30FPS Minimum, but Its 4K 60FPS Tier Jumps to an RTX 5080 + 9800X3D and 32GB of RAM
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Over four months ahead of the game's launch, EXODUS developer Archetype Entertainment has quietly released the PC system requirements for the upcoming sci-fi action RPG.
+- 事件 ID：`evt_20261128_df78469ef3f3`
+
+## Anthropic Shares Jump After Volatile First Week Since IPO
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 仍待观察：正文未抓到；缺少明确时间
+- 事件 ID：`evt_20261128_06564d2e93dd`
+
+## Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Chinese stocks rebounded sharply on Friday after a rare intraday state media readout cheered investors as top policymakers pledged to expand the role of state-backed funds in supporting the market.
+- 事件 ID：`evt_20261128_eb0c121b1f2e`
+
+## OpenAI countersues Apple over trade secrets as AI race heats up
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：OpenAI has sued Apple, accusing the Big Tech giant of stealing its trade secrets and blocking its access to hardware suppliers after Apple sued OpenAI for allegedly poaching its employees to gain access to its technology.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261128_bf57a8b0abb4`
+
+## Putin unveils new Russian nuclear-powered submarine with hypersonic weapons
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Putin unveils new Russian nuclear-powered submarine with hypersonic weapons The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261128_6f900e628dfa`
+
+## Divisions deepen between EU member states after tense budget summit
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Divisions deepen between EU member states after tense budget summit November 27, 2026 EU leaders arrived in Brussels braced for a difficult showdown over the bloc's multitrillion-euro seven-year budget.
+- 事件 ID：`evt_20261128_5b762737182d`
+
+## Zelensky criticises 'strange' Trump-Putin friendship in BBC interview
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Zelensky criticises 'strange' Trump-Putin friendship in BBC interview - Published Volodymyr Zelensky has voiced deep frustration with the US, criticising Donald Trump for calling Vladimir Putin "my friend" and saying delays in delivering vital anti-ballistic missiles were costing
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261128_08c0ab573b18`
+
+## Will Taiwan vote to revive nuclear power – and why does that matter for AI?
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Will Taiwan vote to revive nuclear power – and why does that matter for AI?
+- 事件 ID：`evt_20261128_316f8945b638`
+
+## Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card — midrange Blackwell continues to shine with DLSS 4.5 and DLSS 5 This is the best deal we've seen on an RTX 5070 this Black Friday.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261128_e9f375a23348`
+
+## The S&P 500 is in a correction. Bear markets and recessions don't always follow
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：20 for the first time since April 2025 as stocks pulled back sharply from October's record highs.
+- 事件 ID：`evt_20261128_2343f5584516`
+
+## zhouxiaoka/autoclip
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：The open-source OpusClip alternative — local-first AI clipping for podcasts, interviews, and gaming streams with smart reframing, captions, covers, titles, and built-in MCP for AI agents.
+- 仍待观察：缺少明确时间
+- 事件 ID：`evt_20261128_28707f84ddbd`
+
+## Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection
+- 状态：更新中；首见 2026-11-28；最近更新 2026-11-28
+- 最新事实：Computer Science > Artificial Intelligence [Submitted on 31 Aug 2026] Title:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection View PDF HTML (experimental) Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on t
+- 事件 ID：`evt_20261128_304af9913589`
 
 ## Zelenskiy says Russia preparing new mass strike in coming days
 - 状态：更新中；首见 2026-11-27；最近更新 2026-11-27
@@ -2029,71 +2099,4 @@
 - 最新事实：The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal.
 - 仍待观察：缺少明确时间
 - 事件 ID：`evt_20261029_97174b2351db`
-
-## GPT-6.1 Terra
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：26th October 2026 - Link Blog GPT-6.1 Terra (via) It's always interesting to note which aspects of a new model are emphasized in the release announcement.
-- 事件 ID：`evt_20261028_660153ef8887`
-
-## Global carmakers search for new China strategy as market share slips below 30%
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：Global carmakers search for new China strategy as market share slips below 30% Carmakers are scrambling to revamp their strategies as China’s cash-strapped consumers turn away from expensive foreign brands Global carmakers are searching for a way to survive in China’s cutthroat m
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_aaaae1c5b1c9`
-
-## Ukraine's Zelenskiy says territory recaptured, forces on the offensive
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 仍待观察：正文未抓到；缺少明确时间
-- 事件 ID：`evt_20261028_5d2271ef7ab0`
-
-## NVIDIA/SkillSpector
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：Security scanner for AI agent skills.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_b2c303344398`
-
-## Anthropic IPO warns its AI could blackmail people, become sentient, end humanity
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：But amid the numbers and forward-looking optimism about AI “rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,” Anthropic also spends an inordinate amount of time in its S-
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_c040eda5bafe`
-
-## Retell uses OpenAI models to help power 100M monthly calls
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：Retell uses OpenAI models to help power 100M monthly calls GPT‑6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.
-- 事件 ID：`evt_20261028_42e8a25466a2`
-
-## Israel election turnout highest in decades
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：First vote since October 7 2023 attack pits Netanyahu’s far-right coalition against opposition bloc in knife-edge contest
-- 仍待观察：正文未抓到
-- 事件 ID：`evt_20261028_4f2f88a3f2e7`
-
-## Trump administration may let more Russian diesel onto market, energy secretary tells CNBC
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：may allow more diesel fuel from Russia onto the global market depending on Moscow's behavior, Energy Secretary Chris Wright told CNBC in an interview Tuesday.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_34f6d1ca424c`
-
-## Iran war live: Pezeshkian says Middle East can solve own issues without US
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：Live updatesLive updates, Iran war live: Pezeshkian says Middle East can solve own issues without US Iranian president’s words came at summit for gas exporting countries in Russia.
-- 事件 ID：`evt_20261028_59ddd28ed2db`
-
-## ‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：‘Will Lula’s win end Latin America’s far right turn?’: Our correspondent in Brazil answered your questions Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second.
-- 事件 ID：`evt_20261028_f998a8a5fcea`
-
-## Norway and Finland leaders hold rare call with Putin
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：Norway and Finland leaders hold rare call with Putin - Published The leaders of Finland and Norway have held a joint call with Vladimir Putin - rare contact between the Russian president and European leaders.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_58b96c46e7cf`
-
-## How investors can position ahead of the Fed's next policy decision
-- 状态：更新中；首见 2026-10-28；最近更新 2026-10-28
-- 最新事实：The Federal Reserve's October rate decision has been a focus for investors and economists as Chairman Kevin Warsh has rejected traditional forward guidance.
-- 仍待观察：缺少明确时间
-- 事件 ID：`evt_20261028_e4fd0ea63201`
 

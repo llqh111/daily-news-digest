@@ -1,0 +1,1735 @@
+{
+  "schema_version": 1,
+  "source": "daily-news-digest",
+  "run_key": "2026-11-28-AM",
+  "date": "2026-11-28",
+  "session": "AM",
+  "delivered_at": "2026-11-28T07:34:49.524085+08:00",
+  "delivery_successful": true,
+  "exported_at": "2026-11-27T23:34:49.526092+00:00",
+  "quality": {
+    "total_items": 13,
+    "items_with_unsupported_numbers": 2,
+    "unsupported_ratio": 0.15384615384615385
+  },
+  "items": [
+    {
+      "article_id": "a1_11b3d94f49d88821cce012d9",
+      "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+      "category": "国际",
+      "published_at": "2026-11-27T22:22:02+00:00",
+      "why_relevant": "美军拦截闯伊朗封锁商船",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "US military says it disabled merchant ship trying to breach Iran blockade The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.685759+08:00",
+          "content_sha256": "bce6d303cc1860fd32c1481dab40363af1282401b84f0909fd1f343572f8aad9",
+          "excerpt": "US military says it disabled merchant ship trying to breach Iran blockade The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed.",
+          "sentence_hash": "67f0cc489c08cfb8d39513596ed8b7ad5e5f5b2891ebc53efefaa82cf23e7892",
+          "anchors": [
+            "military",
+            "ship"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The US military says it has fired on a merchant vessel in the Gulf of Oman and claims it was trying to breach an American blockade on Iranian ports.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.685789+08:00",
+          "content_sha256": "bce6d303cc1860fd32c1481dab40363af1282401b84f0909fd1f343572f8aad9",
+          "excerpt": "The US military says it has fired on a merchant vessel in the Gulf of Oman and claims it was trying to breach an American blockade on Iranian ports.",
+          "sentence_hash": "7b932cf7cef07e78cb2e4819a604acf8255a3dc31ff59532b9719e0544a783dd",
+          "anchors": [
+            "military"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Military aircraft fired “precision munitions” at the stern of the Palau-flagged M/V Pacific Archer on Thursday, and the “ship’s propulsion was ultimately disabled and the civilian crew was unharmed”, US Central Command (CENTCOM) said in a statement.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.685821+08:00",
+          "content_sha256": "bce6d303cc1860fd32c1481dab40363af1282401b84f0909fd1f343572f8aad9",
+          "excerpt": "Military aircraft fired “precision munitions” at the stern of the Palau-flagged M/V Pacific Archer on Thursday, and the “ship’s propulsion was ultimately disabled and the civilian crew was unharmed”, US Central Command (CENTCOM) said in a statement.",
+          "sentence_hash": "1543bb913836fd9ab1779cb26c0720469b88c2632b054a506ed14774f6117a52",
+          "anchors": [
+            "ship"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It is at least the 15th vessel the US military has publicly acknowledged disabling since the blockade began in April, and the sixth since it resumed it in July.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.685851+08:00",
+          "content_sha256": "bce6d303cc1860fd32c1481dab40363af1282401b84f0909fd1f343572f8aad9",
+          "excerpt": "It is at least the 15th vessel the US military has publicly acknowledged disabling since the blockade began in April, and the sixth since it resumed it in July.",
+          "sentence_hash": "e56d75802147df720e1264fe9e75f51fb29d523d0c75d8e367daaa8eb7d5f7b6",
+          "anchors": [
+            "military",
+            "since"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The previous vessel was disabled on November 7.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.685862+08:00",
+          "content_sha256": "bce6d303cc1860fd32c1481dab40363af1282401b84f0909fd1f343572f8aad9",
+          "excerpt": "The previous vessel was disabled on November 7.",
+          "sentence_hash": "363c8ba82ecebc4bc99e9945f2799e2d7909772fbc9c2a433b4c5d7999f0f526",
+          "anchors": [
+            "us",
+            "November 7"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "American blockade action The US military has maintained a sizeable naval force in the region, including a constant presence of two aircraft carriers and a host of other ships.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.685899+08:00",
+          "content_sha256": "bce6d303cc1860fd32c1481dab40363af1282401b84f0909fd1f343572f8aad9",
+          "excerpt": "American blockade action The US military has maintained a sizeable naval force in the region, including a constant presence of two aircraft carriers and a host of other ships.",
+          "sentence_hash": "4720b59d6a270be7825698774ee7081cc2df3e068166ea7dc6cb80a96db770d4",
+          "anchors": [
+            "military",
+            "ship"
+          ]
+        }
+      ],
+      "entities": [
+        "irgc",
+        "november",
+        "hormuz",
+        "palau",
+        "gulf",
+        "ship",
+        "us",
+        "pacific archer",
+        "military",
+        "tehran",
+        "friday",
+        "bandar abbas",
+        "april",
+        "iranian",
+        "since",
+        "july",
+        "iran",
+        "central command",
+        "strait",
+        "islamic revolutionary guard corps",
+        "american",
+        "thursday",
+        "singapore",
+        "florida",
+        "shahram irani",
+        "oman"
+      ],
+      "numbers": [],
+      "dates": [
+        "November 7"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 27
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_ad20287b52dfb0d25c5f20a6",
+      "title": "EXODUS Runs on an RTX 2060 at 1080p 30FPS Minimum, but Its 4K 60FPS Tier Jumps to an RTX 5080 + 9800X3D and 32GB of RAM",
+      "url": "https://wccftech.com/exodus-pc-requirements-rtx-2060-minimum-rtx-5080-4k-60fps/",
+      "publisher": "Wccftech",
+      "summary": "Over four months ahead of the game's launch, EXODUS developer Archetype Entertainment has quietly released the PC system requirements for the upcoming sci-fi action RPG. The game will require around 110GB of storage space on your drive, which is not too much by current standards (on consoles, Grand Theft Auto VI requires nearly twice as much). However, its 4K@60FPS 'Enthusiast' specs are pretty hefty indeed: 9800X3D CPU, 32GB RAM, RTX 5080 GPU. Spec Minimum Recommended Enthusiast 4K OS Windows 1",
+      "category": "科技",
+      "published_at": "2026-11-27T18:00:00+00:00",
+      "why_relevant": "硬核玩家关注EXODUS配置需求",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Over four months ahead of the game's launch, EXODUS developer Archetype Entertainment has quietly released the PC system requirements for the upcoming sci-fi action RPG.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.686504+08:00",
+          "content_sha256": "9fb0e12a77fdef95f258fa8ffa784134a8788f675c03404f25f5995802908cc1",
+          "excerpt": "Over four months ahead of the game's launch, EXODUS developer Archetype Entertainment has quietly released the PC system requirements for the upcoming sci-fi action RPG.",
+          "sentence_hash": "4ea4cb7838386b163d4e9a2a3935fb556f198650c7883b6905d097cc5e0b1bde",
+          "anchors": [
+            "pc"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "However, its 4K@60FPS 'Enthusiast' specs are pretty hefty indeed: 9800X3D CPU, 32GB RAM, RTX 5080 GPU.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.686530+08:00",
+          "content_sha256": "9fb0e12a77fdef95f258fa8ffa784134a8788f675c03404f25f5995802908cc1",
+          "excerpt": "However, its 4K@60FPS 'Enthusiast' specs are pretty hefty indeed: 9800X3D CPU, 32GB RAM, RTX 5080 GPU.",
+          "sentence_hash": "bdea4dd2c360d7300385e26e7495d027b50881e7db7133046981c358c723344a",
+          "anchors": [
+            "pr"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The big question within the community is whether the developers are taking upscaling into consideration with these specs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.686547+08:00",
+          "content_sha256": "9fb0e12a77fdef95f258fa8ffa784134a8788f675c03404f25f5995802908cc1",
+          "excerpt": "The big question within the community is whether the developers are taking upscaling into consideration with these specs.",
+          "sentence_hash": "ea3cc270fa59e01e3504c5d8998c8c64d4b464c328fb3c68fa32e9ef96b808b1",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "If not, then they aren't too bad, and 4K@60FPS might be achieved even with less expensive hardware; otherwise, EXODUS might turn out to be one of the most taxing PC games.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.686567+08:00",
+          "content_sha256": "9fb0e12a77fdef95f258fa8ffa784134a8788f675c03404f25f5995802908cc1",
+          "excerpt": "If not, then they aren't too bad, and 4K@60FPS might be achieved even with less expensive hardware; otherwise, EXODUS might turn out to be one of the most taxing PC games.",
+          "sentence_hash": "57581f08d470f2d3a89120c3dad981449bc4cc871d8e99e9be1a32bc1c7f8882",
+          "anchors": [
+            "with"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "I'll try to find out from the studio; if they respond, I'll update this post.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.686580+08:00",
+          "content_sha256": "9fb0e12a77fdef95f258fa8ffa784134a8788f675c03404f25f5995802908cc1",
+          "excerpt": "I'll try to find out from the studio; if they respond, I'll update this post.",
+          "sentence_hash": "f58c9fce10a2b17300bf33588d26b4038f91c30ab2a49b3fe068c7365c018995",
+          "anchors": [
+            "his"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "My hands-on at Gamescom 2026 wasn't exactly promising in terms of performance.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.686593+08:00",
+          "content_sha256": "9fb0e12a77fdef95f258fa8ffa784134a8788f675c03404f25f5995802908cc1",
+          "excerpt": "My hands-on at Gamescom 2026 wasn't exactly promising in terms of performance.",
+          "sentence_hash": "fbba6137f4342f9331f2ebfa6b1b3026a6b0929315deba06250c795b72e39cdd",
+          "anchors": [
+            "pr"
+          ]
+        }
+      ],
+      "entities": [
+        "chief",
+        "english",
+        "his",
+        "nextgame",
+        "over",
+        "gamescom",
+        "august",
+        "exodus",
+        "editor",
+        "worlds factory",
+        "enthusiast",
+        "arguably",
+        "unreal engine",
+        "with",
+        "alessio palumbo",
+        "rtx",
+        "rpg",
+        "wikipedia",
+        "pc",
+        "still",
+        "archetype entertainment",
+        "italian",
+        "ram",
+        "gamestar",
+        "about",
+        "however",
+        "pr",
+        "cpu",
+        "multiplayer",
+        "wccftech",
+        "granted",
+        "everyeye",
+        "vi",
+        "gpu",
+        "grand theft auto"
+      ],
+      "numbers": [],
+      "dates": [
+        "August 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 36
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_55a10b4290cd13edf8ddfd4e",
+      "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSGVqenZQM2JzRHFPVmVDWElvMUlUTXdHVFVlT2VOYWc3ZU5KM0czVlBfUGhNNWU0ekFjYU13YWdRS243RE10VEVHYW9DRzdmUmF4MndvQ2dnUmVxY1ZJZER0WnpZay12cUJqTE0tRUlGSlluYkgwem1wTG51d1FrdHF5SWtqa2F3MkNOaFN1Z0RrejFJOXdSLTFGZnJWTDk0emw4dlN0bVlRalJ0elIxdzAxUm9Idw?oc=5",
+      "publisher": "Bloomberg",
+      "summary": "Anthropic Shares Jump After Volatile First Week Since IPO&nbsp;&nbsp;Bloomberg.com",
+      "category": "财经",
+      "published_at": "2026-11-27T18:28:35+00:00",
+      "why_relevant": "Anthropic上市首周股价大涨",
+      "relevance_score": 8.0,
+      "confirmed_facts": [],
+      "entities": [
+        "bloomberg",
+        "ipo",
+        "anthropic shares jump after volatile first week since"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "正文未抓到",
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": false,
+        "has_multiple_sources": false,
+        "fact_count": 0,
+        "anchor_count": 3
+      },
+      "evidence_complete": false
+    },
+    {
+      "article_id": "a1_a5b2d35ebc414966c05580d4",
+      "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+      "publisher": "CNBC",
+      "summary": "Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support.",
+      "category": "财经",
+      "published_at": "2026-11-27T10:13:44+00:00",
+      "why_relevant": "中国芯片股创单日最大涨幅",
+      "relevance_score": 8.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Chinese stocks rebounded sharply on Friday after a rare intraday state media readout cheered investors as top policymakers pledged to expand the role of state-backed funds in supporting the market.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.687425+08:00",
+          "content_sha256": "404527c069e00a1e952e6aed4bf494d09ef74e610567bd9412a9f9ddd32a1235",
+          "excerpt": "Chinese stocks rebounded sharply on Friday after a rare intraday state media readout cheered investors as top policymakers pledged to expand the role of state-backed funds in supporting the market.",
+          "sentence_hash": "ac1ec36baf78cbd2ffa8b62a617f8f3cd0538b2ff28628d74352c1ebb1b1727e",
+          "anchors": [
+            "policymakers",
+            "stock",
+            "state",
+            "et"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The STAR index surged 14%, led by Chinese chipmakers such as CXMT, Cambricon and SMIC.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.687441+08:00",
+          "content_sha256": "404527c069e00a1e952e6aed4bf494d09ef74e610567bd9412a9f9ddd32a1235",
+          "excerpt": "The STAR index surged 14%, led by Chinese chipmakers such as CXMT, Cambricon and SMIC.",
+          "sentence_hash": "1b9f3c93ede855099a3df1c94cb091e0427169733c39fa7a6bb9a45c58d8d5ae",
+          "anchors": [
+            "4%",
+            "14%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The CSI Semiconductor index of 40 chip stocks climbed by 17.6% in its biggest single-day gain on record, surpassing the prior record of nearly 17% in late 2024, according to Wind Information.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.687463+08:00",
+          "content_sha256": "404527c069e00a1e952e6aed4bf494d09ef74e610567bd9412a9f9ddd32a1235",
+          "excerpt": "The CSI Semiconductor index of 40 chip stocks climbed by 17.6% in its biggest single-day gain on record, surpassing the prior record of nearly 17% in late 2024, according to Wind Information.",
+          "sentence_hash": "ffb7f13fb938817fe3f69d6a7fea6ea805e83652b755b19513b5035b8aab5f82",
+          "anchors": [
+            "ai",
+            "17%",
+            "stock",
+            "17.6%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "The gains were widespread across mainland and Hong Kong stock indexes.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.687475+08:00",
+          "content_sha256": "404527c069e00a1e952e6aed4bf494d09ef74e610567bd9412a9f9ddd32a1235",
+          "excerpt": "The gains were widespread across mainland and Hong Kong stock indexes.",
+          "sentence_hash": "f804fb4c149decb97a73521ee62541f27ae082dcc5672b881232441a44797d81",
+          "anchors": [
+            "ai",
+            "stock"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The Hang Seng index rose 2%, while the CSI 300 index climbed 4%, its biggest jump since October 2024, according to Wind data.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.687491+08:00",
+          "content_sha256": "404527c069e00a1e952e6aed4bf494d09ef74e610567bd9412a9f9ddd32a1235",
+          "excerpt": "The Hang Seng index rose 2%, while the CSI 300 index climbed 4%, its biggest jump since October 2024, according to Wind data.",
+          "sentence_hash": "03cae91e55f7f703066ee309c84babdad28e8d6d944a211fbcd1681cdc5835d1",
+          "anchors": [
+            "October 20",
+            "4%",
+            "2%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "unveiled a new rule last week to further restrict Chinese companies’ access to advanced AI chips, including through overseas data centers, adding pressure on Beijing to accelerate its push for semiconductor self-sufficiency.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.687540+08:00",
+          "content_sha256": "404527c069e00a1e952e6aed4bf494d09ef74e610567bd9412a9f9ddd32a1235",
+          "excerpt": "unveiled a new rule last week to further restrict Chinese companies’ access to advanced AI chips, including through overseas data centers, adding pressure on Beijing to accelerate its push for semiconductor self-sufficiency.",
+          "sentence_hash": "c74723d81f0ea4757fc7e11c7655daf0cc31a1a41aacc4a5937dccba31bae392",
+          "anchors": [
+            "semiconductor"
+          ]
+        }
+      ],
+      "entities": [
+        "china",
+        "beijing",
+        "et",
+        "the hang seng",
+        "by ke",
+        "chinese premier li qiang",
+        "wind information",
+        "hong kong",
+        "csi",
+        "national team",
+        "shenzhen",
+        "state",
+        "authorities",
+        "xinhua news",
+        "wind",
+        "cxmt",
+        "cambricon",
+        "smic",
+        "policymakers",
+        "stock",
+        "chen",
+        "friday",
+        "october",
+        "semiconductor",
+        "ai",
+        "chinese",
+        "state council",
+        "bob chen",
+        "star",
+        "full",
+        "thursday",
+        "shanghai",
+        "zong ke"
+      ],
+      "numbers": [
+        "2%",
+        "52%",
+        "4%",
+        "14%",
+        "17%",
+        "17.6%"
+      ],
+      "dates": [
+        "October 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 40
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_23af24732820518f95be07bb",
+      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition.",
+      "category": "国际",
+      "published_at": "2026-11-27T20:40:51+00:00",
+      "why_relevant": "OpenAI反诉苹果，AI诉讼战升级",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "OpenAI has sued Apple, accusing the Big Tech giant of stealing its trade secrets and blocking its access to hardware suppliers after Apple sued OpenAI for allegedly poaching its employees to gain access to its technology.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688172+08:00",
+          "content_sha256": "3df0a84f829d014cd3227269595d955552db4cea55114cdd372076ef6b36a3a7",
+          "excerpt": "OpenAI has sued Apple, accusing the Big Tech giant of stealing its trade secrets and blocking its access to hardware suppliers after Apple sued OpenAI for allegedly poaching its employees to gain access to its technology.",
+          "sentence_hash": "f146a1f6bb990fd4e9f4d4385fa29aa25fe7759f5b99efd4e0e6e98daecad98c",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The ChatGPT maker filed counterclaims in California federal court on Friday, saying that Apple’s employment practices were designed to “trap” employees and prevent them from working on competitors’ technology.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688192+08:00",
+          "content_sha256": "3df0a84f829d014cd3227269595d955552db4cea55114cdd372076ef6b36a3a7",
+          "excerpt": "The ChatGPT maker filed counterclaims in California federal court on Friday, saying that Apple’s employment practices were designed to “trap” employees and prevent them from working on competitors’ technology.",
+          "sentence_hash": "5ab2c59ba953856a97c0fee6489b8b4ee0978549d2d410e9acf962d53dda6e7b",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "OpenAI is developing artificial intelligence-enabled personal electronic devices that threaten to “outcompete Apple on what Apple views as its own turf,” the company said in its Friday court filing.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688211+08:00",
+          "content_sha256": "3df0a84f829d014cd3227269595d955552db4cea55114cdd372076ef6b36a3a7",
+          "excerpt": "OpenAI is developing artificial intelligence-enabled personal electronic devices that threaten to “outcompete Apple on what Apple views as its own turf,” the company said in its Friday court filing.",
+          "sentence_hash": "2eed6573302a2c4be7512d0c68ebbe92acc6123dd2d9a42165acf12776dba762",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "OpenAI said in the filing that Apple gained confidential information by re-hiring a former employee who worked at OpenAI for six months.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688226+08:00",
+          "content_sha256": "3df0a84f829d014cd3227269595d955552db4cea55114cdd372076ef6b36a3a7",
+          "excerpt": "OpenAI said in the filing that Apple gained confidential information by re-hiring a former employee who worked at OpenAI for six months.",
+          "sentence_hash": "e44169c36fe77d4099b3edf6ad36f091918706302109446fea587eabcd724716",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "In that time, the employee gained access to specific information on a new device as well as OpenAI’s roadmap for future hardware products.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688241+08:00",
+          "content_sha256": "3df0a84f829d014cd3227269595d955552db4cea55114cdd372076ef6b36a3a7",
+          "excerpt": "In that time, the employee gained access to specific information on a new device as well as OpenAI’s roadmap for future hardware products.",
+          "sentence_hash": "6d3010db49d1e8be932ee9511f63729d4299fe401141101a056fa1b59f02b6bf",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "“Given the timing, it now appears that stealing those documents may have been his reason for joining OpenAI in the first place,” OpenAI said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688257+08:00",
+          "content_sha256": "3df0a84f829d014cd3227269595d955552db4cea55114cdd372076ef6b36a3a7",
+          "excerpt": "“Given the timing, it now appears that stealing those documents may have been his reason for joining OpenAI in the first place,” OpenAI said.",
+          "sentence_hash": "6c1f9562b5a7123239c700fda0d59c1df03215ee60bd7421ff8c8a4f8cd42afb",
+          "anchors": [
+            "ai"
+          ]
+        }
+      ],
+      "entities": [
+        "analysts",
+        "tensions",
+        "big tech",
+        "ai",
+        "chat",
+        "california",
+        "phone",
+        "friday",
+        "in july",
+        "reuters",
+        "open",
+        "in friday",
+        "apple",
+        "given",
+        "the chat"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 15
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_2f4e5a64df605ced71583528",
+      "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+      "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.",
+      "category": "国际",
+      "published_at": "2026-11-27T20:39:57+00:00",
+      "why_relevant": "俄新核潜艇搭载高超音速武器",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688681+08:00",
+          "content_sha256": "a912cee6fb03bc0e91ab6e391a253ea2a8bb198b67d5c2429b5b667b0ee5d482",
+          "excerpt": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons The Kremlin plans to expand its naval fleet with five new nuclear submarines by 2030.",
+          "sentence_hash": "e7d931e9557d902537cf35a93378c0ebedb5ae4b97db653e46eb9206f9226ba0",
+          "anchors": [
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Russia’s President Vladimir Putin has unveiled a new nuclear-powered submarine, which Moscow claims is the first equipped with Russian Zircon hypersonic missiles.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688702+08:00",
+          "content_sha256": "a912cee6fb03bc0e91ab6e391a253ea2a8bb198b67d5c2429b5b667b0ee5d482",
+          "excerpt": "Russia’s President Vladimir Putin has unveiled a new nuclear-powered submarine, which Moscow claims is the first equipped with Russian Zircon hypersonic missiles.",
+          "sentence_hash": "77de11477e83e3262e412701f2b239162bd672ecc51779a2b60bffc4c4ae0c72",
+          "anchors": [
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The Russians say they will add five more nuclear submarines to the country’s fleet by 2030.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688716+08:00",
+          "content_sha256": "a912cee6fb03bc0e91ab6e391a253ea2a8bb198b67d5c2429b5b667b0ee5d482",
+          "excerpt": "The Russians say they will add five more nuclear submarines to the country’s fleet by 2030.",
+          "sentence_hash": "925f902e76afeac78adefe5de5c96d90e73caae5b77030976a380e21db22204e",
+          "anchors": [
+            "they",
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "“Russia is one of the few countries in the world capable of building powerful nuclear submarines of this kind, weapons with global reach and significance,” he said.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688738+08:00",
+          "content_sha256": "a912cee6fb03bc0e91ab6e391a253ea2a8bb198b67d5c2429b5b667b0ee5d482",
+          "excerpt": "“Russia is one of the few countries in the world capable of building powerful nuclear submarines of this kind, weapons with global reach and significance,” he said.",
+          "sentence_hash": "1907eaf48320844ad914dad8d2489efcd64c1af00183817feda433db783249dd",
+          "anchors": [
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Nuclear-powered subs are a key part of Russia’s nuclear deterrent because their ability to operate covertly underwater ensures a retaliatory strike capability in the event of an attack.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.688756+08:00",
+          "content_sha256": "a912cee6fb03bc0e91ab6e391a253ea2a8bb198b67d5c2429b5b667b0ee5d482",
+          "excerpt": "Nuclear-powered subs are a key part of Russia’s nuclear deterrent because their ability to operate covertly underwater ensures a retaliatory strike capability in the event of an attack.",
+          "sentence_hash": "f702f0391a2a694738fc68e7e2570cb728cbe75c52bf12e6134917965a5ef986",
+          "anchors": [
+            "nuclear"
+          ]
+        }
+      ],
+      "entities": [
+        "kremlin",
+        "perm",
+        "moscow",
+        "severodvinsk",
+        "nuclear",
+        "the russians",
+        "yasen",
+        "friday",
+        "russian",
+        "the kremlin",
+        "putin",
+        "sevmash",
+        "russian zircon",
+        "president vladimir putin",
+        "russia",
+        "they"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 5,
+        "anchor_count": 16
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b277c874570d17041681d20c",
+      "title": "Divisions deepen between EU member states after tense budget summit",
+      "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-world-4025-xml-mrss",
+      "publisher": "DW",
+      "summary": "An EU leaders summit on the bloc's seven-year budget fell apart amid divisions over how to fund Ukraine. The budget proposal also includes a 3% tax on US tech companies, in a bid for the EU to generate additional funds.",
+      "category": "国际",
+      "published_at": "2026-11-27T16:51:00+00:00",
+      "why_relevant": "欧盟预算峰会分裂，拟对美科技征税",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Divisions deepen between EU member states after tense budget summit November 27, 2026 EU leaders arrived in Brussels braced for a difficult showdown over the bloc's multitrillion-euro seven-year budget.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.689523+08:00",
+          "content_sha256": "67f33caa3d9f2fb7365f3d903a90292a8f7ce3950656dd57718d21d27ca6fc9f",
+          "excerpt": "Divisions deepen between EU member states after tense budget summit November 27, 2026 EU leaders arrived in Brussels braced for a difficult showdown over the bloc's multitrillion-euro seven-year budget.",
+          "sentence_hash": "e48eee9147480033ebdaa7442918d5817c3011700c605dfe19829cf41cd01cdb",
+          "anchors": [
+            "November 27",
+            "for",
+            "eu"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "There is a self-imposed deadline to find agreement before the end of 2026 on the budget which covers the 2028-2034 period.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.689555+08:00",
+          "content_sha256": "67f33caa3d9f2fb7365f3d903a90292a8f7ce3950656dd57718d21d27ca6fc9f",
+          "excerpt": "There is a self-imposed deadline to find agreement before the end of 2026 on the budget which covers the 2028-2034 period.",
+          "sentence_hash": "99081bf99890d3aad0c3908ed6882fa9572c6c40a65c4634534c1dcbe4e603b0",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "But experts say there is no cause for alarm, yet.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.689567+08:00",
+          "content_sha256": "67f33caa3d9f2fb7365f3d903a90292a8f7ce3950656dd57718d21d27ca6fc9f",
+          "excerpt": "But experts say there is no cause for alarm, yet.",
+          "sentence_hash": "9c2af928c9c3027221442d6bd30b18beb3e3a08fd4b346c4722ec071e649d0af",
+          "anchors": [
+            "for",
+            "there"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "\"Every time there are long-term EU budget negotiations, there are breakdowns, chaos, recrimination and a lot of political theater and drama,\" said Jacob Funk Kirkegaard, an EU economist and expert at the Bruegel think tank in Brussels.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.689592+08:00",
+          "content_sha256": "67f33caa3d9f2fb7365f3d903a90292a8f7ce3950656dd57718d21d27ca6fc9f",
+          "excerpt": "\"Every time there are long-term EU budget negotiations, there are breakdowns, chaos, recrimination and a lot of political theater and drama,\" said Jacob Funk Kirkegaard, an EU economist and expert at the Bruegel think tank in Brussels.",
+          "sentence_hash": "b12f129d0ab90b72d2fc2d685ee966817ec969fa3a2b1a66480bf030e14858b0",
+          "anchors": [
+            "there",
+            "long"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Costa was diplomatic in defending his decision to bring the leaders to Brussels, telling the press: \"For me it was very useful to figure out the parameters of a possible landing zone in December.\" Germany demands more for competitiveness, security, defense Long before the summit ",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.689654+08:00",
+          "content_sha256": "67f33caa3d9f2fb7365f3d903a90292a8f7ce3950656dd57718d21d27ca6fc9f",
+          "excerpt": "Costa was diplomatic in defending his decision to bring the leaders to Brussels, telling the press: \"For me it was very useful to figure out the parameters of a possible landing zone in December.\" Germany demands more for competitiveness, security, defense Long before the summit ",
+          "sentence_hash": "ae7331aa437d494b255bc97738ab25e0b753028703d2771c58dbf2d73282c340",
+          "anchors": [
+            "49 billion",
+            "$49 billion",
+            "for",
+            "45 billion"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Hungary, Czechia, Bulgaria and Slovakia have dug their heels in against the proposal, insisting that giving Ukraine money to buy weapons will prolong the war.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.689674+08:00",
+          "content_sha256": "67f33caa3d9f2fb7365f3d903a90292a8f7ce3950656dd57718d21d27ca6fc9f",
+          "excerpt": "Hungary, Czechia, Bulgaria and Slovakia have dug their heels in against the proposal, insisting that giving Ukraine money to buy weapons will prolong the war.",
+          "sentence_hash": "5ecb595714dda03daf73ce5cfebaaac4496eca0afa78ee3814cc3d2d825c8286",
+          "anchors": [
+            "long"
+          ]
+        }
+      ],
+      "entities": [
+        "as europe",
+        "sweden",
+        "november",
+        "bruegel",
+        "belgium",
+        "every",
+        "merz",
+        "denmark",
+        "czechia",
+        "slovakia",
+        "hungarian prime minister peter magyar",
+        "german chancellor friedrich merz",
+        "austria",
+        "squabbles",
+        "but",
+        "bulgaria",
+        "europe",
+        "brussels",
+        "long",
+        "hungary",
+        "there",
+        "ukraine",
+        "divisions",
+        "the european commission",
+        "december",
+        "jacob funk kirkegaard",
+        "slovak prime minister robert fico",
+        "berlin",
+        "eu",
+        "thursday",
+        "for",
+        "costa",
+        "european council president antonio costa",
+        "germany"
+      ],
+      "numbers": [
+        "10.2%",
+        "204 billion",
+        "25%",
+        "1.786 trillion",
+        "45 billion",
+        "$49 billion",
+        "49 billion"
+      ],
+      "dates": [
+        "November 27"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": true,
+        "fact_count": 6,
+        "anchor_count": 42
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_149ce2c1de2b0ac4cf93c94e",
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "publisher": "BBC World",
+      "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
+      "category": "国际",
+      "published_at": "2026-11-27T18:00:40+00:00",
+      "why_relevant": "泽连斯基批评特朗普普京关系",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview - Published Volodymyr Zelensky has voiced deep frustration with the US, criticising Donald Trump for calling Vladimir Putin \"my friend\" and saying delays in delivering vital anti-ballistic missiles were costing",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.690372+08:00",
+          "content_sha256": "e680d0c7825b956b5b1b3153144e869a4afa5ee91643f7ed37979815d753cd6e",
+          "excerpt": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview - Published Volodymyr Zelensky has voiced deep frustration with the US, criticising Donald Trump for calling Vladimir Putin \"my friend\" and saying delays in delivering vital anti-ballistic missiles were costing",
+          "sentence_hash": "aaa30ed892a4f3709810d7467d346113ed15b4036e8e72c28ca80e0857a40ab5",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "In an interview with the BBC at his central Kyiv office, Ukraine's president complained the US was not pushing Russia hard enough in peace talks, and called it \"strange\" that Trump posted a photo of himself embracing Putin.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.690398+08:00",
+          "content_sha256": "e680d0c7825b956b5b1b3153144e869a4afa5ee91643f7ed37979815d753cd6e",
+          "excerpt": "In an interview with the BBC at his central Kyiv office, Ukraine's president complained the US was not pushing Russia hard enough in peace talks, and called it \"strange\" that Trump posted a photo of himself embracing Putin.",
+          "sentence_hash": "7994139f2ccaa6bbd2192b4b11a96710051a64f4a0310d7ac6475ec041798505",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "\"Of course it's up to the president of the United States, but...",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.690412+08:00",
+          "content_sha256": "e680d0c7825b956b5b1b3153144e869a4afa5ee91643f7ed37979815d753cd6e",
+          "excerpt": "\"Of course it's up to the president of the United States, but...",
+          "sentence_hash": "2f6991730eaec70e2ef05c8478f08a4b0287572c1a015a7905d174034e1f81b4",
+          "anchors": [
+            "but"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Just cannot be,\" he said, adding it was like saying you were friends with Adolf Hitler during World War Two.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.690435+08:00",
+          "content_sha256": "e680d0c7825b956b5b1b3153144e869a4afa5ee91643f7ed37979815d753cd6e",
+          "excerpt": "Just cannot be,\" he said, adding it was like saying you were friends with Adolf Hitler during World War Two.",
+          "sentence_hash": "9e534fc1617313c4fac207aa7dca5fb545d487e063dcd2810d11e5f6b3a35f18",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Trump's two envoys, Jared Kushner and Steve Witkoff, have been trying to negotiate a peace deal between Russia and Ukraine - to end the huge loss of life.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.690460+08:00",
+          "content_sha256": "e680d0c7825b956b5b1b3153144e869a4afa5ee91643f7ed37979815d753cd6e",
+          "excerpt": "Trump's two envoys, Jared Kushner and Steve Witkoff, have been trying to negotiate a peace deal between Russia and Ukraine - to end the huge loss of life.",
+          "sentence_hash": "a04b429271f65c08f2f39b8e55c2270d514996d15fe1c64c414d60752ee9afe8",
+          "anchors": [
+            "us"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Kushner, Trump's son-in-law, said on Wednesday that Putin had shown \"restraint\" by not using nuclear weapons in Ukraine.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.690479+08:00",
+          "content_sha256": "e680d0c7825b956b5b1b3153144e869a4afa5ee91643f7ed37979815d753cd6e",
+          "excerpt": "Kushner, Trump's son-in-law, said on Wednesday that Putin had shown \"restraint\" by not using nuclear weapons in Ukraine.",
+          "sentence_hash": "11160c100210e968cedda84ce69fc6db9c8406c2b578f6a7dfb32be1e13501c6",
+          "anchors": [
+            "us"
+          ]
+        }
+      ],
+      "entities": [
+        "jared kushner",
+        "united states",
+        "truth social",
+        "english",
+        "china",
+        "bbc",
+        "world war two",
+        "oval office",
+        "european",
+        "ukrainian",
+        "published\nvolodymyr zelensky",
+        "steve witkoff",
+        "the kremlin",
+        "putin",
+        "kushner",
+        "russia",
+        "just",
+        "trump",
+        "but",
+        "wednesday",
+        "europe",
+        "moscow",
+        "donald trump",
+        "us",
+        "and zelensky",
+        "abu dhabi",
+        "ukraine",
+        "since",
+        "russian",
+        "so zelensky",
+        "adolf hitler",
+        "december",
+        "on thursday",
+        "zelensky",
+        "published",
+        "vladimir putin",
+        "kyiv"
+      ],
+      "numbers": [],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_b146639f9a1ad3124b56401a",
+      "title": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+      "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
+      "publisher": "Al Jazeera",
+      "summary": "Voters will decide on Saturday whether to scrap the country&#039;s &#039;nuclear-free homeland&#039; policy.",
+      "category": "国际",
+      "published_at": "2026-11-27T23:09:04+00:00",
+      "why_relevant": "台湾核能公投牵动AI供电",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.691198+08:00",
+          "content_sha256": "c7e2e474666dea5d0d52859648b219742f0a0e55a855c9293e30100bc3c5398a",
+          "excerpt": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+          "sentence_hash": "a85ed39e6cae794d5318e1a505d55be53de58e13634b1d2fc0564710f7e9e358",
+          "anchors": [
+            "ai",
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Voters will decide whether to scrap the country’s ‘nuclear-free homeland’ policy on Saturday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.691216+08:00",
+          "content_sha256": "c7e2e474666dea5d0d52859648b219742f0a0e55a855c9293e30100bc3c5398a",
+          "excerpt": "Voters will decide whether to scrap the country’s ‘nuclear-free homeland’ policy on Saturday.",
+          "sentence_hash": "0edd477852beb47887d8f6fa28ed5ccdd3374456eec9ddc7822047199b0e8f1b",
+          "anchors": [
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Voters in Taiwan are set to decide whether to bring back nuclear power – 18 months after its last operational reactor was shut down.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.691237+08:00",
+          "content_sha256": "c7e2e474666dea5d0d52859648b219742f0a0e55a855c9293e30100bc3c5398a",
+          "excerpt": "Voters in Taiwan are set to decide whether to bring back nuclear power – 18 months after its last operational reactor was shut down.",
+          "sentence_hash": "48e6d50d9280b60a8a96e07bff500ae58855085cb2abf782f25882e1fec711af",
+          "anchors": [
+            "ai",
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "It is the island’s fourth vote on nuclear power in just eight years.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.691255+08:00",
+          "content_sha256": "c7e2e474666dea5d0d52859648b219742f0a0e55a855c9293e30100bc3c5398a",
+          "excerpt": "It is the island’s fourth vote on nuclear power in just eight years.",
+          "sentence_hash": "09744ebb37f4712acb348474efc6c8106fa204f6b896390cfa112f74d64e9fac",
+          "anchors": [
+            "nuclear"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "It comes as demand for electricity to fuel the country’s burgeoning computer chip industry soars and concern grows about how Taiwan would keep its lights on if China, which claims the island as its own territory, cut it off amid escalating tensions.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.691283+08:00",
+          "content_sha256": "c7e2e474666dea5d0d52859648b219742f0a0e55a855c9293e30100bc3c5398a",
+          "excerpt": "It comes as demand for electricity to fuel the country’s burgeoning computer chip industry soars and concern grows about how Taiwan would keep its lights on if China, which claims the island as its own territory, cut it off amid escalating tensions.",
+          "sentence_hash": "8a0552f3c707accab7a3c683ad082caa779c9e46fd0c51697a289d9fc86a8bf7",
+          "anchors": [
+            "ai"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Voters are being asked whether the government should return to using nuclear power to boost the economy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.691304+08:00",
+          "content_sha256": "c7e2e474666dea5d0d52859648b219742f0a0e55a855c9293e30100bc3c5398a",
+          "excerpt": "Voters are being asked whether the government should return to using nuclear power to boost the economy.",
+          "sentence_hash": "04f88a40994ef446ef312ab0e6ce504c2a90926a014e1a7e089a133a0b67e6c7",
+          "anchors": [
+            "nuclear"
+          ]
+        }
+      ],
+      "entities": [
+        "saturday",
+        "china",
+        "nuclear",
+        "august",
+        "nachman",
+        "kmt",
+        "pingt",
+        "chen pei",
+        "dpp",
+        "will taiwan",
+        "taiwan",
+        "graduate institute",
+        "central election commission",
+        "national taiwan university",
+        "in may",
+        "taiwan people",
+        "polarisation",
+        "there",
+        "safety",
+        "taiwanese",
+        "active",
+        "kuomintang",
+        "party",
+        "here",
+        "japan",
+        "ai",
+        "al jazeera",
+        "lev nachman",
+        "national development",
+        "maanshan",
+        "fukushima",
+        "tpp",
+        "voters",
+        "democratic progressive party"
+      ],
+      "numbers": [],
+      "dates": [
+        "August 28"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 35
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_a048167f33e82fc978f5ba39",
+      "title": "Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card",
+      "url": "https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+      "publisher": "Tom's Hardware",
+      "summary": "Looking for a midrange RTX 50-series upgrade this Black Friday? The Gigabyte Gaming RTX 5070 gets you a big cooler and RGB flair for the lowest price we've seen this week.",
+      "category": "科技",
+      "published_at": "2026-11-27T19:38:08+00:00",
+      "why_relevant": "RTX5070黑五低价$839",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card — midrange Blackwell continues to shine with DLSS 4.5 and DLSS 5 This is the best deal we've seen on an RTX 5070 this Black Friday.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692115+08:00",
+          "content_sha256": "e93e90a321a25061202c42823a1e3a9ca1c79deca94e8e9430988442eead4b3c",
+          "excerpt": "Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card — midrange Blackwell continues to shine with DLSS 4.5 and DLSS 5 This is the best deal we've seen on an RTX 5070 this Black Friday.",
+          "sentence_hash": "c91e0c5e63fb493ca67b205e2a365998e9edfe2cee3a240d2f0332e0019cc7b9",
+          "anchors": [
+            "$839 ",
+            "best",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Prices for Nvidia's RTX 50-series graphics cards have steadily risen in 2026, and that trend has made life especially hard for midrange gamers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692138+08:00",
+          "content_sha256": "e93e90a321a25061202c42823a1e3a9ca1c79deca94e8e9430988442eead4b3c",
+          "excerpt": "Prices for Nvidia's RTX 50-series graphics cards have steadily risen in 2026, and that trend has made life especially hard for midrange gamers.",
+          "sentence_hash": "b599c886ade5808b4d034326e6880f8c6e957bf1c43428f6d4a9803557a5aeca",
+          "anchors": [
+            "for",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "But if you're still looking for a 1440p Blackwell upgrade this Black Friday, you're in luck.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692153+08:00",
+          "content_sha256": "e93e90a321a25061202c42823a1e3a9ca1c79deca94e8e9430988442eead4b3c",
+          "excerpt": "But if you're still looking for a 1440p Blackwell upgrade this Black Friday, you're in luck.",
+          "sentence_hash": "85deab4b270167ab0b2d2b97343eb28c9042a8ed126d78542623a901e631f828",
+          "anchors": [
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Newegg has Gigabyte's Gaming RTX 5070 OC 12G graphics card on sale for just $839.99 after you redeem an on-page code.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692168+08:00",
+          "content_sha256": "e93e90a321a25061202c42823a1e3a9ca1c79deca94e8e9430988442eead4b3c",
+          "excerpt": "Newegg has Gigabyte's Gaming RTX 5070 OC 12G graphics card on sale for just $839.99 after you redeem an on-page code.",
+          "sentence_hash": "7439f3c298565e7d9259f3356cf39a63d3465f5216b05a87428f0edad12e1d76",
+          "anchors": [
+            "$839.99 ",
+            "for"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "The RTX 5070 continues to impress thanks to strong baseline performance in raster and RT games, and its support for DLSS 4.5 upscaling and Multi Frame Generation lets you boost frame rates to taste in almost any game.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692195+08:00",
+          "content_sha256": "e93e90a321a25061202c42823a1e3a9ca1c79deca94e8e9430988442eead4b3c",
+          "excerpt": "The RTX 5070 continues to impress thanks to strong baseline performance in raster and RT games, and its support for DLSS 4.5 upscaling and Multi Frame Generation lets you boost frame rates to taste in almost any game.",
+          "sentence_hash": "d34d75e802ca8de43e7f3a99dde9067a98cf1997c4da4e5843663fe66fd9b784",
+          "anchors": [
+            "ram",
+            "for",
+            "rt",
+            "and"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "And if that's not enough, you can increase the realism of a small but growing number of games with DLSS 5 neural rendering.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692212+08:00",
+          "content_sha256": "e93e90a321a25061202c42823a1e3a9ca1c79deca94e8e9430988442eead4b3c",
+          "excerpt": "And if that's not enough, you can increase the realism of a small but growing number of games with DLSS 5 neural rendering.",
+          "sentence_hash": "e0c71c1cc74967552b8f1a36a0a861ff568a4f1f90322010a90289e88ef21905",
+          "anchors": [
+            "but"
+          ]
+        }
+      ],
+      "entities": [
+        "gaming",
+        "get",
+        "download",
+        "prices",
+        "oc",
+        "rt",
+        "newegg",
+        "head",
+        "rgb",
+        "benchmarks",
+        "best",
+        "hierarchy",
+        "hardware",
+        "tom",
+        "and",
+        "android",
+        "fps",
+        "view original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\nview original\ngigabyte",
+        "grab",
+        "gaming monitor",
+        "rtx",
+        "black friday",
+        "fi router",
+        "but",
+        "nvidia",
+        "pc",
+        "dlss",
+        "ram",
+        "ssd",
+        "however",
+        "blackwell",
+        "led",
+        "storage deals",
+        "hard drive",
+        "cpu",
+        "for",
+        "gigabyte",
+        "multi frame generation",
+        "gpu"
+      ],
+      "numbers": [
+        "$839.99 ",
+        "$839 "
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 41
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_31b5970bea3a2a43286beaf3",
+      "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+      "url": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+      "publisher": "CNBC",
+      "summary": "The November sell-off has so far pushed the S&P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.",
+      "category": "财经",
+      "published_at": "2026-11-27T13:21:56+00:00",
+      "why_relevant": "标普进入回调，未必转为熊市",
+      "relevance_score": 7.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "20 for the first time since April 2025 as stocks pulled back sharply from October's record highs.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.692975+08:00",
+          "content_sha256": "a257498e3f6435bc85433f2b606cbc148a7fcc0d3cf8ecb34dcfe7ecc158c189",
+          "excerpt": "20 for the first time since April 2025 as stocks pulled back sharply from October's record highs.",
+          "sentence_hash": "1ff37f5242a944304695c59c863ba195b8cc48caa7e102dadf462928c37355b4",
+          "anchors": [
+            "April 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "The market correction, defined as a 10% decline from a recent high, came as investor concern mounted over a potential slowdown in AI spending, mega-cap tech valuations and the path of Federal Reserve interest rate policy.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693002+08:00",
+          "content_sha256": "a257498e3f6435bc85433f2b606cbc148a7fcc0d3cf8ecb34dcfe7ecc158c189",
+          "excerpt": "The market correction, defined as a 10% decline from a recent high, came as investor concern mounted over a potential slowdown in AI spending, mega-cap tech valuations and the path of Federal Reserve interest rate policy.",
+          "sentence_hash": "675743542ea07f2b6b760c493ef123772238e07872792546aed2fd0b940daa39",
+          "anchors": [
+            "dec",
+            "10%"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "The S&P 500 fell 3.7% on Nov.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693013+08:00",
+          "content_sha256": "a257498e3f6435bc85433f2b606cbc148a7fcc0d3cf8ecb34dcfe7ecc158c189",
+          "excerpt": "The S&P 500 fell 3.7% on Nov.",
+          "sentence_hash": "101342a9e55e3d63f8d673d8d757886df5a3fd56751b704998f258ff9c143527",
+          "anchors": [
+            "3.7%"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "20 alone, closing at 6,910.39, its seventh consecutive daily decline.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693024+08:00",
+          "content_sha256": "a257498e3f6435bc85433f2b606cbc148a7fcc0d3cf8ecb34dcfe7ecc158c189",
+          "excerpt": "20 alone, closing at 6,910.39, its seventh consecutive daily decline.",
+          "sentence_hash": "45f1a1330e6fe660fadce98f74c3c2718aed9426c3019985e82c2fe417373e59",
+          "anchors": [
+            "ai",
+            "dec"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "That left the index 11.6% below the Oct.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693035+08:00",
+          "content_sha256": "a257498e3f6435bc85433f2b606cbc148a7fcc0d3cf8ecb34dcfe7ecc158c189",
+          "excerpt": "That left the index 11.6% below the Oct.",
+          "sentence_hash": "1507c2fd005d6989451caccf19d499227c838d9b3adf3092ca57b7e5a4100779",
+          "anchors": [
+            "index",
+            "11.6%"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "A correction can deepen into a bear market, defined as a drop of 20% or more from the most recent top.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693052+08:00",
+          "content_sha256": "a257498e3f6435bc85433f2b606cbc148a7fcc0d3cf8ecb34dcfe7ecc158c189",
+          "excerpt": "A correction can deepen into a bear market, defined as a drop of 20% or more from the most recent top.",
+          "sentence_hash": "4af264748c041d23e55cb6bc93b09d4766b10926490c0728650c41f455826e0f",
+          "anchors": [
+            "20%"
+          ]
+        }
+      ],
+      "entities": [
+        "but",
+        "purchasing managers",
+        "pmi",
+        "federal reserve",
+        "oct",
+        "nber",
+        "november",
+        "much",
+        "nor",
+        "today",
+        "henry allen",
+        "economic research",
+        "liberation day",
+        "london",
+        "what wall street",
+        "kennedy slide",
+        "cnbc",
+        "april",
+        "national bureau",
+        "october",
+        "none",
+        "ai",
+        "economic",
+        "allen",
+        "index",
+        "another",
+        "covid",
+        "deutsche bank",
+        "dec",
+        "tuesday",
+        "nov"
+      ],
+      "numbers": [
+        "33.9%",
+        "3.7%",
+        "10%",
+        "20%",
+        "11.6%"
+      ],
+      "dates": [
+        "April 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 37
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_7603df21da40c86c8eb109bd",
+      "title": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "publisher": "GitHub Trending",
+      "summary": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。https://zhouxiaoka.github.io/autoclip_intro/ \n  \n AutoClip \n Turn any video, link, or live stream into ready-to-post clips. \n The open-source OpusClip alternative — local-first AI clipping for podcasts, interviews, and gaming streams with smart reframing, captions, covers, titles, and built-in M",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "开源MCP视频剪辑，本地优先实用",
+      "relevance_score": 6.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "The open-source OpusClip alternative — local-first AI clipping for podcasts, interviews, and gaming streams with smart reframing, captions, covers, titles, and built-in MCP for AI agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693855+08:00",
+          "content_sha256": "01e0ebe8707750edac9948663e8760134dad33fe1001e32fb18c78cc43546461",
+          "excerpt": "The open-source OpusClip alternative — local-first AI clipping for podcasts, interviews, and gaming streams with smart reframing, captions, covers, titles, and built-in MCP for AI agents.",
+          "sentence_hash": "5e1d10c31f0947e2b1853f9d7446d07010d834e2309ab28efcf2454947332bfe",
+          "anchors": [
+            "smart",
+            "cli",
+            "clip",
+            "first",
+            "source",
+            "local"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "Website · Download · Live Replays (v1.6) · Showcase · Quick Start · Docs · Issues English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Français · Bahasa Indonesia · Türkçe · Tiếng Việt · Deutsch ⭐ Free, MIT-licensed, zero subscriptions — everything cuts and renders",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693916+08:00",
+          "content_sha256": "01e0ebe8707750edac9948663e8760134dad33fe1001e32fb18c78cc43546461",
+          "excerpt": "Website · Download · Live Replays (v1.6) · Showcase · Quick Start · Docs · Issues English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Français · Bahasa Indonesia · Türkçe · Tiếng Việt · Deutsch ⭐ Free, MIT-licensed, zero subscriptions — everything cuts and renders",
+          "sentence_hash": "338772a899e8f38a01114023cf5a303ef0aa1099c22e39146c978e5b1d65ec70",
+          "anchors": [
+            "日本語",
+            "简体中文",
+            "ai",
+            "you",
+            "zero",
+            "play",
+            "繁體中文"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Star the repo if you find it useful!",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693934+08:00",
+          "content_sha256": "01e0ebe8707750edac9948663e8760134dad33fe1001e32fb18c78cc43546461",
+          "excerpt": "Star the repo if you find it useful!",
+          "sentence_hash": "fa000b4b06a8ac017909584778150e92fa39893334898c40d68a8e2ff9355821",
+          "anchors": [
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Drop in a link, local video, or live stream replay — AutoClip finds the best moments, tracks the speaker, burns in captions, generates covers, and exports ready-to-post clips for TikTok, Shorts, Reels, YouTube, Douyin, Xiaohongshu, and Bilibili.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.693977+08:00",
+          "content_sha256": "01e0ebe8707750edac9948663e8760134dad33fe1001e32fb18c78cc43546461",
+          "excerpt": "Drop in a link, local video, or live stream replay — AutoClip finds the best moments, tracks the speaker, burns in captions, generates covers, and exports ready-to-post clips for TikTok, Shorts, Reels, YouTube, Douyin, Xiaohongshu, and Bilibili.",
+          "sentence_hash": "03985b76d35465a8c690a23555f0c722e7a0fbdf086ab0a4457ef97ee16ed78c",
+          "anchors": [
+            "cli",
+            "clip",
+            "local",
+            "generate",
+            "play"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Local-first by design: cutting and rendering run directly on your computer with no upload queues and no monthly fee.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694001+08:00",
+          "content_sha256": "01e0ebe8707750edac9948663e8760134dad33fe1001e32fb18c78cc43546461",
+          "excerpt": "Local-first by design: cutting and rendering run directly on your computer with no upload queues and no monthly fee.",
+          "sentence_hash": "adcad405e0c8ede1094f972fd15157cda0e86e3c23d028391b03c97cbec191a8",
+          "anchors": [
+            "first",
+            "run",
+            "you"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "Bring your own API key or run 100% offline with Ollama / LM Studio + Whisper / SenseVoice.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694021+08:00",
+          "content_sha256": "01e0ebe8707750edac9948663e8760134dad33fe1001e32fb18c78cc43546461",
+          "excerpt": "Bring your own API key or run 100% offline with Ollama / LM Studio + Whisper / SenseVoice.",
+          "sentence_hash": "71837615d6adfcedff6071754781de55093ecbe748dcab6ef8b8039752263302",
+          "anchors": [
+            "offline",
+            "run",
+            "100%",
+            "you"
+          ]
+        }
+      ],
+      "entities": [
+        "home",
+        "portugu",
+        "studio",
+        "clip",
+        "twitch",
+        "open anyway",
+        "verification policy",
+        "api",
+        "click",
+        "bahasa indonesia",
+        "apple silicon",
+        "tik",
+        "sha",
+        "mcpb",
+        "finished",
+        "douyin",
+        "voice",
+        "mcp",
+        "run",
+        "sense",
+        "deutsch",
+        "see code signing",
+        "bring",
+        "app",
+        "hub releases",
+        "git",
+        "quick start",
+        "inside",
+        "shorts",
+        "play",
+        "paste",
+        "clip desktop",
+        "pick",
+        "cli",
+        "ai",
+        "try",
+        "star",
+        "browse",
+        "privacy",
+        "docs",
+        "applications",
+        "let",
+        "issues\nenglish",
+        "zip",
+        "auto",
+        "web",
+        "reels",
+        "opus",
+        "english",
+        "download",
+        "portable python",
+        "install",
+        "showcase",
+        "source",
+        "language",
+        "open settings",
+        "windows",
+        "local",
+        "zero",
+        "generate",
+        "see",
+        "bilibili",
+        "tube",
+        "desktop build",
+        "日本語",
+        "smart",
+        "website",
+        "system settings",
+        "drop",
+        "whisper",
+        "more",
+        "live replays",
+        "繁體中文",
+        "lm",
+        "espa",
+        "ollama",
+        "mit",
+        "live replay",
+        "first",
+        "tok",
+        "fmpeg",
+        "you",
+        "free",
+        "security",
+        "obs",
+        "offline",
+        "简体中文",
+        "socket",
+        "installers",
+        "full",
+        "hub actions",
+        "fran",
+        "screen",
+        "xiaohongshu"
+      ],
+      "numbers": [
+        "100%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 95
+      },
+      "evidence_complete": true
+    },
+    {
+      "article_id": "a1_52dbfe3417b9ad6edbccf3d3",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "publisher": "arXiv cs.AI",
+      "summary": "arXiv:2611.33161v1 Announce Type: new \nAbstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausible but physically infeasible, or rated highly by a judge while quietly breaking a task requirement. We propose a scoring framework that combines a small set of hard checks every answer must pass with ",
+      "category": "科技",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "why_relevant": "LLM候选答案打分新方法",
+      "relevance_score": 5.0,
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Computer Science > Artificial Intelligence [Submitted on 31 Aug 2026] Title:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection View PDF HTML (experimental) Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on t",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694674+08:00",
+          "content_sha256": "0aa7ce0a5f96484a9159cfed6abfcd1c592268ecdc36b35983922bc23c5da0f4",
+          "excerpt": "Computer Science > Artificial Intelligence [Submitted on 31 Aug 2026] Title:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection View PDF HTML (experimental) Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on t",
+          "sentence_hash": "bc69302d5006b054ee64fe9005ec36838f772c6c5aa588b208ca22f35c79af23",
+          "anchors": [
+            "Aug 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "This adaptive scoring framework consists of three components: a drafting model that produces the candidates, a configuring model that selects and weights the checks for each task, and scoring models that rate properties no grounded tool can compute.",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694721+08:00",
+          "content_sha256": "0aa7ce0a5f96484a9159cfed6abfcd1c592268ecdc36b35983922bc23c5da0f4",
+          "excerpt": "This adaptive scoring framework consists of three components: a drafting model that produces the candidates, a configuring model that selects and weights the checks for each task, and scoring models that rate properties no grounded tool can compute.",
+          "sentence_hash": "180eea60dd0e197957b82bc206b2402f49900bd8f4fb951d6a65e68000eb9d2c",
+          "anchors": [
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "We apply our proposed method to four tasks: writing code that is both correct and secure (CWEval), generating robot manipulation plans (LIBERO with added safety variants), passing competitive-programming hidden tests (LiveCodeBench), and answering questions from retrieved documen",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694749+08:00",
+          "content_sha256": "0aa7ce0a5f96484a9159cfed6abfcd1c592268ecdc36b35983922bc23c5da0f4",
+          "excerpt": "We apply our proposed method to four tasks: writing code that is both correct and secure (CWEval), generating robot manipulation plans (LIBERO with added safety variants), passing competitive-programming hidden tests (LiveCodeBench), and answering questions from retrieved documen",
+          "sentence_hash": "3b9efa6dd9adf1a253246fc4276cf07443fa26d9d593738fa58fedf057773ba8",
+          "anchors": [
+            "code"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "An ablation study isolates the contribution of each component and finds that the largest gains come from combining hard checks with candidate comparison: on tasks where the first sampled answer is often broken or unsafe, this pairing lifts joint correctness-and-safety by up to +0",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694784+08:00",
+          "content_sha256": "0aa7ce0a5f96484a9159cfed6abfcd1c592268ecdc36b35983922bc23c5da0f4",
+          "excerpt": "An ablation study isolates the contribution of each component and finds that the largest gains come from combining hard checks with candidate comparison: on tasks where the first sampled answer is often broken or unsafe, this pairing lifts joint correctness-and-safety by up to +0",
+          "sentence_hash": "22e0a47bf05b7ca85db6c24395a043119127f95c52b9a0b23f8111f9a98002d9",
+          "anchors": [
+            "aug",
+            "code",
+            "eval",
+            "each"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
+          "source_id": "source:primary",
+          "captured_at": "2026-11-28T07:32:27.694838+08:00",
+          "content_sha256": "0aa7ce0a5f96484a9159cfed6abfcd1c592268ecdc36b35983922bc23c5da0f4",
+          "excerpt": "Bibliographic and Citation Tools Bibliographic Explorer (What is the Explorer?) Connected Papers (What is Connected Papers?) Litmaps (What is Litmaps?) scite Smart Citations (What are Smart Citations?) Code, Data and Media Associated with this Article alphaXiv (What is alphaXiv?)",
+          "sentence_hash": "880fbee3ce822fd1dcd8ee353dedc49863baf6974296c7bcf04cc753faaa573d",
+          "anchors": [
+            "pub",
+            "sci"
+          ]
+        }
+      ],
+      "entities": [
+        "hotpot",
+        "computer science",
+        "sci",
+        "data",
+        "citations\n    \n    loading",
+        "hub",
+        "gotit",
+        "vlm",
+        "connected papers",
+        "time scoring",
+        "aug",
+        "constraint",
+        "submitted",
+        "aware test",
+        "code",
+        "additional features\nreferences",
+        "explorer",
+        "citation tools\n            bibliographic explorer",
+        "science",
+        "smart citations",
+        "bench",
+        "artificial intelligence",
+        "catalyze",
+        "xiv",
+        "cast",
+        "llm",
+        "papers",
+        "html",
+        "huggingface",
+        "live",
+        "candidate selection\nview",
+        "litmaps",
+        "bibliographic",
+        "eval",
+        "media associated",
+        "pub",
+        "each",
+        "pdf",
+        "dags",
+        "title",
+        "abstract",
+        "hugging face",
+        "code finder",
+        "article",
+        "libero",
+        "qa"
+      ],
+      "numbers": [],
+      "dates": [
+        "Aug 20"
+      ],
+      "unknowns": [],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 5,
+        "anchor_count": 47
+      },
+      "evidence_complete": true
+    }
+  ]
+}
